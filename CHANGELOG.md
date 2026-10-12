@@ -10,6 +10,10 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 - When an address can't be found, the message now says VoteStack is only available in Chicago and Cook County for its initial release, and points to the sample ballots.
 - The browser tab icon uses VoteStack's green instead of blue.
 
+### Security
+
+- Updated the developer tool wrangler (4.149.0), which brings in the patched image library sharp 0.35.5 (CVE-2026-96889). It's only used on developers' machines; the website was never affected.
+
 ## [1.0.0] - 2026-10-11
 
 The first public release, for the November 3, 2026 general election in Chicago and suburban Cook County, Illinois.
