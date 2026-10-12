@@ -1,0 +1,193 @@
+{
+  "key": "thaddeus-jones",
+  "electionId": "il-2026-11-03-general",
+  "name": "Thaddeus Jones",
+  "party": "Democratic",
+  "office": "State Representative, 29th District",
+  "contestIds": [
+    "chicago-boe:state-representative-29th-district",
+    "cook-clerk:182900"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Thaddeus Jones has represented the 29th District since 2011 and also serves as mayor of Calumet City. In 2019, he opposed a proposed $1 cigarette tax hike, calling it unreasonable. In 2021, he cited a state law to defend his mayorship against a local referendum that barred legislators from holding local office.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Thaddeus Jones has represented the 29th District since 2011 and also serves as mayor of Calumet City.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2019, he opposed a proposed $1 cigarette tax hike, calling it unreasonable.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2021, he cited a state law to defend his mayorship against a local referendum that barred legislators from holding local office.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "He sponsored a 2025 bill allowing state highway cameras to investigate human trafficking; it passed with bipartisan support. His campaign says he worked to increase education funding and provide senior property tax relief. He says he supported the Reproductive Healthcare Act.",
+        "cites": [4, 5, 6],
+        "sentences": [
+          {
+            "text": "He sponsored a 2025 bill allowing state highway cameras to investigate human trafficking; it passed with bipartisan support.",
+            "cites": [4]
+          },
+          {
+            "text": "His campaign says he worked to increase education funding and provide senior property tax relief.",
+            "cites": [5]
+          },
+          {
+            "text": "He says he supported the Reproductive Healthcare Act.",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Jones for State Representative",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=23713",
+        "period": "April 1 to June 30, 2026",
+        "raised": 29601.25,
+        "cashOnHand": 39476.82,
+        "breakdown": [
+          { "kind": "large", "amount": 19700 },
+          { "kind": "transfer", "amount": 2500 },
+          { "kind": "candidate", "amount": 7401.25 }
+        ],
+        "fromCandidate": 7401.25,
+        "largeSince": { "since": "2026-06-30", "total": 74000, "count": 24 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "Personal PAC", "kind": "organization", "cites": [7] },
+      {
+        "organization": "International Union of Operating Engineers Local 399",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [10] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [11]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Thaddeus Jones (politician) - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Thaddeus_Jones_(politician)",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "House Democrat calls proposed $1 cigarette tax hike 'unreasonable'",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/house-democrat-calls-proposed-1-cigarette-tax-hike-unreasonable/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "State lawmaker faces renewed challenges over Calumet City mayoral election",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/state-lawmaker-faces-renewed-challenges-over-calumet-city-mayoral-election/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Under bill, state highway cameras could be used to investigate human trafficking",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/under-bill-state-highway-cameras-could-be-used-to-investigate-human-trafficking/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "About Thaddeus",
+      "publisher": "State Representative Thaddeus Jones",
+      "url": "https://www.repthaddeusjones.com/about-thaddeus/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "ILLINOIS STATE REPRESENTATIVE THADDEUS JONES RUNS FOR RE-ELECTION",
+      "publisher": "Citizen Newspaper Group",
+      "url": "https://citizennewspapergroup.com/news/2024/feb/28/illinois-state-representative-thaddeus-jones-runs-/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "2026 LOCAL 399 ILLINOIS PRIMARY ELECTION ENDORSEMENTS",
+      "publisher": "International Union of Operating Engineers Local 399",
+      "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:45:08.961Z",
+    "version": 6
+  }
+}

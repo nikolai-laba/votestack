@@ -1,0 +1,139 @@
+{
+  "key": "connie-anderson",
+  "electionId": "il-2026-11-03-general",
+  "name": "Connie Anderson",
+  "office": "Chicago Board of Education Member, Subdistrict 10B",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-10b"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Connie Anderson was appointed to the Chicago Board of Education in July 2026 to represent District 10B. She works as a paralegal. She co-founded The Record Track, a South Side arts business. She led the development of three student robotics teams for Chicago Public Schools. She served as an executive member of Friends of Ogden and was involved in the 2018 Ogden/Jenner school merger.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Connie Anderson was appointed to the Chicago Board of Education in July 2026 to represent District 10B.",
+            "cites": [1]
+          },
+          { "text": "She works as a paralegal.", "cites": [2] },
+          {
+            "text": "She co-founded The Record Track, a South Side arts business.",
+            "cites": [3]
+          },
+          {
+            "text": "She led the development of three student robotics teams for Chicago Public Schools.",
+            "cites": [2]
+          },
+          {
+            "text": "She served as an executive member of Friends of Ogden and was involved in the 2018 Ogden/Jenner school merger.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "She says her first priority is fully funding special education and supporting students with disabilities. She supports expanding career and technical education and arts programming. She also supports improving school facilities. She opposes charter schools. She has said declining enrollment is an opportunity to strengthen schools.",
+        "cites": [4, 5, 6],
+        "sentences": [
+          {
+            "text": "She says her first priority is fully funding special education and supporting students with disabilities.",
+            "cites": [4]
+          },
+          {
+            "text": "She supports expanding career and technical education and arts programming.",
+            "cites": [5]
+          },
+          {
+            "text": "She also supports improving school facilities.",
+            "cites": [5]
+          },
+          { "text": "She opposes charter schools.", "cites": [6] },
+          {
+            "text": "She has said declining enrollment is an opportunity to strengthen schools.",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Teachers Union",
+        "kind": "union",
+        "cites": [5]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [7] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Chicago Mayor Brandon Johnson appoints Connie Anderson to CPS school board",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/07/30/mayor-brandon-johnson-appoints-connie-anderson-to-cps-school-board/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "CPS board weighs budget amendment as district warns of financial risk",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/07/29/cps-board-weighs-budget-new-member/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Connie Anderson",
+      "publisher": "Chicago Board of Education",
+      "url": "https://www.cpsboe.org/about/bios/2051",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Chicago school board election 2026: Who is running in District 10b?",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-election-2026-district-10b-candidates-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "2026 School Board Election - Chicago Teachers Union",
+      "publisher": "Chicago Teachers Union",
+      "url": "https://www.ctulocal1.org/movement/school-board-election-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Editorial: Patrick Watson for Chicago School Board in District 10B",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/09/29/editorial-patrick-watson-chicago-school-board-district-10b/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 7
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:39:45.972Z",
+    "version": 4
+  }
+}

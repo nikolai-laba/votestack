@@ -1,0 +1,365 @@
+{
+  "key": "jennifer-davis",
+  "electionId": "il-2026-11-03-general",
+  "name": "Jennifer Davis",
+  "party": "Republican",
+  "office": "U.S. Representative, 8th District",
+  "contestIds": [
+    "chicago-boe:u-s-representative-8th-district",
+    "cook-clerk:140800"
+  ],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Jennifer Davis is a tech entrepreneur running for the U.S. House. She co-founded the software company Davisware, which helps service businesses run their operations, and sold the company in 2025.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Jennifer Davis is a tech entrepreneur running for the U.S. House.",
+            "cites": [1]
+          },
+          {
+            "text": "She co-founded the software company Davisware, which helps service businesses run their operations, and sold the company in 2025.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign says she wants to cut taxes, reduce regulations and lower inflation to help small businesses. Davis names affordability as the most important issue facing the district. She says her technology expertise could help oversee artificial intelligence and educate consumers on its benefits. She supports the 2022 Supreme Court ruling that overturned Roe v. Wade and returned abortion regulation to the states. She advocates for parental control in education and wants classrooms to focus on core academics without what she calls ideological agendas. On immigration, she proposes securing the border with advanced technology, enforcing existing laws, prioritizing skilled legal immigrants, and deporting criminal aliens. She also calls for a \"Digital Dome\" national defense program to protect against foreign cyberattacks and online threats. Davis told NBC Chicago she would prioritize her district's interests and is willing to disagree with Donald Trump.",
+        "cites": [2, 3, 1, 4, 5],
+        "sentences": [
+          {
+            "text": "Her campaign says she wants to cut taxes, reduce regulations and lower inflation to help small businesses.",
+            "cites": [2]
+          },
+          {
+            "text": "Davis names affordability as the most important issue facing the district.",
+            "cites": [3]
+          },
+          {
+            "text": "She says her technology expertise could help oversee artificial intelligence and educate consumers on its benefits.",
+            "cites": [1]
+          },
+          {
+            "text": "She supports the 2022 Supreme Court ruling that overturned Roe v. Wade and returned abortion regulation to the states.",
+            "cites": [1]
+          },
+          {
+            "text": "She advocates for parental control in education and wants classrooms to focus on core academics without what she calls ideological agendas.",
+            "cites": [2]
+          },
+          {
+            "text": "On immigration, she proposes securing the border with advanced technology, enforcing existing laws, prioritizing skilled legal immigrants, and deporting criminal aliens.",
+            "cites": [4]
+          },
+          {
+            "text": "She also calls for a \"Digital Dome\" national defense program to protect against foreign cyberattacks and online threats.",
+            "cites": [4]
+          },
+          {
+            "text": "Davis told NBC Chicago she would prioritize her district's interests and is willing to disagree with Donald Trump.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Jennifer Davis for Congress",
+        "url": "https://www.fec.gov/data/committee/C00919142/?cycle=2026",
+        "period": "July 1, 2025 to June 30, 2026",
+        "raised": 1476009.04,
+        "cashOnHand": 730400.66,
+        "breakdown": [
+          { "kind": "small", "amount": 30551.59 },
+          { "kind": "large", "amount": 431457.45 },
+          { "kind": "pac", "amount": 14000 },
+          { "kind": "candidate", "amount": 1000000 }
+        ],
+        "fromCandidate": 1000000
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "U.S. Rep. Mike Bost",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [6]
+      },
+      {
+        "organization": "U.S. Rep. Mary Miller",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [6]
+      },
+      {
+        "organization": "U.S. Rep. Darin LaHood",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [6]
+      },
+      {
+        "organization": "U.S. Rep. Mike Haridopolos",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [6]
+      },
+      {
+        "organization": "Former Illinois Comptroller Leslie Munger",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [6]
+      },
+      {
+        "organization": "Illinois State Sen. Don DeWitte",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [6]
+      },
+      {
+        "organization": "Former Illinois State Sen. Dan McConchie",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [6]
+      },
+      {
+        "organization": "Cook County Commissioner Sean Morrison",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [6]
+      },
+      {
+        "organization": "DuPage County Board Member Jim Zay",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [6]
+      },
+      {
+        "organization": "Former Kane County Board Member Mike Kenyon",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [6]
+      },
+      {
+        "organization": "Addison Mayor Tom Hundley",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Algonquin Village President Debby Sosine",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Arlington Heights Mayor Jim Tinaglia",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Barrington Hills Village President Brian Cecola",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Bartlett Mayor Dan Gunsteen",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Batavia Mayor Jeffery Schielke",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Bloomingdale Mayor Franco Coladipietro",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Carol Stream Mayor Frank Saverino",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "East Dundee Village President Dan Pearson",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Gilberts Mayor Guy Zambetti",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Hanover Park Village President Rodney Craig",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Huntley Village President Tim Hoeft",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Itasca Mayor Jeff Pruyn",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Schaumburg Mayor Tom Dailly",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "South Barrington Mayor Paula McCombie",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Wayne Village President Eileen Phipps",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Barrington Township Assessor Mike Gentile",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Bloomingdale Township Supervisor Michael Hovde",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Schaumburg Township Supervisor Timothy Heneghan",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Wayne Township Assessor Michael Musson",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Des Plaines Alderman Mike Charewicz",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Barrington Hills Village Trustee Marsha McClary",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Elburn Village Trustee Chris Hansen",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Streamwood Village Trustee Mike Baumer",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Former Schaumburg Village Trustee George Dunham",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Hanover Park Village Clerk Kristy Merrill",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Streamwood Village Clerk Aris Garcia",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Illinois Family Action",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Illinois Young Republicans",
+        "kind": "organization",
+        "cites": [6]
+      },
+      { "organization": "Elgin Township GOP", "kind": "party", "cites": [6] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Illinois' 8th District: Melissa Bean seeks comeback vs. newcomer Republican Jennifer Davis",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/10/07/illinois-8th-district-bean-davis/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "About | Vote Jennifer Davis",
+      "publisher": "Vote Jennifer Davis campaign",
+      "url": "https://www.votejenniferdavis.com/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Jennifer Davis: 2026 candidate for the 8th Congressional ...",
+      "publisher": "Daily Herald",
+      "url": "https://www.dailyherald.com/20260228/us-congress-politics/jennifer-davis-2026-candidate-for-the-8th-congressional-district/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Issues | Vote Jennifer Davis",
+      "publisher": "Vote Jennifer Davis campaign",
+      "url": "https://www.votejenniferdavis.com/issues",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Bean, Davis square off in 8th district Congressional race",
+      "publisher": "NBC Chicago",
+      "url": "https://www.nbcchicago.com/news/local/melissa-bean-jennifer-davis-battling-in-8th-district-congressional-race/3996100/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements | Vote Jennifer Davis",
+      "publisher": "Vote Jennifer Davis",
+      "url": "https://www.votejenniferdavis.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "2026 General Election Endorsements",
+      "publisher": "Illinois Family Action",
+      "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:10:37.271Z",
+    "version": 5
+  }
+}

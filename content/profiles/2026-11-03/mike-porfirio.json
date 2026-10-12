@@ -1,0 +1,211 @@
+{
+  "key": "mike-porfirio",
+  "electionId": "il-2026-11-03-general",
+  "name": "Mike Porfirio",
+  "party": "Democratic",
+  "office": "State Senator, 11th District",
+  "contestIds": [
+    "chicago-boe:state-senator-11th-district",
+    "cook-clerk:171101"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Mike Porfirio has represented the 11th District in the Illinois Senate since 2023. He is a Bridgeview native, a U.S. Naval Academy graduate, and a Navy Reserve officer. He chairs the Senate Veterans Affairs Committee. His campaign says he led a law allowing local governments to address urgent road safety hazards. He says he secured $6 million for research into veteran suicide prevention therapies. He sponsored a bill to limit the use of artificial intelligence in community college instruction. He introduced a bill (SB2462) to repeal the 2015 law barring state pension investments in companies that boycott Israel. His campaign says he supported legislation to create a Northern Illinois Transit Authority to oversee the CTA, Metra, and Pace.",
+        "cites": [1, 2, 3, 4, 5, 6, 7, 8]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Porfirio For The People",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=37283",
+        "period": "April 1 to June 30, 2026",
+        "raised": 0,
+        "cashOnHand": 49928.28,
+        "breakdown": [],
+        "largeSince": { "since": "2026-06-30", "total": 52000, "count": 33 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [9]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [10] },
+      {
+        "organization": "Illinois Veterans for Change",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "American Arab Chamber of Commerce",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [13]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 399",
+        "kind": "union",
+        "cites": [14]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [15] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [16]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Mike Porfirio - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mike_Porfirio",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Mike Porfirio (D) - Illinois General Assembly - Member",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/House/Members/Details/3404",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Porfirio recognized for veterans' suicide prevention efforts",
+      "publisher": "Southwest Regional Publishing",
+      "url": "https://southwestregionalpublishing.com/2026/03/15/porfirio-recognized-for-veterans-suicide-prevention-efforts/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Illinois State Senator Mike Porfirio",
+      "publisher": "Senator Porfirio campaign",
+      "url": "http://www.senatorporfirio.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Lawmakers pass bills on AI community college instruction, food ...",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/lawmakers-pass-bills-on-ai-community-college-instruction-food-handling-school-bus-seat-belts/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Capitol Fax.com - Your Illinois News Radar",
+      "publisher": "Capitol Fax",
+      "url": "https://capitolfax.com/wp-mobile.php?p=64727&more=1",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Press Releases - Illinois State Senator Mike Porfirio",
+      "publisher": "Senator Porfirio campaign",
+      "url": "http://senatorporfirio.com/news/press-releases",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Lawmakers seek to reverse Illinois law penalizing companies that boycott Israel",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/lawmakers-seek-to-reverse-illinois-law-penalizing-companies-that-boycott-israel/",
+      "viewedAt": "2026-10-07",
+      "kind": "news",
+      "id": 8
+    },
+    {
+      "id": 9,
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Our Elected Officials - IL Vets for Change",
+      "publisher": "Illinois Veterans for Change",
+      "url": "https://www.ilveteransforchange.org/our-elected-officials.html",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 12,
+      "title": "American Arab Chamber of Commerce releases endorsements in key Illinois races",
+      "publisher": "The Arab Daily News",
+      "url": "https://thearabdailynews.com/2026/01/14/american-arab-chamber-of-commerce-releases-endorsements-in-key-illinois-races/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 13,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 14,
+      "title": "2026 LOCAL 399 ILLINOIS PRIMARY ELECTION ENDORSEMENTS",
+      "publisher": "International Union of Operating Engineers Local 399",
+      "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 16
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:22:38.159Z",
+    "version": 7
+  }
+}

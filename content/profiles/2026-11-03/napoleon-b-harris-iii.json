@@ -1,0 +1,187 @@
+{
+  "key": "napoleon-b-harris-iii",
+  "electionId": "il-2026-11-03-general",
+  "name": "Napoleon B. Harris III",
+  "party": "Democratic",
+  "office": "State Senator, 15th District",
+  "contestIds": [
+    "chicago-boe:state-senator-15th-district",
+    "cook-clerk:171502"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Napoleon B. Harris III has served as state senator for Illinois' 15th District since 2013 and is the Assistant Majority Leader. He also serves as Supervisor of Thornton Township. He was an NFL middle linebacker and owns a Beggars Pizza in Harvey.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Napoleon B. Harris III has served as state senator for Illinois' 15th District since 2013 and is the Assistant Majority Leader.",
+            "cites": [1]
+          },
+          {
+            "text": "He also serves as Supervisor of Thornton Township.",
+            "cites": [2]
+          },
+          {
+            "text": "He was an NFL middle linebacker and owns a Beggars Pizza in Harvey.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "His website notes he announced a $26 million effort to address food deserts and a program expanding Pell Grants for workforce training. He sponsored a 2021 law allowing student-athletes to earn compensation for their name, image, and likeness. He supported laws providing long-term veterinary care for retired police K-9s and requiring insurance coverage for peripheral artery disease screening. His campaign site says he has worked to expand telehealth services and reduce harsh school discipline penalties.",
+        "cites": [4, 5, 6],
+        "sentences": [
+          {
+            "text": "His website notes he announced a $26 million effort to address food deserts and a program expanding Pell Grants for workforce training.",
+            "cites": [4]
+          },
+          {
+            "text": "He sponsored a 2021 law allowing student-athletes to earn compensation for their name, image, and likeness.",
+            "cites": [5]
+          },
+          {
+            "text": "He supported laws providing long-term veterinary care for retired police K-9s and requiring insurance coverage for peripheral artery disease screening.",
+            "cites": [6]
+          },
+          {
+            "text": "His campaign site says he has worked to expand telehealth services and reduce harsh school discipline penalties.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Napoleon Harris",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=24033",
+        "period": "April 1 to June 30, 2026",
+        "raised": 50235.33,
+        "cashOnHand": 348531.89,
+        "breakdown": [
+          { "kind": "small", "amount": 1595 },
+          { "kind": "large", "amount": 46340.33 },
+          { "kind": "transfer", "amount": 2300 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 26000, "count": 12 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [7] },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [10]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Napoleon Harris, III - Illinois General Assembly - Member",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/House/Members/Details/3292",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Supervisor - Thornton Township",
+      "publisher": "Thornton Township",
+      "url": "https://thorntontownship.com/supervisor/",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Napoleon B. Harris III",
+      "publisher": "BallotReady",
+      "url": "https://www.ballotready.org/people/napoleon-b-harris-iii",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Illinois State Senator Napoleon B. Harris, III",
+      "publisher": "Napoleon Harris campaign",
+      "url": "https://www.senatornapoleonharris.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Menu Pages - Illinois State Senator Napoleon B. Harris, III",
+      "publisher": "Napoleon Harris campaign",
+      "url": "https://senatornapoleonharris.com/bio?view=category&id=10",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Illinois State Senator Napoleon B. Harris, III",
+      "publisher": "Napoleon Harris campaign",
+      "url": "https://www.senatornapoleonharris.com/?start=16",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Illinois AFL-CIO 2026 Primary Election Endorsements",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2025/12/IL-AFL-CIO-endorsements-120925.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Illinois Federation of Teachers | Vote",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:49:27.692Z",
+    "version": 5
+  }
+}

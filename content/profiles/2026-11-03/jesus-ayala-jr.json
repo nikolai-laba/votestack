@@ -1,0 +1,157 @@
+{
+  "key": "jesus-ayala-jr",
+  "electionId": "il-2026-11-03-general",
+  "name": "Jesus Ayala Jr.",
+  "office": "Chicago Board of Education Member, Subdistrict 7A",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-7a"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Jesus Ayala Jr. is a Chicago Public Schools graduate who previously worked at MetroSquash, a nonprofit that teaches competitive squash and provides academic support to students. His career includes work at One Million Degrees and volunteer roles with the Jones College Prep Local School Council and the Mikva Challenge.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Jesus Ayala Jr. is a Chicago Public Schools graduate who previously worked at MetroSquash, a nonprofit that teaches competitive squash and provides academic support to students.",
+            "cites": [1]
+          },
+          {
+            "text": "His career includes work at One Million Degrees and volunteer roles with the Jones College Prep Local School Council and the Mikva Challenge.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "He wants the school board to spend more time on districtwide issues like improving academic outcomes and evaluating the Skyline curriculum. He identifies absenteeism and bullying as problems and thinks a better student experience can help lower absences. He told the Chicago Tribune he does not support extending the school-closure moratorium, citing financial stress from declining enrollment.",
+        "cites": [1, 3],
+        "sentences": [
+          {
+            "text": "He wants the school board to spend more time on districtwide issues like improving academic outcomes and evaluating the Skyline curriculum.",
+            "cites": [1]
+          },
+          {
+            "text": "He identifies absenteeism and bullying as problems and thinks a better student experience can help lower absences.",
+            "cites": [1]
+          },
+          {
+            "text": "He told the Chicago Tribune he does not support extending the school-closure moratorium, citing financial stress from declining enrollment.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Jesus Ayala Jr for Chicago Students",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39789",
+        "period": "April 1 to June 30, 2026",
+        "raised": 2875,
+        "cashOnHand": 532.88,
+        "breakdown": [
+          { "kind": "transfer", "amount": 1500 },
+          { "kind": "candidate", "amount": 1375 }
+        ],
+        "fromCandidate": 1375,
+        "largeSince": { "since": "2026-06-30", "total": 45056.93, "count": 9 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [5]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [6] },
+      {
+        "organization": "Common Ground Collective",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Tribune Editorial Board",
+        "kind": "editorial_board",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Chicago school board election 2026 voter guide: District 7a candidates - Chalkbeat",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-election-2026-district-7a-candidates-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Staff - Metrosquash",
+      "publisher": "MetroSquash",
+      "url": "https://metrosquash.org/staff/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Editorial: Jesus Ayala Jr. for Chicago School Board in ...",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/09/29/editorial-jesus-ayala-jr-chicago-school-board-district-7a/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Elections & Endorsements - SEIU Illinois State Council",
+      "publisher": "SEIU Illinois State Council",
+      "url": "https://seiuilcouncil.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "2026 Chicago Board of Education election",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Chicago_Board_of_Education_election",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:48:10.249Z",
+    "version": 2
+  }
+}

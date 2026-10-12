@@ -1,0 +1,204 @@
+{
+  "key": "mary-gill",
+  "electionId": "il-2026-11-03-general",
+  "name": "Mary Gill",
+  "party": "Democratic",
+  "office": "State Representative, 35th District",
+  "contestIds": [
+    "chicago-boe:state-representative-35th-district",
+    "cook-clerk:183500"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Mary Gill was appointed to the Illinois House in March 2023 and represents the 35th District. She previously served as executive director of the Mount Greenwood Community and Business Association and taught special education.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Mary Gill was appointed to the Illinois House in March 2023 and represents the 35th District.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously served as executive director of the Mount Greenwood Community and Business Association and taught special education.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "In the legislature, she passed a law expanding mental health resources for first responders. She also passed a measure to secure more funding for fire and emergency vehicles. She co-sponsored a bill to replace the term \"mental retardation\" with \"intellectual disability\" in state forms. She sponsored a proposal to let agricultural courses satisfy high school vocational requirements. Her campaign says she supports public safety, union organizing, and public education funding.",
+        "cites": [3, 4, 5, 6],
+        "sentences": [
+          {
+            "text": "In the legislature, she passed a law expanding mental health resources for first responders.",
+            "cites": [3]
+          },
+          {
+            "text": "She also passed a measure to secure more funding for fire and emergency vehicles.",
+            "cites": [3]
+          },
+          {
+            "text": "She co-sponsored a bill to replace the term \"mental retardation\" with \"intellectual disability\" in state forms.",
+            "cites": [4]
+          },
+          {
+            "text": "She sponsored a proposal to let agricultural courses satisfy high school vocational requirements.",
+            "cites": [5]
+          },
+          {
+            "text": "Her campaign says she supports public safety, union organizing, and public education funding.",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Mary Gill",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39411",
+        "period": "April 1 to June 30, 2026",
+        "raised": 1750.75,
+        "cashOnHand": 105765.83,
+        "breakdown": [
+          { "kind": "transfer", "amount": 1750 },
+          { "kind": "other", "amount": 0.75 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 53000, "count": 36 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [7] },
+      {
+        "organization": "Illinois Education Association",
+        "kind": "union",
+        "cites": [8]
+      },
+      { "organization": "Plumbers Local 130", "kind": "union", "cites": [9] },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [10] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [12]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Mary Gill",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Mary_Gill",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Mary Gill (D) - Illinois General Assembly - Member",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/House/Members/Details/3251",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Meet Mary - Elect Mary Gill State Representative 35th District",
+      "publisher": "Mary Gill campaign",
+      "url": "https://maryegill.com/meet-mary/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Bill Status of HB2539",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/Legislation/BillStatus?GAID=18&DocNum=2539&DocTypeID=HB&LegId=0&Print=1",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Your Illinois News Radar - Capitol Fax.com",
+      "publisher": "Capitol Fax",
+      "url": "https://capitolfax.com/page/331/?arena_mid=1vj47oAxpsNQMco2LirT&v=2&startAfter=1710894350480/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Priorities - Elect Mary Gill State Representative 35th District",
+      "publisher": "Mary Gill campaign",
+      "url": "https://maryegill.com/priorities/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Illinois AFL-CIO 2026 Primary Election Endorsements",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2025/12/IL-AFL-CIO-endorsements-120925.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "South Cook Republicans: Here's who's on your Nov. 3 ballot",
+      "publisher": "South Cook News",
+      "url": "https://southcooknews.com/south-cook-republicans-here-s-who-s-on-your-nov-3-ballot",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "CANDIDATES ENDORSED BY THE POLITICAL ACTION TASK FRCE",
+      "publisher": "Plumbers Local 130",
+      "url": "https://plumberslu130ua.com/ULWSiteResources/ualocal130_v2/Resources/file/Breaking%20News/2026/2026%20PATF%20Endorsements_Revised%202.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:05:35.616Z",
+    "version": 6
+  }
+}

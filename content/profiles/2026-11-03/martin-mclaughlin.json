@@ -1,0 +1,142 @@
+{
+  "key": "martin-mclaughlin",
+  "electionId": "il-2026-11-03-general",
+  "name": "Martin McLaughlin",
+  "party": "Republican",
+  "office": "State Representative, 52nd District",
+  "contestIds": ["cook-clerk:185200"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Martin McLaughlin is a small business owner and pension manager who has represented the 52nd District since 2021. He was elected Village President of Barrington Hills in 2013; his campaign says he reduced the property tax levy by over 24%.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Martin McLaughlin is a small business owner and pension manager who has represented the 52nd District since 2021.",
+            "cites": [1]
+          },
+          {
+            "text": "He was elected Village President of Barrington Hills in 2013; his campaign says he reduced the property tax levy by over 24%.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "He has proposed bills regarding the general homestead exemption amount and a senior property tax freeze. He supports increasing municipalities' share of state income taxes from 5% to 10% to provide alternative revenue. He has called for repealing the SAFE-T Act and says he will vote against tax increases. He introduced a bill to allow the recall of school board members. He says he proposed a state budget with over $5 billion in savings.",
+        "cites": [1, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "He has proposed bills regarding the general homestead exemption amount and a senior property tax freeze.",
+            "cites": [1]
+          },
+          {
+            "text": "He supports increasing municipalities' share of state income taxes from 5% to 10% to provide alternative revenue.",
+            "cites": [3]
+          },
+          {
+            "text": "He has called for repealing the SAFE-T Act and says he will vote against tax increases.",
+            "cites": [4]
+          },
+          {
+            "text": "He introduced a bill to allow the recall of school board members.",
+            "cites": [1]
+          },
+          {
+            "text": "He says he proposed a state budget with over $5 billion in savings.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Martin McLaughlin For State Representative",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=35707",
+        "period": "April 1 to June 30, 2026",
+        "raised": 33663.86,
+        "cashOnHand": 193212.61,
+        "breakdown": [
+          { "kind": "small", "amount": 775 },
+          { "kind": "large", "amount": 26275 },
+          { "kind": "transfer", "amount": 6518.86 },
+          { "kind": "other", "amount": 95 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 310236.04, "count": 31 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "National Federation of Independent Business Illinois PAC",
+        "kind": "organization",
+        "cites": [6]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Martin McLaughlin (R) - 104th General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://ilga.gov/house/members/details/3389",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "About Martin",
+      "publisher": "Martin McLaughlin campaign",
+      "url": "https://martyforillinois.com/about-martin/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "State House District 52 candidates debate taxes, budget and AI",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/10/01/state-house-district-52/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "2026 Election Questionnaire: Martin McLaughlin, State Representative, 52nd District",
+      "publisher": "Shaw Local",
+      "url": "https://www.shawlocal.com/northwest-herald/2026/02/03/2026-election-questionnaire-martin-mclaughlin-state-representative-52nd-district/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "2026 Election Questionnaire: Martin McLaughlin, Illinois State Representative, 52nd District",
+      "publisher": "Shaw Local",
+      "url": "https://www.shawlocal.com/news/election/2026/09/27/2026-election-questionnaire-martin-mclaughlin-illinois-state-representative-52nd-district/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "NFIB Illinois PAC Announces 2026 Legislative Endorsements",
+      "publisher": "NFIB",
+      "url": "https://www.nfib.com/content/press-release/elections/nfib-illinois-pac-announces-2026-legislative-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:47:07.034Z",
+    "version": 7
+  }
+}

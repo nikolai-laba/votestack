@@ -1,0 +1,184 @@
+{
+  "key": "john-curran",
+  "electionId": "il-2026-11-03-general",
+  "name": "John Curran",
+  "party": "Republican",
+  "office": "State Senator, 41st District",
+  "contestIds": ["cook-clerk:174102"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "John Curran has represented the 41st District since 2017 and serves as Senate Minority Leader. His campaign says he supports an efficient, transparent government with lower taxes and less regulation. His campaign also says that as a county board member, he led consolidation that saved over $145 million.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "John Curran has represented the 41st District since 2017 and serves as Senate Minority Leader.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he supports an efficient, transparent government with lower taxes and less regulation.",
+            "cites": [2]
+          },
+          {
+            "text": "His campaign also says that as a county board member, he led consolidation that saved over $145 million.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "He has advocated for tighter ethics reforms for state officials. He sponsored a bill for engineering scholarship stipends. He has urged the governor to join a federal school choice tax credit program. He has stated that continued state revenue growth means taxes should not be raised.",
+        "cites": [1, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "He has advocated for tighter ethics reforms for state officials.",
+            "cites": [1]
+          },
+          {
+            "text": "He sponsored a bill for engineering scholarship stipends.",
+            "cites": [3]
+          },
+          {
+            "text": "He has urged the governor to join a federal school choice tax credit program.",
+            "cites": [4]
+          },
+          {
+            "text": "He has stated that continued state revenue growth means taxes should not be raised.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of John Curran",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=18949",
+        "period": "April 1 to June 30, 2026",
+        "raised": 73992.24,
+        "cashOnHand": 3059626.88,
+        "breakdown": [
+          { "kind": "large", "amount": 13750 },
+          { "kind": "transfer", "amount": 44000 },
+          { "kind": "other", "amount": 16242.24 }
+        ],
+        "largeSince": {
+          "since": "2026-06-30",
+          "total": 1533303.01,
+          "count": 131
+        }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "NFIB Illinois PAC",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "Illinois Education Association",
+        "kind": "union",
+        "cites": [9]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Biography - John Curran",
+      "publisher": "John Curran",
+      "url": "https://senatorcurran.com/biography/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Welcome - John Curran",
+      "publisher": "John Curran",
+      "url": "https://senatorcurran.com/welcome/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "IDOT Targets Young Engineering Talent With Up to $60K in Student ...",
+      "publisher": "WTTW",
+      "url": "https://news.wttw.com/2026/05/15/idot-targets-young-engineering-talent-60k-student-loan-assistance",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "‘We will be left out and left behind’: Senate GOP urges action on school choice bills",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/we-will-be-left-out-and-left-behind-senate-gop-urges-action-on-school-choice-bills/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Illinois legislators gear up for final budget talks",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/illinois-legislators-gear-up-for-final-budget-talks/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "NFIB Illinois PAC Announces 2026 Legislative Endorsements",
+      "publisher": "NFIB",
+      "url": "https://www.nfib.com/news/news/nfib-illinois-pac-announces-2026-legislative-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "ILLINOIS ENDORSEMENTS - IUOE LOCAL 150",
+      "publisher": "International Union of Operating Engineers Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "DuPage County Republicans: Here's who's on your Nov. 3 ballot",
+      "publisher": "DuPage Policy Journal",
+      "url": "https://dupagepolicyjournal.com/dupage-county-republicans-here-s-who-s-on-your-nov-3-ballot",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:55:40.391Z",
+    "version": 4
+  }
+}

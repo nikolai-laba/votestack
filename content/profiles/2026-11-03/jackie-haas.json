@@ -1,0 +1,120 @@
+{
+  "key": "jackie-haas",
+  "electionId": "il-2026-11-03-general",
+  "name": "Jackie Haas",
+  "party": "Republican",
+  "office": "State Representative, 79th District",
+  "contestIds": ["cook-clerk:187900"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Jackie Haas has represented the 79th District since December 2020 and serves as Assistant Minority Leader in the Illinois House. She has a background in social work and is CEO of the Helen Wheeler Center for Community Health.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Jackie Haas has represented the 79th District since December 2020 and serves as Assistant Minority Leader in the Illinois House.",
+            "cites": [1]
+          },
+          {
+            "text": "She has a background in social work and is CEO of the Helen Wheeler Center for Community Health.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign says she supports lowering taxes, pro-police legislation, ending Illinois’ sanctuary state status, fair maps, and budget and ethics reforms. She sponsored a law establishing a statewide domestic violence hotline. She also sponsored a law requiring pharmacies to provide 9-8-8 suicide prevention information. She sponsored a law on long-term care joint training. She opposed the creation of a prescription drug affordability board, citing concerns about oversight. She has criticized gerrymandering.",
+        "cites": [2, 1, 3, 4]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Citizens For Jackie Haas",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=35843",
+        "period": "April 1 to June 30, 2026",
+        "raised": 16648.33,
+        "cashOnHand": 25288.79,
+        "breakdown": [
+          { "kind": "small", "amount": 2845.25 },
+          { "kind": "large", "amount": 4078.08 },
+          { "kind": "transfer", "amount": 9725 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 23500, "count": 19 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "NASW-IL PAC", "kind": "organization", "cites": [5] },
+      {
+        "organization": "NFIB Illinois PAC",
+        "kind": "organization",
+        "cites": [6]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Jackie Haas (R) - 104th General Assembly (2025-2026)",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/house/members/details/3379",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Home - State Representative Jackie Haas",
+      "publisher": "Jackie Haas campaign",
+      "url": "https://votejackie.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "House narrowly advances measure aiming to control prescription drug prices",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/house-narrowly-advances-measure-aiming-to-control-prescription-drug-prices/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "GOP lawmakers introduce ‘fair maps’ legislation",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/gop-lawmakers-introduce-fair-maps-legislation/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "NASW-IL Announces Endorsements for 2026 Illinois General Election",
+      "publisher": "NASW-IL",
+      "url": "https://www.naswil.org/post/nasw-il-announces-endorsements-for-2026-illinois-general-election",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "NFIB Illinois PAC Announces 2026 Legislative Endorsements",
+      "publisher": "NFIB",
+      "url": "https://www.nfib.com/news/news/nfib-illinois-pac-announces-2026-legislative-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:20:24.214Z",
+    "version": 5
+  }
+}

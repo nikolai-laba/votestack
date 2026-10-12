@@ -1,0 +1,46 @@
+{
+  "key": "richard-nolan",
+  "electionId": "il-2026-11-03-general",
+  "name": "Richard Nolan",
+  "party": "Republican",
+  "office": "Cook County Commissioner, 5th District",
+  "contestIds": [
+    "chicago-boe:county-commissioner-5th-district",
+    "cook-clerk:220500"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Richard Nolan is a former trustee of the Village of Riverdale.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Richard Nolan is a former trustee of the Village of Riverdale.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": { "asOf": "2026-10-07", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "2026 Cook County Board of Commissioners election",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:39:26.576Z",
+    "version": 4
+  }
+}

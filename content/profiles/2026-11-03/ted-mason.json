@@ -1,0 +1,347 @@
+{
+  "key": "ted-mason",
+  "electionId": "il-2026-11-03-general",
+  "name": "Ted Mason",
+  "party": "Democratic",
+  "office": "Cook County Commissioner, 15th District",
+  "contestIds": ["cook-clerk:221500"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Ted Mason is chief of staff to 15th District Commissioner Kevin Morrison, a role he has held for eight years. He previously served as director of outreach for Congressman Raja Krishnamoorthi and chief of staff for former State Senator Toi Hutchinson. He is also the Elk Grove Township Democratic committeeperson. His priorities include protecting access to mental and behavioral healthcare, safeguarding county services against federal budget cuts, and expanding restoration efforts in the Cook County Forest Preserves. His campaign also highlights supporting small businesses and balanced budgets. His campaign says his county work helped provide millions in small business grants and erase $79.2 million in medical debt for district residents.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Ted Mason is chief of staff to 15th District Commissioner Kevin Morrison, a role he has held for eight years.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously served as director of outreach for Congressman Raja Krishnamoorthi and chief of staff for former State Senator Toi Hutchinson.",
+            "cites": [2]
+          },
+          {
+            "text": "He is also the Elk Grove Township Democratic committeeperson.",
+            "cites": [3]
+          },
+          {
+            "text": "His priorities include protecting access to mental and behavioral healthcare, safeguarding county services against federal budget cuts, and expanding restoration efforts in the Cook County Forest Preserves.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign also highlights supporting small businesses and balanced budgets.",
+            "cites": [4]
+          },
+          {
+            "text": "His campaign says his county work helped provide millions in small business grants and erase $79.2 million in medical debt for district residents.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Ted Mason",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=25562",
+        "period": "April 1 to June 30, 2026",
+        "raised": 26385,
+        "cashOnHand": 76653.19,
+        "breakdown": [
+          { "kind": "small", "amount": 2935 },
+          { "kind": "large", "amount": 18950 },
+          { "kind": "transfer", "amount": 4500 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 90501, "count": 19 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "U.S. Rep. Jan Schakowsky",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "U.S. Rep. Raja Krishnamoorthi",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "U.S. Rep. Delia Ramirez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Mike Quigley",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Cook County Board President Toni Preckwinkle",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Cook County Clerk Monica Gordon",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Clerk of the Circuit Court Mariyana Spyropoulos",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Cook County Commissioner Kevin Morrison",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Cook County Commissioner Maggie Trevor",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Cook County Commissioner Scott Britton",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Cook County Commissioner John P. Daley",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Cook County Commissioner Josina Morita",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Cook County Commissioner Frank Aguilar",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Roselle Mayor David Pileski",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Wheeling Township Supervisor Maria Zeller Brauer",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Des Plaines Clerk Dominik Bronakowski",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Arlington Heights Trustee Bill Manganaro",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Arlington Heights Trustee Wendy Dunnington",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Hanover Park Trustee Herb Porter",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Hoffman Estates Trustee Pat Kinnane",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Morton Grove Trustee Ashur Shiba",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Schaumburg Trustee Brian Bieschke",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "National Democratic County Officials",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Citizen Action/Illinois",
+        "kind": "organization",
+        "cites": [9]
+      },
+      { "organization": "Sierra Club", "kind": "organization", "cites": [10] },
+      {
+        "organization": "International Association of Machinists and Aerospace Workers",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "SEIU IL State Council",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "IBEW Local 134", "kind": "union", "cites": [11] },
+      { "organization": "IUOE Local 399", "kind": "union", "cites": [12] },
+      { "organization": "Vote Assyrian", "kind": "organization", "cites": [7] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [13]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [14] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "A Closer Look At 15th District Cook County ...",
+      "publisher": "Journal & Topics",
+      "url": "https://www.journal-topics.com/articles/a-closer-look-at-15th-district-cook-county-commissioners-race/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Mason running to succeed Morrison as Cook County Board's 15th ...",
+      "publisher": "Daily Herald",
+      "url": "https://www.dailyherald.com/20250516/local-politics/mason-running-to-succeed-morrison-as-cook-county-boards-15th-district-commissioner/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Biography | Ted Mason For Cook County",
+      "publisher": "Ted Mason for Cook County Commissioner",
+      "url": "https://tedmason4cookcounty.com/biography",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Ted Mason for Cook County Commissioner - 15th District | Ted ...",
+      "publisher": "Ted Mason for Cook County Commissioner",
+      "url": "https://tedmason4cookcounty.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Pritzker's Carolina calling",
+      "publisher": "Politico",
+      "url": "https://www.politico.com/newsletters/illinois-playbook/2025/07/11/pritzkers-carolina-calling-00448241",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Pritzker's new moves",
+      "publisher": "Politico",
+      "url": "https://www.politico.com/newsletters/illinois-playbook/2025/06/27/pritzkers-new-moves-00429182",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements | Ted Mason For Cook County",
+      "publisher": "Ted Mason For Cook County",
+      "url": "https://tedmason4cookcounty.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "‘Hollywood' may challenge Preckwinkle",
+      "publisher": "Politico",
+      "url": "https://www.politico.com/newsletters/illinois-playbook/2025/06/23/hollywood-may-challenge-preckwinkle-00417945",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Spring 2026 Endorsements — Citizen Action/Illinois",
+      "publisher": "Citizen Action/Illinois",
+      "url": "https://citizenaction-il.org/spring26endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Phone bank for Nabeela Syed, Maria Peterson, & Ted Mason",
+      "publisher": "Sierra Club",
+      "url": "https://act.sierraclub.org/events/details?formcampaignid=701Po000028pcIgIAI",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "March 17, 2026 Primary Election Local 134 Endorsed Candidates",
+      "publisher": "IBEW Local 134",
+      "url": "https://www.lu134.org/2026%20Primary%20Election%20Endorsements(3).pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 12,
+      "title": "2026 LOCAL 399 ILLINOIS PRIMARY ELECTION ENDORSEMENTS",
+      "publisher": "IUOE Local 399",
+      "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 14
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:17:24.446Z",
+    "version": 4
+  }
+}

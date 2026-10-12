@@ -1,0 +1,145 @@
+{
+  "key": "christian-maxwell",
+  "electionId": "il-2026-11-03-general",
+  "name": "Christian Maxwell",
+  "party": "Republican",
+  "office": "U.S. Representative, 1st District",
+  "contestIds": [
+    "chicago-boe:u-s-representative-1st-district",
+    "cook-clerk:140100"
+  ],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Christian Maxwell is the Republican nominee for U.S. Representative in Illinois’ 1st District. She earned a bachelor’s degree from the University of Illinois at Chicago. She works as an e-commerce growth marketing consultant.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Christian Maxwell is the Republican nominee for U.S. Representative in Illinois’ 1st District.",
+            "cites": [1]
+          },
+          {
+            "text": "She earned a bachelor’s degree from the University of Illinois at Chicago.",
+            "cites": [2]
+          },
+          {
+            "text": "She works as an e-commerce growth marketing consultant.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign platform prioritizes lower taxes and safer neighborhoods. Her campaign says she proposes creating economic revitalization zones with a goal of adding 5,000 jobs by 2028. She supports eliminating federal taxes on tips and overtime and reducing the federal tax burden on homeowners. On public safety, she favors enforcing existing laws against illegal firearm trafficking and imposing stricter penalties on violent offenders who use guns. She also calls for coordination with U.S. Immigration and Customs Enforcement to improve community safety. She supports eliminating the U.S. Department of Education and returning control of education to states and local communities. She believes human life should be legally protected from conception and opposes taxpayer funding for abortion providers.",
+        "cites": [1, 3, 4],
+        "sentences": [
+          {
+            "text": "Her campaign platform prioritizes lower taxes and safer neighborhoods.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign says she proposes creating economic revitalization zones with a goal of adding 5,000 jobs by 2028.",
+            "cites": [1]
+          },
+          {
+            "text": "She supports eliminating federal taxes on tips and overtime and reducing the federal tax burden on homeowners.",
+            "cites": [3]
+          },
+          {
+            "text": "On public safety, she favors enforcing existing laws against illegal firearm trafficking and imposing stricter penalties on violent offenders who use guns.",
+            "cites": [3]
+          },
+          {
+            "text": "She also calls for coordination with U.S. Immigration and Customs Enforcement to improve community safety.",
+            "cites": [4]
+          },
+          {
+            "text": "She supports eliminating the U.S. Department of Education and returning control of education to states and local communities.",
+            "cites": [3]
+          },
+          {
+            "text": "She believes human life should be legally protected from conception and opposes taxpayer funding for abortion providers.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Christian Maxwell for Congress",
+        "url": "https://www.fec.gov/data/committee/C00904227/?cycle=2026",
+        "period": "July 1, 2025 to June 30, 2026",
+        "raised": 63315.86,
+        "cashOnHand": 33832.37,
+        "breakdown": [
+          { "kind": "small", "amount": 33449.94 },
+          { "kind": "large", "amount": 29865.92 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Illinois Family Action",
+        "kind": "organization",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Christian Maxwell for Congress",
+      "publisher": "Christian Maxwell for Congress",
+      "url": "https://christianmaxwellforcongress.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Christian Maxwell - iVoterGuide",
+      "publisher": "iVoterGuide",
+      "url": "https://ivoterguide.com/candidate/89000/race/23774/election/1346?culture=en-us",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Christian Maxwell (R) – IL-01 House 2026 | Smarter.Vote",
+      "publisher": "Smarter.Vote",
+      "url": "https://smarter.vote/races/il-house-01-2026/christian-maxwell/",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Press Media | Maxwell for Congress",
+      "publisher": "Christian Maxwell for Congress",
+      "url": "https://christianmaxwellforcongress.com/PressMedia",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "IFA’s 2026 General Election Endorsements",
+      "publisher": "Illinois Family Action",
+      "url": "https://illinoisfamilyaction.org/2026/09/ifas-2026-general-election-endorsements-2/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T16:59:29.616Z",
+    "version": 7
+  }
+}

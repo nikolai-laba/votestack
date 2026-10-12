@@ -1,0 +1,154 @@
+{
+  "key": "aaron-jitu-brown",
+  "electionId": "il-2026-11-03-general",
+  "name": "Aaron \"Jitu\" Brown",
+  "office": "Chicago Board of Education Member, Subdistrict 5A",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-5a"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Aaron “Jitu” Brown is the incumbent board member for District 5a, elected in 2024. He is the national director of the Journey for Justice Alliance, which opposes public school privatization. He was an education organizer for the Kenwood Oakland Community Organization. In 2015, he took part in a hunger strike to keep Dyett High School open.",
+        "cites": [1, 2]
+      },
+      {
+        "text": "He opposes charter school expansion and says CPS can take over management of existing charters. He wants state lawmakers to increase taxes for the wealthy and close corporate tax loopholes to fund schools. His campaign says he supports expanding the Sustainable Community Schools model and ending punitive standardized testing. He co-leads the Black Student Achievement Committee, which works to improve outcomes for Black students.",
+        "cites": [1, 3, 4],
+        "sentences": [
+          {
+            "text": "He opposes charter school expansion and says CPS can take over management of existing charters.",
+            "cites": [1]
+          },
+          {
+            "text": "He wants state lawmakers to increase taxes for the wealthy and close corporate tax loopholes to fund schools.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he supports expanding the Sustainable Community Schools model and ending punitive standardized testing.",
+            "cites": [3]
+          },
+          {
+            "text": "He co-leads the Black Student Achievement Committee, which works to improve outcomes for Black students.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Jitu Brown",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39853",
+        "period": "April 1 to June 30, 2026",
+        "raised": 4300,
+        "cashOnHand": 4891.47,
+        "breakdown": [
+          { "kind": "small", "amount": 2000 },
+          { "kind": "large", "amount": 2300 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 3000, "count": 3 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Teachers Union",
+        "kind": "union",
+        "cites": [5]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [6] },
+      {
+        "organization": "Our Schools Chicago",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Chicago school board election 2026 voter guide: District 5a candidates",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-election-2026-district-5a-candidates-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Aaron 'Jitu' Brown, elected Chicago School Board member, District 5",
+      "publisher": "WBEZ",
+      "url": "https://www.wbez.org/education/2025/01/15/aaron-jitu-brown-elected-board-member-district-5",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Aaron Jitu Brown | Home",
+      "publisher": "Aaron Jitu Brown campaign",
+      "url": "https://www.aaronjitubrown4cps.org/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Chicago school board names members of Black Student Achievement Committee",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/07/08/chicago-public-schools-board-announces-black-student-achievement-committee/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "2026 School Board Election - Chicago Teachers Union",
+      "publisher": "Chicago Teachers Union",
+      "url": "https://www.ctulocal1.org/movement/school-board-election-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements and Election Information - Personal PAC",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Key education endorsements for CPS School Board candidates",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/education/2026/09/21/key-education-endorsements-for-cps-school-board-candidates",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 8
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:45:06.957Z",
+    "version": 4
+  }
+}

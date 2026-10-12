@@ -1,0 +1,141 @@
+{
+  "key": "elizabeth-liz-doody-gorman",
+  "electionId": "il-2026-11-03-general",
+  "name": "Elizabeth \"Liz\" Doody Gorman",
+  "party": "Republican",
+  "office": "Cook County Commissioner, 17th District",
+  "contestIds": ["cook-clerk:221700"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Elizabeth “Liz” Doody Gorman served as Cook County Commissioner for the 17th District from 2002 to 2015. She later was executive director of the Illinois Tollway and was appointed to the Regional Transportation Authority board in 2021. As commissioner, she led an effort to roll back the county sales tax from 1.75% to 1.25%.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Elizabeth “Liz” Doody Gorman served as Cook County Commissioner for the 17th District from 2002 to 2015.",
+            "cites": [1]
+          },
+          {
+            "text": "She later was executive director of the Illinois Tollway and was appointed to the Regional Transportation Authority board in 2021.",
+            "cites": [1]
+          },
+          {
+            "text": "As commissioner, she led an effort to roll back the county sales tax from 1.75% to 1.25%.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "Her 2026 campaign emphasizes protecting taxpayers, accountable government, public safety, and services for seniors. During her 2022 campaign, she said she had never voted for a tax increase. During that race, she criticized policies she said allowed violent criminals to be released and contributed to crime in the suburbs.",
+        "cites": [3, 4],
+        "sentences": [
+          {
+            "text": "Her 2026 campaign emphasizes protecting taxpayers, accountable government, public safety, and services for seniors.",
+            "cites": [3]
+          },
+          {
+            "text": "During her 2022 campaign, she said she had never voted for a tax increase.",
+            "cites": [4]
+          },
+          {
+            "text": "During that race, she criticized policies she said allowed violent criminals to be released and contributed to crime in the suburbs.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Liz for the 17th",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=22716",
+        "period": "April 1 to June 30, 2026",
+        "raised": 17350,
+        "cashOnHand": 93637.96,
+        "breakdown": [
+          { "kind": "small", "amount": 1750 },
+          { "kind": "large", "amount": 14950 },
+          { "kind": "transfer", "amount": 650 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 21500, "count": 13 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "American Arab Chamber of Commerce",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Chicago Flips Red PAC",
+        "kind": "organization",
+        "cites": [6]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Liz Gorman",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Liz_Gorman",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Gorman leaves Cook County office at top of her public service",
+      "publisher": "Illinois News Network",
+      "url": "https://www.illinoisnewsnetwork.com/2015/07/15/gorman-leaves-cook-county-office-at-top-of-her-public-service/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Cook County 2026 Candidates & Sample Ballot | Illinois",
+      "publisher": "The Ballot Brief",
+      "url": "https://theballotbrief.com/state/illinois/cook-county",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Conservative Republican candidates rally in Orland Township",
+      "publisher": "Suburban Chicagoland",
+      "url": "https://suburbanchicagoland.com/2022/05/22/conservative-republican-candidates-rally-in-orland-township/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "American Arab Chamber of Commerce releases endorsements in key Illinois races",
+      "publisher": "The Arab Daily News",
+      "url": "https://thearabdailynews.com/2026/01/14/american-arab-chamber-of-commerce-releases-endorsements-in-key-illinois-races/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Endorsed Candidates",
+      "publisher": "Chicago Flips Red PAC",
+      "url": "https://chicagoflipsredpac.com/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:18:11.948Z",
+    "version": 3
+  }
+}

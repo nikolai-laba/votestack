@@ -1,0 +1,142 @@
+{
+  "key": "david-a-dewar",
+  "electionId": "il-2026-11-03-general",
+  "name": "David A. Dewar",
+  "party": "Republican",
+  "office": "State Representative, 35th District",
+  "contestIds": [
+    "chicago-boe:state-representative-35th-district",
+    "cook-clerk:183500"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "David A. Dewar is an independent retirement specialist. He operates Tax-Free Retirement Solutions and leads Restore American Liberty, an organization focusing on conservative values. His campaign says he moved to Mount Greenwood 40 years ago and was an election judge for Chicago’s 19th Ward for 10 years.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "David A. Dewar is an independent retirement specialist.",
+            "cites": [1]
+          },
+          {
+            "text": "He operates Tax-Free Retirement Solutions and leads Restore American Liberty, an organization focusing on conservative values.",
+            "cites": [2]
+          },
+          {
+            "text": "His campaign says he moved to Mount Greenwood 40 years ago and was an election judge for Chicago’s 19th Ward for 10 years.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "In 2024, he called for legislation to end Illinois’ sanctuary state status and restore cash bail, reversing the SAFE-T Act. In a 2024 questionnaire, he said he would prioritize parental notification in schools and reevaluate pension cost-of-living adjustments. His campaign centers on an \"8-5 strategy\" to increase Republican seats in the state House and Senate to gain legislative influence.",
+        "cites": [4, 5, 6],
+        "sentences": [
+          {
+            "text": "In 2024, he called for legislation to end Illinois’ sanctuary state status and restore cash bail, reversing the SAFE-T Act.",
+            "cites": [4]
+          },
+          {
+            "text": "In a 2024 questionnaire, he said he would prioritize parental notification in schools and reevaluate pension cost-of-living adjustments.",
+            "cites": [5]
+          },
+          {
+            "text": "His campaign centers on an \"8-5 strategy\" to increase Republican seats in the state House and Senate to gain legislative influence.",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Citizens for David Dewar",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=35165",
+        "period": "April 1 to June 30, 2026",
+        "raised": 0,
+        "cashOnHand": 0,
+        "breakdown": []
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Illinois Family Action",
+        "kind": "organization",
+        "cites": [7]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "David A. Dewar, Republican candidate for Illinois House ...",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/candidate-questionnaires/david-a-dewar-illinois-house-primary-35th-district",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Two Republican candidates aim to unseat Democratic Rep. Mary Gill",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/01/29/republican-candidates-primary-democratic-mary-gill/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "David Dewar for 35th District State Representative in Illinois",
+      "publisher": "David Dewar campaign",
+      "url": "https://www.repdaviddewar.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Your Guide to the Statehouse Democratic Primary",
+      "publisher": "South Side Weekly",
+      "url": "https://southsideweekly.com/your-guide-to-the-statehouse-democratic-primary/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "David A. Dewar, Illinois House 35th District",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/2024/2/8/24057850/david-a-dewar-illinois-house-35th-district",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Dewar wins GOP primary in Illinois House District 35",
+      "publisher": "South Cook News",
+      "url": "https://southcooknews.com/dewar-wins-gop-primary-in-illinois-house-district-35-im-pleased-with-the-victory",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "IFA’s 2026 General Election Endorsements",
+      "publisher": "Illinois Family Action",
+      "url": "https://illinoisfamilyaction.org/2026/09/ifas-2026-general-election-endorsements-2/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:05:30.711Z",
+    "version": 5
+  }
+}

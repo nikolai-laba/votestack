@@ -1,0 +1,263 @@
+{
+  "key": "lindsey-lapointe",
+  "electionId": "il-2026-11-03-general",
+  "name": "Lindsey LaPointe",
+  "party": "Democratic",
+  "office": "State Representative, 19th District",
+  "contestIds": [
+    "chicago-boe:state-representative-19th-district",
+    "cook-clerk:181900"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Lindsey LaPointe represents Chicago’s 19th District and chairs the House Mental Health and Addiction Committee. A former social worker, she managed justice reform at Business and Professional People for the Public Interest and the state's Adult Redeploy Illinois program.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Lindsey LaPointe represents Chicago’s 19th District and chairs the House Mental Health and Addiction Committee.",
+            "cites": [1]
+          },
+          {
+            "text": "A former social worker, she managed justice reform at Business and Professional People for the Public Interest and the state's Adult Redeploy Illinois program.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "She supports a progressive state tax system to reduce the burden on working families. She criticized a proposed $40 million cut to the state homelessness budget. A law she sponsored created an alternative to the social work licensing exam. She introduced legislation encouraging behavioral health providers to join commercial insurance networks. Another law she sponsored guarantees universal mental health screenings for public school students. She helped secure $13 million for an older-adult shelter on the Far Northwest Side.",
+        "cites": [3, 4, 5, 6],
+        "sentences": [
+          {
+            "text": "She supports a progressive state tax system to reduce the burden on working families.",
+            "cites": [3]
+          },
+          {
+            "text": "She criticized a proposed $40 million cut to the state homelessness budget.",
+            "cites": [4]
+          },
+          {
+            "text": "A law she sponsored created an alternative to the social work licensing exam.",
+            "cites": [5]
+          },
+          {
+            "text": "She introduced legislation encouraging behavioral health providers to join commercial insurance networks.",
+            "cites": [5]
+          },
+          {
+            "text": "Another law she sponsored guarantees universal mental health screenings for public school students.",
+            "cites": [6]
+          },
+          {
+            "text": "She helped secure $13 million for an older-adult shelter on the Far Northwest Side.",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of LaPointe",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=35544",
+        "period": "April 1 to June 30, 2026",
+        "raised": 33180.95,
+        "cashOnHand": 194247.43,
+        "breakdown": [
+          { "kind": "small", "amount": 4405 },
+          { "kind": "large", "amount": 8525 },
+          { "kind": "transfer", "amount": 14775 },
+          { "kind": "other", "amount": 5475.95 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 48800, "count": 24 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Gov. JB Pritzker",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [7]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [8] },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [7]
+      },
+      { "organization": "Giffords", "kind": "organization", "cites": [7] },
+      { "organization": "Brady PAC", "kind": "organization", "cites": [7] },
+      {
+        "organization": "Gun Violence Prevention PAC",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Illinois National Organization for Women PAC",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "National Association of Social Workers",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Stand for Children",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "The People’s Lobby",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "A.B.A.T.E. Illinois",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Better Streets Chicago Action Fund",
+        "kind": "organization",
+        "cites": [9]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [7] },
+      { "organization": "SEIU State Council", "kind": "union", "cites": [7] },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [7] },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Illinois Education Association",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Associated Firefighters of Illinois",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Teachers Union",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Teamsters District Council 25",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "IBEW Local 134", "kind": "union", "cites": [7] },
+      { "organization": "IUOE Local 150", "kind": "union", "cites": [7] },
+      { "organization": "IUOE Local 399", "kind": "union", "cites": [7] },
+      { "organization": "Plumbers Local 130", "kind": "union", "cites": [7] },
+      { "organization": "UFCW Local 881", "kind": "union", "cites": [7] },
+      { "organization": "38th Ward Democrats", "kind": "party", "cites": [7] },
+      { "organization": "39th Ward Democrats", "kind": "party", "cites": [7] },
+      { "kind": "organization", "organization": "Giffords PAC", "cites": [7] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "About Lindsey - Lindsey LaPointe State Representative",
+      "publisher": "Lindsey LaPointe State Representative",
+      "url": "https://www.replapointe.com/about-lindsey/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Illinois Rep. Lindsey LaPointe (D) - TrackBill",
+      "publisher": "TrackBill",
+      "url": "https://trackbill.com/legislator/illinois-representative-lindsey-lapointe/1059-19048/",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "In the News - Lindsey LaPointe State Representative",
+      "publisher": "Lindsey LaPointe State Representative",
+      "url": "https://www.replapointe.com/in-the-news/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Illinois Democrats still weighing budget options as strong revenue mixes with uncertain outlook",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/illinois-democrats-still-weighing-budget-options-as-strong-revenue-mixes-with-uncertain-outlook/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Illinois Lawmaker LaPointe Named Pioneer Award Winner",
+      "publisher": "University of Illinois Chicago",
+      "url": "https://socialwork.uic.edu/news-stories/illinois-lawmaker-lapointe-named-pioneer-award-winner/",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Rep. Lindsey LaPointe",
+      "publisher": "Illinois House Democratic Caucus",
+      "url": "https://ilhousedems.com/project/lapointe/",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements",
+      "publisher": "Lindsey LaPointe for State Rep",
+      "url": "https://www.lindseylapointe.com/endorsements/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "2026 Endorsements",
+      "publisher": "Better Streets Chicago Action Fund",
+      "url": "https://www.bscactionfund.org/2026-midterms/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:57:18.148Z",
+    "version": 6
+  }
+}

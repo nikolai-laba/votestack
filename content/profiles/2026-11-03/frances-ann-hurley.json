@@ -1,0 +1,213 @@
+{
+  "key": "frances-ann-hurley",
+  "electionId": "il-2026-11-03-general",
+  "name": "Frances Ann Hurley",
+  "party": "Democratic",
+  "office": "State Senator, 18th District",
+  "contestIds": [
+    "chicago-boe:state-senator-18th-district",
+    "cook-clerk:171802"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Frances Ann Hurley, a Democrat, is running for State Senator in the 18th District. She served in the Illinois House from 2013 to 2023. Prior to that, she was an aide to Chicago aldermen and director of the Saint Christina Manna Program. She chaired the House Police and Fire Committee. She sponsored legislation that became law regarding the special education maximum age and state police law enforcement. Her campaign says she co-chaired the First Responders Suicide Prevention Taskforce, which proposed mental health solutions for first responders. In 2019, as Human Services Committee chair, she halted bills pertaining to reproductive health care and abortion, Capitol News Illinois reported.",
+        "cites": [1, 2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "Frances Ann Hurley, a Democrat, is running for State Senator in the 18th District.",
+            "cites": [1]
+          },
+          {
+            "text": "She served in the Illinois House from 2013 to 2023.",
+            "cites": [1]
+          },
+          {
+            "text": "Prior to that, she was an aide to Chicago aldermen and director of the Saint Christina Manna Program.",
+            "cites": [2]
+          },
+          {
+            "text": "She chaired the House Police and Fire Committee.",
+            "cites": [1]
+          },
+          {
+            "text": "She sponsored legislation that became law regarding the special education maximum age and state police law enforcement.",
+            "cites": [3]
+          },
+          {
+            "text": "Her campaign says she co-chaired the First Responders Suicide Prevention Taskforce, which proposed mental health solutions for first responders.",
+            "cites": [4]
+          },
+          {
+            "text": "In 2019, as Human Services Committee chair, she halted bills pertaining to reproductive health care and abortion, Capitol News Illinois reported.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Fran Hurley",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=23955",
+        "period": "April 1 to June 30, 2026",
+        "raised": 41937.58,
+        "cashOnHand": 185792.6,
+        "breakdown": [
+          { "kind": "small", "amount": 100 },
+          { "kind": "large", "amount": 7000 },
+          { "kind": "transfer", "amount": 34750 },
+          { "kind": "other", "amount": 87.58 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 90702.02, "count": 35 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "AFSCME Illinois PEOPLE",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [9] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [10]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [11] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [12]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Frances Ann Hurley - Ballotpedia",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Frances_Ann_Hurley",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "INSIDE THIS ISSUE",
+      "publisher": "Illinois General Assembly Legislative Research Unit",
+      "url": "https://www.ilga.gov/commission/lru/Nov2012FirstRdg.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Frances Ann Hurley (D) - 104th General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/house/members/details/2862",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "About Fran",
+      "publisher": "Fran Hurley campaign",
+      "url": "https://franhurley.com/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Nearly 200 women urge House Dems to resurrect Reproductive Health Act",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/nearly-200-women-urge-house-dems-to-resurrect-reproductive-health-act/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Illinois Federation of Teachers | Vote",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Election 2026",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:26:20.966Z",
+    "version": 5
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "key": "lori-smith",
+  "electionId": "il-2026-11-03-general",
+  "name": "Lori Smith",
+  "party": "Republican",
+  "office": "State Representative, 51st District",
+  "contestIds": ["cook-clerk:185100"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Lori Smith is an educator from Long Grove with nearly 30 years in special education as a teacher and school administrator in public and private schools. She is a learning behavior specialist.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Lori Smith is an educator from Long Grove with nearly 30 years in special education as a teacher and school administrator in public and private schools.",
+            "cites": [1]
+          },
+          { "text": "She is a learning behavior specialist.", "cites": [1] }
+        ]
+      },
+      {
+        "text": "At a League of Women Voters forum, Smith said she believes life begins at conception and said Illinois law is settled on the subject. She says her first bill would repeal the Illinois vehicle emissions inspection program for non-commercial gasoline vehicles. She opposes the countywide 1 percent school sales tax, saying it adds to property taxes. She criticized state spending of $70 million on one-time $400 payments to people affected by federal SNAP cuts.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "At a League of Women Voters forum, Smith said she believes life begins at conception and said Illinois law is settled on the subject.",
+            "cites": [1]
+          },
+          {
+            "text": "She says her first bill would repeal the Illinois vehicle emissions inspection program for non-commercial gasoline vehicles.",
+            "cites": [2]
+          },
+          {
+            "text": "She opposes the countywide 1 percent school sales tax, saying it adds to property taxes.",
+            "cites": [3]
+          },
+          {
+            "text": "She criticized state spending of $70 million on one-time $400 payments to people affected by federal SNAP cuts.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Lori for Illinois",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41026",
+        "period": "July 1 to September 30, 2026",
+        "raised": 2520.5,
+        "cashOnHand": 2083.72,
+        "breakdown": [
+          { "kind": "small", "amount": 52.05 },
+          { "kind": "large", "amount": 2468.45 }
+        ],
+        "largeSince": { "since": "2026-09-30", "total": 2266, "count": 1 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Federation of Illinois Young Republicans",
+        "kind": "party",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Political newcomers vying for 51st District state House seat",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/10/06/illinois-51st-state-representative-district/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "2026 Election Questionnaire: Lori Smith, Illinois State Representative, 51st District",
+      "publisher": "Shaw Local News",
+      "url": "https://www.shawlocal.com/news/election/2026/09/21/2026-election-questionnaire-lori-smith-illinois-state-representative-51st-district/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Lake County Republicans: Here's who's on your Nov. 3 ballot",
+      "publisher": "Lake County Gazette",
+      "url": "https://lakecountygazette.com/lake-county-republicans-here-s-who-s-on-your-nov-3-ballot",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Candidate forum will spotlight 51st House race candidates Smith, Levin - Chronicle Media",
+      "publisher": "Chronicle Illinois",
+      "url": "https://chronicleillinois.com/news/lake-county-news/candidate-forum-will-spotlight-51st-house-race-candidates-smith-levin-2/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Voter Guide Profile for IL General Assembly, District 51 candidate - Lori Smith",
+      "publisher": "iVoterGuide",
+      "url": "https://ivoterguide.com/candidate/89320/race/29696/election/1443",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:12:38.624Z",
+    "version": 4
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "key": "elizabeth-liz-nicholson",
+  "electionId": "il-2026-11-03-general",
+  "name": "Elizabeth \"Liz\" Nicholson",
+  "party": "Democratic",
+  "office": "Board of Review Commissioner, 2nd District",
+  "contestIds": [
+    "chicago-boe:board-of-review-2nd-district",
+    "cook-clerk:230200"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Elizabeth \"Liz\" Nicholson is the Democratic candidate for Cook County Board of Review Commissioner, 2nd District. She was a longtime adviser to former Illinois Senate President John Cullerton. She has also worked as a campaign fundraiser and advocated for concussion safety, which included a lawsuit against the NFL.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Elizabeth \"Liz\" Nicholson is the Democratic candidate for Cook County Board of Review Commissioner, 2nd District.",
+            "cites": [1]
+          },
+          {
+            "text": "She was a longtime adviser to former Illinois Senate President John Cullerton.",
+            "cites": [2]
+          },
+          {
+            "text": "She has also worked as a campaign fundraiser and advocated for concussion safety, which included a lawsuit against the NFL.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "Nicholson has proposed improving transparency and reducing backlogs in the appeals process. She also wants to expand language access and ensure appeals are resolved on time. Her campaign says every taxpayer appealing an assessment should get a fair chance to reduce their property tax bill. She has said the board should work together and not let ideology influence its decisions.",
+        "cites": [1, 4, 5],
+        "sentences": [
+          {
+            "text": "Nicholson has proposed improving transparency and reducing backlogs in the appeals process.",
+            "cites": [1]
+          },
+          {
+            "text": "She also wants to expand language access and ensure appeals are resolved on time.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign says every taxpayer appealing an assessment should get a fair chance to reduce their property tax bill.",
+            "cites": [4]
+          },
+          {
+            "text": "She has said the board should work together and not let ideology influence its decisions.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Liz Nicholson",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40500",
+        "period": "April 1 to June 30, 2026",
+        "raised": 30770,
+        "cashOnHand": 28668.44,
+        "breakdown": [
+          { "kind": "small", "amount": 1370 },
+          { "kind": "large", "amount": 20600 },
+          { "kind": "transfer", "amount": 7300 },
+          { "kind": "candidate", "amount": 1500 }
+        ],
+        "fromCandidate": 1500,
+        "largeSince": { "since": "2026-06-30", "total": 7000, "count": 4 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Cook County Democratic Party",
+        "kind": "party",
+        "cites": [1]
+      },
+      {
+        "organization": "The Democratic Party of Evanston",
+        "kind": "party",
+        "cites": [6]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "UFCW Local 881", "kind": "union", "cites": [6] },
+      { "organization": "IBEW Local 134", "kind": "union", "cites": [6] },
+      { "organization": "IBEW Local 9", "kind": "union", "cites": [6] },
+      { "organization": "Plumbers Local 130", "kind": "union", "cites": [6] },
+      {
+        "organization": "Sheetmetal Workers Local 73",
+        "kind": "union",
+        "cites": [6]
+      },
+      { "organization": "Firefighters Local 2", "kind": "union", "cites": [6] },
+      {
+        "organization": "Roofers & Waterproofers Local 11",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Sprinkler Fitters Local 281",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "International Union of Elevator Constructors Local 2",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Citizen Action/Illinois",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Italian American Police Association",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "U.S. Rep. Jan Schakowsky",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "U.S. Rep. Mike Quigley",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Former Illinois Secretary of State Jesse White",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "State Sen. Sara Feigenholtz",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "State Sen. Mattie Hunter",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "State Sen. Napoleon Harris",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "State Sen. Elgie Sims",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "State Sen. Michael Hastings",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "State Sen. Robert Martwick Jr.",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "kind": "elected_official",
+        "party": "Democratic",
+        "organization": "State Sen. Ram Villivalam",
+        "cites": [6]
+      },
+      {
+        "organization": "State Sen. Laura Murphy",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Former State Sen. Tony Munoz",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "State Rep. Eva-Dina Delgado",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "State Rep. Hoan Huynh",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "State Rep. La Shawn Ford",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Cook County Board President Toni Preckwinkle",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Cook County Treasurer Maria Pappas",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Cook County Board of Review Commissioner Larry Rogers",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Cook County Board of Review Commissioner George Cardenas",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "MWRD Commissioner Precious Brady-Davis",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Chicago City Clerk Anna Valencia",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Mayor of Elmwood Park Skip Saviano",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Mayor of Countryside Sean McDermott",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Mayor of Forest Park Rory Hoskins",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Mayor of Franklin Park Barrett Pedersen",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "River Forest Village President Cathy Adduci",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [9]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Cardenas Leads Irizarry and Nicholson Bests Steele in Cook County Board of Review Races",
+      "publisher": "WTTW",
+      "url": "https://news.wttw.com/2026/03/17/incumbents-face-challengers-cook-county-board-review-seats-amid-debate-over-rising",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Controversial Cook County Board of Review incumbent faces challenge from political operative",
+      "publisher": "WBEZ",
+      "url": "https://www.wbez.org/government-politics/elections/2026/03/17/controversial-cook-county-board-of-review-incumbent-samantha-steele-loses-to-democratic-operative",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Evanston's 2026 midterm ballot guide: Every race in the ...",
+      "publisher": "Evanston RoundTable",
+      "url": "https://evanstonroundtable.com/2026/09/30/2026-midterm-ballot-guide-english/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "About",
+      "publisher": "Liz Nicholson campaign",
+      "url": "https://www.lizfor2.com/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Real Estate Players React to Illinois 2026 Primary Results",
+      "publisher": "The Real Deal",
+      "url": "https://therealdeal.com/chicago/2026/03/18/real-estate-players-react-to-illinois-2026-primary-results/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements — Liz Nicholson for Cook County Commissioner District 2",
+      "publisher": "Liz Nicholson for Cook County",
+      "url": "https://www.lizfor2.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Endorsements — Citizen Action/Illinois",
+      "publisher": "Citizen Action/Illinois",
+      "url": "https://citizenaction-il.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:13:23.502Z",
+    "version": 4
+  }
+}

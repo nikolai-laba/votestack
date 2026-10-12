@@ -1,0 +1,187 @@
+{
+  "key": "kathleen-cunniff-ori",
+  "electionId": "il-2026-11-03-general",
+  "name": "Kathleen Cunniff Ori",
+  "party": "Democratic",
+  "office": "Circuit Court Judge, 8th Subcircuit (Vacancy of Gamrath)",
+  "contestIds": [
+    "chicago-boe:judge-8th-subcircuit-vacancy-of-gamrath",
+    "cook-clerk:340810:vacancy-of-gamrath"
+  ],
+  "kind": "judicial_candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Kathleen Cunniff Ori is a deputy supervisor in the labor and employment division of the Cook County State’s Attorney’s Office. She was admitted to the Illinois bar in 2007. Previously, she practiced at McGuireWoods and clerked for a U.S. District Court judge and a U.S. Appellate Court judge.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Kathleen Cunniff Ori is a deputy supervisor in the labor and employment division of the Cook County State’s Attorney’s Office.",
+            "cites": [1]
+          },
+          {
+            "text": "She was admitted to the Illinois bar in 2007.",
+            "cites": [1]
+          },
+          {
+            "text": "Previously, she practiced at McGuireWoods and clerked for a U.S. District Court judge and a U.S. Appellate Court judge.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends to Elect Kathleen Cunniff Ori",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40664",
+        "period": "April 1 to June 30, 2026",
+        "raised": 0,
+        "cashOnHand": 6796.89,
+        "breakdown": []
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "47th Ward Democratic Organization",
+        "kind": "party",
+        "cites": [4]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [8]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [9] },
+      {
+        "organization": "Chicago Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [5]
+      },
+      {
+        "organization": "Chicago Council of Lawyers",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [6]
+      },
+      {
+        "organization": "Illinois State Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [2]
+      },
+      {
+        "organization": "Alliance of Bar Associations for Judicial Screening",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "tally": {
+          "members": 11,
+          "ratings": [
+            { "rating": "Recommended", "count": 8 },
+            { "rating": "Qualified", "count": 2 },
+            { "rating": "Not Recommended", "count": 1 }
+          ],
+          "notEvaluated": 0
+        },
+        "cites": [7]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "“Judge Smart” Guide",
+      "publisher": "Chicago Bar Association",
+      "url": "https://www.chicagobar.org/common/Uploaded%20files/JEC%20PDFs/2026MarchSmartGuide%20FINAL.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Cook County Judicial Evaluations",
+      "publisher": "Illinois State Bar Association",
+      "url": "https://www.isba.org/judicial-elections/counties/cook",
+      "kind": "bar",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "ILLINOIS ENDORSEMENTS",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Endorsements - 47th Ward Democrats",
+      "publisher": "47th Ward Democratic Organization",
+      "url": "https://47thward.com/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Vote Smart: CBA Judicial Voter's Guide, General Election, November 3, 2026",
+      "publisher": "Chicago Bar Association",
+      "url": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 5
+    },
+    {
+      "title": "Evaluation Report: Judges on the Ballot in the November 3, 2026 General Election",
+      "publisher": "Chicago Council of Lawyers",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/CCL-Judicial-Evaluation-Report-for-Nov-3-2026-General-Election_Ballot-Order.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 6
+    },
+    {
+      "title": "Alliance of Bar Associations for Judicial Screening, 2026 General Election ratings",
+      "publisher": "Alliance of Bar Associations for Judicial Screening",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/2026-Alliance-General-Ballot-Ratings-09252026.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 7
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 8
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:31:09.325Z",
+    "version": 6
+  }
+}

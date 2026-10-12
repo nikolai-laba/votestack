@@ -1,0 +1,216 @@
+{
+  "key": "george-a-cardenas",
+  "electionId": "il-2026-11-03-general",
+  "name": "George A. Cardenas",
+  "party": "Democratic",
+  "office": "Board of Review Commissioner, 1st District",
+  "contestIds": [
+    "chicago-boe:board-of-review-1st-district",
+    "cook-clerk:230100"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "George A. Cardenas, a Democrat, is the Cook County Board of Review commissioner for the 1st District, elected in 2022. He previously served 20 years as a Chicago alderman, chairing the Environmental Protection and Energy Committee. In 2022, he pledged to assess properties at fair market value to reduce the burden on homeowners. He also supported releasing assessment methodology and reducing state tax appeal backlogs. His campaign says he launched a data dashboard and modernized internal technology. He told WTTW News he wants the board to remain independent and accountable to taxpayers. The Chicago Sun-Times reported that he said he helped homeowners in minority communities fight property tax increases.",
+        "cites": [1, 2, 3, 4, 5, 6],
+        "sentences": [
+          {
+            "text": "George A. Cardenas, a Democrat, is the Cook County Board of Review commissioner for the 1st District, elected in 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously served 20 years as a Chicago alderman, chairing the Environmental Protection and Energy Committee.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2022, he pledged to assess properties at fair market value to reduce the burden on homeowners.",
+            "cites": [3]
+          },
+          {
+            "text": "He also supported releasing assessment methodology and reducing state tax appeal backlogs.",
+            "cites": [3]
+          },
+          {
+            "text": "His campaign says he launched a data dashboard and modernized internal technology.",
+            "cites": [4]
+          },
+          {
+            "text": "He told WTTW News he wants the board to remain independent and accountable to taxpayers.",
+            "cites": [5]
+          },
+          {
+            "text": "The Chicago Sun-Times reported that he said he helped homeowners in minority communities fight property tax increases.",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of George A. Cardenas",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=17290",
+        "period": "April 1 to June 30, 2026",
+        "raised": 18991.98,
+        "cashOnHand": 57913.91,
+        "breakdown": [
+          { "kind": "large", "amount": 16850 },
+          { "kind": "transfer", "amount": 1500 },
+          { "kind": "other", "amount": 641.98 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 72300, "count": 26 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Illinois House Speaker Emanuel \"Chris\" Welch",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "State Rep. Mary Beth Canty",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Alderman Marty Quinn",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Alderman Silvana Tabares",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Cook County Democratic Party",
+        "kind": "party",
+        "cites": [5]
+      },
+      { "organization": "NBOA PAC", "kind": "organization", "cites": [9] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "kind": "elected_official",
+        "organization": "Cook County Commissioner John P. Daley",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "George Cardenas",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/George_Cardenas",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Chairman & Commissioner George A. Cardenas",
+      "publisher": "Cook County Board of Review",
+      "url": "https://www.cookcountyboardofreview.com/GeorgeCardenas",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "George A. Cardenas: 2022 candidate for Cook County Board of Review District 1",
+      "publisher": "Daily Herald",
+      "url": "https://www.dailyherald.com/20220528/news/george-a-cardenas-2022-candidate-for-cook-county-board-of-review-district-1/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Home - Paid for By Friends of George Cardenas",
+      "publisher": "George Cardenas campaign",
+      "url": "https://www.georgecardenas.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Cardenas Leads Irizarry and Nicholson Bests Steele in Cook County Board of Review Races",
+      "publisher": "WTTW News",
+      "url": "https://news.wttw.com/2026/03/17/incumbents-face-challengers-cook-county-board-review-seats-amid-debate-over-rising",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Two Cook County property tax appeal commissioners face strong challengers in March 17 primary",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/02/26/cook-county-board-of-review-march-17-primary-steele-cardenas-nicholson-irizarry",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "2026 Cook County, Illinois, elections",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Cook_County,_Illinois,_elections",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Harmon slows Pritzker's pension push",
+      "publisher": "Politico",
+      "url": "https://www.politico.com/newsletters/illinois-playbook/2026/02/06/harmon-slows-pritzkers-pension-push-00768581",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Endorsements",
+      "publisher": "NBOA PAC",
+      "url": "https://www.nboapac.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:12:42.911Z",
+    "version": 8
+  }
+}

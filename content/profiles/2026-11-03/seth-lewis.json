@@ -1,0 +1,278 @@
+{
+  "key": "seth-lewis",
+  "electionId": "il-2026-11-03-general",
+  "name": "Seth Lewis",
+  "party": "Republican",
+  "office": "State Senator, 24th District",
+  "contestIds": ["cook-clerk:172402"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Seth Lewis has been the State Senator for the 24th District since 2023, after two years in the Illinois House. He is a State Farm agent and former manufacturing executive who served as a Bartlett Fire Protection District trustee. His campaign says he passed Cal’s Law to expand cancer diagnostic testing for children and created the Indian American Advisory Council. He supported the Dignity of Pay Act.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Seth Lewis has been the State Senator for the 24th District since 2023, after two years in the Illinois House.",
+            "cites": [1]
+          },
+          {
+            "text": "He is a State Farm agent and former manufacturing executive who served as a Bartlett Fire Protection District trustee.",
+            "cites": [2]
+          },
+          {
+            "text": "His campaign says he passed Cal’s Law to expand cancer diagnostic testing for children and created the Indian American Advisory Council.",
+            "cites": [2]
+          },
+          { "text": "He supported the Dignity of Pay Act.", "cites": [3] }
+        ]
+      },
+      {
+        "text": "In 2023, he co-sponsored a resolution against a progressive income tax. He is a chief co-sponsor of a 2025 bill to ban certain food additives. He previously co-sponsored a bill to make a ban on life without parole retroactive for young offenders. He supported a medical debt relief program.",
+        "cites": [4, 5, 6, 7],
+        "sentences": [
+          {
+            "text": "In 2023, he co-sponsored a resolution against a progressive income tax.",
+            "cites": [4]
+          },
+          {
+            "text": "He is a chief co-sponsor of a 2025 bill to ban certain food additives.",
+            "cites": [5]
+          },
+          {
+            "text": "He previously co-sponsored a bill to make a ban on life without parole retroactive for young offenders.",
+            "cites": [6]
+          },
+          {
+            "text": "He supported a medical debt relief program.",
+            "cites": [7]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Citizens for Seth Lewis",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=25522",
+        "period": "April 1 to June 30, 2026",
+        "raised": 47025,
+        "cashOnHand": 222773.34,
+        "breakdown": [
+          { "kind": "small", "amount": 1475 },
+          { "kind": "large", "amount": 3200 },
+          { "kind": "transfer", "amount": 42350 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 556812.5, "count": 86 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "NFIB Illinois PAC",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Illinois Sheriffs' Association",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "ABATE of Illinois",
+        "kind": "organization",
+        "cites": [9]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [10] },
+      {
+        "organization": "Associated Fire Fighters of Illinois",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "IUOE Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Bob Berlin - DuPage County State's Attorney",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [9]
+      },
+      {
+        "organization": "Sheriff James Mendrick - DuPage County Sheriff",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [9]
+      },
+      {
+        "organization": "The Honorable Tom Hundley - Mayor of Addison",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "The Honorable Dan Gunsteen - Mayor of Bartlett",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "The Honorable Franco Coladipietro - Mayor of Bloomingdale",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "The Honorable Frank Saverino Sr. - Mayor of Carol Stream",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "The Honorable Craig Johnson - Mayor of Elk Grove",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "The Honorable Rodney Craig - Mayor of Hanover Park",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "The Honorable Jeff Pruyn - Mayor of Itasca",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "The Honorable Phillip Suess - Mayor of Wheaton",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "The Honorable Carl Sorgatz - Mayor of Winfield",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [12]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Seth Lewis (R) - Senate - Illinois General Assembly - Member",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/Senate/Members/Details/3406",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Biography - Senator Lewis",
+      "publisher": "Senator Lewis campaign",
+      "url": "https://senatorlewis.com/biography/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "News - Vote Seth Lewis",
+      "publisher": "Vote Seth Lewis campaign",
+      "url": "https://www.electsethlewis.com/news",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Senator Seth Lewis' Legislative Review",
+      "publisher": "Senator Lewis campaign",
+      "url": "https://senatorlewis.com/senator-seth-lewis-legislative-review/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Illinois lawmakers try again to ban certain food additives",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/illinois-lawmakers-try-again-to-ban-certain-food-additives/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Illinois banned life sentences for young offenders—but not for those already behind bars",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/illinois-banned-life-sentences-for-young-offenders-but-not-for-those-already-behind-bars/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Daily Herald opinion: A gratifying display: Still, planned increases for medical-debt relief show quandary facing government budgets",
+      "publisher": "Daily Herald",
+      "url": "https://www.dailyherald.com/20260311/editorials/daily-herald-opinion-a-gratifying-display-still-planned-increases-for-medical-debt-relief-show-qu/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "NFIB Illinois PAC Announces 2026 Legislative Endorsements",
+      "publisher": "National Federation of Independent Business",
+      "url": "https://www.nfib.com/news/news/nfib-illinois-pac-announces-2026-legislative-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Endorsements - Vote Seth Lewis",
+      "publisher": "Vote Seth Lewis",
+      "url": "https://www.electsethlewis.com/endorsements_update",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Illinois AFL-CIO 2026 Primary Election Endorsements",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2025/12/IL-AFL-CIO-endorsements-120925.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:51:51.899Z",
+    "version": 3
+  }
+}

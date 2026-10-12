@@ -1,0 +1,232 @@
+{
+  "key": "delia-ramirez",
+  "electionId": "il-2026-11-03-general",
+  "name": "Delia Ramirez",
+  "party": "Democratic",
+  "office": "U.S. Representative, 3rd District",
+  "contestIds": [
+    "chicago-boe:u-s-representative-3rd-district",
+    "cook-clerk:140300"
+  ],
+  "kind": "candidate",
+  "tier": "top",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Delia Ramirez has represented Illinois's 3rd Congressional District in the U.S. House since 2023. Before Congress, she served as an Assistant Majority Leader in the Illinois House. Earlier, she was Executive Director of the Center for Changing Lives, a nonprofit, and held roles at Common Cause IL and the Community Renewal Society.",
+        "cites": [1, 2, 3]
+      },
+      {
+        "text": "In September 2026, she introduced the Reimagining Safety Act, which proposes dismantling the Department of Homeland Security and U.S. Immigration and Customs Enforcement and redirecting their funding to social services. She co-sponsors the Medicare for All Act and advocates for a $19 per hour federal minimum wage. She has also introduced the Tenants' Right to Organize Act and supports the Green New Deal for Public Housing. She has cosponsored legislation in Congress to expand background checks and ban assault-style weapons. She voted to extend enhanced Affordable Care Act premium tax credits and to direct the removal of U.S. forces from hostilities with Iran.",
+        "cites": [4, 2, 5, 6],
+        "sentences": [
+          {
+            "text": "In September 2026, she introduced the Reimagining Safety Act, which proposes dismantling the Department of Homeland Security and U.S. Immigration and Customs Enforcement and redirecting their funding to social services.",
+            "cites": [4]
+          },
+          {
+            "text": "She co-sponsors the Medicare for All Act and advocates for a $19 per hour federal minimum wage.",
+            "cites": [2]
+          },
+          {
+            "text": "She has also introduced the Tenants' Right to Organize Act and supports the Green New Deal for Public Housing.",
+            "cites": [2]
+          },
+          {
+            "text": "She has cosponsored legislation in Congress to expand background checks and ban assault-style weapons.",
+            "cites": [5]
+          },
+          {
+            "text": "She voted to extend enhanced Affordable Care Act premium tax credits and to direct the removal of U.S. forces from hostilities with Iran.",
+            "cites": [6]
+          }
+        ]
+      },
+      {
+        "text": "Her official website says she passed legislation in the state legislature expanding Medicaid coverage to Illinois seniors regardless of immigration status and helped secure over $450 million for affordable housing. She also secured $250 million for community-based violence prevention programs. She introduced the COVID-19 Emergency Housing Act, which established protections for people struggling to pay rent and mortgages during the pandemic. In Congress, she has proposed earmarks including $13 million for a road project in Elk Grove Village and $3 million for a community center in Belmont Cragin.",
+        "cites": [3, 5, 7, 8],
+        "sentences": [
+          {
+            "text": "Her official website says she passed legislation in the state legislature expanding Medicaid coverage to Illinois seniors regardless of immigration status and helped secure over $450 million for affordable housing.",
+            "cites": [3]
+          },
+          {
+            "text": "She also secured $250 million for community-based violence prevention programs.",
+            "cites": [5]
+          },
+          {
+            "text": "She introduced the COVID-19 Emergency Housing Act, which established protections for people struggling to pay rent and mortgages during the pandemic.",
+            "cites": [7]
+          },
+          {
+            "text": "In Congress, she has proposed earmarks including $13 million for a road project in Elk Grove Village and $3 million for a community center in Belmont Cragin.",
+            "cites": [8]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "United with Delia for Congress",
+        "url": "https://www.fec.gov/data/committee/C00796672/?cycle=2026",
+        "period": "January 1, 2025 to June 30, 2026",
+        "raised": 1465280.22,
+        "cashOnHand": 946222.08,
+        "breakdown": [
+          { "kind": "small", "amount": 148641.22 },
+          { "kind": "large", "amount": 889031.46 },
+          { "kind": "pac", "amount": 371346.85 },
+          { "kind": "party", "amount": 500 },
+          { "kind": "transfer", "amount": 49850 },
+          { "kind": "other", "amount": 5910.69 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "American Federation of Government Employees",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "Giffords", "kind": "organization", "cites": [5] },
+      { "organization": "MoveOn", "kind": "organization", "cites": [2] },
+      {
+        "organization": "Our Revolution",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [11]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [12] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [13]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Delia Ramirez",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Delia_Ramirez",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Delia Ramirez : MoveOn: People-Powered Progress",
+      "publisher": "MoveOn",
+      "url": "https://front.moveon.org/endorsements/candidates/delia-ramirez/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "About | Representative Delia Ramirez",
+      "publisher": "Delia Ramirez House website",
+      "url": "https://ramirez.house.gov/about",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "US Rep. Delia Ramirez introduces bill to dismantle DHS, abolish ICE - CBS Chicago",
+      "publisher": "CBS News Chicago",
+      "url": "https://www.cbsnews.com/chicago/news/chicago-delia-ramirez-bill-dismantle-dhs-abolish-ice/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Delia Ramirez | GIFFORDS",
+      "publisher": "GIFFORDS",
+      "url": "https://giffords.org/candidates/delia-ramirez-3/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Delia Ramirez · U.S. House · Illinois's 3rd District - The Full Record",
+      "publisher": "The Full Record",
+      "url": "https://www.thefullrecord.org/guide/race/us-house-il-3/delia-ramirez",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "House Candidate, Daughter of Immigrants Delia Ramirez Born to Serve",
+      "publisher": "Latino Rebels",
+      "url": "https://www.latinorebels.com/2022/06/03/ilramirez/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Rep. Delia Ramirez",
+      "publisher": "GovTrack",
+      "url": "https://www.govtrack.us/congress/members/delia_ramirez/456900",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "AFGE Endorses 7 Illinois Lawmakers for Reelection to Congress",
+      "publisher": "American Federation of Government Employees",
+      "url": "https://www.afge.org/publication/afge-endorses-7-illinois-lawmakers-for-reelection-to-congress/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Rep. Delia Ramirez for Reelection in Illinois' 3rd District - Our Revolution",
+      "publisher": "Our Revolution",
+      "url": "https://ourrevolution.com/delia-ramirez-illinois-endorsement/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 13
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:36:19.694Z",
+    "version": 8
+  }
+}

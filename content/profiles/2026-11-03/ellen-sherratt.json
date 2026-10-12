@@ -1,0 +1,236 @@
+{
+  "key": "ellen-sherratt",
+  "electionId": "il-2026-11-03-general",
+  "name": "Ellen Sherratt",
+  "office": "Chicago Board of Education Member, Subdistrict 4A",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-4a"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Ellen Sherratt is an education consultant on teacher quality who founded Common Cents Education. She previously served as vice president for policy and research at the National Board for Professional Teaching Standards. Her work includes a national initiative to raise teacher pay and Illinois efforts to address educator shortages. She once favored performance-based pay for teachers but said her research changed her view.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Ellen Sherratt is an education consultant on teacher quality who founded Common Cents Education.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously served as vice president for policy and research at the National Board for Professional Teaching Standards.",
+            "cites": [2]
+          },
+          {
+            "text": "Her work includes a national initiative to raise teacher pay and Illinois efforts to address educator shortages.",
+            "cites": [1]
+          },
+          {
+            "text": "She once favored performance-based pay for teachers but said her research changed her view.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "Sherratt has called for the board to set \"moonshot goals\" for student achievement by 2037, including raising math scores. She says she would hold after-school office hours for students. She criticized a recent district budget that relied on unapproved state funds. Sherratt says she would be an independent voice not beholden to special interests.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Sherratt has called for the board to set \"moonshot goals\" for student achievement by 2037, including raising math scores.",
+            "cites": [1]
+          },
+          {
+            "text": "She says she would hold after-school office hours for students.",
+            "cites": [1]
+          },
+          {
+            "text": "She criticized a recent district budget that relied on unapproved state funds.",
+            "cites": [1]
+          },
+          {
+            "text": "Sherratt says she would be an independent voice not beholden to special interests.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Ellen Sherratt",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41076",
+        "period": "April 1 to June 30, 2026",
+        "raised": 29536,
+        "cashOnHand": 44724.65,
+        "breakdown": [
+          { "kind": "small", "amount": 2456 },
+          { "kind": "large", "amount": 27080 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 96089.11, "count": 41 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "State Rep. Margaret Croke",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [3]
+      },
+      {
+        "organization": "Ald. Bennett Lawson",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [5]
+      },
+      { "organization": "SEIU Healthcare", "kind": "union", "cites": [6] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "IUOE Local 150", "kind": "union", "cites": [8] },
+      {
+        "organization": "INCS Action PAC",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Common Ground Collective",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "The Urban Center",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "47th Ward Democratic Organization",
+        "kind": "party",
+        "cites": [4]
+      },
+      {
+        "organization": "Chicago Tribune Editorial Board",
+        "kind": "editorial_board",
+        "cites": [11]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [12] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Chicago school board election 2026 voter guide: District 4a candidates - Chalkbeat",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-election-2026-district-4a-candidates-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Who We Are — Common Cents Education",
+      "publisher": "Common Cents Education",
+      "url": "https://www.commoncentseducation.com/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Chicago’s First Fully Elected School Board: A Guide to the 2A ...",
+      "publisher": "Loyola Phoenix",
+      "url": "https://loyolaphoenix.com/2026/09/chicagos-first-fully-elected-school-board-a-guide-to-the-2a-2b-and-4a-races/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Testing the Carolina waters",
+      "publisher": "Politico",
+      "url": "https://www.politico.com/newsletters/illinois-playbook/2026/09/30/testing-the-carolina-waters-01098441",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Elections & Endorsements",
+      "publisher": "SEIU Illinois State Council",
+      "url": "https://seiuilcouncil.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Election Center - SEIU Healthcare",
+      "publisher": "SEIU Healthcare",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "ILLINOIS ENDORSEMENTS",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Key education endorsements for CPS School Board candidates",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/education/2026/09/21/key-education-endorsements-for-cps-school-board-candidates",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Endorsements — Common Ground Collective",
+      "publisher": "Common Ground Collective",
+      "url": "https://cgcollective.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Editorial: Ellen Sherratt for Chicago School Board in District 4A",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/09/28/editorial-ellen-sherratt-chicago-school-board-district-4a/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:44:14.316Z",
+    "version": 3
+  }
+}

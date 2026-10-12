@@ -1,0 +1,74 @@
+{
+  "key": "ramona-bonilla-anaiel",
+  "electionId": "il-2026-11-03-general",
+  "name": "Ramona Bonilla-Anaiel",
+  "party": "Republican",
+  "office": "Cook County Commissioner, 8th District",
+  "contestIds": [
+    "chicago-boe:county-commissioner-8th-district",
+    "cook-clerk:220800"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Ramona Bonilla-Anaiel is the Republican candidate for Cook County Commissioner in the 8th District. She is the Republican ward committeeperson for Chicago's 31st Ward. She has worked as a chief union steward for Chicago Public Schools. The SEIU board removed her as an executive in 2025 over Facebook posts it called racist, homophobic, and transphobic.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Ramona Bonilla-Anaiel is the Republican candidate for Cook County Commissioner in the 8th District.",
+            "cites": [1]
+          },
+          {
+            "text": "She is the Republican ward committeeperson for Chicago's 31st Ward.",
+            "cites": [2]
+          },
+          {
+            "text": "She has worked as a chief union steward for Chicago Public Schools.",
+            "cites": [3]
+          },
+          {
+            "text": "The SEIU board removed her as an executive in 2025 over Facebook posts it called racist, homophobic, and transphobic.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": { "asOf": "2026-10-07", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate Filings in Ballot Order, November 3, 2026",
+      "publisher": "Cook County Clerk",
+      "url": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2026-08/Candidate%20List_20260819-1_0.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Summary Report",
+      "publisher": "Cook County Clerk",
+      "url": "https://cboeresults.blob.core.usgovcloudapi.net/results/Summary%20Report%20(2%20Column).pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "SEIU Board removes member over controversial Facebook posts",
+      "publisher": "FOX 32 Chicago",
+      "url": "https://www.fox32chicago.com/news/seiu-board-removes-member-over-controversial-facebook-posts",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T16:52:21.821Z",
+    "version": 3
+  }
+}

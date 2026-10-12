@@ -1,0 +1,234 @@
+{
+  "key": "abdelnasser-rashid",
+  "electionId": "il-2026-11-03-general",
+  "name": "Abdelnasser Rashid",
+  "party": "Democratic",
+  "office": "State Representative, 21st District",
+  "contestIds": [
+    "chicago-boe:state-representative-21st-district",
+    "cook-clerk:182100"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Abdelnasser Rashid has been the 21st District's State Representative since January 2023. Previously, he was a deputy chief of staff to Cook County Clerk David Orr. He passed a bill to ban PFAS in consumer products. He passed another bill creating a committee to address PFAS in wastewater. He passed legislation prohibiting community colleges from using artificial intelligence as the sole source of instruction. He passed a bill requiring state guidance on expanding dual language programs. He proposed a bill limiting rent increases at mobile home parks to 3% annually. He introduced a constitutional amendment to allow graduated income tax rates. He sponsored a bill to repeal a state law penalizing companies that boycott Israel.",
+        "cites": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+        "sentences": [
+          {
+            "text": "Abdelnasser Rashid has been the 21st District's State Representative since January 2023.",
+            "cites": [1]
+          },
+          {
+            "text": "Previously, he was a deputy chief of staff to Cook County Clerk David Orr.",
+            "cites": [2]
+          },
+          {
+            "text": "He passed a bill to ban PFAS in consumer products.",
+            "cites": [3]
+          },
+          {
+            "text": "He passed another bill creating a committee to address PFAS in wastewater.",
+            "cites": [4]
+          },
+          {
+            "text": "He passed legislation prohibiting community colleges from using artificial intelligence as the sole source of instruction.",
+            "cites": [5]
+          },
+          {
+            "text": "He passed a bill requiring state guidance on expanding dual language programs.",
+            "cites": [6]
+          },
+          {
+            "text": "He proposed a bill limiting rent increases at mobile home parks to 3% annually.",
+            "cites": [7]
+          },
+          {
+            "text": "He introduced a constitutional amendment to allow graduated income tax rates.",
+            "cites": [8]
+          },
+          {
+            "text": "He sponsored a bill to repeal a state law penalizing companies that boycott Israel.",
+            "cites": [9]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Rashid for Illinois",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=37289",
+        "period": "April 1 to June 30, 2026",
+        "raised": 56890.71,
+        "cashOnHand": 273888.87,
+        "breakdown": [
+          { "kind": "small", "amount": 12840.71 },
+          { "kind": "large", "amount": 44050 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 27200, "count": 10 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Cook County College Teachers Union Local 1600",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [12]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [13] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [14]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [15] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Abdelnasser Rashid (D) - 104th General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://ilga.gov/Senate/Members/Details/3420",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Abdelnasser Rashid",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Abdelnasser_Rashid",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Abdelnasser Rashid (D) - 104th General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://ilga.gov/House/Members/Details/3420",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "IL HB2955 | 2025-2026 | 104th General Assembly",
+      "publisher": "LegiScan",
+      "url": "https://legiscan.com/IL/bill/HB2955/2025",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "IL HB1859 | 2025-2026 | 104th General Assembly",
+      "publisher": "LegiScan",
+      "url": "https://legiscan.com/IL/bill/HB1859/2025",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "IL HB3026 | 2025-2026 | 104th General Assembly",
+      "publisher": "LegiScan",
+      "url": "https://legiscan.com/IL/bill/HB3026/2025",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "HB3526 - 104th General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/Legislation/BillStatus?DocTypeID=HB&DocNum=3526&GAID=18&LegID=162216",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "IL HJRCA0016 | 2025-2026 | 104th General Assembly",
+      "publisher": "LegiScan",
+      "url": "https://legiscan.com/IL/bill/HJRCA0016/2025",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Lawmakers seek to reverse Illinois law penalizing companies that boycott Israel",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/lawmakers-seek-to-reverse-illinois-law-penalizing-companies-that-boycott-israel/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Equality Illinois makes 72 pro-equality, pro-family endorsements for 2026 primary election",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/01/15/equality-illinois-makes-72-pro-equality-pro-family-endorsements-for-2026-primary-election/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Endorsements for the March 17, 2026 Primary Election - Ccctu",
+      "publisher": "Cook County College Teachers Union",
+      "url": "https://www.ccctu.org/post/early-endorsements-for-the-march-17-2026-primary-election",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 15
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:58:40.064Z",
+    "version": 8
+  }
+}

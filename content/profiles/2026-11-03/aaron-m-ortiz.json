@@ -1,0 +1,240 @@
+{
+  "key": "aaron-m-ortiz",
+  "electionId": "il-2026-11-03-general",
+  "name": "Aaron M. Ortiz",
+  "party": "Democratic",
+  "office": "State Representative, 1st District",
+  "contestIds": [
+    "chicago-boe:state-representative-1st-district",
+    "cook-clerk:180100"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "State Representative Aaron M. Ortiz has represented the 1st District since 2019. He is a former educator and college counselor at Chicago Public Schools, a member of the Chicago Teachers Union, and a member of the Local School Council for Back of the Yards High School.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "State Representative Aaron M. Ortiz has represented the 1st District since 2019.",
+            "cites": [1]
+          },
+          {
+            "text": "He is a former educator and college counselor at Chicago Public Schools, a member of the Chicago Teachers Union, and a member of the Local School Council for Back of the Yards High School.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "His campaign says he backed a 2026 bill to prohibit immigration detention centers within 1,500 feet of homes, parks, schools, and daycares. It also states he supported a measure to expand state tuition assistance for community college students. He backed a bill requiring grocery chains with digital coupons to provide a physical alternative, according to his campaign. He sponsored legislation proposing $50 million to fund after-school programs in high-poverty schools.",
+        "cites": [2, 3],
+        "sentences": [
+          {
+            "text": "His campaign says he backed a 2026 bill to prohibit immigration detention centers within 1,500 feet of homes, parks, schools, and daycares.",
+            "cites": [2]
+          },
+          {
+            "text": "It also states he supported a measure to expand state tuition assistance for community college students.",
+            "cites": [2]
+          },
+          {
+            "text": "He backed a bill requiring grocery chains with digital coupons to provide a physical alternative, according to his campaign.",
+            "cites": [2]
+          },
+          {
+            "text": "He sponsored legislation proposing $50 million to fund after-school programs in high-poverty schools.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Aaron Ortiz",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=34288",
+        "period": "April 1 to June 30, 2026",
+        "raised": 10500,
+        "cashOnHand": 159230.64,
+        "breakdown": [
+          { "kind": "large", "amount": 500 },
+          { "kind": "transfer", "amount": 10000 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "U.S. Rep. Jesús \"Chuy\" García",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "State Sen. Javier Cervantes",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "Cook County Commissioner Alma Anaya",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "Alderman Michael D. Rodriguez",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Alderwoman Jeylú B. Gutiérrez",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [4] },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [4]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [5] },
+      {
+        "organization": "Citizen Action Illinois",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Planned Parenthood Illinois Action PAC",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [4]
+      },
+      { "organization": "ICIRR Action", "kind": "organization", "cites": [4] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "Carpenter Mid-America Regional Council",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "Chicago Teachers Union",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "Cook County College Teachers Union Local 1600",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "International Association of Firefighters",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "Operating Engineer Local 150",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "Operating Engineers Local 399",
+        "kind": "union",
+        "cites": [4]
+      },
+      { "organization": "IBEW Local 134", "kind": "union", "cites": [4] },
+      {
+        "organization": "Painters District Council 14",
+        "kind": "union",
+        "cites": [4]
+      },
+      { "organization": "14th Ward Democrats", "kind": "party", "cites": [4] },
+      { "organization": "22nd Ward IPO", "kind": "organization", "cites": [4] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Aarón M. Ortíz (D) - Illinois General Assembly - Member",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/house/members/details/3358",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Rep. Aaron M. Ortiz",
+      "publisher": "Illinois House Democratic Caucus",
+      "url": "https://ilhousedems.com/project/rep-aaron-ortiz/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "After-school programs continue push for state aid",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/after-school-programs-continue-push-for-state-aid/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Endorsements - Aaron Ortiz",
+      "publisher": "Aaron Ortiz",
+      "url": "https://www.aaronortiz.org/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements — Citizen Action/Illinois",
+      "publisher": "Citizen Action Illinois",
+      "url": "https://www.citizenaction-il.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements for the March 17, 2026 Primary Election",
+      "publisher": "Cook County College Teachers Union Local 1600",
+      "url": "https://www.ccctu.org/post/early-endorsements-for-the-march-17-2026-primary-election",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:43:33.971Z",
+    "version": 5
+  }
+}

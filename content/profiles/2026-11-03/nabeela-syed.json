@@ -1,0 +1,251 @@
+{
+  "key": "nabeela-syed",
+  "electionId": "il-2026-11-03-general",
+  "name": "Nabeela Syed",
+  "party": "Democratic",
+  "office": "State Senator, 26th District",
+  "contestIds": ["cook-clerk:172602"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "State Representative Nabeela Syed has served in the Illinois House since January 2023. She sponsored Senate Bill 3496, which passed the House and would create an independent board to set upper payment limits on certain prescription drugs. Her campaign says she would also cap out-of-pocket drug costs and expand mental health services.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "State Representative Nabeela Syed has served in the Illinois House since January 2023.",
+            "cites": [1]
+          },
+          {
+            "text": "She sponsored Senate Bill 3496, which passed the House and would create an independent board to set upper payment limits on certain prescription drugs.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign says she would also cap out-of-pocket drug costs and expand mental health services.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "Laws she sponsored include the Generic Drug Pricing Fairness Act, which prohibits price gouging on generic and off-patent prescription drugs. She also sponsored laws allowing psychology licensure applicants to test earlier and requiring insurers to cover molecular breast imaging for cancer screening.",
+        "cites": [4],
+        "sentences": [
+          {
+            "text": "Laws she sponsored include the Generic Drug Pricing Fairness Act, which prohibits price gouging on generic and off-patent prescription drugs.",
+            "cites": [4]
+          },
+          {
+            "text": "She also sponsored laws allowing psychology licensure applicants to test earlier and requiring insurers to cover molecular breast imaging for cancer screening.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends & Family of Nabeela Syed",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=37009",
+        "period": "April 1 to June 30, 2026",
+        "raised": 170664.85,
+        "cashOnHand": 280490.31,
+        "breakdown": [
+          { "kind": "small", "amount": 6461 },
+          { "kind": "large", "amount": 122664.33 },
+          { "kind": "transfer", "amount": 41500 },
+          { "kind": "other", "amount": 39.52 }
+        ],
+        "largeSince": {
+          "since": "2026-06-30",
+          "total": 2043514.41,
+          "count": 62
+        }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Cook County College Teachers Union Local 1600",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Sierra Club Illinois",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Citizen Action/Illinois",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Indian American Impact",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Muslim Civic Coalition-Activate",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "The People's Lobby",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [12]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [13] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [14]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [15] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Nabeela Syed (D) - 104th General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/Senate/Members/Details/3423",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "House narrowly advances measure aiming to control prescription drug prices",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/house-narrowly-advances-measure-aiming-to-control-prescription-drug-prices/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Nabeela Syed for State Senate",
+      "publisher": "Nabeela Syed for State Senate",
+      "url": "https://www.nabeelasyed.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Legislation",
+      "publisher": "Rep. Nabeela Syed",
+      "url": "https://repnabeelasyed.org/legislation/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Early Endorsements for the March 17, 2026 Primary Election",
+      "publisher": "Cook County College Teachers Union Local 1600",
+      "url": "https://www.ccctu.org/post/early-endorsements-for-the-march-17-2026-primary-election",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Political Action",
+      "publisher": "Sierra Club Illinois",
+      "url": "https://www.sierraclub.org/illinois/political-action",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Endorsements",
+      "publisher": "Citizen Action/Illinois",
+      "url": "https://citizenaction-il.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "2026 Endorsed Candidates",
+      "publisher": "Indian American Impact",
+      "url": "https://iaimpact.org/endorsed-candidates/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "2026 Endorsements",
+      "publisher": "Muslim Civic Coalition-Activate",
+      "url": "https://coalition-activate.org/2026endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Endorsements",
+      "publisher": "The People's Lobby",
+      "url": "https://thepeopleslobbyusa.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 15
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:51:59.781Z",
+    "version": 4
+  }
+}

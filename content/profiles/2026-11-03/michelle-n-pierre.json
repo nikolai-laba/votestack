@@ -1,0 +1,135 @@
+{
+  "key": "michelle-n-pierre",
+  "electionId": "il-2026-11-03-general",
+  "name": "Michelle N. Pierre",
+  "office": "Chicago Board of Education Member, Subdistrict 1B",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-1b"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Michelle N. Pierre is a CPS parent, a national senior executive director of strategic district consulting at New Leaders, and has served on the board of the Chicago High School for the Arts. She previously served as chief schools officer for LEARN Charter Network and chief academic officer for the Cleveland Metropolitan School District.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Michelle N. Pierre is a CPS parent, a national senior executive director of strategic district consulting at New Leaders, and has served on the board of the Chicago High School for the Arts.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously served as chief schools officer for LEARN Charter Network and chief academic officer for the Cleveland Metropolitan School District.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "Her top issues are limiting property tax increases, improving reading and math instruction, and preserving school choice. In her 2024 campaign, she described herself as an independent voice. She also said during that campaign that she had raised academic performance and graduation rates and pioneered bilingual programs.",
+        "cites": [2, 3, 4],
+        "sentences": [
+          {
+            "text": "Her top issues are limiting property tax increases, improving reading and math instruction, and preserving school choice.",
+            "cites": [2]
+          },
+          {
+            "text": "In her 2024 campaign, she described herself as an independent voice.",
+            "cites": [3]
+          },
+          {
+            "text": "She also said during that campaign that she had raised academic performance and graduation rates and pioneered bilingual programs.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Michelle N Pierre",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39783",
+        "period": "April 1 to June 30, 2026",
+        "raised": 0,
+        "cashOnHand": 1427.23,
+        "breakdown": [],
+        "largeSince": { "since": "2026-06-30", "total": 52839.9, "count": 18 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Tribune Editorial Board",
+        "kind": "editorial_board",
+        "cites": [5]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [6] },
+      {
+        "organization": "Common Ground Collective",
+        "kind": "organization",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Michelle N. Pierre: CPS School Board District 1B Candidate",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/graphics/chicago-school-board-education-voter-guide/candidates/michelle-n-pierre/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Chicago School Board District 1B: Candidates & Voter Guide",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/graphics/chicago-school-board-education-voter-guide/school-board/districts/1b/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "2024 Chicago elected school board candidates: Michelle N. Pierre",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2024/10/26/michelle-n-pierre-tribune-questionnaire/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Michelle N. Pierre | 2024 General Election",
+      "publisher": "WTTW",
+      "url": "https://news.wttw.com/elections/voters-guide/2024-general/michelle-pierre",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Editorial: Michelle Pierre for Chicago School Board in District 1B",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/09/28/editorial-michelle-pierre-chicago-school-board-district-1b/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:41:37.314Z",
+    "version": 2
+  }
+}

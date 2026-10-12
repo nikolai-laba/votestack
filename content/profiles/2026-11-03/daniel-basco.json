@@ -1,0 +1,119 @@
+{
+  "key": "daniel-basco",
+  "electionId": "il-2026-11-03-general",
+  "name": "Daniel Basco",
+  "office": "Chicago Board of Education Member, Subdistrict 2B",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-2b"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Daniel Basco is a data scientist and policy analyst. He holds a PhD in policy analysis from the RAND School of Public Policy. He advised the U.S. Department of Education under the Obama administration on science education funding and builds technology at Kindsight to help nonprofits find donors. He says Illinois' Evidence-Based Funding law requires the state to give Chicago Public Schools roughly $1 billion more per year. He wants the board to adopt multiyear budgets. He says the district should only use artificial intelligence when research demonstrates a clear benefit to students, and he supports stronger safeguards for student data. He backs expanding mental health services, including counselors and social workers.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Daniel Basco is a data scientist and policy analyst.",
+            "cites": [1]
+          },
+          {
+            "text": "He holds a PhD in policy analysis from the RAND School of Public Policy.",
+            "cites": [2]
+          },
+          {
+            "text": "He advised the U.S. Department of Education under the Obama administration on science education funding and builds technology at Kindsight to help nonprofits find donors.",
+            "cites": [2]
+          },
+          {
+            "text": "He says Illinois' Evidence-Based Funding law requires the state to give Chicago Public Schools roughly $1 billion more per year.",
+            "cites": [3]
+          },
+          {
+            "text": "He wants the board to adopt multiyear budgets.",
+            "cites": [2]
+          },
+          {
+            "text": "He says the district should only use artificial intelligence when research demonstrates a clear benefit to students, and he supports stronger safeguards for student data.",
+            "cites": [4]
+          },
+          {
+            "text": "He backs expanding mental health services, including counselors and social workers.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends for Daniel Basco",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41211",
+        "period": "June 8 to June 30, 2026",
+        "raised": 500,
+        "cashOnHand": 500,
+        "breakdown": [{ "kind": "candidate", "amount": 500 }],
+        "fromCandidate": 500
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "Personal PAC", "kind": "organization", "cites": [5] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Daniel Basco: CPS School Board District 2B Candidate",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/graphics/chicago-school-board-education-voter-guide/candidates/daniel-basco/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Chicago school board election 2026 voter guide: District 2b candidates",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-election-2026-district-2b-candidates-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Chicago School Board District 2B: Candidates & Voter Guide",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/graphics/chicago-school-board-education-voter-guide/school-board/districts/2b/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Chicago’s First Fully Elected School Board: A Guide to the 2A, 2B and 4A Races",
+      "publisher": "Loyola Phoenix",
+      "url": "https://loyolaphoenix.com/2026/09/chicagos-first-fully-elected-school-board-a-guide-to-the-2a-2b-and-4a-races/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 5
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:42:02.758Z",
+    "version": 3
+  }
+}

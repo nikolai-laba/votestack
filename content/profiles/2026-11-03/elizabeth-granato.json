@@ -1,0 +1,253 @@
+{
+  "key": "elizabeth-granato",
+  "electionId": "il-2026-11-03-general",
+  "name": "Elizabeth Granato",
+  "party": "Democratic",
+  "office": "Cook County Commissioner, 12th District",
+  "contestIds": [
+    "chicago-boe:county-commissioner-12th-district",
+    "cook-clerk:221200"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Elizabeth Granato is the bureau chief of the Cook County Bureau of Asset Management. Her campaign says she has 15 years of experience in infrastructure, operations, and community development. She serves on the Planned Parenthood of Illinois Action Board and previously served on the North River Expanded Mental Health Services Program and Governing Commission.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Elizabeth Granato is the bureau chief of the Cook County Bureau of Asset Management.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign says she has 15 years of experience in infrastructure, operations, and community development.",
+            "cites": [1]
+          },
+          {
+            "text": "She serves on the Planned Parenthood of Illinois Action Board and previously served on the North River Expanded Mental Health Services Program and Governing Commission.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign says she wants to protect health care access and prevent large corporations from shifting their tax burden to the middle class. She has voiced concern about the cost of living and water safety, and called for government assistance for working families. As bureau chief, she reviewed proposals to move county employees into county-owned buildings with updated ADA access and technology readiness.",
+        "cites": [2, 3, 4],
+        "sentences": [
+          {
+            "text": "Her campaign says she wants to protect health care access and prevent large corporations from shifting their tax burden to the middle class.",
+            "cites": [2]
+          },
+          {
+            "text": "She has voiced concern about the cost of living and water safety, and called for government assistance for working families.",
+            "cites": [3]
+          },
+          {
+            "text": "As bureau chief, she reviewed proposals to move county employees into county-owned buildings with updated ADA access and technology readiness.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Elizabeth Granato",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40741",
+        "period": "April 1 to June 30, 2026",
+        "raised": 36500.3,
+        "cashOnHand": 100444.39,
+        "breakdown": [
+          { "kind": "large", "amount": 5500 },
+          { "kind": "transfer", "amount": 31000 },
+          { "kind": "other", "amount": 0.3 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 2000, "count": 1 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "U.S. Rep. Chuy García",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "U.S. Rep. Raja Krishnamoorthi",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "U.S. Rep. Mike Quigley",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "U.S. Rep. Delia Ramirez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "U.S. Rep. Jan Schakowsky",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "State Sen. Omar Aquino",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "State Sen. Ram Villivalam",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [2]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [6] },
+      {
+        "organization": "Citizen Action/Illinois",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Better Streets Chicago Action Fund",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Mid-America Carpenters Regional Council",
+        "kind": "union",
+        "cites": [10]
+      },
+      { "organization": "Teamsters Local 700", "kind": "union", "cites": [10] },
+      {
+        "organization": "Ironworkers District Council of Chicago and Vicinity",
+        "kind": "union",
+        "cites": [2]
+      },
+      {
+        "organization": "Bricklayers & Allied Craftworkers ADC 1 Illinois",
+        "kind": "union",
+        "cites": [2]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [11]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Elizabeth for Cook County's 12th District",
+      "publisher": "Elizabeth Granato campaign",
+      "url": "https://www.elizabethforcookcounty.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Pritzker on Dems: ‘We've lost our way'",
+      "publisher": "Politico",
+      "url": "https://www.politico.com/newsletters/illinois-playbook/2025/07/22/pritzker-on-dems-weve-lost-our-way-00466724",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Two incumbents fall, appointees hold on in Cook County Board races",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/03/18/cook-county-board-election-primary-results/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Blog Posts",
+      "publisher": "League of Women Voters of Cook County",
+      "url": "https://www.lwvcookcounty.org/cook-county-board-observer-reports/previous/2",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "2026 Cook County Board of Commissioners election",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements",
+      "publisher": "Citizen Action/Illinois",
+      "url": "https://citizenaction-il.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "2026 Endorsements",
+      "publisher": "Better Streets Chicago Action Fund",
+      "url": "https://www.bscactionfund.org/2026-midterms/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "march 17, 2026 primary election - endorsed candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/P2026_PrimaryEndorsementList_COOK-v4.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "ICE targets Lincoln Park nannies",
+      "publisher": "Politico",
+      "url": "https://www.politico.com/newsletters/illinois-playbook/2025/10/27/ice-targets-lincoln-park-nannies-00623513",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:15:11.117Z",
+    "version": 4
+  }
+}

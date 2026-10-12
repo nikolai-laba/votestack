@@ -1,0 +1,39 @@
+{
+  "reason": "Abbreviated endorser names (profile review, 2026-10-07)",
+  "endorsements": [
+    {
+      "action": "replace",
+      "organization": "IL AFL CIO",
+      "endorsement": {
+        "kind": "organization",
+        "organization": "Illinois AFL-CIO"
+      },
+      "sources": [
+        {
+          "title": "Endorsements | Celina Villanueva",
+          "publisher": "Celina Villanueva for State Senate",
+          "url": "https://www.celinavillanueva.com/endorsements",
+          "kind": "candidate",
+          "viewedAt": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "action": "replace",
+      "organization": "AFFI",
+      "endorsement": {
+        "kind": "union",
+        "organization": "Associated Fire Fighters of Illinois"
+      },
+      "sources": [
+        {
+          "title": "Endorsements | Celina Villanueva",
+          "publisher": "Celina Villanueva for State Senate",
+          "url": "https://www.celinavillanueva.com/endorsements",
+          "kind": "candidate",
+          "viewedAt": "2026-10-07"
+        }
+      ]
+    }
+  ]
+}

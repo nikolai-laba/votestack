@@ -1,0 +1,165 @@
+{
+  "key": "anusha-thotakura",
+  "electionId": "il-2026-11-03-general",
+  "name": "Anusha Thotakura",
+  "office": "Chicago Board of Education Member, Subdistrict 6A",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-6a"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Anusha Thotakura is the appointed Chicago Board of Education member for District 6A and executive director of Citizen Action/Illinois, a progressive policy coalition. She previously taught bilingual middle school math.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Anusha Thotakura is the appointed Chicago Board of Education member for District 6A and executive director of Citizen Action/Illinois, a progressive policy coalition.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously taught bilingual middle school math.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "On the board, she drafted a resolution to study offering full-day preschool for 3-year-olds and providing special education services in private child care settings. She says she sponsored the Healthy Green Schools resolution for clean energy and building improvements. Her priorities include raising reading and math scores and increasing public data on academic progress. She voted for a Chicago Public Schools budget without high-cost borrowing, and later voted to amend a budget based on expected additional state money.",
+        "cites": [3, 4],
+        "sentences": [
+          {
+            "text": "On the board, she drafted a resolution to study offering full-day preschool for 3-year-olds and providing special education services in private child care settings.",
+            "cites": [3]
+          },
+          {
+            "text": "She says she sponsored the Healthy Green Schools resolution for clean energy and building improvements.",
+            "cites": [4]
+          },
+          {
+            "text": "Her priorities include raising reading and math scores and increasing public data on academic progress.",
+            "cites": [4]
+          },
+          {
+            "text": "She voted for a Chicago Public Schools budget without high-cost borrowing, and later voted to amend a budget based on expected additional state money.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Neighbors for Anusha",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39855",
+        "period": "April 1 to June 30, 2026",
+        "raised": 9760,
+        "cashOnHand": 9066.36,
+        "breakdown": [
+          { "kind": "small", "amount": 3260 },
+          { "kind": "large", "amount": 3000 },
+          { "kind": "transfer", "amount": 3500 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 27267.3, "count": 7 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Teachers Union",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [6]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [7] },
+      {
+        "organization": "Our Schools Chicago",
+        "kind": "organization",
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Meet the new Chicago Board of Education",
+      "publisher": "Chalkbeat Chicago",
+      "url": "https://www.chalkbeat.org/chicago/2025/01/14/new-school-board-members/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Anusha Thotakura - Chicago Board of Education",
+      "publisher": "Chicago Board of Education",
+      "url": "https://www.cpsboe.org/about/bios/2039",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Chicago school board looks at possible preschool expansion ...",
+      "publisher": "Chalkbeat Chicago",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/10/chicago-public-schools-board-considers-early-childhood-resolution/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Chicago school board election 2026: Who are the candidates in District 6a?",
+      "publisher": "Chalkbeat Chicago",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-election-2026-district-6a-candidates-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "2026 School Board Election",
+      "publisher": "Chicago Teachers Union",
+      "url": "https://www.ctulocal1.org/movement/school-board-election-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Elections & Endorsements",
+      "publisher": "SEIU Illinois State Council",
+      "url": "https://seiuilcouncil.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Key education endorsements for CPS School Board candidates",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/education/2026/09/21/key-education-endorsements-for-cps-school-board-candidates",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:46:47.682Z",
+    "version": 4
+  }
+}

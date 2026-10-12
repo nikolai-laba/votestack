@@ -1,0 +1,151 @@
+{
+  "key": "anthony-hargrove",
+  "electionId": "il-2026-11-03-general",
+  "name": "Anthony Hargrove",
+  "office": "Chicago Board of Education Member, Subdistrict 5B",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-5b"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Anthony Hargrove runs programs that help dropouts return to school. His campaign says he worked for Chicago Public Schools for over 20 years as a culinary instructor, dean, operations manager, and compliance specialist. He wants to make improving reading and math skills the district's top priority, setting clear goals and tracking progress. He supports improving special education and expanding career and vocational education. He opposes the Chicago Public Schools practice of raising property taxes by the maximum allowed each year. He says the district should create more community partnerships to use underutilized school buildings.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Anthony Hargrove runs programs that help dropouts return to school.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he worked for Chicago Public Schools for over 20 years as a culinary instructor, dean, operations manager, and compliance specialist.",
+            "cites": [2]
+          },
+          {
+            "text": "He wants to make improving reading and math skills the district's top priority, setting clear goals and tracking progress.",
+            "cites": [3]
+          },
+          {
+            "text": "He supports improving special education and expanding career and vocational education.",
+            "cites": [3]
+          },
+          {
+            "text": "He opposes the Chicago Public Schools practice of raising property taxes by the maximum allowed each year.",
+            "cites": [4]
+          },
+          {
+            "text": "He says the district should create more community partnerships to use underutilized school buildings.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Neighbors for Anthony Hargrove",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39831",
+        "period": "April 1 to June 30, 2026",
+        "raised": 0,
+        "cashOnHand": 799.76,
+        "breakdown": [],
+        "largeSince": { "since": "2026-06-30", "total": 44764.25, "count": 11 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [5]
+      },
+      { "organization": "IUOE Local 150", "kind": "union", "cites": [6] },
+      {
+        "organization": "Common Ground Collective",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "The Urban Center",
+        "kind": "organization",
+        "cites": [1]
+      },
+      {
+        "organization": "Chicago Tribune Editorial Board",
+        "kind": "editorial_board",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Chicago school board election 2026 voter guide: District 5b candidates - Chalkbeat",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-election-2026-district-5b-candidates-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Anthony Hargrove for Chicago Board of Education District 5B",
+      "publisher": "Anthony Hargrove for Chicago Board of Education District 5B",
+      "url": "https://hargroveforcps.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Chicago School Board District 5B: Candidates & Voter Guide",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/graphics/chicago-school-board-education-voter-guide/school-board/districts/5b/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Editorial: Anthony Hargrove for Chicago School Board in District 5B",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/09/28/editorial-anthony-hargrove-chicago-school-board-district-5b/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "2026 Chicago Board of Education election",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Chicago_Board_of_Education_election",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements",
+      "publisher": "Common Ground Collective",
+      "url": "https://cgcollective.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:45:39.559Z",
+    "version": 2
+  }
+}

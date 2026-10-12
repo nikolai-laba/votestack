@@ -1,0 +1,211 @@
+{
+  "key": "rachel-marrello",
+  "electionId": "il-2026-11-03-general",
+  "name": "Rachel Marrello",
+  "party": "Democratic",
+  "office": "Circuit Court Judge, 3rd Subcircuit (Vacancy of Sherlock)",
+  "contestIds": [
+    "chicago-boe:judge-3rd-subcircuit-vacancy-of-sherlock",
+    "cook-clerk:340320:vacancy-of-sherlock"
+  ],
+  "kind": "judicial_candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Rachel Marrello has been in-house labor and employment counsel for Cook County Health since 2022. She previously worked for 11 years as an investigator for Cook County’s Office of Inspector General. From 2013 to 2017, she served on the Riverside Elementary School District 96 Board of Education. She says she has acted as a hearing officer or presenter in 85 quasi-judicial hearings.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Rachel Marrello has been in-house labor and employment counsel for Cook County Health since 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously worked for 11 years as an investigator for Cook County’s Office of Inspector General.",
+            "cites": [2]
+          },
+          {
+            "text": "From 2013 to 2017, she served on the Riverside Elementary School District 96 Board of Education.",
+            "cites": [3]
+          },
+          {
+            "text": "She says she has acted as a hearing officer or presenter in 85 quasi-judicial hearings.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Rachel Marrello for Judge",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40878",
+        "period": "April 1 to June 30, 2026",
+        "raised": 0,
+        "cashOnHand": 1642.5,
+        "breakdown": []
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "State Senator Mike Porfirio",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Berwyn Mayor Robert J. Lovero",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Cicero Town President Larry Dominick",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Stickney Mayor Jeff Walik",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "North Riverside Village President Joseph Mengoni",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Chicago Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Not Recommended",
+        "cites": [6]
+      },
+      {
+        "organization": "Chicago Council of Lawyers",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [7]
+      },
+      {
+        "organization": "Illinois State Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [1]
+      },
+      {
+        "organization": "Alliance of Bar Associations for Judicial Screening",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "tally": {
+          "members": 11,
+          "ratings": [
+            { "rating": "Recommended", "count": 7 },
+            { "rating": "Not Recommended", "count": 3 },
+            { "rating": "Qualified", "count": 1 }
+          ],
+          "notEvaluated": 0
+        },
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Cook County Judicial Evaluations",
+      "publisher": "Illinois State Bar Association",
+      "url": "https://www.isba.org/judicial-elections/counties/cook",
+      "kind": "bar",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Two locals vie for judgeship in 3rd subcircuit",
+      "publisher": "Riverside Brookfield Landmark",
+      "url": "https://www.rblandmark.com/2026/03/10/judgeship-in-3rd-subcircuit/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Riverside's Marrello cruises to county judge seat",
+      "publisher": "Riverside Brookfield Landmark",
+      "url": "https://www.rblandmark.com/2026/03/24/marrello-cruises-to-county-judge-seat/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "ILLINOIS ENDORSEMENTS",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements — Rachel Marrello for Cook County Judge",
+      "publisher": "Rachel Marrello for Cook County Judge",
+      "url": "https://www.rachelmarrelloforjudge.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Vote Smart: CBA Judicial Voter's Guide, General Election, November 3, 2026",
+      "publisher": "Chicago Bar Association",
+      "url": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 6
+    },
+    {
+      "title": "Evaluation Report: Judges on the Ballot in the November 3, 2026 General Election",
+      "publisher": "Chicago Council of Lawyers",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/CCL-Judicial-Evaluation-Report-for-Nov-3-2026-General-Election_Ballot-Order.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 7
+    },
+    {
+      "title": "Alliance of Bar Associations for Judicial Screening, 2026 General Election ratings",
+      "publisher": "Alliance of Bar Associations for Judicial Screening",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/2026-Alliance-General-Ballot-Ratings-09252026.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 8
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:30:58.699Z",
+    "version": 5
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "key": "julie-a-morrison",
+  "electionId": "il-2026-11-03-general",
+  "name": "Julie A. Morrison",
+  "party": "Democratic",
+  "office": "State Senator, 29th District",
+  "contestIds": ["cook-clerk:172902"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "State Senator Julie Morrison was elected to represent the 29th District in 2012. She serves as Majority Caucus Whip and was previously the West Deerfield Township supervisor. She chairs the Senate Insurance Committee and co-chairs the Children’s Health Caucus.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "State Senator Julie Morrison was elected to represent the 29th District in 2012.",
+            "cites": [1]
+          },
+          {
+            "text": "She serves as Majority Caucus Whip and was previously the West Deerfield Township supervisor.",
+            "cites": [1]
+          },
+          {
+            "text": "She chairs the Senate Insurance Committee and co-chairs the Children’s Health Caucus.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "Morrison sponsored 2026 laws expanding newborn screening for genetic conditions and strengthening prevention requirements against plastic pellet runoff. Another of her bills created an auto insurance right to appraisal. She introduced legislation regarding insurance for biomarker testing. She also sponsored a law recognizing gambling disorder to improve treatment access. She has proposed removing lawmakers from the redistricting process. In 2022, she sponsored a law regarding the vote by mail system.",
+        "cites": [3, 1, 4, 5, 6],
+        "sentences": [
+          {
+            "text": "Morrison sponsored 2026 laws expanding newborn screening for genetic conditions and strengthening prevention requirements against plastic pellet runoff.",
+            "cites": [3]
+          },
+          {
+            "text": "Another of her bills created an auto insurance right to appraisal.",
+            "cites": [3]
+          },
+          {
+            "text": "She introduced legislation regarding insurance for biomarker testing.",
+            "cites": [1]
+          },
+          {
+            "text": "She also sponsored a law recognizing gambling disorder to improve treatment access.",
+            "cites": [4]
+          },
+          {
+            "text": "She has proposed removing lawmakers from the redistricting process.",
+            "cites": [5]
+          },
+          {
+            "text": "In 2022, she sponsored a law regarding the vote by mail system.",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Julie Morrison for State Senate",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=23762",
+        "period": "April 1 to June 30, 2026",
+        "raised": 23765.71,
+        "cashOnHand": 539895.37,
+        "breakdown": [
+          { "kind": "small", "amount": 951.36 },
+          { "kind": "large", "amount": 8000 },
+          { "kind": "transfer", "amount": 13100 },
+          { "kind": "other", "amount": 1714.35 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 197384.04, "count": 71 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Everytown for Gun Safety Action Fund",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [8]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [9] },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [12]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [13]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [14] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Julie A. Morrison - Illinois General Assembly - Member",
+      "publisher": "Illinois General Assembly",
+      "url": "https://ilga.gov/senate/members/details/3294",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Biography - State Senator Julie Morrison",
+      "publisher": "Senator Julie Morrison",
+      "url": "https://www.senatorjuliemorrison.com/bio",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Illinois State Senator Julie Morrison",
+      "publisher": "Senator Julie Morrison",
+      "url": "https://www.senatorjuliemorrison.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Illinois recognizes gambling addiction, allowing new treatment options",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/illinois-recognizes-gambling-addiction-allowing-new-treatment-options/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Group again proposes removing lawmakers from redistricting",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/group-again-proposes-removing-lawmakers-from-redistricting/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Illinois General Assembly - Member",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/House/Members/Details/2854",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Everytown for Gun Safety Announces Endorsements of Moms Demand Action Volunteers Running for Office in Illinois",
+      "publisher": "Everytown for Gun Safety",
+      "url": "https://everytown.org/press/everytown-for-gun-safety-announces-endorsements-of-moms-demand-action-volunteers-running-for-office-in-illinois/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "2026 Primary Election",
+      "publisher": "Equality Illinois",
+      "url": "https://equalityillinois.us/2026-primary-election/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Vote",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://ift-aft.org/vote",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 14
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:53:19.181Z",
+    "version": 5
+  }
+}

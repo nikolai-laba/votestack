@@ -1,0 +1,245 @@
+{
+  "key": "drake-warren",
+  "electionId": "il-2026-11-03-general",
+  "name": "Drake Warren",
+  "party": "Democratic",
+  "office": "Cook County Commissioner, 10th District",
+  "contestIds": [
+    "chicago-boe:county-commissioner-10th-district",
+    "cook-clerk:221000"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "His campaign says Drake Warren is an industrial engineer who rents and uses transit. It says he has a decade of organizing experience in healthcare, housing, and environmental restoration. He says he belongs to Abundant Housing Illinois. He proposes providing alternative coverage for patients losing CountyCare, expanding its provider network, maintaining abortion funding, and raising vacant land assessments. He also proposes ethics rules barring officials from voting on employer-tied matters and making the commissioner role full-time.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "His campaign says Drake Warren is an industrial engineer who rents and uses transit.",
+            "cites": [1]
+          },
+          {
+            "text": "It says he has a decade of organizing experience in healthcare, housing, and environmental restoration.",
+            "cites": [1]
+          },
+          {
+            "text": "He says he belongs to Abundant Housing Illinois.",
+            "cites": [2]
+          },
+          {
+            "text": "He proposes providing alternative coverage for patients losing CountyCare, expanding its provider network, maintaining abortion funding, and raising vacant land assessments.",
+            "cites": [3]
+          },
+          {
+            "text": "He also proposes ethics rules barring officials from voting on employer-tied matters and making the commissioner role full-time.",
+            "cites": [4]
+          }
+        ]
+      },
+      {
+        "text": "He says he supported new housing developments and lobbied to legalize multifamily zoning and accessory dwelling units, and eliminate parking minimums near transit. He supports helping municipalities comply with affordable housing laws and allowing missing-middle housing by right in unincorporated Cook County.",
+        "cites": [2],
+        "sentences": [
+          {
+            "text": "He says he supported new housing developments and lobbied to legalize multifamily zoning and accessory dwelling units, and eliminate parking minimums near transit.",
+            "cites": [2]
+          },
+          {
+            "text": "He supports helping municipalities comply with affordable housing laws and allowing missing-middle housing by right in unincorporated Cook County.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Drake Warren",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40649",
+        "period": "April 1 to June 30, 2026",
+        "raised": 6282,
+        "cashOnHand": 5565.26,
+        "breakdown": [
+          { "kind": "small", "amount": 1032 },
+          { "kind": "large", "amount": 3550 },
+          { "kind": "transfer", "amount": 1700 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 5500, "count": 5 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Alderwoman Leni Manaa-Hoppenworth",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Former Alderman Dick Simpson",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [5]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [5] },
+      {
+        "organization": "Sierra Club Illinois Chapter PAC",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Citizen Action/Illinois",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Abundant Housing Illinois",
+        "kind": "organization",
+        "cites": [2]
+      },
+      { "organization": "AFGE Local 704", "kind": "union", "cites": [5] },
+      {
+        "organization": "Cook County Latino Democrats",
+        "kind": "party",
+        "cites": [5]
+      },
+      { "organization": "IVI-IPO", "kind": "organization", "cites": [5] },
+      {
+        "organization": "Indivisible Lincoln Square",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "United Northwest Side",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Better Streets Chicago Action Fund",
+        "kind": "organization",
+        "cites": [8]
+      },
+      { "organization": "Northside DFA", "kind": "organization", "cites": [5] },
+      { "organization": "48th Ward Democrats", "kind": "party", "cites": [5] },
+      {
+        "organization": "44th Ward Action",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "48th Ward Neighbors for Justice",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [10]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Cook County 2026 Candidates & Sample Ballot | Illinois",
+      "publisher": "The Ballot Brief",
+      "url": "https://theballotbrief.com/state/illinois/cook-county",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Drake Warren - Abundant Housing Illinois",
+      "publisher": "Abundant Housing Illinois",
+      "url": "https://abundanthousingillinois.org/endorsements/drake-warren/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Priorities – Drake Warren for Cook County Commissioner",
+      "publisher": "Drake Warren for Cook County Commissioner",
+      "url": "https://drakefor10.com/priorities/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Pansexual organizer Drake Warren challenges Gainer for Cook County’s 10th District seat",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/02/24/pansexual-organizer-drake-warren-challenges-gainer-for-cook-countys-10th-district-seat/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements – Drake Warren for Cook County Commissioner – 10th District",
+      "publisher": "Friends of Drake Warren",
+      "url": "https://drakefor10.com/endorsements/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements — Citizen Action/Illinois",
+      "publisher": "Citizen Action/Illinois",
+      "url": "https://citizenaction-il.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements — Indivisible Lincoln Square",
+      "publisher": "Indivisible Lincoln Square",
+      "url": "https://www.indivisiblelincolnsquare.com/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "2026 Endorsements — Better Streets Chicago Action Fund",
+      "publisher": "Better Streets Chicago Action Fund",
+      "url": "https://www.bscactionfund.org/2026-midterms/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:38:08.307Z",
+    "version": 6
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "key": "michilla-kyla-blaise",
+  "electionId": "il-2026-11-03-general",
+  "name": "Michilla \"Kyla\" Blaise",
+  "office": "Chicago Board of Education Member, Subdistrict 5B",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-5b"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Michilla “Kyla” Blaise is an appointed Chicago Board of Education member. She is a Chicago Public Schools parent and chief of staff for Cook County Commissioner Frank Aguilar. On the board, she introduced a budget amendment that reversed some planned cuts by assuming the district would receive an additional $150 million in uncommitted state funding.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Michilla “Kyla” Blaise is an appointed Chicago Board of Education member.",
+            "cites": [1]
+          },
+          {
+            "text": "She is a Chicago Public Schools parent and chief of staff for Cook County Commissioner Frank Aguilar.",
+            "cites": [1]
+          },
+          {
+            "text": "On the board, she introduced a budget amendment that reversed some planned cuts by assuming the district would receive an additional $150 million in uncommitted state funding.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "She says she is focused on increasing district funding. She has proposed turning Marshall High School into a sports magnet school or adding middle school grades. At a candidate forum, she argued that career and technical education programs may require greater investment. She pointed to restorative justice and calming spaces as tools schools can use to address student behavior.",
+        "cites": [2, 3],
+        "sentences": [
+          {
+            "text": "She says she is focused on increasing district funding.",
+            "cites": [2]
+          },
+          {
+            "text": "She has proposed turning Marshall High School into a sports magnet school or adding middle school grades.",
+            "cites": [2]
+          },
+          {
+            "text": "At a candidate forum, she argued that career and technical education programs may require greater investment.",
+            "cites": [3]
+          },
+          {
+            "text": "She pointed to restorative justice and calming spaces as tools schools can use to address student behavior.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Committee to Elect Michilla Blaise",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=37001",
+        "period": "April 1 to June 30, 2026",
+        "raised": 10011,
+        "cashOnHand": 7028.57,
+        "breakdown": [
+          { "kind": "small", "amount": 3061 },
+          { "kind": "large", "amount": 6950 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 35666.35, "count": 6 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Teachers Union",
+        "kind": "union",
+        "cites": [4]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [5] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Michilla “Kyla” Blaise: CPS School Board District 5B Candidate",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/graphics/chicago-school-board-education-voter-guide/candidates/michilla-kyla-blaise/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Chicago School Board Election 2026: The race in District 5b, West Side",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-election-2026-district-5b-candidates-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Blaise or Hargrove? What to Know About the District 5B School Board Race",
+      "publisher": "15 West",
+      "url": "https://www.15west.org/featured/blaise-or-hargrove-what-to-know-about-the-district-5b-school-board-race/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Chicago Teachers Union endorses 15 school board candidates in 2026 election",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/07/14/ctu-announces-endorsements-in-school-board-election/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:46:24.050Z",
+    "version": 4
+  }
+}

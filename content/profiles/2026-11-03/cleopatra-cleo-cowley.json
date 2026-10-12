@@ -1,0 +1,194 @@
+{
+  "key": "cleopatra-cleo-cowley",
+  "electionId": "il-2026-11-03-general",
+  "name": "Cleopatra \"Cleo\" Cowley",
+  "party": "Democratic",
+  "office": "State Representative, 34th District",
+  "contestIds": [
+    "chicago-boe:state-representative-34th-district",
+    "cook-clerk:183400"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Cleopatra Cowley is a gun violence prevention advocate.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Cleopatra Cowley is a gun violence prevention advocate.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "Her platform includes community safety, economic development, and education, according to her campaign website. She opposes legislation that would freeze property tax assessments for large-scale developments, saying the long-term impact would create budget shortfalls and service cuts. She supports a comprehensive approach to pension reform where all parties compromise.",
+        "cites": [2, 3],
+        "sentences": [
+          {
+            "text": "Her platform includes community safety, economic development, and education, according to her campaign website.",
+            "cites": [2]
+          },
+          {
+            "text": "She opposes legislation that would freeze property tax assessments for large-scale developments, saying the long-term impact would create budget shortfalls and service cuts.",
+            "cites": [3]
+          },
+          {
+            "text": "She supports a comprehensive approach to pension reform where all parties compromise.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Cleopatra Cowley",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41040",
+        "period": "April 1 to June 30, 2026",
+        "raised": 377.25,
+        "cashOnHand": 25105.1,
+        "breakdown": [{ "kind": "other", "amount": 377.25 }]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Everytown for Gun Safety Action Fund",
+        "kind": "organization",
+        "cites": [4]
+      },
+      { "organization": "GIFFORDS PAC", "kind": "organization", "cites": [5] },
+      {
+        "organization": "Gun Violence Prevention PAC (G-PAC)",
+        "kind": "organization",
+        "cites": [5]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [6] },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Stand for Children IL PAC",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [10]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [11] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Aja Kearney, Cleopatra Cowley seek Democratic nomination in 34th House District",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/02/15/aja-kearney-cleopatra-cowley-34th-house-district/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Home | Cleo for 34",
+      "publisher": "Candidate",
+      "url": "http://cleopatracowley34.com",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Cleopatra 'Cleo' Cowley - Candidate Questionnaire",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/candidate-questionnaires/cleopatra-cleo-cowley-illinois-house-primary-34th-district",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Everytown for Gun Safety Announces Endorsements of Moms Demand Action Volunteers Running for Office in Illinois",
+      "publisher": "Everytown for Gun Safety",
+      "url": "https://www.everytown.org/press/everytown-for-gun-safety-announces-endorsements-of-moms-demand-action-volunteers-running-for-office-in-illinois/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Candidates for Illinois Legislature",
+      "publisher": "GIFFORDS",
+      "url": "https://giffords.org/candidates/illinois-joint-endorsements-3/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "2026 Election | Endorsed Candidates",
+      "publisher": "Planned Parenthood Illinois Action",
+      "url": "https://www.plannedparenthoodaction.org/planned-parenthood-illinois-action/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Our 2026 PRIMARY ENDORSEMENTS",
+      "publisher": "Stand for Children Illinois",
+      "url": "https://stand.org/illinois/pac/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "ILLINOIS ENDORSEMENTS",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:04:47.894Z",
+    "version": 5
+  }
+}

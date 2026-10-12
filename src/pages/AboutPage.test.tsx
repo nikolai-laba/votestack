@@ -1,0 +1,136 @@
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import { render, screen, within } from '@testing-library/react'
+import userEvent from '@testing-library/user-event'
+import { RouterProvider, createMemoryRouter } from 'react-router'
+import { describe, expect, it } from 'vitest'
+import { lintTone } from '../../scripts/lib/profiles/checks.ts'
+import { LAST_CHECKED } from '../data/lastChecked.ts'
+import { longDate } from '../format.ts'
+import { routes } from '../routes.tsx'
+
+function renderAt(path: string) {
+  render(
+    <QueryClientProvider client={new QueryClient()}>
+      <RouterProvider
+        router={createMemoryRouter(routes, { initialEntries: [path] })}
+      />
+    </QueryClientProvider>,
+  )
+}
+
+const title = () =>
+  screen.findByRole('heading', { level: 1, name: 'About VoteStack' })
+
+describe('About page', () => {
+  it('has one title and its sections in order', async () => {
+    renderAt('/about')
+    expect(await title()).toHaveFocus()
+    expect(document.title).toBe('About VoteStack | VoteStack')
+    expect(
+      screen.getAllByRole('heading', { level: 2 }).map((h) => h.textContent),
+    ).toEqual([
+      'What VoteStack is',
+      'Who makes VoteStack',
+      'How we stay fair',
+      'Where ballot information comes from',
+      'When we last checked',
+      'How we make profiles',
+      'Official ballot order',
+      'Your privacy',
+      'Open source',
+      'Report an error',
+    ])
+  })
+
+  it('says who we are and what it covers', async () => {
+    renderAt('/about')
+    await title()
+    const what = screen.getByRole('region', { name: 'What VoteStack is' })
+    expect(what).toHaveTextContent(
+      'doesn’t support or oppose any candidate, party or referendum',
+    )
+    expect(what).toHaveTextContent('isn’t a government site')
+    expect(what).toHaveTextContent('We don’t tell you how to vote')
+    expect(what).toHaveTextContent(
+      'starting with Chicago and suburban Cook County',
+    )
+    expect(what).toHaveTextContent('Knowing who the candidates are is harder')
+    expect(what).toHaveTextContent('Campaign money:')
+    expect(what).toHaveTextContent('Every sentence links to its source')
+    const who = screen.getByRole('region', { name: 'Who makes VoteStack' })
+    expect(who).toHaveTextContent(
+      'I’m Nikolai Laba, a voter living in Oak Park (Cook County), IL',
+    )
+    expect(who).toHaveTextContent(
+      'It takes no money from candidates, parties or campaigns.',
+    )
+    expect(
+      within(who).getByRole('link', { name: 'Nikolai@VoteStack.org' }),
+    ).toHaveAttribute('href', 'mailto:nikolai@votestack.org')
+    const fair = screen.getByRole('region', { name: 'How we stay fair' })
+    expect(fair).toHaveTextContent('Party is shown as text, never as a color.')
+    expect(
+      within(fair).getByRole('link', { name: 'official ballot order' }),
+    ).toHaveAttribute('href', '/about#ballot-order')
+    const sources = screen.getByRole('region', {
+      name: 'Where ballot information comes from',
+    })
+    expect(sources).toHaveTextContent('Cook County Clerk')
+    expect(sources).toHaveTextContent('Chicago Board of Election Commissioners')
+    expect(sources).toHaveTextContent(
+      'We mark a candidate as the incumbent only when an official list confirms they hold the seat.',
+    )
+  })
+
+  it('shows when candidate information was last checked', async () => {
+    renderAt('/about')
+    await title()
+    expect(
+      screen.getByRole('region', { name: 'When we last checked' }),
+    ).toHaveTextContent(
+      `We last checked candidate information on ${longDate(LAST_CHECKED)}.`,
+    )
+  })
+
+  it('links to the methods page and explains ballot order', async () => {
+    renderAt('/about')
+    await title()
+    expect(
+      within(
+        screen.getByRole('region', { name: 'How we make profiles' }),
+      ).getByRole('link', { name: 'How we make profiles' }),
+    ).toHaveAttribute('href', '/how-profiles-are-made')
+    expect(
+      screen.getByRole('region', { name: 'Official ballot order' }),
+    ).toHaveTextContent('public lotteries')
+    expect(
+      screen.getByRole('region', { name: 'Your privacy' }),
+    ).toHaveTextContent('It isn’t saved, logged or added to the page link.')
+    expect(
+      screen.getByRole('region', { name: 'Open source' }),
+    ).toHaveTextContent('Apache License 2.0')
+  })
+
+  it('opens at the ballot order explainer from the footer link', async () => {
+    renderAt('/')
+    await userEvent.click(
+      screen.getByRole('link', {
+        name: 'Candidates listed in official ballot order',
+      }),
+    )
+    expect(
+      await screen.findByRole('heading', {
+        level: 2,
+        name: 'Official ballot order',
+      }),
+    ).toHaveFocus()
+  })
+
+  it('passes the tone check', async () => {
+    renderAt('/about')
+    await title()
+    const text = screen.getByRole('article').textContent ?? ''
+    expect(lintTone(text)).toEqual([])
+    expect(text).not.toMatch(/[—·]/)
+  })
+})

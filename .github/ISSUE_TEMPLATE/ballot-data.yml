@@ -1,0 +1,25 @@
+name: Ballot data problem
+description: A race, candidate or referendum is missing, extra or wrong on a ballot.
+labels: [data]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please don't include your home address. Tell us the ward and precinct, or the township and precinct, instead.
+  - type: textarea
+    id: what
+    attributes:
+      label: What's wrong?
+    validations:
+      required: true
+  - type: input
+    id: precinct
+    attributes:
+      label: Ward and precinct (Chicago) or township and precinct (suburban Cook)
+  - type: input
+    id: source
+    attributes:
+      label: Official source
+      description: A link to the official sample ballot or list that shows the correct information.
+    validations:
+      required: true

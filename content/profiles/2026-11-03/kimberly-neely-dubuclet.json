@@ -1,0 +1,328 @@
+{
+  "key": "kimberly-neely-dubuclet",
+  "electionId": "il-2026-11-03-general",
+  "name": "Kimberly Neely DuBuclet",
+  "party": "Democratic",
+  "office": "State Representative, 5th District",
+  "contestIds": [
+    "chicago-boe:state-representative-5th-district",
+    "cook-clerk:180500"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Kimberly Neely DuBuclet is the State Representative for Illinois' 5th District. She previously served as vice president of the Metropolitan Water Reclamation District of Greater Chicago board, Legislative and Community Affairs Director for the Chicago Park District, and on a U.S. Environmental Protection Agency advisory committee.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Kimberly Neely DuBuclet is the State Representative for Illinois' 5th District.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously served as vice president of the Metropolitan Water Reclamation District of Greater Chicago board, Legislative and Community Affairs Director for the Chicago Park District, and on a U.S. Environmental Protection Agency advisory committee.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "She sponsored bills sent to the governor regarding high school voter registration and establishing Emmett Till Day. She voted for the Fiscal Year 2027 budget. As a committee chair, she held a hearing on sustainable state support for cultural institutions. Her campaign priorities include fully funding education, addressing crime at its root causes, and reproductive rights.",
+        "cites": [2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "She sponsored bills sent to the governor regarding high school voter registration and establishing Emmett Till Day.",
+            "cites": [2]
+          },
+          {
+            "text": "She voted for the Fiscal Year 2027 budget.",
+            "cites": [3]
+          },
+          {
+            "text": "As a committee chair, she held a hearing on sustainable state support for cultural institutions.",
+            "cites": [4]
+          },
+          {
+            "text": "Her campaign priorities include fully funding education, addressing crime at its root causes, and reproductive rights.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Kim DuBuclet",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=23778",
+        "period": "April 1 to June 30, 2026",
+        "raised": 11990,
+        "cashOnHand": 55449.84,
+        "breakdown": [
+          { "kind": "small", "amount": 590 },
+          { "kind": "large", "amount": 5400 },
+          { "kind": "transfer", "amount": 6000 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 5500, "count": 4 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Illinois State Sen. Mattie Hunter",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "President of the Cook County Board of Commissioners Toni Preckwinkle",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "MWRD Commissioner Kari K. Steele",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "4th Ward Alderman Lamont Robinson",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "5th Ward Alderman Desmon Yancy",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "20th Ward Alderwoman Jeanette B. Taylor",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "34th Ward Alderman Bill Conway",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "42nd Ward Alderman Brendan Reilly",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "American Federation of Labor and Congress of Industrial Organizations – Illinois",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Service Employees International Union Illinois",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Citizen Action/Illinois",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "G-PAC Illinois",
+        "kind": "organization",
+        "cites": [6]
+      },
+      { "organization": "GIFFORDS PAC", "kind": "organization", "cites": [6] },
+      {
+        "organization": "Illinois NOW PAC",
+        "kind": "organization",
+        "cites": [8]
+      },
+      { "organization": "PersonalPAC", "kind": "organization", "cites": [6] },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Sierra Club Illinois",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Independent Voters of Illinois – Independent Precinct Organization",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "College Democrats of Illinois",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "American Federation of State, County and Municipal Employees Local 25",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Chicago Fire Fighters Union Local 2",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Cook County College Teachers Union Local 1600",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Illinois Nurses Union",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "International Brotherhood of Electrical Workers Local 134",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 399",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Teamsters Joint Council 25",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Western Suburban Teachers Union Local 571",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "American Middle East Voters Alliance-PAC",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Better Streets Chicago Action Fund",
+        "kind": "organization",
+        "cites": [9]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [10] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Rep. Kimberly du Buclet",
+      "publisher": "Illinois House Democratic Caucus",
+      "url": "https://ilhousedems.com/project/kimberly-du-buclet/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Office of State Rep. Kimberly Neely du Buclet",
+      "publisher": "Office of State Rep. Kimberly Neely du Buclet",
+      "url": "https://repkim.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Kimberly du Buclet - Illinois Representative Democrat - Bill Sponsor",
+      "publisher": "Bill Sponsor",
+      "url": "https://www.billsponsor.com/politicians/10694/kimberly-du-buclet",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "State Rep. Du Buclet Leads Discussion on Long-term Support for Illinois’ Museums and Cultural Institutions",
+      "publisher": "Illinois House Democratic Caucus",
+      "url": "https://ilhousedems.com/2026/03/11/state-rep-du-buclet-leads-discussion-on-long-term-support-for-illinois-museums-and-cultural-institutions/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Kimberly du Buclet for Illinois State Representative",
+      "publisher": "Kimberly du Buclet for Illinois State Representative",
+      "url": "https://kim4staterep.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Kimberly du Buclet for Illinois State Representative — District 5",
+      "publisher": "Friends of Kim du Buclet",
+      "url": "https://kim4staterep.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements",
+      "publisher": "Citizen Action/Illinois",
+      "url": "https://citizenaction-il.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "IL NOW PAC Primary Election 2026 Endorsements",
+      "publisher": "Illinois NOW PAC",
+      "url": "https://www.willcountynow.org/elections/il-now-pac-election-2026-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "2026 Endorsements",
+      "publisher": "Better Streets Chicago Action Fund",
+      "url": "https://www.bscactionfund.org/2026-midterms/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:12:13.115Z",
+    "version": 7
+  }
+}

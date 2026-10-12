@@ -1,0 +1,116 @@
+{
+  "key": "james-jim-geldermann",
+  "electionId": "il-2026-11-03-general",
+  "name": "James \"Jim\" Geldermann",
+  "party": "Republican",
+  "office": "State Representative, 17th District",
+  "contestIds": ["cook-clerk:181700"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "James \"Jim\" Geldermann is a small business owner and software developer. He is president of a software and development company with more than 40 years of information technology and software design experience. He says he has been a digital ministry leader at Our Lady of Perpetual Help Church, a hospice volunteer, and a board member of First Step House and the Illinois Cemetery Oversight Board.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "James \"Jim\" Geldermann is a small business owner and software developer.",
+            "cites": [1]
+          },
+          {
+            "text": "He is president of a software and development company with more than 40 years of information technology and software design experience.",
+            "cites": [2]
+          },
+          {
+            "text": "He says he has been a digital ministry leader at Our Lady of Perpetual Help Church, a hospice volunteer, and a board member of First Step House and the Illinois Cemetery Oversight Board.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "At a Skokie Village Board meeting, he urged enforcement of child endangerment laws against adults panhandling with children.",
+        "cites": [4],
+        "sentences": [
+          {
+            "text": "At a Skokie Village Board meeting, he urged enforcement of child endangerment laws against adults panhandling with children.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Jim4HD17 PAC",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39283",
+        "period": "April 1 to June 30, 2026",
+        "raised": 1500,
+        "cashOnHand": 3197.79,
+        "breakdown": [{ "kind": "large", "amount": 1500 }],
+        "largeSince": { "since": "2026-06-30", "total": 1000, "count": 1 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Northfield Township Republican Organization",
+        "kind": "party",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Evanston's 2026 midterm ballot guide: Every race in the ...",
+      "publisher": "Evanston RoundTable",
+      "url": "https://evanstonroundtable.com/2026/09/30/2026-midterm-ballot-guide-english/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Who's Running To Represent Glenview In November General Election",
+      "publisher": "Journal & Topics",
+      "url": "https://www.journal-topics.com/articles/whos-running-to-represent-glenview-in-november-general-election/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Jim Geldermann",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Jim_Geldermann",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "IL House Candidate Urges Crackdown On Panhandling ...",
+      "publisher": "Patch",
+      "url": "https://patch.com/illinois/chicago/il-house-candidate-urges-crackdown-panhandling-involving-children-skokie",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Our Campaigns and Causes",
+      "publisher": "Northfield Township Republican Organization",
+      "url": "https://www.northfieldgop.org/campaigns_causes",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:56:04.863Z",
+    "version": 3
+  }
+}

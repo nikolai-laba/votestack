@@ -1,0 +1,154 @@
+{
+  "key": "debbie-meyers-martin",
+  "electionId": "il-2026-11-03-general",
+  "name": "Debbie Meyers-Martin",
+  "party": "Democratic",
+  "office": "State Representative, 38th District",
+  "contestIds": ["cook-clerk:183800"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Debbie Meyers-Martin has represented the 38th District since 2019. She previously served as village president of Olympia Fields and president of the South Suburban Mayors and Managers Association. She chairs the House Consumer Protection Committee.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Debbie Meyers-Martin has represented the 38th District since 2019.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously served as village president of Olympia Fields and president of the South Suburban Mayors and Managers Association.",
+            "cites": [1]
+          },
+          {
+            "text": "She chairs the House Consumer Protection Committee.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "Her priorities include property tax relief, the South Suburban Airport, mental health care, and violence prevention. She was the chief sponsor of a 2025 law regarding hospital emergency contacts. Her campaign says that as mayor, she helped facilitate a $116 million hospital expansion in Olympia Fields.",
+        "cites": [3, 4, 1]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Citizens for Debbie Meyers Martin",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=24887",
+        "period": "April 1 to June 30, 2026",
+        "raised": 1025,
+        "cashOnHand": 3104.55,
+        "breakdown": [
+          { "kind": "small", "amount": 725 },
+          { "kind": "large", "amount": 300 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 16000, "count": 11 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "Personal PAC", "kind": "organization", "cites": [5] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [6]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [7] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [8]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [9] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Debbie Meyers-Martin (D) - 104th General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/house/members/details/3350",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Debbie Meyers-Martin",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Debbie_Meyers-Martin",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Support Debbie Meyers-Martin for State Representative",
+      "publisher": "Debbie Meyers-Martin campaign",
+      "url": "https://www.debbieforillinois.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "news Archives - State Representative Debbie Meyers-Martin",
+      "publisher": "Debbie Meyers-Martin official website",
+      "url": "https://www.repdebbiemeyersmartin.com/category/news/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "IUOE LOCAL 150 DISTRICT 1 ENDORSEMENTS",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/02/2026-IL-Primary-Mailer-District-1_V7.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Election 2026",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 8
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:07:11.609Z",
+    "version": 7
+  }
+}

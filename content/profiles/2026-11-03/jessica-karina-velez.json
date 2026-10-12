@@ -1,0 +1,162 @@
+{
+  "key": "jessica-karina-velez",
+  "electionId": "il-2026-11-03-general",
+  "name": "Jessica Karina Velez",
+  "party": "Democratic",
+  "office": "Circuit Court Judge, 16th Subcircuit (Converted from Associate Judgeship of Mendoza)",
+  "contestIds": [
+    "chicago-boe:judge-16th-subcircuit-converted-from-associate-judgeship-of-mendoza",
+    "cook-clerk:341620:converted-from-associate-judgeship-of-mendoza"
+  ],
+  "kind": "judicial_candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Jessica Karina Velez was admitted to the Illinois bar in 2012. Since September 2023, she has been a deputy general counsel for the Office of the State Comptroller. Before that, she handled general tort cases at Johnson and Bell. She handled one civil jury trial as lead counsel and one as assisting counsel.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Jessica Karina Velez was admitted to the Illinois bar in 2012.",
+            "cites": [1]
+          },
+          {
+            "text": "Since September 2023, she has been a deputy general counsel for the Office of the State Comptroller.",
+            "cites": [1]
+          },
+          {
+            "text": "Before that, she handled general tort cases at Johnson and Bell.",
+            "cites": [1]
+          },
+          {
+            "text": "She handled one civil jury trial as lead counsel and one as assisting counsel.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Jessica Velez for Judge",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40643",
+        "period": "July 1 to September 30, 2026",
+        "raised": 0,
+        "cashOnHand": 7682.91,
+        "breakdown": []
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [2]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Chicago Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Not Recommended",
+        "cites": [3]
+      },
+      {
+        "organization": "Chicago Council of Lawyers",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Not Qualified",
+        "cites": [4]
+      },
+      {
+        "organization": "Illinois State Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Not Qualified",
+        "cites": [1]
+      },
+      {
+        "organization": "Alliance of Bar Associations for Judicial Screening",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "tally": {
+          "members": 11,
+          "ratings": [
+            { "rating": "Recommended", "count": 5 },
+            { "rating": "Not Recommended", "count": 4 },
+            { "rating": "Qualified", "count": 1 },
+            { "rating": "Not Qualified", "count": 1 }
+          ],
+          "notEvaluated": 0
+        },
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Cook County Judicial Evaluations",
+      "publisher": "Illinois State Bar Association",
+      "url": "https://www.isba.org/judicial-elections/counties/cook",
+      "kind": "bar",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "ILLINOIS ENDORSEMENTS",
+      "publisher": "International Union of Operating Engineers Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Vote Smart: CBA Judicial Voter's Guide, General Election, November 3, 2026",
+      "publisher": "Chicago Bar Association",
+      "url": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 3
+    },
+    {
+      "title": "Evaluation Report: Judges on the Ballot in the November 3, 2026 General Election",
+      "publisher": "Chicago Council of Lawyers",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/CCL-Judicial-Evaluation-Report-for-Nov-3-2026-General-Election_Ballot-Order.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 4
+    },
+    {
+      "title": "Alliance of Bar Associations for Judicial Screening, 2026 General Election ratings",
+      "publisher": "Alliance of Bar Associations for Judicial Screening",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/2026-Alliance-General-Ballot-Ratings-09252026.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 5
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 6
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:27:43.343Z",
+    "version": 5
+  }
+}

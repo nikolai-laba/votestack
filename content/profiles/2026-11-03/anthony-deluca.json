@@ -1,0 +1,179 @@
+{
+  "key": "anthony-deluca",
+  "electionId": "il-2026-11-03-general",
+  "name": "Anthony DeLuca",
+  "party": "Democratic",
+  "office": "State Representative, 80th District",
+  "contestIds": ["cook-clerk:188000"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Anthony DeLuca, a Democrat, has represented the 80th District since 2009 and chairs the House Cities & Villages Committee. He is a former Chicago Heights mayor, school board president, businessman in industrial sales and a Teamsters member.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Anthony DeLuca, a Democrat, has represented the 80th District since 2009 and chairs the House Cities & Villages Committee.",
+            "cites": [1]
+          },
+          {
+            "text": "He is a former Chicago Heights mayor, school board president, businessman in industrial sales and a Teamsters member.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "In the legislature, DeLuca sponsored a bill to ban guaranteed income programs. In 2021, the House passed his bill to limit terms for General Assembly leaders. He sponsored a law to strengthen crematory regulations. His campaign says he backed a comprehensive energy plan that lifted the nuclear moratorium. He sponsored a House resolution for warehouse solar panels. He voted to increase the senior property tax freeze income threshold. He also sponsored a law on college student immunizations.",
+        "cites": [2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "In the legislature, DeLuca sponsored a bill to ban guaranteed income programs.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2021, the House passed his bill to limit terms for General Assembly leaders.",
+            "cites": [3]
+          },
+          {
+            "text": "He sponsored a law to strengthen crematory regulations.",
+            "cites": [4]
+          },
+          {
+            "text": "His campaign says he backed a comprehensive energy plan that lifted the nuclear moratorium.",
+            "cites": [5]
+          },
+          {
+            "text": "He sponsored a House resolution for warehouse solar panels.",
+            "cites": [2]
+          },
+          {
+            "text": "He voted to increase the senior property tax freeze income threshold.",
+            "cites": [5]
+          },
+          {
+            "text": "He also sponsored a law on college student immunizations.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends for State Rep Anthony DeLuca",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=20309",
+        "period": "April 1 to June 30, 2026",
+        "raised": 73050,
+        "cashOnHand": 1164503.01,
+        "breakdown": [
+          { "kind": "large", "amount": 29750 },
+          { "kind": "transfer", "amount": 43300 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 111113, "count": 67 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [6] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [8] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [9]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Anthony DeLuca (Illinois)",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Anthony_DeLuca_(Illinois)",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Representative Anthony DeLuca (D) - 104th General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/House/Members/Details/3277",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "House passes leadership term limits, source of income protections for renters",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/house-passes-leadership-term-limits-source-of-income-protections-for-renters/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Rep. Anthony DeLuca",
+      "publisher": "Illinois House Democratic Caucus",
+      "url": "https://ilhousedems.com/project/rep-anthony-deluca/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Rep. Anthony DeLuca",
+      "publisher": "Illinois House Democratic Caucus",
+      "url": "https://ilhousedems.com/project/rep-anthony-deluca/page/2/?et_blog",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Election 2026",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 7
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 8
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:21:32.440Z",
+    "version": 6
+  }
+}

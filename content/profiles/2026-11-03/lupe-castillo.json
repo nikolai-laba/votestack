@@ -1,0 +1,102 @@
+{
+  "key": "lupe-castillo",
+  "electionId": "il-2026-11-03-general",
+  "name": "Lupe Castillo",
+  "party": "Republican",
+  "office": "U.S. Representative, 4th District",
+  "contestIds": [
+    "chicago-boe:u-s-representative-4th-district",
+    "cook-clerk:140400"
+  ],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Lupe Castillo is a former 22nd Ward Republican committeewoman. Her campaign says she has lived in the 4th Congressional District for 43 years.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Lupe Castillo is a former 22nd Ward Republican committeewoman.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign says she has lived in the 4th Congressional District for 43 years.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "In a candidate debate, Castillo called immigration the district's biggest issue. In a 2024 Chicago Sun-Times questionnaire, she called for closing the border and implementing the 'Stay in Mexico' order, and she said migrants should be required to enter the country legally. Her campaign site says she supports no tax on tips and overtime, and no congressional pay during government shutdowns. According to an iVoterGuide questionnaire, she supports reducing taxes on income, fuel and death, and she believes federal funds should not go to abortion providers. She also supports school choice and voter ID laws, and she has a stated goal of protecting 'women’s sports and girl’s bathrooms.' On her 2024 campaign website, she stated she is a lifetime member of the National Rifle Association and Gun Owners of America. In 2024, she also expressed support for providing military aid to Israel and unwavering support for Ukraine.",
+        "cites": [3, 4, 5, 6, 2, 7]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": { "asOf": "2026-10-07", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Who is running for the U.S. House in the Chicago area during the 2026 midterm elections?",
+      "publisher": "CBS News Chicago",
+      "url": "https://www.cbsnews.com/chicago/news/who-is-running-congress-illinois-chicago-2026-midterm/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "What to know about the 4th Congressional District race to replace ...",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/10/01/what-to-know-4th-congressional-district-patty-garcia-chris-getty-lupe-castillo-ed-hershey-us-rep-jesus-chuy-garcia",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Illinois 4th District race: Rivals hit Patty García over ballot ...",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/09/29/illinois-4th-district-race-rivals-hit-patty-garcia-over-ballot-moves-in-race-to-succeed-chuy-garcia/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Lupe Castillo, Illinois 4th Congressional District - Chicago Sun-Times",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/candidate-questionnaires/lupe-castillo-illinois-4th-congressional-district",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Values",
+      "publisher": "Lupe Castillo for Congress",
+      "url": "https://castillolupe.com/values/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Lupe Castillo - Candidate Profile",
+      "publisher": "iVoterGuide",
+      "url": "https://ivoterguide.com/candidate/74473/race/1345/election/1195?culture=en-us",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Lupe for Congress",
+      "publisher": "Lupe Castillo for Congress",
+      "url": "https://lupe4congress.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:02:27.049Z",
+    "version": 7
+  }
+}

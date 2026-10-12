@@ -1,0 +1,203 @@
+{
+  "key": "luz-maria-toledo",
+  "electionId": "il-2026-11-03-general",
+  "name": "Luz Maria Toledo",
+  "party": "Democratic",
+  "office": "Circuit Court Judge, Cook County (Vacancy of Cobbs)",
+  "contestIds": [
+    "chicago-boe:judge-of-the-circuit-court-vacancy-of-cobbs",
+    "cook-clerk:330105:vacancy-of-cobbs"
+  ],
+  "kind": "judicial_candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Luz Maria Toledo was appointed a Cook County circuit judge in August 2026. She worked as an Assistant Cook County State’s Attorney from 2007 to 2026, prosecuting misdemeanors and felonies, and later handling real estate tax matters. Her campaign says she blocked a real estate investor from profiting from a tax sale error, saving the county over $1 million.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Luz Maria Toledo was appointed a Cook County circuit judge in August 2026.",
+            "cites": [1]
+          },
+          {
+            "text": "She worked as an Assistant Cook County State’s Attorney from 2007 to 2026, prosecuting misdemeanors and felonies, and later handling real estate tax matters.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign says she blocked a real estate investor from profiting from a tax sale error, saving the county over $1 million.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Cook County Democratic Party",
+        "kind": "party",
+        "cites": [4]
+      },
+      { "organization": "47th Ward Democrats", "kind": "party", "cites": [5] },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [6] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 399",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Chicago Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [10]
+      },
+      {
+        "organization": "Chicago Council of Lawyers",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [11]
+      },
+      {
+        "organization": "Illinois State Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [1]
+      },
+      {
+        "organization": "Alliance of Bar Associations for Judicial Screening",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "tally": {
+          "members": 11,
+          "ratings": [
+            { "rating": "Recommended", "count": 9 },
+            { "rating": "Qualified", "count": 2 }
+          ],
+          "notEvaluated": 0
+        },
+        "cites": [12]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Cook County Judicial Evaluations - Illinois State Bar Association",
+      "publisher": "Illinois State Bar Association",
+      "url": "https://www.isba.org/judicial-elections/counties/cook",
+      "kind": "bar",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Chicago Council of Lawyers Evaluation Report – Vote For Judges",
+      "publisher": "Chicago Council of Lawyers",
+      "url": "https://www.voteforjudges.org/chicago-council-of-lawyers-evaluation-report/",
+      "kind": "bar",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "About - Luz Maria Toledo",
+      "publisher": "Toledo for Judge campaign",
+      "url": "https://toledoforjudge.com/about-toledo/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Judicial election results",
+      "publisher": "Injustice Watch",
+      "url": "https://www.injusticewatch.org/judges/judicial-elections/2026-primary/2026/judicial-election-results-preliminary/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements - 47th Ward Democrats",
+      "publisher": "47th Ward Democrats",
+      "url": "https://47thward.com/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements and Election Information - Personal PAC",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "ILLINOIS ENDORSEMENTS",
+      "publisher": "International Union of Operating Engineers Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "2026 Primary Election Endorsements",
+      "publisher": "International Union of Operating Engineers Local 399",
+      "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Vote Smart: CBA Judicial Voter's Guide, General Election, November 3, 2026",
+      "publisher": "Chicago Bar Association",
+      "url": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 10
+    },
+    {
+      "title": "Evaluation Report: Judges on the Ballot in the November 3, 2026 General Election",
+      "publisher": "Chicago Council of Lawyers",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/CCL-Judicial-Evaluation-Report-for-Nov-3-2026-General-Election_Ballot-Order.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 11
+    },
+    {
+      "title": "Alliance of Bar Associations for Judicial Screening, 2026 General Election ratings",
+      "publisher": "Alliance of Bar Associations for Judicial Screening",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/2026-Alliance-General-Ballot-Ratings-09252026.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 12
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:35:10.386Z",
+    "version": 3
+  }
+}

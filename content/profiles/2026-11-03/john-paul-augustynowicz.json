@@ -1,0 +1,115 @@
+{
+  "key": "john-paul-augustynowicz",
+  "electionId": "il-2026-11-03-general",
+  "name": "John Paul Augustynowicz",
+  "party": "Republican",
+  "office": "State Representative, 49th District",
+  "contestIds": ["cook-clerk:184900"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "According to his campaign website, John Paul Augustynowicz is a Warrenville alderman and U.S. Navy veteran who served as a submarine officer aboard the USS Parche. He previously worked as a legislative aide and earned a bachelor's degree from Northern Illinois University. His campaign website lists priorities of responsive local government, fixing state government dysfunction, and community-based problem solving. The NRA assigned him an F rating. Illinois Right to Life Action gave him a 1 rating on pro-life issues.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "According to his campaign website, John Paul Augustynowicz is a Warrenville alderman and U.S. Navy veteran who served as a submarine officer aboard the USS Parche.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously worked as a legislative aide and earned a bachelor's degree from Northern Illinois University.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign website lists priorities of responsive local government, fixing state government dysfunction, and community-based problem solving.",
+            "cites": [1]
+          },
+          { "text": "The NRA assigned him an F rating.", "cites": [2] },
+          {
+            "text": "Illinois Right to Life Action gave him a 1 rating on pro-life issues.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "JP for Illinois",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=34667",
+        "period": "April 1 to June 30, 2026",
+        "raised": 0,
+        "cashOnHand": 619.79,
+        "breakdown": []
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "DuPage County Republicans",
+        "kind": "party",
+        "cites": [4]
+      },
+      {
+        "organization": "Kane County Republicans",
+        "kind": "party",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Kane County 2026 Candidates & Sample Ballot | Illinois",
+      "publisher": "The Ballot Brief",
+      "url": "https://theballotbrief.com/state/illinois/kane-county",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Grades | Illinois",
+      "publisher": "NRA-PVF",
+      "url": "https://www.nrapvf.org/grades/illinois/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Kane/Kendall/SW DuPage/NW Will County Area",
+      "publisher": "Illinois Right to Life Action",
+      "url": "https://illinoisrighttolifeaction.org/wp-content/uploads/2026/02/Prim26-KKWS-3.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "2026 Candidates",
+      "publisher": "DuPage County Republicans",
+      "url": "https://dupagegop.com/2026-candidates/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "2026 Republican Candidates",
+      "publisher": "Kane GOP",
+      "url": "https://www.kanegop.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:10:52.510Z",
+    "version": 3
+  }
+}

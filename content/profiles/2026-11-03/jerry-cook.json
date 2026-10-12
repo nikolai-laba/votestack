@@ -1,0 +1,76 @@
+{
+  "key": "jerry-cook",
+  "electionId": "il-2026-11-03-general",
+  "name": "Jerry Cook",
+  "party": "Democratic",
+  "office": "Regional Superintendent of Schools, Kane County",
+  "contestIds": ["cook-clerk:242000"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "He served as a principal in East Aurora School District 131 and School District U-46. In 2023, a school district ethics panel ruled he violated its gift ban policy by taking an all-expense-paid trip from an HVAC contractor. He supports expanding professional development for educators and strengthening college and career readiness pathways.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "He served as a principal in East Aurora School District 131 and School District U-46.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2023, a school district ethics panel ruled he violated its gift ban policy by taking an all-expense-paid trip from an HVAC contractor.",
+            "cites": [2]
+          },
+          {
+            "text": "He supports expanding professional development for educators and strengthening college and career readiness pathways.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Kane County Democratic Party",
+        "kind": "party",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Dr. Jerry Cook | Regional Superintendent of Schools Candidate",
+      "publisher": "Kane County Democratic News",
+      "url": "https://www.kanedems.org/2026/04/dr-jerry-cook-regional-superintendent-of-schools-candidate/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Food and drinks during Kentucky trip violated District 214 gift ban policy, ethics panel says",
+      "publisher": "Daily Herald",
+      "url": "https://www.dailyherald.com/20231106/news/food-and-drinks-during-kentucky-trip-violated-district-214-gift-ban-policy-ethics-panel-says/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Meet the Candidates on the Ballot in Kane County",
+      "publisher": "Kane County Democratic Party",
+      "url": "https://www.kanedems.org/about-us/meet-the-candidates/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:42:10.218Z",
+    "version": 3
+  }
+}

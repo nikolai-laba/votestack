@@ -1,0 +1,330 @@
+{
+  "key": "patrick-hanley",
+  "electionId": "il-2026-11-03-general",
+  "name": "Patrick Hanley",
+  "party": "Democratic",
+  "office": "State Senator, 9th District",
+  "contestIds": ["chicago-boe:state-senator-9th-district", "cook-clerk:170902"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Patrick Hanley is a small business owner and president of the New Trier Democrats. He chairs the Winnetka Environmental and Forestry Commission. He co-founded Operation Swing State. His campaign says the group mobilized over 10,000 volunteers in 2024 to canvass in Michigan and Wisconsin. His campaign says he previously worked in the U.S. Senate and the Justice Department.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Patrick Hanley is a small business owner and president of the New Trier Democrats.",
+            "cites": [1]
+          },
+          {
+            "text": "He chairs the Winnetka Environmental and Forestry Commission.",
+            "cites": [2]
+          },
+          { "text": "He co-founded Operation Swing State.", "cites": [3] },
+          {
+            "text": "His campaign says the group mobilized over 10,000 volunteers in 2024 to canvass in Michigan and Wisconsin.",
+            "cites": [3]
+          },
+          {
+            "text": "His campaign says he previously worked in the U.S. Senate and the Justice Department.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "He supports a progressive income tax. He supports a progressive property tax. He wants to increase housing statewide. He wants to explore ranked choice voting. He opposes public funding for a Chicago Bears stadium. He wants Illinois to limit federal immigration enforcement using 10th Amendment authority. He supports reproductive rights. He opposed a 30-year coal-power purchasing agreement.",
+        "cites": [4, 5, 6, 3, 7],
+        "sentences": [
+          { "text": "He supports a progressive income tax.", "cites": [4] },
+          { "text": "He supports a progressive property tax.", "cites": [5] },
+          { "text": "He wants to increase housing statewide.", "cites": [5] },
+          { "text": "He wants to explore ranked choice voting.", "cites": [6] },
+          {
+            "text": "He opposes public funding for a Chicago Bears stadium.",
+            "cites": [5]
+          },
+          {
+            "text": "He wants Illinois to limit federal immigration enforcement using 10th Amendment authority.",
+            "cites": [3]
+          },
+          { "text": "He supports reproductive rights.", "cites": [4] },
+          {
+            "text": "He opposed a 30-year coal-power purchasing agreement.",
+            "cites": [7]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Hanley for Illinois",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40652",
+        "period": "April 1 to June 30, 2026",
+        "raised": 7412,
+        "cashOnHand": 5110.44,
+        "breakdown": [
+          { "kind": "small", "amount": 887 },
+          { "kind": "large", "amount": 5525 },
+          { "kind": "transfer", "amount": 1000 }
+        ],
+        "largeSince": {
+          "since": "2026-06-30",
+          "total": 57405.55,
+          "count": 22,
+          "fromCandidate": 2146.83
+        }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "U.S. Rep. Jan Schakowsky",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [2]
+      },
+      {
+        "organization": "State Sen. Laura Murphy",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [8]
+      },
+      {
+        "organization": "State Sen. Julie Morrison",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [8]
+      },
+      {
+        "organization": "Former Cook County Clerk David Orr",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [10] },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [11]
+      },
+      { "organization": "Sierra Club", "kind": "organization", "cites": [12] },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [13]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [14] },
+      {
+        "organization": "Run for Something",
+        "kind": "organization",
+        "cites": [15]
+      },
+      {
+        "organization": "Abundant Housing Illinois",
+        "kind": "organization",
+        "cites": [16]
+      },
+      {
+        "organization": "Better Streets Chicago Action Fund",
+        "kind": "organization",
+        "cites": [17]
+      },
+      {
+        "organization": "New Trier Township Democrats",
+        "kind": "party",
+        "cites": [18]
+      },
+      {
+        "organization": "Northfield Township Democrats",
+        "kind": "party",
+        "cites": [9]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [19]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [20]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate profile: Patrick Hanley",
+      "publisher": "Evanston RoundTable",
+      "url": "https://evanstonroundtable.com/govpack_profiles/candidate-profile-patrick-hanley/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "New Trier Dems' Hanley announces bid for state senate",
+      "publisher": "The Record North Shore",
+      "url": "https://www.therecordnorthshore.org/2025/05/09/schakowsky-endorsement-in-tow-new-trier-dems-hanley-announces-bid-for-state-senate/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Ruttenberg and Hanley make primary ballot for state Senate",
+      "publisher": "The Daily Northwestern",
+      "url": "https://dailynorthwestern.com/2025/11/04/city/filing-deadline-closes-ruttenberg-and-hanley-to-meet-in-march-matchup-for-state-senate/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Editorial: Patrick Hanley for Illinois 9th Senate District Democratic primary",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/02/12/editorial-patrick-hanley-illinois-9th-senate-district-democratic-primary/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "State Senate hopefuls face off in Glenview",
+      "publisher": "Evanston Now",
+      "url": "https://evanstonnow.com/state-senate-hopefuls-face-off-in-glenview/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Patrick Hanley declares win in state Senate Democratic ...",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/03/20/patrick-hanley-win-state-senate-primary/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Hanley for Illinois",
+      "publisher": "Hanley for Illinois",
+      "url": "https://www.hanleyforillinois.com",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Winnetka environmentalist Patrick Hanley hopes to bring sustainability, grassroots vision to state senate",
+      "publisher": "The Daily Northwestern",
+      "url": "https://dailynorthwestern.com/2025/05/19/city/winnetka-environmentalist-patrick-hanley-hopes-to-bring-sustainability-grassroots-vision-to-state-senate/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Press — Hanley for Illinois",
+      "publisher": "Hanley for Illinois",
+      "url": "https://www.hanleyforillinois.com/news",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Biss gets coveted AFL-CIO endorsement",
+      "publisher": "Evanston Now",
+      "url": "https://evanstonnow.com/biss-gets-coveted-afl-cio-endorsement/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Illinois Federation of Teachers Announces Slate of Endorsements for 2026 Primaries",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/post/illinois-federation-of-teachers-announces-slate-of-endorsements-for-2026-primaries",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 12,
+      "title": "Sierra Club Endorses Patrick Hanley",
+      "publisher": "Hanley for Illinois",
+      "url": "https://www.hanleyforillinois.com/news/press-release-sierra-club-endorses-patrick-hanley",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 13,
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 14,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 15,
+      "title": "Patrick Hanley",
+      "publisher": "Run for Something",
+      "url": "https://runforsomething.net/candidates/patrick-hanley/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 16,
+      "title": "Patrick Hanley",
+      "publisher": "Abundant Housing Illinois",
+      "url": "https://abundanthousingillinois.org/endorsements/patrick-hanley/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 17,
+      "title": "2026 Endorsements",
+      "publisher": "Better Streets Chicago Action Fund",
+      "url": "https://www.bscactionfund.org/2026-midterms/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 18,
+      "title": "New Trier Dems call mailer 'dirty politics'",
+      "publisher": "Evanston Now",
+      "url": "https://evanstonnow.com/new-trier-dems-call-mailer-dirty-politics/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 20
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:56:33.129Z",
+    "version": 2
+  }
+}

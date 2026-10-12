@@ -1,0 +1,162 @@
+{
+  "key": "mary-catherine-marubio",
+  "electionId": "il-2026-11-03-general",
+  "name": "Mary Catherine Marubio",
+  "office": "Circuit Court Judge, Cook County",
+  "contestIds": [
+    "chicago-boe:retention:mary-catherine-marubio",
+    "cook-clerk:720001:mary-catherine-marubio"
+  ],
+  "kind": "retention",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Judge Marubio presides over the Second Municipal District and is deputy chief of First Appearance Court. Appointed in 2016 and elected in 2020, she led the Pretrial Division as it ended cash bail. She was previously an administrative law judge, a criminal defense attorney, and president of the Alliance of Illinois Judges. In 2020, she denied bail for a getaway driver in a fatal shooting.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Judge Marubio presides over the Second Municipal District and is deputy chief of First Appearance Court.",
+            "cites": [1]
+          },
+          {
+            "text": "Appointed in 2016 and elected in 2020, she led the Pretrial Division as it ended cash bail.",
+            "cites": [2]
+          },
+          {
+            "text": "She was previously an administrative law judge, a criminal defense attorney, and president of the Alliance of Illinois Judges.",
+            "cites": [3]
+          },
+          {
+            "text": "In 2020, she denied bail for a getaway driver in a fatal shooting.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Chicago Bar Association",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "rating": "Qualified",
+        "cites": [6]
+      },
+      {
+        "organization": "Chicago Council of Lawyers",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "rating": "Qualified",
+        "cites": [7]
+      },
+      {
+        "organization": "Illinois State Bar Association",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "rating": "Yes",
+        "cites": [8]
+      },
+      {
+        "organization": "Alliance of Bar Associations for Judicial Screening",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "tally": {
+          "members": 11,
+          "ratings": [{ "rating": "Yes", "count": 11 }],
+          "notEvaluated": 0
+        },
+        "cites": [9]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Honorable Mary C. Marubio, Circuit Judge",
+      "publisher": "Circuit Court of Cook County",
+      "url": "https://www.cookcountycourtil.gov/judge/marubio-mary-c",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Mary Catherine Marubio - Chicago",
+      "publisher": "DePaul University",
+      "url": "https://www.depaul.edu/faculty/mary-catherine-marubio",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "WomenIn Legal Speaker Bios",
+      "publisher": "Illinois.gov",
+      "url": "https://cms.illinois.gov/personnel/whm2021/womenin-legal-bios.html",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "No Bond for Alleged Getaway Driver in Fourth of July Shooting That Left 7-Year-Old Dead",
+      "publisher": "WTTW",
+      "url": "https://news.wttw.com/2020/07/07/no-bond-alleged-getaway-driver-fourth-july-shooting-left-7-year-old-dead",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Vote Smart: CBA Judicial Voter's Guide, General Election, November 3, 2026",
+      "publisher": "Chicago Bar Association",
+      "url": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 6
+    },
+    {
+      "title": "Evaluation Report: Judges on the Ballot in the November 3, 2026 General Election",
+      "publisher": "Chicago Council of Lawyers",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/CCL-Judicial-Evaluation-Report-for-Nov-3-2026-General-Election_Ballot-Order.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 7
+    },
+    {
+      "title": "2026 General Election, Cook County Judicial Evaluations",
+      "publisher": "Illinois State Bar Association",
+      "url": "https://www.isba.org/judicial-elections/counties/cook",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 8
+    },
+    {
+      "title": "Alliance of Bar Associations for Judicial Screening, 2026 General Election ratings",
+      "publisher": "Alliance of Bar Associations for Judicial Screening",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/2026-Alliance-General-Ballot-Ratings-09252026.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 9
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T21:19:40.740Z",
+    "version": 2
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "key": "ava-george-stewart",
+  "electionId": "il-2026-11-03-general",
+  "name": "Ava George Stewart",
+  "party": "Democratic",
+  "office": "Circuit Court Judge, Cook County (Vacancy of Hooks)",
+  "contestIds": [
+    "chicago-boe:judge-of-the-circuit-court-vacancy-of-hooks",
+    "cook-clerk:330115:vacancy-of-hooks"
+  ],
+  "kind": "judicial_candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Ava George Stewart was appointed to the Cook County Circuit Court in August 2026. Admitted to the bar in 2003, she tried Chicago traffic cases, ran a criminal defense firm starting in 2005, and led the Lake County State’s Attorney’s criminal division from 2021 to 2023. She has taught appellate advocacy at UIC law school since 2018. She is vice chair of the Illinois Guardianship and Advocacy Commission.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Ava George Stewart was appointed to the Cook County Circuit Court in August 2026.",
+            "cites": [1]
+          },
+          {
+            "text": "Admitted to the bar in 2003, she tried Chicago traffic cases, ran a criminal defense firm starting in 2005, and led the Lake County State’s Attorney’s criminal division from 2021 to 2023.",
+            "cites": [1]
+          },
+          {
+            "text": "She has taught appellate advocacy at UIC law school since 2018.",
+            "cites": [1]
+          },
+          {
+            "text": "She is vice chair of the Illinois Guardianship and Advocacy Commission.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Ava George Stewart",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40578",
+        "period": "July 1 to September 30, 2026",
+        "raised": 0,
+        "cashOnHand": -3379.4,
+        "breakdown": []
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "47th Ward Democrats", "kind": "party", "cites": [3] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 399",
+        "kind": "union",
+        "cites": [6]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [10] },
+      {
+        "organization": "Chicago Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Council of Lawyers",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [8]
+      },
+      {
+        "organization": "Illinois State Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [1]
+      },
+      {
+        "organization": "Alliance of Bar Associations for Judicial Screening",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "tally": {
+          "members": 11,
+          "ratings": [
+            { "rating": "Recommended", "count": 7 },
+            { "rating": "Qualified", "count": 2 },
+            { "rating": "Highly Recommended", "count": 2 }
+          ],
+          "notEvaluated": 0
+        },
+        "cites": [9]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Cook County Judicial Evaluations",
+      "publisher": "Illinois State Bar Association",
+      "url": "https://www.isba.org/judicial-elections/counties/cook",
+      "kind": "bar",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Judicial election results: Three appointed Cook County ...",
+      "publisher": "Injustice Watch",
+      "url": "https://www.injusticewatch.org/judges/judicial-elections/2026-primary/2026/judicial-election-results-preliminary/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Endorsements",
+      "publisher": "47th Ward Democrats",
+      "url": "https://47thward.com/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "ILLINOIS ENDORSEMENTS",
+      "publisher": "International Union of Operating Engineers Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "2026 local 399 illinois - primary election endorsements",
+      "publisher": "International Union of Operating Engineers Local 399",
+      "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Vote Smart: CBA Judicial Voter's Guide, General Election, November 3, 2026",
+      "publisher": "Chicago Bar Association",
+      "url": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 7
+    },
+    {
+      "title": "Evaluation Report: Judges on the Ballot in the November 3, 2026 General Election",
+      "publisher": "Chicago Council of Lawyers",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/CCL-Judicial-Evaluation-Report-for-Nov-3-2026-General-Election_Ballot-Order.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 8
+    },
+    {
+      "title": "Alliance of Bar Associations for Judicial Screening, 2026 General Election ratings",
+      "publisher": "Alliance of Bar Associations for Judicial Screening",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/2026-Alliance-General-Ballot-Ratings-09252026.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 9
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:35:51.985Z",
+    "version": 4
+  }
+}

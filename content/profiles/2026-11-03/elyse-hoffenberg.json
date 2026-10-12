@@ -1,0 +1,188 @@
+{
+  "key": "elyse-hoffenberg",
+  "electionId": "il-2026-11-03-general",
+  "name": "Elyse Hoffenberg",
+  "party": "Democratic",
+  "office": "Cook County Commissioner, 17th District",
+  "contestIds": ["cook-clerk:221700"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Elyse Hoffenberg is an attorney and former Cook County prosecutor who serves as Clerk of Lyons Township. She is president of the Lyons Township Mental Health Commission, and she previously chaired the La Grange Police and Fire Commission and served on the La Grange District 105 school board. Her campaign website lists priorities of efficient government, safe communities, and a sustainable Cook County. Her campaign says she has launched programs at the Lyons Township Mental Health Commission aimed at supporting seniors and youth. As township clerk, she announced the launch of Dolly Parton’s Imagination Library in Lyons Township, a program that provides one free book per month to children for the first five years of their lives.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Elyse Hoffenberg is an attorney and former Cook County prosecutor who serves as Clerk of Lyons Township.",
+            "cites": [1]
+          },
+          {
+            "text": "She is president of the Lyons Township Mental Health Commission, and she previously chaired the La Grange Police and Fire Commission and served on the La Grange District 105 school board.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign website lists priorities of efficient government, safe communities, and a sustainable Cook County.",
+            "cites": [3]
+          },
+          {
+            "text": "Her campaign says she has launched programs at the Lyons Township Mental Health Commission aimed at supporting seniors and youth.",
+            "cites": [2]
+          },
+          {
+            "text": "As township clerk, she announced the launch of Dolly Parton’s Imagination Library in Lyons Township, a program that provides one free book per month to children for the first five years of their lives.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Elyse Hoffenberg",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=34231",
+        "period": "April 1 to June 30, 2026",
+        "raised": 500,
+        "cashOnHand": 13869.36,
+        "breakdown": [{ "kind": "small", "amount": 500 }],
+        "largeSince": { "since": "2026-06-30", "total": 120440.28, "count": 14 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "Personal PAC", "kind": "organization", "cites": [5] },
+      {
+        "organization": "Sierra Club Illinois",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "International Brotherhood of Electrical Workers Local 134",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 399",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Plumbers Local 130 UA",
+        "kind": "union",
+        "cites": [11]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Elyse Hoffenberg - Ballotpedia",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Elyse_Hoffenberg",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "About Me – Elyse for Cook County",
+      "publisher": "Elyse for Cook County campaign",
+      "url": "https://elyseforcookcounty.com/about-me/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Priorities – Elyse for Cook County",
+      "publisher": "Elyse for Cook County campaign",
+      "url": "https://elyseforcookcounty.com/priorities/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Lyons Township launches free book program for young children",
+      "publisher": "Desplaines Valley News",
+      "url": "https://southwestregionalpublishing.com/2026/09/16/lyons-township-launches-free-book-program-for-young-children/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements and Election Information - Personal PAC",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "2026 Cook County Board of Commissioners election - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Pritzker slams Trump's rhetoric on Reiner",
+      "publisher": "Politico",
+      "url": "https://www.politico.com/newsletters/illinois-playbook/2025/12/16/pritzker-slams-trumps-rhetoric-on-reiner-00692394",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "2026 Primary Election Local 134 Endorsed Candidates",
+      "publisher": "International Brotherhood of Electrical Workers Local 134",
+      "url": "https://www.lu134.org/2026%20Primary%20Election%20Endorsements(3).pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "ILLINOIS ENDORSEMENTS",
+      "publisher": "International Union of Operating Engineers Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "2026 local 399 illinois - primary election endorsements",
+      "publisher": "International Union of Operating Engineers Local 399",
+      "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "CANDIDATES ENDORSED BY THE POLITICAL ACTION TASK FRCE",
+      "publisher": "Plumbers Local 130 UA",
+      "url": "https://plumberslu130ua.com/ULWSiteResources/ualocal130_v2/Resources/file/Breaking%20News/2026/2026%20PATF%20Endorsements_Revised%202.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:19:51.700Z",
+    "version": 3
+  }
+}

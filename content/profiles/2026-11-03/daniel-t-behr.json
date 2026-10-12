@@ -1,0 +1,99 @@
+{
+  "key": "daniel-t-behr",
+  "electionId": "il-2026-11-03-general",
+  "name": "Daniel T. Behr",
+  "party": "Republican",
+  "office": "State Representative, 57th District",
+  "contestIds": ["cook-clerk:185700"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "His campaign opposes an additional 3% income-tax surcharge on income over $1 million and proposes reducing government costs for property-tax relief. He supports a hybrid pension system for new state hires that combines a guaranteed benefit with a defined-contribution account. His campaign says education funding should target demonstrated needs like foundational literacy and special education, measuring results to determine what works. For public safety, his campaign says pretrial detention should be based on demonstrated risk.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "His campaign opposes an additional 3% income-tax surcharge on income over $1 million and proposes reducing government costs for property-tax relief.",
+            "cites": [1]
+          },
+          {
+            "text": "He supports a hybrid pension system for new state hires that combines a guaranteed benefit with a defined-contribution account.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says education funding should target demonstrated needs like foundational literacy and special education, measuring results to determine what works.",
+            "cites": [1]
+          },
+          {
+            "text": "For public safety, his campaign says pretrial detention should be based on demonstrated risk.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Behr for 57",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39779",
+        "period": "April 1 to June 30, 2026",
+        "raised": 46.59,
+        "cashOnHand": 3148.27,
+        "breakdown": [{ "kind": "other", "amount": 46.59 }],
+        "largeSince": { "since": "2026-06-30", "total": 4300, "count": 3 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Northfield Township Regular Republican Organization",
+        "kind": "party",
+        "cites": [2]
+      },
+      {
+        "organization": "Republicans of Wheeling Township",
+        "kind": "party",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Behr For Illinois – Common-Sense Leadership for the 57th District",
+      "publisher": "Behr For Illinois",
+      "url": "https://behrforillinois.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Daniel Behr for State Representative (57) - NorthfieldGOP",
+      "publisher": "Northfield Township Regular Republican Organization",
+      "url": "https://www.northfieldgop.org/daniel_behr_for_state_representative",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Candidates | ROWT",
+      "publisher": "Republicans of Wheeling Township",
+      "url": "https://www.rowtgop.org/candidates/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:16:54.374Z",
+    "version": 5
+  }
+}

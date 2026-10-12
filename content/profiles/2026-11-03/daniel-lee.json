@@ -1,0 +1,121 @@
+{
+  "key": "daniel-lee",
+  "electionId": "il-2026-11-03-general",
+  "name": "Daniel Lee",
+  "party": "Republican",
+  "office": "Cook County Commissioner, 15th District",
+  "contestIds": ["cook-clerk:221500"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Daniel Lee is a business owner who lives in Hoffman Estates. He serves on the Economic Development Commission and Planning and Zoning Commission for the Village of Hoffman Estates. His campaign says he is a 30-year resident of Cook County who supports conservative values and fiscal responsibility. He opposes expanding county-funded legal defense for undocumented immigrants in deportation cases. His campaign calls for reducing county spending and applying business management skills to the county budget. Lee has said he would serve as a full-time commissioner and emphasized checks and balances on the county board.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Daniel Lee is a business owner who lives in Hoffman Estates.",
+            "cites": [1]
+          },
+          {
+            "text": "He serves on the Economic Development Commission and Planning and Zoning Commission for the Village of Hoffman Estates.",
+            "cites": [2]
+          },
+          {
+            "text": "His campaign says he is a 30-year resident of Cook County who supports conservative values and fiscal responsibility.",
+            "cites": [2]
+          },
+          {
+            "text": "He opposes expanding county-funded legal defense for undocumented immigrants in deportation cases.",
+            "cites": [3]
+          },
+          {
+            "text": "His campaign calls for reducing county spending and applying business management skills to the county budget.",
+            "cites": [2]
+          },
+          {
+            "text": "Lee has said he would serve as a full-time commissioner and emphasized checks and balances on the county board.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Citizens for Daniel Lee",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39818",
+        "period": "April 1 to June 30, 2026",
+        "raised": 3985.78,
+        "cashOnHand": 2669.22,
+        "breakdown": [
+          { "kind": "small", "amount": 785.78 },
+          { "kind": "large", "amount": 3200 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 3000, "count": 3 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Schaumburg Township Republican Organization",
+        "kind": "party",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Lee to represent GOP in race for Cook County Board District 15",
+      "publisher": "Daily Herald",
+      "url": "https://www.dailyherald.com/20260317/local/lee-to-represent-gop-in-race-for-cook-county-board-district-15/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Daniel Lee for Cook County Commissioner | Citizens for Daniel Lee",
+      "publisher": "Daniel Lee campaign",
+      "url": "https://citizens4daniellee.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "State law helps Cook County expand immigrant legal defense fund",
+      "publisher": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/news/3897309/state-law-helps-cook-county-expand-immigrant-legal-defense-fund/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "A Closer Look At 15th District Cook County Commissioners Race",
+      "publisher": "Journal & Topics",
+      "url": "https://www.journal-topics.com/articles/a-closer-look-at-15th-district-cook-county-commissioners-race/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "November 2026 General Election Voter Guide",
+      "publisher": "Schaumburg Township Republican Organization",
+      "url": "https://www.stgop.org/2026_general_election",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:17:09.196Z",
+    "version": 3
+  }
+}

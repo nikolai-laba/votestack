@@ -1,0 +1,192 @@
+/* Design tokens and base styles. */
+
+@import 'tailwindcss';
+
+/* Remove Tailwind's default palette so slate, indigo and the rest can't creep back in. */
+@theme {
+  --color-*: initial;
+
+  --font-sans:
+    'Atkinson Hyperlegible Next Variable', system-ui, -apple-system, 'Segoe UI',
+    Roboto, sans-serif;
+  --font-heading: 'Literata Variable', Georgia, serif;
+
+  --breakpoint-md: 37.5rem;
+  --breakpoint-lg: 52.5rem;
+
+  --radius-sm: 4px;
+  --radius-md: 6px;
+
+  --text-title: 1.75rem;
+  --text-title--line-height: 2.25rem;
+  --text-title-lg: 2.25rem;
+  --text-title-lg--line-height: 2.75rem;
+  --text-section: 1.375rem;
+  --text-section--line-height: 1.75rem;
+  --text-race: 1.1875rem;
+  --text-race--line-height: 1.625rem;
+  --text-body: 1.0625rem;
+  --text-body--line-height: 1.625rem;
+  --text-label: 1.0625rem;
+  --text-label--line-height: 1.5rem;
+  --text-small: 0.9375rem;
+  --text-small--line-height: 1.375rem;
+  /* The floor: nothing smaller. */
+  --text-caption: 0.8125rem;
+  --text-caption--line-height: 1.125rem;
+
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+}
+
+/* Semantic roles (Forest palette). Contrast ratios are checked in tokens.test.ts. */
+:root {
+  --bg: #f5f6f1;
+  --surface: #ffffff;
+  --text: #17241c;
+  --muted: #4b5850;
+  --line: #d9ded6;
+  --field: #6b7a70;
+  --primary: #1e5135;
+  --on-primary: #ffffff;
+  --highlight: #cfe59a;
+  --on-highlight: #17241c;
+  /* A picked name on Saved choices: a marker-style lime background. */
+  --pick: #cfe59a;
+  --on-pick: #17241c;
+  --band: #e8ede3;
+  --warn-bg: #fbefd2;
+  --warn-fg: #5c3d0a;
+  --warn-line: #a0660f;
+  --danger: #a3261c;
+  --success: #1d6b3f;
+  --focus: #1e5135;
+  color-scheme: light;
+}
+
+/* Dark values, in two blocks that must match (tokens.test.ts checks): an
+   explicit choice from the site menu, and the device setting when there's no
+   explicit light choice. :where() keeps both at the specificity of :root, so
+   the prefers-contrast block below still wins. */
+:root:where([data-theme='dark']) {
+  --bg: #121c16;
+  --surface: #17241c;
+  --text: #e6ece4;
+  --muted: #a7b4ab;
+  --line: #2c3a31;
+  --field: #7f8f84;
+  --primary: #b9dd7f;
+  --on-primary: #17241c;
+  --highlight: #33472a;
+  --on-highlight: #e6ece4;
+  --pick: #b9dd7f;
+  --on-pick: #17241c;
+  --band: #1d2b22;
+  --warn-bg: #3a2c10;
+  --warn-fg: #f3d9a4;
+  --warn-line: #c8912c;
+  --danger: #f2a39a;
+  --success: #8fd3a5;
+  --focus: #b9dd7f;
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme='light'])) {
+    --bg: #121c16;
+    --surface: #17241c;
+    --text: #e6ece4;
+    --muted: #a7b4ab;
+    --line: #2c3a31;
+    --field: #7f8f84;
+    --primary: #b9dd7f;
+    --on-primary: #17241c;
+    --highlight: #33472a;
+    --on-highlight: #e6ece4;
+    --pick: #b9dd7f;
+    --on-pick: #17241c;
+    --band: #1d2b22;
+    --warn-bg: #3a2c10;
+    --warn-fg: #f3d9a4;
+    --warn-line: #c8912c;
+    --danger: #f2a39a;
+    --success: #8fd3a5;
+    --focus: #b9dd7f;
+    color-scheme: dark;
+  }
+}
+
+@media (prefers-contrast: more) {
+  :root {
+    --muted: var(--text);
+    --line: var(--field);
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-field: var(--field);
+  --color-primary: var(--primary);
+  --color-on-primary: var(--on-primary);
+  --color-highlight: var(--highlight);
+  --color-on-highlight: var(--on-highlight);
+  --color-pick: var(--pick);
+  --color-on-pick: var(--on-pick);
+  --color-band: var(--band);
+  --color-warn-bg: var(--warn-bg);
+  --color-warn-fg: var(--warn-fg);
+  --color-warn-line: var(--warn-line);
+  --color-danger: var(--danger);
+  --color-success: var(--success);
+  --color-focus: var(--focus);
+  --color-white: #ffffff;
+  --color-transparent: transparent;
+}
+
+@layer base {
+  html {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: var(--font-sans);
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    font-size: var(--text-body);
+    line-height: var(--text-body--line-height);
+    /* Long names, offices and links wrap instead of widening the page at 320px. */
+    overflow-wrap: break-word;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    text-wrap: balance;
+  }
+
+  a {
+    color: var(--primary);
+    text-decoration-line: underline;
+    text-underline-offset: 3px;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--focus);
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}

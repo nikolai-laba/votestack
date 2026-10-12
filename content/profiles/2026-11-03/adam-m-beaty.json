@@ -1,0 +1,83 @@
+{
+  "key": "adam-m-beaty",
+  "electionId": "il-2026-11-03-general",
+  "name": "Adam M. Beaty",
+  "party": "Republican",
+  "office": "State Representative, 80th District",
+  "contestIds": ["cook-clerk:188000"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Adam Beaty is a patrol sergeant with the Braidwood Police Department. He has worked in law enforcement for 12 years. He previously served as Braidwood City Clerk and Reed Township Trustee. He wants to cap property taxes. He supports reforming the SAFE-T Act to give judges more discretion. He supports parental choice in education. He supports legislative term limits. He says the state pension system is less than 50 percent funded.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Adam Beaty is a patrol sergeant with the Braidwood Police Department.",
+            "cites": [1]
+          },
+          {
+            "text": "He has worked in law enforcement for 12 years.",
+            "cites": [2]
+          },
+          {
+            "text": "He previously served as Braidwood City Clerk and Reed Township Trustee.",
+            "cites": [1]
+          },
+          { "text": "He wants to cap property taxes.", "cites": [2] },
+          {
+            "text": "He supports reforming the SAFE-T Act to give judges more discretion.",
+            "cites": [2]
+          },
+          { "text": "He supports parental choice in education.", "cites": [1] },
+          { "text": "He supports legislative term limits.", "cites": [1] },
+          {
+            "text": "He says the state pension system is less than 50 percent funded.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Beaty for Illinois",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39500",
+        "period": "April 1 to June 30, 2026",
+        "raised": 100,
+        "cashOnHand": 407.68,
+        "breakdown": [{ "kind": "small", "amount": 100 }]
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-07", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "2026 Election Questionnaire: Adam Beaty, Illinois State Representative, 80th District",
+      "publisher": "Shaw Local / The Herald-News",
+      "url": "https://www.shawlocal.com/the-herald-news/2026/02/05/2026-election-questionnaire-adam-beaty-illinois-state-representative-80th-district/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Illinois House District 80 2026: Anthony DeLuca vs. Adam M. Beaty",
+      "publisher": "The Ballot Brief",
+      "url": "https://theballotbrief.com/state/illinois/cook-county/illinois-house-district-80",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:47:57.308Z",
+    "version": 4
+  }
+}

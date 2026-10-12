@@ -1,0 +1,127 @@
+{
+  "key": "carl-lambrecht",
+  "electionId": "il-2026-11-03-general",
+  "name": "Carl Lambrecht",
+  "party": "Republican",
+  "office": "U.S. Representative, 10th District",
+  "contestIds": ["cook-clerk:141000"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Carl Lambrecht is an optical engineer and the owner of an optical instrument manufacturer in Highland Park. He has a bachelor's degree from the University of Illinois. He is a Moraine Township Republican precinct committeeperson.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Carl Lambrecht is an optical engineer and the owner of an optical instrument manufacturer in Highland Park.",
+            "cites": [1]
+          },
+          {
+            "text": "He has a bachelor's degree from the University of Illinois.",
+            "cites": [2]
+          },
+          {
+            "text": "He is a Moraine Township Republican precinct committeeperson.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "During his 2024 state house campaign, he advocated reducing the number of taxing bodies and school districts. He supported cutting the state gasoline tax in half. He called for ending state subsidies for an electric-vehicle battery plant and electric-car purchases. In a 2024 candidate questionnaire, he said, \"Stop giving money to China to build a battery factory in Illinois.\"",
+        "cites": [3, 4],
+        "sentences": [
+          {
+            "text": "During his 2024 state house campaign, he advocated reducing the number of taxing bodies and school districts.",
+            "cites": [3]
+          },
+          {
+            "text": "He supported cutting the state gasoline tax in half.",
+            "cites": [3]
+          },
+          {
+            "text": "He called for ending state subsidies for an electric-vehicle battery plant and electric-car purchases.",
+            "cites": [3]
+          },
+          {
+            "text": "In a 2024 candidate questionnaire, he said, \"Stop giving money to China to build a battery factory in Illinois.\"",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Illinois Family Action",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Northfield Township Republican Organization",
+        "kind": "party",
+        "cites": [6]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Who is running for the U.S. House in the Chicago area during the 2026 midterm elections?",
+      "publisher": "CBS News",
+      "url": "https://www.cbsnews.com/chicago/news/who-is-running-congress-illinois-chicago-2026-midterm/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Carl Lambrecht - BallotReady",
+      "publisher": "BallotReady",
+      "url": "https://www.ballotready.org/people/carl-lambrecht",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Carl Lambrecht (R) – IL-10 House 2026 | Smarter.Vote",
+      "publisher": "Smarter.Vote",
+      "url": "https://smarter.vote/races/il-house-10-2026/carl-lambrecht/",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Carl Lambrecht, Illinois House 58th District",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/candidate-questionnaires/carl-lambrecht-illinois-house-58th-district",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "2026 General Election Endorsements",
+      "publisher": "Illinois Family Action",
+      "url": "https://illinoisfamilyaction.org/2026/09/ifas-2026-general-election-endorsements-2/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Northfield Township Republicans Endorse Dabrowski",
+      "publisher": "Northfield Township Republican Organization",
+      "url": "https://www.northfieldgop.org/northfield_township_republicans_endorse_dabrowski_tracy_harris_brown",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:36:19.694Z",
+    "version": 6
+  }
+}

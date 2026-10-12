@@ -1,0 +1,108 @@
+{
+  "key": "linda-z-polacek",
+  "electionId": "il-2026-11-03-general",
+  "name": "Linda Z. Polacek",
+  "party": "Republican",
+  "office": "State Senator, 23rd District",
+  "contestIds": ["cook-clerk:172302"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Linda Z. Polacek is a U.S. Marine Corps veteran and a York Center Park District commissioner. She helped run her family’s small business after attending Northwestern Business College. She has volunteered with the VFW, the Villa Park Women’s Club and the Villa Park Chamber of Commerce.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Linda Z. Polacek is a U.S. Marine Corps veteran and a York Center Park District commissioner.",
+            "cites": [1]
+          },
+          {
+            "text": "She helped run her family’s small business after attending Northwestern Business College.",
+            "cites": [1]
+          },
+          {
+            "text": "She has volunteered with the VFW, the Villa Park Women’s Club and the Villa Park Chamber of Commerce.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "She is running on property-tax relief, ethics reform and independent redistricting.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "She is running on property-tax relief, ethics reform and independent redistricting.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Linda for Illinois",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41041",
+        "period": "April 1 to June 30, 2026",
+        "raised": 4392.01,
+        "cashOnHand": 4300.31,
+        "breakdown": [
+          { "kind": "small", "amount": 1531.76 },
+          { "kind": "large", "amount": 2610.25 },
+          { "kind": "transfer", "amount": 250 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Senate Republican Victory Fund",
+        "kind": "party",
+        "cites": [2]
+      },
+      {
+        "organization": "DuPage County Republicans",
+        "kind": "party",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "DuPage County Republicans: Here's who's on your Nov. 3 ballot",
+      "publisher": "DuPage Policy Journal",
+      "url": "https://dupagepolicyjournal.com/dupage-county-republicans-here-s-who-s-on-your-nov-3-ballot",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Our 2026 Candidates - Senate Republican Victory Fund",
+      "publisher": "Senate Republican Victory Fund",
+      "url": "https://www.isrvf.com/our_2026_candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "2026 Candidates - DuPage County Republicans",
+      "publisher": "DuPage County Republicans",
+      "url": "https://dupagegop.com/2026-candidates/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:50:17.613Z",
+    "version": 2
+  }
+}

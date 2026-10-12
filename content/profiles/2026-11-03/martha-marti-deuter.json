@@ -1,0 +1,227 @@
+{
+  "key": "martha-marti-deuter",
+  "electionId": "il-2026-11-03-general",
+  "name": "Martha \"Marti\" Deuter",
+  "party": "Democratic",
+  "office": "State Representative, 45th District",
+  "contestIds": ["cook-clerk:184500"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Martha \"Marti\" Deuter is the State Representative for Illinois' 45th District and took office in January 2025. She previously served 11 years on the Elmhurst City Council, focusing on public safety and local infrastructure. She also directed housing policy for the City of Chicago for eight years and worked for Bridge Communities, a homelessness nonprofit.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Martha \"Marti\" Deuter is the State Representative for Illinois' 45th District and took office in January 2025.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously served 11 years on the Elmhurst City Council, focusing on public safety and local infrastructure.",
+            "cites": [2]
+          },
+          {
+            "text": "She also directed housing policy for the City of Chicago for eight years and worked for Bridge Communities, a homelessness nonprofit.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "In the legislature, she backed measures to modernize newborn disease screening and expand senior protections against caregiver abuse. She supported an energy plan using virtual power plants and battery storage, which her office says could lower ComEd bills by up to $3.31 a month. Her office also highlights her bills to cut everyday costs and boost middle-income housing.",
+        "cites": [4, 5],
+        "sentences": [
+          {
+            "text": "In the legislature, she backed measures to modernize newborn disease screening and expand senior protections against caregiver abuse.",
+            "cites": [4]
+          },
+          {
+            "text": "She supported an energy plan using virtual power plants and battery storage, which her office says could lower ComEd bills by up to $3.31 a month.",
+            "cites": [5]
+          },
+          {
+            "text": "Her office also highlights her bills to cut everyday costs and boost middle-income housing.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Marti Deuter",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39601",
+        "period": "April 1 to June 30, 2026",
+        "raised": 17908.21,
+        "cashOnHand": 67285.51,
+        "breakdown": [
+          { "kind": "small", "amount": 4058.21 },
+          { "kind": "large", "amount": 7600 },
+          { "kind": "transfer", "amount": 6250 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 187665.11, "count": 38 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Illinois Education Association",
+        "kind": "union",
+        "cites": [6]
+      },
+      { "organization": "IUOE Local 150", "kind": "union", "cites": [7] },
+      { "organization": "IUOE Local 399", "kind": "union", "cites": [8] },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [6]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [6] },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "National Association of Social Workers, Illinois Chapter",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Illinois NOW PAC",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Illinois Retired Teachers Association Political Action Committee",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [12]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [13] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Martha Deuter (D) - 104th General Assembly",
+      "publisher": "ilga.gov",
+      "url": "https://www.ilga.gov/house/members/details/3455",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Meet Marti",
+      "publisher": "Rep. Marti Deuter campaign",
+      "url": "https://www.repmartideuter.com/meetmarti",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Detail Page",
+      "publisher": "ciclt.net",
+      "url": "http://www.ciclt.net/sn/leg_app/po_detail.aspx?ClientCode=slt&P_IDEO=ilsh045",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Rep. Martha Deuter",
+      "publisher": "Illinois House Democratic Caucus",
+      "url": "https://ilhousedems.com/project/martha-deuter/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Deuter-backed Energy Plan Signed into Law, Underscores Efforts to Provide Relief for Families",
+      "publisher": "Illinois House Democratic Caucus",
+      "url": "https://ilhousedems.com/2026/01/08/deuter-backed-energy-plan-signed-into-law-underscores-efforts-to-provide-relief-for-families/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "West Cook Republicans: Here's who's on your Nov. 3 ballot",
+      "publisher": "West Cook News",
+      "url": "https://westcooknews.com/west-cook-republicans-here-s-who-s-on-your-nov-3-ballot",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "IUOE LOCAL 150 DISTRICT 1 ENDORSEMENTS",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/02/2026-IL-Primary-Mailer-District-1_V7.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "2026 local 399 illinois - primary election endorsements",
+      "publisher": "IUOE Local 399",
+      "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "NASW-IL Announces Endorsements for 2026 Illinois General Election",
+      "publisher": "National Association of Social Workers, Illinois Chapter",
+      "url": "https://www.naswil.org/post/nasw-il-announces-endorsements-for-2026-illinois-general-election",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Illinois NOW Political Action Committee",
+      "publisher": "Illinois NOW PAC",
+      "url": "https://ilnow.org/illinois-now-political-action-committee/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Retired Teachers Endorse Candidates for Illinois General Assembly",
+      "publisher": "Aroundptown.com",
+      "url": "https://aroundptown.com/retired-teachers-endorse-candidates-for-illinois-general-assembly/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 13
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:10:24.382Z",
+    "version": 7
+  }
+}

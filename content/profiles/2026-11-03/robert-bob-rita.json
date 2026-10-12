@@ -1,0 +1,208 @@
+{
+  "key": "robert-bob-rita",
+  "electionId": "il-2026-11-03-general",
+  "name": "Robert \"Bob\" Rita",
+  "party": "Democratic",
+  "office": "State Representative, 28th District",
+  "contestIds": [
+    "chicago-boe:state-representative-28th-district",
+    "cook-clerk:182800"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Robert “Bob” Rita has represented the 28th District since 2003 and serves as Deputy Majority Leader. He is also the Calumet Township Supervisor. He chairs the Appropriations-General Service Committee. He is an Operating Engineer and member of Local 150.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Robert “Bob” Rita has represented the 28th District since 2003 and serves as Deputy Majority Leader.",
+            "cites": [1]
+          },
+          {
+            "text": "He is also the Calumet Township Supervisor.",
+            "cites": [2]
+          },
+          {
+            "text": "He chairs the Appropriations-General Service Committee.",
+            "cites": [3]
+          },
+          {
+            "text": "He is an Operating Engineer and member of Local 150.",
+            "cites": [4]
+          }
+        ]
+      },
+      {
+        "text": "In a 2018 questionnaire, he supported affordable healthcare and a $15 minimum wage. He also stated his support for an assault weapons ban and universal background checks. He sponsored legislation to allow in-state college sports betting. His caucus says he opposed tariffs and supported restoring Affordable Care Act subsidies. The caucus profile also states he secured a $600,000 grant for park renovations in Oak Forest. He sponsored a law concerning the Illinois Racing Board.",
+        "cites": [5, 6, 7, 1],
+        "sentences": [
+          {
+            "text": "In a 2018 questionnaire, he supported affordable healthcare and a $15 minimum wage.",
+            "cites": [5]
+          },
+          {
+            "text": "He also stated his support for an assault weapons ban and universal background checks.",
+            "cites": [5]
+          },
+          {
+            "text": "He sponsored legislation to allow in-state college sports betting.",
+            "cites": [6]
+          },
+          {
+            "text": "His caucus says he opposed tariffs and supported restoring Affordable Care Act subsidies.",
+            "cites": [7]
+          },
+          {
+            "text": "The caucus profile also states he secured a $600,000 grant for park renovations in Oak Forest.",
+            "cites": [7]
+          },
+          {
+            "text": "He sponsored a law concerning the Illinois Racing Board.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Robert \"Bob\" Rita",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=16502",
+        "period": "April 1 to June 30, 2026",
+        "raised": 346.8,
+        "cashOnHand": 377752.14,
+        "breakdown": [{ "kind": "other", "amount": 346.8 }],
+        "largeSince": { "since": "2026-06-30", "total": 57500, "count": 28 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "IUOE Local 399", "kind": "union", "cites": [8] },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [9] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [10]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [11] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [12]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Robert \"Bob\" Rita (D) - 104th General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://ilga.gov/house/members/details/3267",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Bob Rita Named Township Officials of Illinois Legislator of the Year",
+      "publisher": "Illinois House Democratic Caucus",
+      "url": "https://ilhousedems.com/2024/12/17/bob-rita-named-township-officials-of-illinois-legislator-of-the-year/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Robert Rita",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Robert_Rita",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Robert Rita - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Robert_Rita",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Democratic candidate for Illinois House in the 28th District: Robert 'Bob' Rita",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/2018/3/5/18390769/democratic-candidate-for-illinois-house-in-the-28th-district-robert-bob-rita",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Bill allowing in-state college sports betting will head to governor",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/bill-allowing-in-state-college-sports-betting-will-head-to-governor/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Rep. Robert Rita",
+      "publisher": "Illinois House Democratic Caucus",
+      "url": "https://ilhousedems.com/project/rep-robert-rita/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "2026 local 399 illinois - primary election endorsements",
+      "publisher": "IUOE Local 399",
+      "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:44:49.750Z",
+    "version": 6
+  }
+}

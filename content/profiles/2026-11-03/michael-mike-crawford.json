@@ -1,0 +1,200 @@
+{
+  "key": "michael-mike-crawford",
+  "electionId": "il-2026-11-03-general",
+  "name": "Michael \"Mike\" Crawford",
+  "party": "Democratic",
+  "office": "State Representative, 31st District",
+  "contestIds": [
+    "chicago-boe:state-representative-31st-district",
+    "cook-clerk:183100"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Michael Crawford has served as State Representative for the 31st District since January 2025. He previously worked as an educator and administrator at The Chicago School, City Colleges of Chicago and Chicago State University.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Michael Crawford has served as State Representative for the 31st District since January 2025.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously worked as an educator and administrator at The Chicago School, City Colleges of Chicago and Chicago State University.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "He sponsored 2025 laws addressing student teacher salaries and special education parental notice. According to his campaign, he sponsored a 2026 law creating apprenticeship pathways in barbering and cosmetology. He supported a 2025 transit plan to add a new Green Line station in Englewood. He also supported 2026 legislation expanding energy efficiency programs. In 2025, he voted for legislation concerning reproductive health medication, parental leave and criminal justice.",
+        "cites": [1, 2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "He sponsored 2025 laws addressing student teacher salaries and special education parental notice.",
+            "cites": [1]
+          },
+          {
+            "text": "According to his campaign, he sponsored a 2026 law creating apprenticeship pathways in barbering and cosmetology.",
+            "cites": [2]
+          },
+          {
+            "text": "He supported a 2025 transit plan to add a new Green Line station in Englewood.",
+            "cites": [3]
+          },
+          {
+            "text": "He also supported 2026 legislation expanding energy efficiency programs.",
+            "cites": [4]
+          },
+          {
+            "text": "In 2025, he voted for legislation concerning reproductive health medication, parental leave and criminal justice.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Michael Crawford",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39618",
+        "period": "April 1 to June 30, 2026",
+        "raised": 1407,
+        "cashOnHand": 19772.53,
+        "breakdown": [
+          { "kind": "large", "amount": 1000 },
+          { "kind": "other", "amount": 407 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 41000, "count": 20 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [6] },
+      {
+        "organization": "Citizen Action/Illinois",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Better Streets Chicago Action Fund",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [10]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [11] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Michael Crawford (D) - Illinois General Assembly - Member",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/house/members/details/3452",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Illinois State Representative Michael “Mike” Crawford",
+      "publisher": "State Rep. Mike Crawford campaign",
+      "url": "https://www.staterepmikecrawford.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Crawford Backs Measure Fully Funding and Reforming Public Transit",
+      "publisher": "Illinois House Democratic Caucus",
+      "url": "https://ilhousedems.com/2025/11/07/crawford-backs-measure-fully-funding-and-reforming-public-transit/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Crawford-Backed Legislation to Address Rising Energy Costs Signed Into Law",
+      "publisher": "Illinois House Democratic Caucus",
+      "url": "https://ilhousedems.com/2026/01/08/crawford-backed-legislation-to-address-rising-energy-costs-signed-into-law/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Crawford Named Legislative Champion with 100% rating on Citizen Action/Illinois’ 2025 Legislative Scorecard",
+      "publisher": "Illinois House Democratic Caucus",
+      "url": "https://ilhousedems.com/2025/07/02/crawford-named-legislative-champion-with-100-rating-on-citizen-action-illinoiss-2025-legislative-scorecard/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Illinois AFL-CIO 2026 Primary Election Endorsements",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2025/12/IL-AFL-CIO-endorsements-120925.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements — Citizen Action/Illinois",
+      "publisher": "Citizen Action/Illinois",
+      "url": "https://citizenaction-il.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "2026 Endorsements — Better Streets Chicago Action Fund",
+      "publisher": "Better Streets Chicago Action Fund",
+      "url": "https://www.bscactionfund.org/2026-midterms/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:03:09.145Z",
+    "version": 7
+  }
+}

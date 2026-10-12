@@ -1,0 +1,177 @@
+{
+  "key": "michael-j-kelly",
+  "electionId": "il-2026-11-03-general",
+  "name": "Michael J. Kelly",
+  "party": "Democratic",
+  "office": "State Representative, 15th District",
+  "contestIds": [
+    "chicago-boe:state-representative-15th-district",
+    "cook-clerk:181500"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Michael J. Kelly has represented the 15th District in the Illinois House since November 2021. He is a firefighter for the Chicago Fire Department and a union member in Local 2.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Michael J. Kelly has represented the 15th District in the Illinois House since November 2021.",
+            "cites": [1]
+          },
+          {
+            "text": "He is a firefighter for the Chicago Fire Department and a union member in Local 2.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "He sponsored Public Act 104-0681 to create a first responder stress service program. He sponsored Public Act 104-0221 to ban PFAS chemicals in firefighting personal protective equipment.",
+        "cites": [1, 3],
+        "sentences": [
+          {
+            "text": "He sponsored Public Act 104-0681 to create a first responder stress service program.",
+            "cites": [1]
+          },
+          {
+            "text": "He sponsored Public Act 104-0221 to ban PFAS chemicals in firefighting personal protective equipment.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Mike Kelly",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=37053",
+        "period": "April 1 to June 30, 2026",
+        "raised": 20287.92,
+        "cashOnHand": 62512.25,
+        "breakdown": [
+          { "kind": "transfer", "amount": 19800 },
+          { "kind": "other", "amount": 487.92 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 82500, "count": 38 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [4]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [5] },
+      { "organization": "SEIU Healthcare", "kind": "union", "cites": [6] },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [7] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [8]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [9] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [10]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Representative Michael J. Kelly (D) - 104th General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/house/members/details/3402",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Representative Michael Kelly (D)",
+      "publisher": "Illinois General Assembly",
+      "url": "https://beta.ilga.gov/House/Members/Details/3013",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Bill Status for HB2409",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/legislation/BillStatus.asp?DocNum=2409&GAID=18&DocTypeID=HB&SessionID=114&GA=104",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Election Center",
+      "publisher": "SEIU Healthcare",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Election 2026",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 8
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:43:41.975Z",
+    "version": 5
+  }
+}

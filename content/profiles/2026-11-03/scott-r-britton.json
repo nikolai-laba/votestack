@@ -1,0 +1,200 @@
+{
+  "key": "scott-r-britton",
+  "electionId": "il-2026-11-03-general",
+  "name": "Scott R. Britton",
+  "party": "Democratic",
+  "office": "Cook County Commissioner, 14th District",
+  "contestIds": ["cook-clerk:221400"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Scott R. Britton represents the 14th District on the Cook County Board of Commissioners and was sworn in in 2018. His campaign says he passed legislation providing renters' rights to over 245,000 suburban families, raising the smoking age to 21, and expanding ballot languages to 14. He chairs the Finance Subcommittee on Litigation and the Legislation and Intergovernmental Relations Committee. He is a founding partner of Ford & Britton PC and has practiced as a trial attorney since 1985. He previously served as a Glenview trustee and on the Glenview District 34 Board of Education.",
+        "cites": [1, 2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "Scott R. Britton represents the 14th District on the Cook County Board of Commissioners and was sworn in in 2018.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he passed legislation providing renters' rights to over 245,000 suburban families, raising the smoking age to 21, and expanding ballot languages to 14.",
+            "cites": [2]
+          },
+          {
+            "text": "He chairs the Finance Subcommittee on Litigation and the Legislation and Intergovernmental Relations Committee.",
+            "cites": [3]
+          },
+          {
+            "text": "He is a founding partner of Ford & Britton PC and has practiced as a trial attorney since 1985.",
+            "cites": [4]
+          },
+          {
+            "text": "He previously served as a Glenview trustee and on the Glenview District 34 Board of Education.",
+            "cites": [5]
+          }
+        ]
+      },
+      {
+        "text": "In 2018, he said the county can save money by coordinating purchases and sharing governmental functions with suburban municipalities and Chicago.",
+        "cites": [6],
+        "sentences": [
+          {
+            "text": "In 2018, he said the county can save money by coordinating purchases and sharing governmental functions with suburban municipalities and Chicago.",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Scott Britton",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=34044",
+        "period": "July 1 to September 30, 2026",
+        "raised": 2000,
+        "cashOnHand": 18064.73,
+        "breakdown": [
+          { "kind": "large", "amount": 250 },
+          { "kind": "transfer", "amount": 1750 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "Personal PAC", "kind": "organization", "cites": [7] },
+      {
+        "organization": "Citizen Action Illinois",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Sierra Club Illinois",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "Chicago Teachers Union",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 399",
+        "kind": "union",
+        "cites": [10]
+      },
+      { "organization": "Plumbers Local 130", "kind": "union", "cites": [8] },
+      { "organization": "SEIU Healthcare", "kind": "union", "cites": [8] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Scott R. Britton - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Scott_R._Britton",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Scott Britton for Cook County Illinois Board",
+      "publisher": "Scott Britton campaign",
+      "url": "https://scottrbritton.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "SCOTT R. BRITTON - Cook County Board of Commissioners",
+      "publisher": "Cook County legistar",
+      "url": "https://cook-county.legistar.com/PersonDetail.aspx?ID=208657&GUID=494A2460-5445-401C-BE4E-70E8EC8DAFF4",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Scott R. Britton",
+      "publisher": "Ford & Britton PC",
+      "url": "https://www.fordbritton.com/scott-r-britton",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Scott Britton: Candidate for Cook County Commissioner, 14th District | Chicago News | WTTW",
+      "publisher": "WTTW",
+      "url": "https://news.wttw.com/2018/10/09/scott-britton-candidate-cook-county-commissioner-14th-district",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Cook County Board 14th District Democratic nominee: Scott R. Britton",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/2018/10/13/18421187/cook-county-board-14th-district-democratic-nominee-scott-r-britton",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "2026 Cook County Board of Commissioners election",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "2026 PRIMARY ELECTION ENDORSEMENTS",
+      "publisher": "International Union of Operating Engineers Local 399",
+      "url": "http://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:15:33.133Z",
+    "version": 4
+  }
+}

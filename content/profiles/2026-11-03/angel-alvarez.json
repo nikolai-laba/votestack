@@ -1,0 +1,107 @@
+{
+  "key": "angel-alvarez",
+  "electionId": "il-2026-11-03-general",
+  "name": "Angel Alvarez",
+  "office": "Chicago Board of Education Member, Subdistrict 4A",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-4a"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Angel Alvarez is a scientist and an assistant professor at Northwestern University. He is a Chicago Public Schools parent and a former district student. He leads a family advisory board for the CPS Office for Students with Disabilities, which helps families troubleshoot issues with transportation and special education staffing.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Angel Alvarez is a scientist and an assistant professor at Northwestern University.",
+            "cites": [1]
+          },
+          {
+            "text": "He is a Chicago Public Schools parent and a former district student.",
+            "cites": [2]
+          },
+          {
+            "text": "He leads a family advisory board for the CPS Office for Students with Disabilities, which helps families troubleshoot issues with transportation and special education staffing.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "He wants to limit CPS property tax increases and give Local School Councils more control over budgets. He proposes screening all children for disabilities before they start school. He aims to expand early literacy curricula and interventions that have shown student gains. He wants more responsive special education services. In 2024, he criticized the board for failing to address institutional problems like transporting students with disabilities.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "He wants to limit CPS property tax increases and give Local School Councils more control over budgets.",
+            "cites": [1]
+          },
+          {
+            "text": "He proposes screening all children for disabilities before they start school.",
+            "cites": [1]
+          },
+          {
+            "text": "He aims to expand early literacy curricula and interventions that have shown student gains.",
+            "cites": [2]
+          },
+          {
+            "text": "He wants more responsive special education services.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2024, he criticized the board for failing to address institutional problems like transporting students with disabilities.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Angel For CPS",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41178",
+        "period": "April 1 to June 30, 2026",
+        "raised": 1000,
+        "cashOnHand": 1000,
+        "breakdown": [{ "kind": "large", "amount": 1000 }]
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-07", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Chicago school board election 2026 voter guide: District 4a candidates",
+      "publisher": "Chalkbeat Chicago",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-election-2026-district-4a-candidates-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Chicago’s First Fully Elected School Board: A Guide to the 2A, 2B and 4A Races",
+      "publisher": "Loyola Phoenix",
+      "url": "https://loyolaphoenix.com/2026/09/chicagos-first-fully-elected-school-board-a-guide-to-the-2a-2b-and-4a-races/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Chicago Board of Education unanimously approves new strategic plan for district schools",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2024/09/19/chicago-board-of-education-unanimously-approves-new-strategic-plan-for-district-schools/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:44:10.737Z",
+    "version": 3
+  }
+}

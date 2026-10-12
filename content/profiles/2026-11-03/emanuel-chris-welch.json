@@ -1,0 +1,202 @@
+{
+  "key": "emanuel-chris-welch",
+  "electionId": "il-2026-11-03-general",
+  "name": "Emanuel \"Chris\" Welch",
+  "party": "Democratic",
+  "office": "State Representative, 7th District",
+  "contestIds": ["cook-clerk:180700"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Emanuel 'Chris' Welch has represented the 7th District since 2013. He became speaker of the Illinois House in 2021. He previously chaired the Proviso Township High School Board of Education. He is a partner at the law firm Ancel Glink.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Emanuel 'Chris' Welch has represented the 7th District since 2013.",
+            "cites": [1]
+          },
+          {
+            "text": "He became speaker of the Illinois House in 2021.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously chaired the Proviso Township High School Board of Education.",
+            "cites": [1]
+          },
+          {
+            "text": "He is a partner at the law firm Ancel Glink.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "In 2026, he proposed a graduated income tax and more insurance regulations. He supported a surtax on income over $1 million. His campaign says he sponsored the Illinois Trust Act. He supported a law requiring corporations to disclose their board composition. His campaign says he imposed term limits on legislative leaders and required tougher financial disclosures. It says his budgets created a state surplus and increased school funding. He supported a 2023 ban on assault rifle sales.",
+        "cites": [2, 3, 4, 1, 5],
+        "sentences": [
+          {
+            "text": "In 2026, he proposed a graduated income tax and more insurance regulations.",
+            "cites": [2]
+          },
+          {
+            "text": "He supported a surtax on income over $1 million.",
+            "cites": [3]
+          },
+          {
+            "text": "His campaign says he sponsored the Illinois Trust Act.",
+            "cites": [4]
+          },
+          {
+            "text": "He supported a law requiring corporations to disclose their board composition.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he imposed term limits on legislative leaders and required tougher financial disclosures.",
+            "cites": [4]
+          },
+          {
+            "text": "It says his budgets created a state surplus and increased school funding.",
+            "cites": [4]
+          },
+          {
+            "text": "He supported a 2023 ban on assault rifle sales.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "People for Emanuel Chris Welch",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=19328",
+        "period": "April 1 to June 30, 2026",
+        "raised": 1842846.33,
+        "cashOnHand": 11440633.2,
+        "breakdown": [
+          { "kind": "small", "amount": 4256.52 },
+          { "kind": "large", "amount": 487380 },
+          { "kind": "transfer", "amount": 1350565 },
+          { "kind": "other", "amount": 644.81 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 7658971, "count": 253 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "Personal PAC", "kind": "organization", "cites": [6] },
+      {
+        "organization": "Citizen Action/Illinois",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [8]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [9] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [10]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Chicago State University Sets Stage for Historic 373rd Commencement with Illinois House Speaker Chris Welch and Four Trailblazing Honorary Degree Recipients",
+      "publisher": "Chicago State University",
+      "url": "https://www.csu.edu/news/commencement_speaker.htm",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Illinois lawmakers' 2026 theme: affordability",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/illinois-lawmakers-2026-theme-affordability/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Welch 'committed' to more funding for Chicago Public Schools — and the school board is banking on it",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/welch-committed-to-more-funding-for-chicago-public-schools-and-the-school-board-is-banking-on-it/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Emanuel \"Chris\" Welch",
+      "publisher": "Proviso Township Democrats",
+      "url": "https://provisodems.com/meet-the-speaker",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Speaker Emanuel “Chris” Welch",
+      "publisher": "Illinois House Democratic Caucus",
+      "url": "https://ilhousedems.com/project/rep-emanuel-chris-welch/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements and Election Information - Personal PAC",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements — Citizen Action/Illinois",
+      "publisher": "Citizen Action/Illinois",
+      "url": "https://citizenaction-il.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 8
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:18:56.649Z",
+    "version": 7
+  }
+}

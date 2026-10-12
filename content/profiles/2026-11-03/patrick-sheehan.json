@@ -1,0 +1,169 @@
+{
+  "key": "patrick-sheehan",
+  "electionId": "il-2026-11-03-general",
+  "name": "Patrick Sheehan",
+  "party": "Republican",
+  "office": "State Representative, 37th District",
+  "contestIds": ["cook-clerk:183700"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Patrick Sheehan has represented the 37th House District since April 2024. He has served nearly two decades as a law enforcement officer and previously was a Lockport alderman and township park commissioner.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Patrick Sheehan has represented the 37th House District since April 2024.",
+            "cites": [1]
+          },
+          {
+            "text": "He has served nearly two decades as a law enforcement officer and previously was a Lockport alderman and township park commissioner.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "His campaign says he supports capping gasoline taxes and eliminating the grocery tax while keeping local government revenue stable. His campaign also says he opposes Illinois' SAFE-T Act and its elimination of cash bail. House records list two of his sponsored bills as public acts: HB1842 on municipal code administrative adjudication and HB2270 on transportation. He introduced a bill for a first responder income tax credit.",
+        "cites": [2, 3, 1],
+        "sentences": [
+          {
+            "text": "His campaign says he supports capping gasoline taxes and eliminating the grocery tax while keeping local government revenue stable.",
+            "cites": [2]
+          },
+          {
+            "text": "His campaign also says he opposes Illinois' SAFE-T Act and its elimination of cash bail.",
+            "cites": [3]
+          },
+          {
+            "text": "House records list two of his sponsored bills as public acts: HB1842 on municipal code administrative adjudication and HB2270 on transportation.",
+            "cites": [1]
+          },
+          {
+            "text": "He introduced a bill for a first responder income tax credit.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Sheehan for Illinois",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=37244",
+        "period": "April 1 to June 30, 2026",
+        "raised": 22375,
+        "cashOnHand": 136648.18,
+        "breakdown": [
+          { "kind": "small", "amount": 475 },
+          { "kind": "large", "amount": 3100 },
+          { "kind": "transfer", "amount": 18800 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 55000, "count": 20 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [4] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "International Brotherhood of Electrical Workers Local 134",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Illinois Retired Teachers Association Political Action Committee",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Patrick Sheehan (R) - Illinois General Assembly - Member",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/house/members/details/3448",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "About - Patrick Sheehan",
+      "publisher": "Patrick Sheehan campaign",
+      "url": "https://repsheehan.com/about/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Rep. Sheehan Applauds Executive Order Ending Cashless Bail",
+      "publisher": "Patrick Sheehan campaign",
+      "url": "https://repsheehan.com/2025/08/25/rep-sheehan-applauds-executive-order-ending-cashless-bail/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Illinois AFL-CIO issues endorsements after all",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/illinois-afl-cio-issues-endorsements-after-all/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "ILLINOIS ENDORSEMENTS",
+      "publisher": "International Union of Operating Engineers Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "2026 Primary Election Local 134 Endorsed Candidates",
+      "publisher": "International Brotherhood of Electrical Workers Local 134",
+      "url": "https://www.lu134.org/2026%20Primary%20Election%20Endorsements(3).pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Retired Teachers Endorse Candidates for Illinois General Assembly",
+      "publisher": "Aroundptown.com",
+      "url": "https://aroundptown.com/retired-teachers-endorse-candidates-for-illinois-general-assembly/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 8
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:06:54.007Z",
+    "version": 6
+  }
+}

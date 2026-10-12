@@ -1,0 +1,198 @@
+{
+  "key": "deborah-debby-pope",
+  "electionId": "il-2026-11-03-general",
+  "name": "Deborah \"Debby\" Pope",
+  "office": "Chicago Board of Education Member, Subdistrict 2B",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-2b"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Mayor Brandon Johnson appointed Pope to the Chicago Board of Education in 2024 after previous members resigned. She is a retired Chicago Public Schools bilingual history and English as a Second Language teacher. She later worked for the Chicago Teachers Union as a class size coordinator and grievance correspondent. Pope co-chairs the board’s Special Education Advisory Committee.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Mayor Brandon Johnson appointed Pope to the Chicago Board of Education in 2024 after previous members resigned.",
+            "cites": [1]
+          },
+          {
+            "text": "She is a retired Chicago Public Schools bilingual history and English as a Second Language teacher.",
+            "cites": [2]
+          },
+          {
+            "text": "She later worked for the Chicago Teachers Union as a class size coordinator and grievance correspondent.",
+            "cites": [2]
+          },
+          {
+            "text": "Pope co-chairs the board’s Special Education Advisory Committee.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "Pope supports increased state funding and greater tax contributions from wealthy residents. She advocates expanding early childhood programs to help low-income families and students with disabilities. She signed a pledge supporting a three-year ban on artificial intelligence in schools. Pope has supported preserving schools and increasing community input on closures. She supports sustainability efforts like solar power and electric school buses.",
+        "cites": [4, 5, 6],
+        "sentences": [
+          {
+            "text": "Pope supports increased state funding and greater tax contributions from wealthy residents.",
+            "cites": [4]
+          },
+          {
+            "text": "She advocates expanding early childhood programs to help low-income families and students with disabilities.",
+            "cites": [5]
+          },
+          {
+            "text": "She signed a pledge supporting a three-year ban on artificial intelligence in schools.",
+            "cites": [6]
+          },
+          {
+            "text": "Pope has supported preserving schools and increasing community input on closures.",
+            "cites": [4]
+          },
+          {
+            "text": "She supports sustainability efforts like solar power and electric school buses.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Debby For District 2B",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39834",
+        "period": "April 1 to June 30, 2026",
+        "raised": 7928.5,
+        "cashOnHand": 7058.57,
+        "breakdown": [
+          { "kind": "small", "amount": 2615 },
+          { "kind": "large", "amount": 5313.5 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 19245.73, "count": 4 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Teachers Union",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "ONE People's Campaign",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Our Schools Chicago",
+        "kind": "organization",
+        "cites": [9]
+      },
+      { "organization": "48th Ward Democrats", "kind": "party", "cites": [4] },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [10] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Chicago school board election 2026: Who are the candidates in District 2b?",
+      "publisher": "Chalkbeat Chicago",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-election-2026-district-2b-candidates-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Deborah “Debby” Pope: CPS School Board District 2B Candidate",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/graphics/chicago-school-board-education-voter-guide/candidates/deborah-debby-pope/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Committees",
+      "publisher": "Chicago Public Schools",
+      "url": "https://www.cpsboe.org/committees",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Chicago’s First Fully Elected School Board: A Guide to the 2A ...",
+      "publisher": "Loyola Phoenix",
+      "url": "https://loyolaphoenix.com/2026/09/chicagos-first-fully-elected-school-board-a-guide-to-the-2a-2b-and-4a-races/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Chicago school board looks at possible preschool expansion ...",
+      "publisher": "Chalkbeat Chicago",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/10/chicago-public-schools-board-considers-early-childhood-resolution/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Chicago school board candidates sign pledge to ban AI ...",
+      "publisher": "Chalkbeat Chicago",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/01/chicago-school-board-candidates-pledge-three-year-ai-ban/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Chicago Teachers Union Endorses Candidates Running as “Public School Champions” in School Board Race",
+      "publisher": "Chicago Teachers Union",
+      "url": "https://www.ctulocal1.org/posts/chicago-teachers-union-endorses-candidates-running-as-public-school-champions-in-school-board-race-says-students-educational-experience-to-be-decided-in-november/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Key education endorsements for CPS School Board candidates",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/education/2026/09/21/key-education-endorsements-for-cps-school-board-candidates",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:42:36.607Z",
+    "version": 4
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "key": "margie-b-luczak",
+  "electionId": "il-2026-11-03-general",
+  "name": "Margie B. Luczak",
+  "office": "Chicago Board of Education Member, Subdistrict 1A",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-1a"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Margie B. Luczak is a retired Chicago police officer who spent nearly 30 years on the force. She wants to return school resource officers to schools. Her priorities include improving reading and math instruction and limiting property tax increases. She also wants to preserve school choice so students can attend schools outside their neighborhood. She has said Chicago Public Schools needs to fix its existing issues rather than receiving more funding. She also calls for budget transparency.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Margie B. Luczak is a retired Chicago police officer who spent nearly 30 years on the force.",
+            "cites": [1]
+          },
+          {
+            "text": "She wants to return school resource officers to schools.",
+            "cites": [1]
+          },
+          {
+            "text": "Her priorities include improving reading and math instruction and limiting property tax increases.",
+            "cites": [2]
+          },
+          {
+            "text": "She also wants to preserve school choice so students can attend schools outside their neighborhood.",
+            "cites": [2]
+          },
+          {
+            "text": "She has said Chicago Public Schools needs to fix its existing issues rather than receiving more funding.",
+            "cites": [3]
+          },
+          { "text": "She also calls for budget transparency.", "cites": [4] }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Margie Luczak",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41233",
+        "period": "June 22 to June 30, 2026",
+        "raised": 100,
+        "cashOnHand": 100,
+        "breakdown": [{ "kind": "small", "amount": 100 }],
+        "largeSince": { "since": "2026-06-30", "total": 41643.08, "count": 13 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "IUOE Local 150", "kind": "union", "cites": [5] },
+      {
+        "organization": "Chicago Tribune Editorial Board",
+        "kind": "editorial_board",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Chicago school board election 2026 voter guide: District 1a candidates",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-elections-2026-district-1a-candidates-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Chicago School Board District 1A: Candidates & Voter Guide",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/graphics/chicago-school-board-education-voter-guide/school-board/districts/1a/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Editorial: Margie Luczak for Chicago School Board in District 1A",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/09/28/editorial-margie-luczak-chicago-school-board-in-district-1a/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Margie B. Luczak: CPS School Board District 1A Candidate",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/graphics/chicago-school-board-education-voter-guide/candidates/margie-b-luczak/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "ILLINOIS ENDORSEMENTS",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:41:08.479Z",
+    "version": 3
+  }
+}

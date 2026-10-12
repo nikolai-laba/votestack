@@ -1,0 +1,358 @@
+{
+  "key": "patricia-joan-trish-murphy",
+  "electionId": "il-2026-11-03-general",
+  "name": "Patricia Joan \"Trish\" Murphy",
+  "party": "Democratic",
+  "office": "Cook County Commissioner, 6th District",
+  "contestIds": ["cook-clerk:220600"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Patricia Joan 'Trish' Murphy is the Worth Township supervisor and Democratic committeeperson. She serves as a Moraine Valley Community College trustee and president of the Illinois Community College Trustees Association.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Patricia Joan 'Trish' Murphy is the Worth Township supervisor and Democratic committeeperson.",
+            "cites": [1]
+          },
+          {
+            "text": "She serves as a Moraine Valley Community College trustee and president of the Illinois Community College Trustees Association.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign supports expanding senior transportation, food pantry services and veterans' programs. She wants to draw businesses and families to the district.",
+        "cites": [3, 4],
+        "sentences": [
+          {
+            "text": "Her campaign supports expanding senior transportation, food pantry services and veterans' programs.",
+            "cites": [3]
+          },
+          {
+            "text": "She wants to draw businesses and families to the district.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Patricia Joan Murphy",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39778",
+        "period": "April 1 to June 30, 2026",
+        "raised": 8513,
+        "cashOnHand": 22521.54,
+        "breakdown": [
+          { "kind": "small", "amount": 963 },
+          { "kind": "large", "amount": 4050 },
+          { "kind": "transfer", "amount": 3500 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 11500, "count": 8 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Alexi Giannoulias, Illinois Secretary of State",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Michael Frerichs, Illinois Treasurer",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Bill Cunningham, State Senator, 18th District",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Michael Hastings, State Senator, 19th District",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Patrick Joyce, State Senator, 40th District",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Justin Slaughter, State Representative, 27th District",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Robert Rita, State Representative, 28th District",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Marcus Evans, State Representative, 33rd District",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Mary Gill, State Representative, 35th District",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Debbie Meyers-Martin, State Representative, 38th District",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Tom Dart, Cook County Sheriff",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Monica Gordon, Cook County Clerk",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Mariyana Spyropoulos, Cook County Clerk of the Circuit Court",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Stanley Moore, Cook County Commissioner, 4th District",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "kind": "elected_official",
+        "party": "Democratic",
+        "organization": "Kisha E. McCaskill, Cook County Commissioner, 5th District",
+        "cites": [5]
+      },
+      {
+        "organization": "John P. Daley, Cook County Commissioner, 11th District",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "kind": "elected_official",
+        "party": "Democratic",
+        "organization": "Josina Morita, Cook County Commissioner, 13th District",
+        "cites": [5]
+      },
+      {
+        "organization": "Kevin Morrison, Cook County Commissioner, 15th District",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Frank J. Aguilar, Cook County Commissioner, 16th District",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "George Cardenas, Commissioner, Cook County Board of Review, 1st District",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Kelly Burke, Mayor, Village of Evergreen Park",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "David Gonzalez, Mayor, City of Chicago Heights",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Matt J. O'Shea, 19th Ward Alderman",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [6] },
+      {
+        "organization": "American Arab Chamber of Commerce",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "Cook County College Teachers Union, Local 1600",
+        "kind": "union",
+        "cites": [2]
+      },
+      {
+        "organization": "International Union of Operating Engineers, Local 399",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Chicago Fire Fighters Union, Local 2",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Chicago Painters District Council 14",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Cook County Coalition of Trades",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Illinois Federation of Teachers/AFT, Local 943",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "International Association of Machinists, Local 126",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "International Brotherhood of Electrical Workers, IBEW 134",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "International Union of Operating Engineers, Local 150",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Laborers International Union of North America",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Mid America Carpenters Joint Council",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Pipefitters Association, Local 597 UA",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Teamsters Joint Council 25",
+        "kind": "union",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "About Trish - Patricia Joan \"Trish\" Murphy",
+      "publisher": "Patricia Joan \"Trish\" Murphy campaign",
+      "url": "https://patriciajoanmurphy.org/about/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Endorsements for the March 17, 2026 Primary Election - Ccctu",
+      "publisher": "CCCTU",
+      "url": "https://www.ccctu.org/post/early-endorsements-for-the-march-17-2026-primary-election",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Cook County 2026 Candidates & Sample Ballot | Illinois",
+      "publisher": "The Ballot Brief",
+      "url": "https://theballotbrief.com/state/illinois/cook-county",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Editorial: Patricia Joan 'Trish' Murphy for Cook County Board 6th District Democratic primary",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/02/18/editorial-patricia-joan-trish-murphy-cook-county-board-6th-district-democratic-primary/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements - Patricia Joan \"Trish\" Murphy",
+      "publisher": "Patricia Joan \"Trish\" Murphy",
+      "url": "http://patriciajoanmurphy.org/endorsements/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "American Arab Chamber of Commerce releases endorsements in key Illinois races",
+      "publisher": "The Arab Daily News",
+      "url": "https://thearabdailynews.com/2026/01/14/american-arab-chamber-of-commerce-releases-endorsements-in-key-illinois-races/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "2026 LOCAL 399 ILLINOIS PRIMARY ELECTION ENDORSEMENTS",
+      "publisher": "International Union of Operating Engineers Local 399",
+      "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:22:27.619Z",
+    "version": 5
+  }
+}

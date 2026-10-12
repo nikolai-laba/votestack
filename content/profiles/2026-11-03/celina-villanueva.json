@@ -1,0 +1,294 @@
+{
+  "key": "celina-villanueva",
+  "electionId": "il-2026-11-03-general",
+  "name": "Celina Villanueva",
+  "party": "Democratic",
+  "office": "State Senator, 12th District",
+  "contestIds": [
+    "chicago-boe:state-senator-12th-district",
+    "cook-clerk:171202"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Celina Villanueva represents Illinois’ 12th Senate District, serving since 2020 after time in the Illinois House. She previously worked at the Illinois Coalition for Immigrant and Refugee Rights on voting access laws. She chairs the Senate Revenue Committee.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Celina Villanueva represents Illinois’ 12th Senate District, serving since 2020 after time in the Illinois House.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously worked at the Illinois Coalition for Immigrant and Refugee Rights on voting access laws.",
+            "cites": [1]
+          },
+          { "text": "She chairs the Senate Revenue Committee.", "cites": [1] }
+        ]
+      },
+      {
+        "text": "Her Family Justice Center Act creates centralized service centers for survivors of violence and trafficking. She sponsored legislation blocking authorities from aiding other states’ investigations into reproductive care sought in Illinois. She also sponsored a bill shielding the medical records of patients traveling to Illinois for abortions. She negotiated a property tax reform bill allowing homeowners to keep surplus equity after delinquent tax sales. She advocated for a bill to ban civil immigration arrests in state courthouses.",
+        "cites": [2, 3, 4, 5, 6],
+        "sentences": [
+          {
+            "text": "Her Family Justice Center Act creates centralized service centers for survivors of violence and trafficking.",
+            "cites": [2]
+          },
+          {
+            "text": "She sponsored legislation blocking authorities from aiding other states’ investigations into reproductive care sought in Illinois.",
+            "cites": [3]
+          },
+          {
+            "text": "She also sponsored a bill shielding the medical records of patients traveling to Illinois for abortions.",
+            "cites": [4]
+          },
+          {
+            "text": "She negotiated a property tax reform bill allowing homeowners to keep surplus equity after delinquent tax sales.",
+            "cites": [5]
+          },
+          {
+            "text": "She advocated for a bill to ban civil immigration arrests in state courthouses.",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends for Celina Villanueva",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=34699",
+        "period": "April 1 to June 30, 2026",
+        "raised": 6359.9,
+        "cashOnHand": 79802.98,
+        "breakdown": [
+          { "kind": "small", "amount": 14.19 },
+          { "kind": "large", "amount": 3200 },
+          { "kind": "transfer", "amount": 2500 },
+          { "kind": "other", "amount": 645.71 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 84500, "count": 36 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "U.S. Rep. Jesus \"Chuy\" Garcia",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Gov. JB Pritzker",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Rep. Theresa Mah",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Citizen Action/Illinois",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [10]
+      },
+      { "organization": "Giffords PAC", "kind": "organization", "cites": [10] },
+      { "organization": "G-PAC", "kind": "organization", "cites": [10] },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [10] },
+      {
+        "organization": "Associated Fire Fighters of Illinois",
+        "kind": "union",
+        "cites": [10]
+      },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [10] },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Illinois Nurses Association",
+        "kind": "union",
+        "cites": [10]
+      },
+      { "organization": "NASW-IL PAC", "kind": "organization", "cites": [10] },
+      {
+        "organization": "SEIU Healthcare Illinois Indiana",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Sierra Club Illinois",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Chicago Teachers Union",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [12]
+      },
+      { "organization": "IUOE Local 399", "kind": "union", "cites": [13] },
+      { "organization": "IUOE Local 150", "kind": "union", "cites": [14] },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [15] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "About Me",
+      "publisher": "Illinois State Senator Celina Villanueva",
+      "url": "https://www.senatorvillanueva.com/about-me",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "News",
+      "publisher": "Illinois State Senator Celina Villanueva",
+      "url": "https://www.senatorvillanueva.com/news",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Capitol Briefs: Measure blocks interstate probes of abortion services",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/capitol-briefs-measure-blocks-interstate-probes-of-abortion-services/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Lawmakers pass bill to shield abortion information from digital medical records",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/lawmakers-pass-bill-to-shield-abortion-information-from-digital-medical-records/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Property Tax Debt Sale Reform Will Allow Homeowners to Keep More of Their Equity",
+      "publisher": "WTTW",
+      "url": "https://news.wttw.com/2026/05/31/property-tax-debt-sale-reform-will-allow-homeowners-keep-more-their-equity",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Illinois lawmakers approve ban on civil immigration arrests in state courthouses",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/illinois-lawmakers-approve-ban-on-civil-immigration-arrests-in-state-courthouses/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Celina Villanueva: Home",
+      "publisher": "Celina Villanueva",
+      "url": "https://www.celinavillanueva.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Endorsements",
+      "publisher": "Citizen Action/Illinois",
+      "url": "https://citizenaction-il.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Endorsements | Celina Villanueva",
+      "publisher": "Celina Villanueva",
+      "url": "https://www.celinavillanueva.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "2026 Primary Election",
+      "publisher": "Chicago Teachers Union",
+      "url": "https://www.ctulocal1.org/movement/primary-election-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 12,
+      "title": "MARCH 17, 2026 PRIMARY ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/P2026_PrimaryEndorsementList_updated-v5.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 13,
+      "title": "2026 LOCAL 399 ILLINOIS PRIMARY ELECTION ENDORSEMENTS",
+      "publisher": "IUOE Local 399",
+      "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 14,
+      "title": "IUOE LOCAL 150 DISTRICT 1 ENDORSEMENTS",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/02/2026-IL-Primary-Mailer-District-1_V7.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 15
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:22:58.817Z",
+    "version": 7
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "reason": "Dropped sentences about the district, not the candidate (profile review, 2026-10-07)",
+  "overview": [
+    {
+      "action": "replace",
+      "match": "South Palos Township Sanitary District Board",
+      "text": "Peter F. Costa is a trustee on the South Palos Township Sanitary District Board.",
+      "sources": [
+        {
+          "title": "Newsletter - South Palos Township Sanitary District",
+          "publisher": "South Palos Township Sanitary District",
+          "url": "https://www.southpalossanitarydist.com/newsletter/",
+          "kind": "official",
+          "viewedAt": "2026-10-07"
+        },
+        {
+          "title": "South Palos Township Sanitary District - Illinois",
+          "publisher": "South Palos Township Sanitary District",
+          "url": "https://www.southpalossanitarydist.com/",
+          "kind": "official",
+          "viewedAt": "2026-10-07"
+        },
+        {
+          "title": "Overview - South Palos Township Sanitary District",
+          "publisher": "South Palos Township Sanitary District",
+          "url": "https://www.southpalossanitarydist.com/about/history/",
+          "kind": "official",
+          "viewedAt": "2026-10-07"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "key": "gina-parrilli",
+  "electionId": "il-2026-11-03-general",
+  "name": "Gina Parrilli",
+  "party": "Republican",
+  "office": "State Representative, 45th District",
+  "contestIds": ["cook-clerk:184500"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Gina Parrilli is a Westmont Village Trustee and chairs the Public Works Committee. She works as a mortgage loan processor and has a bachelor's degree from North Park University.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Gina Parrilli is a Westmont Village Trustee and chairs the Public Works Committee.",
+            "cites": [1]
+          },
+          {
+            "text": "She works as a mortgage loan processor and has a bachelor's degree from North Park University.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign says she became involved in politics in 2020 and opposed mask and vaccine mandates. Her priorities include reducing taxes, protecting parental rights and public safety.",
+        "cites": [2],
+        "sentences": [
+          {
+            "text": "Her campaign says she became involved in politics in 2020 and opposed mask and vaccine mandates.",
+            "cites": [2]
+          },
+          {
+            "text": "Her priorities include reducing taxes, protecting parental rights and public safety.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Citizens for Parrilli",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41116",
+        "period": "April 1 to June 30, 2026",
+        "raised": 1084.7,
+        "cashOnHand": 7258.24,
+        "breakdown": [
+          { "kind": "small", "amount": 125 },
+          { "kind": "large", "amount": 959.7 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Illinois Family Action",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Downers Grove Township Republican Organization",
+        "kind": "party",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Village Board | Westmont, IL - Official Website",
+      "publisher": "Westmont, IL - Official Website",
+      "url": "https://westmont.illinois.gov/89/Village-Board",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Gina Parrilli",
+      "publisher": "Gina Parrilli campaign",
+      "url": "https://gina4illinois.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "2026 General Election Endorsements",
+      "publisher": "Illinois Family Action",
+      "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Candidates — DGTRO",
+      "publisher": "Downers Grove Township Republican Organization",
+      "url": "https://www.dgtro.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:09:37.083Z",
+    "version": 4
+  }
+}

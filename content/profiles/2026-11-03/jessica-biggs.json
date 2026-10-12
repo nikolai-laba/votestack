@@ -1,0 +1,243 @@
+{
+  "key": "jessica-biggs",
+  "electionId": "il-2026-11-03-general",
+  "name": "Jessica Biggs",
+  "office": "Chicago Board of Education President",
+  "contestIds": ["chicago-boe:president-of-the-chicago-board-of-education"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Jessica Biggs is a Chicago Board of Education member, elected in 2024 to represent District 6B. She was a special education teacher and principal at Burke Elementary. She directs health initiatives at the Southwest Organizing Project. In 2018, she was fired as principal for directing staff to mark students tardy instead of absent. She says she was terminated after criticizing district practices.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Jessica Biggs is a Chicago Board of Education member, elected in 2024 to represent District 6B.",
+            "cites": [1]
+          },
+          {
+            "text": "She was a special education teacher and principal at Burke Elementary.",
+            "cites": [2]
+          },
+          {
+            "text": "She directs health initiatives at the Southwest Organizing Project.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2018, she was fired as principal for directing staff to mark students tardy instead of absent.",
+            "cites": [1]
+          },
+          {
+            "text": "She says she was terminated after criticizing district practices.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "Her top priority is stabilizing district finances. She wants board committees to meet regularly. Her campaign says she aims to expand preschool, direct more funds to schools, and secure state funding. On the board, she led the CEO search and voted for a budget avoiding a short-term loan.",
+        "cites": [4, 5, 6, 7],
+        "sentences": [
+          {
+            "text": "Her top priority is stabilizing district finances.",
+            "cites": [4]
+          },
+          {
+            "text": "She wants board committees to meet regularly.",
+            "cites": [5]
+          },
+          {
+            "text": "Her campaign says she aims to expand preschool, direct more funds to schools, and secure state funding.",
+            "cites": [6]
+          },
+          {
+            "text": "On the board, she led the CEO search and voted for a budget avoiding a short-term loan.",
+            "cites": [7]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Citizens for Biggs",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39881",
+        "period": "April 1 to June 30, 2026",
+        "raised": 108608,
+        "cashOnHand": 120534.98,
+        "breakdown": [
+          { "kind": "small", "amount": 7482 },
+          { "kind": "large", "amount": 97626 },
+          { "kind": "transfer", "amount": 3500 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 248500, "count": 32 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Cook County Board President Toni Preckwinkle",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Ald. Pat Dowell",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Ald. Lamont Robinson",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Ald. Desmon Yancy",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Ald. Scott Waguespack",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Ald. Timmy Knudsen",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [10] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Chicago Laborers’ District Council",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "International Brotherhood of Electrical Workers Local 134",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Chicago Tribune Editorial Board",
+        "kind": "editorial_board",
+        "cites": [11]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Meet the new Chicago Board of Education",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2025/01/14/new-school-board-members/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Jessica Biggs - Chicago Board of Education",
+      "publisher": "Chicago Board of Education",
+      "url": "https://www.cpsboe.org/about/bios/2047",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Chicago school board member Jessica Biggs faces ...",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/23/jessica-biggs-firing-shadows-cps-school-board-president-race/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Who will be the next Chicago school board president? Meet the candidates",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/08/18/chicago-school-board-president-candidates/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Here’s who’s running for Chicago’s first-ever elected school board president",
+      "publisher": "WBEZ",
+      "url": "https://www.wbez.org/education/2026/05/22/meet-the-candidates-for-chicagos-first-ever-elected-school-board-president",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Election 2026: Who is running for Chicago School Board president?",
+      "publisher": "FOX 32 Chicago",
+      "url": "https://www.fox32chicago.com/news/who-is-running-chicago-school-board-president",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Former CPS principal enters race for Chicago school board president",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/04/06/former-cps-principal-enters-race-for-chicago-school-board-president/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "News & Events",
+      "publisher": "Jessica Biggs for Chicago",
+      "url": "https://www.biggs4chicago.com/headlines",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Elections & Endorsements - SEIU Illinois State Council",
+      "publisher": "SEIU Illinois State Council",
+      "url": "https://seiuilcouncil.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Editorial: Jessica Biggs for Chicago school board president",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/09/27/editorial-chicago-school-board-president/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:49:59.617Z",
+    "version": 2
+  }
+}

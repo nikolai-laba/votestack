@@ -1,0 +1,211 @@
+{
+  "key": "don-tracy",
+  "electionId": "il-2026-11-03-general",
+  "name": "Don Tracy",
+  "party": "Republican",
+  "office": "U.S. Senator",
+  "contestIds": ["chicago-boe:united-states-senator", "cook-clerk:120100"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Don Tracy is an attorney and senior counsel at the Brown, Hay & Stephens law firm. He chaired the Illinois Republican Party from 2021 to 2024 and the Illinois Gaming Board from 2015 to 2019. His campaign says his top priority is lowering the cost of living for working families by reducing taxes and energy and health care costs.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Don Tracy is an attorney and senior counsel at the Brown, Hay & Stephens law firm.",
+            "cites": [1]
+          },
+          {
+            "text": "He chaired the Illinois Republican Party from 2021 to 2024 and the Illinois Gaming Board from 2015 to 2019.",
+            "cites": [2]
+          },
+          {
+            "text": "His campaign says his top priority is lowering the cost of living for working families by reducing taxes and energy and health care costs.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "He favors stronger borders and the enforcement of existing federal immigration laws. He opposes federal funding for abortion and supports leaving the issue largely to the states. For energy, he supports an \"all-of-the-above\" strategy and opposes federal regulations he says drive up costs.",
+        "cites": [4, 1],
+        "sentences": [
+          {
+            "text": "He favors stronger borders and the enforcement of existing federal immigration laws.",
+            "cites": [4]
+          },
+          {
+            "text": "He opposes federal funding for abortion and supports leaving the issue largely to the states.",
+            "cites": [4]
+          },
+          {
+            "text": "For energy, he supports an \"all-of-the-above\" strategy and opposes federal regulations he says drive up costs.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "Tracy defended the U.S. war with Iran as necessary to prevent Iran from developing a nuclear weapon. He has said he would not be a \"rubber stamp\" for either party.",
+        "cites": [5, 4],
+        "sentences": [
+          {
+            "text": "Tracy defended the U.S. war with Iran as necessary to prevent Iran from developing a nuclear weapon.",
+            "cites": [5]
+          },
+          {
+            "text": "He has said he would not be a \"rubber stamp\" for either party.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Don Tracy for Illinois, NFP",
+        "url": "https://www.fec.gov/data/committee/C00917120/?cycle=2026",
+        "period": "July 1, 2025 to June 30, 2026",
+        "raised": 2459889.83,
+        "cashOnHand": 1512423.84,
+        "breakdown": [
+          { "kind": "small", "amount": 27050.37 },
+          { "kind": "large", "amount": 374869.75 },
+          { "kind": "pac", "amount": 11075 },
+          { "kind": "party", "amount": 1250 },
+          { "kind": "transfer", "amount": 4205 },
+          { "kind": "candidate", "amount": 2000000 },
+          { "kind": "other", "amount": 41439.71 }
+        ],
+        "fromCandidate": 2000000
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Illinois Family Action",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Northfield Township Republican Organization",
+        "kind": "party",
+        "cites": [7]
+      },
+      {
+        "organization": "Former State Comptroller Leslie Munger",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [8]
+      },
+      {
+        "organization": "State Rep. C.D. Davidsmeyer",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [9]
+      },
+      {
+        "organization": "Former State Rep. Dan Caulkins",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [8]
+      },
+      {
+        "organization": "Former Mayor Karen Hasara",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Former Mayor Roger Claar",
+        "kind": "elected_official",
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "2026 Election Questionnaire: Don Tracy, United States Senate",
+      "publisher": "Shaw Local",
+      "url": "https://www.shawlocal.com/news/election/2026/09/22/2026-election-questionnaire-don-tracy-united-states-senate/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Don Tracy",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Don_Tracy",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Defend Illinois | Don Tracy for U.S. Senate",
+      "publisher": "Don Tracy campaign",
+      "url": "https://dontracyforil.com/defend/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Illinois U.S. Senate election: Stratton vs. Tracy voter guide",
+      "publisher": "Axios",
+      "url": "https://www.axios.com/local/chicago/2026/10/07/illinois-u-s-senate-election-stratton-vs-tracy-voter-guide",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Illinois' U.S. Senate Republican nominee Don Tracy aims to slow cost-of-living",
+      "publisher": "NPR Illinois",
+      "url": "https://www.nprillinois.org/illinois/2026-07-08/illinois-u-s-senate-republican-nominee-don-tracy-aims-to-slow-cost-of-living-increases",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "2026 General Election Endorsements",
+      "publisher": "Illinois Family Action",
+      "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Northfield Township Republicans Endorse Dabrowski, Tracy, Harris, Brown",
+      "publisher": "Northfield Township Republican Organization",
+      "url": "https://www.northfieldgop.org/northfield_township_republicans_endorse_dabrowski_tracy_harris_brown",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "United States Senate election in Illinois, 2026",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/United_States_Senate_election_in_Illinois,_2026",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Don Tracy visits Jacksonville, hopeful for Republican win",
+      "publisher": "Jacksonville Journal-Courier",
+      "url": "https://www.myjournalcourier.com/news/article/don-tracy-visits-jacksonville-hopeful-republican-21367688.php",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T21:01:32.420Z",
+    "version": 4
+  }
+}

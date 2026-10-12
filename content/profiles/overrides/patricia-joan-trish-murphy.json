@@ -1,0 +1,41 @@
+{
+  "reason": "Garbled endorser names (profile review, 2026-10-07)",
+  "endorsements": [
+    {
+      "action": "replace",
+      "organization": "Dr. Keshia McKaskill, Cook County Commissioner, 5th District",
+      "endorsement": {
+        "kind": "elected_official",
+        "party": "Democratic",
+        "organization": "Kisha E. McCaskill, Cook County Commissioner, 5th District"
+      },
+      "sources": [
+        {
+          "title": "Endorsements - Patricia Joan \"Trish\" Murphy",
+          "publisher": "Patricia Joan \"Trish\" Murphy",
+          "url": "http://patriciajoanmurphy.org/endorsements/",
+          "kind": "candidate",
+          "viewedAt": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "action": "replace",
+      "organization": "Josita Morita, Cook County Commissioner, 13th District",
+      "endorsement": {
+        "kind": "elected_official",
+        "party": "Democratic",
+        "organization": "Josina Morita, Cook County Commissioner, 13th District"
+      },
+      "sources": [
+        {
+          "title": "Endorsements - Patricia Joan \"Trish\" Murphy",
+          "publisher": "Patricia Joan \"Trish\" Murphy",
+          "url": "http://patriciajoanmurphy.org/endorsements/",
+          "kind": "candidate",
+          "viewedAt": "2026-10-07"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "key": "maura-hirschauer",
+  "electionId": "il-2026-11-03-general",
+  "name": "Maura Hirschauer",
+  "party": "Democratic",
+  "office": "State Representative, 49th District",
+  "contestIds": ["cook-clerk:184900"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Maura Hirschauer has served as state representative for Illinois’ 49th District since January 2021. She is a former elementary school teacher and co-founded the Kane and Kendall County chapter of Moms Demand Action for Gun Sense in America.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Maura Hirschauer has served as state representative for Illinois’ 49th District since January 2021.",
+            "cites": [1]
+          },
+          {
+            "text": "She is a former elementary school teacher and co-founded the Kane and Kendall County chapter of Moms Demand Action for Gun Sense in America.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "She sponsored a bill requiring secondary schools to use female manikins in CPR training. She sponsored a 2022 law concerning gun safety information in schools. She sponsored legislation to regulate algorithmic pricing. Hirschauer also sponsored a bill requiring gun owners to securely store firearms near children. She was the chief sponsor of Karina's Law, signed in February 2025, which requires police to remove guns from people under domestic-violence orders of protection.",
+        "cites": [3, 4, 5, 6, 7, 8]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Maura Hirschauer",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=35683",
+        "period": "April 1 to June 30, 2026",
+        "raised": 23390.43,
+        "cashOnHand": 215613.6,
+        "breakdown": [
+          { "kind": "small", "amount": 85 },
+          { "kind": "large", "amount": 500 },
+          { "kind": "transfer", "amount": 22800 },
+          { "kind": "other", "amount": 5.43 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 405960.39, "count": 41 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Everytown for Gun Safety",
+        "kind": "organization",
+        "cites": [9]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [10] },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [12]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [13]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [14] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Maura Hirschauer",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Maura_Hirschauer",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Meet Maura Hirschauer, Illinois House 49th District Democratic nominee",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/2020/9/7/21399592/maura-hirschauer-illinois-house-rep-49th-district-democratic-nominee-candidate-2020-election",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Illinois bill aims to address gender discrepancies in CPR training",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/illinois-bill-aims-to-address-gender-discrepancies-in-cpr-training/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Glock ban, prescription drug board among measures that stall in final days",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/glock-ban-prescription-drug-board-among-measures-that-stall-in-final-days/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Pritzker to consider bill mandating gun owners lock up firearms near minors",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/pritzker-to-consider-bill-mandating-gun-owners-lock-up-firearms-near-minors/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Advocates say SCOTUS ruling paves way for law ensuring abusers have guns confiscated",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/advocates-say-scotus-ruling-paves-way-for-law-ensuring-abusers-have-guns-confiscated/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Maura Hirschauer (D) - 104th General Assembly (2025-2026)",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/House/Members/Details/3388",
+      "viewedAt": "2026-10-07",
+      "kind": "official",
+      "id": 7
+    },
+    {
+      "title": "Hirschauer Named Legislative Champion for Karina’s Law",
+      "publisher": "Illinois House Democrats",
+      "url": "https://ilhousedems.com/2025/10/24/hirschauer-named-legislative-champion-for-karinas-law/",
+      "viewedAt": "2026-10-07",
+      "kind": "official",
+      "id": 8
+    },
+    {
+      "id": 9,
+      "title": "Everytown for Gun Safety Announces Endorsements of Moms Demand Action Volunteers Running for Office in Illinois",
+      "publisher": "Everytown for Gun Safety",
+      "url": "https://www.everytown.org/press/everytown-for-gun-safety-announces-endorsements-of-moms-demand-action-volunteers-running-for-office-in-illinois/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 12,
+      "title": "ILLINOIS ENDORSEMENTS",
+      "publisher": "International Union of Operating Engineers Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 14
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:11:10.112Z",
+    "version": 6
+  }
+}

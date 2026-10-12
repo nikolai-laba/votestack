@@ -1,0 +1,253 @@
+{
+  "key": "sara-feigenholtz",
+  "electionId": "il-2026-11-03-general",
+  "name": "Sara Feigenholtz",
+  "party": "Democratic",
+  "office": "State Senator, 6th District",
+  "contestIds": ["chicago-boe:state-senator-6th-district", "cook-clerk:170601"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Sara Feigenholtz has served in the Illinois General Assembly since 1995, moving to the Senate in 2020. She is a founding member and vice president of the Kennedy Forum, which works for mental health parity.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Sara Feigenholtz has served in the Illinois General Assembly since 1995, moving to the Senate in 2020.",
+            "cites": [1]
+          },
+          {
+            "text": "She is a founding member and vice president of the Kennedy Forum, which works for mental health parity.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign says she led efforts to expand Medicaid to 800,000 uninsured Illinois residents. She authored House Bill 40, protecting state abortion rights before Roe v. Wade was overturned. She supported a law allowing adult adoptees access to their original birth certificates. Her campaign states she authored a law requiring insurance to cover contraception and cancer screenings. In 2025, she sponsored a bill for student mental health screenings starting in third grade. She also sponsored the 2023 Electric Vehicle Charging Act.",
+        "cites": [2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "Her campaign says she led efforts to expand Medicaid to 800,000 uninsured Illinois residents.",
+            "cites": [2]
+          },
+          {
+            "text": "She authored House Bill 40, protecting state abortion rights before Roe v. Wade was overturned.",
+            "cites": [3]
+          },
+          {
+            "text": "She supported a law allowing adult adoptees access to their original birth certificates.",
+            "cites": [3]
+          },
+          {
+            "text": "Her campaign states she authored a law requiring insurance to cover contraception and cancer screenings.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2025, she sponsored a bill for student mental health screenings starting in third grade.",
+            "cites": [4]
+          },
+          {
+            "text": "She also sponsored the 2023 Electric Vehicle Charging Act.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Citizens for Sara Feigenholtz",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=9783",
+        "period": "April 1 to June 30, 2026",
+        "raised": 23559.24,
+        "cashOnHand": 740063.33,
+        "breakdown": [
+          { "kind": "small", "amount": 364.2 },
+          { "kind": "large", "amount": 15750 },
+          { "kind": "transfer", "amount": 1500 },
+          { "kind": "other", "amount": 5945.04 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 9000, "count": 7 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "U.S. Rep. Jan Schakowsky",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Illinois Secretary of State Alexi Giannoulias",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [8]
+      },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [9] },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Cook County College Teachers Union",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [12]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [13] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [14]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [15] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Sara Feigenholtz (D) - 104th General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/House/Members/Details/3376",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "About Sara",
+      "publisher": "Senator Sara",
+      "url": "https://www.senatorsara.com/about-sara/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Awards | TWLIL",
+      "publisher": "Women's Bar Association of Illinois",
+      "url": "https://wbaillinois.org/awards/twlil/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Sara Feigenholtz - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sara_Feigenholtz",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Sara Feigenholtz (D) - Illinois General Assembly - Member",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/House/Members/Details/3168?GAID=17",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Daily Archives: August 4, 2025 - Sara Feigenholtz",
+      "publisher": "Sara Feigenholtz Campaign",
+      "url": "https://www.sarafeigenholtz.com/2025/08/04/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "September 2025 - Sara Feigenholtz",
+      "publisher": "Sara Feigenholtz Campaign",
+      "url": "https://www.sarafeigenholtz.com/2025/09/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Illinois Federation of Teachers Announces Slate of Endorsements for 2026 Primaries",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/post/illinois-federation-of-teachers-announces-slate-of-endorsements-for-2026-primaries",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "AFSCME PEOPLE Endorsements: March 17 Primary Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://afscme31.org/news/afscme-people-endorsements-march-17-primary-election",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "January 6, 2026 – Sara Feigenholtz",
+      "publisher": "Sara Feigenholtz Campaign",
+      "url": "https://www.sarafeigenholtz.com/2026/01/06/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Endorsements for the March 17, 2026 Primary Election",
+      "publisher": "Cook County College Teachers Union",
+      "url": "https://www.ccctu.org/post/early-endorsements-for-the-march-17-2026-primary-election",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 15
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:55:49.666Z",
+    "version": 4
+  }
+}

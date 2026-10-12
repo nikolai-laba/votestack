@@ -1,0 +1,184 @@
+{
+  "key": "jennifer-sanalitro",
+  "electionId": "il-2026-11-03-general",
+  "name": "Jennifer Sanalitro",
+  "party": "Republican",
+  "office": "State Representative, 48th District",
+  "contestIds": ["cook-clerk:184800"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Packaging sales executive Jennifer Sanalitro has represented the 48th District in the Illinois House since 2023. She proposed ending state taxes on tips and overtime pay, a sales tax holiday for school supplies, and letting human trafficking survivors obtain orders of protection against traffickers. Her property tax plans include school district relief grants and an exemption for seniors without children in school.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Packaging sales executive Jennifer Sanalitro has represented the 48th District in the Illinois House since 2023.",
+            "cites": [1]
+          },
+          {
+            "text": "She proposed ending state taxes on tips and overtime pay, a sales tax holiday for school supplies, and letting human trafficking survivors obtain orders of protection against traffickers.",
+            "cites": [2]
+          },
+          {
+            "text": "Her property tax plans include school district relief grants and an exemption for seniors without children in school.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "She filed legislation requiring a driver's license to operate low-speed electric bicycles on public roads. She opposed a state housing plan, arguing it takes zoning decisions away from local communities. She warned that cutting local governments' state funding forces them to raise property taxes or cut services.",
+        "cites": [4, 5, 6, 7]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Citizens for Sanalitro",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=37202",
+        "period": "April 1 to June 30, 2026",
+        "raised": 38350,
+        "cashOnHand": 105422.02,
+        "breakdown": [
+          { "kind": "small", "amount": 1650 },
+          { "kind": "large", "amount": 3500 },
+          { "kind": "transfer", "amount": 33200 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 246235.16, "count": 50 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Associated Fire Fighters of Illinois",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "Fraternal Order of Police",
+        "kind": "union",
+        "cites": [8]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [9] },
+      {
+        "organization": "Illinois Sheriffs' Association",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [11]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Jennifer Sanalitro",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Jennifer_Sanalitro",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "The Sanalitro Journal – #014",
+      "publisher": "Jennifer Sanalitro campaign",
+      "url": "https://repsanalitro.com/2025/04/07/the-sanalitro-journal-014/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Rep. Sanalitro’s Special Property Tax Address",
+      "publisher": "Jennifer Sanalitro campaign",
+      "url": "https://repsanalitro.com/2026/05/01/rep-sanalitros-special-property-tax-address/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Rep. Sanalitro's Retro License Plate Bill Passes Illinois House, Heads to Senate",
+      "publisher": "Jennifer Sanalitro campaign",
+      "url": "https://repsanalitro.com/2025/04/08/rep-sanalitros-retro-license-plate-bill-passes-illinois-house-heads-to-senate/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Rep. Jennifer Sanalitro Files Bill to Enhance E-Bike Roadway Safety",
+      "publisher": "Jennifer Sanalitro campaign",
+      "url": "https://repsanalitro.com/2026/02/24/rep-jennifer-sanalitro-files-bill-to-enhance-e-bike-roadway-safety/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "House GOP pushes Pritzker for local control",
+      "publisher": "Casey Local",
+      "url": "https://caseylocal.com/2026/05/21/house-gop-pushes-pritzker-for-local-control/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Chicago Mayor Brandon Johnson, other leaders press lawmakers for more funding",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/chicago-mayor-brandon-johnson-other-leaders-press-lawmakers-for-more-funding/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "2026 Election Questionnaire: Illinois House of Representatives, 48th District, candidate Jennifer Sanalitro",
+      "publisher": "Shaw Local",
+      "url": "https://www.shawlocal.com/news/election/2026/09/29/2026-election-questionnaire-illinois-house-of-representatives-48th-district-candidate-jennifer-sanalitro/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Illinois AFL-CIO 2026 Primary Election Endorsements",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2025/12/IL-AFL-CIO-endorsements-120925.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "MARCH 17, 2026 PRIMARY ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/Updated-P2026_PrimaryEndorsementList_updated-v6.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:10:46.104Z",
+    "version": 6
+  }
+}

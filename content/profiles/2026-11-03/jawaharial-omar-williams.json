@@ -1,0 +1,165 @@
+{
+  "key": "jawaharial-omar-williams",
+  "electionId": "il-2026-11-03-general",
+  "name": "Jawaharial \"Omar\" Williams",
+  "party": "Democratic",
+  "office": "State Representative, 10th District",
+  "contestIds": [
+    "chicago-boe:state-representative-10th-district",
+    "cook-clerk:181000"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Jawaharial \"Omar\" Williams, a former laborer and union member, has represented the 10th District in the Illinois House since his appointment in May 2019. He chairs the House Committee on Prescription Drug Affordability. He supports protecting women's rights to quality reproductive healthcare and the right to earn a fair wage. He sponsored a law to expand access to opioid antagonists at concert venues. He also sponsored the Illinois Receivership Act, which became law, and legislation regarding ammunition vending machines.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Jawaharial \"Omar\" Williams, a former laborer and union member, has represented the 10th District in the Illinois House since his appointment in May 2019.",
+            "cites": [1]
+          },
+          {
+            "text": "He chairs the House Committee on Prescription Drug Affordability.",
+            "cites": [2]
+          },
+          {
+            "text": "He supports protecting women's rights to quality reproductive healthcare and the right to earn a fair wage.",
+            "cites": [3]
+          },
+          {
+            "text": "He sponsored a law to expand access to opioid antagonists at concert venues.",
+            "cites": [2]
+          },
+          {
+            "text": "He also sponsored the Illinois Receivership Act, which became law, and legislation regarding ammunition vending machines.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Jawaharial Omarr Williams",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=35462",
+        "period": "April 1 to June 30, 2026",
+        "raised": 4913,
+        "cashOnHand": 247890.74,
+        "breakdown": [
+          { "kind": "large", "amount": 200 },
+          { "kind": "transfer", "amount": 4713 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 48218.75, "count": 31 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [5]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [6] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [8] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [9]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Jawaharial Williams - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jawaharial_Williams",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Rep. Jawaharial Williams",
+      "publisher": "Illinois House Democratic Caucus",
+      "url": "https://ilhousedems.com/project/jawaharial-williams/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Jawaharial Omar Williams",
+      "publisher": "BallotReady",
+      "url": "https://www.ballotready.org/people/jawaharial-omar-williams",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Member - Illinois General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://ilga.gov/Senate/Members/Details/3368",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Election Center - SEIU Healthcare",
+      "publisher": "SEIU Healthcare Illinois",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Election 2026 – SEIU Local 73",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 7
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 8
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:53:02.742Z",
+    "version": 6
+  }
+}

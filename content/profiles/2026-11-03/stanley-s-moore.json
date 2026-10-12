@@ -1,0 +1,213 @@
+{
+  "key": "stanley-s-moore",
+  "electionId": "il-2026-11-03-general",
+  "name": "Stanley S. Moore",
+  "party": "Democratic",
+  "office": "Cook County Commissioner, 4th District",
+  "contestIds": [
+    "chicago-boe:county-commissioner-4th-district",
+    "cook-clerk:220400"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Stanley Moore was appointed Cook County Commissioner for the 4th District in 2013. He previously served as a Cook County project director and an Illinois Department of Transportation director. He chairs the board's Criminal Justice, Law Enforcement, and Transportation committees.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Stanley Moore was appointed Cook County Commissioner for the 4th District in 2013.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously served as a Cook County project director and an Illinois Department of Transportation director.",
+            "cites": [2]
+          },
+          {
+            "text": "He chairs the board's Criminal Justice, Law Enforcement, and Transportation committees.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "Moore co-wrote 2020 legislation making Juneteenth a paid county holiday. He chaired the Cook County Complete Count Census Commission for the 2020 census. In his 2022 campaign, he said he secured $25 million for transportation, $13 million for violence prevention, and $8 million for forest preserves. According to WBEZ, Moore missed about 27% of board meetings since late 2022; he attributed his absences to serving as a primary caregiver.",
+        "cites": [4, 5, 6, 7],
+        "sentences": [
+          {
+            "text": "Moore co-wrote 2020 legislation making Juneteenth a paid county holiday.",
+            "cites": [4]
+          },
+          {
+            "text": "He chaired the Cook County Complete Count Census Commission for the 2020 census.",
+            "cites": [5]
+          },
+          {
+            "text": "In his 2022 campaign, he said he secured $25 million for transportation, $13 million for violence prevention, and $8 million for forest preserves.",
+            "cites": [6]
+          },
+          {
+            "text": "According to WBEZ, Moore missed about 27% of board meetings since late 2022; he attributed his absences to serving as a primary caregiver.",
+            "cites": [7]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Stanley Moore",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=20715",
+        "period": "April 1 to June 30, 2026",
+        "raised": 3275.87,
+        "cashOnHand": 1989.11,
+        "breakdown": [
+          { "kind": "small", "amount": 325.87 },
+          { "kind": "large", "amount": 2950 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 16600, "count": 10 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [8]
+      },
+      { "organization": "SEIU Healthcare", "kind": "union", "cites": [8] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 399",
+        "kind": "union",
+        "cites": [10]
+      },
+      { "organization": "Plumbers Local 130", "kind": "union", "cites": [11] },
+      {
+        "organization": "Citizen Action/Illinois",
+        "kind": "organization",
+        "cites": [12]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Hon. Stanley Moore",
+      "publisher": "National Association of Counties",
+      "url": "https://www.naco.org/people/hon-stanley-moore",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Stanley S. Moore | BallotReady",
+      "publisher": "BallotReady",
+      "url": "https://www.ballotready.org/people/stanley-s-moore",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Stanley Moore",
+      "publisher": "Cook County Government",
+      "url": "https://www.cookcountyil.gov/all-people/stanley-moore",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Stanley Moore (politician) - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stanley_Moore_(politician)",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Cook County Looks Ahead to 2020 Census",
+      "publisher": "Lawndale News",
+      "url": "http://www.lawndalenews.com/2019/07/cook-county-looks-ahead-to-2020-census/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Stanley S. Moore (D) - Incumbent | Election",
+      "publisher": "WTTW",
+      "url": "https://news.wttw.com/elections/voters-guide/2022-general/Stanley-Moore",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Some Cook County Board commissioners skip more than 20% of ...",
+      "publisher": "WBEZ",
+      "url": "https://www.wbez.org/investigations/2026/03/06/cook-county-board-commissioners-meeting-attendance-absence-stanley-moore-bridget-gainer",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "2026 Cook County Board of Commissioners election - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "2026 LOCAL 399 ILLINOIS PRIMARY ELECTION ENDORSEMENTS",
+      "publisher": "International Union of Operating Engineers Local 399",
+      "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "CANDIDATES ENDORSED BY THE POLITICAL ACTION TASK FORCE",
+      "publisher": "Plumbers Local 130",
+      "url": "https://plumberslu130ua.com/ULWSiteResources/ualocal130_v2/Resources/file/Breaking%20News/2026/2026%20PATF%20Endorsements_Revised%202.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 12,
+      "title": "Endorsements — Citizen Action/Illinois",
+      "publisher": "Citizen Action/Illinois",
+      "url": "https://citizenaction-il.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:21:13.001Z",
+    "version": 5
+  }
+}

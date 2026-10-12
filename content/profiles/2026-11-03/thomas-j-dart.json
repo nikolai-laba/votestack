@@ -1,0 +1,201 @@
+{
+  "key": "thomas-j-dart",
+  "electionId": "il-2026-11-03-general",
+  "name": "Thomas J. Dart",
+  "party": "Democratic",
+  "office": "Cook County Sheriff",
+  "contestIds": ["chicago-boe:county-sheriff", "cook-clerk:210300"],
+  "kind": "candidate",
+  "tier": "top",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Thomas J. Dart has been the Cook County Sheriff since 2006. Before that, he worked as an assistant state’s attorney in Cook County and served in the Illinois legislature, where he chaired the House Judiciary Committee. He oversees the Cook County Jail, the nation’s largest single-site jail.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Thomas J. Dart has been the Cook County Sheriff since 2006.",
+            "cites": [1]
+          },
+          {
+            "text": "Before that, he worked as an assistant state’s attorney in Cook County and served in the Illinois legislature, where he chaired the House Judiciary Committee.",
+            "cites": [2]
+          },
+          {
+            "text": "He oversees the Cook County Jail, the nation’s largest single-site jail.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "Under his leadership, the Cook County Jail was released from nearly 40 years of federal oversight. His office does not honor U.S. Immigration and Customs Enforcement detainers for immigrants in county custody. He filed a federal lawsuit against Craigslist that led to the removal of its adult services section to combat human trafficking. In 2008, he suspended foreclosure evictions in Cook County.",
+        "cites": [4, 5, 6, 1],
+        "sentences": [
+          {
+            "text": "Under his leadership, the Cook County Jail was released from nearly 40 years of federal oversight.",
+            "cites": [4]
+          },
+          {
+            "text": "His office does not honor U.S. Immigration and Customs Enforcement detainers for immigrants in county custody.",
+            "cites": [5]
+          },
+          {
+            "text": "He filed a federal lawsuit against Craigslist that led to the removal of its adult services section to combat human trafficking.",
+            "cites": [6]
+          },
+          {
+            "text": "In 2008, he suspended foreclosure evictions in Cook County.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "He says he expanded mental health responses through the Co-Responder Virtual Assistance Program, which equips police with tablets to video-connect people in crisis with clinicians. He says the initiative has handled over 1,400 calls since 2020.",
+        "cites": [7],
+        "sentences": [
+          {
+            "text": "He says he expanded mental health responses through the Co-Responder Virtual Assistance Program, which equips police with tablets to video-connect people in crisis with clinicians.",
+            "cites": [7]
+          },
+          {
+            "text": "He says the initiative has handled over 1,400 calls since 2020.",
+            "cites": [7]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Dart",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=19319",
+        "period": "April 1 to June 30, 2026",
+        "raised": 52586.6,
+        "cashOnHand": 432647.53,
+        "breakdown": [
+          { "kind": "small", "amount": 125 },
+          { "kind": "large", "amount": 52461.6 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 12663.1, "count": 7 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "46th Ward Democrats", "kind": "party", "cites": [10] },
+      { "organization": "47th Ward Democrats", "kind": "party", "cites": [11] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Tom Dart",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tom_Dart",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Thomas Dart",
+      "publisher": "Cook County Government",
+      "url": "https://www.cookcountyil.gov/all-people/thomas-dart",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Thomas Dart",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Thomas_Dart",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Tom Dart seeks reelection as Cook County sheriff in 2026",
+      "publisher": "North Shore Weekly",
+      "url": "https://northshoreweekly.com/articles/tom-dart-seeks-reelection-as-cook-county-sheriff-in-2026-muvlycc2",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "May 21, 2026 The Honorable Thomas J. Dart Sheriff Cook ...",
+      "publisher": "U.S. House Committee on the Judiciary",
+      "url": "https://judiciary.house.gov/sites/evo-subsites/republicans-judiciary.house.gov/files/evo-media-document/2026-05-21-jdj-tm-to-cook-county-sheriff-s-office-dart_0.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Sheriff Thomas J. Dart",
+      "publisher": "U.S. House of Representatives",
+      "url": "https://docs.house.gov/meetings/if/if02/20140326/101980/hhrg-113-if02-bio-dartt-20140326.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Opinion: Cook County's 911 mental health response is growing",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/07/10/opinion-chicago-mental-health-emergency-cares/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "CFL-2026-General-Election-Endorsements.pdf",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "ILLINOIS PRIMARY ELECTION DAY: MARCH 17, 2026",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/election/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Our endorsed slate",
+      "publisher": "46th Ward Democrats",
+      "url": "https://46thwarddemocrats.org/slate",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Endorsements - 47th Ward Democrats",
+      "publisher": "47th Ward Democrats",
+      "url": "https://47thward.com/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:37:06.029Z",
+    "version": 4
+  }
+}

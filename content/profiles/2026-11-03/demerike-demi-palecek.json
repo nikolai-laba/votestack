@@ -1,0 +1,353 @@
+{
+  "key": "demerike-demi-palecek",
+  "electionId": "il-2026-11-03-general",
+  "name": "Demerike \"Demi\" Palecek",
+  "party": "Democratic",
+  "office": "State Representative, 13th District",
+  "contestIds": [
+    "chicago-boe:state-representative-13th-district",
+    "cook-clerk:181300"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Demerike \"Demi\" Palecek is an Air Force veteran, an active member of the Army National Guard, president of the 46th Ward Democrats, and a former communications manager for a state representative. Her campaign says she supports expanding access to abortion care, contraception, and fertility treatment; rent control and affordable housing; and expanded mental health care. In a Chicago Sun-Times questionnaire, she said she publicly opposed using National Guard troops for immigration enforcement and is under military investigation for her stance.",
+        "cites": [1, 2, 3]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Demi for Illinois",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40735",
+        "period": "April 1 to June 30, 2026",
+        "raised": 29567.21,
+        "cashOnHand": 15836.43,
+        "breakdown": [
+          { "kind": "small", "amount": 6360.57 },
+          { "kind": "large", "amount": 7550 },
+          { "kind": "transfer", "amount": 15550 },
+          { "kind": "other", "amount": 106.64 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 17000, "count": 7 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "U.S. Rep. Jan Schakowsky",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "U.S. Rep. Danny K. Davis",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "State Sen. Javier Loera Cervantes",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "State Sen. Mike Porfirio",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "State Rep. Norma Hernandez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "State Rep. Barbara Hernandez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Lake County Board Member Sara Knizhnik",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Chicago City Clerk Anna Valencia",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Carbondale City Council Member Clare Killman",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Elgin City Council Member Anthony Ortiz",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "LGBTQ+ Victory Fund",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Latino Victory Fund",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Our Revolution",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Run for Something",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Leaders We Deserve",
+        "kind": "organization",
+        "cites": [5]
+      },
+      { "organization": "VoteVets", "kind": "organization", "cites": [5] },
+      {
+        "organization": "Center for Freethought Equality PAC",
+        "kind": "organization",
+        "cites": [5]
+      },
+      { "organization": "LPAC", "kind": "organization", "cites": [5] },
+      {
+        "organization": "Teachers Unify to End Gun Violence Action PAC",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Women for Liberty and Justice for All",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "AFSCME Illinois Council 31",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "National Association of Social Workers, Illinois Chapter",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "Illinois NOW PAC",
+        "kind": "organization",
+        "cites": [12]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [13] },
+      {
+        "organization": "Illinois Veterans for Change",
+        "kind": "organization",
+        "cites": [14]
+      },
+      {
+        "organization": "Planned Parenthood Great Rivers Action",
+        "kind": "organization",
+        "cites": [5]
+      },
+      { "organization": "AMVOTE PAC", "kind": "organization", "cites": [5] },
+      {
+        "organization": "Independent Voters of Illinois-Independent Precinct Organization",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Northside Democracy for America",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Latino Leadership Council",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "The Justice Coalition",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [15]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [16] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [17]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "About Demi",
+      "publisher": "Demiforillinois.com",
+      "url": "https://www.demiforillinois.com/about-demi",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Cook County 2026 Candidates & Sample Ballot | Illinois",
+      "publisher": "The Ballot Brief",
+      "url": "https://theballotbrief.com/state/illinois/cook-county",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Demerike 'Demi' Palecek, Democratic candidate for Illinois House 13th District",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/candidate-questionnaires/demerike-demi-palecek-illinois-house-primary-13th-district",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Demerike ‘Demi’ Palecek, Democratic candidate for Illinois House 13th District",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/candidate-questionnaires/demerike-demi-palecek-illinois-house-primary-13th-district",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "About Demi",
+      "publisher": "Demi for Illinois",
+      "url": "https://www.demiforillinois.com/about-demi",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "LGBTQ+ Victory Fund endorses 57 new candidates in April for 2026 campaigns",
+      "publisher": "LGBTQ+ Victory Fund",
+      "url": "https://victoryfund.org/news/lgbtq-victory-fund-endorses-57-new-candidates-in-april-for-2026-campaigns/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Mental health funding fumble",
+      "publisher": "Politico",
+      "url": "https://www.politico.com/newsletters/illinois-playbook/2026/01/15/feds-slash-mental-health-chicago-fumes-00730653",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Demi Palecek for Illinois State House District 13",
+      "publisher": "Our Revolution",
+      "url": "https://ourrevolution.com/demi-palecek-for-illinois-state-house-district-13/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "2026 Illinois Primary Election Endorsements",
+      "publisher": "Planned Parenthood Illinois Action",
+      "url": "https://www.plannedparenthoodaction.org/planned-parenthood-illinois-action/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "NASW-IL Announces Endorsements for 2026 Illinois General Election",
+      "publisher": "NASW-IL",
+      "url": "https://www.naswil.org/post/nasw-il-announces-endorsements-for-2026-illinois-general-election",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 12,
+      "title": "Illinois NOW Political Action Committee",
+      "publisher": "Illinois NOW",
+      "url": "https://ilnow.org/illinois-now-political-action-committee/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 13,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 14,
+      "title": "General Election 2026 Candidates",
+      "publisher": "Illinois Veterans for Change",
+      "url": "https://www.ilveteransforchange.org/general-election-2026-candidates.html",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 17
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:54:30.450Z",
+    "version": 6
+  }
+}

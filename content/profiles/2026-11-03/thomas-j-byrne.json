@@ -1,0 +1,145 @@
+{
+  "key": "thomas-j-byrne",
+  "electionId": "il-2026-11-03-general",
+  "name": "Thomas J. Byrne",
+  "office": "Circuit Court Judge, Cook County",
+  "contestIds": [
+    "chicago-boe:retention:thomas-j-byrne",
+    "cook-clerk:720001:thomas-j-byrne"
+  ],
+  "kind": "retention",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Thomas J. Byrne has been a Circuit Court judge since 2008. He has been assigned to the Leighton Criminal Courthouse since 2013, presiding over felony cases. He previously served in the Misdemeanor Branch Court. Before becoming a judge, he served as an assistant Cook County state’s attorney and supervised the Third Municipal District for five years.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Thomas J. Byrne has been a Circuit Court judge since 2008.",
+            "cites": [1]
+          },
+          {
+            "text": "He has been assigned to the Leighton Criminal Courthouse since 2013, presiding over felony cases.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously served in the Misdemeanor Branch Court.",
+            "cites": [2]
+          },
+          {
+            "text": "Before becoming a judge, he served as an assistant Cook County state’s attorney and supervised the Third Municipal District for five years.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [],
+    "sharedCommittee": {
+      "name": "Committee for Retention of Judges in Cook County",
+      "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=6505"
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "Chicago Bar Association",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "rating": "Qualified",
+        "cites": [4]
+      },
+      {
+        "organization": "Chicago Council of Lawyers",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "rating": "Qualified",
+        "cites": [5]
+      },
+      {
+        "organization": "Illinois State Bar Association",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "rating": "Yes",
+        "cites": [1]
+      },
+      {
+        "organization": "Alliance of Bar Associations for Judicial Screening",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "tally": {
+          "members": 11,
+          "ratings": [{ "rating": "Yes", "count": 11 }],
+          "notEvaluated": 0
+        },
+        "cites": [6]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Cook County Judicial Evaluations",
+      "publisher": "Illinois State Bar Association",
+      "url": "https://www.isba.org/judicial-elections/counties/cook",
+      "kind": "bar",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Chicago Council of Lawyers Evaluation Report – Vote For Judges",
+      "publisher": "Chicago Council of Lawyers",
+      "url": "https://www.voteforjudges.org/chicago-council-of-lawyers-evaluation-report/",
+      "kind": "bar",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Vote Smart: CBA Judicial Voter's Guide, General Election, November 3, 2026",
+      "publisher": "Chicago Bar Association",
+      "url": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 4
+    },
+    {
+      "title": "Evaluation Report: Judges on the Ballot in the November 3, 2026 General Election",
+      "publisher": "Chicago Council of Lawyers",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/CCL-Judicial-Evaluation-Report-for-Nov-3-2026-General-Election_Ballot-Order.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 5
+    },
+    {
+      "title": "Alliance of Bar Associations for Judicial Screening, 2026 General Election ratings",
+      "publisher": "Alliance of Bar Associations for Judicial Screening",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/2026-Alliance-General-Ballot-Ratings-09252026.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 6
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T21:25:09.207Z",
+    "version": 2
+  }
+}

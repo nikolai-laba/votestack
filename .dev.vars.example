@@ -1,0 +1,10 @@
+# Server-only variables for the Cloudflare Worker (worker/) during local dev
+# (`npm run dev:full`). Copy to .dev.vars (gitignored). In production, set
+# these in the Cloudflare dashboard → Workers & Pages → votestack → Settings →
+# Variables and Secrets (as encrypted secrets).
+GOOGLE_CIVIC_API_KEY=your_google_civic_key_here
+SUPABASE_URL=https://your-project.supabase.co
+SUPABASE_SECRET_KEY=your_supabase_secret_key_here
+# Cloudflare Turnstile secret for error reports (POST /api/report). For local
+# testing, Cloudflare's always-pass test secret works with the test site key.
+TURNSTILE_SECRET_KEY=your_turnstile_secret_key_here

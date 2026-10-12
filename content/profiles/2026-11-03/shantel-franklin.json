@@ -1,0 +1,369 @@
+{
+  "key": "shantel-franklin",
+  "electionId": "il-2026-11-03-general",
+  "name": "Shantel Franklin",
+  "party": "Democratic",
+  "office": "State Representative, 8th District",
+  "contestIds": [
+    "chicago-boe:state-representative-8th-district",
+    "cook-clerk:180800"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Shantel Franklin is the Democratic nominee for State Representative in the 8th District. She is a real estate agent who served as a legislative liaison for the Illinois Attorney General. Her campaign says she would prioritize housing stability, stronger schools, affordable healthcare, and economic development.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Shantel Franklin is the Democratic nominee for State Representative in the 8th District.",
+            "cites": [1]
+          },
+          {
+            "text": "She is a real estate agent who served as a legislative liaison for the Illinois Attorney General.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign says she would prioritize housing stability, stronger schools, affordable healthcare, and economic development.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "When asked about safety net hospitals like West Suburban Hospital, Franklin said she would support legislation giving the state a stronger hand in hospital takeovers. In the Attorney General’s Office, she advocated to expand the Crime Victims Compensation Program, which provides financial support to victims of violent crime for medical bills, funeral costs, relocation expenses, and lost wages.",
+        "cites": [1, 4],
+        "sentences": [
+          {
+            "text": "When asked about safety net hospitals like West Suburban Hospital, Franklin said she would support legislation giving the state a stronger hand in hospital takeovers.",
+            "cites": [1]
+          },
+          {
+            "text": "In the Attorney General’s Office, she advocated to expand the Crime Victims Compensation Program, which provides financial support to victims of violent crime for medical bills, funeral costs, relocation expenses, and lost wages.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Shantel for State Rep",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40760",
+        "period": "April 1 to June 30, 2026",
+        "raised": 34986,
+        "cashOnHand": 41137.69,
+        "breakdown": [
+          { "kind": "small", "amount": 3312 },
+          { "kind": "large", "amount": 30674 },
+          { "kind": "transfer", "amount": 1000 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 12000, "count": 8 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Illinois Attorney General Kwame Raoul",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Illinois State Rep. Justin Slaughter",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Illinois State Rep. Maurice West",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Illinois State Rep. Nick Smith",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Illinois State Rep. Will Davis",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Countryside Mayor Sean McDermott",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "La Grange Village President Mark Kuchler",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "La Grange Park Village President Dr. Jim Discipio",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Hodgkins Village President Ernie Millsap",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [8] },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [10]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [11] },
+      { "organization": "Sierra Club", "kind": "organization", "cites": [7] },
+      { "organization": "Giffords", "kind": "organization", "cites": [7] },
+      { "organization": "GPAC", "kind": "organization", "cites": [7] },
+      {
+        "organization": "Run for Something",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "United Working Families",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Abundant Housing Illinois",
+        "kind": "organization",
+        "cites": [13]
+      },
+      {
+        "organization": "Illinois Realtors Political Action Committee",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Illinois Retired Teachers Association Political Action Committee",
+        "kind": "organization",
+        "cites": [14]
+      },
+      {
+        "organization": "Chicago Teachers Union",
+        "kind": "union",
+        "cites": [15]
+      },
+      {
+        "organization": "Cook County College Teachers Union, Local 1600",
+        "kind": "union",
+        "cites": [16]
+      },
+      {
+        "organization": "West Suburban Teachers Union Local 571",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "International Brotherhood of Teamsters Local 700",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Better Streets Chicago Action Fund",
+        "kind": "organization",
+        "cites": [17]
+      },
+      {
+        "organization": "Chicago Growth Project",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Cook County Latino Democrats",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [18]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [19]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "8th House candidate Franklin introduces herself to local Dems - Wednesday Journal",
+      "publisher": "Wednesday Journal",
+      "url": "https://www.oakpark.com/2026/07/14/8th-house-candidate-franklin-introduces-herself-local-dems/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Four vie in state's 8th District to replace Rep. La Shawn Ford",
+      "publisher": "Wednesday Journal",
+      "url": "https://www.oakpark.com/2026/03/10/8th-district-candidates-to-replace-rep-la-shawn-ford/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Shantel Franklin | for Illinois State Representative",
+      "publisher": "Shantel Franklin campaign",
+      "url": "https://shantelforstaterep.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Shantel Franklin - Community Leadership Fellows",
+      "publisher": "Community Leadership Fellows",
+      "url": "https://clfellows.org/shantel-franklin",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Candidate Shantel Franklin absent from second political forum",
+      "publisher": "Chicago Crusader",
+      "url": "https://chicagocrusader.com/candidate-shantel-franklin-absent-from-second-political-forum/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "La Grange Leader Backs State Lawmaker Hopeful",
+      "publisher": "Patch",
+      "url": "https://patch.com/illinois/lagrange/la-grange-leader-backs-state-lawmaker-hopeful",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Shantel Franklin | for Illinois State Representative",
+      "publisher": "Shantel for State Rep",
+      "url": "https://shantelforstaterep.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Illinois AFL-CIO 2026 General Election Endorsements",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ibewlocal176.org/uploads/8/9/0/2/89025372/il_afl-cio_gen_endorsements_072326.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Illinois Federation of Teachers Announces Slate of Endorsements for 2026 Primaries",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/post/illinois-federation-of-teachers-announces-slate-of-endorsements-for-2026-primaries",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 12,
+      "title": "Shantel Franklin",
+      "publisher": "Run For Something",
+      "url": "https://directory.runforsomething.net/candidate/e769d41ce26715b711ced30fe30562d6/franklin-shantel/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 13,
+      "title": "Shantel Franklin",
+      "publisher": "Abundant Housing Illinois",
+      "url": "https://abundanthousingillinois.org/endorsements/shantel-franklin/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 14,
+      "title": "Retired Teachers Endorse Candidates for Illinois General Assembly",
+      "publisher": "Around Ptown",
+      "url": "https://aroundptown.com/retired-teachers-endorse-candidates-for-illinois-general-assembly/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 15,
+      "title": "2026 Primary Election",
+      "publisher": "Chicago Teachers Union",
+      "url": "https://www.ctulocal1.org/movement/primary-election-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 16,
+      "title": "Endorsements for the March 17, 2026 Primary Election",
+      "publisher": "Cook County College Teachers Union",
+      "url": "https://www.ccctu.org/post/early-endorsements-for-the-march-17-2026-primary-election",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 17,
+      "title": "2026 Endorsements",
+      "publisher": "Better Streets Chicago Action Fund",
+      "url": "https://www.bscactionfund.org/2026-midterms/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 19
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:21:17.608Z",
+    "version": 5
+  }
+}

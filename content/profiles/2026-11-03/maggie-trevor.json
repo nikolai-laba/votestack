@@ -1,0 +1,182 @@
+{
+  "key": "maggie-trevor",
+  "electionId": "il-2026-11-03-general",
+  "name": "Maggie Trevor",
+  "party": "Democratic",
+  "office": "Cook County Commissioner, 9th District",
+  "contestIds": [
+    "chicago-boe:county-commissioner-9th-district",
+    "cook-clerk:220900"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Maggie Trevor was elected Cook County Commissioner for the 9th District in 2022. Her campaign says she holds a PhD in political science, taught at the University of Iowa and worked in health care market research. In 2022, she supported banning military-style weapons and high-capacity magazines, and enforcing laws to disarm people with revoked FOID cards. She also advocated in 2022 for expanded health care access, including reproductive and mental health services, and better suburb-to-suburb public transit. She backed River Forest's call to halt the O'Hare Flyer transit project as first proposed. The Ballot Brief reports she passed a county ban on coal tar sealants on driveways and helped bring transportation infrastructure funding to the district.",
+        "cites": [1, 2, 3, 4, 5]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Citizens for Maggie Trevor",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=34078",
+        "period": "April 1 to June 30, 2026",
+        "raised": 5600,
+        "cashOnHand": 32221.99,
+        "breakdown": [
+          { "kind": "small", "amount": 1420 },
+          { "kind": "large", "amount": 1810 },
+          { "kind": "transfer", "amount": 2370 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 55000, "count": 5 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [6]
+      },
+      { "organization": "SEIU Healthcare", "kind": "union", "cites": [6] },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [6] },
+      {
+        "organization": "Sierra Club Illinois",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Citizen Action/Illinois",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [8]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [9] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 399",
+        "kind": "union",
+        "cites": [11]
+      },
+      { "organization": "Plumbers Local 130", "kind": "union", "cites": [6] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "2022 Cook County Board of Commissioners election - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2022_Cook_County_Board_of_Commissioners_election",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "About",
+      "publisher": "Maggie Trevor campaign",
+      "url": "https://maggietrevor4cook.com/meet-maggie/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Maggie Trevor: 2022 candidate for Cook County Board",
+      "publisher": "Daily Herald",
+      "url": "https://www.dailyherald.com/20221014/news/maggie-trevor-2022-candidate-for-cook-county-board/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "The O'Hare Flyer — Village of River Forest",
+      "publisher": "Village of River Forest",
+      "url": "https://www.vrf.us/guides/guide/43",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Skokie, IL Sample Ballot 2026: Candidates & Races",
+      "publisher": "The Ballot Brief",
+      "url": "https://theballotbrief.com/state/illinois/skokie-city",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "2026 Cook County Board of Commissioners election - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Spring 2026 Endorsements — Citizen Action/Illinois",
+      "publisher": "Citizen Action/Illinois",
+      "url": "https://citizenaction-il.org/spring26endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Equality Illinois makes 72 pro-equality, pro-family endorsements for 2026 primary election",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/01/15/equality-illinois-makes-72-pro-equality-pro-family-endorsements-for-2026-primary-election/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "2026 local 399 illinois - primary election endorsements",
+      "publisher": "International Union of Operating Engineers Local 399",
+      "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:24:17.012Z",
+    "version": 5
+  }
+}

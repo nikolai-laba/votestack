@@ -1,0 +1,262 @@
+{
+  "key": "michelle-mussman",
+  "electionId": "il-2026-11-03-general",
+  "name": "Michelle Mussman",
+  "party": "Democratic",
+  "office": "State Representative, 56th District",
+  "contestIds": ["cook-clerk:185600"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Michelle Mussman has represented the 56th District since 2011. Her campaign says she belongs to the Schaumburg Business Association and Northwest Alliance on Domestic Violence, and serves on WINGS and Children's Advocacy Center boards. She introduced laws requiring insurers to cover pharmacist-prescribed birth control and mandating state oversight of vocational rehabilitation programs for people with disabilities.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Michelle Mussman has represented the 56th District since 2011.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign says she belongs to the Schaumburg Business Association and Northwest Alliance on Domestic Violence, and serves on WINGS and Children's Advocacy Center boards.",
+            "cites": [2]
+          },
+          {
+            "text": "She introduced laws requiring insurers to cover pharmacist-prescribed birth control and mandating state oversight of vocational rehabilitation programs for people with disabilities.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "She sponsored a House-passed bill requiring schools to ban classroom cell phones by the 2027-28 school year. She also sponsored legislation defining child torture. Her campaign says she sponsored laws creating a Blue Envelope Program and driver's license designations for individuals with autism or intellectual disabilities. In 2026, she said Illinois' tax system is regressive and should be modernized to be fairer.",
+        "cites": [4, 5, 2, 6],
+        "sentences": [
+          {
+            "text": "She sponsored a House-passed bill requiring schools to ban classroom cell phones by the 2027-28 school year.",
+            "cites": [4]
+          },
+          {
+            "text": "She also sponsored legislation defining child torture.",
+            "cites": [5]
+          },
+          {
+            "text": "Her campaign says she sponsored laws creating a Blue Envelope Program and driver's license designations for individuals with autism or intellectual disabilities.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2026, she said Illinois' tax system is regressive and should be modernized to be fairer.",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Michelle Mussman",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=22346",
+        "period": "April 1 to June 30, 2026",
+        "raised": 2775,
+        "cashOnHand": 102848.42,
+        "breakdown": [
+          { "kind": "small", "amount": 25 },
+          { "kind": "large", "amount": 2000 },
+          { "kind": "transfer", "amount": 750 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 13500, "count": 8 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "American Federation of State, County and Municipal Employees (AFSCME)",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Illinois Education Association",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Associated Fire Fighters of Illinois",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Illinois Retired Teachers Association",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Sierra Club Illinois",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [8]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [9] },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "National Association of Social Workers - Illinois Chapter",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Stand for Children IL",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [12]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [13] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [14]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Michelle Mussman (D) - Illinois General Assembly - Member",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/house/members/details/3284",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Rep. Michelle Mussman",
+      "publisher": "Illinois House Democratic Caucus",
+      "url": "https://ilhousedems.com/project/rep-michelle-mussman/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Michelle Mussman - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Michelle_Mussman",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "School cell phone ban, human composting bills among ...",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/school-cell-phone-ban-human-composting-bills-among-hundreds-advancing-in-springfield/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Junk fees, child torture, tipped wage proposals among bills ...",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/junk-fees-child-torture-tipped-wage-proposals-among-bills-to-clear-committee/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Mussman, Read debate immigration, state finances in 56th District House race",
+      "publisher": "Daily Herald",
+      "url": "https://www.dailyherald.com/20261006/news/mussman-read-debate-immigration-state-finances-in-56th-district-house-race/?print",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Michelle Mussman for State Representative",
+      "publisher": "Friends of Michelle Mussman",
+      "url": "https://www.votemichelle.org/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "DuPage County Republicans: Here's who's on your Nov. 3 ballot",
+      "publisher": "DuPage Policy Journal",
+      "url": "https://dupagepolicyjournal.com/dupage-county-republicans-here-s-who-s-on-your-nov-3-ballot",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "NASW-IL Announces Endorsements for 2026 Illinois General Election",
+      "publisher": "National Association of Social Workers, Illinois Chapter",
+      "url": "https://www.naswil.org/post/nasw-il-announces-endorsements-for-2026-illinois-general-election",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "2026 General Elections Endorsements",
+      "publisher": "Stand for Children Illinois PAC",
+      "url": "https://stand.org/illinois/our-stories/2026-general-elections-endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 14
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:16:14.091Z",
+    "version": 6
+  }
+}

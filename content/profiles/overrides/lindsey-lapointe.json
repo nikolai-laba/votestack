@@ -1,0 +1,54 @@
+{
+  "reason": "Three endorsers were merged into one entry (profile review, 2026-10-07)",
+  "endorsements": [
+    {
+      "action": "replace",
+      "organization": "Gun Violence Prevention PAC / Giffords / Brady PAC",
+      "endorsement": {
+        "kind": "organization",
+        "organization": "Gun Violence Prevention PAC"
+      },
+      "sources": [
+        {
+          "title": "Endorsements | Lindsey LaPointe for State Rep",
+          "publisher": "Lindsey LaPointe for State Rep",
+          "url": "https://www.lindseylapointe.com/endorsements/",
+          "kind": "candidate",
+          "viewedAt": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "action": "add",
+      "endorsement": {
+        "kind": "organization",
+        "organization": "Giffords PAC"
+      },
+      "sources": [
+        {
+          "title": "Endorsements | Lindsey LaPointe for State Rep",
+          "publisher": "Lindsey LaPointe for State Rep",
+          "url": "https://www.lindseylapointe.com/endorsements/",
+          "kind": "candidate",
+          "viewedAt": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "action": "add",
+      "endorsement": {
+        "kind": "organization",
+        "organization": "Brady PAC"
+      },
+      "sources": [
+        {
+          "title": "Endorsements | Lindsey LaPointe for State Rep",
+          "publisher": "Lindsey LaPointe for State Rep",
+          "url": "https://www.lindseylapointe.com/endorsements/",
+          "kind": "candidate",
+          "viewedAt": "2026-10-07"
+        }
+      ]
+    }
+  ]
+}

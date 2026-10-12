@@ -1,0 +1,112 @@
+{
+  "key": "brittany-b-kimble",
+  "electionId": "il-2026-11-03-general",
+  "name": "Brittany B. Kimble",
+  "office": "Chicago Board of Education Member, Subdistrict 6B",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-6b"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Brittany B. Kimble is an attorney and chair of the Illinois Employment Security Board of Review, appointed in 2023. She has operated her own criminal defense law practice since 2010 and previously worked for the U.S. Social Security Administration. She is a Chicago Public Schools parent.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Brittany B. Kimble is an attorney and chair of the Illinois Employment Security Board of Review, appointed in 2023.",
+            "cites": [1]
+          },
+          {
+            "text": "She has operated her own criminal defense law practice since 2010 and previously worked for the U.S. Social Security Administration.",
+            "cites": [1]
+          },
+          { "text": "She is a Chicago Public Schools parent.", "cites": [2] }
+        ]
+      },
+      {
+        "text": "She says her top priorities are improving reading and math proficiency and fixing the district’s structural deficit. She has proposed exploring cuts outside the classroom or reducing debt obligations to address the budget. Her campaign supports funding equity across schools. It also calls for increasing transparency and accountability and expanding academic and career programs.",
+        "cites": [3, 2, 1],
+        "sentences": [
+          {
+            "text": "She says her top priorities are improving reading and math proficiency and fixing the district’s structural deficit.",
+            "cites": [3]
+          },
+          {
+            "text": "She has proposed exploring cuts outside the classroom or reducing debt obligations to address the budget.",
+            "cites": [3]
+          },
+          {
+            "text": "Her campaign supports funding equity across schools.",
+            "cites": [2]
+          },
+          {
+            "text": "It also calls for increasing transparency and accountability and expanding academic and career programs.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Citizens to Elect Brittany Kimble",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41134",
+        "period": "July 1 to September 30, 2026",
+        "raised": 12561,
+        "cashOnHand": 6141.56,
+        "breakdown": [
+          { "kind": "small", "amount": 2711 },
+          { "kind": "large", "amount": 9850 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "The Urban Center",
+        "kind": "organization",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Local school board races take shape",
+      "publisher": "Hyde Park Herald",
+      "url": "https://www.hpherald.com/evening_digest/local-school-board-races-take-shape/article_c924f3c1-fa7e-44f0-8d2d-0129512b514c.html",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Chicago School Board District 6B: Candidates & Voter Guide",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/graphics/chicago-school-board-education-voter-guide/school-board/districts/6b/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Chicago school board election 2026 voter guide: District 6b ...",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-election-2026-district-6b-candidates-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:47:24.918Z",
+    "version": 2
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "key": "diane-m-harris",
+  "electionId": "il-2026-11-03-general",
+  "name": "Diane M. Harris",
+  "party": "Republican",
+  "office": "Illinois Secretary of State",
+  "contestIds": ["chicago-boe:secretary-of-state", "cook-clerk:130050"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Diane M. Harris is a retired employee of Commonwealth Edison, where she worked for over 30 years. She served as an IBEW union steward. She runs a small business and serves as a trustee of both Joliet Junior College and the Joliet Public Library.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Diane M. Harris is a retired employee of Commonwealth Edison, where she worked for over 30 years.",
+            "cites": [1]
+          },
+          { "text": "She served as an IBEW union steward.", "cites": [2] },
+          {
+            "text": "She runs a small business and serves as a trustee of both Joliet Junior College and the Joliet Public Library.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign proposes improving customer service at the DMV. She proposes installing self-service kiosks in all 102 counties and deploying mobile units statewide. She says people should not have to make appointments for services that should be available at any time. She wants to cut fees for seniors and veterans and review the office's $885 million budget for waste and fraud. She says drivers should have a choice on whether to use digital licenses.",
+        "cites": [4, 5, 6],
+        "sentences": [
+          {
+            "text": "Her campaign proposes improving customer service at the DMV.",
+            "cites": [4]
+          },
+          {
+            "text": "She proposes installing self-service kiosks in all 102 counties and deploying mobile units statewide.",
+            "cites": [4]
+          },
+          {
+            "text": "She says people should not have to make appointments for services that should be available at any time.",
+            "cites": [5]
+          },
+          {
+            "text": "She wants to cut fees for seniors and veterans and review the office's $885 million budget for waste and fraud.",
+            "cites": [4]
+          },
+          {
+            "text": "She says drivers should have a choice on whether to use digital licenses.",
+            "cites": [6]
+          }
+        ]
+      },
+      {
+        "text": "She supports the federal SAVE Act, which would require proof of citizenship to register to vote. She promises to clean up voter rolls and promote election integrity. She believes the office should follow state laws on license plate readers. She favors driver testing for all age groups. She proposes strengthening cybersecurity to protect personal data.",
+        "cites": [6, 4, 7],
+        "sentences": [
+          {
+            "text": "She supports the federal SAVE Act, which would require proof of citizenship to register to vote.",
+            "cites": [6]
+          },
+          {
+            "text": "She promises to clean up voter rolls and promote election integrity.",
+            "cites": [4]
+          },
+          {
+            "text": "She believes the office should follow state laws on license plate readers.",
+            "cites": [7]
+          },
+          {
+            "text": "She favors driver testing for all age groups.",
+            "cites": [7]
+          },
+          {
+            "text": "She proposes strengthening cybersecurity to protect personal data.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Committee to Elect Diane M Harris for",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=37026",
+        "period": "July 1 to September 30, 2026",
+        "raised": 3420.55,
+        "cashOnHand": 134.3,
+        "breakdown": [
+          { "kind": "small", "amount": 820.55 },
+          { "kind": "large", "amount": 1600 },
+          { "kind": "transfer", "amount": 1000 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Federation of Illinois Young Republicans",
+        "kind": "party",
+        "cites": [8]
+      },
+      {
+        "organization": "Peoria County IL Republican Central Committee",
+        "kind": "party",
+        "cites": [8]
+      },
+      {
+        "organization": "Northfield Township Republican Organization",
+        "kind": "party",
+        "cites": [9]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "2 low-funded Republicans battle to run against Illinois Secretary of State Alexi Giannoulias in the fall",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/03/07/illinois-gop-primary-secretary-state-other-statewides/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Diane Harris — Illinois Secretary of State",
+      "publisher": "Winnebago County Republicans",
+      "url": "https://winnebagogop.com/candidate-diane-harris/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Diane Harris for Illinois Secretary of State",
+      "publisher": "Diane Harris campaign",
+      "url": "https://www.harrisforsos.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "On the Issues - Diane Harris",
+      "publisher": "Diane Harris campaign",
+      "url": "https://www.harrisforsos.com/issues",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Joining the fray: Candidates for governor, Senate lead GOP surge ...",
+      "publisher": "Daily Herald",
+      "url": "https://www.dailyherald.com/20250816/news/joining-the-fray-candidates-for-governor-senate-lead-gop-surge-for-state-offices/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Customer service, streamlined operations, voter ID key issues for ...",
+      "publisher": "Daily Herald",
+      "url": "https://www.dailyherald.com/20260308/news/customer-service-streamlined-operations-voter-id-key-issues-for-republican-secretary-of-state-cand/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "What to know about the Illinois secretary of state race ...",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/10/01/what-to-know-illinois-secretary-of-state-race-alexi-giannoulias-diane-harris",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "News",
+      "publisher": "Diane M Harris",
+      "url": "https://www.harrisforsos.com/news",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Northfield Township Republicans Endorse Dabrowski, Tracy, Harris, Brown",
+      "publisher": "Northfield Township Republican Organization",
+      "url": "https://www.northfieldgop.org/northfield_township_republicans_endorse_dabrowski_tracy_harris_brown",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T21:01:17.181Z",
+    "version": 2
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "key": "nico-tsatsoulis",
+  "electionId": "il-2026-11-03-general",
+  "name": "Nico Tsatsoulis",
+  "party": "Libertarian",
+  "office": "Cook County Assessor",
+  "contestIds": ["chicago-boe:county-assessor", "cook-clerk:210500"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Nico Tsatsoulis is the Libertarian committeeperson for Chicago’s 5th Ward, elected in 2024. His campaign says he has worked in finance, retail, wholesale, and real estate, and he holds an MBA in finance from the University of Chicago. He says he is working to establish a nonprofit organization for equal media access.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Nico Tsatsoulis is the Libertarian committeeperson for Chicago’s 5th Ward, elected in 2024.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he has worked in finance, retail, wholesale, and real estate, and he holds an MBA in finance from the University of Chicago.",
+            "cites": [2]
+          },
+          {
+            "text": "He says he is working to establish a nonprofit organization for equal media access.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "He proposes capping property taxes at 1 percent of a property's purchase price. He wants to base property assessments on a building's sale price and limit annual assessment increases to 2 percent. If a building has not sold in the last 10 years, he wants to use third-party appraisals to determine assessed values. He has said the current tax levy has nothing to do with the actual value of properties and only reflects how much money politicians want to raise.",
+        "cites": [3, 4, 5],
+        "sentences": [
+          {
+            "text": "He proposes capping property taxes at 1 percent of a property's purchase price.",
+            "cites": [3]
+          },
+          {
+            "text": "He wants to base property assessments on a building's sale price and limit annual assessment increases to 2 percent.",
+            "cites": [4]
+          },
+          {
+            "text": "If a building has not sold in the last 10 years, he wants to use third-party appraisals to determine assessed values.",
+            "cites": [4]
+          },
+          {
+            "text": "He has said the current tax levy has nothing to do with the actual value of properties and only reflects how much money politicians want to raise.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": { "asOf": "2026-10-07", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Nico Tsatsoulis",
+      "publisher": "Nico Tsatsoulis campaign",
+      "url": "https://www.nico5thward.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "About",
+      "publisher": "Nico Tsatsoulis campaign",
+      "url": "https://nicotheassessor.com/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Our Plan",
+      "publisher": "Nico Tsatsoulis campaign",
+      "url": "https://nicotheassessor.com/our-plan",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Who is running for Cook County Assessor in the 2026 primary ...",
+      "publisher": "CBS News Chicago",
+      "url": "https://www.cbsnews.com/chicago/news/who-is-running-cook-county-assessor-2026-primary-elections/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Libertarian candidate for Cook County Assessor shares his ...",
+      "publisher": "WGN TV",
+      "url": "https://wgntv.com/news/politics/wgn-the-point-politics-chicago-illinois/libertarian-candidate-for-cook-county-assessor-shares-his-property-tax-plan/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:33:30.941Z",
+    "version": 3
+  }
+}

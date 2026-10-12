@@ -1,0 +1,205 @@
+{
+  "key": "ellen-rosenfeld",
+  "electionId": "il-2026-11-03-general",
+  "name": "Ellen Rosenfeld",
+  "office": "Chicago Board of Education Member, Subdistrict 4B",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-4b"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Ellen Rosenfeld was elected to the Chicago Board of Education in 2024. A former Chicago Public Schools teacher and family engagement specialist, she chaired Bell Elementary’s Local School Council.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Ellen Rosenfeld was elected to the Chicago Board of Education in 2024.",
+            "cites": [1]
+          },
+          {
+            "text": "A former Chicago Public Schools teacher and family engagement specialist, she chaired Bell Elementary’s Local School Council.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "On the board, she approved a 2025-26 budget without high-cost borrowing and opposed a later budget relying on uncertain state money. She voted against absorbing five Acero charter schools into the district. In 2024, she supported an independent audit of district finances, more English learner resources, busing for all students, and the district’s safety plan. She stated all options, including staff furloughs, should be considered to address the district's structural deficit. She declined to sign a pledge for a three-year AI ban, stating it could limit teaching responsible technology use.",
+        "cites": [2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "On the board, she approved a 2025-26 budget without high-cost borrowing and opposed a later budget relying on uncertain state money.",
+            "cites": [2]
+          },
+          {
+            "text": "She voted against absorbing five Acero charter schools into the district.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2024, she supported an independent audit of district finances, more English learner resources, busing for all students, and the district’s safety plan.",
+            "cites": [3]
+          },
+          {
+            "text": "She stated all options, including staff furloughs, should be considered to address the district's structural deficit.",
+            "cites": [4]
+          },
+          {
+            "text": "She declined to sign a pledge for a three-year AI ban, stating it could limit teaching responsible technology use.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Ellen for Education",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39858",
+        "period": "April 1 to June 30, 2026",
+        "raised": 77333,
+        "cashOnHand": 81445.35,
+        "breakdown": [
+          { "kind": "small", "amount": 2875 },
+          { "kind": "large", "amount": 63458 },
+          { "kind": "transfer", "amount": 11000 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 8396.32, "count": 4 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [6]
+      },
+      { "organization": "IUOE Local 150", "kind": "union", "cites": [7] },
+      {
+        "organization": "Common Ground Collective",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "INCS Action PAC",
+        "kind": "organization",
+        "cites": [9]
+      },
+      { "organization": "LEE PAC", "kind": "organization", "cites": [9] },
+      {
+        "organization": "The Urban Center",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [10]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [11] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Ellen Rosenfeld",
+      "publisher": "Chicago Board of Education",
+      "url": "https://www.cpsboe.org/about/bios/2044",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Chicago School Board Election 2026: The race in District 4b, North Side",
+      "publisher": "Chalkbeat Chicago",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-election-2026-district-4b-candidates-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Learn About The 10 Newly-Elected Chicago School Board Members Starting This January",
+      "publisher": "Chicago Parent",
+      "url": "https://www.chicagoparent.com/education/school-issues/chicago-school-board-members/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Chicago school board members voice concern",
+      "publisher": "Chalkbeat Chicago",
+      "url": "https://www.chalkbeat.org/chicago/2026/05/13/chicago-public-schools-board-members-debate-state-funding-resolution/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Majority of Chicago School Board Candidates Back 3-Year Pause on AI",
+      "publisher": "Government Technology",
+      "url": "https://www.govtech.com/education/k-12/majority-of-chicago-school-board-candidates-back-3-year-pause-on-ai",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Elections & Endorsements",
+      "publisher": "SEIU Illinois State Council",
+      "url": "https://seiuilcouncil.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "2026 Chicago Board of Education election",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Chicago_Board_of_Education_election",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Endorsements",
+      "publisher": "Common Ground Collective",
+      "url": "https://cgcollective.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Key education endorsements for CPS School Board candidates",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/education/2026/09/21/key-education-endorsements-for-cps-school-board-candidates",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:44:55.196Z",
+    "version": 4
+  }
+}

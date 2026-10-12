@@ -1,0 +1,225 @@
+{
+  "key": "daniel-didech",
+  "electionId": "il-2026-11-03-general",
+  "name": "Daniel Didech",
+  "party": "Democratic",
+  "office": "State Representative, 59th District",
+  "contestIds": ["cook-clerk:185900"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Daniel Didech is a local government attorney who advises suburban villages, school districts, and park districts. He served as Vernon Township Supervisor from 2017 to 2019, where his campaign says he cut the property tax levy by over 5% while expanding services. He chairs the Illinois House Gaming Committee and was the 2026 House sponsor of the Artificial Intelligence Safety Measures Act.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Daniel Didech is a local government attorney who advises suburban villages, school districts, and park districts.",
+            "cites": [1]
+          },
+          {
+            "text": "He served as Vernon Township Supervisor from 2017 to 2019, where his campaign says he cut the property tax levy by over 5% while expanding services.",
+            "cites": [1]
+          },
+          {
+            "text": "He chairs the Illinois House Gaming Committee and was the 2026 House sponsor of the Artificial Intelligence Safety Measures Act.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "He filed a bill to block municipalities from creating their own sports betting taxes. He sponsored a 2026 law that recognizes gambling disorder as an addiction and expands treatment programs. His campaign says he supports abortion rights, gun violence prevention, and clean energy laws. He sponsored a measure to make plug-in solar panels available to renters.",
+        "cites": [3, 2, 4, 5],
+        "sentences": [
+          {
+            "text": "He filed a bill to block municipalities from creating their own sports betting taxes.",
+            "cites": [3]
+          },
+          {
+            "text": "He sponsored a 2026 law that recognizes gambling disorder as an addiction and expands treatment programs.",
+            "cites": [2]
+          },
+          {
+            "text": "His campaign says he supports abortion rights, gun violence prevention, and clean energy laws.",
+            "cites": [4]
+          },
+          {
+            "text": "He sponsored a measure to make plug-in solar panels available to renters.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Daniel Didech Campaign Committee",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=34241",
+        "period": "April 1 to June 30, 2026",
+        "raised": 17251.71,
+        "cashOnHand": 189762.56,
+        "breakdown": [
+          { "kind": "small", "amount": 26 },
+          { "kind": "large", "amount": 6250 },
+          { "kind": "transfer", "amount": 10600 },
+          { "kind": "other", "amount": 375.71 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 185546.24, "count": 66 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Sierra Club Illinois",
+        "kind": "organization",
+        "cites": [9]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [10] },
+      {
+        "organization": "Illinois Retired Teachers Association Political Action Committee",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [12]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [13] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "About Dan",
+      "publisher": "Daniel Didech campaign",
+      "url": "https://www.repdidech.com/about-dan/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Daniel Didech - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Daniel_Didech",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Sports betting tax becomes battleground between Chicago and state lawmakers",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/sports-betting-tax-becomes-battleground-between-chicago-and-state-lawmakers/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "About Dan - Daniel Didech for State Representative",
+      "publisher": "Daniel Didech campaign",
+      "url": "https://www.danieldidech.com/about-dan/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Lawmakers seek measure to make small-scale plug-in solar panels available to renters",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/lawmakers-seek-measure-to-make-small-scale-plug-in-solar-panels-available-to-renters/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Vote",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "ILLINOIS ENDORSEMENTS",
+      "publisher": "International Union of Operating Engineers Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Endorsements",
+      "publisher": "Planned Parenthood Illinois Action",
+      "url": "https://www.plannedparenthoodaction.org/planned-parenthood-illinois-action/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Politics",
+      "publisher": "Sierra Club Illinois",
+      "url": "https://www.sierraclub.org/illinois/politics",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Retired Teachers Endorse Candidates for Illinois General Assembly",
+      "publisher": "AroundPtown.com",
+      "url": "https://aroundptown.com/retired-teachers-endorse-candidates-for-illinois-general-assembly/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 13
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:17:20.740Z",
+    "version": 6
+  }
+}

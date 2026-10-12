@@ -1,0 +1,234 @@
+{
+  "key": "camille-lilly",
+  "electionId": "il-2026-11-03-general",
+  "name": "Camille Lilly",
+  "party": "Democratic",
+  "office": "State Representative, 78th District",
+  "contestIds": [
+    "chicago-boe:state-representative-78th-district",
+    "cook-clerk:187800"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Camille Y. Lilly is the Assistant Majority Leader in the Illinois House, representing the 78th District since April 2010. She founded the Austin Chamber of Commerce.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Camille Y. Lilly is the Assistant Majority Leader in the Illinois House, representing the 78th District since April 2010.",
+            "cites": [1]
+          },
+          {
+            "text": "She founded the Austin Chamber of Commerce.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "She sponsored a health care reform bill, HB 158, aimed at reducing racial health inequities and expanding medical services. She sponsored a bill, HB 4327, to audit the federal 340B drug pricing program and see how hospitals use the revenue. She sponsored a measure to raise the legal age to buy tobacco products to 21. In 2022, she proposed a bill to end the sub-minimum wage for tipped workers. Her campaign says she supports affordable health care, education, environmental justice, and violence prevention.",
+        "cites": [2, 3, 4, 5, 1],
+        "sentences": [
+          {
+            "text": "She sponsored a health care reform bill, HB 158, aimed at reducing racial health inequities and expanding medical services.",
+            "cites": [2]
+          },
+          {
+            "text": "She sponsored a bill, HB 4327, to audit the federal 340B drug pricing program and see how hospitals use the revenue.",
+            "cites": [3]
+          },
+          {
+            "text": "She sponsored a measure to raise the legal age to buy tobacco products to 21.",
+            "cites": [4]
+          },
+          {
+            "text": "In 2022, she proposed a bill to end the sub-minimum wage for tipped workers.",
+            "cites": [5]
+          },
+          {
+            "text": "Her campaign says she supports affordable health care, education, environmental justice, and violence prevention.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Camille Y Lilly",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=22767",
+        "period": "April 1 to June 30, 2026",
+        "raised": 4513,
+        "cashOnHand": 256047.49,
+        "breakdown": [{ "kind": "transfer", "amount": 4513 }],
+        "largeSince": { "since": "2026-06-30", "total": 27000, "count": 11 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "U.S. Rep. Danny K. Davis",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Illinois Education Association",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 399",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [9]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [7] },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Citizen Action/Illinois",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [11]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [12] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [13]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "LEADER LILLY | State Rep Lilly",
+      "publisher": "staterepcamilleylilly.com",
+      "url": "https://www.staterepcamilleylilly.com/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Health care reform legislation passes state House",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/health-care-reform-legislation-passes-state-house/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Lawmakers at the end of session try to appease both sides in drug pricing controversy",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/lawmakers-at-the-end-of-session-try-to-appease-both-sides-in-drug-pricing-controversy/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Snuffing out cigarette sales to those under 21? Fourth time could be a charm",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/snuffing-out-cigarette-sales-to-those-under-21-fourth-time-could-be-a-charm/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Bill seeks pay raise for tipped workers",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/bill-seeks-pay-raise-for-tipped-workers/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "ENDORSEMENTS - Danny K. Davis",
+      "publisher": "Danny K. Davis",
+      "url": "https://www.dannykdavis.com/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "West Cook Republicans: Here's who's on your Nov. 3 ballot",
+      "publisher": "West Cook News",
+      "url": "https://westcooknews.com/west-cook-republicans-here-s-who-s-on-your-nov-3-ballot",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "2026 local 399 illinois - primary election endorsements",
+      "publisher": "IUOE Local 399",
+      "url": "http://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Endorsements — Citizen Action/Illinois",
+      "publisher": "Citizen Action/Illinois",
+      "url": "https://citizenaction-il.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 13
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:20:02.808Z",
+    "version": 6
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "key": "eric-su",
+  "electionId": "il-2026-11-03-general",
+  "name": "Eric Su",
+  "party": "Republican",
+  "office": "State Representative, 21st District",
+  "contestIds": [
+    "chicago-boe:state-representative-21st-district",
+    "cook-clerk:182100"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Eric Su is a fitness trainer from North Riverside with over 20 years of experience.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Eric Su is a fitness trainer from North Riverside with over 20 years of experience.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "He names health care, education, and property taxes as his top issues. He has proposed a state-matched health savings account program to help low-income families. To lower property taxes, he suggests offering tax discounts to residents who live in their homes for more than a decade. His education plan includes launching \"learn & earn labs\" where public high school students can earn money or credit while working on projects for businesses. His campaign website calls for increasing medical price transparency and expanding access to telehealth and urgent care.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "He names health care, education, and property taxes as his top issues.",
+            "cites": [1]
+          },
+          {
+            "text": "He has proposed a state-matched health savings account program to help low-income families.",
+            "cites": [1]
+          },
+          {
+            "text": "To lower property taxes, he suggests offering tax discounts to residents who live in their homes for more than a decade.",
+            "cites": [1]
+          },
+          {
+            "text": "His education plan includes launching \"learn & earn labs\" where public high school students can earn money or credit while working on projects for businesses.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign website calls for increasing medical price transparency and expanding access to telehealth and urgent care.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "People For Team Su",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40717",
+        "period": "July 1 to September 30, 2026",
+        "raised": 0,
+        "cashOnHand": 37.72,
+        "breakdown": []
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "United Hellenic Voters of America",
+        "kind": "organization",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "North Riversider throws his hat in the ring for state legislature",
+      "publisher": "Riverside Brookfield Landmark",
+      "url": "https://www.rblandmark.com/2025/08/19/eric-su-north-riversider-state-legislature/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Eric Su | Fix What's Broken - IL State Rep. District 21 2026 | Cicero, Berwyn, North Riverside, Riverside, La Grange, Brookfield",
+      "publisher": "Eric Su campaign",
+      "url": "https://www.teamericsu.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Eric Su | Fix What's Broken - IL State Rep. District 21 2026",
+      "publisher": "Eric Su for State Representative",
+      "url": "https://www.teamericsu.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:58:41.927Z",
+    "version": 7
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "key": "kam-buckner",
+  "electionId": "il-2026-11-03-general",
+  "name": "Kam Buckner",
+  "party": "Democratic",
+  "office": "State Representative, 26th District",
+  "contestIds": [
+    "chicago-boe:state-representative-26th-district",
+    "cook-clerk:182600"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Kam Buckner, a Democratic State Representative for Chicago's 26th District since 2019, is Speaker Pro Tempore. He was a vice president at Outfront Media and executive director of World Sport Chicago, a youth development nonprofit.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Kam Buckner, a Democratic State Representative for Chicago's 26th District since 2019, is Speaker Pro Tempore.",
+            "cites": [1]
+          },
+          {
+            "text": "He was a vice president at Outfront Media and executive director of World Sport Chicago, a youth development nonprofit.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "In 2026, laws he backed regulating consumer fees and expanding opportunities for people with records became law. A criminal justice reform bill he sponsored was signed in 2025. He sponsored gun control and collegiate athlete compensation legislation, and helped negotiate the state's clean energy package. He co-sponsored a bill requiring companies to disclose algorithmic pricing and let consumers opt out. He chiefly sponsored a megaprojects bill to convince the Chicago Bears to build an Arlington Heights stadium. He is a top House budget negotiator.",
+        "cites": [2, 3, 4, 5, 6, 1]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Kam Buckner",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=35126",
+        "period": "April 1 to June 30, 2026",
+        "raised": 25083.9,
+        "cashOnHand": 314097.85,
+        "breakdown": [
+          { "kind": "small", "amount": 535 },
+          { "kind": "large", "amount": 7385 },
+          { "kind": "transfer", "amount": 16313 },
+          { "kind": "other", "amount": 850.9 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 137493.39, "count": 55 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "Personal PAC", "kind": "organization", "cites": [7] },
+      {
+        "organization": "Citizen Action/Illinois",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Cook County College Teachers Union",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Better Streets Chicago Action Fund",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [11]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [12] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [13]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Kam Buckner (D) - 104th General Assembly (2025-2026) - ILGA.gov",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/House/Members/Details/3366",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Kambium Buckner - Illinois House Democratic Caucus",
+      "publisher": "Illinois House Democratic Caucus",
+      "url": "https://ilhousedems.com/project/kambium-buckner/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Kam Buckner - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kam_Buckner",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Illinois legislators introduce bills to regulate pricing based on personal data",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/illinois-legislators-introduce-bills-to-regulate-pricing-based-on-personal-data/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Illinois House approves megaprojects bill, but the Bears want changes",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/illinois-house-approves-megaprojects-bill-but-the-bears-want-changes/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Pritzker to present 8th budget as Illinois faces federal funding uncertainty",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/pritzker-to-present-8th-budget-as-illinois-faces-federal-funding-uncertainty/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Endorsements — Citizen Action/Illinois",
+      "publisher": "Citizen Action/Illinois",
+      "url": "https://citizenaction-il.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Endorsements for the March 17, 2026 Primary Election",
+      "publisher": "Cook County College Teachers Union",
+      "url": "https://www.ccctu.org/post/early-endorsements-for-the-march-17-2026-primary-election",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "2026 Endorsements — Better Streets Chicago Action Fund",
+      "publisher": "Better Streets Chicago Action Fund",
+      "url": "https://www.bscactionfund.org/2026-midterms/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 13
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:00:54.057Z",
+    "version": 6
+  }
+}

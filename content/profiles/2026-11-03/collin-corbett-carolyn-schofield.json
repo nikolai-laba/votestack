@@ -1,0 +1,144 @@
+{
+  "key": "collin-corbett-carolyn-schofield",
+  "electionId": "il-2026-11-03-general",
+  "name": "Collin Corbett & Carolyn Schofield",
+  "party": "Independent",
+  "office": "Illinois Governor and Lieutenant Governor",
+  "contestIds": [
+    "chicago-boe:governor-lieutenant-governor",
+    "cook-clerk:130030"
+  ],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Collin Corbett is a campaign consultant who founded Cor Strategies in 2009. He is taking a hiatus from advising campaigns to run for governor as an independent. His running mate, Carolyn Schofield, spent ten years on the McHenry County Board and served on the Crystal Lake City Council. She is president of the McHenry County Mental Health Board and a member of the Chicago Metropolitan Agency for Planning. She was a legislative director in the Illinois Senate until April 2026.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Collin Corbett is a campaign consultant who founded Cor Strategies in 2009.",
+            "cites": [1]
+          },
+          {
+            "text": "He is taking a hiatus from advising campaigns to run for governor as an independent.",
+            "cites": [2]
+          },
+          {
+            "text": "His running mate, Carolyn Schofield, spent ten years on the McHenry County Board and served on the Crystal Lake City Council.",
+            "cites": [1]
+          },
+          {
+            "text": "She is president of the McHenry County Mental Health Board and a member of the Chicago Metropolitan Agency for Planning.",
+            "cites": [2]
+          },
+          {
+            "text": "She was a legislative director in the Illinois Senate until April 2026.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "Corbett supports marriage equality and abortion rights. He supports more gun control measures. He proposes an Illinois tax on services to replace what he calls the state's regressive reliance on sales taxes. His campaign says he is committed to keeping the Chicago Bears in Illinois. His campaign says it is releasing an “Illinois Deserves Better” platform, beginning with a plan to make life more affordable for working families.",
+        "cites": [4, 5, 6],
+        "sentences": [
+          {
+            "text": "Corbett supports marriage equality and abortion rights.",
+            "cites": [4]
+          },
+          { "text": "He supports more gun control measures.", "cites": [4] },
+          {
+            "text": "He proposes an Illinois tax on services to replace what he calls the state's regressive reliance on sales taxes.",
+            "cites": [4]
+          },
+          {
+            "text": "His campaign says he is committed to keeping the Chicago Bears in Illinois.",
+            "cites": [5]
+          },
+          {
+            "text": "His campaign says it is releasing an “Illinois Deserves Better” platform, beginning with a plan to make life more affordable for working families.",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Collin for Illinois",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41172",
+        "period": "May 1 to June 30, 2026",
+        "raised": 558240.36,
+        "cashOnHand": 379163.41,
+        "breakdown": [
+          { "kind": "small", "amount": 1417.67 },
+          { "kind": "large", "amount": 56822.69 },
+          { "kind": "candidate", "amount": 500000 }
+        ],
+        "fromCandidate": 500000,
+        "largeSince": { "since": "2026-06-30", "total": 28791.08, "count": 13 }
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-07", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "DuPage County Republicans: Here's who's on your Nov. 3 ballot",
+      "publisher": "DuPage Policy Journal",
+      "url": "https://dupagepolicyjournal.com/dupage-county-republicans-here-s-who-s-on-your-nov-3-ballot",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Republican-Turned-Independent Collin Corbett Hopes to Provide Voters an Alternative for Governor",
+      "publisher": "WTTW",
+      "url": "https://news.wttw.com/2026/09/22/republican-turned-independent-collin-corbett-hopes-provide-voters-alternative-governor",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Republican-turned-independent Collin Corbett hopes to provide voters an alternative for governor",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/republican-turned-independent-collin-corbett-hopes-to-provide-voters-an-alternative-for-governor/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Who is running for Illinois governor in 2026? Democrat JB ...",
+      "publisher": "CBS Chicago",
+      "url": "https://www.cbsnews.com/chicago/news/who-is-running-for-illinois-governor-2026-pritzker-bailey/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Collin Corbett makes pitch as independent candidate for governor",
+      "publisher": "WAND TV",
+      "url": "https://www.wandtv.com/2026/09/14/collin-corbett-makes-pitch-independent-candidate-governor/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Selected press releases (Live updates)",
+      "publisher": "Collin for Illinois campaign",
+      "url": "https://capitolfax.com/2026/07/08/selected-press-releases-live-updates-465/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:59:35.328Z",
+    "version": 2
+  }
+}

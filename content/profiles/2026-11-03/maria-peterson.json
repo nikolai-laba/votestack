@@ -1,0 +1,378 @@
+{
+  "key": "maria-peterson",
+  "electionId": "il-2026-11-03-general",
+  "name": "Maria Peterson",
+  "party": "Democratic",
+  "office": "State Representative, 52nd District",
+  "contestIds": ["cook-clerk:185200"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Peterson is a retired labor attorney and small business owner who serves as Vice Chair of the Lake County Zoning Board of Appeals. Her campaign says she served as State Elections Lead for Moms Demand Action.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Peterson is a retired labor attorney and small business owner who serves as Vice Chair of the Lake County Zoning Board of Appeals.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign says she served as State Elections Lead for Moms Demand Action.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "In campaign forums, Peterson has called for property tax relief and restructuring the state’s flat income tax into a graduated system. She supports amending the state constitution to codify the right to an abortion. On gun violence, she supports requiring safe storage of firearms. Her campaign says she lobbied for the Protect Illinois Communities Act. Peterson has expressed concern about unsupervised artificial intelligence use in schools and urges regulations developed with experts.",
+        "cites": [3, 4, 1, 2],
+        "sentences": [
+          {
+            "text": "In campaign forums, Peterson has called for property tax relief and restructuring the state’s flat income tax into a graduated system.",
+            "cites": [3]
+          },
+          {
+            "text": "She supports amending the state constitution to codify the right to an abortion.",
+            "cites": [4]
+          },
+          {
+            "text": "On gun violence, she supports requiring safe storage of firearms.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign says she lobbied for the Protect Illinois Communities Act.",
+            "cites": [2]
+          },
+          {
+            "text": "Peterson has expressed concern about unsupervised artificial intelligence use in schools and urges regulations developed with experts.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Maria for 52",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=34354",
+        "period": "April 1 to June 30, 2026",
+        "raised": 54002.26,
+        "cashOnHand": 86659.03,
+        "breakdown": [
+          { "kind": "small", "amount": 6015.26 },
+          { "kind": "large", "amount": 45837 },
+          { "kind": "transfer", "amount": 2150 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 419943.72, "count": 50 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "U.S. Rep. Jesus “Chuy” Garcia",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Former IL Governor Pat Quinn",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "State Sen. Omar Aquino",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "State Rep. Matt Hanson",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "State Rep. Suzanne Ness",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Lake County Board Chair Sandy Hart",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Lake County Clerk Anthony Vega",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Lake County Sheriff John Idleburg",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Lake County State's Attorney Eric Rinehart",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Lake County Board Member Carissa Casbon",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Lake County Board Member Marah Altenberg",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Lake County Board Member Paul Frank",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Kane County Board Member Chris Kious",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Highland Park Mayor Nancy Rotering",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Barrington Township Supervisor D. Robert Alberding",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Barrington Township Trustee Dan LeTourneau",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Barrington Township Trustee John J. Langan",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Barrington Township Trustee Michael J. Deering",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Barrington Township Trustee Vince Deligio",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Barrington Trustee Brian Prigge",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Barrington Trustee Todd Sholeen",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Wauconda Trustee Tim Howe",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Wheeling Township Trustee Sheri Williams",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Barrington Area Library Trustee Carrie Carr",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Barrington Area Library Trustee Jennifer Lucas",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Barrington Area Library Trustee Lindsay Prigge",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Barrington Area Library Trustee Rachel Forsyth-Tuerck",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "College of Lake County Trustee Allena Barbato",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "College of Lake County, and Warren-Newport Library Trustee Celeste Flores",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Fremont District 79 School Board Member Pam Shaw",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Fremont District 79 School Board Member Shawn Killackey",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Township District 214 School Board Member Mary Kay Baldino",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [5] },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Center for Freethought Equality PAC",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "College Democrats of Illinois",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Illinois Education Association",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Better Streets Chicago Action Fund",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Lake Dem Women",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [10] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [11]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "2026 Election Questionnaire: Maria Peterson, State Representative, 52nd District",
+      "publisher": "Shaw Local (Northwest Herald)",
+      "url": "https://www.shawlocal.com/northwest-herald/2026/02/03/2026-election-questionnaire-maria-peterson-state-representative-52nd-district/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Meet Candidate | Maria for 52",
+      "publisher": "Maria for 52",
+      "url": "https://www.mariafor52.com/meet-candidate/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "State House District 52 candidates debate taxes, budget and AI",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/10/01/state-house-district-52/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Issues",
+      "publisher": "Maria for 52",
+      "url": "https://www.mariafor52.com/issues",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements | Maria for 52",
+      "publisher": "Maria for 52",
+      "url": "https://www.mariafor52.com/endorsements/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Lake County Republicans: Here's who's on your Nov. 3 ballot",
+      "publisher": "Lake County Gazette",
+      "url": "https://lakecountygazette.com/lake-county-republicans-here-s-who-s-on-your-nov-3-ballot",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "2026 General Election Endorsed Candidates",
+      "publisher": "Lake Dem Women",
+      "url": "https://www.lakedemwomen.org/2026-endorsed-candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:13:11.651Z",
+    "version": 6
+  }
+}

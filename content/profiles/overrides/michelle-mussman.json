@@ -1,0 +1,30 @@
+{
+  "reason": "Garbled union name; dropped gun-safety PAC endorsements not on the cited page (profile review, 2026-10-07)",
+  "endorsements": [
+    {
+      "action": "replace",
+      "organization": "Laborers International Union of N. America (national, state & local)",
+      "endorsement": {
+        "kind": "union",
+        "organization": "Laborers' International Union of North America"
+      },
+      "sources": [
+        {
+          "title": "Michelle Mussman - General Assembly, District 56",
+          "publisher": "iVoterGuide",
+          "url": "https://ivoterguide.com/candidate/23463/race/29701/election/1443",
+          "kind": "reference",
+          "viewedAt": "2026-10-07"
+        }
+      ]
+    },
+    {
+      "action": "remove",
+      "organization": "GIFFORDS PAC"
+    },
+    {
+      "action": "remove",
+      "organization": "Gun Violence Prevention PAC (G-PAC) Illinois"
+    }
+  ]
+}

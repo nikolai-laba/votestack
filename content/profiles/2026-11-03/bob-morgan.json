@@ -1,0 +1,233 @@
+{
+  "key": "bob-morgan",
+  "electionId": "il-2026-11-03-general",
+  "name": "Bob Morgan",
+  "party": "Democratic",
+  "office": "State Representative, 58th District",
+  "contestIds": ["cook-clerk:185800"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Bob Morgan was first elected to represent the 58th District in 2018. He serves as Assistant Majority Leader and is a health care attorney. Previously, as General Counsel for the Illinois Department of Public Health, he helped implement the Affordable Care Act and medical cannabis program. He chairs the Health Care Licenses and Healthcare AI committees. After the Highland Park shooting, he helped pass Illinois' assault weapons ban.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Bob Morgan was first elected to represent the 58th District in 2018.",
+            "cites": [1]
+          },
+          {
+            "text": "He serves as Assistant Majority Leader and is a health care attorney.",
+            "cites": [2]
+          },
+          {
+            "text": "Previously, as General Counsel for the Illinois Department of Public Health, he helped implement the Affordable Care Act and medical cannabis program.",
+            "cites": [2]
+          },
+          {
+            "text": "He chairs the Health Care Licenses and Healthcare AI committees.",
+            "cites": [3]
+          },
+          {
+            "text": "After the Highland Park shooting, he helped pass Illinois' assault weapons ban.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "He sponsored a junk fee ban. He sponsored bills restricting AI in online therapy and requiring human review of AI insurance decisions. His campaign says he expanded medical cannabis access. His campaign says he passed a pension COLA buyout saving an estimated $2 billion and established a vaccine advisory body.",
+        "cites": [4, 5, 6, 7],
+        "sentences": [
+          { "text": "He sponsored a junk fee ban.", "cites": [4] },
+          {
+            "text": "He sponsored bills restricting AI in online therapy and requiring human review of AI insurance decisions.",
+            "cites": [5]
+          },
+          {
+            "text": "His campaign says he expanded medical cannabis access.",
+            "cites": [6]
+          },
+          {
+            "text": "His campaign says he passed a pension COLA buyout saving an estimated $2 billion and established a vaccine advisory body.",
+            "cites": [7]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Bob Morgan",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=32872",
+        "period": "April 1 to June 30, 2026",
+        "raised": 53885.1,
+        "cashOnHand": 55581.71,
+        "breakdown": [
+          { "kind": "small", "amount": 385 },
+          { "kind": "large", "amount": 8000 },
+          { "kind": "transfer", "amount": 44500 },
+          { "kind": "other", "amount": 1000.1 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 121500, "count": 58 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Sierra Club Illinois",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [12]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [13] },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [14] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Detail Page",
+      "publisher": "Council of State Governments",
+      "url": "http://www.ciclt.net/sn/leg_app/po_detail.aspx?ClientCode=gsba&P_IDEO=ilsh058",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Bob Morgan (D) - Illinois General Assembly - Member",
+      "publisher": "Illinois General Assembly",
+      "url": "https://ilga.gov/house/members/details/3353",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "About",
+      "publisher": "State Representative Bob Morgan",
+      "url": "https://repbobmorgan.com/about/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Illinois House approves ban on junk fees, Pritzker's ...",
+      "publisher": "NPR Illinois",
+      "url": "https://www.nprillinois.org/government-politics/2026-04-13/illinois-house-approves-ban-on-junk-fees-pritzkers-abortion-fund-proposal",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Democratic lawmaker grows concerned with use of AI in ...",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/democratic-lawmaker-grows-concerned-with-use-of-ai-in-health-care/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Rep. Morgan Highlights Major Legislative Victories and ...",
+      "publisher": "State Representative Bob Morgan",
+      "url": "https://repbobmorgan.com/representative-morgan-highlights-major-legislative-victories-and-budget-investments-following-conclusion-of-spring-session/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Legislation",
+      "publisher": "State Representative Bob Morgan",
+      "url": "https://repbobmorgan.com/legislation/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Meet our 2026 Endorsed Candidates!",
+      "publisher": "Sierra Club Illinois",
+      "url": "https://www.sierraclub.org/illinois/endorsed-candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Equality Illinois makes 72 pro-equality, pro-family endorsements for 2026 primary election",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/01/15/equality-illinois-makes-72-pro-equality-pro-family-endorsements-for-2026-primary-election/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 14
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:17:17.332Z",
+    "version": 7
+  }
+}

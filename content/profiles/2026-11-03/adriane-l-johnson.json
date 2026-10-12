@@ -1,0 +1,214 @@
+{
+  "key": "adriane-l-johnson",
+  "electionId": "il-2026-11-03-general",
+  "name": "Adriane L. Johnson",
+  "party": "Democratic",
+  "office": "State Senator, 30th District",
+  "contestIds": ["cook-clerk:173002"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "State Senator Adriane Johnson was appointed in 2020 and chairs the Local Government Committee. She previously led the Buffalo Grove Park District Board and Buffalo Grove-Lincolnshire Chamber of Commerce.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "State Senator Adriane Johnson was appointed in 2020 and chairs the Local Government Committee.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously led the Buffalo Grove Park District Board and Buffalo Grove-Lincolnshire Chamber of Commerce.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "She sponsored a law classifying electronic tracking, doxing and nonconsensual digitally altered sexual images as harassment under the Illinois Domestic Violence Act. Other laws she sponsored allow a menopause course to count toward implicit bias training for health care professionals, and require school head coaches to learn CPR. She introduced bills to fund school mental health services, ban food waste and limit rent security deposits. She sponsored legislation to protect medical privacy by excluding certain patients' prescriptions from a state program. She is on a state homelessness prevention task force.",
+        "cites": [3, 4, 5, 6, 7],
+        "sentences": [
+          {
+            "text": "She sponsored a law classifying electronic tracking, doxing and nonconsensual digitally altered sexual images as harassment under the Illinois Domestic Violence Act.",
+            "cites": [3]
+          },
+          {
+            "text": "Other laws she sponsored allow a menopause course to count toward implicit bias training for health care professionals, and require school head coaches to learn CPR.",
+            "cites": [4]
+          },
+          {
+            "text": "She introduced bills to fund school mental health services, ban food waste and limit rent security deposits.",
+            "cites": [5]
+          },
+          {
+            "text": "She sponsored legislation to protect medical privacy by excluding certain patients' prescriptions from a state program.",
+            "cites": [6]
+          },
+          {
+            "text": "She is on a state homelessness prevention task force.",
+            "cites": [7]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Adriane Johnson",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=36278",
+        "period": "April 1 to June 30, 2026",
+        "raised": 18355,
+        "cashOnHand": 108948.41,
+        "breakdown": [
+          { "kind": "small", "amount": 355 },
+          { "kind": "large", "amount": 6750 },
+          { "kind": "transfer", "amount": 11250 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 62000, "count": 38 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Citizen Action/Illinois",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 399",
+        "kind": "union",
+        "cites": [11]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [12] },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [13] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Detail Page",
+      "publisher": "Illinois General Assembly",
+      "url": "http://www.ciclt.net/sn/leg_app/po_detail.aspx?ClientCode=slt&P_IDEO=ilss30",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "About – Senator Adriane Johnson",
+      "publisher": "Adriane Johnson campaign",
+      "url": "https://adrianejohnsonforil.com/about/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Pritzker Signs Bill Expanding Domestic Violence Survivor Protections",
+      "publisher": "Patch",
+      "url": "https://patch.com/illinois/buffalogrove/pritzker-signs-buffalo-grove-senators-bill-expanding-domestic-violence",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Illinois State Senator Adriane Johnson",
+      "publisher": "Senator Adriane Johnson official site",
+      "url": "https://www.senatoradrianejohnson.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Adriane Johnson (D) - 104th General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://ilga.gov/House/Members/Details/3378",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Senate committee passes bill to protect prescription info for ...",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/senate-committee-passes-bill-to-protect-prescription-info-for-trans-abortion-patients/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Housing funding cut in Illinois budget as homelessness ...",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/housing-funding-cut-in-illinois-budget-as-homelessness-increases/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Endorsements",
+      "publisher": "Citizen Action/Illinois",
+      "url": "https://citizenaction-il.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "ILLINOIS ENDORSEMENTS",
+      "publisher": "International Union of Operating Engineers Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "2026 LOCAL 399 ILLINOIS PRIMARY ELECTION ENDORSEMENTS",
+      "publisher": "International Union of Operating Engineers Local 399",
+      "url": "http://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 13
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:54:16.578Z",
+    "version": 3
+  }
+}

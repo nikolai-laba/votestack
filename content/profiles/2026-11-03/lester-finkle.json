@@ -1,0 +1,186 @@
+{
+  "key": "lester-finkle",
+  "electionId": "il-2026-11-03-general",
+  "name": "Lester Finkle",
+  "party": "Democratic",
+  "office": "Circuit Court Judge, 8th Subcircuit (Vacancy of Mikva)",
+  "contestIds": [
+    "chicago-boe:judge-8th-subcircuit-vacancy-of-mikva",
+    "cook-clerk:340820:vacancy-of-mikva"
+  ],
+  "kind": "judicial_candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Appointed to the Cook County Circuit Court in May 2025, Lester Finkle serves in the Domestic Violence Division. He was an assistant public defender from 1984 to 2021, presenting more than 50 oral arguments before the Illinois Supreme and Appellate courts. He practiced appellate law at Quintairos, Prieto, Wood & Boyer from 2022 to 2025. Since 1997, he has taught at the University of Illinois Chicago School of Law.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Appointed to the Cook County Circuit Court in May 2025, Lester Finkle serves in the Domestic Violence Division.",
+            "cites": [1]
+          },
+          {
+            "text": "He was an assistant public defender from 1984 to 2021, presenting more than 50 oral arguments before the Illinois Supreme and Appellate courts.",
+            "cites": [2]
+          },
+          {
+            "text": "He practiced appellate law at Quintairos, Prieto, Wood & Boyer from 2022 to 2025.",
+            "cites": [1]
+          },
+          {
+            "text": "Since 1997, he has taught at the University of Illinois Chicago School of Law.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Citizens for Judge Lester Finkle",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40666",
+        "period": "April 1 to June 30, 2026",
+        "raised": 0,
+        "cashOnHand": 3837.79,
+        "breakdown": []
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "Personal PAC", "kind": "organization", "cites": [3] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Chicago Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [4]
+      },
+      {
+        "organization": "Chicago Council of Lawyers",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [5]
+      },
+      {
+        "organization": "Illinois State Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [6]
+      },
+      {
+        "organization": "Alliance of Bar Associations for Judicial Screening",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "tally": {
+          "members": 11,
+          "ratings": [
+            { "rating": "Recommended", "count": 7 },
+            { "rating": "Qualified", "count": 2 },
+            { "rating": "Highly Recommended", "count": 1 }
+          ],
+          "notEvaluated": 1
+        },
+        "cites": [7]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Hon. Lester W. Finkle - Office of the State Appellate Defender",
+      "publisher": "Office of the State Appellate Defender",
+      "url": "https://osad.illinois.gov/aboutus/commissioners/lesterfinkle.html",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Illinois Supreme Court Appoints Lester Finkle as Judge in 8th Subcircuit of Cook County",
+      "publisher": "Illinois State Bar Association",
+      "url": "https://www.isba.org/barnews/2025/05/illinoissupremecourtappointslesterfinkleasjudgein8",
+      "kind": "bar",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Vote Smart: CBA Judicial Voter's Guide, General Election, November 3, 2026",
+      "publisher": "Chicago Bar Association",
+      "url": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 4
+    },
+    {
+      "title": "Evaluation Report: Judges on the Ballot in the November 3, 2026 General Election",
+      "publisher": "Chicago Council of Lawyers",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/CCL-Judicial-Evaluation-Report-for-Nov-3-2026-General-Election_Ballot-Order.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 5
+    },
+    {
+      "title": "2026 General Election, Cook County Judicial Evaluations",
+      "publisher": "Illinois State Bar Association",
+      "url": "https://www.isba.org/judicial-elections/counties/cook",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 6
+    },
+    {
+      "title": "Alliance of Bar Associations for Judicial Screening, 2026 General Election ratings",
+      "publisher": "Alliance of Bar Associations for Judicial Screening",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/2026-Alliance-General-Ballot-Ratings-09252026.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 7
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 8
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:31:45.578Z",
+    "version": 6
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "key": "miranda-e-hernandez",
+  "electionId": "il-2026-11-03-general",
+  "name": "Miranda E. Hernandez",
+  "party": "Democratic",
+  "office": "Cook County Commissioner, 16th District",
+  "contestIds": [
+    "chicago-boe:county-commissioner-16th-district",
+    "cook-clerk:221600"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Miranda E. Hernandez works in the Criminal Appeals Division of the Cook County State’s Attorney’s Office. She previously served as deputy director of legislative affairs there, counsel to the U.S. Senate Judiciary Committee, and a political appointee at the U.S. Department of Justice. She holds a J.D. and M.B.A. from Northern Illinois University. Her campaign’s top priorities are improving quality of life and maternal health outcomes, funding law enforcement and public safety, and ensuring fairness in property tax appeals. Her campaign says she advanced state legislation to strengthen protections for sexual assault and domestic violence survivors, and a bill allowing first-time, non-violent gun offenders to apply for a FOID card after completing a court-approved diversion program.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Miranda E. Hernandez works in the Criminal Appeals Division of the Cook County State’s Attorney’s Office.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously served as deputy director of legislative affairs there, counsel to the U.S. Senate Judiciary Committee, and a political appointee at the U.S. Department of Justice.",
+            "cites": [1]
+          },
+          {
+            "text": "She holds a J.D. and M.B.A. from Northern Illinois University.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign’s top priorities are improving quality of life and maternal health outcomes, funding law enforcement and public safety, and ensuring fairness in property tax appeals.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign says she advanced state legislation to strengthen protections for sexual assault and domestic violence survivors, and a bill allowing first-time, non-violent gun offenders to apply for a FOID card after completing a court-approved diversion program.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Miranda Hernandez",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40923",
+        "period": "April 1 to June 30, 2026",
+        "raised": 23895,
+        "cashOnHand": 33295.96,
+        "breakdown": [
+          { "kind": "small", "amount": 230 },
+          { "kind": "large", "amount": 19650 },
+          { "kind": "transfer", "amount": 4000 },
+          { "kind": "other", "amount": 15 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 1000, "count": 1 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "U.S. Sen. Cory Booker",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [3]
+      },
+      {
+        "organization": "State Rep. Emanuel \"Chris\" Welch",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Former State Sen. Steven Landek",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Former State Rep. Mike Zalewski",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Cicero Town President Larry Dominick",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Countryside Mayor Sean McDermott",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Franklin Park Mayor Barrett Pedersen",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Melrose Park Mayor Ron Serpico",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Northlake Mayor Jeff Sherwin",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Stickney Mayor Jeff Walik",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 399",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Meet Miranda",
+      "publisher": "Miranda Hernandez campaign",
+      "url": "https://mirandaforcookcounty.org/about-miranda/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Policy Priorities – Miranda Hernandez for Cook County Board",
+      "publisher": "Miranda Hernandez campaign",
+      "url": "https://mirandaforcookcounty.org/policy-priorities/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Hernandez takes narrow win in race for Cook County board",
+      "publisher": "Riverside-Brookfield Landmark",
+      "url": "https://www.rblandmark.com/2026/03/24/hernandez-wins-race-for-cook-county-board/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Endorsements – Miranda Hernandez for Cook County Board",
+      "publisher": "Miranda Hernandez for Cook County Board",
+      "url": "https://mirandaforcookcounty.org/endorsements/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Family ties, bruising politics in race for county board",
+      "publisher": "Riverside-Brookfield Landmark",
+      "url": "https://www.rblandmark.com/2026/03/10/cook-county-4th-district-race/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "2026 local 399 illinois - primary election endorsements",
+      "publisher": "International Union of Operating Engineers Local 399",
+      "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 8
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:17:55.704Z",
+    "version": 4
+  }
+}

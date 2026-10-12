@@ -1,0 +1,111 @@
+{
+  "key": "brad-sandefur",
+  "electionId": "il-2026-11-03-general",
+  "name": "Brad Sandefur",
+  "party": "Libertarian",
+  "office": "Cook County Sheriff",
+  "contestIds": ["chicago-boe:county-sheriff", "cook-clerk:210300"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Brad Sandefur is a sergeant with the Cook County Sheriff’s Office. His campaign says he has worked for the office since 1990, serving as a correctional officer, police officer, tactical officer, investigator, academy instructor, and shift commander. His campaign also says he is a former U.S. Marine and holds a master’s degree in criminal justice with a forensic psychology focus.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Brad Sandefur is a sergeant with the Cook County Sheriff’s Office.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he has worked for the office since 1990, serving as a correctional officer, police officer, tactical officer, investigator, academy instructor, and shift commander.",
+            "cites": [2]
+          },
+          {
+            "text": "His campaign also says he is a former U.S. Marine and holds a master’s degree in criminal justice with a forensic psychology focus.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "His campaign website lists three top priorities: modifying the SAFE-T Act and pretrial policy to strengthen public-safety safeguards for repeat offenders, expanding mental health and addiction diversion programs as alternatives to incarceration, and strengthening deputy training and operational readiness.",
+        "cites": [3],
+        "sentences": [
+          {
+            "text": "His campaign website lists three top priorities: modifying the SAFE-T Act and pretrial policy to strengthen public-safety safeguards for repeat offenders, expanding mental health and addiction diversion programs as alternatives to incarceration, and strengthening deputy training and operational readiness.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Sandefur for Sheriff",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=37056",
+        "period": "April 1 to June 30, 2026",
+        "raised": 1365.64,
+        "cashOnHand": 1014.76,
+        "breakdown": [
+          { "kind": "small", "amount": 161.99 },
+          { "kind": "candidate", "amount": 1203.65 }
+        ],
+        "fromCandidate": 1203.65
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Independence Party of Illinois",
+        "kind": "party",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Brad Sandefur seeks Cook County sheriff as Libertarian",
+      "publisher": "North Shore Weekly",
+      "url": "https://northshoreweekly.com/articles/brad-sandefur-seeks-cook-county-sheriff-as-libertarian-muvlsudx",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Brad Sandefur 2026: Cook County Sheriff | The Ballot Brief",
+      "publisher": "The Ballot Brief",
+      "url": "https://theballotbrief.com/candidate/brad-sandefur-il",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Cook County Sheriff 2026: Thomas J. Dart vs. Brad Sandefur",
+      "publisher": "The Ballot Brief",
+      "url": "https://theballotbrief.com/state/illinois/cook-county/sheriff",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Brad Sandefur seeks Cook County sheriff post as Libertarian",
+      "publisher": "La Grange Daily",
+      "url": "https://lagrangedaily.com/articles/brad-sandefur-seeks-cook-county-sheriff-post-as-libertarian-muvlrj77",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:41:51.945Z",
+    "version": 3
+  }
+}

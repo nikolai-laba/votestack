@@ -1,0 +1,202 @@
+{
+  "key": "angel-gutierrez",
+  "electionId": "il-2026-11-03-general",
+  "name": "Angel Gutierrez",
+  "office": "Chicago Board of Education Member, Subdistrict 8A",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-8a"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Angel Gutierrez serves on the Chicago Board of Education, having won his seat in 2024. He is deputy director of institutional advancement at Enlace Chicago and previously led fundraising at Chicago Hope Academy and Catholic Charities. During his 2024 campaign, Gutierrez supported expanding school options like selective enrollment, charter, magnet, and trade schools. He wants to improve special education and school bus access. In 2024, he called for a forensic analysis of district expenses to move more money into classrooms. His priorities include reimagining career pathways, addressing $16 billion in deferred maintenance, tackling chronic absenteeism, and managing declining enrollment. He supports Illinois opting into a federal tax-credit scholarship program.",
+        "cites": [1, 2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "Angel Gutierrez serves on the Chicago Board of Education, having won his seat in 2024.",
+            "cites": [1]
+          },
+          {
+            "text": "He is deputy director of institutional advancement at Enlace Chicago and previously led fundraising at Chicago Hope Academy and Catholic Charities.",
+            "cites": [2]
+          },
+          {
+            "text": "During his 2024 campaign, Gutierrez supported expanding school options like selective enrollment, charter, magnet, and trade schools.",
+            "cites": [3]
+          },
+          {
+            "text": "He wants to improve special education and school bus access.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2024, he called for a forensic analysis of district expenses to move more money into classrooms.",
+            "cites": [4]
+          },
+          {
+            "text": "His priorities include reimagining career pathways, addressing $16 billion in deferred maintenance, tackling chronic absenteeism, and managing declining enrollment.",
+            "cites": [5]
+          },
+          {
+            "text": "He supports Illinois opting into a federal tax-credit scholarship program.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends for Angel Gutierrez",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39873",
+        "period": "April 1 to June 30, 2026",
+        "raised": 36875,
+        "cashOnHand": 45932.03,
+        "breakdown": [
+          { "kind": "small", "amount": 1875 },
+          { "kind": "large", "amount": 33500 },
+          { "kind": "transfer", "amount": 1500 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 9500, "count": 2 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Common Ground Collective",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "INCS Action PAC",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "The Urban Center",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [10]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [11] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Chicago school board election 2026 voter guide: District 8a",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-election-2026-district-8a-candidate-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Angel Gutierrez",
+      "publisher": "Chicago Public Schools Board of Education",
+      "url": "https://www.cpsboe.org/about/bios/2041",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "COAL Chicago Board of Ed Member - Candidate Questionnaire 2024",
+      "publisher": "Angel Gutierrez campaign",
+      "url": "https://govstrategicsolutions.com/wp-content/uploads/2024/08/Angel-G-COAL-Chicago-Board-of-Ed-Member-Candidate-Questionnaire.pdf",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Election 2024: Here’s who won Chicago’s first school board elections",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2024/11/05/school-board-election-results-2024/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Gutierrez pushes 4-part overhaul as CPS enters fully ...",
+      "publisher": "Southwest Regional Publishing",
+      "url": "https://southwestregionalpublishing.com/2026/09/30/gutierrez-pushes-4-part-overhaul-as-cps-enters-fully-elected-board-era/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Elections & Endorsements",
+      "publisher": "SEIU Illinois State Council",
+      "url": "https://seiuilcouncil.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements",
+      "publisher": "Common Ground Collective",
+      "url": "https://cgcollective.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Key education endorsements for CPS School Board candidates",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/education/2026/09/21/key-education-endorsements-for-cps-school-board-candidates",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:48:29.885Z",
+    "version": 4
+  }
+}

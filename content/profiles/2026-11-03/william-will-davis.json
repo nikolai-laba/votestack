@@ -1,0 +1,173 @@
+{
+  "key": "william-will-davis",
+  "electionId": "il-2026-11-03-general",
+  "name": "William \"Will\" Davis",
+  "party": "Democratic",
+  "office": "State Representative, 30th District",
+  "contestIds": ["cook-clerk:183000"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "William \"Will\" Davis has represented the 30th District in the Illinois House since January 2003. He previously served as deputy district administrator for Congressman Jesse L. Jackson Jr. and holds a master's degree in public administration. His official biography lists education funding, increased health care availability, and economic development as top legislative priorities.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "William \"Will\" Davis has represented the 30th District in the Illinois House since January 2003.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously served as deputy district administrator for Congressman Jesse L. Jackson Jr. and holds a master's degree in public administration.",
+            "cites": [2]
+          },
+          {
+            "text": "His official biography lists education funding, increased health care availability, and economic development as top legislative priorities.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "He was the chief House sponsor of SB1947, the Evidence-Based Funding model for school funding reform. In 2022, he advanced House Bill 4217 to increase supplier diversity in wind and solar projects. He sponsored a 2019 bill to create a more thorough hospital closure process.",
+        "cites": [3, 4, 5],
+        "sentences": [
+          {
+            "text": "He was the chief House sponsor of SB1947, the Evidence-Based Funding model for school funding reform.",
+            "cites": [3]
+          },
+          {
+            "text": "In 2022, he advanced House Bill 4217 to increase supplier diversity in wind and solar projects.",
+            "cites": [4]
+          },
+          {
+            "text": "He sponsored a 2019 bill to create a more thorough hospital closure process.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "William Davis for State Representative",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=16392",
+        "period": "April 1 to June 30, 2026",
+        "raised": 3237.48,
+        "cashOnHand": 64534.43,
+        "breakdown": [
+          { "kind": "small", "amount": 150 },
+          { "kind": "large", "amount": 2087.48 },
+          { "kind": "transfer", "amount": 1000 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 34200, "count": 16 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [6]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [6] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [8] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [9]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "William \"Will\" Davis (D) - 104th General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/house/members/details/3266",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Commissioners (BFR)",
+      "publisher": "Illinois Budgeting for Results Commission",
+      "url": "https://budget.illinois.gov/bfr-commissioners.html",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Meet the Commissioners",
+      "publisher": "Illinois Guardianship and Advocacy Commission",
+      "url": "https://gac.illinois.gov/aboutus/meet-the-commissioners.html",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Bill focuses on increasing supplier diversity in wind and solar projects",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/bill-focuses-on-increasing-supplier-diversity-in-wind-and-solar-projects/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "House OKs more thorough closure process for Illinois hospitals",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/house-oks-more-thorough-closure-process-for-illinois-hospitals/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Election 2026",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 7
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 8
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:45:13.052Z",
+    "version": 5
+  }
+}

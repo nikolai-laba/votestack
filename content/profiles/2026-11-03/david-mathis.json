@@ -1,0 +1,129 @@
+{
+  "key": "david-mathis",
+  "electionId": "il-2026-11-03-general",
+  "name": "David Mathis",
+  "party": "Republican",
+  "office": "State Senator, 27th District",
+  "contestIds": ["cook-clerk:172702"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "David Mathis is a retired Marine Corps and Army National Guard veteran who served for 23 years. He previously worked as a police officer for the Elgin Police Department and currently works in security.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "David Mathis is a retired Marine Corps and Army National Guard veteran who served for 23 years.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously worked as a police officer for the Elgin Police Department and currently works in security.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "He pledges to oppose tax hikes and support fiscal responsibility. He proposes repealing the state grocery tax and ending the annual gas tax increase. He supports the Invest in Kids Scholarship Program for low-income students and wants to improve recruitment and retention of law enforcement officers.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "He pledges to oppose tax hikes and support fiscal responsibility.",
+            "cites": [1]
+          },
+          {
+            "text": "He proposes repealing the state grocery tax and ending the annual gas tax increase.",
+            "cites": [2]
+          },
+          {
+            "text": "He supports the Invest in Kids Scholarship Program for low-income students and wants to improve recruitment and retention of law enforcement officers.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Citizens for David Mathis",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40810",
+        "period": "April 1 to June 30, 2026",
+        "raised": 0,
+        "cashOnHand": 438.53,
+        "breakdown": []
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Flips Red",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "United Hellenic Voters of America",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Republicans of Wheeling Township",
+        "kind": "party",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Decorated Arlington Heights Veteran Running For IL State Senate",
+      "publisher": "Patch",
+      "url": "https://patch.com/illinois/arlingtonheights/decorated-arlington-heights-veteran-running-il-state-senate",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "David Mathis | BallotReady",
+      "publisher": "BallotReady",
+      "url": "https://www.ballotready.org/people/david-mathis-52d9bbc2-37cb-4576-b2ff-2c284ef49bad",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "David Mathis Proudly Accepts Endorsement from Chicago Flips Red",
+      "publisher": "David Mathis for State Senate",
+      "url": "https://citizensfordavidmathis.com/endorsed-by-chicago-flips-red/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "United Hellenic Voters of America (UHVA) Endorses David Mathis",
+      "publisher": "David Mathis for State Senate",
+      "url": "https://citizensfordavidmathis.com/uhva-endorses-david-mathis/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Candidates | ROWT",
+      "publisher": "Republicans of Wheeling Township",
+      "url": "https://www.rowtgop.org/candidates/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:53:09.846Z",
+    "version": 2
+  }
+}

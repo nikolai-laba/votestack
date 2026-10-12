@@ -1,0 +1,88 @@
+{
+  "key": "christine-mcgovern",
+  "electionId": "il-2026-11-03-general",
+  "name": "Christine McGovern",
+  "party": "Republican",
+  "office": "State Senator, 18th District",
+  "contestIds": [
+    "chicago-boe:state-senator-18th-district",
+    "cook-clerk:171802"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Christine McGovern is a real estate small business owner who has lived in the Southland area for 29 years. She previously served on the Local School Council for the Annie Keller Gifted School. Her campaign says she initiated \"Back the Blue\" in Chicago and organized a \"Reopen Illinois\" team supporting local businesses. McGovern supports fiscal responsibility and a balanced budget.",
+        "cites": [1]
+      },
+      {
+        "text": "Her campaign says she supports legislation providing better health care to seniors, veterans and people with mental illnesses, as well as youth programs to address the drug crisis and crime.",
+        "cites": [2],
+        "sentences": [
+          {
+            "text": "Her campaign says she supports legislation providing better health care to seniors, veterans and people with mental illnesses, as well as youth programs to address the drug crisis and crime.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Illinois Family Action",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Chicago Flips Red",
+        "kind": "organization",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Christine McGovern for Illinois State Senate District 18",
+      "publisher": "Christine McGovern for Illinois State Senate",
+      "url": "https://www.shanahanmcgovern.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Meet Christine",
+      "publisher": "Christine McGovern for Illinois State Senate",
+      "url": "https://www.shanahanmcgovern.com/meet_christine",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "IFA’s 2026 General Election Endorsements",
+      "publisher": "Illinois Family Action",
+      "url": "https://illinoisfamilyaction.org/2026/09/ifas-2026-general-election-endorsements-2/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Our Candidates",
+      "publisher": "Chicago Flips Red",
+      "url": "https://www.flipsred.com/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:25:20.404Z",
+    "version": 4
+  }
+}

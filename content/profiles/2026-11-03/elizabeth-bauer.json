@@ -1,0 +1,132 @@
+{
+  "key": "elizabeth-bauer",
+  "electionId": "il-2026-11-03-general",
+  "name": "Elizabeth Bauer",
+  "party": "Republican",
+  "office": "State Representative, 53rd District",
+  "contestIds": ["cook-clerk:185300"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Elizabeth Bauer is an actuary who has worked in pension consulting and healthcare. She holds a master’s in applied economics from the University of Illinois at Chicago and has written about retirement for Forbes. She says the state is dangerously dependent on revenue from gambling and cannabis sales. She has criticized capping prescription drug prices and using public funds for medical care for immigrants here illegally. She supports fiscal responsibility, organic job growth, fair tax policies, and public safety. She opposed a $300 million bond referendum for Township High School District 214. She argued a payment-in-lieu-of-taxes bill for a Chicago Bears stadium would shift too much risk onto local homeowners and businesses.",
+        "cites": [1, 2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "Elizabeth Bauer is an actuary who has worked in pension consulting and healthcare.",
+            "cites": [1]
+          },
+          {
+            "text": "She holds a master’s in applied economics from the University of Illinois at Chicago and has written about retirement for Forbes.",
+            "cites": [1]
+          },
+          {
+            "text": "She says the state is dangerously dependent on revenue from gambling and cannabis sales.",
+            "cites": [2]
+          },
+          {
+            "text": "She has criticized capping prescription drug prices and using public funds for medical care for immigrants here illegally.",
+            "cites": [2]
+          },
+          {
+            "text": "She supports fiscal responsibility, organic job growth, fair tax policies, and public safety.",
+            "cites": [3]
+          },
+          {
+            "text": "She opposed a $300 million bond referendum for Township High School District 214.",
+            "cites": [4]
+          },
+          {
+            "text": "She argued a payment-in-lieu-of-taxes bill for a Chicago Bears stadium would shift too much risk onto local homeowners and businesses.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Citizens for Elizabeth Bauer",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40884",
+        "period": "April 1 to June 30, 2026",
+        "raised": 2333,
+        "cashOnHand": 4523.57,
+        "breakdown": [
+          { "kind": "small", "amount": 1383 },
+          { "kind": "large", "amount": 950 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Republicans of Wheeling Township",
+        "kind": "party",
+        "cites": [6]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "About - Vote Elizabeth Bauer",
+      "publisher": "Vote Elizabeth Bauer",
+      "url": "https://www.bauerfor53.com/about/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Wilmette's Dabrowski preparing gubernatorial campaign - Daily Herald",
+      "publisher": "Daily Herald",
+      "url": "https://www.dailyherald.com/20250902/illinois-state-politics/wilmettes-dabrowski-preparing-gubernatorial-campaign/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Elizabeth Bauer — actuary and Forbes senior contributor, candidate for Illinois House District 53",
+      "publisher": "Vote Elizabeth Bauer",
+      "url": "https://www.bauerfor53.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Blog - Vote Elizabeth Bauer",
+      "publisher": "Vote Elizabeth Bauer",
+      "url": "https://www.bauerfor53.com/blog/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Would tax break for the Bears mean tax hike for homeowners?",
+      "publisher": "Daily Herald",
+      "url": "https://www.dailyherald.com/20260125/news/would-tax-break-for-the-bears-mean-tax-hike-for-homeowners/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Candidates | ROWT",
+      "publisher": "Republicans of Wheeling Township",
+      "url": "https://www.rowtgop.org/candidates/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:13:48.005Z",
+    "version": 5
+  }
+}

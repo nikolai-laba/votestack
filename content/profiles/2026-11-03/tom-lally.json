@@ -1,0 +1,56 @@
+{
+  "key": "tom-lally",
+  "electionId": "il-2026-11-03-general",
+  "name": "Tom Lally",
+  "party": "Republican",
+  "office": "State Senator, 9th District",
+  "contestIds": ["chicago-boe:state-senator-9th-district", "cook-clerk:170902"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Tom Lally is a retired insurance and sales worker.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Tom Lally is a retired insurance and sales worker.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "Niles Township GOP", "kind": "party", "cites": [2] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Evanston's 2026 midterm ballot guide: Every race in the ...",
+      "publisher": "Evanston Roundtable",
+      "url": "https://evanstonroundtable.com/2026/09/30/2026-midterm-ballot-guide-english/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Endorsements 2026 GOP primary - Niles Township GOP",
+      "publisher": "Niles Township GOP",
+      "url": "https://www.ntgop.org/endorsements_2026_gop_primary",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:56:57.283Z",
+    "version": 3
+  }
+}

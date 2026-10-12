@@ -1,0 +1,400 @@
+{
+  "key": "graciela-guzman",
+  "electionId": "il-2026-11-03-general",
+  "name": "Graciela Guzman",
+  "party": "Democratic",
+  "office": "State Senator, 20th District",
+  "contestIds": [
+    "chicago-boe:state-senator-20th-district",
+    "cook-clerk:172002"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Graciela Guzman has been the State Senator for the 20th District since 2025. She previously worked as an organizer for the Chicago Teachers Union and the Healthy Illinois campaign. She also served as chief of staff to Senator Cristina Pacione-Zayas. Her campaign says she helped form the Belmont Cragin Mutual Aid hub during the pandemic.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Graciela Guzman has been the State Senator for the 20th District since 2025.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously worked as an organizer for the Chicago Teachers Union and the Healthy Illinois campaign.",
+            "cites": [1]
+          },
+          {
+            "text": "She also served as chief of staff to Senator Cristina Pacione-Zayas.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign says she helped form the Belmont Cragin Mutual Aid hub during the pandemic.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "She supports a single-payer health care system and a graduated income tax. She also supports lifting the ban on rent control. Guzman opposed a $144 million Peoples Gas rate hike. She sponsored a bill to require full funding of the Evidence-Based School Funding formula. Her bill setting sanitation standards on construction sites became law.",
+        "cites": [3, 4, 5, 6],
+        "sentences": [
+          {
+            "text": "She supports a single-payer health care system and a graduated income tax.",
+            "cites": [3]
+          },
+          {
+            "text": "She also supports lifting the ban on rent control.",
+            "cites": [3]
+          },
+          {
+            "text": "Guzman opposed a $144 million Peoples Gas rate hike.",
+            "cites": [4]
+          },
+          {
+            "text": "She sponsored a bill to require full funding of the Evidence-Based School Funding formula.",
+            "cites": [5]
+          },
+          {
+            "text": "Her bill setting sanitation standards on construction sites became law.",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Gente for Graciela Guzman",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39473",
+        "period": "April 1 to June 30, 2026",
+        "raised": 1125,
+        "cashOnHand": 42416.88,
+        "breakdown": [
+          { "kind": "small", "amount": 625 },
+          { "kind": "large", "amount": 500 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 25088.7, "count": 14 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "U.S. Sen. Bernie Sanders",
+        "kind": "elected_official",
+        "party": "Independent",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Delia Ramirez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Rep. Will Guzzardi",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Rep. Jamie Andrade",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Rep. Lilian Jimenez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Cook County Board President Toni Preckwinkle",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Cook County Commissioner Josina Morita",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Cook County Commissioner Anthony Quezada",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Metropolitan Water Reclamation District Commissioner Eira Corral-Sepulveda",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Alderman Daniel La Spata",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Alderman Jessie Fuentes",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Alderman Ruth Cruz",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Alderman Rossana Rodríguez Sánchez",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Alderman Carlos Ramirez Rosa",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Alderman Andre Vasquez",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Alderman Matt Martin",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Alderman Leni Manaa-Hoppenworth",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "United Working Families",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Cook County College Teachers Union Local 1600",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "Better Streets Chicago Action Fund",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "33rd Ward Working Families",
+        "kind": "organization",
+        "cites": [13]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [7] },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "AFSCME PEOPLE", "kind": "union", "cites": [7] },
+      { "organization": "Sierra Club", "kind": "organization", "cites": [7] },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Citizen Action Illinois",
+        "kind": "organization",
+        "cites": [7]
+      },
+      { "organization": "Giffords PAC", "kind": "organization", "cites": [7] },
+      {
+        "organization": "Gun Violence Prevention PAC",
+        "kind": "organization",
+        "cites": [7]
+      },
+      { "organization": "Illinois NOW", "kind": "organization", "cites": [7] },
+      {
+        "organization": "Illinois Alliance for Retired Americans",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Teachers Union Local 1",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "Teamsters Local 700", "kind": "union", "cites": [7] },
+      {
+        "organization": "Sunrise Movement Chicago",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "IVI Independent Political Organization",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Indivisible Chicago Alliance",
+        "kind": "organization",
+        "cites": [7]
+      },
+      { "organization": "Mijente", "kind": "organization", "cites": [7] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [14]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [15] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Illinois General Assembly - Member",
+      "publisher": "Illinois General Assembly",
+      "url": "https://ilga.gov/Senate/Members/Details/3442?GAID",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Meet Graciela | Graciela Guzmán for 20th",
+      "publisher": "Graciela Guzmán for 20th",
+      "url": "https://gracielafor20.org/meet-graciela/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Graciela Guzmán for 20th",
+      "publisher": "Graciela Guzmán for 20th",
+      "url": "https://gracielafor20.org/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Judge to rule on Peoples Gas' $144 million rate hike proposal",
+      "publisher": "CBS Chicago",
+      "url": "https://www.cbsnews.com/chicago/news/judge-to-rule-peoples-rate-hike-proposal/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Illinois lawmakers question progress under Evidence-Based Funding for public education",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/illinois-lawmakers-question-progress-under-evidence-based-funding-for-public-education/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Illinois State Senator Graciela Guzmán",
+      "publisher": "Illinois State Senator Graciela Guzmán",
+      "url": "https://www.senatorguzman.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements | Graciela Guzmán for 20th",
+      "publisher": "Graciela Guzmán for 20th",
+      "url": "https://gracielafor20.org/endorsements/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Equality Illinois makes 72 pro-equality, pro-family endorsements for 2026 primary election",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/01/15/equality-illinois-makes-72-pro-equality-pro-family-endorsements-for-2026-primary-election/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "2026 Endorsements — United Working Families",
+      "publisher": "United Working Families",
+      "url": "https://unitedworkingfamilies.org/2026-endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "ILLINOIS ENDORSEMENTS",
+      "publisher": "International Union of Operating Engineers Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Endorsements for the March 17, 2026 Primary Election - Ccctu",
+      "publisher": "Cook County College Teachers Union",
+      "url": "https://www.ccctu.org/post/early-endorsements-for-the-march-17-2026-primary-election",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 12,
+      "title": "2026 Endorsements — Better Streets Chicago Action Fund",
+      "publisher": "Better Streets Chicago Action Fund",
+      "url": "https://www.bscactionfund.org/2026-midterms/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 13,
+      "title": "2026 Primary Endorsements - 33rd Ward Working Families",
+      "publisher": "33rd Ward Working Families",
+      "url": "https://www.workingfamilies33.org/2026-primary-endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 15
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:49:55.756Z",
+    "version": 3
+  }
+}

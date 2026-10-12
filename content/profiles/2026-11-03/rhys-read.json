@@ -1,0 +1,63 @@
+{
+  "key": "rhys-read",
+  "electionId": "il-2026-11-03-general",
+  "name": "Rhys Read",
+  "party": "Republican",
+  "office": "State Representative, 56th District",
+  "contestIds": ["cook-clerk:185600"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Rhys Read is a certified public accountant from Des Plaines who served nine years as a Des Plaines Library trustee. He says the state must work with federal agencies to remove people who are here illegally, citing billions in costs. He supports increasing paths for legal immigration. On state finances, he proposes reducing spending and fighting fraud. He points to a $140 billion unfunded pension liability and calls current pensions unsustainable. He says taxes would become more progressive if the state lowered spending and raised the personal exemption.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Rhys Read is a certified public accountant from Des Plaines who served nine years as a Des Plaines Library trustee.",
+            "cites": [1]
+          },
+          {
+            "text": "He says the state must work with federal agencies to remove people who are here illegally, citing billions in costs.",
+            "cites": [1]
+          },
+          {
+            "text": "He supports increasing paths for legal immigration.",
+            "cites": [1]
+          },
+          {
+            "text": "On state finances, he proposes reducing spending and fighting fraud.",
+            "cites": [1]
+          },
+          {
+            "text": "He points to a $140 billion unfunded pension liability and calls current pensions unsustainable.",
+            "cites": [1]
+          },
+          {
+            "text": "He says taxes would become more progressive if the state lowered spending and raised the personal exemption.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": { "asOf": "2026-10-07", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Mussman, Read debate immigration, state finances in 56th District House race",
+      "publisher": "Daily Herald",
+      "url": "https://www.dailyherald.com/20261006/news/mussman-read-debate-immigration-state-finances-in-56th-district-house-race/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:16:18.810Z",
+    "version": 5
+  }
+}

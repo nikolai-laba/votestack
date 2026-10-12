@@ -1,0 +1,138 @@
+{
+  "key": "whitfield-harrington-jr",
+  "electionId": "il-2026-11-03-general",
+  "name": "Whitfield Harrington Jr",
+  "party": "American Center Party",
+  "office": "U.S. Senator",
+  "contestIds": ["chicago-boe:united-states-senator", "cook-clerk:120100"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Whitfield Harrington Jr. says a new party is needed to steer politics toward the center. He earned a political science degree, worked in banking and insurance, and ran his own insurance practice. He also serves as a pastor.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Whitfield Harrington Jr. says a new party is needed to steer politics toward the center.",
+            "cites": [1]
+          },
+          {
+            "text": "He earned a political science degree, worked in banking and insurance, and ran his own insurance practice.",
+            "cites": [2]
+          },
+          { "text": "He also serves as a pastor.", "cites": [2] }
+        ]
+      },
+      {
+        "text": "He says his top legislative priority is lowering the cost of living. He proposes a temporary ban on oil commodity speculators to deliver short-term relief at the pump. He calls for expanding domestic oil and gas production to reduce costs in the near term, while investing in renewable energy for the future. His economic plan includes wage-matching unemployment benefits, a 24-to-72-hour scheduling rule for part-time workers, and directing tariff revenue to district-level job-creation grants.",
+        "cites": [3, 2],
+        "sentences": [
+          {
+            "text": "He says his top legislative priority is lowering the cost of living.",
+            "cites": [3]
+          },
+          {
+            "text": "He proposes a temporary ban on oil commodity speculators to deliver short-term relief at the pump.",
+            "cites": [3]
+          },
+          {
+            "text": "He calls for expanding domestic oil and gas production to reduce costs in the near term, while investing in renewable energy for the future.",
+            "cites": [2]
+          },
+          {
+            "text": "His economic plan includes wage-matching unemployment benefits, a 24-to-72-hour scheduling rule for part-time workers, and directing tariff revenue to district-level job-creation grants.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "On healthcare, he proposes expanding direct primary care, where patients pay a monthly fee for unlimited visits without insurance company involvement. His campaign suggests providing grants, loan forgiveness, and responsible financing to help doctors open independent practices. He argues that European allies should assume more responsibility for Ukraine's security and that military deployments must have a defined mission, cost, and exit strategy approved by Congress.",
+        "cites": [2, 4, 5],
+        "sentences": [
+          {
+            "text": "On healthcare, he proposes expanding direct primary care, where patients pay a monthly fee for unlimited visits without insurance company involvement.",
+            "cites": [2]
+          },
+          {
+            "text": "His campaign suggests providing grants, loan forgiveness, and responsible financing to help doctors open independent practices.",
+            "cites": [4]
+          },
+          {
+            "text": "He argues that European allies should assume more responsibility for Ukraine's security and that military deployments must have a defined mission, cost, and exit strategy approved by Congress.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Friends of Whitfield Harrington",
+        "url": "https://www.fec.gov/data/committee/C00931428/?cycle=2026",
+        "period": "January 1 to June 30, 2026",
+        "raised": 100702.4,
+        "cashOnHand": 3751.41,
+        "breakdown": [
+          { "kind": "small", "amount": 11358 },
+          { "kind": "large", "amount": 22595 },
+          { "kind": "candidate", "amount": 66749.4 }
+        ],
+        "fromCandidate": 66749.4
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-07", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "What to know about the U.S. Senate race to replace Sen. Dick Durbin",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/10/01/what-to-know-us-senate-race-juliana-stratton-don-tracy-dick-durbin",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Whitfield Harrington Jr.",
+      "publisher": "smarter.vote",
+      "url": "https://smarter.vote/races/il-senate-2026/whitfield-harrington-jr/",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Illinois Senate candidate outlines middle-ground platform",
+      "publisher": "The Intelligencer",
+      "url": "https://www.theintelligencer.com/news/article/illinois-senate-whitfield-harrington-center-party-22459586.php",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Whitfield Harrington for U.S. Senate | Renovate the American Dream",
+      "publisher": "Whitfield Harrington for U.S. Senate",
+      "url": "https://whit4ilsenate.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Illinois U.S. Senate 2026: CIVPAC Endorses Juliana Stratton",
+      "publisher": "Centrist Independent Voter",
+      "url": "https://centristindependentvoter.com/civpac-endorses-juliana-stratton-for-u-s-senate-from-illinois/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T21:02:46.665Z",
+    "version": 2
+  }
+}

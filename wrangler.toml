@@ -1,0 +1,27 @@
+name = "votestack"
+main = "worker/index.ts"
+compatibility_date = "2026-09-01"
+
+# The site is served only on its custom domain (votestack.org), so search
+# engines and visitors see one address; the workers.dev URL stays off.
+workers_dev = false
+preview_urls = false
+
+# The built React app (dist/) is served as static assets. Unknown paths fall
+# back to index.html so client-side routes work. Only /api/* runs the Worker.
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+run_worker_first = ["/api/*"]
+
+# Rate limit for error reports (POST /api/report): 5 per minute per
+# reader. The key is a hash of the IP address, which is never stored.
+# namespace_id is any number unique within the Cloudflare account.
+[[ratelimits]]
+name = "REPORT_LIMITER"
+namespace_id = "1001"
+
+  [ratelimits.simple]
+  limit = 5
+  period = 60

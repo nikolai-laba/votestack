@@ -1,0 +1,75 @@
+{
+  "key": "michael-l-karner",
+  "electionId": "il-2026-11-03-general",
+  "name": "Michael L. Karner",
+  "party": "Democratic",
+  "office": "Regional Superintendent of Schools, Lake County",
+  "contestIds": ["cook-clerk:243000"],
+  "kind": "candidate",
+  "tier": "short",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Appointed in 2021 and elected in 2022, Lake County Regional Superintendent of Schools Michael Karner secured $18 million in grants. He previously served as a Regional Safe School Program principal and taught math, Spanish and ELL. After the Illinois Virtual School shut down in 2021, he secured grants to relaunch it. He says over 25,000 people have used ReferralGPS, a mental health service his office implemented.",
+        "cites": [1, 2, 3, 5]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "Lake County Democrats", "kind": "party", "cites": [4] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Regional superintendent, Fortune Brands honored at Lake County Partners' Big Event",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2025/05/02/lake-county-partners/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Beyond the Curriculum 2025 - Virtual Event",
+      "publisher": "Government Technology",
+      "url": "https://events.govtech.com/Beyond-the-Curriculum-2025-Virtual-Event",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Michael Karner - GovTech",
+      "publisher": "Government Technology",
+      "url": "https://www.govtech.com/top-25/michael-karner",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "2026 Candidates - Lake County Democrats",
+      "publisher": "Lake County Democrats",
+      "url": "https://lakedems.org/2026-candidates/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "University of Illinois System and IVSA launch partnership to expand virtual learning across Illinois",
+      "publisher": "University of Illinois System",
+      "url": "https://news.uillinois.edu/view/7815/1682635758",
+      "viewedAt": "2026-10-07",
+      "kind": "official",
+      "id": 5
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:39:12.057Z",
+    "version": 5
+  }
+}

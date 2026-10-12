@@ -1,0 +1,22 @@
+{
+  "reason": "Misspelled endorser name (profile review, 2026-10-07)",
+  "endorsements": [
+    {
+      "action": "replace",
+      "organization": "Cook County Commissioner John P. Daly",
+      "endorsement": {
+        "kind": "elected_official",
+        "organization": "Cook County Commissioner John P. Daley"
+      },
+      "sources": [
+        {
+          "title": "Home - Paid for By Friends of George Cardenas",
+          "publisher": "George Cardenas campaign",
+          "url": "https://www.georgecardenas.com/",
+          "kind": "candidate",
+          "viewedAt": "2026-10-07"
+        }
+      ]
+    }
+  ]
+}

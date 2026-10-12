@@ -1,0 +1,138 @@
+{
+  "key": "brian-skala",
+  "electionId": "il-2026-11-03-general",
+  "name": "Brian Skala",
+  "party": "Republican",
+  "office": "State Senator, 14th District",
+  "contestIds": [
+    "chicago-boe:state-senator-14th-district",
+    "cook-clerk:171402"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Brian Skala is a Crestwood village trustee and a Local 130 plumber. He supports organized labor and fair wages. He wants to reduce property taxes and lower utility bills. He also supports holding criminals accountable. His campaign says that during his time as trustee, Crestwood has maintained a balanced budget and returned 100% of its portion of real estate taxes to homeowners through a tax rebate.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Brian Skala is a Crestwood village trustee and a Local 130 plumber.",
+            "cites": [1]
+          },
+          {
+            "text": "He supports organized labor and fair wages.",
+            "cites": [2]
+          },
+          {
+            "text": "He wants to reduce property taxes and lower utility bills.",
+            "cites": [3]
+          },
+          {
+            "text": "He also supports holding criminals accountable.",
+            "cites": [3]
+          },
+          {
+            "text": "His campaign says that during his time as trustee, Crestwood has maintained a balanced budget and returned 100% of its portion of real estate taxes to homeowners through a tax rebate.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Skala for Illinois",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41006",
+        "period": "April 1 to June 30, 2026",
+        "raised": 1008.2,
+        "cashOnHand": 18065.7,
+        "breakdown": [
+          { "kind": "small", "amount": 508.2 },
+          { "kind": "large", "amount": 500 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 12003.69, "count": 4 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Illinois Education Association",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "Senate Republican Victory Fund",
+        "kind": "party",
+        "cites": [5]
+      },
+      {
+        "organization": "Illinois Family Action",
+        "kind": "organization",
+        "cites": [6]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Brian Skala's Profile",
+      "publisher": "Illinois Senate Republican Victory Fund",
+      "url": "https://www.isrvf.com/55784",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Skala for Illinois",
+      "publisher": "Skala for Illinois",
+      "url": "https://skalaforillinois.com",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Brian Skala",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Brian_Skala",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "South Cook Republicans: Here's who's on your Nov. 3 ballot",
+      "publisher": "South Cook News",
+      "url": "https://southcooknews.com/south-cook-republicans-here-s-who-s-on-your-nov-3-ballot",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Our 2026 Candidates",
+      "publisher": "Senate Republican Victory Fund",
+      "url": "https://www.isrvf.com/our_2026_candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "IFA’s 2026 General Election Endorsements",
+      "publisher": "Illinois Family Action",
+      "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:48:14.812Z",
+    "version": 4
+  }
+}

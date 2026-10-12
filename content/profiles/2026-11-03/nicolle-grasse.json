@@ -1,0 +1,224 @@
+{
+  "key": "nicolle-grasse",
+  "electionId": "il-2026-11-03-general",
+  "name": "Nicolle Grasse",
+  "party": "Democratic",
+  "office": "State Representative, 53rd District",
+  "contestIds": ["cook-clerk:185300"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Nicolle Grasse has represented the 53rd District since June 2024. She previously served as an Arlington Heights village trustee. Her campaign says she has worked as a hospice chaplain for over three decades.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Nicolle Grasse has represented the 53rd District since June 2024.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously served as an Arlington Heights village trustee.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign says she has worked as a hospice chaplain for over three decades.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "She has sponsored a law concerning hospice and palliative care in the Department of Corrections. Her caucus says she supported a budget focused on affordability. She sponsored a resolution opposing federal healthcare cuts. Her campaign lists priorities of affordable healthcare access, reproductive rights, gun reform, and improving the state's fiscal health. She identified a lack of affordable housing and limited public transportation as the district's most pressing issue.",
+        "cites": [1, 3, 4, 2, 5],
+        "sentences": [
+          {
+            "text": "She has sponsored a law concerning hospice and palliative care in the Department of Corrections.",
+            "cites": [1]
+          },
+          {
+            "text": "Her caucus says she supported a budget focused on affordability.",
+            "cites": [3]
+          },
+          {
+            "text": "She sponsored a resolution opposing federal healthcare cuts.",
+            "cites": [4]
+          },
+          {
+            "text": "Her campaign lists priorities of affordable healthcare access, reproductive rights, gun reform, and improving the state's fiscal health.",
+            "cites": [2]
+          },
+          {
+            "text": "She identified a lack of affordable housing and limited public transportation as the district's most pressing issue.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Nicolle Grasse for State Representative",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39885",
+        "period": "April 1 to June 30, 2026",
+        "raised": 8277,
+        "cashOnHand": 232394.93,
+        "breakdown": [
+          { "kind": "small", "amount": 402 },
+          { "kind": "large", "amount": 1500 },
+          { "kind": "transfer", "amount": 6375 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 141809.28, "count": 26 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [6] },
+      {
+        "organization": "Citizen Action/Illinois",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [9]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [10] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [11]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [12] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [13]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Member - Illinois General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://my.ilga.gov/Senate/Members/Details/3450",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Meet Nicolle — State Representative Nicolle Grasse",
+      "publisher": "State Representative Nicolle Grasse campaign",
+      "url": "https://www.staterepgrasse.com/meet-nicolle",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Rep. Nicolle S. Grasse",
+      "publisher": "Illinois House Democratic Caucus",
+      "url": "https://ilhousedems.com/project/rep-nicolle-s-grasse/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Member Details",
+      "publisher": "Illinois General Assembly",
+      "url": "https://ilga.gov/House/Members/Details/3450?Primary=True",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Nicolle Grasse, Illinois House 53rd District",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/candidate-questionnaires/nicolle-grasse-illinois-house-53rd-district",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "2026 ENDORSEMENTS",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements — Citizen Action/Illinois",
+      "publisher": "Citizen Action/Illinois",
+      "url": "https://www.citizenaction-il.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "2026 Primary Election – Equality Illinois",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-primary-election/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 13
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:47:07.236Z",
+    "version": 8
+  }
+}

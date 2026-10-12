@@ -1,0 +1,184 @@
+{
+  "key": "ann-m-williams",
+  "electionId": "il-2026-11-03-general",
+  "name": "Ann M. Williams",
+  "party": "Democratic",
+  "office": "State Representative, 11th District",
+  "contestIds": [
+    "chicago-boe:state-representative-11th-district",
+    "cook-clerk:181100"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Ann M. Williams has represented the 11th District in the Illinois House since 2011 and serves as Assistant Majority Leader. She is an attorney and previously worked as an Assistant Attorney General and Legislative Director for Attorney General Lisa Madigan. She chairs the Illinois Green Caucus and the House Executive Committee.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Ann M. Williams has represented the 11th District in the Illinois House since 2011 and serves as Assistant Majority Leader.",
+            "cites": [1]
+          },
+          {
+            "text": "She is an attorney and previously worked as an Assistant Attorney General and Legislative Director for Attorney General Lisa Madigan.",
+            "cites": [2]
+          },
+          {
+            "text": "She chairs the Illinois Green Caucus and the House Executive Committee.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "She says directing more revenue to the evidence-based funding formula for schools is a priority. Her campaign says the 2025 budget increased education and healthcare funding without raising property, income, or sales taxes. Bills she sponsored that became law include measures on work transparency in confidentiality agreements, electronic monitoring, and a community reinvestment fund.",
+        "cites": [4, 5, 1],
+        "sentences": [
+          {
+            "text": "She says directing more revenue to the evidence-based funding formula for schools is a priority.",
+            "cites": [4]
+          },
+          {
+            "text": "Her campaign says the 2025 budget increased education and healthcare funding without raising property, income, or sales taxes.",
+            "cites": [5]
+          },
+          {
+            "text": "Bills she sponsored that became law include measures on work transparency in confidentiality agreements, electronic monitoring, and a community reinvestment fund.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Ann M Williams",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=22331",
+        "period": "April 1 to June 30, 2026",
+        "raised": 9201.82,
+        "cashOnHand": 318305.16,
+        "breakdown": [
+          { "kind": "large", "amount": 7500 },
+          { "kind": "transfer", "amount": 500 },
+          { "kind": "other", "amount": 1201.82 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 136133.08, "count": 62 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [8] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [10] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Ann M. Williams (D) - 104th General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/house/members/details/3286",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Official government website of the Illinois General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://ilga.gov/Senate/Members/Details/3286",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Rep. Ann Williams",
+      "publisher": "Illinois House Democrats",
+      "url": "https://ilhousedems.com/project/rep-ann-williams/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Welch 'committed' to more funding for Chicago Public ...",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/welch-committed-to-more-funding-for-chicago-public-schools-and-the-school-board-is-banking-on-it/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Rep. Williams' End of Session Update",
+      "publisher": "Ann M. Williams campaign",
+      "url": "https://www.repannwilliams.com/rep-williams-end-of-session-update/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "2026 Illinois Primary Election Endorsements",
+      "publisher": "Planned Parenthood Illinois Action",
+      "url": "https://www.plannedparenthoodaction.org/planned-parenthood-illinois-action/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 7
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 8
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:53:19.556Z",
+    "version": 7
+  }
+}

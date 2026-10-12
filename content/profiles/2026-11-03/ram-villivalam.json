@@ -1,0 +1,219 @@
+{
+  "key": "ram-villivalam",
+  "electionId": "il-2026-11-03-general",
+  "name": "Ram Villivalam",
+  "party": "Democratic",
+  "office": "State Senator, 8th District",
+  "contestIds": ["chicago-boe:state-senator-8th-district", "cook-clerk:170802"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Ram Villivalam has represented the 8th District since 2019 and is Majority Caucus Whip. He previously was a legislative coordinator for SEIU Healthcare and outreach director for U.S. Rep. Brad Schneider. He chairs the Transportation Committee.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Ram Villivalam has represented the 8th District since 2019 and is Majority Caucus Whip.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously was a legislative coordinator for SEIU Healthcare and outreach director for U.S. Rep. Brad Schneider.",
+            "cites": [1]
+          },
+          { "text": "He chairs the Transportation Committee.", "cites": [2] }
+        ]
+      },
+      {
+        "text": "He sponsored a transit funding plan to raise $1.5 billion and avoid 40% service cuts in the Chicago area. He sponsored a law setting speed and age regulations for electric bikes and scooters. He proposed the POWER Act to set environmental regulations for hyperscale data centers. He sponsored a bill raising the mandatory annual driving test age from 79 to 87. His campaign highlights laws he supported allowing rideshare drivers to unionize and requiring transparency on PFAS chemicals in wastewater.",
+        "cites": [3, 4, 5, 6, 7],
+        "sentences": [
+          {
+            "text": "He sponsored a transit funding plan to raise $1.5 billion and avoid 40% service cuts in the Chicago area.",
+            "cites": [3]
+          },
+          {
+            "text": "He sponsored a law setting speed and age regulations for electric bikes and scooters.",
+            "cites": [4]
+          },
+          {
+            "text": "He proposed the POWER Act to set environmental regulations for hyperscale data centers.",
+            "cites": [5]
+          },
+          {
+            "text": "He sponsored a bill raising the mandatory annual driving test age from 79 to 87.",
+            "cites": [6]
+          },
+          {
+            "text": "His campaign highlights laws he supported allowing rideshare drivers to unionize and requiring transparency on PFAS chemicals in wastewater.",
+            "cites": [7]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Ram",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=34224",
+        "period": "April 1 to June 30, 2026",
+        "raised": 100400,
+        "cashOnHand": 531074.42,
+        "breakdown": [
+          { "kind": "small", "amount": 25 },
+          { "kind": "large", "amount": 20000 },
+          { "kind": "transfer", "amount": 80375 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 263870.37, "count": 55 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Chicago Teachers Union",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 399",
+        "kind": "union",
+        "cites": [12]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [13] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Ram Villivalam (D) - Illinois General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/senate/members/details/3345",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Biography - Illinois State Senator Ram Villivalam",
+      "publisher": "Ram Villivalam campaign",
+      "url": "http://www.senatorram.com/biography",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Legislative leaders discuss next steps for failed transit reform push",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/legislative-leaders-discuss-next-steps-for-failed-transit-reform-push/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Pritzker Signs New Illinois Law Establishing Rules for Electric Bikes, Scooters",
+      "publisher": "WTTW / Capitol News Illinois",
+      "url": "https://news.wttw.com/2026/08/27/pritzker-signs-new-illinois-law-establishing-rules-electric-bikes-scooters",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "POWER Act: Lawmakers seek to regulate new data centers",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/power-act-lawmakers-seek-to-regulate-new-data-centers-power-water-usage/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Illinois lawmakers pass bill to raise age of senior driving tests",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/illinois-lawmakers-pass-bill-to-raise-age-of-senior-driving-tests/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Illinois State Senator Ram Villivalam",
+      "publisher": "Ram Villivalam campaign",
+      "url": "http://www.senatorram.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "2026 Primary Election",
+      "publisher": "Chicago Teachers Union",
+      "url": "https://www.ctulocal1.org/movement/primary-election-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "ILLINOIS ENDORSEMENTS",
+      "publisher": "International Union of Operating Engineers Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 12,
+      "title": "2026 Primary Election Endorsements",
+      "publisher": "International Union of Operating Engineers Local 399",
+      "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 13
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:56:23.620Z",
+    "version": 3
+  }
+}

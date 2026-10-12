@@ -1,0 +1,242 @@
+{
+  "key": "bill-foster",
+  "electionId": "il-2026-11-03-general",
+  "name": "Bill Foster",
+  "party": "Democratic",
+  "office": "U.S. Representative, 11th District",
+  "contestIds": ["cook-clerk:141100"],
+  "kind": "candidate",
+  "tier": "top",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Bill Foster is a physicist and businessman who serves as the U.S. Representative for Illinois's 11th Congressional District, a seat he has held since 2013. According to his official biography, before entering Congress he co-founded Electronic Theatre Controls. He also worked as a high-energy physicist and particle accelerator designer at Fermilab, where his campaign says he was a member of the team that discovered the top quark. He serves on the House Financial Services Committee, where he is the Ranking Member of the Subcommittee on Financial Institutions, and the House Science, Space, and Technology Committee. In the 118th Congress, he was appointed to the Speakers' Artificial Intelligence Task Force.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Bill Foster is a physicist and businessman who serves as the U.S. Representative for Illinois's 11th Congressional District, a seat he has held since 2013.",
+            "cites": [1]
+          },
+          {
+            "text": "According to his official biography, before entering Congress he co-founded Electronic Theatre Controls.",
+            "cites": [2]
+          },
+          {
+            "text": "He also worked as a high-energy physicist and particle accelerator designer at Fermilab, where his campaign says he was a member of the team that discovered the top quark.",
+            "cites": [2]
+          },
+          {
+            "text": "He serves on the House Financial Services Committee, where he is the Ranking Member of the Subcommittee on Financial Institutions, and the House Science, Space, and Technology Committee.",
+            "cites": [3]
+          },
+          {
+            "text": "In the 118th Congress, he was appointed to the Speakers' Artificial Intelligence Task Force.",
+            "cites": [4]
+          }
+        ]
+      },
+      {
+        "text": "Foster voted to provide Israel with support following the October 7 attacks and cosponsored the West Bank Violence Prevention Act of 2025, which opposes Israeli violence in the West Bank. In 2024, he expressed concerns with how the Israeli government conducted the war in Gaza, calling the civilian death toll and humanitarian crisis unacceptable and not in accord with American principles. He opposes adding members to the Supreme Court, stating it would cause Republicans to do the same and make the legal system unstable.",
+        "cites": [1, 5, 6],
+        "sentences": [
+          {
+            "text": "Foster voted to provide Israel with support following the October 7 attacks and cosponsored the West Bank Violence Prevention Act of 2025, which opposes Israeli violence in the West Bank.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2024, he expressed concerns with how the Israeli government conducted the war in Gaza, calling the civilian death toll and humanitarian crisis unacceptable and not in accord with American principles.",
+            "cites": [5]
+          },
+          {
+            "text": "He opposes adding members to the Supreme Court, stating it would cause Republicans to do the same and make the legal system unstable.",
+            "cites": [6]
+          }
+        ]
+      },
+      {
+        "text": "He voted for the Affordable Care Act and the American Recovery and Reinvestment Act of 2009. He also voted for the Dodd-Frank Wall Street Reform and Consumer Protection Act, which included ten amendments he proposed. In September 2026, he voted for the Ratepayer Protection Act and against a resolution to disapprove of California's harbor craft emissions rules.",
+        "cites": [1, 7],
+        "sentences": [
+          {
+            "text": "He voted for the Affordable Care Act and the American Recovery and Reinvestment Act of 2009.",
+            "cites": [1]
+          },
+          {
+            "text": "He also voted for the Dodd-Frank Wall Street Reform and Consumer Protection Act, which included ten amendments he proposed.",
+            "cites": [1]
+          },
+          {
+            "text": "In September 2026, he voted for the Ratepayer Protection Act and against a resolution to disapprove of California's harbor craft emissions rules.",
+            "cites": [7]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Bill Foster for Congress",
+        "url": "https://www.fec.gov/data/committee/C00435099/?cycle=2026",
+        "period": "January 1, 2025 to June 30, 2026",
+        "raised": 2180937.41,
+        "cashOnHand": 2505288.27,
+        "breakdown": [
+          { "kind": "small", "amount": 131181.52 },
+          { "kind": "large", "amount": 1066669.65 },
+          { "kind": "pac", "amount": 833000 },
+          { "kind": "transfer", "amount": 5600 },
+          { "kind": "other", "amount": 144486.24 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "American Federation of Government Employees",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "NRDC Action Fund",
+        "kind": "organization",
+        "cites": [9]
+      },
+      { "organization": "Sierra Club", "kind": "organization", "cites": [10] },
+      {
+        "organization": "Chicago Tribune Editorial Board",
+        "kind": "editorial_board",
+        "cites": [6]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [12]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [13] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Bill Foster (politician) - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bill_Foster_(politician)",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Full Biography | Congressman Bill Foster",
+      "publisher": "Congressman Bill Foster",
+      "url": "http://foster.house.gov/about/full-biography",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Full Biography | Congressman Bill Foster",
+      "publisher": "Congressman Bill Foster",
+      "url": "https://foster.house.gov/about/full-biography",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Bill's Congressional Career - Bill Foster for Congress",
+      "publisher": "Bill Foster for Congress",
+      "url": "https://www.billfoster.com/meet-bill/bills-congressional-career/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Bill Foster, Illinois 11th Congressional District",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/2024/2/9/24064215/bill-foster-illinois-11th-congressional-district",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Editorial: Bill Foster for US House of Representatives in ...",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/10/06/editorial-bill-foster-us-house-of-representatives-illinois-district-11/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Votes and Legislation",
+      "publisher": "Congress.gov",
+      "url": "https://foster.house.gov/about/votes-and-legislation",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "AFGE Endorses 7 Illinois Lawmakers for Reelection to Congress",
+      "publisher": "American Federation of Government Employees",
+      "url": "https://www.afge.org/publication/afge-endorses-7-illinois-lawmakers-for-reelection-to-congress/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "NRDC Action Fund Endorsements",
+      "publisher": "NRDC Action Fund",
+      "url": "https://www.nrdcactionfund.org/nrdc-action-fund-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Sierra Club Endorsements: 2026 Elections",
+      "publisher": "Sierra Club Independent Action",
+      "url": "https://sierraclubindependentaction.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 13
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:36:19.694Z",
+    "version": 10
+  }
+}

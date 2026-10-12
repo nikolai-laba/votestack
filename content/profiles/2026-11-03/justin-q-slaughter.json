@@ -1,0 +1,230 @@
+{
+  "key": "justin-q-slaughter",
+  "electionId": "il-2026-11-03-general",
+  "name": "Justin Q. Slaughter",
+  "party": "Democratic",
+  "office": "State Representative, 27th District",
+  "contestIds": [
+    "chicago-boe:state-representative-27th-district",
+    "cook-clerk:182700"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Justin Slaughter has represented the 27th District in the Illinois House since 2017. He chairs the House Judiciary - Criminal Committee. Previously he served as a policy advisor to Governor Pat Quinn and deputy director of the Illinois Department of Juvenile Justice.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Justin Slaughter has represented the 27th District in the Illinois House since 2017.",
+            "cites": [1]
+          },
+          {
+            "text": "He chairs the House Judiciary - Criminal Committee.",
+            "cites": [2]
+          },
+          {
+            "text": "Previously he served as a policy advisor to Governor Pat Quinn and deputy director of the Illinois Department of Juvenile Justice.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "He was the House sponsor of the SAFE-T Act. The law ended cash bail. Slaughter also sponsored legislation to prohibit the sale of pistols that can be converted into machine guns with a 3D-printed switch. His campaign says he supports raising the minimum wage, reforming education funding, and expanding the Affordable Care Act. In his 2024 campaign, he said he voted for House rules that imposed term limits on legislative leaders and advocated for balanced state budgets.",
+        "cites": [4, 5, 6, 7, 8],
+        "sentences": [
+          {
+            "text": "He was the House sponsor of the SAFE-T Act.",
+            "cites": [4]
+          },
+          { "text": "The law ended cash bail.", "cites": [5] },
+          {
+            "text": "Slaughter also sponsored legislation to prohibit the sale of pistols that can be converted into machine guns with a 3D-printed switch.",
+            "cites": [6]
+          },
+          {
+            "text": "His campaign says he supports raising the minimum wage, reforming education funding, and expanding the Affordable Care Act.",
+            "cites": [7]
+          },
+          {
+            "text": "In his 2024 campaign, he said he voted for House rules that imposed term limits on legislative leaders and advocated for balanced state budgets.",
+            "cites": [8]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Justin Slaughter",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=32782",
+        "period": "April 1 to June 30, 2026",
+        "raised": 14585.05,
+        "cashOnHand": 125608.47,
+        "breakdown": [
+          { "kind": "small", "amount": 322.05 },
+          { "kind": "large", "amount": 7550 },
+          { "kind": "transfer", "amount": 6713 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 39000, "count": 21 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Sierra Club Illinois",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Chicago Teachers Union",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 399",
+        "kind": "union",
+        "cites": [12]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [13]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [14] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Justin Slaughter (Illinois General Assembly, official)",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/House/Members/Details/3320",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Justin Slaughter",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Justin_Slaughter",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Justin Slaughter (D) - Illinois General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://ilga.gov/Senate/Members/Details/3320",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Honorable Justin Q. Slaughter",
+      "publisher": "Chicago Defender",
+      "url": "https://chicagodefender.com/honorable-justin-q-slaughter/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Illinois lawmaker now wants to start discussion on how to limit traffic stops for speeding, other offenses",
+      "publisher": "WGN TV",
+      "url": "https://wgntv.com/news/illinois/illinois-bill-could-mean-fewer-traffic-stops-for-speeding-other-offenses/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Illinois Lawmakers Seek to Outlaw Handguns That Are Able to Be Converted Into ‘Machine Guns’",
+      "publisher": "WTTW",
+      "url": "https://news.wttw.com/2026/04/02/illinois-lawmakers-seek-outlaw-handguns-are-able-be-converted-machine-guns",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "State Representative Justin Slaughter: Home",
+      "publisher": "Justin Slaughter campaign",
+      "url": "https://repslaughter27.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Justin Q. Slaughter, Illinois House 27th District",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/2024/2/15/24072198/justin-q-slaughter-illinois-house-27th-district",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Meet our 2026 Endorsed Candidates!",
+      "publisher": "Sierra Club Illinois",
+      "url": "https://www.sierraclub.org/illinois/2026-endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Endorsements",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Chicago Teachers Union Announces 2026 Primary Election Endorsements",
+      "publisher": "Chicago Teachers Union",
+      "url": "https://www.ctulocal1.org/posts/2026-primary-endorsements-announcement/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 12,
+      "title": "2026 Primary Election Endorsements",
+      "publisher": "International Union of Operating Engineers Local 399",
+      "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 14
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:01:11.985Z",
+    "version": 7
+  }
+}

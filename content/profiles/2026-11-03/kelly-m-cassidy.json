@@ -1,0 +1,195 @@
+{
+  "key": "kelly-m-cassidy",
+  "electionId": "il-2026-11-03-general",
+  "name": "Kelly M. Cassidy",
+  "party": "Democratic",
+  "office": "State Representative, 14th District",
+  "contestIds": [
+    "chicago-boe:state-representative-14th-district",
+    "cook-clerk:181400"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Kelly M. Cassidy has represented the 14th District in the Illinois House since May 2011. She chairs the House Committee on Restorative Justice and serves on the Ethics and Elections committee. She was legislative director for the Chicago office of the National Organization for Women and managed grant programs for the Cook County State’s Attorney.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Kelly M. Cassidy has represented the 14th District in the Illinois House since May 2011.",
+            "cites": [1]
+          },
+          {
+            "text": "She chairs the House Committee on Restorative Justice and serves on the Ethics and Elections committee.",
+            "cites": [2]
+          },
+          {
+            "text": "She was legislative director for the Chicago office of the National Organization for Women and managed grant programs for the Cook County State’s Attorney.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "Cassidy sponsored legislation requiring state-regulated insurance to cover abortion medications and gender-affirming hormones at no cost. In 2024, she sponsored laws regarding interstate reproductive health (HB5239) and restraints on pregnant prisoners (HB5431). She introduced HB5521 to bar police from using facial recognition; it stalled in committee in March 2026. She also sponsored a law regarding traveling animal acts (HB4255).",
+        "cites": [4, 5, 1, 6]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Citizens for Cassidy",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=23663",
+        "period": "July 1 to September 30, 2026",
+        "raised": 26168,
+        "cashOnHand": 17640.19,
+        "breakdown": [
+          { "kind": "small", "amount": 3038 },
+          { "kind": "large", "amount": 11080 },
+          { "kind": "transfer", "amount": 12050 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "SEIU Healthcare", "kind": "union", "cites": [7] },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [8] },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [9]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [10] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [11]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [12] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [13]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Kelly M. Cassidy (D) - 104th General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/house/members/details/3288",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Member - Cassidy, Kelly - SH 014 (D) - Edgewater, IL - Detail Page",
+      "publisher": "Illinois General Assembly",
+      "url": "http://www.ciclt.net/sn/leg_app/po_detail.aspx?ClientCode=slt&P_IDEO=ilsh014",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "About - Rep. Cassidy",
+      "publisher": "Kelly Cassidy campaign",
+      "url": "https://www.repcassidy.com/background",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Illinois Democrats push to further expand abortion, gender care access",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/illinois-democrats-push-to-further-expand-abortion-gender-care-access/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Lawmakers end push to stop police from using facial ...",
+      "publisher": "CWB Chicago",
+      "url": "https://cwbchicago.com/2026/05/lawmakers-end-push-to-stop-police-from-using-facial-recognition-to-catch-violent-criminals.html",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Push to Prohibit Police in Illinois From Using Facial Recognition Software Stalls",
+      "publisher": "WTTW",
+      "url": "https://news.wttw.com/2026/05/19/push-prohibit-police-illinois-using-facial-recognition-software-stalls",
+      "viewedAt": "2026-10-07",
+      "kind": "news",
+      "id": 6
+    },
+    {
+      "id": 7,
+      "title": "Election Center - SEIU Healthcare",
+      "publisher": "SEIU Healthcare",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Election 2026 – SEIU Local 73",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Endorsements and Election Information - Personal PAC",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 13
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:54:48.585Z",
+    "version": 6
+  }
+}

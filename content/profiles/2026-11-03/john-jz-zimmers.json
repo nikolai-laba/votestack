@@ -1,0 +1,60 @@
+{
+  "key": "john-jz-zimmers",
+  "electionId": "il-2026-11-03-general",
+  "name": "John \"JZ\" Zimmers",
+  "party": "Republican",
+  "office": "State Representative, 19th District",
+  "contestIds": [
+    "chicago-boe:state-representative-19th-district",
+    "cook-clerk:181900"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "John \"JZ\" Zimmers is a real estate professional who has worked as a residential broker, property manager, and lender.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "John \"JZ\" Zimmers is a real estate professional who has worked as a residential broker, property manager, and lender.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "His campaign focuses on public school reform, public safety reform, tax reform, and immigration reform. On immigration, he says Illinois should fund it without raising taxes, admitting as many people as possible in an economically sustainable way.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "His campaign focuses on public school reform, public safety reform, tax reform, and immigration reform.",
+            "cites": [1]
+          },
+          {
+            "text": "On immigration, he says Illinois should fund it without raising taxes, admitting as many people as possible in an economically sustainable way.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": { "asOf": "2026-10-07", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Meet John | JZ for 19",
+      "publisher": "JZ for 19",
+      "url": "https://www.jzfor19.com/platform",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:57:09.472Z",
+    "version": 3
+  }
+}

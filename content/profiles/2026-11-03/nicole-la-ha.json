@@ -1,0 +1,180 @@
+{
+  "key": "nicole-la-ha",
+  "electionId": "il-2026-11-03-general",
+  "name": "Nicole La Ha",
+  "party": "Republican",
+  "office": "State Representative, 82nd District",
+  "contestIds": ["cook-clerk:188200"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Nicole La Ha was selected as the 82nd District state representative in December 2023 and previously served as a Homer Glen village trustee. She was the Illinois Senate press secretary and co-founded the Ability Awareness Committee in Homer Glen. Her campaign says she has worked to lower costs, end the grocery tax, improve early childhood education, and expand mental healthcare. She has called for lower property taxes, stating that Illinois homeowners pay roughly double the national average.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Nicole La Ha was selected as the 82nd District state representative in December 2023 and previously served as a Homer Glen village trustee.",
+            "cites": [1]
+          },
+          {
+            "text": "She was the Illinois Senate press secretary and co-founded the Ability Awareness Committee in Homer Glen.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign says she has worked to lower costs, end the grocery tax, improve early childhood education, and expand mental healthcare.",
+            "cites": [3]
+          },
+          {
+            "text": "She has called for lower property taxes, stating that Illinois homeowners pay roughly double the national average.",
+            "cites": [4]
+          }
+        ]
+      },
+      {
+        "text": "She sponsored a law encouraging accessibility in park projects funded by OSLAD grants. In the legislature, she sponsored laws regarding human trafficking signs and DNA profiles. She also sponsored laws concerning special education transition services and homeless youth funding.",
+        "cites": [5, 6, 7],
+        "sentences": [
+          {
+            "text": "She sponsored a law encouraging accessibility in park projects funded by OSLAD grants.",
+            "cites": [5]
+          },
+          {
+            "text": "In the legislature, she sponsored laws regarding human trafficking signs and DNA profiles.",
+            "cites": [6]
+          },
+          {
+            "text": "She also sponsored laws concerning special education transition services and homeless youth funding.",
+            "cites": [7]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Nicole for Illinois",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39529",
+        "period": "April 1 to June 30, 2026",
+        "raised": 26574.88,
+        "cashOnHand": 78916.37,
+        "breakdown": [
+          { "kind": "small", "amount": 593.08 },
+          { "kind": "large", "amount": 8220.5 },
+          { "kind": "transfer", "amount": 17500 },
+          { "kind": "other", "amount": 261.3 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 36000, "count": 13 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [10] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Nicole La Ha Named State Representative for 82nd District",
+      "publisher": "Nicole La Ha",
+      "url": "https://replaha.com/2023/12/20/nicole-la-ha-named-state-representative-for-82nd-district/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Nicole La Ha",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nicole_La_Ha",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "State Rep. La Ha Announces Run For Re-Election",
+      "publisher": "Patch",
+      "url": "https://patch.com/illinois/lemont/state-rep-la-ha-announces-run-re-election",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "IL House GOP continues to talk property taxes",
+      "publisher": "Capitol City Now",
+      "url": "https://capitolcitynow.com/news/248842-il-house-gop-continues-to-talk-property-taxes/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "It's now signed into law",
+      "publisher": "CapitolFax",
+      "url": "https://capitolfax.com/2026/07/29/it%E2%80%99s-now-signed-into-law-3/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Nicole La Ha (R) - 104th General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/house/members/details/3445",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Member - Illinois General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://my.ilga.gov/House/Members/Details/3445?Primary=True",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "ILLINOIS ENDORSEMENTS",
+      "publisher": "International Union of Operating Engineers Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:21:33.577Z",
+    "version": 6
+  }
+}

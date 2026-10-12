@@ -1,0 +1,256 @@
+{
+  "key": "jessica-vasquez",
+  "electionId": "il-2026-11-03-general",
+  "name": "Jessica Vasquez",
+  "party": "Democratic",
+  "office": "Cook County Commissioner, 8th District",
+  "contestIds": [
+    "chicago-boe:county-commissioner-8th-district",
+    "cook-clerk:220800"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Jessica Vásquez was appointed 8th District Cook County Commissioner in May 2025. She previously was chief of staff to 35th Ward Alderman Carlos Ramirez-Rosa and worked at the Illinois Coalition for Immigrant and Refugee Rights. Her campaign says she helped manage $1.5 million for playgrounds, ballfields, and pedestrian safety through a participatory budgeting process.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Jessica Vásquez was appointed 8th District Cook County Commissioner in May 2025.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously was chief of staff to 35th Ward Alderman Carlos Ramirez-Rosa and worked at the Illinois Coalition for Immigrant and Refugee Rights.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign says she helped manage $1.5 million for playgrounds, ballfields, and pedestrian safety through a participatory budgeting process.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "Her priorities include property tax relief, protecting healthcare access, and expanding county resources. Her campaign says she supported a county program offering up to $25,000 in down payment assistance. She co-introduced a resolution requiring county offices to report interactions with immigration officials. She has criticized the county’s property tax computer system for delayed bills. She does not support county funding for a new Bears stadium.",
+        "cites": [3, 4, 5, 6],
+        "sentences": [
+          {
+            "text": "Her priorities include property tax relief, protecting healthcare access, and expanding county resources.",
+            "cites": [3]
+          },
+          {
+            "text": "Her campaign says she supported a county program offering up to $25,000 in down payment assistance.",
+            "cites": [4]
+          },
+          {
+            "text": "She co-introduced a resolution requiring county offices to report interactions with immigration officials.",
+            "cites": [5]
+          },
+          {
+            "text": "She has criticized the county’s property tax computer system for delayed bills.",
+            "cites": [6]
+          },
+          {
+            "text": "She does not support county funding for a new Bears stadium.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Jessica Vasquez",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40662",
+        "period": "April 1 to June 30, 2026",
+        "raised": 4010,
+        "cashOnHand": 50068.25,
+        "breakdown": [
+          { "kind": "small", "amount": 1510 },
+          { "kind": "large", "amount": 500 },
+          { "kind": "transfer", "amount": 2000 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 2000, "count": 1 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 399",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Run for Something",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Citizen Action/Illinois",
+        "kind": "organization",
+        "cites": [11]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [12] },
+      {
+        "organization": "Better Streets Chicago Action Fund",
+        "kind": "organization",
+        "cites": [13]
+      },
+      {
+        "organization": "Chicago Growth Project",
+        "kind": "organization",
+        "cites": [14]
+      },
+      {
+        "organization": "33rd Ward Working Families",
+        "kind": "organization",
+        "cites": [15]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Jessica Vasquez appointed as Cook County 8th District commissioner",
+      "publisher": "ABC7 Chicago",
+      "url": "https://abc7chicago.com/post/jessica-vasquez-appointed-replace-anthony-joel-quezada-cook-county-8th-district-commissioner-chicago-city-council-move/16323647/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Jessica Vasquez Picked to Fill Vacant 8th District Cook County Board Seat",
+      "publisher": "WTTW",
+      "url": "https://news.wttw.com/2025/05/05/jessica-vasquez-picked-fill-vacant-8th-district-cook-county-board-seat",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Meet Jessica",
+      "publisher": "Vasquez for Cook County campaign",
+      "url": "https://www.vasquezforcookcounty.org/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Jessica Vásquez For Cook County Commissioner",
+      "publisher": "Vasquez for Cook County campaign",
+      "url": "https://www.vasquezforcookcounty.org/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Jessica In The News",
+      "publisher": "Vasquez for Cook County campaign",
+      "url": "https://www.vasquezforcookcounty.org/news",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Editorial: Jessica Vásquez for Cook County Board 8th District Democratic primary",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/02/18/editorial-jessica-vasquez-cook-county-board-8th-district-democratic-primary/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "ILLINOIS ENDORSEMENTS",
+      "publisher": "International Union of Operating Engineers Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "2026 local 399 illinois - primary election endorsements",
+      "publisher": "International Union of Operating Engineers Local 399",
+      "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "march 17, 2026 primary election - endorsed candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/P2026_PrimaryEndorsementList_COOK-v4.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Jessica Vásquez",
+      "publisher": "Run for Something",
+      "url": "https://directory.runforsomething.net/candidate/33a9fd7f914cd8e914edf8da12262864/vasquez-jessica/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Spring 2026 Endorsements — Citizen Action/Illinois",
+      "publisher": "Citizen Action/Illinois",
+      "url": "https://citizenaction-il.org/spring26endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 12,
+      "title": "Endorsements and Election Information - Personal PAC",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 13,
+      "title": "2026 Endorsements — Better Streets Chicago Action Fund",
+      "publisher": "Better Streets Chicago Action Fund",
+      "url": "https://www.bscactionfund.org/2026-midterms/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 14,
+      "title": "Endorsements - Chicago Growth Project",
+      "publisher": "Chicago Growth Project",
+      "url": "https://www.chicagogrowthproject.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 15,
+      "title": "2026 Primary Endorsements",
+      "publisher": "33rd Ward Working Families",
+      "url": "https://www.workingfamilies33.org/2026-primary-endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:22:50.813Z",
+    "version": 5
+  }
+}

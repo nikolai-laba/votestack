@@ -1,0 +1,42 @@
+{
+  "key": "karen-j-dal-porto",
+  "electionId": "il-2026-11-03-general",
+  "name": "Karen J. Dal Porto",
+  "office": "South Lyons Township Sanitary District Trustee",
+  "contestIds": ["cook-clerk:390201"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Karen J. Dal Porto serves as a trustee for the South Lyons Township Sanitary District.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Karen J. Dal Porto serves as a trustee for the South Lyons Township Sanitary District.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": { "asOf": "2026-10-07", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "South Lyons Township Sanitation District | SLTSD",
+      "publisher": "South Lyons Township Sanitary District",
+      "url": "https://www.sltsd.com/",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:32:32.371Z",
+    "version": 4
+  }
+}

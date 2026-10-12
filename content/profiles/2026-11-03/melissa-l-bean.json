@@ -1,0 +1,242 @@
+{
+  "key": "melissa-l-bean",
+  "electionId": "il-2026-11-03-general",
+  "name": "Melissa L. Bean",
+  "party": "Democratic",
+  "office": "U.S. Representative, 8th District",
+  "contestIds": [
+    "chicago-boe:u-s-representative-8th-district",
+    "cook-clerk:140800"
+  ],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Melissa Bean represented Illinois’s 8th District in the U.S. House of Representatives from 2005 to 2011. After leaving Congress, she served as CEO of the Executives' Club of Chicago and as an executive for JPMorgan Chase.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Melissa Bean represented Illinois’s 8th District in the U.S. House of Representatives from 2005 to 2011.",
+            "cites": [1]
+          },
+          {
+            "text": "After leaving Congress, she served as CEO of the Executives' Club of Chicago and as an executive for JPMorgan Chase.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign says she helped pass Obamacare. It says she also helped pass the Lilly Ledbetter Fair Pay Act and Wall Street reforms. She has argued that Congress needs to pass laws to codify accepted norms. Bean has said she wants to confront President Donald Trump over his administration's policies. She argues that voters want pragmatism over polarization. During her time in Congress, she served on the Financial Services and Small Business Committees. She sponsored the Small Business Asset Investment and Modernization Act of 2010.",
+        "cites": [3, 4, 5, 6, 7, 8],
+        "sentences": [
+          {
+            "text": "Her campaign says she helped pass Obamacare.",
+            "cites": [3]
+          },
+          {
+            "text": "It says she also helped pass the Lilly Ledbetter Fair Pay Act and Wall Street reforms.",
+            "cites": [3]
+          },
+          {
+            "text": "She has argued that Congress needs to pass laws to codify accepted norms.",
+            "cites": [4]
+          },
+          {
+            "text": "Bean has said she wants to confront President Donald Trump over his administration's policies.",
+            "cites": [5]
+          },
+          {
+            "text": "She argues that voters want pragmatism over polarization.",
+            "cites": [6]
+          },
+          {
+            "text": "During her time in Congress, she served on the Financial Services and Small Business Committees.",
+            "cites": [7]
+          },
+          {
+            "text": "She sponsored the Small Business Asset Investment and Modernization Act of 2010.",
+            "cites": [8]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Melissa Bean for Congress",
+        "url": "https://www.fec.gov/data/committee/C00919183/?cycle=2026",
+        "period": "July 1, 2025 to June 30, 2026",
+        "raised": 2071075.5,
+        "cashOnHand": 144529.83,
+        "breakdown": [
+          { "kind": "small", "amount": 26412.3 },
+          { "kind": "large", "amount": 1424961.79 },
+          { "kind": "pac", "amount": 275750 },
+          { "kind": "transfer", "amount": 11766.38 },
+          { "kind": "candidate", "amount": 323000 },
+          { "kind": "other", "amount": 9185.03 }
+        ],
+        "fromCandidate": 323000
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "U.S. Sen. Tammy Duckworth",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "U.S. Rep. Nancy Pelosi",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "U.S. Rep. Bill Foster",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "U.S. Rep. Brad Schneider",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "New Democrat Coalition Action Fund",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Chicago Tribune Editorial Board",
+        "kind": "editorial_board",
+        "cites": [4]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [10]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [11] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [12]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Melissa Bean",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Melissa_Bean",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Who is running for the U.S. House in the Chicago area during the 2026 midterm elections?",
+      "publisher": "CBS Chicago",
+      "url": "https://www.cbsnews.com/chicago/news/who-is-running-congress-illinois-chicago-2026-midterm/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Meet Melissa",
+      "publisher": "Melissa Bean for Congress",
+      "url": "https://www.melissabeanforcongress.com/meetmelissa",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Editorial: Melissa Bean for US House of Representatives in District 8",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/10/05/editorial-melissa-bean-for-us-house-of-representatives-illinois-district-8/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Melissa Bean wins 8th Congressional District primary, moves to reclaim seat she lost 16 years ago",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/03/17/us-house-illinois-8th-congressional-district-primary-results",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Crowded primary for Krishnamoorthi's suburban House ...",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/02/25/illinois-primary-melissa-bean-junaid-ahmed-kevin-morrison-yasmeen-bankole",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "BEAN, Melissa L. | US House of Representatives",
+      "publisher": "History, Art & Archives, U.S. House of Representatives",
+      "url": "https://history.house.gov/People/Detail/10405",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Melissa L. Bean",
+      "publisher": "Congress.gov",
+      "url": "https://www.congress.gov/index.php/member/melissa-bean/B001253",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Bean, Ahmed lead 8th Congressional primary fundraising",
+      "publisher": "Chronicle Media",
+      "url": "https://chronicleillinois.com/election/bean-ahmed-lead-8th-congressional-primary-fundraising/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:37:40.031Z",
+    "version": 5
+  }
+}

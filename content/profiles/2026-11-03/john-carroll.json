@@ -1,0 +1,165 @@
+{
+  "key": "john-carroll",
+  "electionId": "il-2026-11-03-general",
+  "name": "John Carroll",
+  "party": "Democratic",
+  "office": "Circuit Court Judge, 3rd Subcircuit (Vacancy of Murphy)",
+  "contestIds": [
+    "chicago-boe:judge-3rd-subcircuit-vacancy-of-murphy",
+    "cook-clerk:340310:vacancy-of-murphy"
+  ],
+  "kind": "judicial_candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "John Carroll was appointed to the Cook County Circuit Court in May 2025. He serves in the Domestic Violence Division, presiding over criminal and civil domestic violence cases and emergency orders of protection. He previously spent 19 years as a Cook County assistant state’s attorney prosecuting felony trial, sex crimes, and narcotics cases, and six years as deputy chief of staff in the Illinois Attorney General’s office.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "John Carroll was appointed to the Cook County Circuit Court in May 2025.",
+            "cites": [1]
+          },
+          {
+            "text": "He serves in the Domestic Violence Division, presiding over criminal and civil domestic violence cases and emergency orders of protection.",
+            "cites": [2]
+          },
+          {
+            "text": "He previously spent 19 years as a Cook County assistant state’s attorney prosecuting felony trial, sex crimes, and narcotics cases, and six years as deputy chief of staff in the Illinois Attorney General’s office.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Judge John Carroll",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40775",
+        "period": "April 1 to June 30, 2026",
+        "raised": 0,
+        "cashOnHand": 2981.54,
+        "breakdown": []
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Fraternal Order of Police Lodge 7",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [4]
+      },
+      {
+        "organization": "Chicago Council of Lawyers",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [5]
+      },
+      {
+        "organization": "Illinois State Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Highly Qualified",
+        "cites": [2]
+      },
+      {
+        "organization": "Alliance of Bar Associations for Judicial Screening",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "tally": {
+          "members": 11,
+          "ratings": [
+            { "rating": "Recommended", "count": 7 },
+            { "rating": "Qualified", "count": 2 },
+            { "rating": "Highly Recommended", "count": 1 }
+          ],
+          "notEvaluated": 1
+        },
+        "cites": [6]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Illinois Supreme Court appoints John Carroll as judge in Third Subcircuit of Cook County",
+      "publisher": "Illinois Courts",
+      "url": "https://www.illinoiscourts.gov/News/1556/Illinois-Supreme-Court-appoints-John-Carroll-as-judge-in-Third-Subcircuit-of-Cook-County/news-detail/",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Cook County Judicial Evaluations",
+      "publisher": "Illinois State Bar Association",
+      "url": "https://www.isba.org/judicial-elections/counties/cook",
+      "kind": "bar",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "John Carroll - March 2026 Cook County Judicial Election Guide",
+      "publisher": "Injustice Watch",
+      "url": "https://2026primary.injusticewatch.org/candidate/john-carroll-34859",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Vote Smart: CBA Judicial Voter's Guide, General Election, November 3, 2026",
+      "publisher": "Chicago Bar Association",
+      "url": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 4
+    },
+    {
+      "title": "Evaluation Report: Judges on the Ballot in the November 3, 2026 General Election",
+      "publisher": "Chicago Council of Lawyers",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/CCL-Judicial-Evaluation-Report-for-Nov-3-2026-General-Election_Ballot-Order.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 5
+    },
+    {
+      "title": "Alliance of Bar Associations for Judicial Screening, 2026 General Election ratings",
+      "publisher": "Alliance of Bar Associations for Judicial Screening",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/2026-Alliance-General-Ballot-Ratings-09252026.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 6
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 7
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:30:27.104Z",
+    "version": 5
+  }
+}

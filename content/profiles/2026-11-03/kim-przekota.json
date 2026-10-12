@@ -1,0 +1,183 @@
+{
+  "key": "kim-przekota",
+  "electionId": "il-2026-11-03-general",
+  "name": "Kim Przekota",
+  "party": "Democratic",
+  "office": "Circuit Court Judge, 11th Subcircuit (Vacancy of Roberts)",
+  "contestIds": [
+    "chicago-boe:judge-11th-subcircuit-vacancy-of-roberts",
+    "cook-clerk:341120:vacancy-of-roberts"
+  ],
+  "kind": "judicial_candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Kimberly Przekota has served as a Cook County Circuit Court judge in the 11th Subcircuit since February 2025. She presides in the Domestic Violence and Pretrial divisions. She worked as an Assistant Cook County State’s Attorney starting in 2009. She rose to lead prosecutor for murder trials. In August 2026, she ordered a Chicago police officer held in jail before trial on a felony aggravated domestic battery charge.",
+        "cites": [1, 2, 3, 11]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Kim Przekota for Judge",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39493",
+        "period": "April 1 to June 30, 2026",
+        "raised": 0,
+        "cashOnHand": 18605.75,
+        "breakdown": []
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [10] },
+      {
+        "organization": "Chicago Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [5]
+      },
+      {
+        "organization": "Chicago Council of Lawyers",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [6]
+      },
+      {
+        "organization": "Illinois State Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [7]
+      },
+      {
+        "organization": "Alliance of Bar Associations for Judicial Screening",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "tally": {
+          "members": 11,
+          "ratings": [
+            { "rating": "Recommended", "count": 9 },
+            { "rating": "Qualified", "count": 2 }
+          ],
+          "notEvaluated": 0
+        },
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Illinois Supreme Court Appoints Kimberly Przekota as Judge in Eleventh Subcircuit of Cook County",
+      "publisher": "Illinois State Bar Association",
+      "url": "https://www.isba.org/barnews/2025/01/illinoissupremecourtappointskimberlyprzekotaasjudg",
+      "kind": "bar",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Przekota, Kimberly | Circuit Court of Cook County",
+      "publisher": "Circuit Court of Cook County",
+      "url": "https://www.cookcountycourtil.gov/judge/przekota-kimberly",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Chicago cop with most complaints jailed on domestic battery charge; records show interim superintendent intervened in previous case - CWB Chicago",
+      "publisher": "CWB Chicago",
+      "url": "https://cwbchicago.com/2026/08/chicago-cop-with-most-complaints-jailed-on-domestic-battery-charge-records-show-interim-superintendent-intervened-in-previous-case.html",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Vote Smart: CBA Judicial Voter's Guide, General Election, November 3, 2026",
+      "publisher": "Chicago Bar Association",
+      "url": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 5
+    },
+    {
+      "title": "Evaluation Report: Judges on the Ballot in the November 3, 2026 General Election",
+      "publisher": "Chicago Council of Lawyers",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/CCL-Judicial-Evaluation-Report-for-Nov-3-2026-General-Election_Ballot-Order.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 6
+    },
+    {
+      "title": "2026 General Election, Cook County Judicial Evaluations",
+      "publisher": "Illinois State Bar Association",
+      "url": "https://www.isba.org/judicial-elections/counties/cook",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 7
+    },
+    {
+      "title": "Alliance of Bar Associations for Judicial Screening, 2026 General Election ratings",
+      "publisher": "Alliance of Bar Associations for Judicial Screening",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/2026-Alliance-General-Ballot-Ratings-09252026.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 8
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "Chicago cop with most misconduct complaints now charged with attacking woman as he faces firing",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/crime/2026/08/21/chicago-police-cpd-vecchio-snelling",
+      "viewedAt": "2026-10-07",
+      "kind": "news",
+      "id": 11
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:26:15.981Z",
+    "version": 7
+  }
+}

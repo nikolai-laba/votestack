@@ -1,0 +1,203 @@
+{
+  "key": "jennifer-gong-gershowitz",
+  "electionId": "il-2026-11-03-general",
+  "name": "Jennifer Gong-Gershowitz",
+  "party": "Democratic",
+  "office": "State Representative, 17th District",
+  "contestIds": ["cook-clerk:181700"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Jennifer Gong-Gershowitz has represented the 17th District in the Illinois House since 2019 and is a human rights attorney. She previously directed the immigration law practice at the North Suburban Legal Aid Clinic and handled pro bono cases against human traffickers.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Jennifer Gong-Gershowitz has represented the 17th District in the Illinois House since 2019 and is a human rights attorney.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously directed the immigration law practice at the North Suburban Legal Aid Clinic and handled pro bono cases against human traffickers.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "She sponsored the Teaching Equitable Asian American Community History Act, which ensures Asian American history is taught in K-12 public schools. She sponsored the Firearm Industry Responsibility Act to allow civil lawsuits against gun manufacturers over their marketing strategies. She chairs the House Democratic AI Working Group and sponsored laws targeting nonconsensual deepfakes and unauthorized AI reproductions of a person's voice or likeness. She led a bipartisan 2026 law to help parents protect their children online.",
+        "cites": [2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "She sponsored the Teaching Equitable Asian American Community History Act, which ensures Asian American history is taught in K-12 public schools.",
+            "cites": [2]
+          },
+          {
+            "text": "She sponsored the Firearm Industry Responsibility Act to allow civil lawsuits against gun manufacturers over their marketing strategies.",
+            "cites": [3]
+          },
+          {
+            "text": "She chairs the House Democratic AI Working Group and sponsored laws targeting nonconsensual deepfakes and unauthorized AI reproductions of a person's voice or likeness.",
+            "cites": [4]
+          },
+          {
+            "text": "She led a bipartisan 2026 law to help parents protect their children online.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends for Jennifer",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=34008",
+        "period": "April 1 to June 30, 2026",
+        "raised": 5963,
+        "cashOnHand": 436217.62,
+        "breakdown": [
+          { "kind": "large", "amount": 2000 },
+          { "kind": "transfer", "amount": 500 },
+          { "kind": "other", "amount": 3463 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 88300, "count": 21 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [7]
+      },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [8] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [10] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [11]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [12] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Jennifer Gong-Gershowitz (D)",
+      "publisher": "Illinois General Assembly",
+      "url": "https://ilga.gov/house/members/details/3352",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Bio – Rep Jennifer Gong-Gershowitz",
+      "publisher": "Jennifer Gong-Gershowitz campaign",
+      "url": "https://www.gonggershowitz.com/about-jennifer/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "UPDATED: As assault weapons ban faces challenges, lawmakers consider more gun restrictions",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/updated-as-assault-weapons-ban-faces-challenges-lawmakers-consider-more-gun-restrictions/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Gong-Gershowitz Named Chair of AI Working Group, Pushes Accountability for Big Tech",
+      "publisher": "Illinois House Democratic Caucus",
+      "url": "https://ilhousedems.com/2026/03/02/gong-gershowitz-named-chair-of-ai-working-group-pushes-accountability-for-big-tech/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Rep. Jennifer Gong-Gershowitz",
+      "publisher": "Illinois House Democratic Caucus",
+      "url": "https://ilhousedems.com/project/rep-jennifer-gong-gershowitz/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements",
+      "publisher": "Planned Parenthood Illinois Action",
+      "url": "https://www.plannedparenthoodaction.org/planned-parenthood-illinois-action/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "2026 Primary Election",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-primary-election/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:56:09.466Z",
+    "version": 8
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "key": "yolonda-morris",
+  "electionId": "il-2026-11-03-general",
+  "name": "Yolonda Morris",
+  "party": "Democratic",
+  "office": "State Representative, 9th District",
+  "contestIds": [
+    "chicago-boe:state-representative-9th-district",
+    "cook-clerk:180900"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Yolonda Morris has represented the 9th District in the Illinois House since September 2023. She was a certified nursing assistant for 26 years before working as a union organizer for SEIU. Her campaign says she advocates for a $15 minimum wage, expanded child care access and safe staffing standards.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Yolonda Morris has represented the 9th District in the Illinois House since September 2023.",
+            "cites": [1]
+          },
+          {
+            "text": "She was a certified nursing assistant for 26 years before working as a union organizer for SEIU.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign says she advocates for a $15 minimum wage, expanded child care access and safe staffing standards.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "Morris sponsored the Illinois Menopause Equity and Care Act, which became law in 2026. The legislation requires the state to provide public education on menopause, broadens insurance coverage for related care, and mandates that employers offer reasonable accommodations to workers experiencing menopause. She also carried a bill in the House to allow rideshare drivers to unionize.",
+        "cites": [3, 4, 5, 1]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "People for Yolonda Morris",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39543",
+        "period": "July 1 to September 30, 2026",
+        "raised": 23775,
+        "cashOnHand": 162505.31,
+        "breakdown": [
+          { "kind": "small", "amount": 4625 },
+          { "kind": "large", "amount": 5450 },
+          { "kind": "transfer", "amount": 13700 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [6] },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [7] },
+      { "organization": "SEIU Healthcare", "kind": "union", "cites": [8] },
+      { "organization": "IUOE Local 150", "kind": "union", "cites": [9] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Yolonda Morris (D) - 104th General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/house/members/details/3444",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "ABOUT | Yolonda Morris",
+      "publisher": "Yolonda Morris Campaign",
+      "url": "https://www.repmorrisil9th.com/aboutyolonda",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Morris Celebrates Signing of Menopause Equity and Care Act into Law...",
+      "publisher": "Illinois House Democratic Caucus",
+      "url": "https://ilhousedems.com/2026/08/26/morris-celebrates-signing-of-menopause-equity-and-care-act-into-law-expanding-access-to-services-and-workplace-protections-for-women/",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Illinois menopause bill aims to expand care for women",
+      "publisher": "NBC Chicago",
+      "url": "https://www.nbcchicago.com/news/health/health-wellness-science-news/new-menopause-legislation-aims-to-expand-insurance-coverage-workplace-protections-in-illinois/3931664/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Rideshare drivers could unionize in Illinois under bill passed by General Assembly",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/rideshare-drivers-could-unionize-in-illinois-under-bill-passed-by-general-assembly/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Illinois AFL-CIO 2026 Primary Election Endorsements",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2025/12/IL-AFL-CIO-endorsements-120925.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Election Center - SEIU Healthcare",
+      "publisher": "SEIU Healthcare",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "IUOE LOCAL 150 DISTRICT 1 ENDORSEMENTS",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/02/2026-IL-Primary-Mailer-District-1_V7.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:48:08.650Z",
+    "version": 7
+  }
+}

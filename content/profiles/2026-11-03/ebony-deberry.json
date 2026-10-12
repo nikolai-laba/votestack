@@ -1,0 +1,233 @@
+{
+  "key": "ebony-deberry",
+  "electionId": "il-2026-11-03-general",
+  "name": "Ebony DeBerry",
+  "office": "Chicago Board of Education Member, Subdistrict 2A",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-2a"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Ebony DeBerry was elected in 2024 to represent District 2A on the Chicago Board of Education. She manages educational initiatives at ONE Northside. A lifelong Rogers Park resident, she attended Gale Elementary and Sullivan High before teaching in Chicago Public Schools. On the board, she voted for the district's $10.2 billion budget.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Ebony DeBerry was elected in 2024 to represent District 2A on the Chicago Board of Education.",
+            "cites": [1]
+          },
+          {
+            "text": "She manages educational initiatives at ONE Northside.",
+            "cites": [2]
+          },
+          {
+            "text": "A lifelong Rogers Park resident, she attended Gale Elementary and Sullivan High before teaching in Chicago Public Schools.",
+            "cites": [2]
+          },
+          {
+            "text": "On the board, she voted for the district's $10.2 billion budget.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "She favors taxing the wealthy and corporations for schools. She supports creating multiyear budgets and tightening charter school rules. She wants to establish a youth advisory council. She calls for expanding after-school programs and the Sustainable Community Schools model. She says she grew parent mentor programs and helped keep Gale Elementary open during school closures.",
+        "cites": [1, 4, 5],
+        "sentences": [
+          {
+            "text": "She favors taxing the wealthy and corporations for schools.",
+            "cites": [1]
+          },
+          {
+            "text": "She supports creating multiyear budgets and tightening charter school rules.",
+            "cites": [1]
+          },
+          {
+            "text": "She wants to establish a youth advisory council.",
+            "cites": [1]
+          },
+          {
+            "text": "She calls for expanding after-school programs and the Sustainable Community Schools model.",
+            "cites": [4]
+          },
+          {
+            "text": "She says she grew parent mentor programs and helped keep Gale Elementary open during school closures.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Ebony DeBerry for School Board",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39821",
+        "period": "April 1 to June 30, 2026",
+        "raised": 2740.5,
+        "cashOnHand": 3799.56,
+        "breakdown": [
+          { "kind": "small", "amount": 1751 },
+          { "kind": "large", "amount": 989.5 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 2000, "count": 1 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "State Sen. Mike Simmons",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Chicago Alderwoman Maria Hadden",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Teachers Union",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "ONE People's Campaign",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Our Schools Chicago",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Asian American Midwest Progressives",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Sunrise Movement Chicago",
+        "kind": "organization",
+        "cites": [7]
+      },
+      { "organization": "JCUA Votes", "kind": "organization", "cites": [7] },
+      {
+        "organization": "50th Ward United Working Families",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "39th Ward Neighbors United",
+        "kind": "organization",
+        "cites": [6]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Chicago school board election 2026 voter guide: District 2a ...",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-election-2026-district-2a-candidates-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Ebony DeBerry",
+      "publisher": "Chicago Board of Education",
+      "url": "https://www.cpsboe.org/about/bios/2036",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "‘The stakes are really high’: Chicago’s school board enters its elected era",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2025/09/17/chicago-public-schools-board-of-education-talk-politics-and-governance/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Meet the new Chicago Board of Education",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2025/01/14/new-school-board-members/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Chicago Board of Education Election: Get to know the ...",
+      "publisher": "WBBM",
+      "url": "https://www.audacy.com/wbbm780/news/local/chicago-board-of-education-elections-get-to-know-the-candidates",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Chicago’s First Fully Elected School Board: A Guide to the 2A, 2B and 4A Races",
+      "publisher": "The Loyola Phoenix",
+      "url": "https://loyolaphoenix.com/2026/09/chicagos-first-fully-elected-school-board-a-guide-to-the-2a-2b-and-4a-races/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements",
+      "publisher": "Ebony DeBerry for School Board",
+      "url": "https://ebony4education.org/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Chicago Teachers Union endorses 15 candidates for school board",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/07/14/chicago-teachers-union-endorses-school-board-candidates/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Elections & Endorsements",
+      "publisher": "SEIU Illinois State Council",
+      "url": "https://seiuilcouncil.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Key education endorsements for CPS School Board candidates",
+      "publisher": "WBEZ",
+      "url": "https://www.wbez.org/education/chicago-school-board/2026/09/21/key-education-endorsements-for-cps-school-board-candidates",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:41:50.168Z",
+    "version": 3
+  }
+}

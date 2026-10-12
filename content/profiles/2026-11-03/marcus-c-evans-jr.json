@@ -1,0 +1,111 @@
+{
+  "key": "marcus-c-evans-jr",
+  "electionId": "il-2026-11-03-general",
+  "name": "Marcus C. Evans, Jr.",
+  "party": "Democratic",
+  "office": "State Representative, 33rd District",
+  "contestIds": [
+    "chicago-boe:state-representative-33rd-district",
+    "cook-clerk:183300"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Marcus C. Evans, Jr. has represented the 33rd District since 2012 and serves as Assistant Majority Leader. He chairs the Labor & Commerce Committee. Before taking office, he was deputy chief of staff for Chicago’s 8th Ward alderman, and he is a real estate appraiser who advocates for health care equity.",
+        "cites": [1, 2]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Citizens for Marcus C Evans Jr",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=24362",
+        "period": "April 1 to June 30, 2026",
+        "raised": 0,
+        "cashOnHand": 882040.79,
+        "breakdown": [],
+        "largeSince": { "since": "2026-06-30", "total": 451320.27, "count": 77 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [3]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [4] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [5]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [6] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Marcus C. Evans, Jr. - Illinois General Assembly - Member",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/house/members/details/3289",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Vote Smart | Facts For All",
+      "publisher": "Vote Smart",
+      "url": "https://justfacts.votesmart.org/candidate/biography/140354/marcus-evans-jr",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 3
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 4
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 5
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 6
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:45:21.800Z",
+    "version": 6
+  }
+}

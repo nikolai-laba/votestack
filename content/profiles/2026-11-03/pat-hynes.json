@@ -1,0 +1,350 @@
+{
+  "key": "pat-hynes",
+  "electionId": "il-2026-11-03-general",
+  "name": "Pat Hynes",
+  "party": "Democratic",
+  "office": "Cook County Assessor",
+  "contestIds": ["chicago-boe:county-assessor", "cook-clerk:210500"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Pat Hynes is the Lyons Township assessor and spent 23 years working in the Cook County Assessor’s Office as a residential field inspector. He resigned from the assessor's office, citing frustrations with operational issues and a decline in inspections. He holds a B.S. in Real Estate from DePaul University and is a certified Illinois assessing officer.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Pat Hynes is the Lyons Township assessor and spent 23 years working in the Cook County Assessor’s Office as a residential field inspector.",
+            "cites": [1]
+          },
+          {
+            "text": "He resigned from the assessor's office, citing frustrations with operational issues and a decline in inspections.",
+            "cites": [2]
+          },
+          {
+            "text": "He holds a B.S. in Real Estate from DePaul University and is a certified Illinois assessing officer.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "Hynes says he is running to provide fair and accurate assessments. He says the assessor's office has failed to use accurate data and has ignored building permit information for new construction and renovations. He has proposed establishing an economic development office to assist investors in estimating future assessments and encourage construction in the county.",
+        "cites": [3, 4, 5],
+        "sentences": [
+          {
+            "text": "Hynes says he is running to provide fair and accurate assessments.",
+            "cites": [3]
+          },
+          {
+            "text": "He says the assessor's office has failed to use accurate data and has ignored building permit information for new construction and renovations.",
+            "cites": [4]
+          },
+          {
+            "text": "He has proposed establishing an economic development office to assist investors in estimating future assessments and encourage construction in the county.",
+            "cites": [5]
+          }
+        ]
+      },
+      {
+        "text": "Regarding data centers, Hynes told Axios he would challenge any valuation not supported by evidence and would not rely on power capacity alone. Hynes reports he has returned more than $14 million to taxpayers through corrected assessments and exemptions since taking office in Lyons Township. An investigation confirmed that 620 properties flagged by Hynes and his team were not accurately recorded.",
+        "cites": [6, 7, 5],
+        "sentences": [
+          {
+            "text": "Regarding data centers, Hynes told Axios he would challenge any valuation not supported by evidence and would not rely on power capacity alone.",
+            "cites": [6]
+          },
+          {
+            "text": "Hynes reports he has returned more than $14 million to taxpayers through corrected assessments and exemptions since taking office in Lyons Township.",
+            "cites": [7]
+          },
+          {
+            "text": "An investigation confirmed that 620 properties flagged by Hynes and his team were not accurately recorded.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Hynes for Assessor",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=36733",
+        "period": "April 1 to June 30, 2026",
+        "raised": 122525,
+        "cashOnHand": 100723.25,
+        "breakdown": [
+          { "kind": "small", "amount": 25 },
+          { "kind": "large", "amount": 120000 },
+          { "kind": "transfer", "amount": 2500 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 81100, "count": 21 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Cook County Democratic Party",
+        "kind": "party",
+        "cites": [8]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "BOMA/Chicago", "kind": "organization", "cites": [10] },
+      {
+        "organization": "Former Congressman Bobby Rush",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [11]
+      },
+      {
+        "organization": "Illinois Attorney General Kwame Raoul",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [11]
+      },
+      {
+        "organization": "Former Secretary of State Jesse White",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [11]
+      },
+      {
+        "organization": "Illinois House Speaker Chris Welch",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [11]
+      },
+      {
+        "organization": "State Senator Elgie Sims",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [11]
+      },
+      {
+        "organization": "Cook County Board President Toni Preckwinkle",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [11]
+      },
+      {
+        "organization": "Cook County Clerk Monica Gordon",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [11]
+      },
+      {
+        "organization": "Cook County Commissioner John Daley",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [11]
+      },
+      {
+        "organization": "Cook County Commissioner Josina Morita",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [11]
+      },
+      {
+        "organization": "MWRD Commissioner Precious Brady-Davis",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [11]
+      },
+      {
+        "organization": "MWRD Commissioner Theresa Flynn",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [11]
+      },
+      {
+        "organization": "MWRD Commissioner Beth McElroy Kirkwood",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [11]
+      },
+      {
+        "organization": "Chicago City Clerk Anna Valencia",
+        "kind": "elected_official",
+        "cites": [11]
+      },
+      {
+        "organization": "Chicago Alderperson Brian Hopkins",
+        "kind": "elected_official",
+        "cites": [11]
+      },
+      {
+        "organization": "Chicago Alderperson Michelle Harris",
+        "kind": "elected_official",
+        "cites": [11]
+      },
+      {
+        "organization": "Chicago Alderperson Pete Chico",
+        "kind": "elected_official",
+        "cites": [11]
+      },
+      {
+        "organization": "Chicago Alderperson Stephanie Coleman",
+        "kind": "elected_official",
+        "cites": [11]
+      },
+      {
+        "organization": "Chicago Alderperson David Moore",
+        "kind": "elected_official",
+        "cites": [11]
+      },
+      {
+        "organization": "Chicago Alderperson Derrick Curtis",
+        "kind": "elected_official",
+        "cites": [11]
+      },
+      {
+        "organization": "Chicago Alderperson Matt O'Shea",
+        "kind": "elected_official",
+        "cites": [11]
+      },
+      {
+        "organization": "Chicago Alderperson Walter \"Red\" Burnett",
+        "kind": "elected_official",
+        "cites": [11]
+      },
+      {
+        "organization": "Chicago Alderperson Jason Erivin",
+        "kind": "elected_official",
+        "cites": [11]
+      },
+      {
+        "organization": "Chicago Alderperson Ruth Cruz",
+        "kind": "elected_official",
+        "cites": [11]
+      },
+      {
+        "organization": "Chicago Alderperson Felix Cardona",
+        "kind": "elected_official",
+        "cites": [11]
+      },
+      {
+        "organization": "Chicago Alderperson Bill Conway",
+        "kind": "elected_official",
+        "cites": [11]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [12]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "What to know about the March 17 Democratic primary race for Cook ...",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/02/06/what-to-know-democratic-primary-cook-county-assessor-fritz-kaegi-pat-hynes",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Cook County assessor candidates grapple over the reasons for skyrocketing property taxes",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/03/13/cook-county-assessor-candidates-property-taxes/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "About Pat | Patrick Hynes for Cook County Assessor",
+      "publisher": "Patrick Hynes for Cook County Assessor",
+      "url": "https://www.assessorhynes.com/about-us",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Who is running for Cook County Assessor in the 2026 ... - CBS News",
+      "publisher": "CBS Chicago",
+      "url": "https://www.cbsnews.com/chicago/news/who-is-running-cook-county-assessor-2026-primary-elections/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Cook County assessor candidates spar over ‘garbage' data, property tax shifts",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/02/19/cook-county-assessor-candidates-data-property-tax-shifts/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "New assessor could offer property tax relief to data centers - Axios",
+      "publisher": "Axios Chicago",
+      "url": "https://www.axios.com/local/chicago/2026/08/28/data-center-property-tax-relief-could-come-",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Pat Hynes Will Fix the Broken Property Tax System as Cook ...",
+      "publisher": "Lyons Township Democrats",
+      "url": "https://lyonstownshipdemocrats.org/2026/04/10/3140/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Two-term incumbent faces party's pick in Cook County assessor primary",
+      "publisher": "Daily Herald",
+      "url": "https://www.dailyherald.com/20260313/local-politics/two-term-incumbent-faces-partys-pick-in-cook-county-assessor-primary/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Chicago Real Estate Pros Favor Pat Hynes in Assessor Race",
+      "publisher": "The Real Deal",
+      "url": "https://therealdeal.com/chicago/2026/02/06/chicago-real-estate-pros-favor-pat-hynes-in-assessor-race/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Assessor's Race - BOMA / CHICAGO",
+      "publisher": "BOMA/Chicago",
+      "url": "https://www.bomachicago.org/assessor/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Endorsements — Pat Hynes for Cook County Assessor",
+      "publisher": "Pat Hynes for Cook County Assessor",
+      "url": "https://www.assessorhynes.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:33:31.353Z",
+    "version": 3
+  }
+}

@@ -1,0 +1,401 @@
+{
+  "key": "patty-garcia",
+  "electionId": "il-2026-11-03-general",
+  "name": "Patty Garcia",
+  "party": "Democratic",
+  "office": "U.S. Representative, 4th District",
+  "contestIds": [
+    "chicago-boe:u-s-representative-4th-district",
+    "cook-clerk:140400"
+  ],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Patty Garcia worked in U.S. Rep. Jesús “Chuy” García’s office starting in 2019 and resigned as his chief of staff in 2025. She holds a doctorate in educational policy studies from the University of Illinois at Urbana-Champaign.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Patty Garcia worked in U.S. Rep. Jesús “Chuy” García’s office starting in 2019 and resigned as his chief of staff in 2025.",
+            "cites": [1]
+          },
+          {
+            "text": "She holds a doctorate in educational policy studies from the University of Illinois at Urbana-Champaign.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "She has said she supports a $25 federal minimum wage and Medicare for All. She has called for abolishing U.S. Immigration and Customs Enforcement, and her campaign website states immigration enforcement is “being used to terrorize working-class communities.” She has also said she would prioritize creating a pathway to citizenship and work permits for longtime immigrants, and expanding access to affordable higher education.",
+        "cites": [3, 4, 5],
+        "sentences": [
+          {
+            "text": "She has said she supports a $25 federal minimum wage and Medicare for All.",
+            "cites": [3]
+          },
+          {
+            "text": "She has called for abolishing U.S. Immigration and Customs Enforcement, and her campaign website states immigration enforcement is “being used to terrorize working-class communities.”",
+            "cites": [4]
+          },
+          {
+            "text": "She has also said she would prioritize creating a pathway to citizenship and work permits for longtime immigrants, and expanding access to affordable higher education.",
+            "cites": [5]
+          }
+        ]
+      },
+      {
+        "text": "She says she brought in millions of dollars in federal support while working in the congressional office.",
+        "cites": [3],
+        "sentences": [
+          {
+            "text": "She says she brought in millions of dollars in federal support while working in the congressional office.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Patty Garcia for Congress",
+        "url": "https://www.fec.gov/data/committee/C00925495/?cycle=2026",
+        "period": "October 1, 2025 to June 30, 2026",
+        "raised": 358667.1,
+        "cashOnHand": 185499.02,
+        "breakdown": [
+          { "kind": "small", "amount": 25299.59 },
+          { "kind": "large", "amount": 152610 },
+          { "kind": "pac", "amount": 172800 },
+          { "kind": "other", "amount": 7957.51 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "U.S. Rep. Jesús \"Chuy\" García",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "U.S. Rep. Delia Ramirez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Ro Khanna",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Jonathan Jackson",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Pramila Jayapal",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Pete Aguilar",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Ted Lieu",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Joe Neguse",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Nikki Budzinski",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Adam Smith",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Sylvia Garcia",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Robert Garcia",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Salud Carbajal",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Frank Pallone",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Brad Sherman",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Gil Cisneros",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Jerry Nadler",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Illinois Secretary of State Alexi Giannoulias",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [8]
+      },
+      {
+        "organization": "Lt. Gov. Juliana Stratton",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [8]
+      },
+      {
+        "organization": "Illinois Senate President Don Harmon",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Illinois House Speaker Chris Welch",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Cook County Board President Toni Preckwinkle",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [8]
+      },
+      {
+        "organization": "Congressional Progressive Caucus PAC",
+        "kind": "organization",
+        "cites": [9]
+      },
+      { "organization": "CHC BOLD PAC", "kind": "organization", "cites": [10] },
+      {
+        "organization": "Elect Democratic Women",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "National Nurses United",
+        "kind": "union",
+        "cites": [12]
+      },
+      {
+        "organization": "Our Revolution",
+        "kind": "organization",
+        "cites": [13]
+      },
+      {
+        "organization": "Progressive Democrats of America",
+        "kind": "organization",
+        "cites": [14]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [8]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [8] },
+      {
+        "organization": "Citizen Action Illinois",
+        "kind": "organization",
+        "cites": [14]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "Latino Leadership Council",
+        "kind": "organization",
+        "cites": [14]
+      },
+      {
+        "organization": "Democratic Party of IL-04",
+        "kind": "party",
+        "cites": [14]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [15]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "What to know about the 4th Congressional District race",
+      "publisher": "WBEZ",
+      "url": "https://www.wbez.org/government-politics/elections/2026/10/01/what-to-know-4th-congressional-district-patty-garcia-chris-getty-lupe-castillo-ed-hershey-us-rep-jesus-chuy-garcia",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Candidates for 'Chuy' Garcia's seat in Congress face off",
+      "publisher": "Fox 32 Chicago",
+      "url": "https://www.fox32chicago.com/news/election-2026-chuy-garcia-seat-candidates",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Illinois 4th District race: Rivals hit Patty García over ballot moves in race to succeed Jesús ‘Chuy’ García",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/09/29/illinois-4th-district-race-rivals-hit-patty-garcia-over-ballot-moves-in-race-to-succeed-chuy-garcia/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Democrat Patty García gains party’s nomination after controversial last-minute dropout by incumbent",
+      "publisher": "Fox News",
+      "url": "https://www.foxnews.com/politics/democrat-patty-garcia-gains-partys-nomination-after-controversial-last-minute-dropout-incumbent",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Amid Controversy Sparked by Chuy García’s Resignation, Patty Garcia Vows to Stand on Her Own",
+      "publisher": "WTTW",
+      "url": "https://news.wttw.com/2025/11/20/amid-controversy-sparked-chuy-garc-s-resignation-patty-garcia-vows-stand-her-own",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "As Chuy García Retires, Independents See Opportunity For New Era Of Latino Leadership",
+      "publisher": "Block Club Chicago",
+      "url": "https://blockclubchicago.org/2026/03/17/as-chuy-garcia-retires-independents-see-opportunity-for-new-era-of-latino-leadership/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Members of Congress Endorsing Patty García",
+      "publisher": "Politico",
+      "url": "https://www.politico.com/f/?id=000001a0-ca0d-d975-a9a5-da6f85090000",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Patty García wants to move past last minute ballot maneuver, says voters 'aren't talking about the process'",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/07/21/patty-garcia-4th-congressional-district-midterm-election-ballot-challenges",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Congressional Progressive Caucus PAC Endorses Patty Garcia",
+      "publisher": "Congressional Progressive Caucus PAC",
+      "url": "https://weareprogressives.org/congressional-progressive-caucus-pac-endorses-patty-garcia-for-il-04/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "CHC BOLD PAC Endorses Patty García for Congress in Illinois's 4th Congressional District",
+      "publisher": "CHC BOLD PAC",
+      "url": "https://www.boldpac.com/chc-bold-pac-endorses-patty-garcia-for-congress-in-illinois-s-4th-congressional-district",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Elect Democratic Women Endorses Patty Garcia for Illinois’ 4th Congressional District",
+      "publisher": "Elect Democratic Women",
+      "url": "https://electdemocraticwomen.org/news/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 12,
+      "title": "National Nurses United endorses Patty Garcia for Illinois’ 4th District",
+      "publisher": "National Nurses United",
+      "url": "https://www.nationalnursesunited.org/press/national-nurses-united-endorses-patty-garcia-for-illinois-4th-district",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 13,
+      "title": "Patty Garcia for U.S. Congress in Illinois’ 4th District",
+      "publisher": "Our Revolution",
+      "url": "https://ourrevolution.com/patty-garcia-us-congress/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 14,
+      "title": "Patty García for Congress",
+      "publisher": "Patty Garcia for Congress",
+      "url": "https://pattyforillinois.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 15
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:36:19.694Z",
+    "version": 7
+  }
+}

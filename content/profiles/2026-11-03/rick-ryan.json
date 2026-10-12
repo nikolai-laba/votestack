@@ -1,0 +1,175 @@
+{
+  "key": "rick-ryan",
+  "electionId": "il-2026-11-03-general",
+  "name": "Rick Ryan",
+  "party": "Democratic",
+  "office": "State Representative, 36th District",
+  "contestIds": [
+    "chicago-boe:state-representative-36th-district",
+    "cook-clerk:183600"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Rick Ryan is the Democratic State Representative for the 36th District, serving since January 2025. An attorney for over thirty years, he graduated from DePaul University and John Marshall Law School. The Illinois Supreme Court censured him in 2013 for withdrawing his legal fees before depositing a client's settlement funds.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Rick Ryan is the Democratic State Representative for the 36th District, serving since January 2025.",
+            "cites": [1]
+          },
+          {
+            "text": "An attorney for over thirty years, he graduated from DePaul University and John Marshall Law School.",
+            "cites": [2]
+          },
+          {
+            "text": "The Illinois Supreme Court censured him in 2013 for withdrawing his legal fees before depositing a client's settlement funds.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "He sponsored a bill allowing public defenders to represent DUI clients in both criminal and civil hearings, and a measure addressing junk fees that he says cost consumers an estimated $3,000 every year. In May 2026, he voted to establish the Reproductive Health Records Privacy Act and to reform guardianship procedures for adults with disabilities. He sponsored HB4793, a law concerning pharmacists' ability to dispense medications.",
+        "cites": [4, 5, 6],
+        "sentences": [
+          {
+            "text": "He sponsored a bill allowing public defenders to represent DUI clients in both criminal and civil hearings, and a measure addressing junk fees that he says cost consumers an estimated $3,000 every year.",
+            "cites": [4]
+          },
+          {
+            "text": "In May 2026, he voted to establish the Reproductive Health Records Privacy Act and to reform guardianship procedures for adults with disabilities.",
+            "cites": [5]
+          },
+          {
+            "text": "He sponsored HB4793, a law concerning pharmacists' ability to dispense medications.",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Rick Ryan",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39609",
+        "period": "April 1 to June 30, 2026",
+        "raised": 0,
+        "cashOnHand": 95630.08,
+        "breakdown": [],
+        "largeSince": { "since": "2026-06-30", "total": 62000, "count": 38 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [7] },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [8] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [10]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Rick Ryan - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rick_Ryan",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Rick Ryan for State Representative",
+      "publisher": "Rick Ryan campaign",
+      "url": "https://www.rickryan36district.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "IL State Rep Candidate Once Censured For 'Mishandling Client Funds'",
+      "publisher": "Patch",
+      "url": "https://patch.com/illinois/oaklawn/il-state-rep-candidate-once-censured-mishandling-client-funds",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Rep. Rick Ryan",
+      "publisher": "Rick Ryan campaign",
+      "url": "https://ilhousedems.com/project/rep-rick-ryan/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Illinois State House District 36 - News & Information | South Cook ...",
+      "publisher": "South Cook News",
+      "url": "https://southcooknews.com/organization/illinois-state-house-district-36",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Rick Ryan (D) - Illinois General Assembly - Member",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/house/members/details/3457",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Illinois AFL-CIO 2026 General Election Endorsements",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ibewlocal176.org/uploads/8/9/0/2/89025372/il_afl-cio_gen_endorsements_072326.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:06:16.294Z",
+    "version": 7
+  }
+}

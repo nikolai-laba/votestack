@@ -1,0 +1,205 @@
+{
+  "key": "bill-lowry",
+  "electionId": "il-2026-11-03-general",
+  "name": "Bill Lowry",
+  "party": "Democratic",
+  "office": "Cook County Commissioner, 3rd District",
+  "contestIds": [
+    "chicago-boe:county-commissioner-3rd-district",
+    "cook-clerk:220300"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Bill Lowry has served as Cook County Commissioner for the 3rd District since 2018. He chairs the Health and Hospitals Committee. He founded the anti-violence group The It’s Time Organization. His campaign says he created a program offering free cancer screenings during a resident’s birthday month.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Bill Lowry has served as Cook County Commissioner for the 3rd District since 2018.",
+            "cites": [1]
+          },
+          {
+            "text": "He chairs the Health and Hospitals Committee.",
+            "cites": [2]
+          },
+          {
+            "text": "He founded the anti-violence group The It’s Time Organization.",
+            "cites": [3]
+          },
+          {
+            "text": "His campaign says he created a program offering free cancer screenings during a resident’s birthday month.",
+            "cites": [4]
+          }
+        ]
+      },
+      {
+        "text": "His campaign says he sponsored the $3.6 million Cook County Cannabis Development Grant Program. His campaign says he supports economic growth, criminal justice reform, and affordable healthcare access.",
+        "cites": [5, 6],
+        "sentences": [
+          {
+            "text": "His campaign says he sponsored the $3.6 million Cook County Cannabis Development Grant Program.",
+            "cites": [5]
+          },
+          {
+            "text": "His campaign says he supports economic growth, criminal justice reform, and affordable healthcare access.",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Bill Lowry",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=34015",
+        "period": "April 1 to June 30, 2026",
+        "raised": 52780,
+        "cashOnHand": 63052.75,
+        "breakdown": [
+          { "kind": "small", "amount": 2230 },
+          { "kind": "large", "amount": 49550 },
+          { "kind": "transfer", "amount": 1000 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 22650, "count": 16 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Citizen Action/Illinois",
+        "kind": "organization",
+        "cites": [7]
+      },
+      { "organization": "SEIU Healthcare", "kind": "union", "cites": [8] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 399",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [11]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [12] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Bill Lowry",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Bill_Lowry",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Bill Lowry",
+      "publisher": "cookcountyil.gov",
+      "url": "https://www.cookcountyil.gov/all-people/bill-lowry",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Bill Lowry - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bill_Lowry",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "About | Bill Lowry For Cook County",
+      "publisher": "Bill Lowry campaign",
+      "url": "https://www.billlowry.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "ABOUT BILL LOWRY -",
+      "publisher": "Bill Lowry campaign",
+      "url": "https://billlowrycommissioner.com/about-bill-lowry/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Cook County Commissioner District 3: 2026 Candidates & Ballot",
+      "publisher": "The Ballot Brief",
+      "url": "https://theballotbrief.com/state/illinois/cook-county/commissioner-district-3",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements — Citizen Action/Illinois",
+      "publisher": "Citizen Action/Illinois",
+      "url": "https://citizenaction-il.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "2026 Cook County Board of Commissioners election - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "MARCH 17, 2026 PRIMARY ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/P2026_PrimaryEndorsementList_COOK-v4.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "2026 LOCAL 399 ILLINOIS PRIMARY ELECTION ENDORSEMENTS",
+      "publisher": "IUOE Local 399",
+      "url": "http://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:20:45.716Z",
+    "version": 6
+  }
+}

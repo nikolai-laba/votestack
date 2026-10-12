@@ -1,0 +1,118 @@
+{
+  "key": "joseph-johnson",
+  "electionId": "il-2026-11-03-general",
+  "name": "Joseph Johnson",
+  "party": "Republican",
+  "office": "State Representative, 55th District",
+  "contestIds": [
+    "chicago-boe:state-representative-55th-district",
+    "cook-clerk:185500"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Joseph Johnson is a small-business owner. He lives in Glenview, was raised in Northlake, and previously worked in finance before starting a consulting business.",
+        "cites": [1, 2],
+        "sentences": [
+          { "text": "Joseph Johnson is a small-business owner.", "cites": [1] },
+          {
+            "text": "He lives in Glenview, was raised in Northlake, and previously worked in finance before starting a consulting business.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "He says high taxes, unsafe streets, and a lack of opportunity cause people to leave Illinois. Johnson supports cutting taxes, reducing government spending, and backing law enforcement. He says parents should have a say in education and political agendas should stay out of classrooms. He also pledges to support small businesses to help jobs thrive.",
+        "cites": [1, 3],
+        "sentences": [
+          {
+            "text": "He says high taxes, unsafe streets, and a lack of opportunity cause people to leave Illinois.",
+            "cites": [1]
+          },
+          {
+            "text": "Johnson supports cutting taxes, reducing government spending, and backing law enforcement.",
+            "cites": [3]
+          },
+          {
+            "text": "He says parents should have a say in education and political agendas should stay out of classrooms.",
+            "cites": [3]
+          },
+          {
+            "text": "He also pledges to support small businesses to help jobs thrive.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Joseph For Illinois",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40936",
+        "period": "July 1 to September 30, 2026",
+        "raised": 7957.37,
+        "cashOnHand": 10386.16,
+        "breakdown": [
+          { "kind": "small", "amount": 1177.07 },
+          { "kind": "large", "amount": 6780.3 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Northfield Township Republican Organization",
+        "kind": "party",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Joseph Johnson for State Representative",
+      "publisher": "Joseph Johnson for State Representative",
+      "url": "https://www.josephforillinois.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Who's Running To Represent Glenview In November General Election",
+      "publisher": "Journal & Topics",
+      "url": "https://www.journal-topics.com/articles/whos-running-to-represent-glenview-in-november-general-election/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Joseph Johnson | BallotReady",
+      "publisher": "BallotReady",
+      "url": "https://www.ballotready.org/people/joseph-johnson-82bf4998-a7e6-4fd1-8550-e85b6e109aa8",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Northfield Township Republicans Endorse Dabrowski, Tracy, Harris, Brown",
+      "publisher": "Northfield Township Republican Organization",
+      "url": "https://www.northfieldgop.org/northfield_township_republicans_endorse_dabrowski_tracy_harris_brown",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:15:08.065Z",
+    "version": 3
+  }
+}

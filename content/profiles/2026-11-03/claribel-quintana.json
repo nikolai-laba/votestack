@@ -1,0 +1,54 @@
+{
+  "key": "claribel-quintana",
+  "electionId": "il-2026-11-03-general",
+  "name": "Claribel Quintana",
+  "office": "South Lyons Township Sanitary District Trustee",
+  "contestIds": ["cook-clerk:390201"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Claribel Quintana is a candidate for trustee of the South Lyons Township Sanitary District. She has served on the Countryside fire and police commission since May 2025.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Claribel Quintana is a candidate for trustee of the South Lyons Township Sanitary District.",
+            "cites": [1]
+          },
+          {
+            "text": "She has served on the Countryside fire and police commission since May 2025.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": { "asOf": "2026-10-07", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "South Lyons Township Sanitary District - Voter Guide",
+      "publisher": "VOTE411",
+      "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=72997694",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Quintana joins Countryside police commission after years of interest",
+      "publisher": "Southwest Regional Publishing",
+      "url": "https://southwestregionalpublishing.com/2025/06/16/quintana-joins-countryside-police-commission-after-years-of-interest/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:32:15.725Z",
+    "version": 3
+  }
+}

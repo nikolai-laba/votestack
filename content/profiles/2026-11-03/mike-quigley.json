@@ -1,0 +1,298 @@
+{
+  "key": "mike-quigley",
+  "electionId": "il-2026-11-03-general",
+  "name": "Mike Quigley",
+  "party": "Democratic",
+  "office": "U.S. Representative, 5th District",
+  "contestIds": [
+    "chicago-boe:u-s-representative-5th-district",
+    "cook-clerk:140500"
+  ],
+  "kind": "candidate",
+  "tier": "top",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Mike Quigley has represented Illinois's 5th District in the U.S. House since 2009. He previously served on the Cook County Board of Commissioners and taught environmental policy at Loyola University Chicago. In the House, he sits on the Intelligence Committee and the Appropriations Committee, where he serves on the Transportation, Housing and Urban Development subcommittee. He co-chairs the Congressional Ukraine Caucus and founded the Transparency Caucus.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Mike Quigley has represented Illinois's 5th District in the U.S. House since 2009.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously served on the Cook County Board of Commissioners and taught environmental policy at Loyola University Chicago.",
+            "cites": [2]
+          },
+          {
+            "text": "In the House, he sits on the Intelligence Committee and the Appropriations Committee, where he serves on the Transportation, Housing and Urban Development subcommittee.",
+            "cites": [3]
+          },
+          {
+            "text": "He co-chairs the Congressional Ukraine Caucus and founded the Transparency Caucus.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "Quigley has said U.S. elections are secure and supported funding for equipment upgrades and poll worker training. He criticized the Safeguard American Voter Eligibility Act, saying its requirements for proof of citizenship and photo IDs would make voting more difficult. In 2026, he co-introduced a bill to create a defense working group between the U.S. and Ukraine. He has called for the dismantling of U.S. Immigration and Customs Enforcement in its current form.",
+        "cites": [4, 5, 6],
+        "sentences": [
+          {
+            "text": "Quigley has said U.S. elections are secure and supported funding for equipment upgrades and poll worker training.",
+            "cites": [4]
+          },
+          {
+            "text": "He criticized the Safeguard American Voter Eligibility Act, saying its requirements for proof of citizenship and photo IDs would make voting more difficult.",
+            "cites": [4]
+          },
+          {
+            "text": "In 2026, he co-introduced a bill to create a defense working group between the U.S. and Ukraine.",
+            "cites": [5]
+          },
+          {
+            "text": "He has called for the dismantling of U.S. Immigration and Customs Enforcement in its current form.",
+            "cites": [6]
+          }
+        ]
+      },
+      {
+        "text": "In 2021, he announced his support for the Medicare for All Act. He co-led the 2026 House passage of a bill to reauthorize the 2021 ACT for ALS law, which funds research for neurodegenerative diseases. In 2026, he co-introduced legislation to nullify a rule that weakened Endangered Species Act protections. He has secured over $58 million in community project funding for his district, including CTA station upgrades and lead pipe replacement.",
+        "cites": [2, 7, 8, 9],
+        "sentences": [
+          {
+            "text": "In 2021, he announced his support for the Medicare for All Act.",
+            "cites": [2]
+          },
+          {
+            "text": "He co-led the 2026 House passage of a bill to reauthorize the 2021 ACT for ALS law, which funds research for neurodegenerative diseases.",
+            "cites": [7]
+          },
+          {
+            "text": "In 2026, he co-introduced legislation to nullify a rule that weakened Endangered Species Act protections.",
+            "cites": [8]
+          },
+          {
+            "text": "He has secured over $58 million in community project funding for his district, including CTA station upgrades and lead pipe replacement.",
+            "cites": [9]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Quigley for Congress",
+        "url": "https://www.fec.gov/data/committee/C00457556/?cycle=2026",
+        "period": "January 1, 2025 to June 30, 2026",
+        "raised": 725694.88,
+        "cashOnHand": 1187817.91,
+        "breakdown": [
+          { "kind": "small", "amount": 7552.28 },
+          { "kind": "large", "amount": 237025 },
+          { "kind": "pac", "amount": 480607.55 },
+          { "kind": "other", "amount": 510.05 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Tribune",
+        "kind": "editorial_board",
+        "cites": [10]
+      },
+      {
+        "organization": "American Federation of Government Employees",
+        "kind": "union",
+        "cites": [11]
+      },
+      { "organization": "Brady PAC", "kind": "organization", "cites": [12] },
+      {
+        "organization": "Humane World Action Fund",
+        "kind": "organization",
+        "cites": [13]
+      },
+      {
+        "organization": "Sierra Club Independent Action",
+        "kind": "organization",
+        "cites": [14]
+      },
+      {
+        "organization": "Illinois NOW PAC",
+        "kind": "organization",
+        "cites": [15]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [16]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [17]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [18] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Mike Quigley - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mike_Quigley",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Mike Quigley - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Michael_Quigley_(politician)",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Committees and Caucuses",
+      "publisher": "Congressman Mike Quigley",
+      "url": "https://quigley.house.gov/about/committees-and-caucuses",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "In 5th Congressional race, Quigley and Hanson at odds over U.S. election security",
+      "publisher": "Daily Herald",
+      "url": "https://www.dailyherald.com/20261006/us-congress-politics/in-5th-congressional-race-quigley-and-hanson-at-odds-over-u-s-election-security/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Ukraine Caucus Introduces Bipartisan Strategic Unmanned Systems Partnership Act to Increase Security Cooperation and Strengthen Defense Capabilities Between the United States and Ukraine",
+      "publisher": "Congressman Mike Quigley",
+      "url": "https://quigley.house.gov/media-center/press-releases/ukraine-caucus-introduces-bipartisan-strategic-unmanned-systems",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Media Center | Congressman Mike Quigley",
+      "publisher": "Congressman Mike Quigley",
+      "url": "https://quigley.house.gov/media-center?page=3",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Quigley, Calvert Legislation To Reauthorize ALS Research Funding Program Passes the House",
+      "publisher": "Congressman Mike Quigley",
+      "url": "https://quigley.house.gov/media-center/press-releases/quigley-calvert-legislation-reauthorize-als-research-funding-program",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Press Releases | Congressman Mike Quigley - House.gov",
+      "publisher": "Congressman Mike Quigley",
+      "url": "http://quigley.house.gov/media-center/press-releases",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Quigley Secures Nearly $18 Million for 15 Local Projects in FY26 Community Project Funding",
+      "publisher": "Congressman Mike Quigley",
+      "url": "https://quigley.house.gov/media-center/press-releases/quigley-secures-nearly-18-million-15-local-projects-fy26-community",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Editorial: Mike Quigley for US House of Representatives in District 5",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/10/05/editorial-mike-quigley-u-s-house-of-representatives-illinois-district-5/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "AFGE Endorses 2 More Illinois Lawmakers for Reelection to Congress",
+      "publisher": "American Federation of Government Employees",
+      "url": "https://www.afge.org/publication/afge-endorses-2-more-illinois-lawmakers-for-reelection-to-congress",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 12,
+      "title": "Brady PAC Endorses 26 Leading Gun Violence Prevention Champions in Congress",
+      "publisher": "Brady PAC",
+      "url": "https://bradypac.org/brady-pac-endorses-26-leading-gun-violence-prevention-champions-in-congress/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 13,
+      "title": "Humane World Action Fund endorses Congressman Mike Quigley for reelection in IL-05 race",
+      "publisher": "Humane World Action Fund",
+      "url": "https://humaneaction.org/press-release/2026/02/humane-world-action-fund-endorses-congressman-mike-quigley-reelection-il-05",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 14,
+      "title": "Sierra Club Endorsements: 2026 Elections",
+      "publisher": "Sierra Club Independent Action",
+      "url": "https://www.sierraclubindependentaction.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 15,
+      "title": "Illinois NOW Political Action Committee",
+      "publisher": "Illinois NOW",
+      "url": "https://ilnow.org/illinois-now-political-action-committee/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 18
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:06:19.323Z",
+    "version": 10
+  }
+}

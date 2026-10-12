@@ -1,0 +1,36 @@
+{
+  "key": "antoinette-jewel-simmons",
+  "electionId": "il-2026-11-03-general",
+  "name": "Antoinette Jewel Simmons",
+  "party": "Republican",
+  "office": "State Representative, 25th District",
+  "contestIds": [
+    "chicago-boe:state-representative-25th-district",
+    "cook-clerk:182500"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": { "asOf": "2026-10-07", "items": [] },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Antoinette Jewel Simmons",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40934",
+        "period": "April 1 to June 30, 2026",
+        "raised": 0,
+        "cashOnHand": 0,
+        "breakdown": []
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-07", "items": [] },
+  "sources": [],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:44:45.112Z",
+    "version": 3
+  }
+}

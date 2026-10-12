@@ -1,0 +1,228 @@
+{
+  "key": "don-harmon",
+  "electionId": "il-2026-11-03-general",
+  "name": "Don Harmon",
+  "party": "Democratic",
+  "office": "State Senator, 39th District",
+  "contestIds": [
+    "chicago-boe:state-senator-39th-district",
+    "cook-clerk:173902"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Don Harmon, an attorney, has served as Illinois Senate President since 2020 and represented the 39th District since 2003. He supports gun control and backed a 2023 assault weapons ban. His campaign says he created the Illinois Early Learning Council, leading to the Pre-School for All program. It says he negotiated a law barring state contractors from donating to officeholders. He sponsored a law abolishing life sentences without parole for juveniles.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Don Harmon, an attorney, has served as Illinois Senate President since 2020 and represented the 39th District since 2003.",
+            "cites": [1]
+          },
+          {
+            "text": "He supports gun control and backed a 2023 assault weapons ban.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he created the Illinois Early Learning Council, leading to the Pre-School for All program.",
+            "cites": [2]
+          },
+          {
+            "text": "It says he negotiated a law barring state contractors from donating to officeholders.",
+            "cites": [2]
+          },
+          {
+            "text": "He sponsored a law abolishing life sentences without parole for juveniles.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "He backed a 2025 Prisoner Review Board reform bill giving victims more notice and the ability to file impact statements. He delayed a redistricting amendment to evaluate a U.S. Supreme Court voting rights ruling. His campaign cites eleven state credit rating upgrades since 2021 and eight balanced budgets.",
+        "cites": [4, 5, 6],
+        "sentences": [
+          {
+            "text": "He backed a 2025 Prisoner Review Board reform bill giving victims more notice and the ability to file impact statements.",
+            "cites": [4]
+          },
+          {
+            "text": "He delayed a redistricting amendment to evaluate a U.S. Supreme Court voting rights ruling.",
+            "cites": [5]
+          },
+          {
+            "text": "His campaign cites eleven state credit rating upgrades since 2021 and eight balanced budgets.",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Don Harmon for State Senate",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=16283",
+        "period": "April 1 to June 30, 2026",
+        "raised": 1224792.77,
+        "cashOnHand": 19917425.47,
+        "breakdown": [
+          { "kind": "small", "amount": 100 },
+          { "kind": "large", "amount": 116500 },
+          { "kind": "transfer", "amount": 1103000 },
+          { "kind": "other", "amount": 5192.77 }
+        ],
+        "largeSince": {
+          "since": "2026-06-30",
+          "total": 5406223.57,
+          "count": 294
+        }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Illinois Education Association",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "Citizen Action/Illinois",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [7]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [10] },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [7]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [11] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [12]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Don Harmon - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Don_Harmon",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "About President Harmon",
+      "publisher": "Don Harmon campaign",
+      "url": "http://donharmon.org/?view=category&id=39",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Who is Don Harmon? Meet the new Illinois Senate president",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2020/01/19/who-is-don-harmon-meet-the-new-illinois-senate-president/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Prisoner Review Board reform bill clears Senate",
+      "publisher": "NPR Illinois",
+      "url": "https://www.nprillinois.org/government-politics/2025-04-14/prisoner-review-board-reform-bill-clears-senate",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Illinois lawmakers punt remap amendment after SCOTUS Voting ...",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/illinois-lawmakers-punt-remap-amendment-after-scotus-voting-rights-act-ruling/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "News",
+      "publisher": "Don Harmon campaign",
+      "url": "http://www.donharmon.org/news",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "DuPage County Republicans: Here's who's on your Nov. 3 ballot",
+      "publisher": "DuPage Policy Journal",
+      "url": "https://dupagepolicyjournal.com/dupage-county-republicans-here-s-who-s-on-your-nov-3-ballot",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Endorsements — Citizen Action/Illinois",
+      "publisher": "Citizen Action/Illinois",
+      "url": "https://citizenaction-il.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:54:29.765Z",
+    "version": 3
+  }
+}

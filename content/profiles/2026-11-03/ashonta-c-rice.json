@@ -1,0 +1,194 @@
+{
+  "key": "ashonta-c-rice",
+  "electionId": "il-2026-11-03-general",
+  "name": "Ashonta C. Rice",
+  "party": "Democratic",
+  "office": "Circuit Court Judge, Cook County (Vacancy of Coghlan)",
+  "contestIds": [
+    "chicago-boe:judge-of-the-circuit-court-vacancy-of-coghlan",
+    "cook-clerk:330110:vacancy-of-coghlan"
+  ],
+  "kind": "judicial_candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Ashonta C. Rice was appointed to the Circuit Court of Cook County in August 2026 and assigned to the First Municipal District. She was admitted to the Illinois bar in 2005 and served in the Cook County Public Guardian’s Office, representing minors in abuse and neglect proceedings. She later spent 18 years in private practice focused on family law, child protection litigation, and guardianship.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Ashonta C. Rice was appointed to the Circuit Court of Cook County in August 2026 and assigned to the First Municipal District.",
+            "cites": [1]
+          },
+          {
+            "text": "She was admitted to the Illinois bar in 2005 and served in the Cook County Public Guardian’s Office, representing minors in abuse and neglect proceedings.",
+            "cites": [2]
+          },
+          {
+            "text": "She later spent 18 years in private practice focused on family law, child protection litigation, and guardianship.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends for Ashonta",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39572",
+        "period": "April 1 to June 30, 2026",
+        "raised": 0,
+        "cashOnHand": 1082.66,
+        "breakdown": []
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "Personal PAC", "kind": "organization", "cites": [4] },
+      {
+        "organization": "Independent Voters of Illinois-Independent Precinct Organization",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Chicago Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [6]
+      },
+      {
+        "organization": "Chicago Council of Lawyers",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [7]
+      },
+      {
+        "organization": "Illinois State Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [1]
+      },
+      {
+        "organization": "Alliance of Bar Associations for Judicial Screening",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "tally": {
+          "members": 11,
+          "ratings": [
+            { "rating": "Recommended", "count": 9 },
+            { "rating": "Qualified", "count": 2 }
+          ],
+          "notEvaluated": 0
+        },
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Cook County Judicial Evaluations - Illinois State Bar Association",
+      "publisher": "Illinois State Bar Association",
+      "url": "https://www.isba.org/judicial-elections/counties/cook",
+      "kind": "bar",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "The Chicago Council of Lawyers Judicial Evaluations for ...",
+      "publisher": "Chicago Council of Lawyers",
+      "url": "https://voteforjudges.org/wp-content/uploads/2026/03/2026-CCL-Write-ups-for-Primary-candidates-FINAL-03132026.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "“Judge Smart” Guide - chicagobar.org",
+      "publisher": "Chicago Bar Association",
+      "url": "https://www.chicagobar.org/common/Uploaded%20files/JEC%20PDFs/2026MarchSmartGuide%20FINAL.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Our 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Ashonta C. Rice - March 2026 Cook County Judicial Election Guide",
+      "publisher": "Injustice Watch",
+      "url": "https://2026primary.injusticewatch.org/candidate/ashonta-c-rice-34952",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Vote Smart: CBA Judicial Voter's Guide, General Election, November 3, 2026",
+      "publisher": "Chicago Bar Association",
+      "url": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 6
+    },
+    {
+      "title": "Evaluation Report: Judges on the Ballot in the November 3, 2026 General Election",
+      "publisher": "Chicago Council of Lawyers",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/CCL-Judicial-Evaluation-Report-for-Nov-3-2026-General-Election_Ballot-Order.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 7
+    },
+    {
+      "title": "Alliance of Bar Associations for Judicial Screening, 2026 General Election ratings",
+      "publisher": "Alliance of Bar Associations for Judicial Screening",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/2026-Alliance-General-Ballot-Ratings-09252026.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 8
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:35:18.684Z",
+    "version": 4
+  }
+}

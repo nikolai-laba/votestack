@@ -1,0 +1,238 @@
+{
+  "key": "anna-moeller",
+  "electionId": "il-2026-11-03-general",
+  "name": "Anna Moeller",
+  "party": "Democratic",
+  "office": "State Representative, 43rd District",
+  "contestIds": ["cook-clerk:184300"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Anna Moeller has represented the 43rd District in the Illinois House since 2014. She earned history and public administration degrees from Northern Illinois University, and previously served on the Elgin City Council and as executive director of the McHenry County Council of Governments. She chairs the Health and Human Services Appropriations Committee and leads the Medicaid Working Group.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Anna Moeller has represented the 43rd District in the Illinois House since 2014.",
+            "cites": [1]
+          },
+          {
+            "text": "She earned history and public administration degrees from Northern Illinois University, and previously served on the Elgin City Council and as executive director of the McHenry County Council of Governments.",
+            "cites": [2]
+          },
+          {
+            "text": "She chairs the Health and Human Services Appropriations Committee and leads the Medicaid Working Group.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "She sponsored HB1910, a libraries-opioid antagonists measure enacted in 2025. She sponsored HB5408 to require exchange insurers to send 90% of unspent abortion funds to a state access fund. She supports protecting Illinois waterways, citing flood control and water quality. Her campaign says she supports reproductive freedom, senior services, and affordable healthcare, and opposes Medicaid and Social Security cuts.",
+        "cites": [1, 4, 5, 6],
+        "sentences": [
+          {
+            "text": "She sponsored HB1910, a libraries-opioid antagonists measure enacted in 2025.",
+            "cites": [1]
+          },
+          {
+            "text": "She sponsored HB5408 to require exchange insurers to send 90% of unspent abortion funds to a state access fund.",
+            "cites": [4]
+          },
+          {
+            "text": "She supports protecting Illinois waterways, citing flood control and water quality.",
+            "cites": [5]
+          },
+          {
+            "text": "Her campaign says she supports reproductive freedom, senior services, and affordable healthcare, and opposes Medicaid and Social Security cuts.",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends for Anna Moeller",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=25879",
+        "period": "April 1 to June 30, 2026",
+        "raised": 1300,
+        "cashOnHand": 62751.78,
+        "breakdown": [
+          { "kind": "small", "amount": 200 },
+          { "kind": "large", "amount": 1000 },
+          { "kind": "transfer", "amount": 100 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 56300, "count": 23 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Illinois Retired Teachers Association Political Action Committee",
+        "kind": "organization",
+        "cites": [8]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [7] },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Illinois Education Association",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [10] },
+      {
+        "organization": "Local 399 International Union of Operating Engineers",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [12]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [13] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [14]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Anna Moeller (D) - 104th General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/house/members/details/3308",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Anna Moeller - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Anna_Moeller",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Meet Anna – State Representative Anna Moeller",
+      "publisher": "State Representative Anna Moeller",
+      "url": "https://staterepmoeller.com/meet-anna/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Lawmakers advance Pritzker's cell phone ban, social media regulations",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/lawmakers-advance-pritzkers-cell-phone-ban-social-media-regulations/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Responding to federal threat, legislation would protect Illinois waterways",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/responding-to-federal-threat-legislation-would-protect-illinois-waterways/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Anna Moeller for Illinois – Focused on solving problems over politics",
+      "publisher": "Anna Moeller for Illinois",
+      "url": "https://annamoeller.org/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Kane County Republicans: Here's who's on your Nov. 3 ballot",
+      "publisher": "Kane County Reporter",
+      "url": "https://kanecountyreporter.com/kane-county-republicans-here-s-who-s-on-your-nov-3-ballot",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Retired Teachers Endorse Candidates for Illinois General Assembly",
+      "publisher": "Around Ptown",
+      "url": "https://aroundptown.com/retired-teachers-endorse-candidates-for-illinois-general-assembly/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Election 2026 – SEIU Local 73",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "2026 LOCAL 399 ILLINOIS PRIMARY ELECTION ENDORSEMENTS",
+      "publisher": "Local 399 International Union of Operating Engineers",
+      "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 14
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:08:20.887Z",
+    "version": 7
+  }
+}

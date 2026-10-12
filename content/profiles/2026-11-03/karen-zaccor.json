@@ -1,0 +1,206 @@
+{
+  "key": "karen-zaccor",
+  "electionId": "il-2026-11-03-general",
+  "name": "Karen Zaccor",
+  "office": "Chicago Board of Education Member, Subdistrict 4A",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-4a"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Karen Zaccor is the appointed Subdistrict 4A board member, a retired CPS teacher of 28 years who co-founded Uplift Community High School. She chaired a Local School Council and worked with Northside Action for Justice against privatization and for an elected school board.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Karen Zaccor is the appointed Subdistrict 4A board member, a retired CPS teacher of 28 years who co-founded Uplift Community High School.",
+            "cites": [1]
+          },
+          {
+            "text": "She chaired a Local School Council and worked with Northside Action for Justice against privatization and for an elected school board.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "Zaccor opposes school closures, arguing the district should instead revitalize low-enrollment schools. She advocates for Sustainable Community Schools and says the state owes the district roughly $2 billion. In 2025 she cosponsored a charter school accountability resolution, saying families at all schools should be able to count on their school staying open. She was appointed to the public school teachers’ pension board.",
+        "cites": [3, 4, 5, 6]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Neighbors for Karen Zaccor for ERSB",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39866",
+        "period": "April 1 to June 30, 2026",
+        "raised": 5290,
+        "cashOnHand": 5627.43,
+        "breakdown": [
+          { "kind": "small", "amount": 1990 },
+          { "kind": "large", "amount": 3300 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 31525.45, "count": 7 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "46th Ward Alderperson Angela Clay",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [8] },
+      {
+        "organization": "Asian American Midwest Progressives",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Chicago Teachers Union",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Cook County College Teachers Union",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Democratic Socialists of America",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Our Schools Chicago",
+        "kind": "organization",
+        "cites": [11]
+      },
+      { "kind": "party", "organization": "48th Ward Democrats", "cites": [4] },
+      {
+        "organization": "Northside Action for Justice",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Northside Democracy for America",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "46th Ward Neighbors United",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "44th Ward Action",
+        "kind": "organization",
+        "cites": [7]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Meet the new Chicago Board of Education",
+      "publisher": "Chalkbeat Chicago",
+      "url": "https://www.chalkbeat.org/chicago/2025/01/14/new-school-board-members/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Karen Zaccor - Chicago Board of Education",
+      "publisher": "Chicago Board of Education",
+      "url": "https://www.cpsboe.org/about/bios/2038",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Chicago school board election 2026 voter guide: District 4a ...",
+      "publisher": "Chalkbeat Chicago",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-election-2026-district-4a-candidates-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Chicago’s First Fully Elected School Board: A Guide to the 2A ...",
+      "publisher": "The Loyola Phoenix",
+      "url": "https://loyolaphoenix.com/2026/09/chicagos-first-fully-elected-school-board-a-guide-to-the-2a-2b-and-4a-races/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Chicago school board renews contracts for 21 charter ...",
+      "publisher": "Chalkbeat Chicago",
+      "url": "https://www.chalkbeat.org/chicago/2025/05/30/board-of-education-approves-21-charter-school-contract-renewals/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "[PDF] Chicago Board of Education",
+      "publisher": "Chicago Board of Education",
+      "url": "https://chicagoschoolboard.org/content/agendas/2025_01/January%2030%202025_Public%20Agenda%20to%20POST.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements",
+      "publisher": "Neighbors for Karen Zaccor",
+      "url": "https://www.neighborsforkarenzaccor.org/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Endorsements",
+      "publisher": "Asian American Midwest Progressives",
+      "url": "https://www.aamprogressives.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "2026 School Board Election",
+      "publisher": "Chicago Teachers Union",
+      "url": "https://www.ctulocal1.org/movement/school-board-election-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Key education endorsements for CPS School Board candidates",
+      "publisher": "WBEZ",
+      "url": "https://www.wbez.org/education/chicago-school-board/2026/09/21/key-education-endorsements-for-cps-school-board-candidates",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:44:44.570Z",
+    "version": 5
+  }
+}

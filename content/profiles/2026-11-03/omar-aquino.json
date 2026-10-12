@@ -1,0 +1,210 @@
+{
+  "key": "omar-aquino",
+  "electionId": "il-2026-11-03-general",
+  "name": "Omar Aquino",
+  "party": "Democratic",
+  "office": "State Senator, 2nd District",
+  "contestIds": ["chicago-boe:state-senator-2nd-district", "cook-clerk:170202"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Omar Aquino has represented the 2nd District in the Illinois Senate since 2016 and serves as Majority Caucus Chair. Before his election, he worked as an aide to Congresswoman Tammy Duckworth. His campaign says he also served as a legislative coordinator in the Illinois House.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Omar Aquino has represented the 2nd District in the Illinois Senate since 2016 and serves as Majority Caucus Chair.",
+            "cites": [1]
+          },
+          {
+            "text": "Before his election, he worked as an aide to Congresswoman Tammy Duckworth.",
+            "cites": [2]
+          },
+          {
+            "text": "His campaign says he also served as a legislative coordinator in the Illinois House.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "In the Senate, Aquino sponsored a law (HB 228) requiring businesses to include all mandatory fees in advertised prices. He sponsored the Illinois Way Forward Act to require the closure of immigrant detention centers in the state. He also sponsored a law creating a Distressed Hospital Loan Program for hospitals in financial distress. He sponsored another law concerning Medicaid and maternal health doula services.",
+        "cites": [4, 5, 1],
+        "sentences": [
+          {
+            "text": "In the Senate, Aquino sponsored a law (HB 228) requiring businesses to include all mandatory fees in advertised prices.",
+            "cites": [4]
+          },
+          {
+            "text": "He sponsored the Illinois Way Forward Act to require the closure of immigrant detention centers in the state.",
+            "cites": [5]
+          },
+          {
+            "text": "He also sponsored a law creating a Distressed Hospital Loan Program for hospitals in financial distress.",
+            "cites": [4]
+          },
+          {
+            "text": "He sponsored another law concerning Medicaid and maternal health doula services.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Omar Aquino",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=25909",
+        "period": "April 1 to June 30, 2026",
+        "raised": 12000,
+        "cashOnHand": 114223.94,
+        "breakdown": [
+          { "kind": "large", "amount": 2000 },
+          { "kind": "transfer", "amount": 10000 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 147250, "count": 57 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [6] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Teachers Union",
+        "kind": "union",
+        "cites": [8]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [9] },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Illinois NOW PAC",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [12]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Omar Aquino (D) - 104th General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/House/Members/Details/3316",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Omar Aquino - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Omar_Aquino",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "About Omar",
+      "publisher": "Senator Omar Aquino campaign",
+      "url": "http://www.senatoromaraquino.com/about-omar",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Senator Omar Aquino News",
+      "publisher": "Illinois Senate Democratic Caucus",
+      "url": "https://www.illinoissenatedemocrats.com/caucus-news/12-senator-omar-aquino-news",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Illinois Senate passes bill strengthening legal protection for immigrants",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/illinois-senate-passes-bill-strengthening-legal-protection-for-immigrants/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Illinois AFL-CIO 2026 General Election Endorsements",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ibewlocal176.org/uploads/8/9/0/2/89025372/il_afl-cio_gen_endorsements_072326.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "2026 Primary Election - Chicago Teachers Union",
+      "publisher": "Chicago Teachers Union",
+      "url": "https://www.ctulocal1.org/movement/primary-election-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Planned Parenthood boards announce 2026 primary endorsements",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/02/04/planned-parenthood-boards-announce-2026-primary-endorsements/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "IL NOW PAC Primary Endorsements 3/17/26",
+      "publisher": "Illinois NOW",
+      "url": "https://ilnow.org/uncategorized/il-now-pac-primary-endorsements-3-17-26/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:26:26.433Z",
+    "version": 6
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "key": "darren-bailey-aaron-b-del-mar",
+  "electionId": "il-2026-11-03-general",
+  "name": "Darren Bailey & Aaron B. Del Mar",
+  "party": "Republican",
+  "office": "Illinois Governor and Lieutenant Governor",
+  "contestIds": [
+    "chicago-boe:governor-lieutenant-governor",
+    "cook-clerk:130030"
+  ],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Darren Bailey is a former state senator. His running mate, Aaron B. Del Mar, is a Palatine Township Highway Commissioner and chair of the Cook County Republican Party. Del Mar has served as a city councilman and township committeeman.",
+        "cites": [1, 2],
+        "sentences": [
+          { "text": "Darren Bailey is a former state senator.", "cites": [1] },
+          {
+            "text": "His running mate, Aaron B. Del Mar, is a Palatine Township Highway Commissioner and chair of the Cook County Republican Party.",
+            "cites": [1]
+          },
+          {
+            "text": "Del Mar has served as a city councilman and township committeeman.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "The campaign has proposed an Illinois Department of Government Efficiency, led by Del Mar, to root out waste and corruption. Bailey has campaigned on lowering taxes and auditing government spending. The campaign supports making non-governmental organizations that receive at least $10,000 from the state subject to the Freedom of Information Act and Open Meetings Act. The candidates proposed an eight-point plan offering infrastructure bonds and property tax negotiations to encourage the Chicago Bears to stay in Illinois.",
+        "cites": [3, 4, 5, 6],
+        "sentences": [
+          {
+            "text": "The campaign has proposed an Illinois Department of Government Efficiency, led by Del Mar, to root out waste and corruption.",
+            "cites": [3]
+          },
+          {
+            "text": "Bailey has campaigned on lowering taxes and auditing government spending.",
+            "cites": [4]
+          },
+          {
+            "text": "The campaign supports making non-governmental organizations that receive at least $10,000 from the state subject to the Freedom of Information Act and Open Meetings Act.",
+            "cites": [5]
+          },
+          {
+            "text": "The candidates proposed an eight-point plan offering infrastructure bonds and property tax negotiations to encourage the Chicago Bears to stay in Illinois.",
+            "cites": [6]
+          }
+        ]
+      },
+      {
+        "text": "At a rally sponsored by an anti-abortion organization, Del Mar called Illinois abortion laws a 'sin against God.' He said in a July 2026 interview that abortion is not on the campaign's legislative agenda. Del Mar said the campaign will focus on affordability, property taxes, public safety and education rather than social issues. The candidates do not seek to reverse the SAFE-T Act but want it to better hold criminals accountable. Del Mar said education funding should be more equally dispersed.",
+        "cites": [7, 8, 2],
+        "sentences": [
+          {
+            "text": "At a rally sponsored by an anti-abortion organization, Del Mar called Illinois abortion laws a 'sin against God.'",
+            "cites": [7]
+          },
+          {
+            "text": "He said in a July 2026 interview that abortion is not on the campaign's legislative agenda.",
+            "cites": [7]
+          },
+          {
+            "text": "Del Mar said the campaign will focus on affordability, property taxes, public safety and education rather than social issues.",
+            "cites": [8]
+          },
+          {
+            "text": "The candidates do not seek to reverse the SAFE-T Act but want it to better hold criminals accountable.",
+            "cites": [2]
+          },
+          {
+            "text": "Del Mar said education funding should be more equally dispersed.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Bailey for Illinois",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=34092",
+        "period": "April 1 to June 30, 2026",
+        "raised": 1330786.81,
+        "cashOnHand": 127990.39,
+        "breakdown": [
+          { "kind": "small", "amount": 638120.84 },
+          { "kind": "large", "amount": 641341.47 },
+          { "kind": "transfer", "amount": 51299 },
+          { "kind": "other", "amount": 25.5 }
+        ],
+        "largeSince": {
+          "since": "2026-06-30",
+          "total": 343481.38,
+          "count": 163
+        }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Former President Donald Trump",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [9]
+      },
+      {
+        "organization": "Illinois Right to Life Action",
+        "kind": "organization",
+        "cites": [10]
+      },
+      { "organization": "Lake County GOP", "kind": "party", "cites": [11] },
+      { "organization": "Madison County GOP", "kind": "party", "cites": [11] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "2026 Illinois gubernatorial election",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Illinois_gubernatorial_election",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Del Mar brings fighter's edge to GOP ticket",
+      "publisher": "Politico",
+      "url": "https://www.politico.com/newsletters/illinois-playbook/2026/04/23/del-mar-brings-fighters-edge-to-gop-ticket-00888061",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Darren Bailey, Republican candidate for Illinois governor",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/candidate-questionnaires/darren-bailey-aaron-b-del-mar-illinois-governor-primary",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Darren Bailey insists results will be different in 2nd run for governor",
+      "publisher": "Capitol News Illinois",
+      "url": "https://www.wjbc.com/2026/02/11/more-listening-and-less-talking-darren-bailey-insists-results-will-be-different-in-2nd-run-for-governor/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Illinois GOP ticket pushes FOIA rules for state-funded nonprofits",
+      "publisher": "Belleville News-Democrat",
+      "url": "https://www.bnd.com/news/politics-government/article316600713.html",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Bailey unveils plan to keep Chicago Bears in Illinois",
+      "publisher": "Ground News",
+      "url": "https://ground.news/article/bailey-unveils-plan-to-keep-chicago-bears-in-illinois",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Darren Bailey's running mate maintains abortion as 'sin against God'",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/politics/2026/08/07/aaron-del-mar-darren-bailey-abortion",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Top of IL GOP ticket: Pocketbook issues, not social issues - Capitol City Now",
+      "publisher": "Capitol City Now",
+      "url": "https://capitolcitynow.com/news/248842-top-of-il-gop-ticket-pocketbook-issues-not-social-issues/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Trump: 'I'm all for Bailey'",
+      "publisher": "Capitol News Illinois",
+      "url": "https://insider.capitolnewsillinois.com/trump-im-all-for-bailey/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "McLean County Area",
+      "publisher": "Illinois Right to Life Action",
+      "url": "https://illinoisrighttolifeaction.org/wp-content/uploads/2026/02/Prim26-MCL-2.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Bailey seeks governor's office again in 2026 race",
+      "publisher": "Lake Forest Journal",
+      "url": "https://lakeforestjournal.com/articles/bailey-seeks-governor-s-office-again-in-2026-race-muvn9o4n",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:59:42.105Z",
+    "version": 3
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "key": "robert-w-fioretti",
+  "electionId": "il-2026-11-03-general",
+  "name": "Robert W. Fioretti",
+  "party": "Republican",
+  "office": "Illinois Attorney General",
+  "contestIds": ["chicago-boe:attorney-general", "cook-clerk:130040"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Robert W. Fioretti served as alderman for Chicago’s 2nd Ward from 2007 to 2015. He has worked as an assistant Illinois attorney general and in City Hall’s corporation counsel office. He was a partner at the law firm Roth Fioretti, where he practiced governmental law, complex litigation, and civil rights. He later joined the Disparti Law Group.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Robert W. Fioretti served as alderman for Chicago’s 2nd Ward from 2007 to 2015.",
+            "cites": [1]
+          },
+          {
+            "text": "He has worked as an assistant Illinois attorney general and in City Hall’s corporation counsel office.",
+            "cites": [1]
+          },
+          {
+            "text": "He was a partner at the law firm Roth Fioretti, where he practiced governmental law, complex litigation, and civil rights.",
+            "cites": [2]
+          },
+          { "text": "He later joined the Disparti Law Group.", "cites": [2] }
+        ]
+      },
+      {
+        "text": "Fioretti has pointed to corruption and crime as reasons for needing to shake things up in the attorney general’s office. In 2024, he said he would enforce the law as written and would not “coddle violent criminals.” He said he would work with U.S. Immigration and Customs Enforcement to remove immigrants who have committed violent crimes. He also said he would pursue politicians who participate in corruption. To address illegal guns, he proposed working with federal and state agencies, including the Bureau of Alcohol, Tobacco and Firearms. Regarding the Safe-T Act, he said judges need more discretion for pretrial detention in cases like aggravated battery on a police officer or illegal possession of a machine gun.",
+        "cites": [1, 3],
+        "sentences": [
+          {
+            "text": "Fioretti has pointed to corruption and crime as reasons for needing to shake things up in the attorney general’s office.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2024, he said he would enforce the law as written and would not “coddle violent criminals.”",
+            "cites": [3]
+          },
+          {
+            "text": "He said he would work with U.S. Immigration and Customs Enforcement to remove immigrants who have committed violent crimes.",
+            "cites": [3]
+          },
+          {
+            "text": "He also said he would pursue politicians who participate in corruption.",
+            "cites": [3]
+          },
+          {
+            "text": "To address illegal guns, he proposed working with federal and state agencies, including the Bureau of Alcohol, Tobacco and Firearms.",
+            "cites": [3]
+          },
+          {
+            "text": "Regarding the Safe-T Act, he said judges need more discretion for pretrial detention in cases like aggravated battery on a police officer or illegal possession of a machine gun.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "His record includes representing the family of Baby Tamia in an adoption case that led to changes in Illinois adoption law. He says his efforts as alderman helped create more than 8,000 jobs in Chicago.",
+        "cites": [4, 2],
+        "sentences": [
+          {
+            "text": "His record includes representing the family of Baby Tamia in an adoption case that led to changes in Illinois adoption law.",
+            "cites": [4]
+          },
+          {
+            "text": "He says his efforts as alderman helped create more than 8,000 jobs in Chicago.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Bob for Illinois",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40846",
+        "period": "April 1 to June 30, 2026",
+        "raised": 30820,
+        "cashOnHand": 28303.46,
+        "breakdown": [
+          { "kind": "small", "amount": 1645 },
+          { "kind": "large", "amount": 27925 },
+          { "kind": "transfer", "amount": 1250 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 25399.17, "count": 9 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "U.S. Rep. Darin LaHood",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [5]
+      },
+      {
+        "organization": "U.S. Rep. Mike Bost",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [5]
+      },
+      {
+        "organization": "U.S. Rep. Mary Miller",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [5]
+      },
+      {
+        "organization": "Northfield Township Republican Organization",
+        "kind": "party",
+        "cites": [6]
+      },
+      {
+        "organization": "Northside Republican Club",
+        "kind": "party",
+        "cites": [7]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "What to know about the race for Illinois attorney general",
+      "publisher": "WBEZ",
+      "url": "https://www.wbez.org/government-politics/elections/2026/10/01/what-to-know-candidates-race-illinois-attorney-general-kwame-raoul-bob-fioretti",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Disparti Law Group Accident & Injury Lawyers Welcomes Bob Fioretti",
+      "publisher": "Disparti Law Group",
+      "url": "https://www.dispartilaw.com/disparti-law-group-welcomes-bob-fioretti/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Who is running for Cook County State’s Attorney? - Wednesday Journal",
+      "publisher": "Wednesday Journal",
+      "url": "https://www.oakpark.com/2024/10/14/who-is-running-for-cook-county-states-attorney/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "NIU Law Commencement 2020 & 2021: Fioretti ('78) Delivers Address",
+      "publisher": "Northern Illinois University College of Law",
+      "url": "https://law.news.niu.edu/2021/06/15/niu-law-commencement-2020-2021-fioretti-78-delivers-address/",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Illinois Playbook",
+      "publisher": "Politico",
+      "url": "https://www.politico.com/newsletters/illinois-playbook/2026/09/29/budget-battle-lines-drawn-01096213",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Northfield Township Republicans Endorse Dabrowski, Tracy, Harris, Brown",
+      "publisher": "Northfield Township Republican Organization",
+      "url": "https://www.northfieldgop.org/northfield_township_republicans_endorse_dabrowski_tracy_harris_brown",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Ted Dabrowski for Governor",
+      "publisher": "Northside Republican Club",
+      "url": "https://www.northsidegop.com/ted_dabrowski_for_governor",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:57:13.274Z",
+    "version": 2
+  }
+}

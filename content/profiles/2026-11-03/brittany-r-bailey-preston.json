@@ -1,0 +1,106 @@
+{
+  "key": "brittany-r-bailey-preston",
+  "electionId": "il-2026-11-03-general",
+  "name": "Brittany R. Bailey Preston",
+  "office": "Chicago Board of Education Member, Subdistrict 9A",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-9a"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Preston lives in Auburn Gresham. She previously ran a construction company. She says she would focus on improving literacy, expanding trade and career pathways, and making CPS “the most family-friendly school district in America.”",
+        "cites": [1],
+        "sentences": [
+          { "text": "Preston lives in Auburn Gresham.", "cites": [1] },
+          {
+            "text": "She previously ran a construction company.",
+            "cites": [1]
+          },
+          {
+            "text": "She says she would focus on improving literacy, expanding trade and career pathways, and making CPS “the most family-friendly school district in America.”",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [2]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [3]
+      },
+      { "organization": "IUOE Local 150", "kind": "union", "cites": [4] },
+      {
+        "organization": "The Urban Center",
+        "kind": "organization",
+        "cites": [1]
+      },
+      {
+        "organization": "Common Ground Collective",
+        "kind": "organization",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Chicago school board election 2026: Who is running in District 9a?",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-election-2026-district-9a-candidate-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Elections & Endorsements - SEIU Illinois State Council",
+      "publisher": "SEIU Illinois State Council",
+      "url": "https://seiuilcouncil.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "ILLINOIS ENDORSEMENTS",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements — Common Ground Collective",
+      "publisher": "Common Ground Collective",
+      "url": "https://cgcollective.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:49:21.048Z",
+    "version": 2
+  }
+}

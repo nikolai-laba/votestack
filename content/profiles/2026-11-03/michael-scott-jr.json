@@ -1,0 +1,181 @@
+{
+  "key": "michael-scott-jr",
+  "electionId": "il-2026-11-03-general",
+  "name": "Michael Scott, Jr.",
+  "party": "Democratic",
+  "office": "Cook County Commissioner, 2nd District",
+  "contestIds": [
+    "chicago-boe:county-commissioner-2nd-district",
+    "cook-clerk:220200"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Michael Scott, Jr. is the Cook County Commissioner for the 2nd District, appointed in July 2024 after the death of the previous commissioner. He previously served as an alderman for Chicago's 24th Ward and worked for the Chicago Park District, Chicago Public Schools, and the Public Building Commission. He joined the Chicago Board of Education in 2022. His campaign says he supports policies to enhance public safety and promote economic growth. As alderman, he said he devoted over $300 million to capital and human infrastructure and developed job training programs for residents.",
+        "cites": [1, 2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "Michael Scott, Jr. is the Cook County Commissioner for the 2nd District, appointed in July 2024 after the death of the previous commissioner.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously served as an alderman for Chicago's 24th Ward and worked for the Chicago Park District, Chicago Public Schools, and the Public Building Commission.",
+            "cites": [2]
+          },
+          {
+            "text": "He joined the Chicago Board of Education in 2022.",
+            "cites": [3]
+          },
+          {
+            "text": "His campaign says he supports policies to enhance public safety and promote economic growth.",
+            "cites": [4]
+          },
+          {
+            "text": "As alderman, he said he devoted over $300 million to capital and human infrastructure and developed job training programs for residents.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Committee to Elect Michael Scott Jr",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40016",
+        "period": "April 1 to June 30, 2026",
+        "raised": 9055,
+        "cashOnHand": 6317.48,
+        "breakdown": [
+          { "kind": "small", "amount": 100 },
+          { "kind": "large", "amount": 6950 },
+          { "kind": "transfer", "amount": 2000 },
+          { "kind": "other", "amount": 5 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Citizen Action/Illinois",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "American Federation of State, County and Municipal Employees Council 31",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "SEIU Healthcare", "kind": "union", "cites": [7] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 399",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "Plumbers Local 130", "kind": "union", "cites": [7] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Michael Scott Jr. - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Michael_Scott_Jr.",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Ald. Michael Scott, Key Lightfoot Ally On West Side, Resigns",
+      "publisher": "Block Club Chicago",
+      "url": "https://blockclubchicago.org/2022/05/24/ald-michael-scott-key-lightfoot-ally-on-west-side-resigns/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Former alderman Michael Scott Jr. appointed to the Chicago school board",
+      "publisher": "Chalkbeat Chicago",
+      "url": "https://www.chalkbeat.org/chicago/2022/7/15/23220813/chicago-public-schools-mayor-lori-lightfoot-board-of-education/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "HOME | Michael Scott, Jr., Cook County Commissioner for the 2nd ...",
+      "publisher": "Michael Scott, Jr. campaign",
+      "url": "https://www.commissionerscott.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Michael Scott Jr.",
+      "publisher": "Chicago Board of Education",
+      "url": "https://www.cpsboe.org/about/bios/1021",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements — Citizen Action/Illinois",
+      "publisher": "Citizen Action/Illinois",
+      "url": "https://citizenaction-il.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "2026 Cook County Board of Commissioners election - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "MARCH 17, 2026 PRIMARY ELECTION",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/Updated-P2026_PrimaryEndorsementList_updated-v6.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "2026 local 399 illinois - primary election endorsements",
+      "publisher": "International Union of Operating Engineers Local 399",
+      "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:20:37.693Z",
+    "version": 5
+  }
+}

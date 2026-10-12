@@ -1,0 +1,308 @@
+{
+  "key": "toni-preckwinkle",
+  "electionId": "il-2026-11-03-general",
+  "name": "Toni Preckwinkle",
+  "party": "Democratic",
+  "office": "Cook County Board President",
+  "contestIds": ["chicago-boe:president-of-county-board", "cook-clerk:210100"],
+  "kind": "candidate",
+  "tier": "top",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Toni Preckwinkle has served as Cook County Board President since 2010 and oversees the county's public health system, court system and annual budget. She is also president of the Forest Preserves of Cook County. She previously taught high school history and served as alderman of Chicago's 4th Ward for 19 years.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Toni Preckwinkle has served as Cook County Board President since 2010 and oversees the county's public health system, court system and annual budget.",
+            "cites": [1]
+          },
+          {
+            "text": "She is also president of the Forest Preserves of Cook County.",
+            "cites": [2]
+          },
+          {
+            "text": "She previously taught high school history and served as alderman of Chicago's 4th Ward for 19 years.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "As Cook County Board President, she lobbied for laws that raised the age for detention in adult jail from 17 to 18 and narrowed the crimes for which juveniles can be tried as adults. Her campaign says she has expanded access to health care for 350,000 people. In October 2026, she announced an $8 million county investment to help south suburban communities clean up from severe summer storms. As an alderman, she sponsored the living wage and affordable housing ordinance.",
+        "cites": [4, 5, 6, 3],
+        "sentences": [
+          {
+            "text": "As Cook County Board President, she lobbied for laws that raised the age for detention in adult jail from 17 to 18 and narrowed the crimes for which juveniles can be tried as adults.",
+            "cites": [4]
+          },
+          {
+            "text": "Her campaign says she has expanded access to health care for 350,000 people.",
+            "cites": [5]
+          },
+          {
+            "text": "In October 2026, she announced an $8 million county investment to help south suburban communities clean up from severe summer storms.",
+            "cites": [6]
+          },
+          {
+            "text": "As an alderman, she sponsored the living wage and affordable housing ordinance.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Preckwinkle for President",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=21644",
+        "period": "April 1 to June 30, 2026",
+        "raised": 70882.77,
+        "cashOnHand": 110738.96,
+        "breakdown": [
+          { "kind": "small", "amount": 1043.89 },
+          { "kind": "large", "amount": 58088.88 },
+          { "kind": "transfer", "amount": 11750 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 62812.2, "count": 17 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Gov. JB Pritzker",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Sen. Dick Durbin",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Jan Schakowsky",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Jesus \"Chuy\" García",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Delia Ramirez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Danny Davis",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Jonathan Jackson",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Illinois House Speaker Chris Welch",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Illinois Senate President Don Harmon",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Cook County Commissioner Frank J. Aguilar",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Cook County Commissioner Alma Anaya",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Cook County Commissioner Scott R. Britton",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Cook County Commissioner John P. Daley",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Cook County Commissioner Stanley Moore",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Cook County Commissioner Josina Morita",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Cook County Commissioner Tara S. Stamps",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Cook County Commissioner Michael Scott Jr.",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Cook County Commissioner Maggie Trevor",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Cook County Commissioner Jessica Vásquez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Cook County Commissioner Dr. Kisha McCaskill",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Cook County Commissioner Bridget Gainer",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "SEIU State Council", "kind": "union", "cites": [7] },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [7] },
+      { "organization": "Sierra Club", "kind": "organization", "cites": [7] },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [7] },
+      { "organization": "ICIRR Action", "kind": "organization", "cites": [7] },
+      {
+        "organization": "Latino Leadership Council",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Better Streets Chicago Action Fund",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "What to know about the Democratic primary for Cook County board president",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/02/06/cook-county-board-president-democratic-primary-what-to-know-preckwinkle-reilly",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Toni Preckwinkle",
+      "publisher": "Cook County Government",
+      "url": "https://www.cookcountyil.gov/all-people/toni-preckwinkle",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Toni Preckwinkle",
+      "publisher": "Illinois Criminal Justice Information Authority",
+      "url": "https://icjia.illinois.gov/about/biographies/toni-preckwinkle",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "In Chicago's crowded mayor race, Toni Preckwinkle defends record on approving charter schools",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2019/2/13/21106838/in-chicago-s-crowded-mayor-race-toni-preckwinkle-defends-record-on-approving-charter-schools/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Cook County Board President Toni Preckwinkle",
+      "publisher": "Toni Preckwinkle campaign",
+      "url": "https://tonipreckwinkle.org/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Cook County pledges $8 million to help south suburban communities clean up from severe storms",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/news/2026/10/06/storm-damage-tornados-cleanup-8-million-pledge-cook-county-preckwinkle",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements - Toni Preckwinkle",
+      "publisher": "Preckwinkle for President",
+      "url": "https://tonipreckwinkle.org/endorsements/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 8
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:41:49.314Z",
+    "version": 5
+  }
+}

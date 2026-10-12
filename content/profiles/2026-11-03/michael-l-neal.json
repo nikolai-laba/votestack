@@ -1,0 +1,116 @@
+{
+  "key": "michael-l-neal",
+  "electionId": "il-2026-11-03-general",
+  "name": "Michael L. Neal",
+  "office": "Chicago Board of Education Member, Subdistrict 6B",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-6b"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Michael L. Neal is a pastor and the founder of a nonprofit community development corporation. He runs the Leading with Literacy Program, is vice chairman of the Greater Bronzeville Community Action Council, and has served as a parent representative on Kenwood Academy's local school council.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Michael L. Neal is a pastor and the founder of a nonprofit community development corporation.",
+            "cites": [1]
+          },
+          {
+            "text": "He runs the Leading with Literacy Program, is vice chairman of the Greater Bronzeville Community Action Council, and has served as a parent representative on Kenwood Academy's local school council.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "His main focus is improving early childhood education. He wants to see more read-aloud programs citywide and recruit philanthropic organizations and corporations to provide volunteers. He has said any school consolidations should be decided case by case and that teachers should have an important but not dominant voice in district decisions. He says his literacy program has distributed more than 50,000 books, and he started a Real Men Read program in Bronzeville schools.",
+        "cites": [3, 4, 2],
+        "sentences": [
+          {
+            "text": "His main focus is improving early childhood education.",
+            "cites": [3]
+          },
+          {
+            "text": "He wants to see more read-aloud programs citywide and recruit philanthropic organizations and corporations to provide volunteers.",
+            "cites": [3]
+          },
+          {
+            "text": "He has said any school consolidations should be decided case by case and that teachers should have an important but not dominant voice in district decisions.",
+            "cites": [4]
+          },
+          {
+            "text": "He says his literacy program has distributed more than 50,000 books, and he started a Real Men Read program in Bronzeville schools.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Tribune Editorial Board",
+        "kind": "editorial_board",
+        "cites": [4]
+      },
+      {
+        "organization": "Common Ground Collective",
+        "kind": "organization",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Michael L. Neal: CPS School Board District 6B Candidate",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/graphics/chicago-school-board-education-voter-guide/candidates/michael-l-neal/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Bronzeville pastor Michael Neal seeks Biggs' school board ...",
+      "publisher": "Hyde Park Herald",
+      "url": "https://www.hpherald.com/evening_digest/bronzeville-pastor-michael-neal-seeks-biggs-school-board-seat/article_87b28b09-c0e9-4a20-a9d7-7d8616969b56.html",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Chicago school board election 2026 voter guide: District 6b ...",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-election-2026-district-6b-candidates-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Editorial: Michael Neal for Chicago School Board in District ...",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/09/29/editorial-michael-neal-chicago-school-board-district-6b/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements",
+      "publisher": "Common Ground Collective",
+      "url": "https://cgcollective.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:47:26.285Z",
+    "version": 2
+  }
+}

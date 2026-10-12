@@ -1,0 +1,67 @@
+{
+  "key": "aasi-siddique",
+  "electionId": "il-2026-11-03-general",
+  "name": "Aasi Siddique",
+  "party": "Republican",
+  "office": "Cook County Commissioner, 13th District",
+  "contestIds": [
+    "chicago-boe:county-commissioner-13th-district",
+    "cook-clerk:221300"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Aasi Siddique's campaign says he has decades of experience in risk management, finance, insurance, real estate, transportation, logistics, regulatory compliance, organizational management, and military service. He says he wants to establish priorities, coordinate agencies, scrutinize spending, and communicate with residents.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Aasi Siddique's campaign says he has decades of experience in risk management, finance, insurance, real estate, transportation, logistics, regulatory compliance, organizational management, and military service.",
+            "cites": [1]
+          },
+          {
+            "text": "He says he wants to establish priorities, coordinate agencies, scrutinize spending, and communicate with residents.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Cook County Republican Party",
+        "kind": "party",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Home | Aasi Siddique For Co",
+      "publisher": "Aasi Siddique campaign",
+      "url": "https://www.citizensforaasisiddique.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "journal-topics.com",
+      "publisher": "Journal & Topics",
+      "url": "https://www.journal-topics.com/articles/whats-on-november-ballot-for-niles-park-ridge-voters/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:39:20.033Z",
+    "version": 4
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "key": "monica-gordon",
+  "electionId": "il-2026-11-03-general",
+  "name": "Monica Gordon",
+  "party": "Democratic",
+  "office": "Cook County Clerk",
+  "contestIds": ["chicago-boe:county-clerk", "cook-clerk:210200"],
+  "kind": "candidate",
+  "tier": "top",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Monica Gordon was sworn in as Cook County Clerk in December 2024. She previously served as a Cook County Commissioner for the 5th District and vice chair of the county's Transportation Committee. Before that, she was executive director of the Illinois Legislative Black Caucus Foundation and director of government affairs at Chicago State University. She also chaired the board of Prairie State Community College.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Monica Gordon was sworn in as Cook County Clerk in December 2024.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously served as a Cook County Commissioner for the 5th District and vice chair of the county's Transportation Committee.",
+            "cites": [2]
+          },
+          {
+            "text": "Before that, she was executive director of the Illinois Legislative Black Caucus Foundation and director of government affairs at Chicago State University.",
+            "cites": [3]
+          },
+          {
+            "text": "She also chaired the board of Prairie State Community College.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "Gordon has said voting by mail is a secure option governed by state law and subject to multiple checks. She urged voters to return mail ballots early or use secure drop boxes at early voting locations. Her office counters misinformation through a website it calls a 'trusted source.' When nominated, she pledged to improve online access to records, potentially use AI for customer service, and improve language access at polling places. She created the clerk's office's first deputy clerk for diversity, equity and inclusion, saying federal policies had pushed immigrant families and same-sex couples to seek birth certificates and marriage licenses. She is working with the Cook County Sheriff to ensure polling places remain safe.",
+        "cites": [4, 5, 6, 7]
+      },
+      {
+        "text": "In 2025, her office launched a High School Early Voting program with the Chicago Bears, which won a national award for voter education. She marked National Voter Registration Day by encouraging registration with a focus on young voters.",
+        "cites": [8, 9],
+        "sentences": [
+          {
+            "text": "In 2025, her office launched a High School Early Voting program with the Chicago Bears, which won a national award for voter education.",
+            "cites": [8]
+          },
+          {
+            "text": "She marked National Voter Registration Day by encouraging registration with a focus on young voters.",
+            "cites": [9]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Monica Gordon",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=35763",
+        "period": "April 1 to June 30, 2026",
+        "raised": 41375,
+        "cashOnHand": 110446.65,
+        "breakdown": [
+          { "kind": "small", "amount": 5775 },
+          { "kind": "large", "amount": 24450 },
+          { "kind": "transfer", "amount": 11150 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 27000, "count": 13 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "Chicago Teachers Union",
+        "kind": "union",
+        "cites": [12]
+      },
+      {
+        "organization": "International Union of Operating Engineers Locals 150 and 399",
+        "kind": "union",
+        "cites": [10]
+      },
+      { "organization": "Plumbers Local 130", "kind": "union", "cites": [10] },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Cook County Democratic Party",
+        "kind": "party",
+        "cites": [10]
+      },
+      { "organization": "New Trier Democrats", "kind": "party", "cites": [10] },
+      {
+        "organization": "The Chicago Crusader",
+        "kind": "editorial_board",
+        "cites": [10]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [13]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Monica Gordon",
+      "publisher": "Cook County Government",
+      "url": "https://www.cookcountyil.gov/all-people/monica-gordon",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Bloom Township",
+      "publisher": "Cook County Democratic Party",
+      "url": "https://www.cookcountydems.com/township_committeepe/bloom-township/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Elections Conversations: Monica Gordon, Clerk, Cook County, Ill.",
+      "publisher": "National Conference of State Legislatures",
+      "url": "https://www.ncsl.org/resources/details/elections-conversations-monica-gordon-clerk-cook-county-ill",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Mail ballots are secure, Illinois election officials stress after Supreme Court ruling",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/08/25/mail-ballots-secure-illinois-election-officials-supreme-court-ruling-trump-executive-order",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "‘Do It Early’: Officials Urge Illinoisans to Submit Mail-In Ballots Well Before Election Day",
+      "publisher": "WTTW",
+      "url": "https://news.wttw.com/2026/08/25/do-it-early-officials-urge-illinoisans-submit-mail-ballots-well-election-day-amid",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Cook County Commissioner Monica Gordon is the Democratic Party’s choice for county clerk",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2024/04/26/cook-county-commissioner-monica-gordon-is-the-democratic-partys-choice-for-county-clerk/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Illinois county refuses to bow to Trump's 'cruel policies', hires DEI clerk",
+      "publisher": "PinkNews",
+      "url": "https://www.thepinknews.com/2025/03/11/illinois-county-refuses-to-bow-to-trumps-cruel-policies-hires-dei-clerk/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "2025 - Winner for Distinguished Voter Education and Communications Initiatives",
+      "publisher": "U.S. Election Assistance Commission",
+      "url": "https://www.eac.gov/clearinghouse-awards/2025-winner-distinguished-voter-education-and-communications-initiatives-3",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Clerk Monica Gordon Marks National Voter Registration Day with Push To Register",
+      "publisher": "Citizen Newspaper Group",
+      "url": "https://citizennewspapergroup.com/news/2026/sep/23/clerk-monica-gordon-/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "2026 Cook County, Illinois, elections",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Cook_County,_Illinois,_elections",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "MARCH 17, 2026 PRIMARY ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/P2026_PrimaryEndorsementList_COOK-v4.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 12,
+      "title": "2026 Primary Election - Chicago Teachers Union",
+      "publisher": "Chicago Teachers Union",
+      "url": "https://www.ctulocal1.org/movement/primary-election-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 13
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:34:26.943Z",
+    "version": 4
+  }
+}

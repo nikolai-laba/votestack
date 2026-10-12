@@ -1,0 +1,42 @@
+{
+  "key": "molly-m-price",
+  "electionId": "il-2026-11-03-general",
+  "name": "Molly M. Price",
+  "office": "South Lyons Township Sanitary District Trustee",
+  "contestIds": ["cook-clerk:390201"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Molly M. Price works in the Clerk's Office for Lyons Township.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Molly M. Price works in the Clerk's Office for Lyons Township.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": { "asOf": "2026-10-07", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Township 2024 Annual Book and Resource Guide",
+      "publisher": "Lyons Township",
+      "url": "https://lyonstownshipil.gov/wp-content/uploads/2024/06/Township-2024-Annual-Book-and-Resource-Guide.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:40:57.538Z",
+    "version": 5
+  }
+}

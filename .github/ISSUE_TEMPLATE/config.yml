@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a mistake in a candidate profile
+    url: https://votestack.org
+    about: Open the profile and use its "Report an error" link, with a link to a source that shows the correct information.
+  - name: Report a security problem
+    url: https://github.com/nikolai-laba/votestack/security/advisories/new
+    about: Please report vulnerabilities and exposed keys privately.

@@ -1,0 +1,195 @@
+{
+  "key": "alma-e-anaya",
+  "electionId": "il-2026-11-03-general",
+  "name": "Alma E. Anaya",
+  "party": "Democratic",
+  "office": "Cook County Commissioner, 7th District",
+  "contestIds": [
+    "chicago-boe:county-commissioner-7th-district",
+    "cook-clerk:220700"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Alma E. Anaya has served as Cook County Commissioner for the 7th District since 2018. Her campaign says she represents the county’s most Latino and immigrant district on Chicago’s Southwest Side. She chairs the Labor Committee and the Commission on Social Innovation. She previously worked as Director of Administration for the 7th district. She earned a bachelor’s degree and a master’s in public administration from the University of Illinois at Chicago.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Alma E. Anaya has served as Cook County Commissioner for the 7th District since 2018.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign says she represents the county’s most Latino and immigrant district on Chicago’s Southwest Side.",
+            "cites": [2]
+          },
+          {
+            "text": "She chairs the Labor Committee and the Commission on Social Innovation.",
+            "cites": [3]
+          },
+          {
+            "text": "She previously worked as Director of Administration for the 7th district.",
+            "cites": [1]
+          },
+          {
+            "text": "She earned a bachelor’s degree and a master’s in public administration from the University of Illinois at Chicago.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "In 2021, she said she pushed for more resources for the domestic violence division. In 2022, she called on the county to review data broker contracts and strengthen its sanctuary ordinance. She co-chaired a commission to ensure a complete count of hard-to-count communities in the 2020 Census.",
+        "cites": [4, 5, 3],
+        "sentences": [
+          {
+            "text": "In 2021, she said she pushed for more resources for the domestic violence division.",
+            "cites": [4]
+          },
+          {
+            "text": "In 2022, she called on the county to review data broker contracts and strengthen its sanctuary ordinance.",
+            "cites": [5]
+          },
+          {
+            "text": "She co-chaired a commission to ensure a complete count of hard-to-count communities in the 2020 Census.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Alma Anaya",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=34289",
+        "period": "April 1 to June 30, 2026",
+        "raised": 29000,
+        "cashOnHand": 89545.47,
+        "breakdown": [
+          { "kind": "small", "amount": 2850 },
+          { "kind": "large", "amount": 19150 },
+          { "kind": "transfer", "amount": 7000 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Sierra Club Illinois",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 399",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [10] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Alma Anaya",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Alma_Anaya",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Board of Commissioners – Alma E. Anaya, Cook County ...",
+      "publisher": "Commissioner Anaya campaign",
+      "url": "https://commissioneranaya.com/cook-county-government/board-of-commissioners/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "About Commissioner Anaya",
+      "publisher": "Commissioner Anaya campaign",
+      "url": "https://commissioneranaya.com/about/alma-anaya/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Chicago advocates press chief judge on domestic violence court access, treatment of survivors",
+      "publisher": "Injustice Watch",
+      "url": "https://www.injusticewatch.org/civil-courts/domestic-violence/2021/domestic-violence-advocates-cook-county-court-access/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Chicago Investigates ICE Use of Data Brokers to Skirt ...",
+      "publisher": "ICIRR",
+      "url": "https://www.icirr.org/News/chicago-investigates-ice-use-of-data-brokers-to-skirt-sanctuary-laws",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Meet our 2026 Endorsed Candidates!",
+      "publisher": "Sierra Club Illinois",
+      "url": "https://sierraclub.org/illinois/2026-endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "MARCH 17, 2026 PRIMARY ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/P2026_PrimaryEndorsementList_COOK-v4.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "2026 LOCAL 399 ILLINOIS PRIMARY ELECTION ENDORSEMENTS",
+      "publisher": "IUOE Local 399",
+      "url": "http://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:22:34.750Z",
+    "version": 6
+  }
+}

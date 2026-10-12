@@ -1,0 +1,333 @@
+{
+  "key": "paul-kendrick",
+  "electionId": "il-2026-11-03-general",
+  "name": "Paul Kendrick",
+  "party": "Democratic",
+  "office": "State Representative, 12th District",
+  "contestIds": [
+    "chicago-boe:state-representative-12th-district",
+    "cook-clerk:181200"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Paul Kendrick previously served as executive director of Rust Belt Rising, which trains Midwest Democratic candidates. He has worked for the education organization Hope Chicago and in the Obama White House. He was an elected community representative on the local school councils for Lincoln Park High School and Alcott Elementary School.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Paul Kendrick previously served as executive director of Rust Belt Rising, which trains Midwest Democratic candidates.",
+            "cites": [1]
+          },
+          {
+            "text": "He has worked for the education organization Hope Chicago and in the Obama White House.",
+            "cites": [2]
+          },
+          {
+            "text": "He was an elected community representative on the local school councils for Lincoln Park High School and Alcott Elementary School.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "Kendrick supports amending the state constitution for a progressive income tax, stating it would let lawmakers adjust rates without increasing the burden on lowest-income residents. His public safety plan includes making multiple retail thefts a felony and filling what he states are 2,000 vacant Chicago police officer positions. He supports reducing regulatory burdens to encourage development and expand the housing supply.",
+        "cites": [4, 5],
+        "sentences": [
+          {
+            "text": "Kendrick supports amending the state constitution for a progressive income tax, stating it would let lawmakers adjust rates without increasing the burden on lowest-income residents.",
+            "cites": [4]
+          },
+          {
+            "text": "His public safety plan includes making multiple retail thefts a felony and filling what he states are 2,000 vacant Chicago police officer positions.",
+            "cites": [4]
+          },
+          {
+            "text": "He supports reducing regulatory burdens to encourage development and expand the housing supply.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Paul for Illinois",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40740",
+        "period": "April 1 to June 30, 2026",
+        "raised": 18217,
+        "cashOnHand": 17767.73,
+        "breakdown": [
+          { "kind": "small", "amount": 1422 },
+          { "kind": "large", "amount": 12295 },
+          { "kind": "transfer", "amount": 4500 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 24000, "count": 15 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "U.S. Rep. Mike Quigley",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Attorney General Kwame Raoul",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Sen. Sara Feigenholtz",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Sen. Lakesia Collins",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Rep. Margaret Croke",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "State Rep. Ann Williams",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Rep. Omar Williams",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Cook County Treasurer Maria Pappas",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Metropolitan Water Reclamation District Commissioner Precious Brady-Davis",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "City Clerk Anna Valencia",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Alderman Bennett Lawson",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Alderman Timmy Knudsen",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Alderman Walter Burnett",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Alderman Brian Hopkins",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Former Alderman Tom Tunney",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Former Alderman Vi Daley",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Former Alderman Marty Oberman",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "Former Alderman Bill Singer",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [10]
+      },
+      { "organization": "NBOA PAC", "kind": "organization", "cites": [11] },
+      { "organization": "44th Ward Democrats", "kind": "party", "cites": [6] },
+      { "organization": "43rd Ward Democrats", "kind": "party", "cites": [12] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [13]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [14] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [15]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [16] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Paul Kendrick - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Paul_Kendrick",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "A Democratic family feud averted",
+      "publisher": "Politico",
+      "url": "https://www.politico.com/newsletters/illinois-playbook/2025/07/21/a-democrat-family-feud-averted-00465147",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Paul Kendrick, Democratic candidate for Illinois House 12th District",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/candidate-questionnaires/paul-kendrick-illinois-house-primary-12th-district",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Candidate Questionnaires Illinois House District 12",
+      "publisher": "JUF",
+      "url": "http://jufwebfiles.org/pdf/govt_affairs/candidate_questionnaire_results/IL_House_12.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements",
+      "publisher": "NBOA PAC",
+      "url": "https://www.nboapac.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements",
+      "publisher": "Paul for Illinois",
+      "url": "https://www.paulforillinois.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Paul For Illinois",
+      "publisher": "Paul for Illinois",
+      "url": "https://www.paulforillinois.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "News",
+      "publisher": "Paul for Illinois",
+      "url": "https://www.paulforillinois.com/news",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Union tiptoes around endorsing",
+      "publisher": "Politico",
+      "url": "https://www.politico.com/newsletters/illinois-playbook/2025/12/10/union-tip-toes-around-endorsing-00684291",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Endorsements",
+      "publisher": "NBOA PAC",
+      "url": "https://www.nboapac.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 12,
+      "title": "Pritzker rallies Dems: No more funk",
+      "publisher": "Politico",
+      "url": "https://www.politico.com/newsletters/illinois-playbook/2025/08/14/pritzker-rallies-dems-no-more-funk-00508955",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 16
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:54:13.734Z",
+    "version": 5
+  }
+}

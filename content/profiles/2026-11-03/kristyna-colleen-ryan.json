@@ -1,0 +1,149 @@
+{
+  "key": "kristyna-colleen-ryan",
+  "electionId": "il-2026-11-03-general",
+  "name": "Kristyna Colleen Ryan",
+  "office": "Circuit Court Judge, Cook County",
+  "contestIds": [
+    "chicago-boe:retention:kristyna-colleen-ryan",
+    "cook-clerk:720001:kristyna-colleen-ryan"
+  ],
+  "kind": "retention",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Kristyna Colleen Ryan was elected to the circuit court in 2008 and has served in the Fourth Municipal District in Maywood since 2010, hearing mental health and veterans treatment cases. Before taking the bench, she was in private practice. In 2024, an appellate court vacated her pretrial detention order in People v. Stokes, finding the State failed to provide a factual basis.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Kristyna Colleen Ryan was elected to the circuit court in 2008 and has served in the Fourth Municipal District in Maywood since 2010, hearing mental health and veterans treatment cases.",
+            "cites": [1]
+          },
+          {
+            "text": "Before taking the bench, she was in private practice.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2024, an appellate court vacated her pretrial detention order in People v. Stokes, finding the State failed to provide a factual basis.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [],
+    "sharedCommittee": {
+      "name": "Committee for Retention of Judges in Cook County",
+      "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=6505"
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "Chicago Bar Association",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "rating": "Qualified",
+        "cites": [5]
+      },
+      {
+        "organization": "Chicago Council of Lawyers",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "rating": "Qualified",
+        "cites": [6]
+      },
+      {
+        "organization": "Illinois State Bar Association",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "rating": "Yes",
+        "cites": [1]
+      },
+      {
+        "organization": "Alliance of Bar Associations for Judicial Screening",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "tally": {
+          "members": 11,
+          "ratings": [{ "rating": "Yes", "count": 11 }],
+          "notEvaluated": 0
+        },
+        "cites": [7]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Cook County Judicial Evaluations - Illinois State Bar Association",
+      "publisher": "Illinois State Bar Association",
+      "url": "https://www.isba.org/judicial-elections/counties/cook",
+      "kind": "bar",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Chicago Council of Lawyers Evaluation Report – Vote For Judges",
+      "publisher": "Chicago Council of Lawyers",
+      "url": "https://www.voteforjudges.org/chicago-council-of-lawyers-evaluation-report/",
+      "kind": "bar",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "People v. Stokes",
+      "publisher": "Illinois Appellate Court",
+      "url": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/b8b815fc-9742-4879-a3af-715979ba56ed/People%20v.%20Stokes,%202024%20IL%20App%20(1st)%20232022-U.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://www.chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Vote Smart: CBA Judicial Voter's Guide, General Election, November 3, 2026",
+      "publisher": "Chicago Bar Association",
+      "url": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 5
+    },
+    {
+      "title": "Evaluation Report: Judges on the Ballot in the November 3, 2026 General Election",
+      "publisher": "Chicago Council of Lawyers",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/CCL-Judicial-Evaluation-Report-for-Nov-3-2026-General-Election_Ballot-Order.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 6
+    },
+    {
+      "title": "Alliance of Bar Associations for Judicial Screening, 2026 General Election ratings",
+      "publisher": "Alliance of Bar Associations for Judicial Screening",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/2026-Alliance-General-Ballot-Ratings-09252026.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 7
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T21:16:40.617Z",
+    "version": 2
+  }
+}

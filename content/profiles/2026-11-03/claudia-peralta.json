@@ -1,0 +1,199 @@
+{
+  "key": "claudia-peralta",
+  "electionId": "il-2026-11-03-general",
+  "name": "Claudia Peralta",
+  "office": "Chicago Board of Education Member, Subdistrict 1B",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-1b"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Claudia Peralta is district director for U.S. Rep. Delia Ramirez. She previously served as chief of staff to state Rep. Lindsey LaPointe and coordinated programs for the Illinois Coalition for Immigrant and Refugee Rights. She says she is a Chicago Public Schools graduate and parent who served on a Local School Council.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Claudia Peralta is district director for U.S. Rep. Delia Ramirez.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously served as chief of staff to state Rep. Lindsey LaPointe and coordinated programs for the Illinois Coalition for Immigrant and Refugee Rights.",
+            "cites": [1]
+          },
+          {
+            "text": "She says she is a Chicago Public Schools graduate and parent who served on a Local School Council.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "She says addressing the district's budget deficit should not come at the expense of educators' livelihoods. She focuses on progressive revenue to solve budget gaps. She signed a pledge to protect human-centered education. She wants to strengthen neighborhood schools and ensure students with disabilities get needed resources.",
+        "cites": [1, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "She says addressing the district's budget deficit should not come at the expense of educators' livelihoods.",
+            "cites": [1]
+          },
+          {
+            "text": "She focuses on progressive revenue to solve budget gaps.",
+            "cites": [3]
+          },
+          {
+            "text": "She signed a pledge to protect human-centered education.",
+            "cites": [4]
+          },
+          {
+            "text": "She wants to strengthen neighborhood schools and ensure students with disabilities get needed resources.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Community for Claudia",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41087",
+        "period": "April 1 to June 30, 2026",
+        "raised": 7380,
+        "cashOnHand": 17602,
+        "breakdown": [
+          { "kind": "small", "amount": 2740 },
+          { "kind": "large", "amount": 3390 },
+          { "kind": "transfer", "amount": 1250 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 48000, "count": 13 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Chicago Teachers Union",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "SEIU Healthcare", "kind": "union", "cites": [8] },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [10] },
+      {
+        "kind": "elected_official",
+        "party": "Democratic",
+        "organization": "Ald. Anthony Joel Quezada",
+        "cites": [11]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Chicago school board election 2026 voter guide: District 1b ...",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-election-2026-district-1b-candidates-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "District director for US Rep. Delia Ramirez",
+      "publisher": "Chalkbeat",
+      "url": "https://projects.chalkbeat.org/2026/boe-candidate-profiles/cards/claudia_peralta.html",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Editorial: Michelle Pierre for Chicago School Board in District 1B",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/09/28/editorial-michelle-pierre-chicago-school-board-district-1b/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Pledge to Protect Human-Centered Education",
+      "publisher": "Illinois Families for Public Schools",
+      "url": "https://www.ilfps.org/pledge_protect_human_centered_ed",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Board of Education Candidates Disability Questionnaire ...",
+      "publisher": "Legal Council for Health Justice",
+      "url": "https://legalcouncil.org/wp-content/uploads/2026/09/BOE-Questionnaire-2026-Claudia-Peralta.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "2026 School Board Election",
+      "publisher": "Chicago Teachers Union",
+      "url": "https://www.ctulocal1.org/movement/school-board-election-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Election Center",
+      "publisher": "SEIU Healthcare",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Elections & Endorsements",
+      "publisher": "SEIU Illinois State Council",
+      "url": "https://seiuilcouncil.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Claudia Peralta",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Claudia_Peralta",
+      "kind": "reference",
+      "viewedAt": "2026-10-07",
+      "id": 11
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:41:18.245Z",
+    "version": 5
+  }
+}

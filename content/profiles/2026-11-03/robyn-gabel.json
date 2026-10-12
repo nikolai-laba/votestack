@@ -1,0 +1,156 @@
+{
+  "key": "robyn-gabel",
+  "electionId": "il-2026-11-03-general",
+  "name": "Robyn Gabel",
+  "party": "Democratic",
+  "office": "State Representative, 18th District",
+  "contestIds": [
+    "chicago-boe:state-representative-18th-district",
+    "cook-clerk:181800"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Robyn Gabel is the Majority Leader of the Illinois House and has represented the 18th District since 2010. Before holding office, she served for 22 years as the executive director of the Illinois Maternal and Child Health Coalition. She led the Clean and Reliable Grid Affordability Act, which was signed into law in 2026, and sponsored a law that allows terminally ill adults with decision-making capacity to request medication to hasten their deaths.",
+        "cites": [1, 2, 3, 4]
+      },
+      {
+        "text": "She passed a bill to prevent hospitals from taking patients' primary homes in legal actions over unpaid medical debt. Her campaign lists her priorities as racial equity, ethics reform, expanding health care access, clean energy policy and safety net funding.",
+        "cites": [4, 5, 3]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Robyn Gabel",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=22260",
+        "period": "April 1 to June 30, 2026",
+        "raised": 48600,
+        "cashOnHand": 356392.98,
+        "breakdown": [
+          { "kind": "small", "amount": 1500 },
+          { "kind": "large", "amount": 23100 },
+          { "kind": "transfer", "amount": 24000 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 175110.36, "count": 61 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [8] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [10] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Robyn Gabel",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Robyn_Gabel",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Profile: Illinois House Majority Leader Robyn Gabel",
+      "publisher": "CSG Midwest",
+      "url": "https://csgmidwest.org/wp-content/uploads/2024/02/rep-gabel.pdf",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "About Robyn",
+      "publisher": "Robyn Gabel campaign",
+      "url": "https://robyngabel.com/about-robyn/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Rep. Robyn Gabel",
+      "publisher": "Illinois House Democrats",
+      "url": "https://ilhousedems.com/project/rep-robyn-gabel/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Bill to regulate homeowners insurance rates could reemerge this session",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/bill-to-regulate-homeowners-insurance-rates-could-reemerge-this-session/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "2026 Election | Endorsed Candidates | Planned Parenthood Illinois Action",
+      "publisher": "Planned Parenthood Illinois Action",
+      "url": "https://www.plannedparenthoodaction.org/planned-parenthood-illinois-action/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 7
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 8
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:44:26.208Z",
+    "version": 7
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "key": "cameron-cam-davis",
+  "electionId": "il-2026-11-03-general",
+  "name": "Cameron \"Cam\" Davis",
+  "party": "Democratic",
+  "office": "Metropolitan Water Reclamation District Commissioner (unexpired 2-year term)",
+  "contestIds": [
+    "chicago-boe:metropolitan-water-reclamation-district-commissioners-unexpired-2-year-term",
+    "cook-clerk:190200:unexpired-term"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Cameron Davis was elected a Metropolitan Water Reclamation District commissioner in 2018 and works as a vice president at GEI Consultants. He previously served as a senior advisor in the Obama administration, coordinating $2 billion in Great Lakes restoration and helping draft the Great Lakes Restoration Initiative. He was a Clean Water Act attorney and president of the Alliance for the Great Lakes.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Cameron Davis was elected a Metropolitan Water Reclamation District commissioner in 2018 and works as a vice president at GEI Consultants.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously served as a senior advisor in the Obama administration, coordinating $2 billion in Great Lakes restoration and helping draft the Great Lakes Restoration Initiative.",
+            "cites": [1]
+          },
+          {
+            "text": "He was a Clean Water Act attorney and president of the Alliance for the Great Lakes.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "In his 2020 campaign, he said he helped amend the district's Watershed Management Ordinance to reduce flooding. He has pushed for green infrastructure in schoolyards and for holding polluters responsible for PFAS cleanup expenses.",
+        "cites": [3, 4],
+        "sentences": [
+          {
+            "text": "In his 2020 campaign, he said he helped amend the district's Watershed Management Ordinance to reduce flooding.",
+            "cites": [3]
+          },
+          {
+            "text": "He has pushed for green infrastructure in schoolyards and for holding polluters responsible for PFAS cleanup expenses.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Cam Davis 4 Us",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=34419",
+        "period": "April 1 to June 30, 2026",
+        "raised": 3000,
+        "cashOnHand": 11675.21,
+        "breakdown": [
+          { "kind": "small", "amount": 300 },
+          { "kind": "large", "amount": 200 },
+          { "kind": "transfer", "amount": 2500 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "Personal PAC", "kind": "organization", "cites": [5] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Cook County Democratic Party",
+        "kind": "party",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Cameron Davis | MWRD",
+      "publisher": "MWRD",
+      "url": "https://mwrd.org/board-commissioners/cameron-davis",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Cameron 'Cam' Davis",
+      "publisher": "Cam Davis campaign",
+      "url": "https://camdavis.org/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Meet Cameron ‘Cam’ Davis, Democratic primary candidate for Metropolitan Water Reclamation District commissioner",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/2020/1/24/21030257/cameron-cam-davis-metropolitan-water-reclamation-district-democratic-primary-candidate-2020-mwrd",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Cameron Davis (lawyer) - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cameron_Davis_(lawyer)",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "ILLINOIS ENDORSEMENTS",
+      "publisher": "International Union of Operating Engineers Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "UNITE. TAKE ACTION. VOTE DEMOCRATIC.",
+      "publisher": "Cook County Democratic Party",
+      "url": "https://stevenqmckenzieforjudge.com/wp-content/uploads/2026/02/CCDP-Endorsed-Candidates-Guide-2026-Primary.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 8
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:52:29.758Z",
+    "version": 5
+  }
+}

@@ -1,0 +1,14 @@
+# Git hooks, installed automatically by `npm install` (see the "prepare" script).
+# gitleaks must be installed locally: `brew install gitleaks`.
+pre-commit:
+  parallel: true
+  commands:
+    gitleaks:
+      run: gitleaks git --pre-commit --staged --redact --no-banner
+    lint:
+      glob: '*.{ts,tsx,js}'
+      run: npx oxlint {staged_files}
+    format:
+      glob: '*.{ts,tsx,js,json,css,html,md,yml}'
+      run: npx prettier --write {staged_files}
+      stage_fixed: true

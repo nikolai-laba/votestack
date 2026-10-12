@@ -1,0 +1,101 @@
+{
+  "key": "jill-b-shestokas",
+  "electionId": "il-2026-11-03-general",
+  "name": "Jill B. Shestokas",
+  "party": "Republican",
+  "office": "Metropolitan Water Reclamation District Commissioner",
+  "contestIds": [
+    "chicago-boe:metropolitan-water-reclamation-district-commissioners-full-6-year-term",
+    "cook-clerk:190100"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Jill B. Shestokas is a former public affairs manager for the Metropolitan Water Reclamation District, where she worked on policy, legislative affairs, and public education. Her campaign states that her environmental education work won multiple national awards. She holds a degree in journalism and human ecology from the University of Maryland.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Jill B. Shestokas is a former public affairs manager for the Metropolitan Water Reclamation District, where she worked on policy, legislative affairs, and public education.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign states that her environmental education work won multiple national awards.",
+            "cites": [1]
+          },
+          {
+            "text": "She holds a degree in journalism and human ecology from the University of Maryland.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "In a 2026 statement, Shestokas questioned the district's handling of a stormwater project in Harvey. She stated that estimated construction costs rose from $9.85 million to $13 million. She also noted that the number of structures projected to benefit fell from 690 to 209. She and her running mates called for more transparency.",
+        "cites": [2],
+        "sentences": [
+          {
+            "text": "In a 2026 statement, Shestokas questioned the district's handling of a stormwater project in Harvey.",
+            "cites": [2]
+          },
+          {
+            "text": "She stated that estimated construction costs rose from $9.85 million to $13 million.",
+            "cites": [2]
+          },
+          {
+            "text": "She also noted that the number of structures projected to benefit fell from 690 to 209.",
+            "cites": [2]
+          },
+          {
+            "text": "She and her running mates called for more transparency.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Cook County Republican Party",
+        "kind": "party",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Three Republicans seek MWRD board seats as Deep Tunnel ...",
+      "publisher": "Northshore Weekly",
+      "url": "https://northshoreweekly.com/articles/three-republicans-seek-mwrd-board-seats-as-deep-tunnel-hits-capacity-mrz1ct8l",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Press Release September 2026 Harvey Action | Michelle for MWRD",
+      "publisher": "Michelle Pennington campaign",
+      "url": "https://www.michelleforcleanwater.com/pressreleaseseptember2026harvey",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Cook GOP Beats Back Democrat Objection, Land Three Republicans on November Ballot",
+      "publisher": "Chicago Republican Party",
+      "url": "https://www.chicagogop.com/cook_gop_beats_back_democrat_objection_land_three_republicans_on_november_ballot",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:51:44.231Z",
+    "version": 2
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "key": "kate-mcgrath",
+  "electionId": "il-2026-11-03-general",
+  "name": "Kate McGrath",
+  "party": "Republican",
+  "office": "State Senator, 29th District",
+  "contestIds": ["cook-clerk:172902"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Kate McGrath is an insurance agent. She previously spent 15 years managing distribution for the American Heart Association. She says rising taxes and state policies are driving opportunity out of Illinois.",
+        "cites": [1, 2],
+        "sentences": [
+          { "text": "Kate McGrath is an insurance agent.", "cites": [1] },
+          {
+            "text": "She previously spent 15 years managing distribution for the American Heart Association.",
+            "cites": [2]
+          },
+          {
+            "text": "She says rising taxes and state policies are driving opportunity out of Illinois.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign focuses on lowering taxes and supporting small businesses. She supports strengthening public schools. She criticizes a $1.50-per-package delivery tax on items like diapers and pizza. She calls for fiscal responsibility. She also calls for more accountability in state government.",
+        "cites": [2, 3],
+        "sentences": [
+          {
+            "text": "Her campaign focuses on lowering taxes and supporting small businesses.",
+            "cites": [2]
+          },
+          {
+            "text": "She supports strengthening public schools.",
+            "cites": [3]
+          },
+          {
+            "text": "She criticizes a $1.50-per-package delivery tax on items like diapers and pizza.",
+            "cites": [2]
+          },
+          { "text": "She calls for fiscal responsibility.", "cites": [2] },
+          {
+            "text": "She also calls for more accountability in state government.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Citizens for Kate McGrath",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40796",
+        "period": "April 1 to June 30, 2026",
+        "raised": 6096.36,
+        "cashOnHand": 7205.29,
+        "breakdown": [
+          { "kind": "small", "amount": 1226.65 },
+          { "kind": "large", "amount": 4619.71 },
+          { "kind": "transfer", "amount": 250 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 4123.06, "count": 4 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Illinois Family Action",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Northfield Township Republican Organization",
+        "kind": "party",
+        "cites": [5]
+      },
+      {
+        "organization": "Senate Republican Victory Fund",
+        "kind": "party",
+        "cites": [6]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Republican Kate McGrath to run for 29th state Senate seat",
+      "publisher": "Daily Herald",
+      "url": "https://www.dailyherald.com/20250801/illinois-state-politics/republican-kate-mcgrath-to-run-for-29th-state-senate-seat/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Kate McGrath Candidate",
+      "publisher": "Senate Republican Victory Fund",
+      "url": "https://www.isrvf.com/54365",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Lake County 2026 Candidates & Sample Ballot | Illinois",
+      "publisher": "The Ballot Brief",
+      "url": "https://theballotbrief.com/state/illinois/lake-county",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Illinois Family Action » 2026 General Election Endorsements",
+      "publisher": "Illinois Family Action",
+      "url": "https://illinoisfamilyaction.org/2026/09/ifas-2026-general-election-endorsements-2/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Kate McGrath for State Senate (29) - NorthfieldGOP",
+      "publisher": "Northfield Township Republican Organization",
+      "url": "https://www.northfieldgop.org/kate_mcgrath_for_state_senate_29",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Our 2026 Candidates - Senate Republican Victory Fund",
+      "publisher": "Senate Republican Victory Fund",
+      "url": "https://www.isrvf.com/our_2026_candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:53:35.352Z",
+    "version": 2
+  }
+}

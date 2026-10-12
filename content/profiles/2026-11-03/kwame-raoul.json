@@ -1,0 +1,285 @@
+{
+  "key": "kwame-raoul",
+  "electionId": "il-2026-11-03-general",
+  "name": "Kwame Raoul",
+  "party": "Democratic",
+  "office": "Illinois Attorney General",
+  "contestIds": ["chicago-boe:attorney-general", "cook-clerk:130040"],
+  "kind": "candidate",
+  "tier": "top",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Kwame Raoul was sworn in as Illinois attorney general in 2019 and began a second term in 2023. He began his legal career as a Cook County prosecutor and later became a partner at two national corporate law firms. He served in the Illinois Senate from 2004 to 2019 and chaired the Judiciary Committee. There he sponsored laws to abolish the death penalty and require background checks on private gun sales.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Kwame Raoul was sworn in as Illinois attorney general in 2019 and began a second term in 2023.",
+            "cites": [1]
+          },
+          {
+            "text": "He began his legal career as a Cook County prosecutor and later became a partner at two national corporate law firms.",
+            "cites": [1]
+          },
+          {
+            "text": "He served in the Illinois Senate from 2004 to 2019 and chaired the Judiciary Committee.",
+            "cites": [2]
+          },
+          {
+            "text": "There he sponsored laws to abolish the death penalty and require background checks on private gun sales.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "In office, Raoul has filed more than 50 lawsuits against the Trump administration, protecting roughly $6.6 billion in federal funding for Illinois. His lawsuits preserved money for disaster relief and medical research. He also sued to stop the administration from withholding $54 million in crime victim aid. He joined a lawsuit challenging new mail-in voting rules. He helped sue to stop an attempt to end birthright citizenship.",
+        "cites": [4, 5, 6, 7],
+        "sentences": [
+          {
+            "text": "In office, Raoul has filed more than 50 lawsuits against the Trump administration, protecting roughly $6.6 billion in federal funding for Illinois.",
+            "cites": [4]
+          },
+          {
+            "text": "His lawsuits preserved money for disaster relief and medical research.",
+            "cites": [5]
+          },
+          {
+            "text": "He also sued to stop the administration from withholding $54 million in crime victim aid.",
+            "cites": [6]
+          },
+          {
+            "text": "He joined a lawsuit challenging new mail-in voting rules.",
+            "cites": [7]
+          },
+          {
+            "text": "He helped sue to stop an attempt to end birthright citizenship.",
+            "cites": [4]
+          }
+        ]
+      },
+      {
+        "text": "Raoul created the state’s first Organized Retail Crime Task Force and leads the Illinois Internet Crimes Against Children Taskforce. He secured a $7.4 billion settlement from his lawsuit against Purdue Pharma over opioids. His office negotiated a $140 million cut to a Nicor Gas rate increase request. His campaign says he has worked to expand access to emergency and medication abortion, and his Worker Protection Unit has secured millions of dollars in owed wages for workers.",
+        "cites": [1, 8, 9],
+        "sentences": [
+          {
+            "text": "Raoul created the state’s first Organized Retail Crime Task Force and leads the Illinois Internet Crimes Against Children Taskforce.",
+            "cites": [1]
+          },
+          {
+            "text": "He secured a $7.4 billion settlement from his lawsuit against Purdue Pharma over opioids.",
+            "cites": [8]
+          },
+          {
+            "text": "His office negotiated a $140 million cut to a Nicor Gas rate increase request.",
+            "cites": [9]
+          },
+          {
+            "text": "His campaign says he has worked to expand access to emergency and medication abortion, and his Worker Protection Unit has secured millions of dollars in owed wages for workers.",
+            "cites": [8]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Raoul for Illinois",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=18261",
+        "period": "April 1 to June 30, 2026",
+        "raised": 173816.2,
+        "cashOnHand": 1720907.96,
+        "breakdown": [
+          { "kind": "small", "amount": 1572 },
+          { "kind": "large", "amount": 67500 },
+          { "kind": "transfer", "amount": 101250 },
+          { "kind": "other", "amount": 3494.2 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 415700, "count": 78 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Reproductive Freedom for All",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "National Association of Social Workers, Illinois Chapter",
+        "kind": "organization",
+        "cites": [11]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [12] },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [10] },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Illinois Fraternal Order of Police",
+        "kind": "union",
+        "cites": [10]
+      },
+      { "organization": "SEIU Healthcare", "kind": "union", "cites": [10] },
+      {
+        "organization": "International Union of Operating Engineers Locals 150 and 399",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Chicago Fraternal Order of Police",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Cook County Democratic Party",
+        "kind": "party",
+        "cites": [10]
+      },
+      { "organization": "New Trier Democrats", "kind": "party", "cites": [10] },
+      {
+        "organization": "The Chicago Crusader",
+        "kind": "editorial_board",
+        "cites": [10]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [13]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [14]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Biography of IL Attorney General",
+      "publisher": "Office of the Illinois Attorney General",
+      "url": "https://illinoisattorneygeneral.gov/about/biography/",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Kwame Raoul",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kwame_Raoul",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Kwame Raoul",
+      "publisher": "National Association of Attorneys General",
+      "url": "https://www.naag.org/attorney-general/kwame-raoul/",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Attorney General Raoul Highlights Actions Taken Over the Last Year",
+      "publisher": "Office of the Illinois Attorney General",
+      "url": "https://illinoisattorneygeneral.gov/news/story/attorney-general-raoul-highlights-actions-taken-over-the-last-year-to-protect-critical-programs-illinois-residents-civil-rights-from-trump-administrations-attacks-1-20-26",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "What to know about the race for Illinois attorney general",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/10/01/what-to-know-candidates-race-illinois-attorney-general-kwame-raoul-bob-fioretti",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Raoul sues Trump administration for access to crime victim funding",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/raoul-sues-trump-administration-for-access-to-crime-victim-funding/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Illinois attorney general joins suit against Postal Service over mail voting rules",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/illinois-attorney-general-joins-suit-against-postal-service-over-mail-voting-rules/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Kwame Raoul",
+      "publisher": "Kwame Raoul campaign",
+      "url": "https://kwameraoul.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Illinois attorney general reaches settlement to reduce Nicor Gas rate increase request",
+      "publisher": "ABC7 Chicago",
+      "url": "https://abc7chicago.com/post/illinois-attorney-general-kwame-raoul-reaches-settlement-reduce-nicor-gas-rate-increase-request-63/19817562/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "2026 Illinois Attorney General election",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Illinois_Attorney_General_election",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "NASW-IL Announces Endorsements for 2026 Illinois General Election",
+      "publisher": "National Association of Social Workers, Illinois Chapter",
+      "url": "https://www.naswil.org/post/nasw-il-announces-endorsements-for-2026-illinois-general-election",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 12,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 14
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:57:11.753Z",
+    "version": 3
+  }
+}

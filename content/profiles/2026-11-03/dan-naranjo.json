@@ -1,0 +1,201 @@
+{
+  "key": "dan-naranjo",
+  "electionId": "il-2026-11-03-general",
+  "name": "Dan Naranjo",
+  "party": "Democratic",
+  "office": "Circuit Court Judge, 13th Subcircuit (Vacancy of O'Malley)",
+  "contestIds": ["cook-clerk:341340:vacancy-of-o-malley"],
+  "kind": "judicial_candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Daniel Naranjo serves as a Circuit Court judge in the Domestic Violence and Pretrial divisions. He was appointed to the 13th Subcircuit in June 2025 after 25 years as a Cook County assistant public defender handling felony and multiple-defendant cases.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Daniel Naranjo serves as a Circuit Court judge in the Domestic Violence and Pretrial divisions.",
+            "cites": [1]
+          },
+          {
+            "text": "He was appointed to the 13th Subcircuit in June 2025 after 25 years as a Cook County assistant public defender handling felony and multiple-defendant cases.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Dan Naranjo for Judge",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40586",
+        "period": "July 1 to September 30, 2026",
+        "raised": 0,
+        "cashOnHand": 41213.47,
+        "breakdown": []
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "Personal PAC", "kind": "organization", "cites": [3] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 399",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Chicago Journeymen Plumbers Local 130 UA",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [8]
+      },
+      {
+        "organization": "Chicago Council of Lawyers",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [9]
+      },
+      {
+        "organization": "Illinois State Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [10]
+      },
+      {
+        "organization": "Alliance of Bar Associations for Judicial Screening",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "tally": {
+          "members": 11,
+          "ratings": [
+            { "rating": "Recommended", "count": 7 },
+            { "rating": "Qualified", "count": 2 },
+            { "rating": "Highly Recommended", "count": 2 }
+          ],
+          "notEvaluated": 0
+        },
+        "cites": [11]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Naranjo, Daniel | Circuit Court of Cook County",
+      "publisher": "Circuit Court of Cook County",
+      "url": "https://www.cookcountycourtil.gov/judge/naranjo-daniel",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Illinois Supreme Court appoints Daniel Naranjo as judge in Thirteenth Subcircuit of Cook County",
+      "publisher": "Illinois Supreme Court",
+      "url": "https://www.illinoiscourts.gov/News/1555/Illinois-Supreme-Court-appoints-Daniel-Naranjo-as-judge-in-Thirteenth-Subcircuit-of-Cook-County/news-detail/",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "ILLINOIS ENDORSEMENTS",
+      "publisher": "International Union of Operating Engineers Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "2026 local 399 illinois - primary election endorsements",
+      "publisher": "International Union of Operating Engineers Local 399",
+      "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "CANDIDATES ENDORSED BY THE POLITICAL ACTION TASK FORCE",
+      "publisher": "Chicago Journeymen Plumbers Local 130 UA",
+      "url": "https://www.plumberslu130ua.com/ULWSiteResources/ualocal130_v2/Resources/file/News/2026/2026%20PATF%20Endorsements_Revised.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Vote Smart: CBA Judicial Voter's Guide, General Election, November 3, 2026",
+      "publisher": "Chicago Bar Association",
+      "url": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 8
+    },
+    {
+      "title": "Evaluation Report: Judges on the Ballot in the November 3, 2026 General Election",
+      "publisher": "Chicago Council of Lawyers",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/CCL-Judicial-Evaluation-Report-for-Nov-3-2026-General-Election_Ballot-Order.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 9
+    },
+    {
+      "title": "2026 General Election, Cook County Judicial Evaluations",
+      "publisher": "Illinois State Bar Association",
+      "url": "https://www.isba.org/judicial-elections/counties/cook",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 10
+    },
+    {
+      "title": "Alliance of Bar Associations for Judicial Screening, 2026 General Election ratings",
+      "publisher": "Alliance of Bar Associations for Judicial Screening",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/2026-Alliance-General-Ballot-Ratings-09252026.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 11
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:27:09.446Z",
+    "version": 3
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "key": "kevin-john-olickal",
+  "electionId": "il-2026-11-03-general",
+  "name": "Kevin John Olickal",
+  "party": "Democratic",
+  "office": "State Representative, 16th District",
+  "contestIds": [
+    "chicago-boe:state-representative-16th-district",
+    "cook-clerk:181600"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Kevin John Olickal formerly served as executive director of the Indo-American Democratic Organization.",
+        "cites": [1, 2]
+      },
+      {
+        "text": "Olickal is the chief House sponsor of the Responsibility in Firearms Legislation Act. The bill would require gun manufacturers to pay into a state fund based on how many of their firearms are recovered from shootings in Illinois. He sponsored the Warehouse Worker Protection Act, which passed the legislature but was vetoed by the governor. His bills that became law include a measure on general assistance in townships. He also sponsored a law on consumer electronics recycling.",
+        "cites": [3, 4, 5, 6, 7],
+        "sentences": [
+          {
+            "text": "Olickal is the chief House sponsor of the Responsibility in Firearms Legislation Act.",
+            "cites": [3]
+          },
+          {
+            "text": "The bill would require gun manufacturers to pay into a state fund based on how many of their firearms are recovered from shootings in Illinois.",
+            "cites": [4]
+          },
+          {
+            "text": "He sponsored the Warehouse Worker Protection Act, which passed the legislature but was vetoed by the governor.",
+            "cites": [5]
+          },
+          {
+            "text": "His bills that became law include a measure on general assistance in townships.",
+            "cites": [6]
+          },
+          {
+            "text": "He also sponsored a law on consumer electronics recycling.",
+            "cites": [7]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Kevin Olickal",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=35758",
+        "period": "April 1 to June 30, 2026",
+        "raised": 4000,
+        "cashOnHand": 22100.1,
+        "breakdown": [
+          { "kind": "large", "amount": 3000 },
+          { "kind": "transfer", "amount": 1000 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 9500, "count": 4 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "Personal PAC", "kind": "organization", "cites": [8] },
+      { "organization": "IUOE Local 150", "kind": "union", "cites": [9] },
+      { "organization": "IUOE Local 399", "kind": "union", "cites": [10] },
+      {
+        "organization": "Cook County College Teachers Union",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [12]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [13] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Kevin John Olickal (D - Illinois General Assembly - Member",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/House/members/details/3419",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Kevin Olickal - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kevin_Olickal",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "University of Chicago doctors call for passage of RIFL Act targeting gun manufacturers",
+      "publisher": "CBS News Chicago",
+      "url": "https://www.cbsnews.com/chicago/news/university-chicago-doctors-rifl-act-legislation-gun-manufacturers/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "State bill would make gunmakers pay if their weapons are recovered in shootings",
+      "publisher": "WBEZ",
+      "url": "https://www.wbez.org/health-medicine/2026/09/08/state-bill-gun-makers-pay-gun-violence",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Bill Status for HB 2547 - Illinois General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/ftp/legislation/103/BillStatus/HTML/10300HB2547.html",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Kevin John Olickal (D) - 104th General Assembly (2025 ...",
+      "publisher": "Illinois General Assembly",
+      "url": "https://ilga.gov/House/Members/Details/3228",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Kevin John Olickal (D) - Illinois General Assembly - Member",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/Senate/Members/Details/3419?Primary=True",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Elections",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "IUOE LOCAL 150 DISTRICT 1 ENDORSEMENTS",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/02/2026-IL-Primary-Mailer-District-1_V7.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "2026 LOCAL 399 ILLINOIS PRIMARY ELECTION ENDORSEMENTS",
+      "publisher": "IUOE Local 399",
+      "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Early Endorsements for the March 17, 2026 Primary Election",
+      "publisher": "Cook County College Teachers Union",
+      "url": "https://www.ccctu.org/post/early-endorsements-for-the-march-17-2026-primary-election",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 13
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:55:59.530Z",
+    "version": 8
+  }
+}

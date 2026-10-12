@@ -1,0 +1,159 @@
+{
+  "key": "max-solomon",
+  "electionId": "il-2026-11-03-general",
+  "name": "Max Solomon",
+  "party": "Republican",
+  "office": "Illinois Treasurer",
+  "contestIds": ["chicago-boe:treasurer", "cook-clerk:130070"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Max Solomon is an attorney. He has worked as an adjunct political science instructor. He served as a trustee of the Grande Prairie Public Library District.",
+        "cites": [1, 2],
+        "sentences": [
+          { "text": "Max Solomon is an attorney.", "cites": [1] },
+          {
+            "text": "He has worked as an adjunct political science instructor.",
+            "cites": [2]
+          },
+          {
+            "text": "He served as a trustee of the Grande Prairie Public Library District.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "His top priorities include creating a real-time public dashboard for state funds. He has proposed modernizing the state's investment strategy to maximize returns. He also supports strengthening the Bright Start and Bright Directions college savings programs. In a 2024 candidate questionnaire, he supported constitutional pension reform and tax relief measures. He also supported independent redistricting commissions and called for deterring corruption through prosecution. In 2022, he said he believed \"life begins before we were formed\" and that he did not believe Joe Biden was rightfully elected president in 2020.",
+        "cites": [3, 4, 5],
+        "sentences": [
+          {
+            "text": "His top priorities include creating a real-time public dashboard for state funds.",
+            "cites": [3]
+          },
+          {
+            "text": "He has proposed modernizing the state's investment strategy to maximize returns.",
+            "cites": [3]
+          },
+          {
+            "text": "He also supports strengthening the Bright Start and Bright Directions college savings programs.",
+            "cites": [3]
+          },
+          {
+            "text": "In a 2024 candidate questionnaire, he supported constitutional pension reform and tax relief measures.",
+            "cites": [4]
+          },
+          {
+            "text": "He also supported independent redistricting commissions and called for deterring corruption through prosecution.",
+            "cites": [4]
+          },
+          {
+            "text": "In 2022, he said he believed \"life begins before we were formed\" and that he did not believe Joe Biden was rightfully elected president in 2020.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Max Solomon",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=25411",
+        "period": "April 1 to June 30, 2026",
+        "raised": 2850,
+        "cashOnHand": 7167.33,
+        "breakdown": [
+          { "kind": "small", "amount": 100 },
+          { "kind": "large", "amount": 250 },
+          { "kind": "loan", "amount": 2000 },
+          { "kind": "other", "amount": 500 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Illinois Family Action",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Chicago Flips Red",
+        "kind": "organization",
+        "cites": [7]
+      },
+      { "organization": "Winnebago County GOP", "kind": "party", "cites": [1] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Max Solomon — Illinois Treasurer",
+      "publisher": "Winnebago County GOP",
+      "url": "https://winnebagogop.com/candidate-max-solomon/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "ILLINOIS",
+      "publisher": "Stateside",
+      "url": "https://www.stateside.com/sites/default/files/2026-07/Max%20Solomon%20Treasurer%20Profile.pdf",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Max Solomon 2026: Treasurer - The Ballot Brief",
+      "publisher": "The Ballot Brief",
+      "url": "https://theballotbrief.com/candidate/max-solomon-il",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Max Solomon, Illinois Senate 19th District - Chicago Sun-Times",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/2024/2/7/24056198/max-solomon-illinois-senate-19th-district",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "6 Republicans vie to unseat Pritzker",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/6-republicans-vie-to-unseat-pritzker/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "IFA’s 2026 General Election Endorsements",
+      "publisher": "Illinois Family Action",
+      "url": "https://illinoisfamilyaction.org/2026/09/ifas-2026-general-election-endorsements-2/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Max Solomon - State Treasurer",
+      "publisher": "iVoterGuide",
+      "url": "https://ivoterguide.com/candidate/29367/race/29586/election/1443",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T21:02:58.485Z",
+    "version": 2
+  }
+}

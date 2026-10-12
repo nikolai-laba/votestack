@@ -1,0 +1,358 @@
+{
+  "key": "miguel-alvelo-rivera",
+  "electionId": "il-2026-11-03-general",
+  "name": "Miguel Alvelo-Rivera",
+  "party": "Democratic",
+  "office": "State Representative, 40th District",
+  "contestIds": [
+    "chicago-boe:state-representative-40th-district",
+    "cook-clerk:184000"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Miguel Alvelo-Rivera is the executive director of the Latino Union, which advocates for day laborers and domestic workers.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Miguel Alvelo-Rivera is the executive director of the Latino Union, which advocates for day laborers and domestic workers.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "His campaign proposes lifting the statewide ban on rent control, raising the minimum wage to $30 an hour by 2030 and supporting a single-payer healthcare system. He supports taxing the rich to fund schools and hospitals. He calls for strengthening the TRUST Act, which prohibits police cooperation with federal immigration enforcement. He says that during the COVID-19 pandemic, he helped run a food pantry that fed more than 200 people weekly and helped create a volunteer ICE watch program.",
+        "cites": [2, 3, 1],
+        "sentences": [
+          {
+            "text": "His campaign proposes lifting the statewide ban on rent control, raising the minimum wage to $30 an hour by 2030 and supporting a single-payer healthcare system.",
+            "cites": [2]
+          },
+          {
+            "text": "He supports taxing the rich to fund schools and hospitals.",
+            "cites": [3]
+          },
+          {
+            "text": "He calls for strengthening the TRUST Act, which prohibits police cooperation with federal immigration enforcement.",
+            "cites": [2]
+          },
+          {
+            "text": "He says that during the COVID-19 pandemic, he helped run a food pantry that fed more than 200 people weekly and helped create a volunteer ICE watch program.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Miguel Para el Pueblo",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40930",
+        "period": "April 1 to June 30, 2026",
+        "raised": 4655,
+        "cashOnHand": 21603.25,
+        "breakdown": [
+          { "kind": "small", "amount": 1165 },
+          { "kind": "large", "amount": 490 },
+          { "kind": "transfer", "amount": 3000 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "U.S. Rep. Delia Ramirez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "State Sen. Graciela Guzmán",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "Cook County Commissioner Jessica Vásquez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "Alderperson Jessie Fuentes",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Alderperson Ruth Cruz",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Alderperson Rossana Rodríguez Sánchez",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Alderperson Anthony Quezada",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [5] },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [6] },
+      {
+        "organization": "Chicago Teachers Union",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "Cook County College Teachers Union",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "West Suburban Teachers Union",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "UIC United Faculty COPE",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "Sierra Club Illinois",
+        "kind": "organization",
+        "cites": [4]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [8] },
+      {
+        "organization": "Citizen Action/Illinois",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "United Working Families",
+        "kind": "party",
+        "cites": [4]
+      },
+      { "organization": "JCUA Votes", "kind": "organization", "cites": [10] },
+      {
+        "organization": "Sunrise Movement Chicago",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Run for Something",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "Better Streets Chicago Action Fund",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "Warehouse Workers Action",
+        "kind": "organization",
+        "cites": [4]
+      },
+      { "organization": "HANA Action", "kind": "organization", "cites": [4] },
+      {
+        "organization": "Muslim Civic Coalition - Activate",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Asian American Midwest Progressives",
+        "kind": "organization",
+        "cites": [4]
+      },
+      { "organization": "Mijente", "kind": "organization", "cites": [4] },
+      {
+        "organization": "New American Leaders Action Fund",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "The People's Lobby",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Cook County Latino Democrats",
+        "kind": "party",
+        "cites": [4]
+      },
+      { "organization": "30th Ward Democrats", "kind": "party", "cites": [4] },
+      {
+        "organization": "33rd Ward Working Families",
+        "kind": "party",
+        "cites": [13]
+      },
+      { "organization": "1st Ward United", "kind": "party", "cites": [4] },
+      { "organization": "People's 32nd Ward", "kind": "party", "cites": [4] },
+      {
+        "organization": "United Neighbors 35th Ward",
+        "kind": "party",
+        "cites": [4]
+      },
+      {
+        "organization": "United Northwest Side",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [14]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [15]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Meet Miguel - Miguel for 40",
+      "publisher": "Miguel for 40",
+      "url": "https://www.miguelfor40.org/meet-miguel",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Miguel for State Rep 40th District",
+      "publisher": "Miguel for State Rep 40th District",
+      "url": "https://www.miguelfor40.org/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "State Rep. Jaime Andrade Jr. appears headed to defeat in ...",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/03/17/illinois-state-house-senate-primary-results",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Miguel for State Rep 40th District",
+      "publisher": "Miguel for State Rep 40th District",
+      "url": "https://www.miguelfor40.org/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Illinois AFL-CIO 2026 General Election Endorsements",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ibewlocal176.org/uploads/8/9/0/2/89025372/il_afl-cio_gen_endorsements_072326.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Election 2026",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "News | Ccctu",
+      "publisher": "Cook County College Teachers Union",
+      "url": "https://www.ccctu.org/news",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Endorsements",
+      "publisher": "Citizen Action/Illinois",
+      "url": "https://citizenaction-il.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "2026 Endorsements",
+      "publisher": "JCUA Votes",
+      "url": "https://jcuavotes.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Miguel Alvelo Rivera",
+      "publisher": "Run For Something",
+      "url": "https://directory.runforsomething.net/candidate/bb141cd10072daf0c21aa3dde0c7a6c2/alvelo-rivera-miguel/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 12,
+      "title": "2026 Endorsements",
+      "publisher": "Better Streets Chicago Action Fund",
+      "url": "https://www.bscactionfund.org/2026-midterms/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 13,
+      "title": "2026 Primary Endorsements",
+      "publisher": "33rd Ward Working Families",
+      "url": "https://www.workingfamilies33.org/2026-primary-endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 15
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:08:13.260Z",
+    "version": 5
+  }
+}

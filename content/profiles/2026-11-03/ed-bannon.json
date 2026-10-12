@@ -1,0 +1,152 @@
+{
+  "key": "ed-bannon",
+  "electionId": "il-2026-11-03-general",
+  "name": "Ed Bannon",
+  "office": "Chicago Board of Education Member, Subdistrict 1A",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-1a"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Ed Bannon is an appointed Chicago Board of Education member representing District 1A on the Far Northwest Side. He served as executive director of the Six Corners Association. A Dunning resident for more than 20 years, he has served on the Dever Elementary Local School Council since 2015, where he is secretary and has chaired the principal selection committee.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Ed Bannon is an appointed Chicago Board of Education member representing District 1A on the Far Northwest Side.",
+            "cites": [1]
+          },
+          {
+            "text": "He served as executive director of the Six Corners Association.",
+            "cites": [1]
+          },
+          {
+            "text": "A Dunning resident for more than 20 years, he has served on the Dever Elementary Local School Council since 2015, where he is secretary and has chaired the principal selection committee.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "On the school board, he voted for the district budget plan. He says a top goal is increasing public education funding without raising property taxes. He hosted a public budget briefing to explain district finances and hear from residents. He reached out to a board member with an opposing view to discuss collaborating.",
+        "cites": [1, 3, 4],
+        "sentences": [
+          {
+            "text": "On the school board, he voted for the district budget plan.",
+            "cites": [1]
+          },
+          {
+            "text": "He says a top goal is increasing public education funding without raising property taxes.",
+            "cites": [3]
+          },
+          {
+            "text": "He hosted a public budget briefing to explain district finances and hear from residents.",
+            "cites": [1]
+          },
+          {
+            "text": "He reached out to a board member with an opposing view to discuss collaborating.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Ed Bannon",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=38810",
+        "period": "April 1 to June 30, 2026",
+        "raised": 0,
+        "cashOnHand": 220.16,
+        "breakdown": [],
+        "largeSince": { "since": "2026-06-30", "total": 20473.14, "count": 4 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Chicago Teachers Union",
+        "kind": "union",
+        "cites": [6]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [7] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Chicago school board election 2026: Who are the candidates in District 1a?",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-elections-2026-district-1a-candidates-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Ed Bannon - Chicago Board of Education",
+      "publisher": "Chicago Board of Education",
+      "url": "https://www.cpsboe.org/about/bios/2034",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "NW Side Chicago school board member Ed Bannon holds education budget-related meeting",
+      "publisher": "Nadig Newspapers",
+      "url": "https://nadignewspapers.com/nw-side-chicago-school-board-member-ed-bannon-holds-education-budget-related-meeting/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "‘The stakes are really high’: Chicago’s school board enters its elected era",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2025/09/17/chicago-public-schools-board-of-education-talk-politics-and-governance/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Elections & Endorsements",
+      "publisher": "SEIU Illinois State Council",
+      "url": "https://seiuilcouncil.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "2026 School Board Election",
+      "publisher": "Chicago Teachers Union",
+      "url": "https://www.ctulocal1.org/movement/school-board-election-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 7
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:39:54.794Z",
+    "version": 4
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "key": "lapamela-williams",
+  "electionId": "il-2026-11-03-general",
+  "name": "LaPamela Williams",
+  "office": "Chicago Board of Education Member, Subdistrict 5A",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-5a"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "LaPamela Williams is a realtor who has assisted individuals with healthcare and retirement planning. She grew up in Austin and graduated from Lane Tech. She wants to increase financial accountability in Chicago Public Schools and cut expenses that do not benefit students. She says the board should oversee the budget more responsibly and avoid relying on tax increases. Williams supports opening new charter schools where there is community need, when the groups operating them have sustainable funding and a clear plan to improve learning.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "LaPamela Williams is a realtor who has assisted individuals with healthcare and retirement planning.",
+            "cites": [1]
+          },
+          {
+            "text": "She grew up in Austin and graduated from Lane Tech.",
+            "cites": [2]
+          },
+          {
+            "text": "She wants to increase financial accountability in Chicago Public Schools and cut expenses that do not benefit students.",
+            "cites": [3]
+          },
+          {
+            "text": "She says the board should oversee the budget more responsibly and avoid relying on tax increases.",
+            "cites": [3]
+          },
+          {
+            "text": "Williams supports opening new charter schools where there is community need, when the groups operating them have sustainable funding and a clear plan to improve learning.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "LaPamela for Our Schools",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41108",
+        "period": "April 1 to June 30, 2026",
+        "raised": 0,
+        "cashOnHand": 95,
+        "breakdown": [],
+        "largeSince": { "since": "2026-06-30", "total": 44174.29, "count": 13 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "INCS Action PAC",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Common Ground Collective",
+        "kind": "organization",
+        "cites": [1]
+      },
+      {
+        "organization": "The Urban Center",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Chicago Tribune Editorial Board",
+        "kind": "editorial_board",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Endorsements — Common Ground Collective",
+      "publisher": "Common Ground Collective",
+      "url": "https://cgcollective.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Editorial: LaPamela Williams for Chicago School Board in District 5A",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/09/28/editorial-lapamela-williams-chicago-school-board-district-5a/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Chicago school board election 2026 voter guide: District 5a candidates - Chalkbeat",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-election-2026-district-5a-candidates-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Key education endorsements for CPS School Board candidates",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/education/2026/09/21/key-education-endorsements-for-cps-school-board-candidates",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:45:09.229Z",
+    "version": 2
+  }
+}

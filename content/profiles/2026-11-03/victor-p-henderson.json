@@ -1,0 +1,151 @@
+{
+  "key": "victor-p-henderson",
+  "electionId": "il-2026-11-03-general",
+  "name": "Victor P. Henderson",
+  "office": "Chicago Board of Education President",
+  "contestIds": ["chicago-boe:president-of-the-chicago-board-of-education"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Victor P. Henderson is an attorney and a former certified public accountant who serves on the board of Urban Prep Academies. He is a former president of the Chicago Bar Association. His campaign focuses on fiscal responsibility, and he has said he would commission a forensic audit. His campaign website states that decisions made to advance political agendas rather than student achievement have no place in the schools. He has emphasized local control and accountability, saying the school system should be focused on children and run by taxpayers.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Victor P. Henderson is an attorney and a former certified public accountant who serves on the board of Urban Prep Academies.",
+            "cites": [1]
+          },
+          {
+            "text": "He is a former president of the Chicago Bar Association.",
+            "cites": [2]
+          },
+          {
+            "text": "His campaign focuses on fiscal responsibility, and he has said he would commission a forensic audit.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign website states that decisions made to advance political agendas rather than student achievement have no place in the schools.",
+            "cites": [3]
+          },
+          {
+            "text": "He has emphasized local control and accountability, saying the school system should be focused on children and run by taxpayers.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Vic For The Kids",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41112",
+        "period": "April 1 to June 30, 2026",
+        "raised": 658575,
+        "cashOnHand": 598012.35,
+        "breakdown": [
+          { "kind": "small", "amount": 2025 },
+          { "kind": "large", "amount": 156550 },
+          { "kind": "candidate", "amount": 500000 }
+        ],
+        "fromCandidate": 500000,
+        "largeSince": { "since": "2026-06-30", "total": 13000, "count": 12 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "U.S. Rep. Danny K. Davis",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "U.S. Rep. Robin Kelly",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Former U.S. Sen. Carol Moseley Braun",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Former U.S. Sen. Roland Burris",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Former Cook County Commissioner Forrest Claypool",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Chicago school board election 2026 voter guide - Chalkbeat",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-election-2026-president-candidates-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Attorney Henderson makes case to lead CPS board",
+      "publisher": "Chicago Crusader",
+      "url": "https://chicagocrusader.com/attorney-henderson-vision-cps-board-attorney-victor-p-henderson/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Who is running for president of the Chicago Board of Education in 2026?",
+      "publisher": "CBS News Chicago",
+      "url": "https://www.cbsnews.com/chicago/news/who-is-running-chicago-school-board-president-2026/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Candidates for CPS board president outline priorities as Dominguez responds to renewed scrutiny",
+      "publisher": "ABC7 Chicago",
+      "url": "https://abc7chicago.com/post/2026-election-chicago-board-education-candidates-jessica-biggs-hilario-dominguez-victor-henderson-speak-city-club-forum/19915811/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Chicago Board of Education candidates file to run in historic election",
+      "publisher": "Fox 32 Chicago",
+      "url": "https://www.fox32chicago.com/news/chicago-board-of-education-candidates",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Chicago school board candidate defends disciplining his kids",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/22/chicago-public-schools-board-president-candidate-victor-henderson-defends-discipline/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:43:04.340Z",
+    "version": 3
+  }
+}

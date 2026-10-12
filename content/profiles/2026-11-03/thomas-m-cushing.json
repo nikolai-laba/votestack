@@ -1,0 +1,147 @@
+{
+  "key": "thomas-m-cushing",
+  "electionId": "il-2026-11-03-general",
+  "name": "Thomas M. Cushing",
+  "office": "Circuit Court Judge, Cook County",
+  "contestIds": [
+    "chicago-boe:retention:thomas-m-cushing",
+    "cook-clerk:720001:thomas-m-cushing"
+  ],
+  "kind": "retention",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Thomas M. Cushing has been a circuit judge since 2019. He sits in the Law Division. Before taking the bench, he practiced civil litigation at Ambrose & Cushing and was of counsel to Christopher A. Kreid & Associates. He was a senior vice president at the Chicago Climate Exchange from 2006 to 2010. He has volunteered as a hearing board member for the Illinois Attorney Registration and Disciplinary Commission.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Thomas M. Cushing has been a circuit judge since 2019.",
+            "cites": [1]
+          },
+          { "text": "He sits in the Law Division.", "cites": [1] },
+          {
+            "text": "Before taking the bench, he practiced civil litigation at Ambrose & Cushing and was of counsel to Christopher A. Kreid & Associates.",
+            "cites": [2]
+          },
+          {
+            "text": "He was a senior vice president at the Chicago Climate Exchange from 2006 to 2010.",
+            "cites": [3]
+          },
+          {
+            "text": "He has volunteered as a hearing board member for the Illinois Attorney Registration and Disciplinary Commission.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "Chicago Bar Association",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "rating": "Qualified",
+        "cites": [5]
+      },
+      {
+        "organization": "Chicago Council of Lawyers",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "rating": "Qualified",
+        "cites": [6]
+      },
+      {
+        "organization": "Illinois State Bar Association",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "rating": "Yes",
+        "cites": [1]
+      },
+      {
+        "organization": "Alliance of Bar Associations for Judicial Screening",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "tally": {
+          "members": 11,
+          "ratings": [{ "rating": "Yes", "count": 11 }],
+          "notEvaluated": 0
+        },
+        "cites": [7]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Cook County Judicial Evaluations",
+      "publisher": "Illinois State Bar Association",
+      "url": "https://www.isba.org/judicial-elections/counties/cook",
+      "kind": "bar",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Illinois Supreme Court Appoints Cushing as At-Large Circuit Judge of Cook County",
+      "publisher": "Illinois State Bar Association",
+      "url": "https://www.isba.org/barnews/2019/05/illinoissupremecourtappointscushing",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Chicago Council of Lawyers Evaluation Report – Vote For Judges",
+      "publisher": "Chicago Council of Lawyers",
+      "url": "https://www.voteforjudges.org/chicago-council-of-lawyers-evaluation-report/",
+      "kind": "bar",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Vote Smart: CBA Judicial Voter's Guide, General Election, November 3, 2026",
+      "publisher": "Chicago Bar Association",
+      "url": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 5
+    },
+    {
+      "title": "Evaluation Report: Judges on the Ballot in the November 3, 2026 General Election",
+      "publisher": "Chicago Council of Lawyers",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/CCL-Judicial-Evaluation-Report-for-Nov-3-2026-General-Election_Ballot-Order.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 6
+    },
+    {
+      "title": "Alliance of Bar Associations for Judicial Screening, 2026 General Election ratings",
+      "publisher": "Alliance of Bar Associations for Judicial Screening",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/2026-Alliance-General-Ballot-Ratings-09252026.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 7
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T21:25:54.605Z",
+    "version": 2
+  }
+}

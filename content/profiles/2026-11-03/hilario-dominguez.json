@@ -1,0 +1,159 @@
+{
+  "key": "hilario-dominguez",
+  "electionId": "il-2026-11-03-general",
+  "name": "Hilario Dominguez",
+  "office": "Chicago Board of Education President",
+  "contestIds": ["chicago-boe:president-of-the-chicago-board-of-education"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Hilario Dominguez is a former Chicago Public Schools special education teacher who served as deputy political director for the Chicago Teachers Union. He proposes free, full-day preschool for all 3-year-olds. He opposes school closures and wants under-used buildings to host health clinics and other services. He supports the district’s $10.11 billion budget. He helped lead the 2019 teachers’ strike and worked with parents to prevent school closures.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Hilario Dominguez is a former Chicago Public Schools special education teacher who served as deputy political director for the Chicago Teachers Union.",
+            "cites": [1]
+          },
+          {
+            "text": "He proposes free, full-day preschool for all 3-year-olds.",
+            "cites": [2]
+          },
+          {
+            "text": "He opposes school closures and wants under-used buildings to host health clinics and other services.",
+            "cites": [2]
+          },
+          {
+            "text": "He supports the district’s $10.11 billion budget.",
+            "cites": [3]
+          },
+          {
+            "text": "He helped lead the 2019 teachers’ strike and worked with parents to prevent school closures.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Hilario Dominguez",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41210",
+        "period": "June 4 to June 30, 2026",
+        "raised": 0,
+        "cashOnHand": 0,
+        "breakdown": [],
+        "largeSince": { "since": "2026-06-30", "total": 597229.84, "count": 34 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Teachers Union",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Painters District Council 14",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Communications Workers of America District 4",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Our Schools Chicago",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Mayor Brandon Johnson",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Ald. Jessie Fuentes",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Ald. Rossana Rodriguez Sanchez",
+        "kind": "elected_official",
+        "cites": [6]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Hilario Dominguez: CPS School Board President Candidate",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/graphics/chicago-school-board-education-voter-guide/candidates/hilario-dominguez/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Chicago School Board Election 2026: The citywide race for president",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-election-2026-president-candidates-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Chicago school board president candidates field questions in televised town hall",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/09/15/chicago-school-board-president-candidates-televised-debate/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "CTU Members Endorse Hilario Dominguez as a Public School Champion for School Board President",
+      "publisher": "Chicago Teachers Union",
+      "url": "https://www.ctulocal1.org/posts/ctu-members-endorse-hilario-dominguez-as-a-public-school-champion-for-school-board-president/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "School Board Election 2026",
+      "publisher": "Chicago Teachers Union",
+      "url": "https://www.ctulocal1.org/movement/school-board-election-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Election 2026: Who is running for Chicago School Board president?",
+      "publisher": "FOX 32 Chicago",
+      "url": "https://www.fox32chicago.com/news/who-is-running-chicago-school-board-president",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Key education endorsements for CPS School Board candidates",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/education/2026/09/21/key-education-endorsements-for-cps-school-board-candidates",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:49:51.913Z",
+    "version": 3
+  }
+}

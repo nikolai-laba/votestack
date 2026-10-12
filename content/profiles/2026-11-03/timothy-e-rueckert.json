@@ -1,0 +1,93 @@
+{
+  "key": "timothy-e-rueckert",
+  "electionId": "il-2026-11-03-general",
+  "name": "Timothy E. Rueckert",
+  "party": "Republican",
+  "office": "Metropolitan Water Reclamation District Commissioner",
+  "contestIds": [
+    "chicago-boe:metropolitan-water-reclamation-district-commissioners-full-6-year-term",
+    "cook-clerk:190100"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Timothy E. Rueckert is a former Northfield Township highway commissioner. He worked in law enforcement for the Illinois Secretary of State, Gaming Board, and Department of Revenue, and earned a bachelor’s degree in accounting and finance. His campaign says that as highway commissioner, he worked on flood-control projects with the MWRD at Citation Lake, Northbrook West, and the Central Road Drainage District, and expanded the township’s recycling program.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Timothy E. Rueckert is a former Northfield Township highway commissioner.",
+            "cites": [1]
+          },
+          {
+            "text": "He worked in law enforcement for the Illinois Secretary of State, Gaming Board, and Department of Revenue, and earned a bachelor’s degree in accounting and finance.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says that as highway commissioner, he worked on flood-control projects with the MWRD at Citation Lake, Northbrook West, and the Central Road Drainage District, and expanded the township’s recycling program.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "His campaign says he would push for practical drainage projects, infrastructure upgrades, and a grant program to replace or reline existing public sanitary sewer lines. He also calls for competitive contracting, performance measures, and livestreaming board meetings.",
+        "cites": [2],
+        "sentences": [
+          {
+            "text": "His campaign says he would push for practical drainage projects, infrastructure upgrades, and a grant program to replace or reline existing public sanitary sewer lines.",
+            "cites": [2]
+          },
+          {
+            "text": "He also calls for competitive contracting, performance measures, and livestreaming board meetings.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Cook County Republican Party",
+        "kind": "party",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "3 Republicans Launch Campaigns For Metropolitan Water ... - Patch",
+      "publisher": "Patch",
+      "url": "https://patch.com/illinois/glenview/3-republicans-launch-campaigns-metropolitan-water-reclamation-district-board",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "About Tim | Timothy E. Rueckert for MWRD Commissioner",
+      "publisher": "Timothy E. Rueckert for MWRD Commissioner",
+      "url": "https://tim4mwrd.com/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Cook GOP Beats Back Democrat Objection, Land Three Republicans on November Ballot",
+      "publisher": "Chicago Republican Party",
+      "url": "https://www.chicagogop.com/cook_gop_beats_back_democrat_objection_land_three_republicans_on_november_ballot",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:52:02.543Z",
+    "version": 2
+  }
+}

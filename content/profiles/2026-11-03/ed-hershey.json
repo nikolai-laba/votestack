@@ -1,0 +1,131 @@
+{
+  "key": "ed-hershey",
+  "electionId": "il-2026-11-03-general",
+  "name": "Ed Hershey",
+  "party": "Working Class Party",
+  "office": "U.S. Representative, 4th District",
+  "contestIds": [
+    "chicago-boe:u-s-representative-4th-district",
+    "cook-clerk:140400"
+  ],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Ed Hershey has taught at Lindblom Math and Science Academy for 16 years and serves as a union representative. He argues the city closes schools and limits their funding while giving money to companies and developers.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Ed Hershey has taught at Lindblom Math and Science Academy for 16 years and serves as a union representative.",
+            "cites": [1]
+          },
+          {
+            "text": "He argues the city closes schools and limits their funding while giving money to companies and developers.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "He has said both major parties set themselves against the working class and he would not caucus with either. He says the working class needs its own party. Hershey has criticized the war in Iran, stating it drives inflation. He has also stated the U.S. uses the war in Ukraine to weaken Russia.",
+        "cites": [3, 4],
+        "sentences": [
+          {
+            "text": "He has said both major parties set themselves against the working class and he would not caucus with either.",
+            "cites": [3]
+          },
+          {
+            "text": "He says the working class needs its own party.",
+            "cites": [4]
+          },
+          {
+            "text": "Hershey has criticized the war in Iran, stating it drives inflation.",
+            "cites": [3]
+          },
+          {
+            "text": "He has also stated the U.S. uses the war in Ukraine to weaken Russia.",
+            "cites": [4]
+          }
+        ]
+      },
+      {
+        "text": "He supports stopping arms shipments to Israel. Hershey proposes taxing the wealthy and corporations. He supports voting rights for all immigrants and proposes using federal funds to house them.",
+        "cites": [4],
+        "sentences": [
+          {
+            "text": "He supports stopping arms shipments to Israel.",
+            "cites": [4]
+          },
+          {
+            "text": "Hershey proposes taxing the wealthy and corporations.",
+            "cites": [4]
+          },
+          {
+            "text": "He supports voting rights for all immigrants and proposes using federal funds to house them.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Just Break Already",
+        "kind": "organization",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "What to know about the 4th Congressional District race to replace U.S. Rep. Jesus 'Chuy' Garcia",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/10/01/what-to-know-4th-congressional-district-patty-garcia-chris-getty-lupe-castillo-ed-hershey-us-rep-jesus-chuy-garcia",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Who is running for Rep. Chuy Garcia's congressional seat?",
+      "publisher": "Fox 32 Chicago",
+      "url": "https://www.fox32chicago.com/news/chuy-garcia-congressional-seat-race-2026.amp",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Illinois 4th District race: Rivals hit Patty García over ballot moves in race to succeed Jesús ‘Chuy’ García",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/09/29/illinois-4th-district-race-rivals-hit-patty-garcia-over-ballot-moves-in-race-to-succeed-chuy-garcia/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Ed Hershey, Illinois 4th Congressional District",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/candidate-questionnaires/ed-hershey-illinois-4th-congressional-district",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "JBA Says to Chicago DSA: Vote Working Class! Vote Ed Hershey!",
+      "publisher": "Workers Vanguard",
+      "url": "https://iclfi.org/pubs/wv/1189/hershey",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:36:19.694Z",
+    "version": 5
+  }
+}

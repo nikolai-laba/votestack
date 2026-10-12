@@ -1,0 +1,145 @@
+{
+  "key": "ursula-walowski",
+  "electionId": "il-2026-11-03-general",
+  "name": "Ursula Walowski",
+  "office": "Circuit Court Judge, Cook County",
+  "contestIds": [
+    "chicago-boe:retention:ursula-walowski",
+    "cook-clerk:720001:ursula-walowski"
+  ],
+  "kind": "retention",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Ursula Walowski was elected to the circuit court in 2008 after working as a state prosecutor for 15 years. She serves in the Criminal Division. During her recent term, the Illinois Appellate Court overturned her rulings at least 25 times, the highest number among criminal judges on the 2026 retention ballot. Two defendants have been charged with attacking public defenders in her courtroom since 2025.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Ursula Walowski was elected to the circuit court in 2008 after working as a state prosecutor for 15 years.",
+            "cites": [1]
+          },
+          { "text": "She serves in the Criminal Division.", "cites": [2] },
+          {
+            "text": "During her recent term, the Illinois Appellate Court overturned her rulings at least 25 times, the highest number among criminal judges on the 2026 retention ballot.",
+            "cites": [3]
+          },
+          {
+            "text": "Two defendants have been charged with attacking public defenders in her courtroom since 2025.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [],
+    "sharedCommittee": {
+      "name": "Committee for Retention of Judges in Cook County",
+      "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=6505"
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Bar Association",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "rating": "Qualified",
+        "cites": [4]
+      },
+      {
+        "organization": "Chicago Council of Lawyers",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "rating": "Qualified",
+        "cites": [5]
+      },
+      {
+        "organization": "Illinois State Bar Association",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "rating": "Yes",
+        "cites": [6]
+      },
+      {
+        "organization": "Alliance of Bar Associations for Judicial Screening",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "tally": {
+          "members": 11,
+          "ratings": [{ "rating": "Yes", "count": 10 }],
+          "notEvaluated": 0
+        },
+        "cites": [7]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Judge Ursula Walowski: Working to “Wipe Out Domestic ...",
+      "publisher": "ChicagoTalks",
+      "url": "https://chicagotalks.colum.edu/judge-ursula-walowski-working-to-wipe-out-domestic-violence/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Honorable Ursula Walowski, Circuit Judge",
+      "publisher": "Circuit Court of Cook County",
+      "url": "https://www.cookcountycourtil.gov/judge/walowski-ursula",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "This judge up for retention faced a flood of reversals",
+      "publisher": "Injustice Watch",
+      "url": "https://www.injusticewatch.org/judges/judicial-elections/2026-retention/2026/walowski-reversals/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Vote Smart: CBA Judicial Voter's Guide, General Election, November 3, 2026",
+      "publisher": "Chicago Bar Association",
+      "url": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 4
+    },
+    {
+      "title": "Evaluation Report: Judges on the Ballot in the November 3, 2026 General Election",
+      "publisher": "Chicago Council of Lawyers",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/CCL-Judicial-Evaluation-Report-for-Nov-3-2026-General-Election_Ballot-Order.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 5
+    },
+    {
+      "title": "2026 General Election, Cook County Judicial Evaluations",
+      "publisher": "Illinois State Bar Association",
+      "url": "https://www.isba.org/judicial-elections/counties/cook",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 6
+    },
+    {
+      "title": "Alliance of Bar Associations for Judicial Screening, 2026 General Election ratings",
+      "publisher": "Alliance of Bar Associations for Judicial Screening",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/2026-Alliance-General-Ballot-Ratings-09252026.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 7
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T21:26:26.058Z",
+    "version": 2
+  }
+}

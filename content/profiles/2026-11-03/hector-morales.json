@@ -1,0 +1,137 @@
+{
+  "key": "hector-morales",
+  "electionId": "il-2026-11-03-general",
+  "name": "Hector Morales",
+  "office": "Chicago Board of Education Member, Subdistrict 2A",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-2a"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Hector Morales is an attorney who has run his own firm since the early 2000s. He attended Senn and Clemente high schools. He works with the Illinois Department of Children and Family Services on child protection and juvenile justice.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Hector Morales is an attorney who has run his own firm since the early 2000s.",
+            "cites": [1]
+          },
+          {
+            "text": "He attended Senn and Clemente high schools.",
+            "cites": [2]
+          },
+          {
+            "text": "He works with the Illinois Department of Children and Family Services on child protection and juvenile justice.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "He says he wants Chicago Public Schools to use every dollar efficiently. He supports greater community input in budgeting. He proposes cutting duplicative services and central-office positions. He says cost-cutting should protect resources for underserved students. He opposes automatically closing under-enrolled schools. He proposes making them community hubs with additional academic and arts programs. He wants to make music and the arts part of the core curriculum.",
+        "cites": [1, 3],
+        "sentences": [
+          {
+            "text": "He says he wants Chicago Public Schools to use every dollar efficiently.",
+            "cites": [1]
+          },
+          {
+            "text": "He supports greater community input in budgeting.",
+            "cites": [3]
+          },
+          {
+            "text": "He proposes cutting duplicative services and central-office positions.",
+            "cites": [3]
+          },
+          {
+            "text": "He says cost-cutting should protect resources for underserved students.",
+            "cites": [3]
+          },
+          {
+            "text": "He opposes automatically closing under-enrolled schools.",
+            "cites": [3]
+          },
+          {
+            "text": "He proposes making them community hubs with additional academic and arts programs.",
+            "cites": [3]
+          },
+          {
+            "text": "He wants to make music and the arts part of the core curriculum.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Tribune Editorial Board",
+        "kind": "editorial_board",
+        "cites": [4]
+      },
+      {
+        "organization": "Common Ground Collective",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "The Urban Center",
+        "kind": "organization",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Chicago school board election 2026 voter guide: District 2a ...",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-election-2026-district-2a-candidates-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Endorsements — Common Ground Collective",
+      "publisher": "Common Ground Collective",
+      "url": "https://cgcollective.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Chicago’s First Fully Elected School Board: A Guide to the 2A ...",
+      "publisher": "Loyola Phoenix",
+      "url": "https://loyolaphoenix.com/2026/09/chicagos-first-fully-elected-school-board-a-guide-to-the-2a-2b-and-4a-races/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Editorial: Hector Morales for Chicago School Board in District 2A",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/09/28/editorial-hector-morales-chicago-school-board-district-2a/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Key education endorsements for CPS School Board candidates",
+      "publisher": "WBEZ",
+      "url": "https://www.wbez.org/education/chicago-school-board/2026/09/21/key-education-endorsements-for-cps-school-board-candidates",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:42:02.534Z",
+    "version": 2
+  }
+}

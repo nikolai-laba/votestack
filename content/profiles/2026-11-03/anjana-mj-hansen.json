@@ -1,0 +1,161 @@
+{
+  "key": "anjana-mj-hansen",
+  "electionId": "il-2026-11-03-general",
+  "name": "Anjana M.J. Hansen",
+  "office": "Circuit Court Judge, Cook County",
+  "contestIds": [
+    "chicago-boe:retention:anjana-m-j-hansen",
+    "cook-clerk:720001:anjana-m-j-hansen"
+  ],
+  "kind": "retention",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Anjana M.J. Hansen has served on the Cook County Circuit Court since 2014 and is the Deputy Presiding Judge in Skokie, handling felony cases. She was previously an Assistant Cook County State's Attorney, an Evanston contract attorney, and an Evanston alderman. In 2022, she sentenced a defendant to 23 years in prison for first-degree murder. In 2025, she denied a certificate of innocence in a wrongful conviction case.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Anjana M.J. Hansen has served on the Cook County Circuit Court since 2014 and is the Deputy Presiding Judge in Skokie, handling felony cases.",
+            "cites": [1]
+          },
+          {
+            "text": "She was previously an Assistant Cook County State's Attorney, an Evanston contract attorney, and an Evanston alderman.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2022, she sentenced a defendant to 23 years in prison for first-degree murder.",
+            "cites": [3]
+          },
+          {
+            "text": "In 2025, she denied a certificate of innocence in a wrongful conviction case.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [],
+    "sharedCommittee": {
+      "name": "Committee for Retention of Judges in Cook County",
+      "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=6505"
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Chicago Bar Association",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "rating": "Qualified",
+        "cites": [6]
+      },
+      {
+        "organization": "Chicago Council of Lawyers",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "rating": "Qualified",
+        "cites": [7]
+      },
+      {
+        "organization": "Illinois State Bar Association",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "rating": "Yes",
+        "cites": [1]
+      },
+      {
+        "organization": "Alliance of Bar Associations for Judicial Screening",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "tally": {
+          "members": 11,
+          "ratings": [{ "rating": "Yes", "count": 11 }],
+          "notEvaluated": 0
+        },
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Cook County Judicial Evaluations",
+      "publisher": "Illinois State Bar Association",
+      "url": "https://www.isba.org/judicial-elections/counties/cook",
+      "kind": "bar",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Chicago Council of Lawyers Evaluation Report – Vote For Judges",
+      "publisher": "Chicago Council of Lawyers",
+      "url": "https://www.voteforjudges.org/chicago-council-of-lawyers-evaluation-report/",
+      "kind": "bar",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "23 Year Prison Sentence For Murderer Of Mayer Brown Partner - Above the Law",
+      "publisher": "Above the Law",
+      "url": "https://abovethelaw.com/2022/08/23-year-prison-sentence-for-murderer-of-mayer-brown-partner/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Illinois bill and court ruling could help more people move on after ...",
+      "publisher": "Injustice Watch",
+      "url": "https://www.injusticewatch.org/project/denying-innocence/2026/certificate-of-innocence-updates-bill-appellate-court/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Vote Smart: CBA Judicial Voter's Guide, General Election, November 3, 2026",
+      "publisher": "Chicago Bar Association",
+      "url": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 6
+    },
+    {
+      "title": "Evaluation Report: Judges on the Ballot in the November 3, 2026 General Election",
+      "publisher": "Chicago Council of Lawyers",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/CCL-Judicial-Evaluation-Report-for-Nov-3-2026-General-Election_Ballot-Order.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 7
+    },
+    {
+      "title": "Alliance of Bar Associations for Judicial Screening, 2026 General Election ratings",
+      "publisher": "Alliance of Bar Associations for Judicial Screening",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/2026-Alliance-General-Ballot-Ratings-09252026.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 8
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T21:06:32.254Z",
+    "version": 2
+  }
+}

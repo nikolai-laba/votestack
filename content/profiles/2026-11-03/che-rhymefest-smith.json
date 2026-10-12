@@ -1,0 +1,215 @@
+{
+  "key": "che-rhymefest-smith",
+  "electionId": "il-2026-11-03-general",
+  "name": "Che \"Rhymefest\" Smith",
+  "office": "Chicago Board of Education Member, Subdistrict 10A",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-10a"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Smith is a songwriter and community advocate. Elected in 2024, his campaign says he attended all board meetings and visited over 60 schools in his first year.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Smith is a songwriter and community advocate.",
+            "cites": [1]
+          },
+          {
+            "text": "Elected in 2024, his campaign says he attended all board meetings and visited over 60 schools in his first year.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "In July 2026, he voted against a budget amendment that assumed $150 million in extra state funding to reverse staff layoffs. He said he trusted the superintendent's budget over money the state had not provided. He has criticized the Sustainable Community Schools program as expensive and untracked. In his 2024 campaign, he proposed a $30 million increase for bilingual instruction. In 2024, he suggested an unbiased audit of Chicago Public Schools. He supports pressing the city to send more special taxing district dollars to the district.",
+        "cites": [3, 4, 5, 1, 6, 7],
+        "sentences": [
+          {
+            "text": "In July 2026, he voted against a budget amendment that assumed $150 million in extra state funding to reverse staff layoffs.",
+            "cites": [3]
+          },
+          {
+            "text": "He said he trusted the superintendent's budget over money the state had not provided.",
+            "cites": [4]
+          },
+          {
+            "text": "He has criticized the Sustainable Community Schools program as expensive and untracked.",
+            "cites": [5]
+          },
+          {
+            "text": "In his 2024 campaign, he proposed a $30 million increase for bilingual instruction.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2024, he suggested an unbiased audit of Chicago Public Schools.",
+            "cites": [6]
+          },
+          {
+            "text": "He supports pressing the city to send more special taxing district dollars to the district.",
+            "cites": [7]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Citizens for Che \"Rhymefest\" Smith",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39788",
+        "period": "April 1 to June 30, 2026",
+        "raised": 57970,
+        "cashOnHand": 49454.37,
+        "breakdown": [
+          { "kind": "small", "amount": 1525 },
+          { "kind": "large", "amount": 53545 },
+          { "kind": "transfer", "amount": 2900 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 11000, "count": 2 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [8]
+      },
+      { "organization": "IUOE Local 150", "kind": "union", "cites": [9] },
+      {
+        "organization": "Common Ground Collective",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "INCS Action PAC",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "The Urban Center",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [12]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Meet Che ‘Rhymefest’ Smith, candidate for the Chicago School Board’s 10th District",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/education/chicago-school-board/che-rhymefest-smith-chicago-school-board-candidate-questionnaire-2024",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Dr. Che Rhymefest Smith for Chicago Public School Board District",
+      "publisher": "Rhymefest for CPS campaign",
+      "url": "https://rhymefestforcps.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Chicago school board narrowly approves a budget",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/07/31/seeking-to-reverse-layoffs-chicago-school-board-approves-budget-assuming-more-state-money-will-come/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Why Rhymefest hit the brakes",
+      "publisher": "Politico",
+      "url": "https://www.politico.com/newsletters/illinois-playbook/2026/08/07/why-rhymefest-hit-the-brakes-01028419",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Chicago school board election 2026: Who is running in District 10a?",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-election-2026-district-10a-candidates-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Newly Elected Members of Chicago’s School Board Share Their Visions for the District",
+      "publisher": "WTTW",
+      "url": "https://news.wttw.com/2024/11/18/newly-elected-members-chicago-s-school-board-share-their-visions-district",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Weeks after state budget passes, Chicago school board formally calls for more money and millionaire’s tax",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/06/25/school-board-adopts-legislative-agenda-weeks-after-session-ends/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Elections & Endorsements",
+      "publisher": "SEIU Illinois State Council",
+      "url": "https://seiuilcouncil.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "2026 Chicago Board of Education election",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Chicago_Board_of_Education_election",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Endorsements",
+      "publisher": "Common Ground Collective",
+      "url": "https://cgcollective.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Key education endorsements for CPS School Board candidates",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/education/2026/09/21/key-education-endorsements-for-cps-school-board-candidates",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:39:43.522Z",
+    "version": 5
+  }
+}

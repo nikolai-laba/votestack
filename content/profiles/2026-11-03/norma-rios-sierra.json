@@ -1,0 +1,156 @@
+{
+  "key": "norma-rios-sierra",
+  "electionId": "il-2026-11-03-general",
+  "name": "Norma Rios Sierra",
+  "office": "Chicago Board of Education Member, Subdistrict 3A",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-3a"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Norma Rios Sierra is a Chicago Board of Education member for District 3A. She works as a special projects manager for the Chicago Park District. Appointed in 2024, she previously organized with Palenque LSNA and served on a Local School Council. On the board, she voted for a budget that relied on $150 million in additional state funding, and she voted to protect immigrant students and to plan for charter school closures. She also served on a working group to pick the new Chicago Public Schools CEO.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Norma Rios Sierra is a Chicago Board of Education member for District 3A.",
+            "cites": [1]
+          },
+          {
+            "text": "She works as a special projects manager for the Chicago Park District.",
+            "cites": [2]
+          },
+          {
+            "text": "Appointed in 2024, she previously organized with Palenque LSNA and served on a Local School Council.",
+            "cites": [3]
+          },
+          {
+            "text": "On the board, she voted for a budget that relied on $150 million in additional state funding, and she voted to protect immigrant students and to plan for charter school closures.",
+            "cites": [3]
+          },
+          {
+            "text": "She also served on a working group to pick the new Chicago Public Schools CEO.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "After a budget vote in August 2025, she shouted “Free Palestine” at a Jewish board member during a recess. Jewish community groups condemned the remark and called for her resignation.",
+        "cites": [4],
+        "sentences": [
+          {
+            "text": "After a budget vote in August 2025, she shouted “Free Palestine” at a Jewish board member during a recess.",
+            "cites": [4]
+          },
+          {
+            "text": "Jewish community groups condemned the remark and called for her resignation.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Norma Rios Sierra",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41082",
+        "period": "April 1 to June 30, 2026",
+        "raised": 9085,
+        "cashOnHand": 5536.21,
+        "breakdown": [
+          { "kind": "small", "amount": 2785 },
+          { "kind": "large", "amount": 1950 },
+          { "kind": "transfer", "amount": 4350 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 46932.1, "count": 9 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Teachers Union",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [6]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [7] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Norma Rios-Sierra - Chicago Board of Education",
+      "publisher": "Chicago Board of Education",
+      "url": "https://www.cpsboe.org/about/bios/2037",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Norma Rios Sierra: CPS School Board District 3A Candidate",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/graphics/chicago-school-board-education-voter-guide/candidates/norma-rios-sierra/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Chicago School Board Election 2026: The race in District 3a, Logan Square, Albany Park ...",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-election-2026-district-3a-candidates-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Jewish leaders condemn 'Free Palestine' comments at ...",
+      "publisher": "Fox 32 Chicago",
+      "url": "https://www.fox32chicago.com/news/jewish-leaders-condemn-free-palestine-comments-cps-board-meeting",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Chicago Teachers Union Endorses Candidates Running as “Public School Champions” in School Board Race",
+      "publisher": "Chicago Teachers Union",
+      "url": "https://www.ctulocal1.org/posts/chicago-teachers-union-endorses-candidates-running-as-public-school-champions-in-school-board-race-says-students-educational-experience-to-be-decided-in-november/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Elections & Endorsements",
+      "publisher": "SEIU Illinois State Council",
+      "url": "https://seiuilcouncil.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 7
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:42:57.395Z",
+    "version": 4
+  }
+}

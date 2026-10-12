@@ -1,0 +1,74 @@
+{
+  "key": "michael-g-grace",
+  "electionId": "il-2026-11-03-general",
+  "name": "Michael G. Grace",
+  "office": "South Lyons Township Sanitary District Trustee",
+  "contestIds": ["cook-clerk:390201"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Michael Grace is president of the South Lyons Township Sanitary District. He was first elected to the board in 2010. As of 2020, he owned a fire and water restoration franchise and was a licensed water restoration technician. The district manages sewers in parts of Countryside, La Grange, and unincorporated Cook County. He has voted to accept the 2024 audit report and approve construction planning.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Michael Grace is president of the South Lyons Township Sanitary District.",
+            "cites": [1]
+          },
+          {
+            "text": "He was first elected to the board in 2010.",
+            "cites": [2]
+          },
+          {
+            "text": "As of 2020, he owned a fire and water restoration franchise and was a licensed water restoration technician.",
+            "cites": [2]
+          },
+          {
+            "text": "The district manages sewers in parts of Countryside, La Grange, and unincorporated Cook County.",
+            "cites": [1]
+          },
+          {
+            "text": "He has voted to accept the 2024 audit report and approve construction planning.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": { "asOf": "2026-10-07", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "South Lyons Township Sanitation District | SLTSD",
+      "publisher": "South Lyons Township Sanitary District",
+      "url": "https://www.sltsd.com/",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Meet the Candidates: Michael Grace",
+      "publisher": "South Side Weekly",
+      "url": "https://southsideweekly.com/meet-candidates-michael-grace-2020/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "MEETING MINUTES",
+      "publisher": "South Lyons Township Sanitary District",
+      "url": "https://www.sltsd.com/wp-content/uploads/2025/07/2025-04-17-April_17_2025_meeting_minutes.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:32:35.080Z",
+    "version": 3
+  }
+}

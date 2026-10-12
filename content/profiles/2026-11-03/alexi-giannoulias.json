@@ -1,0 +1,244 @@
+{
+  "key": "alexi-giannoulias",
+  "electionId": "il-2026-11-03-general",
+  "name": "Alexi Giannoulias",
+  "party": "Democratic",
+  "office": "Illinois Secretary of State",
+  "contestIds": ["chicago-boe:secretary-of-state", "cook-clerk:130050"],
+  "kind": "candidate",
+  "tier": "top",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Alexi Giannoulias has served as Illinois Secretary of State since January 2023. He previously served as Illinois Treasurer from 2007 to 2011 and chaired the Illinois Community College Board. He also served on the Chicago Public Library board of directors. As secretary, he launched a “Skip-The-Line” appointment system at DMV facilities and ended mandatory road tests for drivers ages 79 to 86.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Alexi Giannoulias has served as Illinois Secretary of State since January 2023.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously served as Illinois Treasurer from 2007 to 2011 and chaired the Illinois Community College Board.",
+            "cites": [2]
+          },
+          {
+            "text": "He also served on the Chicago Public Library board of directors.",
+            "cites": [2]
+          },
+          {
+            "text": "As secretary, he launched a “Skip-The-Line” appointment system at DMV facilities and ended mandatory road tests for drivers ages 79 to 86.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "During his 2022 campaign, he proposed changing the state’s Automatic Voter Registration system to a back-end model that would add eligible voters to the rolls automatically. His campaign has proposed allowing 16- and 17-year-olds to pre-register so they are added to the rolls at 18. He supported a 2023 law making Illinois the first state to outlaw book bans. After a Texas sheriff accessed an Illinois license plate reader system to look for a woman who had an abortion, his office instructed the operating company to shut off access to out-of-state agencies. He supported a new law that establishes safety rules for e-bikes and scooters.",
+        "cites": [4, 5, 3, 6, 7],
+        "sentences": [
+          {
+            "text": "During his 2022 campaign, he proposed changing the state’s Automatic Voter Registration system to a back-end model that would add eligible voters to the rolls automatically.",
+            "cites": [4]
+          },
+          {
+            "text": "His campaign has proposed allowing 16- and 17-year-olds to pre-register so they are added to the rolls at 18.",
+            "cites": [5]
+          },
+          {
+            "text": "He supported a 2023 law making Illinois the first state to outlaw book bans.",
+            "cites": [3]
+          },
+          {
+            "text": "After a Texas sheriff accessed an Illinois license plate reader system to look for a woman who had an abortion, his office instructed the operating company to shut off access to out-of-state agencies.",
+            "cites": [6]
+          },
+          {
+            "text": "He supported a new law that establishes safety rules for e-bikes and scooters.",
+            "cites": [7]
+          }
+        ]
+      },
+      {
+        "text": "He announced the Illinois Reliable Information Sources program, a contract providing all residents access to a suite of digital research databases. He supported a law that prohibits the state and municipalities from suspending driver’s licenses for unpaid parking tickets.",
+        "cites": [8, 5],
+        "sentences": [
+          {
+            "text": "He announced the Illinois Reliable Information Sources program, a contract providing all residents access to a suite of digital research databases.",
+            "cites": [8]
+          },
+          {
+            "text": "He supported a law that prohibits the state and municipalities from suspending driver’s licenses for unpaid parking tickets.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Citizens for Giannoulias",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=19323",
+        "period": "April 1 to June 30, 2026",
+        "raised": 3649332.26,
+        "cashOnHand": 21849062.4,
+        "breakdown": [
+          { "kind": "small", "amount": 363 },
+          { "kind": "large", "amount": 2760150 },
+          { "kind": "transfer", "amount": 773250 },
+          { "kind": "other", "amount": 115569.26 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 2093985, "count": 90 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "SEIU Healthcare", "kind": "union", "cites": [9] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 399",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "National Association of Social Workers, Illinois Chapter",
+        "kind": "organization",
+        "cites": [10]
+      },
+      { "organization": "New Trier Democrats", "kind": "party", "cites": [9] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [11]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [12] },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [13] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Alexi Giannoulias",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alexi_Giannoulias",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Candidate interview: Alexi Giannoulias looking to reclaim statewide office",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/candidate-interview-alexi-giannoulias-looking-to-reclaim-statewide-office/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Illinois Secretary of State Alexi Giannoulias announces run for Chicago mayor",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/08/02/illinois-secretary-of-state-alexi-giannoulias-chicago-mayor/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Alexi Giannoulias",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Alexi_Giannoulias",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Alexi Giannoulias - BallotReady",
+      "publisher": "BallotReady",
+      "url": "https://www.ballotready.org/people/alexi-giannoulias",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Illinois license plate cameras used illegally by out-of-state ...",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/illinois-license-plate-cameras-used-illegally-by-out-of-state-police-giannoulias-says/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Putting on the brakes: New Illinois law establishes rules for e-bikes ...",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/new-illinois-law-establishes-rules-for-electronic-bikes-scooters/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "New state program will expand access by libraries to digital databases for research, education",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/new-state-program-will-expand-access-by-libraries-to-digital-databases-for-research-education/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "2026 Illinois Secretary of State election",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Illinois_Secretary_of_State_election",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "NASW-IL Announces Endorsements for 2026 Illinois General Election",
+      "publisher": "National Association of Social Workers, Illinois Chapter",
+      "url": "https://www.naswil.org/post/nasw-il-announces-endorsements-for-2026-illinois-general-election",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 13
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T21:00:17.066Z",
+    "version": 5
+  }
+}

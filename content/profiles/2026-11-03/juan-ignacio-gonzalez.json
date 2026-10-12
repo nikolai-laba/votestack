@@ -1,0 +1,127 @@
+{
+  "key": "juan-ignacio-gonzalez",
+  "electionId": "il-2026-11-03-general",
+  "name": "Juan Ignacio Gonzalez",
+  "office": "Chicago Board of Education Member, Subdistrict 8B",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-8b"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Juan Ignacio Gonzalez is a Chicago police detective and a U.S. Marine Corps veteran. He owns DreamCatcher Café in Back of the Yards. He attended the University of Illinois Chicago. He said he decided to run after hearing from parents concerned about students being used for political purposes on May Day. He said he wants schools to have high academic standards that challenge students, many of whom have immigrant backgrounds. His campaign says he aims to provide accountable leadership and stronger community voices to improve long-term outcomes for students.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Juan Ignacio Gonzalez is a Chicago police detective and a U.S. Marine Corps veteran.",
+            "cites": [1]
+          },
+          {
+            "text": "He owns DreamCatcher Café in Back of the Yards.",
+            "cites": [1]
+          },
+          {
+            "text": "He attended the University of Illinois Chicago.",
+            "cites": [1]
+          },
+          {
+            "text": "He said he decided to run after hearing from parents concerned about students being used for political purposes on May Day.",
+            "cites": [1]
+          },
+          {
+            "text": "He said he wants schools to have high academic standards that challenge students, many of whom have immigrant backgrounds.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he aims to provide accountable leadership and stronger community voices to improve long-term outcomes for students.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Juan Ignacio Gonzalez for Chicago Schools",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41111",
+        "period": "April 1 to June 30, 2026",
+        "raised": 3725,
+        "cashOnHand": 1458.02,
+        "breakdown": [
+          { "kind": "small", "amount": 75 },
+          { "kind": "large", "amount": 250 },
+          { "kind": "candidate", "amount": 3400 }
+        ],
+        "fromCandidate": 3400,
+        "largeSince": { "since": "2026-06-30", "total": 3854.25, "count": 3 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "IUOE Local 150", "kind": "union", "cites": [3] },
+      {
+        "organization": "Common Ground Collective",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "INCS Action PAC",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "The Urban Center",
+        "kind": "organization",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Chicago School Board Election 2026: The race in District 8b",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-election-2026-district-8b-candidate-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Donate to Juan Gonzalez",
+      "publisher": "Juan Ignacio Gonzalez campaign",
+      "url": "https://secure.actblue.com/donate/juanignaciogonzalez",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "ILLINOIS ENDORSEMENTS",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Key education endorsements for CPS School Board candidates",
+      "publisher": "WBEZ",
+      "url": "https://www.wbez.org/education/chicago-school-board/2026/09/21/key-education-endorsements-for-cps-school-board-candidates",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:48:47.289Z",
+    "version": 2
+  }
+}

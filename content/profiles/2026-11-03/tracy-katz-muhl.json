@@ -1,0 +1,414 @@
+{
+  "key": "tracy-katz-muhl",
+  "electionId": "il-2026-11-03-general",
+  "name": "Tracy Katz Muhl",
+  "party": "Democratic",
+  "office": "State Representative, 57th District",
+  "contestIds": ["cook-clerk:185700"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "State Rep. Tracy Katz Muhl, an attorney, has represented the 57th District since 2024. She previously led the Northbrook School District 28 Board of Education, where she says she implemented free full-day kindergarten, and she serves as the Northfield Township Democratic committeeperson. She has volunteered with Moms Demand Action and LGBTQ+ advocacy groups.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "State Rep. Tracy Katz Muhl, an attorney, has represented the 57th District since 2024.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously led the Northbrook School District 28 Board of Education, where she says she implemented free full-day kindergarten, and she serves as the Northfield Township Democratic committeeperson.",
+            "cites": [2]
+          },
+          {
+            "text": "She has volunteered with Moms Demand Action and LGBTQ+ advocacy groups.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "In the legislature, she sponsored \"Karina's Law\" to remove guns from domestic abusers. She also sponsored laws regarding treated wastewater for industry use and outpatient mental health treatment. She says she has passed legislation on reproductive health care. She has proposed allowing community colleges to offer bachelor's degrees. She also sponsored bills to restrict cell phone use in schools and require cable outage credits.",
+        "cites": [4, 1, 2, 5],
+        "sentences": [
+          {
+            "text": "In the legislature, she sponsored \"Karina's Law\" to remove guns from domestic abusers.",
+            "cites": [4]
+          },
+          {
+            "text": "She also sponsored laws regarding treated wastewater for industry use and outpatient mental health treatment.",
+            "cites": [1]
+          },
+          {
+            "text": "She says she has passed legislation on reproductive health care.",
+            "cites": [2]
+          },
+          {
+            "text": "She has proposed allowing community colleges to offer bachelor's degrees.",
+            "cites": [5]
+          },
+          {
+            "text": "She also sponsored bills to restrict cell phone use in schools and require cable outage credits.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Tracy Katz Muhl for State Representative",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39446",
+        "period": "April 1 to June 30, 2026",
+        "raised": 5561.73,
+        "cashOnHand": 257208.25,
+        "breakdown": [
+          { "kind": "small", "amount": 1001.5 },
+          { "kind": "large", "amount": 1250 },
+          { "kind": "transfer", "amount": 3250 },
+          { "kind": "other", "amount": 60.23 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 53000, "count": 35 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "U.S. Sen. Dick Durbin",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "U.S. Rep. Brad Schneider",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "U.S. Rep. Jan Schakowsky",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Gov. JB Pritzker",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Attorney General Kwame Raoul",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Secretary of State Alexi Giannoulias",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Illinois State Treasurer Mike Frerichs",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "State Sen. Laura Fine",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "State Sen. Mary Edly-Allen",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "State Sen. Sara Feigenholtz",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "State Rep. Robyn Gabel",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "State Rep. Jennifer Gong-Gershowitz",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "State Rep. Bob Morgan",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "State Rep. Kelly Cassidy",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "State Rep. Kim Du Buclet",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "State Rep. Ann Williams",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Cook County Board President Toni Preckwinkle",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Lake County Board President Sandy Hart",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Cook County Commissioner Scott Britton",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Cook County Commissioner Josina Morita",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Cook County Assessor Fritz Kaegi",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Lake County State's Attorney Eric Rinehart",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Lake County Treasurer Holly Kim",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Sierra Club Illinois",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [9]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [10] },
+      {
+        "organization": "National Association of Social Workers, Illinois Chapter",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "Citizen Action/Illinois",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "Lake County Democratic Women",
+        "kind": "organization",
+        "cites": [13]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 399",
+        "kind": "union",
+        "cites": [14]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [15]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [16] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [17]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Tracy Katz Muhl (D) - Illinois General Assembly - Member",
+      "publisher": "Illinois General Assembly",
+      "url": "https://ilga.gov/Senate/Members/Details/3447",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Tracy Katz Muhl: 2024 candidate for Illinois House District 57",
+      "publisher": "Daily Herald",
+      "url": "https://www.dailyherald.com/20241014/illinois-state-politics/tracy-katz-muhl-2024-candidate-for-illinois-house-district-57/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "About Tracy Katz Muhl",
+      "publisher": "Tracy Katz Muhl campaign",
+      "url": "https://staterepkatzmuhl.com/about-tracy-katz-muhl/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Katz Muhl 'all in' for Democratic State Central Committee, politics",
+      "publisher": "Chronicle Illinois",
+      "url": "https://chronicleillinois.com/election/katz-muhl-all-in-for-democratic-state-central-committee-politics/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Pritzker's community college initiative stalls in House committee",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/pritzkers-community-college-initiative-stalls-in-house-committee/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Tracy Katz Muhl for Illinois State Representative District 57 – Working mom – Advocate – Leader",
+      "publisher": "Tracy Katz Muhl for District 57",
+      "url": "https://tracyforrep.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Meet our 2026 Endorsed Candidates!",
+      "publisher": "Sierra Club Illinois",
+      "url": "https://www.sierraclub.org/illinois/political/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Equality Illinois makes 72 pro-equality, pro-family endorsements for 2026 primary election",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/01/15/equality-illinois-makes-72-pro-equality-pro-family-endorsements-for-2026-primary-election/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "NASW-IL Announces Endorsements for 2026 Illinois General Election",
+      "publisher": "NASW-IL",
+      "url": "https://www.naswil.org/post/nasw-il-announces-endorsements-for-2026-illinois-general-election",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 12,
+      "title": "2026 Endorsements",
+      "publisher": "Citizen Action/Illinois",
+      "url": "https://citizenaction-il.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 13,
+      "title": "2026 General Election Endorsed Candidates — Lake County Democratic Women",
+      "publisher": "Lake County Democratic Women",
+      "url": "https://www.lakedemwomen.org/2026-endorsed-candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 14,
+      "title": "2026 LOCAL 399 ILLINOIS PRIMARY ELECTION ENDORSEMENTS",
+      "publisher": "IUOE Local 399",
+      "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 17
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:16:58.712Z",
+    "version": 7
+  }
+}

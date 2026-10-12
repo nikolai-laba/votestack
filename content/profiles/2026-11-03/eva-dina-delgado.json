@@ -1,0 +1,225 @@
+{
+  "key": "eva-dina-delgado",
+  "electionId": "il-2026-11-03-general",
+  "name": "Eva-Dina Delgado",
+  "party": "Democratic",
+  "office": "State Representative, 3rd District",
+  "contestIds": [
+    "chicago-boe:state-representative-3rd-district",
+    "cook-clerk:180300"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Eva-Dina Delgado has represented the 3rd District since November 2019 and serves as Assistant Majority Leader. Before taking office, she was Vice President of Government and Community Relations at the Chicago Transit Authority and Chief of Staff to the President at Peoples Gas. She sponsored a $1.5 billion funding bill in 2025 to reform Chicago-area public transit. She was the chief House sponsor of a workplace privacy law. She also sponsored a law allowing the state treasurer to refinance student loans.",
+        "cites": [1, 2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "Eva-Dina Delgado has represented the 3rd District since November 2019 and serves as Assistant Majority Leader.",
+            "cites": [1]
+          },
+          {
+            "text": "Before taking office, she was Vice President of Government and Community Relations at the Chicago Transit Authority and Chief of Staff to the President at Peoples Gas.",
+            "cites": [2]
+          },
+          {
+            "text": "She sponsored a $1.5 billion funding bill in 2025 to reform Chicago-area public transit.",
+            "cites": [3]
+          },
+          {
+            "text": "She was the chief House sponsor of a workplace privacy law.",
+            "cites": [4]
+          },
+          {
+            "text": "She also sponsored a law allowing the state treasurer to refinance student loans.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends for Eva Dina Delgado",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=35786",
+        "period": "April 1 to June 30, 2026",
+        "raised": 42675,
+        "cashOnHand": 445839.94,
+        "breakdown": [
+          { "kind": "large", "amount": 28875 },
+          { "kind": "transfer", "amount": 13800 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 160500, "count": 81 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [6]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [7] },
+      {
+        "organization": "Sierra Club Illinois",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Cook County Democratic Party",
+        "kind": "party",
+        "cites": [9]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [10] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [12]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 399",
+        "kind": "union",
+        "cites": [13]
+      },
+      {
+        "organization": "International Brotherhood of Electrical Workers Local 134",
+        "kind": "union",
+        "cites": [14]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Eva-Dina Delgado (D) - Illinois General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://ilga.gov/House/Members/Details/3373",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "About Representative Eva-Dina Delgado",
+      "publisher": "Delgado for State Rep",
+      "url": "https://staterepdelgado.com/about/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Lawmakers approve $1.5B transit funding package without statewide tax increases",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/lawmakers-approve-1-5b-transit-funding-package-without-statewide-tax-increases/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Illinois General Assembly - Bill Status of SB2339",
+      "publisher": "Illinois General Assembly",
+      "url": "https://ilga.gov/Legislation/BillStatus?GAID=18&DocNum=2339&DocTypeID=SB&LegId=162276",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Rep. Eva-Dina Delgado",
+      "publisher": "Illinois House Democrats",
+      "url": "https://ilhousedems.com/project/eva-dina-delgado/",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements as of September 23, 2026",
+      "publisher": "Planned Parenthood Illinois Action",
+      "url": "https://www.plannedparenthoodaction.org/planned-parenthood-illinois-action/election-2026",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Our 2026 General Election Endorsements Are Here!",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Meet our 2026 Endorsed Candidates!",
+      "publisher": "Sierra Club",
+      "url": "https://www.sierraclub.org/illinois/2026",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Cook County, Illinois elections, 2026",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Cook_County,_Illinois,_elections",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Illinois AFL-CIO 2026 Primary Election Endorsements",
+      "publisher": "Evanston Now",
+      "url": "https://evanstonnow.com/wp-content/uploads/2025/12/IL-AFL-CIO-endorsements-120925.pdf",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "MARCH 17, 2026 PRIMARY ELECTION",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/Updated-P2026_PrimaryEndorsementList_updated-v6.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 12,
+      "title": "IUOE LOCAL 150 DISTRICT 1 ENDORSEMENTS",
+      "publisher": "International Union of Operating Engineers Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/02/2026-IL-Primary-Mailer-District-1_V6_1-PG.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 13,
+      "title": "2026 LOCAL 399 ILLINOIS PRIMARY ELECTION ENDORSEMENTS",
+      "publisher": "International Union of Operating Engineers Local 399",
+      "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 14,
+      "title": "March 17, 2026 Primary Election Local 134 Endorsed Candidates",
+      "publisher": "IBEW Local 134",
+      "url": "https://www.lu134.org/2026%20Primary%20Election%20Endorsements(3).pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:02:41.561Z",
+    "version": 5
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "key": "mattie-hunter",
+  "electionId": "il-2026-11-03-general",
+  "name": "Mattie Hunter",
+  "party": "Democratic",
+  "office": "State Senator, 3rd District",
+  "contestIds": ["chicago-boe:state-senator-3rd-district", "cook-clerk:170302"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Mattie Hunter has been a State Senator since 2003 and is the Assistant Majority Leader. She is a licensed alcohol and drug counselor and former vice president of the Human Resources Development Institute. She sponsored a 2026 law requiring disability insurers to disclose mental health coverage limits. Her website says she helped secure $595,000 for workforce training and $2 million in library grants.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Mattie Hunter has been a State Senator since 2003 and is the Assistant Majority Leader.",
+            "cites": [1]
+          },
+          {
+            "text": "She is a licensed alcohol and drug counselor and former vice president of the Human Resources Development Institute.",
+            "cites": [2]
+          },
+          {
+            "text": "She sponsored a 2026 law requiring disability insurers to disclose mental health coverage limits.",
+            "cites": [3]
+          },
+          {
+            "text": "Her website says she helped secure $595,000 for workforce training and $2 million in library grants.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "Hunter co-chaired a task force that recommended alternative protein research investments. She sponsored the Illinois Legislative Black Caucus’s health care pillar, addressing hospital closures, maternal and infant mortality, mental health treatment, and medical implicit bias. Hunter sponsored a law to track SNAP benefit fraud. She co-sponsored the Build Illinois Homes Tax Credit Act for affordable housing incentives.",
+        "cites": [4, 5, 6, 7],
+        "sentences": [
+          {
+            "text": "Hunter co-chaired a task force that recommended alternative protein research investments.",
+            "cites": [4]
+          },
+          {
+            "text": "She sponsored the Illinois Legislative Black Caucus’s health care pillar, addressing hospital closures, maternal and infant mortality, mental health treatment, and medical implicit bias.",
+            "cites": [5]
+          },
+          {
+            "text": "Hunter sponsored a law to track SNAP benefit fraud.",
+            "cites": [6]
+          },
+          {
+            "text": "She co-sponsored the Build Illinois Homes Tax Credit Act for affordable housing incentives.",
+            "cites": [7]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Mattie Hunter",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=17385",
+        "period": "April 1 to June 30, 2026",
+        "raised": 11500,
+        "cashOnHand": 216281.18,
+        "breakdown": [
+          { "kind": "small", "amount": 250 },
+          { "kind": "large", "amount": 5500 },
+          { "kind": "transfer", "amount": 5750 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 117350, "count": 56 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [8]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [9] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [11]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [12] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Mattie Hunter (D) - Illinois General Assembly - Member",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/House/Members/Details/3269",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Biography",
+      "publisher": "Mattie Hunter campaign",
+      "url": "https://www.senatorhunter.com/biography",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "News",
+      "publisher": "Mattie Hunter campaign",
+      "url": "https://www.senatorhunter.com/news",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Your Illinois News Radar - Capitol Fax.com",
+      "publisher": "Capitol Fax",
+      "url": "https://capitolfax.com/?arena_mid=zYnh1OjS29ngOcdy5g9V&v=2&paged=62",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Health care reform bill will head to governor",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/health-care-reform-bill-will-head-to-governor/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Department of Human Services now tracking SNAP fraud, thanks to new law",
+      "publisher": "WCIA",
+      "url": "https://www.wcia.com/news/capitol-news/department-of-human-services-now-tracking-snap-fraud-thanks-to-new-law/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Affordable housing tax credit bill advances out of committee",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/affordable-housing-tax-credit-bill-advances-out-of-committee/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Endorsements",
+      "publisher": "Planned Parenthood Illinois Action",
+      "url": "https://www.plannedparenthoodaction.org/planned-parenthood-illinois-action/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "MARCH 17, 2026 PRIMARY ELECTION",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/Updated-P2026_PrimaryEndorsementList_updated-v6.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "ILLINOIS ENDORSEMENTS",
+      "publisher": "International Union of Operating Engineers Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:53:46.266Z",
+    "version": 3
+  }
+}

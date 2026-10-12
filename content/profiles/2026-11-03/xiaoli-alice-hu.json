@@ -1,0 +1,103 @@
+{
+  "key": "xiaoli-alice-hu",
+  "electionId": "il-2026-11-03-general",
+  "name": "Xiaoli \"Alice\" Hu",
+  "party": "Republican",
+  "office": "Cook County Commissioner, 12th District",
+  "contestIds": [
+    "chicago-boe:county-commissioner-12th-district",
+    "cook-clerk:221200"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Xiaoli \"Alice\" Hu is a global supply chain executive and small business owner with an MBA.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Xiaoli \"Alice\" Hu is a global supply chain executive and small business owner with an MBA.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "In her 2022 campaign, she said crime in the county was out of control and blamed progressive policies from the State's Attorney's office. She also pledged to hold officials accountable and bring data-driven solutions to the county's $9 billion budget. In the 2022 race, the Chicago Tribune reported she proposed creating economic opportunity zones and real estate tax credits for vacant properties to attract businesses.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "In her 2022 campaign, she said crime in the county was out of control and blamed progressive policies from the State's Attorney's office.",
+            "cites": [1]
+          },
+          {
+            "text": "She also pledged to hold officials accountable and bring data-driven solutions to the county's $9 billion budget.",
+            "cites": [1]
+          },
+          {
+            "text": "In the 2022 race, the Chicago Tribune reported she proposed creating economic opportunity zones and real estate tax credits for vacant properties to attract businesses.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Citizens For Alice Hu",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41132",
+        "period": "April 1 to June 30, 2026",
+        "raised": 0,
+        "cashOnHand": 100,
+        "breakdown": [],
+        "largeSince": { "since": "2026-06-30", "total": 25050, "count": 9 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Flips Red PAC",
+        "kind": "organization",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Xiaoli “Alice” Hu (R) | Election",
+      "publisher": "WTTW",
+      "url": "https://news.wttw.com/elections/voters-guide/2022-general/Alice-Hu",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Editorial: For the Cook County Board: Deer, Gordon, Podgorski, Daley, Hu, Morita, Britton, Jagielski, Morrison",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2022/11/04/editorial-for-the-cook-county-board-deer-gordon-podgorski-daley-hu-morita-britton-jagielski-morrison/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Xiaoli \"Alice\" Hu | Chicago Flips Red PAC",
+      "publisher": "Chicago Flips Red PAC",
+      "url": "https://chicagoflipsredpac.com/candidates/xiaoli-alice-hu/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:38:48.796Z",
+    "version": 5
+  }
+}

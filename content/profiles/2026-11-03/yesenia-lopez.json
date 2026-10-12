@@ -1,0 +1,182 @@
+{
+  "key": "yesenia-lopez",
+  "electionId": "il-2026-11-03-general",
+  "name": "Yesenia Lopez",
+  "office": "Chicago Board of Education Member, Subdistrict 7B",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-7b"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Yesenia Lopez is the Chicago Board of Education member for District 7B, elected in 2024. She graduated from Pickard Elementary and Benito Juarez Community Academy and earned a degree from DePaul University. She works as an executive assistant for the Illinois Secretary of State and was Latino outreach director for Governor J.B. Pritzker’s campaign.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Yesenia Lopez is the Chicago Board of Education member for District 7B, elected in 2024.",
+            "cites": [1]
+          },
+          {
+            "text": "She graduated from Pickard Elementary and Benito Juarez Community Academy and earned a degree from DePaul University.",
+            "cites": [2]
+          },
+          {
+            "text": "She works as an executive assistant for the Illinois Secretary of State and was Latino outreach director for Governor J.B. Pritzker’s campaign.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "Lopez voted against renewing several charter school contracts and helped pass a resolution calling for tighter oversight. She abstained from voting on a budget amendment that canceled layoffs. She opposed taking on debt for a municipal pension plan. Her priorities include protecting immigrant families and increasing student mental health services. She called for a board advisory panel for noncitizen students.",
+        "cites": [3, 4, 5, 1],
+        "sentences": [
+          {
+            "text": "Lopez voted against renewing several charter school contracts and helped pass a resolution calling for tighter oversight.",
+            "cites": [3]
+          },
+          {
+            "text": "She abstained from voting on a budget amendment that canceled layoffs.",
+            "cites": [4]
+          },
+          {
+            "text": "She opposed taking on debt for a municipal pension plan.",
+            "cites": [5]
+          },
+          {
+            "text": "Her priorities include protecting immigrant families and increasing student mental health services.",
+            "cites": [1]
+          },
+          {
+            "text": "She called for a board advisory panel for noncitizen students.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Yesenia Lopez",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39844",
+        "period": "April 1 to June 30, 2026",
+        "raised": 0,
+        "cashOnHand": 22126.44,
+        "breakdown": [],
+        "largeSince": { "since": "2026-06-30", "total": 15000, "count": 1 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [6]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [7] },
+      {
+        "organization": "Chicago Tribune Editorial Board",
+        "kind": "editorial_board",
+        "cites": [5]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [9]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Chicago school board election 2026 voter guide: District 7b ...",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-election-2026-district-7b-candidates-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Yesenia Lopez",
+      "publisher": "Chicago Board of Education",
+      "url": "https://www.cpsboe.org/about/bios/2048",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "After delay, Chicago school board renews charters amid revamped ...",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/06/10/chicago-school-board-renews-charters/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Chicago School Board approves budget that reverses ...",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/chicago-school-board/2026/07/30/chicago-school-board-approves-budget-that-reverses-layoffs-but-counts-on-shaky-state-funds",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Editorial: Yesenia Lopez for Chicago School Board in District 7B",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/09/29/editorial-yesenia-lopez-chicago-school-board-district-7b/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Elections & Endorsements",
+      "publisher": "SEIU Illinois State Council",
+      "url": "https://seiuilcouncil.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 8
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:48:19.606Z",
+    "version": 4
+  }
+}

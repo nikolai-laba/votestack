@@ -1,0 +1,80 @@
+{
+  "key": "jon-luers",
+  "electionId": "il-2026-11-03-general",
+  "name": "Jon Luers",
+  "party": "Republican",
+  "office": "Cook County Commissioner, 9th District",
+  "contestIds": [
+    "chicago-boe:county-commissioner-9th-district",
+    "cook-clerk:220900"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Jon Luers works as a software engineer. In a 2024 Chicago Sun-Times candidate questionnaire, he said Illinois should stop promising open-ended pensions to new state hires and instead consider buyouts. During his 2024 campaign, his website stated he wanted to replace career politicians with 'ordinary citizens' and advocated for a balanced budget and lower taxes.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          { "text": "Jon Luers works as a software engineer.", "cites": [1] },
+          {
+            "text": "In a 2024 Chicago Sun-Times candidate questionnaire, he said Illinois should stop promising open-ended pensions to new state hires and instead consider buyouts.",
+            "cites": [2]
+          },
+          {
+            "text": "During his 2024 campaign, his website stated he wanted to replace career politicians with 'ordinary citizens' and advocated for a balanced budget and lower taxes.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Luers for IL",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39722",
+        "period": "April 1 to June 30, 2026",
+        "raised": 0,
+        "cashOnHand": 25,
+        "breakdown": []
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-07", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Jon Luers",
+      "publisher": "BallotReady",
+      "url": "https://www.ballotready.org/people/jon-luers",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Jon Luers, Illinois Senate 10th District",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/candidate-questionnaires/jon-luers-illinois-senate-10th-district",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Editorial: Our endorsements for the Illinois Senate: Lightford, Martwick, Hastings, Proctor, Villa, Schlenhardt",
+      "publisher": "Chicago Tribune Editorial Board",
+      "url": "https://www.yahoo.com/news/editorial-endorsements-illinois-senate-lightford-100500378.html",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:40:00.845Z",
+    "version": 5
+  }
+}

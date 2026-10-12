@@ -1,0 +1,196 @@
+{
+  "key": "steven-q-mckenzie",
+  "electionId": "il-2026-11-03-general",
+  "name": "Steven Q. McKenzie",
+  "party": "Democratic",
+  "office": "Circuit Court Judge, Cook County (Vacancy of Burke)",
+  "contestIds": [
+    "chicago-boe:judge-of-the-circuit-court-vacancy-of-burke",
+    "cook-clerk:330100:vacancy-of-burke"
+  ],
+  "kind": "judicial_candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Steven Q. McKenzie has spent most of his legal career with the City of Chicago Law Department. He is an Assistant Corporation Counsel Supervisor directing the Troubled Building Initiative. He previously served as director of litigation and affordable housing preservation at the Lawyers Committee for Better Housing. He has pursued code violation lawsuits against property owners.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Steven Q. McKenzie has spent most of his legal career with the City of Chicago Law Department.",
+            "cites": [1]
+          },
+          {
+            "text": "He is an Assistant Corporation Counsel Supervisor directing the Troubled Building Initiative.",
+            "cites": [2]
+          },
+          {
+            "text": "He previously served as director of litigation and affordable housing preservation at the Lawyers Committee for Better Housing.",
+            "cites": [2]
+          },
+          {
+            "text": "He has pursued code violation lawsuits against property owners.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "State Sen. Rob Martwick",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "State Rep. Lindsay LaPointe",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "State Rep. Jaime Andrade",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "Cook County Democratic Party",
+        "kind": "party",
+        "cites": [4]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [5]
+      },
+      { "organization": "Ironworkers 63", "kind": "union", "cites": [4] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Chicago Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [6]
+      },
+      {
+        "organization": "Chicago Council of Lawyers",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [7]
+      },
+      {
+        "organization": "Illinois State Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [1]
+      },
+      {
+        "organization": "Alliance of Bar Associations for Judicial Screening",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "tally": {
+          "members": 11,
+          "ratings": [
+            { "rating": "Recommended", "count": 7 },
+            { "rating": "Qualified", "count": 1 },
+            { "rating": "Not Recommended", "count": 1 }
+          ],
+          "notEvaluated": 2
+        },
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Cook County Judicial Evaluations - Illinois State Bar Association",
+      "publisher": "Illinois State Bar Association",
+      "url": "https://www.isba.org/judicial-elections/counties/cook",
+      "kind": "bar",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "About Steven Q. McKenzie for Cook County Circuit Court Judge",
+      "publisher": "Steven Q. McKenzie for Judge",
+      "url": "https://stevenqmckenzieforjudge.com/about-steven-q-mckenzie/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Judicial election results: Three appointed Cook County ...",
+      "publisher": "Injustice Watch",
+      "url": "https://www.injusticewatch.org/judges/judicial-elections/2026-primary/2026/judicial-election-results-preliminary/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Endorsements for Steven Q. McKenzie",
+      "publisher": "Steven Q. McKenzie for Judge",
+      "url": "https://stevenqmckenzieforjudge.com/endorsements/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Vote Smart: CBA Judicial Voter's Guide, General Election, November 3, 2026",
+      "publisher": "Chicago Bar Association",
+      "url": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 6
+    },
+    {
+      "title": "Evaluation Report: Judges on the Ballot in the November 3, 2026 General Election",
+      "publisher": "Chicago Council of Lawyers",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/CCL-Judicial-Evaluation-Report-for-Nov-3-2026-General-Election_Ballot-Order.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 7
+    },
+    {
+      "title": "Alliance of Bar Associations for Judicial Screening, 2026 General Election ratings",
+      "publisher": "Alliance of Bar Associations for Judicial Screening",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/2026-Alliance-General-Ballot-Ratings-09252026.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 8
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:34:40.299Z",
+    "version": 4
+  }
+}

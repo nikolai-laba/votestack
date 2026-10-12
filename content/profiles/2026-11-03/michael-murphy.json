@@ -1,0 +1,116 @@
+{
+  "key": "michael-murphy",
+  "electionId": "il-2026-11-03-general",
+  "name": "Michael Murphy",
+  "party": "Libertarian",
+  "office": "Cook County Board President",
+  "contestIds": ["chicago-boe:president-of-county-board", "cook-clerk:210100"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Michael Murphy is a business owner and IT services provider who lives in Chicago's Austin neighborhood. He works in information technology as a systems administrator.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Michael Murphy is a business owner and IT services provider who lives in Chicago's Austin neighborhood.",
+            "cites": [1]
+          },
+          {
+            "text": "He works in information technology as a systems administrator.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "His campaign website proposes capping property taxes at 1% of a home's purchase price. He supports capping property tax increases to match inflation or population growth. His priorities include streamlining zoning rules to make affordable housing easier to build. He also favors expanding school choice. For public transit, he supports providing more frequent and reliable service. He wants to implement an integrated fare system across the county's three mass transit agencies. His priorities also include improving transit security and maintenance. He supports protecting gun rights. He also favors protecting immigrant and LGBTQ+ rights. His campaign calls for making government accountable through open data and independent oversight.",
+        "cites": [3, 1, 2],
+        "sentences": [
+          {
+            "text": "His campaign website proposes capping property taxes at 1% of a home's purchase price.",
+            "cites": [3]
+          },
+          {
+            "text": "He supports capping property tax increases to match inflation or population growth.",
+            "cites": [1]
+          },
+          {
+            "text": "His priorities include streamlining zoning rules to make affordable housing easier to build.",
+            "cites": [1]
+          },
+          { "text": "He also favors expanding school choice.", "cites": [1] },
+          {
+            "text": "For public transit, he supports providing more frequent and reliable service.",
+            "cites": [1]
+          },
+          {
+            "text": "He wants to implement an integrated fare system across the county's three mass transit agencies.",
+            "cites": [1]
+          },
+          {
+            "text": "His priorities also include improving transit security and maintenance.",
+            "cites": [1]
+          },
+          { "text": "He supports protecting gun rights.", "cites": [1] },
+          {
+            "text": "He also favors protecting immigrant and LGBTQ+ rights.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign calls for making government accountable through open data and independent oversight.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Michael Murphy",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40838",
+        "period": "April 1 to June 30, 2026",
+        "raised": 154,
+        "cashOnHand": 476.36,
+        "breakdown": [{ "kind": "small", "amount": 154 }]
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-07", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Who is running for Cook County Board President in ...",
+      "publisher": "CBS Chicago",
+      "url": "https://www.cbsnews.com/chicago/news/who-is-running-cook-county-board-president-2026-primary-elections/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "About - Go-Murphy",
+      "publisher": "Michael Murphy campaign",
+      "url": "https://go-murphy.com/about/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Michael Murphy for Cook County Board President",
+      "publisher": "Michael Murphy campaign",
+      "url": "https://go-murphy.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:33:34.015Z",
+    "version": 3
+  }
+}

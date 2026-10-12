@@ -1,0 +1,225 @@
+{
+  "key": "michael-w-frerichs",
+  "electionId": "il-2026-11-03-general",
+  "name": "Michael W. Frerichs",
+  "party": "Democratic",
+  "office": "Illinois Treasurer",
+  "contestIds": ["chicago-boe:treasurer", "cook-clerk:130070"],
+  "kind": "candidate",
+  "tier": "top",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Michael W. Frerichs was elected Illinois State Treasurer in 2014 and is in his third term. He is the state's Chief Investment and Banking Officer and actively manages approximately $60 billion. He also serves as vice chair of the Illinois State Board of Investment, which manages approximately $28.6 billion in pension and trust assets. Before becoming treasurer, he was a Democratic state senator for east-central Illinois and served as Champaign County Auditor.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Michael W. Frerichs was elected Illinois State Treasurer in 2014 and is in his third term.",
+            "cites": [1]
+          },
+          {
+            "text": "He is the state's Chief Investment and Banking Officer and actively manages approximately $60 billion.",
+            "cites": [2]
+          },
+          {
+            "text": "He also serves as vice chair of the Illinois State Board of Investment, which manages approximately $28.6 billion in pension and trust assets.",
+            "cites": [1]
+          },
+          {
+            "text": "Before becoming treasurer, he was a Democratic state senator for east-central Illinois and served as Champaign County Auditor.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "His office made $1.5 billion in investment earnings on the state portfolio in 2025. During his time in office, state investment earnings have exceeded $5 billion. Through the I-CASH unclaimed property program, he has returned more than $2.5 billion in assets to constituents. He says he worked to make sure insurance companies pay life insurance benefits to the intended recipients.",
+        "cites": [2, 4, 5, 6],
+        "sentences": [
+          {
+            "text": "His office made $1.5 billion in investment earnings on the state portfolio in 2025.",
+            "cites": [2]
+          },
+          {
+            "text": "During his time in office, state investment earnings have exceeded $5 billion.",
+            "cites": [4]
+          },
+          {
+            "text": "Through the I-CASH unclaimed property program, he has returned more than $2.5 billion in assets to constituents.",
+            "cites": [5]
+          },
+          {
+            "text": "He says he worked to make sure insurance companies pay life insurance benefits to the intended recipients.",
+            "cites": [6]
+          }
+        ]
+      },
+      {
+        "text": "He launched Illinois Secure Choice, a retirement savings program for private-sector workers who do not have access to an employer-sponsored plan. He made changes to the Bright Start college savings program, which as of 2023 had earned a Gold Rating from Morningstar for five consecutive years. He assumed leadership of a multi-state ABLE alliance, allowing parents to save for children with blindness or disabilities without jeopardizing their federal disability benefits.",
+        "cites": [7, 8],
+        "sentences": [
+          {
+            "text": "He launched Illinois Secure Choice, a retirement savings program for private-sector workers who do not have access to an employer-sponsored plan.",
+            "cites": [7]
+          },
+          {
+            "text": "He made changes to the Bright Start college savings program, which as of 2023 had earned a Gold Rating from Morningstar for five consecutive years.",
+            "cites": [8]
+          },
+          {
+            "text": "He assumed leadership of a multi-state ABLE alliance, allowing parents to save for children with blindness or disabilities without jeopardizing their federal disability benefits.",
+            "cites": [7]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Frerichs",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=14111",
+        "period": "April 1 to June 30, 2026",
+        "raised": 240920.68,
+        "cashOnHand": 1741569.29,
+        "breakdown": [
+          { "kind": "small", "amount": 1160 },
+          { "kind": "large", "amount": 21200 },
+          { "kind": "transfer", "amount": 218300 },
+          { "kind": "other", "amount": 260.68 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 373659.04, "count": 45 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Equality Illinois PAC",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Illinois State AFL-CIO",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Illinois NOW PAC",
+        "kind": "organization",
+        "cites": [10]
+      },
+      { "organization": "United Auto Workers", "kind": "union", "cites": [10] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [11]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Michael Frerichs Illinois State Treasurer's Financial Tools",
+      "publisher": "Illinois State Treasurer's Office",
+      "url": "https://www.illinoistreasurer.gov/home/office-of-the-treasurer/treasurer-michael-frerichs/",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Treasurer Frerichs Makes $124.6 Million in Investment ... - Illinois.gov",
+      "publisher": "State of Illinois",
+      "url": "https://www.illinois.gov/content/dam/soi/en/web/illinois/iisnewsattachments/32172-022526cy2025investment-earnings-release-final.pdf.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Mike Frerichs - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mike_Frerichs",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Treasurer Frerichs Makes $124.6 Million in Investment Earnings for State Portfolio During March",
+      "publisher": "State of Illinois",
+      "url": "https://www.illinois.gov/content/dam/soi/en/web/illinois/iisnewsattachments/31428-062425-treasurer-investment-earnings-release-june-2025.pdf.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Unclaimed Property Homepage - Illinois State Treasurer",
+      "publisher": "Illinois State Treasurer's Office",
+      "url": "https://icash.illinoistreasurer.gov/",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Illinois State Treasurer Michael Frerichs Returns Nearly $20 Million ...",
+      "publisher": "State of Illinois",
+      "url": "https://www.illinois.gov/content/dam/soi/en/web/illinois/iisnewsattachments/31477-071525-il.treasurer.orphansofstorm.newsrelease-002.pdf.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Michael W. Frerichs, Illinois State Treasurer, Illinois State Treasury",
+      "publisher": "Institutional Investor",
+      "url": "https://www.institutionalinvestor.com/article/market-intelligence/michael-w-frerichs-illinois-state-treasurer-illinois-state-treasury",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Parkland College Commencement Exercises, May 11",
+      "publisher": "Parkland College",
+      "url": "https://www.parkland.edu/Main/About-Parkland/Newsroom/Parkland-News?ArtMID=1721&ArticleID=1004",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Endorsements",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Voter Guide Profile for IL State Treasurer candidate - Michael W. Frerichs",
+      "publisher": "iVoterGuide",
+      "url": "https://ivoterguide.com/candidate/23304/race/29586/election/1443",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T21:04:58.811Z",
+    "version": 4
+  }
+}

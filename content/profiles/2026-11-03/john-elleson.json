@@ -1,0 +1,145 @@
+{
+  "key": "john-elleson",
+  "electionId": "il-2026-11-03-general",
+  "name": "John Elleson",
+  "party": "Republican",
+  "office": "U.S. Representative, 9th District",
+  "contestIds": [
+    "chicago-boe:u-s-representative-9th-district",
+    "cook-clerk:140900"
+  ],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "John Elleson is the pastor of Lakewood Chapel in Arlington Heights, a role he has held for 24 years. He says he has served as a Chicago-area pastor for 40 years.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "John Elleson is the pastor of Lakewood Chapel in Arlington Heights, a role he has held for 24 years.",
+            "cites": [1]
+          },
+          {
+            "text": "He says he has served as a Chicago-area pastor for 40 years.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "Elleson says the $40 trillion national debt is driving inflation. He lists fiscal responsibility as a top legislative priority. He opposes changing the law to allow all Americans to buy into Medicare. In a 2018 questionnaire, he disagreed that government is responsible for ensuring everyone has health insurance. He has suggested exploring health savings accounts for younger people and expanding local clinics to lower healthcare costs.",
+        "cites": [1, 3, 4, 5]
+      },
+      {
+        "text": "Elleson says immigration laws must be enforced and the border secured. He supports Immigration and Customs Enforcement but believes operations should focus on public safety threats. He believes human life deserves legal protection from conception and that abortion should be allowed only in cases of rape, incest, or serious threats to the mother's life, and he opposes government funding for Planned Parenthood. He says he supports Israel, though not unconditionally. He has stated that military action in Iran was necessary. He pledges to work across party lines.",
+        "cites": [6, 7, 8, 9, 3],
+        "sentences": [
+          {
+            "text": "Elleson says immigration laws must be enforced and the border secured.",
+            "cites": [6]
+          },
+          {
+            "text": "He supports Immigration and Customs Enforcement but believes operations should focus on public safety threats.",
+            "cites": [7]
+          },
+          {
+            "text": "He believes human life deserves legal protection from conception and that abortion should be allowed only in cases of rape, incest, or serious threats to the mother's life, and he opposes government funding for Planned Parenthood.",
+            "cites": [8]
+          },
+          {
+            "text": "He says he supports Israel, though not unconditionally.",
+            "cites": [6]
+          },
+          {
+            "text": "He has stated that military action in Iran was necessary.",
+            "cites": [9]
+          },
+          { "text": "He pledges to work across party lines.", "cites": [3] }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": { "asOf": "2026-10-07", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Biss, Elleson debate issues at U.S. House District 9 forum",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/09/30/illinois-district-9-debate/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "John Elleson for Congress",
+      "publisher": "John Elleson campaign",
+      "url": "https://johnelleson.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "2026 Election Questionnaire: John Elleson, U.S. House of Representatives, 9th District",
+      "publisher": "Northwest Herald",
+      "url": "https://www.shawlocal.com/northwest-herald/2026/02/07/2026-election-questionnaire-john-elleson-us-house-of-representatives-9th-district/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "John Elleson iVoterGuide Profile",
+      "publisher": "iVoterGuide",
+      "url": "https://ivoterguide.com/candidate/39399/race/1350/election/591",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Compare Candidates | 2026 Illinois's 9th Congressional ...",
+      "publisher": "Smarter.Vote",
+      "url": "https://smarter.vote/races/il-house-09-2026/compare/",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "New Illinois congressional candidates make cases as ...",
+      "publisher": "CBS Chicago",
+      "url": "https://www.cbsnews.com/chicago/news/new-illinois-congressional-candidates-make-cases-veterans-leave/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "John Elleson — Illinois' 9th Congressional District Election ...",
+      "publisher": "Smarter.Vote",
+      "url": "https://smarter.vote/races/il-house-09-2026/john-elleson/",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "John Elleson - US Representative, District 9",
+      "publisher": "iVoterGuide",
+      "url": "https://ivoterguide.com/candidate/39399/race/29573/election/1443",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Daniel Biss, John Elleson spar in 9th Congressional ...",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/09/25/daniel-biss-john-elleson-differ-debate/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:12:23.244Z",
+    "version": 6
+  }
+}

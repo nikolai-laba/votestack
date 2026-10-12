@@ -1,0 +1,190 @@
+{
+  "key": "jason-dones",
+  "electionId": "il-2026-11-03-general",
+  "name": "Jason Dónes",
+  "office": "Chicago Board of Education Member, Subdistrict 3B",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-3b"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Jason Dónes is a CPS parent from Humboldt Park. He is a former teacher who has taught in CPS schools. He serves as chief of people and operations at Beyond100K, a nonprofit working to diversify the STEM teaching workforce, and as Local School Council chair at Moos Elementary. He helped draft Illinois’ first set of culturally responsive teaching standards and worked on CPS’ Instructional Equity Working Group. He says he will push for budget transparency and work to increase budget resources for district schools. He also wants to protect CPS jobs that support immigrant students facing threats from immigration agents. He advocates for fully staffed schools, including nurses, counselors, and special education professionals.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Jason Dónes is a CPS parent from Humboldt Park.",
+            "cites": [1]
+          },
+          {
+            "text": "He is a former teacher who has taught in CPS schools.",
+            "cites": [2]
+          },
+          {
+            "text": "He serves as chief of people and operations at Beyond100K, a nonprofit working to diversify the STEM teaching workforce, and as Local School Council chair at Moos Elementary.",
+            "cites": [3]
+          },
+          {
+            "text": "He helped draft Illinois’ first set of culturally responsive teaching standards and worked on CPS’ Instructional Equity Working Group.",
+            "cites": [2]
+          },
+          {
+            "text": "He says he will push for budget transparency and work to increase budget resources for district schools.",
+            "cites": [2]
+          },
+          {
+            "text": "He also wants to protect CPS jobs that support immigrant students facing threats from immigration agents.",
+            "cites": [2]
+          },
+          {
+            "text": "He advocates for fully staffed schools, including nurses, counselors, and special education professionals.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Jason Dones",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39820",
+        "period": "April 1 to June 30, 2026",
+        "raised": 11061,
+        "cashOnHand": 13430.1,
+        "breakdown": [
+          { "kind": "small", "amount": 3781 },
+          { "kind": "large", "amount": 3780 },
+          { "kind": "transfer", "amount": 3500 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 59265.86, "count": 11 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Congresswoman Delia C. Ramirez",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Former Congressman Luis Gutiérrez",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "State Senator Graciela Guzmán",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "State Representative Lilian Jiménez",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Cook County Commissioner Jessica Vásquez",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Alderperson Jessie Fuentes",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Alderman Anthony Joel Quezada",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Chicago Teachers Union",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "Cook County Latino Democrats",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Democratic Party of the 35th Ward",
+        "kind": "party",
+        "cites": [5]
+      },
+      {
+        "organization": "United Neighbors of the 35th Ward",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "United Neighbors of the 26th Ward",
+        "kind": "organization",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Jason Dónes for Chicago School Board District 3B",
+      "publisher": "Jason Dónes for Chicago School Board",
+      "url": "https://www.donesforschoolboard.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Chicago school board election 2026 voter guide: District 3b candidates",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-election-2026-district-3b-candidates-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "2026 School Board Election",
+      "publisher": "Chicago Teachers Union",
+      "url": "https://www.ctulocal1.org/movement/school-board-election-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Jason Dónes",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Jason_Dones",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements - Jason Dónes for Chicago School Board",
+      "publisher": "Jason Dónes for Chicago School Board",
+      "url": "https://www.donesforschoolboard.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Trump keeps it brief at Medinah",
+      "publisher": "Politico",
+      "url": "https://www.politico.com/newsletters/illinois-playbook/2026/09/28/trump-keeps-it-brief-at-medinah-01094547",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:43:41.373Z",
+    "version": 3
+  }
+}

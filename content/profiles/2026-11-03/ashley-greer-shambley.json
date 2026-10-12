@@ -1,0 +1,203 @@
+{
+  "key": "ashley-greer-shambley",
+  "electionId": "il-2026-11-03-general",
+  "name": "Ashley Greer Shambley",
+  "party": "Democratic",
+  "office": "Circuit Court Judge, 1st Subcircuit (Vacancy of Walker)",
+  "contestIds": [
+    "chicago-boe:judge-1st-subcircuit-vacancy-of-walker",
+    "cook-clerk:340120:vacancy-of-walker"
+  ],
+  "kind": "judicial_candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Ashley Greer Shambley is a Circuit Court judge in the Traffic Section. She was appointed in August 2026. She joined the Cook County Public Defender's Office in 2012 after private practice. She served in the multiple defendant unit and represented Paris Sadler, accused of shooting a Chicago police officer. She served on the public defenders union executive board. She reported 27 criminal trials to verdict as lead counsel.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Ashley Greer Shambley is a Circuit Court judge in the Traffic Section.",
+            "cites": [1]
+          },
+          { "text": "She was appointed in August 2026.", "cites": [2] },
+          {
+            "text": "She joined the Cook County Public Defender's Office in 2012 after private practice.",
+            "cites": [3]
+          },
+          {
+            "text": "She served in the multiple defendant unit and represented Paris Sadler, accused of shooting a Chicago police officer.",
+            "cites": [4]
+          },
+          {
+            "text": "She served on the public defenders union executive board.",
+            "cites": [4]
+          },
+          {
+            "text": "She reported 27 criminal trials to verdict as lead counsel.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Ashley Greer Shambley for Judge",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40608",
+        "period": "April 1 to June 30, 2026",
+        "raised": 9306.4,
+        "cashOnHand": 344.95,
+        "breakdown": [
+          { "kind": "small", "amount": 840 },
+          { "kind": "large", "amount": 1450 },
+          { "kind": "candidate", "amount": 7016.4 }
+        ],
+        "fromCandidate": 7016.4
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "Personal PAC", "kind": "organization", "cites": [5] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Chicago Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Council of Lawyers",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [8]
+      },
+      {
+        "organization": "Illinois State Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [3]
+      },
+      {
+        "organization": "Alliance of Bar Associations for Judicial Screening",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "tally": {
+          "members": 11,
+          "ratings": [
+            { "rating": "Recommended", "count": 9 },
+            { "rating": "Qualified", "count": 2 }
+          ],
+          "notEvaluated": 0
+        },
+        "cites": [9]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Honorable Ashley Greer Shambley, Circuit Judge",
+      "publisher": "Circuit Court of Cook County",
+      "url": "https://www.cookcountycourtil.gov/judge/greer-shambley-ashley",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Illinois Supreme Court appoints 13 judges to Circuit Court of Cook County",
+      "publisher": "Illinois Courts",
+      "url": "https://www.illinoiscourts.gov/News/1780/Illinois-Supreme-Court-appoints-13-judges-to-Circuit-Court-of-Cook-County/news-detail/",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Cook County Judicial Evaluations - Illinois State Bar Association",
+      "publisher": "Illinois State Bar Association",
+      "url": "https://www.isba.org/judicial-elections/counties/cook",
+      "kind": "bar",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Ashley Greer Shambley - March 2026 Cook County Judicial Election Guide",
+      "publisher": "Injustice Watch",
+      "url": "https://2026primary.injusticewatch.org/candidate/ashley-greer-shambley-34661",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Vote Smart: CBA Judicial Voter's Guide, General Election, November 3, 2026",
+      "publisher": "Chicago Bar Association",
+      "url": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 7
+    },
+    {
+      "title": "Evaluation Report: Judges on the Ballot in the November 3, 2026 General Election",
+      "publisher": "Chicago Council of Lawyers",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/CCL-Judicial-Evaluation-Report-for-Nov-3-2026-General-Election_Ballot-Order.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 8
+    },
+    {
+      "title": "Alliance of Bar Associations for Judicial Screening, 2026 General Election ratings",
+      "publisher": "Alliance of Bar Associations for Judicial Screening",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/2026-Alliance-General-Ballot-Ratings-09252026.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 9
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:25:02.446Z",
+    "version": 6
+  }
+}

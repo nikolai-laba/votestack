@@ -1,0 +1,203 @@
+{
+  "key": "niki-conforti",
+  "electionId": "il-2026-11-03-general",
+  "name": "Niki Conforti",
+  "party": "Republican",
+  "office": "U.S. Representative, 6th District",
+  "contestIds": [
+    "chicago-boe:u-s-representative-6th-district",
+    "cook-clerk:140600"
+  ],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Niki Conforti is an energy consultant and former healthcare administrator from Glen Ellyn. She was elected as a precinct committeeman in Wheaton.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Niki Conforti is an energy consultant and former healthcare administrator from Glen Ellyn.",
+            "cites": [1]
+          },
+          {
+            "text": "She was elected as a precinct committeeman in Wheaton.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "She told the Chicago Tribune her top issue is affordability, which she attributes to high energy and healthcare costs. She proposes cutting regulations in the energy sector and limiting the renewable energy component to lower utility bills. She proposes increasing billing transparency to drive competition among healthcare systems.",
+        "cites": [3, 4],
+        "sentences": [
+          {
+            "text": "She told the Chicago Tribune her top issue is affordability, which she attributes to high energy and healthcare costs.",
+            "cites": [3]
+          },
+          {
+            "text": "She proposes cutting regulations in the energy sector and limiting the renewable energy component to lower utility bills.",
+            "cites": [3]
+          },
+          {
+            "text": "She proposes increasing billing transparency to drive competition among healthcare systems.",
+            "cites": [4]
+          }
+        ]
+      },
+      {
+        "text": "She says the economy remains fragile, with high interest rates slowing growth. She says tariffs will help bring back manufacturing and add jobs.",
+        "cites": [1, 4],
+        "sentences": [
+          {
+            "text": "She says the economy remains fragile, with high interest rates slowing growth.",
+            "cites": [1]
+          },
+          {
+            "text": "She says tariffs will help bring back manufacturing and add jobs.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Conforti for Congress",
+        "url": "https://www.fec.gov/data/committee/C00844308/?cycle=2026",
+        "period": "January 1, 2025 to June 30, 2026",
+        "raised": 313037.72,
+        "cashOnHand": 22661.13,
+        "breakdown": [
+          { "kind": "small", "amount": 194487.35 },
+          { "kind": "large", "amount": 113600.37 },
+          { "kind": "pac", "amount": 4950 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      { "organization": "Maggie's List", "kind": "organization", "cites": [5] },
+      {
+        "organization": "Illinois Family Action",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Illinois Federation of Young Republicans",
+        "kind": "party",
+        "cites": [7]
+      },
+      {
+        "organization": "ABATE - motorcycles alliance",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Arab American Chamber of Commerce",
+        "kind": "organization",
+        "cites": [7]
+      },
+      { "organization": "HealthFreedom", "kind": "organization", "cites": [7] },
+      {
+        "organization": "Italian American Police Association",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "National Women’s Prayer and Voter Army",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "United Hellenic Voters of America",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Bremen Township Republican Organization",
+        "kind": "party",
+        "cites": [7]
+      },
+      {
+        "organization": "Downers Grove Township Republican Organization Leadership",
+        "kind": "party",
+        "cites": [7]
+      },
+      {
+        "organization": "Milton Township Republican Organization Leadership",
+        "kind": "party",
+        "cites": [7]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Niki Conforti — 2026 Illinois's 6th Congressional District Election | Smarter.Vote",
+      "publisher": "Smarter.Vote",
+      "url": "https://smarter.vote/races/il-house-06-2026/niki-conforti/",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "2026 Election Questionnaire: Niki Conforti, U.S. House ... - Shaw Local",
+      "publisher": "Shaw Local",
+      "url": "https://www.shawlocal.com/my-suburban-life/2026/02/07/2026-election-questionnaire-niki-conforti-us-house-of-representatives-6th-district/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Editorial: Sean Casten for US House of Representatives in District 6",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/10/05/editorial-sean-casten-for-u-s-house-of-representatives-illinois-district-6/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Issues – Niki Conforti",
+      "publisher": "Niki Conforti campaign",
+      "url": "https://conforti4congress.com/issues/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Momentum Builds: Maggie’s List Adds 8 to Growing 2026 Endorsement List",
+      "publisher": "Maggie's List",
+      "url": "https://maggieslist.org/momentum-builds-maggies-list-adds-8-to-growing-2026-endorsement-list/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "IFA’s 2026 General Election Endorsements",
+      "publisher": "Illinois Family Action",
+      "url": "https://illinoisfamilyaction.org/2026/09/ifas-2026-general-election-endorsements-2/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements – Niki Conforti",
+      "publisher": "Niki Conforti for Congress",
+      "url": "https://conforti4congress.com/endorsements/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:09:11.666Z",
+    "version": 6
+  }
+}

@@ -1,0 +1,40 @@
+# Dependencies and build output
+node_modules
+dist
+dist-ssr
+.wrangler
+
+# Secrets: never commit real keys. Copy the *.example files instead.
+.env
+.env.*
+!.env.example
+!.env.production
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Editor and OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.sw?
+
+# Maintainer-only notes and Claude Code instructions (kept outside this repo;
+# these paths are local symlinks). Never commit them.
+.private/
+CLAUDE.local.md
+CLAUDE.md
+
+# Downloaded and generated election data (see data/README.md)
+data/raw/
+data/build/
+
+# Claude Code agent worktrees (temporary checkouts of this repo)
+.claude/worktrees/

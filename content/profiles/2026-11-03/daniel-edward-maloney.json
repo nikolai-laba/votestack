@@ -1,0 +1,171 @@
+{
+  "key": "daniel-edward-maloney",
+  "electionId": "il-2026-11-03-general",
+  "name": "Daniel Edward Maloney",
+  "office": "Circuit Court Judge, Cook County",
+  "contestIds": [
+    "chicago-boe:retention:daniel-edward-maloney",
+    "cook-clerk:720001:daniel-edward-maloney"
+  ],
+  "kind": "retention",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Judge Daniel Edward Maloney was appointed to the Cook County Circuit Court in 2019 and elected in 2020. He hears traffic and misdemeanor cases in Markham. He also presides over drug, mental health, and veterans treatment courts. From 2001 to 2019, he was a Cook County assistant state's attorney, prosecuting narcotics and murder cases. He serves on the Special Supreme Court Advisory Committee for Justice and Mental Health Planning.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Judge Daniel Edward Maloney was appointed to the Cook County Circuit Court in 2019 and elected in 2020.",
+            "cites": [1]
+          },
+          {
+            "text": "He hears traffic and misdemeanor cases in Markham.",
+            "cites": [1]
+          },
+          {
+            "text": "He also presides over drug, mental health, and veterans treatment courts.",
+            "cites": [2]
+          },
+          {
+            "text": "From 2001 to 2019, he was a Cook County assistant state's attorney, prosecuting narcotics and murder cases.",
+            "cites": [3]
+          },
+          {
+            "text": "He serves on the Special Supreme Court Advisory Committee for Justice and Mental Health Planning.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Citizens for Judge Dan Maloney, NFP",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=35392",
+        "period": "July 1 to September 30, 2026",
+        "raised": 0,
+        "cashOnHand": 17730.56,
+        "breakdown": []
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Chicago Bar Association",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "rating": "Qualified",
+        "cites": [6]
+      },
+      {
+        "organization": "Chicago Council of Lawyers",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "rating": "Qualified",
+        "cites": [7]
+      },
+      {
+        "organization": "Illinois State Bar Association",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "rating": "Yes",
+        "cites": [1]
+      },
+      {
+        "organization": "Alliance of Bar Associations for Judicial Screening",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "tally": {
+          "members": 11,
+          "ratings": [{ "rating": "Yes", "count": 11 }],
+          "notEvaluated": 0
+        },
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Cook County Judicial Evaluations",
+      "publisher": "Illinois State Bar Association",
+      "url": "https://www.isba.org/judicial-elections/counties/cook",
+      "kind": "bar",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Maloney, Daniel E. | Circuit Court of Cook County",
+      "publisher": "Circuit Court of Cook County",
+      "url": "https://www.cookcountycourtil.gov/judge/maloney-daniel-e",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Chicago Council of Lawyers Evaluation Report – Vote For Judges",
+      "publisher": "Chicago Council of Lawyers",
+      "url": "https://www.voteforjudges.org/chicago-council-of-lawyers-evaluation-report/",
+      "kind": "bar",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Mandate Pending, Miscellaneous Record - 03-13-24",
+      "publisher": "Illinois Supreme Court",
+      "url": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/aba499b5-b695-482e-9061-6777301a0c43/Mandate%20Pending,%20Miscellaneous%20Record%20-%2003-13-24.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Vote Smart: CBA Judicial Voter's Guide, General Election, November 3, 2026",
+      "publisher": "Chicago Bar Association",
+      "url": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 6
+    },
+    {
+      "title": "Evaluation Report: Judges on the Ballot in the November 3, 2026 General Election",
+      "publisher": "Chicago Council of Lawyers",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/CCL-Judicial-Evaluation-Report-for-Nov-3-2026-General-Election_Ballot-Order.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 7
+    },
+    {
+      "title": "Alliance of Bar Associations for Judicial Screening, 2026 General Election ratings",
+      "publisher": "Alliance of Bar Associations for Judicial Screening",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/2026-Alliance-General-Ballot-Ratings-09252026.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 8
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T21:11:49.646Z",
+    "version": 2
+  }
+}

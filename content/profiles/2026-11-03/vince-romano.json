@@ -1,0 +1,47 @@
+{
+  "key": "vince-romano",
+  "electionId": "il-2026-11-03-general",
+  "name": "Vince Romano",
+  "party": "Republican",
+  "office": "State Senator, 8th District",
+  "contestIds": ["chicago-boe:state-senator-8th-district", "cook-clerk:170802"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": { "asOf": "2026-10-07", "items": [] },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Illinois Family Action",
+        "kind": "organization",
+        "cites": [1]
+      },
+      { "organization": "Niles Township GOP", "kind": "party", "cites": [2] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "2026 General Election Endorsements",
+      "publisher": "Illinois Family Action",
+      "url": "https://illinoisfamilyaction.org/2026/09/ifas-2026-general-election-endorsements-2/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Endorsements 2026 GOP primary - Niles Township GOP",
+      "publisher": "Niles Township GOP",
+      "url": "https://www.ntgop.org/endorsements_2026_gop_primary",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:56:27.755Z",
+    "version": 2
+  }
+}

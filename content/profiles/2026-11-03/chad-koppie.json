@@ -1,0 +1,187 @@
+{
+  "key": "chad-koppie",
+  "electionId": "il-2026-11-03-general",
+  "name": "Chad Koppie",
+  "party": "Republican",
+  "office": "U.S. Representative, 7th District",
+  "contestIds": [
+    "chicago-boe:u-s-representative-7th-district",
+    "cook-clerk:140700"
+  ],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Chad Koppie is a retired Delta Airlines pilot and farmer, and a member of the Kane County Regional Board of School Trustees. He has served as president of that board and previously was a Rutland Township trustee and a District 300 school board member. His campaign website also lists him as a board member of the Illinois Forum. He is a U.S. Army veteran.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Chad Koppie is a retired Delta Airlines pilot and farmer, and a member of the Kane County Regional Board of School Trustees.",
+            "cites": [1]
+          },
+          {
+            "text": "He has served as president of that board and previously was a Rutland Township trustee and a District 300 school board member.",
+            "cites": [2]
+          },
+          {
+            "text": "His campaign website also lists him as a board member of the Illinois Forum.",
+            "cites": [3]
+          },
+          { "text": "He is a U.S. Army veteran.", "cites": [4] }
+        ]
+      },
+      {
+        "text": "Koppie wants to ban abortion by a constitutional amendment stating that human life begins at conception. He has called abortion a moral issue and compared it to slavery. He opposes sanctuary policies for undocumented immigrants. He has called for repealing Illinois' SAFE-T Act and strengthening law enforcement to hold violent offenders accountable.",
+        "cites": [1, 5],
+        "sentences": [
+          {
+            "text": "Koppie wants to ban abortion by a constitutional amendment stating that human life begins at conception.",
+            "cites": [1]
+          },
+          {
+            "text": "He has called abortion a moral issue and compared it to slavery.",
+            "cites": [5]
+          },
+          {
+            "text": "He opposes sanctuary policies for undocumented immigrants.",
+            "cites": [1]
+          },
+          {
+            "text": "He has called for repealing Illinois' SAFE-T Act and strengthening law enforcement to hold violent offenders accountable.",
+            "cites": [5]
+          }
+        ]
+      },
+      {
+        "text": "On fiscal issues, he proposes cutting all government spending by 3% each year for 10 years, abolishing the Federal Reserve and the IRS, eliminating the U.S. Department of Education, and ending all foreign aid. He would repeal the Affordable Care Act. He argues that fraud by hospitals and insurance companies drives high healthcare costs. He has stated he does not believe Joe Biden was the duly elected president. During his 2024 campaign, he said he was a lifetime member of the NRA and would defend the Second Amendment.",
+        "cites": [1, 5, 6, 4],
+        "sentences": [
+          {
+            "text": "On fiscal issues, he proposes cutting all government spending by 3% each year for 10 years, abolishing the Federal Reserve and the IRS, eliminating the U.S. Department of Education, and ending all foreign aid.",
+            "cites": [1]
+          },
+          { "text": "He would repeal the Affordable Care Act.", "cites": [1] },
+          {
+            "text": "He argues that fraud by hospitals and insurance companies drives high healthcare costs.",
+            "cites": [5]
+          },
+          {
+            "text": "He has stated he does not believe Joe Biden was the duly elected president.",
+            "cites": [6]
+          },
+          {
+            "text": "During his 2024 campaign, he said he was a lifetime member of the NRA and would defend the Second Amendment.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Chad Koppie for Congress",
+        "url": "https://www.fec.gov/data/committee/C00911453/?cycle=2026",
+        "period": "July 10, 2025 to June 30, 2026",
+        "raised": 55450.56,
+        "cashOnHand": 42.2,
+        "breakdown": [
+          { "kind": "candidate", "amount": 53154.01 },
+          { "kind": "other", "amount": 2296.55 }
+        ],
+        "fromCandidate": 53154.01
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Illinois Family Action",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Illinois Pro-Family Alliance",
+        "kind": "organization",
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Who is running for the U.S. House in Illinois' 7th Congressional District?",
+      "publisher": "CBS News",
+      "url": "https://www.cbsnews.com/chicago/news/who-is-running-house-illinois-7th-congressional-district-2026-primary-election/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Illinois' 7th Congressional District race is one you need to pay attention to • The TRiiBE",
+      "publisher": "The TRiiBE",
+      "url": "https://thetriibe.com/2026/02/the-illinois-7th-congressional-district-race-is-one-you-need-to-pay-attention-to/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Chad Koppie for U.S. House, Illinois' 7th District",
+      "publisher": "Chad Koppie campaign",
+      "url": "https://www.koppieforcongress.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Who are the U.S. 7th District House candidates, Danny Davis and Chad Koppie? - Wednesday Journal",
+      "publisher": "Wednesday Journal",
+      "url": "https://www.oakpark.com/2024/10/14/who-are-the-u-s-7th-district-house-candidates-danny-davis-and-chad-koppie/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "15 Candidates Vying To Replace Danny Davis, Represent 7th Congressional District",
+      "publisher": "Block Club Chicago",
+      "url": "https://blockclubchicago.org/2026/03/03/15-candidates-vying-to-replace-danny-davis-represent-7th-congressional-district/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Editorial: La Shawn Ford for US House of Representatives ...",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/10/05/editorial-la-shawn-ford-u-s-house-of-representatives-illinois-district-7/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "IFA’s 2026 General Election Endorsements",
+      "publisher": "Illinois Family Action",
+      "url": "https://illinoisfamilyaction.org/2026/09/ifas-2026-general-election-endorsements-2/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Chad Koppie - Candidate Profile",
+      "publisher": "iVoterGuide",
+      "url": "https://ivoterguide.com/candidate/19493/race/29571/election/1443",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:10:21.252Z",
+    "version": 6
+  }
+}

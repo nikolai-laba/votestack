@@ -1,0 +1,25 @@
+name: Bug
+description: Something on the site or in the code doesn't work as expected.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please don't include your home address. To show a ballot problem, use a public building's address or the sample ballots.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected and what you saw instead.
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Page or URL
+      placeholder: https://votestack.org/about
+  - type: input
+    id: device
+    attributes:
+      label: Device and browser
+      placeholder: iPhone 15, Safari

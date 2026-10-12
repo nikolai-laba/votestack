@@ -1,0 +1,149 @@
+{
+  "key": "robert-d-kuzas",
+  "electionId": "il-2026-11-03-general",
+  "name": "Robert D. Kuzas",
+  "office": "Circuit Court Judge, Cook County",
+  "contestIds": [
+    "chicago-boe:retention:robert-d-kuzas",
+    "cook-clerk:720001:robert-d-kuzas"
+  ],
+  "kind": "retention",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Robert D. Kuzas was elected to the Cook County Circuit Court in 2014 and presides over misdemeanor and ordinance cases in the First Municipal District. Before taking the bench, he worked in private practice and served as a Chicago police officer. In 2019, he dismissed charges against nine striking CTU members after the complaining party did not appear.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Robert D. Kuzas was elected to the Cook County Circuit Court in 2014 and presides over misdemeanor and ordinance cases in the First Municipal District.",
+            "cites": [1]
+          },
+          {
+            "text": "Before taking the bench, he worked in private practice and served as a Chicago police officer.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2019, he dismissed charges against nine striking CTU members after the complaining party did not appear.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [],
+    "sharedCommittee": {
+      "name": "Committee for Retention of Judges in Cook County",
+      "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=6505"
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "Chicago Bar Association",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "rating": "Qualified",
+        "cites": [4]
+      },
+      {
+        "organization": "Chicago Council of Lawyers",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "rating": "Qualified",
+        "cites": [5]
+      },
+      {
+        "organization": "Illinois State Bar Association",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "rating": "Yes",
+        "cites": [6]
+      },
+      {
+        "organization": "Alliance of Bar Associations for Judicial Screening",
+        "kind": "bar_evaluation",
+        "context": "retention",
+        "tally": {
+          "members": 11,
+          "ratings": [{ "rating": "Yes", "count": 11 }],
+          "notEvaluated": 0
+        },
+        "cites": [7]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Hon. Robert D. Kuzas — Not yet rated · 2026 ballot – Vote Qualified Judges",
+      "publisher": "Vote Qualified Judges",
+      "url": "https://votequalifiedjudges.com/judge/hon-robert-d-kuzas/",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Charges dropped against 9 striking CTU members who blocked entrance to Sterling Bay",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/education/2019/11/27/20986193/cps-strike-ctu-union-schools-arrest-sterling-bay-lincoln-yards",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Vote Smart: CBA Judicial Voter's Guide, General Election, November 3, 2026",
+      "publisher": "Chicago Bar Association",
+      "url": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 4
+    },
+    {
+      "title": "Evaluation Report: Judges on the Ballot in the November 3, 2026 General Election",
+      "publisher": "Chicago Council of Lawyers",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/CCL-Judicial-Evaluation-Report-for-Nov-3-2026-General-Election_Ballot-Order.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 5
+    },
+    {
+      "title": "2026 General Election, Cook County Judicial Evaluations",
+      "publisher": "Illinois State Bar Association",
+      "url": "https://www.isba.org/judicial-elections/counties/cook",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 6
+    },
+    {
+      "title": "Alliance of Bar Associations for Judicial Screening, 2026 General Election ratings",
+      "publisher": "Alliance of Bar Associations for Judicial Screening",
+      "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/2026-Alliance-General-Ballot-Ratings-09252026.pdf",
+      "kind": "bar",
+      "viewedAt": "2026-10-06",
+      "id": 7
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T21:23:24.094Z",
+    "version": 2
+  }
+}

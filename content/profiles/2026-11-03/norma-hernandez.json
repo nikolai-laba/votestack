@@ -1,0 +1,230 @@
+{
+  "key": "norma-hernandez",
+  "electionId": "il-2026-11-03-general",
+  "name": "Norma Hernandez",
+  "party": "Democratic",
+  "office": "State Representative, 77th District",
+  "contestIds": ["cook-clerk:187700"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Norma Hernandez has served the 77th District since January 2023. A full-time legislator, she serves on the Triton College board and holds a bachelor's in social work and a master's in urban planning and policy from the University of Illinois at Chicago. Before her election, she was an urban planner at the Great Cities Institute at UIC; her campaign says she helped lead participatory budgeting research.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Norma Hernandez has served the 77th District since January 2023.",
+            "cites": [1]
+          },
+          {
+            "text": "A full-time legislator, she serves on the Triton College board and holds a bachelor's in social work and a master's in urban planning and policy from the University of Illinois at Chicago.",
+            "cites": [1]
+          },
+          {
+            "text": "Before her election, she was an urban planner at the Great Cities Institute at UIC; her campaign says she helped lead participatory budgeting research.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "She passed a bill regarding property taxes for new residential properties. She also passed legislation concerning developmental disability service rate sheets and higher education mental health action. She proposed a bill to tax digital ad profits over $150 million. Other proposed bills relate to an AI task force and Medicaid nutritional therapy.",
+        "cites": [3, 1, 4],
+        "sentences": [
+          {
+            "text": "She passed a bill regarding property taxes for new residential properties.",
+            "cites": [3]
+          },
+          {
+            "text": "She also passed legislation concerning developmental disability service rate sheets and higher education mental health action.",
+            "cites": [1]
+          },
+          {
+            "text": "She proposed a bill to tax digital ad profits over $150 million.",
+            "cites": [4]
+          },
+          {
+            "text": "Other proposed bills relate to an AI task force and Medicaid nutritional therapy.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Elect Norma Hernandez",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=36454",
+        "period": "April 1 to June 30, 2026",
+        "raised": 1400,
+        "cashOnHand": 90486.81,
+        "breakdown": [
+          { "kind": "small", "amount": 150 },
+          { "kind": "large", "amount": 500 },
+          { "kind": "transfer", "amount": 750 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 130650, "count": 23 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "U.S. Rep. Jesús \"Chuy\" García",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Mid-America Carpenters Regional Council",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Chicago Laborers' District Council",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Cook County College Teachers Union",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 399",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "Teamsters Local 705", "kind": "union", "cites": [5] },
+      {
+        "organization": "Associated Fire Fighters, Local 2",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Brotherhood of Maintenances of Way Employes Division",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Transportation Communication Union/IAM",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [10] },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [11] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Norma Hernandez (D) - Illinois General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://ilga.gov/Senate/Members/Details/3415",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "About Norma Hernandez",
+      "publisher": "Norma Hernandez campaign",
+      "url": "https://www.normaforstaterep.com/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Official government website of the Illinois General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/House/Members/Details/3224",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Reducing gas tax, prepping for future shortfalls among late ...",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/reducing-gas-tax-prepping-for-future-shortfalls-among-late-budget-sticking-points/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Norma Hernandez For State Representative, 77th District",
+      "publisher": "Norma for State Rep",
+      "url": "https://www.normaforstaterep.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements for the March 17, 2026 Primary Election",
+      "publisher": "Cook County College Teachers Union",
+      "url": "https://www.ccctu.org/post/early-endorsements-for-the-march-17-2026-primary-election",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "2026 Local 399 Illinois Primary Election Endorsements",
+      "publisher": "International Union of Operating Engineers Local 399",
+      "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 8
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:47:09.051Z",
+    "version": 7
+  }
+}

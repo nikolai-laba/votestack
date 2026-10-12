@@ -1,0 +1,241 @@
+{
+  "key": "will-guzzardi",
+  "electionId": "il-2026-11-03-general",
+  "name": "Will Guzzardi",
+  "party": "Democratic",
+  "office": "State Representative, 39th District",
+  "contestIds": [
+    "chicago-boe:state-representative-39th-district",
+    "cook-clerk:183900"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Will Guzzardi has represented the 39th District since 2015, serving as an Assistant Majority Leader, co-chair of the House Progressive Caucus, and chair of the Economic Opportunity and Equity committee. He previously worked as a journalist. His campaign says he passed the 2019 law raising Illinois's minimum wage to $15 per hour by 2025. He sponsored laws protecting freelance workers, expanding overdose prevention testing, and holding employers liable for gender violence.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Will Guzzardi has represented the 39th District since 2015, serving as an Assistant Majority Leader, co-chair of the House Progressive Caucus, and chair of the Economic Opportunity and Equity committee.",
+            "cites": [1]
+          },
+          { "text": "He previously worked as a journalist.", "cites": [2] },
+          {
+            "text": "His campaign says he passed the 2019 law raising Illinois's minimum wage to $15 per hour by 2025.",
+            "cites": [3]
+          },
+          {
+            "text": "He sponsored laws protecting freelance workers, expanding overdose prevention testing, and holding employers liable for gender violence.",
+            "cites": [4]
+          }
+        ]
+      },
+      {
+        "text": "In 2019, he pushed to repeal the state’s ban on rent control to let cities cap rents. He proposed requiring the University of Illinois and state pension funds to divest from fossil fuels. He sponsored a bill to increase transparency and victim participation at the Prisoner Review Board.",
+        "cites": [5, 1, 6],
+        "sentences": [
+          {
+            "text": "In 2019, he pushed to repeal the state’s ban on rent control to let cities cap rents.",
+            "cites": [5]
+          },
+          {
+            "text": "He proposed requiring the University of Illinois and state pension funds to divest from fossil fuels.",
+            "cites": [1]
+          },
+          {
+            "text": "He sponsored a bill to increase transparency and victim participation at the Prisoner Review Board.",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Committee to Elect Will Guzzardi",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=23729",
+        "period": "April 1 to June 30, 2026",
+        "raised": 0,
+        "cashOnHand": 216626.27,
+        "breakdown": [],
+        "largeSince": { "since": "2026-06-30", "total": 26838.7, "count": 10 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Teachers Union",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Better Streets Chicago Action Fund",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "National Association of Social Workers, Illinois Chapter",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Sierra Club Illinois",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [12]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [13] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [14]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [15] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Will Guzzardi - Illinois General Assembly - Member",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/House/members/details/3311",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Rep. Will Guzzardi",
+      "publisher": "Illinois House Democratic Caucus",
+      "url": "https://ilhousedems.com/project/rep-will-guzzardi/",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Meet Will — State Rep. Will Guzzardi",
+      "publisher": "State Rep. Will Guzzardi",
+      "url": "https://www.repguzzardi.com/meet-will",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Will Guzzardi (D) - 104th General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://ilga.gov/House/Members/Details/3091",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Chicago lawmaker wants to enable cities to set limits on rents",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/chicago-lawmaker-wants-to-enable-cities-to-set-limits-on-rents/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Prisoner Review Board reform, changes to police hiring ...",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/prisoner-review-board-reform-changes-to-police-hiring-clear-general-assembly/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "2026 Primary Election",
+      "publisher": "Chicago Teachers Union",
+      "url": "https://www.ctulocal1.org/movement/primary-election-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "2026 Midterm Endorsements",
+      "publisher": "Better Streets Chicago Action Fund",
+      "url": "https://www.bscactionfund.org/2026-midterms/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Equality Illinois makes 72 pro-equality, pro-family endorsements for 2026 primary election",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/01/15/equality-illinois-makes-72-pro-equality-pro-family-endorsements-for-2026-primary-election/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "NASW-IL Announces Endorsements for 2026 Illinois General Election",
+      "publisher": "National Association of Social Workers, Illinois Chapter",
+      "url": "https://www.naswil.org/post/nasw-il-announces-endorsements-for-2026-illinois-general-election",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "2026 Endorsements",
+      "publisher": "Sierra Club Illinois",
+      "url": "https://www.sierraclub.org/illinois/2026-endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 15
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:07:50.183Z",
+    "version": 7
+  }
+}

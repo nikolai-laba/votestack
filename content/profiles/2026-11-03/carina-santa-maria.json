@@ -1,0 +1,354 @@
+{
+  "key": "carina-santa-maria",
+  "electionId": "il-2026-11-03-general",
+  "name": "Carina Santa Maria",
+  "party": "Democratic",
+  "office": "State Senator, 27th District",
+  "contestIds": ["cook-clerk:172702"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Carina Santa Maria is an Arlington Heights Village Trustee and the CEO of Shelter, Inc., a child welfare agency. She is a licensed clinical social worker with a master’s degree from Dominican University. She says she serves on the Cook County Child Death Review Committee.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Carina Santa Maria is an Arlington Heights Village Trustee and the CEO of Shelter, Inc., a child welfare agency.",
+            "cites": [1]
+          },
+          {
+            "text": "She is a licensed clinical social worker with a master’s degree from Dominican University.",
+            "cites": [2]
+          },
+          {
+            "text": "She says she serves on the Cook County Child Death Review Committee.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign says she wants to lower living costs, including property taxes and healthcare. She supports expanding affordable housing, including for young people leaving the child welfare system. She advocates for more mental health services and community safety. Her campaign states she backs safe staffing levels for healthcare workers and reproductive freedom. She says she increased the budget at Shelter, Inc. from $1.8 million to $6.7 million.",
+        "cites": [4, 5, 2],
+        "sentences": [
+          {
+            "text": "Her campaign says she wants to lower living costs, including property taxes and healthcare.",
+            "cites": [4]
+          },
+          {
+            "text": "She supports expanding affordable housing, including for young people leaving the child welfare system.",
+            "cites": [4]
+          },
+          {
+            "text": "She advocates for more mental health services and community safety.",
+            "cites": [4]
+          },
+          {
+            "text": "Her campaign states she backs safe staffing levels for healthcare workers and reproductive freedom.",
+            "cites": [5]
+          },
+          {
+            "text": "She says she increased the budget at Shelter, Inc. from $1.8 million to $6.7 million.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Citizens for Carina",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40126",
+        "period": "April 1 to June 30, 2026",
+        "raised": 90868.88,
+        "cashOnHand": 67808.68,
+        "breakdown": [
+          { "kind": "small", "amount": 3562 },
+          { "kind": "large", "amount": 8300 },
+          { "kind": "transfer", "amount": 78975 },
+          { "kind": "other", "amount": 31.88 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 287655.08, "count": 34 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Illinois State Senator Adriane Johnson",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Illinois State Senator Mark Walker",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Illinois State Representative Lindsey LaPointe",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Arlington Heights Mayor Jim Tinaglia",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Arlington Heights Village Trustee Greg Zyck",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "Arlington Heights Village Trustee Tom Schwingbeck",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Illinois American Federation of Labor and Congress of Industrial Organizations (AFL-CIO)",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [12]
+      },
+      {
+        "organization": "Illinois Education Association",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Illinois Nurses Association",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [13]
+      },
+      {
+        "organization": "Cook County College Teachers Union, Local 1600",
+        "kind": "union",
+        "cites": [14]
+      },
+      {
+        "organization": "Chicago Fire Fighters Union Local 2",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Western Suburban Teachers Union (Local 571)",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Arlington Heights Firefighters Association Local 3105",
+        "kind": "union",
+        "cites": [15]
+      },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [16]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [17] },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [15]
+      },
+      {
+        "organization": "Moms Demand Action",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "The Committee to Protect Health Care",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "National Association of Social Workers, Illinois Chapter",
+        "kind": "organization",
+        "cites": [18]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [19] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Arlington Heights trustee launches bid for state Senate seat",
+      "publisher": "Daily Herald",
+      "url": "https://www.dailyherald.com/20250804/illinois-state-politics/arlington-heights-trustee-launches-bid-for-state-senate-seat/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Carina Santa Maria: 2025 Candidate For Arlington Heights Trustee",
+      "publisher": "Patch",
+      "url": "https://patch.com/illinois/arlingtonheights/carina-santa-maria-2025-candidate-arlington-heights-trustee",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Carina Santa Maria: 2025 candidate for Arlington Heights village board",
+      "publisher": "Daily Herald",
+      "url": "https://www.dailyherald.com/20250306/local-politics/carina-santa-maria-2025-candidate-for-arlington-heights-village-board/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Cook County 2026 Candidates & Sample Ballot | Illinois",
+      "publisher": "The Ballot Brief",
+      "url": "https://theballotbrief.com/state/illinois/cook-county",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Officially Endorsed by the Illinois Nurses Association — Carina Santa Maria for Illinois State Senate",
+      "publisher": "Carina Santa Maria campaign",
+      "url": "https://www.carinaforsenate.com/senate-news/endorsed-by-ina",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Officially Endorsed by Illinois State Senator Adriane Johnson — Carina Santa Maria for Illinois State Senate",
+      "publisher": "Carina Santa Maria for Illinois State Senate",
+      "url": "https://www.carinaforsenate.com/senate-news/endorsed-by-adriane-johnson",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Officially Endorsed by Illinois State Senator Mark Walker — Carina Santa Maria for Illinois State Senate",
+      "publisher": "Carina Santa Maria for Illinois State Senate",
+      "url": "https://www.carinaforsenate.com/senate-news/endorsed-by-mark-walker",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Officially Endorsed by Arlington Heights Mayor Jim Tinaglia — Carina Santa Maria for Illinois State Senate",
+      "publisher": "Carina Santa Maria for Illinois State Senate",
+      "url": "https://www.carinaforsenate.com/senate-news/endorsed-by-jim-tinaglia",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "About Carina - Carina Santa Maria for Illinois State Senate",
+      "publisher": "Carina Santa Maria for Illinois State Senate",
+      "url": "https://www.carinaforsenate.com/about-carina",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "News — Carina Santa Maria for Illinois State Senate",
+      "publisher": "Carina Santa Maria for Illinois State Senate",
+      "url": "https://www.carinaforsenate.com/senate-news",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Officially Endorsed by The American Federation of Labor and Congress of Industrial Organizations of Illinois (AFL-CIO) — Carina Santa Maria for Illinois State Senate",
+      "publisher": "Carina Santa Maria for Illinois State Senate",
+      "url": "https://www.carinaforsenate.com/senate-news/endorsed-by-afl-cio",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 12,
+      "title": "Election 2026",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 13,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 14,
+      "title": "Officially Endorsed by Cook County College Teachers Union, Local 1600 — Carina Santa Maria for Illinois State Senate",
+      "publisher": "Carina Santa Maria for Illinois State Senate",
+      "url": "https://www.carinaforsenate.com/senate-news/endorsed-by-ccctu",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 15,
+      "title": "Officially Endorsed by Equality Illinois — Carina Santa Maria for Illinois State Senate",
+      "publisher": "Carina Santa Maria for Illinois State Senate",
+      "url": "https://www.carinaforsenate.com/senate-news/endorsed-by-equality-illinois",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 16,
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 17,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 18,
+      "title": "NASW-IL Announces Endorsements for 2026 Illinois General Election",
+      "publisher": "National Association of Social Workers, Illinois Chapter",
+      "url": "https://www.naswil.org/post/nasw-il-announces-endorsements-for-2026-illinois-general-election",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 19
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:52:50.845Z",
+    "version": 2
+  }
+}

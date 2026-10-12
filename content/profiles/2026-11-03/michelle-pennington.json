@@ -1,0 +1,132 @@
+{
+  "key": "michelle-pennington",
+  "electionId": "il-2026-11-03-general",
+  "name": "Michelle Pennington",
+  "party": "Republican",
+  "office": "Metropolitan Water Reclamation District Commissioner",
+  "contestIds": [
+    "chicago-boe:metropolitan-water-reclamation-district-commissioners-full-6-year-term",
+    "cook-clerk:190100"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Michelle Pennington is managing director of Medill Partners, a real estate holding and development company. Her campaign says she studied economics at DePaul University and has worked with nonprofits supporting Chicago Public Schools. She says she is a member of the Illinois Water Environment Association.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Michelle Pennington is managing director of Medill Partners, a real estate holding and development company.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign says she studied economics at DePaul University and has worked with nonprofits supporting Chicago Public Schools.",
+            "cites": [1]
+          },
+          {
+            "text": "She says she is a member of the Illinois Water Environment Association.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign says she wants to review the MWRD budget for waste and work to lower property tax bills. She says every dollar should go toward clean water and flood prevention instead of outside programs. Pennington has called on the MWRD to secure abandoned properties in Harvey and provide transparency to affected taxpayers.",
+        "cites": [3, 4],
+        "sentences": [
+          {
+            "text": "Her campaign says she wants to review the MWRD budget for waste and work to lower property tax bills.",
+            "cites": [3]
+          },
+          {
+            "text": "She says every dollar should go toward clean water and flood prevention instead of outside programs.",
+            "cites": [4]
+          },
+          {
+            "text": "Pennington has called on the MWRD to secure abandoned properties in Harvey and provide transparency to affected taxpayers.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Citizens to Elect Michelle Pennington",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39914",
+        "period": "July 1 to September 30, 2026",
+        "raised": 6952.34,
+        "cashOnHand": 6124.73,
+        "breakdown": [
+          { "kind": "small", "amount": 1297.04 },
+          { "kind": "large", "amount": 3155.3 },
+          { "kind": "candidate", "amount": 2500 }
+        ],
+        "fromCandidate": 2500,
+        "largeSince": { "since": "2026-09-30", "total": 1000, "count": 1 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Cook County Republican Party",
+        "kind": "party",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "3 Republicans Launch Campaigns For Metropolitan Water Reclamation District Board",
+      "publisher": "Patch",
+      "url": "https://patch.com/illinois/glenview/3-republicans-launch-campaigns-metropolitan-water-reclamation-district-board",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "More About Me - Michelle Pennington for MWRD",
+      "publisher": "Michelle Pennington for MWRD",
+      "url": "https://www.michelleforcleanwater.com/more-about-me",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Metropolitan Water Reclamation District Commissioner (Six Year Term)",
+      "publisher": "The Ballot Brief",
+      "url": "https://theballotbrief.com/state/illinois/cook-county/metropolitan-water-reclamation-district-commissioner-six-year-term",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Michelle Pennington for MWRD | Vote November 3, 2026",
+      "publisher": "Michelle Pennington for MWRD",
+      "url": "https://www.michelleforcleanwater.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Cook GOP Beats Back Democrat Objection, Land Three Republicans on November Ballot",
+      "publisher": "Chicago Republican Party",
+      "url": "https://www.chicagogop.com/cook_gop_beats_back_democrat_objection_land_three_republicans_on_november_ballot",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:51:53.871Z",
+    "version": 2
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "key": "carlos-a-rivas-jr",
+  "electionId": "il-2026-11-03-general",
+  "name": "Carlos A. Rivas Jr.",
+  "office": "Chicago Board of Education Member, Subdistrict 3B",
+  "contestIds": [
+    "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-3b"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Carlos A. Rivas Jr. was elected in 2024 to represent District 3B on the Chicago Board of Education. He directs public affairs for the city's police accountability office and previously served as an alumni manager at UIC College Prep, a Noble School, after working as a substitute teacher and in other roles at Lowell Elementary School, his alma mater.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Carlos A. Rivas Jr. was elected in 2024 to represent District 3B on the Chicago Board of Education.",
+            "cites": [1]
+          },
+          {
+            "text": "He directs public affairs for the city's police accountability office and previously served as an alumni manager at UIC College Prep, a Noble School, after working as a substitute teacher and in other roles at Lowell Elementary School, his alma mater.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "As a board member, he voted against an amended CPS budget that relied on unguaranteed state revenue, and he says he wants less mayoral interference and to move away from using loans that increase the budget deficit. His priorities include increasing support for neighborhood schools and improving support for students from immigrant families.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "As a board member, he voted against an amended CPS budget that relied on unguaranteed state revenue, and he says he wants less mayoral interference and to move away from using loans that increase the budget deficit.",
+            "cites": [1]
+          },
+          {
+            "text": "His priorities include increasing support for neighborhood schools and improving support for students from immigrant families.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Community for Carlos Rivas",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39786",
+        "period": "April 1 to June 30, 2026",
+        "raised": 36550,
+        "cashOnHand": 60027.42,
+        "breakdown": [
+          { "kind": "small", "amount": 1000 },
+          { "kind": "large", "amount": 35550 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 62370.24, "count": 16 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Service Employees International Union Illinois State Council",
+        "kind": "union",
+        "cites": [1]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "Leadership for Educational Equity",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "INCS Action PAC",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Common Ground Collective",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "The Urban Center",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Chicago Tribune Editorial Board",
+        "kind": "editorial_board",
+        "cites": [6]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [8] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Chicago school board election 2026 voter guide: District 3b candidates - Chalkbeat",
+      "publisher": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/chicago/2026/09/24/school-board-election-2026-district-3b-candidates-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Carlos A. Rivas, Jr. - Chicago Board of Education",
+      "publisher": "Chicago Board of Education",
+      "url": "https://www.cpsboe.org/about/bios/2043",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "ILLINOIS ENDORSEMENTS",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Key education endorsements for CPS School Board candidates",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/education/2026/09/21/key-education-endorsements-for-cps-school-board-candidates",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements — Common Ground Collective",
+      "publisher": "Common Ground Collective",
+      "url": "https://cgcollective.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Editorial: Carlos Rivas for Chicago School Board in District 3B",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/09/28/editorial-carlos-rivas-chicago-school-board-district-3b/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 7
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 8
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:43:40.110Z",
+    "version": 4
+  }
+}

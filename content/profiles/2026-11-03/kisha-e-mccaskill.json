@@ -1,0 +1,300 @@
+{
+  "key": "kisha-e-mccaskill",
+  "electionId": "il-2026-11-03-general",
+  "name": "Kisha E. McCaskill",
+  "party": "Democratic",
+  "office": "Cook County Commissioner, 5th District",
+  "contestIds": [
+    "chicago-boe:county-commissioner-5th-district",
+    "cook-clerk:220500"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Dr. Kisha E. McCaskill is the Cook County Commissioner for the 5th District, appointed in January 2025. She previously served as executive director of the Harvey Park District and as a school teacher, and holds a PhD in public administration and organizational leadership. In 2025, she passed a resolution addressing rising STI rates in the South Suburbs and proposed establishing a Level I trauma center in the region. She has worked to broaden health care services at clinics in Ford Heights, Robbins, and Blue Island. McCaskill names reducing high property taxes and addressing housing instability for seniors as key goals. Her campaign says she has sponsored or co-sponsored more than 100 resolutions.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Dr. Kisha E. McCaskill is the Cook County Commissioner for the 5th District, appointed in January 2025.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously served as executive director of the Harvey Park District and as a school teacher, and holds a PhD in public administration and organizational leadership.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2025, she passed a resolution addressing rising STI rates in the South Suburbs and proposed establishing a Level I trauma center in the region.",
+            "cites": [2]
+          },
+          {
+            "text": "She has worked to broaden health care services at clinics in Ford Heights, Robbins, and Blue Island.",
+            "cites": [3]
+          },
+          {
+            "text": "McCaskill names reducing high property taxes and addressing housing instability for seniors as key goals.",
+            "cites": [3]
+          },
+          {
+            "text": "Her campaign says she has sponsored or co-sponsored more than 100 resolutions.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Citizens for Dr Kisha E McCaskill",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40606",
+        "period": "July 1 to September 30, 2026",
+        "raised": 10000,
+        "cashOnHand": 45504.82,
+        "breakdown": [
+          { "kind": "small", "amount": 900 },
+          { "kind": "large", "amount": 8800 },
+          { "kind": "other", "amount": 300 }
+        ],
+        "largeSince": { "since": "2026-09-30", "total": 1000, "count": 1 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Illinois Speaker of the House Emanuel Chris Welch",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Illinois State Senator Napoleon Harris",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Illinois State Representative Debbie Meyers-Martin",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Cook County Board President Toni Preckwinkle",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Country Club Hills Mayor James Ford",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Phoenix Mayor Terry Wells",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Hazel Crest Mayor Sandra Alexander",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Chicago Heights Mayor David A. Gonzalez",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Calumet Park Mayor Ronald Denson",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Blue Island Mayor Fred Bilotto",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Robbins Mayor Darren Bryant",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Alsip Mayor John Ryan",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Sauk Village Mayor Marva Campbell-Pruitt",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Posen Mayor Frank Podbielniak",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Park Forest Mayor Joseph Woods",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Midlothian Mayor Gary L. Heureux",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Homewood Mayor Rich Hofeld",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Glenwood Mayor Toleda Hart",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [7]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [8] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "AFSCME", "kind": "union", "cites": [5] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 399",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Chicago Firefighters Union Local 2",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Local 134 Electrical Workers Union",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Tinley Park Progress",
+        "kind": "editorial_board",
+        "cites": [11]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "New Cook County Commissioner Dr. Kisha McCaskill ...",
+      "publisher": "Chicago Crusader",
+      "url": "https://chicagocrusader.com/new-cook-county-commissioner-dr-kisha-mccaskill-sworn-in/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "New Cook County Commissioner Wants To Bring Resources Her District",
+      "publisher": "Citizen Newspaper Group",
+      "url": "https://citizennewspapergroup.com/news/2025/feb/26/new-cook-county-commissioner-wants-to-bring-resources-her-district/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Dolton Trustee Kiana Belcher challenges appointee Kisha McCaskill for 5th District Cook County Board seat",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/02/15/dolton-trustee-kiana-belcher-kisha-mccaskill-harvey/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Vote McCaskill",
+      "publisher": "Vote McCaskill",
+      "url": "https://votemccaskill.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "ENDORSEMENTS CONTINUE TO ROLL IN FOR COOK COUNTY COMMISSIONER DR. KISHA McCASKILL",
+      "publisher": "Citizen Newspaper Group",
+      "url": "https://citizennewspapergroup.com/news/2026/feb/13/endorsements-continue-to-roll-in-for-cook-county-commissioner-dr-kisha-mccaskill/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Commissioner McCaskill Builds Momentum for Re-Election with Proven Results",
+      "publisher": "Chicago Defender",
+      "url": "https://chicagodefender.com/commissioner-mccaskill-builds-momentum-for-re-election-with-proven-results/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "2026 Primary Election – Equality Illinois",
+      "publisher": "Equality Illinois",
+      "url": "https://equalityillinois.us/2026-primary-election/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "MARCH 17, 2026 PRIMARY ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/Updated-P2026_PrimaryEndorsementList_updated-v6.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "2026 Primary Election Endorsements",
+      "publisher": "IUOE Local 399",
+      "url": "http://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Tinley Park Progress Endorses Dr. Kisha McCaskill for Cook County Commissioner",
+      "publisher": "My Taylor Media",
+      "url": "https://mytaylormedia.com/2026/03/tinley-park-progress-endorses-dr-kisha-mccaskill-for-cook-county-commissioner/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:21:46.283Z",
+    "version": 6
+  }
+}

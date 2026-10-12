@@ -1,0 +1,123 @@
+{
+  "key": "david-sheppard",
+  "electionId": "il-2026-11-03-general",
+  "name": "David Sheppard",
+  "party": "Republican",
+  "office": "State Representative, 36th District",
+  "contestIds": [
+    "chicago-boe:state-representative-36th-district",
+    "cook-clerk:183600"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "David Sheppard is a member of the Evergreen Park Elementary School District 124 school board. He had a 28-year career in law enforcement, working in corrections and investigations before becoming chief of the Robbins Police Department. He also served in the U.S. Navy.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "David Sheppard is a member of the Evergreen Park Elementary School District 124 school board.",
+            "cites": [1]
+          },
+          {
+            "text": "He had a 28-year career in law enforcement, working in corrections and investigations before becoming chief of the Robbins Police Department.",
+            "cites": [2]
+          },
+          { "text": "He also served in the U.S. Navy.", "cites": [3] }
+        ]
+      },
+      {
+        "text": "Sheppard has proposed a 30-day accountability report before state funds are distributed and a plan to cut homeowners’ property taxes by 60 percent. He has criticized efforts to keep federal immigration enforcement away from polling places, saying no law enforcement agency should be restricted from enforcing the law. In a 2022 candidate survey, he said his goals were to reduce crime and support police, as well as preserve parental rights.",
+        "cites": [4, 1, 3],
+        "sentences": [
+          {
+            "text": "Sheppard has proposed a 30-day accountability report before state funds are distributed and a plan to cut homeowners’ property taxes by 60 percent.",
+            "cites": [4]
+          },
+          {
+            "text": "He has criticized efforts to keep federal immigration enforcement away from polling places, saying no law enforcement agency should be restricted from enforcing the law.",
+            "cites": [1]
+          },
+          {
+            "text": "In a 2022 candidate survey, he said his goals were to reduce crime and support police, as well as preserve parental rights.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Committee to Elect David Sheppard",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=37385",
+        "period": "July 1 to September 30, 2026",
+        "raised": 0,
+        "cashOnHand": 1095.76,
+        "breakdown": []
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Illinois Family Action",
+        "kind": "organization",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "House candidate Sheppard on ICE at polls",
+      "publisher": "South Cook News",
+      "url": "https://southcooknews.com/house-candidate-sheppard-on-ice-at-polls-no-law-enforcement-agency-should-be-restricted-from-enforcing-the-laws",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "About David - David Sheppard for State Representative",
+      "publisher": "David Sheppard campaign",
+      "url": "https://www.shep4staterep.com/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "David Sheppard",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/David_Sheppard",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "House candidate Sheppard on Illinois federal funding freeze",
+      "publisher": "South Cook News",
+      "url": "https://southcooknews.com/house-candidate-sheppard-on-illinois-federal-funding-freeze-an-unavoidable-necessity",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Illinois Family Action » 2026 General Election Endorsements",
+      "publisher": "Illinois Family Action",
+      "url": "https://illinoisfamilyaction.org/2026/09/ifas-2026-general-election-endorsements-2/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:05:47.382Z",
+    "version": 4
+  }
+}

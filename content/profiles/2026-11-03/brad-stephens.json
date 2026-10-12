@@ -1,0 +1,198 @@
+{
+  "key": "brad-stephens",
+  "electionId": "il-2026-11-03-general",
+  "name": "Brad Stephens",
+  "party": "Republican",
+  "office": "State Representative, 20th District",
+  "contestIds": [
+    "chicago-boe:state-representative-20th-district",
+    "cook-clerk:182000"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Brad Stephens has represented the 20th District since 2019 and is a House Assistant Minority Leader. He is the mayor of Rosemont and previously served as a village trustee and Leyden Township supervisor. He has also served on the Pace and Illinois State Toll Highway Authority boards.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Brad Stephens has represented the 20th District since 2019 and is a House Assistant Minority Leader.",
+            "cites": [1]
+          },
+          {
+            "text": "He is the mayor of Rosemont and previously served as a village trustee and Leyden Township supervisor.",
+            "cites": [2]
+          },
+          {
+            "text": "He has also served on the Pace and Illinois State Toll Highway Authority boards.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "He sponsored the O'Hare Driver Safety Act, which uses cameras to fine idling drivers near the airport $100. In 2026, he criticized a proposed $60 million cut to local government funds, arguing for keeping revenue streams in place. His campaign priorities include tax relief, supporting law enforcement, balanced budgets, and local job creation. He stated the transit fiscal cliff cannot be a city-versus-suburbs fight. He introduced a bill concerning autonomous vehicles.",
+        "cites": [3, 4, 5, 6, 7],
+        "sentences": [
+          {
+            "text": "He sponsored the O'Hare Driver Safety Act, which uses cameras to fine idling drivers near the airport $100.",
+            "cites": [3]
+          },
+          {
+            "text": "In 2026, he criticized a proposed $60 million cut to local government funds, arguing for keeping revenue streams in place.",
+            "cites": [4]
+          },
+          {
+            "text": "His campaign priorities include tax relief, supporting law enforcement, balanced budgets, and local job creation.",
+            "cites": [5]
+          },
+          {
+            "text": "He stated the transit fiscal cliff cannot be a city-versus-suburbs fight.",
+            "cites": [6]
+          },
+          {
+            "text": "He introduced a bill concerning autonomous vehicles.",
+            "cites": [7]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Brad Stephens for State Representative",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=35553",
+        "period": "April 1 to June 30, 2026",
+        "raised": 183500,
+        "cashOnHand": 167148.28,
+        "breakdown": [
+          { "kind": "large", "amount": 151900 },
+          { "kind": "transfer", "amount": 31600 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 96850, "count": 42 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "NFIB Illinois PAC",
+        "kind": "organization",
+        "cites": [8]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [9] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [11]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Member - Illinois General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://my.ilga.gov/House/Members/Details/3370?Primary=True",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Brad Stephens",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Brad_Stephens",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Illinois law cracking down on idling drivers near O'Hare back in motion",
+      "publisher": "CBS News Chicago",
+      "url": "https://www.cbsnews.com/chicago/news/illinois-law-cracking-down-idling-drivers-near-ohare/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Stephens criticizes proposed $60 million cut to local government funds",
+      "publisher": "North Cook News",
+      "url": "https://northcooknews.com/stephens-criticizes-proposed-60-million-cut-to-local-government-funds/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "About - State Representative Brad Stephens",
+      "publisher": "Brad Stephens campaign",
+      "url": "https://repbradstephens.com/about-brad/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "GOP State Rep. and Rosemont Mayor Brad Stephens on solving the transit fiscal cliff",
+      "publisher": "Streetsblog Chicago",
+      "url": "https://chi.streetsblog.org/2025/09/25/rep-brad-stephens",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Waymo begins testing in Chicago as bill seeks to legalize autonomous vehicles",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/waymo-begins-testing-in-chicago-as-bill-seeks-to-legalize-autonomous-vehicles/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "NFIB Illinois PAC Announces 2026 Legislative Endorsements",
+      "publisher": "NFIB",
+      "url": "https://www.nfib.com/news/news/nfib-illinois-pac-announces-2026-legislative-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Illinois AFL-CIO 2026 General Election Endorsements",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ibewlocal176.org/uploads/8/9/0/2/89025372/il_afl-cio_gen_endorsements_072326.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:58:18.808Z",
+    "version": 6
+  }
+}

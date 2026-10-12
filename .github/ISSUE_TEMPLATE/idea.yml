@@ -1,0 +1,11 @@
+name: Idea
+description: Suggest a feature or improvement.
+labels: [idea]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like VoteStack to do?
+      description: Tell us the problem it solves for voters.
+    validations:
+      required: true

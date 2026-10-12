@@ -1,0 +1,195 @@
+{
+  "key": "sonya-marie-harper",
+  "electionId": "il-2026-11-03-general",
+  "name": "Sonya Marie Harper",
+  "party": "Democratic",
+  "office": "State Representative, 6th District",
+  "contestIds": [
+    "chicago-boe:state-representative-6th-district",
+    "cook-clerk:180600"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Sonya Marie Harper has represented the 6th District since October 2015. She was a television news producer and executive director of Grow Greater Englewood. She chairs the House Agriculture & Conservation Committee. Her campaign says she authored the Illinois Farmer Equity Act and the state's cannabis social equity provisions, along with laws on school lead testing and residents' right to garden. In a 2026 op-ed, she wrote that cannabis equity work remains unfinished.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Sonya Marie Harper has represented the 6th District since October 2015.",
+            "cites": [1]
+          },
+          {
+            "text": "She was a television news producer and executive director of Grow Greater Englewood.",
+            "cites": [2]
+          },
+          {
+            "text": "She chairs the House Agriculture & Conservation Committee.",
+            "cites": [3]
+          },
+          {
+            "text": "Her campaign says she authored the Illinois Farmer Equity Act and the state's cannabis social equity provisions, along with laws on school lead testing and residents' right to garden.",
+            "cites": [3]
+          },
+          {
+            "text": "In a 2026 op-ed, she wrote that cannabis equity work remains unfinished.",
+            "cites": [4]
+          }
+        ]
+      },
+      {
+        "text": "Her website highlights a law she supported to ban certain chemicals in cosmetics. She sponsored a law to eliminate food deserts. She proposed a bill for state institutions to buy from local farmers. She sponsored a resolution to create a gun violence task force.",
+        "cites": [4, 5, 6]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Sonya Marie Harper",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=31794",
+        "period": "April 1 to June 30, 2026",
+        "raised": 1200,
+        "cashOnHand": -5120.27,
+        "breakdown": [{ "kind": "transfer", "amount": 1200 }],
+        "largeSince": { "since": "2026-06-30", "total": 3000, "count": 3 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Citizen Action/Illinois",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Teachers Union",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [10] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [11]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [12] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Sonya M. Harper (D) - 104th General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/house/members/details/3314",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Illinois General Assembly - Member",
+      "publisher": "Illinois General Assembly",
+      "url": "https://ilga.gov/House/Members/Details/3314?Primary=True",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "About | RepSonyaHarper",
+      "publisher": "RepSonyaHarper.com",
+      "url": "https://www.repsonyaharper.com/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Home | RepSonyaHarper",
+      "publisher": "RepSonyaHarper.com",
+      "url": "https://www.repsonyaharper.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Illinois General Assembly - Member",
+      "publisher": "Illinois General Assembly",
+      "url": "https://ilga.gov/Senate/Members/Details/3314?Primary=True",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Eye On Illinois: Effort to boost local food growers, distributors hits legislative wall",
+      "publisher": "Shaw Local",
+      "url": "https://www.shawlocal.com/opinion/2025/05/24/eye-on-illinois-effort-to-boost-local-food-growers-distributors-hits-legislative-wall/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Spring 2026 Endorsements — Citizen Action/Illinois",
+      "publisher": "Citizen Action/Illinois",
+      "url": "https://citizenaction-il.org/spring26endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "2026 Primary Election - Chicago Teachers Union",
+      "publisher": "Chicago Teachers Union",
+      "url": "https://www.ctulocal1.org/movement/primary-election-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:18:48.190Z",
+    "version": 6
+  }
+}

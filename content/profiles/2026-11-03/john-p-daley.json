@@ -1,0 +1,157 @@
+{
+  "key": "john-p-daley",
+  "electionId": "il-2026-11-03-general",
+  "name": "John P. Daley",
+  "party": "Democratic",
+  "office": "Cook County Commissioner, 11th District",
+  "contestIds": [
+    "chicago-boe:county-commissioner-11th-district",
+    "cook-clerk:221100"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "John P. Daley has served on the Cook County Board of Commissioners since 1992 and chairs the Finance Committee. In 2018, he told the Chicago Sun-Times the board had not increased its property tax levy in over 15 years and that keeping costs down was essential. He also said he wanted to consolidate human resources across county offices, and called for better training and billing at the county health system after an inspector general report. The Chicago Teachers Union says his reforms strengthened accountability for county contracts and tax compliance. In 2026, he opposed a plan to move the White Sox out of Bridgeport and relocate an Amtrak facility to the neighborhood.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "John P. Daley has served on the Cook County Board of Commissioners since 1992 and chairs the Finance Committee.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2018, he told the Chicago Sun-Times the board had not increased its property tax levy in over 15 years and that keeping costs down was essential.",
+            "cites": [2]
+          },
+          {
+            "text": "He also said he wanted to consolidate human resources across county offices, and called for better training and billing at the county health system after an inspector general report.",
+            "cites": [2]
+          },
+          {
+            "text": "The Chicago Teachers Union says his reforms strengthened accountability for county contracts and tax compliance.",
+            "cites": [3]
+          },
+          {
+            "text": "In 2026, he opposed a plan to move the White Sox out of Bridgeport and relocate an Amtrak facility to the neighborhood.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Committee to Elect John P Daley",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=939",
+        "period": "April 1 to June 30, 2026",
+        "raised": 1000,
+        "cashOnHand": 7271.94,
+        "breakdown": [{ "kind": "large", "amount": 1000 }]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Chicago Teachers Union",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 399",
+        "kind": "union",
+        "cites": [6]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [7] },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "John P. Daley - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/John_P._Daley",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Cook County Board 11th District Democratic nominee: John P. Daley",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/2018/10/10/18474782/cook-county-board-11th-district-democratic-nominee-john-p-daley",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "2026 Primary Election - Chicago Teachers Union",
+      "publisher": "Chicago Teachers Union",
+      "url": "https://www.ctulocal1.org/movement/primary-election-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Future White Sox Owner Unveils Plans For South Loop Stadium As ...",
+      "publisher": "Block Club Chicago",
+      "url": "https://blockclubchicago.org/2026/09/06/future-white-sox-owner-unveils-plans-for-a-south-loop-stadium-as-part-of-new-railyards-megadevelopment/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "2026 LOCAL 399 ILLINOIS PRIMARY ELECTION ENDORSEMENTS",
+      "publisher": "International Union of Operating Engineers Local 399",
+      "url": "http://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements and Election Information",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 8
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:14:49.943Z",
+    "version": 6
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "key": "benjamin-ben-mcadams",
+  "electionId": "il-2026-11-03-general",
+  "name": "Benjamin \"Ben\" McAdams",
+  "party": "Democratic",
+  "office": "State Senator, 24th District",
+  "contestIds": ["cook-clerk:172402"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Benjamin \"Ben\" McAdams is a community organizer who has served as a Democratic precinct committeeman in York and Bloomingdale townships. He majored in finance and economics at Elmhurst University and focused on public interest law at DePaul University. He previously worked for the National Immigrant Justice Center and Citizen Advocacy Center. He supports public investments to transition Illinois to a 100% green energy economy. In a candidate questionnaire, he said he would invest in public healthcare to offset federal Medicaid cuts and expired Affordable Care Act subsidies. He proposes regulations to keep AI data centers away from residential areas and ensure they are built sustainably. He also pledges to curtail ICE raids.",
+        "cites": [1, 2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "Benjamin \"Ben\" McAdams is a community organizer who has served as a Democratic precinct committeeman in York and Bloomingdale townships.",
+            "cites": [1]
+          },
+          {
+            "text": "He majored in finance and economics at Elmhurst University and focused on public interest law at DePaul University.",
+            "cites": [2]
+          },
+          {
+            "text": "He previously worked for the National Immigrant Justice Center and Citizen Advocacy Center.",
+            "cites": [3]
+          },
+          {
+            "text": "He supports public investments to transition Illinois to a 100% green energy economy.",
+            "cites": [4]
+          },
+          {
+            "text": "In a candidate questionnaire, he said he would invest in public healthcare to offset federal Medicaid cuts and expired Affordable Care Act subsidies.",
+            "cites": [5]
+          },
+          {
+            "text": "He proposes regulations to keep AI data centers away from residential areas and ensure they are built sustainably.",
+            "cites": [5]
+          },
+          { "text": "He also pledges to curtail ICE raids.", "cites": [5] }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Citizens for Ben McAdams",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40904",
+        "period": "April 1 to June 30, 2026",
+        "raised": 28174.26,
+        "cashOnHand": 16706.58,
+        "breakdown": [
+          { "kind": "small", "amount": 3224.26 },
+          { "kind": "large", "amount": 9200 },
+          { "kind": "transfer", "amount": 15750 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 123267.38, "count": 29 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "U.S. Rep. Delia Ramirez",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "State Sen. Rachel Ventura",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "State Sen. Karina Villa",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "DuPage County Recorder Liz Chaplin",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Illinois Nurses Association",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "West Suburban Teachers Union Local 571",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Our Revolution",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Planned Parenthood Action",
+        "kind": "organization",
+        "cites": [6]
+      },
+      { "organization": "Sierra Club", "kind": "organization", "cites": [6] },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [8] },
+      {
+        "organization": "The People's Lobby",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "West Suburban IL Democratic Socialists of America",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "Illinois Progressives",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "The Justice Coalition",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Illinois Retired Teachers PAC",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Care for Illinois",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Progressive Voters Network",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Bloomingdale Township Democratic Organization",
+        "kind": "party",
+        "cites": [6]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Benjamin \"Ben\" McAdams - Illinois Senate District 24",
+      "publisher": "The Ballot Brief",
+      "url": "https://theballotbrief.com/candidate/benjamin-ben-mcadams-il",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Electoral Working Group - West Suburban IL DSA",
+      "publisher": "West Suburban IL DSA",
+      "url": "https://wsil.dsachapters.org/electoral",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "about ben - Ben McAdams for IL State Senate 24",
+      "publisher": "Ben McAdams for IL State Senate 24",
+      "url": "https://www.mcadamsforil.com/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Benjamin \"Ben\" McAdams | BallotReady",
+      "publisher": "BallotReady",
+      "url": "https://www.ballotready.org/people/benjamin-ben-mcadams",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "2026 Election Questionnaire: Ben McAdams, Illinois State Senate ...",
+      "publisher": "Shaw Local",
+      "url": "https://www.shawlocal.com/my-suburban-life/2026/02/05/2026-election-questionnaire-ben-mcadams-illinois-state-senate-district-24/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Ben McAdams for IL State Senate 24",
+      "publisher": "Citizens for Ben McAdams",
+      "url": "https://www.mcadamsforil.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "IL Archives - Our Revolution",
+      "publisher": "Our Revolution",
+      "url": "https://ourrevolution.com/category/endorsement/il/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Endorsements and Election Information - Personal PAC",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "Endorsements - The People's Lobby",
+      "publisher": "The People's Lobby",
+      "url": "https://thepeopleslobbyusa.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:51:13.167Z",
+    "version": 2
+  }
+}

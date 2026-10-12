@@ -1,0 +1,187 @@
+{
+  "key": "fred-crespo",
+  "electionId": "il-2026-11-03-general",
+  "name": "Fred Crespo",
+  "party": "Democratic",
+  "office": "State Representative, 44th District",
+  "contestIds": ["cook-clerk:184400"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Fred Crespo has represented the 44th District since 2007. He is a former Hoffman Estates trustee and Peoples Energy executive supervisor. In 2025, the House speaker removed him as an appropriations committee chair and expelled him from the Democratic caucus over a lack of communication.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Fred Crespo has represented the 44th District since 2007.",
+            "cites": [1]
+          },
+          {
+            "text": "He is a former Hoffman Estates trustee and Peoples Energy executive supervisor.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2025, the House speaker removed him as an appropriations committee chair and expelled him from the Democratic caucus over a lack of communication.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "He has pressed for spending limits, withholding his vote on a revenue bill and warning of a fiscal cliff. In 2024, he sponsored bills to provide $35 million in grants for districts serving new arrivals. He proposed freezing property taxes for seniors. His campaign says he passed laws in 2021 and 2023 requiring hospitals to inform nurses of their workplace rights and establishing trauma-informed interview procedures for child sexual assault victims.",
+        "cites": [3, 4, 1, 5],
+        "sentences": [
+          {
+            "text": "He has pressed for spending limits, withholding his vote on a revenue bill and warning of a fiscal cliff.",
+            "cites": [3]
+          },
+          {
+            "text": "In 2024, he sponsored bills to provide $35 million in grants for districts serving new arrivals.",
+            "cites": [4]
+          },
+          {
+            "text": "He proposed freezing property taxes for seniors.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he passed laws in 2021 and 2023 requiring hospitals to inform nurses of their workplace rights and establishing trauma-informed interview procedures for child sexual assault victims.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Citizens for Fred Crespo",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=18583",
+        "period": "April 1 to June 30, 2026",
+        "raised": 5450,
+        "cashOnHand": 72678.69,
+        "breakdown": [
+          { "kind": "large", "amount": 500 },
+          { "kind": "transfer", "amount": 4950 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Plumbers Local 130 UA",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Stand for Children IL PAC",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [10] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Fred Crespo (D) - 104th General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://www.ilga.gov/house/members/details/3274",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Fred Crespo",
+      "publisher": "BallotReady",
+      "url": "https://www.ballotready.org/people/fred-crespo-055288d8-e74a-4a03-8261-35de56099b23",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Hoffman Estates legislator Crespo ousted from Democratic caucus, loses committee chair",
+      "publisher": "Daily Herald",
+      "url": "https://www.dailyherald.com/20250515/illinois-state-politics/hoffman-estates-legislator-crespo-ousted-from-democratic-caucus-loses-committee-chair/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Illinois education leaders seek added state funding to help districts accommodate influx of migrants",
+      "publisher": "Capitol News Illinois",
+      "url": "https://muddyrivernews.com/politics/education-leaders-seek-added-state-funding-to-help-districts-accommodate-influx-of-migrants/20240419062100/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Rep. Fred Crespo",
+      "publisher": "Illinois House Democrats",
+      "url": "https://ilhousedems.com/project/rep-fred-crespo/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "ILLINOIS ENDORSEMENTS",
+      "publisher": "International Union of Operating Engineers Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "CANDIDATES ENDORSED BY THE POLITICAL ACTION TASK FRCE",
+      "publisher": "Plumbers Local 130 UA",
+      "url": "https://www.plumberslu130ua.com/ULWSiteResources/ualocal130_v2/Resources/file/News/2026/2026%20PATF%20Endorsements_Revised.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "2026 General Elections Endorsements",
+      "publisher": "Stand for Children Illinois",
+      "url": "https://stand.org/illinois/our-stories/2026-general-elections-endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 10
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T18:09:12.981Z",
+    "version": 5
+  }
+}

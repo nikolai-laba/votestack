@@ -1,0 +1,217 @@
+{
+  "key": "josina-morita",
+  "electionId": "il-2026-11-03-general",
+  "name": "Josina Morita",
+  "party": "Democratic",
+  "office": "Cook County Commissioner, 13th District",
+  "contestIds": [
+    "chicago-boe:county-commissioner-13th-district",
+    "cook-clerk:221300"
+  ],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Josina Morita has represented the 13th District on the Cook County Board of Commissioners since 2022. She is an urban planner and previously served on the Metropolitan Water Reclamation District board.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Josina Morita has represented the 13th District on the Cook County Board of Commissioners since 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "She is an urban planner and previously served on the Metropolitan Water Reclamation District board.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "Morita sponsored an amendment to the county's human rights ordinance adding language-based protections. She also organized a language access summit and an “I Speak” card initiative. Her campaign says she helped pass a county environmental justice policy and a guaranteed income program. It also reports she helped cancel over $1 billion in medical debt and secured $40 million for local infrastructure. In a 2026 guest commentary, she argued for defending birthright citizenship.",
+        "cites": [3, 4, 5],
+        "sentences": [
+          {
+            "text": "Morita sponsored an amendment to the county's human rights ordinance adding language-based protections.",
+            "cites": [3]
+          },
+          {
+            "text": "She also organized a language access summit and an “I Speak” card initiative.",
+            "cites": [3]
+          },
+          {
+            "text": "Her campaign says she helped pass a county environmental justice policy and a guaranteed income program.",
+            "cites": [4]
+          },
+          {
+            "text": "It also reports she helped cancel over $1 billion in medical debt and secured $40 million for local infrastructure.",
+            "cites": [4]
+          },
+          {
+            "text": "In a 2026 guest commentary, she argued for defending birthright citizenship.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Josina Morita",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=25450",
+        "period": "April 1 to June 30, 2026",
+        "raised": 4899.07,
+        "cashOnHand": 302971.22,
+        "breakdown": [
+          { "kind": "large", "amount": 399.07 },
+          { "kind": "transfer", "amount": 4500 }
+        ],
+        "largeSince": { "since": "2026-06-30", "total": 16362, "count": 13 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Chicago Teachers Union",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 399",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [10] },
+      {
+        "organization": "Sierra Club Illinois",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [12]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Josina Morita",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Josina_Morita",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "About — Josina Morita",
+      "publisher": "Josina Morita",
+      "url": "https://www.josinamorita.org/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "In The News - Josina Morita",
+      "publisher": "Josina Morita for Cook County Commissioner",
+      "url": "https://www.josinamorita.com/in-the-news",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Josina Morita for Cook County Commissioner",
+      "publisher": "Josina Morita for Cook County Commissioner",
+      "url": "https://www.josinamorita.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "The Fight for Birthright Citizenship",
+      "publisher": "The Daily Line",
+      "url": "https://www.thedailyline.com/fight-birthright-citizenship",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "2026 Primary Election",
+      "publisher": "Chicago Teachers Union",
+      "url": "https://www.ctulocal1.org/movement/primary-election-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "2026 Primary Election",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-primary-election/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "2026 Primary Election Endorsements",
+      "publisher": "International Union of Operating Engineers Local 399",
+      "url": "http://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "Our 2026 General Election Endorsements Are Here!",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Meet our 2026 Endorsed Candidates!",
+      "publisher": "Sierra Club Illinois",
+      "url": "https://www.sierraclub.org/illinois/2026-endorsed-candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 12
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:15:29.094Z",
+    "version": 6
+  }
+}

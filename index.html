@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta
+      name="description"
+      content="See every race and candidate on your ballot, starting with Chicago and Cook County."
+    />
+    <title>VoteStack</title>
+    <!-- Apply a saved light or dark choice before first paint, so the page
+         doesn't flash the device's mode first (src/theme/themePreference.ts). -->
+    <script>
+      try {
+        var theme = localStorage.getItem('votestack:theme:v1')
+        if (theme === 'light' || theme === 'dark')
+          document.documentElement.dataset.theme = theme
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

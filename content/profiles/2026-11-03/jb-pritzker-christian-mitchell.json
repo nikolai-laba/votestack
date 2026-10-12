@@ -1,0 +1,381 @@
+{
+  "key": "jb-pritzker-christian-mitchell",
+  "electionId": "il-2026-11-03-general",
+  "name": "JB Pritzker & Christian Mitchell",
+  "party": "Democratic",
+  "office": "Illinois Governor and Lieutenant Governor",
+  "contestIds": [
+    "chicago-boe:governor-lieutenant-governor",
+    "cook-clerk:130030"
+  ],
+  "kind": "candidate",
+  "tier": "top",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "JB Pritzker is the Democratic governor seeking a third term. His running mate Christian Mitchell is a former state representative, deputy governor and University of Chicago vice president, and serves as a first lieutenant in the Illinois Air National Guard.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "JB Pritzker is the Democratic governor seeking a third term.",
+            "cites": [1]
+          },
+          {
+            "text": "His running mate Christian Mitchell is a former state representative, deputy governor and University of Chicago vice president, and serves as a first lieutenant in the Illinois Air National Guard.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "The campaign focuses on lowering costs for families. Pritzker says he has made Illinois more affordable by eliminating the state sales tax on groceries, doubling the child tax credit and lowering prescription drug prices. He opposes using one-time legal settlement funds for ongoing budget gaps like the Chicago school deficit. Mitchell says he will carry out the governor's agenda to lower costs and raise wages. Pritzker supports the state ban on assault weapons and high-capacity magazines, and Mitchell has advocated for universal background checks. Pritzker says Illinois should not let data centers drive up electricity bills, put pressure on water supplies or override local concerns. In 2017, Mitchell co-sponsored legislation to direct over $200 million to needy school districts. The campaign pledges to protect reproductive rights.",
+        "cites": [1, 3, 4, 5, 6, 7, 8, 9],
+        "sentences": [
+          {
+            "text": "The campaign focuses on lowering costs for families.",
+            "cites": [1]
+          },
+          {
+            "text": "Pritzker says he has made Illinois more affordable by eliminating the state sales tax on groceries, doubling the child tax credit and lowering prescription drug prices.",
+            "cites": [3]
+          },
+          {
+            "text": "He opposes using one-time legal settlement funds for ongoing budget gaps like the Chicago school deficit.",
+            "cites": [4]
+          },
+          {
+            "text": "Mitchell says he will carry out the governor's agenda to lower costs and raise wages.",
+            "cites": [5]
+          },
+          {
+            "text": "Pritzker supports the state ban on assault weapons and high-capacity magazines, and Mitchell has advocated for universal background checks.",
+            "cites": [6]
+          },
+          {
+            "text": "Pritzker says Illinois should not let data centers drive up electricity bills, put pressure on water supplies or override local concerns.",
+            "cites": [7]
+          },
+          {
+            "text": "In 2017, Mitchell co-sponsored legislation to direct over $200 million to needy school districts.",
+            "cites": [8]
+          },
+          {
+            "text": "The campaign pledges to protect reproductive rights.",
+            "cites": [9]
+          }
+        ]
+      },
+      {
+        "text": "During Pritzker's tenure, Illinois raised the minimum wage toward $15. The state also legalized recreational cannabis and set clean energy goals. As deputy governor, Mitchell led a $45 billion infrastructure plan through the state legislature. He also served as the legislative lead on the state assault weapons ban after the Highland Park shooting. In 2024, Pritzker authorized the state employee health insurance plan to cover GLP-1 drugs. He also signed legislation to regulate high-speed e-bikes and e-scooters.",
+        "cites": [1, 10, 11, 12, 13],
+        "sentences": [
+          {
+            "text": "During Pritzker's tenure, Illinois raised the minimum wage toward $15.",
+            "cites": [1]
+          },
+          {
+            "text": "The state also legalized recreational cannabis and set clean energy goals.",
+            "cites": [10]
+          },
+          {
+            "text": "As deputy governor, Mitchell led a $45 billion infrastructure plan through the state legislature.",
+            "cites": [10]
+          },
+          {
+            "text": "He also served as the legislative lead on the state assault weapons ban after the Highland Park shooting.",
+            "cites": [11]
+          },
+          {
+            "text": "In 2024, Pritzker authorized the state employee health insurance plan to cover GLP-1 drugs.",
+            "cites": [12]
+          },
+          {
+            "text": "He also signed legislation to regulate high-speed e-bikes and e-scooters.",
+            "cites": [13]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "JB for Governor",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=32762",
+        "period": "April 1 to June 30, 2026",
+        "raised": 17795.22,
+        "cashOnHand": 3141017.88,
+        "breakdown": [
+          { "kind": "small", "amount": 681.25 },
+          { "kind": "other", "amount": 17113.97 }
+        ],
+        "largeSince": {
+          "since": "2026-06-30",
+          "total": 65750783.98,
+          "count": 3,
+          "fromCandidate": 65000000
+        }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Former Illinois House Minority Leader Jim Durkin",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [9]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [14] },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [14]
+      },
+      { "organization": "SEIU Healthcare", "kind": "union", "cites": [14] },
+      {
+        "organization": "Illinois Education Association",
+        "kind": "union",
+        "cites": [15]
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [16]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [14]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 399",
+        "kind": "union",
+        "cites": [14]
+      },
+      {
+        "organization": "Illinois Federation of Public Employees Local 4408",
+        "kind": "union",
+        "cites": [17]
+      },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [18]
+      },
+      { "organization": "GIFFORDS PAC", "kind": "organization", "cites": [6] },
+      {
+        "organization": "Human Rights Campaign",
+        "kind": "organization",
+        "cites": [14]
+      },
+      {
+        "organization": "End Citizens United",
+        "kind": "organization",
+        "cites": [14]
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [14]
+      },
+      {
+        "organization": "National Association of Social Workers, Illinois Chapter",
+        "kind": "organization",
+        "cites": [19]
+      },
+      {
+        "organization": "Illinois NOW PAC",
+        "kind": "organization",
+        "cites": [20]
+      },
+      {
+        "organization": "Cook County Democratic Party",
+        "kind": "party",
+        "cites": [14]
+      },
+      { "organization": "New Trier Democrats", "kind": "party", "cites": [14] },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [21] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "JB Pritzker & Christian Mitchell - DeKalb County Democratic Party",
+      "publisher": "DeKalb County Democratic Party",
+      "url": "https://www.dekalbcountydemocrats.org/candidate/jb-pritzker-christian-mitchell/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Gov. JB Pritzker selects Christian Mitchell as running mate for 3rd term bid",
+      "publisher": "ABC7 Chicago",
+      "url": "https://abc7chicago.com/post/illinois-governor-jb-pritzker-selects-christian-mitchell-running-mats-3rd-term-bid/16902187/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Who is running for Illinois governor in the 2026 primary elections?",
+      "publisher": "CBS Chicago",
+      "url": "https://www.cbsnews.com/chicago/news/who-is-running-for-illinois-governor-2026-primary-elections/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Pritzker pours cold water on using Meta windfall for Chicago Schools funding",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/pritzker-pours-cold-water-on-using-meta-windfall-for-chicago-schools-funding/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "POLITICS Christian Mitchell talks about Gov. Pritzker, Ulysses S. Grant and the fight for marriage equality",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/09/24/politics-christian-mitchell-talks-about-gov-pritzker-ulysses-s-grant-and-the-fight-for-marriage-equality/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "GIFFORDS PAC endorses Governor JB Pritzker and Christian Mitchell in Illinois",
+      "publisher": "GIFFORDS PAC",
+      "url": "https://giffords.org/press-release/2026/04/giffords-pac-endorses-governor-jb-pritzker-and-christian-mitchell-in-illinois/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Pritzker's data-center tightrope",
+      "publisher": "Politico Illinois Playbook",
+      "url": "https://www.politico.com/newsletters/illinois-playbook/2026/09/25/pritzkers-data-center-tightrope-01092780",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 8,
+      "title": "Christian Mitchell – Democratic Candidate for Illinois Lt. Governor",
+      "publisher": "N'DIGO",
+      "url": "https://ndigo.com/2026/09/28/christian-mitchell-democratic-candidate-for-illinois-lt-governor/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 9,
+      "title": "News & Updates - JB for Governor",
+      "publisher": "JB for Governor",
+      "url": "https://jbpritzker.com/news-updates/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 10,
+      "title": "'We think about the state in the same way': Mitchell ready to back up Pritzker",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/we-think-about-the-state-in-the-same-way-mitchell-ready-to-back-up-pritzker/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 11,
+      "title": "Christian Mitchell",
+      "publisher": "GIFFORDS",
+      "url": "https://giffords.org/candidates/christian-mitchell/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 12,
+      "title": "Gov. JB Pritzker discloses diabetes diagnosis, 80-pound weight loss on GLP-1 drug",
+      "publisher": "Daily Herald",
+      "url": "https://www.dailyherald.com/20260922/illinois-state-politics/gov-jb-pritzker-discloses-diabetes-diagnosis-80-pound-weight-loss-on-glp-1-drug/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 13,
+      "title": "Ill. Gov. JB Pritzker pounces on President Donald Trump in campaign bus tour kickoff",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/08/26/gov-jb-pritzker-pounces-on-president-donald-trump-in-campaign-bus-tour-kickoff/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 14,
+      "title": "2026 Illinois gubernatorial election",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Illinois_gubernatorial_election",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 15,
+      "title": "Illinois' largest teachers union endorses Gov. Pritzker for reelection",
+      "publisher": "WTVO",
+      "url": "https://www.mystateline.com/news/national/illinois-teachers-union-backs-pritzker/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 16,
+      "title": "NOVEMBER 3, 2026 GENERAL ELECTION ENDORSED CANDIDATES",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 17,
+      "title": "Governor JB Pritzker, Christian Mitchell Receive IFPE Local 4408 Endorsement",
+      "publisher": "JB for Governor",
+      "url": "https://jbpritzker.com/latest/governor-jb-pritzker-christian-mitchell-receive-ifpe-local-4408-endorsement/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 18,
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 19,
+      "title": "NASW-IL Announces Endorsements for 2026 Illinois General Election",
+      "publisher": "National Association of Social Workers, Illinois Chapter",
+      "url": "https://www.naswil.org/post/nasw-il-announces-endorsements-for-2026-illinois-general-election",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 20,
+      "title": "IL NOW PAC Primary Endorsements 3/17/26",
+      "publisher": "Illinois NOW PAC",
+      "url": "https://ilnow.org/uncategorized/il-now-pac-primary-endorsements-3-17-26/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 21
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-07T20:59:53.828Z",
+    "version": 3
+  }
+}

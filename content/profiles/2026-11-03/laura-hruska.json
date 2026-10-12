@@ -1,0 +1,90 @@
+{
+  "key": "laura-hruska",
+  "electionId": "il-2026-11-03-general",
+  "name": "Laura Hruska",
+  "party": "Republican",
+  "office": "State Representative, 2nd District",
+  "contestIds": ["cook-clerk:180200"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Laura Hruska is a member of the Riverside-Brookfield Township School District 208 school board, with a term ending in 2027. She has worked as a dispatch supervisor at UPS and spent about 20 years as a medical educator.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Laura Hruska is a member of the Riverside-Brookfield Township School District 208 school board, with a term ending in 2027.",
+            "cites": [1]
+          },
+          {
+            "text": "She has worked as a dispatch supervisor at UPS and spent about 20 years as a medical educator.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "In her 2024 campaign, she said she would make taxes, especially property taxes, a major issue.",
+        "cites": [3],
+        "sentences": [
+          {
+            "text": "In her 2024 campaign, she said she would make taxes, especially property taxes, a major issue.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Illinois Family Action",
+        "kind": "organization",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Cook County primary election 2024 voter guide",
+      "publisher": "Riverside-Brookfield Landmark",
+      "url": "https://www.rblandmark.com/2024/02/22/cook-county-primary-election-2024-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "2024 IMPAC Election Guide",
+      "publisher": "IMPAC",
+      "url": "https://www.impaconline.org/pdfs/IMPACCandidateProfiles.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "RBHS school board member Laura Hruska files to run for state representative",
+      "publisher": "Riverside-Brookfield Landmark",
+      "url": "https://www.rblandmark.com/2023/12/12/rbhs-school-board-member-laura-hruska-files-to-run-for-state-representative/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "2026 General Election Endorsements",
+      "publisher": "Illinois Family Action",
+      "url": "https://illinoisfamilyaction.org/2026/09/ifas-2026-general-election-endorsements-2/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:57:24.817Z",
+    "version": 2
+  }
+}

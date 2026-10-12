@@ -1,0 +1,180 @@
+{
+  "key": "chris-getty",
+  "electionId": "il-2026-11-03-general",
+  "name": "Chris Getty",
+  "party": "Independent",
+  "office": "U.S. Representative, 4th District",
+  "contestIds": [
+    "chicago-boe:u-s-representative-4th-district",
+    "cook-clerk:140400"
+  ],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Chris Getty has served as mayor of Lyons since 2009. He also runs a family-owned insurance agency in the village. He is the supervisor of Lyons Township, a role he has held since 2017.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Chris Getty has served as mayor of Lyons since 2009.",
+            "cites": [1]
+          },
+          {
+            "text": "He also runs a family-owned insurance agency in the village.",
+            "cites": [1]
+          },
+          {
+            "text": "He is the supervisor of Lyons Township, a role he has held since 2017.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "Getty says his priorities include improving the cost of living, immigration and public safety, and government accountability. At a candidate debate, he called for secure borders, a streamlined immigration system, and a path to legal status for immigrants who have long lived in the country. He also proposed additional low-income housing tax credits and more housing construction. He said that, if elected, he would not caucus with either the Democratic or Republican party.",
+        "cites": [3, 4],
+        "sentences": [
+          {
+            "text": "Getty says his priorities include improving the cost of living, immigration and public safety, and government accountability.",
+            "cites": [3]
+          },
+          {
+            "text": "At a candidate debate, he called for secure borders, a streamlined immigration system, and a path to legal status for immigrants who have long lived in the country.",
+            "cites": [4]
+          },
+          {
+            "text": "He also proposed additional low-income housing tax credits and more housing construction.",
+            "cites": [4]
+          },
+          {
+            "text": "He said that, if elected, he would not caucus with either the Democratic or Republican party.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Chris Getty for Congress",
+        "url": "https://www.fec.gov/data/committee/C00940403/?cycle=2026",
+        "period": "April 1 to June 30, 2026",
+        "raised": 188169.64,
+        "cashOnHand": 131646.81,
+        "breakdown": [
+          { "kind": "small", "amount": 12159.9 },
+          { "kind": "large", "amount": 176009.74 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Former U.S. Sen. Joe Manchin",
+        "kind": "elected_official",
+        "party": "Independent",
+        "cites": [5]
+      },
+      {
+        "organization": "Chicago Ald. Raymond Lopez",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Bellwood Mayor Andre Harvey",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Summit Mayor Sergio Rodriguez",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Boilermakers Union Local 1",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Teamsters Union Local 705",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Teamsters Union Local 777",
+        "kind": "union",
+        "cites": [7]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Who is running for the U.S. House in the Chicago area during the 2026 midterm elections?",
+      "publisher": "CBS News",
+      "url": "https://www.cbsnews.com/chicago/news/who-is-running-congress-illinois-chicago-2026-midterm/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Chris Getty",
+      "publisher": "iVoterGuide",
+      "url": "https://ivoterguide.com/candidate/93594",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "What to know about the 4th Congressional District race to replace U.S. Rep. Jesus 'Chuy' Garcia",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/10/01/what-to-know-4th-congressional-district-patty-garcia-chris-getty-lupe-castillo-ed-hershey-us-rep-jesus-chuy-garcia",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "Illinois 4th District race: Rivals hit Patty García over ballot moves in race to succeed Jesús ‘Chuy’ García",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/09/29/illinois-4th-district-race-rivals-hit-patty-garcia-over-ballot-moves-in-race-to-succeed-chuy-garcia/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 5,
+      "title": "Durkin's defection draws GOP fire",
+      "publisher": "Politico",
+      "url": "https://www.politico.com/newsletters/illinois-playbook/2026/10/06/durkin-pritzker-endorsement-gop-fire-01107901",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 6,
+      "title": "Politicians, community leaders, national activists and celebrities join community to support Getty for Congress",
+      "publisher": "Suburban Chicagoland",
+      "url": "https://suburbanchicagoland.com/2026/08/30/politicians-community-leaders-national-activists-and-celebrities-join-community-to-support-getty-for-congress/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 7,
+      "title": "Chris Getty",
+      "publisher": "iVoterGuide",
+      "url": "https://ivoterguide.com/candidate/93594/race/29568/election/1443",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:01:45.172Z",
+    "version": 6
+  }
+}

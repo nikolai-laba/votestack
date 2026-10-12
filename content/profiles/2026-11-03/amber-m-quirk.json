@@ -1,0 +1,89 @@
+{
+  "key": "amber-m-quirk",
+  "electionId": "il-2026-11-03-general",
+  "name": "Amber M. Quirk",
+  "party": "Republican",
+  "office": "Regional Superintendent of Schools, DuPage County",
+  "contestIds": ["cook-clerk:241000"],
+  "kind": "candidate",
+  "tier": "short",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Amber Quirk has served as DuPage County regional superintendent of schools since July 2023. She previously served as assistant regional superintendent. She has worked in education for more than 20 years, including time as a teacher and principal. Her campaign says she will require background checks, verify licenses, create school emergency plans, address truancy with support meetings and home visits, and save taxpayer money.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Amber Quirk has served as DuPage County regional superintendent of schools since July 2023.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously served as assistant regional superintendent.",
+            "cites": [1]
+          },
+          {
+            "text": "She has worked in education for more than 20 years, including time as a teacher and principal.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign says she will require background checks, verify licenses, create school emergency plans, address truancy with support meetings and home visits, and save taxpayer money.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "DuPage County Republican Central Committee",
+        "kind": "party",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Amber Quirk to Lead the DuPage Regional Office of ...",
+      "publisher": "Patch",
+      "url": "https://patch.com/illinois/wheaton/amber-quirk-lead-dupage-regional-office-education",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "Amber Quirk to lead the DuPage Regional Office of ...",
+      "publisher": "Daily Herald",
+      "url": "https://www.dailyherald.com/20231001/submitted-content/amber-quirk-to-lead-the-dupage-regional-office-of-education/",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 3,
+      "title": "Amber M. Quirk 2026: DuPage County Regional Superintendent of ...",
+      "publisher": "The Ballot Brief",
+      "url": "https://theballotbrief.com/candidate/amber-m-quirk-il",
+      "kind": "news",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 4,
+      "title": "2026 Candidates - DuPage County Republicans",
+      "publisher": "DuPage County Republican Central Committee",
+      "url": "https://dupagegop.com/2026-candidates/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:37:24.552Z",
+    "version": 4
+  }
+}

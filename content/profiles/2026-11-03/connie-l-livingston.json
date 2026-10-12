@@ -1,0 +1,58 @@
+{
+  "key": "connie-l-livingston",
+  "electionId": "il-2026-11-03-general",
+  "name": "Connie L. Livingston",
+  "office": "La Grange Highlands Sanitary District Trustee",
+  "contestIds": ["cook-clerk:390101"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "text": "Connie L. Livingston is the president of the Board of Trustees for the La Grange Highlands Sanitary District. The district provides water and sewer services to all of La Grange Highlands and parts of Countryside, Western Springs, La Grange, and Indian Head Park. The district is upgrading a pump station to replace a primary pump, update electrical equipment, improve the chlorine system, and add a backup generator.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Connie L. Livingston is the president of the Board of Trustees for the La Grange Highlands Sanitary District.",
+            "cites": [1]
+          },
+          {
+            "text": "The district provides water and sewer services to all of La Grange Highlands and parts of Countryside, Western Springs, La Grange, and Indian Head Park.",
+            "cites": [2]
+          },
+          {
+            "text": "The district is upgrading a pump station to replace a primary pump, update electrical equipment, improve the chlorine system, and add a backup generator.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": { "asOf": "2026-10-07", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Public Info – La Grange Highlands Sanitary District",
+      "publisher": "La Grange Highlands Sanitary District",
+      "url": "https://lagrhighsd.org/public-info/",
+      "kind": "official",
+      "viewedAt": "2026-10-07"
+    },
+    {
+      "id": 2,
+      "title": "La Grange Highlands Sanitary District",
+      "publisher": "Vote411",
+      "url": "https://onyourballot.vote411.org/m/candidate-detail.do?id=72997686",
+      "kind": "reference",
+      "viewedAt": "2026-10-07"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-4",
+    "generatedAt": "2026-10-07T17:32:03.598Z",
+    "version": 3
+  }
+}
