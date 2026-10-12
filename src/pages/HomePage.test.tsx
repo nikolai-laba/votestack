@@ -317,6 +317,9 @@ describe('HomePage', () => {
     expect(await screen.findByRole('status')).toHaveTextContent(
       /couldn’t find that address/i,
     )
+    expect(screen.getByRole('status')).toHaveTextContent(
+      'only available in Chicago and Cook County for its initial release',
+    )
     expect(
       screen.getByRole('link', { name: /suburban cook county voters/i }),
     ).toBeInTheDocument()

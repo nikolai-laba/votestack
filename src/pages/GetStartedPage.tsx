@@ -44,7 +44,7 @@ function validate(field: Field, value: string): string | undefined {
 const LOOKUP_ERRORS = {
   invalid: 'Enter your full street address, starting with the house number.',
   not_found:
-    'We couldn’t find that address in Cook County. Check the street, city and ZIP code, or look up your ballot on your election authority’s site.',
+    'We couldn’t find that address in Cook County. VoteStack is currently only available in Chicago and Cook County for its initial release. Check the street, city and ZIP code, or look through the sample ballots to get an idea of how VoteStack works.',
   unavailable:
     'Couldn’t load your ballot. Check your connection and try again.',
 }
