@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState, type FormEvent } from 'react'
-import { useLocation, useNavigate } from 'react-router'
+import { Link, useLocation, useNavigate } from 'react-router'
 import { BallotLookupError } from '../api/ballot.ts'
+import { NOTIFY_PATH } from '../ballot/profileLinks.ts'
 import { SAMPLE_BALLOTS, type SampleBallot } from '../ballot/samples.ts'
 import {
   SAMPLE_HEADING_ID,
@@ -12,6 +13,7 @@ import {
 } from '../ballot/session.ts'
 import { BALLOT_HEADING_ID } from '../components/BallotView.tsx'
 import { WarningIcon } from '../components/icons.tsx'
+import { TextField } from '../components/TextField.tsx'
 
 // /getstarted: what VoteStack is, the address form and the sample ballots.
 // Where new visitors land (the ballot at / sends them here when there's no
@@ -63,7 +65,7 @@ export function GetStartedPage() {
   // on its heading, or focus goes back to the street field on an error.
   const awaitingResult = useRef(false)
 
-  // Coming here leaves a sample, so My Ballot and Back show the voter's own
+  // Coming here leaves a sample, so My ballot and Back show the voter's own
   // ballot (or come back here). Not on a click: the ballot would then send
   // the visitor here itself before the link's own navigation.
   // Only the sample open when the page opens; one chosen here opens at /.
@@ -142,19 +144,24 @@ export function GetStartedPage() {
           What&apos;s on your ballot?
         </h1>
         <p className="max-w-[65ch]">
-          Enter your home address to see every race on your ballot, with a short
-          profile of every candidate and judge. Starting with Chicago and
-          suburban Cook County, Illinois.
+          VoteStack shows you every race on your ballot with a profile for each
+          candidate. The first release covers Chicago and Cook County, Illinois.
+        </p>
+        <p className="max-w-[65ch]">
+          Live outside Cook County?{' '}
+          <Link to={NOTIFY_PATH}>
+            Get an email when VoteStack covers your area
+          </Link>
+          .
         </p>
         <div className="max-w-[65ch] space-y-2">
           <p>Each profile shows:</p>
           <ul className="list-disc space-y-1 ps-6">
             <li>
-              Who they are, their record and their positions, with a source for
-              every sentence
+              Who they are, their positions, campaign financing, and
+              endorsements
             </li>
-            <li>Where their campaign money came from, from official filings</li>
-            <li>Who endorses them, and bar association ratings for judges</li>
+            <li>Sources for each claim</li>
           </ul>
         </div>
         <p className="max-w-[65ch] text-small text-muted">
@@ -164,12 +171,11 @@ export function GetStartedPage() {
 
       <form onSubmit={handleSubmit} noValidate className="space-y-5">
         <fieldset className="space-y-4">
-          <legend className="text-label font-semibold">Home address</legend>
-          <p id="address-hint" className="text-small text-muted">
-            Use the address where you&apos;re registered to vote.
-          </p>
+          <legend className="text-label font-semibold">
+            Registered voting address
+          </legend>
           {FIELDS.slice(0, 1).map((f) => (
-            <TextField
+            <AddressField
               key={f}
               field={f}
               value={values[f]}
@@ -184,7 +190,7 @@ export function GetStartedPage() {
           <div className="flex flex-col gap-4 md:flex-row">
             {FIELDS.slice(1).map((f) => (
               <div key={f} className={f === 'zip' ? 'md:w-40' : 'flex-1'}>
-                <TextField
+                <AddressField
                   field={f}
                   value={values[f]}
                   error={errors[f]}
@@ -199,13 +205,40 @@ export function GetStartedPage() {
           </div>
         </fieldset>
 
-        <button
-          type="submit"
-          disabled={lookup.isPending}
-          className="h-13 w-full rounded-md bg-primary px-6 text-label font-semibold text-on-primary transition-opacity duration-150 disabled:opacity-60 md:w-auto"
-        >
-          Find my ballot
-        </button>
+        <div className="space-y-3">
+          <button
+            type="submit"
+            disabled={lookup.isPending}
+            className="h-13 w-full rounded-md bg-primary px-6 text-label font-semibold text-on-primary transition-opacity duration-150 disabled:opacity-60 md:w-auto"
+          >
+            Find my ballot
+          </button>
+
+          {/* Announces progress and errors to screen readers, right under the
+            button. Takes no space while empty. */}
+          <div role="status" aria-live="polite" className="empty:-mt-3">
+            {lookup.isPending && (
+              <p className="text-muted">Finding your districts…</p>
+            )}
+            {lookup.isError && (
+              <div className="flex gap-3 rounded-sm border-2 border-warn-line bg-warn-bg p-4 text-warn-fg">
+                <WarningIcon />
+                <div className="space-y-2">
+                  <p className="font-semibold">{LOOKUP_ERRORS[errorKind]}</p>
+                  {errorKind === 'not_found' && (
+                    <p>
+                      Live outside Cook County?{' '}
+                      <Link className="text-warn-fg" to={NOTIFY_PATH}>
+                        Get an email when VoteStack covers your area
+                      </Link>
+                      .
+                    </p>
+                  )}
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
         <p className="max-w-[65ch] text-small text-muted">
           We use your address once to find your districts. It isn&apos;t saved,
           logged or added to the page link.
@@ -230,45 +263,6 @@ export function GetStartedPage() {
           ))}
         </ul>
       </div>
-
-      {/* Announces progress and errors to screen readers. */}
-      <div role="status" aria-live="polite">
-        {lookup.isPending && (
-          <p className="text-muted">Finding your districts…</p>
-        )}
-        {lookup.isError && (
-          <div className="flex gap-3 rounded-sm border-2 border-warn-line bg-warn-bg p-4 text-warn-fg">
-            <WarningIcon />
-            <div className="space-y-2">
-              <p className="font-semibold">{LOOKUP_ERRORS[errorKind]}</p>
-              {errorKind === 'not_found' && (
-                <ul className="space-y-1 text-small">
-                  <li>
-                    <a
-                      className="text-warn-fg"
-                      href="https://www.chicagoelections.gov/voting/your-voter-information"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Chicago voters
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="text-warn-fg"
-                      href="https://www.cookcountyclerkil.gov/elections/your-voter-information"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Suburban Cook County voters
-                    </a>
-                  </li>
-                </ul>
-              )}
-            </div>
-          </div>
-        )}
-      </div>
     </section>
   )
 }
@@ -279,7 +273,7 @@ const AUTOCOMPLETE: Record<Field, string> = {
   zip: 'postal-code',
 }
 
-function TextField({
+function AddressField({
   field,
   value,
   error,
@@ -294,40 +288,17 @@ function TextField({
   onBlur: (field: Field) => void
   inputRef: (el: HTMLInputElement | null) => void
 }) {
-  const errorId = `${field}-error`
-  const describedBy = [error && errorId, field === 'street' && 'address-hint']
-    .filter(Boolean)
-    .join(' ')
   return (
-    <div className="space-y-1">
-      <label htmlFor={field} className="block text-label font-semibold">
-        {LABELS[field]}
-      </label>
-      <input
-        ref={inputRef}
-        id={field}
-        name={field}
-        type="text"
-        autoComplete={AUTOCOMPLETE[field]}
-        inputMode={field === 'zip' ? 'numeric' : undefined}
-        value={value}
-        onChange={(e) => onChange(field, e.target.value)}
-        onBlur={() => onBlur(field)}
-        aria-invalid={error ? true : undefined}
-        aria-describedby={describedBy || undefined}
-        className={`min-h-12 w-full rounded-md bg-surface px-3 text-body text-text ${
-          error ? 'border-2 border-danger' : 'border border-field'
-        }`}
-      />
-      {error && (
-        <p
-          id={errorId}
-          className="flex items-start gap-2 text-small font-semibold text-danger"
-        >
-          <WarningIcon className="mt-0.5 size-4 shrink-0" />
-          {error}
-        </p>
-      )}
-    </div>
+    <TextField
+      id={field}
+      label={LABELS[field]}
+      value={value}
+      error={error}
+      autoComplete={AUTOCOMPLETE[field]}
+      inputMode={field === 'zip' ? 'numeric' : undefined}
+      onChange={(v) => onChange(field, v)}
+      onBlur={() => onBlur(field)}
+      inputRef={inputRef}
+    />
   )
 }

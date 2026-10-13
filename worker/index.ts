@@ -4,23 +4,28 @@
 
 import { CURRENT_ELECTION } from '../src/shared/cook.ts'
 import { SupabaseBallotProvider } from './ballot.ts'
+import { memoryLimiter } from './guard.ts'
+import { notifyResponse, type NotifyEnv } from './notify.ts'
 import { profileResponse, publishedProfileKeys } from './profile.ts'
-import { memoryLimiter, reportResponse, type ReportEnv } from './report.ts'
+import { reportResponse, type ReportEnv } from './report.ts'
 import type { SupabaseConfig } from './supabase.ts'
 
-export interface Env extends ReportEnv {
+export interface Env extends ReportEnv, NotifyEnv {
   ASSETS: Fetcher
   SUPABASE_URL?: string
   SUPABASE_SECRET_KEY?: string
   TURNSTILE_SECRET_KEY?: string
 }
 
-// Used only when the REPORT_LIMITER binding is missing (see report.ts).
+// Used only when the REPORT_LIMITER or NOTIFY_LIMITER binding is missing
+// (see guard.ts).
 let fallbackLimiter: RateLimit | null = null
+let notifyFallbackLimiter: RateLimit | null = null
 
-/** For tests: start the fallback rate limit afresh. */
+/** For tests: start the fallback rate limits afresh. */
 export function resetFallbackLimiter() {
   fallbackLimiter = null
+  notifyFallbackLimiter = null
 }
 
 // Ballot responses are about one voter's address: never cache them anywhere.
@@ -103,6 +108,14 @@ export default {
         supabase: supabaseConfig(env),
         turnstileSecret: env.TURNSTILE_SECRET_KEY,
         limiter: env.REPORT_LIMITER ?? fallbackLimiter,
+      })
+    }
+    if (pathname === '/api/notify') {
+      notifyFallbackLimiter ??= memoryLimiter()
+      return notifyResponse(request, {
+        supabase: supabaseConfig(env),
+        turnstileSecret: env.TURNSTILE_SECRET_KEY,
+        limiter: env.NOTIFY_LIMITER ?? notifyFallbackLimiter,
       })
     }
     if (pathname.startsWith('/api/profile/')) {

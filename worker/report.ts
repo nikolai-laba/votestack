@@ -14,19 +14,20 @@ import {
   validateSourceUrl,
   type ReportField,
 } from '../src/shared/report.ts'
+import {
+  FORM_PERIOD_SECONDS,
+  json,
+  rateLimitKey,
+  readJsonObject,
+  verifyTurnstile,
+} from './guard.ts'
 import { PROFILE_KEY } from './profile.ts'
 import { rpc, type SupabaseConfig } from './supabase.ts'
 
-export const SITEVERIFY_URL =
-  'https://challenges.cloudflare.com/turnstile/v0/siteverify'
+export { memoryLimiter, SITEVERIFY_URL } from './guard.ts'
 
-/** Reports one IP address may send per window (wrangler.toml [[ratelimits]]). */
-export const REPORT_LIMIT = 5
-export const REPORT_PERIOD_SECONDS = 60
 /** Larger bodies are refused before they are read. */
 const MAX_BODY_BYTES = 16 * 1024
-
-const NO_STORE = { 'Cache-Control': 'no-store' }
 
 export interface ReportEnv {
   /** Cloudflare's Rate Limiting binding. Absent in tests and older configs. */
@@ -40,9 +41,6 @@ export interface ReportDeps {
   fetch?: typeof fetch
 }
 
-const json = (body: unknown, status: number, headers?: HeadersInit) =>
-  Response.json(body, { status, headers: { ...NO_STORE, ...headers } })
-
 /** POST /api/report */
 export async function reportResponse(
   request: Request,
@@ -55,29 +53,18 @@ export async function reportResponse(
     return json({ error: 'Error reports are not available yet' }, 503)
   }
 
-  const ip = request.headers.get('CF-Connecting-IP') ?? 'unknown'
-  const { success } = await deps.limiter.limit({ key: await hashKey(ip) })
+  const { success } = await deps.limiter.limit({
+    key: await rateLimitKey('report', request),
+  })
   if (!success) {
     return json({ error: 'Too many reports, try again in a minute' }, 429, {
-      'Retry-After': String(REPORT_PERIOD_SECONDS),
+      'Retry-After': String(FORM_PERIOD_SECONDS),
     })
   }
 
-  const length = Number(request.headers.get('Content-Length') ?? 0)
-  if (length > MAX_BODY_BYTES) {
+  const body = await readJsonObject(request, MAX_BODY_BYTES)
+  if (body === 'too_large') {
     return json({ error: 'Report is too long' }, 413)
-  }
-  const text = await request.text().catch(() => '')
-  if (new TextEncoder().encode(text).length > MAX_BODY_BYTES) {
-    return json({ error: 'Report is too long' }, 413)
-  }
-  let body: Record<string, unknown> | null = null
-  try {
-    const parsed: unknown = JSON.parse(text)
-    if (parsed && typeof parsed === 'object' && !Array.isArray(parsed))
-      body = parsed as Record<string, unknown>
-  } catch {
-    // Handled below.
   }
   if (!body) return json({ error: 'Send the report as JSON' }, 400)
 
@@ -136,59 +123,4 @@ export async function reportResponse(
     return json({ error: 'No published profile' }, 404)
   }
   return json({ ok: true }, 201)
-}
-
-/** Asks Cloudflare whether the Turnstile token is genuine and unused. */
-export async function verifyTurnstile(
-  secret: string,
-  token: string,
-  doFetch: typeof fetch,
-): Promise<boolean> {
-  // The reader's IP is deliberately not sent (the remoteip field is optional).
-  const res = await doFetch(SITEVERIFY_URL, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ secret, response: token }),
-  })
-  if (!res.ok) throw new Error(`siteverify failed with ${res.status}`)
-  const outcome = (await res.json()) as { success?: unknown }
-  return outcome.success === true
-}
-
-/** The IP address is never used as is, only as an unreadable counter key. */
-async function hashKey(ip: string): Promise<string> {
-  const digest = await crypto.subtle.digest(
-    'SHA-256',
-    new TextEncoder().encode(`votestack-report:${ip}`),
-  )
-  return [...new Uint8Array(digest)]
-    .slice(0, 16)
-    .map((b) => b.toString(16).padStart(2, '0'))
-    .join('')
-}
-
-/**
- * Stand-in for the Rate Limiting binding (local tests, or a config without
- * it): a fixed window per Worker instance. Keys are already hashed, and old
- * windows are dropped, so nothing about a reader lasts beyond a minute.
- */
-export function memoryLimiter(
-  limit = REPORT_LIMIT,
-  periodMs = REPORT_PERIOD_SECONDS * 1000,
-  now: () => number = Date.now,
-): RateLimit {
-  let windowStart = 0
-  let counts = new Map<string, number>()
-  return {
-    async limit({ key }) {
-      const t = now()
-      if (t - windowStart >= periodMs) {
-        windowStart = t
-        counts = new Map()
-      }
-      const count = (counts.get(key) ?? 0) + 1
-      counts.set(key, count)
-      return { success: count <= limit }
-    },
-  }
 }

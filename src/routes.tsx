@@ -1,6 +1,7 @@
 import { Navigate, type RouteObject } from 'react-router'
 import {
   GET_STARTED_PATH,
+  NOTIFY_PATH,
   SAVED_CHOICES_PATH,
   type RouteHandle,
 } from './ballot/profileLinks.ts'
@@ -10,6 +11,7 @@ import { GetStartedPage } from './pages/GetStartedPage.tsx'
 import { HomePage } from './pages/HomePage.tsx'
 import { LazyAboutPage } from './pages/LazyAboutPage.tsx'
 import { HowProfilesPage } from './pages/HowProfilesPage.tsx'
+import { LazyNotifyPage } from './pages/LazyNotifyPage.tsx'
 import { LazyProfilePage } from './pages/LazyProfilePage.tsx'
 import { LazyReportPage } from './pages/LazyReportPage.tsx'
 import { NotFoundPage } from './pages/NotFoundPage.tsx'
@@ -32,6 +34,12 @@ export const routes: RouteObject[] = [
             // and "Search a new address" comes here.
             path: GET_STARTED_PATH,
             element: <GetStartedPage />,
+          },
+          {
+            // "Tell me when VoteStack reaches my area", for visitors
+            // outside the area it covers. No ballot beside it.
+            path: NOTIFY_PATH,
+            element: <LazyNotifyPage />,
           },
           {
             // Profiles are children of the home page, so the ballot it holds in

@@ -102,7 +102,7 @@ describe('HomePage', () => {
       screen.getByRole('heading', { name: /on your ballot/i }),
     ).toBeInTheDocument()
     expect(
-      screen.getByRole('group', { name: /home address/i }),
+      screen.getByRole('group', { name: /registered voting address/i }),
     ).toBeInTheDocument()
     expect(
       screen.getAllByText(/independent, nonpartisan, open source/i),
@@ -224,6 +224,26 @@ describe('HomePage', () => {
     ).toHaveFocus()
   })
 
+  it('offers people outside Cook County an email sign-up', async () => {
+    mockApi(404, { error: 'not found' })
+    renderAt('/')
+    // Also offered before any lookup, under the intro.
+    expect(
+      screen.getByRole('link', {
+        name: 'Get an email when VoteStack covers your area',
+      }),
+    ).toHaveAttribute('href', '/notify')
+    await lookUp('1 Main St', 'Madison', '53703')
+    const notice = (
+      await screen.findByText(/couldn’t find that address/i)
+    ).closest('[role=status]') as HTMLElement
+    expect(
+      within(notice).getByRole('link', {
+        name: 'Get an email when VoteStack covers your area',
+      }),
+    ).toHaveAttribute('href', '/notify')
+  })
+
   it('moves focus back to the street field when the lookup fails', async () => {
     mockApi(404, { error: 'not found' })
     renderAt('/')
@@ -269,9 +289,7 @@ describe('HomePage', () => {
     ).toEqual(["What's on your ballot?"])
     expect(screen.queryByRole('article')).toBeNull()
     expect(screen.getByText('Each profile shows:')).toBeInTheDocument()
-    expect(
-      screen.getByText(/Where their campaign money came from/),
-    ).toBeInTheDocument()
+    expect(screen.getByText('Sources for each claim')).toBeInTheDocument()
     await vi.waitFor(() =>
       expect(screen.getByLabelText(/street address/i)).toHaveFocus(),
     )
@@ -320,9 +338,15 @@ describe('HomePage', () => {
     expect(screen.getByRole('status')).toHaveTextContent(
       'only available in Chicago and Cook County for its initial release',
     )
+    // Right under the button, with no links to the official sites.
+    const status = screen.getByRole('status')
     expect(
-      screen.getByRole('link', { name: /suburban cook county voters/i }),
-    ).toBeInTheDocument()
+      screen.getByRole('button', { name: /find my ballot/i })
+        .nextElementSibling,
+    ).toBe(status)
+    expect(
+      screen.queryByRole('link', { name: /suburban cook county voters/i }),
+    ).toBeNull()
   })
 
   it('says when lookup is unavailable', async () => {
@@ -342,9 +366,9 @@ describe('HomePage', () => {
     expect(
       screen.getByRole('heading', { level: 1, name: /on your ballot/i }),
     ).toBeInTheDocument()
-    expect(screen.getByText(/enter your home address/i)).toBeInTheDocument()
+    expect(screen.getByText(/every race on your ballot/i)).toBeInTheDocument()
     expect(
-      screen.getByRole('group', { name: /home address/i }),
+      screen.getByRole('group', { name: /registered voting address/i }),
     ).toBeInTheDocument()
     expect(screen.getByText(/we use your address once/i)).toBeInTheDocument()
     expect(
@@ -426,7 +450,7 @@ describe('HomePage', () => {
       screen.getByRole('heading', { level: 1, name: /on your ballot/i }),
     ).toBeInTheDocument()
     expect(
-      screen.getByRole('group', { name: /home address/i }),
+      screen.getByRole('group', { name: /registered voting address/i }),
     ).toBeInTheDocument()
     expect(
       screen.getByRole('group', { name: /sample ballot/i }),

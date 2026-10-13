@@ -32,6 +32,11 @@ describe('page accessibility', () => {
     expect(screen.getByRole('heading', { level: 1 })).toHaveFocus()
   })
 
+  it('starts the sign-up page at its title', async () => {
+    renderAt('/notify')
+    expect(await screen.findByRole('heading', { level: 1 })).toHaveFocus()
+  })
+
   it('names the not-found page in the title', () => {
     renderAt('/nope')
     expect(document.title).toBe('Page not found | VoteStack')

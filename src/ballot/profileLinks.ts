@@ -11,6 +11,8 @@ export const reportPath = (key: string) => `/candidates/${key}/report`
 export const GET_STARTED_PATH = '/getstarted'
 export const SAVED_CHOICES_PATH = '/saved-choices'
 export const ABOUT_PATH = '/about'
+/** The "tell me when VoteStack reaches my area" sign-up (NotifyPage). */
+export const NOTIFY_PATH = '/notify'
 /** The About page's ballot order explainer, linked from the site footer. */
 export const BALLOT_ORDER_ID = 'ballot-order'
 

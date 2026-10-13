@@ -25,3 +25,13 @@ namespace_id = "1001"
   [ratelimits.simple]
   limit = 5
   period = 60
+
+# Rate limit for "tell me when VoteStack reaches my area" sign-ups (POST
+# /api/notify): 5 per minute per visitor, counted apart from error reports.
+[[ratelimits]]
+name = "NOTIFY_LIMITER"
+namespace_id = "1002"
+
+  [ratelimits.simple]
+  limit = 5
+  period = 60

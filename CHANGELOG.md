@@ -5,8 +5,15 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+### Added
+
+- **Get an email when VoteStack covers your area.** People outside Chicago and Cook County can leave an email address and ZIP code at `/notify`, linked from the address form, the "couldn't find that address" message and the About page. Only the email address and ZIP code are saved, they're used only for that email and to count where people are asking from, and they're deleted on request. The About page's privacy section says so.
+
 ### Changed
 
+- New VoteStack logo: a stacked-layers mark beside the name, in the header (with a version for dark mode), as the browser tab icon and as the home-screen icon on phones.
+- Refreshed colors: the highlight for the current page and your picks is now a brighter green, links in light mode are a lighter green so they stand out from the text, and in dark mode links and buttons are a soft sage green instead of lime.
+- The address page is shorter, so the form comes sooner: a two-line introduction, two points on what each profile shows, and the form labelled "Registered voting address". A lookup message now appears right under the Find my ballot button. The menu uses sentence case ("My ballot", "Saved choices").
 - When an address can't be found, the message now says VoteStack is only available in Chicago and Cook County for its initial release, and points to the sample ballots.
 - The browser tab icon uses VoteStack's green instead of blue.
 

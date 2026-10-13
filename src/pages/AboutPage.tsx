@@ -2,6 +2,7 @@ import { useEffect, type ReactNode } from 'react'
 import { Link, useLocation, useOutletContext } from 'react-router'
 import {
   BALLOT_ORDER_ID,
+  NOTIFY_PATH,
   SAVED_CHOICES_PATH,
   type BallotOutletContext,
 } from '../ballot/profileLinks.ts'
@@ -94,7 +95,11 @@ export default function AboutPage() {
           VoteStack shows you every race on your ballot and helps you understand
           the people running. We&rsquo;re starting with Chicago and suburban
           Cook County, Illinois. Over time, VoteStack is meant to cover every
-          upcoming election.
+          upcoming election. If you live somewhere else,{' '}
+          <Link to={NOTIFY_PATH}>
+            get an email when VoteStack covers your area
+          </Link>
+          .
         </p>
         <p>
           Seeing what&rsquo;s on your ballot is the easy part. Knowing who the
@@ -257,6 +262,13 @@ export default function AboutPage() {
           The names you pick, listed under{' '}
           <Link to={SAVED_CHOICES_PATH}>Saved choices</Link>, stay on this
           device. We never see them.
+        </p>
+        <p>
+          If you sign up for an email when VoteStack covers your area, we save
+          your email address and ZIP code. We use them only for that email and
+          to count where people are asking from, and we never share them. To
+          have them deleted, email{' '}
+          <a href="mailto:nikolai@votestack.org">nikolai@votestack.org</a>.
         </p>
       </Section>
 

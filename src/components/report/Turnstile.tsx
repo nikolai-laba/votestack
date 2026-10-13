@@ -1,9 +1,10 @@
 import { useEffect, useImperativeHandle, useRef, type Ref } from 'react'
 import { themeStore } from '../../theme/themePreference.ts'
 
-// Cloudflare Turnstile, the check that a person (not a bot) sends an error
-// report. The script loads from challenges.cloudflare.com only when the
-// report form is on screen; Cloudflare requires loading it from there.
+// Cloudflare Turnstile, the check that a person (not a bot) sends a form (an
+// error report or a sign-up). The script loads from challenges.cloudflare.com
+// only when such a form is on screen; Cloudflare requires loading it from
+// there.
 
 const SCRIPT_URL =
   'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit'
@@ -60,11 +61,14 @@ export interface TurnstileHandle {
 
 export function Turnstile({
   siteKey,
+  action = 'report',
   onToken,
   onError,
   ref,
 }: {
   siteKey: string
+  /** Which form this check is for, as shown in Cloudflare's analytics. */
+  action?: 'report' | 'notify'
   /** A token, or null when it expired or was reset. */
   onToken: (token: string | null) => void
   onError: () => void
@@ -92,7 +96,7 @@ export function Turnstile({
         if (cancelled || !container.current) return
         const id = api.render(container.current, {
           sitekey: siteKey,
-          action: 'report',
+          action,
           // The site's mode, which may differ from the device's (set when
           // the widget renders).
           theme: themeStore.getSnapshot(),
@@ -112,7 +116,7 @@ export function Turnstile({
       if (widget.current) widget.current.api.remove(widget.current.id)
       widget.current = null
     }
-  }, [siteKey])
+  }, [siteKey, action])
 
   // Reserve the widget's height (65px) so the button doesn't jump.
   return <div ref={container} className="min-h-[65px]" />
