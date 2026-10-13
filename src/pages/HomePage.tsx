@@ -30,7 +30,7 @@ import { WarningIcon } from '../components/icons.tsx'
 import { SampleModeContext } from '../picks/sampleMode.ts'
 import { useBallotStore } from '../picks/store.ts'
 
-// My Ballot, at /: this session's lookup, a sample, or the ballot saved on
+// My ballot, at /: this session's lookup, a sample, or the ballot saved on
 // the device. With none of them it sends the visitor to /getstarted (the
 // address form), so new visitors land there. The lookup and the sample live
 // in BallotSessionProvider's memory (src/ballot/session.ts); the address is

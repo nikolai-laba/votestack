@@ -172,7 +172,7 @@ const panel = () => screen.getByRole('region', { name: 'On your ballot' })
 const panelPick = (name: string) =>
   within(panel()).getByRole('checkbox', { name: `Pick ${name} for ${GOV}` })
 const MWRD = 'Commissioner, Water Reclamation District'
-/** The site menu's link to Saved choices, e.g. "Saved Choices (2 picked)". */
+/** The site menu's link to Saved choices, e.g. "Saved choices (2 picked)". */
 const savedLink = (name: string) =>
   within(screen.getByRole('navigation', { name: 'Site' })).getByRole('link', {
     name,
@@ -241,7 +241,7 @@ describe('picks on the ballot', () => {
 
     // The menu's link to Saved choices counts races with a pick; the ballot
     // itself has no link of its own to it.
-    expect(savedLink('Saved Choices (2 picked)')).toHaveAttribute(
+    expect(savedLink('Saved choices (2 picked)')).toHaveAttribute(
       'href',
       '/saved-choices',
     )
@@ -275,7 +275,7 @@ describe('picks on the ballot', () => {
     await userEvent.click(
       screen.getByRole('button', { name: 'Yes on Transit question' }),
     )
-    expect(savedLink('Saved Choices (1 picked)')).toBeInTheDocument()
+    expect(savedLink('Saved choices (1 picked)')).toBeInTheDocument()
   })
 
   it('keeps the list and the profile in step', async () => {
@@ -365,7 +365,7 @@ describe('Saved choices', () => {
     await userEvent.click(
       screen.getByRole('button', { name: 'No on Transit question' }),
     )
-    await userEvent.click(savedLink('Saved Choices (3 picked)'))
+    await userEvent.click(savedLink('Saved choices (3 picked)'))
 
     const heading = screen.getByRole('heading', {
       level: 1,
@@ -454,7 +454,7 @@ describe('Saved choices', () => {
     mockApi()
     renderAt('/')
     await lookUp()
-    await userEvent.click(savedLink('Saved Choices'))
+    await userEvent.click(savedLink('Saved choices'))
     await userEvent.click(
       screen.getByRole('link', { name: 'Show on ballot: Mary Moe' }),
     )
@@ -462,7 +462,7 @@ describe('Saved choices', () => {
     expect(row).toHaveFocus()
     expect(row.closest('details')!.open).toBe(true)
 
-    await userEvent.click(savedLink('Saved Choices'))
+    await userEvent.click(savedLink('Saved choices'))
     await userEvent.click(
       screen.getByRole('link', { name: `Show on ballot: ${GOV}` }),
     )
@@ -543,7 +543,7 @@ describe('the saved ballot', () => {
         .getAllByRole('link')
         .map((l) => l.textContent),
     ).toEqual(['Search a new address'])
-    await userEvent.click(savedLink('Saved Choices (1 picked)'))
+    await userEvent.click(savedLink('Saved choices (1 picked)'))
     expect(
       screen.getByRole('heading', { level: 1, name: 'Saved choices' }),
     ).toBeInTheDocument()
@@ -587,7 +587,7 @@ describe('the saved ballot', () => {
 
     // The race still on the ballot keeps its pick; the other is hidden.
     expect(box('Jane Doe', GOV)).toBeChecked()
-    expect(savedLink('Saved Choices (1 picked)')).toBeInTheDocument()
+    expect(savedLink('Saved choices (1 picked)')).toBeInTheDocument()
     expect(
       screen.getByText(/1 pick is for a race that isn’t on this ballot/),
     ).toBeInTheDocument()

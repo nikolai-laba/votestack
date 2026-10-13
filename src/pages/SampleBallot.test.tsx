@@ -212,7 +212,7 @@ describe('sample ballots', () => {
     const before = saveOwnBallot()
     renderAt()
     expect(
-      screen.getByRole('link', { name: 'Saved Choices (1 picked)' }),
+      screen.getByRole('link', { name: 'Saved choices (1 picked)' }),
     ).toBeInTheDocument()
     await userEvent.click(
       screen.getByRole('link', { name: 'Search a new address' }),
@@ -221,12 +221,12 @@ describe('sample ballots', () => {
 
     expect(localStorage.getItem(STORAGE_KEY)).toBe(before)
     expect(
-      screen.getByRole('link', { name: 'Saved Choices (1 picked)' }),
+      screen.getByRole('link', { name: 'Saved choices (1 picked)' }),
     ).toBeInTheDocument()
 
     // Saved choices shows the voter's own ballot, never the sample.
     await userEvent.click(
-      screen.getByRole('link', { name: 'Saved Choices (1 picked)' }),
+      screen.getByRole('link', { name: 'Saved choices (1 picked)' }),
     )
     await screen.findByRole('heading', { level: 1, name: 'Saved choices' })
     expect(screen.getByText('Trustee, Village of Oak Park')).toBeInTheDocument()

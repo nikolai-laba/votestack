@@ -50,16 +50,16 @@ const ballot: Ballot = {
 }
 
 describe('site menu', () => {
-  it('links My Ballot (home), About and Saved Choices', () => {
+  it('links My ballot (home), About and Saved choices', () => {
     renderAt('/')
     expect(
       within(menu())
         .getAllByRole('link')
         .map((a) => [a.textContent, a.getAttribute('href')]),
     ).toEqual([
-      ['My Ballot', '/'],
+      ['My ballot', '/'],
       ['About', '/about'],
-      ['Saved Choices', '/saved-choices'],
+      ['Saved choices', '/saved-choices'],
     ])
   })
 
@@ -81,7 +81,7 @@ describe('site menu', () => {
       'aria-current',
       'page',
     )
-    for (const name of ['My Ballot', 'Saved Choices'])
+    for (const name of ['My ballot', 'Saved choices'])
       expect(within(menu()).getByRole('link', { name })).not.toHaveAttribute(
         'aria-current',
       )
@@ -98,13 +98,13 @@ describe('site menu', () => {
     renderAt('/')
     // Nothing picked yet: no count.
     expect(
-      within(menu()).getByRole('link', { name: 'Saved Choices' }),
+      within(menu()).getByRole('link', { name: 'Saved choices' }),
     ).toHaveAttribute('href', '/saved-choices')
     act(() => {
       ballotStore.toggle(ballot.contests[0], 'jane-doe')
     })
     expect(
-      within(menu()).getByRole('link', { name: 'Saved Choices (1 picked)' }),
+      within(menu()).getByRole('link', { name: 'Saved choices (1 picked)' }),
     ).toHaveAttribute('href', '/saved-choices')
   })
 
@@ -123,7 +123,7 @@ describe('site menu', () => {
     // Into the list, then Escape closes it and returns focus to the button.
     await userEvent.tab()
     expect(
-      within(menu()).getByRole('link', { name: 'My Ballot' }),
+      within(menu()).getByRole('link', { name: 'My ballot' }),
     ).toHaveFocus()
     await userEvent.keyboard('{Escape}')
     expect(button).toHaveAttribute('aria-expanded', 'false')
@@ -134,6 +134,22 @@ describe('site menu', () => {
     expect(button).toHaveAttribute('aria-expanded', 'true')
     await userEvent.keyboard(' ')
     expect(button).toHaveAttribute('aria-expanded', 'false')
+  })
+
+  it('links the logo home, in the version for the current mode', async () => {
+    renderAt('/')
+    const home = screen.getByRole('link', { name: 'VoteStack home' })
+    expect(home).toHaveAttribute('href', '/')
+    const logo = () => home.querySelector('img')!
+    expect(logo()).toHaveAttribute('src', '/brand/votestack-wordmark.png')
+    await userEvent.click(
+      within(menu()).getByRole('button', { name: 'Dark mode' }),
+    )
+    expect(logo()).toHaveAttribute('src', '/brand/votestack-wordmark-dark.png')
+    // Back to the device's mode for the tests after this one.
+    await userEvent.click(
+      within(menu()).getByRole('button', { name: 'Light mode' }),
+    )
   })
 
   it('switches between light and dark mode and remembers it', async () => {

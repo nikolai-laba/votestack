@@ -11,6 +11,28 @@ import { pickCounts } from '../picks/summary.ts'
 import { useTheme } from '../theme/themePreference.ts'
 import { ChevronDownIcon, MoonIcon, SunIcon } from './icons.tsx'
 
+/**
+ * The VoteStack logo (mark and wordmark), in the version for the site's
+ * current mode, so the menu's light/dark switch changes it too. The link
+ * around it names it, so the image itself is decorative.
+ */
+function Wordmark() {
+  const [theme] = useTheme()
+  return (
+    <img
+      src={
+        theme === 'dark'
+          ? '/brand/votestack-wordmark-dark.png'
+          : '/brand/votestack-wordmark.png'
+      }
+      alt=""
+      width={506}
+      height={84}
+      className="h-7 w-auto"
+    />
+  )
+}
+
 export function Layout() {
   // List-detail pages (a profile beside the ballot) get up to 1200px on wide
   // screens; everything else stays at reading width.
@@ -29,13 +51,12 @@ export function Layout() {
         <div
           className={`mx-auto flex ${width} flex-wrap items-center justify-between gap-x-6 px-4 py-3`}
         >
-          {/* The wordmark is live text, lowercase, one colour. */}
           <Link
             to="/"
             aria-label="VoteStack home"
-            className="inline-flex min-h-11 items-center text-xl font-bold text-text no-underline"
+            className="inline-flex min-h-11 items-center no-underline"
           >
-            VoteStack
+            <Wordmark />
           </Link>
           <SiteMenu />
         </div>
@@ -188,7 +209,7 @@ function SiteMenu() {
           <li>
             {/* The ballot list is the home page. */}
             <NavLink to="/" end onClick={close} className={linkClass}>
-              My Ballot
+              My ballot
             </NavLink>
           </li>
           <li>
@@ -203,8 +224,8 @@ function SiteMenu() {
               className={linkClass}
             >
               {picked > 0
-                ? `Saved Choices (${picked} picked)`
-                : 'Saved Choices'}
+                ? `Saved choices (${picked} picked)`
+                : 'Saved choices'}
             </NavLink>
           </li>
           <li>

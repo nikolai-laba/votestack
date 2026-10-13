@@ -393,7 +393,7 @@ describe('HomePage', () => {
     )
     expect(router.state.location.pathname).toBe('/getstarted')
 
-    await userEvent.click(screen.getByRole('link', { name: 'My Ballot' }))
+    await userEvent.click(screen.getByRole('link', { name: 'My ballot' }))
     expect(router.state.location.pathname).toBe('/')
     expect(screen.getByText('834 Lake St, Oak Park, IL 60301')).toBeVisible()
     expect(
