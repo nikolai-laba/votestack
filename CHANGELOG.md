@@ -5,6 +5,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-10-12
+
 ### Added
 
 - **Get an email when VoteStack covers your area.** People outside Chicago and Cook County can leave an email address and ZIP code at `/notify`, linked from the address form, the "couldn't find that address" message and the About page. Only the email address and ZIP code are saved, they're used only for that email and to count where people are asking from, and they're deleted on request. The About page's privacy section says so.
@@ -45,5 +47,6 @@ The first public release, for the November 3, 2026 general election in Chicago a
 
 VoteStack was developed privately before its first public release. 0.1.0 (2026-10-04) set up the web app, hosting on Cloudflare Workers, CI and secret scanning. 0.2.0 (2026-10-04) added the Cook County ballot lookup, the address form and the site's look.
 
-[Unreleased]: https://github.com/nikolai-laba/votestack/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/nikolai-laba/votestack/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/nikolai-laba/votestack/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/nikolai-laba/votestack/releases/tag/v1.0.0
