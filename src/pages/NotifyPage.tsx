@@ -16,6 +16,7 @@ import {
   validateZip,
   type SignupField,
 } from '../shared/notify.ts'
+import { NOTIFY_HEAD, useDocumentHead } from '../head.ts'
 
 // /notify: people outside the area VoteStack covers leave an email address
 // and a ZIP code to hear when it reaches them. Linked from the address form
@@ -49,13 +50,7 @@ const SEND_ERRORS: Record<SignupSendError['kind'], string> = {
 export default function NotifyPage() {
   const siteKey: string | undefined = import.meta.env.VITE_TURNSTILE_SITE_KEY
 
-  useEffect(() => {
-    const previous = document.title
-    document.title = 'Get an email when VoteStack covers your area | VoteStack'
-    return () => {
-      document.title = previous
-    }
-  }, [])
+  useDocumentHead(NOTIFY_HEAD)
 
   // Start keyboard and screen reader users at the top of what changed.
   useEffect(() => {

@@ -6,6 +6,9 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  // The prerender step (scripts/prerender.ts) reads which chunks each page
+  // needs from the manifest, then deletes it.
+  build: { manifest: true },
   test: {
     environment: 'jsdom',
     setupFiles: ['./src/test/setup.ts'],

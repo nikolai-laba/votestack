@@ -10,6 +10,7 @@ import { BackLink } from '../components/profile/BackLink.tsx'
 import { LAST_CHECKED } from '../data/lastChecked.ts'
 import { longDate } from '../format.ts'
 import type { Ballot } from '../shared/ballot.ts'
+import { ABOUT_HEAD, useDocumentHead } from '../head.ts'
 
 // What VoteStack is, where its information comes from and when it was
 // checked. The site footer links here, including to the ballot order
@@ -67,13 +68,7 @@ export default function AboutPage() {
     ;(target ?? document.getElementById(HEADING_ID))?.focus()
   }, [location.hash, location.key])
 
-  useEffect(() => {
-    const previous = document.title
-    document.title = 'About VoteStack | VoteStack'
-    return () => {
-      document.title = previous
-    }
-  }, [])
+  useDocumentHead(ABOUT_HEAD)
 
   const racesChecked = racesCheckedOn(ballot)
 

@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "dev:full": "vite build && wrangler dev",
+    "dev:full": "npm run build:site && wrangler dev",
     "typecheck": "tsc -b && tsc -p worker && tsc -p scripts",
-    "build": "npm run typecheck && vite build",
+    "build": "npm run typecheck && npm run build:site",
+    "build:site": "vite build && vite build --ssr src/prerender.tsx --outDir dist-ssr && node scripts/prerender.ts",
     "preview": "vite preview",
     "lint": "oxlint",
     "format": "prettier --write .",

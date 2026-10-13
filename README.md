@@ -62,21 +62,21 @@ npm run dev        # web app only, at http://localhost:5173
 npm run dev:full   # build, then serve the app and API Worker at http://localhost:8787
 ```
 
-| Command                                   | What it does                    |
-| ----------------------------------------- | ------------------------------- |
-| `npm run lint`                            | Lint with oxlint                |
-| `npm run format`                          | Format with Prettier            |
-| `npm test`                                | Run all tests once (Vitest)     |
-| `npm test -- src/pages/HomePage.test.tsx` | Run one test file               |
-| `npm run typecheck`                       | Type-check the app and Worker   |
-| `npm run build`                           | Type-check and build to `dist/` |
+| Command                                   | What it does                                          |
+| ----------------------------------------- | ----------------------------------------------------- |
+| `npm run lint`                            | Lint with oxlint                                      |
+| `npm run format`                          | Format with Prettier                                  |
+| `npm test`                                | Run all tests once (Vitest)                           |
+| `npm test -- src/pages/HomePage.test.tsx` | Run one test file                                     |
+| `npm run typecheck`                       | Type-check the app and Worker                         |
+| `npm run build`                           | Type-check, build to `dist/` and prerender every page |
 
 The pre-commit hooks (lefthook) run gitleaks, oxlint and Prettier on staged files. CI (`.github/workflows/ci.yml`) runs lint, the format check, tests, the build and a gitleaks scan.
 
 ## Architecture
 
-- `src/`: the React single-page app. Routes are defined in `src/routes.tsx` and shared by the app (`main.tsx`) and the tests. The build must keep working as plain static files in `dist/` (no server rendering), so it can be wrapped for iOS and Android with Capacitor later.
-- `worker/`: the Cloudflare Worker (`worker/index.ts`), the only server-side code and the only place API keys are read. `wrangler.toml` serves `dist/` as static assets with a single-page-app fallback; only `/api/*` runs the Worker. `POST /api/ballot` (`worker/ballot.ts`) runs the lookup; the address is only ever in the request body and is never logged or cached.
+- `src/`: the React single-page app. Routes are defined in `src/routes.tsx` and shared by the app (`main.tsx`) and the tests. The build must keep working as plain static files in `dist/` (no server at request time), so it can be wrapped for iOS and Android with Capacitor later. After `vite build`, `scripts/prerender.ts` writes every page as its own HTML file (`about.html`, `candidates/{key}.html`), rendered with the app's own components (`src/prerender.tsx`), plus `robots.txt`, `sitemap.xml` and `404.html`. Each page's title, description and canonical address come from `src/head.ts`. Candidate pages are built for the profiles in `content/profiles/published/`, which `npm run profiles:publish` writes.
+- `worker/`: the Cloudflare Worker (`worker/index.ts`), the only server-side code and the only place API keys are read. `wrangler.toml` serves `dist/` as static assets; an address with no file gets `404.html` with a 404 status. Only `/api/*` runs the Worker. `POST /api/ballot` (`worker/ballot.ts`) runs the lookup; the address is only ever in the request body and is never logged or cached.
 - `src/shared/`: the internal ballot schema (`ballot.ts`: Election → Contest → Candidate, Retention or Measure, keyed by OCD-IDs in `ocd.ts`), the `BallotProvider` and `Geocoder` interfaces (`provider.ts`), address parsing and point-in-polygon. Shared by the app, the Worker and the scripts; keep it dependency-free.
 - `scripts/`: Node scripts (plain `.ts`, so only erasable TypeScript syntax) that import official data and build profiles. Downloaded and generated data goes to the gitignored `data/raw/` and `data/build/`. Districts come from the voter's address point, not the precinct, because precincts can cross district lines.
 - `supabase/migrations/`: the Postgres and PostGIS schema. Row-level security is on for every table with no policies; only the Worker reads it, with the secret key, through SQL functions.

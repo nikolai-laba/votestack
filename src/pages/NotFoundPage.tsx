@@ -1,14 +1,8 @@
-import { useEffect } from 'react'
 import { Link } from 'react-router'
+import { NOT_FOUND_HEAD, useDocumentHead } from '../head.ts'
 
 export function NotFoundPage() {
-  useEffect(() => {
-    const previous = document.title
-    document.title = 'Page not found | VoteStack'
-    return () => {
-      document.title = previous
-    }
-  }, [])
+  useDocumentHead(NOT_FOUND_HEAD)
   return (
     <section className="space-y-4">
       <h1 className="text-title lg:text-title-lg">Page not found</h1>

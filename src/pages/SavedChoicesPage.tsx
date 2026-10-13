@@ -18,6 +18,7 @@ import {
   pickedCandidates,
 } from '../picks/summary.ts'
 import type { Contest } from '../shared/ballot.ts'
+import { SAVED_CHOICES_HEAD, useDocumentHead } from '../head.ts'
 
 // Saved choices: the voter's picks in ballot order, to fill in a mail
 // ballot or vote at the polling place. A page of its own, one column, with
@@ -38,13 +39,7 @@ export function SavedChoicesPage() {
     document.getElementById(HEADING_ID)?.focus()
   }, [])
 
-  useEffect(() => {
-    const previous = document.title
-    document.title = 'Saved choices | VoteStack'
-    return () => {
-      document.title = previous
-    }
-  }, [])
+  useDocumentHead(SAVED_CHOICES_HEAD)
 
   const heading = (
     <h1

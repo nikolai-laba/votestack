@@ -20,6 +20,7 @@ import {
   type ReportField,
   type ReportSection,
 } from '../shared/report.ts'
+import { reportHead, useDocumentHead } from '../head.ts'
 
 // "Report an error" on a candidate profile, a child route of the home
 // page like the profile itself, so the ballot stays in memory. Loaded lazily:
@@ -87,15 +88,7 @@ export default function ReportPage() {
   const profile = query.data
   const siteKey: string | undefined = import.meta.env.VITE_TURNSTILE_SITE_KEY
 
-  useEffect(() => {
-    const previous = document.title
-    document.title = profile
-      ? `Report an error in ${profile.name}’s profile | VoteStack`
-      : 'Report an error | VoteStack'
-    return () => {
-      document.title = previous
-    }
-  }, [profile])
+  useDocumentHead(reportHead(profile?.name))
 
   // Start keyboard and screen reader users at the top of what changed.
   useEffect(() => {

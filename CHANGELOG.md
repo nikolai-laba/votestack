@@ -5,6 +5,14 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+### Added
+
+- **Pages search engines can read.** Every candidate profile and site page is now built as its own web page, with the full profile in it, so search engines, link previews and slow connections see the content before the app starts. Each page has its own title, description and link preview image, and the site has a `sitemap.xml` and `robots.txt`.
+
+### Changed
+
+- Addresses that don't exist on the site now return a real "not found" (404) status, and pages that shouldn't appear in search results (Saved choices, report forms, missing profiles) ask search engines not to list them.
+
 ## [1.1.0] - 2026-10-12
 
 ### Added

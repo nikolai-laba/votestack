@@ -10,6 +10,7 @@ import { BackLink } from '../components/profile/BackLink.tsx'
 import { ProfileArticle } from '../components/profile/ProfileArticle.tsx'
 import { sampleNoticeId } from '../components/profile/ids.ts'
 import { ProfileSkeleton } from '../components/profile/ProfileSkeleton.tsx'
+import { MISSING_PROFILE_HEAD, profileHead, useDocumentHead } from '../head.ts'
 
 // A candidate profile, under the election's name and date, with the
 // candidate's race(s) beside it on wide screens and above it on narrow ones
@@ -49,17 +50,6 @@ export default function ProfilePage() {
     if (query.isError) document.getElementById(HEADING_ID)?.focus()
   }, [query.isError])
 
-  useEffect(() => {
-    if (!profile) return
-    const previous = document.title
-    document.title = profile.sample
-      ? `Sample profile of ${profile.name} | VoteStack`
-      : `${profile.name}, candidate profile | VoteStack`
-    return () => {
-      document.title = previous
-    }
-  }, [profile])
-
   // The race panel (beside the profile from 840px, at its top below that)
   // holds "Back to your full ballot" and the pick boxes.
   const panelBeside =
@@ -67,6 +57,10 @@ export default function ProfilePage() {
 
   const notFound =
     query.error instanceof ProfileLoadError && query.error.kind === 'not_found'
+
+  useDocumentHead(
+    profile ? profileHead(profile) : notFound ? MISSING_PROFILE_HEAD : null,
+  )
 
   return (
     <div className="max-w-[65ch] space-y-6">

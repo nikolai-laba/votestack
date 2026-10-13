@@ -8,6 +8,7 @@ import {
   OVERVIEW_WORD_LIMITS,
   MONEY_SHARES_MIN_RAISED,
 } from '../shared/profile.ts'
+import { HOW_PROFILES_HEAD, useDocumentHead } from '../head.ts'
 
 // The methods page for candidate profiles, linked from every
 // profile's disclosure. It describes what the pipeline in scripts/profiles/
@@ -50,13 +51,7 @@ export function HowProfilesPage() {
     document.getElementById(HEADING_ID)?.focus()
   }, [])
 
-  useEffect(() => {
-    const previous = document.title
-    document.title = 'How we make profiles | VoteStack'
-    return () => {
-      document.title = previous
-    }
-  }, [])
+  useDocumentHead(HOW_PROFILES_HEAD)
 
   const words = OVERVIEW_WORD_LIMITS
   const paragraphs = OVERVIEW_PARAGRAPH_LIMITS
