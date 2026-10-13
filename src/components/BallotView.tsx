@@ -500,7 +500,7 @@ function RetentionPanel({
         <summary className="flex min-h-12 cursor-pointer list-none items-center justify-between gap-4 px-4 text-label font-semibold [&::-webkit-details-marker]:hidden">
           <span>Judges up for retention ({judges.length})</span>
           {/* Native <details> announces expanded or collapsed; this shows it. */}
-          <span className="flex shrink-0 items-center gap-1 text-small text-primary">
+          <span className="flex shrink-0 items-center gap-1 text-small text-link">
             <span className="underline underline-offset-[3px] group-open:hidden">
               Show
             </span>

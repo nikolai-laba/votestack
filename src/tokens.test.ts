@@ -77,6 +77,13 @@ const PAIRS: [string, string, number][] = [
   ['primary', 'surface', 4.5],
   ['on-primary', 'primary', 4.5],
   ['on-highlight', 'highlight', 4.5],
+  ['link', 'bg', 4.5],
+  ['link', 'surface', 4.5],
+  ['link', 'band', 4.5],
+  // The selected option: its text, focus ring, border and radio dot.
+  ['on-selected', 'selected', 4.5],
+  ['selected-line', 'selected', 3],
+  ['selected-line', 'bg', 3],
   // A picked name on Saved choices.
   ['on-pick', 'pick', 4.5],
   ['warn-fg', 'warn-bg', 4.5],
@@ -87,16 +94,22 @@ const PAIRS: [string, string, number][] = [
   ['field', 'bg', 3],
   ['focus', 'bg', 3],
   ['focus', 'surface', 3],
-  // Pairs that meet inside components: the current section and menu page
-  // (highlight), links in amber notices, the contest band.
-  ['muted', 'highlight', 4.5],
+  // Pairs that meet inside components: links in amber notices, the contest
+  // band. Nothing muted sits on the highlight, and a focus ring inside a
+  // highlighted option uses on-highlight (BallotOrderToggle), checked above.
   ['muted', 'band', 4.5],
   ['muted', 'warn-bg', 4.5],
-  ['focus', 'highlight', 3],
   ['focus', 'warn-bg', 3],
   ['focus', 'band', 3],
   ['warn-line', 'warn-bg', 3],
 ]
+
+describe('light links', () => {
+  // Underlined too, but also set apart from body text by colour (3:1).
+  it('stand apart from body text', () => {
+    expect(contrast(light.link, light.text)).toBeGreaterThanOrEqual(3)
+  })
+})
 
 describe.each([
   ['light', light],

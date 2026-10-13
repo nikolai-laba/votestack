@@ -152,7 +152,7 @@ function EndorsementList({ items }: { items: Endorsement[] }) {
           aria-expanded={expanded}
           aria-controls={listId}
           onClick={() => setExpanded((x) => !x)}
-          className="group flex min-h-11 cursor-pointer items-center gap-1 text-small text-primary"
+          className="group flex min-h-11 cursor-pointer items-center gap-1 text-small text-link"
         >
           <span className="underline underline-offset-[3px]">
             {expanded ? 'Show fewer' : `Show all ${items.length} endorsements`}

@@ -38,7 +38,11 @@
   --ease-standard: cubic-bezier(0.2, 0, 0, 1);
 }
 
-/* Semantic roles (Forest palette). Contrast ratios are checked in tokens.test.ts. */
+/* Semantic roles (Forest palette). Contrast ratios are checked in tokens.test.ts.
+   The electric lime is used sparingly, only as a fill behind dark text: the
+   current page and section, the selected option (light mode), and picked
+   names. Links have their own colour, apart from body text; primary is for
+   the main button and focus. */
 :root {
   --bg: #f5f6f1;
   --surface: #ffffff;
@@ -48,11 +52,16 @@
   --field: #6b7a70;
   --primary: #1e5135;
   --on-primary: #ffffff;
-  --highlight: #cfe59a;
+  --link: #1d7a45;
+  --highlight: #62d846;
   --on-highlight: #17241c;
   /* A picked name on Saved choices: a marker-style lime background. */
-  --pick: #cfe59a;
+  --pick: #62d846;
   --on-pick: #17241c;
+  /* The selected option in a set of choices (Order of races). */
+  --selected: #62d846;
+  --on-selected: #17241c;
+  --selected-line: #1e5135;
   --band: #e8ede3;
   --warn-bg: #fbefd2;
   --warn-fg: #5c3d0a;
@@ -74,19 +83,23 @@
   --muted: #a7b4ab;
   --line: #2c3a31;
   --field: #7f8f84;
-  --primary: #b9dd7f;
+  --primary: #a9d6b8;
   --on-primary: #17241c;
-  --highlight: #33472a;
-  --on-highlight: #e6ece4;
-  --pick: #b9dd7f;
+  --link: #a9d6b8;
+  --highlight: #62d846;
+  --on-highlight: #17241c;
+  --pick: #62d846;
   --on-pick: #17241c;
+  --selected: #24402a;
+  --on-selected: #e6ece4;
+  --selected-line: #62d846;
   --band: #1d2b22;
   --warn-bg: #3a2c10;
   --warn-fg: #f3d9a4;
   --warn-line: #c8912c;
   --danger: #f2a39a;
   --success: #8fd3a5;
-  --focus: #b9dd7f;
+  --focus: #a9d6b8;
   color-scheme: dark;
 }
 
@@ -98,19 +111,23 @@
     --muted: #a7b4ab;
     --line: #2c3a31;
     --field: #7f8f84;
-    --primary: #b9dd7f;
+    --primary: #a9d6b8;
     --on-primary: #17241c;
-    --highlight: #33472a;
-    --on-highlight: #e6ece4;
-    --pick: #b9dd7f;
+    --link: #a9d6b8;
+    --highlight: #62d846;
+    --on-highlight: #17241c;
+    --pick: #62d846;
     --on-pick: #17241c;
+    --selected: #24402a;
+    --on-selected: #e6ece4;
+    --selected-line: #62d846;
     --band: #1d2b22;
     --warn-bg: #3a2c10;
     --warn-fg: #f3d9a4;
     --warn-line: #c8912c;
     --danger: #f2a39a;
     --success: #8fd3a5;
-    --focus: #b9dd7f;
+    --focus: #a9d6b8;
     color-scheme: dark;
   }
 }
@@ -131,6 +148,10 @@
   --color-field: var(--field);
   --color-primary: var(--primary);
   --color-on-primary: var(--on-primary);
+  --color-link: var(--link);
+  --color-selected: var(--selected);
+  --color-on-selected: var(--on-selected);
+  --color-selected-line: var(--selected-line);
   --color-highlight: var(--highlight);
   --color-on-highlight: var(--on-highlight);
   --color-pick: var(--pick);
@@ -170,7 +191,7 @@
   }
 
   a {
-    color: var(--primary);
+    color: var(--link);
     text-decoration-line: underline;
     text-underline-offset: 3px;
   }

@@ -29,7 +29,7 @@ export function BallotOrderToggle({ contests }: { contests: Contest[] }) {
           {OPTIONS.map((option) => (
             <label
               key={option.value}
-              className="flex min-h-11 cursor-pointer items-center gap-2 rounded-md border-2 border-field bg-surface px-3 py-1 text-text has-checked:border-primary has-checked:bg-highlight has-checked:text-on-highlight"
+              className="flex min-h-11 cursor-pointer items-center gap-2 rounded-md border-2 border-field bg-surface px-3 py-1 text-text has-checked:border-selected-line has-checked:bg-selected has-checked:text-on-selected has-checked:[--focus:var(--on-selected)]"
             >
               <input
                 type="radio"
@@ -37,7 +37,7 @@ export function BallotOrderToggle({ contests }: { contests: Contest[] }) {
                 value={option.value}
                 checked={order === option.value}
                 onChange={() => setOrder(option.value)}
-                className="size-5 shrink-0 cursor-pointer accent-primary"
+                className="size-5 shrink-0 cursor-pointer accent-primary checked:accent-selected-line"
               />
               {option.label}
             </label>
