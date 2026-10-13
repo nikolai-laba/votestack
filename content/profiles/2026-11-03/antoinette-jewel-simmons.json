@@ -10,7 +10,29 @@
   ],
   "kind": "candidate",
   "tier": "mid",
-  "overview": { "asOf": "2026-10-07", "items": [] },
+  "overview": {
+    "asOf": "2026-10-13",
+    "items": [
+      {
+        "text": "Antoinette Jewel Simmons is a community organizer, according to her campaign website. She says she has worked on local political campaigns, including Mayor Brandon Johnson's, and served as general manager of Urban Broadcast Media. Her campaign platform includes expanding affordable healthcare, ensuring fair wages, modernizing law enforcement, investing in community-based solutions, improving education equity, and investing in infrastructure.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Antoinette Jewel Simmons is a community organizer, according to her campaign website.",
+            "cites": [1]
+          },
+          {
+            "text": "She says she has worked on local political campaigns, including Mayor Brandon Johnson's, and served as general manager of Urban Broadcast Media.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign platform includes expanding affordable healthcare, ensuring fair wages, modernizing law enforcement, investing in community-based solutions, improving education equity, and investing in infrastructure.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
   "money": {
     "asOf": "2026-10-07",
     "items": [
@@ -25,12 +47,29 @@
       }
     ]
   },
-  "endorsements": { "asOf": "2026-10-07", "items": [] },
-  "sources": [],
+  "endorsements": { "asOf": "2026-10-13", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Antoinette Jewel Simmons",
+      "publisher": "Antoinette Jewel Simmons campaign",
+      "url": "https://www.citizensforantoinette.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-13"
+    },
+    {
+      "id": 2,
+      "title": "About | Antoinette Jewel Sim",
+      "publisher": "Antoinette Jewel Simmons campaign",
+      "url": "https://www.citizensforantoinette.com/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-13"
+    }
+  ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-07T20:44:45.112Z",
-    "version": 3
+    "generatedAt": "2026-10-13T15:06:25.521Z",
+    "version": 4
   }
 }

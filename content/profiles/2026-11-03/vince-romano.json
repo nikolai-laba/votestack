@@ -7,41 +7,87 @@
   "contestIds": ["chicago-boe:state-senator-8th-district", "cook-clerk:170802"],
   "kind": "candidate",
   "tier": "mid",
-  "overview": { "asOf": "2026-10-07", "items": [] },
+  "overview": {
+    "asOf": "2026-10-13",
+    "items": [
+      {
+        "text": "Vince Romano is a broker with Berkshire Hathaway Homes Services and previously worked as a financial advisor at Morgan Stanley. In his 2022 campaign, his main issues included pension reform, reducing taxes, opposing corruption in Springfield, addressing crime, and supporting school choice. He criticized a transit package that increased road tolls, saying it made constituents' lives unaffordable.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Vince Romano is a broker with Berkshire Hathaway Homes Services and previously worked as a financial advisor at Morgan Stanley.",
+            "cites": [1]
+          },
+          {
+            "text": "In his 2022 campaign, his main issues included pension reform, reducing taxes, opposing corruption in Springfield, addressing crime, and supporting school choice.",
+            "cites": [2]
+          },
+          {
+            "text": "He criticized a transit package that increased road tolls, saying it made constituents' lives unaffordable.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
   "money": { "asOf": "2026-10-07", "items": [] },
   "endorsements": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-13",
     "items": [
       {
         "organization": "Illinois Family Action",
         "kind": "organization",
-        "cites": [1]
+        "cites": [4]
       },
-      { "organization": "Niles Township GOP", "kind": "party", "cites": [2] }
+      { "organization": "Niles Township GOP", "kind": "party", "cites": [5] }
     ]
   },
   "sources": [
     {
       "id": 1,
-      "title": "2026 General Election Endorsements",
-      "publisher": "Illinois Family Action",
-      "url": "https://illinoisfamilyaction.org/2026/09/ifas-2026-general-election-endorsements-2/",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "title": "Vince Romano",
+      "publisher": "BallotReady",
+      "url": "https://www.ballotready.org/people/vince-romano",
+      "kind": "reference",
+      "viewedAt": "2026-10-13"
     },
     {
       "id": 2,
-      "title": "Endorsements 2026 GOP primary - Niles Township GOP",
+      "title": "Romano: 'This is beyond a left-to-right issue. It's up or down now.'",
+      "publisher": "North Cook News",
+      "url": "https://northcooknews.com/romano-this-is-beyond-a-left-to-right-issue-its-up-or-down-now/",
+      "kind": "news",
+      "viewedAt": "2026-10-13"
+    },
+    {
+      "id": 3,
+      "title": "Editorial: Ram Villivalam for Illinois 8th Senate District",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/10/08/editorial-ram-villivalam-illinois-8th-senate-district/",
+      "kind": "news",
+      "viewedAt": "2026-10-13"
+    },
+    {
+      "id": 4,
+      "title": "2026 General Election Endorsements",
+      "publisher": "Illinois Family Action",
+      "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-13"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements 2026 GOP primary",
       "publisher": "Niles Township GOP",
       "url": "https://www.ntgop.org/endorsements_2026_gop_primary",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-13"
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-07T20:56:27.755Z",
-    "version": 2
+    "generatedAt": "2026-10-13T15:12:59.254Z",
+    "version": 4
   }
 }

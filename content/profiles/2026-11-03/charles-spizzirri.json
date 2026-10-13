@@ -10,14 +10,57 @@
   ],
   "kind": "candidate",
   "tier": "mid",
-  "overview": { "asOf": "2026-10-07", "items": [] },
+  "overview": {
+    "asOf": "2026-10-13",
+    "items": [
+      {
+        "text": "Charles Spizzirri's campaign says he has decades of experience as a firefighter. He wants to secure funding to upgrade stormwater management and repave streets. He supports permanent property assessment caps and local tax credits to keep housing affordable. He supports securing funding for first responder equipment and training.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Charles Spizzirri's campaign says he has decades of experience as a firefighter.",
+            "cites": [1]
+          },
+          {
+            "text": "He wants to secure funding to upgrade stormwater management and repave streets.",
+            "cites": [2]
+          },
+          {
+            "text": "He supports permanent property assessment caps and local tax credits to keep housing affordable.",
+            "cites": [2]
+          },
+          {
+            "text": "He supports securing funding for first responder equipment and training.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
   "money": { "asOf": "2026-10-07", "items": [] },
-  "endorsements": { "asOf": "2026-10-07", "items": [] },
-  "sources": [],
+  "endorsements": { "asOf": "2026-10-13", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Charles Spizzirri: Championing Cook County's 11th District",
+      "publisher": "Citizens for Charles Spizzirri",
+      "url": "https://www.citizensforcharlesspizzirri.com/post/aasi-siddique-championing-cook-county-13th-district",
+      "kind": "candidate",
+      "viewedAt": "2026-10-13"
+    },
+    {
+      "id": 2,
+      "title": "Charles Spizzirri: Home",
+      "publisher": "Citizens for Charles Spizzirri",
+      "url": "https://www.citizensforcharlesspizzirri.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-13"
+    }
+  ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-07T20:38:34.738Z",
-    "version": 3
+    "generatedAt": "2026-10-13T15:06:25.521Z",
+    "version": 4
   }
 }

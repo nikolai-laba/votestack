@@ -10,14 +10,55 @@
   ],
   "kind": "candidate",
   "tier": "mid",
-  "overview": { "asOf": "2026-10-07", "items": [] },
+  "overview": {
+    "asOf": "2026-10-13",
+    "items": [
+      {
+        "text": "Pete Donaghue is a former trader who has worked in real estate. He opposes a proposed millionaire surtax. He supports pension reform that protects benefits already earned while reducing future obligations. He would eliminate electronic monitoring for defendants awaiting trial.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Pete Donaghue is a former trader who has worked in real estate.",
+            "cites": [1]
+          },
+          { "text": "He opposes a proposed millionaire surtax.", "cites": [1] },
+          {
+            "text": "He supports pension reform that protects benefits already earned while reducing future obligations.",
+            "cites": [1]
+          },
+          {
+            "text": "He would eliminate electronic monitoring for defendants awaiting trial.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
   "money": { "asOf": "2026-10-07", "items": [] },
-  "endorsements": { "asOf": "2026-10-07", "items": [] },
-  "sources": [],
+  "endorsements": {
+    "asOf": "2026-10-13",
+    "items": [
+      {
+        "organization": "Chicago Tribune Editorial Board",
+        "kind": "editorial_board",
+        "cites": [1]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Editorial: Pete Donaghue for Illinois 18th House District",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/10/11/editorial-pete-donaghue-for-illinois-18th-house-district/",
+      "kind": "news",
+      "viewedAt": "2026-10-13"
+    }
+  ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-07T20:44:25.032Z",
-    "version": 3
+    "generatedAt": "2026-10-13T15:05:51.693Z",
+    "version": 4
   }
 }
