@@ -13,6 +13,10 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 - Addresses that don't exist on the site now return a real "not found" (404) status, and pages that shouldn't appear in search results (Saved choices, report forms, missing profiles) ask search engines not to list them.
 
+### Fixed
+
+- Six candidate profiles that were empty were researched again. Four now have an overview with sources. Two still say "Not found in public sources", because there's little public information about those candidates.
+
 ## [1.1.0] - 2026-10-12
 
 ### Added
