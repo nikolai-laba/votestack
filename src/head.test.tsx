@@ -2,6 +2,7 @@ import { cleanup, render } from '@testing-library/react'
 import { afterEach, describe, expect, it } from 'vitest'
 import {
   ABOUT_HEAD,
+  HOME_HEAD,
   NOT_FOUND_HEAD,
   headHtml,
   profileHead,
@@ -85,6 +86,22 @@ describe('headHtml', () => {
       '<meta property="og:image" content="https://votestack.org/brand/votestack-share.png" />',
     )
     expect(html).not.toContain('robots')
+  })
+
+  it('describes the site as JSON-LD on the home page only', () => {
+    const json = /<script type="application\/ld\+json">(.*)<\/script>/.exec(
+      headHtml(HOME_HEAD),
+    )?.[1]
+    const data = JSON.parse(json!)
+    expect(data['@graph'].map((n: { '@type': string }) => n['@type'])).toEqual([
+      'WebSite',
+      'Organization',
+    ])
+    expect(data['@graph'][0]).toMatchObject({
+      name: 'VoteStack',
+      url: 'https://votestack.org/',
+    })
+    expect(headHtml(ABOUT_HEAD)).not.toContain('ld+json')
   })
 
   it('marks noindex pages and gives them no canonical', () => {

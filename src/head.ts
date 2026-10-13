@@ -20,6 +20,35 @@ export interface PageHead {
   path?: string
   /** Keep the page out of search results (forms, device-only pages, 404s). */
   noindex?: boolean
+  /** schema.org data for search engines, written as JSON-LD (home page only). */
+  structuredData?: object
+}
+
+/**
+ * Who publishes the site, so search results can show "VoteStack" and its
+ * logo instead of the bare domain.
+ */
+const SITE_STRUCTURED_DATA = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': `${SITE_URL}/#website`,
+      name: SITE_NAME,
+      url: `${SITE_URL}/`,
+      inLanguage: 'en-US',
+      publisher: { '@id': `${SITE_URL}/#organization` },
+    },
+    {
+      '@type': 'Organization',
+      '@id': `${SITE_URL}/#organization`,
+      name: SITE_NAME,
+      url: `${SITE_URL}/`,
+      logo: `${SITE_URL}/brand/votestack-mark-512.png`,
+      email: 'nikolai@votestack.org',
+      sameAs: ['https://github.com/nikolai-laba/votestack'],
+    },
+  ],
 }
 
 /** "November 3, 2026" (no weekday, so it reads inside a sentence). */
@@ -31,6 +60,7 @@ export const HOME_HEAD: PageHead = {
   title: 'VoteStack: know what and who is on your ballot',
   description: `Enter your address to see every race and detailed candidate profiles covering positions, campaign financing, and endorsements, with cited sources. Starting with the ${ELECTION_DAY} General Election in Chicago and Cook County.`,
   path: '/',
+  structuredData: SITE_STRUCTURED_DATA,
 }
 
 export const ABOUT_HEAD: PageHead = {
@@ -157,6 +187,11 @@ export function headHtml(head: PageHead): string {
     '<meta property="og:image:alt" content="VoteStack" />',
     '<meta name="twitter:card" content="summary_large_image" />',
   )
+  if (head.structuredData) {
+    // `<` escaped so no text can end the script tag.
+    const json = JSON.stringify(head.structuredData).replace(/</g, '\\u003c')
+    lines.push(`<script type="application/ld+json">${json}</script>`)
+  }
   return lines.join('\n    ')
 }
 

@@ -7,7 +7,7 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ### Added
 
-- **Pages search engines can read.** Every candidate profile and site page is now built as its own web page, with the full profile in it, so search engines, link previews and slow connections see the content before the app starts. Each page has its own title, description and link preview image, and the site has a `sitemap.xml` and `robots.txt`.
+- **Pages search engines can read.** Every candidate profile and site page is now built as its own web page, with the full profile in it, so search engines, link previews and slow connections see the content before the app starts. Each page has its own title, description and link preview image, the site has a `sitemap.xml` and `robots.txt`, and the home page tells search engines the site’s name and logo.
 
 ### Changed
 
