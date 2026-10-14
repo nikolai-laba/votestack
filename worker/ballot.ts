@@ -1,6 +1,7 @@
 // BallotProvider backed by our own data in Supabase (official sources only):
-// address → point (Cook County address points) → precinct and districts
-// (PostGIS) → contests on the voter's election authority's ballot.
+// address → point (the county's address points, in the first region that
+// has the address) → precinct and districts (PostGIS) → contests on the
+// voter's election authority's ballot.
 // The address is sent to our database only, in request bodies, and is never
 // logged or stored.
 
@@ -10,18 +11,13 @@ import {
   parseAddress,
   streetKey,
   type AddressPoint,
+  type GeocodeResult,
   type StreetAddress,
 } from '../src/shared/address.ts'
 import type { Ballot, Contest, OcdId } from '../src/shared/ballot.ts'
-import {
-  applyClerkSplits,
-  authorityFor,
-  type ClerkSplit,
-  COOK_EVERYWHERE,
-  CURRENT_ELECTION,
-  precinctDistricts,
-} from '../src/shared/cook.ts'
+import { applyClerkSplits, type ClerkSplit } from '../src/shared/cook.ts'
 import type { BallotProvider, BallotQuery } from '../src/shared/provider.ts'
+import { REGIONS, regionsFor, type Region } from '../src/shared/regions.ts'
 import { rpc, type SupabaseConfig } from './supabase.ts'
 
 interface StreetPoint {
@@ -45,33 +41,26 @@ interface ContestsFor {
   unplaced: string[]
 }
 
-/** Layers every Cook County address should fall in; a miss means a boundary gap. */
-const REQUIRED_LAYERS = [
-  'congressional',
-  'state senate',
-  'state house',
-  'county board',
-  'board of review',
-  'judicial subcircuit',
-]
-
 export class SupabaseBallotProvider implements BallotProvider {
-  readonly id = 'official-cook'
+  readonly id = 'official'
   private readonly config: SupabaseConfig
+  private readonly regions: Region[]
 
-  constructor(config: SupabaseConfig) {
+  constructor(config: SupabaseConfig, regions = REGIONS) {
     this.config = config
+    this.regions = regions
   }
 
   private rpc<T>(fn: string, args: object): Promise<T> {
     return rpc<T>(this.config, fn, args)
   }
 
-  /** The address on one street (one `streetKey`), or null. */
-  private async locate(address: StreetAddress, key: string) {
+  /** The address on one street (one `streetKey`) in one region, or null. */
+  private async locate(address: StreetAddress, key: string, region: Region) {
     const rows = await this.rpc<StreetPoint[]>('street_points', {
       p_street_key: key,
       p_number: address.number,
+      p_region: region.id,
     })
     const points: AddressPoint[] = rows.map((r) => ({
       number: r.number,
@@ -84,24 +73,40 @@ export class SupabaseBallotProvider implements BallotProvider {
     return matchOnStreet(address, points)
   }
 
+  /** The address in one region: its own street first, then similar street names. */
+  private async find(address: StreetAddress, region: Region) {
+    const point = await this.locate(address, streetKey(address), region)
+    if (point) return point
+    const others = await Promise.all(
+      alternateStreetKeys(address).map((key) =>
+        this.locate(address, key, region),
+      ),
+    )
+    const found = others.filter((p) => p !== null)
+    return found.length === 1 ? found[0] : null
+  }
+
   async getBallot({
     address,
-    electionId = CURRENT_ELECTION.id,
+    electionId,
   }: BallotQuery): Promise<Ballot | null> {
-    if (electionId !== CURRENT_ELECTION.id) return null
     const parsed = parseAddress(address)
     if (!parsed) return null
-
-    let point = await this.locate(parsed, streetKey(parsed))
-    if (!point) {
-      const others = await Promise.all(
-        alternateStreetKeys(parsed).map((key) => this.locate(parsed, key)),
-      )
-      const found = others.filter((p) => p !== null)
-      if (found.length === 1) point = found[0]
+    const candidates = regionsFor(parsed, this.regions).filter(
+      (r) => electionId === undefined || r.election.id === electionId,
+    )
+    for (const region of candidates) {
+      const point = await this.find(parsed, region)
+      if (point) return this.ballotAt(point, region)
     }
-    if (!point) return null
+    return null
+  }
 
+  private async ballotAt(
+    point: GeocodeResult,
+    region: Region,
+  ): Promise<Ballot> {
+    const election = region.election
     const located = await this.rpc<DistrictsAt>('districts_at', {
       p_lat: point.lat,
       p_lng: point.lng,
@@ -110,16 +115,16 @@ export class SupabaseBallotProvider implements BallotProvider {
     // in the suburbs, the Board's precinct lists in Chicago.
     const clerk = applyClerkSplits(located.districts, located.clerkSplits ?? [])
     const precinctId = located.precinct?.id
-    const authority = authorityFor(precinctId)
+    const authority = region.authorityFor(precinctId)
     const districtIds = [
       ...new Set([
-        ...COOK_EVERYWHERE,
-        ...precinctDistricts(precinctId),
+        ...region.everywhere,
+        ...region.precinctDistricts(precinctId),
         ...clerk.districts.map((d) => d.ocdId),
       ]),
     ]
     const { contests, unplaced } = await this.rpc<ContestsFor>('contests_for', {
-      p_election_id: electionId,
+      p_election_id: election.id,
       p_authority_id: authority.id,
       p_district_ids: districtIds,
     })
@@ -137,7 +142,9 @@ export class SupabaseBallotProvider implements BallotProvider {
       )
     }
     const foundLayers = new Set(clerk.districts.map((d) => d.layer))
-    const missingLayers = REQUIRED_LAYERS.filter((l) => !foundLayers.has(l))
+    const missingLayers = region.requiredLayers.filter(
+      (l) => !foundLayers.has(l),
+    )
     if (missingLayers.length)
       notes.push(`We could not find your ${missingLayers.join(', ')} district.`)
     if (unplaced.length) {
@@ -147,7 +154,7 @@ export class SupabaseBallotProvider implements BallotProvider {
     }
 
     return {
-      election: CURRENT_ELECTION,
+      election,
       precinct: located.precinct
         ? { ...located.precinct, districtIds }
         : undefined,

@@ -1,7 +1,8 @@
-// Loads the lookup data (address points, district and precinct boundaries,
-// contests) from data/raw and data/build into Supabase, replacing what's
-// there. Apply supabase/migrations first. Needs SUPABASE_URL and
-// SUPABASE_SECRET_KEY in .env (never commit it).
+// Loads Cook County's lookup data (address points, district and precinct
+// boundaries, contests) from data/raw and data/build into Supabase, replacing
+// that region's rows; other regions' rows are left alone. Apply
+// supabase/migrations first. Needs SUPABASE_URL and SUPABASE_SECRET_KEY in
+// .env (never commit it).
 // Run after data:fetch and data:build: node --env-file=.env scripts/load-supabase.ts
 
 import { existsSync } from 'node:fs'
@@ -11,6 +12,7 @@ import { parseAddress, streetKey } from '../src/shared/address.ts'
 import type { Contest } from '../src/shared/ballot.ts'
 import type { ClerkSplit } from '../src/shared/cook.ts'
 import type { AreaGeometry, PolygonCoords } from '../src/shared/geo.ts'
+import { COOK } from '../src/shared/regions.ts'
 import { BUILD, RAW, readJson, type FeatureCollection } from './lib/data.ts'
 import { ELECTION_ID } from './lib/election.ts'
 import { loadLayers } from './lib/layers.ts'
@@ -28,6 +30,9 @@ if (!url || !key) {
 }
 const headers = { apikey: key, 'Content-Type': 'application/json' }
 
+/** The lookup tables' tag for this data (see src/shared/regions.ts). */
+const REGION = COOK.id
+
 async function rpc(fn: string, args: object = {}) {
   const res = await send(`/rest/v1/rpc/${fn}`, {
     method: 'POST',
@@ -35,6 +40,7 @@ async function rpc(fn: string, args: object = {}) {
     body: JSON.stringify(args),
   })
   if (!res.ok) throw new Error(`${fn}: ${res.status} ${await res.text()}`)
+  return res.json() as Promise<unknown>
 }
 
 /** Supabase sometimes drops a connection mid-load; retry with backoff. */
@@ -60,7 +66,9 @@ async function insert(table: string, rows: object[], batchSize: number) {
     const res = await send(`/rest/v1/${table}`, {
       method: 'POST',
       headers: { ...headers, Prefer: 'return=minimal' },
-      body: JSON.stringify(rows.slice(i, i + batchSize)),
+      body: JSON.stringify(
+        rows.slice(i, i + batchSize).map((r) => ({ ...r, region: REGION })),
+      ),
     })
     if (!res.ok) throw new Error(`${table}: ${res.status} ${await res.text()}`)
     process.stdout.write(
@@ -70,7 +78,7 @@ async function insert(table: string, rows: object[], batchSize: number) {
   process.stdout.write('\n')
   // A retried batch may have been saved before the connection dropped, so
   // check the row count matches what was sent.
-  const count = await send(`/rest/v1/${table}?select=*`, {
+  const count = await send(`/rest/v1/${table}?select=*&region=eq.${REGION}`, {
     method: 'HEAD',
     headers: { ...headers, Prefer: 'count=exact' },
   })
@@ -91,7 +99,12 @@ function ewkt(geometry: AreaGeometry): string {
   return `SRID=4326;MULTIPOLYGON(${polygons.map((p) => `(${p.map(ring).join(',')})`).join(',')})`
 }
 
-await rpc('reset_lookup_data')
+// Empty this region's rows, a batch at a time.
+for (let deleted = 1; deleted > 0;) {
+  deleted = Number(await rpc('reset_lookup_batch', { p_region: REGION }))
+  if (deleted) process.stdout.write(`\rcleared ${deleted} rows`)
+}
+process.stdout.write('\n')
 
 // Address points.
 const text = await readFile(join(RAW, 'address-points.tsv'), 'utf8')

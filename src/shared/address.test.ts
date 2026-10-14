@@ -15,7 +15,19 @@ describe('parseAddress', () => {
       type: 'ST',
       city: 'CHICAGO',
       zip: '60602',
+      state: 'IL',
     })
+  })
+
+  it('reads the state in any of the usual places', () => {
+    expect(parseAddress('121 N LaSalle St, Chicago IL 60602')?.state).toBe('IL')
+    expect(parseAddress('121 N LaSalle St, Chicago, Illinois')?.state).toBe(
+      'IL',
+    )
+    expect(
+      parseAddress('200 N Spring St, Los Angeles, CA 90012'),
+    ).toMatchObject({ city: 'LOS ANGELES', state: 'CA', zip: '90012' })
+    expect(parseAddress('121 N LaSalle St, Chicago')?.state).toBeUndefined()
   })
 
   it('matches address points written differently', () => {

@@ -4,7 +4,7 @@
 // code.
 // Server-side code lives under worker/; API keys are only ever read here, never in src/.
 
-import { CURRENT_ELECTION } from '../src/shared/cook.ts'
+import { coveredAreas } from '../src/shared/regions.ts'
 import { SupabaseBallotProvider } from './ballot.ts'
 import { json, memoryLimiter, rateLimitKey } from './guard.ts'
 import { notifyResponse, type NotifyEnv } from './notify.ts'
@@ -90,20 +90,20 @@ async function ballot(request: Request, env: Env): Promise<Response> {
     )
   }
   const provider = new SupabaseBallotProvider(config)
-  // Which candidates have a profile. Fetched alongside the lookup; if it
-  // fails, the ballot is returned without links: profiles never break lookup.
-  const profiles = publishedProfileKeys(config, CURRENT_ELECTION.id).catch(
-    () => undefined,
-  )
   try {
     const result = await provider.getBallot({ address })
     if (!result) {
       return Response.json(
-        { error: 'We could not find that address in Cook County' },
+        { error: `We could not find that address in ${coveredAreas()}` },
         { status: 404, headers: PRIVATE },
       )
     }
-    const publishedProfiles = await profiles
+    // Which candidates have a profile (cached per election). If it fails,
+    // the ballot is returned without links: profiles never break lookup.
+    const publishedProfiles = await publishedProfileKeys(
+      config,
+      result.election.id,
+    ).catch(() => undefined)
     return Response.json(
       publishedProfiles ? { ...result, publishedProfiles } : result,
       { headers: PRIVATE },

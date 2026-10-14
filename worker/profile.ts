@@ -82,8 +82,7 @@ function matchesEtag(ifNoneMatch: string | null, etag: string): boolean {
 // Published keys change only when the pipeline publishes, so each Worker
 // instance keeps them for a few minutes instead of asking on every lookup.
 const KEYS_TTL_MS = 5 * 60 * 1000
-let keysCache: { electionId: string; keys: string[]; expires: number } | null =
-  null
+const keysCache = new Map<string, { keys: string[]; expires: number }>()
 
 /** Keys of the published profiles in an election, cached for about 5 minutes. */
 export async function publishedProfileKeys(
@@ -91,22 +90,17 @@ export async function publishedProfileKeys(
   electionId: string,
   now = Date.now(),
 ): Promise<string[]> {
-  if (
-    keysCache &&
-    keysCache.electionId === electionId &&
-    keysCache.expires > now
-  ) {
-    return keysCache.keys
-  }
+  const cached = keysCache.get(electionId)
+  if (cached && cached.expires > now) return cached.keys
   const keys = await rpc<string[] | null>(config, 'published_profile_keys', {
     p_election_id: electionId,
   })
   const list = Array.isArray(keys) ? keys : []
-  keysCache = { electionId, keys: list, expires: now + KEYS_TTL_MS }
+  keysCache.set(electionId, { keys: list, expires: now + KEYS_TTL_MS })
   return list
 }
 
 /** For tests. */
 export function clearProfileKeysCache() {
-  keysCache = null
+  keysCache.clear()
 }

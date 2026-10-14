@@ -59,7 +59,18 @@ export interface StreetAddress {
   type?: string
   city?: string
   zip?: string
+  /** Two-letter state code, when the input names a state VoteStack covers. */
+  state?: string
 }
+
+/** States VoteStack covers, as typed in addresses. */
+const STATES: Record<string, string> = {
+  IL: 'IL',
+  ILLINOIS: 'IL',
+  CA: 'CA',
+  CALIFORNIA: 'CA',
+}
+const STATE_AT_END = new RegExp(`\\s+(${Object.keys(STATES).join('|')})\\s*$`)
 
 /** Parses "121 N LaSalle St, Chicago, IL 60602". Ignores unit numbers. Returns null without a house number. */
 export function parseAddress(input: string): StreetAddress | null {
@@ -71,12 +82,12 @@ export function parseAddress(input: string): StreetAddress | null {
   const tail = rest.join(' ')
   const zip = (tail.match(/\b(\d{5})(?:-\d{4})?\b/) ??
     input.match(/\b(\d{5})(?:-\d{4})?\s*$/))?.[1]
-  const city =
-    rest[0]
-      ?.replace(/[^A-Z ]/g, ' ')
-      .replace(/\s+(IL|ILLINOIS)\s*$/, ' ')
-      .replace(/\s+/g, ' ')
-      .trim() || undefined
+  const cityPart = rest[0]?.replace(/[^A-Z ]/g, ' ').replace(/\s+/g, ' ')
+  const stateWord =
+    (cityPart?.match(STATE_AT_END) ?? tail.match(STATE_AT_END))?.[1] ??
+    rest[1]?.trim().split(/\s+/)[0]
+  const state = stateWord ? STATES[stateWord] : undefined
+  const city = cityPart?.replace(STATE_AT_END, ' ').trim() || undefined
 
   const words = streetPart
     .replace(/[.#]/g, ' ')
@@ -112,8 +123,9 @@ export function parseAddress(input: string): StreetAddress | null {
     predir,
     name,
     type,
-    city: city && city !== 'IL' ? city : undefined,
+    city: city && !STATES[city] ? city : undefined,
     zip,
+    ...(state && { state }),
   }
 }
 
@@ -127,7 +139,7 @@ function splitCity(input: string): [string, string?] {
   const words = input.split(/\s+/).filter(Boolean)
   let end = words.length
   if (/^\d{5}(-\d{4})?$/.test(words[end - 1] ?? '')) end--
-  if (/^(IL|ILLINOIS)$/.test(words[end - 1] ?? '')) end--
+  if (STATES[words[end - 1] ?? '']) end--
   // Longest match first; keep the house number and at least one name word.
   for (let start = 2; start < end; start++) {
     if (COOK_CITIES.has(words.slice(start, end).join(' ').replace(/\./g, '')))

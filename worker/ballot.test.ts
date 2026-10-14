@@ -2,6 +2,7 @@
 import { describe, expect, it, vi } from 'vitest'
 import type { Contest } from '../src/shared/ballot.ts'
 import { CHICAGO, COOK_COUNTY } from '../src/shared/ocd.ts'
+import { COOK, type Region } from '../src/shared/regions.ts'
 import { SupabaseBallotProvider } from './ballot.ts'
 
 const contest = (
@@ -22,7 +23,7 @@ const contest = (
 })
 
 /** A fake Supabase that answers each RPC and records what it was sent. */
-function fakeSupabase(answers: Record<string, unknown>) {
+function fakeSupabase(answers: Record<string, unknown>, regions?: Region[]) {
   const calls: { fn: string; args: Record<string, unknown>; url: string }[] = []
   const fetch = vi.fn(
     async (url: string | URL | Request, init?: RequestInit) => {
@@ -33,11 +34,14 @@ function fakeSupabase(answers: Record<string, unknown>) {
       return Response.json(typeof answer === 'function' ? answer(args) : answer)
     },
   ) as unknown as typeof globalThis.fetch
-  const provider = new SupabaseBallotProvider({
-    url: 'https://db.example',
-    secretKey: 'test',
-    fetch,
-  })
+  const provider = new SupabaseBallotProvider(
+    {
+      url: 'https://db.example',
+      secretKey: 'test',
+      fetch,
+    },
+    regions,
+  )
   return { provider, calls }
 }
 
@@ -88,7 +92,11 @@ describe('SupabaseBallotProvider', () => {
       'districts_at',
       'contests_for',
     ])
-    expect(calls[0].args).toEqual({ p_street_key: '|LAKE', p_number: 834 })
+    expect(calls[0].args).toEqual({
+      p_street_key: '|LAKE',
+      p_number: 834,
+      p_region: 'il-cook',
+    })
     expect(calls[2].args.p_authority_id).toBe(COOK_COUNTY)
     expect(ballot?.contests.map((c) => c.id)).toEqual(['first', 'second'])
     expect(ballot?.precinct?.name).toBe('Oak Park 22')
@@ -181,5 +189,54 @@ describe('SupabaseBallotProvider', () => {
     expect(
       await provider.getBallot({ address: '834 Lake St, Oak Park, IL 60301' }),
     ).toBeNull()
+  })
+
+  describe('with more than one region', () => {
+    const other: Region = {
+      ...COOK,
+      id: 'xx-test',
+      name: 'Test County',
+      state: 'CA',
+      zipPrefixes: ['90'],
+      election: { ...COOK.election, id: 'xx-2026-11-03-general' },
+    }
+
+    it('looks in the region whose state matches first', async () => {
+      const { provider, calls } = fakeSupabase(oakPark, [COOK, other])
+      const ballot = await provider.getBallot({
+        address: '834 Lake St, Oak Park, CA',
+      })
+      expect(calls[0].args.p_region).toBe('xx-test')
+      expect(ballot?.election.id).toBe('xx-2026-11-03-general')
+    })
+
+    it('falls back to the other regions when the address is not in the likely one', async () => {
+      const { provider, calls } = fakeSupabase(
+        {
+          ...oakPark,
+          street_points: (args: { p_region: string }) =>
+            args.p_region === 'il-cook' ? oakPark.street_points : [],
+        },
+        [COOK, other],
+      )
+      const ballot = await provider.getBallot({
+        address: '834 Lake St, Oak Park, CA 90012',
+      })
+      expect(calls[0].args.p_region).toBe('xx-test')
+      expect(ballot?.election.id).toBe(COOK.election.id)
+    })
+
+    it('only looks in the region of the election asked for', async () => {
+      const { provider, calls } = fakeSupabase(oakPark, [COOK, other])
+      await provider.getBallot({
+        address: '834 Lake St, Oak Park, IL 60301',
+        electionId: 'xx-2026-11-03-general',
+      })
+      expect(
+        calls
+          .filter((c) => c.fn === 'street_points')
+          .every((c) => c.args.p_region === 'xx-test'),
+      ).toBe(true)
+    })
   })
 })

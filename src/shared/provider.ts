@@ -21,7 +21,7 @@ export interface BallotQuery {
 
 /** Returns the ballot for an address, or null if the provider has no data for it. */
 export interface BallotProvider {
-  /** Short ID shown in source labels and logs, e.g. `official-cook`. */
+  /** Short ID shown in source labels and logs, e.g. `official`. */
   readonly id: string
   getBallot(query: BallotQuery): Promise<Ballot | null>
 }
