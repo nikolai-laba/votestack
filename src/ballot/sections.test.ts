@@ -10,6 +10,8 @@ import {
 
 const IL = 'ocd-division/country:us/state:il'
 const COOK = `${IL}/county:cook`
+const CA = 'ocd-division/country:us/state:ca'
+const LA = `${CA}/county:los_angeles`
 
 function candidate(
   title: string,
@@ -66,6 +68,39 @@ describe('sectionFor', () => {
       'local',
     ],
     ['Trustee, Village of Oak Park', `${IL}/place:oak_park`, 'local'],
+    // Los Angeles County
+    ['United States Representative, 34th District', `${CA}/cd:34`, 'federal'],
+    ['Governor', CA, 'state'],
+    ['Member of the State Assembly, 51st District', `${CA}/sldl:51`, 'state'],
+    [
+      'Member, State Board of Equalization, 3rd District',
+      `${CA}/boe_district:3`,
+      'state',
+    ],
+    ['Sheriff', LA, 'county'],
+    ['Supervisor, 3rd District', `${LA}/council_district:3`, 'county'],
+    ['Judge of the Superior Court, Office No. 12', LA, 'judges'],
+    ['Mayor, City of Pasadena', `${CA}/place:pasadena`, 'local'],
+    [
+      'Member, City Council, District 5',
+      `${CA}/place:los_angeles/council_district:5`,
+      'local',
+    ],
+    [
+      'Member, Board of Education, Trustee Area 2',
+      `${LA}/school_district:los_angeles_unified/trustee_area:2`,
+      'local',
+    ],
+    [
+      'Member, Board of Trustees',
+      `${LA}/community_college_district:los_angeles`,
+      'local',
+    ],
+    [
+      'Director, Division 4',
+      `${LA}/special_district:central_basin_municipal_water_district/division:4`,
+      'local',
+    ],
   ])('puts %s in %s', (title, districtId, section) => {
     expect(sectionFor(candidate(title, districtId))).toBe(section)
   })

@@ -7,7 +7,7 @@ import {
 } from '../ballot/profileLinks.ts'
 import type { FocusAddressState } from '../ballot/session.ts'
 import { longDate } from '../format.ts'
-import { raceContest, racesFor, useRaces } from '../races/data.ts'
+import { publishedFor, raceContest, racesFor, useRaces } from '../races/data.ts'
 import type { Ballot } from '../shared/ballot.ts'
 import type { CandidateProfile } from '../shared/profile.ts'
 import {
@@ -144,13 +144,12 @@ export function ProfileRaces({
 }) {
   const query = useRaces()
   if (!query.data) return null
-  const { list } = query.data
-  const races = racesFor(list, profile.contestIds)
+  const races = racesFor(query.data, profile.electionId, profile.contestIds)
   if (races.length === 0) return null
-  const published = new Set(query.data.published)
+  const published = publishedFor(query.data, races[0].list)
   return (
     <div className="space-y-6 border-t border-line pt-6">
-      {races.map((race) => (
+      {races.map(({ race, list }) => (
         <section
           key={race.path}
           aria-labelledby={`race-${race.path}`}
@@ -163,7 +162,11 @@ export function ProfileRaces({
           <RaceCardFor race={race} list={list} published={published} />
         </section>
       ))}
-      <YourBallot race={races[0]} ballot={ballot} headingId="your-ballot" />
+      <YourBallot
+        race={races[0].race}
+        ballot={ballot}
+        headingId="your-ballot"
+      />
     </div>
   )
 }

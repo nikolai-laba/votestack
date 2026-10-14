@@ -37,6 +37,28 @@ This data is **not** covered by the project's Apache-2.0 license. Each source ke
 | Current members of the Illinois House and Senate, for incumbent labels (`data/raw/incumbents/`)                                                                                                                  | Illinois General Assembly ([House](https://www.ilga.gov/House/Members), [Senate](https://www.ilga.gov/Senate/Members) member lists)                      | Public government information; not stated                                                                      |
 | Incumbents of other offices (`content/incumbents/rosters.json`, copied by hand with the page and date for each entry)                                                                                            | Each body's own roster page (state officers, Cook County, Board of Review, MWRD, Chicago Board of Education, Regional Offices of Education)              | Public government information                                                                                  |
 
+## Los Angeles County
+
+Los Angeles County's data comes from the County and its Registrar-Recorder/County Clerk, and has its own scripts in `scripts/la/`:
+
+```sh
+npm run la:fetch    # address points (~1.2 GB CSV), the precinct map, and the Interactive Sample Ballot files (~1 hour; reruns fetch only what's missing)
+npm run la:build    # each precinct's ballot style and the contests on it → data/build/la/ (checks every style against the Registrar's own list)
+npm run la:audit    # sample addresses: ballot style from the precinct map vs the Registrar's street list for that address
+npm run contests:export -- --region=ca-la   # public race list → content/contests/ca-la/ (commit it)
+npm run data:load -- --region=ca-la         # load into Supabase; Cook County's rows are left alone
+```
+
+A voter's contests are exactly those on their precinct's ballot style, as the Registrar lists it. Where a race's candidate order rotates by area, each order is kept, so every voter sees their own ballot's order.
+
+| Data                                                                                                                                       | Publisher                                                                                                                                                                                                                                   | Terms                                                                                                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Address points (CAMS)                                                                                                                      | Los Angeles County Enterprise GIS ([CAMS](https://cams-lacounty.hub.arcgis.com/))                                                                                                                                                           | [LA County GIS Data Terms of Use](https://egis-lacounty.hub.arcgis.com/pages/terms-of-use): may be copied, adapted and published; no County endorsement implied; provided as is |
+| Precincts with their district names                                                                                                        | Los Angeles County Registrar-Recorder/County Clerk ([Registrar Recorder Precincts with District Names](https://services.arcgis.com/RmCCgQtiZLDCtblq/arcgis/rest/services/Registrar_Recorder_Precincts_with_District_Names/FeatureServer/2)) | LA County GIS Data Terms of Use                                                                                                                                                 |
+| Street segments with each address range's precinct and ballot style; each ballot style's contests in ballot order; contests and candidates | Los Angeles County Registrar-Recorder/County Clerk ([Interactive Sample Ballot](https://isb.lavote.gov/)), fetched once per election, one file at a time (`scripts/la/fetch-la-isb.ts`)                                                     | Public election information                                                                                                                                                     |
+
+The County's address points include some addresses in neighbouring Orange County; the build keeps only addresses inside an LA County precinct.
+
 ## Campaign finance data
 
 `node scripts/profiles/money.ts` downloads the FEC and ISBE files above (about 1.1 GB, cached for a day; `--refresh` forces a new download) and writes `data/build/profiles/money.json`. The filings name individual donors with their home addresses. Federal law bars using FEC contributor details for soliciting or commercial purposes, and VoteStack never shows individuals at all: the import keeps only totals, committees and organizations. ISBE's site has a `robots.txt` that disallows all crawling, so the import only downloads the published bulk data files and never scrapes the search pages.

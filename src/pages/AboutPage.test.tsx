@@ -52,7 +52,7 @@ describe('About page', () => {
     expect(what).toHaveTextContent('isn’t a government site')
     expect(what).toHaveTextContent('We don’t tell you how to vote')
     expect(what).toHaveTextContent(
-      'starting with Chicago and suburban Cook County',
+      'It covers Chicago and suburban Cook County, Illinois, and Los Angeles County, California.',
     )
     expect(what).toHaveTextContent('Knowing who the candidates are is harder')
     expect(what).toHaveTextContent('Campaign money:')
@@ -77,6 +77,13 @@ describe('About page', () => {
     })
     expect(sources).toHaveTextContent('Cook County Clerk')
     expect(sources).toHaveTextContent('Chicago Board of Election Commissioners')
+    expect(sources).toHaveTextContent(
+      'Los Angeles County Registrar-Recorder/County Clerk’s Interactive Sample Ballot data',
+    )
+    expect(sources).toHaveTextContent('The County doesn’t endorse VoteStack.')
+    expect(
+      within(sources).getByRole('link', { name: 'isb.lavote.gov' }),
+    ).toHaveAttribute('href', 'https://isb.lavote.gov/')
     expect(sources).toHaveTextContent(
       'We mark a candidate as the incumbent only when an official list confirms they hold the seat.',
     )

@@ -2,6 +2,7 @@ import { useMutation } from '@tanstack/react-query'
 import { useEffect, useRef, useState, type FormEvent } from 'react'
 import { Link } from 'react-router'
 import { SignupSendError, sendSignup } from '../api/notify.ts'
+import { coveredFullNames } from '../ballot/coverage.ts'
 import { GET_STARTED_PATH } from '../ballot/profileLinks.ts'
 import { WarningIcon } from '../components/icons.tsx'
 import {
@@ -72,9 +73,8 @@ export default function NotifyPage() {
           Get an email when VoteStack covers your area
         </h1>
         <p>
-          VoteStack covers Chicago and suburban Cook County, Illinois, for the
-          election on Tuesday, November 3, 2026. We plan to add more areas over
-          time.
+          VoteStack covers {coveredFullNames()}, for the election on Tuesday,
+          November 3, 2026. We plan to add more areas over time.
         </p>
         <p>
           Leave your email address and ZIP code, and we&rsquo;ll email you when

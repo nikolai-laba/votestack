@@ -69,6 +69,11 @@ export interface Candidate {
   name: string
   /** Party as printed on the ballot, if any. */
   party?: string
+  /**
+   * Ballot designation as printed under the name, where the ballot has one
+   * (California: the candidate's occupation, e.g. "Educator").
+   */
+  designation?: string
   /** Position on the ballot within the contest. */
   ballotOrder?: number
   /**

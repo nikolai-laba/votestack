@@ -8,7 +8,9 @@ import {
   type FocusHeadingState,
 } from '../ballot/session.ts'
 import { AddressForm } from '../components/AddressForm.tsx'
-import { CURRENT_RACES_AREA_PATH } from '../races/paths.ts'
+import { coveredFullNames } from '../ballot/coverage.ts'
+import { raceAreaPath } from '../races/paths.ts'
+import { REGIONS, coveredAreas } from '../shared/regions.ts'
 
 // /getstarted: what VoteStack is, the address form and the sample ballots.
 // Where new visitors land (the ballot at / sends them here when there's no
@@ -47,10 +49,11 @@ export function GetStartedPage() {
         </h1>
         <p className="max-w-[65ch]">
           VoteStack shows you every race on your ballot with a profile for each
-          candidate. The first release covers Chicago and Cook County, Illinois.
+          candidate. It covers {coveredFullNames()}. Candidates in Los Angeles
+          County don&apos;t have profiles yet.
         </p>
         <p className="max-w-[65ch]">
-          Live outside Cook County?{' '}
+          Live outside {coveredAreas()}?{' '}
           <Link to={NOTIFY_PATH}>
             Get an email when VoteStack covers your area
           </Link>
@@ -93,10 +96,13 @@ export function GetStartedPage() {
       </div>
 
       <p className="max-w-[65ch]">
-        Or{' '}
-        <Link to={CURRENT_RACES_AREA_PATH}>
-          browse every race in Cook County
-        </Link>
+        Or browse{' '}
+        {REGIONS.map((region, i) => (
+          <span key={region.id}>
+            {i > 0 && ' or '}
+            <Link to={raceAreaPath(region)}>every race in {region.name}</Link>
+          </span>
+        ))}
         . Only your address shows which ones are on your ballot.
       </p>
     </section>

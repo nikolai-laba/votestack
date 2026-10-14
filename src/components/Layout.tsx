@@ -93,8 +93,12 @@ export function Layout() {
               rel="noreferrer"
             >
               Cook County Clerk
-            </a>
-            .
+            </a>{' '}
+            in Illinois, or the{' '}
+            <a href="https://www.lavote.gov" target="_blank" rel="noreferrer">
+              Los Angeles County Registrar-Recorder/County Clerk
+            </a>{' '}
+            in California.
           </p>
           {/* Required by the City of Chicago's data terms (see data/README.md). */}
           <p className="max-w-[65ch] text-caption">

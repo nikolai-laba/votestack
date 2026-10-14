@@ -39,7 +39,15 @@ export function sectionFor(contest: Contest): LevelId {
   const district = contest.districtId
   if (/\/cd:/.test(district) || /\b(U\.S\.|United States)/i.test(office))
     return 'federal'
-  if (/\/(place|township|tax_district):/.test(district)) return 'local'
+  // Cities, townships and local districts. In California, school, college
+  // and special districts sit under the county in their IDs but are local.
+  if (
+    /\/(place|township|tax_district|school_district|community_college_district|special_district):/.test(
+      district,
+    )
+  )
+    return 'local'
+  // Counties, including Los Angeles County's supervisorial districts.
   if (/\/(county|sewer):/.test(district)) return 'county'
   return 'state'
 }

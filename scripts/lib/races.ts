@@ -38,6 +38,14 @@ export function raceTitle(contest: Listed): string {
     .replace(/(\d+\w\w) Cook County Subcircuit/, '$1 Subcircuit')
 }
 
+/**
+ * The district without a ballot-order version: where candidate order rotates
+ * by area, each order is its own contest in a `…/ballot_rotation:N` district.
+ */
+const baseDistrict = (c: Contest) =>
+  c.districtId.replace(/\/ballot_rotation:\d+$/, '')
+const isRotation = (c: Contest) => c.districtId !== baseDistrict(c)
+
 const names = (c: CandidateContest) =>
   c.candidates
     .map((p) => profileKey(p.name))
@@ -50,7 +58,7 @@ const names = (c: CandidateContest) =>
  * candidates tell them apart.
  */
 function sameRace(a: Listed, b: Listed): boolean {
-  if (a.kind !== b.kind || a.districtId !== b.districtId) return false
+  if (a.kind !== b.kind || baseDistrict(a) !== baseDistrict(b)) return false
   if (a.kind === 'retention' && b.kind === 'retention')
     return profileKey(a.judge) === profileKey(b.judge)
   if (a.kind === 'candidate' && b.kind === 'candidate') {
@@ -65,7 +73,11 @@ function sameRace(a: Listed, b: Listed): boolean {
 }
 
 const area = (c: Contest): BallotArea =>
-  /\/place:chicago$/.test(c.authorityId) ? 'chicago' : 'suburban-cook'
+  /\/place:chicago$/.test(c.authorityId)
+    ? 'chicago'
+    : /\/county:los_angeles$/.test(c.authorityId)
+      ? 'los-angeles-county'
+      : 'suburban-cook'
 
 /**
  * Every race once, by level of government and then in the Clerk's ballot
@@ -82,7 +94,9 @@ export function buildRaces(
   for (const contest of listed) {
     const group = groups.find(
       (g) =>
-        sameRace(g[0], contest) && !g.some((c) => area(c) === area(contest)),
+        sameRace(g[0], contest) &&
+        // One contest per ballot, except a race's ballot-order versions.
+        (isRotation(contest) || !g.some((c) => area(c) === area(contest))),
     )
     if (group) group.push(contest)
     else groups.push([contest])
@@ -91,31 +105,33 @@ export function buildRaces(
   const races = groups.map((group) => {
     // The Board's titles are already in the shared style.
     const titled = group.find((c) => area(c) === 'chicago') ?? group[0]
-    const suburban = group.find((c) => area(c) === 'suburban-cook')
+    // The Clerk's ballot order (Cook), or the only ballot's (elsewhere).
+    const suburban = group.find((c) => area(c) !== 'chicago')
     const first = suburban ?? group[0]
     const title = raceTitle(titled)
     const judge = first.kind === 'retention' ? first.judge : undefined
     const level = sectionFor(first) as RaceLevel
     const race: Race = {
       level,
-      path: buildRacePath(first.districtId, date, title, judge),
+      path: buildRacePath(baseDistrict(first), date, title, judge),
       kind: first.kind,
       title,
       office: first.office,
-      districtId: first.districtId,
+      districtId: baseDistrict(first),
       contestIds: group.map((c) => c.id),
-      ballots: (['chicago', 'suburban-cook'] as const).filter((a) =>
-        group.some((c) => area(c) === a),
-      ),
+      ballots: (
+        ['chicago', 'suburban-cook', 'los-angeles-county'] as const
+      ).filter((a) => group.some((c) => area(c) === a)),
     }
     if (first.kind === 'candidate') {
       race.voteFor = first.voteFor
       if (first.vacancy) race.vacancy = first.vacancy
       race.candidates = [...first.candidates]
         .sort((a, b) => (a.ballotOrder ?? 0) - (b.ballotOrder ?? 0))
-        .map(({ name, party, ballotOrder, incumbent }) => ({
+        .map(({ name, party, designation, ballotOrder, incumbent }) => ({
           name,
           ...(party && { party }),
+          ...(designation && { designation }),
           ...(ballotOrder !== undefined && { ballotOrder }),
           ...(incumbent && { incumbent }),
         }))

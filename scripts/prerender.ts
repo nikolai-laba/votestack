@@ -11,8 +11,8 @@
 // Run: node scripts/prerender.ts (part of npm run build)
 
 import { existsSync } from 'node:fs'
-import { mkdir, readFile, rm, writeFile } from 'node:fs/promises'
-import { dirname, join } from 'node:path'
+import { mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises'
+import { dirname, join, relative } from 'node:path'
 import { pathToFileURL } from 'node:url'
 import type { CandidateProfile } from '../src/shared/profile.ts'
 import type { RaceList } from '../src/shared/races.ts'
@@ -30,6 +30,12 @@ import {
   type ViteManifest,
 } from './lib/prerender.ts'
 
+/** The race lists, as src/races/data.ts loads them. */
+interface RaceData {
+  lists: RaceList[]
+  published: Record<string, string[]>
+}
+
 /** What src/prerender.tsx exports, as far as this script uses it. */
 interface Page {
   path: string
@@ -42,8 +48,8 @@ interface Ssr {
   SITE_URL: string
   STATIC_PAGES: Page[]
   candidatePages(profile: CandidateProfile, live: boolean): Page[]
-  racePages(list: RaceList): Page[]
-  raceList(): Promise<RaceList>
+  racePages(data: RaceData): Page[]
+  raceData(): Promise<RaceData>
   renderPage(page: Page): Promise<string>
   headHtml(head: Page['head']): string
   prerenderData(data: NonNullable<Page['data']>): string
@@ -61,11 +67,21 @@ const PAGE_MODULES: Record<NonNullable<Page['data']>['page'], string> = {
   races: 'src/pages/RacesPage.tsx',
 }
 
-/** The race list's chunks, which race pages and profiles load first (src/races/data.ts). */
-const RACE_DATA = [
-  'content/contests/2026-11-03.json',
-  'content/profiles/published/2026-11-03.json',
-]
+/**
+ * The race lists' and published lists' chunks, which race pages and
+ * profiles load first (src/races/data.ts loads every file in these folders).
+ */
+const RACE_DATA = (
+  await Promise.all(
+    ['content/contests', 'content/profiles/published'].map(async (dir) =>
+      (await readdir(join(ROOT, dir), { recursive: true }))
+        .filter((f) => f.endsWith('.json'))
+        .map((f) => relative(ROOT, join(ROOT, dir, f))),
+    ),
+  )
+)
+  .flat()
+  .sort()
 
 const ssr = (await import(
   pathToFileURL(join(SSR_DIR, 'prerender.js')).href
@@ -91,7 +107,8 @@ if (existsSync(PUBLISHED_LIST)) {
   console.warn('No published list; building no candidate pages')
 }
 
-const races = await ssr.raceList()
+const races = await ssr.raceData()
+const raceCount = races.lists.reduce((n, l) => n + l.races.length, 0)
 const pages = [
   ...ssr.STATIC_PAGES,
   ...candidates.flatMap((c) => ssr.candidatePages(c.profile, c.live)),
@@ -133,5 +150,5 @@ await rm(SSR_DIR, { recursive: true, force: true })
 await rm(join(DIST, '.vite'), { recursive: true, force: true })
 
 console.log(
-  `Prerendered ${pages.length} pages (${candidates.length} candidates, ${races.races.length} races); sitemap lists ${sitemap.length}`,
+  `Prerendered ${pages.length} pages (${candidates.length} candidates, ${raceCount} races in ${races.lists.length} areas); sitemap lists ${sitemap.length}`,
 )

@@ -5,6 +5,10 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+### Added
+
+- **Los Angeles County.** Voters in Los Angeles County, California can now look up their ballot for the November 3, 2026 General Election: every race, judge up for retention and measure for their address, with each candidate's party preference and ballot designation, in the order of their own ballot. The list comes straight from the Los Angeles County Registrar-Recorder/County Clerk's ballot styles. Every race also has its own page, listed at `/races/ca/los-angeles-county/2026-11-03`. Candidates in Los Angeles County don't have profiles yet.
+
 ## [1.2.0] - 2026-10-14
 
 ### Added

@@ -15,10 +15,17 @@ import {
 } from '../components/RaceSummary.tsx'
 import { longDate } from '../format.ts'
 import { RACES_HEAD, raceAreaHead, raceHead, useDocumentHead } from '../head.ts'
-import { useRaces } from '../races/data.ts'
+import { coveredFullNames } from '../ballot/coverage.ts'
+import {
+  findRace,
+  publishedFor,
+  useRaces,
+  type RaceData,
+} from '../races/data.ts'
 import {
   RACE_LEVELS,
   RACES_PATH,
+  areaBallotsText,
   raceName,
   racePath,
   type Race,
@@ -28,7 +35,7 @@ import { NotFoundPage } from './NotFoundPage.tsx'
 
 // The race pages, for visitors without a ballot (most come from a search):
 // /races (the areas VoteStack covers), /races/il/cook-county/2026-11-03
-// (every race there) and one page per race (src/shared/races.ts has the
+// and /races/ca/los-angeles-county/2026-11-03 (every race there) and one page per race (src/shared/races.ts has the
 // addresses). They show everyone in a race the same way the ballot does, and
 // lead to the voter's own ballot: only an address says which races are
 // theirs, and picks are made there. Loaded lazily (see routes.tsx).
@@ -67,39 +74,54 @@ export default function RacesPage() {
       </section>
     )
   if (!query.data) return <ProfileSkeleton />
-  const { list } = query.data
-  const published = new Set(query.data.published)
-  if (!rest) return <RacesIndex list={list} />
-  if (rest === list.areaPath) return <RaceArea list={list} />
-  const race = list.races.find((r) => r.path === rest)
-  if (race) return <RacePage race={race} list={list} published={published} />
+  const data = query.data
+  if (!rest) return <RacesIndex lists={data.lists} />
+  const area = data.lists.find((l) => l.areaPath === rest)
+  if (area)
+    return (
+      <RaceArea list={area} withProfiles={publishedFor(data, area).size > 0} />
+    )
+  const found = findRace(data, rest)
+  if (found)
+    return (
+      <RacePage
+        race={found.race}
+        list={found.list}
+        published={publishedFor(data, found.list)}
+      />
+    )
   return <NotFoundPage />
 }
 
 /** /races: the areas and elections VoteStack covers. */
-function RacesIndex({ list }: { list: RaceList }) {
+function RacesIndex({ lists }: { lists: RaceData['lists'] }) {
   useDocumentHead(RACES_HEAD)
   useFocusHeading('index')
   return (
     <section className="max-w-[65ch] space-y-6">
       <Heading>Races on the ballot</Heading>
       <p>
-        VoteStack covers Chicago and Cook County, Illinois, for now. Choose an
-        election to see every race on its ballots.
+        VoteStack covers {coveredFullNames()}, for now. Choose an election to
+        see every race on its ballots.
       </p>
       <ul className="space-y-3">
-        <li className="rounded-md border border-line bg-surface p-4">
-          <Link
-            to={`${RACES_PATH}/${list.areaPath}`}
-            className="inline-flex min-h-11 items-center text-label font-semibold"
+        {lists.map((list) => (
+          <li
+            key={list.areaPath}
+            className="rounded-md border border-line bg-surface p-4"
           >
-            {list.area}
-          </Link>
-          <p className="text-small">
-            {list.electionName}, {longDate(list.date)}. {list.races.length}{' '}
-            races and judges up for retention.
-          </p>
-        </li>
+            <Link
+              to={`${RACES_PATH}/${list.areaPath}`}
+              className="inline-flex min-h-11 items-center text-label font-semibold"
+            >
+              {list.area}
+            </Link>
+            <p className="text-small">
+              {list.electionName}, {longDate(list.date)}. {list.races.length}{' '}
+              races and judges up for retention.
+            </p>
+          </li>
+        ))}
       </ul>
       <p>
         Live somewhere else?{' '}
@@ -113,8 +135,14 @@ function RacesIndex({ list }: { list: RaceList }) {
 }
 
 /** Every race in an area, by level of government, linking to each race. */
-function RaceArea({ list }: { list: RaceList }) {
-  useDocumentHead(raceAreaHead(list))
+function RaceArea({
+  list,
+  withProfiles,
+}: {
+  list: RaceList
+  withProfiles: boolean
+}) {
+  useDocumentHead(raceAreaHead(list, withProfiles))
   useFocusHeading(list.areaPath)
   const sections = RACE_LEVELS.map((level) => ({
     level,
@@ -129,9 +157,9 @@ function RaceArea({ list }: { list: RaceList }) {
         </p>
         <p>
           This list has every race and every judge up for retention on any
-          ballot in Chicago and suburban Cook County. Your own ballot has only
-          some of them. Referenda aren&apos;t listed here, because which ones
-          you see depends on your exact address.
+          ballot in {areaBallotsText(list)}. Your own ballot has only some of
+          them. Referenda aren&apos;t listed here, because which ones you see
+          depends on your exact address.
         </p>
         <p>
           <Link to={ABOUT_PATH}>Where the race lists come from</Link>
@@ -217,7 +245,7 @@ function RacePage({
   published: Set<string>
 }) {
   const { ballot } = useOutletContext<BallotOutletContext>()
-  useDocumentHead(raceHead(race))
+  useDocumentHead(raceHead(race, published.size > 0))
   useFocusHeading(race.path)
   return (
     <article className="max-w-[65ch] space-y-6">

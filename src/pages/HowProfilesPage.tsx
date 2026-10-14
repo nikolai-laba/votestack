@@ -68,9 +68,10 @@ export function HowProfilesPage() {
           How we make profiles
         </h1>
         <p>
-          VoteStack has a short profile for each candidate and judge on your
-          ballot. This page explains how we make them and what we can&rsquo;t
-          check. VoteStack doesn&rsquo;t tell you how to vote.
+          VoteStack has a short profile for each candidate and judge on Cook
+          County ballots. Candidates in Los Angeles County don&rsquo;t have
+          profiles yet. This page explains how we make them and what we
+          can&rsquo;t check. VoteStack doesn&rsquo;t tell you how to vote.
         </p>
       </div>
 

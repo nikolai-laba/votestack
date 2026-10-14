@@ -3,6 +3,7 @@
 // ("121 N LA SALLE ST") go through the same parser, so they compare equal.
 
 import { COOK_CITIES } from './cook-cities.ts'
+import { LA_CITIES } from './la-cities.ts'
 import type { LatLng } from './provider.ts'
 
 const DIRECTIONS: Record<string, string> = {
@@ -129,8 +130,11 @@ export function parseAddress(input: string): StreetAddress | null {
   }
 }
 
+/** Cities and postal communities in the areas VoteStack covers. */
+const CITIES = new Set([...COOK_CITIES, ...LA_CITIES])
+
 /**
- * Splits a known Cook County city (and any state and ZIP after it) off the
+ * Splits a known city (and any state and ZIP after it) off the
  * end of "834 LAKE ST APT 2 OAK PARK IL 60301". Matching city names rather
  * than splitting after a street type keeps names like "AVENUE L" or
  * "CARRIAGE WAY DR" whole.
@@ -142,7 +146,7 @@ function splitCity(input: string): [string, string?] {
   if (STATES[words[end - 1] ?? '']) end--
   // Longest match first; keep the house number and at least one name word.
   for (let start = 2; start < end; start++) {
-    if (COOK_CITIES.has(words.slice(start, end).join(' ').replace(/\./g, '')))
+    if (CITIES.has(words.slice(start, end).join(' ').replace(/\./g, '')))
       return [words.slice(0, start).join(' '), words.slice(start).join(' ')]
   }
   return [input]

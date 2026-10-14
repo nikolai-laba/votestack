@@ -4,6 +4,7 @@
 // both say the same thing. Every candidate gets the same template.
 
 import { useEffect } from 'react'
+import { coveredFullNames, coveredNames } from './ballot/coverage.ts'
 import { CURRENT_ELECTION } from './shared/cook.ts'
 import type { CandidateProfile } from './shared/profile.ts'
 import {
@@ -11,6 +12,7 @@ import {
   placeName,
   raceName,
   racePath,
+  stateName,
   type Race,
   type RaceList,
 } from './shared/races.ts'
@@ -66,7 +68,7 @@ const ELECTION_DAY = new Date(
 
 export const HOME_HEAD: PageHead = {
   title: 'VoteStack: know what and who is on your ballot',
-  description: `Enter your address to see every race and detailed candidate profiles covering positions, campaign financing, and endorsements, with cited sources. Starting with the ${ELECTION_DAY} General Election in Chicago and Cook County.`,
+  description: `Enter your address to see every race on your ballot for the ${ELECTION_DAY} General Election in ${coveredFullNames()}. Cook County candidates have detailed profiles covering positions, campaign financing, and endorsements, with cited sources.`,
   path: '/',
   structuredData: SITE_STRUCTURED_DATA,
 }
@@ -87,8 +89,7 @@ export const HOW_PROFILES_HEAD: PageHead = {
 
 export const NOTIFY_HEAD: PageHead = {
   title: 'Get an email when VoteStack covers your area | VoteStack',
-  description:
-    'VoteStack covers Chicago and Cook County for now. Leave your email and ZIP code to hear when it reaches your area.',
+  description: `VoteStack covers ${coveredNames()} for now. Leave your email and ZIP code to hear when it reaches your area.`,
   path: '/notify',
 }
 
@@ -150,14 +151,19 @@ export function profileHead(profile: CandidateProfile): PageHead {
 
 export const RACES_HEAD: PageHead = {
   title: 'Races on the ballot | VoteStack',
-  description: `Every race and every judge up for retention on the ${ELECTION_DAY} ballot in Chicago and Cook County, with a profile for each candidate.`,
+  description: `Every race and every judge up for retention on the ${ELECTION_DAY} ballot in ${coveredFullNames()}, with a profile for each Cook County candidate.`,
   path: RACES_PATH,
 }
 
-export function raceAreaHead(list: RaceList): PageHead {
+/**
+ * An area's list of races. `withProfiles` is false for an area whose
+ * candidates have no profiles yet, so the description doesn't promise them.
+ */
+export function raceAreaHead(list: RaceList, withProfiles = true): PageHead {
+  const profiles = withProfiles ? ', with a profile for each candidate' : ''
   return {
     title: `Races in ${list.area}, ${list.date.slice(0, 4)} | VoteStack`,
-    description: `All ${list.races.length} races and judges up for retention on the ${ELECTION_DAY} ballot in ${list.area}, in ballot order, with a profile for each candidate. Enter your address to see which ones are on your ballot.`,
+    description: `All ${list.races.length} races and judges up for retention on the ${ELECTION_DAY} ballot in ${list.area}, in ballot order${profiles}. Enter your address to see which ones are on your ballot.`,
     path: `${RACES_PATH}/${list.areaPath}`,
   }
 }
@@ -168,15 +174,19 @@ const andList = (items: string[]) =>
     ? `${items.slice(0, -1).join(', ')} and ${items.at(-1)}`
     : (items[0] ?? '')
 
-/** The same title and description for every race, filled from the ballot. */
-export function raceHead(race: Race): PageHead {
+/**
+ * The same title and description for every race, filled from the ballot.
+ * `withProfiles` is false in an area whose candidates have no profiles yet.
+ */
+export function raceHead(race: Race, withProfiles = true): PageHead {
   const place = placeName(race.districtId)
-  const where = place === 'Illinois' ? place : `${place}, Illinois`
+  const state = stateName(race.districtId)
+  const where = place === state ? place : `${place}, ${state}`
   const year = race.path.match(/\/(\d{4})-\d\d-\d\d\//)?.[1] ?? ''
   if (race.kind === 'retention') {
     return {
       title: `${raceName(race)} (${place}), ${year} | VoteStack`,
-      description: `${race.judge} is up for retention as ${race.title} on the ${ELECTION_DAY} ballot in ${where}. Voters choose yes or no on keeping the judge in office. A profile with a source for every fact.`,
+      description: `${race.judge} is up for retention as ${race.title} on the ${ELECTION_DAY} ballot in ${where}. Voters choose yes or no on keeping the judge in office.${withProfiles ? ' A profile with a source for every fact.' : ''}`,
       path: racePath(race),
     }
   }
@@ -186,7 +196,7 @@ export function raceHead(race: Race): PageHead {
     : 'No candidates filed for this race.'
   return {
     title: `${race.title} (${place}): ${year} candidates | VoteStack`,
-    description: `${race.title} on the ${ELECTION_DAY} ballot in ${where}. ${running} A profile for each candidate, with a source for every fact.`,
+    description: `${race.title} on the ${ELECTION_DAY} ballot in ${where}. ${running}${withProfiles ? ' A profile for each candidate, with a source for every fact.' : ''}`,
     path: racePath(race),
   }
 }

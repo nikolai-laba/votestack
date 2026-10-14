@@ -124,6 +124,17 @@ describe('HomePage', () => {
     })
   })
 
+  it('sends a Los Angeles County address with California’s state code', async () => {
+    const fetch = mockApi(200, ballot)
+    renderAt('/')
+    await lookUp('200 N Spring St', 'Los Angeles', '90012')
+    await screen.findByText('Oak Park 22', { exact: false })
+    const [, init] = fetch.mock.calls[0] as unknown as [string, RequestInit]
+    expect(JSON.parse(String(init.body))).toEqual({
+      address: '200 N Spring St, Los Angeles, CA 90012',
+    })
+  })
+
   it('shows the ballot in sections with possible gaps', async () => {
     mockApi(200, ballot)
     renderAt('/')
@@ -336,7 +347,7 @@ describe('HomePage', () => {
       /couldn’t find that address/i,
     )
     expect(screen.getByRole('status')).toHaveTextContent(
-      'only available in Chicago and Cook County for its initial release',
+      'only available in Cook County, Illinois, and Los Angeles County, California',
     )
     // Right under the button, with no links to the official sites.
     const status = screen.getByRole('status')

@@ -475,6 +475,7 @@ function CandidateRace({
                 <CandidateRow
                   name={candidate.name}
                   detail={partyLine(candidate.party, candidate.incumbent)}
+                  designation={candidate.designation}
                   rowId={`row-${contest.id}-${profileKey(candidate.name)}`}
                   idPrefix={idPrefix}
                   published={published}
@@ -633,6 +634,7 @@ function RetentionRow({
 function CandidateRow({
   name,
   detail,
+  designation,
   rowId,
   idPrefix = '',
   published,
@@ -641,6 +643,8 @@ function CandidateRow({
   name: string
   /** Party (and "incumbent", see partyLine) for candidates, office for judges. */
   detail?: string
+  /** The ballot designation printed under the name, where ballots have one. */
+  designation?: string
   /** The row's id in the ballot list, where Back returns focus. */
   rowId: string
   /** Set in the race panel, so its ids don't repeat the list's. */
@@ -662,6 +666,12 @@ function CandidateRow({
         <span className="block text-small text-muted">
           <span className="sr-only">, </span>
           {detail}
+        </span>
+      )}
+      {designation && (
+        <span className="block text-small text-muted">
+          <span className="sr-only">, </span>
+          {designation}
         </span>
       )}
     </span>

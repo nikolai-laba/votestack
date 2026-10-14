@@ -4,14 +4,18 @@
 
 import type { Election, OcdId } from './ballot.ts'
 import * as cook from './cook.ts'
+import * as ocd from './ocd.ts'
 
 export interface Region {
   /** Tag on the region's rows in the lookup tables, e.g. `il-cook`. */
   id: string
   /** For voters: "Cook County". */
   name: string
+  /** For voters, with the state: "Cook County, Illinois". */
+  fullName: string
   /** Two-letter state code, upper case. */
   state: string
+  stateName: string
   /** ZIP code ranges in the region's state (first two digits), for picking a region from an address. */
   zipPrefixes: string[]
   election: Election
@@ -22,12 +26,20 @@ export interface Region {
   authorityFor: (precinctId: string | undefined) => cook.Authority
   /** Districts implied by the precinct ID itself. */
   precinctDistricts: (precinctId: string | undefined) => OcdId[]
+  /**
+   * The region's districts come only from the election authority's own
+   * per-precinct lists (no boundary maps), so a precinct without one can't
+   * show its local races.
+   */
+  officialListsOnly?: boolean
 }
 
 export const COOK: Region = {
   id: 'il-cook',
   name: 'Cook County',
+  fullName: 'Cook County, Illinois',
   state: 'IL',
+  stateName: 'Illinois',
   zipPrefixes: ['60', '61', '62'],
   election: cook.CURRENT_ELECTION,
   everywhere: cook.COOK_EVERYWHERE,
@@ -43,7 +55,34 @@ export const COOK: Region = {
   precinctDistricts: cook.precinctDistricts,
 }
 
-export const REGIONS: Region[] = [COOK]
+const LA_REGISTRAR: cook.Authority = {
+  id: ocd.LOS_ANGELES_COUNTY,
+  name: 'Los Angeles County Registrar-Recorder/County Clerk',
+  sampleBallotUrl: 'https://isb.lavote.gov/',
+}
+
+export const LOS_ANGELES: Region = {
+  id: 'ca-la',
+  name: 'Los Angeles County',
+  fullName: 'Los Angeles County, California',
+  state: 'CA',
+  stateName: 'California',
+  zipPrefixes: ['90', '91', '93'],
+  election: {
+    id: 'ca-2026-11-03-general',
+    name: 'General Election',
+    date: '2026-11-03',
+    divisionId: ocd.CALIFORNIA,
+  },
+  everywhere: [ocd.US, ocd.CALIFORNIA, ocd.LOS_ANGELES_COUNTY],
+  // Every district comes from the Registrar's ballot style for the precinct.
+  requiredLayers: [],
+  authorityFor: () => LA_REGISTRAR,
+  precinctDistricts: () => [],
+  officialListsOnly: true,
+}
+
+export const REGIONS: Region[] = [COOK, LOS_ANGELES]
 
 /** "Cook County", "Cook County or Los Angeles County". */
 export const coveredAreas = (regions = REGIONS) =>

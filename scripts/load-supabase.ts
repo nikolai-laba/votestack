@@ -1,9 +1,12 @@
-// Loads Cook County's lookup data (address points, district and precinct
+// Loads one region's lookup data (address points, district and precinct
 // boundaries, contests) from data/raw and data/build into Supabase, replacing
 // that region's rows; other regions' rows are left alone. Apply
 // supabase/migrations first. Needs SUPABASE_URL and SUPABASE_SECRET_KEY in
 // .env (never commit it).
-// Run after data:fetch and data:build: node --env-file=.env scripts/load-supabase.ts
+// Cook County, after data:fetch and data:build:
+//   node --env-file=.env scripts/load-supabase.ts
+// Los Angeles County, after the scripts in scripts/la/:
+//   node --env-file=.env scripts/load-supabase.ts --region=ca-la
 
 import { existsSync } from 'node:fs'
 import { readdir, readFile } from 'node:fs/promises'
@@ -12,7 +15,7 @@ import { parseAddress, streetKey } from '../src/shared/address.ts'
 import type { Contest } from '../src/shared/ballot.ts'
 import type { ClerkSplit } from '../src/shared/cook.ts'
 import type { AreaGeometry, PolygonCoords } from '../src/shared/geo.ts'
-import { COOK } from '../src/shared/regions.ts'
+import { COOK, LOS_ANGELES, REGIONS } from '../src/shared/regions.ts'
 import { BUILD, RAW, readJson, type FeatureCollection } from './lib/data.ts'
 import { ELECTION_ID } from './lib/election.ts'
 import { loadLayers } from './lib/layers.ts'
@@ -31,7 +34,16 @@ if (!url || !key) {
 const headers = { apikey: key, 'Content-Type': 'application/json' }
 
 /** The lookup tables' tag for this data (see src/shared/regions.ts). */
-const REGION = COOK.id
+const REGION =
+  process.argv.find((a) => a.startsWith('--region='))?.split('=')[1] ?? COOK.id
+const region = REGIONS.find((r) => r.id === REGION)
+if (!region) {
+  console.error(
+    `Unknown region ${REGION}: ${REGIONS.map((r) => r.id).join(', ')}`,
+  )
+  process.exit(1)
+}
+const LA = region.id === LOS_ANGELES.id
 
 async function rpc(fn: string, args: object = {}) {
   const res = await send(`/rest/v1/rpc/${fn}`, {
@@ -107,7 +119,12 @@ for (let deleted = 1; deleted > 0;) {
 process.stdout.write('\n')
 
 // Address points.
-const text = await readFile(join(RAW, 'address-points.tsv'), 'utf8')
+const text = await readFile(
+  LA
+    ? join(BUILD, 'la', 'address-points.tsv')
+    : join(RAW, 'address-points.tsv'),
+  'utf8',
+)
 const points = text
   .split('\n')
   .slice(1)
@@ -129,8 +146,9 @@ const points = text
   })
 await insert('address_points', points, 2000)
 
-// District boundaries.
-const districts = (await loadLayers()).flatMap((layer) =>
+// District boundaries (Los Angeles County's districts come from the
+// Registrar's ballot styles instead, below).
+const districts = (LA ? [] : await loadLayers()).flatMap((layer) =>
   layer.areas.map((area) => ({
     ocd_id: area.value,
     layer: layer.type,
@@ -141,12 +159,13 @@ const districts = (await loadLayers()).flatMap((layer) =>
 await insert('districts', districts, 20)
 
 // Precincts.
+const regionBuild = LA ? join(BUILD, 'la') : BUILD
 const shapes = await readJson<FeatureCollection>(
-  join(BUILD, 'precinct-shapes.geojson'),
+  join(regionBuild, 'precinct-shapes.geojson'),
 )
 const { precincts } = await readJson<{
   precincts: { id: string; name: string }[]
-}>(join(BUILD, 'precincts.json'))
+}>(join(regionBuild, 'precincts.json'))
 const names = new Map(precincts.map((p) => [p.id, p.name]))
 await insert(
   'precincts',
@@ -161,27 +180,30 @@ await insert(
 // Contests (with their paper ballot position) and the ones not yet
 // placed in a district.
 const paperOrderFile = join(BUILD, 'paper-order.json')
-const paperRanks: PaperRanks = existsSync(paperOrderFile)
-  ? (await readJson<{ ranks: PaperRanks }>(paperOrderFile)).ranks
-  : {}
-if (!existsSync(paperOrderFile))
+const paperRanks: PaperRanks =
+  !LA && existsSync(paperOrderFile)
+    ? (await readJson<{ ranks: PaperRanks }>(paperOrderFile)).ranks
+    : {}
+if (!LA && !existsSync(paperOrderFile))
   console.log(
     'No paper-order.json (run build-paper-order.ts): the app will offer only the order by level',
   )
 // Incumbent labels (scripts/build-incumbents.ts), committed in content/.
-const incumbents: Incumbents = existsSync(INCUMBENTS)
-  ? await readJson<Incumbents>(INCUMBENTS)
-  : {}
-if (!existsSync(INCUMBENTS))
+const incumbents: Incumbents =
+  !LA && existsSync(INCUMBENTS) ? await readJson<Incumbents>(INCUMBENTS) : {}
+if (!LA && !existsSync(INCUMBENTS))
   console.log(
     'No incumbents file (run npm run data:incumbents): no candidate is labeled incumbent',
   )
 const contests: object[] = []
 const unplaced: object[] = []
-for (const file of await readdir(join(BUILD, 'contests'))) {
-  const data = await readJson<{ contests: Contest[]; unmapped: string[] }>(
-    join(BUILD, 'contests', file),
-  )
+const contestFiles = LA
+  ? [join(BUILD, 'la', 'contests.json')]
+  : (await readdir(join(BUILD, 'contests'))).map((f) =>
+      join(BUILD, 'contests', f),
+    )
+for (const file of contestFiles) {
+  const data = await readJson<{ contests: Contest[]; unmapped: string[] }>(file)
   for (const c of withIncumbents(
     withPaperOrder(data.contests, paperRanks),
     incumbents,
@@ -197,7 +219,7 @@ for (const file of await readdir(join(BUILD, 'contests'))) {
   const authority = data.contests[0]?.authorityId
   for (const description of data.unmapped) {
     unplaced.push({
-      election_id: ELECTION_ID,
+      election_id: LA ? region.election.id : ELECTION_ID,
       authority_id: authority,
       description,
     })
@@ -214,10 +236,12 @@ const splitsFrom = async (file: string) =>
       join(BUILD, file),
     )
   ).precincts
-const official = {
-  ...(await splitsFrom('clerk-precincts.json')),
-  ...(await splitsFrom('chicago-precincts.json')),
-}
+const official = LA
+  ? await splitsFrom(join('la', 'precinct-splits.json'))
+  : {
+      ...(await splitsFrom('clerk-precincts.json')),
+      ...(await splitsFrom('chicago-precincts.json')),
+    }
 await insert(
   'clerk_precinct_splits',
   Object.entries(official).flatMap(([precinctId, splits]) =>

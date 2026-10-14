@@ -18,6 +18,7 @@ import {
   pickedCandidates,
 } from '../picks/summary.ts'
 import type { Contest } from '../shared/ballot.ts'
+import { regionForElection } from '../shared/regions.ts'
 import { SAVED_CHOICES_HEAD, useDocumentHead } from '../head.ts'
 
 // Saved choices: the voter's picks in ballot order, to fill in a mail
@@ -25,8 +26,8 @@ import { SAVED_CHOICES_HEAD, useDocumentHead } from '../head.ts'
 // the picked names standing out for a quick scan. Sections by level of
 // government, or in paper ballot order to follow along in the booth.
 // Read from the device only. There is deliberately no print, download or
-// share: showing a marked ballot is against the law in Illinois
-// (10 ILCS 5/29-9).
+// share, for any area: showing a marked ballot is against the law in
+// Illinois (10 ILCS 5/29-9).
 
 const HEADING_ID = 'saved-choices-heading'
 const CLEARED_ID = 'saved-choices-cleared'
@@ -70,6 +71,10 @@ export function SavedChoicesPage() {
   }
 
   const sections = sectionsFor(ballot.contests, order)
+  // Illinois's law against showing a marked ballot. California's differs,
+  // so the warning is for Illinois ballots (and any ballot whose state isn't
+  // known).
+  const illinois = regionForElection(ballot.election.id)?.state !== 'CA'
 
   return (
     <div className="max-w-[65ch] space-y-8">
@@ -110,9 +115,9 @@ export function SavedChoicesPage() {
 
       <div className="space-y-4 border-t border-line pt-6">
         <p className="text-small text-muted">
-          Saved only on this device. This isn&apos;t an official ballot. In
-          Illinois it&apos;s against the law to show your marked ballot to
-          anyone, including in a photo.
+          Saved only on this device. This isn&apos;t an official ballot.
+          {illinois &&
+            " In Illinois it's against the law to show your marked ballot to anyone, including in a photo."}
         </p>
         <ClearPicks picks={picks} />
       </div>

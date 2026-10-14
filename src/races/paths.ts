@@ -1,7 +1,10 @@
 // Addresses of the race pages (src/shared/races.ts has the scheme).
 
-import { CURRENT_ELECTION } from '../shared/cook.ts'
+import type { Region } from '../shared/regions.ts'
 import { RACES_PATH } from '../shared/races.ts'
 
-/** Every race on Cook County ballots in the current election. */
-export const CURRENT_RACES_AREA_PATH = `${RACES_PATH}/il/cook-county/${CURRENT_ELECTION.date}`
+/** Every race on a region's ballots in its current election: `/races/il/cook-county/2026-11-03`. */
+export const raceAreaPath = (region: Region) =>
+  `${RACES_PATH}/${region.state.toLowerCase()}/${region.name
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')}/${region.election.date}`

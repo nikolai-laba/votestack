@@ -741,6 +741,33 @@ describe('paper ballot order', () => {
     ).toBeVisible()
   })
 
+  it('leaves out the Illinois ballot-photo law on a California ballot', () => {
+    seed(
+      {},
+      {
+        ...ballot,
+        election: { ...ballot.election, id: 'ca-2026-11-03-general' },
+      },
+    )
+    renderAt('/saved-choices')
+    const note = screen.getByText(/^Saved only on this device\./)
+    expect(note).toHaveTextContent(
+      "Saved only on this device. This isn't an official ballot.",
+    )
+    expect(note).not.toHaveTextContent(/Illinois/)
+  })
+
+  it('says a Los Angeles County order comes from the Registrar', async () => {
+    seed({}, onPaper('ocd-division/country:us/state:ca/county:los_angeles'))
+    renderAt('/saved-choices')
+    await userEvent.click(radio('Paper ballot order'))
+    expect(
+      within(savedPage()).getByText(
+        "This follows the Los Angeles County Registrar's sample ballot for your ballot style.",
+      ),
+    ).toBeVisible()
+  })
+
   it('offers no switch when the paper order is not known', () => {
     seed({})
     orderStore.set('paper')
