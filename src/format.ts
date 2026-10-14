@@ -46,3 +46,12 @@ export function percent(share: number): string {
   if (share < 1 && share >= 0.995) return 'Over 99%'
   return `${Math.round(share * 100)}%`
 }
+
+/**
+ * A link from profile or ballot data, only when it's an ordinary web
+ * address (http or https). Anything else gets no link at all, so data can
+ * never put a script or another kind of link on the page.
+ */
+export function webUrl(url: string | undefined): string | undefined {
+  return url && /^https?:\/\//i.test(url) ? url : undefined
+}

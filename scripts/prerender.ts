@@ -15,6 +15,7 @@ import { mkdir, readFile, rm, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { pathToFileURL } from 'node:url'
 import type { CandidateProfile } from '../src/shared/profile.ts'
+import type { RaceList } from '../src/shared/races.ts'
 import { ROOT, readJson } from './lib/data.ts'
 import { PROFILES_DIR, readProfiles } from './lib/profiles/content.ts'
 import {
@@ -35,12 +36,14 @@ interface Page {
   file: string
   head: { noindex?: boolean }
   render?: string
-  data?: { page: 'profile' | 'about' | 'notify' }
+  data?: { page: 'profile' | 'about' | 'notify' | 'races' }
 }
 interface Ssr {
   SITE_URL: string
   STATIC_PAGES: Page[]
   candidatePages(profile: CandidateProfile, live: boolean): Page[]
+  racePages(list: RaceList): Page[]
+  raceList(): Promise<RaceList>
   renderPage(page: Page): Promise<string>
   headHtml(head: Page['head']): string
   prerenderData(data: NonNullable<Page['data']>): string
@@ -55,7 +58,14 @@ const PAGE_MODULES: Record<NonNullable<Page['data']>['page'], string> = {
   profile: 'src/pages/ProfilePage.tsx',
   about: 'src/pages/AboutPage.tsx',
   notify: 'src/pages/NotifyPage.tsx',
+  races: 'src/pages/RacesPage.tsx',
 }
+
+/** The race list's chunks, which race pages and profiles load first (src/races/data.ts). */
+const RACE_DATA = [
+  'content/contests/2026-11-03.json',
+  'content/profiles/published/2026-11-03.json',
+]
 
 const ssr = (await import(
   pathToFileURL(join(SSR_DIR, 'prerender.js')).href
@@ -81,15 +91,22 @@ if (existsSync(PUBLISHED_LIST)) {
   console.warn('No published list; building no candidate pages')
 }
 
+const races = await ssr.raceList()
 const pages = [
   ...ssr.STATIC_PAGES,
   ...candidates.flatMap((c) => ssr.candidatePages(c.profile, c.live)),
+  ...ssr.racePages(races),
 ]
 for (const page of pages) {
   const html = fillTemplate(template, {
     head: ssr.headHtml(page.head),
     extraHead: page.data
-      ? modulePreloads(manifest, PAGE_MODULES[page.data.page]).join('\n    ')
+      ? [
+          ...modulePreloads(manifest, PAGE_MODULES[page.data.page]),
+          ...(page.data.page === 'profile' || page.data.page === 'races'
+            ? RACE_DATA.flatMap((src) => modulePreloads(manifest, src))
+            : []),
+        ].join('\n    ')
       : undefined,
     body: await ssr.renderPage(page),
     data: page.data && ssr.prerenderData(page.data),
@@ -116,5 +133,5 @@ await rm(SSR_DIR, { recursive: true, force: true })
 await rm(join(DIST, '.vite'), { recursive: true, force: true })
 
 console.log(
-  `Prerendered ${pages.length} pages (${candidates.length} candidates); sitemap lists ${sitemap.length}`,
+  `Prerendered ${pages.length} pages (${candidates.length} candidates, ${races.races.length} races); sitemap lists ${sitemap.length}`,
 )

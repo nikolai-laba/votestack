@@ -19,7 +19,7 @@ export interface Section {
   contests: Contest[]
 }
 
-const TITLES: Record<LevelId, string> = {
+export const LEVEL_TITLES: Record<LevelId, string> = {
   federal: 'Federal',
   state: 'State',
   county: 'County and regional',
@@ -29,7 +29,7 @@ const TITLES: Record<LevelId, string> = {
   measures: 'Referenda and questions',
 }
 
-const ORDER = Object.keys(TITLES) as LevelId[]
+const ORDER = Object.keys(LEVEL_TITLES) as LevelId[]
 
 export function sectionFor(contest: Contest): LevelId {
   if (contest.kind === 'retention') return 'retention'
@@ -53,7 +53,7 @@ export function groupContests(contests: Contest[]): Section[] {
   }
   return ORDER.filter((id) => byId.has(id)).map((id) => ({
     id,
-    title: TITLES[id],
+    title: LEVEL_TITLES[id],
     contests: byId
       .get(id)!
       .sort((a, b) => (a.ballotOrder ?? 0) - (b.ballotOrder ?? 0)),
@@ -70,8 +70,8 @@ export function hasPaperOrder(contests: Contest[]): boolean {
 
 const PAPER_PARTS: Record<Contest['kind'], { id: SectionId; title: string }> = {
   candidate: { id: 'races', title: 'Races' },
-  measure: { id: 'measures', title: TITLES.measures },
-  retention: { id: 'retention', title: TITLES.retention },
+  measure: { id: 'measures', title: LEVEL_TITLES.measures },
+  retention: { id: 'retention', title: LEVEL_TITLES.retention },
 }
 
 /**

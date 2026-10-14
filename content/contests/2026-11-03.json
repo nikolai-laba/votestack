@@ -1,0 +1,4704 @@
+{
+  "electionId": "il-2026-11-03-general",
+  "electionName": "General Election",
+  "date": "2026-11-03",
+  "area": "Cook County, Illinois",
+  "areaPath": "il/cook-county/2026-11-03",
+  "races": [
+    {
+      "level": "federal",
+      "path": "il/2026-11-03/united-states-senator",
+      "kind": "candidate",
+      "title": "United States Senator",
+      "office": "Senator",
+      "districtId": "ocd-division/country:us/state:il",
+      "contestIds": ["chicago-boe:united-states-senator", "cook-clerk:120100"],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Don Tracy", "party": "Republican", "ballotOrder": 1 },
+        { "name": "Juliana Stratton", "party": "Democratic", "ballotOrder": 2 },
+        {
+          "name": "Whitfield Harrington Jr",
+          "party": "American Center Party",
+          "ballotOrder": 3
+        }
+      ]
+    },
+    {
+      "level": "federal",
+      "path": "il/2026-11-03/us-representative-1st-district",
+      "kind": "candidate",
+      "title": "U.S. Representative, 1st District",
+      "office": "U.S. Representative",
+      "districtId": "ocd-division/country:us/state:il/cd:1",
+      "contestIds": [
+        "chicago-boe:u-s-representative-1st-district",
+        "cook-clerk:140100"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Christian Maxwell",
+          "party": "Republican",
+          "ballotOrder": 21
+        },
+        {
+          "name": "Jonathan L. Jackson",
+          "party": "Democratic",
+          "ballotOrder": 22,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "federal",
+      "path": "il/2026-11-03/us-representative-2nd-district",
+      "kind": "candidate",
+      "title": "U.S. Representative, 2nd District",
+      "office": "U.S. Representative",
+      "districtId": "ocd-division/country:us/state:il/cd:2",
+      "contestIds": [
+        "chicago-boe:u-s-representative-2nd-district",
+        "cook-clerk:140200"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Michael Scott Noack",
+          "party": "Republican",
+          "ballotOrder": 21
+        },
+        { "name": "Donna Miller", "party": "Democratic", "ballotOrder": 22 }
+      ]
+    },
+    {
+      "level": "federal",
+      "path": "il/2026-11-03/us-representative-3rd-district",
+      "kind": "candidate",
+      "title": "U.S. Representative, 3rd District",
+      "office": "U.S. Representative",
+      "districtId": "ocd-division/country:us/state:il/cd:3",
+      "contestIds": [
+        "chicago-boe:u-s-representative-3rd-district",
+        "cook-clerk:140300"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Angel Oakley", "party": "Republican", "ballotOrder": 21 },
+        {
+          "name": "Delia Ramirez",
+          "party": "Democratic",
+          "ballotOrder": 22,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "federal",
+      "path": "il/2026-11-03/us-representative-4th-district",
+      "kind": "candidate",
+      "title": "U.S. Representative, 4th District",
+      "office": "U.S. Representative",
+      "districtId": "ocd-division/country:us/state:il/cd:4",
+      "contestIds": [
+        "chicago-boe:u-s-representative-4th-district",
+        "cook-clerk:140400"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Lupe Castillo", "party": "Republican", "ballotOrder": 21 },
+        { "name": "Patty Garcia", "party": "Democratic", "ballotOrder": 22 },
+        {
+          "name": "Ed Hershey",
+          "party": "Working Class Party",
+          "ballotOrder": 23
+        },
+        { "name": "Chris Getty", "party": "Independent", "ballotOrder": 24 }
+      ]
+    },
+    {
+      "level": "federal",
+      "path": "il/2026-11-03/us-representative-5th-district",
+      "kind": "candidate",
+      "title": "U.S. Representative, 5th District",
+      "office": "U.S. Representative",
+      "districtId": "ocd-division/country:us/state:il/cd:5",
+      "contestIds": [
+        "chicago-boe:u-s-representative-5th-district",
+        "cook-clerk:140500"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Tommy Hanson", "party": "Republican", "ballotOrder": 21 },
+        {
+          "name": "Mike Quigley",
+          "party": "Democratic",
+          "ballotOrder": 22,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "federal",
+      "path": "il/2026-11-03/us-representative-6th-district",
+      "kind": "candidate",
+      "title": "U.S. Representative, 6th District",
+      "office": "U.S. Representative",
+      "districtId": "ocd-division/country:us/state:il/cd:6",
+      "contestIds": [
+        "chicago-boe:u-s-representative-6th-district",
+        "cook-clerk:140600"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Niki Conforti", "party": "Republican", "ballotOrder": 21 },
+        {
+          "name": "Sean Casten",
+          "party": "Democratic",
+          "ballotOrder": 22,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "federal",
+      "path": "il/2026-11-03/us-representative-7th-district",
+      "kind": "candidate",
+      "title": "U.S. Representative, 7th District",
+      "office": "U.S. Representative",
+      "districtId": "ocd-division/country:us/state:il/cd:7",
+      "contestIds": [
+        "chicago-boe:u-s-representative-7th-district",
+        "cook-clerk:140700"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Chad Koppie", "party": "Republican", "ballotOrder": 21 },
+        { "name": "La Shawn K. Ford", "party": "Democratic", "ballotOrder": 22 }
+      ]
+    },
+    {
+      "level": "federal",
+      "path": "il/2026-11-03/us-representative-8th-district",
+      "kind": "candidate",
+      "title": "U.S. Representative, 8th District",
+      "office": "U.S. Representative",
+      "districtId": "ocd-division/country:us/state:il/cd:8",
+      "contestIds": [
+        "chicago-boe:u-s-representative-8th-district",
+        "cook-clerk:140800"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Jennifer Davis", "party": "Republican", "ballotOrder": 21 },
+        { "name": "Melissa L. Bean", "party": "Democratic", "ballotOrder": 22 }
+      ]
+    },
+    {
+      "level": "federal",
+      "path": "il/2026-11-03/us-representative-9th-district",
+      "kind": "candidate",
+      "title": "U.S. Representative, 9th District",
+      "office": "U.S. Representative",
+      "districtId": "ocd-division/country:us/state:il/cd:9",
+      "contestIds": [
+        "chicago-boe:u-s-representative-9th-district",
+        "cook-clerk:140900"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "John Elleson", "party": "Republican", "ballotOrder": 21 },
+        { "name": "Daniel Biss", "party": "Democratic", "ballotOrder": 22 }
+      ]
+    },
+    {
+      "level": "federal",
+      "path": "il/2026-11-03/us-representative-10th-district",
+      "kind": "candidate",
+      "title": "U.S. Representative, 10th District",
+      "office": "U.S. Representative",
+      "districtId": "ocd-division/country:us/state:il/cd:10",
+      "contestIds": ["cook-clerk:141000"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Carl Lambrecht", "party": "Republican", "ballotOrder": 21 },
+        {
+          "name": "Brad Schneider",
+          "party": "Democratic",
+          "ballotOrder": 22,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "federal",
+      "path": "il/2026-11-03/us-representative-11th-district",
+      "kind": "candidate",
+      "title": "U.S. Representative, 11th District",
+      "office": "U.S. Representative",
+      "districtId": "ocd-division/country:us/state:il/cd:11",
+      "contestIds": ["cook-clerk:141100"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Jeff Walter", "party": "Republican", "ballotOrder": 21 },
+        {
+          "name": "Bill Foster",
+          "party": "Democratic",
+          "ballotOrder": 22,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/governor-lieutenant-governor",
+      "kind": "candidate",
+      "title": "Governor & Lieutenant Governor",
+      "office": "Governor and Lieutenant Governor",
+      "districtId": "ocd-division/country:us/state:il",
+      "contestIds": [
+        "chicago-boe:governor-lieutenant-governor",
+        "cook-clerk:130030"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Darren Bailey & Aaron B. Del Mar",
+          "party": "Republican",
+          "ballotOrder": 4
+        },
+        {
+          "name": "JB Pritzker & Christian Mitchell",
+          "party": "Democratic",
+          "ballotOrder": 5,
+          "incumbent": true
+        },
+        {
+          "name": "Collin Corbett & Carolyn Schofield",
+          "party": "Independent",
+          "ballotOrder": 6
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/attorney-general",
+      "kind": "candidate",
+      "title": "Attorney General",
+      "office": "Attorney General",
+      "districtId": "ocd-division/country:us/state:il",
+      "contestIds": ["chicago-boe:attorney-general", "cook-clerk:130040"],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Robert W. Fioretti",
+          "party": "Republican",
+          "ballotOrder": 7
+        },
+        {
+          "name": "Kwame Raoul",
+          "party": "Democratic",
+          "ballotOrder": 8,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/secretary-of-state",
+      "kind": "candidate",
+      "title": "Secretary of State",
+      "office": "Secretary of State",
+      "districtId": "ocd-division/country:us/state:il",
+      "contestIds": ["chicago-boe:secretary-of-state", "cook-clerk:130050"],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Diane M. Harris", "party": "Republican", "ballotOrder": 9 },
+        {
+          "name": "Alexi Giannoulias",
+          "party": "Democratic",
+          "ballotOrder": 10,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/comptroller",
+      "kind": "candidate",
+      "title": "Comptroller",
+      "office": "Comptroller",
+      "districtId": "ocd-division/country:us/state:il",
+      "contestIds": ["chicago-boe:comptroller", "cook-clerk:130060"],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Bryan Drew", "party": "Republican", "ballotOrder": 11 },
+        { "name": "Margaret Croke", "party": "Democratic", "ballotOrder": 12 }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/treasurer",
+      "kind": "candidate",
+      "title": "Treasurer",
+      "office": "Treasurer",
+      "districtId": "ocd-division/country:us/state:il",
+      "contestIds": ["chicago-boe:treasurer", "cook-clerk:130070"],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Max Solomon", "party": "Republican", "ballotOrder": 13 },
+        {
+          "name": "Michael W. Frerichs",
+          "party": "Democratic",
+          "ballotOrder": 14,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-senator-2nd-district",
+      "kind": "candidate",
+      "title": "State Senator, 2nd District",
+      "office": "State Senator",
+      "districtId": "ocd-division/country:us/state:il/sldu:2",
+      "contestIds": [
+        "chicago-boe:state-senator-2nd-district",
+        "cook-clerk:170202"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Omar Aquino",
+          "party": "Democratic",
+          "ballotOrder": 32,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-senator-3rd-district",
+      "kind": "candidate",
+      "title": "State Senator, 3rd District",
+      "office": "State Senator",
+      "districtId": "ocd-division/country:us/state:il/sldu:3",
+      "contestIds": [
+        "chicago-boe:state-senator-3rd-district",
+        "cook-clerk:170302"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Mattie Hunter",
+          "party": "Democratic",
+          "ballotOrder": 32,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-senator-5th-district",
+      "kind": "candidate",
+      "title": "State Senator, 5th District",
+      "office": "State Senator",
+      "districtId": "ocd-division/country:us/state:il/sldu:5",
+      "contestIds": [
+        "chicago-boe:state-senator-5th-district",
+        "cook-clerk:170502"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Lakesia Collins",
+          "party": "Democratic",
+          "ballotOrder": 32,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-senator-6th-district",
+      "kind": "candidate",
+      "title": "State Senator, 6th District",
+      "office": "State Senator",
+      "districtId": "ocd-division/country:us/state:il/sldu:6",
+      "contestIds": [
+        "chicago-boe:state-senator-6th-district",
+        "cook-clerk:170601"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Sara Feigenholtz",
+          "party": "Democratic",
+          "ballotOrder": 32,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-senator-8th-district",
+      "kind": "candidate",
+      "title": "State Senator, 8th District",
+      "office": "State Senator",
+      "districtId": "ocd-division/country:us/state:il/sldu:8",
+      "contestIds": [
+        "chicago-boe:state-senator-8th-district",
+        "cook-clerk:170802"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Vince Romano", "party": "Republican", "ballotOrder": 31 },
+        {
+          "name": "Ram Villivalam",
+          "party": "Democratic",
+          "ballotOrder": 32,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-senator-9th-district",
+      "kind": "candidate",
+      "title": "State Senator, 9th District",
+      "office": "State Senator",
+      "districtId": "ocd-division/country:us/state:il/sldu:9",
+      "contestIds": [
+        "chicago-boe:state-senator-9th-district",
+        "cook-clerk:170902"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Tom Lally", "party": "Republican", "ballotOrder": 31 },
+        { "name": "Patrick Hanley", "party": "Democratic", "ballotOrder": 32 }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-senator-11th-district",
+      "kind": "candidate",
+      "title": "State Senator, 11th District",
+      "office": "State Senator",
+      "districtId": "ocd-division/country:us/state:il/sldu:11",
+      "contestIds": [
+        "chicago-boe:state-senator-11th-district",
+        "cook-clerk:171101"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Mike Porfirio",
+          "party": "Democratic",
+          "ballotOrder": 32,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-senator-12th-district",
+      "kind": "candidate",
+      "title": "State Senator, 12th District",
+      "office": "State Senator",
+      "districtId": "ocd-division/country:us/state:il/sldu:12",
+      "contestIds": [
+        "chicago-boe:state-senator-12th-district",
+        "cook-clerk:171202"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Celina Villanueva",
+          "party": "Democratic",
+          "ballotOrder": 32,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-senator-14th-district",
+      "kind": "candidate",
+      "title": "State Senator, 14th District",
+      "office": "State Senator",
+      "districtId": "ocd-division/country:us/state:il/sldu:14",
+      "contestIds": [
+        "chicago-boe:state-senator-14th-district",
+        "cook-clerk:171402"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Brian Skala", "party": "Republican", "ballotOrder": 31 },
+        {
+          "name": "Emil Jones, III",
+          "party": "Democratic",
+          "ballotOrder": 32,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-senator-15th-district",
+      "kind": "candidate",
+      "title": "State Senator, 15th District",
+      "office": "State Senator",
+      "districtId": "ocd-division/country:us/state:il/sldu:15",
+      "contestIds": [
+        "chicago-boe:state-senator-15th-district",
+        "cook-clerk:171502"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Napoleon B. Harris III",
+          "party": "Democratic",
+          "ballotOrder": 32,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-senator-17th-district",
+      "kind": "candidate",
+      "title": "State Senator, 17th District",
+      "office": "State Senator",
+      "districtId": "ocd-division/country:us/state:il/sldu:17",
+      "contestIds": [
+        "chicago-boe:state-senator-17th-district",
+        "cook-clerk:171702"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Frederick L. Walls",
+          "party": "Republican",
+          "ballotOrder": 31
+        },
+        {
+          "name": "Elgie R. Sims, Jr.",
+          "party": "Democratic",
+          "ballotOrder": 32,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-senator-18th-district",
+      "kind": "candidate",
+      "title": "State Senator, 18th District",
+      "office": "State Senator",
+      "districtId": "ocd-division/country:us/state:il/sldu:18",
+      "contestIds": [
+        "chicago-boe:state-senator-18th-district",
+        "cook-clerk:171802"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Christine McGovern",
+          "party": "Republican",
+          "ballotOrder": 31
+        },
+        {
+          "name": "Frances Ann Hurley",
+          "party": "Democratic",
+          "ballotOrder": 32
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-senator-20th-district",
+      "kind": "candidate",
+      "title": "State Senator, 20th District",
+      "office": "State Senator",
+      "districtId": "ocd-division/country:us/state:il/sldu:20",
+      "contestIds": [
+        "chicago-boe:state-senator-20th-district",
+        "cook-clerk:172002"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Graciela Guzman",
+          "party": "Democratic",
+          "ballotOrder": 32,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-senator-23rd-district",
+      "kind": "candidate",
+      "title": "State Senator, 23rd District",
+      "office": "State Senator",
+      "districtId": "ocd-division/country:us/state:il/sldu:23",
+      "contestIds": ["cook-clerk:172302"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Linda Z. Polacek",
+          "party": "Republican",
+          "ballotOrder": 31
+        },
+        {
+          "name": "Suzanne \"Suzy\" Glowiak Hilton",
+          "party": "Democratic",
+          "ballotOrder": 32,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-senator-24th-district",
+      "kind": "candidate",
+      "title": "State Senator, 24th District",
+      "office": "State Senator",
+      "districtId": "ocd-division/country:us/state:il/sldu:24",
+      "contestIds": ["cook-clerk:172402"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Seth Lewis",
+          "party": "Republican",
+          "ballotOrder": 31,
+          "incumbent": true
+        },
+        {
+          "name": "Benjamin \"Ben\" McAdams",
+          "party": "Democratic",
+          "ballotOrder": 32
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-senator-26th-district",
+      "kind": "candidate",
+      "title": "State Senator, 26th District",
+      "office": "State Senator",
+      "districtId": "ocd-division/country:us/state:il/sldu:26",
+      "contestIds": ["cook-clerk:172602"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Darby Hills",
+          "party": "Republican",
+          "ballotOrder": 31,
+          "incumbent": true
+        },
+        { "name": "Nabeela Syed", "party": "Democratic", "ballotOrder": 32 }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-senator-27th-district",
+      "kind": "candidate",
+      "title": "State Senator, 27th District",
+      "office": "State Senator",
+      "districtId": "ocd-division/country:us/state:il/sldu:27",
+      "contestIds": ["cook-clerk:172702"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "David Mathis", "party": "Republican", "ballotOrder": 31 },
+        {
+          "name": "Carina Santa Maria",
+          "party": "Democratic",
+          "ballotOrder": 32
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-senator-29th-district",
+      "kind": "candidate",
+      "title": "State Senator, 29th District",
+      "office": "State Senator",
+      "districtId": "ocd-division/country:us/state:il/sldu:29",
+      "contestIds": ["cook-clerk:172902"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Kate McGrath", "party": "Republican", "ballotOrder": 31 },
+        {
+          "name": "Julie A. Morrison",
+          "party": "Democratic",
+          "ballotOrder": 32,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-senator-30th-district",
+      "kind": "candidate",
+      "title": "State Senator, 30th District",
+      "office": "State Senator",
+      "districtId": "ocd-division/country:us/state:il/sldu:30",
+      "contestIds": ["cook-clerk:173002"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Adriane L. Johnson",
+          "party": "Democratic",
+          "ballotOrder": 32,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-senator-39th-district",
+      "kind": "candidate",
+      "title": "State Senator, 39th District",
+      "office": "State Senator",
+      "districtId": "ocd-division/country:us/state:il/sldu:39",
+      "contestIds": [
+        "chicago-boe:state-senator-39th-district",
+        "cook-clerk:173902"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Don Harmon",
+          "party": "Democratic",
+          "ballotOrder": 32,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-senator-41st-district",
+      "kind": "candidate",
+      "title": "State Senator, 41st District",
+      "office": "State Senator",
+      "districtId": "ocd-division/country:us/state:il/sldu:41",
+      "contestIds": ["cook-clerk:174102"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "John Curran",
+          "party": "Republican",
+          "ballotOrder": 31,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-1st-district",
+      "kind": "candidate",
+      "title": "State Representative, 1st District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:1",
+      "contestIds": [
+        "chicago-boe:state-representative-1st-district",
+        "cook-clerk:180100"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Aaron M. Ortiz",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-2nd-district",
+      "kind": "candidate",
+      "title": "State Representative, 2nd District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:2",
+      "contestIds": ["cook-clerk:180200"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Laura Hruska", "party": "Republican", "ballotOrder": 41 },
+        {
+          "name": "Elizabeth \"Lisa\" Hernandez",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-3rd-district",
+      "kind": "candidate",
+      "title": "State Representative, 3rd District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:3",
+      "contestIds": [
+        "chicago-boe:state-representative-3rd-district",
+        "cook-clerk:180300"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Eva-Dina Delgado",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-4th-district",
+      "kind": "candidate",
+      "title": "State Representative, 4th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:4",
+      "contestIds": [
+        "chicago-boe:state-representative-4th-district",
+        "cook-clerk:180400"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Lilian Jimenez",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-5th-district",
+      "kind": "candidate",
+      "title": "State Representative, 5th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:5",
+      "contestIds": [
+        "chicago-boe:state-representative-5th-district",
+        "cook-clerk:180500"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Kimberly Neely DuBuclet",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-6th-district",
+      "kind": "candidate",
+      "title": "State Representative, 6th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:6",
+      "contestIds": [
+        "chicago-boe:state-representative-6th-district",
+        "cook-clerk:180600"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Sonya Marie Harper",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-7th-district",
+      "kind": "candidate",
+      "title": "State Representative, 7th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:7",
+      "contestIds": ["cook-clerk:180700"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Emanuel \"Chris\" Welch",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-8th-district",
+      "kind": "candidate",
+      "title": "State Representative, 8th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:8",
+      "contestIds": [
+        "chicago-boe:state-representative-8th-district",
+        "cook-clerk:180800"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Shantel Franklin", "party": "Democratic", "ballotOrder": 42 }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-9th-district",
+      "kind": "candidate",
+      "title": "State Representative, 9th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:9",
+      "contestIds": [
+        "chicago-boe:state-representative-9th-district",
+        "cook-clerk:180900"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Yolonda Morris",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-10th-district",
+      "kind": "candidate",
+      "title": "State Representative, 10th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:10",
+      "contestIds": [
+        "chicago-boe:state-representative-10th-district",
+        "cook-clerk:181000"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Jawaharial \"Omar\" Williams",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-11th-district",
+      "kind": "candidate",
+      "title": "State Representative, 11th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:11",
+      "contestIds": [
+        "chicago-boe:state-representative-11th-district",
+        "cook-clerk:181100"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Ann M. Williams",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-12th-district",
+      "kind": "candidate",
+      "title": "State Representative, 12th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:12",
+      "contestIds": [
+        "chicago-boe:state-representative-12th-district",
+        "cook-clerk:181200"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Justin J. Kumar", "party": "Republican", "ballotOrder": 41 },
+        { "name": "Paul Kendrick", "party": "Democratic", "ballotOrder": 42 }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-13th-district",
+      "kind": "candidate",
+      "title": "State Representative, 13th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:13",
+      "contestIds": [
+        "chicago-boe:state-representative-13th-district",
+        "cook-clerk:181300"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Terry Nguyen Le", "party": "Republican", "ballotOrder": 41 },
+        {
+          "name": "Demerike \"Demi\" Palecek",
+          "party": "Democratic",
+          "ballotOrder": 42
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-14th-district",
+      "kind": "candidate",
+      "title": "State Representative, 14th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:14",
+      "contestIds": [
+        "chicago-boe:state-representative-14th-district",
+        "cook-clerk:181400"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Kelly M. Cassidy",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-15th-district",
+      "kind": "candidate",
+      "title": "State Representative, 15th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:15",
+      "contestIds": [
+        "chicago-boe:state-representative-15th-district",
+        "cook-clerk:181500"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Michael J. Kelly",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-16th-district",
+      "kind": "candidate",
+      "title": "State Representative, 16th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:16",
+      "contestIds": [
+        "chicago-boe:state-representative-16th-district",
+        "cook-clerk:181600"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Kevin John Olickal",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-17th-district",
+      "kind": "candidate",
+      "title": "State Representative, 17th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:17",
+      "contestIds": ["cook-clerk:181700"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "James \"Jim\" Geldermann",
+          "party": "Republican",
+          "ballotOrder": 41
+        },
+        {
+          "name": "Jennifer Gong-Gershowitz",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-18th-district",
+      "kind": "candidate",
+      "title": "State Representative, 18th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:18",
+      "contestIds": [
+        "chicago-boe:state-representative-18th-district",
+        "cook-clerk:181800"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Pete Donaghue", "party": "Republican", "ballotOrder": 41 },
+        {
+          "name": "Robyn Gabel",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-19th-district",
+      "kind": "candidate",
+      "title": "State Representative, 19th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:19",
+      "contestIds": [
+        "chicago-boe:state-representative-19th-district",
+        "cook-clerk:181900"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "John \"JZ\" Zimmers",
+          "party": "Republican",
+          "ballotOrder": 41
+        },
+        {
+          "name": "Lindsey LaPointe",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-20th-district",
+      "kind": "candidate",
+      "title": "State Representative, 20th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:20",
+      "contestIds": [
+        "chicago-boe:state-representative-20th-district",
+        "cook-clerk:182000"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Brad Stephens",
+          "party": "Republican",
+          "ballotOrder": 41,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-21st-district",
+      "kind": "candidate",
+      "title": "State Representative, 21st District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:21",
+      "contestIds": [
+        "chicago-boe:state-representative-21st-district",
+        "cook-clerk:182100"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Eric Su", "party": "Republican", "ballotOrder": 41 },
+        {
+          "name": "Abdelnasser Rashid",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-22nd-district",
+      "kind": "candidate",
+      "title": "State Representative, 22nd District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:22",
+      "contestIds": [
+        "chicago-boe:state-representative-22nd-district",
+        "cook-clerk:182200"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Angie Guerrero-Cuellar",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-23rd-district",
+      "kind": "candidate",
+      "title": "State Representative, 23rd District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:23",
+      "contestIds": [
+        "chicago-boe:state-representative-23rd-district",
+        "cook-clerk:182300"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Edgar Gonzalez, Jr.",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-24th-district",
+      "kind": "candidate",
+      "title": "State Representative, 24th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:24",
+      "contestIds": [
+        "chicago-boe:state-representative-24th-district",
+        "cook-clerk:182400"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Theresa Mah",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-25th-district",
+      "kind": "candidate",
+      "title": "State Representative, 25th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:25",
+      "contestIds": [
+        "chicago-boe:state-representative-25th-district",
+        "cook-clerk:182500"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Antoinette Jewel Simmons",
+          "party": "Republican",
+          "ballotOrder": 41
+        },
+        {
+          "name": "Curtis J. Tarver II",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-26th-district",
+      "kind": "candidate",
+      "title": "State Representative, 26th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:26",
+      "contestIds": [
+        "chicago-boe:state-representative-26th-district",
+        "cook-clerk:182600"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Kam Buckner",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-27th-district",
+      "kind": "candidate",
+      "title": "State Representative, 27th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:27",
+      "contestIds": [
+        "chicago-boe:state-representative-27th-district",
+        "cook-clerk:182700"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Justin Q. Slaughter",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-28th-district",
+      "kind": "candidate",
+      "title": "State Representative, 28th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:28",
+      "contestIds": [
+        "chicago-boe:state-representative-28th-district",
+        "cook-clerk:182800"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Robert \"Bob\" Rita",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-29th-district",
+      "kind": "candidate",
+      "title": "State Representative, 29th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:29",
+      "contestIds": [
+        "chicago-boe:state-representative-29th-district",
+        "cook-clerk:182900"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Thaddeus Jones",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-30th-district",
+      "kind": "candidate",
+      "title": "State Representative, 30th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:30",
+      "contestIds": ["cook-clerk:183000"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "William \"Will\" Davis",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-31st-district",
+      "kind": "candidate",
+      "title": "State Representative, 31st District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:31",
+      "contestIds": [
+        "chicago-boe:state-representative-31st-district",
+        "cook-clerk:183100"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Michael \"Mike\" Crawford",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-32nd-district",
+      "kind": "candidate",
+      "title": "State Representative, 32nd District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:32",
+      "contestIds": [
+        "chicago-boe:state-representative-32nd-district",
+        "cook-clerk:183200"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Lisa J. Davis",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-33rd-district",
+      "kind": "candidate",
+      "title": "State Representative, 33rd District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:33",
+      "contestIds": [
+        "chicago-boe:state-representative-33rd-district",
+        "cook-clerk:183300"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Marcus C. Evans, Jr.",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-34th-district",
+      "kind": "candidate",
+      "title": "State Representative, 34th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:34",
+      "contestIds": [
+        "chicago-boe:state-representative-34th-district",
+        "cook-clerk:183400"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Cleopatra \"Cleo\" Cowley",
+          "party": "Democratic",
+          "ballotOrder": 42
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-35th-district",
+      "kind": "candidate",
+      "title": "State Representative, 35th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:35",
+      "contestIds": [
+        "chicago-boe:state-representative-35th-district",
+        "cook-clerk:183500"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "David A. Dewar", "party": "Republican", "ballotOrder": 41 },
+        {
+          "name": "Mary Gill",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-36th-district",
+      "kind": "candidate",
+      "title": "State Representative, 36th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:36",
+      "contestIds": [
+        "chicago-boe:state-representative-36th-district",
+        "cook-clerk:183600"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "David Sheppard", "party": "Republican", "ballotOrder": 41 },
+        {
+          "name": "Rick Ryan",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-37th-district",
+      "kind": "candidate",
+      "title": "State Representative, 37th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:37",
+      "contestIds": ["cook-clerk:183700"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Patrick Sheehan",
+          "party": "Republican",
+          "ballotOrder": 41,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-38th-district",
+      "kind": "candidate",
+      "title": "State Representative, 38th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:38",
+      "contestIds": ["cook-clerk:183800"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Debbie Meyers-Martin",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-39th-district",
+      "kind": "candidate",
+      "title": "State Representative, 39th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:39",
+      "contestIds": [
+        "chicago-boe:state-representative-39th-district",
+        "cook-clerk:183900"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Cesar A. Guillen",
+          "party": "Republican",
+          "ballotOrder": 41
+        },
+        {
+          "name": "Will Guzzardi",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-40th-district",
+      "kind": "candidate",
+      "title": "State Representative, 40th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:40",
+      "contestIds": [
+        "chicago-boe:state-representative-40th-district",
+        "cook-clerk:184000"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Miguel Alvelo-Rivera",
+          "party": "Democratic",
+          "ballotOrder": 42
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-43rd-district",
+      "kind": "candidate",
+      "title": "State Representative, 43rd District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:43",
+      "contestIds": ["cook-clerk:184300"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Anna Moeller",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-44th-district",
+      "kind": "candidate",
+      "title": "State Representative, 44th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:44",
+      "contestIds": ["cook-clerk:184400"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Ralph Black", "party": "Republican", "ballotOrder": 41 },
+        {
+          "name": "Fred Crespo",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-45th-district",
+      "kind": "candidate",
+      "title": "State Representative, 45th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:45",
+      "contestIds": ["cook-clerk:184500"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Gina Parrilli", "party": "Republican", "ballotOrder": 41 },
+        {
+          "name": "Martha \"Marti\" Deuter",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-48th-district",
+      "kind": "candidate",
+      "title": "State Representative, 48th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:48",
+      "contestIds": ["cook-clerk:184800"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Jennifer Sanalitro",
+          "party": "Republican",
+          "ballotOrder": 41,
+          "incumbent": true
+        },
+        { "name": "Amanda Zahorak", "party": "Democratic", "ballotOrder": 42 }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-49th-district",
+      "kind": "candidate",
+      "title": "State Representative, 49th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:49",
+      "contestIds": ["cook-clerk:184900"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "John Paul Augustynowicz",
+          "party": "Republican",
+          "ballotOrder": 41
+        },
+        {
+          "name": "Maura Hirschauer",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-51st-district",
+      "kind": "candidate",
+      "title": "State Representative, 51st District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:51",
+      "contestIds": ["cook-clerk:185100"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Lori Smith", "party": "Republican", "ballotOrder": 41 },
+        { "name": "Jenny Levin", "party": "Democratic", "ballotOrder": 42 }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-52nd-district",
+      "kind": "candidate",
+      "title": "State Representative, 52nd District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:52",
+      "contestIds": ["cook-clerk:185200"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Martin McLaughlin",
+          "party": "Republican",
+          "ballotOrder": 41,
+          "incumbent": true
+        },
+        { "name": "Maria Peterson", "party": "Democratic", "ballotOrder": 42 }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-53rd-district",
+      "kind": "candidate",
+      "title": "State Representative, 53rd District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:53",
+      "contestIds": ["cook-clerk:185300"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Elizabeth Bauer", "party": "Republican", "ballotOrder": 41 },
+        {
+          "name": "Nicolle Grasse",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-54th-district",
+      "kind": "candidate",
+      "title": "State Representative, 54th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:54",
+      "contestIds": ["cook-clerk:185400"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Joseph M. Tracy", "party": "Republican", "ballotOrder": 41 },
+        {
+          "name": "Mary Beth Canty",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-55th-district",
+      "kind": "candidate",
+      "title": "State Representative, 55th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:55",
+      "contestIds": [
+        "chicago-boe:state-representative-55th-district",
+        "cook-clerk:185500"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Joseph Johnson", "party": "Republican", "ballotOrder": 41 },
+        {
+          "name": "Justin Cochran",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-56th-district",
+      "kind": "candidate",
+      "title": "State Representative, 56th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:56",
+      "contestIds": ["cook-clerk:185600"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Rhys Read", "party": "Republican", "ballotOrder": 41 },
+        {
+          "name": "Michelle Mussman",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-57th-district",
+      "kind": "candidate",
+      "title": "State Representative, 57th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:57",
+      "contestIds": ["cook-clerk:185700"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Daniel T. Behr", "party": "Republican", "ballotOrder": 41 },
+        {
+          "name": "Tracy Katz Muhl",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-58th-district",
+      "kind": "candidate",
+      "title": "State Representative, 58th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:58",
+      "contestIds": ["cook-clerk:185800"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Bob Morgan",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-59th-district",
+      "kind": "candidate",
+      "title": "State Representative, 59th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:59",
+      "contestIds": ["cook-clerk:185900"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Daniel Didech",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-77th-district",
+      "kind": "candidate",
+      "title": "State Representative, 77th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:77",
+      "contestIds": ["cook-clerk:187700"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Anthony Airdo", "party": "Republican", "ballotOrder": 41 },
+        {
+          "name": "Norma Hernandez",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-78th-district",
+      "kind": "candidate",
+      "title": "State Representative, 78th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:78",
+      "contestIds": [
+        "chicago-boe:state-representative-78th-district",
+        "cook-clerk:187800"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Julian-Jahleel Randolph Jemison",
+          "party": "Republican",
+          "ballotOrder": 41
+        },
+        {
+          "name": "Camille Lilly",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-79th-district",
+      "kind": "candidate",
+      "title": "State Representative, 79th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:79",
+      "contestIds": ["cook-clerk:187900"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Jackie Haas",
+          "party": "Republican",
+          "ballotOrder": 41,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-80th-district",
+      "kind": "candidate",
+      "title": "State Representative, 80th District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:80",
+      "contestIds": ["cook-clerk:188000"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Adam M. Beaty", "party": "Republican", "ballotOrder": 41 },
+        {
+          "name": "Anthony DeLuca",
+          "party": "Democratic",
+          "ballotOrder": 42,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "state",
+      "path": "il/2026-11-03/state-representative-82nd-district",
+      "kind": "candidate",
+      "title": "State Representative, 82nd District",
+      "office": "State Representative",
+      "districtId": "ocd-division/country:us/state:il/sldl:82",
+      "contestIds": ["cook-clerk:188200"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Nicole La Ha",
+          "party": "Republican",
+          "ballotOrder": 41,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/cook-county/2026-11-03/metropolitan-water-reclamation-district-commissioners-full-6-year-term",
+      "kind": "candidate",
+      "title": "Metropolitan Water Reclamation District Commissioners Full 6-Year Term",
+      "office": "Commissioner",
+      "districtId": "ocd-division/country:us/state:il/sewer:mwrd",
+      "contestIds": [
+        "chicago-boe:metropolitan-water-reclamation-district-commissioners-full-6-year-term",
+        "cook-clerk:190100"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 3,
+      "candidates": [
+        {
+          "name": "Michelle Pennington",
+          "party": "Republican",
+          "ballotOrder": 51
+        },
+        {
+          "name": "Timothy E. Rueckert",
+          "party": "Republican",
+          "ballotOrder": 52
+        },
+        {
+          "name": "Jill B. Shestokas",
+          "party": "Republican",
+          "ballotOrder": 53
+        },
+        {
+          "name": "Precious Brady-Davis",
+          "party": "Democratic",
+          "ballotOrder": 54,
+          "incumbent": true
+        },
+        {
+          "name": "Eira Lizeth Corral Sepúlveda",
+          "party": "Democratic",
+          "ballotOrder": 55,
+          "incumbent": true
+        },
+        {
+          "name": "Beth McElroy Kirkwood",
+          "party": "Democratic",
+          "ballotOrder": 56,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/cook-county/2026-11-03/metropolitan-water-reclamation-district-commissioners-unexpired-2-year-term",
+      "kind": "candidate",
+      "title": "Metropolitan Water Reclamation District Commissioners Unexpired 2-Year Term",
+      "office": "Commissioner",
+      "districtId": "ocd-division/country:us/state:il/sewer:mwrd",
+      "contestIds": [
+        "chicago-boe:metropolitan-water-reclamation-district-commissioners-unexpired-2-year-term",
+        "cook-clerk:190200:unexpired-term"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Unexpired Term",
+      "candidates": [
+        {
+          "name": "Cameron \"Cam\" Davis",
+          "party": "Democratic",
+          "ballotOrder": 57,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/cook-county/2026-11-03/president-of-county-board",
+      "kind": "candidate",
+      "title": "President of County Board",
+      "office": "Board President",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:president-of-county-board",
+        "cook-clerk:210100"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Toni Preckwinkle",
+          "party": "Democratic",
+          "ballotOrder": 62,
+          "incumbent": true
+        },
+        { "name": "Michael Murphy", "party": "Libertarian", "ballotOrder": 63 }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/cook-county/2026-11-03/county-clerk",
+      "kind": "candidate",
+      "title": "County Clerk",
+      "office": "Clerk",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": ["chicago-boe:county-clerk", "cook-clerk:210200"],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Monica Gordon",
+          "party": "Democratic",
+          "ballotOrder": 64,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/cook-county/2026-11-03/county-sheriff",
+      "kind": "candidate",
+      "title": "County Sheriff",
+      "office": "Sheriff",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": ["chicago-boe:county-sheriff", "cook-clerk:210300"],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Thomas J. Dart",
+          "party": "Democratic",
+          "ballotOrder": 65,
+          "incumbent": true
+        },
+        { "name": "Brad Sandefur", "party": "Libertarian", "ballotOrder": 66 }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/cook-county/2026-11-03/county-treasurer",
+      "kind": "candidate",
+      "title": "County Treasurer",
+      "office": "Treasurer",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": ["chicago-boe:county-treasurer", "cook-clerk:210400"],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Maria Pappas",
+          "party": "Democratic",
+          "ballotOrder": 67,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/cook-county/2026-11-03/county-assessor",
+      "kind": "candidate",
+      "title": "County Assessor",
+      "office": "Assessor",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": ["chicago-boe:county-assessor", "cook-clerk:210500"],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Pat Hynes", "party": "Democratic", "ballotOrder": 68 },
+        { "name": "Nico Tsatsoulis", "party": "Libertarian", "ballotOrder": 69 }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/cook-county/2026-11-03/county-commissioner-1st-district",
+      "kind": "candidate",
+      "title": "County Commissioner, 1st District",
+      "office": "Commissioner",
+      "districtId": "ocd-division/country:us/state:il/county:cook/council_district:1",
+      "contestIds": [
+        "chicago-boe:county-commissioner-1st-district",
+        "cook-clerk:220100"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Tara Stamps",
+          "party": "Democratic",
+          "ballotOrder": 72,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/cook-county/2026-11-03/county-commissioner-2nd-district",
+      "kind": "candidate",
+      "title": "County Commissioner, 2nd District",
+      "office": "Commissioner",
+      "districtId": "ocd-division/country:us/state:il/county:cook/council_district:2",
+      "contestIds": [
+        "chicago-boe:county-commissioner-2nd-district",
+        "cook-clerk:220200"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Michael Scott, Jr.",
+          "party": "Democratic",
+          "ballotOrder": 72,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/cook-county/2026-11-03/county-commissioner-3rd-district",
+      "kind": "candidate",
+      "title": "County Commissioner, 3rd District",
+      "office": "Commissioner",
+      "districtId": "ocd-division/country:us/state:il/county:cook/council_district:3",
+      "contestIds": [
+        "chicago-boe:county-commissioner-3rd-district",
+        "cook-clerk:220300"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Bill Lowry",
+          "party": "Democratic",
+          "ballotOrder": 72,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/cook-county/2026-11-03/county-commissioner-4th-district",
+      "kind": "candidate",
+      "title": "County Commissioner, 4th District",
+      "office": "Commissioner",
+      "districtId": "ocd-division/country:us/state:il/county:cook/council_district:4",
+      "contestIds": [
+        "chicago-boe:county-commissioner-4th-district",
+        "cook-clerk:220400"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Stanley S. Moore",
+          "party": "Democratic",
+          "ballotOrder": 72,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/cook-county/2026-11-03/county-commissioner-5th-district",
+      "kind": "candidate",
+      "title": "County Commissioner, 5th District",
+      "office": "Commissioner",
+      "districtId": "ocd-division/country:us/state:il/county:cook/council_district:5",
+      "contestIds": [
+        "chicago-boe:county-commissioner-5th-district",
+        "cook-clerk:220500"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Richard Nolan", "party": "Republican", "ballotOrder": 71 },
+        {
+          "name": "Kisha E. McCaskill",
+          "party": "Democratic",
+          "ballotOrder": 72,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/cook-county/2026-11-03/county-commissioner-6th-district",
+      "kind": "candidate",
+      "title": "County Commissioner, 6th District",
+      "office": "Commissioner",
+      "districtId": "ocd-division/country:us/state:il/county:cook/council_district:6",
+      "contestIds": ["cook-clerk:220600"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Patricia Joan \"Trish\" Murphy",
+          "party": "Democratic",
+          "ballotOrder": 72
+        }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/cook-county/2026-11-03/county-commissioner-7th-district",
+      "kind": "candidate",
+      "title": "County Commissioner, 7th District",
+      "office": "Commissioner",
+      "districtId": "ocd-division/country:us/state:il/county:cook/council_district:7",
+      "contestIds": [
+        "chicago-boe:county-commissioner-7th-district",
+        "cook-clerk:220700"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Alma E. Anaya",
+          "party": "Democratic",
+          "ballotOrder": 72,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/cook-county/2026-11-03/county-commissioner-8th-district",
+      "kind": "candidate",
+      "title": "County Commissioner, 8th District",
+      "office": "Commissioner",
+      "districtId": "ocd-division/country:us/state:il/county:cook/council_district:8",
+      "contestIds": [
+        "chicago-boe:county-commissioner-8th-district",
+        "cook-clerk:220800"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Ramona Bonilla-Anaiel",
+          "party": "Republican",
+          "ballotOrder": 71
+        },
+        {
+          "name": "Jessica Vasquez",
+          "party": "Democratic",
+          "ballotOrder": 72,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/cook-county/2026-11-03/county-commissioner-9th-district",
+      "kind": "candidate",
+      "title": "County Commissioner, 9th District",
+      "office": "Commissioner",
+      "districtId": "ocd-division/country:us/state:il/county:cook/council_district:9",
+      "contestIds": [
+        "chicago-boe:county-commissioner-9th-district",
+        "cook-clerk:220900"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Jon Luers", "party": "Republican", "ballotOrder": 71 },
+        {
+          "name": "Maggie Trevor",
+          "party": "Democratic",
+          "ballotOrder": 72,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/cook-county/2026-11-03/county-commissioner-10th-district",
+      "kind": "candidate",
+      "title": "County Commissioner, 10th District",
+      "office": "Commissioner",
+      "districtId": "ocd-division/country:us/state:il/county:cook/council_district:10",
+      "contestIds": [
+        "chicago-boe:county-commissioner-10th-district",
+        "cook-clerk:221000"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Drake Warren", "party": "Democratic", "ballotOrder": 72 }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/cook-county/2026-11-03/county-commissioner-11th-district",
+      "kind": "candidate",
+      "title": "County Commissioner, 11th District",
+      "office": "Commissioner",
+      "districtId": "ocd-division/country:us/state:il/county:cook/council_district:11",
+      "contestIds": [
+        "chicago-boe:county-commissioner-11th-district",
+        "cook-clerk:221100"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Charles Spizzirri",
+          "party": "Republican",
+          "ballotOrder": 71
+        },
+        {
+          "name": "John P. Daley",
+          "party": "Democratic",
+          "ballotOrder": 72,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/cook-county/2026-11-03/county-commissioner-12th-district",
+      "kind": "candidate",
+      "title": "County Commissioner, 12th District",
+      "office": "Commissioner",
+      "districtId": "ocd-division/country:us/state:il/county:cook/council_district:12",
+      "contestIds": [
+        "chicago-boe:county-commissioner-12th-district",
+        "cook-clerk:221200"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Xiaoli \"Alice\" Hu",
+          "party": "Republican",
+          "ballotOrder": 71
+        },
+        {
+          "name": "Elizabeth Granato",
+          "party": "Democratic",
+          "ballotOrder": 72
+        }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/cook-county/2026-11-03/county-commissioner-13th-district",
+      "kind": "candidate",
+      "title": "County Commissioner, 13th District",
+      "office": "Commissioner",
+      "districtId": "ocd-division/country:us/state:il/county:cook/council_district:13",
+      "contestIds": [
+        "chicago-boe:county-commissioner-13th-district",
+        "cook-clerk:221300"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Aasi Siddique", "party": "Republican", "ballotOrder": 71 },
+        {
+          "name": "Josina Morita",
+          "party": "Democratic",
+          "ballotOrder": 72,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/cook-county/2026-11-03/county-commissioner-14th-district",
+      "kind": "candidate",
+      "title": "County Commissioner, 14th District",
+      "office": "Commissioner",
+      "districtId": "ocd-division/country:us/state:il/county:cook/council_district:14",
+      "contestIds": ["cook-clerk:221400"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Scott R. Britton",
+          "party": "Democratic",
+          "ballotOrder": 72,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/cook-county/2026-11-03/county-commissioner-15th-district",
+      "kind": "candidate",
+      "title": "County Commissioner, 15th District",
+      "office": "Commissioner",
+      "districtId": "ocd-division/country:us/state:il/county:cook/council_district:15",
+      "contestIds": ["cook-clerk:221500"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Daniel Lee", "party": "Republican", "ballotOrder": 71 },
+        { "name": "Ted Mason", "party": "Democratic", "ballotOrder": 72 }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/cook-county/2026-11-03/county-commissioner-16th-district",
+      "kind": "candidate",
+      "title": "County Commissioner, 16th District",
+      "office": "Commissioner",
+      "districtId": "ocd-division/country:us/state:il/county:cook/council_district:16",
+      "contestIds": [
+        "chicago-boe:county-commissioner-16th-district",
+        "cook-clerk:221600"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Miranda E. Hernandez",
+          "party": "Democratic",
+          "ballotOrder": 72
+        }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/cook-county/2026-11-03/county-commissioner-17th-district",
+      "kind": "candidate",
+      "title": "County Commissioner, 17th District",
+      "office": "Commissioner",
+      "districtId": "ocd-division/country:us/state:il/county:cook/council_district:17",
+      "contestIds": ["cook-clerk:221700"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Elizabeth \"Liz\" Doody Gorman",
+          "party": "Republican",
+          "ballotOrder": 71
+        },
+        { "name": "Elyse Hoffenberg", "party": "Democratic", "ballotOrder": 72 }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/cook-county/2026-11-03/board-of-review-1st-district",
+      "kind": "candidate",
+      "title": "Board of Review, 1st District",
+      "office": "Commissioner",
+      "districtId": "ocd-division/country:us/state:il/county:cook/board_of_review_district:1",
+      "contestIds": [
+        "chicago-boe:board-of-review-1st-district",
+        "cook-clerk:230100"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "George A. Cardenas",
+          "party": "Democratic",
+          "ballotOrder": 82,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/cook-county/2026-11-03/board-of-review-2nd-district",
+      "kind": "candidate",
+      "title": "Board of Review, 2nd District",
+      "office": "Commissioner",
+      "districtId": "ocd-division/country:us/state:il/county:cook/board_of_review_district:2",
+      "contestIds": [
+        "chicago-boe:board-of-review-2nd-district",
+        "cook-clerk:230200"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Elizabeth \"Liz\" Nicholson",
+          "party": "Democratic",
+          "ballotOrder": 82
+        }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/dupage-county/2026-11-03/superintendent-dupage-county-regional-office-of-education",
+      "kind": "candidate",
+      "title": "Superintendent, DuPage County Regional Office of Education",
+      "office": "Superintendent",
+      "districtId": "ocd-division/country:us/state:il/county:dupage/regional_office_of_education",
+      "contestIds": ["cook-clerk:241000"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Amber M. Quirk",
+          "party": "Republican",
+          "ballotOrder": 91,
+          "incumbent": true
+        },
+        { "name": "Rebecca Gamboa", "party": "Democratic", "ballotOrder": 92 }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/kane-county/2026-11-03/superintendent-kane-county-regional-office-of-education",
+      "kind": "candidate",
+      "title": "Superintendent, Kane County Regional Office of Education",
+      "office": "Superintendent",
+      "districtId": "ocd-division/country:us/state:il/county:kane/regional_office_of_education",
+      "contestIds": ["cook-clerk:242000"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "John K Jonak",
+          "party": "Republican",
+          "ballotOrder": 91,
+          "incumbent": true
+        },
+        { "name": "Jerry Cook", "party": "Democratic", "ballotOrder": 92 }
+      ]
+    },
+    {
+      "level": "county",
+      "path": "il/lake-county/2026-11-03/superintendent-lake-county-regional-office-of-education",
+      "kind": "candidate",
+      "title": "Superintendent, Lake County Regional Office of Education",
+      "office": "Superintendent",
+      "districtId": "ocd-division/country:us/state:il/county:lake/regional_office_of_education",
+      "contestIds": ["cook-clerk:243000"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Michael L. Karner",
+          "party": "Democratic",
+          "ballotOrder": 92,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/2026-11-03/judge-of-the-appellate-court-vacancy-of-hoffman",
+      "kind": "candidate",
+      "title": "Judge of the Appellate Court (Vacancy of Hoffman)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/court_of_appeals:1",
+      "contestIds": [
+        "chicago-boe:judge-of-the-appellate-court-vacancy-of-hoffman",
+        "cook-clerk:320105:vacancy-of-hoffman"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Vacancy of Hoffman",
+      "candidates": [
+        { "name": "Judith C. Rice", "party": "Democratic", "ballotOrder": 102 }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/cook-county/2026-11-03/judge-of-the-circuit-court-vacancy-of-burke",
+      "kind": "candidate",
+      "title": "Judge of the Circuit Court (Vacancy of Burke)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:judge-of-the-circuit-court-vacancy-of-burke",
+        "cook-clerk:330100:vacancy-of-burke"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Vacancy of Burke",
+      "candidates": [
+        {
+          "name": "Steven Q. McKenzie",
+          "party": "Democratic",
+          "ballotOrder": 103
+        }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/cook-county/2026-11-03/judge-of-the-circuit-court-vacancy-of-cobbs",
+      "kind": "candidate",
+      "title": "Judge of the Circuit Court (Vacancy of Cobbs)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:judge-of-the-circuit-court-vacancy-of-cobbs",
+        "cook-clerk:330105:vacancy-of-cobbs"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Vacancy of Cobbs",
+      "candidates": [
+        {
+          "name": "Luz Maria Toledo",
+          "party": "Democratic",
+          "ballotOrder": 104
+        }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/cook-county/2026-11-03/judge-of-the-circuit-court-vacancy-of-coghlan",
+      "kind": "candidate",
+      "title": "Judge of the Circuit Court (Vacancy of Coghlan)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:judge-of-the-circuit-court-vacancy-of-coghlan",
+        "cook-clerk:330110:vacancy-of-coghlan"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Vacancy of Coghlan",
+      "candidates": [
+        { "name": "Ashonta C. Rice", "party": "Democratic", "ballotOrder": 105 }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/cook-county/2026-11-03/judge-of-the-circuit-court-vacancy-of-hooks",
+      "kind": "candidate",
+      "title": "Judge of the Circuit Court (Vacancy of Hooks)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:judge-of-the-circuit-court-vacancy-of-hooks",
+        "cook-clerk:330115:vacancy-of-hooks"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Vacancy of Hooks",
+      "candidates": [
+        {
+          "name": "Ava George Stewart",
+          "party": "Democratic",
+          "ballotOrder": 106
+        }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/cook-county/2026-11-03/judge-of-the-circuit-court-vacancy-of-karkula",
+      "kind": "candidate",
+      "title": "Judge of the Circuit Court (Vacancy of Karkula)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:judge-of-the-circuit-court-vacancy-of-karkula",
+        "cook-clerk:330120:vacancy-of-karkula"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Vacancy of Karkula",
+      "candidates": [
+        {
+          "name": "D'Anthony \"Tony\" Thedford",
+          "party": "Democratic",
+          "ballotOrder": 107
+        }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/cook-county/2026-11-03/judge-1st-subcircuit-vacancy-of-balanoff",
+      "kind": "candidate",
+      "title": "Judge, 1st Subcircuit (Vacancy of Balanoff)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/county:cook/judicial_subcircuit:1",
+      "contestIds": [
+        "chicago-boe:judge-1st-subcircuit-vacancy-of-balanoff",
+        "cook-clerk:340110:vacancy-of-balanoff"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Vacancy of Balanoff",
+      "candidates": [
+        { "name": "Radiance Ward", "party": "Democratic", "ballotOrder": 112 }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/cook-county/2026-11-03/judge-1st-subcircuit-vacancy-of-walker",
+      "kind": "candidate",
+      "title": "Judge, 1st Subcircuit (Vacancy of Walker)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/county:cook/judicial_subcircuit:1",
+      "contestIds": [
+        "chicago-boe:judge-1st-subcircuit-vacancy-of-walker",
+        "cook-clerk:340120:vacancy-of-walker"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Vacancy of Walker",
+      "candidates": [
+        {
+          "name": "Ashley Greer Shambley",
+          "party": "Democratic",
+          "ballotOrder": 114
+        }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/cook-county/2026-11-03/judge-3rd-subcircuit-vacancy-of-murphy",
+      "kind": "candidate",
+      "title": "Judge, 3rd Subcircuit (Vacancy of Murphy)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/county:cook/judicial_subcircuit:3",
+      "contestIds": [
+        "chicago-boe:judge-3rd-subcircuit-vacancy-of-murphy",
+        "cook-clerk:340310:vacancy-of-murphy"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Vacancy of Murphy",
+      "candidates": [
+        { "name": "John Carroll", "party": "Democratic", "ballotOrder": 112 }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/cook-county/2026-11-03/judge-3rd-subcircuit-vacancy-of-sherlock",
+      "kind": "candidate",
+      "title": "Judge, 3rd Subcircuit (Vacancy of Sherlock)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/county:cook/judicial_subcircuit:3",
+      "contestIds": [
+        "chicago-boe:judge-3rd-subcircuit-vacancy-of-sherlock",
+        "cook-clerk:340320:vacancy-of-sherlock"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Vacancy of Sherlock",
+      "candidates": [
+        { "name": "Rachel Marrello", "party": "Democratic", "ballotOrder": 114 }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/cook-county/2026-11-03/judge-5th-subcircuit-vacancy-of-ross",
+      "kind": "candidate",
+      "title": "Judge, 5th Subcircuit (Vacancy of Ross)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/county:cook/judicial_subcircuit:5",
+      "contestIds": [
+        "chicago-boe:judge-5th-subcircuit-vacancy-of-ross",
+        "cook-clerk:340510:vacancy-of-ross"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Vacancy of Ross",
+      "candidates": [
+        {
+          "name": "Stephanie S. Kelly",
+          "party": "Democratic",
+          "ballotOrder": 112
+        }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/cook-county/2026-11-03/judge-8th-subcircuit-vacancy-of-gamrath",
+      "kind": "candidate",
+      "title": "Judge, 8th Subcircuit (Vacancy of Gamrath)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/county:cook/judicial_subcircuit:8",
+      "contestIds": [
+        "chicago-boe:judge-8th-subcircuit-vacancy-of-gamrath",
+        "cook-clerk:340810:vacancy-of-gamrath"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Vacancy of Gamrath",
+      "candidates": [
+        {
+          "name": "Kathleen Cunniff Ori",
+          "party": "Democratic",
+          "ballotOrder": 112
+        }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/cook-county/2026-11-03/judge-8th-subcircuit-vacancy-of-mikva",
+      "kind": "candidate",
+      "title": "Judge, 8th Subcircuit (Vacancy of Mikva)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/county:cook/judicial_subcircuit:8",
+      "contestIds": [
+        "chicago-boe:judge-8th-subcircuit-vacancy-of-mikva",
+        "cook-clerk:340820:vacancy-of-mikva"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Vacancy of Mikva",
+      "candidates": [
+        { "name": "Lester Finkle", "party": "Democratic", "ballotOrder": 114 }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/cook-county/2026-11-03/judge-11th-subcircuit-vacancy-of-mclean-meyerson",
+      "kind": "candidate",
+      "title": "Judge, 11th Subcircuit (Vacancy of McLean Meyerson)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/county:cook/judicial_subcircuit:11",
+      "contestIds": [
+        "chicago-boe:judge-11th-subcircuit-vacancy-of-mclean-meyerson",
+        "cook-clerk:341110:vacancy-of-mclean-meyerson"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Vacancy of McLean Meyerson",
+      "candidates": [
+        { "name": "Jarrett Knox", "party": "Democratic", "ballotOrder": 112 }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/cook-county/2026-11-03/judge-11th-subcircuit-vacancy-of-roberts",
+      "kind": "candidate",
+      "title": "Judge, 11th Subcircuit (Vacancy of Roberts)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/county:cook/judicial_subcircuit:11",
+      "contestIds": [
+        "chicago-boe:judge-11th-subcircuit-vacancy-of-roberts",
+        "cook-clerk:341120:vacancy-of-roberts"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Vacancy of Roberts",
+      "candidates": [
+        { "name": "Kim Przekota", "party": "Democratic", "ballotOrder": 114 }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/cook-county/2026-11-03/judge-13th-subcircuit-vacancy-of-curry-jr",
+      "kind": "candidate",
+      "title": "Judge, 13th Subcircuit (Vacancy of Curry, Jr.)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/county:cook/judicial_subcircuit:13",
+      "contestIds": ["cook-clerk:341310:vacancy-of-curry-jr"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Vacancy of Curry, Jr.",
+      "candidates": [
+        {
+          "name": "Robert \"Bob\" Groebner",
+          "party": "Democratic",
+          "ballotOrder": 112
+        }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/cook-county/2026-11-03/judge-13th-subcircuit-vacancy-of-m-kelley",
+      "kind": "candidate",
+      "title": "Judge, 13th Subcircuit (Vacancy of M. Kelley)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/county:cook/judicial_subcircuit:13",
+      "contestIds": ["cook-clerk:341320:vacancy-of-m-kelley"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Vacancy of M. Kelley",
+      "candidates": [
+        {
+          "name": "Brittany Michelle Pedersen",
+          "party": "Democratic",
+          "ballotOrder": 114
+        }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/cook-county/2026-11-03/judge-13th-subcircuit-vacancy-of-t-kelley",
+      "kind": "candidate",
+      "title": "Judge, 13th Subcircuit (Vacancy of T. Kelley)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/county:cook/judicial_subcircuit:13",
+      "contestIds": ["cook-clerk:341330:vacancy-of-t-kelley"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Vacancy of T. Kelley",
+      "candidates": [
+        {
+          "name": "William F. Kelley",
+          "party": "Democratic",
+          "ballotOrder": 116
+        }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/cook-county/2026-11-03/judge-13th-subcircuit-vacancy-of-omalley",
+      "kind": "candidate",
+      "title": "Judge, 13th Subcircuit (Vacancy of O'Malley)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/county:cook/judicial_subcircuit:13",
+      "contestIds": ["cook-clerk:341340:vacancy-of-o-malley"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Vacancy of O'Malley",
+      "candidates": [
+        { "name": "Dan Naranjo", "party": "Democratic", "ballotOrder": 118 }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/cook-county/2026-11-03/judge-16th-subcircuit-converted-from-associate-judgeship-of-baird",
+      "kind": "candidate",
+      "title": "Judge, 16th Subcircuit (Converted from Associate Judgeship of Baird)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/county:cook/judicial_subcircuit:16",
+      "contestIds": [
+        "chicago-boe:judge-16th-subcircuit-converted-from-associate-judgeship-of-baird",
+        "cook-clerk:341610:converted-from-associate-judgeship-of-baird"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Converted from Associate Judgeship of Baird",
+      "candidates": [
+        {
+          "name": "Julian Sanchez Crozier",
+          "party": "Democratic",
+          "ballotOrder": 112
+        }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/cook-county/2026-11-03/judge-16th-subcircuit-converted-from-associate-judgeship-of-mendoza",
+      "kind": "candidate",
+      "title": "Judge, 16th Subcircuit (Converted from Associate Judgeship of Mendoza)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/county:cook/judicial_subcircuit:16",
+      "contestIds": [
+        "chicago-boe:judge-16th-subcircuit-converted-from-associate-judgeship-of-mendoza",
+        "cook-clerk:341620:converted-from-associate-judgeship-of-mendoza"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Converted from Associate Judgeship of Mendoza",
+      "candidates": [
+        {
+          "name": "Jessica Karina Velez",
+          "party": "Democratic",
+          "ballotOrder": 114
+        }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/cook-county/2026-11-03/judge-17th-subcircuit-converted-from-associate-judgeship-of-brooks",
+      "kind": "candidate",
+      "title": "Judge, 17th Subcircuit (Converted from Associate Judgeship of Brooks)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/county:cook/judicial_subcircuit:17",
+      "contestIds": [
+        "chicago-boe:judge-17th-subcircuit-converted-from-associate-judgeship-of-brooks",
+        "cook-clerk:341710:converted-from-associate-judgeship-of-brooks"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Converted from Associate Judgeship of Brooks",
+      "candidates": [
+        { "name": "Natalia Moore", "party": "Democratic", "ballotOrder": 112 }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/cook-county/2026-11-03/judge-17th-subcircuit-converted-from-associate-judgeship-of-carroll",
+      "kind": "candidate",
+      "title": "Judge, 17th Subcircuit (Converted from Associate Judgeship of Carroll)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/county:cook/judicial_subcircuit:17",
+      "contestIds": [
+        "chicago-boe:judge-17th-subcircuit-converted-from-associate-judgeship-of-carroll",
+        "cook-clerk:341720:converted-from-associate-judgeship-of-carroll"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Converted from Associate Judgeship of Carroll",
+      "candidates": [
+        { "name": "Bianca B. Brown", "party": "Democratic", "ballotOrder": 114 }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/cook-county/2026-11-03/judge-18th-subcircuit-converted-from-associate-judgeship-of-chrones",
+      "kind": "candidate",
+      "title": "Judge, 18th Subcircuit (Converted from Associate Judgeship of Chrones)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/county:cook/judicial_subcircuit:18",
+      "contestIds": [
+        "cook-clerk:341810:converted-from-associate-judgeship-of-chrones"
+      ],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Converted from Associate Judgeship of Chrones",
+      "candidates": [
+        {
+          "name": "Juan Ponce de Leon",
+          "party": "Democratic",
+          "ballotOrder": 114
+        }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/cook-county/2026-11-03/judge-18th-subcircuit-converted-from-associate-judgeship-of-andreou",
+      "kind": "candidate",
+      "title": "Judge, 18th Subcircuit (Converted from Associate Judgeship of Andreou)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/county:cook/judicial_subcircuit:18",
+      "contestIds": [
+        "cook-clerk:341820:converted-from-associate-judgeship-of-andreou"
+      ],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Converted from Associate Judgeship of Andreou",
+      "candidates": [
+        { "name": "Sam Bae", "party": "Democratic", "ballotOrder": 112 }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/cook-county/2026-11-03/judge-19th-subcircuit-converted-from-associate-judgeship-of-fairman",
+      "kind": "candidate",
+      "title": "Judge, 19th Subcircuit (Converted from Associate Judgeship of Fairman)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/county:cook/judicial_subcircuit:19",
+      "contestIds": [
+        "chicago-boe:judge-19th-subcircuit-converted-from-associate-judgeship-of-fairman",
+        "cook-clerk:341910:converted-from-associate-judgeship-of-fairman"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Converted from Associate Judgeship of Fairman",
+      "candidates": [
+        { "name": "Sara McGann", "party": "Democratic", "ballotOrder": 112 }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/cook-county/2026-11-03/judge-19th-subcircuit-converted-from-associate-judgeship-of-kane",
+      "kind": "candidate",
+      "title": "Judge, 19th Subcircuit (Converted from Associate Judgeship of Kane)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/county:cook/judicial_subcircuit:19",
+      "contestIds": [
+        "chicago-boe:judge-19th-subcircuit-converted-from-associate-judgeship-of-kane",
+        "cook-clerk:341910:converted-from-associate-judgeship-of-kane"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Converted from Associate Judgeship of Kane",
+      "candidates": [
+        {
+          "name": "Monica Somerville",
+          "party": "Democratic",
+          "ballotOrder": 114
+        }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/cook-county/2026-11-03/judge-20th-subcircuit-converted-from-associate-judgeship-of-haracz",
+      "kind": "candidate",
+      "title": "Judge, 20th Subcircuit (Converted from Associate Judgeship of Haracz)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/county:cook/judicial_subcircuit:20",
+      "contestIds": [
+        "chicago-boe:judge-20th-subcircuit-converted-from-associate-judgeship-of-haracz",
+        "cook-clerk:342010:converted-from-associate-judgeship-of-haracz"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Converted from Associate Judgeship of Haracz",
+      "candidates": [
+        { "name": "Michael J. Zink", "party": "Democratic", "ballotOrder": 112 }
+      ]
+    },
+    {
+      "level": "judges",
+      "path": "il/cook-county/2026-11-03/judge-20th-subcircuit-converted-from-associate-judgeship-of-miller",
+      "kind": "candidate",
+      "title": "Judge, 20th Subcircuit (Converted from Associate Judgeship of Miller)",
+      "office": "Judge",
+      "districtId": "ocd-division/country:us/state:il/county:cook/judicial_subcircuit:20",
+      "contestIds": [
+        "chicago-boe:judge-20th-subcircuit-converted-from-associate-judgeship-of-miller",
+        "cook-clerk:342010:converted-from-associate-judgeship-of-miller"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "voteFor": 1,
+      "vacancy": "Converted from Associate Judgeship of Miller",
+      "candidates": [
+        { "name": "Jon Stromsta", "party": "Democratic", "ballotOrder": 114 }
+      ]
+    },
+    {
+      "level": "local",
+      "path": "il/cook-county/2026-11-03/trustee-la-grange-highlands-sanitary-district",
+      "kind": "candidate",
+      "title": "Trustee, La Grange Highlands Sanitary District",
+      "office": "Trustee",
+      "districtId": "ocd-division/country:us/state:il/county:cook/tax_district:08-0160-000",
+      "contestIds": ["cook-clerk:390101"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Connie L. Livingston", "party": "NON", "ballotOrder": 121 }
+      ]
+    },
+    {
+      "level": "local",
+      "path": "il/cook-county/2026-11-03/trustee-la-grange-highlands-sanitary-district-seat-2",
+      "kind": "candidate",
+      "title": "Trustee, La Grange Highlands Sanitary District",
+      "office": "Trustee",
+      "districtId": "ocd-division/country:us/state:il/county:cook/tax_district:08-0160-000",
+      "contestIds": ["cook-clerk:390102"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 1,
+      "candidates": []
+    },
+    {
+      "level": "local",
+      "path": "il/cook-county/2026-11-03/trustee-south-lyons-township-sanitary-district",
+      "kind": "candidate",
+      "title": "Trustee, South Lyons Township Sanitary District",
+      "office": "Trustee",
+      "districtId": "ocd-division/country:us/state:il/county:cook/tax_district:08-0320-000",
+      "contestIds": ["cook-clerk:390201"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 2,
+      "candidates": [
+        { "name": "Molly M. Price", "party": "NON", "ballotOrder": 121 },
+        { "name": "Michael G. Grace", "party": "NON", "ballotOrder": 122 },
+        { "name": "Karen J. Dal Porto", "party": "NON", "ballotOrder": 123 },
+        { "name": "Scott Musillami", "party": "NON", "ballotOrder": 124 },
+        { "name": "Claribel Quintana", "party": "NON", "ballotOrder": 125 }
+      ]
+    },
+    {
+      "level": "local",
+      "path": "il/cook-county/2026-11-03/trustee-south-palos-township-sanitary-district",
+      "kind": "candidate",
+      "title": "Trustee, South Palos Township Sanitary District",
+      "office": "Trustee",
+      "districtId": "ocd-division/country:us/state:il/county:cook/tax_district:08-0330-000",
+      "contestIds": ["cook-clerk:390301"],
+      "ballots": ["suburban-cook"],
+      "voteFor": 2,
+      "candidates": [
+        { "name": "James R. Staszcuk", "party": "NON", "ballotOrder": 121 },
+        { "name": "Peter F. Costa", "party": "NON", "ballotOrder": 122 }
+      ]
+    },
+    {
+      "level": "local",
+      "path": "il/chicago/2026-11-03/president-of-the-chicago-board-of-education",
+      "kind": "candidate",
+      "title": "President of the Chicago Board of Education",
+      "office": "President of the Chicago Board of Education",
+      "districtId": "ocd-division/country:us/state:il/place:chicago",
+      "contestIds": ["chicago-boe:president-of-the-chicago-board-of-education"],
+      "ballots": ["chicago"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Victor P. Henderson",
+          "party": "Nonpartisan",
+          "ballotOrder": 121
+        },
+        { "name": "Jessica Biggs", "party": "Nonpartisan", "ballotOrder": 122 },
+        {
+          "name": "Sendhil Revuluri",
+          "party": "Nonpartisan",
+          "ballotOrder": 123
+        },
+        {
+          "name": "Hilario Dominguez",
+          "party": "Nonpartisan",
+          "ballotOrder": 124
+        }
+      ]
+    },
+    {
+      "level": "local",
+      "path": "il/chicago/2026-11-03/member-of-the-chicago-board-of-education-subdistrict-1a",
+      "kind": "candidate",
+      "title": "Member of the Chicago Board of Education, Subdistrict 1A",
+      "office": "Member of the Chicago Board of Education, Subdistrict 1A",
+      "districtId": "ocd-division/country:us/state:il/place:chicago/school_board_district:1a",
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-1a"
+      ],
+      "ballots": ["chicago"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Ed Bannon",
+          "party": "Nonpartisan",
+          "ballotOrder": 131,
+          "incumbent": true
+        },
+        {
+          "name": "Margie B. Luczak",
+          "party": "Nonpartisan",
+          "ballotOrder": 132
+        }
+      ]
+    },
+    {
+      "level": "local",
+      "path": "il/chicago/2026-11-03/member-of-the-chicago-board-of-education-subdistrict-1b",
+      "kind": "candidate",
+      "title": "Member of the Chicago Board of Education, Subdistrict 1B",
+      "office": "Member of the Chicago Board of Education, Subdistrict 1B",
+      "districtId": "ocd-division/country:us/state:il/place:chicago/school_board_district:1b",
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-1b"
+      ],
+      "ballots": ["chicago"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Claudia Peralta",
+          "party": "Nonpartisan",
+          "ballotOrder": 131
+        },
+        {
+          "name": "Michelle N. Pierre",
+          "party": "Nonpartisan",
+          "ballotOrder": 132
+        }
+      ]
+    },
+    {
+      "level": "local",
+      "path": "il/chicago/2026-11-03/member-of-the-chicago-board-of-education-subdistrict-2a",
+      "kind": "candidate",
+      "title": "Member of the Chicago Board of Education, Subdistrict 2A",
+      "office": "Member of the Chicago Board of Education, Subdistrict 2A",
+      "districtId": "ocd-division/country:us/state:il/place:chicago/school_board_district:2a",
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-2a"
+      ],
+      "ballots": ["chicago"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Ebony DeBerry",
+          "party": "Nonpartisan",
+          "ballotOrder": 131,
+          "incumbent": true
+        },
+        { "name": "Hector Morales", "party": "Nonpartisan", "ballotOrder": 132 }
+      ]
+    },
+    {
+      "level": "local",
+      "path": "il/chicago/2026-11-03/member-of-the-chicago-board-of-education-subdistrict-2b",
+      "kind": "candidate",
+      "title": "Member of the Chicago Board of Education, Subdistrict 2B",
+      "office": "Member of the Chicago Board of Education, Subdistrict 2B",
+      "districtId": "ocd-division/country:us/state:il/place:chicago/school_board_district:2b",
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-2b"
+      ],
+      "ballots": ["chicago"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Deborah \"Debby\" Pope",
+          "party": "Nonpartisan",
+          "ballotOrder": 131,
+          "incumbent": true
+        },
+        { "name": "Kyna Lenhof", "party": "Nonpartisan", "ballotOrder": 132 },
+        { "name": "Daniel Basco", "party": "Nonpartisan", "ballotOrder": 133 }
+      ]
+    },
+    {
+      "level": "local",
+      "path": "il/chicago/2026-11-03/member-of-the-chicago-board-of-education-subdistrict-3a",
+      "kind": "candidate",
+      "title": "Member of the Chicago Board of Education, Subdistrict 3A",
+      "office": "Member of the Chicago Board of Education, Subdistrict 3A",
+      "districtId": "ocd-division/country:us/state:il/place:chicago/school_board_district:3a",
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-3a"
+      ],
+      "ballots": ["chicago"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Norma Rios Sierra",
+          "party": "Nonpartisan",
+          "ballotOrder": 131,
+          "incumbent": true
+        },
+        { "name": "Peter Gonzales", "party": "Nonpartisan", "ballotOrder": 132 }
+      ]
+    },
+    {
+      "level": "local",
+      "path": "il/chicago/2026-11-03/member-of-the-chicago-board-of-education-subdistrict-3b",
+      "kind": "candidate",
+      "title": "Member of the Chicago Board of Education, Subdistrict 3B",
+      "office": "Member of the Chicago Board of Education, Subdistrict 3B",
+      "districtId": "ocd-division/country:us/state:il/place:chicago/school_board_district:3b",
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-3b"
+      ],
+      "ballots": ["chicago"],
+      "voteFor": 1,
+      "candidates": [
+        { "name": "Jason Dónes", "party": "Nonpartisan", "ballotOrder": 131 },
+        {
+          "name": "Carlos A. Rivas Jr.",
+          "party": "Nonpartisan",
+          "ballotOrder": 132,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "local",
+      "path": "il/chicago/2026-11-03/member-of-the-chicago-board-of-education-subdistrict-4a",
+      "kind": "candidate",
+      "title": "Member of the Chicago Board of Education, Subdistrict 4A",
+      "office": "Member of the Chicago Board of Education, Subdistrict 4A",
+      "districtId": "ocd-division/country:us/state:il/place:chicago/school_board_district:4a",
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-4a"
+      ],
+      "ballots": ["chicago"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Ellen Sherratt",
+          "party": "Nonpartisan",
+          "ballotOrder": 131
+        },
+        {
+          "name": "Karen Zaccor",
+          "party": "Nonpartisan",
+          "ballotOrder": 132,
+          "incumbent": true
+        },
+        { "name": "Angel Alvarez", "party": "Nonpartisan", "ballotOrder": 133 }
+      ]
+    },
+    {
+      "level": "local",
+      "path": "il/chicago/2026-11-03/member-of-the-chicago-board-of-education-subdistrict-4b",
+      "kind": "candidate",
+      "title": "Member of the Chicago Board of Education, Subdistrict 4B",
+      "office": "Member of the Chicago Board of Education, Subdistrict 4B",
+      "districtId": "ocd-division/country:us/state:il/place:chicago/school_board_district:4b",
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-4b"
+      ],
+      "ballots": ["chicago"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Ellen Rosenfeld",
+          "party": "Nonpartisan",
+          "ballotOrder": 131,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "local",
+      "path": "il/chicago/2026-11-03/member-of-the-chicago-board-of-education-subdistrict-5a",
+      "kind": "candidate",
+      "title": "Member of the Chicago Board of Education, Subdistrict 5A",
+      "office": "Member of the Chicago Board of Education, Subdistrict 5A",
+      "districtId": "ocd-division/country:us/state:il/place:chicago/school_board_district:5a",
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-5a"
+      ],
+      "ballots": ["chicago"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "LaPamela Williams",
+          "party": "Nonpartisan",
+          "ballotOrder": 131
+        },
+        {
+          "name": "Aaron \"Jitu\" Brown",
+          "party": "Nonpartisan",
+          "ballotOrder": 132,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "local",
+      "path": "il/chicago/2026-11-03/member-of-the-chicago-board-of-education-subdistrict-5b",
+      "kind": "candidate",
+      "title": "Member of the Chicago Board of Education, Subdistrict 5B",
+      "office": "Member of the Chicago Board of Education, Subdistrict 5B",
+      "districtId": "ocd-division/country:us/state:il/place:chicago/school_board_district:5b",
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-5b"
+      ],
+      "ballots": ["chicago"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Michilla \"Kyla\" Blaise",
+          "party": "Nonpartisan",
+          "ballotOrder": 131,
+          "incumbent": true
+        },
+        {
+          "name": "Anthony Hargrove",
+          "party": "Nonpartisan",
+          "ballotOrder": 132
+        }
+      ]
+    },
+    {
+      "level": "local",
+      "path": "il/chicago/2026-11-03/member-of-the-chicago-board-of-education-subdistrict-6a",
+      "kind": "candidate",
+      "title": "Member of the Chicago Board of Education, Subdistrict 6A",
+      "office": "Member of the Chicago Board of Education, Subdistrict 6A",
+      "districtId": "ocd-division/country:us/state:il/place:chicago/school_board_district:6a",
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-6a"
+      ],
+      "ballots": ["chicago"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Anusha Thotakura",
+          "party": "Nonpartisan",
+          "ballotOrder": 131,
+          "incumbent": true
+        },
+        { "name": "Isaiah White", "party": "Nonpartisan", "ballotOrder": 132 },
+        {
+          "name": "Brenda Lee Anderson",
+          "party": "Nonpartisan",
+          "ballotOrder": 133
+        }
+      ]
+    },
+    {
+      "level": "local",
+      "path": "il/chicago/2026-11-03/member-of-the-chicago-board-of-education-subdistrict-6b",
+      "kind": "candidate",
+      "title": "Member of the Chicago Board of Education, Subdistrict 6B",
+      "office": "Member of the Chicago Board of Education, Subdistrict 6B",
+      "districtId": "ocd-division/country:us/state:il/place:chicago/school_board_district:6b",
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-6b"
+      ],
+      "ballots": ["chicago"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Michael L. Neal",
+          "party": "Nonpartisan",
+          "ballotOrder": 131
+        },
+        {
+          "name": "Brittany B. Kimble",
+          "party": "Nonpartisan",
+          "ballotOrder": 132
+        }
+      ]
+    },
+    {
+      "level": "local",
+      "path": "il/chicago/2026-11-03/member-of-the-chicago-board-of-education-subdistrict-7a",
+      "kind": "candidate",
+      "title": "Member of the Chicago Board of Education, Subdistrict 7A",
+      "office": "Member of the Chicago Board of Education, Subdistrict 7A",
+      "districtId": "ocd-division/country:us/state:il/place:chicago/school_board_district:7a",
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-7a"
+      ],
+      "ballots": ["chicago"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Emma Lozano",
+          "party": "Nonpartisan",
+          "ballotOrder": 131,
+          "incumbent": true
+        },
+        {
+          "name": "Jesus Ayala Jr.",
+          "party": "Nonpartisan",
+          "ballotOrder": 132
+        }
+      ]
+    },
+    {
+      "level": "local",
+      "path": "il/chicago/2026-11-03/member-of-the-chicago-board-of-education-subdistrict-7b",
+      "kind": "candidate",
+      "title": "Member of the Chicago Board of Education, Subdistrict 7B",
+      "office": "Member of the Chicago Board of Education, Subdistrict 7B",
+      "districtId": "ocd-division/country:us/state:il/place:chicago/school_board_district:7b",
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-7b"
+      ],
+      "ballots": ["chicago"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Yesenia Lopez",
+          "party": "Nonpartisan",
+          "ballotOrder": 131,
+          "incumbent": true
+        },
+        {
+          "name": "Erika E. Diaz-Chavez",
+          "party": "Nonpartisan",
+          "ballotOrder": 132
+        }
+      ]
+    },
+    {
+      "level": "local",
+      "path": "il/chicago/2026-11-03/member-of-the-chicago-board-of-education-subdistrict-8a",
+      "kind": "candidate",
+      "title": "Member of the Chicago Board of Education, Subdistrict 8A",
+      "office": "Member of the Chicago Board of Education, Subdistrict 8A",
+      "districtId": "ocd-division/country:us/state:il/place:chicago/school_board_district:8a",
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-8a"
+      ],
+      "ballots": ["chicago"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Angel Gutierrez",
+          "party": "Nonpartisan",
+          "ballotOrder": 131,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "local",
+      "path": "il/chicago/2026-11-03/member-of-the-chicago-board-of-education-subdistrict-8b",
+      "kind": "candidate",
+      "title": "Member of the Chicago Board of Education, Subdistrict 8B",
+      "office": "Member of the Chicago Board of Education, Subdistrict 8B",
+      "districtId": "ocd-division/country:us/state:il/place:chicago/school_board_district:8b",
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-8b"
+      ],
+      "ballots": ["chicago"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Juan Ignacio Gonzalez",
+          "party": "Nonpartisan",
+          "ballotOrder": 131
+        }
+      ]
+    },
+    {
+      "level": "local",
+      "path": "il/chicago/2026-11-03/member-of-the-chicago-board-of-education-subdistrict-9a",
+      "kind": "candidate",
+      "title": "Member of the Chicago Board of Education, Subdistrict 9A",
+      "office": "Member of the Chicago Board of Education, Subdistrict 9A",
+      "districtId": "ocd-division/country:us/state:il/place:chicago/school_board_district:9a",
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-9a"
+      ],
+      "ballots": ["chicago"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Brittany R. Bailey Preston",
+          "party": "Nonpartisan",
+          "ballotOrder": 131
+        }
+      ]
+    },
+    {
+      "level": "local",
+      "path": "il/chicago/2026-11-03/member-of-the-chicago-board-of-education-subdistrict-9b",
+      "kind": "candidate",
+      "title": "Member of the Chicago Board of Education, Subdistrict 9B",
+      "office": "Member of the Chicago Board of Education, Subdistrict 9B",
+      "districtId": "ocd-division/country:us/state:il/place:chicago/school_board_district:9b",
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-9b"
+      ],
+      "ballots": ["chicago"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Therese Boyle",
+          "party": "Nonpartisan",
+          "ballotOrder": 131,
+          "incumbent": true
+        },
+        {
+          "name": "Katherine S. Dunneback",
+          "party": "Nonpartisan",
+          "ballotOrder": 132
+        }
+      ]
+    },
+    {
+      "level": "local",
+      "path": "il/chicago/2026-11-03/member-of-the-chicago-board-of-education-subdistrict-10a",
+      "kind": "candidate",
+      "title": "Member of the Chicago Board of Education, Subdistrict 10A",
+      "office": "Member of the Chicago Board of Education, Subdistrict 10A",
+      "districtId": "ocd-division/country:us/state:il/place:chicago/school_board_district:10a",
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-10a"
+      ],
+      "ballots": ["chicago"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Che \"Rhymefest\" Smith",
+          "party": "Nonpartisan",
+          "ballotOrder": 131,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "local",
+      "path": "il/chicago/2026-11-03/member-of-the-chicago-board-of-education-subdistrict-10b",
+      "kind": "candidate",
+      "title": "Member of the Chicago Board of Education, Subdistrict 10B",
+      "office": "Member of the Chicago Board of Education, Subdistrict 10B",
+      "districtId": "ocd-division/country:us/state:il/place:chicago/school_board_district:10b",
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-10b"
+      ],
+      "ballots": ["chicago"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Connie Anderson",
+          "party": "Nonpartisan",
+          "ballotOrder": 131,
+          "incumbent": true
+        },
+        {
+          "name": "Patrick C. Watson",
+          "party": "Nonpartisan",
+          "ballotOrder": 132
+        }
+      ]
+    },
+    {
+      "level": "retention",
+      "path": "il/2026-11-03/retention-bertina-e-lampkin",
+      "kind": "retention",
+      "title": "Judge, Appellate Court",
+      "office": "Judge, Illinois Appellate Court, 1st District",
+      "districtId": "ocd-division/country:us/state:il/court_of_appeals:1",
+      "contestIds": [
+        "chicago-boe:retention:bertina-e-lampkin",
+        "cook-clerk:710100:bertina-e-lampkin"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Bertina E. Lampkin"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-lewis-nixon",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:lewis-nixon",
+        "cook-clerk:720001:lewis-nixon"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Lewis Nixon"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-kerry-m-kennedy",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:kerry-m-kennedy",
+        "cook-clerk:720001:kerry-m-kennedy"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Kerry M. Kennedy"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-joan-e-powell",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:joan-e-powell",
+        "cook-clerk:720001:joan-e-powell"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Joan E. Powell"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-maureen-ward-kirby",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:maureen-ward-kirby",
+        "cook-clerk:720001:maureen-ward-kirby"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Maureen Ward Kirby"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-edward-a-arce",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:edward-a-arce",
+        "cook-clerk:720001:edward-a-arce"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Edward A. Arce"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-thomas-j-byrne",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:thomas-j-byrne",
+        "cook-clerk:720001:thomas-j-byrne"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Thomas J. Byrne"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-diana-l-kenworthy",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:diana-l-kenworthy",
+        "cook-clerk:720001:diana-l-kenworthy"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Diana L. Kenworthy"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-kristyna-colleen-ryan",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:kristyna-colleen-ryan",
+        "cook-clerk:720001:kristyna-colleen-ryan"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Kristyna Colleen Ryan"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-ursula-walowski",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:ursula-walowski",
+        "cook-clerk:720001:ursula-walowski"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Ursula Walowski"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-anthony-c-tony-kyriakopoulos",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:anthony-c-tony-kyriakopoulos",
+        "cook-clerk:720001:anthony-c-tony-kyriakopoulos"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Anthony C. \"Tony\" Kyriakopoulos"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-caroline-kate-moreland",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:caroline-kate-moreland",
+        "cook-clerk:720001:caroline-kate-moreland"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Caroline Kate Moreland"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-thomas-j-carroll",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:thomas-j-carroll",
+        "cook-clerk:720001:thomas-j-carroll"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Thomas J. Carroll"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-andrea-m-buford",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:andrea-m-buford",
+        "cook-clerk:720001:andrea-m-buford"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Andrea M. Buford"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-john-michael-allegretti",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:john-michael-allegretti",
+        "cook-clerk:720001:john-michael-allegretti"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "John Michael Allegretti"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-kristal-r-rivers",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:kristal-r-rivers",
+        "cook-clerk:720001:kristal-r-rivers"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Kristal R. Rivers"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-steven-g-watkins",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:steven-g-watkins",
+        "cook-clerk:720001:steven-g-watkins"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Steven G. Watkins"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-abbey-fishman-romanek",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:abbey-fishman-romanek",
+        "cook-clerk:720001:abbey-fishman-romanek"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Abbey Fishman Romanek"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-judith-c-rice",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:judith-c-rice",
+        "cook-clerk:720001:judith-c-rice"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Judith C. Rice"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-patrick-kevin-coughlin",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:patrick-kevin-coughlin",
+        "cook-clerk:720001:patrick-kevin-coughlin"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Patrick Kevin Coughlin"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-megan-elizabeth-goldish",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:megan-elizabeth-goldish",
+        "cook-clerk:720001:megan-elizabeth-goldish"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Megan Elizabeth Goldish"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-anjana-mj-hansen",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:anjana-m-j-hansen",
+        "cook-clerk:720001:anjana-m-j-hansen"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Anjana M.J. Hansen"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-robert-d-kuzas",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:robert-d-kuzas",
+        "cook-clerk:720001:robert-d-kuzas"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Robert D. Kuzas"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-maritza-martinez",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:maritza-martinez",
+        "cook-clerk:720001:maritza-martinez"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Maritza Martinez"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-terrence-j-mcguire",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:terrence-j-mcguire",
+        "cook-clerk:720001:terrence-j-mcguire"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Terrence J. McGuire"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-bridget-anne-mitchell",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:bridget-anne-mitchell",
+        "cook-clerk:720001:bridget-anne-mitchell"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Bridget Anne Mitchell"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-james-p-pieczonka",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:james-p-pieczonka",
+        "cook-clerk:720001:james-p-pieczonka"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "James P. Pieczonka"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-patricia-obrien-sheahan",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:patricia-o-brien-sheahan",
+        "cook-clerk:720001:patricia-o-brien-sheahan"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Patricia O'Brien Sheahan"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-michael-a-forti",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:michael-a-forti",
+        "cook-clerk:720001:michael-a-forti"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Michael A. Forti"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-nichole-c-patton",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:nichole-c-patton",
+        "cook-clerk:720001:nichole-c-patton"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Nichole C. Patton"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-sondra-n-denmark",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:sondra-n-denmark",
+        "cook-clerk:720001:sondra-n-denmark"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Sondra N. Denmark"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-gerardo-tristan-jr",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:gerardo-tristan-jr",
+        "cook-clerk:720001:gerardo-tristan-jr"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Gerardo Tristan, Jr."
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-lynn-weaver-boyle",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:lynn-weaver-boyle",
+        "cook-clerk:720001:lynn-weaver-boyle"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Lynn Weaver Boyle"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-daniel-edward-maloney",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:daniel-edward-maloney",
+        "cook-clerk:720001:daniel-edward-maloney"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Daniel Edward Maloney"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-thomas-m-cushing",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:thomas-m-cushing",
+        "cook-clerk:720001:thomas-m-cushing"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Thomas M. Cushing"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-john-g-mulroe",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:john-g-mulroe",
+        "cook-clerk:720001:john-g-mulroe"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "John G. Mulroe"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-tyria-b-walton",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:tyria-b-walton",
+        "cook-clerk:720001:tyria-b-walton"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Tyria B. Walton"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-erin-haggerty-antonietti",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:erin-haggerty-antonietti",
+        "cook-clerk:720001:erin-haggerty-antonietti"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Erin Haggerty Antonietti"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-teresa-molina-gonzalez",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:teresa-molina-gonzalez",
+        "cook-clerk:720001:teresa-molina-gonzalez"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Teresa Molina-Gonzalez"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-patricia-maria-fallon",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:patricia-maria-fallon",
+        "cook-clerk:720001:patricia-maria-fallon"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Patricia Maria Fallon"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-sheree-d-henry",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:sheree-d-henry",
+        "cook-clerk:720001:sheree-d-henry"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Sheree D. Henry"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-celestia-l-mays",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:celestia-l-mays",
+        "cook-clerk:720001:celestia-l-mays"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Celestia L. Mays"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-levander-smith-jr",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:levander-smith-jr",
+        "cook-clerk:720001:levander-smith-jr"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Levander Smith, Jr."
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-julie-bess-aimen",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:julie-bess-aimen",
+        "cook-clerk:720001:julie-bess-aimen"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Julie Bess Aimen"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-laura-ayala-gonzalez",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:laura-ayala-gonzalez",
+        "cook-clerk:720001:laura-ayala-gonzalez"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Laura Ayala-Gonzalez"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-krista-d-butler",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:krista-d-butler",
+        "cook-clerk:720001:krista-d-butler"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Krista D. Butler"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-marie-aileen-dempsey",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:marie-aileen-dempsey",
+        "cook-clerk:720001:marie-aileen-dempsey"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Marie Aileen Dempsey"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-jamie-guerra-dickler",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:jamie-guerra-dickler",
+        "cook-clerk:720001:jamie-guerra-dickler"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Jamie Guerra Dickler"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-jonathan-clark-green",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:jonathan-clark-green",
+        "cook-clerk:720001:jonathan-clark-green"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Jonathan Clark Green"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-mary-catherine-marubio",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:mary-catherine-marubio",
+        "cook-clerk:720001:mary-catherine-marubio"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Mary Catherine Marubio"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-regina-a-mescall",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:regina-a-mescall",
+        "cook-clerk:720001:regina-a-mescall"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Regina A. Mescall"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-lorraine-mary-murphy",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:lorraine-mary-murphy",
+        "cook-clerk:720001:lorraine-mary-murphy"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Lorraine Mary Murphy"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-eileen-marie-oconnor",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:eileen-marie-o-connor",
+        "cook-clerk:720001:eileen-marie-o-connor"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Eileen Marie O'Connor"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-jill-rose-quinn",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:jill-rose-quinn",
+        "cook-clerk:720001:jill-rose-quinn"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Jill Rose Quinn"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-pamela-reaves-harris",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:pamela-reaves-harris",
+        "cook-clerk:720001:pamela-reaves-harris"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Pamela Reaves-Harris"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-tiesha-l-smith",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:tiesha-l-smith",
+        "cook-clerk:720001:tiesha-l-smith"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Tiesha L. Smith"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-chris-stacey",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:chris-stacey",
+        "cook-clerk:720001:chris-stacey"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Chris Stacey"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-perla-tirado",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:perla-tirado",
+        "cook-clerk:720001:perla-tirado"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Perla Tirado"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-elizabeth-anne-walsh",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:elizabeth-anne-walsh",
+        "cook-clerk:720001:elizabeth-anne-walsh"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Elizabeth Anne Walsh"
+    },
+    {
+      "level": "retention",
+      "path": "il/cook-county/2026-11-03/retention-maura-mcmahon-zeller",
+      "kind": "retention",
+      "title": "Judge, Circuit Court",
+      "office": "Judge, Cook County Judicial Circuit",
+      "districtId": "ocd-division/country:us/state:il/county:cook",
+      "contestIds": [
+        "chicago-boe:retention:maura-mcmahon-zeller",
+        "cook-clerk:720001:maura-mcmahon-zeller"
+      ],
+      "ballots": ["chicago", "suburban-cook"],
+      "judge": "Maura McMahon Zeller"
+    }
+  ]
+}

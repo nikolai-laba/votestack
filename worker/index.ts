@@ -1,31 +1,45 @@
 // Cloudflare Worker entry. Static files in dist/ are served by Workers static
-// assets (see wrangler.toml); only /api/* requests reach this code.
+// assets (see wrangler.toml); only /api/* requests, and page addresses with a
+// trailing slash or .html (redirected to the page's own address), reach this
+// code.
 // Server-side code lives under worker/; API keys are only ever read here, never in src/.
 
 import { CURRENT_ELECTION } from '../src/shared/cook.ts'
 import { SupabaseBallotProvider } from './ballot.ts'
-import { memoryLimiter } from './guard.ts'
+import { json, memoryLimiter, rateLimitKey } from './guard.ts'
 import { notifyResponse, type NotifyEnv } from './notify.ts'
 import { profileResponse, publishedProfileKeys } from './profile.ts'
+import { canonicalRedirect } from './redirects.ts'
 import { reportResponse, type ReportEnv } from './report.ts'
 import type { SupabaseConfig } from './supabase.ts'
 
 export interface Env extends ReportEnv, NotifyEnv {
   ASSETS: Fetcher
+  /** Cloudflare's Rate Limiting binding for lookups. Absent in tests. */
+  BALLOT_LIMITER?: RateLimit
   SUPABASE_URL?: string
   SUPABASE_SECRET_KEY?: string
   TURNSTILE_SECRET_KEY?: string
 }
 
-// Used only when the REPORT_LIMITER or NOTIFY_LIMITER binding is missing
-// (see guard.ts).
+// Used only when the REPORT_LIMITER, NOTIFY_LIMITER or BALLOT_LIMITER
+// binding is missing (see guard.ts).
 let fallbackLimiter: RateLimit | null = null
 let notifyFallbackLimiter: RateLimit | null = null
+let ballotFallbackLimiter: RateLimit | null = null
+
+/**
+ * Lookups one visitor may make per minute (wrangler.toml [[ratelimits]]):
+ * far more than a person types, few enough that a script can't slow the
+ * database for everyone.
+ */
+const BALLOT_LIMIT = 30
 
 /** For tests: start the fallback rate limits afresh. */
 export function resetFallbackLimiter() {
   fallbackLimiter = null
   notifyFallbackLimiter = null
+  ballotFallbackLimiter = null
 }
 
 // Ballot responses are about one voter's address: never cache them anywhere.
@@ -46,6 +60,17 @@ async function ballot(request: Request, env: Env): Promise<Response> {
       { error: 'Use POST' },
       { status: 405, headers: { ...PRIVATE, Allow: 'POST' } },
     )
+  }
+  // Keyed by a hash of the IP address, never the address typed in.
+  ballotFallbackLimiter ??= memoryLimiter(BALLOT_LIMIT)
+  const limiter = env.BALLOT_LIMITER ?? ballotFallbackLimiter
+  const { success } = await limiter.limit({
+    key: await rateLimitKey('ballot', request),
+  })
+  if (!success) {
+    return json({ error: 'Too many lookups, try again in a minute' }, 429, {
+      'Retry-After': '60',
+    })
   }
   const config = supabaseConfig(env)
   if (!config) {
@@ -125,6 +150,6 @@ export default {
     if (pathname.startsWith('/api/')) {
       return Response.json({ error: 'Not found' }, { status: 404 })
     }
-    return env.ASSETS.fetch(request)
+    return canonicalRedirect(request) ?? env.ASSETS.fetch(request)
   },
 } satisfies ExportedHandler<Env>

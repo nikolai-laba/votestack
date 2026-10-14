@@ -1,19 +1,14 @@
-import { useEffect, useRef, useState, type FormEvent } from 'react'
-import { Link, useLocation, useNavigate } from 'react-router'
-import { BallotLookupError } from '../api/ballot.ts'
+import { useEffect, useRef } from 'react'
+import { Link, useNavigate } from 'react-router'
 import { NOTIFY_PATH } from '../ballot/profileLinks.ts'
 import { SAMPLE_BALLOTS, type SampleBallot } from '../ballot/samples.ts'
 import {
   SAMPLE_HEADING_ID,
-  isFocusAddressState,
   useBallotSession,
-  type AddressField,
-  type AddressValues,
   type FocusHeadingState,
 } from '../ballot/session.ts'
-import { BALLOT_HEADING_ID } from '../components/BallotView.tsx'
-import { WarningIcon } from '../components/icons.tsx'
-import { TextField } from '../components/TextField.tsx'
+import { AddressForm } from '../components/AddressForm.tsx'
+import { CURRENT_RACES_AREA_PATH } from '../races/paths.ts'
 
 // /getstarted: what VoteStack is, the address form and the sample ballots.
 // Where new visitors land (the ballot at / sends them here when there's no
@@ -23,47 +18,9 @@ import { TextField } from '../components/TextField.tsx'
 // they survive going between here and the ballot; the address is never in
 // the URL or browser storage.
 
-type Field = AddressField
-
-const FIELDS: Field[] = ['street', 'city', 'zip']
-
-const LABELS: Record<Field, string> = {
-  street: 'Street address',
-  city: 'City or town',
-  zip: 'ZIP code',
-}
-
-function validate(field: Field, value: string): string | undefined {
-  const v = value.trim()
-  if (field === 'street')
-    return /^\d+\S*\s+\S/.test(v)
-      ? undefined
-      : 'Enter your street address, starting with the house number.'
-  if (field === 'city') return v ? undefined : 'Enter your city or town.'
-  return /^\d{5}(-\d{4})?$/.test(v) ? undefined : 'Enter a 5-digit ZIP code.'
-}
-
-const LOOKUP_ERRORS = {
-  invalid: 'Enter your full street address, starting with the house number.',
-  not_found:
-    'We couldn’t find that address in Cook County. VoteStack is currently only available in Chicago and Cook County for its initial release. Check the street, city and ZIP code, or look through the sample ballots to get an idea of how VoteStack works.',
-  unavailable:
-    'Couldn’t load your ballot. Check your connection and try again.',
-}
-
-const fullAddress = (v: AddressValues) =>
-  `${v.street.trim()}, ${v.city.trim()}, IL ${v.zip.trim()}`
-
 export function GetStartedPage() {
-  const { lookup, values, setValues, lookUp, sample, leaveSample, showSample } =
-    useBallotSession()
+  const { sample, leaveSample, showSample } = useBallotSession()
   const navigate = useNavigate()
-  const location = useLocation()
-  const [errors, setErrors] = useState<Partial<Record<Field, string>>>({})
-  const inputs = useRef<Partial<Record<Field, HTMLInputElement | null>>>({})
-  // Set on submit: once the lookup finishes, a ballot opens at / with focus
-  // on its heading, or focus goes back to the street field on an error.
-  const awaitingResult = useRef(false)
 
   // Coming here leaves a sample, so My ballot and Back show the voter's own
   // ballot (or come back here). Not on a click: the ballot would then send
@@ -76,66 +33,11 @@ export function GetStartedPage() {
     leaveSample()
   }, [leaveSample])
 
-  // From "Search a new address": straight to the street field.
-  useEffect(() => {
-    if (isFocusAddressState(location.state)) inputs.current.street?.focus()
-  }, [location.state])
-
-  useEffect(() => {
-    if (!awaitingResult.current || lookup.isPending || lookup.isIdle) return
-    awaitingResult.current = false
-    if (lookup.isSuccess) {
-      const state: FocusHeadingState = { focusHeading: BALLOT_HEADING_ID }
-      navigate('/', { state })
-    } else inputs.current.street?.focus()
-  }, [lookup.isPending, lookup.isIdle, lookup.isSuccess, navigate])
-
-  function change(field: Field, value: string) {
-    setValues((v) => ({ ...v, [field]: value }))
-    // Clear the error as soon as the voter edits.
-    if (errors[field]) setErrors((e) => ({ ...e, [field]: undefined }))
-  }
-
-  function blur(field: Field) {
-    // Validate on blur once something has been typed, never while typing.
-    if (values[field].trim())
-      setErrors((e) => ({ ...e, [field]: validate(field, values[field]) }))
-  }
-
-  function handleSubmit(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault()
-    // Read the fields themselves: some autofill, password managers and
-    // assistive tools fill them without the input event React listens for,
-    // and the state alone would then submit (and re-render) empty fields.
-    const form = event.currentTarget.elements
-    const current = { ...values }
-    for (const f of FIELDS) {
-      const input = form.namedItem(f)
-      if (input instanceof HTMLInputElement) current[f] = input.value
-    }
-    setValues(() => current)
-    const found: Partial<Record<Field, string>> = {}
-    for (const f of FIELDS) found[f] = validate(f, current[f])
-    setErrors(found)
-    const firstInvalid = FIELDS.find((f) => found[f])
-    if (firstInvalid) {
-      inputs.current[firstInvalid]?.focus()
-      return
-    }
-    awaitingResult.current = true
-    lookUp(fullAddress(current))
-  }
-
   function openSample(next: SampleBallot) {
     showSample(next)
     const state: FocusHeadingState = { focusHeading: SAMPLE_HEADING_ID }
     navigate('/', { state })
   }
-
-  const errorKind =
-    lookup.error instanceof BallotLookupError
-      ? lookup.error.kind
-      : 'unavailable'
 
   return (
     <section className="space-y-6">
@@ -169,81 +71,7 @@ export function GetStartedPage() {
         </p>
       </div>
 
-      <form onSubmit={handleSubmit} noValidate className="space-y-5">
-        <fieldset className="space-y-4">
-          <legend className="text-label font-semibold">
-            Registered voting address
-          </legend>
-          {FIELDS.slice(0, 1).map((f) => (
-            <AddressField
-              key={f}
-              field={f}
-              value={values[f]}
-              error={errors[f]}
-              onChange={change}
-              onBlur={blur}
-              inputRef={(el) => {
-                inputs.current[f] = el
-              }}
-            />
-          ))}
-          <div className="flex flex-col gap-4 md:flex-row">
-            {FIELDS.slice(1).map((f) => (
-              <div key={f} className={f === 'zip' ? 'md:w-40' : 'flex-1'}>
-                <AddressField
-                  field={f}
-                  value={values[f]}
-                  error={errors[f]}
-                  onChange={change}
-                  onBlur={blur}
-                  inputRef={(el) => {
-                    inputs.current[f] = el
-                  }}
-                />
-              </div>
-            ))}
-          </div>
-        </fieldset>
-
-        <div className="space-y-3">
-          <button
-            type="submit"
-            disabled={lookup.isPending}
-            className="h-13 w-full rounded-md bg-primary px-6 text-label font-semibold text-on-primary transition-opacity duration-150 disabled:opacity-60 md:w-auto"
-          >
-            Find my ballot
-          </button>
-
-          {/* Announces progress and errors to screen readers, right under the
-            button. Takes no space while empty. */}
-          <div role="status" aria-live="polite" className="empty:-mt-3">
-            {lookup.isPending && (
-              <p className="text-muted">Finding your districts…</p>
-            )}
-            {lookup.isError && (
-              <div className="flex gap-3 rounded-sm border-2 border-warn-line bg-warn-bg p-4 text-warn-fg">
-                <WarningIcon />
-                <div className="space-y-2">
-                  <p className="font-semibold">{LOOKUP_ERRORS[errorKind]}</p>
-                  {errorKind === 'not_found' && (
-                    <p>
-                      Live outside Cook County?{' '}
-                      <Link className="text-warn-fg" to={NOTIFY_PATH}>
-                        Get an email when VoteStack covers your area
-                      </Link>
-                      .
-                    </p>
-                  )}
-                </div>
-              </div>
-            )}
-          </div>
-        </div>
-        <p className="max-w-[65ch] text-small text-muted">
-          We use your address once to find your districts. It isn&apos;t saved,
-          logged or added to the page link.
-        </p>
-      </form>
+      <AddressForm samplesBelow />
 
       <div role="group" aria-labelledby="samples-intro" className="space-y-3">
         <p id="samples-intro" className="max-w-[65ch]">
@@ -263,42 +91,14 @@ export function GetStartedPage() {
           ))}
         </ul>
       </div>
+
+      <p className="max-w-[65ch]">
+        Or{' '}
+        <Link to={CURRENT_RACES_AREA_PATH}>
+          browse every race in Cook County
+        </Link>
+        . Only your address shows which ones are on your ballot.
+      </p>
     </section>
-  )
-}
-
-const AUTOCOMPLETE: Record<Field, string> = {
-  street: 'address-line1',
-  city: 'address-level2',
-  zip: 'postal-code',
-}
-
-function AddressField({
-  field,
-  value,
-  error,
-  onChange,
-  onBlur,
-  inputRef,
-}: {
-  field: Field
-  value: string
-  error?: string
-  onChange: (field: Field, value: string) => void
-  onBlur: (field: Field) => void
-  inputRef: (el: HTMLInputElement | null) => void
-}) {
-  return (
-    <TextField
-      id={field}
-      label={LABELS[field]}
-      value={value}
-      error={error}
-      autoComplete={AUTOCOMPLETE[field]}
-      inputMode={field === 'zip' ? 'numeric' : undefined}
-      onChange={(v) => onChange(field, v)}
-      onBlur={() => onBlur(field)}
-      inputRef={inputRef}
-    />
   )
 }

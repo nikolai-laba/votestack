@@ -13,6 +13,7 @@ import { LazyAboutPage } from './pages/LazyAboutPage.tsx'
 import { HowProfilesPage } from './pages/HowProfilesPage.tsx'
 import { LazyNotifyPage } from './pages/LazyNotifyPage.tsx'
 import { LazyProfilePage } from './pages/LazyProfilePage.tsx'
+import { LazyRacesPage } from './pages/LazyRacesPage.tsx'
 import { LazyReportPage } from './pages/LazyReportPage.tsx'
 import { NotFoundPage } from './pages/NotFoundPage.tsx'
 import { SavedChoicesPage } from './pages/SavedChoicesPage.tsx'
@@ -67,6 +68,12 @@ export const routes: RouteObject[] = [
                 // Its old address, so earlier links still work.
                 path: 'my-ballot',
                 element: <Navigate to={SAVED_CHOICES_PATH} replace />,
+              },
+              {
+                // Every race, browsable without an address: /races, an
+                // area's list and one page per race (src/shared/races.ts).
+                path: 'races/*',
+                element: <LazyRacesPage />,
               },
               {
                 path: 'how-profiles-are-made',

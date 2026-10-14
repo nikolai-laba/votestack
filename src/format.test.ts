@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it } from 'vitest'
-import { longDate } from './format.ts'
+import { longDate, webUrl } from './format.ts'
 
 const zone = process.env.TZ
 
@@ -21,5 +21,16 @@ describe('longDate', () => {
       'Tuesday, October 6, 2026',
     )
     expect(longDate('2026-10-06T15:00:00Z')).toBe('Tuesday, October 6, 2026')
+  })
+})
+
+describe('webUrl', () => {
+  it('keeps web addresses and drops every other kind of link', () => {
+    expect(webUrl('https://ilga.gov/')).toBe('https://ilga.gov/')
+    expect(webUrl('HTTP://example.com')).toBe('HTTP://example.com')
+    expect(webUrl('javascript:alert(1)')).toBeUndefined()
+    expect(webUrl('data:text/html,hi')).toBeUndefined()
+    expect(webUrl(' https://x')).toBeUndefined()
+    expect(webUrl(undefined)).toBeUndefined()
   })
 })

@@ -6,6 +6,7 @@ import {
   NOT_FOUND_HEAD,
   headHtml,
   profileHead,
+  profileOffice,
   useDocumentHead,
   type PageHead,
 } from './head.ts'
@@ -48,7 +49,8 @@ afterEach(cleanup)
 describe('profileHead', () => {
   it('uses one template for every candidate, filled from the ballot', () => {
     expect(profileHead(profile)).toEqual({
-      title: 'Jane Doe, candidate profile | VoteStack',
+      title:
+        'Jane Doe, 2026 candidate for State Senator, 5th District, Illinois | VoteStack',
       description:
         'Jane Doe (Democratic) is running for State Senator, 5th District on the November 3, 2026 ballot in Cook County, Illinois. Background, campaign money and endorsements, with a source for every fact.',
       path: '/candidates/jane-doe',
@@ -65,6 +67,24 @@ describe('profileHead', () => {
     expect(profileHead(judge).description).toMatch(
       /^Jane Doe is up for retention as Circuit Court Judge, Cook County on/,
     )
+    expect(profileHead(judge).title).toBe(
+      'Jane Doe, up for retention as Circuit Court Judge, Cook County, 2026 | VoteStack',
+    )
+  })
+
+  it('names the seat without its vacancy, with the place when the office doesn’t say', () => {
+    expect(
+      profileOffice(
+        'Circuit Court Judge, 3rd Subcircuit (Vacancy of Sherlock)',
+      ),
+    ).toBe('Circuit Court Judge, 3rd Subcircuit, Cook County')
+    expect(profileOffice('U.S. Representative, 7th District')).toBe(
+      'U.S. Representative, 7th District, Illinois',
+    )
+    expect(profileOffice('Illinois Attorney General')).toBe(
+      'Illinois Attorney General',
+    )
+    expect(profileOffice('Cook County Clerk')).toBe('Cook County Clerk')
   })
 
   it('keeps sample profiles out of search', () => {

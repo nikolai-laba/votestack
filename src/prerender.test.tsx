@@ -1,9 +1,37 @@
 import { readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
 import { checkTemplate } from '../scripts/lib/prerender.ts'
-import { candidatePages, renderPage, STATIC_PAGES } from './prerender.tsx'
+import {
+  candidatePages,
+  racePages,
+  renderPage,
+  STATIC_PAGES,
+} from './prerender.tsx'
 import { routes } from './routes.tsx'
 import type { CandidateProfile } from './shared/profile.ts'
+import type { RaceList } from './shared/races.ts'
+
+const raceList: RaceList = {
+  electionId: 'il-2026-11-03-general',
+  electionName: 'General Election',
+  date: '2026-11-03',
+  area: 'Cook County, Illinois',
+  areaPath: 'il/cook-county/2026-11-03',
+  races: [
+    {
+      level: 'state',
+      path: 'il/2026-11-03/state-senator-5th-district',
+      kind: 'candidate',
+      title: 'State Senator, 5th District',
+      office: 'State Senator',
+      districtId: 'ocd-division/country:us/state:il/sldu:5',
+      contestIds: ['s5'],
+      ballots: ['chicago'],
+      voteFor: 1,
+      candidates: [{ name: 'Jane Doe', party: 'Democratic' }],
+    },
+  ],
+}
 
 const empty = { asOf: '2026-10-05', items: [] }
 const profile: CandidateProfile = {
@@ -58,6 +86,8 @@ describe('prerender', () => {
       ...candidatePages(profile, true).map((p) =>
         p.path.replace('jane-doe', ':key'),
       ),
+      // /races and every page under it (racePages).
+      ...(racePages(raceList).length === 3 ? ['/races/*'] : []),
       '/my-ballot', // a redirect in _redirects
       '/*', // 404.html
     ])
@@ -78,9 +108,25 @@ describe('prerender', () => {
 
   it('builds only the head when the file isn’t the published version', async () => {
     const [page] = candidatePages(profile, false)
-    expect(page.head.title).toBe('Jane Doe, candidate profile | VoteStack')
+    expect(page.head.title).toBe(
+      'Jane Doe, 2026 candidate for State Senator, 5th District, Illinois | VoteStack',
+    )
     expect(page.data).toBeUndefined()
     expect(await renderPage(page)).toBe('')
+  })
+
+  it('builds /races, the area list and every race, with their content', async () => {
+    const pages = racePages(raceList)
+    expect(pages.map((p) => p.file)).toEqual([
+      'races.html',
+      'races/il/cook-county/2026-11-03.html',
+      'races/il/2026-11-03/state-senator-5th-district.html',
+    ])
+    // Built from the committed race list, so a race from it.
+    const real = pages[1]
+    const html = await renderPage(real)
+    expect(html).toContain('Races in Cook County, Illinois')
+    expect(html).toContain('href="/races/il/2026-11-03/united-states-senator"')
   })
 
   it('renders the address form for the home page', async () => {

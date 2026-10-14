@@ -549,6 +549,8 @@ describe('candidate profiles', () => {
     ).toHaveFocus()
     expect(screen.queryByRole('region', { name: 'Sample profile' })).toBeNull()
     expect(screen.queryByText(/isn’t ready yet/)).toBeNull()
-    expect(document.title).toBe('Jane Doe, candidate profile | VoteStack')
+    expect(document.title).toBe(
+      'Jane Doe, 2026 candidate for Governor and Lieutenant Governor, Illinois | VoteStack',
+    )
   })
 })

@@ -6,6 +6,7 @@ import type {
   Section,
 } from '../../shared/profile.ts'
 import { useId, useState } from 'react'
+import { webUrl } from '../../format.ts'
 import { ChevronDownIcon } from '../icons.tsx'
 import { barSummary } from './barSummary.ts'
 import { Cite } from './Cite.tsx'
@@ -188,7 +189,7 @@ function BarRating({
         {table && (
           <>
             {' '}
-            <a href={table.url} target="_blank" rel="noreferrer">
+            <a href={webUrl(table.url)} target="_blank" rel="noreferrer">
               Each group&rsquo;s rating
               {/\.pdf$/i.test(table.url) && ' (PDF)'}
             </a>

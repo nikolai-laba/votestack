@@ -26,6 +26,7 @@ import {
 import {
   ABOUT_HEAD,
   HOME_HEAD,
+  RACES_HEAD,
   HOW_PROFILES_HEAD,
   NOT_FOUND_HEAD,
   NOTIFY_HEAD,
@@ -33,12 +34,16 @@ import {
   SITE_URL,
   headHtml,
   profileHead,
+  raceAreaHead,
+  raceHead,
   reportHead,
   type PageHead,
 } from './head.ts'
 import { prerenderData, type PrerenderData } from './prerenderData.ts'
+import { RACES_QUERY_KEY, loadRaces } from './races/data.ts'
 import { routes } from './routes.tsx'
 import type { CandidateProfile } from './shared/profile.ts'
+import { RACES_PATH, racePath, type RaceList } from './shared/races.ts'
 
 export { SITE_URL, headHtml, prerenderData }
 
@@ -125,6 +130,28 @@ export function candidatePages(
   ]
 }
 
+/** /races, the area's list of races and a page for every race. */
+export function racePages(list: RaceList): PrerenderPage[] {
+  const page = (path: string, head: PageHead): PrerenderPage => ({
+    path,
+    // Cloudflare serves /races/il/… from races/il/….html.
+    file: `${path.slice(1)}.html`,
+    head,
+    render: path,
+    data: { page: 'races' },
+  })
+  return [
+    page(RACES_PATH, RACES_HEAD),
+    page(`${RACES_PATH}/${list.areaPath}`, raceAreaHead(list)),
+    ...list.races.map((race) => page(racePath(race), raceHead(race))),
+  ]
+}
+
+/** The race list the pages are built from. */
+export async function raceList(): Promise<RaceList> {
+  return (await loadRaces()).list
+}
+
 /** The HTML inside #root for a page. */
 export async function renderPage(page: PrerenderPage): Promise<string> {
   if (!page.render) return ''
@@ -134,6 +161,8 @@ export async function renderPage(page: PrerenderPage): Promise<string> {
     throw new Error(`${page.render} redirects (${context.status})`)
   }
   const queryClient = new QueryClient()
+  // Race pages and profiles show races from the list.
+  queryClient.setQueryData(RACES_QUERY_KEY, await loadRaces())
   if (page.data?.profile) {
     queryClient.setQueryData(
       ['profile', page.data.profile.key],

@@ -1,4 +1,4 @@
-import { longDate } from '../../format.ts'
+import { longDate, webUrl } from '../../format.ts'
 import type { ProfileSource } from '../../shared/profile.ts'
 
 /** The numbered sources that the superscript citations point to. */
@@ -19,7 +19,7 @@ export function SourcesList({ sources }: { sources: ProfileSource[] }) {
             tabIndex={-1}
             className="scroll-mt-4"
           >
-            <a href={s.url} target="_blank" rel="noreferrer">
+            <a href={webUrl(s.url)} target="_blank" rel="noreferrer">
               {s.title}
             </a>
             , {s.publisher}. Viewed {longDate(s.viewedAt)}.

@@ -16,8 +16,8 @@ import type {
   MeasureContest,
   RetentionContest,
 } from '../shared/ballot.ts'
-import { longDate } from '../format.ts'
-import { useSampleMode } from '../picks/sampleMode.ts'
+import { longDate, webUrl } from '../format.ts'
+import { SampleModeContext, useSampleMode } from '../picks/sampleMode.ts'
 import { useBallotStore, type Picks } from '../picks/store.ts'
 import { choicesFor, swapText } from '../picks/summary.ts'
 import { partyLine, profileKey } from '../shared/profile.ts'
@@ -260,15 +260,59 @@ export function PersonRaces({
   )
 }
 
+/** Element ids in a race card start with this, so none repeat a ballot's. */
+const CARD_PREFIX = 'card-'
+
+/**
+ * A race on its own page, or under a profile opened without a ballot: the
+ * ballot's own card and rows, in ballot order, with no pick boxes (picks
+ * belong to the voter's own ballot, looked up by address).
+ */
+export function RaceCard({
+  contest,
+  published,
+}: {
+  contest: CandidateContest | RetentionContest
+  published: Set<string>
+}) {
+  const picks: Picks = {}
+  return (
+    // Shown like a sample: no pick controls.
+    <SampleModeContext.Provider value>
+      {contest.kind === 'candidate' ? (
+        <CandidateRace
+          contest={contest}
+          published={published}
+          picks={picks}
+          idPrefix={CARD_PREFIX}
+          fromBallot={false}
+        />
+      ) : (
+        <RetentionCard
+          judge={contest}
+          published={published}
+          picks={picks}
+          idPrefix={CARD_PREFIX}
+          fromBallot={false}
+        />
+      )}
+    </SampleModeContext.Provider>
+  )
+}
+
 /** One judge up for retention, as a card of its own (the race panel). */
 function RetentionCard({
   judge,
   published,
   picks,
+  idPrefix = PANEL_PREFIX,
+  fromBallot = true,
 }: {
   judge: RetentionContest
   published: Set<string>
   picks: Picks
+  idPrefix?: string
+  fromBallot?: boolean
 }) {
   return (
     <div className="overflow-hidden rounded-md border border-line bg-surface">
@@ -280,7 +324,8 @@ function RetentionCard({
         judge={judge}
         published={published}
         picks={picks}
-        idPrefix={PANEL_PREFIX}
+        idPrefix={idPrefix}
+        fromBallot={fromBallot}
       />
     </div>
   )
@@ -335,7 +380,7 @@ function CoverageNotice({ coverage }: { coverage: Coverage }) {
             {/* A link on its own line, so it gets a 44px target. */}
             <a
               className="inline-flex min-h-11 items-center text-warn-fg"
-              href={coverage.officialSampleBallotUrl}
+              href={webUrl(coverage.officialSampleBallotUrl)}
               target="_blank"
               rel="noreferrer"
             >
@@ -378,12 +423,14 @@ function CandidateRace({
   published,
   picks,
   idPrefix = '',
+  fromBallot = true,
 }: {
   contest: CandidateContest
   published: Set<string>
   picks: Picks
   /** Set in the race panel, so its ids don't repeat the list's. */
   idPrefix?: string
+  fromBallot?: boolean
 }) {
   const candidates = [...contest.candidates].sort(
     (a, b) => (a.ballotOrder ?? 0) - (b.ballotOrder ?? 0),
@@ -431,6 +478,7 @@ function CandidateRace({
                   rowId={`row-${contest.id}-${profileKey(candidate.name)}`}
                   idPrefix={idPrefix}
                   published={published}
+                  fromBallot={fromBallot}
                 />
               </div>
             </li>
@@ -537,11 +585,13 @@ function RetentionRow({
   published,
   picks,
   idPrefix = '',
+  fromBallot = true,
 }: {
   judge: RetentionContest
   published: Set<string>
   picks: Picks
   idPrefix?: string
+  fromBallot?: boolean
 }) {
   const sample = useSampleMode()
   return (
@@ -558,6 +608,7 @@ function RetentionRow({
           rowId={`row-${judge.id}`}
           idPrefix={idPrefix}
           published={published}
+          fromBallot={fromBallot}
         />
       </div>
       {/* Wraps under the name on narrow screens. */}
@@ -585,6 +636,7 @@ function CandidateRow({
   rowId,
   idPrefix = '',
   published,
+  fromBallot = true,
 }: {
   name: string
   /** Party (and "incumbent", see partyLine) for candidates, office for judges. */
@@ -594,6 +646,8 @@ function CandidateRow({
   /** Set in the race panel, so its ids don't repeat the list's. */
   idPrefix?: string
   published: Set<string>
+  /** False on a race page: its profile links don't lead back to a ballot row. */
+  fromBallot?: boolean
 }) {
   const key = profileKey(name)
   const open = useMatch('/candidates/:key')
@@ -626,7 +680,7 @@ function CandidateRow({
   }
   const current = open?.params.key === key
   // Always the list's row: that's where focus goes back to.
-  const state: ProfileLinkState = { rowId }
+  const state: ProfileLinkState | undefined = fromBallot ? { rowId } : undefined
   return (
     <Link
       id={idPrefix + rowId}

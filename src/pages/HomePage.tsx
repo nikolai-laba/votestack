@@ -11,6 +11,7 @@ import {
   contestsWithPerson,
   isProfileLinkState,
   isRaceLinkState,
+  raceAnchorId,
   type BallotOutletContext,
   type RouteHandle,
 } from '../ballot/profileLinks.ts'
@@ -28,6 +29,7 @@ import {
 } from '../components/BallotView.tsx'
 import { WarningIcon } from '../components/icons.tsx'
 import { SampleModeContext } from '../picks/sampleMode.ts'
+import { isRaceHandoffState } from '../races/data.ts'
 import { useBallotStore } from '../picks/store.ts'
 
 // My ballot, at /: this session's lookup, a sample, or the ballot saved on
@@ -50,6 +52,9 @@ import { useBallotStore } from '../picks/store.ts'
 // only in memory, never in the URL: it isn't saved on the device, leaves the
 // voter's own ballot and picks alone and has no pick controls. A reload
 // returns to the saved ballot, or to /getstarted.
+
+/** The notice that the race a lookup came from isn't on the ballot. */
+const MISSING_RACE_ID = 'missing-race'
 
 const SEARCH_CLASS =
   'inline-flex min-h-11 items-center justify-center rounded-md border-2 border-field px-4 font-semibold text-text no-underline'
@@ -132,6 +137,28 @@ export function HomePage() {
     el?.focus()
   }, [detailOpen, location])
 
+  // From a race page's address form: open the ballot at that race, or say
+  // it isn't on this ballot. Once per navigation, like "Show on ballot".
+  const handoff = isRaceHandoffState(location.state)
+    ? location.state.focusRace
+    : null
+  const handoffContest = handoff
+    ? ballot?.contests.find((c) => handoff.contestIds.includes(c.id))
+    : undefined
+  const raceMissing = Boolean(handoff && ballot && !handoffContest)
+  const shownHandoff = useRef<string | null>(null)
+  useEffect(() => {
+    if (detailOpen || !handoff || !ballot) return
+    if (shownHandoff.current === location.key) return
+    shownHandoff.current = location.key
+    const el = document.getElementById(
+      handoffContest ? raceAnchorId(handoffContest.id) : MISSING_RACE_ID,
+    )
+    const details = el?.closest('details')
+    if (details) details.open = true
+    el?.focus()
+  }, [detailOpen, handoff, handoffContest, ballot, location.key])
+
   // The list stays mounted even when hidden, so nothing is lost on Back.
   // Below 840px it gives way to the profile; with no ballot (a shared
   // profile link) it's empty and hidden on every screen. Beside a profile,
@@ -205,6 +232,22 @@ export function HomePage() {
                 <span className="font-semibold">{address}</span>
               </p>
               <SearchLink />
+            </section>
+          )}
+
+          {!inSample && raceMissing && handoff && (
+            <section
+              aria-label="Race not on this ballot"
+              className="space-y-1 rounded-md border border-line bg-surface p-4"
+            >
+              <p
+                id={MISSING_RACE_ID}
+                tabIndex={-1}
+                className="font-semibold focus:outline-none"
+              >
+                {handoff.title} isn&apos;t on the ballot for this address.
+              </p>
+              <p>Here is everything that is.</p>
             </section>
           )}
 

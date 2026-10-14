@@ -8,10 +8,13 @@ npm run data:build   # precinct overlay/audit, contests, the Clerk's precinct di
 npm run lookup -- "834 Lake St, Oak Park, IL 60301"
 npm run data:audit   # compare with the Clerk's sample ballots
 npm run data:incumbents  # incumbent labels → content/incumbents/ (after profiles:subjects)
+npm run contests:export  # public race list → content/contests/ (after data:build or data:incumbents; commit it)
 npm run data:load    # load into Supabase (apply supabase/migrations first; needs .env)
 ```
 
 Test with public addresses (offices, libraries). Never commit or share real voter addresses.
+
+`content/contests/{election date}.json` is the one file built from this data that is committed: every race and judge up for retention, each once, with the official candidate lists in ballot order. The site builds its race pages from it, so the build needs no database. Each race keeps the web address it was first given, even when the file is rebuilt.
 
 This data is **not** covered by the project's Apache-2.0 license. Each source keeps its own terms:
 

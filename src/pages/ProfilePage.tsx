@@ -10,6 +10,7 @@ import { BackLink } from '../components/profile/BackLink.tsx'
 import { ProfileArticle } from '../components/profile/ProfileArticle.tsx'
 import { sampleNoticeId } from '../components/profile/ids.ts'
 import { ProfileSkeleton } from '../components/profile/ProfileSkeleton.tsx'
+import { ProfileRaces } from '../components/RaceSummary.tsx'
 import { MISSING_PROFILE_HEAD, profileHead, useDocumentHead } from '../head.ts'
 
 // A candidate profile, under the election's name and date, with the
@@ -108,6 +109,12 @@ export default function ProfilePage() {
         ))}
 
       {profile && <ProfileArticle profile={profile} headingId={HEADING_ID} />}
+
+      {/* Opened without this person on a ballot (from a search or a shared
+          link): their race and the way to the voter's own ballot. */}
+      {profile && !profile.sample && !panelBeside && (
+        <ProfileRaces profile={profile} ballot={ballot} />
+      )}
     </div>
   )
 }

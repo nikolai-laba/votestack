@@ -7,11 +7,22 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ### Added
 
+- **A page for every race.** Every race and every judge up for retention on Cook County ballots now has its own page, for example `/races/il/2026-11-03/state-representative-1st-district`. Each page shows who votes in the race, which ballots list it, and every candidate in official ballot order, linked to their profiles. The list of all races is at `/races/il/cook-county/2026-11-03`, linked from the address page. Referenda aren't listed there, because which ones you see depends on your exact address.
+- **From a race or a profile to your own ballot.** Race pages, and profiles opened from a search or a shared link, show the race and everyone in it, with the address form right on the page. After a lookup, your ballot opens at that race, or says the race isn't on the ballot for that address. If you've already looked up a ballot, the page says whether the race is on it.
 - **Pages search engines can read.** Every candidate profile and site page is now built as its own web page, with the full profile in it, so search engines, link previews and slow connections see the content before the app starts. Each page has its own title, description and link preview image, the site has a `sitemap.xml` and `robots.txt`, and the home page tells search engines the site’s name and logo.
 
 ### Changed
 
+- Profile page titles now name the office and place, for example "Aaron M. Ortiz, 2026 candidate for State Representative, 1st District, Illinois", so they match what people search for.
+- Pages load faster on repeat visits: browsers now keep the site's scripts, styles and fonts instead of checking for them each time. The heading font file is half the size (52 KB instead of 110 KB), with no visible change.
+- Page addresses ending in `/` or `.html` now redirect permanently to the page's own address.
 - Addresses that don't exist on the site now return a real "not found" (404) status, and pages that shouldn't appear in search results (Saved choices, report forms, missing profiles) ask search engines not to list them.
+
+### Security
+
+- Ballot lookups are limited to 30 a minute per visitor, so automated requests can't slow the site for everyone. The limit never uses the address you typed.
+- Every page now tells browsers not to show it inside another site's frame, not to guess file types, to share only "votestack.org" with other sites, and to always use HTTPS.
+- Links in profile and ballot data appear only when they are ordinary web addresses (`http` or `https`).
 
 ### Fixed
 

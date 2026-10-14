@@ -6,6 +6,14 @@
 import { useEffect } from 'react'
 import { CURRENT_ELECTION } from './shared/cook.ts'
 import type { CandidateProfile } from './shared/profile.ts'
+import {
+  RACES_PATH,
+  placeName,
+  raceName,
+  racePath,
+  type Race,
+  type RaceList,
+} from './shared/races.ts'
 
 /** The one address search engines and shared links should use. */
 export const SITE_URL = 'https://votestack.org'
@@ -99,6 +107,23 @@ export const MISSING_PROFILE_HEAD: PageHead = {
   noindex: true,
 }
 
+/**
+ * The office for a profile's title, in the words people search for: the
+ * seat's name without its vacancy detail, with the state or county when the
+ * office name doesn't say ("State Representative, 1st District, Illinois").
+ */
+export function profileOffice(office: string): string {
+  const short = office.replace(/\s*\((?:Vacancy|Converted) [^)]*\)$/, '')
+  if (/Illinois|Cook County|Chicago|County\b/.test(short)) return short
+  // Statewide offices, Congress, the legislature and the appellate court
+  // belong to the state.
+  return /^(State |U\.S\. |Appellate |Governor|Lieutenant Governor|Attorney General|Secretary of State|Comptroller|Treasurer)/.test(
+    short,
+  )
+    ? `${short}, Illinois`
+    : `${short}, Cook County`
+}
+
 /** The same title and description for every candidate, filled from the ballot. */
 export function profileHead(profile: CandidateProfile): PageHead {
   if (profile.sample) {
@@ -112,10 +137,57 @@ export function profileHead(profile: CandidateProfile): PageHead {
       ? `is up for retention as ${profile.office}`
       : `is running for ${profile.office}`
   const party = profile.party ? ` (${profile.party})` : ''
+  const year = CURRENT_ELECTION.date.slice(0, 4)
   return {
-    title: `${profile.name}, candidate profile | VoteStack`,
+    title:
+      profile.kind === 'retention'
+        ? `${profile.name}, up for retention as ${profileOffice(profile.office)}, ${year} | VoteStack`
+        : `${profile.name}, ${year} candidate for ${profileOffice(profile.office)} | VoteStack`,
     description: `${profile.name}${party} ${running} on the ${ELECTION_DAY} ballot in Cook County, Illinois. Background, campaign money and endorsements, with a source for every fact.`,
     path: `/candidates/${profile.key}`,
+  }
+}
+
+export const RACES_HEAD: PageHead = {
+  title: 'Races on the ballot | VoteStack',
+  description: `Every race and every judge up for retention on the ${ELECTION_DAY} ballot in Chicago and Cook County, with a profile for each candidate.`,
+  path: RACES_PATH,
+}
+
+export function raceAreaHead(list: RaceList): PageHead {
+  return {
+    title: `Races in ${list.area}, ${list.date.slice(0, 4)} | VoteStack`,
+    description: `All ${list.races.length} races and judges up for retention on the ${ELECTION_DAY} ballot in ${list.area}, in ballot order, with a profile for each candidate. Enter your address to see which ones are on your ballot.`,
+    path: `${RACES_PATH}/${list.areaPath}`,
+  }
+}
+
+/** "A, B and C" */
+const andList = (items: string[]) =>
+  items.length > 1
+    ? `${items.slice(0, -1).join(', ')} and ${items.at(-1)}`
+    : (items[0] ?? '')
+
+/** The same title and description for every race, filled from the ballot. */
+export function raceHead(race: Race): PageHead {
+  const place = placeName(race.districtId)
+  const where = place === 'Illinois' ? place : `${place}, Illinois`
+  const year = race.path.match(/\/(\d{4})-\d\d-\d\d\//)?.[1] ?? ''
+  if (race.kind === 'retention') {
+    return {
+      title: `${raceName(race)} (${place}), ${year} | VoteStack`,
+      description: `${race.judge} is up for retention as ${race.title} on the ${ELECTION_DAY} ballot in ${where}. Voters choose yes or no on keeping the judge in office. A profile with a source for every fact.`,
+      path: racePath(race),
+    }
+  }
+  const names = (race.candidates ?? []).map((c) => c.name)
+  const running = names.length
+    ? `Candidates in ballot order: ${andList(names)}.`
+    : 'No candidates filed for this race.'
+  return {
+    title: `${race.title} (${place}): ${year} candidates | VoteStack`,
+    description: `${race.title} on the ${ELECTION_DAY} ballot in ${where}. ${running} A profile for each candidate, with a source for every fact.`,
+    path: racePath(race),
   }
 }
 

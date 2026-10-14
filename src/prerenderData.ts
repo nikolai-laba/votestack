@@ -1,11 +1,12 @@
 // What a prerendered page hands the app (src/prerender.tsx writes it,
 // main.tsx reads it): which on-demand page to load before the app's first
-// render, and the profile shown, so the app needn't fetch it again.
+// render, and the profile shown, so the app needn't fetch it again. Race
+// pages and profiles also load the race list first (src/races/data.ts).
 
 import type { CandidateProfile } from './shared/profile.ts'
 
 export interface PrerenderData {
-  page: 'profile' | 'about' | 'notify'
+  page: 'profile' | 'about' | 'notify' | 'races'
   profile?: CandidateProfile
 }
 

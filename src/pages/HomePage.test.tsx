@@ -358,6 +358,15 @@ describe('HomePage', () => {
     )
   })
 
+  it('asks the visitor to wait when there were too many lookups', async () => {
+    mockApi(429, { error: 'Too many lookups' })
+    renderAt('/')
+    await lookUp('834 Lake St')
+    expect(await screen.findByRole('status')).toHaveTextContent(
+      /too many lookups from your connection\. Wait a minute/i,
+    )
+  })
+
   it('sends a new visitor to /getstarted, replacing /', async () => {
     const { router } = renderAt('/')
     expect(router.state.location.pathname).toBe('/getstarted')

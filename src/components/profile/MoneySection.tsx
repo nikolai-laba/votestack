@@ -1,4 +1,4 @@
-import { money, percent } from '../../format.ts'
+import { money, percent, webUrl } from '../../format.ts'
 import {
   MONEY_SOURCE_LABELS,
   showsMoneyShares,
@@ -37,7 +37,7 @@ export function MoneySection({ section }: { section: MoneySectionData }) {
         <p>
           No committee of their own. Judges up for retention campaign together
           through the{' '}
-          <a href={shared.url} target="_blank" rel="noreferrer">
+          <a href={webUrl(shared.url)} target="_blank" rel="noreferrer">
             {shared.name}
           </a>
           .
@@ -90,7 +90,7 @@ function Committee({ summary }: { summary: MoneySummary }) {
       )}
       <p className="text-caption text-muted">
         Source:{' '}
-        <a href={summary.url} target="_blank" rel="noreferrer">
+        <a href={webUrl(summary.url)} target="_blank" rel="noreferrer">
           {SOURCE_NAMES[summary.source]} filings for {summary.committee}
         </a>
       </p>
@@ -171,7 +171,7 @@ function LargeSince({
           came from the candidate.{' '}
         </>
       )}
-      <a href={url} target="_blank" rel="noreferrer">
+      <a href={webUrl(url)} target="_blank" rel="noreferrer">
         See the large contribution reports
       </a>
       .

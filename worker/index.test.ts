@@ -1,7 +1,8 @@
 // @vitest-environment node
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import type { Ballot } from '../src/shared/ballot.ts'
-import worker, { type Env } from './index.ts'
+import * as entry from './index.ts'
+import worker, { resetFallbackLimiter, type Env } from './index.ts'
 import { clearProfileKeysCache } from './profile.ts'
 
 function makeEnv() {
@@ -57,10 +58,21 @@ const lookup = {
   contests_for: { contests: [], unplaced: [] },
 }
 
-beforeEach(() => clearProfileKeysCache())
+beforeEach(() => {
+  clearProfileKeysCache()
+  resetFallbackLimiter()
+})
 afterEach(() => vi.unstubAllGlobals())
 
 describe('worker', () => {
+  it('exports only functions and the handler (the Workers runtime refuses anything else)', () => {
+    for (const [name, value] of Object.entries(entry))
+      expect(typeof value, name).toMatch(/^(function|object)$/)
+    const { default: _, ...named } = entry
+    for (const [name, value] of Object.entries(named))
+      expect(typeof value, name).toBe('function')
+  })
+
   it('answers the health check', async () => {
     const { env } = makeEnv()
     const response = await call('/api/health', env)
@@ -114,6 +126,21 @@ describe('worker', () => {
       expect(response.status).toBe(200)
       const body = (await response.json()) as Ballot
       expect(body.publishedProfiles).toEqual(['jane-doe'])
+    })
+
+    it('limits lookups per visitor, keyed without the address', async () => {
+      const fetch = stubSupabase(lookup)
+      const limit = vi.fn(async () => ({ success: false }))
+      const response = await call(
+        '/api/ballot',
+        { ...configured(), BALLOT_LIMITER: { limit } } as Env,
+        post({ address: '834 Lake St, Oak Park, IL 60301' }),
+      )
+      expect(response.status).toBe(429)
+      expect(response.headers.get('Retry-After')).toBe('60')
+      expect(response.headers.get('Cache-Control')).toBe('no-store')
+      expect(fetch).not.toHaveBeenCalled()
+      expect(JSON.stringify(limit.mock.calls)).not.toMatch(/lake|60301/i)
     })
 
     it('still returns the ballot when profiles cannot be checked', async () => {

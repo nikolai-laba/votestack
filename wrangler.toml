@@ -11,12 +11,14 @@ preview_urls = false
 # prerendered to its own file (scripts/prerender.ts): /about is about.html,
 # /candidates/{key} is candidates/{key}.html. An address with no file gets
 # 404.html (the app, which shows "Page not found") with a 404 status, so
-# search engines don't index it. Only /api/* runs the Worker.
+# search engines don't index it. Only /api/* runs the Worker, plus addresses
+# ending in / or .html, which it redirects permanently (301) to the page's
+# own address (worker/redirects.ts) instead of Cloudflare's temporary 307.
 [assets]
 directory = "./dist"
 binding = "ASSETS"
 not_found_handling = "404-page"
-run_worker_first = ["/api/*"]
+run_worker_first = ["/api/*", "/*/", "/*.html"]
 
 # Rate limit for error reports (POST /api/report): 5 per minute per
 # reader. The key is a hash of the IP address, which is never stored.
@@ -37,4 +39,16 @@ namespace_id = "1002"
 
   [ratelimits.simple]
   limit = 5
+  period = 60
+
+# Rate limit for ballot lookups (POST /api/ballot): 30 per minute per
+# visitor, far above what a person types, so a script can't slow the
+# database for everyone. Keyed by a hash of the IP address; the address
+# typed in is never part of it.
+[[ratelimits]]
+name = "BALLOT_LIMITER"
+namespace_id = "1003"
+
+  [ratelimits.simple]
+  limit = 30
   period = 60
