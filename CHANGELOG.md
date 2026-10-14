@@ -5,6 +5,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-10-14
+
 ### Added
 
 - **A page for every race.** Every race and every judge up for retention on Cook County ballots now has its own page, for example `/races/il/2026-11-03/state-representative-1st-district`. Each page shows who votes in the race, which ballots list it, and every candidate in official ballot order, linked to their profiles. The list of all races is at `/races/il/cook-county/2026-11-03`, linked from the address page. Referenda aren't listed there, because which ones you see depends on your exact address.
@@ -70,6 +72,7 @@ The first public release, for the November 3, 2026 general election in Chicago a
 
 VoteStack was developed privately before its first public release. 0.1.0 (2026-10-04) set up the web app, hosting on Cloudflare Workers, CI and secret scanning. 0.2.0 (2026-10-04) added the Cook County ballot lookup, the address form and the site's look.
 
-[Unreleased]: https://github.com/nikolai-laba/votestack/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/nikolai-laba/votestack/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/nikolai-laba/votestack/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/nikolai-laba/votestack/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/nikolai-laba/votestack/releases/tag/v1.0.0
