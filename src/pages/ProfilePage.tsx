@@ -51,9 +51,10 @@ export default function ProfilePage() {
     if (query.isError) document.getElementById(HEADING_ID)?.focus()
   }, [query.isError])
 
-  // The race panel (beside the profile from 840px, at its top below that)
-  // holds "Back to your full ballot" and the pick boxes.
-  const panelBeside =
+  // With a ballot, "Back to your full ballot" is first in the ballot list
+  // beside the profile from 840px, and below that in the race panel at the
+  // profile's top (with the pick boxes), when the person is on the ballot.
+  const panelAbove =
     ballot !== undefined && contestsWithPerson(ballot.contests, key).length > 0
 
   const notFound =
@@ -65,8 +66,8 @@ export default function ProfilePage() {
 
   return (
     <div className="max-w-[65ch] space-y-6">
-      {!panelBeside && (
-        <div>
+      {!panelAbove && (
+        <div className={ballot ? 'lg:hidden' : undefined}>
           <BackLink hasBallot={Boolean(ballot)} />
         </div>
       )}
@@ -112,7 +113,7 @@ export default function ProfilePage() {
 
       {/* Opened without this person on a ballot (from a search or a shared
           link): their race and the way to the voter's own ballot. */}
-      {profile && !profile.sample && !panelBeside && (
+      {profile && !profile.sample && !panelAbove && (
         <ProfileRaces profile={profile} ballot={ballot} />
       )}
     </div>

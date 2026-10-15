@@ -18,7 +18,8 @@ import { LazyReportPage } from './pages/LazyReportPage.tsx'
 import { NotFoundPage } from './pages/NotFoundPage.tsx'
 import { SavedChoicesPage } from './pages/SavedChoicesPage.tsx'
 
-// A candidate's pages: beside them, only the candidate's own race(s).
+// A candidate's pages: beside a profile, the whole ballot list from 840px
+// (its race(s) at its top below that); beside its report form, just the race(s).
 const candidate: RouteHandle = { detail: true, racePanel: true }
 
 export const routes: RouteObject[] = [

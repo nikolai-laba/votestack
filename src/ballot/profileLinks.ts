@@ -45,13 +45,13 @@ export interface RouteHandle {
   /** Shown beside a panel on wide screens, in a wider page (Layout). */
   detail?: boolean
   /**
-   * A candidate's page: the panel beside it holds only that candidate's
-   * race(s), not the whole ballot list.
+   * A candidate's page: a panel with only that candidate's race(s), beside
+   * the report form, and at a profile's top below 840px.
    */
   racePanel?: boolean
   /**
-   * The profile itself: the election's name and date above it, and on
-   * narrow screens the race panel at its top.
+   * The profile itself: from 840px the whole ballot list beside it; on
+   * narrow screens the election's name and date and the race panel at its top.
    */
   profile?: boolean
 }

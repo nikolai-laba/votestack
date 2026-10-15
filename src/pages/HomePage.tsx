@@ -28,6 +28,7 @@ import {
   raceCountText,
 } from '../components/BallotView.tsx'
 import { WarningIcon } from '../components/icons.tsx'
+import { BackLink } from '../components/profile/BackLink.tsx'
 import { SampleModeContext } from '../picks/sampleMode.ts'
 import { isRaceHandoffState } from '../races/data.ts'
 import { useBallotStore } from '../picks/store.ts'
@@ -40,9 +41,10 @@ import { useBallotStore } from '../picks/store.ts'
 //
 // Profiles, About, How profiles are made and Saved choices are child routes
 // (routes.tsx), so this page and its ballot stay mounted while one is open.
-// From 840px a profile has its race(s) beside it, and below that at its top;
-// the election's name and date sit above both. For About, How profiles and
-// Saved choices on every screen, the page takes the list's place.
+// From 840px a profile has the whole ballot list beside it; below that its
+// race(s) sit at its top, under the election's name and date. Its report
+// form has just the race(s) beside it. For About, How profiles and Saved
+// choices on every screen, the page takes the list's place.
 //
 // The ballot itself (its races, never the address or precinct) is saved on
 // the device with the voter's picks (src/picks/store.ts), so a return visit
@@ -90,6 +92,10 @@ export function HomePage() {
     params: m.params,
   }))
   const detail = handles.some((m) => m.handle?.detail)
+  // On a profile (not its report form) the whole list is beside it from
+  // 840px. Below that the election shows above it and the race panel sits
+  // at its top, so picking still works on phones.
+  const onProfile = handles.some((m) => m.handle?.profile)
   // A candidate's page: the panel holds just their race(s), if they're on it.
   const personKey = handles.find((m) => m.handle?.racePanel)?.params.key
   const personRaces =
@@ -97,12 +103,12 @@ export function HomePage() {
       ? contestsWithPerson(ballot.contests, personKey).length > 0
       : false
   const beside =
-    detailOpen && ballot !== undefined && detail && (!personKey || personRaces)
+    detailOpen &&
+    ballot !== undefined &&
+    detail &&
+    (onProfile || !personKey || personRaces)
   const racePanel = beside && personRaces
-  // On a profile (not its report form) the election shows above it, and
-  // below 840px the race panel sits at the top of the profile so picking
-  // still works on phones.
-  const onProfile = handles.some((m) => m.handle?.profile)
+  const listBeside = beside && (onProfile || !racePanel)
 
   // From /getstarted: focus the new ballot's heading, or the sample's.
   useEffect(() => {
@@ -159,14 +165,32 @@ export function HomePage() {
     el?.focus()
   }, [detailOpen, handoff, handoffContest, ballot, location.key])
 
+  // Beside a profile, scroll the list (not the page) to the open profile's
+  // row when it's out of view. Below 840px the list is hidden, so this
+  // does nothing.
+  const listRef = useRef<HTMLDivElement>(null)
+  useEffect(() => {
+    const list = listRef.current
+    const row = list?.querySelector('[aria-current="page"]')
+    // No boxes: the list is hidden, or the row is in a closed retention list.
+    if (!listBeside || !list || !row || row.getClientRects().length === 0)
+      return
+    const pane = list.getBoundingClientRect()
+    const box = row.getBoundingClientRect()
+    if (box.top >= pane.top && box.bottom <= pane.bottom) return
+    list.scrollTop += box.top - pane.top - (pane.height - box.height) / 2
+  }, [listBeside, personKey])
+
   // The list stays mounted even when hidden, so nothing is lost on Back.
   // Below 840px it gives way to the profile; with no ballot (a shared
-  // profile link) it's empty and hidden on every screen. Beside a profile,
-  // the race panel stands in for it.
+  // profile link) it's empty and hidden on every screen. Beside a report
+  // form, the race panel stands in for it.
   const paneLg =
     'lg:sticky lg:top-4 lg:max-h-[calc(100dvh-2rem)] lg:overflow-x-hidden lg:overflow-y-auto lg:px-2 lg:pb-2'
   const paneClass = `max-lg:hidden ${paneLg}`
-  const listClass = beside ? paneClass : ''
+  const listClass = listBeside ? paneClass : ''
+  // Beside a profile the profile holds the page's h1.
+  const SampleTitle = listBeside ? 'h2' : 'h1'
 
   // No ballot to show at / itself: new visitors start at the address form.
   // (A child route, like a shared profile link, still opens without one.)
@@ -182,8 +206,9 @@ export function HomePage() {
             : undefined
         }
       >
+        {/* From 840px the list beside the profile shows the election. */}
         {onProfile && ballot && (
-          <div className="mb-6 space-y-2 lg:col-span-2">
+          <div className="mb-6 space-y-2 lg:hidden">
             {sample && (
               <p className="text-small font-semibold">
                 Sample ballot for the area around {sample.place}
@@ -193,26 +218,28 @@ export function HomePage() {
           </div>
         )}
         {racePanel && ballot && personKey && (
-          <div className={onProfile ? `max-lg:mb-6 ${paneLg}` : paneClass}>
+          <div className={onProfile ? 'mb-6 lg:hidden' : paneClass}>
             <PersonRaces ballot={ballot} personKey={personKey} />
           </div>
         )}
         <div
-          hidden={detailOpen && (!beside || racePanel)}
+          ref={listRef}
+          hidden={detailOpen && !listBeside}
           className={`@container space-y-8 ${listClass}`}
         >
+          {listBeside && <BackLink hasBallot />}
           {sample && (
             <section
               aria-labelledby={SAMPLE_HEADING_ID}
               className="space-y-3 rounded-md border border-line bg-surface p-4"
             >
-              <h1
+              <SampleTitle
                 id={SAMPLE_HEADING_ID}
                 tabIndex={-1}
                 className="text-title text-balance focus:outline-none"
               >
                 Sample ballot for the area around {sample.place}
-              </h1>
+              </SampleTitle>
               <p className="max-w-[65ch]">
                 This is the ballot for one address near {sample.place}, so you
                 can see how VoteStack works. Your own ballot may be different.
@@ -289,7 +316,10 @@ export function HomePage() {
           {inSample && sampleLookup.isPending && <BallotSkeleton />}
           {/* On a sample its notice holds the page's h1. */}
           {ballot && (
-            <BallotView ballot={ballot} titleElsewhere={beside || inSample} />
+            <BallotView
+              ballot={ballot}
+              titleElsewhere={listBeside || inSample}
+            />
           )}
         </div>
         {detailOpen && <div className="min-w-0">{outlet}</div>}
