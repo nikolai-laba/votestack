@@ -1,0 +1,178 @@
+{
+  "key": "huy-henry-nguyen",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Huy \"Henry\" Nguyen",
+  "office": "Long Beach Community College District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10587"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Huy \"Henry\" Nguyen is a school district administrator. His campaign says he has 26 years of public service, including 10 years in the U.S. Air Force and 16 years in public education. He supports expanding dual enrollment and building career pathways and veterans services, according to his campaign. He also wants to strengthen food, housing, transportation and mental health support for students.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Huy \"Henry\" Nguyen is a school district administrator.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he has 26 years of public service, including 10 years in the U.S. Air Force and 16 years in public education.",
+            "cites": [2]
+          },
+          {
+            "text": "He supports expanding dual enrollment and building career pathways and veterans services, according to his campaign.",
+            "cites": [2]
+          },
+          {
+            "text": "He also wants to strengthen food, housing, transportation and mental health support for students.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "New American Leaders Action Fund",
+        "kind": "organization",
+        "cites": [3]
+      },
+      { "organization": "VoteVets", "kind": "organization", "cites": [2] },
+      {
+        "organization": "Faculty Association of California Community Colleges",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [4]
+      },
+      { "organization": "Teamsters Local 572", "kind": "union", "cites": [5] },
+      {
+        "organization": "Painters and Allied Trades District Council 36",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "United Steelworkers Los Angeles/Orange Counties Legislative Education Committee",
+        "kind": "union",
+        "cites": [2]
+      },
+      {
+        "organization": "United Steelworkers Local 675",
+        "kind": "union",
+        "cites": [2]
+      },
+      {
+        "organization": "Sprinkler Fitters Local 709",
+        "kind": "union",
+        "cites": [2]
+      },
+      {
+        "organization": "Long Beach City College Faculty Association",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Long Beach Councilmember Tunua Thrash-Ntuk",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Long Beach City College Board of Trustees President Uduak-Joe Ntuk",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "El Camino Community College Board of Trustees Vice President Trisha Murakawa",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Pasadena Unified School District Board Member Patrice Marshall McKenzie",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Former Long Beach Councilmember Rae Gabelich",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Former Long Beach Councilmember Jerry L. Shultz",
+        "kind": "elected_official",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Long Beach Voter Guide 2026: What's On The Ballot, Voting & More",
+      "publisher": "Patch",
+      "url": "https://patch.com/california/longbeach-ca/long-beach-voter-guide-2026-whats-ballot-voting-more",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Huy “Henry” Nguyen for LBCC Trustee",
+      "publisher": "Huy Nguyen for LBCC Trustee",
+      "url": "https://www.votenguyen4lbcc.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "2026 Endorsed Candidates",
+      "publisher": "New American Leaders Action Fund",
+      "url": "https://www.nalaf.org/2026-endorsed-candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Endorsements",
+      "publisher": "Teamsters Joint Council 42",
+      "url": "https://www.teamstersjc42.com/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "2026 California Primary Voter Guide",
+      "publisher": "Teamsters Local 572",
+      "url": "https://www.teamsters572.org/2026-california-primary-voter-guide/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "DC36 Political - California",
+      "publisher": "Painters and Allied Trades District Council 36",
+      "url": "https://www.dc36.org/dc36-political-california",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Long Beach City College Faculty Association (LBCCFA) endorses Huy Nguyen for the Long Beach Community College District Board of Trustees Area 5",
+      "publisher": "Long Beach City College Faculty Association",
+      "url": "https://longbeachcca.org/2026/06/26/long-beach-city-college-faculty-association-lbccfa-endorses-huy-nguyen-for-the-long-beach-community-college-district-board-of-trustees-area-5/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T05:54:20.770Z",
+    "version": 1
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "key": "jared-gonzales",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Jared Gonzales",
+  "office": "Beverly Hills Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10622"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Jared Gonzales teaches seventh- and eighth-grade math at Yavneh Hebrew Academy in West Los Angeles. He previously taught at Harkham Hillel Hebrew Academy and began his career with Teach for America. His campaign priorities are student academic success, safety and wellness, and board governance. At a student forum, he said he moved his classes to pencil and paper to improve focus but wants BHUSD to prepare students for AI. He said he would hold office hours for students. In a questionnaire, he called the district's technology policy a step forward but would end one-to-one devices for sixth and seventh graders. He wants AI to enhance critical thinking and has proposed mentorship programs for in-person interaction.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Jared Gonzales teaches seventh- and eighth-grade math at Yavneh Hebrew Academy in West Los Angeles.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously taught at Harkham Hillel Hebrew Academy and began his career with Teach for America.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign priorities are student academic success, safety and wellness, and board governance.",
+            "cites": [2]
+          },
+          {
+            "text": "At a student forum, he said he moved his classes to pencil and paper to improve focus but wants BHUSD to prepare students for AI.",
+            "cites": [3]
+          },
+          {
+            "text": "He said he would hold office hours for students.",
+            "cites": [3]
+          },
+          {
+            "text": "In a questionnaire, he called the district's technology policy a step forward but would end one-to-one devices for sixth and seventh graders.",
+            "cites": [4]
+          },
+          {
+            "text": "He wants AI to enhance critical thinking and has proposed mentorship programs for in-person interaction.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Assemblymember Rick Chavez Zbur",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Former Beverly Hills Mayor Julian Gold",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Democrats for Israel Los Angeles",
+        "kind": "organization",
+        "cites": [7]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Jared Gonzales Enters BHUSD Board Race With Focus on Academics, Safety and Governance",
+      "publisher": "Beverly Hills Standard",
+      "url": "https://beverlyhillsstandard.com/jared-gonzales-enters-bhusd-board-race-with-focus-on-academics-safety-and-governance",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Jared Gonzales for Beverly Hills School Board 2026",
+      "publisher": "Jared Gonzales campaign",
+      "url": "https://www.jaredgonzales.org/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "BHUSD candidates make case to students at district forum",
+      "publisher": "Beverly Press",
+      "url": "https://beverlypress.com/2026/10/bhusd-candidates-make-case-to-students-at-district-forum/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "BHUSD Candidates Draw Clear Lines on Phones, Screens and AI",
+      "publisher": "Beverly Hills Standard",
+      "url": "https://beverlyhillsstandard.com/bhusd-candidates-draw-clear-lines-on-phones-screens-and-ai",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Jared Gonzales – BHUSD Board of Education Candidate",
+      "publisher": "Beverly Hills Standard",
+      "url": "https://beverlyhillsstandard.com/election-center/bhusd-board-election-2026/candidates/jared-gonzales",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Former Mayor Julian Gold Endorses Jared Gonzales for BHUSD",
+      "publisher": "Beverly Hills Standard",
+      "url": "https://beverlyhillsstandard.com/former-mayor-julian-gold-endorses-jared-gonzales-for-bhusd",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements - Election Candidates Endorsed by DFI-Los Angeles",
+      "publisher": "Democrats for Israel Los Angeles",
+      "url": "https://www.dfi-la.org/endorse",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.974Z",
+    "version": 2
+  }
+}

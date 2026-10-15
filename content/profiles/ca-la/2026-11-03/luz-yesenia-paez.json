@@ -1,0 +1,136 @@
+{
+  "key": "luz-yesenia-paez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Luz Yesenia Paez",
+  "office": "City of Duarte, Member of the City Council, 1st District",
+  "contestIds": ["la-4348-cc10445"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Luz Yesenia Paez is a public utility analyst. Her campaign says she was appointed to the city's Traffic and Safety Commission in 2022 and to its Planning and Economic Development Commission in 2024, where she was nominated as chair by 2025.",
+        "cites": [1, 2]
+      },
+      {
+        "text": "In her 2022 campaign, she called for more teen programming, support for local businesses, and a greater public safety presence to reduce crime. Her campaign says she is committed to transparent and responsive leadership. She says she wants to make sure all residents feel heard and represented in city decisions.",
+        "cites": [3, 2, 4],
+        "sentences": [
+          {
+            "text": "In her 2022 campaign, she called for more teen programming, support for local businesses, and a greater public safety presence to reduce crime.",
+            "cites": [3]
+          },
+          {
+            "text": "Her campaign says she is committed to transparent and responsive leadership.",
+            "cites": [2]
+          },
+          {
+            "text": "She says she wants to make sure all residents feel heard and represented in city decisions.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Assemblymember Blanca E. Rubio",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Duarte Mayor Tera Martin Del Campo",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Duarte Mayor Pro Tem Samuel Kang",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Duarte Councilmember Vinh Truong",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Duarte Councilmember Cesar A. Garcia",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Azusa Mayor Pro Tem Jesse Avila, Jr.",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Azusa Councilmember Robert Gonzales",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Monrovia Councilmember Edward Belden",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "El Monte Councilmember Dr. Julia Ruedas",
+        "kind": "elected_official",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Scheduling woes mean Duarte voters miss out on candidates forum",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/07/scheduling-woes-mean-duarte-voters-miss-out-on-candidates-forum/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Meet Luz Yesenia | Luz Yesenia Paez",
+      "publisher": "Luz Yesenia Paez campaign",
+      "url": "https://luzyeseniapaez.com/meet_luz_yesenia",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Duarte voters to decide between six candidates for one of four City Council seats",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2022/08/19/duarte-voters-to-decide-between-six-candidates-for-one-of-four-city-council-seats/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Luz Yesenia Paez for Duarte City Council",
+      "publisher": "Luz Yesenia Paez campaign",
+      "url": "https://www.luzyeseniapaez.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements | Luz Yesenia Paez",
+      "publisher": "Luz Yesenia Paez for Duarte City Council",
+      "url": "https://www.luzyeseniapaez.com/view-endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:44:15.728Z",
+    "version": 2
+  }
+}

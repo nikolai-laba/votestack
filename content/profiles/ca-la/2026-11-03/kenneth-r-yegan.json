@@ -1,0 +1,104 @@
+{
+  "key": "kenneth-r-yegan",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Kenneth R. Yegan",
+  "office": "Associate Justice, Court of Appeal, Second District, Division Six",
+  "contestIds": ["la-4348-rc10901"],
+  "kind": "retention",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Kenneth R. Yegan is an associate justice of the California Court of Appeal, Second Appellate District, Division Six, serving since 1990. Before that, he served on the Ventura County Superior and Municipal Courts and as a Ventura County deputy public defender. In 2026 he dissented in a coastal pipeline case, saying the Coastal Commission should not override county permitting authority. He has also written criminal, tax, and insurance opinions.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Kenneth R. Yegan is an associate justice of the California Court of Appeal, Second Appellate District, Division Six, serving since 1990.",
+            "cites": [1]
+          },
+          {
+            "text": "Before that, he served on the Ventura County Superior and Municipal Courts and as a Ventura County deputy public defender.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2026 he dissented in a coastal pipeline case, saying the Coastal Commission should not override county permitting authority.",
+            "cites": [3]
+          },
+          {
+            "text": "He has also written criminal, tax, and insurance opinions.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [5] },
+      {
+        "organization": "Santa Clarita Valley Democrats",
+        "kind": "organization",
+        "cites": [6]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Kenneth R. Yegan | Second Appellate District",
+      "publisher": "California Courts of Appeal",
+      "url": "https://appellate.courts.ca.gov/district-courts/2dca/bio/kenneth-r-yegan",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Local News in Brief : Judge Yegan Elevated to Superior Court Seat",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/archives/la-xpm-1986-07-04-me-602-story.html",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Coastal Commission reigns vs county in Sable oil pipeline fight: Appeals court",
+      "publisher": "Legal Newsline",
+      "url": "https://www.legalnewsline.com/south-california-record/coastal-commission-reigns-vs-county-in-sable-oil-pipeline-fight-appeals-court/article_1d557bfe-321a-478d-8bd2-1979bcd41c52.html",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Kenneth Yegan - Daily Journal",
+      "publisher": "Daily Journal",
+      "url": "https://www.dailyjournal.com/people/195782-kenneth-yegan",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "November 2026 Candidate Endorsements",
+      "publisher": "Santa Clarita Valley Democrats",
+      "url": "https://www.santaclaritavalleydemocrats.com/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T14:05:39.939Z",
+    "version": 2
+  }
+}

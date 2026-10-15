@@ -1,0 +1,62 @@
+{
+  "key": "alma-i-rodriguez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Alma I. Rodriguez",
+  "office": "Keppel Union School District, Governing Board Member, Trustee Area No. 2",
+  "contestIds": ["la-4348-cc10756"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Alma Rodriguez is a governing board member of the Keppel Union School District, elected in 2022. Her term on the board ends in 2026. She is an educator.",
+        "cites": [1, 2, 3]
+      },
+      {
+        "text": "As a trustee, she was absent when three other board members voted to fire the district superintendent without cause in a meeting held in apparent violation of the Brown Act.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "As a trustee, she was absent when three other board members voted to fire the district superintendent without cause in a meeting held in apparent violation of the Brown Act.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Keppel board fires superintendent",
+      "publisher": "Antelope Valley Press",
+      "url": "https://www.avpress.com/news/keppel-board-fires-superintendent/article_176abd4a-a6c6-11ee-9bd3-93c6711a0d81.html",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Keppel Union School District, California, elections",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Keppel_Union_School_District,_California,_elections",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Final List of Qualified Candidates to Appear on the Ballot",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/docs/rrcc/election-info/11082022_final-list-of-qualified-candidates-to-appear-on-ballot.pdf?v=7",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T16:56:23.401Z",
+    "version": 2
+  }
+}

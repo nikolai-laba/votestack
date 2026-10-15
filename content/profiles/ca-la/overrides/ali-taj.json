@@ -1,0 +1,33 @@
+{
+  "reason": "Chrome review: the cited Artesia staff-directory page (EID=45) is about a different city employee, not Ali Taj; kept the League of California Cities presidency, which his OC Register questionnaire states, and dropped the advocacy claim attributed to a city biography",
+  "overview": [
+    {
+      "action": "replace",
+      "match": "Ali Taj is a member of the Artesia City Council",
+      "text": "Ali Taj is a member of the Artesia City Council and has served as mayor. Before entering office, he worked in the financial services industry, including as a vice president at American Express. He served as president of the League of California Cities. His 2026 campaign questionnaire says he supported Measure AAA, a 2024 ballot measure to fund public safety programs. In that questionnaire, he also said he chairs the Eco-Rapid Transit Authority. He says he worked to make Artesia a starting point for the Southeast Gateway Line light rail to downtown Los Angeles. He has praised state legislation addressing climate change and energy affordability.",
+      "sources": [
+        {
+          "title": "Ali Taj, AD-67 candidate, 2026 primary election questionnaire - Orange County Register",
+          "publisher": "Orange County Register",
+          "url": "https://www.ocregister.com/2026/05/06/ali-taj-ad-67-candidate-2026-primary-election-questionnaire/",
+          "kind": "news",
+          "viewedAt": "2026-10-15"
+        },
+        {
+          "title": "Artesia Mayor Ali Taj hopes to earn O.C.'s vote for the 67th Assembly District - Los Angeles Times",
+          "publisher": "Los Angeles Times",
+          "url": "https://www.latimes.com/socal/daily-pilot/entertainment/story/2025-03-05/ali-taj-assembly-district-campaign",
+          "kind": "news",
+          "viewedAt": "2026-10-15"
+        },
+        {
+          "title": "What they're saying: Overwhelming support for historic climate and energy affordability legislation",
+          "publisher": "California Governor's Office",
+          "url": "https://www.gov.ca.gov/2025/09/12/what-theyre-saying-overwhelming-support-for-historic-climate-and-energy-affordability-legislation/",
+          "kind": "official",
+          "viewedAt": "2026-10-15"
+        }
+      ]
+    }
+  ]
+}

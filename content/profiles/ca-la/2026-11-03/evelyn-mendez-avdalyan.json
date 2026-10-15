@@ -1,0 +1,68 @@
+{
+  "key": "evelyn-mendez-avdalyan",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Evelyn Mendez Avdalyan",
+  "office": "Los Nietos School District, Governing Board Member, Trustee Area No. 2",
+  "contestIds": ["la-4348-cc10714"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Evelyn Mendez Avdalyan is a trustee on the Los Nietos School District board. She was elected in 2018, and her term ends in December 2026. She was first appointed to the board in 2016 to fill a vacancy. Before her appointment, she was a parent volunteer in the district. She works as a legal assistant. She served as board vice-president in 2018.",
+        "cites": [1, 2, 5, 3, 4]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board of Trustees",
+      "publisher": "Los Nietos School District",
+      "url": "https://www.losnietos.k12.ca.us/apps/pages/index.jsp?uREC_ID=36269&type=d&pREC_ID=49513",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Los Nietos Board of Trustees Swear-in Newly Appointed Trustee, Evelyn Avdalyan, on October 11, 2016",
+      "publisher": "Los Nietos School District",
+      "url": "https://www.losnietos.k12.ca.us/apps/news/article/622835",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Candidate List",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Los Nietos School Board Elects Emilio Sosa as New Board President for 2018 on December 13, 2017",
+      "publisher": "Los Nietos School District",
+      "url": "https://www.losnietos.k12.ca.us/apps/news/article/798151",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "Los Nietos Names Parent Volunteer to Board of Trustees",
+      "publisher": "Los Cerritos Community News",
+      "url": "https://www.loscerritosnews.net/2016/10/13/los-nietos-names-parent-volunteer-to-board-of-trustees/",
+      "kind": "news",
+      "viewedAt": "2026-10-15",
+      "id": 5
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T16:56:23.406Z",
+    "version": 2
+  }
+}

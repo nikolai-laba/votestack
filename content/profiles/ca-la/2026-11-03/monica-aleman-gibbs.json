@@ -1,0 +1,189 @@
+{
+  "key": "monica-aleman-gibbs",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Monica Aleman Gibbs",
+  "office": "Three Valleys Municipal Water District, Member, Board of Directors, Division 3",
+  "contestIds": ["la-4348-cc10555"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Monica Aleman Gibbs is a water consultant and educator running for Division 3 of the Three Valleys Municipal Water District Board of Directors. Her campaign says she will prioritize investing in infrastructure and water quality. She supports expanding groundwater storage and diversifying the water supply with recycled water. She also supports clear communication about how water is delivered and billed.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Monica Aleman Gibbs is a water consultant and educator running for Division 3 of the Three Valleys Municipal Water District Board of Directors.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign says she will prioritize investing in infrastructure and water quality.",
+            "cites": [2]
+          },
+          {
+            "text": "She supports expanding groundwater storage and diversifying the water supply with recycled water.",
+            "cites": [2]
+          },
+          {
+            "text": "She also supports clear communication about how water is delivered and billed.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [3]
+      },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [2]
+      },
+      {
+        "organization": "Western States Regional Council of Carpenters",
+        "kind": "union",
+        "cites": [2]
+      },
+      { "organization": "IBEW Local 11", "kind": "union", "cites": [4] },
+      { "organization": "Teamsters Local 1932", "kind": "union", "cites": [2] },
+      {
+        "organization": "Pomona Valley Democrats",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "Lakewood City Councilmember Todd Rogers",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Pomona City Councilmember Lorraine Canales",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Pomona City Councilmember Victor Preciado",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Diamond Bar City Councilmember Andrew Chou",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Artesia City Councilmember Ali Taj",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Former Alhambra City Councilmember Luis Ayala",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Former Artesia City Councilmember Miguel Canales",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Former South El Monte City Councilmember Joseph Gonzales",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Three Valleys Municipal Water District Director Carlos Goytia",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Three Valleys Municipal Water District Director Jorge Marquez",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Upper San Gabriel Valley Municipal Water District Director Jennifer Santana",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Walnut Valley Water District Director Theresa Lee",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Pomona Unified School District Board President Dr. Lisa Nashua",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Glendale Community College Board Vice President Desiree Portillo-Rabinov",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Whittier Union High School District Trustee Dr. Russell Castañeda-Calleros",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Charter Oak Unified School District Board Vice President Jeanette Flores",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Glendora Unified School District Trustee Monica Garcia",
+        "kind": "elected_official",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "2026 Local Elections for La Verne, California - La Verne Daily News",
+      "publisher": "La Verne Daily News",
+      "url": "https://www.lavernedaily.org/elections26/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Monica for Three Valleys Municipal Water District Division 3",
+      "publisher": "Monica Aleman Gibbs campaign",
+      "url": "https://www.monica4water.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Political Action & Endorsements",
+      "publisher": "IBEW Local 11",
+      "url": "https://www.ibew11.org/political",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.221Z",
+    "version": 2
+  }
+}

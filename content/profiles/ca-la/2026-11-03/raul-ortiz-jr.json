@@ -1,0 +1,144 @@
+{
+  "key": "raul-ortiz-jr",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Raul Ortiz Jr.",
+  "party": "Party Preference: Republican",
+  "office": "State Assembly Member, 64th District",
+  "contestIds": ["la-4348-cc10800"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Raul Ortiz Jr. has worked as a pest control manager and an ordained minister for more than 40 years. He earned a bachelor's degree from Pacific Coast Baptist Bible College in 1994. He has served as chair of the Republican central committee for the 64th Assembly District. His campaign emphasizes public safety, addressing homelessness, reducing crime, tightening border security, and lowering taxes. He has also called for protecting parental rights.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Raul Ortiz Jr. has worked as a pest control manager and an ordained minister for more than 40 years.",
+            "cites": [1]
+          },
+          {
+            "text": "He earned a bachelor's degree from Pacific Coast Baptist Bible College in 1994.",
+            "cites": [2]
+          },
+          {
+            "text": "He has served as chair of the Republican central committee for the 64th Assembly District.",
+            "cites": [3]
+          },
+          {
+            "text": "His campaign emphasizes public safety, addressing homelessness, reducing crime, tightening border security, and lowering taxes.",
+            "cites": [1]
+          },
+          {
+            "text": "He has also called for protecting parental rights.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Republican Party",
+        "kind": "party",
+        "cites": [5]
+      },
+      {
+        "organization": "American Independent Party",
+        "kind": "party",
+        "cites": [6]
+      },
+      {
+        "organization": "California Republican Assembly",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "GOP Union Caucus",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Assembly District 64 - Initiate Justice Action",
+      "publisher": "Initiate Justice Action",
+      "url": "https://ijaction.org/ad-64-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Raul Ortiz Jr. - Ballotpedia",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Raul_Ortiz_Jr.",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Raul Ortiz Jr., Assembly District 64 candidate, 2026 election questionnaire",
+      "publisher": "Orange County Register",
+      "url": "https://www.ocregister.com/2026/10/05/raul-ortiz-jr-assembly-district-64-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Raul Ortiz",
+      "publisher": "Raul Ortiz for Assembly",
+      "url": "https://www.raulortizforassembly.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements - CAGOP (2026 CRP Endorsements)",
+      "publisher": "California Republican Party",
+      "url": "https://cagop.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Additional Election Information: November 3, 2026 General Election party endorsements",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/additional-election-information",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "November 2026 General Election Endorsements (updated August 26, 2026)",
+      "publisher": "California Republican Assembly",
+      "url": "https://cragop.org/wp-content/uploads/2026/08/PDF-November-2026-General-Election-Endorsements-08-26-26.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 8
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.722Z",
+    "version": 3
+  }
+}

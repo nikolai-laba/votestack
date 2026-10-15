@@ -1,0 +1,79 @@
+{
+  "key": "maria-d-villa-lathrop",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Maria D. Villa Lathrop",
+  "office": "Palos Verdes Library District, Member, Board of Trustees",
+  "contestIds": ["la-4348-cc10543"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Maria D. Villa Lathrop is an attorney and co-founder of the law firm Lathrop & Villa in Rolling Hills Estates. She previously served as vice president and treasurer of the State Bar Board of Governors. Her campaign says her priorities include bringing oversight and fiscal experience to the board and expanding programs for students. She also plans to apply her fundraising background to support the library.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Maria D. Villa Lathrop is an attorney and co-founder of the law firm Lathrop & Villa in Rolling Hills Estates.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously served as vice president and treasurer of the State Bar Board of Governors.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign says her priorities include bringing oversight and fiscal experience to the board and expanding programs for students.",
+            "cites": [2]
+          },
+          {
+            "text": "She also plans to apply her fundraising background to support the library.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Maria D. Villa Lathrop for Library Board",
+      "publisher": "Maria D. Villa Lathrop campaign",
+      "url": "https://mvl4pvld.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Who's Running - PV Informer",
+      "publisher": "PV Informer",
+      "url": "https://pvinformer.com/ballot-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.411Z",
+    "version": 1
+  }
+}

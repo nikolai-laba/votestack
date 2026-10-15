@@ -1,0 +1,71 @@
+{
+  "key": "sherry-shaw",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Sherry Shaw",
+  "office": "Three Valleys Municipal Water District, Member, Board of Directors, Division 3",
+  "contestIds": ["la-4348-cc10555"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Sherry Shaw retired as General Manager and Chief Engineer after 25 years at Walnut Valley Water District. Her short-term priorities include annual budgets, rate adjustments, and increasing communication. She says she would give quarterly presentations at city council meetings on cost-saving programs like free irrigation leak repairs and water conservation. Her campaign says she oversaw $125 million in capital improvement projects, implemented a 4/10 work schedule, and completed new buildings.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Sherry Shaw retired as General Manager and Chief Engineer after 25 years at Walnut Valley Water District.",
+            "cites": [1]
+          },
+          {
+            "text": "Her short-term priorities include annual budgets, rate adjustments, and increasing communication.",
+            "cites": [2]
+          },
+          {
+            "text": "She says she would give quarterly presentations at city council meetings on cost-saving programs like free irrigation leak repairs and water conservation.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign says she oversaw $125 million in capital improvement projects, implemented a 4/10 work schedule, and completed new buildings.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "La Verne Mayor Tim Hepburn",
+        "kind": "elected_official",
+        "cites": [1]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Sherry Shaw for Three Valleys Municipal Water District — Division 3",
+      "publisher": "Sherry Shaw campaign",
+      "url": "https://sherryshaw4threevalleys.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Election 2026 profiles: Three Valleys Municipal Water Board",
+      "publisher": "Claremont Courier",
+      "url": "https://claremontcourier.com/latest-news/election-2026-profiles-three-valleys-municipal-water-board-90059/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.418Z",
+    "version": 1
+  }
+}

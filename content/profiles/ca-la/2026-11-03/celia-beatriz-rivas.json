@@ -1,0 +1,71 @@
+{
+  "key": "celia-beatriz-rivas",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Celia Beatriz Rivas",
+  "office": "City of Huntington Park, Member of the City Council, 5th District",
+  "contestIds": ["la-4348-cc10920"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Celia Beatriz Rivas is the founder of an insurance agency and has served as a Health Education commissioner for Huntington Park. She is running for the District 5 City Council seat.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Celia Beatriz Rivas is the founder of an insurance agency and has served as a Health Education commissioner for Huntington Park.",
+            "cites": [1]
+          },
+          {
+            "text": "She is running for the District 5 City Council seat.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "calonews.com",
+      "publisher": "Caló News",
+      "url": "https://www.calonews.com/elections/here-s-what-s-on-the-ballot-for-the-city-of-huntington-park/article_071496b7-38ca-46cf-a887-44d8c3f407a9.html",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "ballotpedia.org",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Celia_Beatriz_Rivas_(Huntington_Park_City_Council_District_5,_California,_candidate_2026)",
+      "kind": "reference",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Endorsed Candidates - Los Angeles County Democratic Party",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.427Z",
+    "version": 1
+  }
+}

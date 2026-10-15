@@ -1,0 +1,37 @@
+{
+  "reason": "Merged two paragraphs to fit the paragraph limit (2026-10-15)",
+  "overview": [
+    {
+      "action": "replace",
+      "match": "Maritza Travanti is the incumbent",
+      "text": "Maritza Travanti is the incumbent Monrovia Unified School District Board member for Trustee Area 5, first elected in 2018, and has served as Board President. She retired after a 35-year IRS career, where she was Chief of Operations and Program Support. During her tenure on the board, the district navigated COVID-19 and returned students to in-person learning in 2021. She says she helped guide a Fiscal Stabilization Plan and middle school consolidation.",
+      "sources": [
+        {
+          "title": "Meet the Board of Education",
+          "publisher": "Monrovia Unified School District",
+          "url": "https://www.monroviaschools.net/apps/pages/index.jsp?uREC_ID=346812&type=d&pREC_ID=755311",
+          "kind": "official",
+          "viewedAt": "2026-10-14"
+        },
+        {
+          "title": "Maritza Travanti, Monrovia Unified School District Area 5 candidate, 2026 election questionnaire",
+          "publisher": "San Gabriel Valley Tribune",
+          "url": "https://www.sgvtribune.com/2026/10/05/maritza-travanti-monrovia-unified-school-district-area-5-candidate-2026-election-questionnaire/",
+          "kind": "news",
+          "viewedAt": "2026-10-14"
+        },
+        {
+          "title": "MUSD Board of Education Elects New President, Officers",
+          "publisher": "Monrovia Unified School District",
+          "url": "https://www.monroviaschools.net/apps/news/article/1543430",
+          "kind": "official",
+          "viewedAt": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "action": "remove",
+      "match": "During her tenure, the district"
+    }
+  ]
+}

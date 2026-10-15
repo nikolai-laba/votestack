@@ -1,0 +1,111 @@
+{
+  "key": "amy-dudich",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Amy Dudich",
+  "office": "Fullerton Joint Union High School District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10751"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Amy Dudich is an operations manager running for the Fullerton Joint Union High School District board in Trustee Area 5. According to her campaign, she has spent over 10 years in PTA and PTSA leadership and has served on a School Site Council. She supports making mental health and student achievement top priorities, expanding college and career preparation, and ensuring safe, modernized campuses. At a League of Women Voters forum, she said making every student feel safe and included would be her platform and she would support sound fiscal decisions. Her candidate statement adds she wants to support teachers.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Amy Dudich is an operations manager running for the Fullerton Joint Union High School District board in Trustee Area 5.",
+            "cites": [1]
+          },
+          {
+            "text": "According to her campaign, she has spent over 10 years in PTA and PTSA leadership and has served on a School Site Council.",
+            "cites": [2]
+          },
+          {
+            "text": "She supports making mental health and student achievement top priorities, expanding college and career preparation, and ensuring safe, modernized campuses.",
+            "cites": [2]
+          },
+          {
+            "text": "At a League of Women Voters forum, she said making every student feel safe and included would be her platform and she would support sound fiscal decisions.",
+            "cites": [3]
+          },
+          {
+            "text": "Her candidate statement adds she wants to support teachers.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Democratic Party of Orange County",
+        "kind": "party",
+        "cites": [4]
+      },
+      {
+        "organization": "Supporters of Public Education Orange County (SOPE-OC)",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "Western State Carpenters Union",
+        "kind": "union",
+        "cites": [2]
+      },
+      {
+        "organization": "Painters and Allied Trades DC 36",
+        "kind": "union",
+        "cites": [2]
+      },
+      {
+        "organization": "Plumbers & Steamfitters Union 582",
+        "kind": "union",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Amy Dudich, Fullerton Joint Union High School District Area 5 candidate, 2026 election questionnaire",
+      "publisher": "Orange County Register",
+      "url": "https://www.ocregister.com/2026/10/05/amy-dudich-fullerton-joint-union-high-school-district-area-5-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Amy Dudich",
+      "publisher": "Amy Dudich campaign",
+      "url": "https://www.amydudich.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Fullerton Joint Union High School District Board of Trustees Candidate Forum Hosted by the League of Women Voters of North Orange County",
+      "publisher": "Fullerton Observer",
+      "url": "https://fullertonobserver.com/2026/10/02/fullerton-joint-union-high-school-district-board-of-trustees-candidate-forum-hosted-by-the-league-of-women-voters-of-north-orange-county/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Orange County Endorsements",
+      "publisher": "Democratic Party of Orange County",
+      "url": "https://orangecountydemocrats.com/oc-endorsements-2",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T05:54:20.842Z",
+    "version": 1
+  }
+}

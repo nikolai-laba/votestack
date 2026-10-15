@@ -1,0 +1,101 @@
+{
+  "key": "natalie-stone",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Natalie Stone",
+  "office": "Associate Justice, Court of Appeal, Second District, Division Seven",
+  "contestIds": ["la-4348-rc10902"],
+  "kind": "retention",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Natalie Stone has been an Associate Justice of the California Court of Appeal, Second District, Division Seven, since 2024. She became a Los Angeles Superior Court judge in 2015, presiding over juvenile dependency cases. Earlier, she practiced civil litigation at Munger, Tolles & Olson and was an appellate court attorney. In 2025, she reversed a murder conviction over a judge's texts to prosecutors and upheld docked-vessel emissions rules.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Natalie Stone has been an Associate Justice of the California Court of Appeal, Second District, Division Seven, since 2024.",
+            "cites": [1]
+          },
+          {
+            "text": "She became a Los Angeles Superior Court judge in 2015, presiding over juvenile dependency cases.",
+            "cites": [1]
+          },
+          {
+            "text": "Earlier, she practiced civil litigation at Munger, Tolles & Olson and was an appellate court attorney.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2025, she reversed a murder conviction over a judge's texts to prosecutors and upheld docked-vessel emissions rules.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [3] },
+      {
+        "organization": "Indivisible Ventura",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Santa Clarita Valley Democrats",
+        "kind": "organization",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Natalie P. Stone | Second Appellate District",
+      "publisher": "California Courts",
+      "url": "https://appellate.courts.ca.gov/district-courts/2dca/bio/natalie-p-stone",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Justice Stone reversed murder conviction after judge advised prosecutors",
+      "publisher": "Daily Journal",
+      "url": "https://www.dailyjournal.com/articles/395277-justice-stone-reversed-murder-conviction-after-judge-advised-prosecutors",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Nonpartisan Judicial Offices",
+      "publisher": "Indivisible Ventura",
+      "url": "https://indivisibleventura.org/nonpartisan-judicial-offices/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "November 2026 Candidate Endorsements",
+      "publisher": "Santa Clarita Valley Democrats",
+      "url": "https://www.santaclaritavalleydemocrats.com/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.849Z",
+    "version": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "key": "susana-ramirez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Susana Ramirez",
+  "office": "Little Lake City School District, Governing Board Member, Trustee Area No. 1",
+  "contestIds": ["la-4348-cc10712"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Susana Ramirez is a candidate for the Little Lake City School District Governing Board in Trustee Area No. 1.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Susana Ramirez is a candidate for the Little Lake City School District Governing Board in Trustee Area No. 1.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate List",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T14:05:39.705Z",
+    "version": 4
+  }
+}

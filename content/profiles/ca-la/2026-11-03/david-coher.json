@@ -1,0 +1,97 @@
+{
+  "key": "david-coher",
+  "electionId": "ca-2026-11-03-general",
+  "name": "David Coher",
+  "office": "Pasadena Area Community College District, Governing Board Member, Trustee Area No. 3",
+  "contestIds": ["la-4348-cc10596"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "David Coher is a mediator and member of the Pasadena Rental Housing Board. He is board chair of the Arroyos & Foothills Conservancy. He has served on the Pasadena Planning Commission and Board of Zoning Appeals. His campaign calls for career pathways in cybersecurity, clean energy, and skilled trades, and using Pasadena City College for Eaton Fire recovery.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "David Coher is a mediator and member of the Pasadena Rental Housing Board.",
+            "cites": [1]
+          },
+          {
+            "text": "He is board chair of the Arroyos & Foothills Conservancy.",
+            "cites": [2]
+          },
+          {
+            "text": "He has served on the Pasadena Planning Commission and Board of Zoning Appeals.",
+            "cites": [3]
+          },
+          {
+            "text": "His campaign calls for career pathways in cybersecurity, clean energy, and skilled trades, and using Pasadena City College for Eaton Fire recovery.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Former Pasadena City College Trustee Berlinda Brown",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Former Pasadena City College Trustee Linda Wah",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Former Pasadena City College Trustee Jim Osterling",
+        "kind": "elected_official",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "David Coher, Pasadena Area Community College District 3 candidate, 2026 election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/david-coher-pasadena-area-community-college-district-3-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Guest Opinion | By David Coher: PCC Deserves a Candidate Forum",
+      "publisher": "Pasadena Now",
+      "url": "https://pasadenanow.com/main/guest-opinion-by-david-coher-pcc-deserves-a-candidate-forum",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "David Coher for PCC Board of Trustees · Area 3",
+      "publisher": "David Coher campaign",
+      "url": "https://coherforpcc.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Endorsements",
+      "publisher": "David Coher for PCC Board of Trustees",
+      "url": "https://coherforpcc.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T05:54:20.790Z",
+    "version": 1
+  }
+}

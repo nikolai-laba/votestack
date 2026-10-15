@@ -1,0 +1,199 @@
+{
+  "key": "kimberly-lifschitz",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Kimberly Lifschitz",
+  "office": "Beverly Hills Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10622"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Kimberly Lifschitz is a paralegal and former preschool teacher. She has served as a room parent and PTA executive board member. She has frequently criticized board decisions during public meetings.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Kimberly Lifschitz is a paralegal and former preschool teacher.",
+            "cites": [1]
+          },
+          {
+            "text": "She has served as a room parent and PTA executive board member.",
+            "cites": [2]
+          },
+          {
+            "text": "She has frequently criticized board decisions during public meetings.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "In 2025 she urged the board to protect special education funding as federal cuts loomed. She has called for more public information about education technology products the district buys and for a filtering system in which websites need approval before students can access them. She also proposed phone pouches during the school day. At a student forum she backed a one-year moratorium on generative AI, saying it could weaken critical thinking, and proposed a teaching and early childhood education pathway.",
+        "cites": [3, 4, 1],
+        "sentences": [
+          {
+            "text": "In 2025 she urged the board to protect special education funding as federal cuts loomed.",
+            "cites": [3]
+          },
+          {
+            "text": "She has called for more public information about education technology products the district buys and for a filtering system in which websites need approval before students can access them.",
+            "cites": [4]
+          },
+          {
+            "text": "She also proposed phone pouches during the school day.",
+            "cites": [4]
+          },
+          {
+            "text": "At a student forum she backed a one-year moratorium on generative AI, saying it could weaken critical thinking, and proposed a teaching and early childhood education pathway.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [5]
+      },
+      {
+        "organization": "West Hollywood/Beverly Hills Democratic Club",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Westside Young Democrats",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Former Beverly Hills Mayor Mark Egerman",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Former Beverly Hills Mayor Nancy Krasne",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Former Beverly Hills Mayor Robert Wunderlich",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Former Beverly Hills City Treasurer Eliot Finkel",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Alissa Roston, Former President, BHUSD Board of Education",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Myra Demeter, Former President, BHUSD Board of Education",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Myra Lurie, Former President, BHUSD Board of Education",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Virginia Maas, Former President, BHUSD Board of Education",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Noah Margo, Former President, BHUSD Board of Education",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "John Millan, Former President, BHUSD Board of Education",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Lillian Raffel, Former President, BHUSD Board of Education",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Democrats for Israel Los Angeles",
+        "kind": "organization",
+        "cites": [7]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "BHUSD candidates make case to students at district forum",
+      "publisher": "Beverly Press",
+      "url": "https://beverlypress.com/2026/10/bhusd-candidates-make-case-to-students-at-district-forum/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Five candidates set for BHUSD board race",
+      "publisher": "Beverly Press",
+      "url": "https://beverlypress.com/2026/08/five-candidates-set-for-bhusd-board-race/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Looming special education cuts worry parents",
+      "publisher": "Beverly Press",
+      "url": "https://beverlypress.com/2025/10/looming-special-education-cuts-worry-parents/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "BHUSD Candidates Draw Clear Lines on Phones, Screens and AI",
+      "publisher": "Beverly Hills Standard",
+      "url": "https://beverlyhillsstandard.com/bhusd-candidates-draw-clear-lines-on-phones-screens-and-ai",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements | Kim Lifschitz for BHUSD Board",
+      "publisher": "Lifschitz for School Board 2026",
+      "url": "https://kim4bhusd.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements - Election Candidates Endorsed by DFI-Los Angeles",
+      "publisher": "Democrats for Israel Los Angeles",
+      "url": "https://www.dfi-la.org/endorse",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.977Z",
+    "version": 2
+  }
+}

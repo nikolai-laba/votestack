@@ -1,0 +1,58 @@
+{
+  "key": "william-perez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "William Perez",
+  "office": "City of Inglewood, Member of the City Council, 1st District",
+  "contestIds": ["la-4348-cc10464"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "William Perez says he has run a small business in Inglewood for 16 years. His campaign says he supports an affordability agenda that includes helping seniors age safely at home, protecting renters from displacement, and cutting the cost of doing business. He also proposes greater transparency at City Hall, including open books and community-benefit agreements.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "William Perez says he has run a small business in Inglewood for 16 years.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he supports an affordability agenda that includes helping seniors age safely at home, protecting renters from displacement, and cutting the cost of doing business.",
+            "cites": [1]
+          },
+          {
+            "text": "He also proposes greater transparency at City Hall, including open books and community-benefit agreements.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Your Inglewood City Council voter guide - LA Local",
+      "publisher": "The LA Local",
+      "url": "https://thelalocal.org/neighborhoods/inglewood/your-inglewood-city-council-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "William Perez for Inglewood City Council - District 1",
+      "publisher": "William Perez campaign",
+      "url": "https://www.votewperez.org/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.428Z",
+    "version": 1
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "reason": "Chrome review: the cited city page (/658/) now redirects to an unrelated COVID-19 page; her council page is at /686/Dr-Julia-Ruedas (District 3 Councilmember, elected November 2022)",
+  "overview": [
+    {
+      "action": "replace",
+      "match": "Julia Ruedas is the councilmember for El Monte's 3rd District.",
+      "text": "Julia Ruedas is the councilmember for El Monte's 3rd District. She previously served on the El Monte City School District Board of Education after being elected in 2018. In September 2026, she voted with the council to approve $442,234 for the M Motel renovation, a Homekey project providing interim housing for homeless people. She held a District 3 community safety meeting in May 2026.",
+      "sources": [
+        {
+          "title": "Dr. Julia Ruedas",
+          "publisher": "City of El Monte",
+          "url": "https://www.elmonteca.gov/686/Dr-Julia-Ruedas",
+          "kind": "official",
+          "viewedAt": "2026-10-15"
+        },
+        {
+          "title": "Julia Ruedas joins the El Monte City School District's Board",
+          "publisher": "Patch",
+          "url": "https://patch.com/california/claremont-laverne/julia-ruedas-joins-el-monte-city-school-district-s-board",
+          "kind": "news",
+          "viewedAt": "2026-10-15"
+        },
+        {
+          "title": "In El Monte, a transformed Motel M homeless housing project gets added funding",
+          "publisher": "San Gabriel Valley Tribune",
+          "url": "https://www.sgvtribune.com/2026/09/11/in-el-monte-a-transformed-motel-m-homeless-housing-project-gets-added-funding/",
+          "kind": "news",
+          "viewedAt": "2026-10-15"
+        },
+        {
+          "title": "APPROVAL OF MINUTES EL MONTE CITY COUNCIL REGULAR ...",
+          "publisher": "City of El Monte",
+          "url": "https://www.elmonteca.gov/AgendaCenter/ViewFile/Minutes/_05272026-1389",
+          "kind": "official",
+          "viewedAt": "2026-10-15"
+        }
+      ]
+    }
+  ]
+}

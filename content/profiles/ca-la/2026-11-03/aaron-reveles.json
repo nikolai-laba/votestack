@@ -1,0 +1,90 @@
+{
+  "key": "aaron-reveles",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Aaron Reveles",
+  "office": "Montebello Unified School District, Governing Board Member, Trustee Area No. 2",
+  "contestIds": ["la-4348-cc10843"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Aaron Reveles is a high school teacher running for Montebello Unified School District board, Trustee Area 2. His campaign cites eight years of teaching experience and a background in community and labor organizing. His campaign prioritizes fully funding schools and supporting students and families. He supports reducing class sizes, expanding early childhood education and Pre-K, strengthening special education, and ensuring educators have needed resources. He advocates for meaningful parent and community engagement and culturally responsive education. In a 2022 voter guide, he supported charter school accountability, LGBTQ+ equity, environmental justice, and removing police from campuses. Another 2022 guide noted his support for a Green New Deal for public schools and giving employees and the community more say over discretionary spending.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Aaron Reveles is a high school teacher running for Montebello Unified School District board, Trustee Area 2.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign cites eight years of teaching experience and a background in community and labor organizing.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign prioritizes fully funding schools and supporting students and families.",
+            "cites": [1]
+          },
+          {
+            "text": "He supports reducing class sizes, expanding early childhood education and Pre-K, strengthening special education, and ensuring educators have needed resources.",
+            "cites": [2]
+          },
+          {
+            "text": "He advocates for meaningful parent and community engagement and culturally responsive education.",
+            "cites": [2]
+          },
+          {
+            "text": "In a 2022 voter guide, he supported charter school accountability, LGBTQ+ equity, environmental justice, and removing police from campuses.",
+            "cites": [3]
+          },
+          {
+            "text": "Another 2022 guide noted his support for a Green New Deal for public schools and giving employees and the community more say over discretionary spending.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Aaron Reveles, Montebello Unified School District Area 2 ...",
+      "publisher": "Whittier Daily News",
+      "url": "https://www.whittierdailynews.com/2026/10/05/aaron-reveles-montebello-unified-school-district-area-2-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Hall Pass: Your Ticket to Understanding School Board Politics, Edition #224",
+      "publisher": "Ballotpedia",
+      "url": "https://news.ballotpedia.org/2026/09/23/hall-pass-your-ticket-to-understanding-school-board-politics-edition-224/",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "LA Progressive Voter Guide: Nov. 2022 California Midterm Elections - Knock LA",
+      "publisher": "Knock LA",
+      "url": "https://knock-la.com/los-angeles-progressive-voter-guide-november-midterm-election-2022/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "2022 DSA-LA General Election Voter Guide",
+      "publisher": "DSA-LA",
+      "url": "https://dsa-la.org/2022_voterguide/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.196Z",
+    "version": 1
+  }
+}

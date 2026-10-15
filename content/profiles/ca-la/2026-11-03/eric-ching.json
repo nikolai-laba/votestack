@@ -1,0 +1,100 @@
+{
+  "key": "eric-ching",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Eric Ching",
+  "party": "Party Preference: Republican",
+  "office": "U.S. Representative, 31st District",
+  "contestIds": ["la-4348-cc10811-r1", "la-4348-cc10811-r2"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Eric Ching is a former member of the Walnut City Council, a former mayor of Walnut, and a business owner.",
+        "cites": [1, 6]
+      },
+      {
+        "text": "In his 2026 campaign, Ching says his top priority is to reverse what he calls failed California state policies that have driven up housing costs, property crime, and homelessness. To make housing more affordable, he says the state should address policies that drive up costs, such as by reducing the gas price to the national average. He calls for eliminating all illegal immigration while being open to more legal immigration. He also supports strengthening border security.",
+        "cites": [2, 1]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Republican Party",
+        "kind": "party",
+        "cites": [3]
+      },
+      {
+        "organization": "American Independent Party",
+        "kind": "party",
+        "cites": [4]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Eric Ching for Congress | California's 31st District",
+      "publisher": "Eric Ching for Congress",
+      "url": "https://www.ericchingforcongress.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Eric Ching, CA-31 candidate, 2026 election questionnaire",
+      "publisher": "Daily Bulletin",
+      "url": "https://www.dailybulletin.com/2026/10/05/eric-ching-ca-31-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "2026 CRP Endorsements",
+      "publisher": "California Republican Party",
+      "url": "https://cagop.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "November 3, 2026 General Election: Party Endorsements for Voter-Nominated Offices",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/additional-election-information",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 5
+    },
+    {
+      "title": "Walnut City Council",
+      "publisher": "City of Walnut",
+      "url": "https://www.walnutca.gov/My-Government/Walnut-City-Council",
+      "kind": "official",
+      "viewedAt": "2026-10-15",
+      "id": 6
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.799Z",
+    "version": 4
+  }
+}

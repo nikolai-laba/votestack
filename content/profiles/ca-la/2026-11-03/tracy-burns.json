@@ -1,0 +1,80 @@
+{
+  "key": "tracy-burns",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Tracy Burns",
+  "office": "Water Replenishment District of Southern California, Member, Board of Directors, Division 3",
+  "contestIds": ["la-4348-cc10570"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Tracy Burns is a retired Los Angeles County Sheriff’s Department sergeant and businesswoman. Her campaign says she supports fiscal discipline and reducing dependence on imported water. She says data centers can create jobs but that ratepayers should not pay for their infrastructure or water supply costs.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Tracy Burns is a retired Los Angeles County Sheriff’s Department sergeant and businesswoman.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign says she supports fiscal discipline and reducing dependence on imported water.",
+            "cites": [1]
+          },
+          {
+            "text": "She says data centers can create jobs but that ratepayers should not pay for their infrastructure or water supply costs.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Palos Verdes Peninsula Republican Women Federated",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Tracy Burns | Water Replenishment District 3",
+      "publisher": "Tracy Burns campaign",
+      "url": "https://tracyburns2026.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "PVPRWF 2026 General Election Voter Guide",
+      "publisher": "Palos Verdes Peninsula Republican Women Federated",
+      "url": "https://img1.wsimg.com/blobby/go/fde87087-63d5-4aa0-8ffe-96924b23036f/2026%2011%20PVPRWF%20Voter%20Guide%20(1).pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 3
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.233Z",
+    "version": 2
+  }
+}

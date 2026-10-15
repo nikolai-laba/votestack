@@ -1,0 +1,121 @@
+{
+  "key": "rashida-a-adams",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Rashida A. Adams",
+  "office": "Presiding Justice, Court of Appeal, Second District, Division Three",
+  "contestIds": ["la-4348-rc10896"],
+  "kind": "retention",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Rashida A. Adams has been Presiding Justice of the Second District Court of Appeal, Division Three, since 2026. She previously served as an associate justice, and a Los Angeles Superior Court judge for juvenile dependency and criminal cases from 2017 to 2023. She tracks cases to decide the oldest appeals first. She authored a 2026 opinion reversing an anti-SLAPP denial. She wrote a 2024 opinion on probate assignment rights.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Rashida A. Adams has been Presiding Justice of the Second District Court of Appeal, Division Three, since 2026.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously served as an associate justice, and a Los Angeles Superior Court judge for juvenile dependency and criminal cases from 2017 to 2023.",
+            "cites": [1]
+          },
+          {
+            "text": "She tracks cases to decide the oldest appeals first.",
+            "cites": [2]
+          },
+          {
+            "text": "She authored a 2026 opinion reversing an anti-SLAPP denial.",
+            "cites": [3]
+          },
+          {
+            "text": "She wrote a 2024 opinion on probate assignment rights.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [5] },
+      {
+        "organization": "Indivisible Ventura",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Santa Clarita Valley Democrats",
+        "kind": "organization",
+        "cites": [7]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Rashida A. Adams | Second Appellate District",
+      "publisher": "California Courts of Appeal",
+      "url": "https://appellate.courts.ca.gov/district-courts/2dca/bio/rashida-adams",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "New Division 3 presiding justice faces voters with record of rulings that cut both ways",
+      "publisher": "Daily Journal",
+      "url": "https://dailyjournal.com/articles/394965-new-division-3-presiding-justice-faces-voters-with-record-of-rulings-that-cut-both-ways",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Dispute Over Netflixs 2024 Mary Release Fails to Survive Anti-SLAPP ScrutinyC.A.",
+      "publisher": "Metropolitan News-Enterprise",
+      "url": "http://www.metnews.com/articles/2026/maryfilm_100526.htm",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Decision in Probate Code §11700 Proceeding Wasn't Preclusive",
+      "publisher": "Metropolitan News-Enterprise",
+      "url": "http://www.metnews.com/articles/2024/probatecode11700_010424.htm",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Nonpartisan Judicial Offices",
+      "publisher": "Indivisible Ventura",
+      "url": "https://indivisibleventura.org/nonpartisan-judicial-offices/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "November 2026 Candidate Endorsements",
+      "publisher": "Santa Clarita Valley Democrats",
+      "url": "https://www.santaclaritavalleydemocrats.com/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T14:05:39.945Z",
+    "version": 4
+  }
+}

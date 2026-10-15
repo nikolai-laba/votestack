@@ -1,0 +1,54 @@
+{
+  "key": "adriana-c-mitre",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Adriana C. Mitre",
+  "office": "Little Lake City School District, Governing Board Member, Trustee Area No. 2",
+  "contestIds": ["la-4348-cc10713"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Adriana C. Mitre is a human resources and payroll manager running for the Little Lake City School District board. Mitre says budget transparency should be a top priority. She would prioritize student and classroom investments over facilities and administrative costs. She says open communication about district finances is essential to build trust.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Adriana C. Mitre is a human resources and payroll manager running for the Little Lake City School District board.",
+            "cites": [1]
+          },
+          {
+            "text": "Mitre says budget transparency should be a top priority.",
+            "cites": [1]
+          },
+          {
+            "text": "She would prioritize student and classroom investments over facilities and administrative costs.",
+            "cites": [1]
+          },
+          {
+            "text": "She says open communication about district finances is essential to build trust.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Adriana Mitre, Little Lake City School District 2 candidate, 2026 election questionnaire",
+      "publisher": "Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/adriana-mitre-little-lake-city-school-district-2-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.171Z",
+    "version": 1
+  }
+}

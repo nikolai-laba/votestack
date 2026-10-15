@@ -1,0 +1,79 @@
+{
+  "key": "gloria-d-gray",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Gloria D. Gray",
+  "office": "West Basin Municipal Water District, Member, Board of Directors, Division 2",
+  "contestIds": ["la-4348-cc10560", "la-4348-cc10870"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Gloria D. Gray, a retired health care administrator, has represented Division 2 on the West Basin Municipal Water District Board since 2006. She chaired the Metropolitan Water District of Southern California board from 2019 to 2022. She was elected to the Inglewood City Council in 2023. In October 2026, the state attorney general allowed a lawsuit to remove her from the water board for holding incompatible offices.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Gloria D. Gray, a retired health care administrator, has represented Division 2 on the West Basin Municipal Water District Board since 2006.",
+            "cites": [1]
+          },
+          {
+            "text": "She chaired the Metropolitan Water District of Southern California board from 2019 to 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "She was elected to the Inglewood City Council in 2023.",
+            "cites": [2]
+          },
+          {
+            "text": "In October 2026, the state attorney general allowed a lawsuit to remove her from the water board for holding incompatible offices.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Gloria D. Gray",
+      "publisher": "Metropolitan Water District of Southern California",
+      "url": "https://www.mwdh2o.com/gloria-d-gray/",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Councilmember Gloria Gray can be sued over her West Basin water board seat | Inglewood Independent",
+      "publisher": "Inglewood Independent",
+      "url": "https://inglewoodindependent.com/councilmember-gloria-gray-can-be-sued-over-her-west-basin-water-board-seat/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.442Z",
+    "version": 1
+  }
+}

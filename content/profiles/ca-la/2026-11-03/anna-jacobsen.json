@@ -1,0 +1,184 @@
+{
+  "key": "anna-jacobsen",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Anna Jacobsen",
+  "office": "City of Claremont, Member of the City Council, 4th District",
+  "contestIds": ["la-4348-cc10436"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Anna Jacobsen is an urban planner and the managing partner of CityWise, a public policy consulting firm she founded in 2020. She holds master's degrees in planning and public administration from USC. She says she has experience helping cities address housing, homelessness, and long-term planning. She founded Better Claremont Playgrounds and serves as board president of The Play Collective, the nonprofit it became.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Anna Jacobsen is an urban planner and the managing partner of CityWise, a public policy consulting firm she founded in 2020.",
+            "cites": [1]
+          },
+          {
+            "text": "She holds master's degrees in planning and public administration from USC.",
+            "cites": [1]
+          },
+          {
+            "text": "She says she has experience helping cities address housing, homelessness, and long-term planning.",
+            "cites": [2]
+          },
+          {
+            "text": "She founded Better Claremont Playgrounds and serves as board president of The Play Collective, the nonprofit it became.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "At a study session on inclusionary housing, she says she encouraged the City Council to use housing in-lieu funds to help with housing stability. She says she advocated for Claremont’s speed-limit reductions and has spoken with residents about streets and intersections.",
+        "cites": [2],
+        "sentences": [
+          {
+            "text": "At a study session on inclusionary housing, she says she encouraged the City Council to use housing in-lieu funds to help with housing stability.",
+            "cites": [2]
+          },
+          {
+            "text": "She says she advocated for Claremont’s speed-limit reductions and has spoken with residents about streets and intersections.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "U.S. Rep. Norma Torres",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "California State Treasurer Fiona Ma",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "State Sen. Sasha Renée Pérez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [5]
+      },
+      {
+        "organization": "National Women's Political Caucus",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Moms Demand Action",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Los Angeles League of Conservation Voters",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Democratic Club of Claremont",
+        "kind": "party",
+        "cites": [7]
+      },
+      {
+        "organization": "Claremont Streets for People",
+        "kind": "organization",
+        "cites": [8]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [9] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Election 2026 profiles: Anna Jacobsen, Claremont City Council",
+      "publisher": "Claremont COURIER",
+      "url": "https://claremontcourier.com/latest-news/election-2026-profiles-anna-jacobsen-claremont-city-council-90418/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Bringing My Experience Home to Claremont",
+      "publisher": "The Pomonan Magazine",
+      "url": "https://www.thepomonan.com/claremont-elections/2026/9/21/bringing-my-experience-home-to-claremont",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "General Membership Meeting featuring Anna Jacobsen",
+      "publisher": "Democratic Club of Claremont",
+      "url": "https://demsofclaremont.org/event-6574747",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Supporters | Anna for Claremont",
+      "publisher": "Anna Jacobsen for Claremont City Council 2026",
+      "url": "https://www.annaforclaremont.com/supporters",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Current Endorsements",
+      "publisher": "Los Angeles League of Conservation Voters",
+      "url": "https://lalcv.org/current-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements",
+      "publisher": "Democratic Club of Claremont",
+      "url": "https://demsofclaremont.org/Endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 8,
+      "title": "Anna for Claremont",
+      "publisher": "Anna Jacobsen for Claremont City Council 2026",
+      "url": "https://www.annaforclaremont.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 9
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.339Z",
+    "version": 1
+  }
+}

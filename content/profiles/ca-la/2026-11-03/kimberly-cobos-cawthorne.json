@@ -1,0 +1,113 @@
+{
+  "key": "kimberly-cobos-cawthorne",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Kimberly Cobos Cawthorne",
+  "office": "City of Montebello, Member of the City Council, 1st District",
+  "contestIds": ["la-4348-cc10481"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Kimberly Cobos Cawthorne previously represented District 1 on the Montebello City Council. She served as mayor from 2020 to 2022. In her 2022 campaign, she said she helped establish the Montebello Community Assistance Program to connect homeless residents with medical and mental health care. She also said she secured funding for the \"Paving the Way\" street repair project. In 2019, she supported limiting the number of cannabis businesses in the city to avoid over-saturation.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Kimberly Cobos Cawthorne previously represented District 1 on the Montebello City Council.",
+            "cites": [1]
+          },
+          { "text": "She served as mayor from 2020 to 2022.", "cites": [2] },
+          {
+            "text": "In her 2022 campaign, she said she helped establish the Montebello Community Assistance Program to connect homeless residents with medical and mental health care.",
+            "cites": [1]
+          },
+          {
+            "text": "She also said she secured funding for the \"Paving the Way\" street repair project.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2019, she supported limiting the number of cannabis businesses in the city to avoid over-saturation.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "In 2020 as mayor, she noted the installation of two solar-powered EV charging terminals. She also supported the opening of a tiny home village. In 2022, she voted to move to district-based elections, saying it would save the city money.",
+        "cites": [4, 5, 6],
+        "sentences": [
+          {
+            "text": "In 2020 as mayor, she noted the installation of two solar-powered EV charging terminals.",
+            "cites": [4]
+          },
+          {
+            "text": "She also supported the opening of a tiny home village.",
+            "cites": [5]
+          },
+          {
+            "text": "In 2022, she voted to move to district-based elections, saying it would save the city money.",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Information for Montebello, Los Angeles County, California",
+      "publisher": "Montebello city candidate profile",
+      "url": "https://montebelloca.info/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Mayors of Montebello - City of Montebello",
+      "publisher": "City of Montebello",
+      "url": "https://www.montebelloca.gov/our_community/about_montebello/mayors_of_montebello",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Montebello is on board with marijuana businesses, but how many is OK? Council mulls",
+      "publisher": "Whittier Daily News",
+      "url": "https://www.whittierdailynews.com/2019/02/14/montebello-is-on-board-with-marijuana-businesses-but-how-many-is-ok-council-mulls/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "City Of Montebello to Deploy Beam Global EV Charging Terminals",
+      "publisher": "Government Fleet",
+      "url": "https://www.government-fleet.com/news/city-of-montebello-to-deploy-beam-global-ev-charging-terminals",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Montebello opens largest tiny home village in San Gabriel ...",
+      "publisher": "ABC7",
+      "url": "https://abc7.com/post/montebello-operation-stay-safe-largest-tiny-home-village-san-gabriel-valley/11867097/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "It’s official: Montebello council members will be elected by districts",
+      "publisher": "Whittier Daily News",
+      "url": "https://www.whittierdailynews.com/2022/03/11/its-official-montebello-council-members-will-be-elected-by-districts/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.554Z",
+    "version": 1
+  }
+}

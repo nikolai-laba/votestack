@@ -1,0 +1,94 @@
+{
+  "key": "marilyn-buchi",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Marilyn Buchi",
+  "office": "Fullerton Joint Union High School District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10751"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Marilyn Buchi has served on the Fullerton Joint Union High School District Board of Trustees since 1983 and is its current president. She also serves as board president for the North Orange County Regional Occupational Program. She previously served as president of the California School Boards Association and the Orange County School Boards Association. Buchi opposes school vouchers, stating that public money should go to public education. In 2020, she voted to rename Plummer Auditorium after concerns were raised about its namesake’s possible ties to the Ku Klux Klan. Her campaign says she supports a choice among schools and programs and an education relevant to the future in a safe, supportive environment.",
+        "cites": [1, 2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "Marilyn Buchi has served on the Fullerton Joint Union High School District Board of Trustees since 1983 and is its current president.",
+            "cites": [1]
+          },
+          {
+            "text": "She also serves as board president for the North Orange County Regional Occupational Program.",
+            "cites": [2]
+          },
+          {
+            "text": "She previously served as president of the California School Boards Association and the Orange County School Boards Association.",
+            "cites": [1]
+          },
+          {
+            "text": "Buchi opposes school vouchers, stating that public money should go to public education.",
+            "cites": [3]
+          },
+          {
+            "text": "In 2020, she voted to rename Plummer Auditorium after concerns were raised about its namesake’s possible ties to the Ku Klux Klan.",
+            "cites": [4]
+          },
+          {
+            "text": "Her campaign says she supports a choice among schools and programs and an education relevant to the future in a safe, supportive environment.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board of Trustees - Fullerton Joint Union High School District",
+      "publisher": "Fullerton Joint Union High School District",
+      "url": "https://www.fjuhsd.org/board-of-trustees-2",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Board of Trustees | North Orange County ROP",
+      "publisher": "North Orange County ROP",
+      "url": "https://nocrop.org/about-us/board-of-trustees/",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Fullerton Joint Union High School District Board of Trustees Candidate Forum Hosted by the League of Women Voters of North Orange County - Fullerton Observer",
+      "publisher": "Fullerton Observer",
+      "url": "https://fullertonobserver.com/2026/10/02/fullerton-joint-union-high-school-district-board-of-trustees-candidate-forum-hosted-by-the-league-of-women-voters-of-north-orange-county/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Concerns over possible KKK ties drive renaming of Fullerton’s Plummer Auditorium",
+      "publisher": "Orange County Register",
+      "url": "https://www.ocregister.com/2020/06/17/concerns-over-possible-kkk-ties-drive-renaming-of-fullertons-plummer-auditorium/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Anaheim - Pride At The Pier",
+      "publisher": "Pride At The Pier",
+      "url": "https://www.prideatthepier.org/anaheim-2026",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T05:54:20.842Z",
+    "version": 1
+  }
+}

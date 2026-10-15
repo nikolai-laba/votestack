@@ -1,0 +1,136 @@
+{
+  "key": "soo-yoo",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Soo Yoo",
+  "office": "Abc Unified School District, Governing Board Member, Trustee Area No. 2",
+  "contestIds": ["la-4348-cc10604"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Soo Yoo has been a member of the ABC Unified School District Governing Board representing Trustee Area 2 since 2013. She owns a private tutoring company in Cerritos. She was elected board clerk in 2019. She served as board president in 2022.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Soo Yoo has been a member of the ABC Unified School District Governing Board representing Trustee Area 2 since 2013.",
+            "cites": [1]
+          },
+          {
+            "text": "She owns a private tutoring company in Cerritos.",
+            "cites": [2]
+          },
+          { "text": "She was elected board clerk in 2019.", "cites": [3] },
+          { "text": "She served as board president in 2022.", "cites": [4] }
+        ]
+      },
+      {
+        "text": "In 2023 she criticized Common Core and suggested parents consider homeschooling or alternative schools. Los Cerritos Community News reported she attended a 'Detransition Awareness Rally' in Sacramento that year. In 2014 she voted to place a $195 million school improvement bond on the ballot after initially trying to delay it, and said Whitney High School was a 'school in decline.'",
+        "cites": [2, 5, 6],
+        "sentences": [
+          {
+            "text": "In 2023 she criticized Common Core and suggested parents consider homeschooling or alternative schools.",
+            "cites": [2]
+          },
+          {
+            "text": "Los Cerritos Community News reported she attended a 'Detransition Awareness Rally' in Sacramento that year.",
+            "cites": [5]
+          },
+          {
+            "text": "In 2014 she voted to place a $195 million school improvement bond on the ballot after initially trying to delay it, and said Whitney High School was a 'school in decline.'",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Voz Unida / California Latino Voter Alliance",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Soo Y. Yoo",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Soo_Y._Yoo",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Former Board Member Slams Trustee Soo Yoo for Endorsing Alternative Schools",
+      "publisher": "Los Cerritos Community News",
+      "url": "https://www.loscerritosnews.net/2023/10/12/former-board-member-slams-trustee-soo-yoo-for-endorsing-alternative-schools/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Nishii Concludes Year as President of ABC USD Board - Rafu Shimpo",
+      "publisher": "Rafu Shimpo",
+      "url": "https://rafu.com/2019/12/nishii-concludes-year-as-president-of-abc-usd-board/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "ABC Unified Receives Aa2 Rating from Moody's",
+      "publisher": "ABC Unified School District",
+      "url": "https://www.abcusd.us/apps/news/article/1658824",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "ABCUSD Trustee Soo Yoo Attended 'Detransition Rally' in Sacramento",
+      "publisher": "Los Cerritos Community News",
+      "url": "https://www.loscerritosnews.net/2023/03/21/abcusd-trustee-soo-yoo-attended-detransition-rally-in-sacramento/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "ABC School Board Green Lights Public Vote on $195 Million School Improvement Bond",
+      "publisher": "Los Cerritos Community News",
+      "url": "https://www.loscerritosnews.net/2014/07/17/abc-school-board-green-lights-public-vote-on-195-million-school-improvement-bond/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Los Angeles County voter guide",
+      "publisher": "Voz Unida / California Latino Voter Alliance",
+      "url": "https://www.latinovoteralliance.org/voter-guides/los-angeles",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 8
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.947Z",
+    "version": 2
+  }
+}

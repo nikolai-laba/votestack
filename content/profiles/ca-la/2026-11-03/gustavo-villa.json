@@ -1,0 +1,84 @@
+{
+  "key": "gustavo-villa",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Gustavo Villa",
+  "office": "City of Maywood, Member of the City Council",
+  "contestIds": ["la-4348-cc10480"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Gustavo Villa is a Maywood resident of over 35 years. In 1997, he was elected to the board of Maywood Mutual Water Company No. 2, later becoming its president. In 2014, the California Fair Political Practices Commission fined him $4,500 for violating campaign disclosure laws while he was the water company's general manager. The commission found he gave cash to another person to write campaign checks totaling $2,800 without disclosing himself as the true source.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Gustavo Villa is a Maywood resident of over 35 years.",
+            "cites": [1]
+          },
+          {
+            "text": "In 1997, he was elected to the board of Maywood Mutual Water Company No. 2, later becoming its president.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2014, the California Fair Political Practices Commission fined him $4,500 for violating campaign disclosure laws while he was the water company's general manager.",
+            "cites": [3]
+          },
+          {
+            "text": "The commission found he gave cash to another person to write campaign checks totaling $2,800 without disclosing himself as the true source.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "He has proposed cooperating with the police department for a safer city and pursuing cleaner streets and parks. He wants to change how the city clerk and treasurer are selected, noting the city currently lacks both.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "He has proposed cooperating with the police department for a safer city and pursuing cleaner streets and parks.",
+            "cites": [1]
+          },
+          {
+            "text": "He wants to change how the city clerk and treasurer are selected, noting the city currently lacks both.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Meet the nine candidates running for Maywood City Council",
+      "publisher": "CALÓ NEWS",
+      "url": "https://www.calonews.com/communities/southeast-la/meet-the-nine-candidates-running-for-maywood-city-council/article_800b2257-b180-4a27-ab17-ba6d8cdbff63.html",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Water Bill Touches Off a Revolt",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/archives/la-xpm-1998-jul-24-mn-6796-story.html",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "FPPC Enforcement Decisions: January 2014",
+      "publisher": "California Fair Political Practices Commission",
+      "url": "https://www.fppc.ca.gov/media/press-releases/2014-news-releases/fppc-enforcement-decisions--january-16--2014.html",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.547Z",
+    "version": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "reason": "Chrome review: the cited Pomona Unified news article now returns 404 and no stored excerpt or other page confirms her role in the Garey aviation pathway; removed that sentence",
+  "overview": [
+    {
+      "action": "replace",
+      "match": "Her campaign website says she supports increasing school safety",
+      "text": "Her campaign website says she supports increasing school safety, expanding technical training programs that lead to living-wage careers, and providing enrichment in the visual and performing arts. As board president, she backed a districtwide student safety initiative for scooter and bicycle education.",
+      "sources": [
+        {
+          "title": "About Dr. Lisa Nashua",
+          "publisher": "Lisa Nashua campaign",
+          "url": "https://lisanashua4pusd.com/?p=1",
+          "kind": "candidate",
+          "viewedAt": "2026-10-15"
+        },
+        {
+          "title": "Press Release: Pomona Unified Honors Simons Middle School Student, Angel Mendoza Lopez, Launches Student Safety Initiative",
+          "publisher": "Pomona Unified School District",
+          "url": "https://proudtobe.pusd.org/apps/news/article/2208589?categoryId=11710",
+          "kind": "official",
+          "viewedAt": "2026-10-15"
+        }
+      ]
+    }
+  ]
+}

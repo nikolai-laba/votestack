@@ -1,0 +1,79 @@
+{
+  "key": "kimberley-clark",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Kimberley Clark",
+  "office": "City of Burbank, City Clerk",
+  "contestIds": ["la-4348-cc10426"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Kimberley Clark is the elected City Clerk of Burbank, serving a four-year term that began in 2022. She oversees the City Clerk’s Office, which handles elections, public records, and boards and commissions. Before her election, she worked as the public information officer and executive assistant to the board of education and superintendent for the Burbank Unified School District, where she oversaw school board elections. She serves on the board of directors of the Burbank Temporary Aid Center and is a member of the Burbank Human Relations Committee.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Kimberley Clark is the elected City Clerk of Burbank, serving a four-year term that began in 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "She oversees the City Clerk’s Office, which handles elections, public records, and boards and commissions.",
+            "cites": [2]
+          },
+          {
+            "text": "Before her election, she worked as the public information officer and executive assistant to the board of education and superintendent for the Burbank Unified School District, where she oversaw school board elections.",
+            "cites": [1]
+          },
+          {
+            "text": "She serves on the board of directors of the Burbank Temporary Aid Center and is a member of the Burbank Human Relations Committee.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "About City Clerk Kimberley Clark - City of Burbank",
+      "publisher": "City of Burbank",
+      "url": "https://www.burbankca.gov/web/city-clerks-office/about-city-clerk-kimberley-clark",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "City Clerk's Office - City of Burbank",
+      "publisher": "City of Burbank",
+      "url": "https://www.burbankca.gov/web/city-clerks-office",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Endorsed Candidates - Los Angeles County Democratic Party",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.506Z",
+    "version": 1
+  }
+}

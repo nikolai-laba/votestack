@@ -1,0 +1,162 @@
+{
+  "key": "cristian-morales",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Cristian Morales",
+  "party": "Party Preference: Republican",
+  "office": "U.S. Representative, 43rd District",
+  "contestIds": ["la-4348-cc10820-r1", "la-4348-cc10820-r2"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Cristian Morales works as vice president of operations at Industrial Electronic Engineers, a role he has held since 2022, and his biography lists a bachelor’s degree from Purdue University and a master’s from Cornell University.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Cristian Morales works as vice president of operations at Industrial Electronic Engineers, a role he has held since 2022, and his biography lists a bachelor’s degree from Purdue University and a master’s from Cornell University.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "Morales names jobs, housing, and safety as the district’s top three issues. He supports tax cuts and reduced government spending, and has criticized state policies that he says make California expensive for businesses. In a 2026 voter guide questionnaire, he opposed government funding for abortion providers, including Planned Parenthood, and supported eliminating the U.S. Department of Education. On health care, he says the Affordable Care Act failed to provide affordability and emphasizes preventive care. On immigration, he advocates for a specific policy for immigrants and asylum seekers from Mexico and Northern Triangle countries.",
+        "cites": [2, 3, 1, 4],
+        "sentences": [
+          {
+            "text": "Morales names jobs, housing, and safety as the district’s top three issues.",
+            "cites": [2]
+          },
+          {
+            "text": "He supports tax cuts and reduced government spending, and has criticized state policies that he says make California expensive for businesses.",
+            "cites": [3]
+          },
+          {
+            "text": "In a 2026 voter guide questionnaire, he opposed government funding for abortion providers, including Planned Parenthood, and supported eliminating the U.S. Department of Education.",
+            "cites": [1]
+          },
+          {
+            "text": "On health care, he says the Affordable Care Act failed to provide affordability and emphasizes preventive care.",
+            "cites": [4]
+          },
+          {
+            "text": "On immigration, he advocates for a specific policy for immigrants and asylum seekers from Mexico and Northern Triangle countries.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Republican Party",
+        "kind": "party",
+        "cites": [5]
+      },
+      {
+        "organization": "American Independent Party",
+        "kind": "party",
+        "cites": [6]
+      },
+      {
+        "organization": "California Republican Assembly",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "California ProLife Council",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [9]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Voter Guide Profile for CA U.S. Rep., Dist. 43 candidate - Cristian Morales",
+      "publisher": "iVoterGuide",
+      "url": "https://ivoterguide.com/candidate/66532/race/25604/election/1385",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Cristian Morales, CA-43 candidate, 2026 primary election questionnaire",
+      "publisher": "Orange County Register",
+      "url": "https://www.ocregister.com/2026/05/05/cristian-morales-ca-43-candidate-2026-primary-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Maxine Waters poised to become oldest member of Congress despite GOP challenge in CA-43",
+      "publisher": "NBC Los Angeles",
+      "url": "https://www.nbclosangeles.com/news/local/congressional-district-43-maxine-waters-cristian-morales/3954907/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Cristian Morales - Ballotpedia",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Cristian_Morales",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "2026 CRP Endorsements",
+      "publisher": "California Republican Party",
+      "url": "https://cagop.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "November 3, 2026 General Election: Party Endorsements for Voter-Nominated Offices",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/additional-election-information",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "November 2026 General Election Endorsements (updated August 26, 2026)",
+      "publisher": "California Republican Assembly",
+      "url": "https://cragop.org/wp-content/uploads/2026/08/PDF-November-2026-General-Election-Endorsements-08-26-26.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "California ProLife Council 2026 Voter Guide",
+      "publisher": "California ProLife Council",
+      "url": "https://californiaprolife.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 8
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 9
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.842Z",
+    "version": 3
+  }
+}

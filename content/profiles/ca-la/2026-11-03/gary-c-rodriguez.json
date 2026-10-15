@@ -1,0 +1,64 @@
+{
+  "key": "gary-c-rodriguez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Gary C. Rodriguez",
+  "office": "Covina-Valley Unified School District, Governing Board Member, Trustee Area No. 4",
+  "contestIds": ["la-4348-cc10635"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Gary C. Rodriguez was elected in 2018 to represent Trustee Area 4 on the Covina-Valley Unified School District Board of Education. His term expired in December 2022. He served as vice president of the board in 2019. He was selected as board clerk in 2021.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Gary C. Rodriguez was elected in 2018 to represent Trustee Area 4 on the Covina-Valley Unified School District Board of Education.",
+            "cites": [1]
+          },
+          { "text": "His term expired in December 2022.", "cites": [2] },
+          {
+            "text": "He served as vice president of the board in 2019.",
+            "cites": [2]
+          },
+          { "text": "He was selected as board clerk in 2021.", "cites": [3] }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Election Results Text Version",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://results.lavote.gov/text-results/3861",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Covina-Valley Unified School District 2019 General Obligation Refunding Bonds",
+      "publisher": "Covina-Valley Unified School District",
+      "url": "https://www.aviacommunications.com/DocumentHosting/11163_Covina-Valley_USD_2019_GORB_(POS).pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Covina-Valley Unified School District Conducts Annual Board of Education Reorganization",
+      "publisher": "California School News Report",
+      "url": "https://caschoolnews.net/articles/covina-valley-unified-school-district-conducts-annual-board-of-education-reorganization/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T05:54:20.836Z",
+    "version": 1
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "key": "amarpreet-singh-malik",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Amarpreet Singh Malik",
+  "office": "La Cañada Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10651"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Amarpreet Singh Malik is an attorney and business owner who attended La Cañada Unified schools. He has served on the district's parcel tax oversight committee. His priorities include maintaining academic excellence and ensuring parcel tax and bond funds are spent transparently. In a Los Angeles Daily News questionnaire, he said the board's core job is setting strategic direction, overseeing the budget, evaluating the superintendent and being transparent. In an Outlook Valley Sun candidate questionnaire, he said a parent's perspective is essential on the board.",
+        "cites": [1, 2, 3]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "U.S. Rep. Judy Chu",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "U.S. Rep. Brad Sherman",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "Assemblymember John Harabedian",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "Assemblymember Mike Fong",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "Former State Sen. Carol Liu",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Glendale Unified School District Governing Board Vice President Telly Tse",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Former La Cañada Flintridge Mayor Don Voss",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Former La Cañada Flintridge Mayor Terry Walker",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Former La Cañada Flintridge Mayor Laura Olhasso",
+        "kind": "elected_official",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "La Cañada Unified Board Candidates Talk Goals, Priorities at Forum",
+      "publisher": "La Cañada Outlook",
+      "url": "https://outlooknewspapers.com/lacanadaoutlook/la-ca-ada-unified-board-candidates-talk-goals-priorities-at-forum/article_9e89d02a-fe8d-4b38-8b02-822986781f08.html",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Amarpreet Singh Malik, La Cañada Unified School District candidate, 2026 election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/amarpreet-singh-malik-la-canada-unified-school-district-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "La Cañada Unified Governing Board Candidates Outline Goals, Ideas",
+      "publisher": "La Cañada Outlook",
+      "url": "https://outlooknewspapers.com/lacanadaoutlook/la-ca-ada-unified-governing-board-candidates-outline-goals-ideas/article_5144d300-cad8-4c8e-92bc-9d07f0aa4ab7.html",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Endorsements",
+      "publisher": "Amar Malik for La Cañada Unified School District",
+      "url": "https://www.amar4lcusd.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T16:20:30.343Z",
+    "version": 2
+  }
+}

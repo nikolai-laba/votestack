@@ -1,0 +1,64 @@
+{
+  "key": "thomas-baird",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Thomas Baird",
+  "office": "East Whittier City School District, Governing Board Member, Trustee Area No. 4",
+  "contestIds": ["la-4348-cc10693"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Thomas Baird was appointed to the East Whittier City School District Board of Education for Trustee Area 4 in 2026. He is a licensed clinical social worker who holds a master's degree in social work from Rutgers University and a master's degree from Princeton Theological Seminary.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Thomas Baird was appointed to the East Whittier City School District Board of Education for Trustee Area 4 in 2026.",
+            "cites": [1]
+          },
+          {
+            "text": "He is a licensed clinical social worker who holds a master's degree in social work from Rutgers University and a master's degree from Princeton Theological Seminary.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "In a 2026 campaign questionnaire, Baird said his priority as a trustee is to put students first and make informed decisions.",
+        "cites": [2],
+        "sentences": [
+          {
+            "text": "In a 2026 campaign questionnaire, Baird said his priority as a trustee is to put students first and make informed decisions.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Mr. Thomas Baird - Member – Board of Education – East Whittier City School District",
+      "publisher": "East Whittier City School District",
+      "url": "https://www.ewcsd.org/apps/pages/index.jsp?uREC_ID=375044&type=d&pREC_ID=905897",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Thomas Baird, East Whittier Elementary School District Area 4 candidate, 2026 election questionnaire – Daily News",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/thomas-baird-east-whittier-elementary-school-district-area-4-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:48.992Z",
+    "version": 1
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "key": "heather-thomason",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Heather Thomason",
+  "office": "City of Santa Monica, Member of the Rent Control Board",
+  "contestIds": ["la-4348-cc10515"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Heather Thomason is a TV/screenwriter and a member of the Writers Guild of America. She says she was a renter for 16 years, experienced a 50 percent rent hike and displacement, and later found stability in a rent-controlled unit. She says she volunteers on the Santa Monicans for Renters Rights tenants rights hotline. She says she would work to protect rent-controlled housing from demolition and state laws, strengthen enforcement against harassment, educate about buyout amounts, and connect renters facing eviction to assistance.",
+        "cites": [6]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [1]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [2] },
+      {
+        "organization": "Santa Monica Democratic Club",
+        "kind": "organization",
+        "cites": [3]
+      },
+      { "organization": "Knock LA", "kind": "organization", "cites": [4] },
+      { "organization": "LA Forward", "kind": "organization", "cites": [5] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Full 2026 Endorsements",
+      "publisher": "Santa Monica Democratic Club",
+      "url": "https://santamonicademocrats.com/full-2026-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
+      "publisher": "Knock LA (Ground Game LA)",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 4
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 5
+    },
+    {
+      "title": "General Election 2026",
+      "publisher": "santamonica.gov",
+      "url": "https://www.santamonica.gov/elections/2026-11-03/candidates/heather-thomason",
+      "kind": "official",
+      "viewedAt": "2026-10-15",
+      "id": 6
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:39:39.220Z",
+    "version": 2
+  }
+}

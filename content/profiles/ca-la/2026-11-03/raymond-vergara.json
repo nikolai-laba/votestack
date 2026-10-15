@@ -1,0 +1,93 @@
+{
+  "key": "raymond-vergara",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Raymond Vergara",
+  "office": "City of Hawthorne, City Treasurer",
+  "contestIds": ["la-4348-cc10457"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Raymond Vergara is an insurance agent and the founder of RAV Insurance Services in Hawthorne. He has been a Farmers Insurance agent for 19 years. His campaign says he is running for City Treasurer because residents deserve clear answers about how their tax dollars are spent, and he wants to provide a line-by-line understanding of city spending.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Raymond Vergara is an insurance agent and the founder of RAV Insurance Services in Hawthorne.",
+            "cites": [1]
+          },
+          {
+            "text": "He has been a Farmers Insurance agent for 19 years.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he is running for City Treasurer because residents deserve clear answers about how their tax dollars are spent, and he wants to provide a line-by-line understanding of city spending.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "California Republican Assembly",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "California ProLife Council",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Raymond Vergara for City Treasurer 2026 | Hawthorne, CA",
+      "publisher": "Raymond Vergara campaign",
+      "url": "https://raymondvergaraforhawthorne.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "LOS ANGELES COUNTY - CRA (November 2026 General Election Endorsements)",
+      "publisher": "California Republican Assembly",
+      "url": "https://cragop.org/los-angeles-county/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "California ProLife Council 2026 Voter Guide",
+      "publisher": "California ProLife Council",
+      "url": "https://californiaprolife.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 3
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 4
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.407Z",
+    "version": 1
+  }
+}

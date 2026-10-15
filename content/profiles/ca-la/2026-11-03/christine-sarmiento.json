@@ -1,0 +1,76 @@
+{
+  "key": "christine-sarmiento",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Christine Sarmiento",
+  "office": "City of El Monte, Mayor",
+  "contestIds": ["la-4348-cc10657"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Christine Sarmiento is a public health nurse and operations manager running for mayor of El Monte. She works at the Los Angeles County Department of Public Health, and during the COVID-19 pandemic she served with the California Emergency Medical Services Authority in healthcare “red zones.” She later directed large-scale vaccination operations alongside county firefighters and lifeguards.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Christine Sarmiento is a public health nurse and operations manager running for mayor of El Monte.",
+            "cites": [1]
+          },
+          {
+            "text": "She works at the Los Angeles County Department of Public Health, and during the COVID-19 pandemic she served with the California Emergency Medical Services Authority in healthcare “red zones.”",
+            "cites": [2]
+          },
+          {
+            "text": "She later directed large-scale vaccination operations alongside county firefighters and lifeguards.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign website says she supports a transparent government, a healthy community and a strong local economy.",
+        "cites": [3],
+        "sentences": [
+          {
+            "text": "Her campaign website says she supports a transparent government, a healthy community and a strong local economy.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Christine Sarmiento, El Monte mayor candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/christine-sarmiento-el-monte-mayor-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Filipino Americans launch bids for key posts in 2026 US elections",
+      "publisher": "INQUIRER.net",
+      "url": "https://usa.inquirer.net/198128/filipino-americans-launch-bids-for-key-posts-in-2026-us-elections",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Christine Sarmiento: Mayor for El Monte | Christine Sarmiento",
+      "publisher": "Christine Sarmiento for Mayor 2026",
+      "url": "https://christinesarmiento.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T14:05:39.741Z",
+    "version": 2
+  }
+}

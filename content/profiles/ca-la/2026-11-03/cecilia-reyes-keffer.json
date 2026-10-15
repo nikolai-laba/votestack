@@ -1,0 +1,71 @@
+{
+  "key": "cecilia-reyes-keffer",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Cecilia Reyes Keffer",
+  "office": "San Gabriel Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10669"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Cecilia Reyes Keffer is a recently retired teacher and a realtor. She served on the leadership of the local teachers union. While in that role, she took part in a special education task force that proposed creating an ongoing committee to evaluate and support students. She supports using state funds from AB 126 to add more inclusion teachers.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Cecilia Reyes Keffer is a recently retired teacher and a realtor.",
+            "cites": [1]
+          },
+          {
+            "text": "She served on the leadership of the local teachers union.",
+            "cites": [1]
+          },
+          {
+            "text": "While in that role, she took part in a special education task force that proposed creating an ongoing committee to evaluate and support students.",
+            "cites": [1]
+          },
+          {
+            "text": "She supports using state funds from AB 126 to add more inclusion teachers.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "San Gabriel Teachers Association",
+        "kind": "union",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Cecilia Reyes Keffer, San Gabriel Unified School District candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/cecilia-reyes-keffer-san-gabriel-unified-school-district-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "2026-2027 All Member Meeting (\"SGTA is Endorsing Cecilia Keffer\")",
+      "publisher": "San Gabriel Teachers Association",
+      "url": "https://www.sangabrielteachers.com/uploads/3/1/2/1/31218583/2026_all_member_meeting.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.300Z",
+    "version": 1
+  }
+}

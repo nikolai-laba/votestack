@@ -1,0 +1,94 @@
+{
+  "key": "constance-jewel-menzies",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Constance Jewel Menzies",
+  "party": "Party Preference: Republican",
+  "office": "State Assembly Member, 57th District",
+  "contestIds": ["la-4348-cc10797"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Constance Jewel Menzies is an in-home care provider. Her campaign says she aims to bring integrity and accountability to public service and deliver practical solutions.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Constance Jewel Menzies is an in-home care provider.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign says she aims to bring integrity and accountability to public service and deliver practical solutions.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      { "organization": "Republican Party", "kind": "party", "cites": [3] },
+      {
+        "organization": "California Republican Assembly",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "California Republican Party",
+        "kind": "party",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Check out who's advancing in LA County Assembly races to the general election",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/06/27/check-out-whos-advancing-in-la-county-assembly-races-to-the-general-election/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Constance Menzies for Assembly",
+      "publisher": "Constance Menzies for Assembly",
+      "url": "https://constancemenziesforassembly.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "November 3, 2026 General Election: Party Endorsements for Voter-Nominated Offices",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/additional-election-information",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "November 2026 General Election Endorsements: State Assembly",
+      "publisher": "California Republican Assembly",
+      "url": "https://cragop.org/state-assembly/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "2026 CRP Endorsements",
+      "publisher": "California Republican Party",
+      "url": "https://cagop.org/endorsements/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 5
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.713Z",
+    "version": 3
+  }
+}

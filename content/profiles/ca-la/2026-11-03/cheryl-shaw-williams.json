@@ -1,0 +1,105 @@
+{
+  "key": "cheryl-shaw-williams",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Cheryl Shaw Williams",
+  "office": "Inglewood Unified School District, Member, Board of Education, Trustee Area 1",
+  "contestIds": ["la-4348-cc10465"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Cheryl Shaw Williams is an insurance professional and Inglewood planning commissioner running for school board. She graduated from Morningside High School and earned a sociology degree from California State University, Dominguez Hills. She helped establish the Morningside Monarchs Alumni Association and serves on a scholarship board for the Inglewood Century Heights Neighborhood Watch Association.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Cheryl Shaw Williams is an insurance professional and Inglewood planning commissioner running for school board.",
+            "cites": [1]
+          },
+          {
+            "text": "She graduated from Morningside High School and earned a sociology degree from California State University, Dominguez Hills.",
+            "cites": [1]
+          },
+          {
+            "text": "She helped establish the Morningside Monarchs Alumni Association and serves on a scholarship board for the Inglewood Century Heights Neighborhood Watch Association.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "Williams says her priorities include fiscal responsibility, academic excellence, safe learning environments, transparency, expanded tutoring and literacy programs, STEM and career technical education, arts education, after-school programs, and student mental health services.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Williams says her priorities include fiscal responsibility, academic excellence, safe learning environments, transparency, expanded tutoring and literacy programs, STEM and career technical education, arts education, after-school programs, and student mental health services.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Assemblymember Tina McKinnor",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [2]
+      },
+      {
+        "organization": "Inglewood Mayor James T. Butts",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Inglewood City Council Member Dionne Faulk",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Inglewood City Council Member Alex Padilla",
+        "kind": "elected_official",
+        "cites": [2],
+        "party": "Democratic"
+      },
+      {
+        "organization": "Inglewood City Council Member Eloy Morales Jr.",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Inglewood City Treasurer Angela Allen",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      { "organization": "Autism Future", "kind": "organization", "cites": [2] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Meet Candidates Seeking Office This November in Inglewood",
+      "publisher": "Observer Group Newspapers",
+      "url": "https://ognsc.com/meet-candidates-seeking-office-this-november-in-inglewood/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Endorsements | Cheryl Shaw Williams for School Board",
+      "publisher": "Cheryl Williams for School Board 2026",
+      "url": "https://www.votecherylshawwilliams.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.102Z",
+    "version": 1
+  }
+}

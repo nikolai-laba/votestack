@@ -1,0 +1,101 @@
+{
+  "key": "paul-irving-jones",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Paul Irving Jones",
+  "party": "Party Preference: Republican",
+  "office": "State Assembly Member, 62nd District",
+  "contestIds": ["la-4348-cc10799"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Paul Irving Jones is a retired U.S. Marine.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Paul Irving Jones is a retired U.S. Marine.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Republican Party",
+        "kind": "party",
+        "cites": [2]
+      },
+      {
+        "organization": "Gun Owners of California",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Churches in Action",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Former State Senate Majority Leader Gloria Romero",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Former Huntington Beach City Attorney Michael Gates",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "California State Assembly: Who's running Nov. 3 and why it matters | LAist",
+      "publisher": "LAist",
+      "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-state-assembly",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Endorsements: 2026 CRP Endorsements",
+      "publisher": "California Republican Party",
+      "url": "https://cagop.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Endorsements",
+      "publisher": "Paul Jones for State Assembly",
+      "url": "https://pauljones4stateassembly.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 4
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.720Z",
+    "version": 3
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "key": "erik-pena",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Erik Peña",
+  "office": "Valley County Water District, Member, Board of Directors",
+  "contestIds": ["la-4348-cc10397"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Erik Peña is running for the Valley County Water District Board of Directors. In 2024, he worked as a public health researcher.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Erik Peña is running for the Valley County Water District Board of Directors.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2024, he worked as a public health researcher.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate Statements - Registrar-Recorder/County Clerk",
+      "publisher": "LAVote.gov",
+      "url": "https://apps.lavote.gov/candidate-statements/public-statement/9254/23136/EN",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Final List of Qualified Candidates to Appear on the Ballot",
+      "publisher": "LAVote.gov",
+      "url": "https://www.lavote.gov/docs/rrcc/election-info/final-list-of-qualified-candidates-to-appear-on-the-ballot085c415975a46c55bf9dff0f00945460.pdf?v=2",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.421Z",
+    "version": 1
+  }
+}

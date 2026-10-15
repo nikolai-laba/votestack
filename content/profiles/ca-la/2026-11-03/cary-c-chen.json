@@ -1,0 +1,75 @@
+{
+  "key": "cary-c-chen",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Cary C. Chen",
+  "office": "Rowland Unified School District, Governing Board Member, Trustee Area No. 3",
+  "contestIds": ["la-4348-cc10667"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Cary C. Chen is the president of the Rowland Unified School District Board of Education. He was first elected in 2009. His professional background includes work as a geophysicist at Western Geophysical and UNOCAL, and as a corporate executive in charge of international operations. In a campaign questionnaire, he says he has volunteered for decades in an after-school program. He also says he uses data-driven decision-making to improve academic achievement. In 2026, the board opened a new $36 million fine arts and aquatics center at Nogales High School, funded by the 2012 Measure R bond.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Cary C. Chen is the president of the Rowland Unified School District Board of Education.",
+            "cites": [1]
+          },
+          { "text": "He was first elected in 2009.", "cites": [1] },
+          {
+            "text": "His professional background includes work as a geophysicist at Western Geophysical and UNOCAL, and as a corporate executive in charge of international operations.",
+            "cites": [1]
+          },
+          {
+            "text": "In a campaign questionnaire, he says he has volunteered for decades in an after-school program.",
+            "cites": [2]
+          },
+          {
+            "text": "He also says he uses data-driven decision-making to improve academic achievement.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2026, the board opened a new $36 million fine arts and aquatics center at Nogales High School, funded by the 2012 Measure R bond.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Cary C. Chen - President (Trustee Area 3)",
+      "publisher": "Rowland Unified School District",
+      "url": "https://www.rowlandschools.org/apps/pages/index.jsp?uREC_ID=40406&type=d&pREC_ID=24080",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Cary Chen, Rowland Unified District 3 candidate, 2026 election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/cary-chen-rowland-unified-district-3-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Board of Education Celebrates Community Opening of New ...",
+      "publisher": "Rowland Unified School District",
+      "url": "https://www.rowlandschools.org/apps/news/article/2233762?categoryId=2149",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.275Z",
+    "version": 1
+  }
+}

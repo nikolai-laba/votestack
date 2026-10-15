@@ -1,0 +1,122 @@
+{
+  "key": "rickey-tracy-hayes-ii",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Rickey Tracy Hayes II",
+  "party": "Party Preference: Republican",
+  "office": "State Assembly Member, 40th District",
+  "contestIds": ["la-4348-cc10783"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Rickey Tracy Hayes II is a lineman, entrepreneur, and businessman. He works as director of North American field operations for CTC Global. He is a U.S. Marine veteran and former police officer. He says he is a member of the International Brotherhood of Electrical Workers.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Rickey Tracy Hayes II is a lineman, entrepreneur, and businessman.",
+            "cites": [1]
+          },
+          {
+            "text": "He works as director of North American field operations for CTC Global.",
+            "cites": [2]
+          },
+          {
+            "text": "He is a U.S. Marine veteran and former police officer.",
+            "cites": [3]
+          },
+          {
+            "text": "He says he is a member of the International Brotherhood of Electrical Workers.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "American Independent Party",
+        "kind": "party",
+        "cites": [5]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Republican Party of Los Angeles County",
+        "kind": "party",
+        "cites": [7]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "California State Assembly: Who's running Nov. 3 and why it matters | LAist",
+      "publisher": "LAist",
+      "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-state-assembly",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Rickey Tracy Hayes II, Assembly District 40 candidate, 2026 election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/rickey-tracy-hayes-ii-assembly-district-40-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "2026 California State Assembly election - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_California_State_Assembly_election",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Candidates for 40th Assembly District face off before primary",
+      "publisher": "Santa Clarita Valley Signal",
+      "url": "https://signalscv.com/2026/04/candidates-for-40th-assembly-district-face-off-before-primary/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Additional Election Information (Party Endorsements for Voter-Nominated Offices, November 3, 2026 General Election)",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/additional-election-information",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 6
+    },
+    {
+      "title": "LAGOP Endorsement Lookup, November 3, 2026 General Election",
+      "publisher": "Republican Party of Los Angeles County",
+      "url": "https://lagop-endorsement-lookup.vercel.app/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 7
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.670Z",
+    "version": 3
+  }
+}

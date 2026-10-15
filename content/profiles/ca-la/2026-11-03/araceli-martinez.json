@@ -1,0 +1,118 @@
+{
+  "key": "araceli-martinez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Araceli Martinez",
+  "party": "Party Preference: Republican",
+  "office": "State Senator, 30th District",
+  "contestIds": ["la-4348-cc10778"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Araceli Martinez is a small business owner running for State Senate in District 30. Her campaign says she wants to reduce regulations for small businesses while supporting law enforcement and parental rights. On state spending, she proposes auditing Caltrans. She also wants to consolidate overlapping agencies and cut administrative costs. She opposes tax increases and supports suspending the gas tax. She also wants to cut regulations on housing construction. She says she would not support budget cuts to public safety.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Araceli Martinez is a small business owner running for State Senate in District 30.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign says she wants to reduce regulations for small businesses while supporting law enforcement and parental rights.",
+            "cites": [2]
+          },
+          {
+            "text": "On state spending, she proposes auditing Caltrans.",
+            "cites": [1]
+          },
+          {
+            "text": "She also wants to consolidate overlapping agencies and cut administrative costs.",
+            "cites": [1]
+          },
+          {
+            "text": "She opposes tax increases and supports suspending the gas tax.",
+            "cites": [1]
+          },
+          {
+            "text": "She also wants to cut regulations on housing construction.",
+            "cites": [1]
+          },
+          {
+            "text": "She says she would not support budget cuts to public safety.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Republican Assembly",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Republican Party of Los Angeles County",
+        "kind": "party",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Araceli Martinez, SD-30 candidate, 2026 primary election questionnaire",
+      "publisher": "Orange County Register",
+      "url": "https://www.ocregister.com/2026/05/06/araceli-martinez-sd-30-candidate-2026-primary-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Araceli Martinez For State Senate",
+      "publisher": "Araceli Martinez campaign",
+      "url": "https://www.araceliforca.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "California Republican Assembly November 2026 General Election Endorsements (updated August 26, 2026)",
+      "publisher": "California Republican Assembly",
+      "url": "https://cragop.org/wp-content/uploads/2026/08/PDF-November-2026-General-Election-Endorsements-08-26-26.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 4
+    },
+    {
+      "title": "LAGOP Endorsement Lookup, November 3, 2026 General Election",
+      "publisher": "Republican Party of Los Angeles County",
+      "url": "https://lagop-endorsement-lookup.vercel.app/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 5
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.757Z",
+    "version": 3
+  }
+}

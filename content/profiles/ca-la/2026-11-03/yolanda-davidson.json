@@ -1,0 +1,136 @@
+{
+  "key": "yolanda-davidson",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Yolanda Davidson",
+  "office": "City of Inglewood, Member of the City Council, 1st District",
+  "contestIds": ["la-4348-cc10464"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Yolanda Davidson is a small business owner. She founded Press for Justice, which advocates for victims and families. She completed the Los Angeles African American Women’s Public Policy Institute and California Black Women’s Collective programs. She also graduated from the Congressional Black Caucus Institute. She pledges to demand more visible law enforcement, audit traffic, and reduce the aviation noise insulation backlog. She supports strengthening affordable housing requirements in new projects. She wants to streamline rent stabilization for clearer guidance and enforcement. She has urged that police wear body cameras by the 2028 Olympics. She calls for ending short afternoon council meetings and informing the public about large city deals beforehand.",
+        "cites": [1, 2, 3, 4, 5, 6],
+        "sentences": [
+          {
+            "text": "Yolanda Davidson is a small business owner.",
+            "cites": [1]
+          },
+          {
+            "text": "She founded Press for Justice, which advocates for victims and families.",
+            "cites": [2]
+          },
+          {
+            "text": "She completed the Los Angeles African American Women’s Public Policy Institute and California Black Women’s Collective programs.",
+            "cites": [1]
+          },
+          {
+            "text": "She also graduated from the Congressional Black Caucus Institute.",
+            "cites": [3]
+          },
+          {
+            "text": "She pledges to demand more visible law enforcement, audit traffic, and reduce the aviation noise insulation backlog.",
+            "cites": [4]
+          },
+          {
+            "text": "She supports strengthening affordable housing requirements in new projects.",
+            "cites": [5]
+          },
+          {
+            "text": "She wants to streamline rent stabilization for clearer guidance and enforcement.",
+            "cites": [5]
+          },
+          {
+            "text": "She has urged that police wear body cameras by the 2028 Olympics.",
+            "cites": [6]
+          },
+          {
+            "text": "She calls for ending short afternoon council meetings and informing the public about large city deals beforehand.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      { "organization": "LA Forward", "kind": "organization", "cites": [7] },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [8] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Your LA Local Voter Guide: Inglewood City Council",
+      "publisher": "The LA Local",
+      "url": "https://thelalocal.org/neighborhoods/inglewood/your-inglewood-city-council-voter-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Inglewood activist responds to SBBJ article",
+      "publisher": "South Bay Black Journal",
+      "url": "https://southbayblackjournal.com/inglewood-activist-responds-to-sbbj-article/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Inglewood Resident Says District One Deserves Better Representation",
+      "publisher": "Inland Valley News",
+      "url": "https://inlandvalleynews.com/inglewood-resident-says-district-one-deserves-better-representation/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Yolanda Davidson for Inglewood City Council District #1 | 2026",
+      "publisher": "Yolanda Davidson campaign",
+      "url": "https://www.yolandadavidson.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Yolanda Davidson Advocates for Responsible Housing and Fiscal Transparency in Inglewood",
+      "publisher": "Head Topics",
+      "url": "https://us.headtopics.com/news/yolanda-davidson-advocates-for-responsible-housing-and-88488100",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Southern California residents frustrated by LA28 Olympics ticket prices despite early access",
+      "publisher": "CBS News",
+      "url": "https://www.cbsnews.com/losangeles/news/la28-summer-olympics-ticket-prices-southern-california-residents-frustration/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 7
+    },
+    {
+      "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
+      "publisher": "SEIU Local 721",
+      "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 8
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.429Z",
+    "version": 1
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "key": "abby-veltman",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Abby Veltman",
+  "office": "Monrovia Unified School District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10656"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Abby Veltman is a reading interventionist. She proposes focusing on student learning, using data to strengthen programs, and giving teachers and principals a meaningful role in curriculum decisions. She wants to expand art and music offerings and strengthen the specialized programs that attract families to the district. She says she advocated for reopening the Monrovia High School pool and that it succeeded through city-school district collaboration. She wants to seek more such partnerships for the schools.",
+        "cites": [1, 4]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [2]
+      },
+      {
+        "organization": "Foothill Community Democrats",
+        "kind": "party",
+        "cites": [3]
+      },
+      {
+        "organization": "Monrovia Teachers Association",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "Spanish Adventures Learning Center",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Dr. Randa Wahbe, Citrus Community College District Trustee",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Dr. Tamala Kelly, Monrovia City Councilmember",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Samuel Kang, Duarte Mayor Pro Tem",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Selene Lockerbie, Monrovia Unified Board of Education Vice President",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Daniel Gomez Tagle, Monrovia Unified Board of Education Clerk",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Michael Ocon, Monrovia Unified Board of Education Member",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Mary Ann Lutz, former Monrovia Mayor and former Citrus College Trustee",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Chris Rich, former Monrovia Unified School Board Member",
+        "kind": "elected_official",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Abby Veltman, Monrovia Unified School District Area 5 candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/abby-veltman-monrovia-unified-school-district-area-5-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Endorsed Candidates: 2026 General Election",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Abby Veltman for MUSD School Board",
+      "publisher": "Abby Veltman campaign",
+      "url": "https://www.abbyformusdschoolboard.com",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Statement of Monrovia Unified School Board candidate Abby Veltman",
+      "publisher": "Monrovia Now",
+      "url": "https://www.monrovianow.com/2026/09/statement-of-monrovia-unified-school_01711105710.html",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15",
+      "id": 4
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.082Z",
+    "version": 3
+  }
+}

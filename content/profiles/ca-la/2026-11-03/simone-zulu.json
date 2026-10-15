@@ -1,0 +1,96 @@
+{
+  "key": "simone-zulu",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Simone Zulu",
+  "office": "Palmdale School District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10760"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Simone Zulu Diol has represented Trustee Area 5 on the Palmdale School District Board since November 2018 and is the board clerk. She is a retired district preschool teacher and former president of the Palmdale Elementary Teachers Association. She was a Head Start teacher and site director. In 2019, she completed the California School Boards Association’s Masters in Governance program.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Simone Zulu Diol has represented Trustee Area 5 on the Palmdale School District Board since November 2018 and is the board clerk.",
+            "cites": [1]
+          },
+          {
+            "text": "She is a retired district preschool teacher and former president of the Palmdale Elementary Teachers Association.",
+            "cites": [1]
+          },
+          {
+            "text": "She was a Head Start teacher and site director.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2019, she completed the California School Boards Association’s Masters in Governance program.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "Zulu Diol supports holistic, multicultural education that involves families. In 2022, as board president, she wrote that she focuses on early-childhood and multicultural education and supported adding student board members. She was named 2026 Board Member of the Year by the California Association of African-American Superintendents and Administrators.",
+        "cites": [1, 3, 4],
+        "sentences": [
+          {
+            "text": "Zulu Diol supports holistic, multicultural education that involves families.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2022, as board president, she wrote that she focuses on early-childhood and multicultural education and supported adding student board members.",
+            "cites": [3]
+          },
+          {
+            "text": "She was named 2026 Board Member of the Year by the California Association of African-American Superintendents and Administrators.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board of Trustees – Board – Palmdale School District",
+      "publisher": "Palmdale School District",
+      "url": "https://www.palmdalesd.org/apps/pages/index.jsp?uREC_ID=4322297&type=d&pREC_ID=2531617",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Masters in Governance graduates",
+      "publisher": "California School News",
+      "url": "https://publications.csba.org/california-school-news/july-2019/masters-in-governance-graduates/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "schoolnewsrollcall.com",
+      "publisher": "School News Roll Call",
+      "url": "https://schoolnewsrollcall.com/wp-content/uploads/2022/09/PD_MAR_22.pdf",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Palmdale School Board 2026: 7 Filers, 3 Seats – Antelope Valley Online",
+      "publisher": "Antelope Valley Online",
+      "url": "https://antelopevalleyonline.com/palmdale-school-board-2026-seven-filers-line-up-for-three-trustee-area-seats/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.229Z",
+    "version": 1
+  }
+}

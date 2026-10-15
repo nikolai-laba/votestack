@@ -1,0 +1,183 @@
+{
+  "key": "felita-kealing",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Felita Kealing",
+  "office": "Pasadena Unified School District, Board of Education, District No. 1",
+  "contestIds": ["la-4348-cc10499"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Felita Kealing is an assistant coordinator of marketing, student recruitment and community relations and a candidate for the Pasadena Unified Board of Education District 1. She is a Pasadena Unified graduate and parent, and she helped establish the African American Parent Council and served on the Pasadena Educational Foundation board, including three years as president.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Felita Kealing is an assistant coordinator of marketing, student recruitment and community relations and a candidate for the Pasadena Unified Board of Education District 1.",
+            "cites": [1]
+          },
+          {
+            "text": "She is a Pasadena Unified graduate and parent, and she helped establish the African American Parent Council and served on the Pasadena Educational Foundation board, including three years as president.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "She has said the district’s closure of 11 schools over two decades has not produced satisfactory results. She feels ambivalent about closing more campuses and emphasizes boosting enrollment and attendance to strengthen district revenue. She also stresses cultural competency in the classroom so students feel respected and valued.",
+        "cites": [2, 3, 4],
+        "sentences": [
+          {
+            "text": "She has said the district’s closure of 11 schools over two decades has not produced satisfactory results.",
+            "cites": [2]
+          },
+          {
+            "text": "She feels ambivalent about closing more campuses and emphasizes boosting enrollment and attendance to strengthen district revenue.",
+            "cites": [3]
+          },
+          {
+            "text": "She also stresses cultural competency in the classroom so students feel respected and valued.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [5]
+      },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "ACT (Pasadena)",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Pasadena Arroyo Democratic Club",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "National Women's Political Caucus, Greater Pasadena Area",
+        "kind": "organization",
+        "cites": [8]
+      },
+      { "organization": "Teamsters Local 572", "kind": "union", "cites": [9] },
+      {
+        "organization": "California School Employees Association (CSEA) Chapter 434",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "Sierra Madre Mayor Kris Lowe",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Former Pasadena Unified School Board Member Renatta Cooper",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Former Pasadena Unified School Board Member Tom Selinski",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Former Pasadena Unified School Board Member Scott Phelps",
+        "kind": "elected_official",
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Felita Kealing, Pasadena Unified District 1 candidate, 2026 election questionnaire",
+      "publisher": "Pasadena Star-News",
+      "url": "https://www.pasadenastarnews.com/2026/10/05/felita-kealing-pasadena-unified-district-1-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "School Consolidation Emerges as Key Divide in Pasadena Unified Board Forum",
+      "publisher": "ColoradoBoulevard.net",
+      "url": "https://www.coloradoboulevard.net/school-consolidation-emerges-as-key-divide-in-pasadena-unified-board-forum/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "PUSD Board Candidates Confront Closures, Finances and a Question of Trust",
+      "publisher": "Pasadena Now",
+      "url": "https://pasadenanow.com/main/pusd-board-candidates-confront-closures-finances-and-a-question-of-trust",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Pasadena School Board Hopefuls Clash Over Closures as Enrollment Could Sink to 8,000",
+      "publisher": "Hoodline",
+      "url": "https://hoodline.com/2026/10/pasadena-school-board-hopefuls-clash-over-closures-as-enrollment-could-sink-to-8-000/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "2026 Stonewall Endorsed Candidates",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements",
+      "publisher": "ACT Pasadena",
+      "url": "https://www.actpasadena.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "Endorsements",
+      "publisher": "Felita Kealing for PUSD School Board 2026",
+      "url": "https://www.healingwithkealing.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "2026 Voter Guide",
+      "publisher": "Teamsters Local 572",
+      "url": "https://www.teamsters572.org/local-572-voter-guide/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.114Z",
+    "version": 2
+  }
+}

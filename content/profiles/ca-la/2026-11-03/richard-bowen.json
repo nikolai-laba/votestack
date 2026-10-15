@@ -1,0 +1,100 @@
+{
+  "key": "richard-bowen",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Richard Bowen",
+  "office": "City of La Verne, Member of the City Council, 3rd District",
+  "contestIds": ["la-4348-cc10472"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Richard Bowen is a retired businessman and former business consultant. He served on the city's Ad Hoc Water and Sewer Rate Study Committee.",
+        "cites": [1, 5]
+      },
+      {
+        "text": "He has proposed an annual line-item budget review, an in-depth audit, and a review of all contracts over $75,000. He opposed the council's decision to replace mandatory five-year contract rebidding, citing a contractor paid over $1 million per year without bidding. He supports the city's police and fire departments and favors returning to at-large voting for the city council.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "He has proposed an annual line-item budget review, an in-depth audit, and a review of all contracts over $75,000.",
+            "cites": [1]
+          },
+          {
+            "text": "He opposed the council's decision to replace mandatory five-year contract rebidding, citing a contractor paid over $1 million per year without bidding.",
+            "cites": [2]
+          },
+          {
+            "text": "He supports the city's police and fire departments and favors returning to at-large voting for the city council.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Republican Party of Los Angeles County",
+        "kind": "party",
+        "cites": [3]
+      },
+      {
+        "organization": "Former Los Angeles County Sheriff Alex Villanueva",
+        "kind": "elected_official",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Forum 1 of 2: Hear From La Verne's District 1 and 3 Council Candidates in Their Own Words",
+      "publisher": "La Verne Daily News",
+      "url": "https://www.lavernedaily.org/forum-1-of-2-hear-from-la-vernes-district-1-and-3-council-candidates-in-their-own-words/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Remembering Sept. 11—and a Farmers Market Could Return",
+      "publisher": "La Verne Daily News",
+      "url": "https://www.lavernedaily.org/remembering-sept-11-and-a-farmers-market-could-return/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "LAGOP Endorsement Lookup",
+      "publisher": "Los Angeles County Republican Party",
+      "url": "https://lagop-endorsement-lookup.vercel.app/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "View Endorsements - Richard Bowen for City Council",
+      "publisher": "Committee to Elect Richard Bowen for La Verne City Council",
+      "url": "https://www.bowen4citycouncild3.com/view-endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "Ad Hoc Committee Information",
+      "publisher": "City of La Verne",
+      "url": "https://laverneca.gov/632/Ad-Hoc-Committee-Information",
+      "kind": "official",
+      "viewedAt": "2026-10-15",
+      "id": 5
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:39:39.179Z",
+    "version": 2
+  }
+}

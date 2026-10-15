@@ -1,0 +1,50 @@
+{
+  "key": "steven-m-mccall",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Steven M. McCall",
+  "office": "Altadena Library District, Member, Board of Trustees, Trustee Area No. 3",
+  "contestIds": ["la-4348-cc10541"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "In his candidate statement, Steven M. McCall wrote that he has lived in Altadena for 39 years and is retired. He stated that he has served on nonprofit boards, including the Los Angeles Conservancy and the Altadena Historical Society. He described himself as an advocate for the importance of libraries to democratic societies.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "In his candidate statement, Steven M. McCall wrote that he has lived in Altadena for 39 years and is retired.",
+            "cites": [1]
+          },
+          {
+            "text": "He stated that he has served on nonprofit boards, including the Los Angeles Conservancy and the Altadena Historical Society.",
+            "cites": [1]
+          },
+          {
+            "text": "He described himself as an advocate for the importance of libraries to democratic societies.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Altadena Library District Sets October 19 Forum for Trustee Area 3 Candidates",
+      "publisher": "Altadena Now",
+      "url": "https://www.altadena-now.com/main/town-life/altadena-library-district-sets-october-19-forum-for-trustee-area-3-candidates/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T14:05:39.710Z",
+    "version": 4
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "key": "shelby-richardson",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Shelby Richardson",
+  "office": "Inglewood Unified School District, Member, Board of Education, Trustee Area 2",
+  "contestIds": ["la-4348-cc10466"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Shelby Richardson holds a bachelor's degree in economics and a master's degree in quantitative economics, and she has worked as a math tutor. She works in the nonprofit sector on youth justice and policy advocacy.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Shelby Richardson holds a bachelor's degree in economics and a master's degree in quantitative economics, and she has worked as a math tutor.",
+            "cites": [1]
+          },
+          {
+            "text": "She works in the nonprofit sector on youth justice and policy advocacy.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      { "organization": "LA Forward", "kind": "organization", "cites": [2] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Your LA Local Voter Guide: Inglewood Board of Education",
+      "publisher": "The LA Local",
+      "url": "https://thelalocal.org/neighborhoods/inglewood/your-la-local-voter-guide-inglewood-board-of-education/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 2
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.039Z",
+    "version": 2
+  }
+}

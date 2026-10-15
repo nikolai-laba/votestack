@@ -1,0 +1,106 @@
+{
+  "key": "kristina-irwin",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Kristina Irwin",
+  "office": "Los Angeles Community College District, Member of the Board of Trustees, Seat 2",
+  "contestIds": ["la-4348-cc10588"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Kristina Irwin is a real estate agent. She is a former community college student. She serves on the general advisory board at Santa Monica College and says she served as a trustee at Palisades Charter High School. She wants to establish pre-entry programs in every local high school to prepare students for community college. She also says educators need resources to design classes that fit students' needs.",
+        "cites": [1, 2],
+        "sentences": [
+          { "text": "Kristina Irwin is a real estate agent.", "cites": [1] },
+          {
+            "text": "She is a former community college student.",
+            "cites": [2]
+          },
+          {
+            "text": "She serves on the general advisory board at Santa Monica College and says she served as a trustee at Palisades Charter High School.",
+            "cites": [2]
+          },
+          {
+            "text": "She wants to establish pre-entry programs in every local high school to prepare students for community college.",
+            "cites": [2]
+          },
+          {
+            "text": "She also says educators need resources to design classes that fit students' needs.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Howard Jarvis Taxpayers Association (HJTA-PAC)",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Voz Unida / California Latino Voter Alliance",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Kristina Irwin, Los Angeles Community College District Seat 2 candidate, 2026 election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/kristina-irwin-los-angeles-community-college-district-seat-2-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Your guide to the Los Angeles Community College Board of Trustees Seat 2 race",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-10-01/2026-california-election-los-angeles-community-college-board-of-trustees-seat-2-voter-guide",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "2026 Voting Guide for California Statewide General Election",
+      "publisher": "Howard Jarvis Taxpayers Association",
+      "url": "https://www.hjta.org/2026votingguide/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Los Angeles County voter guide",
+      "publisher": "California Latino Voter Alliance (Voz Unida)",
+      "url": "https://www.latinovoteralliance.org/voter-guides/los-angeles",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 5
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.888Z",
+    "version": 2
+  }
+}

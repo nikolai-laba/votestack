@@ -1,0 +1,82 @@
+{
+  "key": "skyy-d-fisher",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Skyy D. Fisher",
+  "office": "Compton Community College District, Governing Board Member, Trustee Area No. 1",
+  "contestIds": ["la-4348-cc10579"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Skyy D. Fisher is a vocational rehabilitation educator. His campaign says he also owns a small business. He previously served on the Compton Unified School District board. He began his career leading community outreach for housing and retail developments in the Compton Office of the Mayor and City Council. A USC Ross Program profile says he helped secure over $500 million in new construction.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Skyy D. Fisher is a vocational rehabilitation educator.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he also owns a small business.",
+            "cites": [2]
+          },
+          {
+            "text": "He previously served on the Compton Unified School District board.",
+            "cites": [2]
+          },
+          {
+            "text": "He began his career leading community outreach for housing and retail developments in the Compton Office of the Mayor and City Council.",
+            "cites": [3]
+          },
+          {
+            "text": "A USC Ross Program profile says he helped secure over $500 million in new construction.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate List - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "About - Official Website For Skyy D. Fisher",
+      "publisher": "Skyy D. Fisher campaign",
+      "url": "https://www.skyyfisher.com/about/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Alumni Profiles | USC Lusk",
+      "publisher": "USC Lusk Center for Real Estate",
+      "url": "https://lusk.usc.edu/ross/alumni/all",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "2020 Winter Alumni Profiles | USC Lusk",
+      "publisher": "USC Lusk Center for Real Estate",
+      "url": "https://lusk.usc.edu/index.php/ross/alumni/2020%20Winter",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T05:54:20.762Z",
+    "version": 1
+  }
+}

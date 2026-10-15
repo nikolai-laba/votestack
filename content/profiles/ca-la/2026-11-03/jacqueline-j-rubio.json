@@ -1,0 +1,51 @@
+{
+  "key": "jacqueline-j-rubio",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Jacqueline J. Rubio",
+  "office": "Valle Lindo School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10731"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Jacqueline J. Rubio is the vice president of the Valle Lindo School District Governing Board. She was elected to the board in 2022.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Jacqueline J. Rubio is the vice president of the Valle Lindo School District Governing Board.",
+            "cites": [1]
+          },
+          { "text": "She was elected to the board in 2022.", "cites": [2] }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board of Education - Valle Lindo - Valle Lindo School District",
+      "publisher": "Valle Lindo School District",
+      "url": "https://www.vallelindo.k12.ca.us/apps/pages/index.jsp?uREC_ID=1211155&type=d&pREC_ID=1447330",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "LA County Election Results",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://results.lavote.gov/text-results/4300",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.344Z",
+    "version": 1
+  }
+}

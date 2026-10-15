@@ -1,0 +1,77 @@
+{
+  "key": "paul-andre-marsh",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Paul Andre Marsh",
+  "party": "Party Preference: Republican",
+  "office": "State Assembly Member, 39th District",
+  "contestIds": ["la-4348-cc10782"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Paul Andre Marsh is a community services liaison. His campaign website says he supports a tough-on-crime approach, standing with law enforcement and opposing state policies he says release violent criminals.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Paul Andre Marsh is a community services liaison.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign website says he supports a tough-on-crime approach, standing with law enforcement and opposing state policies he says release violent criminals.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Republican Party",
+        "kind": "party",
+        "cites": [2]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Assembly District 39",
+      "publisher": "Initiate Justice Action",
+      "url": "https://ijaction.org/assembly-district-39/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Additional Election Information — November 3, 2026 General Election: Party Endorsements for Voter-Nominated Offices",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/additional-election-information",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 3
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.666Z",
+    "version": 3
+  }
+}

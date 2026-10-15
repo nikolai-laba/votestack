@@ -1,0 +1,55 @@
+{
+  "key": "marcos-torres-alvarez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Marcos Torres Alvarez",
+  "office": "Palmdale School District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10760"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Marcos Torres Alvarez is a community organizer running for the Palmdale School District Board in Trustee Area 5.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Marcos Torres Alvarez is a community organizer running for the Palmdale School District Board in Trustee Area 5.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [2] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Palmdale School Board 2026: Seven Filers Line Up for Three Trustee-Area Seats",
+      "publisher": "Antelope Valley Online",
+      "url": "https://antelopevalleyonline.com/palmdale-school-board-2026-seven-filers-line-up-for-three-trustee-area-seats/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
+      "publisher": "SEIU Local 721",
+      "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 2
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.104Z",
+    "version": 2
+  }
+}

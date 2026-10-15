@@ -1,0 +1,113 @@
+{
+  "key": "henry-e-gonzales",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Henry E. Gonzales",
+  "office": "Hacienda La Puente Unified School District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10650"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Henry E. Gonzales is a retired broker. He served as chair of the Hacienda La Puente Unified School District Personnel Commission. He was a booster club president for Wilson High School and Los Altos High School.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          { "text": "Henry E. Gonzales is a retired broker.", "cites": [1] },
+          {
+            "text": "He served as chair of the Hacienda La Puente Unified School District Personnel Commission.",
+            "cites": [2]
+          },
+          {
+            "text": "He was a booster club president for Wilson High School and Los Altos High School.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "In a questionnaire, he identified declining enrollment and long-term financial stability as the district's top needs. He also supports regular compensation studies comparing classified staff pay to other districts. On his campaign site, he calls for prioritizing campus safety, anti-bullying programs, and mental health support.",
+        "cites": [4, 5],
+        "sentences": [
+          {
+            "text": "In a questionnaire, he identified declining enrollment and long-term financial stability as the district's top needs.",
+            "cites": [4]
+          },
+          {
+            "text": "He also supports regular compensation studies comparing classified staff pay to other districts.",
+            "cites": [4]
+          },
+          {
+            "text": "On his campaign site, he calls for prioritizing campus safety, anti-bullying programs, and mental health support.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "State Sen. Bob Archuleta",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [1]
+      },
+      {
+        "organization": "Former HLPUSD Board Member Penny Fraumeni",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      { "organization": "SEIU Local 99", "kind": "union", "cites": [1] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "About Henry - Henry Gonzales for School Board",
+      "publisher": "Henry Gonzales for School Board",
+      "url": "https://www.gonzales4hlpusd.com/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Personnel Commission Meeting Agenda November 2, 2021",
+      "publisher": "Hacienda La Puente Unified School District Personnel Commission",
+      "url": "https://www.hlpusdjobs.org/wp-content/uploads/11-02-21-Agenda-Public.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Personnel Commission Annual Report",
+      "publisher": "Hacienda La Puente Unified School District Personnel Commission",
+      "url": "https://www.hlpusdjobs.org/wp-content/uploads/2023/10/Annual-Report-2022-2023.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Henry Gonzales, Hacienda-La Puente Unified School District Area 5 candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/henry-gonzales-hacienda-la-puente-unified-school-district-area-5-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Henry Gonzales for School Board — Hacienda La Puente USD",
+      "publisher": "Henry Gonzales for School Board",
+      "url": "https://gonzales4hlpusd.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.095Z",
+    "version": 1
+  }
+}

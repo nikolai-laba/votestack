@@ -1,0 +1,80 @@
+{
+  "key": "pamela-starlson",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Pamela Starlson",
+  "office": "Lancaster School District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10707"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Pamela Starlson is the Area 5 incumbent on the Lancaster School District Governing Board, elected in 2022. She was a district parent advocate from 2003 to 2012. She holds degrees in sociology, criminal justice, and liberal arts and sciences, and has worked as an at-risk youth counselor and in student services.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Pamela Starlson is the Area 5 incumbent on the Lancaster School District Governing Board, elected in 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "She was a district parent advocate from 2003 to 2012.",
+            "cites": [2]
+          },
+          {
+            "text": "She holds degrees in sociology, criminal justice, and liberal arts and sciences, and has worked as an at-risk youth counselor and in student services.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "As a board member, she has participated in CSBA professional development workshops and training sessions. In a 2026 candidate questionnaire, she said the board’s primary responsibility is to provide governance, set policy, and ensure the district moves in the right direction.",
+        "cites": [2, 3],
+        "sentences": [
+          {
+            "text": "As a board member, she has participated in CSBA professional development workshops and training sessions.",
+            "cites": [2]
+          },
+          {
+            "text": "In a 2026 candidate questionnaire, she said the board’s primary responsibility is to provide governance, set policy, and ensure the district moves in the right direction.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Lancaster School Board Election 2026: Candidate Guide",
+      "publisher": "Antelope Valley Online",
+      "url": "https://antelopevalleyonline.com/lancaster-school-board-election-2026-candidate-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Meet the Board",
+      "publisher": "Lancaster School District",
+      "url": "https://www.lancsd.org/Board-of-Trustees/Meet-the-Board/index.html",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Pamela Starlson, Lancaster School District Trustee Area 5 candidate, 2026 election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/pamela-starlson-lancaster-school-district-trustee-area-5-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.135Z",
+    "version": 1
+  }
+}

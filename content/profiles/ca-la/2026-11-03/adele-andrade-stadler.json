@@ -1,0 +1,130 @@
+{
+  "key": "adele-andrade-stadler",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Adele Andrade Stadler",
+  "office": "City of Alhambra, Member of the City Council, Fifth District",
+  "contestIds": ["la-4348-cc10410"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Adele Andrade Stadler has represented District 5 on the Alhambra City Council since 2018. She previously served on the Alhambra Unified School District Board of Education. She is vice chair of the Los Angeles County Department of Social Services. On the council, she has supported speed tables and an Active Transportation Plan.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Adele Andrade Stadler has represented District 5 on the Alhambra City Council since 2018.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously served on the Alhambra Unified School District Board of Education.",
+            "cites": [2]
+          },
+          {
+            "text": "She is vice chair of the Los Angeles County Department of Social Services.",
+            "cites": [1]
+          },
+          {
+            "text": "On the council, she has supported speed tables and an Active Transportation Plan.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "In her 2022 campaign, she said she established inclusionary housing and anti-vaping ordinances. She also listed a no-fault eviction policy and a community workforce agreement among her achievements. In a 2026 questionnaire, she proposed creating workforce housing for teachers and firefighters. She also said she would shift council focus from transportation to food insecurity.",
+        "cites": [3, 4],
+        "sentences": [
+          {
+            "text": "In her 2022 campaign, she said she established inclusionary housing and anti-vaping ordinances.",
+            "cites": [3]
+          },
+          {
+            "text": "She also listed a no-fault eviction policy and a community workforce agreement among her achievements.",
+            "cites": [3]
+          },
+          {
+            "text": "In a 2026 questionnaire, she proposed creating workforce housing for teachers and firefighters.",
+            "cites": [4]
+          },
+          {
+            "text": "She also said she would shift council focus from transportation to food insecurity.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [5]
+      },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [6]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Adele Andrade-Stadler | Alhambra, CA",
+      "publisher": "City of Alhambra",
+      "url": "https://www.alhambraca.gov/337/Adele-Andrade-Stadler",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Noche 2023 Honoree - Elected Official - Adele Andrade-Stadler",
+      "publisher": "ActiveSGV",
+      "url": "https://www.activesgv.org/post/noche-2023-honoree-adele-andrade-stadler",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "MISSION STATEMENT | My Site",
+      "publisher": "Adele Andrade Stadler campaign",
+      "url": "https://www.adele4alhambra.com/mission-statement",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Running for Alhambra City Council District 5: Adele Andrade-Stadler",
+      "publisher": "Around Alhambra",
+      "url": "https://aroundalhambra.org/running-for-alhambra-city-council-district-5-adele-andrade-stadler/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 6
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.279Z",
+    "version": 2
+  }
+}

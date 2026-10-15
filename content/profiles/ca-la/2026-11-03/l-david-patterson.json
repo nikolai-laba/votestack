@@ -1,0 +1,178 @@
+{
+  "key": "l-david-patterson",
+  "electionId": "ca-2026-11-03-general",
+  "name": "L. David Patterson",
+  "office": "City of Hawthorne, City Treasurer",
+  "contestIds": ["la-4348-cc10457"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "L. David Patterson previously served as Hawthorne City Treasurer and as a Hawthorne city councilmember. He serves as the chief deputy treasurer for the City of Carson. In a 2024 questionnaire, he said that as treasurer he increased the city's annual investment returns from $30,000 to over $500,000 and reduced banking fees by hundreds of thousands of dollars annually. He also stated that as a councilmember he chaired the Financial Oversight Committee and introduced protocols that helped grow the city's cash balance from $5 million to $100 million.",
+        "cites": [5, 1]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [2]
+      },
+      {
+        "organization": "Western States Carpenters Union",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "Hawthorne Municipal Employees Association (HMEA)",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "California State Controller Malia M. Cohen",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Richard Polanco, former California State Senator",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Lawndale Mayor Robert Pullen-Miles",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Hawthorne Councilmember Angie Reyes-English",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Hawthorne Councilmember Alex Monteiro",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Carson City Treasurer Monica Cooper",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Compton City Treasurer Brandon Mims",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "South Gate City Treasurer Jose De La Paz",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Gardena Councilmember Mark E. Henderson, Ed.D",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Carson Councilmember Dr. Jawane Hilton",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Inglewood Councilmember Eloy Morales, Jr.",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Artesia Councilmember Ali Taj",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Lathrop Councilmember Minnie Diallo",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Al Austin II, former Long Beach Councilmember",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "El Camino College Board of Trustees President Nilo Michelin",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Centinela Valley Union High School District Board President Hugo M. Rojas II",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Hawthorne School District Board Member Luciano Aguilar",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Hawthorne School District Board Member Dr. Eugene Krank",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [4] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "L. David Patterson, Hawthorne mayoral candidate, 2024 election questionnaire",
+      "publisher": "Daily Breeze",
+      "url": "https://www.dailybreeze.com/2024/10/15/l-david-patterson-hawthorne-mayoral-candidate-2024-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Endorsements - Dr. David Patterson",
+      "publisher": "Patterson for Treasurer 2026",
+      "url": "https://patterson4treasurer.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 4
+    },
+    {
+      "title": "Experience That Matters | Dr. David Patterson, Candidate for Hawthorne City Treasurer",
+      "publisher": "Patterson for Treasurer 2026",
+      "url": "https://patterson4treasurer.com/experience",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15",
+      "id": 5
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:39:39.175Z",
+    "version": 2
+  }
+}

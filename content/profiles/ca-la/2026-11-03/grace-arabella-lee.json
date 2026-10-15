@@ -1,0 +1,74 @@
+{
+  "key": "grace-arabella-lee",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Grace Arabella Lee",
+  "office": "City of Arcadia, Member of the City Council, 3rd District",
+  "contestIds": ["la-4348-cc10412"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Grace Arabella Lee is a teacher, minister and author. In a candidate questionnaire, she said her top priority is restoring civic unity and open communication in Arcadia. In September 2026, she announced her candidacy at a City Council meeting and spoke about bringing positive change. She also said leaders should prioritize transparency, empathy, community goodwill and constructive dialogue. Her campaign website says her run is rooted in service, education, faith, compassion and community.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Grace Arabella Lee is a teacher, minister and author.",
+            "cites": [1]
+          },
+          {
+            "text": "In a candidate questionnaire, she said her top priority is restoring civic unity and open communication in Arcadia.",
+            "cites": [1]
+          },
+          {
+            "text": "In September 2026, she announced her candidacy at a City Council meeting and spoke about bringing positive change.",
+            "cites": [2]
+          },
+          {
+            "text": "She also said leaders should prioritize transparency, empathy, community goodwill and constructive dialogue.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign website says her run is rooted in service, education, faith, compassion and community.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Grace Lee, Arcadia City Council District 3 candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/grace-lee-arcadia-city-council-district-3-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "09/01/2026",
+      "publisher": "City of Arcadia",
+      "url": "https://laserfiche.arcadiaca.gov/WebLink/DocView.aspx?id=883417&dbid=0&repo=CityofArcadia",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Grace Lee For Arcadia",
+      "publisher": "Grace Lee for Arcadia",
+      "url": "https://www.graceleeforarcadia.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.478Z",
+    "version": 1
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "key": "simon-wright",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Simon Wright",
+  "office": "Covina-Valley Unified School District, Governing Board Member, Trustee Area No. 4",
+  "contestIds": ["la-4348-cc10635"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Simon Wright is a member of the Covina-Valley Unified School District governing board, representing Trustee Area 4, and serves as its clerk. He joined the board in 2022. He owns a real estate property management company. During his 2022 campaign, he advocated for ways to address learning loss from the COVID-19 pandemic and for greater transparency and communication. He also said his private-sector experience analyzing budgets and making data-driven decisions would help the board.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Simon Wright is a member of the Covina-Valley Unified School District governing board, representing Trustee Area 4, and serves as its clerk.",
+            "cites": [1]
+          },
+          { "text": "He joined the board in 2022.", "cites": [2] },
+          {
+            "text": "He owns a real estate property management company.",
+            "cites": [2]
+          },
+          {
+            "text": "During his 2022 campaign, he advocated for ways to address learning loss from the COVID-19 pandemic and for greater transparency and communication.",
+            "cites": [3]
+          },
+          {
+            "text": "He also said his private-sector experience analyzing budgets and making data-driven decisions would help the board.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board of Education",
+      "publisher": "Covina-Valley Unified School District",
+      "url": "https://www.c-vusd.org/board-of-education",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Covina-Valley Unified School District Board of Education Reorganizes, Welcomes New Board Members",
+      "publisher": "California School News Report",
+      "url": "https://caschoolnews.net/articles/covina-valley-unified-school-district-board-of-education-reorganizes-welcomes-new-board-members/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Election 2022: Trustee Area 4 seat up for grabs on Covina-Valley Unified board",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2022/10/31/election-2022-trustee-area-4-seat-up-for-grabs-on-covina-valley-unified-board/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T05:54:20.836Z",
+    "version": 1
+  }
+}

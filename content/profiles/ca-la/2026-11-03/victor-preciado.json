@@ -1,0 +1,94 @@
+{
+  "key": "victor-preciado",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Victor Preciado",
+  "office": "City of Pomona, Member of the City Council, 2nd District",
+  "contestIds": ["la-4348-cc10772"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Victor Preciado is the District 2 councilmember on the Pomona City Council, elected in November 2018. He serves on the Foothill Transit board. He also sits on several water master boards. His campaign says he revitalized every park in District 2, opened a large playground and skate park, and that the city secured a $500,000 grant for Palm Lakes Golf Course. His campaign says he helped deliver groceries to more than 700 families each week during the COVID-19 pandemic. He wants to continue transportation and infrastructure improvements, expand affordable and inclusionary housing, and support youth programs.",
+        "cites": [1, 2, 3]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "State Sen. Susan Rubio",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "Pomona Mayor Tim Sandoval",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Pomona City Councilmember Nora Garcia",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Three Valleys Municipal Water District Director Carlos Goytia",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      { "organization": "Teamsters Local 1932", "kind": "union", "cites": [4] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Councilmember Victor Preciado | City of Pomona, CA",
+      "publisher": "City of Pomona",
+      "url": "https://www.pomonaca.gov/government/mayor-city-council/councilmember-victor-preciado",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Victor Preciado for Pomona City Council, District 2 | Re-Elect 2026",
+      "publisher": "Victor Preciado campaign",
+      "url": "https://victorforpomona.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Who Speaks for District 2?",
+      "publisher": "The Pomonan",
+      "url": "https://www.thepomonan.com/pomona-politics-1/2026/9/1/who-speaks-for-district-2",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Endorsements | Victor Preciado for Pomona City Council, District 2",
+      "publisher": "Victor Preciado for City Council 2026",
+      "url": "https://victorforpomona.com/endorsements.html",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "La Nueva Voz, March 2026 issue",
+      "publisher": "La Nueva Voz",
+      "url": "https://www.lanuevavoz.net/Issues/260326-issue-march.pdf",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:39:39.199Z",
+    "version": 2
+  }
+}

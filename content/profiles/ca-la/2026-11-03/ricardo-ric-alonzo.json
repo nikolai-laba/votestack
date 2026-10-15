@@ -1,0 +1,80 @@
+{
+  "key": "ricardo-ric-alonzo",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Ricardo \"Ric\" Alonzo",
+  "office": "City of Montebello, Member of the City Council, 5th District",
+  "contestIds": ["la-4348-cc10484"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Ricardo “Ric” Alonzo is an aerospace engineer appointed to the Montebello City Council District 5 seat in January 2025. He was appointed with only two council members present. In March 2026, he voted against a housing rezoning ordinance, which failed 2-3. His campaign says he voted to keep AI data centers out of Montebello and to fund a $50,000 family relief program.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Ricardo “Ric” Alonzo is an aerospace engineer appointed to the Montebello City Council District 5 seat in January 2025.",
+            "cites": [1]
+          },
+          {
+            "text": "He was appointed with only two council members present.",
+            "cites": [2]
+          },
+          {
+            "text": "In March 2026, he voted against a housing rezoning ordinance, which failed 2-3.",
+            "cites": [3]
+          },
+          {
+            "text": "His campaign says he voted to keep AI data centers out of Montebello and to fund a $50,000 family relief program.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "His campaign lists accomplishments including a police and community resource center on the south side, more repaved streets, renovated park restrooms, and the Chet Holifield community garden, accepted as complete in September 2026.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "His campaign lists accomplishments including a police and community resource center on the south side, more repaved streets, renovated park restrooms, and the Chet Holifield community garden, accepted as complete in September 2026.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "About Ric Alonzo • Montebello District 5",
+      "publisher": "Ric Alonzo campaign",
+      "url": "https://votericalonzo.com/about.html",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "With Only Two Members Present, Montebello City Council Appoints Rick Alonzo to Open Seat",
+      "publisher": "Los Cerritos Community News",
+      "url": "https://www.loscerritosnews.net/2025/01/29/with-only-two-members-present-montebello-city-council-appoints-rick-alonzo-to-open-seat/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Ricardo \"Ric\" Alonzo — Montebello City Council Candidate 2026",
+      "publisher": "Playpotus",
+      "url": "https://playpotus.com/ca/montebello/ricardo-alonzo",
+      "kind": "reference",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.509Z",
+    "version": 1
+  }
+}

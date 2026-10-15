@@ -1,0 +1,33 @@
+{
+  "reason": "Tone: replaced an en dash in the vote count",
+  "overview": [
+    {
+      "action": "replace",
+      "match": "In May 2026 the City Council voted 4–0 to censure Spicer aft",
+      "text": "In May 2026 the City Council voted 4 to 0 to censure Spicer after an outside report concluded he had used his city-issued Cal-Card for expenses outside the policy limiting its use to travel and training. The report initially flagged nearly $8,000 in out-of-policy purchases. Spicer released a public statement taking responsibility. He later found receipts that reduced the total and repaid $513 to the city. The council revoked his credit card access and removed his mayor pro tem title. It also took him off all municipal boards and committees and forwarded the matter to the Los Angeles County District Attorney’s Office for review. He called the censure a political attack timed before the election. He publicly criticized the decision to place the city manager on administrative leave, arguing it was done without a formal council vote or shared legal advice. He also called for transparency and due process.",
+      "sources": [
+        {
+          "title": "Council censures colleague over credit card allegations",
+          "publisher": "Wave Publication",
+          "url": "https://wavepublication.com/council-censures-colleague-over-credit-card-allegations/",
+          "kind": "news",
+          "viewedAt": "2026-10-14"
+        },
+        {
+          "title": "The Pattern Doesn't Lie",
+          "publisher": "The Compton Bulletin",
+          "url": "https://thecomptonbulletin.news4usonline.com/2026/06/01/the-pattern-doesnt-lie/",
+          "kind": "news",
+          "viewedAt": "2026-10-14"
+        },
+        {
+          "title": "Spicer condemns actions against city manager – The Bulletin",
+          "publisher": "The Compton Bulletin",
+          "url": "https://thecomptonbulletin.news4usonline.com/2026/04/13/spicer-condemns-actions-against-city-manager/",
+          "kind": "news",
+          "viewedAt": "2026-10-14"
+        }
+      ]
+    }
+  ]
+}

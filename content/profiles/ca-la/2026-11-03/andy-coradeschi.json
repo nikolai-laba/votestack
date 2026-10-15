@@ -1,0 +1,160 @@
+{
+  "key": "andy-coradeschi",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Andy Coradeschi",
+  "office": "Las Virgenes Municipal Water District, Member, Board of Directors, Division 2",
+  "contestIds": ["la-4348-cc10548"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Andy Coradeschi is president and Division 2 director of the Las Virgenes Municipal Water District, joining the board in 2022. He has engineering and business degrees and owns a small business. During his tenure, the district secured over $335 million for the Pure Water Project. The board adopted an ordinance enforcing Senate Bill 394, a state water theft law. His campaign says the district added four water sources.",
+        "cites": [1, 2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "Andy Coradeschi is president and Division 2 director of the Las Virgenes Municipal Water District, joining the board in 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "He has engineering and business degrees and owns a small business.",
+            "cites": [2]
+          },
+          {
+            "text": "During his tenure, the district secured over $335 million for the Pure Water Project.",
+            "cites": [3]
+          },
+          {
+            "text": "The board adopted an ordinance enforcing Senate Bill 394, a state water theft law.",
+            "cites": [4]
+          },
+          {
+            "text": "His campaign says the district added four water sources.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Assemblymember Jacqui Irwin",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Former State Sen. Fran Pavley (first Mayor of Agoura Hills)",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Agoura Hills Mayor Jeremy Wolf",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Agoura Hills Mayor Pro Tem Deborah Klein Lopez",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Agoura Hills Councilmember Penny Sylvester",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Agoura Hills Councilmember Kate Anderson",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Agoura Hills Councilmember Chris Anstead",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Calabasas Mayor James Bozajian",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Calabasas Mayor Pro Tem Ed Albrecht",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Calabasas Councilmember Peter Kraut",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Calabasas Councilmember Alicia Weintraub",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Calabasas Councilmember David Shapiro",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Former Agoura Hills Mayor Illece Buckley Weber",
+        "kind": "elected_official",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board of Directors",
+      "publisher": "Las Virgenes Municipal Water District",
+      "url": "https://www.lvmwd.gov/board-of-directors",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Andy Coradeschi",
+      "publisher": "Las Virgenes Municipal Water District",
+      "url": "https://www.lvmwd.gov/andy-coradeschi",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Pure Water Project Gets $335 Million in Financing",
+      "publisher": "Valley News Group",
+      "url": "https://valleynewsgroup.com/pure-water-project-gets-335-million-in-financing/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "LVMWD Cracks Down on Water Thieves",
+      "publisher": "Valley News Group",
+      "url": "https://valleynewsgroup.com/lvmwd-cracks-down-on-water-thieves/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Andy Coradeschi | water",
+      "publisher": "Andy Coradeschi campaign",
+      "url": "https://www.andycoradeschi.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.402Z",
+    "version": 1
+  }
+}

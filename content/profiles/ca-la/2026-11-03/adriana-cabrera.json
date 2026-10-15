@@ -1,0 +1,58 @@
+{
+  "key": "adriana-cabrera",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Adriana Cabrera",
+  "office": "Los Angeles Community College District, Member of the Board of Trustees, Seat 2",
+  "contestIds": ["la-4348-cc10588"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Educator Adriana Cabrera is a former president of the Central Alameda Neighborhood Council. She co-founded a collective that she says has helped thousands of first-generation students. She wants to invest in student services, including financial aid, housing, child care and mental health. She aims to connect education to good-paying jobs and ensure community input on budgets. Cabrera proposes reviewing spending for efficiency and generating revenue without raising student costs.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Educator Adriana Cabrera is a former president of the Central Alameda Neighborhood Council.",
+            "cites": [1]
+          },
+          {
+            "text": "She co-founded a collective that she says has helped thousands of first-generation students.",
+            "cites": [1]
+          },
+          {
+            "text": "She wants to invest in student services, including financial aid, housing, child care and mental health.",
+            "cites": [1]
+          },
+          {
+            "text": "She aims to connect education to good-paying jobs and ensure community input on budgets.",
+            "cites": [1]
+          },
+          {
+            "text": "Cabrera proposes reviewing spending for efficiency and generating revenue without raising student costs.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "L.A. Community College Board of Trustees Seat 2 election guide",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-10-01/2026-california-election-los-angeles-community-college-board-of-trustees-seat-2-voter-guide",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:48.885Z",
+    "version": 1
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "key": "norma-natalie-rodarte",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Norma Natalie Rodarte",
+  "office": "Whittier City School District, Governing Board Member, Trustee Area No. 3",
+  "contestIds": ["la-4348-cc10733"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Norma Natalie Rodarte is a retired Whittier City School District employee running for the Whittier City School District Governing Board, Trustee Area No. 3. She started with the district as a clerk in 1988 and later worked as a noon duty aide, instructional aide, and administrative secretary for a principal, mostly at Edwards Middle School, before retiring in 2021. She says a school board should provide strong leadership, establish clear policies, oversee the district's budget, and focus on student success.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Norma Natalie Rodarte is a retired Whittier City School District employee running for the Whittier City School District Governing Board, Trustee Area No. 3.",
+            "cites": [1]
+          },
+          {
+            "text": "She started with the district as a clerk in 1988 and later worked as a noon duty aide, instructional aide, and administrative secretary for a principal, mostly at Edwards Middle School, before retiring in 2021.",
+            "cites": [2]
+          },
+          {
+            "text": "She says a school board should provide strong leadership, establish clear policies, oversee the district's budget, and focus on student success.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Calif. State Sen. Bob Archuleta",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [3]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Janice Hahn, District 4",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Whittier City Councilwoman Vicky Santana",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Irma Rodriguez-Moisa, President, Whittier Union High School District Board of Trustees",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Russell Castañeda-Calleros, Whittier Union High School District Trustee",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Josefina Canchola, Whittier Union High School District Trustee",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Jaime Lopez, Whittier Union High School District Trustee",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Caro Jauregui, Whittier City School District Trustee, Area 1",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [4]
+      },
+      {
+        "organization": "California School Employees Association (CSEA)",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "Whittier Elementary Teachers Association (WETA)",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "Reform Whittier",
+        "kind": "organization",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Norma Rodarte, Whittier Elementary School District Area 3 candidate, 2026 election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/norma-rodarte-whittier-elementary-school-district-area-3-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Election 2022: Five write-in candidates seek Whittier City school board seat",
+      "publisher": "Whittier Daily News",
+      "url": "https://www.whittierdailynews.com/2022/11/01/election-2022-five-write-in-candidates-seek-whittier-city-school-board-seat/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Endorsements | Rodarte for Whittier City School District",
+      "publisher": "Rodarte for Whittier City School District 2026",
+      "url": "https://rodarte4whittiercityschools.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.350Z",
+    "version": 1
+  }
+}

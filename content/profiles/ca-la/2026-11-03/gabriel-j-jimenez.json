@@ -1,0 +1,66 @@
+{
+  "key": "gabriel-j-jimenez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Gabriel J. Jimenez",
+  "office": "Little Lake City School District, Governing Board Member, Trustee Area No. 2",
+  "contestIds": ["la-4348-cc10713"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Gabriel J. Jimenez is a business development professional and a former member of the Little Lake City School District Board of Education, serving from 2018 to 2022. He chairs the Santa Fe Springs Planning Commission, the Heritage Arts Advisory Committee and the district's Bond Oversight Committee. During his previous term, he served as board president and says he was part of approving a $36 million infrastructure bond for all nine district schools. His campaign says he was named the Whittier Area School Administrators Outstanding School Board Member of the Year in 2023. He says the district's top needs are teacher and staff support and addressing its failing budget.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Gabriel J. Jimenez is a business development professional and a former member of the Little Lake City School District Board of Education, serving from 2018 to 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "He chairs the Santa Fe Springs Planning Commission, the Heritage Arts Advisory Committee and the district's Bond Oversight Committee.",
+            "cites": [2]
+          },
+          {
+            "text": "During his previous term, he served as board president and says he was part of approving a $36 million infrastructure bond for all nine district schools.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he was named the Whittier Area School Administrators Outstanding School Board Member of the Year in 2023.",
+            "cites": [2]
+          },
+          {
+            "text": "He says the district's top needs are teacher and staff support and addressing its failing budget.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Gabriel Jimenez, Little Lake City School District 2 candidate, 2026 election questionnaire",
+      "publisher": "Pasadena Star-News",
+      "url": "https://www.pasadenastarnews.com/2026/10/05/gabriel-jimenez-little-lake-city-school-district-2-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Gabriel Jimenez for School Board 2026",
+      "publisher": "Gabriel Jimenez for School Board 2026",
+      "url": "https://gabrieljimenezsfs.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.172Z",
+    "version": 1
+  }
+}

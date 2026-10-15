@@ -1,0 +1,109 @@
+{
+  "key": "al-barlevy",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Al Barlevy",
+  "office": "Abc Unified School District, Governing Board Member, Trustee Area No. 2",
+  "contestIds": ["la-4348-cc10604"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Al Barlevy is a member of the Cerritos Senior Services Commission. He also serves on the Cerritos Economic Development Commission. Campaign finance records list his occupation as retired.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Al Barlevy is a member of the Cerritos Senior Services Commission.",
+            "cites": [1]
+          },
+          {
+            "text": "He also serves on the Cerritos Economic Development Commission.",
+            "cites": [2]
+          },
+          {
+            "text": "Campaign finance records list his occupation as retired.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [4]
+      },
+      {
+        "organization": "DFI-Los Angeles",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Democrats for Israel – Los Angeles",
+        "kind": "organization",
+        "cites": [6]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Senior Services Commission | City of Cerritos",
+      "publisher": "City of Cerritos",
+      "url": "https://www.cerritos.gov/city-government/commissions-and-committees-advisory-boards/senior-services-commission/",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Economic Development Commission - City of Cerritos",
+      "publisher": "City of Cerritos",
+      "url": "https://www.cerritos.gov/city-government/commissions-and-committees-advisory-boards/economic-development-commission/",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Campaign Transactions",
+      "publisher": "Los Angeles County",
+      "url": "https://netfile.com/public/LACO/campaign/transactions",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements - Election Candidates Endorsed by DFI-Los Angeles",
+      "publisher": "DFI-Los Angeles",
+      "url": "https://www.dfi-la.org/endorse",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Democrats for Israel – Los Angeles",
+      "url": "https://dfi-la.org/endorse",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 6
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.945Z",
+    "version": 2
+  }
+}

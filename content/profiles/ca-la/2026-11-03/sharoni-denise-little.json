@@ -1,0 +1,74 @@
+{
+  "key": "sharoni-denise-little",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Sharoni Denise Little",
+  "office": "Compton Community College District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10581"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Sharoni Denise Little is a Compton Community College District trustee for Area 5. In December 2024 the board elected her clerk. Little is a professor of clinical business communication at the University of Southern California's Marshall School of Business and CEO of The Strategist Company. She previously oversaw the global inclusion strategy for Creative Artists Agency. A district biography lists her expertise as workplace inclusion, equity, antiracism, and mitigating bias.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Sharoni Denise Little is a Compton Community College District trustee for Area 5.",
+            "cites": [1]
+          },
+          {
+            "text": "In December 2024 the board elected her clerk.",
+            "cites": [2]
+          },
+          {
+            "text": "Little is a professor of clinical business communication at the University of Southern California's Marshall School of Business and CEO of The Strategist Company.",
+            "cites": [3]
+          },
+          {
+            "text": "She previously oversaw the global inclusion strategy for Creative Artists Agency.",
+            "cites": [3]
+          },
+          {
+            "text": "A district biography lists her expertise as workplace inclusion, equity, antiracism, and mitigating bias.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Elections - Compton College",
+      "publisher": "Compton College",
+      "url": "https://www.compton.edu/district/board-of-trustees/elections.aspx",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Compton Community College Trustees take oath of office",
+      "publisher": "The Compton Bulletin",
+      "url": "https://thecomptonbulletin.news4usonline.com/2025/01/16/compton-community-college-trustees-take-oath/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Legislative Advocacy Handbook",
+      "publisher": "Compton Community College District",
+      "url": "https://go.boarddocs.com/ca/compton/Board.nsf/files/DCSVKB81173A/$file/2025-Advocacy-Handbook_DRAFT.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T05:54:20.767Z",
+    "version": 1
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "key": "maryann-g-barrios",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Maryann G. Barrios",
+  "office": "City of El Monte, City Treasurer",
+  "contestIds": ["la-4348-cc10659"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Maryann G. Barrios is a retired analyst and retired certified public accountant running for El Monte City Treasurer. She says she has a bachelor's degree in business administration and years of experience in the nonprofit sector. As treasurer, she says she would support greater financial transparency, regular reviews of revenue and spending, and long-term financial planning.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Maryann G. Barrios is a retired analyst and retired certified public accountant running for El Monte City Treasurer.",
+            "cites": [1]
+          },
+          {
+            "text": "She says she has a bachelor's degree in business administration and years of experience in the nonprofit sector.",
+            "cites": [1]
+          },
+          {
+            "text": "As treasurer, she says she would support greater financial transparency, regular reviews of revenue and spending, and long-term financial planning.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Maryann Barrios, El Monte city treasurer candidate, 2026 ...",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/maryann-barrios-el-monte-city-treasurer-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.393Z",
+    "version": 1
+  }
+}

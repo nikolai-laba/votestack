@@ -1,0 +1,102 @@
+{
+  "key": "steve-rhee",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Steve Rhee",
+  "office": "City of Arcadia, Member of the City Council, 5th District",
+  "contestIds": ["la-4348-cc10413"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Steve Rhee is a Vice President at ReMax Commercial. He owns a business in Arcadia. He is a board member of the Downtown Arcadia Improvement Association.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Steve Rhee is a Vice President at ReMax Commercial.",
+            "cites": [1]
+          },
+          { "text": "He owns a business in Arcadia.", "cites": [2] },
+          {
+            "text": "He is a board member of the Downtown Arcadia Improvement Association.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "His campaign says he is committed to public safety and addressing homelessness. He calls for restoring trust in the City Council. In 2024, he urged the city to waive fees for the Lunar New Year Festival. In 2026, he criticized the City Council over a former mayor's guilty plea for secretly working as a foreign agent, saying they had lied to residents.",
+        "cites": [2, 1, 3, 4],
+        "sentences": [
+          {
+            "text": "His campaign says he is committed to public safety and addressing homelessness.",
+            "cites": [2]
+          },
+          {
+            "text": "He calls for restoring trust in the City Council.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2024, he urged the city to waive fees for the Lunar New Year Festival.",
+            "cites": [3]
+          },
+          {
+            "text": "In 2026, he criticized the City Council over a former mayor's guilty plea for secretly working as a foreign agent, saying they had lied to residents.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Former Arcadia Mayor Gail Marshall",
+        "kind": "elected_official",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Steve Rhee, Arcadia City Council District 5 candidate, 2026 election questionnaire",
+      "publisher": "Pasadena Star-News",
+      "url": "https://www.pasadenastarnews.com/2026/10/05/steve-rhee-arcadia-city-council-district-5-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Steve Rhee 4 Arcadia - Public Safety, Homelessness are Priorities",
+      "publisher": "Steve Rhee campaign",
+      "url": "https://rhee4arcadia.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "02/06/2024",
+      "publisher": "City of Arcadia",
+      "url": "https://laserfiche.arcadiaca.gov/WebLink/DocView.aspx?id=856029&dbid=0&repo=CityofArcadia",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Former California mayor pleads guilty to secretly working as foreign agent of China",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-05-29/former-arcadia-mayor-guilty-plea-foreign-agent-china",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.289Z",
+    "version": 1
+  }
+}

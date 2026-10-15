@@ -1,0 +1,42 @@
+{
+  "key": "lindsey-morgan",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Lindsey Morgan",
+  "office": "City of Glendora, Member of the City Council, 4th District",
+  "contestIds": ["la-4348-cc10454"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Lindsey Morgan is a realtor and high school cheer coach running for Glendora City Council in District 4.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Lindsey Morgan is a realtor and high school cheer coach running for Glendora City Council in District 4.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Lindsey Morgan, Glendora City Council District 4 candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/lindsey-morgan-glendora-city-council-district-4-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.397Z",
+    "version": 1
+  }
+}

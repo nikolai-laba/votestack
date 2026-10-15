@@ -1,0 +1,71 @@
+{
+  "key": "alma-ruby-andrade",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Alma Ruby Andrade",
+  "office": "Lynwood Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10653"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Alma Ruby Andrade is a healthcare advocate. She works as a library media assistant at Wilson Elementary School in the Lynwood Unified School District.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Alma Ruby Andrade is a healthcare advocate.",
+            "cites": [1]
+          },
+          {
+            "text": "She works as a library media assistant at Wilson Elementary School in the Lynwood Unified School District.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate List - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "BOARD AGENDA",
+      "publisher": "Lynwood Unified School District",
+      "url": "https://resources.finalsite.net/images/v1751299854/lynwoodk12caus/e7q2ofpwkul3mdoqtm8h/PublicAgenda-June62024.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Endorsed Candidates - Los Angeles County Democratic Party",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.179Z",
+    "version": 1
+  }
+}

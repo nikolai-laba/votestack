@@ -1,0 +1,100 @@
+{
+  "key": "jeff-hanlon",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Jeff Hanlon",
+  "office": "Three Valleys Municipal Water District, Member, Board of Directors, Division 3",
+  "contestIds": ["la-4348-cc10555"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Elected to the Three Valleys board in 2022, Jeff Hanlon resigned in June 2026 to seek a district job he did not get. He teaches political science at Whittier College and holds a public policy doctorate. His priorities are water capture and storage, infrastructure reinvestment, and the Pure Water Southern California recycling program. In 2022, he opposed the Cadiz water project and pushed for a climate change action plan.",
+        "cites": [1, 6, 2]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "League of Conservation Voters of Los Angeles County (LALCV)",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Democratic Club of Claremont",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Bonita Democratic Council",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Three Valleys Municipal Water District Director David De Jesus",
+        "kind": "elected_official",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Election 2026 profiles: Three Valleys Municipal Water Board",
+      "publisher": "Claremont Courier",
+      "url": "https://claremontcourier.com/latest-news/election-2026-profiles-three-valleys-municipal-water-board-90059/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "2022 TVMWD candidate profiles: Jeff Hanlon | Claremont COURIER",
+      "publisher": "Claremont Courier",
+      "url": "https://claremont-courier.com/latest-news/2022-tvmwd-candidate-profiles-jeff-hanlon-69960/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Current Endorsements",
+      "publisher": "LALCV",
+      "url": "https://lalcv.org/current-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Endorsements (November 2026)",
+      "publisher": "Democratic Club of Claremont",
+      "url": "https://demsofclaremont.org/Endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Jeff For 3 Valleys",
+      "publisher": "Jeff Hanlon for 3 Valleys",
+      "url": "https://www.jeff3valleys.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "Jeff Hanlon | Whittier College",
+      "publisher": "Whittier College",
+      "url": "https://www.whittier.edu/academics/political/hanlon",
+      "kind": "reference",
+      "viewedAt": "2026-10-15",
+      "id": 6
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T16:56:23.419Z",
+    "version": 2
+  }
+}

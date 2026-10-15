@@ -1,0 +1,162 @@
+{
+  "key": "kera-blades-snell",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Kera Blades-Snell",
+  "office": "Santa Monica Community College District, Member of the Board of Trustees",
+  "contestIds": ["la-4348-cc10516"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Kera Blades-Snell is the executive director of the Santa Monica Black Empowerment Association and a small business owner. Her campaign says she wants to keep the college accessible, affordable, and responsive. She lists priorities: student success, workforce development, mental health services, and transparent governance. She says she founded the Empower Her Entrepreneurial Program, a 10-week business course for women, and serves as president of SMC Associates.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Kera Blades-Snell is the executive director of the Santa Monica Black Empowerment Association and a small business owner.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign says she wants to keep the college accessible, affordable, and responsive.",
+            "cites": [1]
+          },
+          {
+            "text": "She lists priorities: student success, workforce development, mental health services, and transparent governance.",
+            "cites": [2]
+          },
+          {
+            "text": "She says she founded the Empower Her Entrepreneurial Program, a 10-week business course for women, and serves as president of SMC Associates.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [3]
+      },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Santa Monica Democratic Club",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Santa Monicans for Renters' Rights",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Community for Excellent Public Schools",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Malibu Democratic Club",
+        "kind": "organization",
+        "cites": [8]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [9] },
+      { "organization": "LA Forward", "kind": "organization", "cites": [10] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "General Election 2026 - santamonica.gov",
+      "publisher": "City of Santa Monica",
+      "url": "https://www.santamonica.gov/elections/2026-11-03/candidates/kera-blades-snell",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Blades-Snell seeks Santa Monica College board seat in 2026",
+      "publisher": "Santa Monica Wave",
+      "url": "https://santamonicawave.com/articles/blades-snell-seeks-santa-monica-college-board-seat-in-2026-muy90asc",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "2026 Stonewall Endorsed Candidates",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Our Final '26 Endorsements",
+      "publisher": "Santa Monica Democratic Club",
+      "url": "https://santamonicademocrats.com/our-final-26-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "SMRR 2026 Annual Membership Convention – August 9, 2026",
+      "publisher": "Santa Monicans for Renters' Rights",
+      "url": "https://smrr.org/2026smrrconvention/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Our Endorsements for 2026",
+      "publisher": "Community for Excellent Public Schools",
+      "url": "https://www.cepssm.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "Endorsements",
+      "publisher": "Malibu Democratic Club",
+      "url": "https://malibudemocraticclub.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 10
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.937Z",
+    "version": 2
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "key": "jeffery-w-johnson",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Jeffery W. Johnson",
+  "office": "Crescenta Valley Water District, Member, Board of Directors",
+  "contestIds": ["la-4348-cc10377"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Jeffery W. Johnson is a director on the Crescenta Valley Water District board. He is an attorney and manages the law firm Johnson & Rawi PC. In 2025, he praised the district's management for addressing reduced water supply, aging pipelines, PFAS contamination, and tap water taste and hardness. In 2025, as board president, he spoke at a public meeting about proposed water and wastewater rate increases. In 2026, he moved to approve revisions to the district’s Bill Assistance Program.",
+        "cites": [1, 2, 3, 4, 5]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Jeffery W. Johnson - Crescenta Valley Water District",
+      "publisher": "Crescenta Valley Water District",
+      "url": "https://www.cvwd.com/board-of-directors/director-1/",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "CVWD Board of Directors | Members & Committees",
+      "publisher": "Crescenta Valley Water District",
+      "url": "https://www.cvwd.com/about-us/governance/board-of-directors/",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "NEWS FROM THE CVWD",
+      "publisher": "Crescenta Valley Weekly",
+      "url": "https://www.crescentavalleyweekly.com/viewpoints/05/29/2025/news-from-the-cvwd-12/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "CVWD Public Meeting: Lots of Questions, Not Many Answers",
+      "publisher": "Crescenta Valley Weekly",
+      "url": "https://www.crescentavalleyweekly.com/news/06/12/2025/145432/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "CRESCENTA VALLEY WATER DISTRICT - CCS Interactive",
+      "publisher": "Crescenta Valley Water District",
+      "url": "https://cvwd.ccsdesigns.com/wp-content/uploads/042826-Board-Packet.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T17:19:13.976Z",
+    "version": 2
+  }
+}

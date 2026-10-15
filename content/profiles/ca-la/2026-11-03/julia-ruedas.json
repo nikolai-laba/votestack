@@ -1,0 +1,60 @@
+{
+  "key": "julia-ruedas",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Julia Ruedas",
+  "office": "City of El Monte, Member of the City Council, 3rd District",
+  "contestIds": ["la-4348-cc10450"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Julia Ruedas is the councilmember for El Monte's 3rd District. She previously served on the El Monte City School District Board of Education after being elected in 2018. In September 2026, she voted with the council to approve $442,234 for the M Motel renovation, a Homekey project providing interim housing for homeless people. She held a District 3 community safety meeting in May 2026.",
+        "cites": [4, 1, 2, 3]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Julia Ruedas joins the El Monte City School District's Board",
+      "publisher": "Patch",
+      "url": "https://patch.com/california/claremont-laverne/julia-ruedas-joins-el-monte-city-school-district-s-board",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "In El Monte, a transformed Motel M homeless housing project gets added funding",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/09/11/in-el-monte-a-transformed-motel-m-homeless-housing-project-gets-added-funding/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "APPROVAL OF MINUTES EL MONTE CITY COUNCIL REGULAR ...",
+      "publisher": "City of El Monte",
+      "url": "https://www.elmonteca.gov/AgendaCenter/ViewFile/Minutes/_05272026-1389",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "Dr. Julia Ruedas",
+      "publisher": "City of El Monte",
+      "url": "https://www.elmonteca.gov/686/Dr-Julia-Ruedas",
+      "kind": "official",
+      "viewedAt": "2026-10-15",
+      "id": 4
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:39:39.163Z",
+    "version": 2
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "reason": "Chrome review: text supported; the first source is the Los Angeles County Board of Supervisors agenda for Oct. 18, 2022 (it reappointed her to Division 4 in lieu of election), not a La Cañada Irrigation District page, so its title and publisher are corrected",
+  "overview": [
+    {
+      "action": "replace",
+      "match": "In 2022, Sheree Rae Butts was a member of the La Cañada Irrigation District Board of Directors",
+      "text": "In 2022, Sheree Rae Butts was a member of the La Cañada Irrigation District Board of Directors, representing Division 4. In 2013, she was president of the La Cañada Flintridge Coordination Council.",
+      "sources": [
+        {
+          "title": "Board of Supervisors agenda, October 18, 2022",
+          "publisher": "Los Angeles County Board of Supervisors",
+          "url": "https://assets-us-01.kc-usercontent.com/0234f496-d2b7-00b6-17a4-b43e949b70a2/3187225a-0c11-46b3-90ba-c5e55af6f0f0/Agenda101822_links.pdf",
+          "kind": "official",
+          "viewedAt": "2026-10-15"
+        },
+        {
+          "title": "Tupper Awards Recognize Local Residents",
+          "publisher": "Crescenta Valley Weekly",
+          "url": "https://www.crescentavalleyweekly.com/news/05/23/2013/tupper-awards-recognize-local-residents/",
+          "kind": "news",
+          "viewedAt": "2026-10-15"
+        }
+      ]
+    }
+  ]
+}

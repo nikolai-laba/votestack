@@ -1,0 +1,70 @@
+{
+  "key": "christina-lucero",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Christina Lucero",
+  "office": "Baldwin Park Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10620"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Christina Lucero served on the Baldwin Park Unified School District Board of Education from 2007 until a recent gap, and is running to return to the board. She has served as board president, including a third consecutive term. She is a retired special education advocate and previously served as a state and federal delegate for the California School Boards Association.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Christina Lucero served on the Baldwin Park Unified School District Board of Education from 2007 until a recent gap, and is running to return to the board.",
+            "cites": [1]
+          },
+          {
+            "text": "She has served as board president, including a third consecutive term.",
+            "cites": [2]
+          },
+          {
+            "text": "She is a retired special education advocate and previously served as a state and federal delegate for the California School Boards Association.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "She identifies fiscal solvency and special education as priorities. In 2016, she supported hiring Froilan Mendoza as superintendent, stating he unified people to provide high-quality education.",
+        "cites": [1, 3]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Christina Lucero, Baldwin Park Unified School District candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/christina-lucero-baldwin-park-unified-school-district-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Board of Education Members Take Oath of Office",
+      "publisher": "Baldwin Park Unified School District",
+      "url": "https://www.bpusd.net/apps/news/article/1358664",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Baldwin Park Unified Board Selects New Superintendent",
+      "publisher": "Baldwin Park Unified School District",
+      "url": "https://www.bpusd.net/apps/news/article/744243?categoryId=8657",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T14:05:39.664Z",
+    "version": 2
+  }
+}

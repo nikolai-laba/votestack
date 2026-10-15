@@ -1,0 +1,161 @@
+{
+  "key": "newton-chelette",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Newton Chelette",
+  "office": "Antelope Valley Community College District, Governing Board Member, Trustee Area No. 2",
+  "contestIds": ["la-4348-cc10571"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Newton Chelette is a retired college dean running for an open seat on the Antelope Valley Community College District Governing Board. He served the college as a physical education instructor, athletic director and vice president of student services. He says his priorities include working with state and local government to increase funding, and boosting enrollment through recruitment and athletics. He was also appointed to the Lancaster Criminal Justice Commission.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Newton Chelette is a retired college dean running for an open seat on the Antelope Valley Community College District Governing Board.",
+            "cites": [1]
+          },
+          {
+            "text": "He served the college as a physical education instructor, athletic director and vice president of student services.",
+            "cites": [1]
+          },
+          {
+            "text": "He says his priorities include working with state and local government to increase funding, and boosting enrollment through recruitment and athletics.",
+            "cites": [2]
+          },
+          {
+            "text": "He was also appointed to the Lancaster Criminal Justice Commission.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Antelope Valley College Faculty Association",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "Antelope Valley College Classified Employees Association",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "Assemblymember Tom Lackey",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [3]
+      },
+      {
+        "organization": "Lancaster Mayor R. Rex Parris",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Lancaster Vice Mayor Lauren Hughes-Leslie",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Lancaster City Councilmember Ken Mann",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Palmdale City Councilmember Richard Loa",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Former Lancaster Vice Mayor Marvin Crist",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Antelope Valley Union High School District Trustee Charles Hughes",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Antelope Valley Union High School District Trustee Rosemary Mann",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Antelope Valley Union High School District Trustee Cynthia Hernandez",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "AVEK Water Agency Director Drew Mercy",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Republican Party of Los Angeles County",
+        "kind": "party",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Six Candidates Seek Three Antelope Valley College Seats",
+      "publisher": "Antelope Valley Online",
+      "url": "https://antelopevalleyonline.com/six-candidates-seek-three-antelope-valley-college-seats/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Newton Chelette, Antelope Valley Community College District Area 2 candidate, 2026 election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/newton-chelette-antelope-valley-community-college-district-area-2-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "ENDORSEMENTS",
+      "publisher": "Newton Chelette for College Board 2026",
+      "url": "https://www.newtonchelette.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 4
+    },
+    {
+      "title": "LAGOP Endorsement Lookup, November 3, 2026 General Election",
+      "publisher": "Republican Party of Los Angeles County",
+      "url": "https://lagop-endorsement-lookup.vercel.app/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 5
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.856Z",
+    "version": 2
+  }
+}

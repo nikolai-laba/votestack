@@ -1,0 +1,39 @@
+{
+  "key": "jasmin-jauregui-paulson",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Jasmin Jauregui Paulson",
+  "office": "Montebello Unified School District, Governing Board Member, Trustee Area No. 2",
+  "contestIds": ["la-4348-cc10843"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Jasmin Jauregui Paulson is an educator.",
+        "cites": [1],
+        "sentences": [
+          { "text": "Jasmin Jauregui Paulson is an educator.", "cites": [1] }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Hall Pass: Your Ticket to Understanding School Board Politics, Edition #224",
+      "publisher": "Ballotpedia",
+      "url": "https://news.ballotpedia.org/2026/09/23/hall-pass-your-ticket-to-understanding-school-board-politics-edition-224/",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.197Z",
+    "version": 1
+  }
+}

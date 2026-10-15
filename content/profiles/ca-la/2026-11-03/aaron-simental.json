@@ -1,0 +1,96 @@
+{
+  "key": "aaron-simental",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Aaron Simental",
+  "office": "Bassett Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10621"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Aaron Simental is the Board President of the Bassett Unified School District, elected in 2022. He previously served as a school personnel commissioner. He was the California School Employees Association appointee. He represents the district on the Los Angeles County School Trustees Association and the California School Boards Association Delegate Assembly. He also serves on the board of the Los Angeles County LGBTQ Elected Officials Association.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Aaron Simental is the Board President of the Bassett Unified School District, elected in 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously served as a school personnel commissioner.",
+            "cites": [1]
+          },
+          {
+            "text": "He was the California School Employees Association appointee.",
+            "cites": [1]
+          },
+          {
+            "text": "He represents the district on the Los Angeles County School Trustees Association and the California School Boards Association Delegate Assembly.",
+            "cites": [1]
+          },
+          {
+            "text": "He also serves on the board of the Los Angeles County LGBTQ Elected Officials Association.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "In 2026, he voted for a board resolution opposing a City of Industry policy that would allow data centers near schools. He says the state is withholding billions of education dollars and manipulating Proposition 98.",
+        "cites": [3, 4],
+        "sentences": [
+          {
+            "text": "In 2026, he voted for a board resolution opposing a City of Industry policy that would allow data centers near schools.",
+            "cites": [3]
+          },
+          {
+            "text": "He says the state is withholding billions of education dollars and manipulating Proposition 98.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board Members – Board of Education",
+      "publisher": "Bassett Unified School District",
+      "url": "https://www.bassettusd.org/apps/pages/index.jsp?uREC_ID=1184491&type=d&pREC_ID=1429114",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "2026-2027 LACSTA Election Candidate Statements",
+      "publisher": "Los Angeles County Office of Education",
+      "url": "https://www.lacoe.edu/content/dam/lacoeedu/documents/communications/lacsta/2026-2027%20LACSTA%20Election%20Candidate%20Statements.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "A City of Industry plan for a massive energy storage facility takes step forward, amid pushback on data centers",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/01/28/a-city-of-industry-plan-for-a-massive-energy-storage-facility-takes-step-forward-amid-pushback-on-data-centers/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Aaron Simental, Bassett Unified School District candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/aaron-simental-bassett-unified-school-district-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T05:54:20.814Z",
+    "version": 1
+  }
+}

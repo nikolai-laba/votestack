@@ -1,0 +1,62 @@
+{
+  "key": "rochelle-kate-ongsiako-haas",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Rochelle Kate Ongsiako Haas",
+  "office": "San Gabriel Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10669"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Rochelle Kate Ongsiako Haas is a member of the San Gabriel Unified School District Governing Board, appointed in 2018 and reappointed in 2022. She is a therapist and has worked as a middle school math and science teacher. She says the district's top needs are expanding wellness programs and school-based mental health resources, and closing the achievement gap by supporting English learners and students with learning differences. She says retaining teachers requires fair pay and support, since providing subsidized housing is not feasible.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Rochelle Kate Ongsiako Haas is a member of the San Gabriel Unified School District Governing Board, appointed in 2018 and reappointed in 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "She is a therapist and has worked as a middle school math and science teacher.",
+            "cites": [2]
+          },
+          {
+            "text": "She says the district's top needs are expanding wellness programs and school-based mental health resources, and closing the achievement gap by supporting English learners and students with learning differences.",
+            "cites": [2]
+          },
+          {
+            "text": "She says retaining teachers requires fair pay and support, since providing subsidized housing is not feasible.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "San Gabriel Voters Face Key Choices in November General Election",
+      "publisher": "ColoradoBoulevard.net",
+      "url": "https://www.coloradoboulevard.net/san-gabriel-voters-face-key-choices-in-november-general-election/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Rochelle Kate Ongsiako Haas, San Gabriel Unified School District candidate, 2026 election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/rochelle-kate-ongsiako-haas-san-gabriel-unified-school-district-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.312Z",
+    "version": 1
+  }
+}

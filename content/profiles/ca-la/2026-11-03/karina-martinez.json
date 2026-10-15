@@ -1,0 +1,42 @@
+{
+  "key": "karina-martinez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Karina Martinez",
+  "office": "Keppel Union School District, Governing Board Member, Trustee Area No. 1",
+  "contestIds": ["la-4348-cc10755"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Karina Martinez is a candidate for the Keppel Union School District Governing Board in Trustee Area No. 1.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Karina Martinez is a candidate for the Keppel Union School District Governing Board in Trustee Area No. 1.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate Statements",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://apps.lavote.gov/candidate-statements/",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.114Z",
+    "version": 1
+  }
+}

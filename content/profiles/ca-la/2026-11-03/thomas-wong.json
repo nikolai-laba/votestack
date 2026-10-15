@@ -1,0 +1,188 @@
+{
+  "key": "thomas-wong",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Thomas Wong",
+  "office": "City of Monterey Park, Member of the City Council, 1st District",
+  "contestIds": ["la-4348-cc10490"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Thomas Wong represents District 1 on the Monterey Park City Council. Elected in 2022, he has been mayor and mayor pro tem. After the 2023 mass shooting, he worked with nonprofits helping people seek support. He was previously board president of the San Gabriel Valley Municipal Water District, supporting Monterey Park infrastructure investments.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Thomas Wong represents District 1 on the Monterey Park City Council.",
+            "cites": [1]
+          },
+          {
+            "text": "Elected in 2022, he has been mayor and mayor pro tem.",
+            "cites": [2]
+          },
+          {
+            "text": "After the 2023 mass shooting, he worked with nonprofits helping people seek support.",
+            "cites": [3]
+          },
+          {
+            "text": "He was previously board president of the San Gabriel Valley Municipal Water District, supporting Monterey Park infrastructure investments.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "He supported a 2026 ballot measure banning data centers citywide. In 2026, he sought to adjust Monterey Park Transit fees due to demand. He proposed researching rules to make government property free from U.S. Immigration and Customs Enforcement. As an environmental commissioner, he backed a climate action plan and environmentally preferred purchasing policy. He recused himself from a 2026 transit vote because he lives near the project.",
+        "cites": [4, 5, 6, 7, 8],
+        "sentences": [
+          {
+            "text": "He supported a 2026 ballot measure banning data centers citywide.",
+            "cites": [4]
+          },
+          {
+            "text": "In 2026, he sought to adjust Monterey Park Transit fees due to demand.",
+            "cites": [5]
+          },
+          {
+            "text": "He proposed researching rules to make government property free from U.S. Immigration and Customs Enforcement.",
+            "cites": [6]
+          },
+          {
+            "text": "As an environmental commissioner, he backed a climate action plan and environmentally preferred purchasing policy.",
+            "cites": [7]
+          },
+          {
+            "text": "He recused himself from a 2026 transit vote because he lives near the project.",
+            "cites": [8]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles League of Conservation Voters",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [11]
+      },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [12] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Staff Directory • City Council",
+      "publisher": "City of Monterey Park",
+      "url": "http://www.montereypark.ca.gov/m/directory/department?did=19",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Monterey Park mayor attends Conference of Mayors",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2024/06/21/monterey-park-mayor-attends-conference-of-mayors-in-d-c-with-hopes-of-bringing-back-lessons/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "After Monterey Park shooting, Price MPA grads help a shattered city heal",
+      "publisher": "USC Price School",
+      "url": "https://priceschool.usc.edu/news/monterey-park-mass-shooting-electric-park-community/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "2026 Election Results: Monterey Park is about to ban data centers",
+      "publisher": "Orange County Register",
+      "url": "https://www.ocregister.com/2026/06/02/2026-election-results-with-overwhelming-support-monterey-park-on-cusp-of-states-first-data-center-ban/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "04-01-2026 Regular Meeting",
+      "publisher": "City of Monterey Park",
+      "url": "https://montereyparkca.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=4457,plainText=false)",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "74-23 Minutes Monterey Park City Council Financing Authority",
+      "publisher": "City of Monterey Park",
+      "url": "https://montereyparkca.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=4259,plainText=false)",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "Los Angeles League of Conservation Voters Endorses Thomas Wong...",
+      "publisher": "Los Angeles League of Conservation Voters",
+      "url": "https://lalcv.org/los-angeles-league-of-conservation-voters-endorses-thomas-wong-and-vinh-ngo-for-monterey-park-city-council-and-vincent-chang-for-monterey-park-city-treasurer/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 8,
+      "title": "Monterey Park is Latest City to Approve Quick Build Bus Rapid Transit",
+      "publisher": "Streetsblog LA",
+      "url": "https://la.streetsblog.org/2026/09/17/monterey-park-is-latest-city-to-approve-quick-build-bus-rapid-transit",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 9,
+      "title": "2026 Endorsements",
+      "publisher": "Los Angeles League of Conservation Voters",
+      "url": "https://lalcv.org/endorsement/endorsements-in-the-year-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 10,
+      "title": "Equality California Election Center",
+      "publisher": "Equality California",
+      "url": "https://www.eqca.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
+      "publisher": "SEIU Local 721",
+      "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 12
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.512Z",
+    "version": 1
+  }
+}

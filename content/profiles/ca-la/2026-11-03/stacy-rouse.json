@@ -1,0 +1,178 @@
+{
+  "key": "stacy-rouse",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Stacy Rouse",
+  "office": "Santa Monica-Malibu Unified School District, Member of the Board of Education",
+  "contestIds": ["la-4348-cc10517"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Stacy Rouse has served on the Santa Monica-Malibu Unified School District Board of Education since November 2022. She has a background in conflict resolution. Her campaign says she was previously PTA president and Malibu Schools Leadership Council president.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Stacy Rouse has served on the Santa Monica-Malibu Unified School District Board of Education since November 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "She has a background in conflict resolution.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign says she was previously PTA president and Malibu Schools Leadership Council president.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "In 2023, she described herself as a bridge between Santa Monica and Malibu during ongoing discussions of a possible district split. In her 2022 campaign, she advocated lowering class sizes in K-12 and reworking the budget to fund it. In August 2026, she voted to endorse a $495-per-parcel tax measure for Santa Monica schools, noting that as a Malibu resident she would not pay the tax.",
+        "cites": [2, 4, 5],
+        "sentences": [
+          {
+            "text": "In 2023, she described herself as a bridge between Santa Monica and Malibu during ongoing discussions of a possible district split.",
+            "cites": [2]
+          },
+          {
+            "text": "In her 2022 campaign, she advocated lowering class sizes in K-12 and reworking the budget to fund it.",
+            "cites": [4]
+          },
+          {
+            "text": "In August 2026, she voted to endorse a $495-per-parcel tax measure for Santa Monica schools, noting that as a Malibu resident she would not pay the tax.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [6]
+      },
+      {
+        "organization": "Community for Excellent Public Schools",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Santa Monica Democratic Club",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Santa Monica-Malibu Classroom Teachers Association",
+        "kind": "union",
+        "cites": [10]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [11] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Santa Monica-Malibu Unified School District Board of Education",
+      "publisher": "City of Santa Monica",
+      "url": "https://santamonica.granicus.com/boards/w/80507f63443fafa5",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "New Board of Education members reflect on their first 100 days",
+      "publisher": "Santa Monica Daily Press",
+      "url": "https://www.smdp.com/school-board/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "General Election 2026 - Stacy Rouse",
+      "publisher": "City of Santa Monica",
+      "url": "https://www.santamonica.gov/elections/2026-11-03/candidates/stacy-j-rouse",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Forum shows bridges and rifts among SMMUSD candidates",
+      "publisher": "Santa Monica Daily Press",
+      "url": "https://www.smdp.com/forum-shows-bridges-and-rifts-among-smmusd-candidates/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "School board backs November parcel tax, adopts budget revision and tax-collection deal",
+      "publisher": "Santa Monica Daily Press",
+      "url": "https://www.smdp.com/school-board-backs-november-parcel-tax-adopts-budget-revision-and-tax-collection-deal/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Endorsed Candidates - Los Angeles County Democratic Party",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "Issues | CEPS - Community for Excellent Public Schools",
+      "publisher": "Community for Excellent Public Schools",
+      "url": "https://www.cepssm.org/issues",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 8,
+      "title": "Local Endorsement Results",
+      "publisher": "Santa Monica Democratic Club",
+      "url": "https://santamonicademocrats.com/local-endorsement-results/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 9,
+      "title": "2026 STONEWALL ENDORSED CANDIDATES",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 10,
+      "title": "POLITICAL ACTION - SANTA MONICA-MALIBU CLASSROOM TEACHERS ASSOCIATION",
+      "publisher": "Santa Monica-Malibu Classroom Teachers Association",
+      "url": "https://www.smmcta.com/political-action.html",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 11
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.142Z",
+    "version": 2
+  }
+}

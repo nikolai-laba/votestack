@@ -1,0 +1,60 @@
+{
+  "key": "lindsay-davis",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Lindsay Davis",
+  "office": "City of Santa Monica, Member of the City Council",
+  "contestIds": ["la-4348-cc10514"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Lindsay Davis, a yoga instructor known as “Daisy the Venice Healer,” says she has organized volunteer-led food forests, healing circles, and beach cleanups for nearly a decade. She previously experienced homelessness. She says her reliance on housing, behavioral health and social service programs gives her a perspective most candidates lack. Her campaign says her vision rests on “Awakening, Biodiversity, and Fellowships.” She proposes converting vacant commercial properties into community spaces offering food, health services, and shelter at no cost, and replacing most bicycle lanes with wildlife corridors. She also wants Santa Monica Airport to host flying cars and a space elevator. In 2024, she built a small structure on the Venice Beach Boardwalk with volunteers; it was dismantled after a confrontation involving authorities and community members.",
+        "cites": [4, 1, 2, 3]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Wild moment homeless Santa Monica city council ...",
+      "publisher": "New York Post",
+      "url": "https://nypost.com/2026/09/20/us-news/wild-moment-homeless-santa-monica-city-council-candidate-storms-stage-in-front-of-rivals/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "The performance and pain of candidate Lindsay Davis",
+      "publisher": "Santa Monica Sun",
+      "url": "https://santamonicasun.com/local-news/lindsay-davis-santa-monica-city-council-daisy-venice-healer/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Santa Monica Council Candidate Spotlight: Lindsay Davis",
+      "publisher": "Patch",
+      "url": "https://patch.com/california/santamonica/santa-monica-council-candidate-spotlight-lindsay-davis",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "Lindsay Davis - Santa Monica",
+      "publisher": "City of Santa Monica",
+      "url": "https://www.santamonica.gov/elections/2026-11-03/candidates/lindsay-davis",
+      "kind": "official",
+      "viewedAt": "2026-10-15",
+      "id": 4
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:39:39.217Z",
+    "version": 2
+  }
+}

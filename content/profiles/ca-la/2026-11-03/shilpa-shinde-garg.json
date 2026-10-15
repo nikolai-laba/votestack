@@ -1,0 +1,114 @@
+{
+  "key": "shilpa-shinde-garg",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Shilpa Shinde-Garg",
+  "office": "La Cañada Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10651"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Shilpa Shinde-Garg is a physician. She has practiced hospital medicine for 18 years and previously taught in the Los Angeles Unified School District. She has led foundations for boys' football and girls' flag football, and served on the stadium turf advisory committee. She served as the visibility lead for the Measure LCF campaign.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          { "text": "Shilpa Shinde-Garg is a physician.", "cites": [1] },
+          {
+            "text": "She has practiced hospital medicine for 18 years and previously taught in the Los Angeles Unified School District.",
+            "cites": [1]
+          },
+          {
+            "text": "She has led foundations for boys' football and girls' flag football, and served on the stadium turf advisory committee.",
+            "cites": [2]
+          },
+          {
+            "text": "She served as the visibility lead for the Measure LCF campaign.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "At an October 2026 candidate forum, she supported continuing the district's strict anti-bullying policy. Her campaign says she is committed to academic excellence, fiscal responsibility, student well-being, and strong partnerships with teachers and families. In a questionnaire, she prioritized transparency around infrastructure improvements, thoughtful technology integration, and support for extracurricular programs. She says she will advocate for competitive teacher pay and manageable class sizes.",
+        "cites": [1, 2, 4, 3],
+        "sentences": [
+          {
+            "text": "At an October 2026 candidate forum, she supported continuing the district's strict anti-bullying policy.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign says she is committed to academic excellence, fiscal responsibility, student well-being, and strong partnerships with teachers and families.",
+            "cites": [2]
+          },
+          {
+            "text": "In a questionnaire, she prioritized transparency around infrastructure improvements, thoughtful technology integration, and support for extracurricular programs.",
+            "cites": [4]
+          },
+          {
+            "text": "She says she will advocate for competitive teacher pay and manageable class sizes.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Cañada Crescenta Democratic Club",
+        "kind": "party",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "La Cañada Unified Board Candidates Talk Goals, Priorities at Forum",
+      "publisher": "La Cañada Outlook",
+      "url": "https://outlooknewspapers.com/lacanadaoutlook/la-ca-ada-unified-board-candidates-talk-goals-priorities-at-forum/article_9e89d02a-fe8d-4b38-8b02-822986781f08.html",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Shilpa Shinde-Garg for LCUSD School Board | La Cañada Flintridge",
+      "publisher": "Shilpa Shinde-Garg campaign website",
+      "url": "https://www.shilpaforlcusd.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "About Shilpa Shinde-Garg, MD — LCUSD School Board Candidate",
+      "publisher": "Shilpa Shinde-Garg campaign website",
+      "url": "https://www.shilpaforlcusd.com/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "La Cañada Unified Governing Board Candidates Outline Goals, Ideas",
+      "publisher": "La Cañada Outlook",
+      "url": "https://outlooknewspapers.com/lacanadaoutlook/la-ca-ada-unified-governing-board-candidates-outline-goals-ideas/article_5144d300-cad8-4c8e-92bc-9d07f0aa4ab7.html",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "2026 General Election Endorsements",
+      "publisher": "Cañada Crescenta Democratic Club",
+      "url": "https://ccdemclub.org/?page_id=4455",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.129Z",
+    "version": 1
+  }
+}

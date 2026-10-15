@@ -1,0 +1,59 @@
+{
+  "key": "varun-sunny-tamrakar",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Varun \"Sunny\" Tamrakar",
+  "office": "Lawndale School District, Governing Board Member, Trustee Area No. 2",
+  "contestIds": ["la-4348-cc10709"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Varun Tamrakar is a candidate for the Lawndale School District Governing Board, Trustee Area No. 2.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Varun Tamrakar is a candidate for the Lawndale School District Governing Board, Trustee Area No. 2.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate Statements - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://apps.lavote.gov/candidate-statements/public-statement/9254/23136/EN",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.151Z",
+    "version": 1
+  }
+}

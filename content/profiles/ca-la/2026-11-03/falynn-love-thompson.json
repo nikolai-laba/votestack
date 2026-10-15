@@ -1,0 +1,74 @@
+{
+  "key": "falynn-love-thompson",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Falynn Love Thompson",
+  "office": "Rowland Unified School District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10668"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Falynn Love Thompson is a floral designer and community activist running for the Rowland Unified School District Governing Board. She says she founded a floral design business in 2010 and works in a family-run wedding and event planning company. In 2026, she became an advocate against a proposed data center and battery energy storage system in her community, which she says led her to run for school board. Her top priorities are improving reading and math results and expanding student support services. She proposes using data to guide district decisions and hiring more counselors to lower what she says is a 400-to-1 student-counselor ratio at Rowland High School.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Falynn Love Thompson is a floral designer and community activist running for the Rowland Unified School District Governing Board.",
+            "cites": [1]
+          },
+          {
+            "text": "She says she founded a floral design business in 2010 and works in a family-run wedding and event planning company.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2026, she became an advocate against a proposed data center and battery energy storage system in her community, which she says led her to run for school board.",
+            "cites": [1]
+          },
+          {
+            "text": "Her top priorities are improving reading and math results and expanding student support services.",
+            "cites": [3]
+          },
+          {
+            "text": "She proposes using data to guide district decisions and hiring more counselors to lower what she says is a 400-to-1 student-counselor ratio at Rowland High School.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Meet Falynn Love Thompson",
+      "publisher": "CanvasRebel",
+      "url": "https://canvasrebel.com/meet-falynn-love-thompson/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "DIY vs. Hiring a Professional Florist",
+      "publisher": "Flawless Weddings and Events",
+      "url": "https://flawlessweddingsandevents.net/f/diy-vs-hiring-a-professional-florist",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Falynn Love Thompson Campaigns for Rowland Unified School District Board Seat: Focus on Academic Achievement and Student Well-Being",
+      "publisher": "Head Topics",
+      "url": "https://us.headtopics.com/news/falynn-love-thompson-campaigns-for-rowland-unified-school-88488645",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.292Z",
+    "version": 1
+  }
+}

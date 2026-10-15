@@ -1,0 +1,250 @@
+{
+  "key": "david-dejute",
+  "electionId": "ca-2026-11-03-general",
+  "name": "David Dejute",
+  "office": "Superior Court Judge, Los Angeles County (Office No. 87)",
+  "contestIds": ["la-4348-cc10826-r1", "la-4348-cc10826-r2"],
+  "kind": "judicial_candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "David DeJute is an attorney at Michelman & Robinson and an adjunct professor at Pepperdine Caruso School of Law. He previously served as an assistant U.S. attorney, where he defended President Obama against eligibility lawsuits and represented federal agencies. He was also vice president of litigation at Sony Pictures Entertainment.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "David DeJute is an attorney at Michelman & Robinson and an adjunct professor at Pepperdine Caruso School of Law.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously served as an assistant U.S. attorney, where he defended President Obama against eligibility lawsuits and represented federal agencies.",
+            "cites": [1]
+          },
+          {
+            "text": "He was also vice president of litigation at Sony Pictures Entertainment.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "U.S. Rep. Ted Lieu",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [2]
+      },
+      {
+        "organization": "California State Treasurer Fiona Ma",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "State Sen. Ben Allen",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [2]
+      },
+      {
+        "organization": "Los Angeles County Assessor Jeffrey Prang",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Americans for Democratic Action Southern California (ADA SoCal)",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Western States Regional Council of Carpenters",
+        "kind": "union",
+        "cites": [2]
+      },
+      { "organization": "Thrive LA", "kind": "organization", "cites": [4] },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Santa Monica Democratic Club",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Santa Clarita Valley Democrats",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Torrance Democratic Club",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Culver City Democratic Club",
+        "kind": "organization",
+        "cites": [9]
+      },
+      { "organization": "HONORPAC", "kind": "organization", "cites": [2] },
+      {
+        "organization": "Citizens for Accountable Leadership (CAL)",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "West Hollywood Beverly Hills Democratic Club",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "East Area Progressive Democrats",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "Pomona Valley Democratic Club",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "Alhambra Democratic Club",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "Avalon L.A. Democratic Club",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "Democrats Neighborhood Action",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "Democrats for the Protection of Animals",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "Culver City Democrats United",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "Los Angeles County Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [10]
+      },
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [11]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Your guide to the L.A. County Superior Court judge elections",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-10-01/2026-california-election-los-angeles-county-superior-court-judge-voter-guide",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Endorsements - DeJute For Judge",
+      "publisher": "DeJute For Judge 2026",
+      "url": "https://www.dejuteforjudge.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Judicial Endorsements",
+      "publisher": "ADA SoCal",
+      "url": "https://www.adasocal.org/judicial_endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "LA Voter Guide 2026: Endorsements for the General Election",
+      "publisher": "Thrive LA",
+      "url": "https://www.thrivelosangeles.org/voter-guide",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "2026 Stonewall Endorsed Candidates",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Our Final '26 Endorsements",
+      "publisher": "Santa Monica Democratic Club",
+      "url": "https://santamonicademocrats.com/our-final-26-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "November 2026 Candidate Endorsements",
+      "publisher": "Santa Clarita Valley Democrats",
+      "url": "https://www.santaclaritavalleydemocrats.com/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "Upcoming Elections & Endorsements",
+      "publisher": "Torrance Democratic Club",
+      "url": "https://www.torrancedems.com/upcoming-elections-endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "Endorsements",
+      "publisher": "Culver City Democratic Club",
+      "url": "https://www.c-c-d-c.com/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "General Election Judicial Candidate Ratings for L.A. County, November 3, 2026",
+      "publisher": "Los Angeles County Bar Association",
+      "url": "https://lacba.org/docDownload/3141411",
+      "kind": "bar",
+      "viewedAt": "2026-10-14",
+      "id": 10
+    },
+    {
+      "title": "Endorsed Candidates, 2026 General Election (November 3, 2026)",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 11
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.266Z",
+    "version": 5
+  }
+}

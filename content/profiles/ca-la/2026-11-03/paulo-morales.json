@@ -1,0 +1,165 @@
+{
+  "key": "paulo-morales",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Paulo Morales",
+  "party": "Party Preference: Republican",
+  "office": "State Assembly Member, 67th District",
+  "contestIds": ["la-4348-cc10803"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Paulo Morales is a former Cypress mayor and city council member who now serves as a special deputy with the U.S. Marshals Service. He worked as a police officer in Cypress for more than two decades.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Paulo Morales is a former Cypress mayor and city council member who now serves as a special deputy with the U.S. Marshals Service.",
+            "cites": [1]
+          },
+          {
+            "text": "He worked as a police officer in Cypress for more than two decades.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "His campaign says he would lower taxes and state spending, while giving local governments more flexibility to guide development. He proposes education changes emphasizing fundamentals, real-world skills, and parental involvement. His campaign focuses on increasing funding for law enforcement to curb violent crime.",
+        "cites": [3, 4],
+        "sentences": [
+          {
+            "text": "His campaign says he would lower taxes and state spending, while giving local governments more flexibility to guide development.",
+            "cites": [3]
+          },
+          {
+            "text": "He proposes education changes emphasizing fundamentals, real-world skills, and parental involvement.",
+            "cites": [3]
+          },
+          {
+            "text": "His campaign focuses on increasing funding for law enforcement to curb violent crime.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Republican Party of Los Angeles County",
+        "kind": "party",
+        "cites": [5]
+      },
+      {
+        "organization": "Republican Party of Orange County",
+        "kind": "party",
+        "cites": [6]
+      },
+      {
+        "organization": "Cypress City Council Member Bonnie Peat",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Former Cypress Mayor Rob Johnson",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Former Cypress Mayor Anne Mallari",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Former Cypress Mayor Scott Minikus",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Former Cypress Mayor Jon Peat",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "American Independent Party",
+        "kind": "party",
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Paulo Morales, AD-67 candidate, 2026 primary election questionnaire",
+      "publisher": "Orange County Register",
+      "url": "https://www.ocregister.com/2026/05/06/paulo-morales-ad-67-candidate-2026-primary-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Meet Paulo",
+      "publisher": "Paulo Morales campaign",
+      "url": "https://www.paulomoralesca.com/meet-paulo",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Paulo Morales for Assembly | California Assembly District 67",
+      "publisher": "Paulo Morales campaign",
+      "url": "https://www.paulomoralesca.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "CA Assembly District 67: Morales, Pulido lead primary field",
+      "publisher": "Daily Titan",
+      "url": "https://dailytitan.com/news/ca-assembly-district-67-morales-pulido-lead-primary-field/article_3d4d22a8-f61a-4871-87fe-d3803ab0209b.html",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "2026 Primary Election Official Voter Guide: State Assembly",
+      "publisher": "Republican Party of Los Angeles County",
+      "url": "https://static1.squarespace.com/static/65972b6654d89538e4445a4d/t/69f590073d814d38b21a8a1e/1777700871973/LAGOP_Assembly_Voter_Guide_2026X.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Who Will Advance to November in the 67th State Assembly District Race?",
+      "publisher": "Voice of OC",
+      "url": "https://voiceofoc.org/2026/06/who-will-advance-to-november-in-the-67th-state-assembly-district-race/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements",
+      "publisher": "Paulo Morales for Assembly",
+      "url": "https://www.paulomoralesca.com/endrosments",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Party Endorsements for Voter-Nominated Offices, November 3, 2026 General Election",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/additional-election-information",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 8
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T14:05:39.845Z",
+    "version": 2
+  }
+}

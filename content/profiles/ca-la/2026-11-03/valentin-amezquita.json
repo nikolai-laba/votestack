@@ -1,0 +1,104 @@
+{
+  "key": "valentin-amezquita",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Valentin Amezquita",
+  "office": "City of Huntington Park, Member of the City Council, 4th District",
+  "contestIds": ["la-4348-cc10461"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Valentin Amezquita is a retired environmental scientist who worked 35 years for the Port of Los Angeles and LADWP. His county statement lists public safety, parking solutions and city services among his goals. As a former Huntington Park city councilmember, he criticized city spending, including $4 million for soil removal and $8 million transferred to a New York company.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Valentin Amezquita is a retired environmental scientist who worked 35 years for the Port of Los Angeles and LADWP.",
+            "cites": [1]
+          },
+          {
+            "text": "His county statement lists public safety, parking solutions and city services among his goals.",
+            "cites": [1]
+          },
+          {
+            "text": "As a former Huntington Park city councilmember, he criticized city spending, including $4 million for soil removal and $8 million transferred to a New York company.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "As a councilmember in 2013, he voted against a towing fee increase. He later recorded meetings as an FBI informant for a federal bribery case. In 2025, a court rejected his lawsuit to compel a special election and awarded litigation costs to the city. In 2016, the FPPC fined him $200 for failing to pay a campaign committee fee.",
+        "cites": [3, 4, 5],
+        "sentences": [
+          {
+            "text": "As a councilmember in 2013, he voted against a towing fee increase.",
+            "cites": [3]
+          },
+          {
+            "text": "He later recorded meetings as an FBI informant for a federal bribery case.",
+            "cites": [3]
+          },
+          {
+            "text": "In 2025, a court rejected his lawsuit to compel a special election and awarded litigation costs to the city.",
+            "cites": [4]
+          },
+          {
+            "text": "In 2016, the FPPC fined him $200 for failing to pay a campaign committee fee.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Valentin Amezquita — Huntington Park City Council Candidate 2026",
+      "publisher": "PlayPOTUS",
+      "url": "https://playpotus.com/ca/huntington-park/valentin-amezquita",
+      "kind": "reference",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Huntington Park City Council to meet on Friday as corruption probe prompts protests",
+      "publisher": "CALÓ News",
+      "url": "https://www.calonews.com/communities/huntington-park-city-council-to-meet-on-friday-as-corruption-probe-prompts-protests/article_5344d3c6-f609-11ef-9ed4-a3b5cc035953.html",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Informant in FBI bribery case was Huntington Park councilman",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/local/california/la-me-tow-bribe-20160115-story.html",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "City of Huntington Park Press Release",
+      "publisher": "City of Huntington Park",
+      "url": "https://hpca.gov/DocumentCenter/View/12380/Press-Release---City-of-HP-Statement-Regarding-Conclusion-of-Litigation-Related-to-Former-CM-Esmeralda-Castillo---060226",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "FPPC Enforcement Decisions: May 2016 | FPPC",
+      "publisher": "California Fair Political Practices Commission",
+      "url": "https://www.fppc.ca.gov/media/press-releases/2016-news-releases/enf-decisions-may-2016.html",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.424Z",
+    "version": 1
+  }
+}

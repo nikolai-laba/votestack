@@ -1,0 +1,67 @@
+{
+  "key": "yodit-glaze",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Yodit Glaze",
+  "office": "City of South Gate, City Clerk",
+  "contestIds": ["la-4348-cc10521"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Yodit Glaze is the City Clerk of South Gate. In a 2022 application, she said she had a background in social work and had served on the city’s Commission for South Gate Youth since 2018 and the Citizens Advisory Committee from 2018 to 2020.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Yodit Glaze is the City Clerk of South Gate.",
+            "cites": [1]
+          },
+          {
+            "text": "In a 2022 application, she said she had a background in social work and had served on the city’s Commission for South Gate Youth since 2018 and the Citizens Advisory Committee from 2018 to 2020.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [3] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "South Gate, California - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/South_Gate,_California",
+      "kind": "reference",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "South Gate City Clerk Application",
+      "publisher": "City of South Gate",
+      "url": "https://www.cityofsouthgate.org/files/sharedassets/public/meetings/attachment-c-yodit-glaze.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
+      "publisher": "SEIU Local 721",
+      "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 3
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.621Z",
+    "version": 1
+  }
+}

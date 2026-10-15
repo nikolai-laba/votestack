@@ -1,0 +1,98 @@
+{
+  "key": "rafaela-romero",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Rafaela Romero",
+  "party": "Party Preference: Republican",
+  "office": "State Assembly Member, 53rd District",
+  "contestIds": ["la-4348-cc10793"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Rafaela Romero is a special education aide. Her campaign says she supports public safety policies that hold criminals accountable and support law enforcement.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Rafaela Romero is a special education aide.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign says she supports public safety policies that hold criminals accountable and support law enforcement.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Republican Party",
+        "kind": "party",
+        "cites": [3]
+      },
+      {
+        "organization": "California Republican Assembly",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "American Independent Party",
+        "kind": "party",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "California State Assembly: Who's running Nov. 3 and why it matters",
+      "publisher": "LAist",
+      "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-state-assembly",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Home | Rafaela Romero for State Assembly 53",
+      "publisher": "Rafaela Romero for State Assembly",
+      "url": "https://www.rafaelaromero.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "2026 CRP Endorsements",
+      "publisher": "California Republican Party",
+      "url": "https://cagop.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "State Assembly - November 2026 General Election Endorsements",
+      "publisher": "California Republican Assembly",
+      "url": "https://cragop.org/state-assembly/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Party Endorsements for Voter-Nominated Offices, November 3, 2026 General Election",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/additional-election-information",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 5
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.704Z",
+    "version": 3
+  }
+}

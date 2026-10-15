@@ -1,0 +1,64 @@
+{
+  "key": "gabriela-arellanes",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Gabriela Arellanes",
+  "office": "Azusa Unified School District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10619"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Gabriela Arellanes is a member of the Azusa Unified School District Governing Board, representing Trustee Area No. 5. Her term expires in 2026. She was elected to the board in 2018. In 2019, the California Fair Political Practices Commission found that Arellanes and her candidate committee failed to file a pre-election campaign statement on time for the period covering July 1 through September 22, 2018.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Gabriela Arellanes is a member of the Azusa Unified School District Governing Board, representing Trustee Area No. 5.",
+            "cites": [1]
+          },
+          { "text": "Her term expires in 2026.", "cites": [1] },
+          { "text": "She was elected to the board in 2018.", "cites": [2] },
+          {
+            "text": "In 2019, the California Fair Political Practices Commission found that Arellanes and her candidate committee failed to file a pre-election campaign statement on time for the period covering July 1 through September 22, 2018.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board of Education - Azusa Unified School District",
+      "publisher": "Azusa Unified School District",
+      "url": "https://www.azusa.org/board-of-education",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Endorsed Candidates - NWPC San Gabriel Valley",
+      "publisher": "NWPC San Gabriel Valley",
+      "url": "https://nwpcsgv.org/endorsed-candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "EXECUTIVE STAFF REPORTS",
+      "publisher": "California Fair Political Practices Commission",
+      "url": "https://www.fppc.ca.gov/siteassets/documents/agendadocuments/general-items/2019/october/19-executive-staff-report.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T05:54:20.811Z",
+    "version": 1
+  }
+}

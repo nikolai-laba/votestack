@@ -1,0 +1,26 @@
+{
+  "reason": "Dead link: Lennox board page moved to /board/board-of-trustees, which lists Karina Cordero as vice president; source swapped",
+  "overview": [
+    {
+      "action": "replace",
+      "match": "Karina Cordero is the vice president",
+      "text": "Karina Cordero is the vice president of the Lennox School District Board of Trustees. She is an incumbent running for the governing board in the November 2026 election.",
+      "sources": [
+        {
+          "title": "Meet the Board – Board of Trustees – Lennox School District",
+          "publisher": "Lennox School District",
+          "url": "https://www.lennox.k12.ca.us/board/board-of-trustees",
+          "kind": "official",
+          "viewedAt": "2026-10-15"
+        },
+        {
+          "title": "Candidate List - Registrar-Recorder/County Clerk",
+          "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+          "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+          "kind": "official",
+          "viewedAt": "2026-10-14"
+        }
+      ]
+    }
+  ]
+}

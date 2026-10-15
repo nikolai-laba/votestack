@@ -1,0 +1,155 @@
+{
+  "key": "carolyn-daniels",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Carolyn Daniels",
+  "party": "Party Preference: Republican",
+  "office": "State Assembly Member, 44th District",
+  "contestIds": ["la-4348-cc10787"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Carolyn Daniels is an independent contractor running for State Assembly District 44. Her campaign says she has worked across party lines on issues affecting women, children, and families, and helped pass the Violence Against Women Act.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Carolyn Daniels is an independent contractor running for State Assembly District 44.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign says she has worked across party lines on issues affecting women, children, and families, and helped pass the Violence Against Women Act.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign says the state's legislative supermajority has made California unaffordable. Her campaign opposes \"housing first\" policies and says crime and homelessness remain high despite state spending. She supports Proposition 36 reforms, law enforcement, and mental health treatment, and wants to incarcerate drug offenders and enforce anti-camping laws.",
+        "cites": [3, 4],
+        "sentences": [
+          {
+            "text": "Her campaign says the state's legislative supermajority has made California unaffordable.",
+            "cites": [3]
+          },
+          {
+            "text": "Her campaign opposes \"housing first\" policies and says crime and homelessness remain high despite state spending.",
+            "cites": [3]
+          },
+          {
+            "text": "She supports Proposition 36 reforms, law enforcement, and mental health treatment, and wants to incarcerate drug offenders and enforce anti-camping laws.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Howard Jarvis Taxpayers Association",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "California Rifle and Pistol Association",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "California Young Republicans",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Los Angeles Young Republicans",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "California Republican Party",
+        "kind": "party",
+        "cites": [7]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Carolyn Daniels, AD-44 candidate, 2026 primary election questionnaire",
+      "publisher": "Orange County Register",
+      "url": "https://www.ocregister.com/2026/05/06/carolyn-daniels-ad-44-candidate-2026-primary-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "About Carolyn Daniels | California State Assembly District 44",
+      "publisher": "Carolyn Daniels campaign",
+      "url": "https://www.daniels4assembly.com/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Carolyn Daniels for California State Assembly District 44",
+      "publisher": "Carolyn Daniels campaign",
+      "url": "https://www.daniels4assembly.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Assembly District 44 - Initiate Justice Action",
+      "publisher": "Initiate Justice Action",
+      "url": "https://ijaction.org/ad-44-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "2026 Voting Guide for California Statewide General Election",
+      "publisher": "Howard Jarvis Taxpayers Association",
+      "url": "https://www.hjta.org/2026votingguide/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements | Carolyn Daniels for State Assembly",
+      "publisher": "Carolyn Daniels for Assembly 2026",
+      "url": "https://www.daniels4assembly.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "2026 CRP Endorsements",
+      "publisher": "California Republican Party",
+      "url": "https://cagop.org/endorsements/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 7
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 8
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.680Z",
+    "version": 3
+  }
+}

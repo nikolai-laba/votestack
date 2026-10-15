@@ -1,0 +1,26 @@
+{
+  "reason": "Chrome review: the cited Monrovia Now 2026 archive page no longer shows her statement; re-sourced the statement sentences to the statement's own Monrovia Now post (same facts)",
+  "overview": [
+    {
+      "action": "replace",
+      "match": "Abby Veltman is a reading interventionist.",
+      "text": "Abby Veltman is a reading interventionist. She proposes focusing on student learning, using data to strengthen programs, and giving teachers and principals a meaningful role in curriculum decisions. She wants to expand art and music offerings and strengthen the specialized programs that attract families to the district. She says she advocated for reopening the Monrovia High School pool and that it succeeded through city-school district collaboration. She wants to seek more such partnerships for the schools.",
+      "sources": [
+        {
+          "title": "Abby Veltman, Monrovia Unified School District Area 5 candidate, 2026 election questionnaire",
+          "publisher": "San Gabriel Valley Tribune",
+          "url": "https://www.sgvtribune.com/2026/10/05/abby-veltman-monrovia-unified-school-district-area-5-candidate-2026-election-questionnaire/",
+          "kind": "news",
+          "viewedAt": "2026-10-14"
+        },
+        {
+          "title": "Statement of Monrovia Unified School Board candidate Abby Veltman",
+          "publisher": "Monrovia Now",
+          "url": "https://www.monrovianow.com/2026/09/statement-of-monrovia-unified-school_01711105710.html",
+          "kind": "candidate",
+          "viewedAt": "2026-10-15"
+        }
+      ]
+    }
+  ]
+}

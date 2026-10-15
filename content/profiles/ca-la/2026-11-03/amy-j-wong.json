@@ -1,0 +1,196 @@
+{
+  "key": "amy-j-wong",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Amy J. Wong",
+  "office": "City of Alhambra, Member of the City Council, First District",
+  "contestIds": ["la-4348-cc10408"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Amy J. Wong is a board consultant at the South Coast Air Quality Management District. She serves on the Alhambra Historic Preservation Commission and previously served on its Environmental Sustainability Commission. She has also worked for San Gabriel Valley nonprofits on parks, safer streets and clean air. She was an El Monte planning commissioner for five years.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Amy J. Wong is a board consultant at the South Coast Air Quality Management District.",
+            "cites": [1]
+          },
+          {
+            "text": "She serves on the Alhambra Historic Preservation Commission and previously served on its Environmental Sustainability Commission.",
+            "cites": [2]
+          },
+          {
+            "text": "She has also worked for San Gabriel Valley nonprofits on parks, safer streets and clean air.",
+            "cites": [2]
+          },
+          {
+            "text": "She was an El Monte planning commissioner for five years.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "Wong campaigned against a data center in Monterey Park and advocated for a similar ban on the November ballot in Alhambra. She supports accessible and responsive city government, expanded housing access, and revitalizing downtown vacancies and public spaces. At an October forum, she cited her background in pedestrian and bicycle safety and named affordability, climate change and immigration enforcement as priorities.",
+        "cites": [4, 3, 5],
+        "sentences": [
+          {
+            "text": "Wong campaigned against a data center in Monterey Park and advocated for a similar ban on the November ballot in Alhambra.",
+            "cites": [4]
+          },
+          {
+            "text": "She supports accessible and responsive city government, expanded housing access, and revitalizing downtown vacancies and public spaces.",
+            "cites": [3]
+          },
+          {
+            "text": "At an October forum, she cited her background in pedestrian and bicycle safety and named affordability, climate change and immigration enforcement as priorities.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [6]
+      },
+      {
+        "organization": "Los Angeles League of Conservation Voters",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Alhambra Teachers Association",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "Alhambra Democratic Club",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "U.S. Rep. Judy Chu",
+        "kind": "elected_official",
+        "cites": [8],
+        "party": "Democratic"
+      },
+      {
+        "organization": "Assemblymember Mike Fong",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [8]
+      },
+      {
+        "organization": "Alhambra Mayor Adele Andrade-Stadler",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Alhambra City Councilmember Jeff Maloney",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [9]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [10] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Amy Wong, Alhambra City Council District 1 candidate, 2026 election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/amy-wong-alhambra-city-council-district-1-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Running for Alhambra City Council District 1: Amy J. Wong",
+      "publisher": "Around Alhambra",
+      "url": "https://aroundalhambra.org/running-for-alhambra-city-council-district-1-amy-j-wong/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "They championed the fight against a Monterey Park data center. Now they’re running for office",
+      "publisher": "Daily Bulletin",
+      "url": "https://www.dailybulletin.com/2026/08/18/they-championed-the-fight-against-a-monterey-park-data-center-now-theyre-running-for-office/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Alhambra approves November ballot measure that would ban data centers. Will other cities follow?",
+      "publisher": "Pasadena Star-News",
+      "url": "https://www.pasadenastarnews.com/2026/07/28/alhambra-approves-november-ballot-measure-that-would-ban-data-centers-will-other-cities-follow/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Alhambra Council Candidates Discuss Housing, Traffic and Community Priorities at Forum",
+      "publisher": "Colorado Boulevard",
+      "url": "https://www.coloradoboulevard.net/alhambra-council-candidates-discuss-housing-traffic-and-community-priorities-at-forum/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "2026 Endorsements",
+      "publisher": "Los Angeles League of Conservation Voters",
+      "url": "http://lalcv.org/endorsement/endorsements-in-the-year-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 8,
+      "title": "Amy J. Wong for Alhambra City Council | 2026 Election",
+      "publisher": "Amy J. Wong campaign",
+      "url": "https://www.amyforalhambra.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 9,
+      "title": "Endorsements",
+      "publisher": "Sierra Club Angeles Chapter",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 10
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.272Z",
+    "version": 2
+  }
+}

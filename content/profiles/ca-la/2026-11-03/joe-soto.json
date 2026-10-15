@@ -1,0 +1,73 @@
+{
+  "key": "joe-soto",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Joe Soto",
+  "office": "City of Inglewood, Mayor",
+  "contestIds": ["la-4348-cc10870"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Joe Soto is a small business owner running for mayor.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Joe Soto is a small business owner running for mayor.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "Soto supports establishing term limits. His platform also focuses on protecting small businesses and supporting youth. In October 2026, he joined a candidate forum where challengers discussed housing affordability, traffic, video billboards and government transparency.",
+        "cites": [2, 3],
+        "sentences": [
+          { "text": "Soto supports establishing term limits.", "cites": [2] },
+          {
+            "text": "His platform also focuses on protecting small businesses and supporting youth.",
+            "cites": [2]
+          },
+          {
+            "text": "In October 2026, he joined a candidate forum where challengers discussed housing affordability, traffic, video billboards and government transparency.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Inglewood’s Nov. 3 ballot: a mayor’s race, two council seats, two initiatives",
+      "publisher": "Inglewood Independent",
+      "url": "https://inglewoodindependent.com/inglewoods-nov-3-ballot-a-mayors-race-two-council-seats-two-initiatives/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Joe Soto for Mayor of Inglewood 2026 — A Mayor for Every Neighborhood",
+      "publisher": "Joe Soto for Mayor",
+      "url": "https://www.sotoforinglewood.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Inglewood mayoral challengers weigh in on video billboards and transparency while Butts skips The LA Local's candidate forum",
+      "publisher": "The LA Local",
+      "url": "https://thelalocal.org/government/election/the-la-local-inglewood-candidate-forum-election-2026/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T14:05:39.750Z",
+    "version": 2
+  }
+}

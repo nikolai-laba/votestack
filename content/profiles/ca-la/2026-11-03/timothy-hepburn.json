@@ -1,0 +1,115 @@
+{
+  "key": "timothy-hepburn",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Timothy Hepburn",
+  "office": "City of La Verne, Member of the City Council, 4th District",
+  "contestIds": ["la-4348-cc10473"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Timothy Hepburn is a member of the La Verne City Council, representing District 4. He serves as the city's Mayor. He is a business owner. In 2024, he was an electrical contractor and president of the San Gabriel Valley Council of Governments. He became Mayor in 2020. The council unanimously selected him to continue as Mayor in 2025.",
+        "cites": [1, 2, 3, 4, 5, 6],
+        "sentences": [
+          {
+            "text": "Timothy Hepburn is a member of the La Verne City Council, representing District 4.",
+            "cites": [1]
+          },
+          { "text": "He serves as the city's Mayor.", "cites": [2] },
+          { "text": "He is a business owner.", "cites": [3] },
+          {
+            "text": "In 2024, he was an electrical contractor and president of the San Gabriel Valley Council of Governments.",
+            "cites": [4]
+          },
+          { "text": "He became Mayor in 2020.", "cites": [5] },
+          {
+            "text": "The council unanimously selected him to continue as Mayor in 2025.",
+            "cites": [6]
+          }
+        ]
+      },
+      {
+        "text": "At a 2017 candidate forum, he said undocumented workers who commit felonies should be deported and he supported a more bicycle-friendly city. In 2026, he voted to declare a state of emergency after a lithium-ion battery fire and said the priority was starting the claims process for evacuees.",
+        "cites": [7, 2],
+        "sentences": [
+          {
+            "text": "At a 2017 candidate forum, he said undocumented workers who commit felonies should be deported and he supported a more bicycle-friendly city.",
+            "cites": [7]
+          },
+          {
+            "text": "In 2026, he voted to declare a state of emergency after a lithium-ion battery fire and said the priority was starting the claims process for evacuees.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Staff Directory • City Council - City of La Verne",
+      "publisher": "City of La Verne",
+      "url": "https://www.laverneca.gov/m/directory/department?did=26",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "La Verne residents voice concerns over further community safety after lithium-ion battery fire",
+      "publisher": "CBS News",
+      "url": "https://www.cbsnews.com/losangeles/news/la-verne-lithium-ion-battery-fire-hazard-metropolitan-water-district-state-of-emergency/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Staff Directory • Tim Hepburn - City of La Verne",
+      "publisher": "City of La Verne",
+      "url": "https://www.laverneca.gov/m/directory/employee?eid=30",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Leading and Loving La Verne – La Verne Magazine",
+      "publisher": "La Verne Magazine",
+      "url": "https://lavernemagazine.org/2024/04/leading-and-loving-la-verne/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "1-on-1 with La Verne Mayor Tim Hepburn",
+      "publisher": "Spectrum Local News",
+      "url": "https://spectrumlocalnews.com/ca/california/in-focus/2024/04/09/1-on-1-with-la-verne-mayor-tim-hepburn---heart-of-la-music-academy",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Mayor Hepburn Selected to Continue as Mayor & Meshal “Kash” Kashifalghita Selected as Mayor Pro Tem",
+      "publisher": "City of La Verne",
+      "url": "https://www.cityoflaverne.org/CivicAlerts.aspx?AID=107",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "Sanctuary city status deliberated - Campus Times",
+      "publisher": "Campus Times",
+      "url": "https://lvcampustimes.org/2017/02/sanctuary-city-status-deliberated/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.444Z",
+    "version": 1
+  }
+}

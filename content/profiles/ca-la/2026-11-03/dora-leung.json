@@ -1,0 +1,76 @@
+{
+  "key": "dora-leung",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Dora Leung",
+  "office": "City of Monterey Park, City Clerk",
+  "contestIds": ["la-4348-cc10493"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Dora Leung is running for Monterey Park City Clerk. She previously worked as a Los Angeles County election clerk, and served as Monterey Park’s community engagement commissioner and vice chair of the Economic Development Advisory Committee. Her campaign says she will focus on accurate public records, improving public access to information, supporting open and transparent City Council meetings, and providing prompt service to residents and businesses.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Dora Leung is running for Monterey Park City Clerk.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously worked as a Los Angeles County election clerk, and served as Monterey Park’s community engagement commissioner and vice chair of the Economic Development Advisory Committee.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign says she will focus on accurate public records, improving public access to information, supporting open and transparent City Council meetings, and providing prompt service to residents and businesses.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "U.S. Rep. Judy Chu",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "蒙市第5區改選吳紹榮迎戰龔仁宏| 期中選舉| 洛杉磯| 世界新聞網",
+      "publisher": "World Journal",
+      "url": "https://www.worldjournal.com/wj/story/121555/9728872",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "梁綺雲參選蒙市書記官趙美心力挺| 期中選舉| 洛杉磯| 世界新聞網",
+      "publisher": "World Journal",
+      "url": "https://www.worldjournal.com/wj/story/121359/9654991",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "梁綺雲參選蒙市書記官 趙美心力挺",
+      "publisher": "World Journal (世界新聞網)",
+      "url": "https://www.worldjournal.com/wj/story/121555/9654991",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.514Z",
+    "version": 1
+  }
+}

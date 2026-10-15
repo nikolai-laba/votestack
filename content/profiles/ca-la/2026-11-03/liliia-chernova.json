@@ -1,0 +1,80 @@
+{
+  "key": "liliia-chernova",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Liliia Chernova",
+  "office": "City of Santa Clarita, Member of the City Council, 5th District",
+  "contestIds": ["la-4348-cc10839"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Liliia Chernova is a vice president of client partnerships. She says she volunteered as an emergency medical technician during Northern California wildfires.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Liliia Chernova is a vice president of client partnerships.",
+            "cites": [1]
+          },
+          {
+            "text": "She says she volunteered as an emergency medical technician during Northern California wildfires.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "She supports brush clearance, home hardening, and evacuation planning to prepare for fire season. She opposes new local taxes and wants to finish construction of already approved projects before considering additional rezoning. At a candidate forum, she said that infrastructure such as roads, schools, and evacuation capacity must be built along with growth, not years later.",
+        "cites": [2, 3],
+        "sentences": [
+          {
+            "text": "She supports brush clearance, home hardening, and evacuation planning to prepare for fire season.",
+            "cites": [2]
+          },
+          {
+            "text": "She opposes new local taxes and wants to finish construction of already approved projects before considering additional rezoning.",
+            "cites": [2]
+          },
+          {
+            "text": "At a candidate forum, she said that infrastructure such as roads, schools, and evacuation capacity must be built along with growth, not years later.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Liliia Chernova, Santa Clarita City Council District 5 candidate, 2026 election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/liliia-chernova-santa-clarita-city-council-district-5-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Chernova Campaign Focuses On Fire Preparedness, Development And Taxes In District 5 Race",
+      "publisher": "KHTS Hometown Station",
+      "url": "https://www.hometownstation.com/santa-clarita-news/politics/chernova-campaign-focuses-on-fire-preparedness-development-and-taxes-in-district-5-race-613255",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Council candidates take questions",
+      "publisher": "Santa Clarita Valley Signal",
+      "url": "https://signalscv.com/2026/10/council-candidates-take-questions/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.577Z",
+    "version": 1
+  }
+}

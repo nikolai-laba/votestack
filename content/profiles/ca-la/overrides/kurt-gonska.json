@@ -1,0 +1,33 @@
+{
+  "reason": "Chrome review: 'works in marketing' came from his 2022 statement; his 2026 statement lists marketing and political campaign management as professional experience, so the sentence follows the current statement",
+  "overview": [
+    {
+      "action": "replace",
+      "match": "Kurt Gonska is a commissioner on the Santa Monica Rent Control Board",
+      "text": "Kurt Gonska is a commissioner on the Santa Monica Rent Control Board who was elected in 2022 and served as board chair in 2025. His professional experience includes marketing and political campaign management. He supports strengthening rent control and in his 2022 campaign called for reducing the maximum annual rent increase from 6% to 3%. In 2022, he opposed means-testing for rent control, saying it would weaken protections. He says that as a commissioner, he worked to increase standards for rent decreases for loss of amenities or deteriorating conditions, ban algorithmic price-fixing software, and develop charter amendments for the November 2026 ballot.",
+      "sources": [
+        {
+          "title": "General Election 2026",
+          "publisher": "City of Santa Monica",
+          "url": "https://www.santamonica.gov/elections/2026-11-03/candidates/kurt-gonska",
+          "kind": "candidate",
+          "viewedAt": "2026-10-15"
+        },
+        {
+          "title": "General Election 2022",
+          "publisher": "City of Santa Monica",
+          "url": "https://www.santamonica.gov/elections/2022-11-08/candidates/kurt-gonska",
+          "kind": "candidate",
+          "viewedAt": "2026-10-15"
+        },
+        {
+          "title": "Rent Control Board race all but sewn up",
+          "publisher": "Santa Monica Daily Press",
+          "url": "https://www.smdp.com/rent-control-board-race-all-but-sewn-up/",
+          "kind": "news",
+          "viewedAt": "2026-10-15"
+        }
+      ]
+    }
+  ]
+}

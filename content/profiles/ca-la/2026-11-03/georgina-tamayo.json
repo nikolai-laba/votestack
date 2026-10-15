@@ -1,0 +1,169 @@
+{
+  "key": "georgina-tamayo",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Georgina Tamayo",
+  "office": "City of Montebello, Member of the City Council, 1st District",
+  "contestIds": ["la-4348-cc10481"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Georgina Tamayo is the mayor of Montebello and its District 1 City Council member. She works for the City of Los Angeles Housing Department and has more than two decades of housing and community development experience. Her campaign says she was elected to the council in 2022 and appointed mayor in 2025.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Georgina Tamayo is the mayor of Montebello and its District 1 City Council member.",
+            "cites": [1]
+          },
+          {
+            "text": "She works for the City of Los Angeles Housing Department and has more than two decades of housing and community development experience.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign says she was elected to the council in 2022 and appointed mayor in 2025.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "Her priorities include fiscal responsibility, public safety, local businesses, and transparent governance. Montebello Bus Lines introduced its first hydrogen fuel cell electric buses in August 2026; Tamayo said the buses show the city's commitment to sustainability and public health.",
+        "cites": [2, 4],
+        "sentences": [
+          {
+            "text": "Her priorities include fiscal responsibility, public safety, local businesses, and transparent governance.",
+            "cites": [2]
+          },
+          {
+            "text": "Montebello Bus Lines introduced its first hydrogen fuel cell electric buses in August 2026; Tamayo said the buses show the city's commitment to sustainability and public health.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "State Sen. Bob Archuleta",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Assemblymember Mark Gonzalez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Hilda Solis",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Montebello Councilmember Scarlet Peralta",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Montebello Councilmember Salvador Melendez",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [6]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Western States Council of Carpenters",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "SMART-TD Local 1701 (Montebello Transit)",
+        "kind": "union",
+        "cites": [5]
+      },
+      { "organization": "BizFed PAC", "kind": "organization", "cites": [5] },
+      {
+        "organization": "Latinas Lead California",
+        "kind": "organization",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Politics | Montebello News",
+      "publisher": "Montebello News",
+      "url": "https://montebello.news/politics",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Mayor Georgina Tamayo - City of Montebello",
+      "publisher": "City of Montebello",
+      "url": "https://www.montebelloca.gov/government/elected_officials/mayor_pro_tem_tamayo",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Georgina For Montebello: Home",
+      "publisher": "Georgina for Montebello campaign",
+      "url": "https://www.georginaformontebello.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Montebello Bus Lines Charts Bold Path Toward a Zero-Emission Future with First Hydrogen Fuel Cell Buses",
+      "publisher": "CTE TV",
+      "url": "https://cte.tv/post/montebello-bus-lines-charts-bold-path-toward-a-zero-emission-future-with-first-hydrogen-fuel-cell-buses",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements - Georgina For Montebello",
+      "publisher": "Georgina Tamayo for Montebello City Council 2026",
+      "url": "https://www.georginaformontebello.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Endorsed Candidates - Los Angeles County Democratic Party",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "2026 Voter Guide",
+      "publisher": "Teamsters Local 572",
+      "url": "https://www.teamsters572.org/local-572-voter-guide/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.502Z",
+    "version": 1
+  }
+}

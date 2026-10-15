@@ -1,0 +1,62 @@
+{
+  "key": "julie-ann-bookman",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Julie Ann Bookman",
+  "office": "Eastside Union School District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10697"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Julie Ann Bookman is the board president of the Eastside Union School District Governing Board and represents Trustee Area 5. Her term runs from December 2022 through December 2026. She earned a bachelor's degree in agronomy from Cal Poly Pomona and a master's degree in education from Chapman University. In July 2026 she supported appointing Dr. Tinisha Hamberlin as superintendent, saying the district should strengthen instruction and invest in staff to prepare students for high school.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Julie Ann Bookman is the board president of the Eastside Union School District Governing Board and represents Trustee Area 5.",
+            "cites": [1]
+          },
+          {
+            "text": "Her term runs from December 2022 through December 2026.",
+            "cites": [1]
+          },
+          {
+            "text": "She earned a bachelor's degree in agronomy from Cal Poly Pomona and a master's degree in education from Chapman University.",
+            "cites": [1]
+          },
+          {
+            "text": "In July 2026 she supported appointing Dr. Tinisha Hamberlin as superintendent, saying the district should strengthen instruction and invest in staff to prepare students for high school.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board President, Mrs. Julie A. Bookman – Board of Education – Eastside Union School District",
+      "publisher": "Eastside Union School District",
+      "url": "https://www.eastsideusd.org/apps/pages/index.jsp?uREC_ID=4434428&type=d&pREC_ID=2675217",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "EUSD Board Appoints Dr. Tinisha Hamberlin as Superintendent | Eastside Union School District",
+      "publisher": "Eastside Union School District",
+      "url": "https://www.eastsideusd.org/apps/news/article/2212372?categoryId=24856",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T14:05:39.690Z",
+    "version": 4
+  }
+}

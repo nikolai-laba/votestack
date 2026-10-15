@@ -1,0 +1,172 @@
+{
+  "key": "agnes-p-gonzalez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Agnes P. Gonzalez",
+  "office": "Rowland Unified School District, Governing Board Member, Trustee Area No. 1",
+  "contestIds": ["la-4348-cc10666"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Agnes P. Gonzalez is a member of the Rowland Unified School District Board of Education representing Trustee Area 1, appointed in 2021 and re-appointed in 2022. Her current term ends in December 2026. Before joining the board, she worked at Nogales High School from 1990 to 2020, supporting the school's fiscal and accounting operations. She also chairs the City of Walnut Senior Commission. She was named board clerk in 2022. As of 2025, she is the board president.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Agnes P. Gonzalez is a member of the Rowland Unified School District Board of Education representing Trustee Area 1, appointed in 2021 and re-appointed in 2022.",
+            "cites": [1]
+          },
+          { "text": "Her current term ends in December 2026.", "cites": [2] },
+          {
+            "text": "Before joining the board, she worked at Nogales High School from 1990 to 2020, supporting the school's fiscal and accounting operations.",
+            "cites": [1]
+          },
+          {
+            "text": "She also chairs the City of Walnut Senior Commission.",
+            "cites": [1]
+          },
+          { "text": "She was named board clerk in 2022.", "cites": [3] },
+          { "text": "As of 2025, she is the board president.", "cites": [4] }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Supervisor Hilda L. Solis",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Assemblymember Lisa Calderon",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [1]
+      },
+      {
+        "organization": "Cary C. Chen, President, Rowland Unified Board of Education",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Kevin T. Hayakawa, Ph.D., Vice President, Rowland Unified Board of Education",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Erik Venegas, Clerk, Rowland Unified Board of Education",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Ellen Park, Member, Rowland Unified Board of Education",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Angelena Pride, former Rowland Unified Board Member",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Donna Freedman, former Rowland Unified Board Member",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Dr. Allen Wu, Mayor of Walnut",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Ritchie Cajulis, Walnut City Council Member",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Linda Freedman, Walnut City Council Member",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Mary Su, former Walnut City Council Member",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Tony Cartagena, former Walnut City Council Member",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Letty Lopez-Viado, Mayor of West Covina",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Ollie Cantos, Mayor Pro Tem of West Covina",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Tony Wu, West Covina City Council Member",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Rosario Diaz, West Covina City Council Member",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Association of Rowland Educators",
+        "kind": "union",
+        "cites": [1]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Re-Elect Agnes P. Gonzalez | Rowland Unified School Board",
+      "publisher": "Agnes P. Gonzalez campaign",
+      "url": "https://agnespgonzalez.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Agnes P. Gonzalez - Member (Trustee Area 1) – Board of Education",
+      "publisher": "Rowland Unified School District",
+      "url": "https://www.rowlandschools.org/apps/pages/index.jsp?uREC_ID=40406&type=d&pREC_ID=2153107",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Board of Education Reorganization",
+      "publisher": "Rowland Unified School District",
+      "url": "https://www.rowlandschools.org/apps/news/article/1702991",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "2025 FALL - Rowland Adult and Community Education",
+      "publisher": "Rowland Unified School District",
+      "url": "https://race.rowlandschools.org/pdfs/Fall%202025%20Catalog-%20UPDATED.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.267Z",
+    "version": 1
+  }
+}

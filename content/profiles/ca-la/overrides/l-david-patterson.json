@@ -1,0 +1,26 @@
+{
+  "reason": "The cited campaign About page and Ballotpedia page are gone; re-sourced his Hawthorne and Carson roles to his campaign's Experience page, and dropped the occupation sentence and treasurer years, which that page does not state.",
+  "overview": [
+    {
+      "action": "replace",
+      "match": "L. David Patterson is a financial advisor and business consultant.",
+      "text": "L. David Patterson previously served as Hawthorne City Treasurer and as a Hawthorne city councilmember. He serves as the chief deputy treasurer for the City of Carson. In a 2024 questionnaire, he said that as treasurer he increased the city's annual investment returns from $30,000 to over $500,000 and reduced banking fees by hundreds of thousands of dollars annually. He also stated that as a councilmember he chaired the Financial Oversight Committee and introduced protocols that helped grow the city's cash balance from $5 million to $100 million.",
+      "sources": [
+        {
+          "title": "Experience That Matters | Dr. David Patterson, Candidate for Hawthorne City Treasurer",
+          "publisher": "Patterson for Treasurer 2026",
+          "url": "https://patterson4treasurer.com/experience",
+          "kind": "candidate",
+          "viewedAt": "2026-10-15"
+        },
+        {
+          "title": "L. David Patterson, Hawthorne mayoral candidate, 2024 election questionnaire",
+          "publisher": "Daily Breeze",
+          "url": "https://www.dailybreeze.com/2024/10/15/l-david-patterson-hawthorne-mayoral-candidate-2024-election-questionnaire/",
+          "kind": "news",
+          "viewedAt": "2026-10-15"
+        }
+      ]
+    }
+  ]
+}

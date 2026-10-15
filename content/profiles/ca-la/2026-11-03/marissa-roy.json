@@ -1,0 +1,436 @@
+{
+  "key": "marissa-roy",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Marissa Roy",
+  "office": "City of Los Angeles, City Attorney",
+  "contestIds": ["la-4348-cc10768"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Marissa Roy is a deputy attorney general in the California Attorney General's office. She says she previously worked in the LA City Attorney’s Office on wage theft cases and represented LA County in litigation against the Trump administration. She helped build the state's case against Meta that ended in a $17-billion settlement. She also says she obtained a half-million-dollar judgment against a landlord.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Marissa Roy is a deputy attorney general in the California Attorney General's office.",
+            "cites": [1]
+          },
+          {
+            "text": "She says she previously worked in the LA City Attorney’s Office on wage theft cases and represented LA County in litigation against the Trump administration.",
+            "cites": [2]
+          },
+          {
+            "text": "She helped build the state's case against Meta that ended in a $17-billion settlement.",
+            "cites": [3]
+          },
+          {
+            "text": "She also says she obtained a half-million-dollar judgment against a landlord.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign says she would expand the office’s enforcement of workers’ and renters’ rights, sue corporate polluters, and challenge the Trump administration. She supports diversion programs over incarceration and a liability audit by the City Controller.",
+        "cites": [4, 5],
+        "sentences": [
+          {
+            "text": "Her campaign says she would expand the office’s enforcement of workers’ and renters’ rights, sue corporate polluters, and challenge the Trump administration.",
+            "cites": [4]
+          },
+          {
+            "text": "She supports diversion programs over incarceration and a liability audit by the City Controller.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "U.S. Sen. Alex Padilla",
+        "kind": "elected_official",
+        "cites": [6],
+        "party": "Democratic"
+      },
+      {
+        "organization": "U.S. Sen. Adam Schiff",
+        "kind": "elected_official",
+        "cites": [6],
+        "party": "Democratic"
+      },
+      {
+        "organization": "U.S. Sen. Bernie Sanders",
+        "kind": "elected_official",
+        "party": "Independent",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Derek Tran",
+        "kind": "elected_official",
+        "cites": [8],
+        "party": "Democratic"
+      },
+      {
+        "organization": "California Attorney General Rob Bonta",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "California State Controller Malia Cohen",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "State Sen. Caroline Menjivar",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "State Sen. Lola Smallwood Cuevas",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [11]
+      },
+      {
+        "organization": "State Sen. Lena Gonzalez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [8]
+      },
+      {
+        "organization": "State Sen. Sasha Renée Pérez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [8]
+      },
+      {
+        "organization": "Assemblymember Tina McKinnor",
+        "kind": "elected_official",
+        "cites": [11],
+        "party": "Democratic"
+      },
+      {
+        "organization": "Assemblymember Celeste Rodriguez",
+        "kind": "elected_official",
+        "cites": [8],
+        "party": "Democratic"
+      },
+      {
+        "organization": "Assemblymember Isaac Bryan",
+        "kind": "elected_official",
+        "cites": [8],
+        "party": "Democratic"
+      },
+      {
+        "organization": "Assemblymember Nick Schultz",
+        "kind": "elected_official",
+        "cites": [8],
+        "party": "Democratic"
+      },
+      {
+        "organization": "Assemblymember Pilar Schiavo",
+        "kind": "elected_official",
+        "cites": [8],
+        "party": "Democratic"
+      },
+      {
+        "organization": "Assemblymember Sade Elhawary",
+        "kind": "elected_official",
+        "cites": [11],
+        "party": "Democratic"
+      },
+      {
+        "organization": "Los Angeles County Supervisor Hilda Solis",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Holly Mitchell",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Janice Hahn",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Lindsey Horvath",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Los Angeles City Controller Kenneth Mejia",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Los Angeles City Councilmember Eunisses Hernandez",
+        "kind": "elected_official",
+        "cites": [11]
+      },
+      {
+        "organization": "Los Angeles City Councilmember Marqueece Harris-Dawson",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Los Angeles City Councilmember Ysabel Jurado",
+        "kind": "elected_official",
+        "cites": [11]
+      },
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [12]
+      },
+      {
+        "organization": "Working Families Party",
+        "kind": "party",
+        "cites": [11]
+      },
+      {
+        "organization": "Planned Parenthood Advocacy Project Los Angeles County",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Jane Fonda Climate PAC",
+        "kind": "organization",
+        "cites": [13]
+      },
+      {
+        "organization": "Run for Something",
+        "kind": "organization",
+        "cites": [14]
+      },
+      { "organization": "UAW Region 6", "kind": "union", "cites": [15] },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [10]
+      },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [8] },
+      {
+        "organization": "United Teachers Los Angeles",
+        "kind": "union",
+        "cites": [16]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [8] },
+      {
+        "organization": "Democratic Socialists of America, Los Angeles (DSA-LA)",
+        "kind": "organization",
+        "cites": [17]
+      },
+      {
+        "organization": "California Women's List",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "YIMBY Los Angeles",
+        "kind": "organization",
+        "cites": [18]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [19] },
+      {
+        "organization": "Culver City Democratic Club",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [20]
+      },
+      { "organization": "Knock LA", "kind": "organization", "cites": [21] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "LA City Attorney: Who's running in the June 2 primary and why it ...",
+      "publisher": "LAist",
+      "url": "https://laist.com/news/politics/voter-guides/2026-election-california-primary-la-city-attorney",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Meet Marissa Roy, Candidate For Los Angeles City Attorney",
+      "publisher": "Patch",
+      "url": "https://patch.com/california/los-angeles/meet-marissa-roy-candidate-los-angeles-city-attorney",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Your guide to the L.A. city attorney's race: McKinney vs. Roy",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-10-01/2026-california-election-los-angeles-city-attorney-mckinney-roy-voter-guide",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "THE PEOPLE'S PLATFORM | Marissa Roy For LA City Attorney",
+      "publisher": "Marissa Roy campaign",
+      "url": "https://www.marissaroy.com/the-people-s-platform",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "L.A. city attorney election guide: Feldstein Soto vs. three ...",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-05-01/2026-california-election-los-angeles-city-attorney-feldstein-soto-roy-ashouri-mckinney-voter-guide",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Los Angeles City Attorney: Who's running Nov. 3 and why it matters",
+      "publisher": "LAist",
+      "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-los-angeles-city-attorney",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "'Building a Movement for the Future,' Bernie Sanders Endorses 61 State and Local Progressives",
+      "publisher": "Common Dreams",
+      "url": "https://www.commondreams.org/news/bernie-sanders-endorsement",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "ENDORSEMENTS | Marissa Roy For LA City Attorney",
+      "publisher": "Marissa Roy for Los Angeles City Attorney 2026",
+      "url": "https://www.marissaroy.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "L.A. City Attorney Polls: Roy Leads, Feldstein Soto Trails",
+      "publisher": "Los Angeles Magazine",
+      "url": "https://lamag.com/politics/roy-and-mckinney-overtake-incumbent-feldstein-soto-in-l-a-city-attorney-polls/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "The Marissa Roy Interview: Candidate For LA City Attorney",
+      "publisher": "CityWatch LA",
+      "url": "https://www.citywatchla.com/la-election-2022/32125-the-marissa-roy-interview-candidate-for-la-city-attorney-2",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "Culver City Democratic Club Votes to Endorse Roy for LA City Attorney",
+      "publisher": "Culver City Crossroads",
+      "url": "https://culvercitycrossroads.com/?p=73054",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "Endorsements",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 13,
+      "title": "Endorsements",
+      "publisher": "Jane Fonda Climate PAC",
+      "url": "https://www.janepac.com/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 14,
+      "title": "Marissa Roy",
+      "publisher": "Run for Something",
+      "url": "https://directory.runforsomething.net/candidate/673899d74b84c0a8fb7a3229b58b7cad/roy-marissa/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 15,
+      "title": "California Endorsements",
+      "publisher": "UAW Region 6",
+      "url": "https://www.uawregion6.org/california",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 16,
+      "title": "UTLA 2026 Endorsements",
+      "publisher": "United Teachers Los Angeles",
+      "url": "https://utla.net/campaigns/2026-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 17,
+      "title": "Our Candidates | DSA-LA",
+      "publisher": "Democratic Socialists of America, Los Angeles",
+      "url": "https://shakeup-la.com/our-candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 18,
+      "title": "November General Election Endorsements",
+      "publisher": "YIMBY Los Angeles",
+      "url": "https://yimby.la/voter-guide/november-general-election-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 19,
+      "title": "Los Angeles - LA Forward Voter Guide",
+      "publisher": "LA Forward",
+      "url": "https://laforwardguide.org/guide/los-angeles",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 20,
+      "title": "Endorsements",
+      "publisher": "Sierra Club Angeles Chapter",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
+      "publisher": "Knock LA (Ground Game LA)",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 21
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.458Z",
+    "version": 4
+  }
+}

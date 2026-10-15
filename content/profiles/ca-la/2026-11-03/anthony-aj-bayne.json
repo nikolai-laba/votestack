@@ -1,0 +1,171 @@
+{
+  "key": "anthony-aj-bayne",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Anthony (A.J.) Bayne",
+  "office": "Superior Court Judge, Los Angeles County (Office No. 87)",
+  "contestIds": ["la-4348-cc10826-r1", "la-4348-cc10826-r2"],
+  "kind": "judicial_candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Anthony (A.J.) Bayne is a Los Angeles County deputy public defender. His 31-year legal career includes more than 25 years as a deputy public defender and more than 100 jury trials to verdict, including murder, special-circumstances and three-strikes cases. He spent 19 years at the Compton Courthouse, where for a time he served as deputy in charge supervising misdemeanor trial deputies.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Anthony (A.J.) Bayne is a Los Angeles County deputy public defender.",
+            "cites": [1]
+          },
+          {
+            "text": "His 31-year legal career includes more than 25 years as a deputy public defender and more than 100 jury trials to verdict, including murder, special-circumstances and three-strikes cases.",
+            "cites": [1]
+          },
+          {
+            "text": "He spent 19 years at the Compton Courthouse, where for a time he served as deputy in charge supervising misdemeanor trial deputies.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Southern California News Group editorial board (Los Angeles Daily News)",
+        "kind": "editorial_board",
+        "cites": [2]
+      },
+      {
+        "organization": "Colorado Boulevard Newspaper editorial board",
+        "kind": "editorial_board",
+        "cites": [3]
+      },
+      {
+        "organization": "Peace Officers Research Association of California (PORAC)",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "International Longshore and Warehouse Union (ILWU)",
+        "kind": "union",
+        "cites": [4]
+      },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [5] },
+      {
+        "organization": "National Association of Letter Carriers Branch 1100",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Association of Deputy District Attorneys for Los Angeles County (ADDA)",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Los Angeles Police Protective League (LAPPL)",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Los Angeles Port Police Association",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "West Covina Police Officers' Association",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Mexican American Bar Association",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Former Los Angeles County District Attorney Steve Cooley",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Monrovia Mayor Pro Tem Sergio P. Jimenez",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Los Angeles County Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Well Qualified",
+        "cites": [6]
+      },
+      { "organization": "Knock LA", "kind": "organization", "cites": [7] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Your guide to the L.A. County Superior Court judge elections: Every competitive race",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-10-01/2026-california-election-los-angeles-county-superior-court-judge-voter-guide",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Confused by the judicial races? Here are our LA County Superior Court endorsements",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/09/confused-by-the-judicial-races-here-are-our-la-county-superior-court-endorsements/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "2026 General Election: Recommendations for L.A. County Superior Court Judges",
+      "publisher": "Colorado Boulevard Newspaper",
+      "url": "https://www.coloradoboulevard.net/2026-general-election-recommendations-for-l-a-county-superior-court-judges/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Candidate ready to move from public defender to LA County judge",
+      "publisher": "CALÓ News",
+      "url": "https://www.calonews.com/communities/los-angeles-county/candidate-ready-to-move-from-public-defender-to-la-county-judge/article_2bcd0b41-9d4a-4a4b-8e32-720fd0fd0015.html",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements | Elect Bayne for Judge - Seat 87",
+      "publisher": "Elect Bayne for Judge",
+      "url": "https://electbayneforjudge.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "General Election Judicial Candidate Ratings for L.A. County, November 3, 2026",
+      "publisher": "Los Angeles County Bar Association",
+      "url": "https://lacba.org/docDownload/3141411",
+      "kind": "bar",
+      "viewedAt": "2026-10-14",
+      "id": 6
+    },
+    {
+      "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
+      "publisher": "Knock LA (Ground Game LA)",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 7
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.264Z",
+    "version": 5
+  }
+}

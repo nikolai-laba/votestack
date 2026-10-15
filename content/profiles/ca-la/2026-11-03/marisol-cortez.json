@@ -1,0 +1,90 @@
+{
+  "key": "marisol-cortez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Marisol Cortez",
+  "office": "City of El Monte, Member of the City Council, 6th District",
+  "contestIds": ["la-4348-cc10451"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Marisol Cortez serves on the El Monte City Council, representing the 6th District since her election in November 2022. She has also served as mayor pro tem.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Marisol Cortez serves on the El Monte City Council, representing the 6th District since her election in November 2022.",
+            "cites": [1]
+          },
+          { "text": "She has also served as mayor pro tem.", "cites": [2] }
+        ]
+      },
+      {
+        "text": "In 2025, she helped launch El Monte Cares, a program supported by a $100,000 donation to provide food assistance and legal aid to families affected by immigration raids. Her campaign says she has supported building housing for working families and voted to keep police funded and fire stations open, and she supports repaving roads and attracting retail and restaurants to create jobs.",
+        "cites": [2, 3],
+        "sentences": [
+          {
+            "text": "In 2025, she helped launch El Monte Cares, a program supported by a $100,000 donation to provide food assistance and legal aid to families affected by immigration raids.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign says she has supported building housing for working families and voted to keep police funded and fire stations open, and she supports repaving roads and attracting retail and restaurants to create jobs.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Marisol Cortez | El Monte, CA",
+      "publisher": "City of El Monte",
+      "url": "https://www.ci.el-monte.ca.us/685/Marisol-Cortez",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "El Monte Cares launches to support families impacted by immigration raids",
+      "publisher": "HeySoCal",
+      "url": "https://heysocal.com/2025/06/23/el-monte-cares-launches-to-support-families-impacted-by-immigration-raids/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Marisol Cortez",
+      "publisher": "Marisol Cortez",
+      "url": "https://www.cortezforcitycouncil.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Endorsed Candidates - Los Angeles County Democratic Party",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.384Z",
+    "version": 1
+  }
+}

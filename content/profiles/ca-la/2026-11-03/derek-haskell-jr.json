@@ -1,0 +1,80 @@
+{
+  "key": "derek-haskell-jr",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Derek Haskell Jr.",
+  "office": "City of Carson, Member of the City Council, 2nd District",
+  "contestIds": ["la-4348-cc10430"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Derek Haskell Jr. is executive director of the C3 Foundation. His campaign describes experience in mental health, disaster recovery after Hurricane Katrina, and work with LAUSD students and Carson Recreation and Parks. His campaign says he built the California Youth Medical Training Program and California Prison Arts Initiative.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Derek Haskell Jr. is executive director of the C3 Foundation.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign describes experience in mental health, disaster recovery after Hurricane Katrina, and work with LAUSD students and Carson Recreation and Parks.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he built the California Youth Medical Training Program and California Prison Arts Initiative.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "He told the Southern California News Group that one of his top priorities would be investing in youth, including mentorship, career pathways, sports and civic engagement. His campaign also lists safe and clean neighborhoods, workforce and economic development, practical homelessness and housing solutions, and transparent city government as goals.",
+        "cites": [3, 1],
+        "sentences": [
+          {
+            "text": "He told the Southern California News Group that one of his top priorities would be investing in youth, including mentorship, career pathways, sports and civic engagement.",
+            "cites": [3]
+          },
+          {
+            "text": "His campaign also lists safe and clean neighborhoods, workforce and economic development, practical homelessness and housing solutions, and transparent city government as goals.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "About Derek Haskell - Haskell for Carson 2026",
+      "publisher": "Derek Haskell campaign",
+      "url": "https://www.carsonyoutholympics.org/about_derek_haskell",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "About - Friends of Haskell for Carson City Council 2026",
+      "publisher": "Derek Haskell campaign",
+      "url": "https://www.carsonyoutholympics.org/meet-derek-haskell",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Elections 2026: Voters in Carson Council Districts 2 and 4 each have two candidates to choose from",
+      "publisher": "Daily Breeze",
+      "url": "https://www.dailybreeze.com/2026/10/12/elections-2026-voters-in-carson-council-districts-2-and-4-each-have-two-candidates-to-choose-from/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.328Z",
+    "version": 1
+  }
+}

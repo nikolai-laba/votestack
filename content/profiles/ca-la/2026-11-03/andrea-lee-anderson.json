@@ -1,0 +1,89 @@
+{
+  "key": "andrea-lee-anderson",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Andrea Lee Anderson",
+  "party": "Party Preference: Republican",
+  "office": "State Assembly Member, 52nd District",
+  "contestIds": ["la-4348-cc10792"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Andrea Lee Anderson is a retired musician. She has served on the Eagle Rock Neighborhood Council. Her campaign website says she will work for equal opportunity, government accountability, choosing principles over politics, and a moral society.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Andrea Lee Anderson is a retired musician.",
+            "cites": [1]
+          },
+          {
+            "text": "She has served on the Eagle Rock Neighborhood Council.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign website says she will work for equal opportunity, government accountability, choosing principles over politics, and a moral society.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Republican Assembly",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "California Republican Party",
+        "kind": "party",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Andrea Lee Anderson, Assembly District 52 candidate, 2026 election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/andrea-lee-anderson-assembly-district-52-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Andrea Anderson for California Assembly District 52",
+      "publisher": "Andrea Lee Anderson campaign",
+      "url": "https://www.andrealeeanderson.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "STATE ASSEMBLY - CRA (November 2026 General Election Endorsements)",
+      "publisher": "California Republican Assembly",
+      "url": "https://cragop.org/state-assembly/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "2026 CRP Endorsements",
+      "publisher": "California Republican Party",
+      "url": "https://cagop.org/endorsements/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 4
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.700Z",
+    "version": 3
+  }
+}

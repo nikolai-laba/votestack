@@ -1,0 +1,97 @@
+{
+  "key": "ben-berk",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Ben Berk",
+  "office": "Antelope Valley Joint Union High School District, Governing Board Member, Trustee Area No. 1",
+  "contestIds": ["la-4348-cc10679"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Ben Berk is a candidate for the Antelope Valley Joint Union High School District Governing Board, Trustee Area 1. His ballot designation is Father/Business Owner, and his professional background is in finance. Berk served in the U.S. Navy from 2005 to 2010 and in the U.S. Army from 2010 to 2020. He serves as the financial officer for Vets4Veterans and was appointed to the Lancaster Planning Commission in August 2025.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Ben Berk is a candidate for the Antelope Valley Joint Union High School District Governing Board, Trustee Area 1.",
+            "cites": [1]
+          },
+          {
+            "text": "His ballot designation is Father/Business Owner, and his professional background is in finance.",
+            "cites": [1]
+          },
+          {
+            "text": "Berk served in the U.S. Navy from 2005 to 2010 and in the U.S. Army from 2010 to 2020.",
+            "cites": [1]
+          },
+          {
+            "text": "He serves as the financial officer for Vets4Veterans and was appointed to the Lancaster Planning Commission in August 2025.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Voz Unida (California Latino Voter Alliance)",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Republican Party of Los Angeles County",
+        "kind": "party",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "AVUHSD Board Races Take Shape for Nov. 3 Election",
+      "publisher": "Antelope Valley Online",
+      "url": "https://antelopevalleyonline.com/avuhsd-board-races-take-shape-for-nov-3-election/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Voz Unida Voter Guide - Los Angeles",
+      "publisher": "Voz Unida / California Latino Voter Alliance",
+      "url": "https://www.latinovoteralliance.org/voter-guides/los-angeles",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 3
+    },
+    {
+      "title": "LAGOP Endorsement Lookup, November 3, 2026 General Election",
+      "publisher": "Republican Party of Los Angeles County",
+      "url": "https://lagop-endorsement-lookup.vercel.app/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 4
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.952Z",
+    "version": 2
+  }
+}

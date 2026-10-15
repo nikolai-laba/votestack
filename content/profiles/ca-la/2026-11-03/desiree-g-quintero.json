@@ -1,0 +1,46 @@
+{
+  "key": "desiree-g-quintero",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Desiree G. Quintero",
+  "office": "Whittier Union High School District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10690"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Desiree G. Quintero is a candidate for the Whittier Union High School District Governing Board, Trustee Area 5, in the November 2026 election. She works as a manager of administration and board secretary.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Desiree G. Quintero is a candidate for the Whittier Union High School District Governing Board, Trustee Area 5, in the November 2026 election.",
+            "cites": [1]
+          },
+          {
+            "text": "She works as a manager of administration and board secretary.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Desiree Quintero, Whittier Union High School District Area 5 candidate, 2026 election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/desiree-quintero-whittier-union-high-school-district-area-5-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.353Z",
+    "version": 1
+  }
+}

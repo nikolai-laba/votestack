@@ -1,0 +1,67 @@
+{
+  "key": "andrew-ramirez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Andrew Ramirez",
+  "office": "Keppel Union School District, Governing Board Member, Trustee Area No. 3",
+  "contestIds": ["la-4348-cc10757"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Andrew Ramirez is a member of the Keppel Union School District Governing Board. He was elected in November 2022. In December 2023, he voted to terminate the superintendent’s contract without cause at a special meeting. This vote prompted a recall effort, but the petitions were not approved for circulation.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Andrew Ramirez is a member of the Keppel Union School District Governing Board.",
+            "cites": [1]
+          },
+          { "text": "He was elected in November 2022.", "cites": [2] },
+          {
+            "text": "In December 2023, he voted to terminate the superintendent’s contract without cause at a special meeting.",
+            "cites": [3]
+          },
+          {
+            "text": "This vote prompted a recall effort, but the petitions were not approved for circulation.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Live Feed | Keppel Academy",
+      "publisher": "Keppel Union School District",
+      "url": "https://www.keppelunion.org/o/keppel-academy/live-feed?page_no=3",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "2 on Keppel board face recall | News",
+      "publisher": "Antelope Valley Press",
+      "url": "https://www.avpress.com/news/2-on-keppel-board-face-recall/article_98da0244-b681-11ee-b196-cbcc3a27c6fd.html",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Keppel Union School District, California, elections",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Keppel_Union_School_District,_California,_elections",
+      "kind": "reference",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.119Z",
+    "version": 1
+  }
+}

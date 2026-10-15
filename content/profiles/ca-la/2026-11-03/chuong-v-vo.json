@@ -1,0 +1,168 @@
+{
+  "key": "chuong-v-vo",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Chuong V. Vo",
+  "party": "Party Preference: Republican",
+  "office": "U.S. Representative, 45th District",
+  "contestIds": ["la-4348-cc10822-r1", "la-4348-cc10822-r2"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Chuong V. Vo is a retired police officer and a former mayor of Cerritos. He also served as a Cerritos councilmember. He worked in law enforcement for nearly three decades.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Chuong V. Vo is a retired police officer and a former mayor of Cerritos.",
+            "cites": [1]
+          },
+          {
+            "text": "He also served as a Cerritos councilmember.",
+            "cites": [1]
+          },
+          {
+            "text": "He worked in law enforcement for nearly three decades.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "In his 2026 primary questionnaire, he listed the cost of living, public safety, and immigration as the three biggest issues facing the district. He told the Orange County Register that a secure border must be paired with a legal immigration system that actually works, with shorter backlogs, real employer verification, and a process that rewards people who follow the rules. He has also said he does not support cuts to Medicare.",
+        "cites": [3, 2],
+        "sentences": [
+          {
+            "text": "In his 2026 primary questionnaire, he listed the cost of living, public safety, and immigration as the three biggest issues facing the district.",
+            "cites": [3]
+          },
+          {
+            "text": "He told the Orange County Register that a secure border must be paired with a legal immigration system that actually works, with shorter backlogs, real employer verification, and a process that rewards people who follow the rules.",
+            "cites": [2]
+          },
+          {
+            "text": "He has also said he does not support cuts to Medicare.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Republican Party",
+        "kind": "party",
+        "cites": [4]
+      },
+      {
+        "organization": "Log Cabin Republicans PAC",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "State Sen. Tony Strickland",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [6]
+      },
+      {
+        "organization": "California ProLife Council",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "California Republican Assembly",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [9]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Chuong Vo, CA-45 candidate, 2026 election questionnaire",
+      "publisher": "Orange County Register",
+      "url": "https://www.ocregister.com/2026/10/05/chuong-vo-ca-45-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Derek Tran and Chuong Vo look to their families when it comes to immigration policy in the race for California’s 45th Congressional District",
+      "publisher": "Orange County Register",
+      "url": "https://www.ocregister.com/2026/10/14/derek-tran-and-chuong-vo-look-to-their-families-when-it-comes-to-immigration-policy-in-the-race-for-californias-45th-congressional-district/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Chuong V. Vo, CA-45 candidate, 2026 primary election questionnaire",
+      "publisher": "Orange County Register",
+      "url": "https://www.ocregister.com/2026/05/05/chuong-v-vo-ca-45-candidate-2026-primary-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Endorsements",
+      "publisher": "California Republican Party",
+      "url": "https://cagop.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Log Cabin Republicans PAC Announces Fourth Round of Endorsements",
+      "publisher": "Log Cabin Republicans",
+      "url": "https://logcabin.org/log-cabin-republicans-pac-announces-fourth-round-of-endorsements-2/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "In this Orange County district, 5 Asian American candidates are running for Congress",
+      "publisher": "NBC Los Angeles",
+      "url": "https://www.nbclosangeles.com/news/local/orange-county-westminster-vietnamese-american-house-district-45/3890764/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "California ProLife Council 2026 Voter Guide",
+      "publisher": "California ProLife Council",
+      "url": "https://californiaprolife.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 7
+    },
+    {
+      "title": "November 2026 General Election Endorsements: Los Angeles County",
+      "publisher": "California Republican Assembly",
+      "url": "https://cragop.org/los-angeles-county/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 8
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 9
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.854Z",
+    "version": 3
+  }
+}

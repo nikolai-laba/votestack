@@ -1,0 +1,89 @@
+{
+  "key": "getro-elize",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Getro Elize",
+  "office": "City of Palmdale, Member of the City Council, 4th District",
+  "contestIds": ["la-4348-cc10496"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Getro Elize is vice chair of the Palmdale Planning Commission and an assistant staff analyst. He served in the U.S. Army and earned a finance degree from Howard's School of Business. In a 2019 campaign, his website listed priorities including homelessness and housing needs, economic growth, infrastructure expansion, cancellation of student debt, and increasing public school pay for teachers.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Getro Elize is vice chair of the Palmdale Planning Commission and an assistant staff analyst.",
+            "cites": [1]
+          },
+          {
+            "text": "He served in the U.S. Army and earned a finance degree from Howard's School of Business.",
+            "cites": [2]
+          },
+          {
+            "text": "In a 2019 campaign, his website listed priorities including homelessness and housing needs, economic growth, infrastructure expansion, cancellation of student debt, and increasing public school pay for teachers.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      { "organization": "SEIU 2015", "kind": "union", "cites": [3] },
+      {
+        "organization": "SEIU-United Healthcare Workers West (SEIU-UHW)",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "Lancaster City Council Member Cedric White",
+        "kind": "elected_official",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Getro Elize, Palmdale City Council District 4 candidate, 2026 election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/getro-elize-palmdale-city-council-district-4-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Getro Elize announces 25th Congressional District campaign",
+      "publisher": "Santa Clarita Valley Signal",
+      "url": "https://signalscv.com/2019/12/getro-elize-announces-25th-congressional-district-campaign/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Ballot Recommendations",
+      "publisher": "SEIU 2015",
+      "url": "https://www.seiu2015.org/justice-for-all/democracy-for-all/ballot-recommendations/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Endorsements",
+      "publisher": "Getro Elize for City Council",
+      "url": "https://getroelize4citycouncil.com/endorsements/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.527Z",
+    "version": 1
+  }
+}

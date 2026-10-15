@@ -1,0 +1,84 @@
+{
+  "key": "adam-c-carranza",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Adam C. Carranza",
+  "office": "Mountain View School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10717"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Adam Carranza is vice president of the Mountain View School District board, first elected in 2009. He holds a master's degree in public administration from California State University, Los Angeles and a bachelor's degree in speech communication from the University of La Verne. He works as a substitute teacher for students in kindergarten through 12th grade. On the board, he has focused on addressing the needs of English language learners and building parent engagement programs.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Adam Carranza is vice president of the Mountain View School District board, first elected in 2009.",
+            "cites": [1]
+          },
+          {
+            "text": "He holds a master's degree in public administration from California State University, Los Angeles and a bachelor's degree in speech communication from the University of La Verne.",
+            "cites": [1]
+          },
+          {
+            "text": "He works as a substitute teacher for students in kindergarten through 12th grade.",
+            "cites": [1]
+          },
+          {
+            "text": "On the board, he has focused on addressing the needs of English language learners and building parent engagement programs.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [2]
+      },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Adam Carranza - Vice President",
+      "publisher": "Mountain View School District",
+      "url": "https://www.mtviewschools.com/50769_3",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Endorsed Candidates - Los Angeles County Democratic Party",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 3
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.087Z",
+    "version": 2
+  }
+}

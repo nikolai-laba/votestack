@@ -1,0 +1,75 @@
+{
+  "key": "raul-pardo",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Raul Pardo",
+  "office": "El Monte Union High School District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10687"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Raul Pardo is a longshoreman and a former South El Monte mayor and city council member. He says he also served as a Los Angeles County Public Health Commissioner and previously worked as a teacher and coach. He says the district faces funding challenges from declining enrollment and needs to position itself as a district of choice. He lists recruiting teachers and staff as a priority. He states that the school board’s role is to drive policy and hold the superintendent accountable for delivering on agreed policy.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Raul Pardo is a longshoreman and a former South El Monte mayor and city council member.",
+            "cites": [1]
+          },
+          {
+            "text": "He says he also served as a Los Angeles County Public Health Commissioner and previously worked as a teacher and coach.",
+            "cites": [1]
+          },
+          {
+            "text": "He says the district faces funding challenges from declining enrollment and needs to position itself as a district of choice.",
+            "cites": [1]
+          },
+          {
+            "text": "He lists recruiting teachers and staff as a priority.",
+            "cites": [1]
+          },
+          {
+            "text": "He states that the school board’s role is to drive policy and hold the superintendent accountable for delivering on agreed policy.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Raul Pardo, El Monte Union High School District 5 candidate, 2026 election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/raul-pardo-el-monte-union-high-school-district-5-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 2
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.015Z",
+    "version": 5
+  }
+}

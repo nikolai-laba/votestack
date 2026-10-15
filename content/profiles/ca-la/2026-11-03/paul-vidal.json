@@ -1,0 +1,81 @@
+{
+  "key": "paul-vidal",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Paul Vidal",
+  "office": "Palos Verdes Peninsula Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10662"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Paul Vidal is a healthcare company CEO and parent running for the Palos Verdes Peninsula Unified School District board. He is a Naval Academy graduate and former Navy pilot.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Paul Vidal is a healthcare company CEO and parent running for the Palos Verdes Peninsula Unified School District board.",
+            "cites": [1]
+          },
+          {
+            "text": "He is a Naval Academy graduate and former Navy pilot.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "His candidate statement supports protecting academic rigor, supporting teachers, transparent budgets, and keeping politics out of classrooms. At a summer picnic of the Palos Verdes Democrats, he stressed resisting book bans and discrimination, along with fiscal responsibility, educational quality, and inclusion.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "His candidate statement supports protecting academic rigor, supporting teachers, transparent budgets, and keeping politics out of classrooms.",
+            "cites": [1]
+          },
+          {
+            "text": "At a summer picnic of the Palos Verdes Democrats, he stressed resisting book bans and discrimination, along with fiscal responsibility, educational quality, and inclusion.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      { "organization": "LA Forward", "kind": "organization", "cites": [3] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Who's Running - PV Informer",
+      "publisher": "PV Informer",
+      "url": "https://pvinformer.com/ballot-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "August 2026 Newsletter — Palos Verdes Democrats",
+      "publisher": "Palos Verdes Democrats",
+      "url": "https://www.pvpdemocrats.org/august-2026-newsletter",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 3
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.111Z",
+    "version": 2
+  }
+}

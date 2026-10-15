@@ -1,0 +1,47 @@
+{
+  "reason": "Source 404 (Wikipedia article Eric_Ching no longer exists); removed the two sentences that relied only on it; Chrome review: the City of Walnut council roster no longer includes Ching and his campaign site calls him a former mayor (council terms from 2012 to 2024), so he is a former council member; reworded the gas price sentence to match his questionnaire",
+  "overview": [
+    {
+      "action": "replace",
+      "match": "Eric Ching is a member of the Walnut City Council, a former ",
+      "text": "Eric Ching is a former member of the Walnut City Council, a former mayor of Walnut, and a business owner.",
+      "sources": [
+        {
+          "title": "Eric Ching for Congress | California's 31st District",
+          "publisher": "Eric Ching for Congress",
+          "url": "https://www.ericchingforcongress.com/",
+          "kind": "candidate",
+          "viewedAt": "2026-10-15"
+        },
+        {
+          "title": "Walnut City Council",
+          "publisher": "City of Walnut",
+          "url": "https://www.walnutca.gov/My-Government/Walnut-City-Council",
+          "kind": "official",
+          "viewedAt": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "action": "replace",
+      "match": "In his 2026 campaign, Ching says his top priority",
+      "text": "In his 2026 campaign, Ching says his top priority is to reverse what he calls failed California state policies that have driven up housing costs, property crime, and homelessness. To make housing more affordable, he says the state should address policies that drive up costs, such as by reducing the gas price to the national average. He calls for eliminating all illegal immigration while being open to more legal immigration. He also supports strengthening border security.",
+      "sources": [
+        {
+          "title": "Eric Ching, CA-31 candidate, 2026 election questionnaire",
+          "publisher": "Daily Bulletin",
+          "url": "https://www.dailybulletin.com/2026/10/05/eric-ching-ca-31-candidate-2026-election-questionnaire/",
+          "kind": "news",
+          "viewedAt": "2026-10-15"
+        },
+        {
+          "title": "Eric Ching for Congress | California's 31st District",
+          "publisher": "Eric Ching for Congress",
+          "url": "https://www.ericchingforcongress.com/",
+          "kind": "candidate",
+          "viewedAt": "2026-10-15"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "key": "steve-goorvitch",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Steve Goorvitch",
+  "office": "Associate Justice, Court of Appeal, Second District, Division Two",
+  "contestIds": ["la-4348-rc10893"],
+  "kind": "retention",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Stephen Goorvitch is an Associate Justice of the Court of Appeal, Second Appellate District, Division Two. Governor Gavin Newsom appointed him in February 2026, and the Commission on Judicial Appointments unanimously confirmed him in May 2026. He previously served as a Los Angeles Superior Court judge from 2015, presiding over civil and criminal cases. Before the bench, he was an assistant U.S. attorney, practiced at O'Melveny and Myers, clerked for federal judges, and worked at the Securities and Exchange Commission.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Stephen Goorvitch is an Associate Justice of the Court of Appeal, Second Appellate District, Division Two.",
+            "cites": [1]
+          },
+          {
+            "text": "Governor Gavin Newsom appointed him in February 2026, and the Commission on Judicial Appointments unanimously confirmed him in May 2026.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously served as a Los Angeles Superior Court judge from 2015, presiding over civil and criminal cases.",
+            "cites": [1]
+          },
+          {
+            "text": "Before the bench, he was an assistant U.S. attorney, practiced at O'Melveny and Myers, clerked for federal judges, and worked at the Securities and Exchange Commission.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [3] },
+      {
+        "organization": "Indivisible Ventura",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Santa Clarita Valley Democrats",
+        "kind": "organization",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Stephen Goorvitch | Second Appellate District | District Courts of Appeal",
+      "publisher": "Second Appellate District",
+      "url": "https://appellate.courts.ca.gov/district-courts/2dca/bio/stephen-goorvitch",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Commission Confirms Five Appointments to Courts of Appeal | California Courts Newsroom",
+      "publisher": "California Courts Newsroom",
+      "url": "https://newsroom.courts.ca.gov/news/commission-confirms-five-appointments-courts-appeal-0",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Nonpartisan Judicial Offices",
+      "publisher": "Indivisible Ventura",
+      "url": "https://indivisibleventura.org/nonpartisan-judicial-offices/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "November 2026 Candidate Endorsements",
+      "publisher": "Santa Clarita Valley Democrats",
+      "url": "https://www.santaclaritavalleydemocrats.com/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.856Z",
+    "version": 1
+  }
+}

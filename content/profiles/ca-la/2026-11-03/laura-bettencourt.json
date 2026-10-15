@@ -1,0 +1,92 @@
+{
+  "key": "laura-bettencourt",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Laura Bettencourt",
+  "office": "City of Palmdale, Member of the City Council, 3rd District",
+  "contestIds": ["la-4348-cc10495"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Laura Bettencourt was first elected to the Palmdale City Council in 2009 and represents District 3. She works as a crime and intelligence analyst for the Los Angeles County Sheriff’s Department. In 2020, she supported constitutional and community policing with youth diversion and offender rehabilitation to reduce recidivism. She supported the $30.7 million renovation of the Larry Chimbole Cultural Center. She voted for a $5 million public investment to revitalize the Antelope Valley Mall. She has served as mayor. She is currently mayor pro tem.",
+        "cites": [1, 2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "Laura Bettencourt was first elected to the Palmdale City Council in 2009 and represents District 3.",
+            "cites": [1]
+          },
+          {
+            "text": "She works as a crime and intelligence analyst for the Los Angeles County Sheriff’s Department.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2020, she supported constitutional and community policing with youth diversion and offender rehabilitation to reduce recidivism.",
+            "cites": [2]
+          },
+          {
+            "text": "She supported the $30.7 million renovation of the Larry Chimbole Cultural Center.",
+            "cites": [3]
+          },
+          {
+            "text": "She voted for a $5 million public investment to revitalize the Antelope Valley Mall.",
+            "cites": [4]
+          },
+          { "text": "She has served as mayor.", "cites": [5] },
+          { "text": "She is currently mayor pro tem.", "cites": [1] }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Councilmember Laura Bettencourt | Palmdale, CA",
+      "publisher": "City of Palmdale",
+      "url": "https://www.cityofpalmdaleca.gov/305/Councilmember-Laura-Bettencourt",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Palmdale's mayoral hopefuls square off over public safety ...",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2020/09/22/palmdales-mayoral-hopefuls-square-off-over-public-safety-homelessness-business-growth/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Progress via sledgehammers",
+      "publisher": "Antelope Valley Press",
+      "url": "https://www.avpress.com/news/progress-via-sledgehammers/article_0500e862-fb97-401e-bc70-abbc21c31b87.html",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Steerpoint Capital Leads Major Reinvestment at Antelope Valley Mall in Palmdale",
+      "publisher": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/steerpoint-capital-leads-major-reinvestment-at-antelope-valley-mall-in-palmdale-302545768.html",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Bettencourt wins draw, becomes mayor | News",
+      "publisher": "Antelope Valley Press",
+      "url": "https://www.avpress.com/news/bettencourt-wins-draw-becomes-mayor/article_f1bed0dc-8271-11ed-90ae-6fd6163f46b1.html",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.525Z",
+    "version": 1
+  }
+}

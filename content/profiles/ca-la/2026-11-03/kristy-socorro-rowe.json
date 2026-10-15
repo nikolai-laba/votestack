@@ -1,0 +1,80 @@
+{
+  "key": "kristy-socorro-rowe",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Kristy Socorro Rowe",
+  "office": "El Monte Union High School District, Governing Board Member, Trustee Area No. 3",
+  "contestIds": ["la-4348-cc10685"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Kristy Socorro Rowe is a special education advocate. In a 2026 election questionnaire, Rowe said her top concerns are transparency and student support, and she pledged to be accessible to students, parents, staff, and administration. She stated she would use her knowledge of the education system to support teachers and students.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Kristy Socorro Rowe is a special education advocate.",
+            "cites": [1]
+          },
+          {
+            "text": "In a 2026 election questionnaire, Rowe said her top concerns are transparency and student support, and she pledged to be accessible to students, parents, staff, and administration.",
+            "cites": [1]
+          },
+          {
+            "text": "She stated she would use her knowledge of the education system to support teachers and students.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [2]
+      },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Kristy Socorro Rowe, El Monte Union High School District 3 candidate, 2026 election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/kristy-socorro-rowe-el-monte-union-high-school-district-3-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 3
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.011Z",
+    "version": 2
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "key": "sheree-rae-butts",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Sheree Rae Butts",
+  "office": "La Cañada Irrigation District, Member, Board of Directors, Division 4",
+  "contestIds": ["la-4348-cc10405"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "In 2022, Sheree Rae Butts was a member of the La Cañada Irrigation District Board of Directors, representing Division 4. In 2013, she was president of the La Cañada Flintridge Coordination Council.",
+        "cites": [1, 2]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "BOARD MEETINGS",
+      "publisher": "La Cañada Irrigation District",
+      "url": "https://assets-us-01.kc-usercontent.com/0234f496-d2b7-00b6-17a4-b43e949b70a2/3187225a-0c11-46b3-90ba-c5e55af6f0f0/Agenda101822_links.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Tupper Awards Recognize Local Residents",
+      "publisher": "Crescenta Valley Weekly",
+      "url": "https://www.crescentavalleyweekly.com/news/05/23/2013/tupper-awards-recognize-local-residents/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:39:39.152Z",
+    "version": 2
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "key": "nelson-e-martinez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Nelson E. Martinez",
+  "office": "Wiseburn Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10678"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Nelson E. Martinez is a member of the Wiseburn Unified School District Governing Board, having served since 2005 and twice as board president. He says he helped guide the district through unification and the growth of its partnership with Da Vinci Schools. He also says he helped establish Da Vinci Schools. He works as Executive Vice President of Element Consulting, a firm that manages construction programs for educational facilities. His campaign says this experience strengthens his ability to provide long-range planning and fiscal oversight for the district.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Nelson E. Martinez is a member of the Wiseburn Unified School District Governing Board, having served since 2005 and twice as board president.",
+            "cites": [1]
+          },
+          {
+            "text": "He says he helped guide the district through unification and the growth of its partnership with Da Vinci Schools.",
+            "cites": [1]
+          },
+          {
+            "text": "He also says he helped establish Da Vinci Schools.",
+            "cites": [1]
+          },
+          {
+            "text": "He works as Executive Vice President of Element Consulting, a firm that manages construction programs for educational facilities.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says this experience strengthens his ability to provide long-range planning and fiscal oversight for the district.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Hawthorne Mayor Alex Vargas",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Hawthorne City Council Member Alex Monteiro",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Nilo Vega Michelin, President, El Camino Community College District Board of Trustees",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Roger Bañuelos, President, Wiseburn Unified School District Board of Trustees",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Dr. Neil Goldman, Vice President, Wiseburn Unified School District Board of Trustees",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Michelle Legaspi, Member, Wiseburn Unified School District Board of Trustees",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Dr. Eugene Krank, Hawthorne School District Trustee",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Luciano Aguilar, Hawthorne School District Trustee",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Israel Mora, Former Wiseburn Unified School District Trustee",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Joanne Kaneda, Former Wiseburn Unified School District Trustee",
+        "kind": "elected_official",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "School Board Members - Wiseburn Unified School District",
+      "publisher": "Wiseburn Unified School District",
+      "url": "https://www.wiseburn.org/school-board/school-board-members",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Nelson Martinez | Wiseburn School Board",
+      "publisher": "Nelson Martinez campaign",
+      "url": "https://www.nelsonforwiseburn.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Endorsements — Nelson Martinez",
+      "publisher": "Nelson Martinez for Wiseburn",
+      "url": "https://www.nelsonforwiseburn.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.368Z",
+    "version": 1
+  }
+}

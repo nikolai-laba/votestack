@@ -1,0 +1,44 @@
+{
+  "key": "david-stephen-siegrist",
+  "electionId": "ca-2026-11-03-general",
+  "name": "David Stephen Siegrist",
+  "office": "Rio Hondo Community College District, Governing Board Member, Trustee Area No. 1",
+  "contestIds": ["la-4348-cc10599"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "David Stephen Siegrist is a former Rio Hondo College trustee. In 2023, the San Gabriel Valley Tribune reported that an investigator hired by the El Monte City School District, where he was a board member, found he sent harassing messages to a gay trustee of a neighboring school district, including a text saying the trustee was \"most certainly exposed to AIDS and HIV.\" Siegrist denied being homophobic and said he was expressing concern for the trustee's health.",
+        "cites": [1, 2]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "After Rio Hondo board fails to choose replacement, voters will pick from 3 in special election",
+      "publisher": "Whittier Daily News",
+      "url": "https://www.whittierdailynews.com/2021/02/24/after-rio-hondo-board-fails-to-choose-replacement-voters-will-pick-from-3-in-special-election/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "El Monte City school board member told gay politician he was ‘most certainly exposed to AIDS and HIV’",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2023/03/31/el-monte-city-school-board-member-told-gay-politician-he-was-most-certainly-exposed-to-aids-and-hiv/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T17:19:13.972Z",
+    "version": 6
+  }
+}

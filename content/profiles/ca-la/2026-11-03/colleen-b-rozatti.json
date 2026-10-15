@@ -1,0 +1,66 @@
+{
+  "key": "colleen-b-rozatti",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Colleen B. Rozatti",
+  "office": "City of West Covina, City Treasurer",
+  "contestIds": ["la-4348-cc10531"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Colleen B. Rozatti is the City Treasurer of West Covina, reelected in 2022. She serves as an ex officio non-voting member of the city’s Audit Committee. During her 2013 campaign, the former bank employee promised an easier-to-read budget and more communication with the public about city finances.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Colleen B. Rozatti is the City Treasurer of West Covina, reelected in 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "She serves as an ex officio non-voting member of the city’s Audit Committee.",
+            "cites": [2]
+          },
+          {
+            "text": "During her 2013 campaign, the former bank employee promised an easier-to-read budget and more communication with the public about city finances.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "West Covina City Council has mixed attitudes in the final meeting of the year",
+      "publisher": "SAC Media",
+      "url": "https://sac.media/2022/12/23/west-covina-city-council-has-mixed-attitudes-in-the-final-meeting-of-the-year/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Audit Committee",
+      "publisher": "City of West Covina",
+      "url": "https://www.westcovina.gov/265/Audit-Committee",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "West Covina candidate forum presents election hopefuls",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2013/10/03/west-covina-candidate-forum-presents-election-hopefuls/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.643Z",
+    "version": 1
+  }
+}

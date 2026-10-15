@@ -1,0 +1,173 @@
+{
+  "key": "yaritza-a-gonzalez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Yaritza A. Gonzalez",
+  "office": "Inglewood Unified School District, Member, Board of Education, Trustee Area 3",
+  "contestIds": ["la-4348-cc10467"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Yaritza A. Gonzalez is a policy manager at the Central American Resource Center (CARECEN-LA). She co-founded the ING Fellowship. She earned a bachelor's degree from Dartmouth College and a Master of Public Policy from the UCLA Luskin School of Public Affairs.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Yaritza A. Gonzalez is a policy manager at the Central American Resource Center (CARECEN-LA).",
+            "cites": [1]
+          },
+          { "text": "She co-founded the ING Fellowship.", "cites": [2] },
+          {
+            "text": "She earned a bachelor's degree from Dartmouth College and a Master of Public Policy from the UCLA Luskin School of Public Affairs.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "If the district regains local control, she says her top priorities are financial stability and student-centered governance. She supports paying teachers, keeping schools open, and creating safe schools by addressing immigration enforcement and displacement. She supports the Inglewood for All Act to provide sanctuary city protections.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "If the district regains local control, she says her top priorities are financial stability and student-centered governance.",
+            "cites": [1]
+          },
+          {
+            "text": "She supports paying teachers, keeping schools open, and creating safe schools by addressing immigration enforcement and displacement.",
+            "cites": [2]
+          },
+          {
+            "text": "She supports the Inglewood for All Act to provide sanctuary city protections.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [3]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [4] },
+      {
+        "organization": "Democratic Socialists of America, Los Angeles (DSA-LA)",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Los Angeles County Young Democrats",
+        "kind": "party",
+        "cites": [6]
+      },
+      {
+        "organization": "National Women's Political Caucus California",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Latinas Lead California",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "New American Leaders Action Fund",
+        "kind": "organization",
+        "cites": [7]
+      },
+      { "organization": "HONOR PAC", "kind": "organization", "cites": [7] },
+      {
+        "organization": "Indivisible South Bay LA",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Association of Raza Educators",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Feel the Bern Democratic Club of Los Angeles County",
+        "kind": "organization",
+        "cites": [7]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [8] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Your LA Local Voter Guide: Inglewood Board of Education",
+      "publisher": "The LA Local",
+      "url": "https://thelalocal.org/neighborhoods/inglewood/your-la-local-voter-guide-inglewood-board-of-education/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Our Candidates | DSA-LA — Shake Up Los Angeles",
+      "publisher": "DSA-LA Shake Up Los Angeles",
+      "url": "https://shakeup-la.com/our-candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Endorsed Candidates - Los Angeles County Democratic Party",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Democratic Socialism in the 2026 California Elections: Local Chapter Reports",
+      "publisher": "California DSA",
+      "url": "https://www.californiadsa.org/news/0we87mn67kqp7xb7dy9tlp9x3wkhd0",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements - Los Angeles County Young Democrats",
+      "publisher": "Los Angeles County Young Democrats",
+      "url": "https://lacyd.nationbuilder.com/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements | Yaritza Gonzalez 4 School Board",
+      "publisher": "Yaritza A. Gonzalez for Inglewood School Board 2026",
+      "url": "https://www.yaritza4inglewood.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 8
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.043Z",
+    "version": 2
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "key": "jose-de-la-paz",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Jose De La Paz",
+  "office": "City of South Gate, City Treasurer",
+  "contestIds": ["la-4348-cc10522"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Jose De La Paz is the elected City Treasurer of South Gate. He was elected in 2022. His campaign says he has a professional background in executive leadership, commercial real estate, and technology consulting.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Jose De La Paz is the elected City Treasurer of South Gate.",
+            "cites": [1]
+          },
+          { "text": "He was elected in 2022.", "cites": [1] },
+          {
+            "text": "His campaign says he has a professional background in executive leadership, commercial real estate, and technology consulting.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "City Treasurer",
+      "publisher": "City of South Gate",
+      "url": "https://www.cityofsouthgate.org/Government/Departments/City-Treasurer",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Services | Jose De La Paz",
+      "publisher": "Jose De La Paz campaign",
+      "url": "https://www.josedelapaz.com/services",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.622Z",
+    "version": 1
+  }
+}

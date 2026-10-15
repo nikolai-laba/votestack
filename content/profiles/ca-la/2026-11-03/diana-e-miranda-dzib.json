@@ -1,0 +1,97 @@
+{
+  "key": "diana-e-miranda-dzib",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Diana E. Miranda-Dzib",
+  "office": "Baldwin Park Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10620"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Diana E. Miranda-Dzib is a member of the Baldwin Park Unified School District Board of Education. She was first appointed as a trustee in 2017. She has served as board president. She is the coordinator of high school programs at Mt. San Antonio College.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Diana E. Miranda-Dzib is a member of the Baldwin Park Unified School District Board of Education.",
+            "cites": [1]
+          },
+          {
+            "text": "She was first appointed as a trustee in 2017.",
+            "cites": [1]
+          },
+          { "text": "She has served as board president.", "cites": [2] },
+          {
+            "text": "She is the coordinator of high school programs at Mt. San Antonio College.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "While she was board president, the district won a 2023 Golden Bell Award for a mental health screening program that connected nearly 2,000 students to resources. The district also launched a mentorship partnership with Big Brothers Big Sisters while she was board president.",
+        "cites": [4, 5],
+        "sentences": [
+          {
+            "text": "While she was board president, the district won a 2023 Golden Bell Award for a mental health screening program that connected nearly 2,000 students to resources.",
+            "cites": [4]
+          },
+          {
+            "text": "The district also launched a mentorship partnership with Big Brothers Big Sisters while she was board president.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board of Education Members Take Oath of Office | Baldwin Park ...",
+      "publisher": "Baldwin Park Unified School District",
+      "url": "https://www.bpusd.net/apps/news/article/1358664",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Board Members Take Oath of Office",
+      "publisher": "Baldwin Park Unified School District",
+      "url": "https://www.bpusd.net/apps/news/article/1701349",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Baldwin Park Unified School District Election 2024: Race for Four Seats - Baldwin Park News",
+      "publisher": "Baldwin Park News",
+      "url": "https://baldwinparknewsonline.com/baldwin-park-unified-school-district-election-2024-race-for-four-seats/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Golden Bell Awards 2023",
+      "publisher": "California School Boards Association",
+      "url": "https://publications.csba.org/golden-bell/golden-bell-awards-2023/",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "BPUSD Initiates Mentorship Program with Big Brothers Big Sisters",
+      "publisher": "Sierra Vista High School",
+      "url": "https://www.svdons.com/apps/news/article/1874766?categoryId=10544",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T05:54:20.811Z",
+    "version": 1
+  }
+}

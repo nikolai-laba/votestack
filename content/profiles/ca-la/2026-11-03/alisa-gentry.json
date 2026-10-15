@@ -1,0 +1,174 @@
+{
+  "key": "alisa-gentry",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Alisa Gentry",
+  "office": "Saugus Union School District, Governing Board Member, Trustee Area No. 2",
+  "contestIds": ["la-4348-cc10723"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Alisa Gentry is running for the Saugus Union School District Governing Board, Trustee Area 2. She says she has 22 years of experience as an emergency medical technician and a labor union member. She wants families with special-needs children to have a supportive experience in the district.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Alisa Gentry is running for the Saugus Union School District Governing Board, Trustee Area 2.",
+            "cites": [1]
+          },
+          {
+            "text": "She says she has 22 years of experience as an emergency medical technician and a labor union member.",
+            "cites": [2]
+          },
+          {
+            "text": "She wants families with special-needs children to have a supportive experience in the district.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "She believes the board's role is managerial, rather than driving curriculum. Her campaign website lists safe schools and inclusion as priorities, and states she is an advocate for students of all abilities.",
+        "cites": [2, 3],
+        "sentences": [
+          {
+            "text": "She believes the board's role is managerial, rather than driving curriculum.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign website lists safe schools and inclusion as priorities, and states she is an advocate for students of all abilities.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "U.S. Rep. George Whitesides",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "Assemblymember Pilar Schiavo",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "Santa Clarita Valley Water Agency Director Kathye Armitage",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Saugus Union School District Board Member Chris Trunkey",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Saugus Union School District Board Member Katherine Cooper",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [5]
+      },
+      {
+        "organization": "Los Angeles County Federation of Labor, AFL-CIO",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "Plumbers and Fitters Local Union 761 (UA)",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "Santa Clarita Valley Democrats",
+        "kind": "organization",
+        "cites": [6]
+      },
+      { "organization": "Vote Up", "kind": "organization", "cites": [4] },
+      { "organization": "IBEW Local 18", "kind": "union", "cites": [7] },
+      { "organization": "LA Forward", "kind": "organization", "cites": [8] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate List",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Alisa Gentry, Saugus Union School District Area 2 candidate, 2026 election questionnaire",
+      "publisher": "Pasadena Star-News",
+      "url": "https://www.pasadenastarnews.com/2026/10/05/alisa-gentry-saugus-union-school-district-area-2-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Priorities - Alisa Gentry 4 Saugus Union School Board",
+      "publisher": "Alisa Gentry campaign",
+      "url": "https://alisagentry.com/priorities/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Alisa Gentry for Saugus Union School District Board (Endorsed by)",
+      "publisher": "Alisa Gentry campaign",
+      "url": "https://www.alisagentry.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "November 2026 Candidate Endorsements",
+      "publisher": "Santa Clarita Valley Democrats",
+      "url": "https://www.santaclaritavalleydemocrats.com/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "IBEW Local 18 — November 3, 2026 Voter Guide (Final Recommendations)",
+      "publisher": "IBEW Local 18",
+      "url": "https://www.ibewlocal18.org/2020/wp-content/uploads/2026/10/IBEW-Local-18-Final-Recommendations-November-2026-1.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 8
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.150Z",
+    "version": 2
+  }
+}

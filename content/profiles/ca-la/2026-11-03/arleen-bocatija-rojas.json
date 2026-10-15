@@ -1,0 +1,142 @@
+{
+  "key": "arleen-bocatija-rojas",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Arleen Bocatija Rojas",
+  "office": "City of Carson, Member of the City Council, 4th District",
+  "contestIds": ["la-4348-cc10431"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Arleen Bocatija Rojas is the incumbent City Council member for Carson's 4th District, running for a second term. Her campaign says she spent 35 years as a Los Angeles police officer. Her campaign says her priorities include expanding community policing, fixing streets, improving lighting and attracting businesses. In her Voter Guide statement, she said public safety is the city's biggest need. She added that she helped establish a Public Safety Task Force and launched a community policing program to address property crime and illegal street takeovers.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Arleen Bocatija Rojas is the incumbent City Council member for Carson's 4th District, running for a second term.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign says she spent 35 years as a Los Angeles police officer.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign says her priorities include expanding community policing, fixing streets, improving lighting and attracting businesses.",
+            "cites": [2]
+          },
+          {
+            "text": "In her Voter Guide statement, she said public safety is the city's biggest need.",
+            "cites": [1]
+          },
+          {
+            "text": "She added that she helped establish a Public Safety Task Force and launched a community policing program to address property crime and illegal street takeovers.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "State Sen. Laura Richardson",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [3]
+      },
+      {
+        "organization": "Assembly Speaker pro Tempore Josh Lowenthal",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [3]
+      },
+      {
+        "organization": "Assemblymember Mike Gipson",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [3]
+      },
+      {
+        "organization": "Former State Sen. Steve Bradford",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Carson Mayor Lula Davis-Holmes",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Carson Mayor Pro Tem Cedric L. Hicks, Sr.",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Carson Councilmember Dr. Jawane Hilton",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "West Basin Municipal Water District Director Tommy Faavae",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Los Angeles County Firefighters Local 1014, IAFF",
+        "kind": "union",
+        "cites": [3]
+      },
+      { "organization": "IBEW Local 11", "kind": "union", "cites": [3] },
+      {
+        "organization": "Western States Regional Council of Carpenters",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "Association for Los Angeles Deputy Sheriffs",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "Los Angeles Police Protective League",
+        "kind": "union",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Elections 2026: Voters in Carson Council Districts 2 and 4 each have two candidates to choose from",
+      "publisher": "Daily Breeze",
+      "url": "https://www.dailybreeze.com/2026/10/12/elections-2026-voters-in-carson-council-districts-2-and-4-each-have-two-candidates-to-choose-from/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Arleen Bocatija Rojas for City Council — Carson District 4",
+      "publisher": "Arleen Bocatija Rojas campaign",
+      "url": "https://www.arleenrojas4carson2026.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Endorsements - Arleen Bocatija Rojas for City Council",
+      "publisher": "Arleen Bocatija Rojas for City Council",
+      "url": "https://www.arleenrojas4carson2026.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.331Z",
+    "version": 1
+  }
+}

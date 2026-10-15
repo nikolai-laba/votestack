@@ -1,0 +1,123 @@
+{
+  "key": "darlene-trevino",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Darlene Trevino",
+  "office": "Santa Clarita Community College District, Member of the Board of Trustees, Trustee Area 1",
+  "contestIds": ["la-4348-cc10602"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Darlene Trevino represents Trustee Area 1 on the Santa Clarita Community College District Board of Trustees. She was elected in 2024 to serve an unexpired term ending Dec. 11, 2026. She serves as board secretary. She is a personal injury lawyer and founding attorney of Trevino Law Firm. She previously served as vice president of the Antelope Valley Hispanic Chamber of Commerce and the National TEAM Referral Network.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Darlene Trevino represents Trustee Area 1 on the Santa Clarita Community College District Board of Trustees.",
+            "cites": [1]
+          },
+          {
+            "text": "She was elected in 2024 to serve an unexpired term ending Dec. 11, 2026.",
+            "cites": [2]
+          },
+          { "text": "She serves as board secretary.", "cites": [3] },
+          {
+            "text": "She is a personal injury lawyer and founding attorney of Trevino Law Firm.",
+            "cites": [2]
+          },
+          {
+            "text": "She previously served as vice president of the Antelope Valley Hispanic Chamber of Commerce and the National TEAM Referral Network.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      { "organization": "IBEW Local 11", "kind": "union", "cites": [4] },
+      {
+        "organization": "Voz Unida / California Latino Voter Alliance",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Republican Party of Los Angeles County",
+        "kind": "party",
+        "cites": [7]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board of Trustees - College of the Canyons",
+      "publisher": "Santa Clarita Community College District",
+      "url": "https://www.canyons.edu/administration/board/",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Member Profiles - College of the Canyons",
+      "publisher": "Santa Clarita Community College District",
+      "url": "https://www.canyons.edu/administration/board/profiles.php",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Administrative Organizational Chart",
+      "publisher": "Santa Clarita Community College District",
+      "url": "https://www.canyons.edu/administration/humanresources/Org-Chart-9.22.26.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Political action & Endorsements",
+      "publisher": "IBEW Local 11",
+      "url": "https://www.ibew11.org/political",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Los Angeles County voter guide",
+      "publisher": "Voz Unida / California Latino Voter Alliance",
+      "url": "https://www.latinovoteralliance.org/voter-guides/los-angeles",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 6
+    },
+    {
+      "title": "LAGOP Endorsement Lookup, November 3, 2026 General Election",
+      "publisher": "Republican Party of Los Angeles County",
+      "url": "https://lagop-endorsement-lookup.vercel.app/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 7
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.934Z",
+    "version": 2
+  }
+}

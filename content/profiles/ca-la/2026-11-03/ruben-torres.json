@@ -1,0 +1,75 @@
+{
+  "key": "ruben-torres",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Ruben Torres",
+  "office": "City of Diamond Bar, Member of the City Council, 1st District",
+  "contestIds": ["la-4348-cc10440"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Ruben Torres is a banker and a Diamond Bar planning commissioner. He served as vice chair of the commission in 2023. He served as chair in 2025. His campaign says he would focus on public safety, infrastructure, open spaces and the local economy.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Ruben Torres is a banker and a Diamond Bar planning commissioner.",
+            "cites": [1]
+          },
+          {
+            "text": "He served as vice chair of the commission in 2023.",
+            "cites": [2]
+          },
+          { "text": "He served as chair in 2025.", "cites": [3] },
+          {
+            "text": "His campaign says he would focus on public safety, infrastructure, open spaces and the local economy.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Ruben Torres, Diamond Bar City Council District 1 candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/ruben-torres-diamond-bar-city-council-district-1-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "06/13/2023 - IIS Windows Server - Diamond Bar",
+      "publisher": "City of Diamond Bar",
+      "url": "https://edocs.diamondbarca.gov/WebLink/DocView.aspx?id=1829247&dbid=0&repo=DiamondBar",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "01-14-2025 - IIS Windows Server - Diamond Bar",
+      "publisher": "City of Diamond Bar",
+      "url": "https://edocs.diamondbarca.gov/WebLink/DocView.aspx?id=1989131&dbid=0&repo=DiamondBar",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Ruben Torres for Diamond Bar City Council, District 1",
+      "publisher": "Ruben Torres campaign",
+      "url": "https://torresfordiamondbar.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.364Z",
+    "version": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "reason": "Chrome review: the Ventura County Star page (public safety, Proposition 36) is paywalled and no excerpt was captured, so that sentence is removed; added the campaign's response that Politico reports alongside the wildfire remark",
+  "overview": [
+    {
+      "action": "replace",
+      "match": "His top priority is public safety",
+      "text": "He wants to cut the gas tax and defend Proposition 13. In 2026, Politico reported he called the Palisades wildfire a “blessing for us” because it would reduce Democratic voters, drawing criticism. His campaign consultant said the remarks referred to previously Democratic voters who had their eyes opened by what he called the incompetence and mismanagement of Democratic leaders.",
+      "sources": [
+        {
+          "title": "Why I'm Running: A Personal Mission to Take Back California",
+          "publisher": "Ted Nordblum for State Assembly",
+          "url": "https://tednordblum.com/post/Why-Im-Running",
+          "kind": "candidate",
+          "viewedAt": "2026-10-15"
+        },
+        {
+          "title": "Kevin Kiley’s survival strategy",
+          "publisher": "Politico",
+          "url": "https://www.politico.com/newsletters/california-playbook/2026/10/08/kevin-kileys-survival-strategy-01111351",
+          "kind": "news",
+          "viewedAt": "2026-10-15"
+        }
+      ]
+    }
+  ]
+}

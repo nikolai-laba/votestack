@@ -1,0 +1,59 @@
+{
+  "key": "peter-michel",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Peter Michel",
+  "office": "Palos Verdes Library District, Member, Board of Trustees",
+  "contestIds": ["la-4348-cc10543"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Peter Michel serves on the board of the Westfield Recreation and Park District.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Peter Michel serves on the board of the Westfield Recreation and Park District.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Palos Verdes Peninsula Republican Women Federated",
+        "kind": "organization",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Who's Running - PV Informer",
+      "publisher": "PV Informer",
+      "url": "https://pvinformer.com/ballot-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "PVPRWF 2026 General Election Voter Guide",
+      "publisher": "Palos Verdes Peninsula Republican Women Federated",
+      "url": "https://img1.wsimg.com/blobby/go/fde87087-63d5-4aa0-8ffe-96924b23036f/2026%2011%20PVPRWF%20Voter%20Guide%20(1).pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.212Z",
+    "version": 2
+  }
+}

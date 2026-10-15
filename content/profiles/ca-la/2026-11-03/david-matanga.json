@@ -1,0 +1,76 @@
+{
+  "key": "david-matanga",
+  "electionId": "ca-2026-11-03-general",
+  "name": "David Matanga",
+  "office": "City of Montebello, City Treasurer",
+  "contestIds": ["la-4348-cc10485"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "David Matanga is the city treasurer of Montebello. He has worked as a senior tax compliance representative for the California Employment Development Department. He says he has more than 20 years of experience as a union activist with SEIU 1000 and the LA County Federation of Labor. He was elected treasurer in 2022.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "David Matanga is the city treasurer of Montebello.",
+            "cites": [1]
+          },
+          {
+            "text": "He has worked as a senior tax compliance representative for the California Employment Development Department.",
+            "cites": [1]
+          },
+          {
+            "text": "He says he has more than 20 years of experience as a union activist with SEIU 1000 and the LA County Federation of Labor.",
+            "cites": [1]
+          },
+          { "text": "He was elected treasurer in 2022.", "cites": [2] }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "City Treasurer David Matanga - City of Montebello",
+      "publisher": "City of Montebello",
+      "url": "https://www.montebelloca.gov/government/elected_officials/city_treasurer_david_matanga",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Congratulations to our Union Brother David Matanga for his Election Victory! - SEIU Local 1000",
+      "publisher": "SEIU Local 1000",
+      "url": "https://www.seiu1000.org/congratulations-our-union-brother-david-matanga-his-election-victory/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 3
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.509Z",
+    "version": 1
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "key": "rhonda-a-haymon",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Rhonda A. Haymon",
+  "office": "Superior Court Judge, Los Angeles County (Office No. 64)",
+  "contestIds": ["la-4348-cc10824-r1", "la-4348-cc10824-r2"],
+  "kind": "judicial_candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "L.A. County deputy public defender Rhonda A. Haymon has handled cases from petty theft to homicide over a 26-year career. She says she has tried over 100 jury trials. She worked in a restorative justice drug court, consulted on police misconduct cases, and taught at Southwestern Law School. A judge held her in contempt; the finding was upheld during judicial review. She says the State Bar took no action.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "L.A. County deputy public defender Rhonda A. Haymon has handled cases from petty theft to homicide over a 26-year career.",
+            "cites": [1]
+          },
+          {
+            "text": "She says she has tried over 100 jury trials.",
+            "cites": [1]
+          },
+          {
+            "text": "She worked in a restorative justice drug court, consulted on police misconduct cases, and taught at Southwestern Law School.",
+            "cites": [1]
+          },
+          {
+            "text": "A judge held her in contempt; the finding was upheld during judicial review.",
+            "cites": [2]
+          },
+          { "text": "She says the State Bar took no action.", "cites": [1] }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Assemblymember Sade Elhawary",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [3]
+      },
+      {
+        "organization": "Former State Sen. Steven Bradford",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [3]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Holly J. Mitchell",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Los Angeles Mayor Karen Bass",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Inglewood Mayor James T. Butts",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Gardena Mayor Tasha Cerda",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Burbank City Council Member Konstantine Anthony",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Carson City Council Member Jawane Hilton",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Centinela Valley Union High School District Board Vice President Hugo M. Rojas",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      { "organization": "Knock LA", "kind": "editorial_board", "cites": [4] },
+      {
+        "organization": "Americans for Democratic Action Southern California",
+        "kind": "organization",
+        "cites": [5]
+      },
+      { "organization": "La Defensa", "kind": "organization", "cites": [4] },
+      {
+        "organization": "Western States Regional Council of Carpenters",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "International Longshore and Warehouse Union",
+        "kind": "union",
+        "cites": [3]
+      },
+      { "organization": "LiUNA Local 1309", "kind": "union", "cites": [3] },
+      {
+        "organization": "Los Angeles African American Women's Political Action Committee (LAAAWPAC)",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Desert Democracy Project",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "East Area Progressive Democrats",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "New Frontier Democratic Club",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Progressive Democratic Club",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Democrats for Neighborhood Action",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Black Los Angeles Young Democrats",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Long Beach Young Democrats",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Yes We Can Democratic Club",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Los Angeles County Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [6]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Your guide to the L.A. County Superior Court judge elections: Every competitive race",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-05-01/2026-california-election-los-angeles-county-superior-court-judge-voter-guide",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Rhonda Haymon Says Public Defense Experience Would Bring Balance to L.A. County Bench",
+      "publisher": "Los Angeles Sentinel",
+      "url": "https://lasentinel.net/rhonda-haymon-says-public-defense-experience-would-bring-balance-to-l-a-county-bench.html",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Endorsements | Haymon for LA County Superior Court",
+      "publisher": "Rhonda Haymon 4 Judge",
+      "url": "https://www.rhondahaymon4judge.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
+      "publisher": "Knock LA",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Judicial Endorsements - ADA SoCal",
+      "publisher": "Americans for Democratic Action Southern California",
+      "url": "https://www.adasocal.org/judicial_endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "General Election Judicial Candidate Ratings for L.A. County, November 3, 2026",
+      "publisher": "Los Angeles County Bar Association",
+      "url": "https://lacba.org/docDownload/3141411",
+      "kind": "bar",
+      "viewedAt": "2026-10-14",
+      "id": 6
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.257Z",
+    "version": 3
+  }
+}

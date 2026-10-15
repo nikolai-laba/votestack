@@ -1,0 +1,479 @@
+{
+  "key": "pilar-schiavo",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Pilar Schiavo",
+  "party": "Party Preference: Democratic",
+  "office": "State Assembly Member, 40th District",
+  "contestIds": ["la-4348-cc10783"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Pilar Schiavo has represented California's 40th Assembly District since 2022. She chairs the Assembly Committee on Military and Veterans Affairs and serves on the Health, Budget, and Utilities and Energy committees. Her campaign says she was a small business owner and nurse advocate who worked in the labor movement for over 20 years.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Pilar Schiavo has represented California's 40th Assembly District since 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "She chairs the Assembly Committee on Military and Veterans Affairs and serves on the Health, Budget, and Utilities and Energy committees.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign says she was a small business owner and nurse advocate who worked in the labor movement for over 20 years.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "She says her 2026 legislation focuses on lowering costs, consumer protections, public safety, housing, and public health. She authored AB 1820, a law preventing added permit fees for electric vehicle chargers at apartment buildings. She says she helped secure $197 million for Medi-Cal eligibility workers and $50 million for crime victim services. She says residents suffer from toxic air from the underground fire at Chiquita Canyon Landfill.",
+        "cites": [4, 5, 6, 7],
+        "sentences": [
+          {
+            "text": "She says her 2026 legislation focuses on lowering costs, consumer protections, public safety, housing, and public health.",
+            "cites": [4]
+          },
+          {
+            "text": "She authored AB 1820, a law preventing added permit fees for electric vehicle chargers at apartment buildings.",
+            "cites": [5]
+          },
+          {
+            "text": "She says she helped secure $197 million for Medi-Cal eligibility workers and $50 million for crime victim services.",
+            "cites": [6]
+          },
+          {
+            "text": "She says residents suffer from toxic air from the underground fire at Chiquita Canyon Landfill.",
+            "cites": [7]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Attorney General Rob Bonta",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [8]
+      },
+      {
+        "organization": "California State Treasurer Fiona Ma",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [8]
+      },
+      {
+        "organization": "Assembly Speaker Robert Rivas",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [8]
+      },
+      {
+        "organization": "Los Angeles Mayor Karen Bass",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "California Democratic Party",
+        "kind": "party",
+        "cites": [9]
+      },
+      {
+        "organization": "California Labor Federation",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "California Federation of Teachers",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "California Professional Firefighters",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "State Building and Construction Trades Council of California",
+        "kind": "union",
+        "cites": [8]
+      },
+      { "organization": "SEIU California", "kind": "union", "cites": [8] },
+      { "organization": "SEIU Local 1000", "kind": "union", "cites": [11] },
+      {
+        "organization": "National Union of Healthcare Workers",
+        "kind": "union",
+        "cites": [12]
+      },
+      { "organization": "AFSCME California", "kind": "union", "cites": [8] },
+      {
+        "organization": "California School Employees Association",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "California Correctional Peace Officers Association",
+        "kind": "union",
+        "cites": [8]
+      },
+      { "organization": "United Farm Workers", "kind": "union", "cites": [8] },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Everytown for Gun Safety Action Fund",
+        "kind": "organization",
+        "cites": [13]
+      },
+      {
+        "organization": "California Environmental Justice Alliance Action",
+        "kind": "organization",
+        "cites": [14]
+      },
+      {
+        "organization": "California YIMBY",
+        "kind": "organization",
+        "cites": [15]
+      },
+      { "organization": "Sierra Club", "kind": "organization", "cites": [8] },
+      {
+        "organization": "Consumer Attorneys of California",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Reproductive Freedom for All CA",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "National Women's Political Caucus of California",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "California State Retirees",
+        "kind": "organization",
+        "cites": [16]
+      },
+      {
+        "organization": "CHIRLA Action Fund",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Armenian National Committee of America, Western Region",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Planned Parenthood Advocacy Project Los Angeles County Action Fund",
+        "kind": "organization",
+        "cites": [17]
+      },
+      {
+        "organization": "Los Angeles Police Protective League",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "Association for Los Angeles Deputy Sheriffs",
+        "kind": "union",
+        "cites": [8]
+      },
+      { "organization": "CAL FIRE Local 2881", "kind": "union", "cites": [8] },
+      {
+        "organization": "Los Angeles County Firefighters Local 1014",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "Southwest Regional Council of Carpenters",
+        "kind": "union",
+        "cites": [8]
+      },
+      { "organization": "SEIU-UHW", "kind": "union", "cites": [8] },
+      { "organization": "SEIU 99", "kind": "union", "cites": [8] },
+      {
+        "organization": "YIMBY Los Angeles",
+        "kind": "organization",
+        "cites": [18]
+      },
+      {
+        "organization": "Santa Clarita Valley Chamber of Commerce",
+        "kind": "organization",
+        "cites": [19]
+      },
+      {
+        "organization": "Santa Clarita Valley Democrats",
+        "kind": "party",
+        "cites": [20]
+      },
+      {
+        "organization": "California Women's List",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "California Environmental Voters",
+        "kind": "organization",
+        "cites": [21]
+      },
+      {
+        "organization": "California Teachers Association",
+        "kind": "union",
+        "cites": [22]
+      },
+      {
+        "organization": "Democrats for Israel – Los Angeles",
+        "kind": "organization",
+        "cites": [23]
+      },
+      { "organization": "Knock LA", "kind": "organization", "cites": [24] },
+      { "organization": "LA Forward", "kind": "organization", "cites": [25] },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [26]
+      },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [27] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Assemblywoman Pilar Schiavo Invites Nominations for “Veteran of the Year” Award",
+      "publisher": "Assemblywoman Pilar Schiavo",
+      "url": "https://schiavo.asmdc.org/press-releases/20251028-assemblywoman-pilar-schiavo-invites-nominations-veteran-year-award-honoring",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Assembly Member Schiavo",
+      "publisher": "California State Assembly",
+      "url": "https://www.assembly.ca.gov/assemblymembers/40",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Biography",
+      "publisher": "Assemblywoman Pilar Schiavo",
+      "url": "https://schiavo.asmdc.org/biography",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Official Website - Assemblymember Pilar Schiavo Representing the 40th California Assembly District",
+      "publisher": "Assemblymember Pilar Schiavo",
+      "url": "https://schiavo.asmdc.org/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "What they are saying: Strong support for California’s new laws to expand EV access",
+      "publisher": "California Governor",
+      "url": "https://www.gov.ca.gov/2026/09/21/what-they-are-saying-strong-support-for-californias-new-laws-to-expand-ev-access-consumer-choice-and-cut-dependence-on-oil/",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Schiavo Secures More than $250M for Healthcare, Victim Support Services, Community Programs",
+      "publisher": "SCV News",
+      "url": "https://scvnews.com/assemblywoman-pilar-schiavo-secures-over-250-million-for-critical-healthcare-funding-crime-victim-services-and-local-community-programs/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Toxic underground fires spreading at California landfills",
+      "publisher": "News Tribune",
+      "url": "https://www.newstribune.com/news/2026/aug/07/toxic-underground-fires-spreading-at-california/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "Pilar Schiavo for State Assembly – Endorsements",
+      "publisher": "Pilar Schiavo for Assembly 2026",
+      "url": "https://pilar4ca.com/endorsements/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "2026 General Election Endorsements & Ballot Measure Positions",
+      "publisher": "California Democratic Party",
+      "url": "https://cadem.org/wp-content/uploads/2026/08/FINAL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 10,
+      "title": "General Election 2026 • Tuesday, November 3",
+      "publisher": "California Federation of Teachers COPE",
+      "url": "https://utla.net/app/uploads/2026/08/cft_endorsements-primary-election_4.27.2026_1.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "2026 Elections - SEIU Local 1000",
+      "publisher": "SEIU Local 1000",
+      "url": "https://www.seiu1000.org/2026elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "Political Action – NUHW",
+      "publisher": "National Union of Healthcare Workers",
+      "url": "https://home.nuhw.org/political-action/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 13,
+      "title": "Everytown for Gun Safety Action Fund Announces New Round of Moms Demand Action Volunteer Endorsements, Backing 66 Candidates Across 20 States",
+      "publisher": "Everytown for Gun Safety Action Fund",
+      "url": "https://www.everytown.org/press/everytown-for-gun-safety-action-fund-announces-new-round-of-moms-demand-action-volunteer-endorsements-backing-66-candidates-across-20-states/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 14,
+      "title": "2026 California General Election Environmental Justice Candidates",
+      "publisher": "California Environmental Justice Alliance Action",
+      "url": "https://ceja-action.org/2026/09/17/2026-california-general-election-environmental-justice-candidates/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 15,
+      "title": "Endorsements - California YIMBY",
+      "publisher": "California YIMBY",
+      "url": "https://cayimby.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 16,
+      "title": "The June Primary Is Two Weeks Away—CSR Endorses These Candidates",
+      "publisher": "California State Retirees",
+      "url": "https://calretirees.org/Member-Resources/News/the-june-primary-is-two-weeks-awaycsr-endorses-these-candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 17,
+      "title": "Voter Guide | Planned Parenthood Advocacy Project Los Angeles County",
+      "publisher": "Planned Parenthood Advocacy Project Los Angeles County Action Fund",
+      "url": "https://www.plannedparenthoodaction.org/planned-parenthood-advocacy-project-los-angeles-county/voter-guide-ppapx",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 18,
+      "title": "November General Election Endorsements",
+      "publisher": "YIMBY Los Angeles",
+      "url": "https://yimby.la/voter-guide/november-general-election-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 19,
+      "title": "SCV Chamber Announces Candidate Endorsements for November 2026 Election",
+      "publisher": "Santa Clarita Valley Chamber of Commerce",
+      "url": "https://www.scvchamber.com/articles/scv-chamber-announces-candidate-endorsements-for-november-2026-election-1",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 20,
+      "title": "November 2026 Candidate Endorsements | Santa Clarita Valley Democrats",
+      "publisher": "Santa Clarita Valley Democrats",
+      "url": "https://www.santaclaritavalleydemocrats.com/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Who We're Endorsing in California's 2026 Election",
+      "publisher": "California Environmental Voters",
+      "url": "https://envirovoters.org/2026-endorsements/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 21
+    },
+    {
+      "title": "2026 Candidate Recommendations",
+      "publisher": "California Teachers Association",
+      "url": "https://www.cta.org/our-advocacy/election-2026",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 22
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Democrats for Israel – Los Angeles",
+      "url": "https://dfi-la.org/endorse",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 23
+    },
+    {
+      "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
+      "publisher": "Knock LA (Ground Game LA)",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 24
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 25
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 26
+    },
+    {
+      "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
+      "publisher": "SEIU Local 721",
+      "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 27
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.667Z",
+    "version": 3
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "key": "justin-allen-clayton",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Justin Allen Clayton",
+  "office": "Superior Court Judge, Los Angeles County (Office No. 65)",
+  "contestIds": ["la-4348-cc10825-r1", "la-4348-cc10825-r2"],
+  "kind": "judicial_candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Justin Allen Clayton is a Los Angeles County deputy public defender. Since 2023, he has served as deputy in charge of the Inglewood branch, training attorneys on misdemeanor and felony cases. He is president of the Los Angeles County Black Public Defenders Association. His website says he has completed dozens of trials, including three with life sentences. He has handled more than 1,000 adult cases and hundreds of juvenile matters.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Justin Allen Clayton is a Los Angeles County deputy public defender.",
+            "cites": [1]
+          },
+          {
+            "text": "Since 2023, he has served as deputy in charge of the Inglewood branch, training attorneys on misdemeanor and felony cases.",
+            "cites": [1]
+          },
+          {
+            "text": "He is president of the Los Angeles County Black Public Defenders Association.",
+            "cites": [2]
+          },
+          {
+            "text": "His website says he has completed dozens of trials, including three with life sentences.",
+            "cites": [1]
+          },
+          {
+            "text": "He has handled more than 1,000 adult cases and hundreds of juvenile matters.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Los Angeles County Supervisor Lindsey Horvath",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Gardena City Council Member Wanda Love",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Carson City Council Member Jawane Hilton",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Inglewood City Council Member Alex Padilla",
+        "kind": "elected_official",
+        "cites": [3],
+        "party": "Democratic"
+      },
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [4]
+      },
+      {
+        "organization": "California Working Families Party",
+        "kind": "organization",
+        "cites": [3]
+      },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [3] },
+      { "organization": "IBEW Local Union 11", "kind": "union", "cites": [3] },
+      { "organization": "La Defensa", "kind": "organization", "cites": [3] },
+      {
+        "organization": "Culver City Democratic Club",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Torrance Democratic Club",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Beach Cities Democrats",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Avance L.A. Democratic Club",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Yes We Can Democratic Club",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Los Angeles County Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Qualified",
+        "cites": [7]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [8] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "L.A. County Superior Court judge elections voter guide - LA Times",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-10-01/2026-california-election-los-angeles-county-superior-court-judge-voter-guide",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Eight candidates vie for four L.A. Superior Court seats - Our Weekly",
+      "publisher": "Our Weekly",
+      "url": "https://www.ourweekly.com/2026/10/07/eight-candidates-vie-for-four-l-a-superior-court-seats/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Endorsements — Clayton for Judge 2026 - LA County Superior Court Office 65",
+      "publisher": "Clayton for Judge 2026",
+      "url": "https://www.claytonforjudge2026.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements",
+      "publisher": "Culver City Democratic Club",
+      "url": "https://www.c-c-d-c.com/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Upcoming Elections & Endorsements",
+      "publisher": "Torrance Democratic Club",
+      "url": "https://www.torrancedems.com/upcoming-elections-endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "General Election Judicial Candidate Ratings for L.A. County, November 3, 2026",
+      "publisher": "Los Angeles County Bar Association",
+      "url": "https://lacba.org/docDownload/3141411",
+      "kind": "bar",
+      "viewedAt": "2026-10-14",
+      "id": 7
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 8
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.263Z",
+    "version": 3
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "key": "christina-m-fraga-saenz",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Christina M. Fraga-Saenz",
+  "office": "Palmdale Water District, Member, Board of Directors, Division 2",
+  "contestIds": ["la-4348-cc10535"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Christina M. Fraga-Saenz is a Housing Authority commissioner for the City of Palmdale. She holds a tenant member commissioner seat, with a term from October 2025 to September 2027.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Christina M. Fraga-Saenz is a Housing Authority commissioner for the City of Palmdale.",
+            "cites": [1]
+          },
+          {
+            "text": "She holds a tenant member commissioner seat, with a term from October 2025 to September 2027.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Maddy Act Local Appointment List",
+      "publisher": "City of Palmdale",
+      "url": "https://www.cityofpalmdaleca.gov/DocumentCenter/View/899/Maddy-Act-Local-Appointment-List-PDF",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Endorsed Candidates - Los Angeles County Democratic Party",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.403Z",
+    "version": 1
+  }
+}

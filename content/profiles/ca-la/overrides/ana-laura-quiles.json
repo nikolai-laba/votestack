@@ -1,0 +1,26 @@
+{
+  "reason": "Chrome review: the Ballotpedia page does not exist (candidacy re-sourced to the county candidate list), and the AV Press article shows she took part in the recall effort, not that she led it",
+  "overview": [
+    {
+      "action": "replace",
+      "match": "Ana Laura Quiles is running for the Keppel Union School District Gover",
+      "text": "Ana Laura Quiles is running for the Keppel Union School District Governing Board, Trustee Area No. 3. In January 2024, she was part of an effort to recall two board members after they voted to fire the superintendent without cause during a special meeting.",
+      "sources": [
+        {
+          "title": "Candidate List: General Election, November 3, 2026",
+          "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+          "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+          "kind": "official",
+          "viewedAt": "2026-10-15"
+        },
+        {
+          "title": "2 on Keppel board face recall",
+          "publisher": "Antelope Valley Press",
+          "url": "https://www.avpress.com/news/2-on-keppel-board-face-recall/article_98da0244-b681-11ee-b196-cbcc3a27c6fd.html",
+          "kind": "news",
+          "viewedAt": "2026-10-15"
+        }
+      ]
+    }
+  ]
+}

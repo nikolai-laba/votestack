@@ -1,0 +1,189 @@
+{
+  "key": "bryan-biggers",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Bryan Biggers",
+  "office": "William S. Hart Union High School District, Governing Board Member, Trustee Area No. 2",
+  "contestIds": ["la-4348-cc10845"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Bryan Biggers is a small business owner. He co-founded Victory Builders, a construction company. He is an elder at Grace Baptist Church. He has a business degree from CSUN and has been a substitute teacher in the district.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          { "text": "Bryan Biggers is a small business owner.", "cites": [1] },
+          {
+            "text": "He co-founded Victory Builders, a construction company.",
+            "cites": [2]
+          },
+          { "text": "He is an elder at Grace Baptist Church.", "cites": [3] },
+          {
+            "text": "He has a business degree from CSUN and has been a substitute teacher in the district.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "At a candidate forum, Biggers pointed to fiscal pressure from declining enrollment as the most pressing challenge, stating the board must operate with fiscal prudence and diligence. He said improving district communications is a priority to better engage and inform parents. His campaign says he wants to ensure district schools continue to deliver the highest levels of education, preparation and training.",
+        "cites": [4, 1],
+        "sentences": [
+          {
+            "text": "At a candidate forum, Biggers pointed to fiscal pressure from declining enrollment as the most pressing challenge, stating the board must operate with fiscal prudence and diligence.",
+            "cites": [4]
+          },
+          {
+            "text": "He said improving district communications is a priority to better engage and inform parents.",
+            "cites": [4]
+          },
+          {
+            "text": "His campaign says he wants to ensure district schools continue to deliver the highest levels of education, preparation and training.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Republican Party of Los Angeles County",
+        "kind": "party",
+        "cites": [5]
+      },
+      {
+        "organization": "KHTS Hometown Station (owners Carl and Jeri Seratti-Goldman)",
+        "kind": "editorial_board",
+        "cites": [6]
+      },
+      {
+        "organization": "Former State Sen. Scott Wilk",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [5]
+      },
+      {
+        "organization": "Santa Clarita Mayor Laurene Weste",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Santa Clarita Mayor Pro Tem Patsy Ayala",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Santa Clarita Councilmember Jason Gibbs",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Former Santa Clarita Mayor Cameron Smyth",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Bill Cooper, SCV Water Board of Directors, Division 1",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Joe Messina, President, Hart District Governing Board (Area 5)",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Bob Jensen, Assistant Clerk, Hart District Governing Board (Area 2)",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Erin Wilson, Clerk, Hart District Governing Board (Area 4)",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Dr. Aakash Ahuja, Hart District Governing Board (Area 1)",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Anna Griese, Saugus Union School District Governing Board",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [7]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "My Story — Bryan Biggers for Hart School Board",
+      "publisher": "Bryan Biggers campaign",
+      "url": "https://biggers4hart.com/story.html",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Corporate Spotlight: Victory Builders - The Master's University",
+      "publisher": "The Master's University",
+      "url": "https://www.masters.edu/master_tmu_news/corporate-spotlight-victory-builders/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "School Board Races Take Shape Across Santa Clarita Valley",
+      "publisher": "KHTS Radio",
+      "url": "https://www.hometownstation.com/santa-clarita-latest-news/school-board-races-take-shape-across-santa-clarita-valley-605210",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Candidates discuss Hart district challenges, opportunities",
+      "publisher": "The Signal",
+      "url": "https://signalscv.com/2026/10/candidates-discuss-hart-district-challenges-opportunities/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Bryan Biggers for Hart School Board",
+      "publisher": "Bryan Biggers campaign",
+      "url": "https://biggers4hart.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "EDITORIAL: KHTS Endorsements For The 2026 Election",
+      "publisher": "KHTS Hometown Station",
+      "url": "https://www.hometownstation.com/santa-clarita-news/politics/santa-clarita-elections/editorial-khts-endorsements-for-the-2026-election-612909",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 7
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.172Z",
+    "version": 2
+  }
+}

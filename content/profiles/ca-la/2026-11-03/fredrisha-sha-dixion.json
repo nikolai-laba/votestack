@@ -1,0 +1,92 @@
+{
+  "key": "fredrisha-sha-dixion",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Fre'Drisha \"Sha\" Dixion",
+  "office": "City of Inglewood, Mayor",
+  "contestIds": ["la-4348-cc10870"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Fre'Drisha \"Sha\" Dixon is an attorney and the founder and managing attorney of Dixon Law Partners. She also founded and leads the Inglewood Coalition for Educational Equity.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Fre'Drisha \"Sha\" Dixon is an attorney and the founder and managing attorney of Dixon Law Partners.",
+            "cites": [1]
+          },
+          {
+            "text": "She also founded and leads the Inglewood Coalition for Educational Equity.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "At an October 2026 candidate forum, she supported creating term limits for city officials, conducting a forensic audit of city finances, and moving city council meetings to an evening slot. She led a coalition meeting in July 2026 that argued the Inglewood Unified School District is not financially stable, pointing to a projected $13.3 million deficit for the 2025-2026 fiscal year.",
+        "cites": [2, 5]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Los Angeles League of Conservation Voters",
+        "kind": "organization",
+        "cites": [3]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [4] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Inglewood mayor voter guide, candidates - LA Local",
+      "publisher": "The LA Local",
+      "url": "https://thelalocal.org/neighborhoods/inglewood/your-la-local-voter-guide-inglewood-mayor/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Inglewood mayoral challengers weigh in on video billboards and ...",
+      "publisher": "LAist",
+      "url": "https://laist.com/news/politics/inglewood-mayoral-challengers-video-billboards-transparency",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "LALCV Endorses Fre'Drisha Dixon for Inglewood Mayor",
+      "publisher": "Los Angeles League of Conservation Voters",
+      "url": "https://lalcv.org/lalcv-endorses-fredrisha-dixon-for-inglewood-mayor/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 4
+    },
+    {
+      "title": "State agency praises Inglewood school district for being one step closer to regaining control",
+      "publisher": "The LA Local",
+      "url": "https://thelalocal.org/education/inglewood-unified-school-district-board-of-education-fcmat-report/",
+      "kind": "news",
+      "viewedAt": "2026-10-15",
+      "id": 5
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.433Z",
+    "version": 4
+  }
+}

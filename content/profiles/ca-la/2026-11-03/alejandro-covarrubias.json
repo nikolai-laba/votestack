@@ -1,0 +1,86 @@
+{
+  "key": "alejandro-covarrubias",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Alejandro Covarrubias",
+  "office": "City of Alhambra, Member of the City Council, Fifth District",
+  "contestIds": ["la-4348-cc10410"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Alejandro Covarrubias is a commercial plumber. He is a candidate for the Fifth District seat on the Alhambra City Council. In 2022 he spoke at a city council meeting in support of the city’s crossing guards. He said he would review city spending, identify non-essential items, and cut them to trim the budget. He said he would prioritize updating the city’s infrastructure and promoting skilled trades to young people as a path to financial independence. He also said the city should help families and schools prepare for future enrollment needs.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Alejandro Covarrubias is a commercial plumber.",
+            "cites": [1]
+          },
+          {
+            "text": "He is a candidate for the Fifth District seat on the Alhambra City Council.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2022 he spoke at a city council meeting in support of the city’s crossing guards.",
+            "cites": [3]
+          },
+          {
+            "text": "He said he would review city spending, identify non-essential items, and cut them to trim the budget.",
+            "cites": [1]
+          },
+          {
+            "text": "He said he would prioritize updating the city’s infrastructure and promoting skilled trades to young people as a path to financial independence.",
+            "cites": [4]
+          },
+          {
+            "text": "He also said the city should help families and schools prepare for future enrollment needs.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Alejandro Covarrubias, Alhambra City Council District 5 candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/alejandro-covarrubias-alhambra-city-council-district-5-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "11-3-26 ALHAMBRA GENERAL MUNICIPAL ELECTION LIST OF QUALIFIED CANDIDATES THAT FILED NOMINATION PAPERS, BALLOT DESIGNATIONS & CANDIDATE STATEMENTS",
+      "publisher": "City of Alhambra",
+      "url": "https://www.alhambraca.gov/DocumentCenter/View/8208/LIST-OF-QUALIFIED-CANDIDATES-THAT-FILED-NOMINATIONPAPERS-11-3-26-ELECTION",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "MINUTES Regular Meeting ALHAMBRA CITY COUNCIL October 24, 2022",
+      "publisher": "City of Alhambra",
+      "url": "https://www.alhambraca.gov/AgendaCenter/ViewFile/Minutes/_10242022-907",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Alhambra Council Candidates Discuss Housing, Traffic and Community Priorities at Forum",
+      "publisher": "ColoradoBoulevard.net",
+      "url": "https://www.coloradoboulevard.net/alhambra-council-candidates-discuss-housing-traffic-and-community-priorities-at-forum/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.473Z",
+    "version": 1
+  }
+}

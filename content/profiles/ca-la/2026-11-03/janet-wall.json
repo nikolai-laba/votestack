@@ -1,0 +1,66 @@
+{
+  "key": "janet-wall",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Janet Wall",
+  "office": "City of Monrovia, City Treasurer",
+  "contestIds": ["la-4348-cc10488"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Janet Wall is the city treasurer of Monrovia, California. She was appointed in 2022 and elected in 2024 to complete the current term. Her city biography says she has over 40 years of experience in the financial services industry and was a member of an executive management team. She serves as president of Monrovia Reads, Inc. and treasurer of the Monrovia Public Library Foundation, Inc. She chairs the Monrovia Renewal Citizen Advisory Committee, which monitors the budget for a city infrastructure project.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Janet Wall is the city treasurer of Monrovia, California.",
+            "cites": [1]
+          },
+          {
+            "text": "She was appointed in 2022 and elected in 2024 to complete the current term.",
+            "cites": [1]
+          },
+          {
+            "text": "Her city biography says she has over 40 years of experience in the financial services industry and was a member of an executive management team.",
+            "cites": [1]
+          },
+          {
+            "text": "She serves as president of Monrovia Reads, Inc. and treasurer of the Monrovia Public Library Foundation, Inc.",
+            "cites": [1]
+          },
+          {
+            "text": "She chairs the Monrovia Renewal Citizen Advisory Committee, which monitors the budget for a city infrastructure project.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Meet the City Council | City of Monrovia",
+      "publisher": "City of Monrovia",
+      "url": "https://www.monroviaca.gov/your-government/city-council/meet-the-city-council",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Monrovia Renewal Citizen Advisory Committee | City of Monrovia",
+      "publisher": "City of Monrovia",
+      "url": "https://www.monroviaca.gov/your-government/boards-and-commissions/monrovia-renewal-citizen-advisory-committee",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.501Z",
+    "version": 1
+  }
+}

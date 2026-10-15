@@ -1,0 +1,73 @@
+{
+  "key": "betty-luz-monroy",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Betty Luz Monroy",
+  "office": "Downey Unified School District, Governing Board Member, Trustee Area No. 7",
+  "contestIds": ["la-4348-cc10640"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Betty Luz Monroy is a realtor who says she has spent about 20 years advocating for special education and chaired the Downey Library Advisory Board for over 16 years.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Betty Luz Monroy is a realtor who says she has spent about 20 years advocating for special education and chaired the Downey Library Advisory Board for over 16 years.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign says she would focus on improving student achievement and closing opportunity gaps through tutoring, math intervention, personalized instruction, and stronger college and career pathways. She supports measuring results by school and student group, including students in special education, and wants to address attendance barriers such as transportation, anxiety, and bullying while expanding access to counselors and mentors.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Her campaign says she would focus on improving student achievement and closing opportunity gaps through tutoring, math intervention, personalized instruction, and stronger college and career pathways.",
+            "cites": [1]
+          },
+          {
+            "text": "She supports measuring results by school and student group, including students in special education, and wants to address attendance barriers such as transportation, anxiety, and bullying while expanding access to counselors and mentors.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Betty Luz Monroy, Downey Unified School District Area 7 candidate, 2026 election questionnaire",
+      "publisher": "Press Telegram",
+      "url": "https://www.presstelegram.com/2026/10/05/betty-luz-monroy-downey-unified-school-district-area-7-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Endorsed Candidates - Los Angeles County Democratic Party",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:48.982Z",
+    "version": 1
+  }
+}

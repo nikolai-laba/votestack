@@ -1,0 +1,58 @@
+{
+  "key": "robert-gonzales",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Robert Gonzales",
+  "office": "San Gabriel Valley Municipal Water District, Member, Board of Directors, Division 5",
+  "contestIds": ["la-4348-cc10553"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Robert Gonzales is an Azusa City Councilmember and former Mayor. He serves as Vice-Chairman of the San Gabriel Basin Water Quality Authority and is a board member of the Azusa Light & Water Agency. His campaign says he supports protecting water quality and the environment.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Robert Gonzales is an Azusa City Councilmember and former Mayor.",
+            "cites": [1]
+          },
+          {
+            "text": "He serves as Vice-Chairman of the San Gabriel Basin Water Quality Authority and is a board member of the Azusa Light & Water Agency.",
+            "cites": [2]
+          },
+          {
+            "text": "His campaign says he supports protecting water quality and the environment.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Robert Gonzales for SGVMWD Division 5: Home",
+      "publisher": "Robert Gonzales campaign",
+      "url": "https://www.gonzales4azusa.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Governance",
+      "publisher": "San Gabriel Basin Water Quality Authority",
+      "url": "https://wqa.com/governance/",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.412Z",
+    "version": 1
+  }
+}

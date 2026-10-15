@@ -1,0 +1,104 @@
+{
+  "key": "barbara-gaines",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Barbara Gaines",
+  "office": "Antelope Valley Community College District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10573"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Barbara Gaines is vice president of the Antelope Valley Community College District board. Her career in public education includes roles as teacher, principal, and superintendent. She supports building career technical education pathways, like aerospace, with local high schools. In a 2024 statement, she said the board passed a $350 million bond with 71% approval in 2016. She also supports establishing diversity, equity, inclusion and access at the college.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Barbara Gaines is vice president of the Antelope Valley Community College District board.",
+            "cites": [1]
+          },
+          {
+            "text": "Her career in public education includes roles as teacher, principal, and superintendent.",
+            "cites": [1]
+          },
+          {
+            "text": "She supports building career technical education pathways, like aerospace, with local high schools.",
+            "cites": [2]
+          },
+          {
+            "text": "In a 2024 statement, she said the board passed a $350 million bond with 71% approval in 2016.",
+            "cites": [3]
+          },
+          {
+            "text": "She also supports establishing diversity, equity, inclusion and access at the college.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Voz Unida / California Latino Voter Alliance",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Six Candidates Seek Three Antelope Valley College Seats",
+      "publisher": "Antelope Valley Online",
+      "url": "https://antelopevalleyonline.com/six-candidates-seek-three-antelope-valley-college-seats/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "SKUSD extends superintendent's contract",
+      "publisher": "Antelope Valley Press",
+      "url": "https://www.avpress.com/news/skusd-extends-superintendent-s-contract/article_378ff594-1017-44f8-8b7c-108873a69ced.html",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Barbara Gaines candidate statement (in CCCT Board Election packet)",
+      "publisher": "Ohlone College",
+      "url": "https://www.ohlone.edu/sites/default/files/groups/Board_of_Trustees/2024/041024/041024boardpacket.pdf",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Voz Unida voter guide: Los Angeles County",
+      "publisher": "California Latino Voter Alliance",
+      "url": "https://www.latinovoteralliance.org/voter-guides/los-angeles",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 5
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.866Z",
+    "version": 2
+  }
+}

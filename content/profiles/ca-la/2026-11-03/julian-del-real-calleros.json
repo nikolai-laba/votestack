@@ -1,0 +1,89 @@
+{
+  "key": "julian-del-real-calleros",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Julian Del Real-Calleros",
+  "office": "Lynwood Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10653"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Julian Del Real-Calleros was appointed to the Lynwood Unified School District Board of Education in April 2021. He has served as board president. He has worked as a substitute teacher in Lynwood Unified and a full-time teacher in Los Angeles Unified. He also served on the City of Lynwood’s Planning Commission.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Julian Del Real-Calleros was appointed to the Lynwood Unified School District Board of Education in April 2021.",
+            "cites": [1]
+          },
+          { "text": "He has served as board president.", "cites": [2] },
+          {
+            "text": "He has worked as a substitute teacher in Lynwood Unified and a full-time teacher in Los Angeles Unified.",
+            "cites": [1]
+          },
+          {
+            "text": "He also served on the City of Lynwood’s Planning Commission.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "In 2023, he spoke about the district’s first Pride summit, created after an out student asked for support to combat bullying. He has advocated for targeted resources for African American students, saying the board wanted them to feel recognized and supported.",
+        "cites": [3, 4],
+        "sentences": [
+          {
+            "text": "In 2023, he spoke about the district’s first Pride summit, created after an out student asked for support to combat bullying.",
+            "cites": [3]
+          },
+          {
+            "text": "He has advocated for targeted resources for African American students, saying the board wanted them to feel recognized and supported.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Lynwood Unified Appoints New Board Member at Special Meeting",
+      "publisher": "California School News Report",
+      "url": "https://caschoolnews.net/articles/lynwood-unified-appoints-new-board-member-at-special-meeting/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "lynwood unified school district regular meeting of the board ...",
+      "publisher": "Lynwood Unified School District",
+      "url": "https://simbli.eboardsolutions.com/Meetings/Attachment.aspx?S=36030526&AID=1305201",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Column: For some LGBTQ+ Catholics, the Sisters of Perpetual Indulgence are a drag",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2023-06-15/sisters-of-perpetual-indulgence-dodger-stadium-lgbtq-catholics",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Bridging the Gap",
+      "publisher": "California School Boards Association",
+      "url": "https://publications.csba.org/issue/spring-2025/bridging-the-gap/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.185Z",
+    "version": 1
+  }
+}

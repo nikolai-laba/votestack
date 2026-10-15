@@ -1,0 +1,174 @@
+{
+  "key": "james-cody-birkey",
+  "electionId": "ca-2026-11-03-general",
+  "name": "James Cody Birkey",
+  "office": "Cerritos Community College District, Governing Board Member, Trustee Area No. 3",
+  "contestIds": ["la-4348-cc10574"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "James Cody Birkey has represented Trustee Area 3, covering much of Bellflower, on the Cerritos Community College District Board of Trustees since 2017. He works in the private sector advising universities on finance and capital investments. He holds a master's degree from Harvard University in real estate economics and finance and bachelor's degrees from the University of Oregon.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "James Cody Birkey has represented Trustee Area 3, covering much of Bellflower, on the Cerritos Community College District Board of Trustees since 2017.",
+            "cites": [1]
+          },
+          {
+            "text": "He works in the private sector advising universities on finance and capital investments.",
+            "cites": [1]
+          },
+          {
+            "text": "He holds a master's degree from Harvard University in real estate economics and finance and bachelor's degrees from the University of Oregon.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Assemblymember Blanca Pacheco, California State Assembly District 64",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [2]
+      },
+      {
+        "organization": "Bellflower Mayor Sonny R. Santa Ines",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Bellflower Mayor Pro Tem Victor A. Sanchez",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Bellflower Councilmember Dan Koops",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Bellflower Councilmember Ray Dunton",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Bellflower Councilmember Wendi Morse",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Cerritos College Board President Dr. Dawn Green",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Cerritos College Board Vice President Zurich Lewis",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Cerritos College Board Clerk Dr. Shin Liu",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Cerritos College Trustee Mariana Pacheco",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Cerritos College Trustee Mariana Rios",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Cerritos College Trustee Dr. Sandra Salazar",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Bellflower Unified Board President Mayra Garza",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Bellflower Unified Board Vice President Brad Crihfield",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Bellflower Unified Board Clerk Maurina Cintron",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Bellflower Unified Board Member Renita Armstrong",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Bellflower Unified Board Member Amie Stewart",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Voz Unida / California Latino Voter Alliance",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Trustee Area 3 - Cerritos College",
+      "publisher": "Cerritos College",
+      "url": "https://www.cerritos.edu/about/board/bios/Area3.htm",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "James Cody Birkey for Cerritos College Trustee Area 3 – Endorsements",
+      "publisher": "Birkey campaign",
+      "url": "https://www.votebirkey.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Voz Unida Voter Guide – Los Angeles County",
+      "publisher": "California Latino Voter Alliance",
+      "url": "https://www.latinovoteralliance.org/voter-guides/los-angeles",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 4
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.869Z",
+    "version": 2
+  }
+}

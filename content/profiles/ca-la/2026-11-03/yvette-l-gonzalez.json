@@ -1,0 +1,42 @@
+{
+  "key": "yvette-l-gonzalez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Yvette L. Gonzalez",
+  "office": "Palmdale Water District, Member, Board of Directors, Division 2",
+  "contestIds": ["la-4348-cc10535"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Yvette L. Gonzalez is a small business owner running for the Palmdale Water District Board of Directors, Division 2.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Yvette L. Gonzalez is a small business owner running for the Palmdale Water District Board of Directors, Division 2.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate List",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.403Z",
+    "version": 1
+  }
+}

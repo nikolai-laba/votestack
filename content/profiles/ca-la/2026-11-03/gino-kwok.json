@@ -1,0 +1,118 @@
+{
+  "key": "gino-kwok",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Gino Kwok",
+  "office": "Hacienda La Puente Unified School District, Governing Board Member, Trustee Area No. 4",
+  "contestIds": ["la-4348-cc10649"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Gino Kwok is a trial attorney and incumbent member of the Hacienda La Puente Unified School District Board of Education for Trustee Area 4. He has served as board president and graduated from the district’s schools and USC Law School.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Gino Kwok is a trial attorney and incumbent member of the Hacienda La Puente Unified School District Board of Education for Trustee Area 4.",
+            "cites": [1]
+          },
+          {
+            "text": "He has served as board president and graduated from the district’s schools and USC Law School.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "On the board, he helped create a summer middle-school math enrichment program, start and expand Spanish, Chinese and Korean dual-language immersion programs, and lead a $45 million capital improvement project for district schools. In 2025, he voted to appoint John Roach as district superintendent. In 2022, he said he wanted to apply his background in public education and law to address the pandemic's long-term mental, emotional and physical effects on students.",
+        "cites": [3, 4],
+        "sentences": [
+          {
+            "text": "On the board, he helped create a summer middle-school math enrichment program, start and expand Spanish, Chinese and Korean dual-language immersion programs, and lead a $45 million capital improvement project for district schools.",
+            "cites": [3]
+          },
+          {
+            "text": "In 2025, he voted to appoint John Roach as district superintendent.",
+            "cites": [4]
+          },
+          {
+            "text": "In 2022, he said he wanted to apply his background in public education and law to address the pandemic's long-term mental, emotional and physical effects on students.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [5]
+      },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [6]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Gino Kwok, Hacienda-La Puente Unified School District ...",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/gino-kwok-hacienda-la-puente-unified-school-district-area-4-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Board of Education - Hacienda La Puente Unified School ...",
+      "publisher": "Hacienda La Puente Unified School District",
+      "url": "https://www.hlpschools.org/board-of-education",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Hacienda La Puente Unified Board Members Take Oath of ...",
+      "publisher": "California School News",
+      "url": "https://caschoolnews.net/articles/hacienda-la-puente-unified-board-members-take-oath-of-office-bring-new-perspectives-to-the-district/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "View All News - Hacienda La Puente Unified School District",
+      "publisher": "Hacienda La Puente Unified School District",
+      "url": "https://www.hlpschools.org/view-all-news",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Endorsed Candidates - Los Angeles County Democratic Party",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.090Z",
+    "version": 1
+  }
+}

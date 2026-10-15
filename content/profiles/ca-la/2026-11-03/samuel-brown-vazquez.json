@@ -1,0 +1,68 @@
+{
+  "key": "samuel-brown-vazquez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Samuel Brown-Vazquez",
+  "office": "Bassett Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10621"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Samuel Brown-Vazquez is an educator and community organizer. He organizes with No Data Centers San Gabriel Valley and Avocado Heights Vaqueros. He has served on the Bassett Unified School District Personnel Commission since March 2023 as the CSEA appointee. He has opposed school closures in neighboring districts, raising civil rights and equity concerns for Black, Filipino, special education and disabled students. In 2026, the coalition advocated for a Rowland Heights school board resolution opposing a data center and a 45-day El Monte moratorium. The California Fair Political Practices Commission imposed a $5,000 penalty on him and his 2024 campaign committee in a default decision.",
+        "cites": [1, 2, 3, 4, 5]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate List - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Welcome - Personnel Commission - About Us",
+      "publisher": "Bassett Unified School District",
+      "url": "https://www.bassettusd.org/apps/pages/aboutus",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Two Diamond Bar elementary schools will merge into one",
+      "publisher": "Daily Bulletin",
+      "url": "https://www.dailybulletin.com/2026/05/22/two-diamond-bar-elementary-schools-will-merge-into-one/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Preocupación ambiental por centros de datos en el Valle de San Gabriel, California",
+      "publisher": "LatidoBeat",
+      "url": "https://thelatidobeat.com/2026/04/20/preocupacion-ambiental-valle-san-gabriel/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Default Decision and Order FPPC No. 24/1046",
+      "publisher": "California Fair Political Practices Commission",
+      "url": "https://lunar.fppc.ca.gov/content/dam/fppc/documents/Stipulations/2025/august/Brown%20-%20Default%20+%20Exhibits.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T16:56:23.393Z",
+    "version": 2
+  }
+}

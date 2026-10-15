@@ -1,0 +1,138 @@
+{
+  "key": "theresa-lee",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Theresa Lee",
+  "office": "Walnut Valley Water District, Member, Board of Directors, Division 3",
+  "contestIds": ["la-4348-cc10372"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Theresa Lee has been a Walnut Valley Water District board member since 2016 and serves as Assistant Treasurer and Finance Committee chair. She owns a customs brokerage company. Her campaign says she will modernize aging infrastructure, protect water quality, and keep rates affordable.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Theresa Lee has been a Walnut Valley Water District board member since 2016 and serves as Assistant Treasurer and Finance Committee chair.",
+            "cites": [1]
+          },
+          { "text": "She owns a customs brokerage company.", "cites": [1] },
+          {
+            "text": "Her campaign says she will modernize aging infrastructure, protect water quality, and keep rates affordable.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "State Sen. Bob Archuleta",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [3]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Hilda L. Solis (1st District)",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Walnut Mayor Allen Wu",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Diamond Bar Council Member Stan Liu",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Former Diamond Bar Mayor Wen Chang",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Walnut City Council Member Linda Freedman",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Walnut City Council Member Ritchie Cajulis",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Yorba Linda Mayor Pro Tem Peggy Huang",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Three Valleys Municipal Water District Board Member Carlos Goytia",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Three Valleys Municipal Water District Board Member Jody Roberto",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Walnut Valley Unified School District Board President Tony Torng",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Walnut Valley Unified School District Board Vice President Cynthia M. Ruiz",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Walnut Valley Unified School District Board Member Helen M. Hall",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Walnut Valley Unified School District Board Member Layla Abou-Taleb",
+        "kind": "elected_official",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board of Directors - Walnut Valley Water District",
+      "publisher": "Walnut Valley Water District",
+      "url": "https://walnutvalleywater.gov/about-us/board-of-directors/",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Theresa Lee: Home",
+      "publisher": "Theresa Lee campaign",
+      "url": "https://www.theresa-wvwd.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Endorsements - Theresa Lee for WVWD Director 2026",
+      "publisher": "Theresa Lee for WVWD Director 2026",
+      "url": "https://www.theresa-wvwd.com/endorsments",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.426Z",
+    "version": 1
+  }
+}

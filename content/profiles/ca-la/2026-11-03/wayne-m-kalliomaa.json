@@ -1,0 +1,66 @@
+{
+  "key": "wayne-m-kalliomaa",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Wayne M. Kalliomaa",
+  "office": "Eastside Union School District, Governing Board Member, Trustee Area No. 1",
+  "contestIds": ["la-4348-cc10694"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Wayne M. Kalliomaa is a member of the Eastside Union School District Governing Board, representing Trustee Area 1. His term on the board began in February 2026. He retired in 2024 after a 35-year career at the Air Force Research Laboratory at Edwards AFB. He holds a degree in engineering physics from the University of Arizona. According to his district profile, he wants to provide a safe learning environment and ensure teachers and students have the resources they need.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Wayne M. Kalliomaa is a member of the Eastside Union School District Governing Board, representing Trustee Area 1.",
+            "cites": [1]
+          },
+          {
+            "text": "His term on the board began in February 2026.",
+            "cites": [2]
+          },
+          {
+            "text": "He retired in 2024 after a 35-year career at the Air Force Research Laboratory at Edwards AFB.",
+            "cites": [2]
+          },
+          {
+            "text": "He holds a degree in engineering physics from the University of Arizona.",
+            "cites": [2]
+          },
+          {
+            "text": "According to his district profile, he wants to provide a safe learning environment and ensure teachers and students have the resources they need.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board of Trustees – Board of Education – Eastside Union School District",
+      "publisher": "Eastside Union School District",
+      "url": "https://www.eastsideusd.org/apps/pages/index.jsp?uREC_ID=4434428&type=d&pREC_ID=2723146",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Board Member, Mr. Wayne Kalliomaa – Board of Education – Eastside Union School District",
+      "publisher": "Eastside Union School District",
+      "url": "https://www.eastsideusd.org/apps/pages/index.jsp?uREC_ID=4434428&type=d&pREC_ID=2729537",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.009Z",
+    "version": 1
+  }
+}

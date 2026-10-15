@@ -1,0 +1,79 @@
+{
+  "key": "alicia-linden-anderson",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Alicia Linden Anderson",
+  "office": "Paramount Unified School District, Governing Board Member, Trustee Area No. 4",
+  "contestIds": ["la-4348-cc10743"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Alicia Linden Anderson is a member of the Paramount Unified School District Board of Education. She volunteered for over 20 years with the PTA, including as PTA Council President. She previously served on the board for 17 years, from 2001 to 2018. She is the board president. She was the board's vice president in 2024. According to her district bio, her accomplishments include helping create the Odyssey STEM Academy, building new schools and a football stadium, and developing career technical pathways. She coordinates free haircuts for foster youth each summer.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Alicia Linden Anderson is a member of the Paramount Unified School District Board of Education.",
+            "cites": [1]
+          },
+          {
+            "text": "She volunteered for over 20 years with the PTA, including as PTA Council President.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously served on the board for 17 years, from 2001 to 2018.",
+            "cites": [1]
+          },
+          { "text": "She is the board president.", "cites": [2] },
+          {
+            "text": "She was the board's vice president in 2024.",
+            "cites": [3]
+          },
+          {
+            "text": "According to her district bio, her accomplishments include helping create the Odyssey STEM Academy, building new schools and a football stadium, and developing career technical pathways.",
+            "cites": [1]
+          },
+          {
+            "text": "She coordinates free haircuts for foster youth each summer.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Alicia Anderson, Board Member",
+      "publisher": "Paramount Unified School District",
+      "url": "https://www.paramountusd.com/board/board-of-education/alicia-anderson-board-member",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "City Council/School Board Ad Hoc Committee Agenda",
+      "publisher": "City of Paramount",
+      "url": "https://www.paramountcity.gov/wp-content/uploads/2025/02/02-13-2025.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "July 2024 Gold Key Award",
+      "publisher": "Paramount Journal",
+      "url": "https://paramountjournal.org/july-2024-gold-key-award/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.242Z",
+    "version": 1
+  }
+}

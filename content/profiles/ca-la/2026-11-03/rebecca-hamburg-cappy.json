@@ -1,0 +1,105 @@
+{
+  "key": "rebecca-hamburg-cappy",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Rebecca Hamburg Cappy",
+  "office": "Wiseburn Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10678"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Rebecca Hamburg Cappy is a Wiseburn Unified School District board member, appointed in 2022 and elected later that year. She is an attorney and chief impact officer at the California Donor Table. Her campaign emphasizes student-centered education, strong special education support, expanded enrichment, and open family communication.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Rebecca Hamburg Cappy is a Wiseburn Unified School District board member, appointed in 2022 and elected later that year.",
+            "cites": [1]
+          },
+          {
+            "text": "She is an attorney and chief impact officer at the California Donor Table.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign emphasizes student-centered education, strong special education support, expanded enrichment, and open family communication.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign says she chaired the Measure EE bond initiative, securing $98 million for facility upgrades. She says she added staff and Registered Behavior Technicians to improve special education and pushed for clearer timelines. She also states she worked with families and Da Vinci Schools to review the Futures Plus program.",
+        "cites": [2],
+        "sentences": [
+          {
+            "text": "Her campaign says she chaired the Measure EE bond initiative, securing $98 million for facility upgrades.",
+            "cites": [2]
+          },
+          {
+            "text": "She says she added staff and Registered Behavior Technicians to improve special education and pushed for clearer timelines.",
+            "cites": [2]
+          },
+          {
+            "text": "She also states she worked with families and Da Vinci Schools to review the Futures Plus program.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Assemblymember Tina S. McKinnor",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [2]
+      },
+      {
+        "organization": "California Working Families Party",
+        "kind": "party",
+        "cites": [2]
+      },
+      {
+        "organization": "Indivisible South Bay LA (ISBLA)",
+        "kind": "organization",
+        "cites": [2]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [3] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "School Board Members",
+      "publisher": "Wiseburn Unified School District",
+      "url": "https://www.wiseburn.org/school-board/school-board-members",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Re-Elect Rebecca For Wiseburn Schools",
+      "publisher": "Rebecca Hamburg Cappy campaign",
+      "url": "https://rebecca4wiseburn.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 3
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.183Z",
+    "version": 2
+  }
+}

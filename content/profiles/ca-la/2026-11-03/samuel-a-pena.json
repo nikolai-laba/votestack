@@ -1,0 +1,70 @@
+{
+  "key": "samuel-a-pena",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Samuel A. Peña",
+  "office": "Water Replenishment District of Southern California, Member, Board of Directors, Division 4",
+  "contestIds": ["la-4348-cc10569"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Samuel A. Peña previously served on the Maywood City Council. He was elected in 1999 and served as mayor from 1999 to 2003 and from 2005 to 2006. He was Maywood city clerk from 1993 to 1999 and chaired the Maywood Redevelopment Agency from 2003 to 2005. He represents Maywood on the Los Angeles Metro Gateway Cities Service Council, with a term through June 2029.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Samuel A. Peña previously served on the Maywood City Council.",
+            "cites": [1]
+          },
+          {
+            "text": "He was elected in 1999 and served as mayor from 1999 to 2003 and from 2005 to 2006.",
+            "cites": [2]
+          },
+          {
+            "text": "He was Maywood city clerk from 1993 to 1999 and chaired the Maywood Redevelopment Agency from 2003 to 2005.",
+            "cites": [2]
+          },
+          {
+            "text": "He represents Maywood on the Los Angeles Metro Gateway Cities Service Council, with a term through June 2029.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Bell Gardens Councilmember Jorgel Chavez to run for water board",
+      "publisher": "The SELA Sun",
+      "url": "https://www.selasun.la/bell-gardens-councilmember-jorgel-chavez-to-run-for-water-board/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Board Report",
+      "publisher": "LA Metro",
+      "url": "https://datamade-metro-pdf-merger.s3.amazonaws.com/2015-1784.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Gateway Cities Service Council",
+      "publisher": "LA Metro",
+      "url": "https://www.metro.net/about/local-service-councils/gwc/",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T14:05:39.714Z",
+    "version": 4
+  }
+}

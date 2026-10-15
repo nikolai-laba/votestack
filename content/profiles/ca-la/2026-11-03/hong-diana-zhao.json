@@ -1,0 +1,172 @@
+{
+  "key": "hong-diana-zhao",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Hong \"Diana\" Zhao",
+  "office": "City of Walnut, Member of the City Council",
+  "contestIds": ["la-4348-cc10526"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Hong \"Diana\" Zhao is a licensed clinical social worker and former supervisor at the Los Angeles County Department of Children and Family Services. She retired in 2023 after 16 years with the agency. Zhao is now director of the Win Win Relationship Learning Center. She has served as a city commissioner and community volunteer.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Hong \"Diana\" Zhao is a licensed clinical social worker and former supervisor at the Los Angeles County Department of Children and Family Services.",
+            "cites": [1]
+          },
+          {
+            "text": "She retired in 2023 after 16 years with the agency.",
+            "cites": [1]
+          },
+          {
+            "text": "Zhao is now director of the Win Win Relationship Learning Center.",
+            "cites": [2]
+          },
+          {
+            "text": "She has served as a city commissioner and community volunteer.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "Her platform includes reducing traffic congestion, improving road safety near schools, and expanding sidewalks and bike lanes. She proposes stronger collaboration with the sheriff's department, a city app for public safety alerts, and better emergency preparedness. Zhao supports helping small businesses, attracting restaurants, promoting mental health awareness, expanding senior wellness programs, supporting affordable senior housing, holding regular town halls, and creating a resident feedback system.",
+        "cites": [3],
+        "sentences": [
+          {
+            "text": "Her platform includes reducing traffic congestion, improving road safety near schools, and expanding sidewalks and bike lanes.",
+            "cites": [3]
+          },
+          {
+            "text": "She proposes stronger collaboration with the sheriff's department, a city app for public safety alerts, and better emergency preparedness.",
+            "cites": [3]
+          },
+          {
+            "text": "Zhao supports helping small businesses, attracting restaurants, promoting mental health awareness, expanding senior wellness programs, supporting affordable senior housing, holding regular town halls, and creating a resident feedback system.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "I-Chinese American Political Action Committee (I-APAC)",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "San Gabriel Mayor Pro Tem Tony Ding",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Monrovia Mayor Pro Tem Sergio Jimenez",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Duarte Mayor Pro Tem Samuel Kang",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Burbank City Council Member Konstantine Anthony",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "South El Monte City Council Member Manny Acosta",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "South Pasadena City Council Member Michael Cacciotti",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Arcadia City Council Member David Fu",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "South Pasadena City Council Member Jon Primuth",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Cerritos City Council Member Jennifer Hong",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Monrovia City Council Member Larry Spicer",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Rowland Unified School District Board Member Agnes Gonzalez",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Valle Lindo School District Board Member Rudy Martinez",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Mountain View School District Board Member Cindy Wu",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Former Monterey Park Mayor Stephen Lam",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Former Monterey Park Mayor Anthony Wong",
+        "kind": "elected_official",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "About Diana | Zhao4walnutcitycounc",
+      "publisher": "Hong Diana Zhao campaign",
+      "url": "https://www.zhao4walnut.com/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Hong “Diana” Zhao, Walnut City Council candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/hong-diana-zhao-walnut-city-council-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Hong Diana Zhao | ZHAO4WALNUTCITYCOUNCIL | Walnut, CA, USA",
+      "publisher": "Hong Diana Zhao campaign",
+      "url": "https://www.zhao4walnut.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.625Z",
+    "version": 1
+  }
+}

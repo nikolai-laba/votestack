@@ -1,0 +1,89 @@
+{
+  "key": "nick-somers",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Nick Somers",
+  "office": "City of Santa Clarita, Member of the City Council, 4th District",
+  "contestIds": ["la-4348-cc10838"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "He owns Nvisionate, a film-production sound stage in North Hollywood. He also runs a film production company, Utopian Films. He is a licensed emergency medical technician and volunteers with a search and rescue team.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "He owns Nvisionate, a film-production sound stage in North Hollywood.",
+            "cites": [1]
+          },
+          {
+            "text": "He also runs a film production company, Utopian Films.",
+            "cites": [2]
+          },
+          {
+            "text": "He is a licensed emergency medical technician and volunteers with a search and rescue team.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "He says the biggest issue facing the city is out-of-control growth without infrastructure to support it. He promises transparency and access. His stated priorities include responsible growth and fiscal accountability.",
+        "cites": [3, 4],
+        "sentences": [
+          {
+            "text": "He says the biggest issue facing the city is out-of-control growth without infrastructure to support it.",
+            "cites": [3]
+          },
+          { "text": "He promises transparency and access.", "cites": [3] },
+          {
+            "text": "His stated priorities include responsible growth and fiscal accountability.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Update: City Council races shape up - Santa Clarita Valley Signal",
+      "publisher": "Santa Clarita Valley Signal",
+      "url": "https://signalscv.com/2026/08/city-council-races-shape-up/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "About Nick - Nick Somers",
+      "publisher": "Nick Somers campaign",
+      "url": "https://www.nicksomers.com/about/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Nick Somers, Santa Clarita City Council District 4 candidate, 2026 election questionnaire – Daily News",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/nick-somers-santa-clarita-city-council-district-4-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Santa Clarita City Council Archives",
+      "publisher": "Hometown Station (KHTS)",
+      "url": "https://www.hometownstation.com/tag/santa-clarita-city-council",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.573Z",
+    "version": 1
+  }
+}

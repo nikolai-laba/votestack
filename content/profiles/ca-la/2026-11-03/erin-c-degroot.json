@@ -1,0 +1,78 @@
+{
+  "key": "erin-c-degroot",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Erin C. Degroot",
+  "office": "Wrightwood Community Services District, Member, Board of Directors",
+  "contestIds": ["la-4348-cc10375"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Erin C. DeGroot is vice president of the Wrightwood Community Services District board. Appointed in May 2025, she previously served as the district's Parks and Recreation Coordinator. After public fund discrepancies, she supported an independent financial review and the board did not renew the general manager's contract. She says she wrote the board's demand for an environmental impact report on the Lone Pine Canyon Quarry and supports new parks.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Erin C. DeGroot is vice president of the Wrightwood Community Services District board.",
+            "cites": [1]
+          },
+          {
+            "text": "Appointed in May 2025, she previously served as the district's Parks and Recreation Coordinator.",
+            "cites": [2]
+          },
+          {
+            "text": "After public fund discrepancies, she supported an independent financial review and the board did not renew the general manager's contract.",
+            "cites": [3]
+          },
+          {
+            "text": "She says she wrote the board's demand for an environmental impact report on the Lone Pine Canyon Quarry and supports new parks.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Our Team — Wrightwood Community Services District",
+      "publisher": "Wrightwood Community Services District",
+      "url": "https://www.wrightwoodcsd.org/our-team",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Wrightwood CSD Appoints Erin DeGroot as New Board Member to Fill Vacant Seat",
+      "publisher": "Tri-Community NewsPlus",
+      "url": "https://4newsplus.com/wrightwood-csd-appoints-erin-degroot-as-new-board-member-to-fill-vacant-seat/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Wrightwood CSD Faces Financial Questions and Community Divide After GM Decision",
+      "publisher": "Tri-Community NewsPlus",
+      "url": "https://4newsplus.com/wrightwood-csd-faces-financial-questions-and-community-divide-after-gm-decision/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Meet Candidates Running for Wrightwood Community Service District Board of Directors",
+      "publisher": "Tri-Community NewsPlus",
+      "url": "https://4newsplus.com/meet-candidates-running-for-wrightwood-community-service-district-board-of-directors/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.446Z",
+    "version": 1
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "key": "zoe-muntaner",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Zoë Muntaner",
+  "office": "City of Santa Monica, Member of the Rent Control Board",
+  "contestIds": ["la-4348-cc10515"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Zoë Muntaner is a small business owner. She says she is a bilingual educator, a 24-year Santa Monica renter, and the founder of Compassionate Santa Monica and Giving Tuesday Santa Monica. Her campaign proposes an ethics commission, stronger protections for disabled and roommate renters, and closer ties between code enforcement and the City Attorney’s Consumer Protection Division. She also wants legal clinics in parks and oversight of the Rent Control Board’s judicial affairs.",
+        "cites": [1],
+        "sentences": [
+          { "text": "Zoë Muntaner is a small business owner.", "cites": [1] },
+          {
+            "text": "She says she is a bilingual educator, a 24-year Santa Monica renter, and the founder of Compassionate Santa Monica and Giving Tuesday Santa Monica.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign proposes an ethics commission, stronger protections for disabled and roommate renters, and closer ties between code enforcement and the City Attorney’s Consumer Protection Division.",
+            "cites": [1]
+          },
+          {
+            "text": "She also wants legal clinics in parks and oversight of the Rent Control Board’s judicial affairs.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "In 2014, she opposed Measure FS, saying funding a bureaucracy is not a good idea. In 2013, she led the effort for Santa Monica to adopt the Charter for Compassion.",
+        "cites": [2, 3]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "General Election 2026: Zoë Muntaner",
+      "publisher": "City of Santa Monica",
+      "url": "https://www.santamonica.gov/elections/2026-11-03/candidates/zoe-muntaner",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Council candidate: Zoë Muntaner",
+      "publisher": "Santa Monica Daily Press",
+      "url": "https://www.smdp.com/council-candidate-zoe-muntaner/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Hurricane Zoe Hits Santa Monica",
+      "publisher": "Santa Monica Daily Press",
+      "url": "https://www.smdp.com/hurricane-zoe-hits-santa-monica/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:39:39.223Z",
+    "version": 2
+  }
+}

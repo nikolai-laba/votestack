@@ -1,0 +1,79 @@
+{
+  "key": "nicole-j-jones",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Nicole J. Jones",
+  "office": "Compton Community College District, Governing Board Member, Trustee Area No. 2 (Unexpired term ending December 8, 2028)",
+  "contestIds": ["la-4348-cc10582"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Dr. Nicole J. Jones is the provisional Area 2 trustee for the Compton Community College District, appointed in March 2026. She previously served as a trustee and board president when the college regained accreditation and local governance. An executive vice president at AmPac Business Capital, she has worked in government, nonprofits, and finance. Her campaign priorities include expanding career and technical education, dual-enrollment and Promise programs, and fiscal accountability.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Dr. Nicole J. Jones is the provisional Area 2 trustee for the Compton Community College District, appointed in March 2026.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously served as a trustee and board president when the college regained accreditation and local governance.",
+            "cites": [2]
+          },
+          {
+            "text": "An executive vice president at AmPac Business Capital, she has worked in government, nonprofits, and finance.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign priorities include expanding career and technical education, dual-enrollment and Promise programs, and fiscal accountability.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Compton College Board Selects Dr. Nicole J. Jones as Provisional Trustee for Area 2",
+      "publisher": "Compton Chamber of Commerce",
+      "url": "https://www.comptonchamberofcommerce.org/post/compton-college-trustee-area-2-seat-appointment",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "DR.NICOLE J. JONES COMPTON COMMUNITY COLLEGE DISTRICT BOARD OF TRUSTEES",
+      "publisher": "City Pride Magazine",
+      "url": "https://citypridemagazine.com/dr-nicole-j-jones-compton-community-college-district-board-of-trustees/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Endorsed Candidates - Los Angeles County Democratic Party",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.876Z",
+    "version": 2
+  }
+}

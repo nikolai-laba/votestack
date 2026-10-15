@@ -1,0 +1,90 @@
+{
+  "key": "andrew-chou",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Andrew Chou",
+  "office": "City of Diamond Bar, Member of the City Council, 3rd District",
+  "contestIds": ["la-4348-cc10441"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Andrew Chou is a member of the Diamond Bar City Council representing District 3. He was elected in 2018 and served as mayor in 2023. He founded a financial planning advisory firm in Diamond Bar. On the council, he serves on the Economic Development and Legislative subcommittees and represents the city on regional boards, including the San Gabriel Valley Council of Governments and the San Gabriel Valley Regional Housing Trust.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Andrew Chou is a member of the Diamond Bar City Council representing District 3.",
+            "cites": [1]
+          },
+          {
+            "text": "He was elected in 2018 and served as mayor in 2023.",
+            "cites": [1]
+          },
+          {
+            "text": "He founded a financial planning advisory firm in Diamond Bar.",
+            "cites": [1]
+          },
+          {
+            "text": "On the council, he serves on the Economic Development and Legislative subcommittees and represents the city on regional boards, including the San Gabriel Valley Council of Governments and the San Gabriel Valley Regional Housing Trust.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "In the community, he volunteers with local Kiwanis and Key Clubs.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "In the community, he volunteers with local Kiwanis and Key Clubs.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      { "organization": "BizFed PAC", "kind": "organization", "cites": [2] },
+      {
+        "organization": "Asian Democrats of Los Angeles County",
+        "kind": "organization",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Council Member Andrew Chou | Diamond Bar, CA",
+      "publisher": "City of Diamond Bar",
+      "url": "https://www.diamondbarca.gov/715/Council-Member-Andrew-Chou",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Endorsement",
+      "publisher": "Andrew Chou for Diamond Bar City Council 2026",
+      "url": "https://andrew-chou.com/endorsement",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "2026 General Endorsements",
+      "publisher": "Asian Democrats of Los Angeles County",
+      "url": "https://www.asiandemsla.org/2026-endorsements.html",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.367Z",
+    "version": 1
+  }
+}

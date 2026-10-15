@@ -1,0 +1,66 @@
+{
+  "key": "roy-payan",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Roy Payan",
+  "office": "Los Angeles Community College District, Member of the Board of Trustees, Seat 2",
+  "contestIds": ["la-4348-cc10588"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Roy Payan told the Los Angeles Times he suspended his campaign for the Los Angeles Community College District Board of Trustees. In 2017, he and Portia Mason, both blind students, sued the district, saying it failed to provide accessible reading materials, note-taking assistance, and software. In 2026, the Ninth Circuit ordered the reinstatement of a $218,500 jury award to Payan in the disability discrimination case.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Roy Payan told the Los Angeles Times he suspended his campaign for the Los Angeles Community College District Board of Trustees.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2017, he and Portia Mason, both blind students, sued the district, saying it failed to provide accessible reading materials, note-taking assistance, and software.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2026, the Ninth Circuit ordered the reinstatement of a $218,500 jury award to Payan in the disability discrimination case.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "L.A. Community College Board of Trustees Seat 2 election ...",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-10-01/2026-california-election-los-angeles-community-college-board-of-trustees-seat-2-voter-guide",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Community college won't take disability case to Supreme Court",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2022-03-03/community-college-wont-take-disability-rights-case-to-supreme-court-following-protests",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Lost Opportunity Damages May Be Recovered Under ADA",
+      "publisher": "Metropolitan News-Enterprise",
+      "url": "http://www.metnews.com/articles/2026/adadamages_031226.htm",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:48.888Z",
+    "version": 1
+  }
+}

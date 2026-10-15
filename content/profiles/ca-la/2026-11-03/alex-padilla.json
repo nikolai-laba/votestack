@@ -1,0 +1,192 @@
+{
+  "key": "alex-padilla",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Alex Padilla",
+  "office": "City of Inglewood, Member of the City Council, 2nd District",
+  "contestIds": ["la-4348-cc10463"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Alex Padilla has served on the Inglewood City Council since 2013. He spent 30 years with the Santa Monica Police Department, retiring as a captain. He later investigated police use of force for the LAPD inspector general. He chaired the city's Citizen Police Oversight Commission.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Alex Padilla has served on the Inglewood City Council since 2013.",
+            "cites": [1]
+          },
+          {
+            "text": "He spent 30 years with the Santa Monica Police Department, retiring as a captain.",
+            "cites": [1]
+          },
+          {
+            "text": "He later investigated police use of force for the LAPD inspector general.",
+            "cites": [1]
+          },
+          {
+            "text": "He chaired the city's Citizen Police Oversight Commission.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "His campaign says he has repaired streets and sidewalks. He voted to use eminent domain for the Inglewood Transit Connector in February 2026 and increase water and sewer rates in December 2025. He voted to rezone 68 acres for multifamily housing in November 2025. He also voted for a $6.3 million police technology contract with Axon in June 2026. He has said federal immigration raids tear families apart.",
+        "cites": [3, 4, 5],
+        "sentences": [
+          {
+            "text": "His campaign says he has repaired streets and sidewalks.",
+            "cites": [3]
+          },
+          {
+            "text": "He voted to use eminent domain for the Inglewood Transit Connector in February 2026 and increase water and sewer rates in December 2025.",
+            "cites": [4]
+          },
+          {
+            "text": "He voted to rezone 68 acres for multifamily housing in November 2025.",
+            "cites": [4]
+          },
+          {
+            "text": "He also voted for a $6.3 million police technology contract with Axon in June 2026.",
+            "cites": [4]
+          },
+          {
+            "text": "He has said federal immigration raids tear families apart.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [3] },
+      {
+        "organization": "Southwest Regional Council of Carpenters",
+        "kind": "union",
+        "cites": [3]
+      },
+      { "organization": "IBEW Local 11", "kind": "union", "cites": [3] },
+      {
+        "organization": "Los Angeles County Firefighters Local 1014",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "Inglewood Police Officers Association",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "Inglewood Police Management Association",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "Assemblymember Tina McKinnor (California Assembly District 61)",
+        "kind": "elected_official",
+        "cites": [3],
+        "party": "Democratic"
+      },
+      {
+        "organization": "Inglewood Mayor James T. Butts",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Inglewood Councilmember Eloy Morales Jr.",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Inglewood Councilmember Dionne Faulk",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Inglewood City Treasurer Angela Allen",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Inglewood Unified School District Board Member Margaret Evans",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Inglewood Unified School District Board Member Ernesto Castillo",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Inglewood Unified School District Board Member Carliss McGhee",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [6]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Staff Directory • Alex Padilla",
+      "publisher": "City of Inglewood",
+      "url": "https://www.cityofinglewood.org/directory.aspx?EID=103",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "District 2 | Inglewood, CA",
+      "publisher": "City of Inglewood",
+      "url": "https://www.cityofinglewood.org/587/District-2",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Alex Padilla for Inglewood District 2",
+      "publisher": "Alex Padilla for City Council 2026",
+      "url": "https://www.alexpadilla2026.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Alex Padilla — Inglewood City Council District 2 Candidate 2026",
+      "publisher": "Playpotus",
+      "url": "https://playpotus.com/ca/inglewood/alex-padilla",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Inglewood activists asked leaders for months to acknowledge immigration raids. Now, the city's responding.",
+      "publisher": "The LA Local",
+      "url": "https://thelalocal.org/neighborhoods/inglewood/inglewood-city-council-immigration-response/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 6
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.430Z",
+    "version": 1
+  }
+}

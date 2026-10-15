@@ -1,0 +1,42 @@
+{
+  "key": "kenny-shu",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Kenny Shu",
+  "office": "Walnut Valley Water District, Member, Board of Directors, Division 3",
+  "contestIds": ["la-4348-cc10372"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Kenny Shu is running for the Walnut Valley Water District Board of Directors, Division 3.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Kenny Shu is running for the Walnut Valley Water District Board of Directors, Division 3.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate Statements - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://apps.lavote.gov/candidate-statements/",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.426Z",
+    "version": 1
+  }
+}

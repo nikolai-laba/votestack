@@ -1,0 +1,42 @@
+{
+  "key": "john-p-escalera",
+  "electionId": "ca-2026-11-03-general",
+  "name": "John P. Escalera",
+  "office": "La Puente Valley County Water District, Member, Board of Directors",
+  "contestIds": ["la-4348-cc10384"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "John P. Escalera is a director of the La Puente Valley County Water District, where he has served on the board since December 2001.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "John P. Escalera is a director of the La Puente Valley County Water District, where he has served on the board since December 2001.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board of Directors – La Puente Valley County Water District",
+      "publisher": "La Puente Valley County Water District",
+      "url": "https://lapuentewater.com/governance/board-of-directors/",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.400Z",
+    "version": 1
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "key": "martina-rodriguez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Martina Rodriguez",
+  "office": "Lynwood Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10653"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Martina Rodriguez served on the Lynwood Unified School District governing board in 2003. As a district parent in 2024, she expressed concern that Measure U would raise taxes for Lynwood residents and suggested the district instead raise money for student scholarships. At a 2024 meeting, she opposed a school bond measure, saying the district was not transparent about how funds are allocated. In 2023, she criticized excessive student testing and poorly maintained school buildings. She told the board that any increase in board member compensation should come with greater accountability and responsiveness. She has questioned spending on consultants and past mismanagement of funds, and she has encouraged parent participation in schools as volunteers.",
+        "cites": [1, 2, 3, 4, 5, 6]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [7] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Standoff Stalls New School in Lynwood",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/archives/la-xpm-2003-jan-02-me-lynwood2-story.html",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "BOARD AGENDA",
+      "publisher": "Lynwood Unified School District",
+      "url": "https://resources.finalsite.net/images/v1751299376/lynwoodk12caus/agry14a1vwqel7tw5jzp/PublicAgenda-Oct242024.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "BOARD AGENDA",
+      "publisher": "Lynwood Unified School District",
+      "url": "https://resources.finalsite.net/images/v1751299483/lynwoodk12caus/mye6lmzsczmirebzacao/PublicAgenda-Aug222024.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "BOARD AGENDA - Lynwood Unified School District",
+      "publisher": "Lynwood Unified School District",
+      "url": "https://resources.finalsite.net/images/v1751300401/lynwoodk12caus/fqdbjcpn9mxznku0yuxa/PublicAgenda-May112023.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Regular Board Meeting - 02-26-2026 - Meeting Packet",
+      "publisher": "Lynwood Unified School District",
+      "url": "https://resources.finalsite.net/images/v1771899179/lynwoodk12caus/c1s09frwftf9doqmyivp/PublicAgenda-Feb262026.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "BOARD AGENDA",
+      "publisher": "Lynwood Unified School District",
+      "url": "https://resources.finalsite.net/images/v1751298955/lynwoodk12caus/w26zdbosmnlgldldyrwv/PublicAgenda-June2620251.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T16:20:30.347Z",
+    "version": 2
+  }
+}

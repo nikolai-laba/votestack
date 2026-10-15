@@ -1,0 +1,56 @@
+{
+  "key": "brian-ferrer",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Brian Ferrer",
+  "office": "Abc Unified School District, Governing Board Member, Trustee Area No. 5 (Unexpired term ending December 8, 2028)",
+  "contestIds": ["la-4348-cc10607"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Brian Ferrer is a registered nurse.",
+        "cites": [1],
+        "sentences": [
+          { "text": "Brian Ferrer is a registered nurse.", "cites": [1] }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Final List of Qualified Candidates to Appear on the Ballot",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "http://content.lavote.gov/docs/rrcc/documents/final-list-of-qualified-candidates-to-appear-on-the-ballot.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.948Z",
+    "version": 2
+  }
+}

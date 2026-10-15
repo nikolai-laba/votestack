@@ -1,0 +1,46 @@
+{
+  "key": "carol-tula",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Carol Tula",
+  "office": "Bassett Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10621"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Carol Tula is president and CEO of the Bassett Community Council nonprofit and is running for the Bassett Unified School District Governing Board.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Carol Tula is president and CEO of the Bassett Community Council nonprofit and is running for the Bassett Unified School District Governing Board.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "She says declining enrollment is one of the district's top needs, and she would encourage Bassett youth to attend the district's schools by strengthening connections among schools, teachers, parents, and students and by improving communication.",
+        "cites": [1]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Carol Tula, Bassett Unified School District candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/carol-tula-bassett-unified-school-district-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T14:25:51.466Z",
+    "version": 2
+  }
+}

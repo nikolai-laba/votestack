@@ -1,0 +1,26 @@
+{
+  "reason": "Chrome review: the cited agenda link now redirects to a sign-in page; the city's Ad Hoc Committee Information page lists Richard Bowen as a member of the Ad Hoc Water and Sewer Rate Study Committee",
+  "overview": [
+    {
+      "action": "replace",
+      "match": "Richard Bowen is a retired businessman",
+      "text": "Richard Bowen is a retired businessman and former business consultant. He served on the city's Ad Hoc Water and Sewer Rate Study Committee.",
+      "sources": [
+        {
+          "title": "Forum 1 of 2: Hear From La Verne's District 1 and 3 Council Candidates in Their Own Words",
+          "publisher": "La Verne Daily News",
+          "url": "https://www.lavernedaily.org/forum-1-of-2-hear-from-la-vernes-district-1-and-3-council-candidates-in-their-own-words/",
+          "kind": "news",
+          "viewedAt": "2026-10-15"
+        },
+        {
+          "title": "Ad Hoc Committee Information",
+          "publisher": "City of La Verne",
+          "url": "https://laverneca.gov/632/Ad-Hoc-Committee-Information",
+          "kind": "official",
+          "viewedAt": "2026-10-15"
+        }
+      ]
+    }
+  ]
+}

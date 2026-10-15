@@ -1,0 +1,117 @@
+{
+  "key": "michael-cao",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Michael Cao",
+  "office": "City of Arcadia, Member of the City Council, 5th District",
+  "contestIds": ["la-4348-cc10413"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Michael Cao is a physician, former U.S. Air Force major, and represents District 5 on the Arcadia City Council. He was elected in 2022 and served as mayor from 2024 to 2025. He supported Proposition 36. He helped create the city’s Health Committee to provide health education. In 2024, he opposed Los Angeles County’s zero bail policy and supported adding mobile surveillance units, an ambulance, and seven ambulance operators. He says that during Southern California wildfires, Arcadia reported zero deaths and no structural losses. He secured county grants to expand park space for pickleball. Cao is a director on the Arcadia Police Foundation board. He is the second vice president of the League of California Cities.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Michael Cao is a physician, former U.S. Air Force major, and represents District 5 on the Arcadia City Council.",
+            "cites": [1]
+          },
+          {
+            "text": "He was elected in 2022 and served as mayor from 2024 to 2025.",
+            "cites": [1]
+          },
+          { "text": "He supported Proposition 36.", "cites": [1] },
+          {
+            "text": "He helped create the city’s Health Committee to provide health education.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2024, he opposed Los Angeles County’s zero bail policy and supported adding mobile surveillance units, an ambulance, and seven ambulance operators.",
+            "cites": [2]
+          },
+          {
+            "text": "He says that during Southern California wildfires, Arcadia reported zero deaths and no structural losses.",
+            "cites": [3]
+          },
+          {
+            "text": "He secured county grants to expand park space for pickleball.",
+            "cites": [1]
+          },
+          {
+            "text": "Cao is a director on the Arcadia Police Foundation board.",
+            "cites": [1]
+          },
+          {
+            "text": "He is the second vice president of the League of California Cities.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Arcadia Mayor Paul Cheng",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Former Walnut Mayor Joaquin Lim",
+        "kind": "elected_official",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Council Member Michael Cao, M.D. - Arcadia, CA",
+      "publisher": "City of Arcadia",
+      "url": "https://www.arcadiaca.gov/government/city_council/council_member_michael_cao_md.php",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Dr. Michael Cao takes oath as new mayor of Arcadia",
+      "publisher": "Hey SoCal",
+      "url": "https://heysocal.com/2024/07/17/dr-michael-cao-takes-oath-as-new-mayor-of-arcadia/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "高卿競選連任亞凱迪亞市議員",
+      "publisher": "Sing Tao Daily",
+      "url": "https://www.singtaousa.com/2026/07/26/news/usa/gao-qing-campaign-re-election-arcadia/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "League of California Cities announces new board officers and directors",
+      "publisher": "League of California Cities",
+      "url": "https://www.calcities.org/home/post/2026/09/25/league-of-california-cities-announces-new-board-officers-and-directors",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "亞市市議員高卿 宣布競選連任",
+      "publisher": "World Journal",
+      "url": "https://www.worldjournal.com/wj/story/121359/9650085",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.481Z",
+    "version": 1
+  }
+}

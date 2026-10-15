@@ -1,0 +1,54 @@
+{
+  "key": "lisa-blank",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Lisa Blank",
+  "office": "Palos Verdes Library District, Member, Board of Trustees",
+  "contestIds": ["la-4348-cc10543"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Lisa Blank is a library user who has worked as a volunteer and a paid staffer. She supports free-library principles, including “access for all” and “the freedom to read.” She proposes offering a broad collection, along with varied programs and expert staff. She says she holds a library science degree.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Lisa Blank is a library user who has worked as a volunteer and a paid staffer.",
+            "cites": [1]
+          },
+          {
+            "text": "She supports free-library principles, including “access for all” and “the freedom to read.”",
+            "cites": [1]
+          },
+          {
+            "text": "She proposes offering a broad collection, along with varied programs and expert staff.",
+            "cites": [1]
+          },
+          {
+            "text": "She says she holds a library science degree.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Who's Running - PV Informer",
+      "publisher": "PV Informer",
+      "url": "https://pvinformer.com/ballot-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.406Z",
+    "version": 1
+  }
+}

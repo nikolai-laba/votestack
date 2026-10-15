@@ -1,0 +1,71 @@
+{
+  "key": "anouk-harvey",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Anouk Harvey",
+  "office": "Eastside Union School District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10697"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Anouk Harvey is a teacher and deputy mayor. She works as a substitute teacher in the Lancaster School District and serves on the City of Lancaster Social Equity Commission.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Anouk Harvey is a teacher and deputy mayor.",
+            "cites": [1]
+          },
+          {
+            "text": "She works as a substitute teacher in the Lancaster School District and serves on the City of Lancaster Social Equity Commission.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate List - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Judicial | City of Lancaster",
+      "publisher": "City of Lancaster",
+      "url": "https://www.cityoflancasterca.org/our-city/departments-services/communications/black-history-month/judicial",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.009Z",
+    "version": 5
+  }
+}

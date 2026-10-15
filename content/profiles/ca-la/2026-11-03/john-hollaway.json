@@ -1,0 +1,135 @@
+{
+  "key": "john-hollaway",
+  "electionId": "ca-2026-11-03-general",
+  "name": "John Hollaway",
+  "office": "City of Carson, Member of the City Council, 4th District",
+  "contestIds": ["la-4348-cc10431"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "John Hollaway is a Carson business owner and a member of the City of Carson Public Works Commission. He founded Carson 411, a community platform intended to bring residents together. He is the treasurer and a board member of Carson Accountability and Transparency, a nonprofit that promotes accountable local government practices. In 2026, the Lions Club International named him Carson Citizen of the Year.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "John Hollaway is a Carson business owner and a member of the City of Carson Public Works Commission.",
+            "cites": [1]
+          },
+          {
+            "text": "He founded Carson 411, a community platform intended to bring residents together.",
+            "cites": [1]
+          },
+          {
+            "text": "He is the treasurer and a board member of Carson Accountability and Transparency, a nonprofit that promotes accountable local government practices.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2026, the Lions Club International named him Carson Citizen of the Year.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "According to his campaign website, if elected he would prioritize public safety, supporting seniors, making Carson more affordable, and strengthening local businesses.",
+        "cites": [4],
+        "sentences": [
+          {
+            "text": "According to his campaign website, if elected he would prioritize public safety, supporting seniors, making Carson more affordable, and strengthening local businesses.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [5]
+      },
+      { "organization": "BizFed PAC", "kind": "organization", "cites": [6] },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [6] },
+      { "organization": "AFSCME Local 809", "kind": "union", "cites": [6] },
+      {
+        "organization": "Martin Luther King Democratic Club",
+        "kind": "party",
+        "cites": [6]
+      },
+      {
+        "organization": "Pilipino American Los Angeles Democrats (PALAD)",
+        "kind": "party",
+        "cites": [6]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [7] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Meet John | John Hollaway",
+      "publisher": "John Hollaway campaign",
+      "url": "https://www.jh4carson.com/meet_john",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "About | Carson Accountability and Transparency",
+      "publisher": "Carson Accountability and Transparency",
+      "url": "https://www.carsoncat.org/about",
+      "kind": "reference",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "CAT | Profile",
+      "publisher": "Carson Accountability & Transparency (CAT)",
+      "url": "https://www.carsoncat.org/profile/robb/profile",
+      "kind": "reference",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Elections 2026: Voters in Carson Council Districts 2 and 4 ...",
+      "publisher": "Daily Breeze",
+      "url": "https://www.dailybreeze.com/2026/10/12/elections-2026-voters-in-carson-council-districts-2-and-4-each-have-two-candidates-to-choose-from/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements | John Hollaway",
+      "publisher": "Hollaway for City Council 2026",
+      "url": "https://www.jh4carson.com/view-endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 7
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.331Z",
+    "version": 1
+  }
+}

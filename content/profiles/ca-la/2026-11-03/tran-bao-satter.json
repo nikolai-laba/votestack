@@ -1,0 +1,58 @@
+{
+  "key": "tran-bao-satter",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Tran Bao Satter",
+  "office": "Hacienda La Puente Unified School District, Governing Board Member, Trustee Area No. 4",
+  "contestIds": ["la-4348-cc10649"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Tran Bao Satter is a regional sales executive. She says her experience helps her listen to the community and bring people together to work on common goals. District meeting minutes show she reported on a school Color Run that raised $28,000 for the PTA.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Tran Bao Satter is a regional sales executive.",
+            "cites": [1]
+          },
+          {
+            "text": "She says her experience helps her listen to the community and bring people together to work on common goals.",
+            "cites": [1]
+          },
+          {
+            "text": "District meeting minutes show she reported on a school Color Run that raised $28,000 for the PTA.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Tran Bao Satter, Hacienda-La Puente Unified School District Area 4 candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/tran-bao-satter-hacienda-la-puente-unified-school-district-area-4-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "HACIENDA LA PUENTE UNIFIED SCHOOL DISTRICT",
+      "publisher": "Hacienda La Puente Unified School District",
+      "url": "https://resources.finalsite.net/images/v1769215449/hlpschoolsorg/ndfnxj0poaiaegxxvex1/Spanish-DACMinutesMtg2Nov1825.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.093Z",
+    "version": 1
+  }
+}

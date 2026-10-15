@@ -1,0 +1,102 @@
+{
+  "key": "adam-christopher-vena",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Adam Christopher Vena",
+  "party": "Party Preference: Republican",
+  "office": "State Assembly Member, 41st District",
+  "contestIds": ["la-4348-cc10784"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Adam Christopher Vena is a sanitation employee. He says he entered the race citing concerns about state overreach. Vena says California residents are overtaxed with multiple state and local taxes, and high living costs force families to work multiple jobs. He supports lowering taxes and reducing gasoline prices. He also says the California Air Resources Board is overregulated and lacks checks and balances.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Adam Christopher Vena is a sanitation employee.",
+            "cites": [1]
+          },
+          {
+            "text": "He says he entered the race citing concerns about state overreach.",
+            "cites": [1]
+          },
+          {
+            "text": "Vena says California residents are overtaxed with multiple state and local taxes, and high living costs force families to work multiple jobs.",
+            "cites": [1]
+          },
+          {
+            "text": "He supports lowering taxes and reducing gasoline prices.",
+            "cites": [1]
+          },
+          {
+            "text": "He also says the California Air Resources Board is overregulated and lacks checks and balances.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Republican Party",
+        "kind": "party",
+        "cites": [2]
+      },
+      {
+        "organization": "California Republican Assembly",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Adam Vena seeks Assembly District 41 seat Nov. 3 | Pasadena Ledger",
+      "publisher": "Pasadena Ledger",
+      "url": "https://pasadenaledger.com/articles/adam-vena-seeks-assembly-district-41-seat-nov-3-mv146c3y",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Additional Election Information (Party Endorsements for Voter-Nominated Offices, November 3, 2026 General Election)",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/additional-election-information",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "November 2026 General Election Endorsements: Los Angeles County",
+      "publisher": "California Republican Assembly",
+      "url": "https://cragop.org/los-angeles-county/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 3
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 4
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.673Z",
+    "version": 3
+  }
+}

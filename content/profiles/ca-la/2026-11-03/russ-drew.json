@@ -1,0 +1,83 @@
+{
+  "key": "russ-drew",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Russ Drew",
+  "office": "Wrightwood Community Services District, Member, Board of Directors",
+  "contestIds": ["la-4348-cc10375"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Russ Drew is a retired community volunteer. He says he serves as president of the Wrightwood Property Owners Association. His stated volunteer work includes organizing Nights of Lights and leading a basketball and pickleball court project. He says his background includes management and human resources experience. He wants to improve district operations and create committees for residents and businesses to offer input.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Russ Drew is a retired community volunteer.",
+            "cites": [1]
+          },
+          {
+            "text": "He says he serves as president of the Wrightwood Property Owners Association.",
+            "cites": [2]
+          },
+          {
+            "text": "His stated volunteer work includes organizing Nights of Lights and leading a basketball and pickleball court project.",
+            "cites": [2]
+          },
+          {
+            "text": "He says his background includes management and human resources experience.",
+            "cites": [2]
+          },
+          {
+            "text": "He wants to improve district operations and create committees for residents and businesses to offer input.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Inland Empire Jobs PAC",
+        "kind": "organization",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "State - San Bernardino County",
+      "publisher": "San Bernardino County Registrar of Voters",
+      "url": "https://uploads.rov.sbcounty.gov/ROV/Elections/2026/1103/Report_CandidateList.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Meet Candidates Running for Wrightwood Community Service District Board of Directors",
+      "publisher": "Tri-Community NewsPlus",
+      "url": "https://4newsplus.com/meet-candidates-running-for-wrightwood-community-service-district-board-of-directors/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Endorsements | IE Jobs PAC",
+      "publisher": "Inland Empire Jobs Political Action Committee",
+      "url": "https://www.iejobspac.com/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.447Z",
+    "version": 1
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "key": "gonzalo-c-martinez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Gonzalo C. Martinez",
+  "office": "Presiding Justice, Court of Appeal, Second District, Division Seven",
+  "contestIds": ["la-4348-rc10903"],
+  "kind": "retention",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Gonzalo C. Martinez has served on the Second District Court of Appeal, Division Seven, since 2023 and became presiding justice in 2024. He was a deputy judicial appointments secretary in the governor's office, a Squire Patton Boggs partner, and a Harvard Law School graduate. In 2026, he ruled Los Angeles may bar evictions for tenants owing less than a month's rent. The California Supreme Court is reviewing the decision.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Gonzalo C. Martinez has served on the Second District Court of Appeal, Division Seven, since 2023 and became presiding justice in 2024.",
+            "cites": [1]
+          },
+          {
+            "text": "He was a deputy judicial appointments secretary in the governor's office, a Squire Patton Boggs partner, and a Harvard Law School graduate.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2026, he ruled Los Angeles may bar evictions for tenants owing less than a month's rent.",
+            "cites": [2]
+          },
+          {
+            "text": "The California Supreme Court is reviewing the decision.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [3] },
+      {
+        "organization": "Indivisible Ventura",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Santa Clarita Valley Democrats",
+        "kind": "organization",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Gonzalo C. Martinez | Second Appellate District",
+      "publisher": "California Courts of Appeal",
+      "url": "https://appellate.courts.ca.gov/district-courts/2dca/bio/gonzalo-c-martinez",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Martinez's eviction ruling reaches high court ahead of retention vote",
+      "publisher": "Daily Journal",
+      "url": "https://www.dailyjournal.com/articles/395259-martinez-s-eviction-ruling-reaches-high-court-ahead-of-retention-vote",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Nonpartisan Judicial Offices",
+      "publisher": "Indivisible Ventura",
+      "url": "https://indivisibleventura.org/nonpartisan-judicial-offices/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "November 2026 Candidate Endorsements",
+      "publisher": "Santa Clarita Valley Democrats",
+      "url": "https://www.santaclaritavalleydemocrats.com/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T14:05:39.935Z",
+    "version": 2
+  }
+}

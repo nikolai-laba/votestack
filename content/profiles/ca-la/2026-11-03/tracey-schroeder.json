@@ -1,0 +1,167 @@
+{
+  "key": "tracey-schroeder",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Tracey Schroeder",
+  "party": "Party Preference: Republican",
+  "office": "State Assembly Member, 46th District",
+  "contestIds": ["la-4348-cc10788"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Tracey Schroeder is an elementary school teacher in the Los Angeles Unified School District with over 25 years of experience. She holds a bachelor’s degree from UCLA and a master’s degree from Phillips Graduate Institute.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Tracey Schroeder is an elementary school teacher in the Los Angeles Unified School District with over 25 years of experience.",
+            "cites": [1]
+          },
+          {
+            "text": "She holds a bachelor’s degree from UCLA and a master’s degree from Phillips Graduate Institute.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign says she would vote to suspend the state gas tax, use budget surpluses to cut taxes, and defend Proposition 13, while opposing any new tax increases. She has expressed concern about crime, open-air drug use, and the slow rebuilding effort after the Palisades fire. She calls for tougher penalties for repeat offenders, a state audit of homelessness spending, and expanded mental health and addiction treatment. In education, she supports parental rights, school choice, and auditing spending so money reaches classrooms.",
+        "cites": [2, 3],
+        "sentences": [
+          {
+            "text": "Her campaign says she would vote to suspend the state gas tax, use budget surpluses to cut taxes, and defend Proposition 13, while opposing any new tax increases.",
+            "cites": [2]
+          },
+          {
+            "text": "She has expressed concern about crime, open-air drug use, and the slow rebuilding effort after the Palisades fire.",
+            "cites": [3]
+          },
+          {
+            "text": "She calls for tougher penalties for repeat offenders, a state audit of homelessness spending, and expanded mental health and addiction treatment.",
+            "cites": [2]
+          },
+          {
+            "text": "In education, she supports parental rights, school choice, and auditing spending so money reaches classrooms.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Republican Party",
+        "kind": "party",
+        "cites": [4]
+      },
+      {
+        "organization": "California Republican Assembly",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Howard Jarvis Taxpayers Association PAC (HJTA-PAC)",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Ventura County Republican Party",
+        "kind": "party",
+        "cites": [7]
+      },
+      {
+        "organization": "American Independent Party",
+        "kind": "party",
+        "cites": [8]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [9]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "California State Assembly District 46 Candidate - Tracey Schroeder",
+      "publisher": "Tracey Schroeder campaign",
+      "url": "https://traceyschroeder.com/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Issues - Tracey Schroeder",
+      "publisher": "Tracey Schroeder campaign",
+      "url": "https://traceyschroeder.com/issues",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Mayoral hopeful Spencer Pratt woos Valley voters in a rival's district",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-05-16/mayoral-hopeful-spencer-pratt-woos-valley-voters-in-rivals-district",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "2026 Primary Election Official Voter Guide (State Assembly)",
+      "publisher": "Republican Party of Los Angeles County",
+      "url": "https://static1.squarespace.com/static/65972b6654d89538e4445a4d/t/69f590073d814d38b21a8a1e/1777700871973/LAGOP_Assembly_Voter_Guide_2026X.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "STATE ASSEMBLY - November 2026 General Election Endorsements",
+      "publisher": "California Republican Assembly",
+      "url": "https://cragop.org/state-assembly/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "2026 Voting Guide for California Statewide General Election",
+      "publisher": "Howard Jarvis Taxpayers Association",
+      "url": "https://www.hjta.org/2026votingguide/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "ENDORSEMENTS ARCHIVED | Ventura GOP (2026 Primary Election)",
+      "publisher": "Ventura County Republican Party",
+      "url": "https://www.venturagop.org/2026primaryelection",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Party Endorsements for Voter-Nominated Offices, November 3, 2026 General Election",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/additional-election-information",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 8
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 9
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.686Z",
+    "version": 3
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "key": "gregory-j-weingart",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Gregory J. Weingart",
+  "office": "Associate Justice, Court of Appeal, Second District, Division One",
+  "contestIds": ["la-4348-rc10891"],
+  "kind": "retention",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Gregory J. Weingart has been an associate justice of the California Court of Appeal, Second District, Division One, since 2022. He was previously a Superior Court judge, a partner at Munger, Tolles & Olson, and a federal prosecutor leading the Major Frauds section. His appellate opinions include reducing a family judgment by $1.3 billion, deciding jury trial rights for sentencing factors, and reversing rulings on domestic violence restraining orders.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Gregory J. Weingart has been an associate justice of the California Court of Appeal, Second District, Division One, since 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "He was previously a Superior Court judge, a partner at Munger, Tolles & Olson, and a federal prosecutor leading the Major Frauds section.",
+            "cites": [1]
+          },
+          {
+            "text": "His appellate opinions include reducing a family judgment by $1.3 billion, deciding jury trial rights for sentencing factors, and reversing rulings on domestic violence restraining orders.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [3] },
+      {
+        "organization": "Indivisible Ventura",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Santa Clarita Valley Democrats",
+        "kind": "organization",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Gregory J. Weingart | Second Appellate District",
+      "publisher": "California Courts",
+      "url": "https://appellate.courts.ca.gov/district-courts/2dca/bio/gregory-j-weingart",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Former prosecutor, family law judge seeks full 12-year appellate term",
+      "publisher": "Daily Journal",
+      "url": "https://www.dailyjournal.com/articles/395047-former-prosecutor-family-law-judge-seeks-full-12-year-appellate-term",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Nonpartisan Judicial Offices",
+      "publisher": "Indivisible Ventura",
+      "url": "https://indivisibleventura.org/nonpartisan-judicial-offices/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "November 2026 Candidate Endorsements",
+      "publisher": "Santa Clarita Valley Democrats",
+      "url": "https://www.santaclaritavalleydemocrats.com/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T14:05:39.936Z",
+    "version": 2
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "key": "leonard-redway",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Leonard Redway",
+  "office": "City of Inglewood, Member of the City Council, 1st District",
+  "contestIds": ["la-4348-cc10464"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Leonard Redway is a member of Inglewood's Construction Appeals Board, appointed in 2023 to represent District 1. He is a plumber who has called for a more transparent city government that works for the needs of residents. He supports limiting billboard advertising in the city.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Leonard Redway is a member of Inglewood's Construction Appeals Board, appointed in 2023 to represent District 1.",
+            "cites": [1]
+          },
+          {
+            "text": "He is a plumber who has called for a more transparent city government that works for the needs of residents.",
+            "cites": [2]
+          },
+          {
+            "text": "He supports limiting billboard advertising in the city.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [4] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Inglewood, California June 27, 2023 The City Council of ...",
+      "publisher": "City of Inglewood",
+      "url": "https://www.cityofinglewood.org/AgendaCenter/ViewFile/Minutes/_06272023-3880",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Gloria Gray officially announces her run for Inglewood mayor",
+      "publisher": "The LA Local",
+      "url": "https://thelalocal.org/neighborhoods/inglewood/inglewood-election-gloria-gray-mayor/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Inglewood mayor got $25,000 campaign donation before ...",
+      "publisher": "Daily Breeze",
+      "url": "https://www.dailybreeze.com/2026/06/29/inglewood-mayor-got-25000-campaign-donation-before-billboard-vote-complaint-alleges/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.428Z",
+    "version": 1
+  }
+}

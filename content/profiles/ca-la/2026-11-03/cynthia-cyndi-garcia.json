@@ -1,0 +1,36 @@
+{
+  "key": "cynthia-cyndi-garcia",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Cynthia \"Cyndi\" Garcia",
+  "office": "City of Palmdale, Member of the City Council, 5th District",
+  "contestIds": ["la-4348-cc10497"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Cynthia \"Cyndi\" Garcia is the executive assistant to the superintendent of the Palmdale School District.",
+        "cites": [1]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Staff Directory",
+      "publisher": "Palmdale School District",
+      "url": "https://www.palmdalesd.org/directory/staff-directory",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:39:39.197Z",
+    "version": 2
+  }
+}

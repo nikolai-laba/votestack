@@ -1,0 +1,88 @@
+{
+  "key": "mariela-renteria",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Mariela Renteria",
+  "office": "Lynwood Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10653"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Mariela Renteria is a candidate for the Lynwood Unified School District Governing Board. She grew up in Lynwood and attended the district's schools. As a high school student, she served on the district's LCFF/LCAP committee and helped draft a revised mission statement. As part of the alumni association, she later helped coordinate a college conference for Lynwood students with other alumni.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Mariela Renteria is a candidate for the Lynwood Unified School District Governing Board.",
+            "cites": [1]
+          },
+          {
+            "text": "She grew up in Lynwood and attended the district's schools.",
+            "cites": [2]
+          },
+          {
+            "text": "As a high school student, she served on the district's LCFF/LCAP committee and helped draft a revised mission statement.",
+            "cites": [2]
+          },
+          {
+            "text": "As part of the alumni association, she later helped coordinate a college conference for Lynwood students with other alumni.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      { "organization": "LA Forward", "kind": "organization", "cites": [3] },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate Statements - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://apps.lavote.gov/candidate-statements/",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Mariela Renteria, Author at La Comadre",
+      "publisher": "La Comadre",
+      "url": "https://lacomadre.org/author/mariela-renteria/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 3
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 4
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.082Z",
+    "version": 2
+  }
+}

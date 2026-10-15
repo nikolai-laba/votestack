@@ -1,0 +1,55 @@
+{
+  "key": "reyna-e-diaz",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Reyna E. Diaz",
+  "office": "Duarte Unified School District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10642"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Reyna Diaz is the president of the Duarte Unified School District Board of Education. She was first elected in 1997.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Reyna Diaz is the president of the Duarte Unified School District Board of Education.",
+            "cites": [1]
+          },
+          { "text": "She was first elected in 1997.", "cites": [1] }
+        ]
+      },
+      {
+        "text": "She serves on the California Department of Education Child Nutrition Advisory Council. In 2024, she supported a two-year contract agreement with the teachers union. She said the agreement \"supports our teachers.\"",
+        "cites": [1, 2]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Duarte Unified Board of Education Members – Meet the Board Members – Duarte Unified School District",
+      "publisher": "Duarte Unified School District",
+      "url": "https://www.duarteusd.org/apps/pages/index.jsp?uREC_ID=3815830&type=d&pREC_ID=2468583",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "District and DUEA Reach Tentative Two-Year Agreement",
+      "publisher": "Duarte Unified School District",
+      "url": "https://www.duarteusd.org/apps/news/article/2159320?categoryId=20572",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T16:56:42.324Z",
+    "version": 3
+  }
+}

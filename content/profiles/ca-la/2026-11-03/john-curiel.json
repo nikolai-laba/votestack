@@ -1,0 +1,79 @@
+{
+  "key": "john-curiel",
+  "electionId": "ca-2026-11-03-general",
+  "name": "John Curiel",
+  "office": "Westside Union School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10732"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "John Curiel is vice president of the Westside Union School District Governing Board. His current term expires in November 2026. He was elected to the board in 2005 and re-elected in 2022. He served as board president in 2018. He was serving as a trustee when the district extended its Expanded Learning Opportunities Program for transitional kindergarten through sixth-grade students to nine hours on non-school days, under an agreement with the Antelope Valley Boys & Girls Club.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "John Curiel is vice president of the Westside Union School District Governing Board.",
+            "cites": [1]
+          },
+          {
+            "text": "His current term expires in November 2026.",
+            "cites": [1]
+          },
+          {
+            "text": "He was elected to the board in 2005 and re-elected in 2022.",
+            "cites": [2]
+          },
+          { "text": "He served as board president in 2018.", "cites": [3] },
+          {
+            "text": "He was serving as a trustee when the district extended its Expanded Learning Opportunities Program for transitional kindergarten through sixth-grade students to nine hours on non-school days, under an agreement with the Antelope Valley Boys & Girls Club.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board - Westside Union School District",
+      "publisher": "Westside Union School District",
+      "url": "https://www.westside.k12.ca.us/trustees",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Westside Union Board Race Set for Nov. 3 Election",
+      "publisher": "Antelope Valley Online",
+      "url": "https://antelopevalleyonline.com/westside-union-board-race-set-for-nov-3-election/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Board of Trustees Minutes, November 6, 2018",
+      "publisher": "Westside Union School District",
+      "url": "https://resources.finalsite.net/images/v1542238849/westside/duqeiqmqkqf3orz4rk2d/110618Minutes_1.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Expanded Learning program is extended",
+      "publisher": "Antelope Valley Press",
+      "url": "https://www.avpress.com/news/expanded-learning-program-is-extended/article_9c6005be-8be7-11ed-804a-433b9ee9c18f.html",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.348Z",
+    "version": 1
+  }
+}

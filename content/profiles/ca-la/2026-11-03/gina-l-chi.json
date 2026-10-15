@@ -1,0 +1,160 @@
+{
+  "key": "gina-l-chi",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Gina L. Chi",
+  "office": "San Gabriel Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10669"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Gina Chi is the vice president of the San Gabriel Unified School District Governing Board, where she has served since 2022. She works as a treasury manager in the banking industry. She says the district's top needs are raising achievement for all students, including English learners, and providing mental health support. She says she helped pass Measure SG and is directing its funds to projects that benefit students.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Gina Chi is the vice president of the San Gabriel Unified School District Governing Board, where she has served since 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "She works as a treasury manager in the banking industry.",
+            "cites": [2]
+          },
+          {
+            "text": "She says the district's top needs are raising achievement for all students, including English learners, and providing mental health support.",
+            "cites": [3]
+          },
+          {
+            "text": "She says she helped pass Measure SG and is directing its funds to projects that benefit students.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "Chi believes the board should set the district’s vision and approve the budget and curriculum, while leaving classroom instruction to teachers and administrators.",
+        "cites": [4],
+        "sentences": [
+          {
+            "text": "Chi believes the board should set the district’s vision and approve the budget and curriculum, while leaving classroom instruction to teachers and administrators.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "San Gabriel Mayor Eric L. Chan",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "San Gabriel Vice Mayor Tony Ding",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "San Gabriel City Councilmember John Wu",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Temple City Mayor William Man",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Temple City Mayor Pro Tem Ed Chen",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Alhambra City Councilmember Noya Wang (District 4)",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "SGUSD Board President Cheryl A. Shellhart",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "SGUSD Board Clerk Dr. Gary Thomas Scott",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "SGUSD Board Member Rochelle Haas",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "SGUSD Board Member Robert Mercado",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Mountain View School District Board Member Cindy Wu",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "I-Chinese American Political Action Committee (IAPAC)",
+        "kind": "organization",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Governing Board Members",
+      "publisher": "San Gabriel Unified School District",
+      "url": "https://www.sgusd.k12.ca.us/apps/pages/index.jsp?uREC_ID=414118&type=d",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "San Gabriel Voters Face Key Choices in November General Election",
+      "publisher": "Colorado Boulevard",
+      "url": "https://www.coloradoboulevard.net/san-gabriel-voters-face-key-choices-in-november-general-election/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Gina Chi, San Gabriel Unified School District candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/gina-chi-san-gabriel-unified-school-district-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Gina Chi, San Gabriel Unified School District candidate, 2026 election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/gina-chi-san-gabriel-unified-school-district-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Gina Chi for San Gabriel Unified School Board | Incumbent, SGUSD Parent | 2026",
+      "publisher": "Gina Chi campaign",
+      "url": "https://www.ginachi.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.306Z",
+    "version": 1
+  }
+}

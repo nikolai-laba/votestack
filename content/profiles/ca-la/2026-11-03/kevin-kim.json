@@ -1,0 +1,126 @@
+{
+  "key": "kevin-kim",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Kevin Kim",
+  "office": "Saugus Union School District, Governing Board Member, Trustee Area No. 1",
+  "contestIds": ["la-4348-cc10722"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Kevin Kim is running for the Saugus Union School District Governing Board, Trustee Area No. 1. His ballot designation is attorney and parent. His campaign says he has practiced law for 20 years, the last eight in Los Angeles. He serves on the district's Asset Management Advisory Committee, which advises on the Santa Clarita Elementary School site. His campaign says he chairs the School Site Council at Bridgeport Elementary, where he reviews academic and safety plans.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Kevin Kim is running for the Saugus Union School District Governing Board, Trustee Area No. 1.",
+            "cites": [1]
+          },
+          {
+            "text": "His ballot designation is attorney and parent.",
+            "cites": [2]
+          },
+          {
+            "text": "His campaign says he has practiced law for 20 years, the last eight in Los Angeles.",
+            "cites": [3]
+          },
+          {
+            "text": "He serves on the district's Asset Management Advisory Committee, which advises on the Santa Clarita Elementary School site.",
+            "cites": [4]
+          },
+          {
+            "text": "His campaign says he chairs the School Site Council at Bridgeport Elementary, where he reviews academic and safety plans.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "His campaign says he wants the board to build trust with families and educators through communication and transparency. In 2023 he wrote that classrooms should be safe for discussions and for families of various backgrounds and beliefs.",
+        "cites": [5, 6],
+        "sentences": [
+          {
+            "text": "His campaign says he wants the board to build trust with families and educators through communication and transparency.",
+            "cites": [5]
+          },
+          {
+            "text": "In 2023 he wrote that classrooms should be safe for discussions and for families of various backgrounds and beliefs.",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Saugus Teachers Association",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "California School Employees Association",
+        "kind": "union",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Ballot Marking Device Code List - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/ballot-marking-device-code-list",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Candidate List - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Kevin Kim for Saugus Union School Board, District 1",
+      "publisher": "Kevin Kim for Saugus Union School Board",
+      "url": "https://kevinforsaugus.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Santa Clarita Elementary Property Disposition",
+      "publisher": "Saugus Union School District",
+      "url": "https://www.saugususd.org/santa-clarita-elementary-school-property-disposition",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Kevin Kim",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Kevin_Kim",
+      "kind": "reference",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Six Candidates Vie For Open Saugus School Board Seat",
+      "publisher": "KHTS Radio",
+      "url": "https://www.hometownstation.com/santa-clarita-news/education/saugus-union-school-district/six-candidates-vie-for-open-saugus-school-board-seat-485584",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.325Z",
+    "version": 1
+  }
+}

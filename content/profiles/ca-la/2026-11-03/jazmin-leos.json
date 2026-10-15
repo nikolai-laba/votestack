@@ -1,0 +1,52 @@
+{
+  "key": "jazmin-leos",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Jazmin Leos",
+  "office": "Valley County Water District, Member, Board of Directors",
+  "contestIds": ["la-4348-cc10397"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Jazmin Leos is Vice President of the Valley County Water District Board of Directors. She has served as Co-Chairperson of the district's Administrative Committee and of its Finance and Capital Improvements Committee.",
+        "cites": [1, 2, 3]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "AGENDA for a REGULAR MEETING OF THE BOARD ...",
+      "publisher": "Valley County Water District",
+      "url": "https://www.vcwd.org/AgendaCenter/ViewFile/Item/828?fileID=3226",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "[PDF] ADMINISTRATIVE COMMITTEE MEETING - Valley County Water ...",
+      "publisher": "Valley County Water District",
+      "url": "https://www.vcwd.org/AgendaCenter/ViewFile/Item/719?fileID=2265",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "2025 0820 Finance Committee Agenda",
+      "publisher": "Valley County Water District",
+      "url": "https://www.vcwd.org/AgendaCenter/ViewFile/Agenda/_08202025-311?packet=true",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:44:15.728Z",
+    "version": 2
+  }
+}

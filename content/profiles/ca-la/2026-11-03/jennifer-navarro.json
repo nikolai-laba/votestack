@@ -1,0 +1,55 @@
+{
+  "key": "jennifer-navarro",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Jennifer Navarro",
+  "office": "Westside Union School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10732"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Jennifer Navarro is a member of the Westside Union School District Board of Trustees. She was first appointed to the board in 2017 to fill a vacancy. She was re-elected in 2022.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Jennifer Navarro is a member of the Westside Union School District Board of Trustees.",
+            "cites": [1]
+          },
+          {
+            "text": "She was first appointed to the board in 2017 to fill a vacancy.",
+            "cites": [2]
+          },
+          { "text": "She was re-elected in 2022.", "cites": [2] }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board - Westside Union School District",
+      "publisher": "Westside Union School District",
+      "url": "https://www.westside.k12.ca.us/trustees",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Westside Union Board Race: 4 Candidates, 3 Seats – Antelope Valley Online",
+      "publisher": "Antelope Valley Online",
+      "url": "https://antelopevalleyonline.com/westside-union-board-race-set-for-nov-3-election/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.348Z",
+    "version": 1
+  }
+}

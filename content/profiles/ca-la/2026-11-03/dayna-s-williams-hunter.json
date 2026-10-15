@@ -1,0 +1,95 @@
+{
+  "key": "dayna-s-williams-hunter",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Dayna S. Williams-Hunter",
+  "office": "City of Hawthorne, City Clerk",
+  "contestIds": ["la-4348-cc10456"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Dayna S. Williams-Hunter is the elected City Clerk of Hawthorne, a position she has held since 2022. She has a background in public relations. She runs private businesses. She has taken courses to become a certified municipal clerk.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Dayna S. Williams-Hunter is the elected City Clerk of Hawthorne, a position she has held since 2022.",
+            "cites": [1]
+          },
+          { "text": "She has a background in public relations.", "cites": [1] },
+          { "text": "She runs private businesses.", "cites": [2] },
+          {
+            "text": "She has taken courses to become a certified municipal clerk.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "Her official biography says she introduced new software for public records requests and agenda creation, and integrated AI to reduce paper use in council meetings. She started a two-year project to digitize the office's historical records.",
+        "cites": [3, 2],
+        "sentences": [
+          {
+            "text": "Her official biography says she introduced new software for public records requests and agenda creation, and integrated AI to reduce paper use in council meetings.",
+            "cites": [3]
+          },
+          {
+            "text": "She started a two-year project to digitize the office's historical records.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "‘It's Time to Just Give a Different View': Election Marks Historic First for Hawthorne",
+      "publisher": "NBC Los Angeles",
+      "url": "https://www.nbclosangeles.com/news/local/hawthorne-election-city-council/3072766/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Hawthorne Press Tribune",
+      "publisher": "Hawthorne Press Tribune",
+      "url": "http://www.heraldpublications.com/herald/sites/default/files/publications/pdf-files/SB_Cities_100225_FNL_lorez.pdf",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "City Clerk Dayna Williams-Hunter | Hawthorne, CA",
+      "publisher": "City of Hawthorne",
+      "url": "https://www.cityofhawthorne.org/government/city-clerk/city-clerk-dayna-williams-hunter",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.407Z",
+    "version": 1
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "key": "carla-d-dillon",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Carla D. Dillon",
+  "office": "Crescenta Valley Water District, Member, Board of Directors",
+  "contestIds": ["la-4348-cc10377"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Carla D. Dillon is the director of Engineering & Operations for the Crescenta Valley Water District. She presented the district’s Wastewater Master Plan and a water main replacement project on Montrose Avenue and Foothill Boulevard. She requested up to $32,700 for grant application support services for a federal drought response program.",
+        "cites": [1, 2]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      { "organization": "AFSCME Local 1902", "kind": "union", "cites": [3] },
+      {
+        "organization": "Frank Colcord, Director, Foothill Municipal Water District (Division 5)",
+        "kind": "elected_official",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "NEWS FROM THE CVWD - Crescenta Valley Weekly",
+      "publisher": "Crescenta Valley Weekly",
+      "url": "https://www.crescentavalleyweekly.com/viewpoints/07/25/2024/news-from-the-cvwd-8/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "CRESCENTA VALLEY WATER DISTRICT - CCS Interactive",
+      "publisher": "Crescenta Valley Water District",
+      "url": "https://cvwd.ccsdesigns.com/wp-content/uploads/042826-Board-Packet.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Endorsements - Carla Dillon for Crescenta Valley Water District",
+      "publisher": "Carla Dillon for Crescenta Valley Water District",
+      "url": "https://www.cd4cvwd.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T16:20:30.352Z",
+    "version": 2
+  }
+}

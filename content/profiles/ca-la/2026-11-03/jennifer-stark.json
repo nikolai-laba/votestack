@@ -1,0 +1,123 @@
+{
+  "key": "jennifer-stark",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Jennifer Stark",
+  "office": "City of Claremont, Member of the City Council, 3rd District",
+  "contestIds": ["la-4348-cc10435"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Jennifer Stark is the mayor of Claremont and has represented District 3 on the City Council since 2018. She has served as a Traffic and Transportation commissioner and on the boards of Claremont Heritage and Friends of the Claremont Library. She is a founder of Claremont Canopy, a nonprofit that helps refugees in their new communities.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Jennifer Stark is the mayor of Claremont and has represented District 3 on the City Council since 2018.",
+            "cites": [1]
+          },
+          {
+            "text": "She has served as a Traffic and Transportation commissioner and on the boards of Claremont Heritage and Friends of the Claremont Library.",
+            "cites": [1]
+          },
+          {
+            "text": "She is a founder of Claremont Canopy, a nonprofit that helps refugees in their new communities.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign says she has strengthened tree protections and advanced climate-resilient policies. She chaired the city’s Emergency Preparedness Committee and helped develop its Emergency Operations Plan, according to her campaign. According to The Pomonan Magazine, her council work has focused on environmental protection, renewable energy, housing, and homelessness.",
+        "cites": [2, 3],
+        "sentences": [
+          {
+            "text": "Her campaign says she has strengthened tree protections and advanced climate-resilient policies.",
+            "cites": [2]
+          },
+          {
+            "text": "She chaired the city’s Emergency Preparedness Committee and helped develop its Emergency Operations Plan, according to her campaign.",
+            "cites": [2]
+          },
+          {
+            "text": "According to The Pomonan Magazine, her council work has focused on environmental protection, renewable energy, housing, and homelessness.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles League of Conservation Voters",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Democratic Club of Claremont",
+        "kind": "party",
+        "cites": [5]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [6] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "City Council | City of Claremont, CA",
+      "publisher": "City of Claremont",
+      "url": "https://www.claremontca.gov/Government/City-Council",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Jennifer Stark for Claremont City Council 2026",
+      "publisher": "Jennifer Stark for Claremont City Council 2026",
+      "url": "https://www.claremontcraftales.com/jennifer/issues.html",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Jennifer Stark: A Candid Conversation With Claremont’s District 3 Incumbent — The Pomonan Magazine",
+      "publisher": "The Pomonan Magazine",
+      "url": "https://www.thepomonan.com/claremont-elections/2026/9/29/jennifer-stark-on-housing-equity-the-arts-and-a-third-term",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Current Endorsements",
+      "publisher": "Los Angeles League of Conservation Voters",
+      "url": "https://lalcv.org/current-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements",
+      "publisher": "Democratic Club of Claremont",
+      "url": "https://demsofclaremont.org/Endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 6
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.334Z",
+    "version": 1
+  }
+}

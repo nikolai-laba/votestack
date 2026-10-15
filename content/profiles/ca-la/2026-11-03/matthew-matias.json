@@ -1,0 +1,77 @@
+{
+  "key": "matthew-matias",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Matthew Matias",
+  "office": "Fullerton Joint Union High School District, Governing Board Member, Trustee Area No. 1",
+  "contestIds": ["la-4348-cc10750"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Matthew Matias is a financial planning consultant at Fidelity Investments running for the Fullerton Joint Union High School District Board of Trustees in Trustee Area 1. His campaign says he holds two associate degrees from Rio Hondo College and a bachelor's degree in business administration from the University of Arizona.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Matthew Matias is a financial planning consultant at Fidelity Investments running for the Fullerton Joint Union High School District Board of Trustees in Trustee Area 1.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he holds two associate degrees from Rio Hondo College and a bachelor's degree in business administration from the University of Arizona.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "His campaign says he would focus on student achievement, safe schools, financial literacy, college and career pathways, fiscal responsibility, and transparent board leadership. In a candidate statement, he said schools should provide strong academics, critical thinking, and meaningful pathways to college, career technical education, skilled trades, military service, business, and entrepreneurship.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "His campaign says he would focus on student achievement, safe schools, financial literacy, college and career pathways, fiscal responsibility, and transparent board leadership.",
+            "cites": [1]
+          },
+          {
+            "text": "In a candidate statement, he said schools should provide strong academics, critical thinking, and meaningful pathways to college, career technical education, skilled trades, military service, business, and entrepreneurship.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Orange County Advocates for Great Public Schools",
+        "kind": "organization",
+        "cites": [1]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Matthew Matias for FJUHSD Trustee Area 1 | 2026 | La Habra",
+      "publisher": "Matthew Matias campaign",
+      "url": "https://matiasforfjuhsd.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Anaheim — Pride At The Pier",
+      "publisher": "Pride at the Pier",
+      "url": "https://www.prideatthepier.org/anaheim-2026",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T05:54:20.840Z",
+    "version": 1
+  }
+}

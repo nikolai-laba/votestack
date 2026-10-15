@@ -1,0 +1,26 @@
+{
+  "reason": "Tone: removed an en dash",
+  "overview": [
+    {
+      "action": "replace",
+      "match": "Larry Thompson is an attorney, talent manager, and film prod",
+      "text": "Larry Thompson is an attorney, talent manager, and film producer seeking to represent California’s 32nd Congressional District. He is the founder and president of the Larry A. Thompson Organization, a talent management and production studio based in Los Angeles; his campaign says he has managed the careers of over 250 stars and produced films and television programs. Thompson earned a law degree from the University of Mississippi and served in the U.S. Army Reserve’s Judge Advocate General’s Corps from 1968 to 1974.",
+      "sources": [
+        {
+          "title": "Larry Thompson, CA-32 candidate, 2026 election questionnaire",
+          "publisher": "Los Angeles Daily News",
+          "url": "https://www.dailynews.com/2026/10/05/larry-thompson-ca-32-candidate-2026-election-questionnaire/",
+          "kind": "news",
+          "viewedAt": "2026-10-14"
+        },
+        {
+          "title": "About Larry",
+          "publisher": "Larry Thompson For Congress",
+          "url": "https://www.larrythompsonforcongress.com/about_larry",
+          "kind": "candidate",
+          "viewedAt": "2026-10-14"
+        }
+      ]
+    }
+  ]
+}

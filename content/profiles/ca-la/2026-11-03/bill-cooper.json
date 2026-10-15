@@ -1,0 +1,105 @@
+{
+  "key": "bill-cooper",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Bill Cooper",
+  "office": "Santa Clarita Valley Water Agency, Member, Board of Directors, Division 1",
+  "contestIds": ["la-4348-cc10565"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Bill Cooper is a vice president of the Santa Clarita Valley Water Agency Board of Directors, representing Division 1. He worked at the Metropolitan Water District of Southern California for about 40 years and managed water treatment plants. He was the agency's first board president when it formed in 2018. His campaign says he will focus on water quality and supplies, repairing infrastructure, preparing for drought, and reviewing spending.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Bill Cooper is a vice president of the Santa Clarita Valley Water Agency Board of Directors, representing Division 1.",
+            "cites": [1]
+          },
+          {
+            "text": "He worked at the Metropolitan Water District of Southern California for about 40 years and managed water treatment plants.",
+            "cites": [2]
+          },
+          {
+            "text": "He was the agency's first board president when it formed in 2018.",
+            "cites": [2]
+          },
+          {
+            "text": "His campaign says he will focus on water quality and supplies, repairing infrastructure, preparing for drought, and reviewing spending.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Santa Clarita Valley Chamber of Commerce",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Republican Party of Los Angeles County",
+        "kind": "party",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Cooper announces campaign for re-election to SCV Water Agency board",
+      "publisher": "Santa Clarita Valley Signal",
+      "url": "https://signalscv.com/2026/08/cooper-announces-campaign-for-re-election-to-scv-water-agency-board/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Inaugural Leadership Set for SCV Water",
+      "publisher": "Santa Clarita Valley Water Agency",
+      "url": "https://www.yourscvwater.com/sites/default/files/SCVWA/newscenter/Press%20Release/2018/2018-01.17-Press-Release_SCVWA-Leadership_FINAL.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "SCV Chamber Announces Candidate Endorsements for November 2026 Election",
+      "publisher": "Santa Clarita Valley Chamber of Commerce",
+      "url": "https://www.scvchamber.com/articles/scv-chamber-announces-candidate-endorsements-for-november-2026-election-1",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 4
+    },
+    {
+      "title": "LAGOP Endorsement Lookup, November 3, 2026 General Election",
+      "publisher": "Republican Party of Los Angeles County",
+      "url": "https://lagop-endorsement-lookup.vercel.app/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 5
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.214Z",
+    "version": 5
+  }
+}

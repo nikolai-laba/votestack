@@ -1,0 +1,74 @@
+{
+  "key": "richard-rick-hever",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Richard (Rick) Hever",
+  "office": "Whittier City School District, Governing Board Member, Trustee Area No. 3",
+  "contestIds": ["la-4348-cc10733"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Richard Hever is the vice president of the Whittier City School District Governing Board, representing Trustee Area 3, and was elected in 2022. He is a retired refuse collection truck operator for the City of Los Angeles. In a 2026 candidate questionnaire, Hever said the district’s top needs are improving special education and school facilities. He has said he supports strengthening special education programs and equitable practices. He has pledged to oversee a $99 million school facilities bond. Since joining the board, he said he has supported higher student achievement, and noted some district schools have been named a National Blue Ribbon School and California Distinguished Schools. He has said he supports career technical education and expanding electives.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Richard Hever is the vice president of the Whittier City School District Governing Board, representing Trustee Area 3, and was elected in 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "He is a retired refuse collection truck operator for the City of Los Angeles.",
+            "cites": [1]
+          },
+          {
+            "text": "In a 2026 candidate questionnaire, Hever said the district’s top needs are improving special education and school facilities.",
+            "cites": [2]
+          },
+          {
+            "text": "He has said he supports strengthening special education programs and equitable practices.",
+            "cites": [2]
+          },
+          {
+            "text": "He has pledged to oversee a $99 million school facilities bond.",
+            "cites": [2]
+          },
+          {
+            "text": "Since joining the board, he said he has supported higher student achievement, and noted some district schools have been named a National Blue Ribbon School and California Distinguished Schools.",
+            "cites": [2]
+          },
+          {
+            "text": "He has said he supports career technical education and expanding electives.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board of Education",
+      "publisher": "Whittier City School District",
+      "url": "https://www.whittiercity.net/apps/pages/index.jsp?uREC_ID=687934&type=d&pREC_ID=1127514",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Rick Hever, Whittier Elementary School District Area 3 candidate, 2026 election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/rick-hever-whittier-elementary-school-district-area-3-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.351Z",
+    "version": 1
+  }
+}

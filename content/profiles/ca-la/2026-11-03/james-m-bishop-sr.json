@@ -1,0 +1,104 @@
+{
+  "key": "james-m-bishop-sr",
+  "electionId": "ca-2026-11-03-general",
+  "name": "James M. Bishop Sr.",
+  "office": "Lynwood Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10653"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "James M. Bishop Sr. is an educator and baseball coach in the Lynwood Unified School District. He also works as a security officer for the district. He played professional baseball for 13 years. In 2015, while coaching at Lynwood High School, he helped create a community partnership that fed over 4,000 students in an after-school program. He founded the Lynwood Athletics Community Services and the Lynwood Jr. Knights youth program.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "James M. Bishop Sr. is an educator and baseball coach in the Lynwood Unified School District.",
+            "cites": [1]
+          },
+          {
+            "text": "He also works as a security officer for the district.",
+            "cites": [2]
+          },
+          {
+            "text": "He played professional baseball for 13 years.",
+            "cites": [3]
+          },
+          {
+            "text": "In 2015, while coaching at Lynwood High School, he helped create a community partnership that fed over 4,000 students in an after-school program.",
+            "cites": [4]
+          },
+          {
+            "text": "He founded the Lynwood Athletics Community Services and the Lynwood Jr. Knights youth program.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "His campaign focuses on vocational education, performing arts, and athletics. He says schools should expect every student to show up, work to get better, and prepare for the next opportunity.",
+        "cites": [3, 5],
+        "sentences": [
+          {
+            "text": "His campaign focuses on vocational education, performing arts, and athletics.",
+            "cites": [3]
+          },
+          {
+            "text": "He says schools should expect every student to show up, work to get better, and prepare for the next opportunity.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate List - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "REGULAR MEETING OF THE BOARD OF EDUCATION February 27, 2025",
+      "publisher": "Lynwood Unified School District",
+      "url": "https://resources.finalsite.net/images/v1751299153/lynwoodk12caus/gkanujoiqqxgussxljqb/PublicAgenda-Feb272025.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "A Vote For James Bishop Is a Vote For Change",
+      "publisher": "City Pride Magazine",
+      "url": "https://citypridemagazine.com/a-vote-for-james-bishop-is-a-vote-for-change/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Community Partnership helps Lynwood High Feed 4,000 Students in After-School Program",
+      "publisher": "Patch",
+      "url": "https://patch.com/california/southgate-lynwood/community-partnership-helps-lynwood-high-feed-4000-students-after-school-program",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "COACH JAMES BISHOP FOR LYNWOOD SCHOOL BOARD",
+      "publisher": "Hub City Reporter",
+      "url": "https://hubcityreporter.com/coach-james-bishop-for-lynwood-school-board/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.181Z",
+    "version": 1
+  }
+}

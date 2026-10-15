@@ -1,0 +1,207 @@
+{
+  "key": "carrie-uva",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Carrie Uva",
+  "office": "City of Downey, Member of the City Council, 4th District",
+  "contestIds": ["la-4348-cc10444"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Carrie Uva is an estate planning attorney, real estate broker, and chair of the Downey Planning Commission and the Measure S and D oversight committees. Her campaign priorities include partnering with police to recruit officers and strengthen Neighborhood Watch programs. She also says she will fully fund police and fire services and cut red tape for small businesses.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Carrie Uva is an estate planning attorney, real estate broker, and chair of the Downey Planning Commission and the Measure S and D oversight committees.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign priorities include partnering with police to recruit officers and strengthen Neighborhood Watch programs.",
+            "cites": [1]
+          },
+          {
+            "text": "She also says she will fully fund police and fire services and cut red tape for small businesses.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "She has called for a neighborhood traffic-calming program that lets residents report problem streets, and she says she will pursue traffic-safety grants. To address homelessness, Uva wants to expand city-contracted street outreach and hire mental health officers for 5150 holds while enforcing laws to keep public spaces clear. In her 2020 campaign, she supported rent forgiveness during the COVID-19 pandemic.",
+        "cites": [2, 3, 4],
+        "sentences": [
+          {
+            "text": "She has called for a neighborhood traffic-calming program that lets residents report problem streets, and she says she will pursue traffic-safety grants.",
+            "cites": [2]
+          },
+          {
+            "text": "To address homelessness, Uva wants to expand city-contracted street outreach and hire mental health officers for 5150 holds while enforcing laws to keep public spaces clear.",
+            "cites": [3]
+          },
+          {
+            "text": "In her 2020 campaign, she supported rent forgiveness during the COVID-19 pandemic.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Downey Mayor Claudia Frometa",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Downey Mayor Pro Tem Horacio Ortiz",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Downey Councilwoman Dorothy Pemberton",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Downey Councilman Hector Sosa",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Former Downey Mayor Mario A. Guerra",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Former Downey Mayor Fernando Vasquez",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Former Downey Mayor Alex Saab",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Former Downey Mayor Rick Rodriguez",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Former Downey Mayor Kirk Cartozian",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Former Downey Mayor Roger Brossmer",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Former Downey Mayor Keith McCarthy",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Western States Regional Council of Carpenters",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "BizFed PAC", "kind": "organization", "cites": [8] },
+      {
+        "organization": "Los Angeles County Taxpayers Association",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Greater Downey Association of Realtors",
+        "kind": "organization",
+        "cites": [9]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "apps.lavote.gov",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://apps.lavote.gov/statements-api/oc/p/published/10444/26562",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Carrie Uva proposes neighborhood traffic safety plan",
+      "publisher": "The Downey Patriot",
+      "url": "https://www.thedowneypatriot.com/articles/carrie-uva-proposes-neighborhood-traffic-safety-plan",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Uva outlines homelessness plan for Downey",
+      "publisher": "The Downey Patriot",
+      "url": "https://www.thedowneypatriot.com/articles/uva-outlines-homelessness-plan-for-downey",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Get to know: Carrie Uva",
+      "publisher": "The Downey Legend",
+      "url": "https://www.thedowneylegend.com/geteducated/2020/11/02/get-to-know-carrie-uva/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Carrie Uva announces run for City Council",
+      "publisher": "The Downey Patriot",
+      "url": "https://www.thedowneypatriot.com/articles/carrie-uva-announces-run-for-city-council",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Home | Carrie Uva for Downey",
+      "publisher": "Carrie Uva for Downey",
+      "url": "https://www.carrieuvafordowney.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "Carpenters union endorses Carrie Uva for city council",
+      "publisher": "The Downey Patriot",
+      "url": "https://www.thedowneypatriot.com/articles/carpenters-union-endorses-carrie-uva-for-city-council",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 8,
+      "title": "Carrie Uva earns BizFed PAC and Los Angeles County Taxpayers Association endorsements",
+      "publisher": "The Downey Patriot",
+      "url": "https://www.thedowneypatriot.com/articles/carrie-uva-earns-bizfed-pac-and-los-angeles-county-taxpayers-association-endorsements",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 9,
+      "title": "Carrie Uva earns endorsement from Greater Downey Association of Realtors",
+      "publisher": "The Downey Patriot",
+      "url": "https://www.thedowneypatriot.com/articles/carrie-uva-earns-endorsement-from-greater-downey-association-of-realtors",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.375Z",
+    "version": 1
+  }
+}

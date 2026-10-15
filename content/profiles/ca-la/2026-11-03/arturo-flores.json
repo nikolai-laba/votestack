@@ -1,0 +1,92 @@
+{
+  "key": "arturo-flores",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Arturo Flores",
+  "office": "City of Huntington Park, Member of the City Council, 5th District",
+  "contestIds": ["la-4348-cc10920"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Arturo Flores has served on the Huntington Park City Council since September 2022. He is a Marine Corps combat veteran who deployed to Iraq and Afghanistan. He called for an investigation into the city's aquatics center after $9 million was paid to a contractor with no work done. In June 2025, he condemned immigration raids by masked individuals in unmarked vehicles, urging police to enforce vehicle identification laws.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Arturo Flores has served on the Huntington Park City Council since September 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "He is a Marine Corps combat veteran who deployed to Iraq and Afghanistan.",
+            "cites": [1]
+          },
+          {
+            "text": "He called for an investigation into the city's aquatics center after $9 million was paid to a contractor with no work done.",
+            "cites": [2]
+          },
+          {
+            "text": "In June 2025, he condemned immigration raids by masked individuals in unmarked vehicles, urging police to enforce vehicle identification laws.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "The council censured him in April 2026 for misconduct; he called the censure political theater. He resigned as mayor in January 2026 to focus on fighting a recall attempt.",
+        "cites": [4, 2],
+        "sentences": [
+          {
+            "text": "The council censured him in April 2026 for misconduct; he called the censure political theater.",
+            "cites": [4]
+          },
+          {
+            "text": "He resigned as mayor in January 2026 to focus on fighting a recall attempt.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "City of Huntington Park Press Release",
+      "publisher": "City of Huntington Park",
+      "url": "http://hpca.gov/DocumentCenter/View/11763/Media-Release---New-Mayor-and-Interim-City-Attorney--March-17-2025",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Arturo Flores steps down as mayor of Huntington Park",
+      "publisher": "2 Urban Girls",
+      "url": "https://2urbangirls.com/2026/01/arturo-flores-steps-down-as-mayor-of-huntington-park/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Immigration Raids and Protests Likely to Continue This Week",
+      "publisher": "Pasadena Now",
+      "url": "https://pasadenanow.com/main/immigration-raids-and-protests-likely-to-continue-this-week",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Huntington Park censures Councilman Arturo Flores; he says he won't step down",
+      "publisher": "CALÓ News",
+      "url": "https://www.calonews.com/communities/huntington-park/huntington-park-censures-councilman-arturo-flores-he-says-he-won-t-step-down/article_f27aad01-5351-44d3-9a84-07f06de479c8.html",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.424Z",
+    "version": 1
+  }
+}

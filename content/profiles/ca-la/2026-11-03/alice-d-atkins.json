@@ -1,0 +1,54 @@
+{
+  "key": "alice-d-atkins",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Alice D. Atkins",
+  "office": "City of Monrovia, City Clerk",
+  "contestIds": ["la-4348-cc10489"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Alice D. Atkins is the City Clerk of Monrovia, a position she has held since her appointment in 2009 and subsequent elections in 2013, 2017, and 2022. She began working for the city in 2000 and joined the City Clerk's Office in 2001, later becoming Deputy City Clerk in 2005. She concurrently serves as the appointed Chief Deputy City Clerk. Atkins earned the Certified Municipal Clerk designation in 2007 and the Master Municipal Clerk designation in 2019.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Alice D. Atkins is the City Clerk of Monrovia, a position she has held since her appointment in 2009 and subsequent elections in 2013, 2017, and 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "She began working for the city in 2000 and joined the City Clerk's Office in 2001, later becoming Deputy City Clerk in 2005.",
+            "cites": [1]
+          },
+          {
+            "text": "She concurrently serves as the appointed Chief Deputy City Clerk.",
+            "cites": [1]
+          },
+          {
+            "text": "Atkins earned the Certified Municipal Clerk designation in 2007 and the Master Municipal Clerk designation in 2019.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Meet the City Council | City of Monrovia",
+      "publisher": "City of Monrovia",
+      "url": "https://www.monroviaca.gov/your-government/city-council/meet-the-city-council",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.500Z",
+    "version": 1
+  }
+}

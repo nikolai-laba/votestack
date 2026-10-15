@@ -1,0 +1,58 @@
+{
+  "key": "mark-maldonado",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Mark Maldonado",
+  "office": "City of Palmdale, Member of the City Council, 4th District",
+  "contestIds": ["la-4348-cc10496"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Mark Maldonado is a business owner running for Palmdale City Council in District 4. He says he has done volunteer work with nonprofits focused on economic development, education and family support. His campaign says he wants to restore public comment time at council meetings from one minute back to three minutes, and to let voters elect the mayor directly instead of having the council choose a rotating mayor. He pledges to renegotiate waste and sewer fees that he says are nearly twice as high as those in neighboring cities. He also supports holding monthly town halls, strengthening partnerships between residents, law enforcement and city leadership, and spending taxpayer money transparently.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Mark Maldonado is a business owner running for Palmdale City Council in District 4.",
+            "cites": [1]
+          },
+          {
+            "text": "He says he has done volunteer work with nonprofits focused on economic development, education and family support.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he wants to restore public comment time at council meetings from one minute back to three minutes, and to let voters elect the mayor directly instead of having the council choose a rotating mayor.",
+            "cites": [1]
+          },
+          {
+            "text": "He pledges to renegotiate waste and sewer fees that he says are nearly twice as high as those in neighboring cities.",
+            "cites": [1]
+          },
+          {
+            "text": "He also supports holding monthly town halls, strengthening partnerships between residents, law enforcement and city leadership, and spending taxpayer money transparently.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Mark Maldonado for Mayor: Home",
+      "publisher": "Mark Maldonado campaign",
+      "url": "https://www.maldonado4district4.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.528Z",
+    "version": 1
+  }
+}

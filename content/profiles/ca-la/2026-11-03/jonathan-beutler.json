@@ -1,0 +1,78 @@
+{
+  "key": "jonathan-beutler",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Jonathan Beutler",
+  "office": "Palos Verdes Library District, Member, Board of Trustees",
+  "contestIds": ["la-4348-cc10543"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Jonathan Beutler is president of the Palos Verdes Library District Board of Trustees, a seat he has held since 2022. He served as a Los Angeles County Library commissioner. His campaign says he supports disciplined and transparent budgeting ahead of the district's centennial. He aims to protect the district's independence and keep the local history collection local.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Jonathan Beutler is president of the Palos Verdes Library District Board of Trustees, a seat he has held since 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "He served as a Los Angeles County Library commissioner.",
+            "cites": [2]
+          },
+          {
+            "text": "His campaign says he supports disciplined and transparent budgeting ahead of the district's centennial.",
+            "cites": [3]
+          },
+          {
+            "text": "He aims to protect the district's independence and keep the local history collection local.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Jonathan Beutler | Palos Verdes Library District",
+      "publisher": "Palos Verdes Library District",
+      "url": "https://www.pvld.org/about/trustees/jonathan-beutler",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Home | Jonathan Beutler For Palos Verdes",
+      "publisher": "Jonathan Beutler campaign",
+      "url": "https://www.jonathanloveslibraries.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "My Priorities | Jonathan Beutler For Palos Verdes",
+      "publisher": "Jonathan Beutler campaign",
+      "url": "https://www.jonathanloveslibraries.com/my-priorities",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Who's Running - PV Informer",
+      "publisher": "PV Informer",
+      "url": "https://pvinformer.com/ballot-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.406Z",
+    "version": 1
+  }
+}

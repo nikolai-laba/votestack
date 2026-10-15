@@ -1,0 +1,72 @@
+{
+  "key": "ana-torres",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Ana Torres",
+  "office": "City of Montebello, Member of the City Council, 3rd District",
+  "contestIds": ["la-4348-cc10482"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Ana Torres is a candidate for Montebello City Council, District 3. She founded Organica Juice Bar. Her campaign says she worked at the Los Angeles Community College District for 14 years.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Ana Torres is a candidate for Montebello City Council, District 3.",
+            "cites": [1]
+          },
+          { "text": "She founded Organica Juice Bar.", "cites": [2] },
+          {
+            "text": "Her campaign says she worked at the Los Angeles Community College District for 14 years.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "2026 General Election - City of Montebello",
+      "publisher": "City of Montebello",
+      "url": "https://www.montebelloca.gov/departments/administration/city_clerks_office/elections_voting_information/2026_general_election",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "ANA TORRES FOR MONTEBELLO CITY COUNCIL",
+      "publisher": "Ana Torres campaign",
+      "url": "https://www.anatorresforcouncil.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 3
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.505Z",
+    "version": 1
+  }
+}

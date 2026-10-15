@@ -1,0 +1,176 @@
+{
+  "key": "laurene-weste",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Laurene Weste",
+  "office": "City of Santa Clarita, Member of the City Council, 4th District",
+  "contestIds": ["la-4348-cc10838"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Laurene Weste has served on the Santa Clarita City Council since 1998 and is currently the mayor. She previously was a parks commissioner and directed the local committee on aging.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Laurene Weste has served on the Santa Clarita City Council since 1998 and is currently the mayor.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously was a parks commissioner and directed the local committee on aging.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "She opposes a proposed courthouse site because of traffic and safety issues. She urged support for a city cash-back program to help businesses during roadwork. After a fire, she supported a $40,000 marketing campaign and a $313,000 art wall. She advocated for the Newhall Community Center when it opened in 2006. She says the city has acquired 16,000 acres of open space to keep up with population growth.",
+        "cites": [3, 4, 5, 6, 7],
+        "sentences": [
+          {
+            "text": "She opposes a proposed courthouse site because of traffic and safety issues.",
+            "cites": [3]
+          },
+          {
+            "text": "She urged support for a city cash-back program to help businesses during roadwork.",
+            "cites": [4]
+          },
+          {
+            "text": "After a fire, she supported a $40,000 marketing campaign and a $313,000 art wall.",
+            "cites": [5]
+          },
+          {
+            "text": "She advocated for the Newhall Community Center when it opened in 2006.",
+            "cites": [6]
+          },
+          {
+            "text": "She says the city has acquired 16,000 acres of open space to keep up with population growth.",
+            "cites": [7]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Republican Party of Los Angeles County",
+        "kind": "party",
+        "cites": [8]
+      },
+      {
+        "organization": "International Brotherhood of Electrical Workers (IBEW) Local 11",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "KHTS (Hometown Station) owners' editorial",
+        "kind": "editorial_board",
+        "cites": [10]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [11]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Laurene Weste, Santa Clarita City Council District 4 candidate, 2026 election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/laurene-weste-santa-clarita-city-council-district-4-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Mayor Laurene Weste - City Council",
+      "publisher": "City of Santa Clarita",
+      "url": "https://santaclarita.gov/city-council/laurene-weste/",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Laurene Weste | Protecting Our Quality of Life",
+      "publisher": "The Santa Clarita Valley Signal",
+      "url": "https://www.santaclarita.com/news/news_synopsis.php?id=55675",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "News: Laurene Weste",
+      "publisher": "The Santa Clarita Valley Signal",
+      "url": "https://www.santaclarita.com/news/news_synopsis.php?id=56111",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "City Council Backs $40,000 Marketing Campaign, $313,000 Art Wall To Revitalize Main Street",
+      "publisher": "KHTS Hometown Station",
+      "url": "https://www.hometownstation.com/santa-clarita-news/politics/santa-clarita-city-council/city-council-backs-40000-marketing-campaign-313000-art-wall-to-revitalize-main-street-614343",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Newhall Community Center celebrates 20 years",
+      "publisher": "The Santa Clarita Valley Signal",
+      "url": "https://signalscv.com/2026/01/newhall-community-center-celebrates-20-years/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "As L.A. struggles, these surprising communities are booming. What are they doing right?",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-07-07/as-la-struggles-these-surprising-communities-are-booming-what-are-they-doing-right",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 8,
+      "title": "LAGOP Endorsement Lookup (November 3, 2026 general election)",
+      "publisher": "Republican Party of Los Angeles County",
+      "url": "https://lagop-endorsement-lookup.vercel.app/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 9,
+      "title": "Political Action & Endorsements",
+      "publisher": "IBEW Local 11",
+      "url": "https://www.ibew11.org/political",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 10,
+      "title": "EDITORIAL: KHTS Endorsements For The 2026 Election",
+      "publisher": "KHTS / Hometown Station",
+      "url": "https://www.hometownstation.com/santa-clarita-news/politics/santa-clarita-elections/editorial-khts-endorsements-for-the-2026-election-612909",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 11
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.570Z",
+    "version": 1
+  }
+}

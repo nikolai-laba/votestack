@@ -1,0 +1,86 @@
+{
+  "key": "john-mendoza",
+  "electionId": "ca-2026-11-03-general",
+  "name": "John Mendoza",
+  "office": "Pomona Unified School District, Governing Board Member, Trustee Area No. 1",
+  "contestIds": ["la-4348-cc10663"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "John Mendoza previously served eight years on the board of the Three Valleys Municipal Water District and was a member of the Pomona Redistricting Commission and a temporary parking committee. He circulated a petition in 2013 to replace at-large school board elections with trustee areas. His petition helped lead to the district's adoption of a five-trustee-area system in 2015. He later gathered enough signatures to trigger a vote on expanding the board to seven members. In a 2026 candidate questionnaire, he said he supports providing salary, health care and retirement incentives for district employees. He also stated the board should set policy and goals and conduct community outreach to maintain and improve education.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "John Mendoza previously served eight years on the board of the Three Valleys Municipal Water District and was a member of the Pomona Redistricting Commission and a temporary parking committee.",
+            "cites": [1]
+          },
+          {
+            "text": "He circulated a petition in 2013 to replace at-large school board elections with trustee areas.",
+            "cites": [2]
+          },
+          {
+            "text": "His petition helped lead to the district's adoption of a five-trustee-area system in 2015.",
+            "cites": [3]
+          },
+          {
+            "text": "He later gathered enough signatures to trigger a vote on expanding the board to seven members.",
+            "cites": [4]
+          },
+          {
+            "text": "In a 2026 candidate questionnaire, he said he supports providing salary, health care and retirement incentives for district employees.",
+            "cites": [1]
+          },
+          {
+            "text": "He also stated the board should set policy and goals and conduct community outreach to maintain and improve education.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "John Mendoza, Pomona Unified School District Area 1 candidate, 2026 election questionnaire",
+      "publisher": "San Bernardino Sun",
+      "url": "https://www.sbsun.com/2026/10/05/john-mendoza-pomona-unified-school-district-area-1-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Petition underway to alter composure of Pomona school board",
+      "publisher": "Whittier Daily News",
+      "url": "https://www.whittierdailynews.com/2013/07/07/petition-underway-to-alter-composure-of-pomona-school-board/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Pomona Unified to switch to trustee area elections",
+      "publisher": "Daily Bulletin",
+      "url": "https://www.dailybulletin.com/2015/04/08/pomona-unified-to-switch-to-trustee-area-elections/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Los Angeles County Committee on School District Organization",
+      "publisher": "Los Angeles County Office of Education",
+      "url": "https://www.lacoe.edu/content/dam/lacoeedu/documents/businessservices/bas/county-committee/agendas/County%20Committee%20Meeting%20Packet%20Februray%2028%202022.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.260Z",
+    "version": 1
+  }
+}

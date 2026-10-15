@@ -1,0 +1,90 @@
+{
+  "key": "jackie-r-kruger",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Jackie R. Kruger",
+  "office": "Beverly Hills Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10622"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Jackie R. Kruger is an attorney. She owns a law firm and has volunteered in district schools. She says the district spends more per student than neighboring schools but gets worse academic results. She proposes using local businesses and UCLA for internships and lab access. She supports smartphone-free days for students in TK to grade 8 and vetted AI tutoring tools. She also proposes yearly public reporting on screen time. Her campaign priorities include increasing board transparency and raising academic performance. She also wants to close the district deficit. In 2025, she helped lead a recall effort against two board members after the superintendent resigned. The recall was later dropped.",
+        "cites": [1, 2, 3, 4]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [5]
+      },
+      {
+        "organization": "Democrats for Israel - Los Angeles",
+        "kind": "organization",
+        "cites": [6]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Five candidates set for BHUSD board race - Beverly Press & Park ...",
+      "publisher": "Beverly Press",
+      "url": "https://beverlypress.com/2026/08/five-candidates-set-for-bhusd-board-race/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "BHUSD candidates make case to students at district forum - Beverly ...",
+      "publisher": "Beverly Press",
+      "url": "https://beverlypress.com/2026/10/bhusd-candidates-make-case-to-students-at-district-forum/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "BHUSD Candidates Draw Clear Lines on Phones, Screens and AI - NewsBreak",
+      "publisher": "Beverly Hills Standard",
+      "url": "https://www.newsbreak.com/beverly-hills-standard-364873389/4930834489793-bhusd-candidates-draw-clear-lines-on-phones-screens-and-ai",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "JACKIE KRUGER FOR BHUSD",
+      "publisher": "Jackie Kruger for BHUSD",
+      "url": "https://www.krugerforbhusd.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Endorsed Candidates: 2026 General Election",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements - Election Candidates Endorsed by DFI-Los Angeles",
+      "publisher": "Democrats for Israel - Los Angeles",
+      "url": "https://www.dfi-la.org/endorse",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.973Z",
+    "version": 3
+  }
+}

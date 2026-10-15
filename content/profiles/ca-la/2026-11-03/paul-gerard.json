@@ -1,0 +1,180 @@
+{
+  "key": "paul-gerard",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Paul Gerard",
+  "office": "Burbank Unified School District, Governing Board Member, Trustee Area No. 3",
+  "contestIds": ["la-4348-cc10625"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Paul Gerard is a professor of animation for the Peter Stark Program at the University of Southern California and a former executive at The Walt Disney Co., Hasbro, and Warner Bros. He is running for Trustee Area No. 3 on the Burbank Unified School District board, with a campaign centered on restoring fiscal stability to a district that independent auditors gave a \"Lack of Going Concern\" designation.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Paul Gerard is a professor of animation for the Peter Stark Program at the University of Southern California and a former executive at The Walt Disney Co., Hasbro, and Warner Bros.",
+            "cites": [1]
+          },
+          {
+            "text": "He is running for Trustee Area No. 3 on the Burbank Unified School District board, with a campaign centered on restoring fiscal stability to a district that independent auditors gave a \"Lack of Going Concern\" designation.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "He has proposed working with district leadership to restructure BUSD’s finances, strengthen internal controls, and restore multi-year budget discipline to keep schools under local control. His campaign website states he will prioritize transparency, fiscal stability, enrollment and student representation.",
+        "cites": [2, 3],
+        "sentences": [
+          {
+            "text": "He has proposed working with district leadership to restructure BUSD’s finances, strengthen internal controls, and restore multi-year budget discipline to keep schools under local control.",
+            "cites": [2]
+          },
+          {
+            "text": "His campaign website states he will prioritize transparency, fiscal stability, enrollment and student representation.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Armenian National Committee of America – Burbank",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "Burbank Vice Mayor Zizette Mullins",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Former Burbank Mayor/City Council Member Todd Campbell",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Former Burbank Mayor/City Council Member Bob Frutos",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Former Burbank Mayor/City Council Member Emily Gabel-Luddy",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Former Burbank Mayor/City Council Member Michael Hastings",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Former Burbank Mayor/City Council Member Tim Murphy",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Former Burbank Mayor/City Council Member Marsha Ramos",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Former Burbank Mayor/City Council Member Jef Vander Borght",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Former Burbank Unified School District Board Member Larry Applebaum",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Former Burbank Unified School District Board Member Bob Bowne",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Former Burbank Unified School District Board Member Steve Ferguson",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Former Burbank Unified School District Board Member Steve Frintner",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Former Burbank Unified School District Board Member Elena Hubbell",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Former Burbank Unified School District Board Member Dave Kemp",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Former Burbank Unified School District Board Member Debbie Kukta",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Former Burbank Unified School District Board Member Mike McDonald",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Former Burbank Unified School District Board Member Richard Raad",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Former Burbank Unified School District Board Member Roberta Reynolds",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Former Burbank Unified School District Board Member Denise Wilcox",
+        "kind": "elected_official",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Paul Gerard Files for Burbank Board of Education – District 3",
+      "publisher": "myBurbank",
+      "url": "https://myburbank.com/paul-gerard-files-for-burbank-board-of-education-district-3/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Paul Gerard for Burbank Board of Education — Area Three",
+      "publisher": "Paul Gerard campaign",
+      "url": "https://gerardforbusd.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Burbank Elections 2026: Candidates, Measures & Voting Guide | Burbank Votes",
+      "publisher": "Burbank Votes",
+      "url": "https://burbankvotes.com/candidates/",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T05:54:20.830Z",
+    "version": 1
+  }
+}

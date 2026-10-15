@@ -1,0 +1,51 @@
+{
+  "key": "david-l-muse",
+  "electionId": "ca-2026-11-03-general",
+  "name": "David L. Muse",
+  "office": "Valley County Water District, Member, Board of Directors",
+  "contestIds": ["la-4348-cc10397"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "David L. Muse is president of the Valley County Water District board of directors. He served on the board in 2020.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "David L. Muse is president of the Valley County Water District board of directors.",
+            "cites": [1]
+          },
+          { "text": "He served on the board in 2020.", "cites": [2] }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "David L. Muse, president | Valley County Water District, CA",
+      "publisher": "Valley County Water District",
+      "url": "https://www.vcwd.org/217/David-L-Muse",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Financial Statements and Supplementary Information Fiscal Year Ended June 30, 2020",
+      "publisher": "Valley County Water District",
+      "url": "https://vcwd.org/Archive/ViewFile/Item/184",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.420Z",
+    "version": 1
+  }
+}

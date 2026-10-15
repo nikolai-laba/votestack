@@ -1,0 +1,146 @@
+{
+  "key": "lizbeth-renova",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Lizbeth Renova",
+  "office": "Montebello Unified School District, Governing Board Member, Trustee Area No. 2",
+  "contestIds": ["la-4348-cc10843"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "According to her campaign, Lizbeth Renova has spent nearly 20 years in education as an educator, site supervisor and early childhood education director.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "According to her campaign, Lizbeth Renova has spent nearly 20 years in education as an educator, site supervisor and early childhood education director.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign says she supports safe schools, strong academic programs, supported teachers and staff, and responsible leadership. In a news questionnaire, she named improving student achievement with needed support, and maintaining safe, well-supported schools, as the district's top two needs.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Her campaign says she supports safe schools, strong academic programs, supported teachers and staff, and responsible leadership.",
+            "cites": [1]
+          },
+          {
+            "text": "In a news questionnaire, she named improving student achievement with needed support, and maintaining safe, well-supported schools, as the district's top two needs.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "CSEA (Classified School Employees Association)",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "Southern California Armenian Democrats",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Association of Montebello School Administrators",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Montebello Schools Police Officers Association",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "Kevin Lainez, Mayor, City of Commerce",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Dr. Monica Sanchez, Mayor Pro Tem, City of Pico Rivera",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Oralia Rebollo, Council Member, City of Commerce",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Luis Gerardo Cuellar, Council Member, City of Lynwood",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Liliana Magaña, Board President, Montebello Unified School District",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Jennifer Gutierrez, Board Vice President, Montebello Unified School District",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Elizabeth Cabrera, Board Clerk, Montebello Unified School District",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Carlos Cerdan, Board Member, Montebello Unified School District",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Yarisma Rocha, Vice President, Board of Trustees (Trustee Area 2)",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Rosaelva Lomeli, President, Board of Trustees (Trustee Area 3)",
+        "kind": "elected_official",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Your Site Title",
+      "publisher": "Lizbeth Renova campaign",
+      "url": "https://www.lizbethrenova.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Lizbeth Renova, Montebello Unified School District Area 2 candidate, 2026 election questionnaire",
+      "publisher": "Whittier Daily News",
+      "url": "https://www.whittierdailynews.com/2026/10/05/lizbeth-renova-montebello-unified-school-district-area-2-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Endorsements — Lizbeth Renova for Montebello Unified School District Board",
+      "publisher": "Lizbeth Renova campaign",
+      "url": "https://www.lizbethrenova.com/endorsments",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.199Z",
+    "version": 1
+  }
+}

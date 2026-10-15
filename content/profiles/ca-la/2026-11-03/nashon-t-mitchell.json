@@ -1,0 +1,75 @@
+{
+  "key": "nashon-t-mitchell",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Nashon T. Mitchell",
+  "office": "Antelope Valley Community College District, Governing Board Member, Trustee Area No. 4",
+  "contestIds": ["la-4348-cc10572"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Nashon T. Mitchell is a workforce development specialist and the founder of Sole of the CommUNITY, a nonprofit that connects single parents and families to resources and career development. He wants the college to connect students with basic needs like food, housing, and childcare so they stay enrolled. He proposes building stronger partnerships with local employers and K-12 schools to create clear pathways to certificates, degrees, and careers.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Nashon T. Mitchell is a workforce development specialist and the founder of Sole of the CommUNITY, a nonprofit that connects single parents and families to resources and career development.",
+            "cites": [1]
+          },
+          {
+            "text": "He wants the college to connect students with basic needs like food, housing, and childcare so they stay enrolled.",
+            "cites": [2]
+          },
+          {
+            "text": "He proposes building stronger partnerships with local employers and K-12 schools to create clear pathways to certificates, degrees, and careers.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Six Candidates Seek Three Antelope Valley College Seats",
+      "publisher": "Antelope Valley Online",
+      "url": "https://antelopevalleyonline.com/six-candidates-seek-three-antelope-valley-college-seats/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Nashon Mitchell, Antelope Valley Community College District Area 4 candidate, 2026 election questionnaire",
+      "publisher": "Pasadena Star-News",
+      "url": "https://www.pasadenastarnews.com/2026/10/05/nashon-mitchell-antelope-valley-community-college-district-area-4-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Endorsed Candidates - 2026 General Election",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.863Z",
+    "version": 2
+  }
+}

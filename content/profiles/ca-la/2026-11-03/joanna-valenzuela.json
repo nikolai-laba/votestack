@@ -1,0 +1,42 @@
+{
+  "key": "joanna-valenzuela",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Joanna Valenzuela",
+  "office": "City of Baldwin Park, City Treasurer",
+  "contestIds": ["la-4348-cc10417"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Joanna Valenzuela is the City Treasurer of Baldwin Park.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Joanna Valenzuela is the City Treasurer of Baldwin Park.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Staff Directory • Baldwin Park, CA • CivicEngage",
+      "publisher": "City of Baldwin Park",
+      "url": "https://www.baldwinpark.com/m/directory",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.497Z",
+    "version": 1
+  }
+}

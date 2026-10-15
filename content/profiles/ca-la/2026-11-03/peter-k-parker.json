@@ -1,0 +1,50 @@
+{
+  "key": "peter-k-parker",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Peter K. Parker",
+  "office": "Compton Community College District, Governing Board Member, Trustee Area No. 4",
+  "contestIds": ["la-4348-cc10580"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Peter K. Parker is a candidate for the Compton Community College District Governing Board, Trustee Area 4. His campaign says he has classroom experience and wants to focus on instruction, curriculum and student services. He also says he will work on accountability and lowering barriers that block students from completing their education.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Peter K. Parker is a candidate for the Compton Community College District Governing Board, Trustee Area 4.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he has classroom experience and wants to focus on instruction, curriculum and student services.",
+            "cites": [1]
+          },
+          {
+            "text": "He also says he will work on accountability and lowering barriers that block students from completing their education.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Peter K. Parker for Compton College Trustee Area 4",
+      "publisher": "Peter K. Parker campaign",
+      "url": "https://www.peterkparker.org/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:48.872Z",
+    "version": 1
+  }
+}

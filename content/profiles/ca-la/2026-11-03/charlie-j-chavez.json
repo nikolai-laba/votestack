@@ -1,0 +1,46 @@
+{
+  "key": "charlie-j-chavez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Charlie J. Chavez",
+  "office": "La Puente Valley County Water District, Member, Board of Directors",
+  "contestIds": ["la-4348-cc10384"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Charlie J. Chavez is a candidate for the La Puente Valley County Water District Board of Directors. His occupation is listed as 'Public Servant'.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Charlie J. Chavez is a candidate for the La Puente Valley County Water District Board of Directors.",
+            "cites": [1]
+          },
+          {
+            "text": "His occupation is listed as 'Public Servant'.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate List",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.396Z",
+    "version": 1
+  }
+}

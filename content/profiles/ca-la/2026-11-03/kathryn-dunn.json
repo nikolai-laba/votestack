@@ -1,0 +1,77 @@
+{
+  "key": "kathryn-dunn",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Kathryn Dunn",
+  "office": "Claremont Unified School District, Governing Board Member, Trustee Area No. 1",
+  "contestIds": ["la-4348-cc10631"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Kathryn Dunn has served on the Claremont Unified School District Board of Education since 2022 and is running for reelection.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Kathryn Dunn has served on the Claremont Unified School District Board of Education since 2022 and is running for reelection.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "She says her experience navigating the district's general and special education programs shaped her advocacy.",
+        "cites": [2],
+        "sentences": [
+          {
+            "text": "She says her experience navigating the district's general and special education programs shaped her advocacy.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Sue Keith, former Claremont Unified School District Board of Education Trustee and former Citrus College Board of Trustees member",
+        "kind": "elected_official",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "CUSD Board of Education candidate profile: Kathryn Dunn",
+      "publisher": "Claremont COURIER",
+      "url": "https://claremontcourier.com/schools/cusd-board-of-education-candidate-profile-kathryn-dunn-89983/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Kathryn Dunn - Biography",
+      "publisher": "Claremont Unified School District",
+      "url": "https://www.cusd.claremont.edu/o/cusd/page/kathy-dunn-bio",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Committee & Endorsements | Kathryn Dunn for Claremont School Board",
+      "publisher": "Re-Elect Kathryn Dunn to Claremont School Board 2026",
+      "url": "https://www.kathryndunnclaremontschools.com/committee-kathryn-dunn",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T05:54:20.831Z",
+    "version": 1
+  }
+}

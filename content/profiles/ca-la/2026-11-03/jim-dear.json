@@ -1,0 +1,125 @@
+{
+  "key": "jim-dear",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Jim Dear",
+  "office": "City of Carson, Member of the City Council, 2nd District",
+  "contestIds": ["la-4348-cc10430"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Jim Dear is a Carson City Council member and a former Los Angeles Unified School District teacher. In his 2022 campaign, he said his top priorities were public safety, the health of residents, and economic development. In 2026, he opposed placing an oil refinery tax on the ballot and an updated pipeline franchise ordinance. As mayor, he says he helped bring national chains like Buffalo Wild Wings and Olive Garden to Carson. As city clerk in 2015, the City Council censured him after an investigation found he created a hostile work environment and made racist comments. Voters recalled him in 2016 for alleged misconduct, and he was elected to the City Council again in 2018.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Jim Dear is a Carson City Council member and a former Los Angeles Unified School District teacher.",
+            "cites": [1]
+          },
+          {
+            "text": "In his 2022 campaign, he said his top priorities were public safety, the health of residents, and economic development.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2026, he opposed placing an oil refinery tax on the ballot and an updated pipeline franchise ordinance.",
+            "cites": [3]
+          },
+          {
+            "text": "As mayor, he says he helped bring national chains like Buffalo Wild Wings and Olive Garden to Carson.",
+            "cites": [1]
+          },
+          {
+            "text": "As city clerk in 2015, the City Council censured him after an investigation found he created a hostile work environment and made racist comments.",
+            "cites": [4]
+          },
+          {
+            "text": "Voters recalled him in 2016 for alleged misconduct, and he was elected to the City Council again in 2018.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [5]
+      },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [6]
+      },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [7] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Carson mayoral race heats up - The Bulletin",
+      "publisher": "CSUDH Bulletin",
+      "url": "https://www.csudhbulletin.com/carson-mayoral-race-heats-up/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Elections 2022: Carson has 2 council districts, city clerk, treasurer up for grabs",
+      "publisher": "Daily Breeze",
+      "url": "https://www.dailybreeze.com/2022/10/07/elections-2022-2-council-districts-city-clerk-treasurer-up-for-grabs-in-carson/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Carson City Council Election 2026 - Voter guides",
+      "publisher": "Playpotus",
+      "url": "https://playpotus.com/ca/carson",
+      "kind": "reference",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Carson City Council censures 'abusive' City Clerk Jim Dear",
+      "publisher": "Daily Breeze",
+      "url": "https://www.dailybreeze.com/government-and-politics/20151021/carson-city-council-censures-abusive-city-clerk-jim-dear/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 6
+    },
+    {
+      "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
+      "publisher": "SEIU Local 721",
+      "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 7
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.330Z",
+    "version": 1
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "key": "sylvia-v-macias",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Sylvia V. Macias",
+  "office": "South Whittier School District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10727"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Sylvia V. Macias is a member of the South Whittier School District Governing Board and currently serves as its Clerk, representing Trustee Area 5. She has held a seat on the board since at least 2013.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Sylvia V. Macias is a member of the South Whittier School District Governing Board and currently serves as its Clerk, representing Trustee Area 5.",
+            "cites": [1]
+          },
+          {
+            "text": "She has held a seat on the board since at least 2013.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board of Trustees",
+      "publisher": "South Whittier School District",
+      "url": "https://www.swhittier.k12.ca.us/board-of-trustees-2",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Final List of Qualified Candidates to Appear on the Ballot",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Documents/Election_Info/11052013_final_list_of_qualified_candidates_to_appear_on_the_ballot.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.339Z",
+    "version": 1
+  }
+}

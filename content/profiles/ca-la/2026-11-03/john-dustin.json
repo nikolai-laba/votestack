@@ -1,0 +1,78 @@
+{
+  "key": "john-dustin",
+  "electionId": "ca-2026-11-03-general",
+  "name": "John Dustin",
+  "office": "City of San Marino, Member of the City Council",
+  "contestIds": ["la-4348-cc10512"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "John Dustin works in quality improvement and data analysis in the health insurance industry. He says he served on the San Marino Planning Commission for eight years and the Design Review Committee for three years. He was the vice-chair of the Planning Commission.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "John Dustin works in quality improvement and data analysis in the health insurance industry.",
+            "cites": [1]
+          },
+          {
+            "text": "He says he served on the San Marino Planning Commission for eight years and the Design Review Committee for three years.",
+            "cites": [1]
+          },
+          {
+            "text": "He was the vice-chair of the Planning Commission.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "He calls the renewal of the utility users tax a vital source of funds. He supports continuing the public safety tax for police and fire services. He says the city must anticipate changing state housing laws and find ways to meet the mandates. He proposes revisiting the findings of a 2020 economic development committee to consider actionable solutions. He says he supports transparency and wants to be a resource for residents to ask questions and learn about potential barriers to accessing information.",
+        "cites": [3, 4]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "San Marino City Council Candidates Lay Out Priorities at Voters’ Forum",
+      "publisher": "San Marino Tribune",
+      "url": "https://outlooknewspapers.com/sanmarinotribune/san-marino-city-council-candidates-lay-out-priorities-at-voters-forum/article_359292d7-4348-4ad3-bff7-5733097f1709.html",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "City of San Marino Planning Commission Agenda",
+      "publisher": "City of San Marino",
+      "url": "https://cms9files.revize.com/cityofsanmarino/PC%20Agenda%209-25-19.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Dustin Announces Candidacy for City Council",
+      "publisher": "San Marino Tribune",
+      "url": "https://outlooknewspapers.com/sanmarinotribune/dustin-announces-candidacy-for-city-council/article_3ee67d2c-04e8-4bc5-9ae1-2d31eb2b0577.html",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "Vision",
+      "publisher": "John Dustin for City Council",
+      "url": "https://johndustinforsanmarino2026.com/vision",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15",
+      "id": 4
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:39:39.202Z",
+    "version": 2
+  }
+}

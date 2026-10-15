@@ -1,0 +1,67 @@
+{
+  "key": "veronica-lauria",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Veronica Lauria",
+  "office": "Valle Lindo School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10731"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Veronica Lauria is the President of the Valle Lindo School District Governing Board. She is an incumbent board member. She supports Measure R, a $9.2 million bond on the November 2026 ballot. The measure would fund renovation and repair projects at the district's two schools through a property tax increase.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Veronica Lauria is the President of the Valle Lindo School District Governing Board.",
+            "cites": [1]
+          },
+          { "text": "She is an incumbent board member.", "cites": [2] },
+          {
+            "text": "She supports Measure R, a $9.2 million bond on the November 2026 ballot.",
+            "cites": [3]
+          },
+          {
+            "text": "The measure would fund renovation and repair projects at the district's two schools through a property tax increase.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board of Education",
+      "publisher": "Valle Lindo School District",
+      "url": "https://www.vallelindo.k12.ca.us/apps/pages/index.jsp?uREC_ID=1211155&type=d&pREC_ID=1447330",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Candidate List",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "What you need to know to vote on Valle Lindo School District Measure R",
+      "publisher": "LAist",
+      "url": "https://laist.com/news/politics/voter-guides/voter-guide-2026-general-election-school-bond-valle-lindo-measure-r",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.346Z",
+    "version": 1
+  }
+}

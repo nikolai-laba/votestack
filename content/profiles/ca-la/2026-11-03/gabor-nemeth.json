@@ -1,0 +1,105 @@
+{
+  "key": "gabor-nemeth",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Gabor Nemeth",
+  "office": "Palos Verdes Library District, Member, Board of Trustees",
+  "contestIds": ["la-4348-cc10543"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Gabor Nemeth's ballot designation is small business owner. He is a Peninsula High School graduate, University of Redlands alumnus, and school volunteer. His campaign site says he would protect library services, expand technology and digital access, and partner with schools and community groups. He stresses fiscal accountability and transparent budgeting.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Gabor Nemeth's ballot designation is small business owner.",
+            "cites": [1]
+          },
+          {
+            "text": "He is a Peninsula High School graduate, University of Redlands alumnus, and school volunteer.",
+            "cites": [2]
+          },
+          {
+            "text": "His campaign site says he would protect library services, expand technology and digital access, and partner with schools and community groups.",
+            "cites": [2]
+          },
+          {
+            "text": "He stresses fiscal accountability and transparent budgeting.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Palos Verdes Peninsula Republican Women Federated",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Republican Party of Los Angeles County",
+        "kind": "party",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Who's Running - PV Informer",
+      "publisher": "PV Informer",
+      "url": "https://pvinformer.com/ballot-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "- Gabor For PVLD",
+      "publisher": "Gabor Nemeth campaign",
+      "url": "https://gaborforpvld.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "PVPRWF 2026 General Election Voter Guide",
+      "publisher": "Palos Verdes Peninsula Republican Women Federated",
+      "url": "https://img1.wsimg.com/blobby/go/fde87087-63d5-4aa0-8ffe-96924b23036f/2026%2011%20PVPRWF%20Voter%20Guide%20(1).pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 4
+    },
+    {
+      "title": "LAGOP Endorsement Lookup, November 3, 2026 General Election",
+      "publisher": "Republican Party of Los Angeles County",
+      "url": "https://lagop-endorsement-lookup.vercel.app/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 5
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.208Z",
+    "version": 2
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "key": "luis-roa",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Luis Roa",
+  "office": "City of Hawaiian Gardens, Member of the City Council",
+  "contestIds": ["la-4348-cc10455"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Luis Roa is a member of the Hawaiian Gardens City Council. The city council elected him mayor pro tem in December 2025. His city biography says he worked for nearly 15 years as a city recreation leader and holds a master’s degree in public administration from Cal State Long Beach. His biography says he focuses on public safety and capital improvement projects. In 2018, he said homelessness was the city’s biggest issue and supported working with the ABC Unified School District to create a teen center. In 2021, as mayor, he said a new Holiday Inn permitted in the city would give visitors \"a fresh image of Hawaiian Gardens.\"",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Luis Roa is a member of the Hawaiian Gardens City Council.",
+            "cites": [1]
+          },
+          {
+            "text": "The city council elected him mayor pro tem in December 2025.",
+            "cites": [2]
+          },
+          {
+            "text": "His city biography says he worked for nearly 15 years as a city recreation leader and holds a master’s degree in public administration from Cal State Long Beach.",
+            "cites": [1]
+          },
+          {
+            "text": "His biography says he focuses on public safety and capital improvement projects.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2018, he said homelessness was the city’s biggest issue and supported working with the ABC Unified School District to create a teen center.",
+            "cites": [3]
+          },
+          {
+            "text": "In 2021, as mayor, he said a new Holiday Inn permitted in the city would give visitors \"a fresh image of Hawaiian Gardens.\"",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Luis Roa | Hawaiian Gardens, CA",
+      "publisher": "City of Hawaiian Gardens",
+      "url": "https://www.hgcity.org/government/city-council/luis-roa",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Hawaiian Gardens council elects new mayor and mayor pro tem in reorganization",
+      "publisher": "CitizenPortal.ai",
+      "url": "https://citizenportal.ai/articles/7191110/california/los-angeles-county/hawaiian-gardens-city/hawaiian-gardens-council-elects-new-mayor-and-mayor-pro-tem-in-reorganization",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "These are the six candidates for Hawaiian Gardens City Council and what they stand for",
+      "publisher": "Press-Telegram",
+      "url": "https://www.presstelegram.com/2018/10/18/these-are-the-six-candidates-for-hawaiian-gardens-city-council-and-what-they-stand-for/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "PERMITS ISSUED FOR HAWAIIAN GARDENS HOTEL | Los Cerritos Community News",
+      "publisher": "Los Cerritos Community News",
+      "url": "https://www.loscerritosnews.net/2021/10/29/permits-issued-for-hawaiian-gardens-hotel/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.402Z",
+    "version": 1
+  }
+}

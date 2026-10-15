@@ -1,0 +1,490 @@
+{
+  "key": "fiona-ma",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Fiona Ma",
+  "party": "Party Preference: Democratic",
+  "office": "California Lieutenant Governor",
+  "contestIds": ["la-4348-cc10829-r1", "la-4348-cc10829-r2"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Fiona Ma is California's State Treasurer, a position she has held since 2019. She previously served on the San Francisco Board of Supervisors, in the State Assembly, and on the State Board of Equalization. She is a certified public accountant.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Fiona Ma is California's State Treasurer, a position she has held since 2019.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously served on the San Francisco Board of Supervisors, in the State Assembly, and on the State Board of Equalization.",
+            "cites": [2]
+          },
+          { "text": "She is a certified public accountant.", "cites": [2] }
+        ]
+      },
+      {
+        "text": "Ma has called California's legal cannabis market a 'complete disaster' and proposes organizing a stakeholder group to overhaul Proposition 64 through the Legislature. She says she would prioritize building affordable housing on college campuses and state-owned land. She has proposed creating a zero-interest revolving loan fund for workforce housing, drawn from 5 percent of the Building Homes and Jobs Trust Fund's annual revenue. She supports exempting military retirement pay from state income taxes and increasing fentanyl awareness in schools. She also wants to keep coastlines clean and protect water from pollution.",
+        "cites": [3, 4, 5, 6],
+        "sentences": [
+          {
+            "text": "Ma has called California's legal cannabis market a 'complete disaster' and proposes organizing a stakeholder group to overhaul Proposition 64 through the Legislature.",
+            "cites": [3]
+          },
+          {
+            "text": "She says she would prioritize building affordable housing on college campuses and state-owned land.",
+            "cites": [4]
+          },
+          {
+            "text": "She has proposed creating a zero-interest revolving loan fund for workforce housing, drawn from 5 percent of the Building Homes and Jobs Trust Fund's annual revenue.",
+            "cites": [5]
+          },
+          {
+            "text": "She supports exempting military retirement pay from state income taxes and increasing fentanyl awareness in schools.",
+            "cites": [6]
+          },
+          {
+            "text": "She also wants to keep coastlines clean and protect water from pollution.",
+            "cites": [4]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign says that as Treasurer, she has overseen a state investment portfolio of $150 to $250 billion and helped secure top bond ratings for California. In the Assembly, she authored legislation to ban toxic chemicals in baby products and to strengthen protections for victims of domestic violence. On the Board of Equalization, she ordered three external audits of the agency.",
+        "cites": [7, 24, 2]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "U.S. Sen. Adam Schiff",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [8]
+      },
+      {
+        "organization": "U.S. Sen. Alex Padilla",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [8]
+      },
+      {
+        "organization": "U.S. Rep. Judy Chu",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "U.S. Rep. Ted Lieu",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "U.S. Rep. Brad Sherman",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "U.S. Rep. Mark Takano",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "U.S. Rep. Robert Garcia",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "U.S. Rep. Laura Friedman",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "U.S. Rep. Luz Rivas",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Lt. Gov. Eleni Kounalakis",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Secretary of State Shirley Weber",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "State Controller Malia Cohen",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Senate President pro Tempore Monique Limón",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "State Sen. María Elena Durazo",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "State Sen. Scott Wiener",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Los Angeles Mayor Karen Bass",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Janice Hahn",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Hilda Solis",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "Los Angeles County Sheriff Robert G. Luna",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "Long Beach Mayor Rex Richardson",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "California Democratic Party",
+        "kind": "party",
+        "cites": [11]
+      },
+      {
+        "organization": "California Labor Federation",
+        "kind": "union",
+        "cites": [12]
+      },
+      {
+        "organization": "State Building and Construction Trades Council of California",
+        "kind": "union",
+        "cites": [12]
+      },
+      {
+        "organization": "American Federation of State, County and Municipal Employees (AFSCME)",
+        "kind": "union",
+        "cites": [12]
+      },
+      { "organization": "SEIU California", "kind": "union", "cites": [13] },
+      {
+        "organization": "California Nurses Association",
+        "kind": "union",
+        "cites": [14]
+      },
+      {
+        "organization": "California Faculty Association",
+        "kind": "union",
+        "cites": [15]
+      },
+      {
+        "organization": "Teamsters California",
+        "kind": "union",
+        "cites": [16]
+      },
+      {
+        "organization": "California Professional Firefighters",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "California Federation of Teachers",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Peace Officers Research Association of California",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "California Association of Highway Patrolmen",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "UFCW Western States Council",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Los Angeles Police Protective League",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Association for Los Angeles Deputy Sheriffs (ALADS)",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "California Medical Association",
+        "kind": "organization",
+        "cites": [17]
+      },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Planned Parenthood Affiliates of California",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "California Hispanic Chambers of Commerce",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "California Asian Pacific Chamber of Commerce PAC (CalAsian PAC)",
+        "kind": "organization",
+        "cites": [18]
+      },
+      {
+        "organization": "California Teachers Association",
+        "kind": "union",
+        "cites": [19]
+      },
+      { "organization": "Knock LA", "kind": "organization", "cites": [20] },
+      { "organization": "LA Forward", "kind": "organization", "cites": [21] },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [22]
+      },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [23] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "California lieutenant governor: Who's running and why it ...",
+      "publisher": "LAist",
+      "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-lieutenant-governor",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Fiona Ma - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fiona_Ma",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "California Lt. Gov. candidate calls for cannabis industry overhaul",
+      "publisher": "GreenState",
+      "url": "https://www.greenstate.com/news/california-cannabis-industry-disaster/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Fiona Ma, California lieutenant governor candidate ...",
+      "publisher": "Mercury News",
+      "url": "https://www.mercurynews.com/2026/05/22/fiona-ma-california-lieutenant-governor-candidate-answers-bay-area-news-groups-primary-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Fiona Ma — Lieutenant Governor Candidate Questionnaire ...",
+      "publisher": "GrowSF",
+      "url": "https://growsf.org/voter-guide/questionnaires/june-2026/fiona-ma/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Newsom once called it a ‘backwater.’ Now, the race for California’s No. 2 job is heating up",
+      "publisher": "Mercury News",
+      "url": "https://www.mercurynews.com/2026/09/30/election-2026-who-are-the-candidates-running-for-lieutenant-governor-californias-no-2-job/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Why I Am Running - Fiona Ma for Lieutenant ...",
+      "publisher": "Fiona Ma campaign",
+      "url": "https://fionama.com/why-i-am-running/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "U.S. Senators Adam Schiff and Alex Padilla Endorse Fiona Ma for Lieutenant Governor",
+      "publisher": "Fiona Ma for Lieutenant Governor 2026",
+      "url": "https://fionama.com/u-s-senators-adam-schiff-and-alex-padilla-endorse-fiona-ma-for-lieutenant-governor/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "Endorsements - Fiona Ma for Lieutenant Governor",
+      "publisher": "Fiona Ma for Lieutenant Governor 2026",
+      "url": "https://fionama.com/endorsements/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "California Constitutional Officers and Supermajority of Legislators Unite Behind Fiona Ma for Lieutenant Governor",
+      "publisher": "Fiona Ma for Lieutenant Governor 2026",
+      "url": "https://fionama.com/california-constitutional-officers-and-supermajority-of-legislators-unite-behind-fiona-ma-for-lieutenant-governor/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "2026 General Election Endorsements & Ballot Measure Positions",
+      "publisher": "California Democratic Party",
+      "url": "https://cadem.org/wp-content/uploads/2026/08/8.5.26-FINAL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "Who are the 2026 California lieutenant governor candidates?",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.org/california-voter-guide-2026/lieutenant-governor/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 13,
+      "title": "SEIU California | 2025 & 2026 Elections",
+      "publisher": "SEIU California",
+      "url": "https://seiuca.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 14,
+      "title": "California endorsements",
+      "publisher": "National Nurses United",
+      "url": "https://www.nationalnursesunited.org/california-endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 15,
+      "title": "Endorsements - California Faculty Association",
+      "publisher": "California Faculty Association",
+      "url": "https://www.calfac.org/politics/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 16,
+      "title": "Teamsters Local 665 & Teamsters California Endorse State Candidates",
+      "publisher": "Teamsters Local 665",
+      "url": "https://www.teamsters665.org/teamsters-local-665-teamsters-california-endorse-state-candidates/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 17,
+      "title": "CMA endorses Fiona Ma for Lieutenant Governor",
+      "publisher": "California Medical Association",
+      "url": "https://www.cmadocs.org/newsroom/news/view/cma-endorses-fiona-ma-for-lieutenant-governor",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 18,
+      "title": "Political Action Committee – CalAsian Chamber",
+      "publisher": "California Asian Pacific Chamber of Commerce",
+      "url": "https://calasiancc.org/pac/?Slot=4346.html",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "2026 Candidate Recommendations",
+      "publisher": "California Teachers Association",
+      "url": "https://www.cta.org/our-advocacy/election-2026",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
+      "publisher": "Knock LA (Ground Game LA)",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 20
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 21
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 22
+    },
+    {
+      "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
+      "publisher": "SEIU Local 721",
+      "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 23
+    },
+    {
+      "title": "California Voter Guide 2022: Fiona Ma - CalMatters",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.org/california-voter-guide-2022/treasurer/fiona-ma/",
+      "kind": "news",
+      "viewedAt": "2026-10-15",
+      "id": 24
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.793Z",
+    "version": 3
+  }
+}

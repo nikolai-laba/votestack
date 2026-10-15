@@ -1,0 +1,120 @@
+{
+  "key": "nancy-cindy-martiz",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Nancy Cindy Martiz",
+  "office": "City of Huntington Park, Member of the City Council, 2nd District (Unexpired term ending December 8, 2028)",
+  "contestIds": ["la-4348-cc10462"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Nancy Cindy Martiz is a Huntington Park City Council member, appointed in April 2025 to fill a vacancy. She previously served on the city’s Civil Service Commission. According to the city, she has more than a decade of human resources and employee benefits experience and leads national HR policy at The Walt Disney Company. She holds a bachelor’s in government and American studies from Smith College and a master’s in public administration and policy from CSU Long Beach.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Nancy Cindy Martiz is a Huntington Park City Council member, appointed in April 2025 to fill a vacancy.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously served on the city’s Civil Service Commission.",
+            "cites": [1]
+          },
+          {
+            "text": "According to the city, she has more than a decade of human resources and employee benefits experience and leads national HR policy at The Walt Disney Company.",
+            "cites": [2]
+          },
+          {
+            "text": "She holds a bachelor’s in government and American studies from Smith College and a master’s in public administration and policy from CSU Long Beach.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "According to a city press release, her priorities include clean air, affordable housing, green space expansion, and safe streets. Her campaign website says she advocates for protecting immigrants, keeping residents housed, investing in aging infrastructure, and restoring parks.",
+        "cites": [3, 4],
+        "sentences": [
+          {
+            "text": "According to a city press release, her priorities include clean air, affordable housing, green space expansion, and safe streets.",
+            "cites": [3]
+          },
+          {
+            "text": "Her campaign website says she advocates for protecting immigrants, keeping residents housed, investing in aging infrastructure, and restoring parks.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Huntington Park Mayor Eduardo “Eddie” Martinez",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Huntington Park Vice Mayor Jonathan Alexander Sanabria",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "California Working Families Party",
+        "kind": "party",
+        "cites": [4]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [5] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Huntington Park council fills seat of member suing over her ...",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2025-04-25/huntington-park-city-council-fills-seat-of-former-member-suing-over-her-removal",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Despite Legal Warnings, Huntington Park Names Nancy Martiz to ...",
+      "publisher": "California City News",
+      "url": "https://www.californiacitynews.org/2025/04/despite-legal-warnings-huntington-park-names-nancy-martiz-vacant-council-seat.html",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "FOR IMMEDIATE RELEASE",
+      "publisher": "City of Huntington Park",
+      "url": "https://hpca.gov/DocumentCenter/View/11807/Media-Release---Nancy-Martiz-Appointed-to-Huntington-Park-City-Council",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Nancy Martiz for City Council",
+      "publisher": "Nancy Martiz campaign",
+      "url": "https://nancy4hp.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 5
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.423Z",
+    "version": 1
+  }
+}

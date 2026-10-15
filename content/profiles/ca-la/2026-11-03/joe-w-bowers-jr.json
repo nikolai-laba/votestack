@@ -1,0 +1,118 @@
+{
+  "key": "joe-w-bowers-jr",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Joe W. Bowers Jr.",
+  "office": "Inglewood Unified School District, Member, Board of Education, Trustee Area 2",
+  "contestIds": ["la-4348-cc10466"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Joe W. Bowers Jr., a contributing editor for California Black Media, is running for Trustee Area 2. He previously worked in executive leadership at IBM, Exxon Research and Engineering, and The Coca-Cola Company. He co-founded the Education Equity Coalition and serves as a liaison between the Inglewood Area Ministers Association and the school district. His campaign says he pushed for a state audit of the district's finances. His priorities include improving student achievement, supporting teachers, and preparing students for graduation.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Joe W. Bowers Jr., a contributing editor for California Black Media, is running for Trustee Area 2.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously worked in executive leadership at IBM, Exxon Research and Engineering, and The Coca-Cola Company.",
+            "cites": [1]
+          },
+          {
+            "text": "He co-founded the Education Equity Coalition and serves as a liaison between the Inglewood Area Ministers Association and the school district.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he pushed for a state audit of the district's finances.",
+            "cites": [2]
+          },
+          {
+            "text": "His priorities include improving student achievement, supporting teachers, and preparing students for graduation.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Assemblymember Tina McKinnor",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [2]
+      },
+      {
+        "organization": "Former State Sen. Isadore Hall III",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [2]
+      },
+      {
+        "organization": "Former Los Angeles City Councilmember Bernard C. Parks",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Inglewood City Councilmember Alex Padilla",
+        "kind": "elected_official",
+        "cites": [2],
+        "party": "Democratic"
+      },
+      {
+        "organization": "Inglewood City Councilmember Eloy Morales Jr.",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Inglewood Unified Board President Carliss McGhee",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Compton Unified Board President Micah Ali",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Former Inglewood Unified Board Member Bishop Johnny J. Young",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Los Angeles Sentinel",
+        "kind": "editorial_board",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Meet Candidates Seeking Office This November in Inglewood",
+      "publisher": "Los Angeles News Observer",
+      "url": "https://ognsc.com/meet-candidates-seeking-office-this-november-in-inglewood/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Joe Bowers for School Board",
+      "publisher": "Joe Bowers for School Board",
+      "url": "https://joebowers4schoolboard.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.106Z",
+    "version": 1
+  }
+}

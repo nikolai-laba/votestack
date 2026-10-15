@@ -1,0 +1,85 @@
+{
+  "key": "aaron-k-drake",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Aaron K. Drake",
+  "office": "City of Bellflower, Member of the City Council, 1st District",
+  "contestIds": ["la-4348-cc10420"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Aaron K. Drake is a detective and investigator who has been appointed to several city commissioner boards in Bellflower.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Aaron K. Drake is a detective and investigator who has been appointed to several city commissioner boards in Bellflower.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "According to a voter guide from DSA Long Beach, he has advocated for capping rent increases beyond state requirements and using federal funds to help first-time home buyers. He names public safety, with a focus on reducing and preventing crime, as his top priority. He supports a comprehensive review of the policing budget.",
+        "cites": [2],
+        "sentences": [
+          {
+            "text": "According to a voter guide from DSA Long Beach, he has advocated for capping rent increases beyond state requirements and using federal funds to help first-time home buyers.",
+            "cites": [2]
+          },
+          {
+            "text": "He names public safety, with a focus on reducing and preventing crime, as his top priority.",
+            "cites": [2]
+          },
+          {
+            "text": "He supports a comprehensive review of the policing budget.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Aaron Drake, Bellflower City Council District 1 candidate, ...",
+      "publisher": "Press-Telegram",
+      "url": "https://www.presstelegram.com/2026/10/05/aaron-drake-bellflower-city-council-district-1-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "DSA Long Beach 2026 General Election Voter Guide",
+      "publisher": "DSA Long Beach",
+      "url": "https://www.dsalb.org/2026voterguide",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "Endorsed Candidates, 2026 General Election (November 3, 2026)",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 3
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.311Z",
+    "version": 2
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "key": "michelle-c-kim",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Michelle C. Kim",
+  "office": "Associate Justice, Court of Appeal, Second District, Division One",
+  "contestIds": ["la-4348-rc10890"],
+  "kind": "retention",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Michelle C. Kim has been an associate justice of the California Court of Appeal, Second District, Division One, since 2024. From 2018 to 2024, she was a Los Angeles Superior Court judge, and previously an alternate public defender. As a Superior Court judge, she was an assistant supervising judge. Her published opinions cover employment law and civil procedure. She is vice chair of the Los Angeles Judicial Selection Advisory Committee.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Michelle C. Kim has been an associate justice of the California Court of Appeal, Second District, Division One, since 2024.",
+            "cites": [1]
+          },
+          {
+            "text": "From 2018 to 2024, she was a Los Angeles Superior Court judge, and previously an alternate public defender.",
+            "cites": [2]
+          },
+          {
+            "text": "As a Superior Court judge, she was an assistant supervising judge.",
+            "cites": [1]
+          },
+          {
+            "text": "Her published opinions cover employment law and civil procedure.",
+            "cites": [2]
+          },
+          {
+            "text": "She is vice chair of the Los Angeles Judicial Selection Advisory Committee.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [3] },
+      {
+        "organization": "Indivisible Ventura",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Santa Clarita Valley Democrats",
+        "kind": "organization",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Michelle C. Kim | Second Appellate District | District Courts of Appeal",
+      "publisher": "California Court of Appeal, Second District",
+      "url": "https://appellate.courts.ca.gov/district-courts/2dca/bio/michelle-c-kim",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Michelle C. Kim - Daily Journal",
+      "publisher": "Daily Journal",
+      "url": "https://www.dailyjournal.com/people/209505-michelle-c-kim",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Nonpartisan Judicial Offices",
+      "publisher": "Indivisible Ventura",
+      "url": "https://indivisibleventura.org/nonpartisan-judicial-offices/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "November 2026 Candidate Endorsements",
+      "publisher": "Santa Clarita Valley Democrats",
+      "url": "https://www.santaclaritavalleydemocrats.com/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.742Z",
+    "version": 1
+  }
+}

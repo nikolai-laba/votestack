@@ -1,0 +1,93 @@
+{
+  "key": "brian-gorrindo",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Brian Gorrindo",
+  "office": "Antelope Valley-East Kern Water Agency, Member, Board of Directors, Division 3",
+  "contestIds": ["la-4348-cc10563"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Brian Gorrindo is a Glendale Fire Department fire captain and owner-operator of Gorrindo Ranch and Cattle. He has been a fire captain since 2002 and has operated the ranch since 2020. In 2026, the governor appointed him to the 50th District Agricultural Association, Antelope Valley Fair Board. He serves on the Kids Feeding Kids Through Agriculture board and is a member of the Los Angeles Cattlemen’s Association.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Brian Gorrindo is a Glendale Fire Department fire captain and owner-operator of Gorrindo Ranch and Cattle.",
+            "cites": [1]
+          },
+          {
+            "text": "He has been a fire captain since 2002 and has operated the ranch since 2020.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2026, the governor appointed him to the 50th District Agricultural Association, Antelope Valley Fair Board.",
+            "cites": [1]
+          },
+          {
+            "text": "He serves on the Kids Feeding Kids Through Agriculture board and is a member of the Los Angeles Cattlemen’s Association.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      { "organization": "IBEW Local 11", "kind": "union", "cites": [2] },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Republican Party of Los Angeles County",
+        "kind": "party",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Governor Newsom announces appointments 2.27.2026",
+      "publisher": "Office of Governor Gavin Newsom",
+      "url": "https://www.gov.ca.gov/2026/02/27/governor-newsom-announces-appointments-2-27-2026/",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Political Action & Endorsements",
+      "publisher": "IBEW Local 11",
+      "url": "https://www.ibew11.org/political",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 3
+    },
+    {
+      "title": "LAGOP Endorsement Lookup, November 3, 2026 General Election",
+      "publisher": "Republican Party of Los Angeles County",
+      "url": "https://lagop-endorsement-lookup.vercel.app/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 4
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.189Z",
+    "version": 2
+  }
+}

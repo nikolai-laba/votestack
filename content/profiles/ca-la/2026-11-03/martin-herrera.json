@@ -1,0 +1,100 @@
+{
+  "key": "martin-herrera",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Martin Herrera",
+  "office": "City of El Monte, Member of the City Council, 2nd District",
+  "contestIds": ["la-4348-cc10449"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Martin Herrera is the District 2 councilmember in El Monte. Court records reported in September 2026 show he pleaded guilty or no contest to three DWI offenses in Texas between 2001 and 2010. He disclosed one DWI on his council appointment application. Mayor Jessica Ancona has called for his resignation.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Martin Herrera is the District 2 councilmember in El Monte.",
+            "cites": [1]
+          },
+          {
+            "text": "Court records reported in September 2026 show he pleaded guilty or no contest to three DWI offenses in Texas between 2001 and 2010.",
+            "cites": [1]
+          },
+          {
+            "text": "He disclosed one DWI on his council appointment application.",
+            "cites": [2]
+          },
+          {
+            "text": "Mayor Jessica Ancona has called for his resignation.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "Herrera is an Army veteran and former combat medic. He earned an associate degree in political science and behavioral sciences and has studied at Cal State Los Angeles. In 2021, he was board secretary for San Gabriel Pride. In 2026, he voted to provide over $400,000 in funding for a Homekey homeless housing project.",
+        "cites": [3, 4],
+        "sentences": [
+          {
+            "text": "Herrera is an Army veteran and former combat medic.",
+            "cites": [3]
+          },
+          {
+            "text": "He earned an associate degree in political science and behavioral sciences and has studied at Cal State Los Angeles.",
+            "cites": [3]
+          },
+          {
+            "text": "In 2021, he was board secretary for San Gabriel Pride.",
+            "cites": [3]
+          },
+          {
+            "text": "In 2026, he voted to provide over $400,000 in funding for a Homekey homeless housing project.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-15", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Court records show multiple criminal offenses by El Monte councilman",
+      "publisher": "Hey SoCal",
+      "url": "https://heysocal.com/2026/09/30/court-records-show-multiple-criminal-offenses-by-el-monte-councilman/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "El Monte Councilman Martin Herrera Faces Resignation Calls",
+      "publisher": "Hoodline",
+      "url": "https://hoodline.com/2026/10/el-monte-councilman-s-texas-dwi-indecency-arrests-surface-mayor-demands-he-quit/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "El Monte City Council selects Martin Herrera to fill vacant seat",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2021/01/27/el-monte-city-council-selects-martin-herrera-to-fill-vacant-seat/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "In El Monte, a transformed Motel M homeless housing project gets added funding",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/09/11/in-el-monte-a-transformed-motel-m-homeless-housing-project-gets-added-funding/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.380Z",
+    "version": 1
+  }
+}

@@ -1,0 +1,802 @@
+{
+  "slug": "los-angeles-county-federation-of-labor",
+  "endorser": "Los Angeles County Federation of Labor",
+  "kind": "union",
+  "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+  "publisher": "Los Angeles County Federation of Labor",
+  "url": "https://thelafed.org/resource/lalaborvoterguide/",
+  "note": "The guide is published only as page images; they were read by hand (LAFED_TRANSCRIBED in scripts/lib/profiles/slate-parsers.ts), and the parser stops if any image changes. The images are numbered 1 to 9 with no page 7. \"No Recommendation\" is left out.",
+  "fetchedAt": "2026-10-15",
+  "entries": [
+    {
+      "name": "Xavier Becerra",
+      "office": "Governor",
+      "matchedKey": "xavier-becerra"
+    },
+    { "name": "Fiona Ma", "office": "Lt. Governor", "matchedKey": "fiona-ma" },
+    {
+      "name": "Shirley Weber",
+      "office": "Secretary of State",
+      "matchedKey": "shirley-n-weber"
+    },
+    {
+      "name": "Rob Bonta",
+      "office": "Attorney General",
+      "matchedKey": "rob-bonta"
+    },
+    {
+      "name": "Malia Cohen",
+      "office": "CA State Controller",
+      "matchedKey": "malia-m-cohen"
+    },
+    {
+      "name": "Eleni Kounalakis",
+      "office": "CA State Treasurer",
+      "matchedKey": "eleni-kounalakis"
+    },
+    {
+      "name": "Jane Kim",
+      "office": "CA State Insurance Commissioner",
+      "matchedKey": "jane-kim"
+    },
+    {
+      "name": "Richard Barrera",
+      "office": "CA Superintendent of Public Instruction",
+      "matchedKey": "richard-barrera"
+    },
+    {
+      "name": "Mike Gipson",
+      "office": "CA Board of Equalization, District 3",
+      "matchedKey": "mike-gipson"
+    },
+    {
+      "name": "Jacqui Irwin",
+      "office": "U.S. Congress, CA 26",
+      "matchedKey": "jacqui-irwin"
+    },
+    {
+      "name": "George Whitesides",
+      "office": "U.S. Congress, CA 27",
+      "matchedKey": "george-whitesides"
+    },
+    {
+      "name": "Judy Chu",
+      "office": "U.S. Congress, CA 28",
+      "matchedKey": "judy-chu"
+    },
+    {
+      "name": "Luz Rivas",
+      "office": "U.S. Congress, CA 29",
+      "matchedKey": "luz-maria-rivas"
+    },
+    {
+      "name": "Laura Friedman",
+      "office": "U.S. Congress, CA 30",
+      "matchedKey": "laura-friedman"
+    },
+    {
+      "name": "Gil Cisneros",
+      "office": "U.S. Congress, CA 31",
+      "matchedKey": "gil-cisneros"
+    },
+    {
+      "name": "Brad Sherman",
+      "office": "U.S. Congress, CA 32",
+      "matchedKey": "brad-sherman"
+    },
+    {
+      "name": "Jimmy Gomez",
+      "office": "U.S. Congress, CA 34",
+      "matchedKey": "jimmy-gomez"
+    },
+    {
+      "name": "Norma Torres",
+      "office": "U.S. Congress, CA 35",
+      "matchedKey": "norma-j-torres"
+    },
+    {
+      "name": "Ted Lieu",
+      "office": "U.S. Congress, CA 36",
+      "matchedKey": "ted-w-lieu"
+    },
+    {
+      "name": "Sydney Kamlager-Dove",
+      "office": "U.S. Congress, CA 37",
+      "matchedKey": "sydney-kamlager-dove"
+    },
+    {
+      "name": "Hilda Solis",
+      "office": "U.S. Congress, CA 38",
+      "matchedKey": "hilda-solis"
+    },
+    {
+      "name": "Linda Sanchez",
+      "office": "U.S. Congress, CA 41",
+      "matchedKey": "linda-sanchez"
+    },
+    {
+      "name": "Robert Garcia",
+      "office": "U.S. Congress, CA 42",
+      "matchedKey": "robert-garcia"
+    },
+    {
+      "name": "Maxine Waters",
+      "office": "U.S. Congress, CA 43",
+      "matchedKey": "maxine-waters"
+    },
+    {
+      "name": "Nanette Barragan",
+      "office": "U.S. Congress, CA 44",
+      "matchedKey": "nanette-diaz-barragan"
+    },
+    {
+      "name": "Caroline Menjivar",
+      "office": "State Senate, SD 20",
+      "matchedKey": "caroline-menjivar"
+    },
+    {
+      "name": "John Erickson",
+      "office": "State Senate, SD 24",
+      "matchedKey": "john-m-erickson"
+    },
+    {
+      "name": "Sara Hernandez",
+      "office": "State Senate, SD 26",
+      "matchedKey": "sara-hernandez"
+    },
+    {
+      "name": "Lola Smallwood-Cuevas",
+      "office": "State Senate, SD 28",
+      "matchedKey": "lola-smallwood-cuevas"
+    },
+    {
+      "name": "Bob Archuleta",
+      "office": "State Senate, SD 30",
+      "matchedKey": "bob-j-archuleta"
+    },
+    {
+      "name": "Juan Carrillo",
+      "office": "State Assembly, AD 39",
+      "matchedKey": "juan-carrillo"
+    },
+    {
+      "name": "Pilar Schiavo",
+      "office": "State Assembly, AD 40",
+      "matchedKey": "pilar-schiavo"
+    },
+    {
+      "name": "John Harabedian",
+      "office": "State Assembly, AD 41",
+      "matchedKey": "john-harabedian"
+    },
+    {
+      "name": "Deborah Klein Lopez",
+      "office": "State Assembly, AD 42",
+      "matchedKey": "deborah-klein-lopez"
+    },
+    {
+      "name": "Celeste Rodriguez",
+      "office": "State Assembly, AD 43",
+      "matchedKey": "celeste-rodriguez"
+    },
+    {
+      "name": "Nick Schultz",
+      "office": "State Assembly, AD 44",
+      "matchedKey": "nicholas-nick-schultz"
+    },
+    {
+      "name": "Jesse Gabriel",
+      "office": "State Assembly, AD 46",
+      "matchedKey": "jesse-gabriel"
+    },
+    {
+      "name": "Mike Fong",
+      "office": "State Assembly, AD 49",
+      "matchedKey": "mike-fong"
+    },
+    {
+      "name": "Rick Chavez Zbur",
+      "office": "State Assembly, AD 51",
+      "matchedKey": "rick-chavez-zbur"
+    },
+    {
+      "name": "Jessica Caloza",
+      "office": "State Assembly, AD 52",
+      "matchedKey": "jessica-caloza"
+    },
+    {
+      "name": "Mark Gonzalez",
+      "office": "State Assembly, AD 54",
+      "matchedKey": "mark-gonzalez"
+    },
+    {
+      "name": "Isaac Bryan",
+      "office": "State Assembly, AD 55",
+      "matchedKey": "isaac-g-bryan"
+    },
+    {
+      "name": "Lisa Calderon",
+      "office": "State Assembly, AD 56",
+      "matchedKey": "lisa-calderon"
+    },
+    {
+      "name": "Sade Elhawary",
+      "office": "State Assembly, AD 57",
+      "matchedKey": "sade-elhawary"
+    },
+    {
+      "name": "Tina McKinnor",
+      "office": "State Assembly, AD 61",
+      "matchedKey": "tina-simone-mckinnor"
+    },
+    {
+      "name": "Jose Solache",
+      "office": "State Assembly, AD 62",
+      "matchedKey": "jose-luis-solache"
+    },
+    {
+      "name": "Ayanna Davis",
+      "office": "State Assembly, AD 65",
+      "matchedKey": "ayanna-davis"
+    },
+    {
+      "name": "Paul Seo",
+      "office": "State Assembly, AD 66",
+      "matchedKey": "paul-seo"
+    },
+    {
+      "name": "Mark Pulido",
+      "office": "State Assembly, AD 67",
+      "matchedKey": "mark-pulido"
+    },
+    {
+      "name": "Josh Lowenthal",
+      "office": "State Assembly, AD 69",
+      "matchedKey": "josh-lowenthal"
+    },
+    {
+      "name": "Karen Bass",
+      "office": "Mayor of Los Angeles",
+      "matchedKey": "karen-ruth-bass"
+    },
+    {
+      "name": "Robert Luna",
+      "office": "LA County Sheriff",
+      "matchedKey": "robert-g-luna"
+    },
+    {
+      "name": "Barri Worth Girvan",
+      "office": "LA City Council, CD 3",
+      "matchedKey": "barri-worth-girvan"
+    },
+    {
+      "name": "Marissa Roy",
+      "office": "LA City Attorney",
+      "matchedKey": "marissa-roy"
+    },
+    {
+      "name": "Adele Andrade Stadler",
+      "office": "Alhambra City Council, CD 5",
+      "matchedKey": "adele-andrade-stadler"
+    },
+    {
+      "name": "Jennifer Tang",
+      "office": "Alhambra Unified School District, Seat 4",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Drew Mercy",
+      "office": "Antelope Valley- East Kern Water District, Div 1",
+      "matchedKey": "drew-mercy"
+    },
+    {
+      "name": "Melissa Ramoso",
+      "office": "Artesia City Council",
+      "matchedKey": "melissa-ramoso"
+    },
+    {
+      "name": "Ali Sajjad Taj",
+      "office": "Artesia City Council",
+      "matchedKey": "ali-taj"
+    },
+    {
+      "name": "Amie Stewart",
+      "office": "Bellflower Unified School District, Area 1",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Nikki Perez",
+      "office": "Burbank City Council",
+      "matchedKey": "nikki-perez"
+    },
+    {
+      "name": "Nolan Southerland",
+      "office": "Burbank City Council",
+      "matchedKey": "nolan-southerland"
+    },
+    {
+      "name": "Mike Van Gorder",
+      "office": "Burbank City Council",
+      "matchedKey": "mike-van-gorder"
+    },
+    {
+      "name": "Rosemary T. Morrison",
+      "office": "Burbank Unified School District, Area 3",
+      "matchedKey": "rosemary-t-morrison"
+    },
+    {
+      "name": "Jim Dear",
+      "office": "Carson City Council, CD 2",
+      "matchedKey": "jim-dear"
+    },
+    {
+      "name": "Estefany Castaneda",
+      "office": "Centinela Valley Union High School District, Area 5",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Reza Rassool",
+      "office": "College of the Canyons, Board Area 1",
+      "matchedKey": "reza-rassool"
+    },
+    {
+      "name": "Bennie Tinson",
+      "office": "Compton City Council, CD 2",
+      "matchedKey": "bennie-tinson"
+    },
+    {
+      "name": "Juanita Doplemore",
+      "office": "Compton College Trustee, Area 4",
+      "matchedKey": "juanita-doplemore"
+    },
+    {
+      "name": "Emma Sharif",
+      "office": "Mayor of Compton",
+      "matchedKey": "emma-sharif"
+    },
+    {
+      "name": "Cynthia Romo",
+      "office": "Cudahy City Council",
+      "matchedKey": "cynthia-romo"
+    },
+    {
+      "name": "Cynthia Gonzalez",
+      "office": "Cudahy City Council",
+      "matchedKey": "cynthia-gonzalez"
+    },
+    {
+      "name": "Jeannine Wisnosky Stehlin",
+      "office": "Culver City Council",
+      "matchedKey": "jeannine-wisnosky-stehlin"
+    },
+    {
+      "name": "Brian Guerrero",
+      "office": "Culver City Unified School District",
+      "matchedKey": "brian-guerrero"
+    },
+    {
+      "name": "Stephanie Loredo",
+      "office": "Culver City Unified School District",
+      "matchedKey": "stephanie-loredo"
+    },
+    {
+      "name": "Lisa Dabbs",
+      "office": "East Whittier City School Board, Seat 1",
+      "matchedKey": "lisa-michelle-dabbs"
+    },
+    {
+      "name": "Michael Ramos",
+      "office": "East Whittier City School Board, Seat 3",
+      "matchedKey": "michael-ramos"
+    },
+    {
+      "name": "Jerry Velasco",
+      "office": "El Monte City Clerk",
+      "matchedKey": "jerry-velasco"
+    },
+    {
+      "name": "Kristy Rowe",
+      "office": "El Monte Union High School District, Area 3",
+      "matchedKey": "kristy-socorro-rowe"
+    },
+    {
+      "name": "Florencio Briones",
+      "office": "El Monte Union High School District, Area 4",
+      "matchedKey": "florencio-briones"
+    },
+    {
+      "name": "Raul Pardo",
+      "office": "El Monte Union High School District, Area 5",
+      "matchedKey": "raul-pardo"
+    },
+    {
+      "name": "Johnny Yoder",
+      "office": "Hacienda- La Puente Unified School District, Area 2",
+      "matchedKey": "johnathon-johnny-yoder"
+    },
+    {
+      "name": "Gino Kwok",
+      "office": "Hacienda- La Puente Unified School District, Area 4",
+      "matchedKey": "gino-kwok"
+    },
+    {
+      "name": "Alitzah Wiener",
+      "office": "Hacienda- La Puente Unified School District, Area 5",
+      "matchedKey": "alitzah-wiener"
+    },
+    {
+      "name": "Julee Brooks",
+      "office": "Hart School District, Board Area 2",
+      "matchedKey": "julee-brooks"
+    },
+    {
+      "name": "Alex Padilla",
+      "office": "Inglewood City Council, CD 2",
+      "matchedKey": "alex-padilla"
+    },
+    {
+      "name": "Jesus Mendoza",
+      "office": "Hawaiian Gardens City Council",
+      "matchedKey": "jesus-mendoza"
+    },
+    {
+      "name": "Mesahl “Kash” Kashifalghita",
+      "office": "La Verne City Council, CD3",
+      "matchedKey": "meshal-kash-kashifalghita"
+    },
+    {
+      "name": "Steve Veres",
+      "office": "LA Community College District, Seat 2",
+      "matchedKey": "steven-f-veres"
+    },
+    {
+      "name": "Darryn Harris",
+      "office": "LA Community College District, Seat 4",
+      "matchedKey": "darryn-harris"
+    },
+    {
+      "name": "Randall Winston",
+      "office": "LA Community College District, Seat 6",
+      "matchedKey": "randall-winston"
+    },
+    {
+      "name": "Robert Pullen-Miles",
+      "office": "Mayor of Lawndale",
+      "matchedKey": "robert-pullen-miles"
+    },
+    {
+      "name": "Dora Sandoval",
+      "office": "Little Lake City School District, Area 5",
+      "matchedKey": "dora-d-sandoval"
+    },
+    {
+      "name": "Uduak Ntuk",
+      "office": "Long Beach City College Board of Trustees, Area 1",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Sunny Zia",
+      "office": "Long Beach City College Board of Trustees, Area 3",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Mariela Renteria",
+      "office": "Lynwood Unified School District",
+      "matchedKey": "mariela-renteria"
+    },
+    {
+      "name": "Juan Munoz Guevara",
+      "office": "Lynwood City Council",
+      "matchedKey": "juan-munoz-guevara"
+    },
+    {
+      "name": "Mishaun Watkins",
+      "office": "Lynwood City Council",
+      "matchedKey": "mishaun-watkins"
+    },
+    {
+      "name": "Emiliano Arellano",
+      "office": "Lynwood City Council",
+      "matchedKey": "emiliano-arellano"
+    },
+    {
+      "name": "Rafael Santoya",
+      "office": "Montebello City Council, District 1",
+      "matchedKey": "rafael-santoya"
+    },
+    {
+      "name": "Ana Torres",
+      "office": "Montebello City Council, District 3",
+      "matchedKey": "ana-torres"
+    },
+    {
+      "name": "Danielle Romero",
+      "office": "Montebello City Council, District 4",
+      "matchedKey": "danielle-romero"
+    },
+    {
+      "name": "Eddie de la Riva",
+      "office": "Maywood City Council",
+      "matchedKey": "eduardo-eddie-de-la-riva"
+    },
+    {
+      "name": "Mayra Aguiluz",
+      "office": "Maywood City Council",
+      "matchedKey": "mayra-aguiluz"
+    },
+    {
+      "name": "Thomas Wong",
+      "office": "Monterey Park City Council",
+      "matchedKey": "thomas-wong"
+    },
+    {
+      "name": "Vinh T. Ngo",
+      "office": "Monterey Park City Council",
+      "matchedKey": "vinh-t-ngo"
+    },
+    {
+      "name": "David Matanga",
+      "office": "City of Montebello Treasurer",
+      "matchedKey": "david-matanga"
+    },
+    {
+      "name": "Laura Santos",
+      "office": "Mt. San Antonio Community College District, Area 3",
+      "matchedKey": "laura-luciana-santos"
+    },
+    {
+      "name": "Adam Carranza",
+      "office": "Mountain View School District",
+      "matchedKey": "adam-c-carranza"
+    },
+    {
+      "name": "Cindy Wu",
+      "office": "Mountain View School District",
+      "matchedKey": "cindy-wu"
+    },
+    {
+      "name": "Eric Ohlsen",
+      "office": "Palmdale City Council, District 4",
+      "matchedKey": "eric-ohlsen"
+    },
+    {
+      "name": "V. Jesse Smith",
+      "office": "Palmdale City Council, District 5",
+      "matchedKey": "v-jesse-smith"
+    },
+    {
+      "name": "Michelle Kampbell",
+      "office": "Newhall School District, Board Area 1",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Sonia Olmos",
+      "office": "Paramount Unified School District, District 1",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Tricia Bass-Riedel",
+      "office": "Paramount Unified School District, District 5",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Ralph Velador",
+      "office": "Palmdale School Board, Area 1",
+      "matchedKey": "ralph-velador"
+    },
+    {
+      "name": "Johnny Garcia",
+      "office": "Pico Rivera City Council",
+      "matchedKey": "johnny-garcia"
+    },
+    {
+      "name": "Gustavo V. Camacho",
+      "office": "Pico Rivera City Council",
+      "matchedKey": "gustavo-v-camacho"
+    },
+    {
+      "name": "Francis Pollara",
+      "office": "Pasadena City College, Seat 1",
+      "matchedKey": "francis-pollara"
+    },
+    {
+      "name": "Steve Gibson",
+      "office": "Pasadena City College, Seat 3",
+      "matchedKey": "steve-gibson"
+    },
+    {
+      "name": "Alton Wang",
+      "office": "Pasadena City College, Seat 7",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Jacqueline Elizalde",
+      "office": "Pomona City Council, District 2",
+      "matchedKey": "jacky-elizalde"
+    },
+    {
+      "name": "Lisa C. Nashua",
+      "office": "Pomona Unified School District, Area 1",
+      "matchedKey": "lisa-c-nashua"
+    },
+    {
+      "name": "Sandra Armenta",
+      "office": "Rosemead City Council",
+      "matchedKey": "sandra-armenta"
+    },
+    {
+      "name": "Diana Lam",
+      "office": "Rosemead City Council",
+      "matchedKey": "diana-lam"
+    },
+    {
+      "name": "Steven Ly",
+      "office": "Rosemead City Council",
+      "matchedKey": "steven-ly"
+    },
+    {
+      "name": "Anais Medina Diaz",
+      "office": "Rio Hondo Community College Board of Trustees",
+      "matchedKey": "anais-medina-diaz"
+    },
+    {
+      "name": "Brett Haddoak",
+      "office": "Santa Clarita City Council, District 2",
+      "matchedKey": "brett-haddoak"
+    },
+    {
+      "name": "Valerie Bradford",
+      "office": "Santa Clarita City Council, District 4",
+      "matchedKey": "valerie-bradford"
+    },
+    {
+      "name": "Kelvin Driscoll",
+      "office": "Santa Clarita City Council, District 5",
+      "matchedKey": "kelvin-driscoll"
+    },
+    {
+      "name": "Wendy Wang",
+      "office": "San Gabriel City Council",
+      "matchedKey": "wendy-wang"
+    },
+    {
+      "name": "Denise Menchaca",
+      "office": "San Gabriel City Council",
+      "matchedKey": "denise-menchaca"
+    },
+    {
+      "name": "Brett Morrow",
+      "office": "Santa Monica City Council",
+      "matchedKey": "brett-morrow"
+    },
+    {
+      "name": "Caroline Torosis",
+      "office": "Santa Monica City Council",
+      "matchedKey": "caroline-m-torosis"
+    },
+    {
+      "name": "Danny Ivanov",
+      "office": "Santa Monica City Council",
+      "matchedKey": "daniel-ivanov"
+    },
+    {
+      "name": "Maria Gutzeit",
+      "office": "Santa Clarita Valley Water Board, Div. 3",
+      "matchedKey": "maria-a-gutzeit"
+    },
+    {
+      "name": "Oscar de la Torre",
+      "office": "Santa Monica College Board of Trustees",
+      "matchedKey": "oscar-de-la-torre"
+    },
+    {
+      "name": "Tom Peters",
+      "office": "Santa Monica College Board of Trustees",
+      "matchedKey": "tom-peters"
+    },
+    {
+      "name": "Alicia Mignano",
+      "office": "Santa Monica-Malibu Unified School District Board",
+      "matchedKey": "alicia-mignano"
+    },
+    {
+      "name": "Laurie Lieberman",
+      "office": "Santa Monica-Malibu Unified School District Board",
+      "matchedKey": "laurie-lieberman"
+    },
+    {
+      "name": "Robbie Staenberg",
+      "office": "Santa Monica-Malibu Unified School District Board",
+      "matchedKey": "robbie-staenberg"
+    },
+    {
+      "name": "Larry Grable",
+      "office": "Sagus Union School District, Board Area 1",
+      "matchedKey": "larry-grable"
+    },
+    {
+      "name": "Alisa Gentry",
+      "office": "Sagus Union School District, Board Area 2",
+      "matchedKey": "alisa-gentry"
+    },
+    {
+      "name": "Chris Trunkey",
+      "office": "Sagus Union School District, Area 5",
+      "matchedKey": "christopher-trunkey"
+    },
+    {
+      "name": "Rudy Bojorquez",
+      "office": "South El Monte City Council",
+      "matchedKey": "rudy-bojorquez"
+    },
+    {
+      "name": "Manny Acosta",
+      "office": "South El Monte City Council",
+      "matchedKey": "manuel-manny-acosta"
+    },
+    {
+      "name": "Joshua Barron",
+      "office": "Southgate City Council",
+      "matchedKey": "joshua-barron"
+    },
+    {
+      "name": "Al Rios",
+      "office": "Southgate City Council",
+      "matchedKey": "al-rios"
+    },
+    {
+      "name": "Monica Aleman Gibbs",
+      "office": "Three Valleys Municipal Water District, Div 3",
+      "matchedKey": "monica-aleman-gibbs"
+    },
+    {
+      "name": "Al Austin",
+      "office": "Water Replenishment District, Div 3",
+      "matchedKey": "al-austin"
+    },
+    {
+      "name": "Tommy Faavae",
+      "office": "West Basin Municipal Water District, Div 1",
+      "matchedKey": "tommy-g-faavae"
+    },
+    {
+      "name": "Armando Urteaga",
+      "office": "Whittier Union High School District, District 5",
+      "matchedKey": "armando-urteaga"
+    },
+    {
+      "name": "Chelsea Byers",
+      "office": "West Hollywood City Council",
+      "matchedKey": "chelsea-byers"
+    },
+    {
+      "name": "Jonathan Cottrell",
+      "office": "West Hollywood City Council",
+      "matchedKey": "jonathan-cottrell"
+    },
+    {
+      "name": "Helen Krieger",
+      "office": "West Hollywood City Council",
+      "matchedKey": "helen-krieger"
+    },
+    {
+      "name": "Andrew Roble",
+      "office": "Whittier City School Board, District 5",
+      "matchedKey": "andrew-roble"
+    },
+    {
+      "name": "Pauline Pezza",
+      "office": "West Covina City Council, CD 4",
+      "matchedKey": "pauline-pezza"
+    }
+  ]
+}
