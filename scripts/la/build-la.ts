@@ -76,6 +76,28 @@ interface IsbSegment {
 }
 
 /**
+ * A title in readable case. readableCase leaves a lone capitalized word
+ * ("SHERIFF", "GOVERNOR") as it is, so a title with no lower case at all is
+ * capitalized word by word.
+ */
+function titleCase(text: string): string {
+  const readable = readableCase(text)
+  if (/[a-z]/.test(readable)) return readable
+  return readable
+    .toLowerCase()
+    .replace(/(^|[\s(-])(\p{L})/gu, (_, sep, ch) => sep + ch.toUpperCase())
+    .replace(/\b(Of|The|And|For)\b/g, (w) => w.toLowerCase())
+}
+
+/** "JUDGE OF THE SUPERIOR COURT Office No. 64" → "Office No. 64". */
+function seatOf(name: string): string | undefined {
+  const office = /\bOffice No\.? ?(\d+)/i.exec(name)?.[1]
+  if (office) return `Office No. ${office}`
+  const seat = /\bSeat (\d+)/i.exec(name)?.[1]
+  return seat ? `Seat ${seat}` : undefined
+}
+
+/**
  * A candidate's name, readable: the Registrar's names are in capitals
  * ("NORMA J. TORRES" → "Norma J. Torres"); names in mixed case are kept.
  */
@@ -286,7 +308,7 @@ for (const [id, c] of isbContests) {
     electionId: LOS_ANGELES.election.id,
     districtId: districtOf.get(id)!,
     authorityId: AUTHORITY.id,
-    title: readableCase(
+    title: titleCase(
       c.contest_class === 'ballot_measure_class'
         ? name
         : contestTitle(name.replace(/^For /, '')),
@@ -361,11 +383,11 @@ for (const [id, c] of isbContests) {
       id: variant ? `${base.id}-r${k + 1}` : base.id,
       districtId,
       kind: 'candidate',
-      office: readableCase(contestTitle(name)),
+      office: titleCase(contestTitle(name)),
       voteFor: c.vote_for_max || 1,
-      ...(/\bSeat (\d+)/i.exec(name) && {
-        vacancy: `Seat ${/\bSeat (\d+)/i.exec(name)![1]}`,
-      }),
+      // Names the seat when one district elects several separately
+      // (Superior Court "Office No. 64", college board "Seat 2").
+      ...(seatOf(name) && { vacancy: seatOf(name) }),
       candidates,
     })
   })

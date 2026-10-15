@@ -39,6 +39,17 @@ function number(text: string): number {
   return word ? ORDINALS.indexOf(word.toLowerCase()) + 1 : NaN
 }
 
+/** Cities whose names end in "City", so "X CITY" isn't "the city of X". */
+const CITY_NAMES = new Set(['CULVER CITY', 'TEMPLE CITY'])
+
+/**
+ * The city a jurisdiction name names: "CITY OF PASADENA" → "PASADENA",
+ * "LOS ANGELES CITY" → "LOS ANGELES", "CULVER CITY" → "CULVER CITY".
+ */
+const cityIn = (n: string) =>
+  /^CITY OF (.+)$/.exec(n)?.[1] ??
+  (CITY_NAMES.has(n) ? n : (/^(.+?) CITY$/.exec(n)?.[1] ?? null))
+
 /** "Pasadena" → `…/state:ca/place:pasadena`. */
 export const city = (name: string): OcdId =>
   `${CA}/place:${ocd.ocdSlug(name.replace(/^CITY OF /i, ''))}`
@@ -79,8 +90,7 @@ export function jurisdiction(name: string): OcdId | null {
     return `${COUNTY}/community_college_district:${ocd.ocdSlug(n.replace(/ COMMUNITY COLLEGE DISTRICT$/, ''))}`
   if (/SCHOOL DISTRICT$/.test(n))
     return `${COUNTY}/school_district:${ocd.ocdSlug(n.replace(/ SCHOOL DISTRICT$/, ''))}`
-  const cityName =
-    /^CITY OF (.+)$/.exec(n)?.[1] ?? /^(.+?) CITY$/.exec(n)?.[1] ?? null
+  const cityName = cityIn(n)
   if (cityName) return city(cityName)
   return `${COUNTY}/special_district:${ocd.ocdSlug(n)}`
 }
@@ -161,7 +171,7 @@ export function contestTitle(name: string): string {
   const [place, office] = splitJurisdiction(name)
   if (!office || /^(STATE|COUNTY) MEASURE\b/i.test(name)) return name
   const jurisdictionName = withoutElection(place.replace(/,$/, ''))
-  const cityName = /^(.+?) CITY$/.exec(jurisdictionName)?.[1]
+  const cityName = cityIn(jurisdictionName)
   const named = cityName ? `CITY OF ${cityName}` : jurisdictionName
   return named ? `${named}, ${office}` : office
 }

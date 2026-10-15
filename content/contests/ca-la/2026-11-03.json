@@ -1254,8 +1254,8 @@
       "level": "state",
       "path": "ca/2026-11-03/governor",
       "kind": "candidate",
-      "title": "GOVERNOR",
-      "office": "GOVERNOR",
+      "title": "Governor",
+      "office": "Governor",
       "districtId": "ocd-division/country:us/state:ca",
       "contestIds": ["la-4348-cc10828-r1", "la-4348-cc10828-r2"],
       "ballots": ["los-angeles-county"],
@@ -1329,8 +1329,8 @@
       "level": "state",
       "path": "ca/2026-11-03/controller",
       "kind": "candidate",
-      "title": "CONTROLLER",
-      "office": "CONTROLLER",
+      "title": "Controller",
+      "office": "Controller",
       "districtId": "ocd-division/country:us/state:ca",
       "contestIds": ["la-4348-cc10831-r1", "la-4348-cc10831-r2"],
       "ballots": ["los-angeles-county"],
@@ -1354,8 +1354,8 @@
       "level": "state",
       "path": "ca/2026-11-03/treasurer",
       "kind": "candidate",
-      "title": "TREASURER",
-      "office": "TREASURER",
+      "title": "Treasurer",
+      "office": "Treasurer",
       "districtId": "ocd-division/country:us/state:ca",
       "contestIds": ["la-4348-cc10832-r1", "la-4348-cc10832-r2"],
       "ballots": ["los-angeles-county"],
@@ -1477,8 +1477,8 @@
       "level": "county",
       "path": "ca/los-angeles-county/2026-11-03/sheriff",
       "kind": "candidate",
-      "title": "SHERIFF",
-      "office": "SHERIFF",
+      "title": "Sheriff",
+      "office": "Sheriff",
       "districtId": "ocd-division/country:us/state:ca/county:los_angeles",
       "contestIds": ["la-4348-cc10823-r1", "la-4348-cc10823-r2"],
       "ballots": ["los-angeles-county"],
@@ -1506,6 +1506,7 @@
       "contestIds": ["la-4348-cc10824-r1", "la-4348-cc10824-r2"],
       "ballots": ["los-angeles-county"],
       "voteFor": 1,
+      "vacancy": "Office No. 64",
       "candidates": [
         {
           "name": "Rhonda A. Haymon",
@@ -1529,6 +1530,7 @@
       "contestIds": ["la-4348-cc10825-r1", "la-4348-cc10825-r2"],
       "ballots": ["los-angeles-county"],
       "voteFor": 1,
+      "vacancy": "Office No. 65",
       "candidates": [
         {
           "name": "Justin Allen Clayton",
@@ -1552,6 +1554,7 @@
       "contestIds": ["la-4348-cc10826-r1", "la-4348-cc10826-r2"],
       "ballots": ["los-angeles-county"],
       "voteFor": 1,
+      "vacancy": "Office No. 87",
       "candidates": [
         {
           "name": "David Dejute",
@@ -1575,6 +1578,7 @@
       "contestIds": ["la-4348-cc10827-r1", "la-4348-cc10827-r2"],
       "ballots": ["los-angeles-county"],
       "voteFor": 1,
+      "vacancy": "Office No. 131",
       "candidates": [
         {
           "name": "David Ross",
@@ -3258,10 +3262,10 @@
     },
     {
       "level": "local",
-      "path": "ca/culver-city/2026-11-03/city-of-city-of-culver-member-of-the-city-council",
+      "path": "ca/culver-city/2026-11-03/city-of-culver-city-member-of-the-city-council",
       "kind": "candidate",
-      "title": "City of City of Culver, Member of the City Council",
-      "office": "City of City of Culver, Member of the City Council",
+      "title": "City of Culver City, Member of the City Council",
+      "office": "City of Culver City, Member of the City Council",
       "districtId": "ocd-division/country:us/state:ca/place:culver_city",
       "contestIds": ["la-4348-cc10439"],
       "ballots": ["los-angeles-county"],
