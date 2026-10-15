@@ -8,6 +8,7 @@
 
 import { join } from 'node:path'
 import { parseArgs } from 'node:util'
+import { REGION_OPTION } from '../lib/profiles/region.ts'
 import { readJson, writeJson } from '../lib/data.ts'
 import {
   PIPELINE_BUILD,
@@ -20,7 +21,10 @@ import { pruneDeadSources } from '../lib/profiles/prune.ts'
 import { isDeadLink, type LinkResult } from '../lib/profiles/race-checks.ts'
 
 const { values } = parseArgs({
-  options: { 'dry-run': { type: 'boolean', default: false } },
+  options: {
+    ...REGION_OPTION,
+    'dry-run': { type: 'boolean', default: false },
+  },
 })
 const links = await readJson<Record<string, LinkResult>>(
   join(PIPELINE_BUILD, 'link-cache.json'),

@@ -16,6 +16,7 @@
 import { existsSync } from 'node:fs'
 import { relative, resolve } from 'node:path'
 import { parseArgs } from 'node:util'
+import { REGION_OPTION } from '../lib/profiles/region.ts'
 import { readJson } from '../lib/data.ts'
 import { ELECTION_ID } from '../lib/election.ts'
 import {
@@ -35,6 +36,7 @@ import { PUBLISHED_LIST, type PublishedList } from '../lib/prerender.ts'
 
 const { values } = parseArgs({
   options: {
+    ...REGION_OPTION,
     'dry-run': { type: 'boolean', default: false },
     dir: { type: 'string' },
     list: { type: 'boolean', default: false },

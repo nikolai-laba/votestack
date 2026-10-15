@@ -22,6 +22,55 @@ import {
 const BASE = 'https://generativelanguage.googleapis.com/v1beta/models'
 
 /**
+ * The Gemini API's daily request quota for the model is used up. Retrying
+ * won't help until it resets (midnight Pacific time), so a run stops cleanly
+ * instead; finished work is kept and the next run picks up where it stopped.
+ */
+export class GeminiDailyLimitError extends Error {
+  constructor(detail: string) {
+    super(`Gemini API daily limit reached: ${detail.slice(0, 300)}`)
+    this.name = 'GeminiDailyLimitError'
+  }
+}
+
+/**
+ * With GEMINI_API_FIRST and VERTEX_PROJECT both set, calls go to the Gemini
+ * API until it answers that the key is out of credit or quota; from then on
+ * this run uses Vertex AI, retrying the request that failed.
+ */
+const apiFirst = () =>
+  Boolean(process.env.GEMINI_API_FIRST && process.env.VERTEX_PROJECT)
+let movedToVertex = false
+const onVertex = () =>
+  Boolean(process.env.VERTEX_PROJECT) && (!apiFirst() || movedToVertex)
+
+class GeminiCreditError extends Error {}
+
+/**
+ * The Gemini API is out of credit or quota: a 429 that isn't a per-minute
+ * rate limit (those pass), or a billing or credit refusal.
+ */
+export function outOfCredit(status: number, body: string): Error | undefined {
+  if (status === 429 && !/per ?minute/i.test(body))
+    return new GeminiCreditError(body)
+  if (
+    (status === 402 || status === 403) &&
+    /billing|credit|quota|prepa/i.test(body)
+  )
+    return new GeminiCreditError(body)
+  return undefined
+}
+
+/** A 429 whose quota is a per-day one (the error names a "PerDay" quota). */
+export function dailyLimit(status: number, body: string): Error | undefined {
+  if (status !== 429 || !/per ?day/i.test(body)) return undefined
+  return new GeminiDailyLimitError(body)
+}
+
+/** Gemini requests sent by this process, by where they went. */
+export const geminiRequests = { geminiApi: 0, vertex: 0 }
+
+/**
  * Where Gemini calls go. With VERTEX_PROJECT set they go to Vertex AI in
  * that Google Cloud project (higher quotas than the Gemini API's daily
  * cap), signed in with the gcloud CLI's application default credentials;
@@ -31,7 +80,7 @@ async function endpoint(
   model: string,
 ): Promise<{ url: string; headers: Record<string, string> }> {
   const project = process.env.VERTEX_PROJECT
-  if (!project) {
+  if (!project || !onVertex()) {
     return {
       url: `${BASE}/${model}:generateContent`,
       headers: { 'x-goog-api-key': apiKey('GEMINI_API_KEY') },
@@ -121,6 +170,8 @@ export interface GeminiAnswer {
   ms: number
   /** Grounding links, then pages read through URL context. */
   consulted: string[]
+  /** URL context results: how many pages it opened, and how many it couldn't. */
+  pages: { opened: number; failed: number }
 }
 
 /**
@@ -132,15 +183,42 @@ export async function geminiCall(
   prompt: { system: string; user: string; readUrls?: boolean },
 ): Promise<GeminiAnswer> {
   const started = Date.now()
-  const { url, headers } = await endpoint(model)
-  const res = await postJson<GenerateResponse>(url, headers, {
-    systemInstruction: { parts: [{ text: prompt.system }] },
-    contents: [{ role: 'user', parts: [{ text: prompt.user }] }],
-    tools: [
-      ...(prompt.readUrls ? [{ url_context: {} }] : []),
-      { google_search: {} },
-    ],
-  })
+  const call = async () => {
+    const { url, headers } = await endpoint(model)
+    const vertex = onVertex()
+    if (vertex) geminiRequests.vertex++
+    else geminiRequests.geminiApi++
+    return postJson<GenerateResponse>(
+      url,
+      headers,
+      {
+        systemInstruction: { parts: [{ text: prompt.system }] },
+        contents: [{ role: 'user', parts: [{ text: prompt.user }] }],
+        tools: [
+          ...(prompt.readUrls ? [{ url_context: {} }] : []),
+          { google_search: {} },
+        ],
+      },
+      undefined,
+      undefined,
+      undefined,
+      // Vertex has no daily request cap; the Gemini API does.
+      vertex ? undefined : apiFirst() ? outOfCredit : dailyLimit,
+    )
+  }
+  let res: GenerateResponse
+  try {
+    res = await call()
+  } catch (error) {
+    if (!(error instanceof GeminiCreditError)) throw error
+    if (!movedToVertex) {
+      movedToVertex = true
+      console.log(
+        `Gemini API out of credit or quota (${error.message.slice(0, 200)}); using Vertex AI for the rest of this run.`,
+      )
+    }
+    res = await call()
+  }
   const candidate = res.candidates?.[0]
   const text = (candidate?.content?.parts ?? [])
     .filter((p) => !p.thought)
@@ -168,6 +246,10 @@ export async function geminiCall(
       u.retrievedUrl ? [u.retrievedUrl] : [],
     ),
   ]
+  const statuses = (candidate?.urlContextMetadata?.urlMetadata ?? []).map(
+    (u) => u.urlRetrievalStatus ?? '',
+  )
+  const opened = statuses.filter((s) => /SUCCESS/.test(s)).length
   return {
     text,
     servedBy: res.modelVersion ?? model,
@@ -175,6 +257,7 @@ export async function geminiCall(
     costUsd: costFromUsage(model, usage),
     ms: Date.now() - started,
     consulted,
+    pages: { opened, failed: statuses.length - opened },
   }
 }
 

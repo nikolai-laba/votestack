@@ -3,6 +3,7 @@
 // overview, endorsements and the numbered sources they cite. Everything else
 // (key, office, tier, money, meta) comes from the ballot data and the script.
 
+import { PLACE } from './place.ts'
 import {
   OVERVIEW_PARAGRAPH_LIMITS,
   OVERVIEW_WORD_LIMITS,
@@ -119,7 +120,7 @@ export const PROFILE_OUTPUT_SCHEMA = {
 
 /** Shared by every prompt: telling namesakes apart. */
 export const IDENTITY_RULES = `## Make sure it is the right person
-Many people share names. Only use pages that clearly match this candidate's name and office or career in Illinois. If you can't tell, leave the fact out.`
+Many people share names. Only use pages that clearly match this candidate's name and office or career in ${PLACE.careerIn}. If you can't tell, leave the fact out.`
 
 /** Shared by every prompt: VoteStack's voice. */
 export const VOICE_RULES = `## Voice
@@ -134,7 +135,7 @@ export const PRIVACY_RULES = `## Privacy
 Never include a home address, phone number, email address, birth date, age, family members or children, or allegations that were not proven in court.`
 
 /** Sources every stage may use, and never. */
-export const SOURCE_KINDS_RULE = `Use only these kinds of sources: news organizations; the candidate's own campaign or official website; Wikipedia; Ballotpedia; official government sources (.gov sites, the Illinois State Board of Elections, the FEC, ilga.gov, courts); bar associations; the endorsing organization's own announcement. Never use social media (Facebook, X/Twitter, Instagram, TikTok, LinkedIn, YouTube, Reddit and similar) or an opponent's material.`
+export const SOURCE_KINDS_RULE = `Use only these kinds of sources: news organizations; the candidate's own campaign or official website; Wikipedia; Ballotpedia; official government sources (${PLACE.officialSources}); bar associations; the endorsing organization's own announcement. Never use social media (Facebook, X/Twitter, Instagram, TikTok, LinkedIn, YouTube, Reddit and similar) or an opponent's material.`
 
 export const TIER_LENGTH: Record<ProfileTier, string> = {
   top: `2 or ${OVERVIEW_PARAGRAPH_LIMITS.top} short paragraphs, ${OVERVIEW_WORD_LIMITS.top} words or fewer in total`,
@@ -151,10 +152,10 @@ export function buildInstructions(req: ProfileRequest): string {
     ? 'who they are, their legal background, time on the bench and court assignment, and notable work. Judges may not announce views on issues, so never describe positions, promises or how they would rule.'
     : 'who they are, key positions, voting history or track record, and major wins or projects they led.'
   const endorsementScope = judicial
-    ? 'Organizations that endorsed them, and bar association evaluations for this election: the Alliance of Bar Associations for Judicial Screening (voteforjudges.org), the Chicago Bar Association, the Chicago Council of Lawyers and the Illinois State Bar Association. Put a bar rating word for word in "rating" (for example "Recommended", "Qualified", "Not Recommended") with kind "bar_evaluation". Only use ratings published for this election.'
+    ? `Organizations that endorsed them, and bar association evaluations for this election: ${PLACE.barEvaluations}. Put a bar rating word for word in "rating" (for example "Recommended", "Qualified", "Not Recommended") with kind "bar_evaluation". Only use ratings published for this election.`
     : 'Organizations that endorsed them for this election (unions, advocacy groups, parties, newspaper editorial boards), each cited to the page where the endorsement was announced. Leave out endorsements by individual people unless they hold elected office.'
 
-  return `You research candidates for VoteStack, a nonpartisan ballot guide for Cook County, Illinois. Voters read these profiles to decide how to vote, so accuracy matters more than length. VoteStack never tells anyone how to vote.
+  return `You research candidates for VoteStack, a nonpartisan ballot guide for ${PLACE.guide}. Voters read these profiles to decide how to vote, so accuracy matters more than length. VoteStack never tells anyone how to vote.
 
 Research the candidate with web search, then return a JSON object for their profile.
 
@@ -169,7 +170,7 @@ Return an empty list if you find none. Never guess.
 ## Sources
 - Every overview paragraph and every endorsement cites at least one source by its number ("cites": [1, 3]). Every cited number must appear in "sources".
 - A source must directly support the sentence that cites it. Summarize in your own words; do not quote.
-- Use only these kinds of sources: news organizations; the candidate's own campaign or official website; Wikipedia; Ballotpedia; official government sources (.gov sites, the Illinois State Board of Elections, the FEC, ilga.gov, courts); bar associations; the endorsing organization's own announcement.
+- Use only these kinds of sources: news organizations; the candidate's own campaign or official website; Wikipedia; Ballotpedia; official government sources (${PLACE.officialSources}); bar associations; the endorsing organization's own announcement.
 - Never use social media (Facebook, X/Twitter, Instagram, TikTok, LinkedIn, YouTube, Reddit and similar) or an opponent's material.
 - Give the exact URL of the page you read. Never make up or reconstruct a URL.
 - "kind" of a source: news, candidate (their own site), reference (Wikipedia, Ballotpedia), official, bar, endorser.
@@ -194,7 +195,7 @@ export function buildUserMessage(req: ProfileRequest): string {
     `Candidate: ${req.name}`,
     req.party ? `Party on the ballot: ${req.party}` : undefined,
     `Office: ${req.office}${req.officeDescription ? ` (${req.officeDescription})` : ''}`,
-    `Election: Illinois general election, Tuesday, November 3, 2026, Cook County.`,
+    PLACE.electionLine,
     req.kind === 'retention'
       ? 'This is a retention vote: the judge is already on the bench and voters decide whether to keep them.'
       : undefined,

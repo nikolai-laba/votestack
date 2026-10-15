@@ -8,39 +8,43 @@ import { mkdir, readdir, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { format } from 'prettier'
 import type { IsoDate } from '../../../src/shared/ballot.ts'
-import { CURRENT_ELECTION } from '../../../src/shared/cook.ts'
 import { chicagoDate } from '../../../src/shared/dates.ts'
 import type { CandidateProfile } from '../../../src/shared/profile.ts'
 import { BUILD, ROOT, readJson } from '../data.ts'
+import { ELECTION, regionDir } from './region.ts'
 import type { SubjectsFile } from './subjects.ts'
 
 export const CONTENT = join(ROOT, 'content', 'profiles')
-/** Generated profiles for the current election, one file per person. */
-export const PROFILES_DIR = join(CONTENT, CURRENT_ELECTION.date)
-export const OVERRIDES_DIR = join(CONTENT, 'overrides')
-export const BAR_RATINGS = join(CONTENT, 'judges', 'bar-ratings.json')
+/**
+ * Generated profiles for the region's election (--region, see region.ts), one
+ * file per person: content/profiles/{date}/ for Cook County,
+ * content/profiles/{region}/{date}/ for other areas.
+ */
+export const PROFILES_DIR = join(regionDir(CONTENT), ELECTION.date)
+export const OVERRIDES_DIR = join(regionDir(CONTENT), 'overrides')
+export const BAR_RATINGS = join(
+  regionDir(CONTENT),
+  'judges',
+  'bar-ratings.json',
+)
 /** Published endorsement lists (scripts/profiles/slates.ts). */
-export const SLATES_DIR = join(CONTENT, 'slates')
+export const SLATES_DIR = regionDir(join(CONTENT, 'slates'))
+/** Official legislative rosters, for endorsing officials' parties (profiles:rosters). */
+export const ROSTERS = join(regionDir(CONTENT), 'rosters.json')
 
 /** Incumbent labels (scripts/build-incumbents.ts). */
 export const INCUMBENTS = join(
-  ROOT,
-  'content',
-  'incumbents',
-  `${CURRENT_ELECTION.date}.json`,
+  regionDir(join(ROOT, 'content', 'incumbents')),
+  `${ELECTION.date}.json`,
 )
 
 /** Pipeline outputs that aren't committed. */
-export const PIPELINE_BUILD = join(BUILD, 'profiles')
+export const PIPELINE_BUILD = regionDir(join(BUILD, 'profiles'))
 export const SUBJECTS = join(PIPELINE_BUILD, 'subjects.json')
 export const MONEY = join(PIPELINE_BUILD, 'money.json')
 export const CHECK = join(PIPELINE_BUILD, 'check.json')
 /** Where --dry-run writes, so the committed folder is never touched. */
-export const DRY_RUN_DIR = join(
-  PIPELINE_BUILD,
-  'dry-run',
-  CURRENT_ELECTION.date,
-)
+export const DRY_RUN_DIR = join(PIPELINE_BUILD, 'dry-run', ELECTION.date)
 
 export async function writeFormattedJson(
   path: string,

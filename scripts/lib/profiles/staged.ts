@@ -10,6 +10,7 @@ import {
   type ProfileSource,
 } from '../../../src/shared/profile.ts'
 import { briefFor } from './briefs.ts'
+import { PLACE } from './place.ts'
 import type { EvidenceDoc } from './generator.ts'
 import {
   IDENTITY_RULES,
@@ -45,8 +46,7 @@ const ENDORSER_KINDS: EndorsementKind[] = [
 const SOURCE_KIND_NOTE =
   '"kind" of a source: news, candidate (their own campaign or office site), reference (Wikipedia, Ballotpedia), official (government, courts, election boards), bar, endorser (the endorsing group\'s own page).'
 
-const INTRO =
-  'You work for VoteStack, a nonpartisan ballot guide for Cook County, Illinois. Voters read these profiles to decide how to vote, so accuracy matters more than length. VoteStack never tells anyone how to vote.'
+const INTRO = `You work for VoteStack, a nonpartisan ballot guide for ${PLACE.guide}. Voters read these profiles to decide how to vote, so accuracy matters more than length. VoteStack never tells anyone how to vote.`
 
 /** What the overview covers and how much room each part gets. */
 function coverage(req: ProfileRequest): string {
@@ -85,10 +85,10 @@ Length: ${TIER_LENGTH[req.tier]}.
 
 ## Citations
 - Every sentence cites exactly one search result by its number in "source". That result must state everything in the sentence. If a sentence needs two results, split it into two sentences.
-- In "sources", list each result you cited once: "id" is its number, plus its publisher (e.g. "Chicago Sun-Times", "Ballotpedia", "Juliana Stratton campaign") and kind.
+- In "sources", list each result you cited once: "id" is its number, plus its publisher (e.g. ${PLACE.publisherExamples}) and kind.
 - ${SOURCE_KINDS_RULE} Skip any result that isn't one of these.
 - ${SOURCE_KIND_NOTE}
-- Summarize in your own words; don't quote.
+- Summarize in your own words; don't quote.${PLACE.writerRules ? `\n${PLACE.writerRules}` : ''}
 
 ${IDENTITY_RULES}
 
@@ -122,7 +122,7 @@ function candidateLines(req: ProfileRequest): string {
     `Candidate: ${req.name}`,
     req.party ? `Party on the ballot: ${req.party}` : 'No party on the ballot',
     `Office: ${req.office}${req.officeDescription ? ` (${req.officeDescription})` : ''}`,
-    'Election: Illinois general election, Tuesday, November 3, 2026, Cook County.',
+    PLACE.electionLine,
     req.kind === 'retention'
       ? 'This is a retention vote: the judge is already on the bench and voters decide whether to keep them.'
       : undefined,
@@ -236,7 +236,7 @@ export function checkerInstructions(req: ProfileRequest): string {
 You fact-check a drafted Overview section of a candidate profile before it is published. You can open web pages (URL context) and search Google.
 
 ## For every sentence
-1. Open the page it cites. If the page can't be opened, use the excerpt given with it, which was captured from that page.
+${PLACE.checkerOpenStep}
 2. If the page states everything in the sentence (names, numbers, dates, roles, positions), keep it. You may tighten the wording to match the page.
 3. If the page doesn't support it, or supports only part of it, search for a source that does. If you find one, keep the sentence (corrected to match that source) and cite the new page instead.
 4. If no source confirms it, remove the claim, and reword the paragraph so it reads naturally and stays accurate. Never keep a claim you couldn't confirm.
@@ -302,6 +302,51 @@ Draft:
 ${body}`
 }
 
+/** The single checker's opening and output, which a packed check replaces. */
+const SINGLE_TASK =
+  'You fact-check a drafted Overview section of a candidate profile before it is published.'
+const SINGLE_OUTPUT = /## Output\n[\s\S]*$/
+
+/**
+ * The checker's instruction for several candidates in the same race at
+ * once, so one request checks them all: the same rules as
+ * checkerInstructions, with each candidate checked on their own.
+ */
+export function packedCheckerInstructions(
+  req: ProfileRequest,
+  count: number,
+): string {
+  const single = checkerInstructions(req)
+  if (!single.includes(SINGLE_TASK) || !SINGLE_OUTPUT.test(single))
+    throw new Error('checkerInstructions changed; update the packed version')
+  return single
+    .replace(
+      SINGLE_TASK,
+      `You fact-check the drafted Overview sections of ${count} candidates' profiles in the same race before they are published. Check each candidate on their own, as if theirs were the only draft: a page supports a sentence only for the candidate whose draft cites it, and you never move a fact, a source or wording from one candidate's profile to another's. Give every candidate the same care.`,
+    )
+    .replace(
+      SINGLE_OUTPUT,
+      `## Output
+Return only a JSON object, with no other text and no code fences, with one entry per candidate, in the order given:
+{"candidates": [{"candidate": 1,
+ "paragraphs": [{"sentences": [{"text": "...", "source": {${OUTPUT_SOURCE_FIELDS}}}]}],
+ "review": [{"ref": "1.2", "verdict": "supported" | "corrected" | "re-sourced" | "removed", "note": "one short line on what you found"}]}]}
+Each candidate's "review" has one entry for every sentence in that candidate's draft, by its ref. If nothing can be confirmed for a candidate, return empty "paragraphs" for them.`,
+    )
+}
+
+/** The packed check's user message: each candidate's draft, numbered. */
+export function packedCheckerMessage(
+  items: { req: ProfileRequest; sentences: DraftSentence[][] }[],
+): string {
+  return items
+    .map(
+      ({ req, sentences }, i) =>
+        `# Candidate ${i + 1} of ${items.length}\n\n${checkerMessage(req, sentences)}`,
+    )
+    .join('\n\n---\n\n')
+}
+
 /** The endorsement researcher's instruction. */
 export function endorsementInstructions(req: ProfileRequest): string {
   const judicial = isJudicial(req.kind)
@@ -311,29 +356,29 @@ Find who has endorsed this candidate in their 2026 campaign for this office. Sea
 
 ## Who counts
 - Organizations: unions, advocacy and civic groups, professional groups, political parties and party organizations (for example a county party's slate), and newspaper editorial boards.
-- Elected officials: people who hold or have held elected office (for example senators, members of Congress, the governor, state legislators, mayors, aldermen, county commissioners). Leave out other individuals, including party committeepersons and party officers, and voter guides written by individuals, blogs, newsletters and Substacks.
+- Elected officials: people who hold or have held elected office (for example ${PLACE.officialExamples}). Leave out other individuals, including party committeepersons and party officers, and voter guides written by individuals, blogs, newsletters and Substacks.
 - Only endorsements of this person for this office in the 2026 election. Prefer general-election endorsements. An endorsement from the primary counts unless newer information replaces it: the endorser withdrew it, backed someone else for the general election, or published a general-election list for this race without this candidate. Leave out endorsements from earlier campaigns or other offices, and the candidate's own committees.${judicial ? "\n- Leave out bar association ratings and evaluations; VoteStack shows those from the bar associations' own lists." : ''}
 
 ## Where to look
 Search broadly, with several different searches, and confirm each endorsement on a page you opened.
 - The campaign's endorsements page, if it has one; it often lists the most. Try the campaign site's pages given below, and its /endorsements page.
 - The leads below, from a web search. Check each one: they may be about another person, another year or another race.
-- News coverage of endorsements (Chicago Tribune, Chicago Sun-Times, Capitol News Illinois, WBEZ, Crain's, Daily Herald, local papers).
-- Endorsers' own announcements and voter guides (for example the Chicago Federation of Labor, Illinois AFL-CIO, the Cook County Democratic Party, the Cook County Republican Party, IVI-IPO, Personal PAC, Planned Parenthood Illinois Action, Sierra Club Illinois, Giffords, Moms Demand Action, Chicago Teachers Union, SEIU, Illinois Education Association, Fraternal Order of Police, Illinois Chamber of Commerce, Illinois Manufacturers' Association${judicial ? ", Injustice Watch's judicial guide" : ''}).
+- News coverage of endorsements (${PLACE.endorsementNews}).
+- Endorsers' own announcements and voter guides (for example ${PLACE.endorserExamples}${judicial ? PLACE.judicialGuide : ''}).
 - Newspaper editorial board endorsements for this race.
 
 ## List
 - Up to 40. If there are more, keep the most prominent: elected officials by level (federal, then statewide, then state legislature, county, city), organizations by reach (national and statewide before local).
 - Within each kind, put the most prominent first.
-- Use the organization's or official's full name; for an official add their office, e.g. "U.S. Sen. Tammy Duckworth".
+- Use the organization's or official's full name; for an official add their office, e.g. "${PLACE.officialNameExample}".
 - Each endorsement cites one page that shows it: the endorser's own announcement or list (preferred), a news report, or the campaign's endorsements page. Never cite a personal blog.
 - Don't cite iVoterGuide, Ballotpedia or Wikipedia for an endorsement unless the page dates it to the 2026 campaign; they mix in earlier campaigns.
 - A page that only lists the candidate as an invitee, attendee, donor or recipient of a contribution is not an endorsement.
 - A page on another candidate's campaign site lists who endorses that other candidate, not who they endorse.
 - Newspaper editorial endorsements from the party primaries don't count; only general-election editorials do. When a group published a general-election list for this race, use that list rather than its primary list.
-- Give an official's current office as of today (for example, someone who moved from the county board to the City Council is an alderman now).
+- Give an official's current office as of today (for example, ${PLACE.currentOfficeExample}).
 - Spell names as the endorser spells them, and list each endorser once (a state chapter and a local chapter of the same group are one endorsement unless both announced it).
-- Never guess. If you find none, return an empty list.
+- Never guess. If you find none, return an empty list.${PLACE.endorsementRules ? `\n${PLACE.endorsementRules}` : ''}
 
 ## Sources
 ${SOURCE_KINDS_RULE}
@@ -344,7 +389,7 @@ ${IDENTITY_RULES}
 ## Output
 Return only a JSON object, with no other text and no code fences:
 {"endorsements": [{"name": "...", "kind": ${ENDORSER_KINDS.map((k) => `"${k}"`).join(' | ')}, "party": "..." | null, "source": {${OUTPUT_SOURCE_FIELDS}}}]}
-"party" is for elected officials only: the party they belong to, as a source states it ("Democratic", "Republican", "Libertarian", "Green", "Independent"). Fill it for every official elected on a party ballot (federal, statewide, state legislature, county) whenever a source states it. Use null for organizations, for offices elected without party labels (mayors, village and township officials, Chicago aldermen, judges, Chicago school board) and when you aren't sure.`
+"party" is for elected officials only: the party they belong to, as a source states it ("Democratic", "Republican", "Libertarian", "Green", "Independent"). Fill it for every official elected on a party ballot (${PLACE.partyBallotOffices}) whenever a source states it. Use null for organizations, for offices elected without party labels (${PLACE.nonpartisanOffices}) and when you aren't sure.${PLACE.partyNote ? ` ${PLACE.partyNote}` : ''}`
 }
 
 export function endorsementMessage(

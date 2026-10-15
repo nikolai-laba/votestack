@@ -28,6 +28,14 @@
 //                     (money, ratings, slates, overrides, endorsement rules)
 //                     even when its model or prompt is out of date
 //   --concurrency 2   profiles researched at once
+//   --endorsements files  read endorsements from the separately researched
+//                     files (providers/staged.ts ENDORSEMENTS) instead of
+//                     asking Gemini; a person without a file isn't researched
+//   --region ca-la    another area's profiles (region.ts; Cook by default)
+//
+// On the Gemini API (no VERTEX_PROJECT), a used-up daily quota stops new
+// research at once; finished profiles are kept and a rerun continues. Set
+// VERTEX_PROJECT to go on through Vertex AI instead.
 //   --dry-run         no keys, no calls: a fake model writes to
 //                     data/build/profiles/dry-run/ and the plan is printed
 
@@ -39,7 +47,12 @@ import { chicagoDate } from '../../src/shared/dates.ts'
 import type { Contest } from '../../src/shared/ballot.ts'
 import type { CandidateProfile } from '../../src/shared/profile.ts'
 import { BUILD, readJson, writeJson } from '../lib/data.ts'
-import { ELECTION_ID } from '../lib/election.ts'
+import {
+  ELECTION,
+  IS_COOK,
+  REGION,
+  REGION_OPTION,
+} from '../lib/profiles/region.ts'
 import {
   applyOverride,
   compactSources,
@@ -64,12 +77,18 @@ import {
   PROFILES_DIR,
   readProfiles,
   readSubjects,
+  ROSTERS,
   SLATES_DIR,
   today,
   writeFormattedJson,
 } from '../lib/profiles/content.ts'
 import type { Incumbents } from '../lib/incumbents.ts'
 import { fakeGenerator } from '../lib/profiles/fake.ts'
+import {
+  GeminiDailyLimitError,
+  geminiRequests,
+} from '../lib/profiles/providers/gemini.ts'
+import { stagedOptions } from '../lib/profiles/providers/staged.ts'
 import {
   apiKey,
   type EvidenceDoc,
@@ -90,11 +109,18 @@ import {
 import {
   confirmation,
   dropSharedEndorsers,
+  sameEndorser,
   type SharedEndorserRemoval,
 } from '../lib/profiles/endorsers.ts'
+import { PLACE } from '../lib/profiles/place.ts'
 import { toProfile } from '../lib/profiles/prompt.ts'
 import { gatherEvidence } from '../lib/profiles/providers/perplexity.ts'
 import { mergeSlates, type Slate } from '../lib/profiles/slates.ts'
+import {
+  fillParties,
+  type RosterMember,
+  type Rosters,
+} from '../lib/profiles/rosters.ts'
 import {
   raceKeyFor,
   raceKeysOf,
@@ -103,6 +129,7 @@ import {
 
 const { values } = parseArgs({
   options: {
+    ...REGION_OPTION,
     model: { type: 'string' },
     only: { type: 'string' },
     race: { type: 'string' },
@@ -111,8 +138,12 @@ const { values } = parseArgs({
     'no-research': { type: 'boolean', default: false },
     concurrency: { type: 'string', default: '2' },
     'dry-run': { type: 'boolean', default: false },
+    endorsements: { type: 'string', default: 'gemini' },
   },
 })
+if (!['gemini', 'files'].includes(values.endorsements as string))
+  throw new Error('--endorsements is gemini or files')
+stagedOptions.endorsements = values.endorsements as 'gemini' | 'files'
 const dryRun = values['dry-run']
 const noResearch = values['no-research']
 if (noResearch && values.refresh)
@@ -169,8 +200,12 @@ if (existsSync(MONEY)) {
     byKey: Record<string, MoneyInput>
   }>(MONEY)
   money = { asOf: chicagoDate(file.generatedAt), byKey: file.byKey }
-} else if (dryRun) {
-  console.warn('No money.json; money sections stay empty in this dry run')
+} else if (dryRun || !IS_COOK) {
+  // Another area's money sources may not be built yet; its profiles then
+  // have no money section until profiles:money runs for it.
+  console.warn(
+    `No money.json for ${REGION.id}; money sections stay empty in this run`,
+  )
   money = { asOf, byKey: {} }
 } else {
   throw new Error('No money.json; run npm run profiles:money first')
@@ -178,6 +213,11 @@ if (existsSync(MONEY)) {
 const barRatings = await readBarRatings()
 const incumbents = await readIncumbents()
 const slates = await readSlates()
+// Endorsing legislators' parties, from the official rosters (profiles:rosters).
+const rosters: RosterMember[] = existsSync(ROSTERS)
+  ? (await readJson<Rosters>(ROSTERS)).members
+  : []
+let partiesFilled = 0
 const seats = await readSeats()
 
 async function readSlates(): Promise<Slate[]> {
@@ -191,8 +231,13 @@ async function readSlates(): Promise<Slate[]> {
 /** How many candidates each race elects (a contest's "vote for"), by race key. */
 async function readSeats(): Promise<Map<string, number>> {
   const out = new Map<string, number>()
-  for (const file of ['cook-clerk', 'chicago-boe']) {
-    const path = join(BUILD, 'contests', `${file}.json`)
+  // The same contest lists as profiles:subjects (scripts/la/ for Los Angeles).
+  const files = IS_COOK
+    ? ['cook-clerk', 'chicago-boe'].map((f) =>
+        join(BUILD, 'contests', `${f}.json`),
+      )
+    : [join(BUILD, 'la', 'contests.json')]
+  for (const path of files) {
     if (!existsSync(path)) continue
     const { contests } = await readJson<{ contests: Contest[] }>(path)
     for (const c of contests) {
@@ -274,6 +319,8 @@ if (!dryRun && toResearch.length > 0) {
 // The run.
 let spent = 0
 let stopped = false
+/** The Gemini API's daily quota ran out during this run. */
+let dailyLimit: string | undefined
 const counts = { researched: 0, written: 0, unchanged: 0, failed: 0 }
 const stale: string[] = []
 /** Profiles assembled this run, before the race-wide endorsement check. */
@@ -286,7 +333,7 @@ async function evidenceFor(subject: Subject): Promise<EvidenceDoc[]> {
   const path = join(EVIDENCE, `${subject.key}.json`)
   if (existsSync(path)) return readJson<EvidenceDoc[]>(path)
   const { docs, costUsd } = await gatherEvidence(
-    requestFor(subject, ELECTION_ID, asOf),
+    requestFor(subject, ELECTION.id, asOf),
   )
   spent += costUsd
   await writeJson(path, docs)
@@ -305,7 +352,7 @@ async function runJob(job: Job) {
   if (job.research) {
     const estimate = dryRun ? 0 : estimateEach
     if (stopped || spent + estimate > maxCost) {
-      if (!stopped)
+      if (!stopped && !dailyLimit)
         console.log(
           `Stopping new research: $${spent.toFixed(2)} spent, the next profile (~$${estimate}) would pass $${maxCost}`,
         )
@@ -315,7 +362,7 @@ async function runJob(job: Job) {
     // Reserve the estimate while the call runs, so parallel jobs respect the cap.
     spent += estimate
     const at = new Date().toISOString()
-    const req = requestFor(subject, ELECTION_ID, asOf)
+    const req = requestFor(subject, ELECTION.id, asOf)
     try {
       const result = await generator.generate(req, await evidenceFor(subject))
       spent += result.costUsd - estimate
@@ -342,9 +389,17 @@ async function runJob(job: Job) {
           `${subject.key}: researched, $${result.costUsd.toFixed(3)}, ${(result.ms / 1000).toFixed(0)}s`,
         )
     } catch (error) {
+      const message = error instanceof Error ? error.message : String(error)
+      if (error instanceof GeminiDailyLimitError) {
+        // Not a failure of this profile: it's researched on the next run.
+        spent -= estimate
+        if (!dailyLimit) console.log(`${subject.key}: ${message}`)
+        dailyLimit ??= message
+        stopped = true
+        return
+      }
       // A failed call may still be billed; keep the estimate counted.
       counts.failed++
-      const message = error instanceof Error ? error.message : String(error)
       await log({
         at,
         model: generator.id,
@@ -370,7 +425,11 @@ async function runJob(job: Job) {
         ? [e.endorsement.organization]
         : [],
   )
-  const checked = filterEndorsementSources(base, handled)
+  const checked = filterEndorsementSources(
+    base,
+    handled,
+    slates.map((s) => s.url),
+  )
   filtered.push(...checked.removed)
   let profile = mergeMoney(
     checked.profile,
@@ -379,11 +438,34 @@ async function runJob(job: Job) {
   )
   profile = mergeBarRatings(profile, barRatings[subject.key])
   profile = mergeIncumbent(profile, incumbents[subject.key])
-  const merged = mergeSlates(profile, slates)
+  const merged = mergeSlates(dropRatifiedParties(profile), slates)
   for (const slug of merged.added) slateAdds.push({ key: subject.key, slug })
-  const applied = applyOverride(merged.profile, override)
+  const applied = applyOverride(dropRatifiedParties(merged.profile), override)
   for (const s of applied.stale) stale.push(`${subject.key}: ${s}`)
-  assembled.set(subject.key, compactSources(applied.profile))
+  const parties = fillParties(applied.profile, rosters)
+  partiesFilled += parties.filled.length
+  assembled.set(subject.key, compactSources(parties.profile))
+}
+
+/**
+ * A county party next to the state party whose pick it ratified is one
+ * endorsement: the county party is dropped, before and after the official
+ * lists are merged (place.ts partyPairs; none for Cook County).
+ */
+function dropRatifiedParties(p: CandidateProfile): CandidateProfile {
+  const items = p.endorsements.items
+  const drop = PLACE.partyPairs
+    .filter(([, state]) =>
+      items.some((e) => sameEndorser(e.organization, state)),
+    )
+    .map(([county]) => county)
+  if (!drop.length) return p
+  const kept = items.filter(
+    (e) => !drop.some((county) => sameEndorser(e.organization, county)),
+  )
+  return kept.length === items.length
+    ? p
+    : { ...p, endorsements: { ...p.endorsements, items: kept } }
 }
 
 async function write(key: string, profile: CandidateProfile) {
@@ -407,10 +489,15 @@ await Promise.all(
 
 // The same endorser for opponents, race by race, over every profile: this
 // run's, and the committed ones of everyone else in those races.
+// Outside Cook County, a published list doesn't keep a shared endorser in a
+// one-seat race: an endorser backing both rivals is dropped from both. Hand
+// corrections still count.
 const confirmed = new Set<string>()
+const slateConfirmed = new Set<string>()
 for (const slate of slates)
   for (const e of slate.entries)
-    if (e.matchedKey) confirmed.add(confirmation(e.matchedKey, slate.endorser))
+    if (e.matchedKey)
+      slateConfirmed.add(confirmation(e.matchedKey, slate.endorser))
 for (const subject of all) {
   const override = await readOverride(subject.key)
   for (const edit of override?.endorsements ?? [])
@@ -426,11 +513,14 @@ for (const race of races) {
   const profiles = race.keys
     .map((k) => others.get(k) ?? current(k))
     .filter((p): p is CandidateProfile => !!p)
+  const raceSeats = seats.get(race.raceKey) ?? 1
   const result = dropSharedEndorsers(
     race.raceKey,
     profiles,
-    seats.get(race.raceKey) ?? 1,
-    confirmed,
+    raceSeats,
+    IS_COOK || raceSeats > 1
+      ? new Set([...confirmed, ...slateConfirmed])
+      : confirmed,
   )
   shared.push(...result.removed)
   for (const p of result.changed) {
@@ -471,6 +561,10 @@ for (const a of slateAdds)
 console.log(
   `Slate endorsements added: ${[...addsBySlate].map(([s, n]) => `${s} ${n}`).join(', ') || 'none'}`,
 )
+if (rosters.length)
+  console.log(
+    `Endorser parties set from the official rosters: ${partiesFilled}`,
+  )
 if (lostAll.length)
   console.log(`Profiles left with no endorsements: ${lostAll.join(', ')}`)
 if (!dryRun)
@@ -489,4 +583,14 @@ if (stale.length) {
   console.log('Overrides that matched nothing (check them):')
   for (const s of stale) console.log(`  ${s}`)
 }
-if (stopped) process.exitCode = 2
+const requests = geminiRequests.geminiApi + geminiRequests.vertex
+if (requests)
+  console.log(
+    `Gemini requests: ${geminiRequests.geminiApi} through the Gemini API, ${geminiRequests.vertex} through Vertex AI.`,
+  )
+if (dailyLimit) {
+  console.log(
+    `Stopped: the Gemini API's daily limit was reached after ${geminiRequests.geminiApi} requests in this run. Finished profiles are saved; the quota resets at midnight Pacific time. To continue now, run again with VERTEX_PROJECT set (Vertex AI).`,
+  )
+  process.exitCode = 3
+} else if (stopped) process.exitCode = 2

@@ -3,7 +3,13 @@
 // first. Every candidate for the same office gets the same brief, so no one
 // in a race is researched harder than an opponent.
 
+import {
+  CA_BRIEFS,
+  caEndorsementQueries,
+  caResearchQueries,
+} from './briefs-ca.ts'
 import type { ProfileRequest } from './prompt.ts'
+import { IS_COOK } from './region.ts'
 import type { OfficeType } from './subjects.ts'
 
 export interface ResearchBrief {
@@ -13,14 +19,27 @@ export interface ResearchBrief {
   queries: (q: QueryParts) => string[]
 }
 
-interface QueryParts {
+export interface QueryParts {
   /** The name in quotes, e.g. "\"Juliana Stratton\"". */
   name: string
   office: string
+  /** The city or district in the office's name, where a region sets it. */
+  place?: string
 }
 
 const LEGISLATIVE_FOCUS =
   'For positions and record: bills they sponsored and how they voted (ilga.gov), Capitol News Illinois, the Chicago Tribune, the Chicago Sun-Times, WBEZ, local papers, and candidate questionnaires (Sun-Times, Ballotpedia Candidate Connection, IVI-IPO).'
+
+const OTHER: ResearchBrief = {
+  focus:
+    'For positions and record: official sites for the office, local news, questionnaires.',
+  queries: ({ name, office }) => [
+    `${name} ${office} positions`,
+    `${name} questionnaire 2026`,
+    `${name} record`,
+    `${name} Illinois news`,
+  ],
+}
 
 const BRIEFS: Record<OfficeType, ResearchBrief> = {
   us_senate: {
@@ -152,16 +171,13 @@ const BRIEFS: Record<OfficeType, ResearchBrief> = {
       `${name} election 2026`,
     ],
   },
-  other: {
-    focus:
-      'For positions and record: official sites for the office, local news, questionnaires.',
-    queries: ({ name, office }) => [
-      `${name} ${office} positions`,
-      `${name} questionnaire 2026`,
-      `${name} record`,
-      `${name} Illinois news`,
-    ],
-  },
+  other: OTHER,
+  // Offices on California ballots only.
+  board_of_equalization: OTHER,
+  city_executive: OTHER,
+  city_council: OTHER,
+  community_college: OTHER,
+  special_district: OTHER,
 }
 
 /** A fallback office type from the request, for runs without subjects.json. */
@@ -173,7 +189,7 @@ function officeTypeOf(req: ProfileRequest): OfficeType {
 }
 
 export function briefFor(req: ProfileRequest): ResearchBrief {
-  return BRIEFS[officeTypeOf(req)]
+  return (IS_COOK ? BRIEFS : CA_BRIEFS)[officeTypeOf(req)]
 }
 
 /**
@@ -181,6 +197,7 @@ export function briefFor(req: ProfileRequest): ResearchBrief {
  * searches, and endorsements. Run 5 to a request (the Search API's limit).
  */
 export function researchQueries(req: ProfileRequest): string[] {
+  if (!IS_COOK) return caResearchQueries(req, briefFor(req))
   const name = `"${req.name}"`
   const parts = { name, office: req.office }
   return [
@@ -194,6 +211,7 @@ export function researchQueries(req: ProfileRequest): string[] {
 
 /** Searches for endorsement leads, one request (5 queries). */
 export function endorsementQueries(req: ProfileRequest): string[] {
+  if (!IS_COOK) return caEndorsementQueries(req)
   const name = `"${req.name}"`
   return [
     `${name} endorsements`,

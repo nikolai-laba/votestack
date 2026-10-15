@@ -9,7 +9,7 @@
 import { join } from 'node:path'
 import { parseArgs } from 'node:util'
 import type { CandidateProfile } from '../../src/shared/profile.ts'
-import { ELECTION_ID } from '../lib/election.ts'
+import { ELECTION, REGION_OPTION } from '../lib/profiles/region.ts'
 import {
   compactSources,
   requestFor,
@@ -29,6 +29,7 @@ const CHECKER = 'gemini-3.1-pro-preview'
 
 const { values } = parseArgs({
   options: {
+    ...REGION_OPTION,
     only: { type: 'string' },
     skip: { type: 'string' },
     'max-cost': { type: 'string', default: '20' },
@@ -89,7 +90,7 @@ await Promise.all(
       spent += 0.2
       try {
         const { output, costUsd } = await endorsementsOnly(
-          requestFor(s, ELECTION_ID, today()),
+          requestFor(s, ELECTION.id, today()),
           WRITER,
           CHECKER,
         )

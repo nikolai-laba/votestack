@@ -136,6 +136,8 @@ export async function postJson<T>(
   timeoutMs = 300_000,
   retryAfterMs = 30_000,
   retries = 4,
+  /** An error to throw at once, without retrying, for responses that won't recover (a daily quota). */
+  fatal?: (status: number, body: string) => Error | undefined,
 ): Promise<T> {
   const host = new URL(url).host
   for (let attempt = 0; ; attempt++) {
@@ -161,6 +163,8 @@ export async function postJson<T>(
       throw new Error(`${host}: ${message}`)
     }
     if (res.ok) return JSON.parse(text) as T
+    const stop = fatal?.(res.status, text)
+    if (stop) throw stop
     if (attempt < retries && [429, 500, 502, 503, 504].includes(res.status)) {
       await wait()
       continue

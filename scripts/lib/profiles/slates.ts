@@ -25,7 +25,7 @@ export interface SlateEntry {
   /** The profile key, when exactly one person on the ballot fits. */
   matchedKey: string | null
   /**
-   * Why there's no match: "outside" (no such office on Cook County
+   * Why there's no match: "outside" (no such office on the region's
    * ballots), "unmatched" (the office is on the ballot but no name fits) or
    * "ambiguous" (more than one fits).
    */
@@ -38,7 +38,7 @@ export interface Slate {
   slug: string
   /** The endorser's name as profiles show it. */
   endorser: string
-  kind: Extract<Endorsement['kind'], 'union' | 'organization'>
+  kind: Extract<Endorsement['kind'], 'union' | 'organization' | 'party'>
   title: string
   publisher: string
   /** The page profiles cite. */
@@ -52,9 +52,46 @@ export interface Slate {
   entries: SlateEntry[]
 }
 
+const ORDINAL_WORDS = [
+  'first',
+  'second',
+  'third',
+  'fourth',
+  'fifth',
+  'sixth',
+  'seventh',
+  'eighth',
+  'ninth',
+  'tenth',
+]
+
+/** The first number in an office, or its first ordinal word ("Fifth District") when it has no digits. */
 const firstNumber = (s: string) => {
   const m = s.match(/\d+/)
-  return m ? Number(m[0]) : undefined
+  if (m) return Number(m[0])
+  const w = s
+    .toLowerCase()
+    .match(new RegExp(`\\b(${ORDINAL_WORDS.join('|')})\\b`))
+  return w ? ORDINAL_WORDS.indexOf(w[1]) + 1 : undefined
+}
+
+/** A place or office for comparing: no case, accents, periods or apostrophes; dashes as spaces; no leading "City of". */
+export const placeKey = (s: string) =>
+  s
+    .normalize('NFKD')
+    .replace(/[̀-ͯ]/g, '')
+    .toLowerCase()
+    .replace(/[.'’]/g, '')
+    .replace(/[-–—]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .replace(/^(city of )+/, '')
+
+/** Whether an office begins with a place ("El Monte" fits "City of El Monte, Mayor", not "City of South El Monte"). */
+const placeFits = (office: string, place: string) => {
+  const o = placeKey(office)
+  const p = placeKey(place)
+  return o === p || o.startsWith(`${p} `) || o.startsWith(`${p},`)
 }
 
 /** Whether a subject's office fits what a list printed. */
@@ -72,6 +109,7 @@ export function officeFits(s: Subject, h: OfficeHint): boolean {
   if (h.district !== undefined && firstNumber(s.office) !== h.district)
     return false
   if (h.vacancy && !office.split(/[^a-z]+/).includes(h.vacancy)) return false
+  if (h.place && !placeFits(s.office, h.place)) return false
   return true
 }
 
@@ -95,7 +133,12 @@ const quoted = (s: string) =>
   )
 
 /** Nicknames names.ts doesn't know, seen on these lists. */
-const MORE_NICKNAMES = [['angelica', 'angie']]
+const MORE_NICKNAMES = [
+  ['angelica', 'angie'],
+  ['abigail', 'abby'],
+  ['jacqueline', 'jacky'],
+  ['rickey', 'ricky'],
+]
 
 const givenAgree = (a: string, b: string) =>
   givenNamesAgree(a, b) ||

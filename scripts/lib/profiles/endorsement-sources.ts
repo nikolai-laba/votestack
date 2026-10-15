@@ -10,6 +10,7 @@
 // are never filtered. Hand corrections (overrides) are applied after this
 // filter, so they're never dropped by it.
 
+import { isBlockedSite, PLACE } from './place.ts'
 import type {
   ProfileSource,
   CandidateProfile,
@@ -24,6 +25,8 @@ export type SourceRule =
   | 'homepage'
   | 'staging-or-proxy'
   | 'primary-editorial'
+  | 'blocked-site'
+  | 'excluded-endorser'
 
 /** Why each rule exists, for logs and reviewers. */
 export const SOURCE_RULES: Record<SourceRule, string> = {
@@ -33,6 +36,10 @@ export const SOURCE_RULES: Record<SourceRule, string> = {
     "iVoterGuide candidate page that doesn't name an election, so it can't show which race an endorsement was for",
   'reference-page':
     "Ballotpedia or Wikipedia page that isn't about the 2026 election (a person's page mixes primaries and past races)",
+  'blocked-site':
+    "A voter-guide aggregator or one person's guide this area never uses as a source (place.ts blockedSites)",
+  'excluded-endorser':
+    "A group with no clear issue stances, whose support says nothing about a candidate's positions (place.ts excludedEndorsers)",
   homepage:
     "An organization's bare homepage, which doesn't show the endorsement itself (a candidate's own campaign homepage is allowed: it often lists endorsements)",
   'staging-or-proxy':
@@ -84,6 +91,7 @@ export function sourceProblem(
   /** The cited source's kind; a candidate's own campaign homepage often lists endorsements. */
   sourceKind?: ProfileSource['kind'],
 ): SourceRule | null {
+  if (isBlockedSite(url)) return 'blocked-site'
   let u: URL
   try {
     u = new URL(url)
@@ -105,7 +113,9 @@ export function sourceProblem(
   )
     return 'staging-or-proxy'
 
-  if ((path === '' || path === '/') && sourceKind !== 'candidate')
+  // A post addressed by its number (WordPress "?p=123") isn't the homepage.
+  const post = /[?&](p|page_id|post)=\d+/.test(u.search)
+  if ((path === '' || path === '/') && !post && sourceKind !== 'candidate')
     return 'homepage'
 
   if (hostIs(host, 'ivoterguide.com')) {
@@ -149,6 +159,8 @@ export interface RemovedEndorsement {
 export function filterEndorsementSources(
   p: CandidateProfile,
   keep: string[] = [],
+  /** Published endorsement lists' own addresses: a cite to one always passes. */
+  listUrls: string[] = [],
 ): {
   profile: CandidateProfile
   removed: RemovedEndorsement[]
@@ -157,12 +169,25 @@ export function filterEndorsementSources(
   const items = p.endorsements.items.filter((e) => {
     if (e.kind === 'bar_evaluation' || e.cites.length === 0) return true
     if (keep.some((k) => sameEndorser(k, e.organization))) return true
+    if (PLACE.excludedEndorsers.some((re) => re.test(e.organization))) {
+      const url = p.sources.find((s) => s.id === e.cites[0])?.url ?? ''
+      removed.push({
+        key: p.key,
+        organization: e.organization,
+        kind: e.kind,
+        rule: 'excluded-endorser',
+        url,
+      })
+      return false
+    }
     const problems = e.cites.map((id) => {
       const source = p.sources.find((s) => s.id === id)
       return source
         ? {
             url: source.url,
-            rule: sourceProblem(source.url, e.kind, source.kind),
+            rule: listUrls.includes(source.url)
+              ? null
+              : sourceProblem(source.url, e.kind, source.kind),
           }
         : { url: '', rule: null }
     })

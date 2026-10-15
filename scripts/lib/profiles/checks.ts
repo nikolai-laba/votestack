@@ -8,6 +8,7 @@ import {
   OVERVIEW_WORD_LIMITS,
   type CandidateProfile,
 } from '../../../src/shared/profile.ts'
+import { IS_COOK } from './region.ts'
 
 export type CheckRule =
   | 'citation'
@@ -332,8 +333,18 @@ export function countWords(text: string): number {
   return text.split(/\s+/).filter((w) => /[\p{L}\p{N}]/u.test(w)).length
 }
 
+/**
+ * How far over the word limit an overview may run before it blocks: none
+ * for Cook County; 15% elsewhere, where a slightly long overview is only a
+ * warning (maintainer decision, October 2026).
+ */
+export const WORD_MARGIN = IS_COOK ? 0 : 0.15
+
 /** Words and paragraphs within the tier's limits (src/shared/profile.ts). */
-export function checkLength(p: CandidateProfile): Issue[] {
+export function checkLength(
+  p: CandidateProfile,
+  margin = WORD_MARGIN,
+): Issue[] {
   const issues: Issue[] = []
   const words = p.overview.items.reduce((n, o) => n + countWords(o.text), 0)
   const paragraphs = p.overview.items.length
@@ -342,7 +353,7 @@ export function checkLength(p: CandidateProfile): Issue[] {
   if (words > maxWords) {
     issues.push({
       rule: 'length',
-      severity: 'error',
+      severity: words > maxWords * (1 + margin) ? 'error' : 'warning',
       message: `${words} words; the ${p.tier} tier allows ${maxWords}`,
     })
   }
