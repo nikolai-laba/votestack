@@ -6,7 +6,7 @@
 // address without a file gets 404.html with a 404 status.
 //
 // Candidate pages are built only for profiles in the committed published
-// list (content/profiles/published/), which `profiles:publish` writes.
+// lists (content/profiles/published/), which `profiles:publish` writes.
 //
 // Run: node scripts/prerender.ts (part of npm run build)
 
@@ -17,9 +17,10 @@ import { pathToFileURL } from 'node:url'
 import type { CandidateProfile } from '../src/shared/profile.ts'
 import type { RaceList } from '../src/shared/races.ts'
 import { ROOT, readJson } from './lib/data.ts'
-import { PROFILES_DIR, readProfiles } from './lib/profiles/content.ts'
+import { profilesDirFor, readProfiles } from './lib/profiles/content.ts'
+import { REGIONS } from '../src/shared/regions.ts'
 import {
-  PUBLISHED_LIST,
+  publishedListFor,
   checkTemplate,
   fillTemplate,
   modulePreloads,
@@ -90,21 +91,27 @@ const template = await readFile(join(DIST, 'index.html'), 'utf8')
 checkTemplate(template)
 const manifest = await readJson<ViteManifest>(MANIFEST)
 
-let candidates: { profile: CandidateProfile; live: boolean }[] = []
-if (existsSync(PUBLISHED_LIST)) {
-  const list = await readJson<PublishedList>(PUBLISHED_LIST)
-  const result = publishedCandidates(list, await readProfiles(PROFILES_DIR))
-  candidates = result.entries
+const candidates: { profile: CandidateProfile; live: boolean }[] = []
+for (const region of REGIONS) {
+  const listPath = publishedListFor(region)
+  if (!existsSync(listPath)) {
+    console.warn(`${region.id}: no published list; building no candidate pages`)
+    continue
+  }
+  const list = await readJson<PublishedList>(listPath)
+  const result = publishedCandidates(
+    list,
+    await readProfiles(profilesDirFor(region)),
+  )
+  candidates.push(...result.entries)
   if (result.missing.length)
     console.warn(
-      `Published but no profile file (no page built): ${result.missing.join(', ')}`,
+      `${region.id}: published but no profile file (no page built): ${result.missing.join(', ')}`,
     )
   if (result.stale.length)
     console.warn(
-      `Profile file differs from the published version (head only; run profiles:publish): ${result.stale.join(', ')}`,
+      `${region.id}: profile file differs from the published version (head only; run profiles:publish): ${result.stale.join(', ')}`,
     )
-} else {
-  console.warn('No published list; building no candidate pages')
 }
 
 const races = await ssr.raceData()

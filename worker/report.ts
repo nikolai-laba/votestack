@@ -5,7 +5,7 @@
 // Nothing about the reader is stored or logged: the IP address is only used,
 // hashed, as the rate-limit key, and the message is never logged.
 
-import { CURRENT_ELECTION } from '../src/shared/cook.ts'
+import { REGIONS } from '../src/shared/regions.ts'
 import {
   parseSourceUrl,
   TURNSTILE_TOKEN_MAX,
@@ -105,16 +105,21 @@ export async function reportResponse(
     return json({ error: 'Verification failed, please try again' }, 403)
   }
 
-  let id: number | null
+  // The report is saved in the election whose published profile has the
+  // key (null from the database means none there).
+  let id: number | null = null
   try {
-    id = await rpc<number | null>(deps.supabase, 'submit_profile_report', {
-      p_election_id: CURRENT_ELECTION.id,
-      p_key: key,
-      p_section: body.section,
-      p_message: (body.message as string).trim(),
-      // Validated above, so this is the normalized link.
-      p_source_url: parseSourceUrl(body.sourceUrl as string),
-    })
+    for (const region of REGIONS) {
+      id = await rpc<number | null>(deps.supabase, 'submit_profile_report', {
+        p_election_id: region.election.id,
+        p_key: key,
+        p_section: body.section,
+        p_message: (body.message as string).trim(),
+        // Validated above, so this is the normalized link.
+        p_source_url: parseSourceUrl(body.sourceUrl as string),
+      })
+      if (id !== null && id !== undefined) break
+    }
   } catch {
     // No details: the error could echo the message.
     return json({ error: 'Could not save the report, please try again' }, 502)

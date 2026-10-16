@@ -52,6 +52,28 @@ describe('profileResponse', () => {
     })
   })
 
+  it('looks in each area’s election until one has the key', async () => {
+    const calls: unknown[] = []
+    const fetch = vi.fn(
+      async (_url: string | URL | Request, init?: RequestInit) => {
+        const args = JSON.parse(String(init?.body))
+        calls.push(args.p_election_id)
+        return Response.json(
+          args.p_election_id === 'ca-2026-11-03-general'
+            ? { profile, contentHash: 'la1' }
+            : null,
+        )
+      },
+    ) as unknown as typeof globalThis.fetch
+    const res = await profileResponse(get(), 'jane-doe', {
+      url: 'https://db.example',
+      secretKey: 'test',
+      fetch,
+    })
+    expect(res.status).toBe(200)
+    expect(calls).toEqual(['il-2026-11-03-general', 'ca-2026-11-03-general'])
+  })
+
   it('answers 304 when the browser already has this version', async () => {
     const { config } = fakeSupabase({
       profile_get: { profile, contentHash: 'abc123' },

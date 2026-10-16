@@ -28,7 +28,7 @@ const RACE_LISTS = import.meta.glob<{ default: RaceList }>(
 )
 const PUBLISHED_LISTS = import.meta.glob<{
   default: { electionId: string; profiles: Record<string, string> }
-}>('../../content/profiles/published/*.json')
+}>('../../content/profiles/published/**/*.json')
 
 const regionIndex = (list: RaceList) => {
   const region = regionForElection(list.electionId)

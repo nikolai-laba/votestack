@@ -23,9 +23,12 @@ export const REGION = regionFromArgs()
 export const IS_COOK = REGION.id === COOK.id
 export const ELECTION = REGION.election
 
-/** A folder for this region's files: Cook's is `base` itself, others `base/{id}`. */
-export const regionDir = (base: string) =>
-  IS_COOK ? base : join(base, REGION.id)
+/** A folder for a region's files: Cook's is `base` itself, others `base/{id}`. */
+export const folderFor = (base: string, region: Region) =>
+  region.id === COOK.id ? base : join(base, region.id)
+
+/** A folder for this region's files (see folderFor). */
+export const regionDir = (base: string) => folderFor(base, REGION)
 
 /** For parseArgs: scripts accept --region as an option. */
 export const REGION_OPTION = { region: { type: 'string' as const } }

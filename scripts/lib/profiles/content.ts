@@ -11,7 +11,8 @@ import type { IsoDate } from '../../../src/shared/ballot.ts'
 import { chicagoDate } from '../../../src/shared/dates.ts'
 import type { CandidateProfile } from '../../../src/shared/profile.ts'
 import { BUILD, ROOT, readJson } from '../data.ts'
-import { ELECTION, regionDir } from './region.ts'
+import type { Region } from '../../../src/shared/regions.ts'
+import { ELECTION, folderFor, regionDir } from './region.ts'
 import type { SubjectsFile } from './subjects.ts'
 
 export const CONTENT = join(ROOT, 'content', 'profiles')
@@ -21,6 +22,9 @@ export const CONTENT = join(ROOT, 'content', 'profiles')
  * content/profiles/{region}/{date}/ for other areas.
  */
 export const PROFILES_DIR = join(regionDir(CONTENT), ELECTION.date)
+/** The same folder for any region (the site's build reads every region's). */
+export const profilesDirFor = (region: Region) =>
+  join(folderFor(CONTENT, region), region.election.date)
 export const OVERRIDES_DIR = join(regionDir(CONTENT), 'overrides')
 export const BAR_RATINGS = join(
   regionDir(CONTENT),

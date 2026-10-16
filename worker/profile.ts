@@ -2,8 +2,8 @@
 // A profile is the same for every voter and involves no address, so unlike
 // ballots it can be cached by browsers and Cloudflare.
 
-import { CURRENT_ELECTION } from '../src/shared/cook.ts'
 import type { CandidateProfile } from '../src/shared/profile.ts'
+import { REGIONS } from '../src/shared/regions.ts'
 import { rpc, type SupabaseConfig } from './supabase.ts'
 
 /** Same shape profileKey() produces; anything else is rejected before the database. */
@@ -42,12 +42,17 @@ export async function profileResponse(
     )
   }
 
-  let row: ProfileRow | null
+  // Keys are unique across areas, so the first election that has the key
+  // is the profile's.
+  let row: ProfileRow | null = null
   try {
-    row = await rpc<ProfileRow | null>(config, 'profile_get', {
-      p_election_id: CURRENT_ELECTION.id,
-      p_key: key,
-    })
+    for (const region of REGIONS) {
+      row = await rpc<ProfileRow | null>(config, 'profile_get', {
+        p_election_id: region.election.id,
+        p_key: key,
+      })
+      if (row?.profile) break
+    }
   } catch {
     return Response.json(
       { error: 'Profile lookup failed, please try again' },

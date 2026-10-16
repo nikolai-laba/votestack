@@ -15,7 +15,8 @@ import { parseAddress, streetKey } from '../src/shared/address.ts'
 import type { Contest } from '../src/shared/ballot.ts'
 import type { ClerkSplit } from '../src/shared/cook.ts'
 import type { AreaGeometry, PolygonCoords } from '../src/shared/geo.ts'
-import { COOK, LOS_ANGELES, REGIONS } from '../src/shared/regions.ts'
+import { LOS_ANGELES, REGIONS } from '../src/shared/regions.ts'
+import { regionFromArgs } from './lib/profiles/region.ts'
 import { BUILD, RAW, readJson, type FeatureCollection } from './lib/data.ts'
 import { ELECTION_ID } from './lib/election.ts'
 import { loadLayers } from './lib/layers.ts'
@@ -34,15 +35,17 @@ if (!url || !key) {
 const headers = { apikey: key, 'Content-Type': 'application/json' }
 
 /** The lookup tables' tag for this data (see src/shared/regions.ts). */
-const REGION =
-  process.argv.find((a) => a.startsWith('--region='))?.split('=')[1] ?? COOK.id
-const region = REGIONS.find((r) => r.id === REGION)
-if (!region) {
+// This empties the region's rows before loading, so the region is never
+// assumed: a missing or misspelled --region stops here instead of reloading
+// the wrong area's live data.
+if (!process.argv.some((a) => a === '--region' || a.startsWith('--region='))) {
   console.error(
-    `Unknown region ${REGION}: ${REGIONS.map((r) => r.id).join(', ')}`,
+    `Name the region: --region=<id> (${REGIONS.map((r) => r.id).join(', ')})`,
   )
   process.exit(1)
 }
+const region = regionFromArgs()
+const REGION = region.id
 const LA = region.id === LOS_ANGELES.id
 
 async function rpc(fn: string, args: object = {}) {
@@ -55,46 +58,70 @@ async function rpc(fn: string, args: object = {}) {
   return res.json() as Promise<unknown>
 }
 
-/** Supabase sometimes drops a connection mid-load; retry with backoff. */
+/**
+ * Supabase sometimes drops a connection mid-load; retry with backoff. A
+ * request whose answer was lost may still have been saved, so before each
+ * retry `done` (when given) can say the first try went through.
+ */
 async function send(
   path: string,
   init: RequestInit,
-  attempts = 5,
+  {
+    attempts = 5,
+    done,
+  }: { attempts?: number; done?: () => Promise<boolean> } = {},
 ): Promise<Response> {
   for (let attempt = 1; ; attempt++) {
+    let why: string
     try {
       const res = await fetch(`${url}${path}`, init)
       if (res.ok || (res.status < 500 && res.status !== 429)) return res
       if (attempt >= attempts) return res
+      why = `HTTP ${res.status}`
     } catch (error) {
       if (attempt >= attempts) throw error
+      why = String(error)
     }
+    console.warn(
+      `\n${init.method ?? 'GET'} ${path.split('?')[0]}: ${why}; retrying`,
+    )
     await new Promise((r) => setTimeout(r, 1000 * 2 ** attempt))
+    if (done && (await done())) {
+      console.warn('  the first try was saved; not sending it again')
+      return new Response(null, { status: 201 })
+    }
   }
+}
+
+/** This region's rows in a table. */
+async function countRows(table: string): Promise<number> {
+  const res = await send(`/rest/v1/${table}?select=*&region=eq.${REGION}`, {
+    method: 'HEAD',
+    headers: { ...headers, Prefer: 'count=exact' },
+  })
+  return Number(res.headers.get('content-range')?.split('/')[1])
 }
 
 async function insert(table: string, rows: object[], batchSize: number) {
   for (let i = 0; i < rows.length; i += batchSize) {
-    const res = await send(`/rest/v1/${table}`, {
-      method: 'POST',
-      headers: { ...headers, Prefer: 'return=minimal' },
-      body: JSON.stringify(
-        rows.slice(i, i + batchSize).map((r) => ({ ...r, region: REGION })),
-      ),
-    })
+    const batch = rows.slice(i, i + batchSize)
+    const res = await send(
+      `/rest/v1/${table}`,
+      {
+        method: 'POST',
+        headers: { ...headers, Prefer: 'return=minimal' },
+        body: JSON.stringify(batch.map((r) => ({ ...r, region: REGION }))),
+      },
+      { done: async () => (await countRows(table)) >= i + batch.length },
+    )
     if (!res.ok) throw new Error(`${table}: ${res.status} ${await res.text()}`)
     process.stdout.write(
       `\r${table}: ${Math.min(i + batchSize, rows.length)}/${rows.length}`,
     )
   }
   process.stdout.write('\n')
-  // A retried batch may have been saved before the connection dropped, so
-  // check the row count matches what was sent.
-  const count = await send(`/rest/v1/${table}?select=*&region=eq.${REGION}`, {
-    method: 'HEAD',
-    headers: { ...headers, Prefer: 'count=exact' },
-  })
-  const total = Number(count.headers.get('content-range')?.split('/')[1])
+  // Check nothing was saved twice or lost.
+  const total = await countRows(table)
   if (total !== rows.length) {
     throw new Error(
       `${table}: expected ${rows.length} rows, found ${total}. Run the load again.`,
@@ -179,6 +206,8 @@ await insert(
 
 // Contests (with their paper ballot position) and the ones not yet
 // placed in a district.
+// Cook's comes from the specimen ballots (build-paper-order.ts); Los
+// Angeles County's contests carry it from the Registrar's ballot styles.
 const paperOrderFile = join(BUILD, 'paper-order.json')
 const paperRanks: PaperRanks =
   !LA && existsSync(paperOrderFile)
@@ -189,9 +218,10 @@ if (!LA && !existsSync(paperOrderFile))
     'No paper-order.json (run build-paper-order.ts): the app will offer only the order by level',
   )
 // Incumbent labels (scripts/build-incumbents.ts), committed in content/.
-const incumbents: Incumbents =
-  !LA && existsSync(INCUMBENTS) ? await readJson<Incumbents>(INCUMBENTS) : {}
-if (!LA && !existsSync(INCUMBENTS))
+const incumbents: Incumbents = existsSync(INCUMBENTS)
+  ? await readJson<Incumbents>(INCUMBENTS)
+  : {}
+if (!existsSync(INCUMBENTS))
   console.log(
     'No incumbents file (run npm run data:incumbents): no candidate is labeled incumbent',
   )

@@ -3,12 +3,13 @@
 // passed `profiles:check`; otherwise its rows are stored as 'flagged' (not
 // served). People no longer on the ballot become 'withdrawn'. Rows are
 // upserted, never truncated, and unchanged rows aren't sent. Afterwards it
-// writes the published list (content/profiles/published/) from what the
-// table serves; commit it, since the site's build reads it.
+// writes the published list (content/profiles/published/, in a folder per
+// area after Cook County) from what the table serves; commit it, since the
+// site's build reads it.
 // Needs SUPABASE_URL and SUPABASE_SECRET_KEY in .env (the secret key
 // bypasses row-level security; it's never logged).
 //
-// Run: node --env-file=.env scripts/profiles/publish.ts [--dry-run]
+// Run: node --env-file=.env scripts/profiles/publish.ts [--region=<id>] [--dry-run]
 //   --dry-run    read the table (if .env is set) and print what would change
 //   --dir path   plan from another profiles folder (only with --dry-run)
 //   --list       only rewrite the published list from the table
@@ -16,9 +17,8 @@
 import { existsSync } from 'node:fs'
 import { relative, resolve } from 'node:path'
 import { parseArgs } from 'node:util'
-import { REGION_OPTION } from '../lib/profiles/region.ts'
+import { ELECTION, REGION, REGION_OPTION } from '../lib/profiles/region.ts'
 import { readJson } from '../lib/data.ts'
-import { ELECTION_ID } from '../lib/election.ts'
 import {
   CHECK,
   PROFILES_DIR,
@@ -32,7 +32,12 @@ import {
   type ProfileRow,
 } from '../lib/profiles/publish.ts'
 import type { CheckFile } from '../lib/profiles/review.ts'
-import { PUBLISHED_LIST, type PublishedList } from '../lib/prerender.ts'
+import { publishedListFor, type PublishedList } from '../lib/prerender.ts'
+
+// Rows are read, written and withdrawn only within this region's election,
+// so publishing one area never touches another's profiles.
+const ELECTION_ID = ELECTION.id
+const PUBLISHED_LIST = publishedListFor(REGION)
 
 const { values } = parseArgs({
   options: {

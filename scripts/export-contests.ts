@@ -13,7 +13,8 @@ import { existsSync } from 'node:fs'
 import { readdir } from 'node:fs/promises'
 import { join } from 'node:path'
 import type { Contest } from '../src/shared/ballot.ts'
-import { COOK, REGIONS } from '../src/shared/regions.ts'
+import { COOK } from '../src/shared/regions.ts'
+import { regionFromArgs } from './lib/profiles/region.ts'
 import type { RaceList } from '../src/shared/races.ts'
 import { BUILD, ROOT, readJson } from './lib/data.ts'
 import { withIncumbents, type Incumbents } from './lib/incumbents.ts'
@@ -24,14 +25,13 @@ import {
 } from './lib/profiles/content.ts'
 import { buildRaces } from './lib/races.ts'
 
-const regionId =
-  process.argv.find((a) => a.startsWith('--region='))?.split('=')[1] ?? COOK.id
-const region = REGIONS.find((r) => r.id === regionId)
-if (!region) throw new Error(`Unknown region ${regionId}`)
+const region = regionFromArgs()
 const cook = region.id === COOK.id
 const election = region.election
 const date = election.date
-const INCUMBENTS = join(ROOT, 'content', 'incumbents', `${date}.json`)
+const INCUMBENTS = cook
+  ? join(ROOT, 'content', 'incumbents', `${date}.json`)
+  : join(ROOT, 'content', 'incumbents', region.id, `${date}.json`)
 // Cook's list stays at its first address; other areas get a folder.
 const OUT = cook
   ? join(ROOT, 'content', 'contests', `${date}.json`)
@@ -45,8 +45,9 @@ const contestFiles = cook
 const contests: Contest[] = []
 for (const file of contestFiles)
   contests.push(...(await readJson<{ contests: Contest[] }>(file)).contests)
-const incumbents: Incumbents =
-  cook && existsSync(INCUMBENTS) ? await readJson<Incumbents>(INCUMBENTS) : {}
+const incumbents: Incumbents = existsSync(INCUMBENTS)
+  ? await readJson<Incumbents>(INCUMBENTS)
+  : {}
 
 // Addresses already out in the world stay as they are.
 const previous = new Map<string, string>()

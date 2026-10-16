@@ -1,3 +1,4 @@
+import { LOS_ANGELES } from './shared/regions.ts'
 import { cleanup, render } from '@testing-library/react'
 import { afterEach, describe, expect, it } from 'vitest'
 import {
@@ -85,6 +86,34 @@ describe('profileHead', () => {
       'Illinois Attorney General',
     )
     expect(profileOffice('Cook County Clerk')).toBe('Cook County Clerk')
+  })
+
+  it('places Los Angeles County offices in California, not Illinois', () => {
+    expect(
+      profileOffice('U.S. Representative, 37th District', LOS_ANGELES),
+    ).toBe('U.S. Representative, 37th District, California')
+    expect(
+      profileOffice('Board of Equalization Member, 3rd District', LOS_ANGELES),
+    ).toBe('Board of Equalization Member, 3rd District, California')
+    expect(profileOffice('City of Los Angeles, Mayor', LOS_ANGELES)).toBe(
+      'City of Los Angeles, Mayor',
+    )
+    expect(
+      profileOffice(
+        'Abc Unified School District, Governing Board Member',
+        LOS_ANGELES,
+      ),
+    ).toBe(
+      'Abc Unified School District, Governing Board Member, Los Angeles County',
+    )
+    const head = profileHead({
+      ...profile,
+      electionId: LOS_ANGELES.election.id,
+      office: 'State Senator, 22nd District',
+    })
+    expect(head.title).toContain('State Senator, 22nd District, California')
+    expect(head.description).toContain('Los Angeles County, California')
+    expect(head.description).not.toContain('Illinois')
   })
 
   it('keeps sample profiles out of search', () => {

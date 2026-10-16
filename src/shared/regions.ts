@@ -6,6 +6,22 @@ import type { Election, OcdId } from './ballot.ts'
 import * as cook from './cook.ts'
 import * as ocd from './ocd.ts'
 
+/**
+ * What the region's ballots call yes/no questions, in the region's own
+ * terms: Illinois has "referenda"; California has "measures", with
+ * numbered statewide "propositions".
+ */
+export interface MeasureWords {
+  /** "referendum" */
+  one: string
+  /** "referenda" */
+  many: string
+  /** Section heading for all of them: "Referenda and questions". */
+  section: string
+  /** Heading for the statewide ones, when the paper ballot sets them apart. */
+  state: string
+}
+
 export interface Region {
   /** Tag on the region's rows in the lookup tables, e.g. `il-cook`. */
   id: string
@@ -16,9 +32,15 @@ export interface Region {
   /** Two-letter state code, upper case. */
   state: string
   stateName: string
+  /**
+   * Words that already place an office inside the region ("Chicago Board
+   * of Education Member"), so a page title doesn't add the region's name.
+   */
+  placeWords: string[]
   /** ZIP code ranges in the region's state (first two digits), for picking a region from an address. */
   zipPrefixes: string[]
   election: Election
+  measureWords: MeasureWords
   /** Districts every voter in the region is in. */
   everywhere: OcdId[]
   /** Layers every address should fall in; a miss means a boundary gap. */
@@ -40,8 +62,15 @@ export const COOK: Region = {
   fullName: 'Cook County, Illinois',
   state: 'IL',
   stateName: 'Illinois',
+  placeWords: ['Chicago'],
   zipPrefixes: ['60', '61', '62'],
   election: cook.CURRENT_ELECTION,
+  measureWords: {
+    one: 'referendum',
+    many: 'referenda',
+    section: 'Referenda and questions',
+    state: 'State referenda',
+  },
   everywhere: cook.COOK_EVERYWHERE,
   requiredLayers: [
     'congressional',
@@ -67,12 +96,19 @@ export const LOS_ANGELES: Region = {
   fullName: 'Los Angeles County, California',
   state: 'CA',
   stateName: 'California',
+  placeWords: ['City of', 'Los Angeles'],
   zipPrefixes: ['90', '91', '93'],
   election: {
     id: 'ca-2026-11-03-general',
     name: 'General Election',
     date: '2026-11-03',
     divisionId: ocd.CALIFORNIA,
+  },
+  measureWords: {
+    one: 'measure',
+    many: 'measures',
+    section: 'Propositions and measures',
+    state: 'State propositions',
   },
   everywhere: [ocd.US, ocd.CALIFORNIA, ocd.LOS_ANGELES_COUNTY],
   // Every district comes from the Registrar's ballot style for the precinct.
@@ -111,3 +147,7 @@ export function regionsFor(
 
 export const regionForElection = (electionId: string, regions = REGIONS) =>
   regions.find((r) => r.election.id === electionId)
+
+/** The measure wording for an election's region; Cook County's when unknown. */
+export const measureWordsFor = (electionId: string, regions = REGIONS) =>
+  (regionForElection(electionId, regions) ?? COOK).measureWords

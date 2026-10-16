@@ -37,7 +37,9 @@
     "profiles:slates": "node scripts/profiles/slates.ts",
     "reports": "node --env-file=.env scripts/reports.ts",
     "data:incumbents": "node scripts/build-incumbents.ts",
-    "contests:export": "node scripts/export-contests.ts"
+    "contests:export": "node scripts/export-contests.ts",
+    "region:check": "node scripts/region-check.ts",
+    "profiles:rosters": "node scripts/profiles/rosters.ts"
   },
   "dependencies": {
     "@fontsource-variable/atkinson-hyperlegible-next": "^5.3.0",

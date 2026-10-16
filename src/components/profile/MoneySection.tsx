@@ -10,7 +10,12 @@ import { ProfileSection } from './ProfileSection.tsx'
 const SOURCE_NAMES: Record<MoneySummary['source'], string> = {
   ISBE: 'Illinois State Board of Elections',
   FEC: 'Federal Election Commission',
+  CA: 'California',
 }
+
+/** The office a summary's filings are with: California names it per report. */
+const sourceName = (s: MoneySummary) =>
+  s.source === 'CA' && s.filedWith ? s.filedWith : SOURCE_NAMES[s.source]
 
 const NOT_REPORTED = 'Not reported'
 
@@ -26,14 +31,37 @@ const monthDay = (iso: string) =>
 export function MoneySection({ section }: { section: MoneySectionData }) {
   const shared =
     section.items.length === 0 ? section.sharedCommittee : undefined
+  const filings =
+    section.items.length === 0 && !shared ? section.filingsAt : undefined
   return (
     <ProfileSection
       id="money"
       title="Campaign money"
       asOf={section.asOf}
-      empty={section.items.length === 0 && !shared}
+      empty={section.items.length === 0 && !shared && !filings}
     >
-      {shared ? (
+      {filings?.underThreshold ? (
+        <p>
+          Filed a Form 470, the short statement for candidates who expect to
+          raise and spend less than $2,000 this year, so there&rsquo;s no full
+          report. Their filings are with{' '}
+          <a href={webUrl(filings.url)} target="_blank" rel="noreferrer">
+            {filings.name}
+          </a>
+          .
+        </p>
+      ) : filings ? (
+        <p>
+          No summary of their campaign filings yet.{' '}
+          {filings.onRequest
+            ? 'Copies are available on request from '
+            : 'They are posted by '}
+          <a href={webUrl(filings.url)} target="_blank" rel="noreferrer">
+            {filings.name}
+          </a>
+          .
+        </p>
+      ) : shared ? (
         <p>
           No committee of their own. Judges up for retention campaign together
           through the{' '}
@@ -88,10 +116,17 @@ function Committee({ summary }: { summary: MoneySummary }) {
       {summary.largeSince && (
         <LargeSince large={summary.largeSince} url={summary.url} />
       )}
+      {summary.fromScan && (
+        <p className="text-caption text-muted">
+          {summary.fromScan === 'ai'
+            ? 'AI read these figures from a scanned copy of the filing; two separate reads agreed.'
+            : 'Software read these figures from a scanned copy of the filing.'}
+        </p>
+      )}
       <p className="text-caption text-muted">
         Source:{' '}
         <a href={webUrl(summary.url)} target="_blank" rel="noreferrer">
-          {SOURCE_NAMES[summary.source]} filings for {summary.committee}
+          {sourceName(summary)} filings for {summary.committee}
         </a>
       </p>
     </div>

@@ -38,3 +38,5 @@ data/build/
 
 # Claude Code agent worktrees (temporary checkouts of this repo)
 .claude/worktrees/
+# Claude Code skills (kept with the maintainer notes, linked in)
+.claude/skills/

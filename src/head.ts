@@ -7,6 +7,7 @@ import { useEffect } from 'react'
 import { coveredFullNames, coveredNames } from './ballot/coverage.ts'
 import { CURRENT_ELECTION } from './shared/cook.ts'
 import type { CandidateProfile } from './shared/profile.ts'
+import { COOK, regionForElection, type Region } from './shared/regions.ts'
 import {
   RACES_PATH,
   placeName,
@@ -113,16 +114,17 @@ export const MISSING_PROFILE_HEAD: PageHead = {
  * seat's name without its vacancy detail, with the state or county when the
  * office name doesn't say ("State Representative, 1st District, Illinois").
  */
-export function profileOffice(office: string): string {
+export function profileOffice(office: string, region: Region = COOK): string {
   const short = office.replace(/\s*\((?:Vacancy|Converted) [^)]*\)$/, '')
-  if (/Illinois|Cook County|Chicago|County\b/.test(short)) return short
+  const placed = [region.stateName, region.name, 'County', ...region.placeWords]
+  if (placed.some((w) => new RegExp(`\\b${w}\\b`).test(short))) return short
   // Statewide offices, Congress, the legislature and the appellate court
   // belong to the state.
-  return /^(State |U\.S\. |Appellate |Governor|Lieutenant Governor|Attorney General|Secretary of State|Comptroller|Treasurer)/.test(
+  return /^(State |U\.S\. |Appellate |Governor|Lieutenant Governor|Attorney General|Secretary of State|Comptroller|Controller|Treasurer|Insurance Commissioner|Superintendent of Public Instruction|Board of Equalization)/.test(
     short,
   )
-    ? `${short}, Illinois`
-    : `${short}, Cook County`
+    ? `${short}, ${region.stateName}`
+    : `${short}, ${region.name}`
 }
 
 /** The same title and description for every candidate, filled from the ballot. */
@@ -138,13 +140,15 @@ export function profileHead(profile: CandidateProfile): PageHead {
       ? `is up for retention as ${profile.office}`
       : `is running for ${profile.office}`
   const party = profile.party ? ` (${profile.party})` : ''
-  const year = CURRENT_ELECTION.date.slice(0, 4)
+  const region = regionForElection(profile.electionId) ?? COOK
+  const year = region.election.date.slice(0, 4)
+  const office = profileOffice(profile.office, region)
   return {
     title:
       profile.kind === 'retention'
-        ? `${profile.name}, up for retention as ${profileOffice(profile.office)}, ${year} | VoteStack`
-        : `${profile.name}, ${year} candidate for ${profileOffice(profile.office)} | VoteStack`,
-    description: `${profile.name}${party} ${running} on the ${ELECTION_DAY} ballot in Cook County, Illinois. Background, campaign money and endorsements, with a source for every fact.`,
+        ? `${profile.name}, up for retention as ${office}, ${year} | VoteStack`
+        : `${profile.name}, ${year} candidate for ${office} | VoteStack`,
+    description: `${profile.name}${party} ${running} on the ${ELECTION_DAY} ballot in ${region.fullName}. Background, campaign money and endorsements, with a source for every fact.`,
     path: `/candidates/${profile.key}`,
   }
 }

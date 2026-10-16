@@ -3,9 +3,10 @@
 // are live, robots.txt and the sitemap.
 
 import { join } from 'node:path'
-import { CURRENT_ELECTION } from '../../src/shared/cook.ts'
+import type { Region } from '../../src/shared/regions.ts'
 import type { CandidateProfile } from '../../src/shared/profile.ts'
 import { contentHash } from './profiles/content.ts'
+import { folderFor } from './profiles/region.ts'
 import { ROOT } from './data.ts'
 
 /**
@@ -18,13 +19,11 @@ export interface PublishedList {
   profiles: Record<string, string>
 }
 
-export const PUBLISHED_LIST = join(
-  ROOT,
-  'content',
-  'profiles',
-  'published',
-  `${CURRENT_ELECTION.date}.json`,
-)
+export const publishedListFor = (region: Region) =>
+  join(
+    folderFor(join(ROOT, 'content', 'profiles', 'published'), region),
+    `${region.election.date}.json`,
+  )
 
 const HEAD = /<!-- head:[^>]*-->[\s\S]*<!-- \/head -->/
 const ROOT_DIV = '<div id="root"></div>'
