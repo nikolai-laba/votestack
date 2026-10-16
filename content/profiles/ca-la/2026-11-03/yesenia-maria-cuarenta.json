@@ -43,7 +43,15 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/214329101-Cuarenta%2C%20Yesenia",
+      "underThreshold": true
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -95,6 +103,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.244Z",
-    "version": 1
+    "version": 2
   }
 }

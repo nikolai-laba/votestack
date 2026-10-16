@@ -29,7 +29,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Cruz-Arvayo for School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216999097-Cruz-Arvayo%20for%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 350,
+        "cashOnHand": 350,
+        "breakdown": [{ "kind": "large", "amount": 350 }],
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 3275,
+          "count": 2,
+          "fromCandidate": 3275
+        }
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -61,6 +81,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.259Z",
-    "version": 1
+    "version": 2
   }
 }

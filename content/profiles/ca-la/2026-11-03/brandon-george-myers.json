@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10467"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -39,7 +40,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Brandon Myers for School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217395709-Brandon%20Myers%20for%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 2349,
+        "cashOnHand": 1332.69,
+        "breakdown": [
+          { "kind": "small", "amount": 99 },
+          { "kind": "large", "amount": 1250 },
+          { "kind": "other", "amount": 1000 }
+        ]
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -62,7 +81,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T15:48:49.109Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.139Z",
+    "version": 3
   }
 }

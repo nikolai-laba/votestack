@@ -29,7 +29,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Bayne for Judge 2026; Elect",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1488166",
+        "period": "July 1 to September 19, 2026",
+        "raised": 7095.6,
+        "cashOnHand": 9017.96,
+        "breakdown": [
+          { "kind": "large", "amount": 5300 },
+          { "kind": "candidate", "amount": 795.6 },
+          { "kind": "other", "amount": 1000 }
+        ],
+        "fromCandidate": 795.6
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -94,14 +113,14 @@
         "kind": "elected_official",
         "cites": [5]
       },
+      { "organization": "Knock LA", "kind": "organization", "cites": [7] },
       {
         "organization": "Los Angeles County Bar Association",
         "kind": "bar_evaluation",
         "context": "election",
         "rating": "Well Qualified",
         "cites": [6]
-      },
-      { "organization": "Knock LA", "kind": "organization", "cites": [7] }
+      }
     ]
   },
   "sources": [
@@ -166,6 +185,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.264Z",
-    "version": 5
+    "version": 6
   }
 }

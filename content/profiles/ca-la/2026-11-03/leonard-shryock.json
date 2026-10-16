@@ -47,7 +47,32 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Norwalk",
+        "committee": "Shryock for Council 2026",
+        "url": "https://netfile.com/public/NWK/campaign/filingsByFiler/217289414-Shryock%20for%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 9150,
+        "cashOnHand": 5431.92,
+        "breakdown": [
+          { "kind": "large", "amount": 1850 },
+          { "kind": "candidate", "amount": 7000 },
+          { "kind": "other", "amount": 300 }
+        ],
+        "fromCandidate": 7000,
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 1900,
+          "count": 1,
+          "fromCandidate": 1900
+        }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -115,6 +140,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.517Z",
-    "version": 1
+    "version": 2
   }
 }

@@ -47,7 +47,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles City Ethics Commission",
+        "committee": "Marissa Roy for Los Angeles City Attorney 2026 - General",
+        "url": "https://ethics.lacity.org/view/?document_id=146818",
+        "period": "July 1 to September 19, 2026",
+        "raised": 301325.22,
+        "cashOnHand": 472254.17,
+        "breakdown": [
+          { "kind": "small", "amount": 6208.22 },
+          { "kind": "large", "amount": 260477 },
+          { "kind": "pac", "amount": 31340 },
+          { "kind": "other", "amount": 3300 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -431,6 +450,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.458Z",
-    "version": 4
+    "version": 5
   }
 }

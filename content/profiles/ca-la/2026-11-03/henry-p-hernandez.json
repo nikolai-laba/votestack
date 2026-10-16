@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10384"],
   "kind": "candidate",
   "tier": "short",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -33,7 +34,15 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/214318770-Hernandez%2C%20Henry%20P.",
+      "underThreshold": true
+    }
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -64,7 +73,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T15:48:49.399Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.357Z",
+    "version": 3
   }
 }

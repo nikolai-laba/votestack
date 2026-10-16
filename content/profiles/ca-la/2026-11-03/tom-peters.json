@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10516"],
   "kind": "candidate",
   "tier": "short",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -15,7 +16,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Monica",
+        "committee": "Re-Elect Tom Peters for College Trustee 2026",
+        "url": "https://netfile.com/public/CSM/campaign/filingsByFiler/204177032-Re-Elect%20Tom%20Peters%20for%20College%20Trustee%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 4989,
+        "cashOnHand": 3317.19,
+        "breakdown": [
+          { "kind": "small", "amount": 539 },
+          { "kind": "large", "amount": 2950 },
+          { "kind": "pac", "amount": 500 },
+          { "kind": "candidate", "amount": 1000 }
+        ],
+        "fromCandidate": 1000
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -221,7 +242,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:50.943Z",
-    "version": 3
+    "generatedAt": "2026-10-15T21:48:37.020Z",
+    "version": 5
   }
 }

@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10772"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -15,7 +16,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Pomona",
+        "committee": "Victor Preciado for City Council 2026",
+        "url": "https://netfile.com/public/PMNA/campaign/filingsByFiler/200719664-Victor%20Preciado%20for%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 4190,
+        "cashOnHand": 5560.03,
+        "breakdown": [
+          { "kind": "small", "amount": 900 },
+          { "kind": "large", "amount": 3040 },
+          { "kind": "pac", "amount": 250 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 4000, "count": 3 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -88,7 +108,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:39:39.199Z",
-    "version": 2
+    "generatedAt": "2026-10-15T21:48:37.821Z",
+    "version": 4
   }
 }

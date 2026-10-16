@@ -35,7 +35,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Betty Monroy 4 Downey Unified 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216740153-Betty%20Monroy%204%20Downey%20Unified%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 2540.66,
+        "cashOnHand": 0,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -68,6 +82,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:48.982Z",
-    "version": 1
+    "version": 2
   }
 }

@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10574"],
   "kind": "candidate",
   "tier": "short",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -29,7 +30,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "James Cody Birkey",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217159468-Committee%20to%20Elect%20James%20C.%20Birkey%20As%20Cerritos%20College%20Trustee%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 17899.99,
+        "cashOnHand": 11912.57,
+        "breakdown": [
+          { "kind": "small", "amount": 50 },
+          { "kind": "large", "amount": 2250 },
+          { "kind": "pac", "amount": 1000 },
+          { "kind": "candidate", "amount": 14599.99 }
+        ],
+        "fromCandidate": 14599.99,
+        "largeSince": { "since": "2026-09-19", "total": 2000, "count": 1 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -168,7 +190,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:50.869Z",
-    "version": 2
+    "generatedAt": "2026-10-15T21:48:36.883Z",
+    "version": 4
   }
 }

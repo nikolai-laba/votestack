@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10651"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -43,7 +44,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Octavia Thuss for LCUSD School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217037613-Octavia%20Thuss%20for%20LCUSD%20School%20Board",
+        "period": "July 1 to September 19, 2026",
+        "raised": 3873.82,
+        "cashOnHand": 2258.49,
+        "breakdown": [
+          { "kind": "small", "amount": 86.37 },
+          { "kind": "large", "amount": 1687.45 },
+          { "kind": "candidate", "amount": 2100 }
+        ],
+        "fromCandidate": 2100
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -166,7 +186,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T15:48:49.127Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.155Z",
+    "version": 3
   }
 }

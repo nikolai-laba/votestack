@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10435"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -47,7 +48,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Claremont",
+      "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=306310&dbid=0&repo=r-634094de"
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -117,7 +125,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.334Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.535Z",
+    "version": 3
   }
 }

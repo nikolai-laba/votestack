@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10546"],
   "kind": "candidate",
   "tier": "short",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -29,7 +30,22 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Laura Olhasso for Foothill Municipal Water District 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217256727-Laura%20Olhasso%20for%20Foothill%20Municipal%20Water%20District%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 9201,
+        "cashOnHand": 4667.55,
+        "fromScan": "ai",
+        "largeSince": { "since": "2026-09-19", "total": 2000, "count": 2 }
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -44,7 +60,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T15:48:49.390Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.347Z",
+    "version": 3
   }
 }

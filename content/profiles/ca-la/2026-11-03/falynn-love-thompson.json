@@ -37,7 +37,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "falynn love thompson for rowland unified school board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216998606-Falynn%20Love%20Thompson%20for%20Rowland%20Unified%20School%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 1824.08,
+        "cashOnHand": 108.05,
+        "breakdown": [
+          { "kind": "small", "amount": 504 },
+          { "kind": "large", "amount": 1100 },
+          { "kind": "candidate", "amount": 220.08 }
+        ],
+        "fromCandidate": 220.08
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -69,6 +88,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.292Z",
-    "version": 1
+    "version": 2
   }
 }

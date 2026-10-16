@@ -2,7 +2,7 @@
   "key": "april-a-verlato",
   "electionId": "ca-2026-11-03-general",
   "name": "April A. Verlato",
-  "party": "Party Preference: Republican",
+  "party": "Republican",
   "office": "U.S. Representative, 28th District",
   "contestIds": ["la-4348-cc10808-r1", "la-4348-cc10808-r2"],
   "kind": "candidate",
@@ -55,7 +55,20 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Verlato for Congress",
+        "url": "https://www.fec.gov/data/committee/C00858845/?cycle=2026",
+        "period": "January 1, 2025 to June 30, 2026",
+        "raised": 250,
+        "cashOnHand": 205.19,
+        "breakdown": [{ "kind": "small", "amount": 250 }]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -148,6 +161,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.787Z",
-    "version": 3
+    "version": 4
   }
 }

@@ -51,7 +51,15 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Huntington Park",
+      "url": "https://www.hpca.gov/598/Public-Records-Requests",
+      "onRequest": true
+    }
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -99,6 +107,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.424Z",
-    "version": 1
+    "version": 2
   }
 }

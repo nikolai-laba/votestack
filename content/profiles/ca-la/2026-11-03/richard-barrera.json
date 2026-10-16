@@ -63,7 +63,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Richard Barrera for Superintendent of Public Instruction 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1478161",
+        "period": "July 1 to September 19, 2026",
+        "raised": 348351.77,
+        "cashOnHand": 198874.42,
+        "breakdown": [
+          { "kind": "small", "amount": 2093.06 },
+          { "kind": "large", "amount": 58308.23 },
+          { "kind": "pac", "amount": 267100 },
+          { "kind": "party", "amount": 9060.58 },
+          { "kind": "other", "amount": 11789.9 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 97074.5, "count": 19 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -477,6 +498,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.815Z",
-    "version": 5
+    "version": 6
   }
 }

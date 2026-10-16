@@ -48,7 +48,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Arcadia",
+      "url": "https://laserfiche.arcadiaca.gov/WebLink/Browse.aspx?id=881631&dbid=0&repo=CityofArcadia"
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -97,6 +104,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.289Z",
-    "version": 1
+    "version": 2
   }
 }

@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10516"],
   "kind": "candidate",
   "tier": "short",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -33,7 +34,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Monica",
+        "committee": "Dr. Sion Roy for College Board of Trustees 2026",
+        "url": "https://netfile.com/public/CSM/campaign/filingsByFiler/217235161-Dr.%20Sion%20Roy%20for%20College%20Board%20of%20Trustees%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 998.38,
+        "cashOnHand": 500,
+        "breakdown": [
+          { "kind": "large", "amount": 498.38 },
+          { "kind": "pac", "amount": 500 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 5000, "count": 3 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -263,7 +282,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:50.943Z",
-    "version": 2
+    "generatedAt": "2026-10-15T21:48:37.016Z",
+    "version": 4
   }
 }

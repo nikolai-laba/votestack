@@ -2,7 +2,7 @@
   "key": "chuong-v-vo",
   "electionId": "ca-2026-11-03-general",
   "name": "Chuong V. Vo",
-  "party": "Party Preference: Republican",
+  "party": "Republican",
   "office": "U.S. Representative, 45th District",
   "contestIds": ["la-4348-cc10822-r1", "la-4348-cc10822-r2"],
   "kind": "candidate",
@@ -48,7 +48,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Chuong Vo for Congress",
+        "url": "https://www.fec.gov/data/committee/C00922427/?cycle=2026",
+        "period": "January 1, 2025 to June 30, 2026",
+        "raised": 495762.84,
+        "cashOnHand": 74875.85,
+        "breakdown": [
+          { "kind": "small", "amount": 134680.23 },
+          { "kind": "large", "amount": 334082.61 },
+          { "kind": "pac", "amount": 17000 },
+          { "kind": "loan", "amount": 10000 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -163,6 +181,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.854Z",
-    "version": 3
+    "version": 4
   }
 }

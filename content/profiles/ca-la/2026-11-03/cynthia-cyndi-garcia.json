@@ -15,7 +15,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Palmdale",
+        "committee": "Elect Cyndi Garcia for City Council 2026",
+        "url": "https://netfile.com/public/CPD/campaign/filingsByFiler/217402431-Elect%20Cyndi%20Garcia%20for%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 497,
+        "cashOnHand": 200,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -31,6 +45,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:39:39.197Z",
-    "version": 2
+    "version": 3
   }
 }

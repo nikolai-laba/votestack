@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10651"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -51,7 +52,22 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Dan Jeffries for La Canada School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216973805-Dan%20Jeffries%20for%20La%20Canada%20School%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 15000,
+        "cashOnHand": 14057.28,
+        "breakdown": [{ "kind": "candidate", "amount": 15000 }],
+        "fromCandidate": 15000
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -237,7 +253,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T15:48:49.123Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.151Z",
+    "version": 3
   }
 }

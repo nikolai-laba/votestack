@@ -39,7 +39,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Committee to Elect Julee Brooks for Hart School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/214900839-Committee%20to%20Elect%20Julee%20Brooks%20for%20Hart%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 15959,
+        "cashOnHand": 8693.63,
+        "breakdown": [
+          { "kind": "small", "amount": 809 },
+          { "kind": "large", "amount": 11050 },
+          { "kind": "candidate", "amount": 2100 },
+          { "kind": "other", "amount": 2000 }
+        ],
+        "fromCandidate": 2100,
+        "largeSince": { "since": "2026-09-19", "total": 7000, "count": 4 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -141,6 +162,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.173Z",
-    "version": 2
+    "version": 3
   }
 }

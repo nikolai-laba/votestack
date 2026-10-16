@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10649"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -43,7 +44,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Friends of Gino Kwok HLPUSD Trustee Area 4",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217346893-Friends%20of%20Gino%20Kwok%20for%20HLPUSD%20Trustee%20Area%204%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 4000,
+        "cashOnHand": 4000,
+        "breakdown": [{ "kind": "candidate", "amount": 4000 }],
+        "fromCandidate": 4000,
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 5500,
+          "count": 2,
+          "fromCandidate": 1500
+        }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -112,7 +134,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T15:48:49.090Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.125Z",
+    "version": 3
   }
 }

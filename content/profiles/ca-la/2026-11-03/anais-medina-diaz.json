@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10599"],
   "kind": "candidate",
   "tier": "short",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -33,7 +34,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Anais Medina for Rio Hondo College Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/211579774-Anais%20Medina%20for%20Rio%20Hondo%20College%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 1980.79,
+        "cashOnHand": 1514.6,
+        "breakdown": [
+          { "kind": "small", "amount": 99.95 },
+          { "kind": "large", "amount": 1780.84 },
+          { "kind": "other", "amount": 100 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 9000, "count": 3 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -191,7 +211,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:50.926Z",
-    "version": 5
+    "generatedAt": "2026-10-15T21:48:37.001Z",
+    "version": 7
   }
 }

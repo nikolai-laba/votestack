@@ -15,7 +15,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of West Hollywood",
+        "committee": "The Committee to Elect Chiedu Egbuniwe to West Hollywood City Council 2026",
+        "url": "https://netfile.com/public/WEHO/campaign/filingsByFiler/216966379-The%20Committee%20to%20Elect%20Chiedu%20Egbuniwe",
+        "period": "July 1 to September 19, 2026",
+        "raised": 14303,
+        "cashOnHand": 1550.25,
+        "breakdown": [
+          { "kind": "small", "amount": 853 },
+          { "kind": "large", "amount": 13450 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 1000, "count": 1 }
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -39,6 +57,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:39:39.229Z",
-    "version": 2
+    "version": 3
   }
 }

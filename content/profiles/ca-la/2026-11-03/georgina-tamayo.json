@@ -43,7 +43,29 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Montebello",
+        "committee": "Georgina Tamayo for Montebello City Council 2026",
+        "url": "https://netfile.com/public/BELLO/campaign/filingsByFiler/217095519-Georgina%20Tamayo%20for%20Montebello%20City%20Council%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 15442,
+        "cashOnHand": 10766.46,
+        "breakdown": [
+          { "kind": "small", "amount": 25 },
+          { "kind": "large", "amount": 2800 },
+          { "kind": "pac", "amount": 2000 },
+          { "kind": "candidate", "amount": 1119 },
+          { "kind": "other", "amount": 9498 }
+        ],
+        "fromCandidate": 1119,
+        "largeSince": { "since": "2026-09-19", "total": 12000, "count": 6 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -164,6 +186,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.502Z",
-    "version": 1
+    "version": 2
   }
 }

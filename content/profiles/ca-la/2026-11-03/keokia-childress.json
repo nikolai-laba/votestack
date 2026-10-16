@@ -46,7 +46,15 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Inglewood",
+      "url": "https://www.cityofinglewood.org/414/City-Clerks-Office",
+      "onRequest": true
+    }
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -70,6 +78,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.427Z",
-    "version": 1
+    "version": 2
   }
 }

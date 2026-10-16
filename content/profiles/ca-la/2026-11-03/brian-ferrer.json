@@ -18,7 +18,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Ferrer for ABC School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217101735-Ferrer%20for%20ABC%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 11475.77,
+        "cashOnHand": 4770.86,
+        "breakdown": [
+          { "kind": "small", "amount": 299 },
+          { "kind": "large", "amount": 9650 },
+          { "kind": "pac", "amount": 500 },
+          { "kind": "candidate", "amount": 1026.77 }
+        ],
+        "fromCandidate": 1026.77,
+        "largeSince": { "since": "2026-09-19", "total": 3969.43, "count": 1 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -51,6 +72,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.948Z",
-    "version": 2
+    "version": 3
   }
 }

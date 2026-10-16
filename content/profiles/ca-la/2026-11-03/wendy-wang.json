@@ -55,7 +55,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of San Gabriel",
+        "committee": "Wendy Wang for San Gabriel City Council 2026",
+        "url": "https://netfile.com/public/CSG/campaign/filingsByFiler/216935262-Wendy%20Wang%20for%20San%20Gabriel%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 70368.01,
+        "cashOnHand": 15801.08,
+        "breakdown": [
+          { "kind": "small", "amount": 172.46 },
+          { "kind": "large", "amount": 36795.55 },
+          { "kind": "pac", "amount": 100 },
+          { "kind": "candidate", "amount": 11000 },
+          { "kind": "other", "amount": 22300 }
+        ],
+        "fromCandidate": 11000
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -184,6 +205,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.560Z",
-    "version": 1
+    "version": 2
   }
 }

@@ -33,7 +33,24 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Monica",
+        "committee": "Marcial for SM Rent Control Board 2026",
+        "url": "https://netfile.com/public/CSM/campaign/filingsByFiler/217278007-Marcial%20for%20SM%20Rent%20Control%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 1400,
+        "cashOnHand": 744.65,
+        "breakdown": [
+          { "kind": "large", "amount": 700 },
+          { "kind": "loan", "amount": 700 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -137,6 +154,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:40:01.407Z",
-    "version": 1
+    "version": 2
   }
 }

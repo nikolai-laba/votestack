@@ -33,7 +33,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Darryn Harris for LA Community College District Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/215507977-Darryn%20Harris%20for%20LA%20Community%20College%20District%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 24110,
+        "cashOnHand": 41223.96,
+        "breakdown": [
+          { "kind": "small", "amount": 1386 },
+          { "kind": "large", "amount": 17124 },
+          { "kind": "pac", "amount": 5000 },
+          { "kind": "other", "amount": 600 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 82095, "count": 10 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -330,6 +350,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.896Z",
-    "version": 3
+    "version": 4
   }
 }

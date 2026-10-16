@@ -37,7 +37,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of South Pasadena",
+      "url": "https://netfile.com/public/SPAS/campaign"
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -115,6 +122,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.624Z",
-    "version": 1
+    "version": 2
   }
 }

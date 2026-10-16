@@ -2,7 +2,7 @@
   "key": "genevieve-angel",
   "electionId": "ca-2026-11-03-general",
   "name": "Genevieve Angel",
-  "party": "Party Preference: Republican",
+  "party": "Republican",
   "office": "U.S. Representative, 44th District",
   "contestIds": ["la-4348-cc10821-r1", "la-4348-cc10821-r2"],
   "kind": "candidate",
@@ -38,7 +38,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Committee to Elect Genevieve Angel 2026",
+        "url": "https://www.fec.gov/data/committee/C00942029/?cycle=2026",
+        "period": "January 1 to September 30, 2026",
+        "raised": 21722.18,
+        "cashOnHand": 11089.27,
+        "breakdown": [
+          { "kind": "small", "amount": 3857.9 },
+          { "kind": "large", "amount": 14864.28 },
+          { "kind": "candidate", "amount": 3000 }
+        ],
+        "fromCandidate": 3000
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -118,6 +136,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.850Z",
-    "version": 3
+    "version": 4
   }
 }

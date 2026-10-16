@@ -29,7 +29,23 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Noosha Razavian",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217272556-Noosha%20Razavian%20for%202026%20Foothill%20Municipal%20Water%20District%20Board%20of%20Directors%20Division%205",
+        "period": "July 1 to September 19, 2026",
+        "raised": 2500,
+        "cashOnHand": 2272.72,
+        "breakdown": [{ "kind": "candidate", "amount": 2500 }],
+        "fromCandidate": 2500,
+        "largeSince": { "since": "2026-09-19", "total": 3000, "count": 2 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -97,6 +113,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.195Z",
-    "version": 2
+    "version": 3
   }
 }

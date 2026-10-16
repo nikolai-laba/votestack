@@ -25,7 +25,24 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Carol Tula",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217037447-Carol%20Tula%20for%20Bassett%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 1918,
+        "cashOnHand": 675,
+        "breakdown": [
+          { "kind": "loan", "amount": 710 },
+          { "kind": "other", "amount": 1208 }
+        ]
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-14", "items": [] },
   "sources": [
     {
@@ -41,6 +58,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T14:25:51.466Z",
-    "version": 2
+    "version": 3
   }
 }

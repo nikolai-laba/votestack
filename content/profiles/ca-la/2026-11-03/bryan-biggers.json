@@ -45,7 +45,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Bryan Biggers for Wm S Hart Union High School District 2026, Trustee Area 2",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217109045-Bryan%20Biggers%20for%20Wm%20S%20Hart%20Union%20High%20School%20District%202026%2C%20Trustee%20Area%202",
+        "period": "July 1 to September 19, 2026",
+        "raised": 20555,
+        "cashOnHand": 16100.13,
+        "breakdown": [
+          { "kind": "large", "amount": 13950 },
+          { "kind": "pac", "amount": 500 },
+          { "kind": "candidate", "amount": 5105 },
+          { "kind": "other", "amount": 1000 }
+        ],
+        "fromCandidate": 5105,
+        "largeSince": { "since": "2026-09-19", "total": 20000, "count": 10 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -184,6 +205,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.172Z",
-    "version": 2
+    "version": 3
   }
 }

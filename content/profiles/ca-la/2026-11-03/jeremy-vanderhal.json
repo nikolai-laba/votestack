@@ -46,7 +46,24 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Vanderhal for School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/214978374-Vanderhal%20for%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 4438,
+        "cashOnHand": 18913.09,
+        "breakdown": [
+          { "kind": "small", "amount": 160 },
+          { "kind": "large", "amount": 4278 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -220,6 +237,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.107Z",
-    "version": 2
+    "version": 3
   }
 }

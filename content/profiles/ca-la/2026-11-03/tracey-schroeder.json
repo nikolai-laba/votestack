@@ -2,7 +2,7 @@
   "key": "tracey-schroeder",
   "electionId": "ca-2026-11-03-general",
   "name": "Tracey Schroeder",
-  "party": "Party Preference: Republican",
+  "party": "Republican",
   "office": "State Assembly Member, 46th District",
   "contestIds": ["la-4348-cc10788"],
   "kind": "candidate",
@@ -48,7 +48,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Schroeder for State Assembly 2026; Tracey",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1486810",
+        "period": "May 17 to June 30, 2026",
+        "raised": 1300,
+        "cashOnHand": 650.51,
+        "breakdown": [{ "kind": "large", "amount": 1300 }]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -162,6 +176,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.686Z",
-    "version": 3
+    "version": 4
   }
 }

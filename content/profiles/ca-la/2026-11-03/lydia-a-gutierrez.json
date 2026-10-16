@@ -2,7 +2,7 @@
   "key": "lydia-a-gutierrez",
   "electionId": "ca-2026-11-03-general",
   "name": "Lydia A. Gutiérrez",
-  "party": "Party Preference: Republican",
+  "party": "Republican",
   "office": "State Assembly Member, 65th District",
   "contestIds": ["la-4348-cc10801"],
   "kind": "candidate",
@@ -34,7 +34,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Gutierrez for State Assembly 2026; Lydia",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1489992",
+        "period": "July 1 to September 19, 2026",
+        "raised": 150,
+        "cashOnHand": 1885.22,
+        "breakdown": [{ "kind": "large", "amount": 150 }]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -101,6 +115,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.724Z",
-    "version": 3
+    "version": 4
   }
 }

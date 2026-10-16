@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10592"],
   "kind": "candidate",
   "tier": "short",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -30,7 +31,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217596951-Laura%20Santos%20for%20Mt%20San%20Antonio%20College%20Trustee%20Area%203%202026"
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -86,7 +94,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:50.916Z",
-    "version": 2
+    "generatedAt": "2026-10-15T21:48:36.988Z",
+    "version": 4
   }
 }

@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10646"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -43,7 +44,29 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Monica Garcia for Glendora USD School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216956001-Monica%20Garcia%20for%20Glendora%20USD%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 17664.26,
+        "cashOnHand": 8490.43,
+        "breakdown": [
+          { "kind": "small", "amount": 877.07 },
+          { "kind": "large", "amount": 12937.19 },
+          { "kind": "pac", "amount": 2500 },
+          { "kind": "candidate", "amount": 500 },
+          { "kind": "other", "amount": 850 }
+        ],
+        "fromCandidate": 500,
+        "largeSince": { "since": "2026-09-19", "total": 3500, "count": 2 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -175,7 +198,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.023Z",
-    "version": 2
+    "generatedAt": "2026-10-15T21:48:37.117Z",
+    "version": 4
   }
 }

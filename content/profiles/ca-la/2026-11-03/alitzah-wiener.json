@@ -51,7 +51,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Alitzah Wiener for Hacienda La Puente Unified School District 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217093598-Alitzah%20Wiener%20for%20Hacienda%20La%20Puente%20Unified%20School%20District%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 4350,
+        "cashOnHand": 3386.94,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -100,6 +114,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.032Z",
-    "version": 2
+    "version": 3
   }
 }

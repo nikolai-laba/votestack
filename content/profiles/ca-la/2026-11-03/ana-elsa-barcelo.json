@@ -21,7 +21,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of El Monte",
+      "url": "https://www.ci.el-monte.ca.us/DocumentCenter/Index/373"
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -54,6 +61,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.382Z",
-    "version": 1
+    "version": 2
   }
 }

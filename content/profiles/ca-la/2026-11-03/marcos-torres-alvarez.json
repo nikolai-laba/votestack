@@ -21,7 +21,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Alvarez for Palmdale School Area 5 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217219704-Alvarez%20for%20Palmdale%20School%20Area%205%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 0,
+        "cashOnHand": 0,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -50,6 +64,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.104Z",
-    "version": 2
+    "version": 3
   }
 }

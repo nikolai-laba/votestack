@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10507"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -39,7 +40,15 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Rosemead",
+      "url": "https://rosemeadca.gov/services/city_clerk/public_records_request.php",
+      "onRequest": true
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -205,7 +214,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.550Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.849Z",
+    "version": 3
   }
 }

@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10513"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -51,7 +52,24 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Fe Springs",
+        "committee": "committee to re-elect Bill Rounds to city council 2026",
+        "url": "https://netfile.com/public/SFS/campaign/filingsByFiler/215932212-Committee%20to%20Re-Elect%20Bill%20Rounds%20to%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 22395,
+        "cashOnHand": 35797.1,
+        "breakdown": [
+          { "kind": "large", "amount": 6399 },
+          { "kind": "other", "amount": 15996 }
+        ]
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -114,7 +132,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.578Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.896Z",
+    "version": 3
   }
 }

@@ -2,7 +2,7 @@
   "key": "ted-nordblum",
   "electionId": "ca-2026-11-03-general",
   "name": "Ted Nordblum",
-  "party": "Party Preference: Republican",
+  "party": "Republican",
   "office": "State Assembly Member, 42nd District",
   "contestIds": ["la-4348-cc10785"],
   "kind": "candidate",
@@ -30,7 +30,29 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Nordblum for State Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477458",
+        "period": "July 1 to September 19, 2026",
+        "raised": 92784.43,
+        "cashOnHand": 63387.22,
+        "breakdown": [
+          { "kind": "small", "amount": 417 },
+          { "kind": "large", "amount": 74202 },
+          { "kind": "pac", "amount": 15165.43 },
+          { "kind": "candidate", "amount": 550 },
+          { "kind": "other", "amount": 2450 }
+        ],
+        "fromCandidate": 550,
+        "largeSince": { "since": "2026-09-19", "total": 28250, "count": 9 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -273,6 +295,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.675Z",
-    "version": 4
+    "version": 5
   }
 }

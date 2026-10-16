@@ -51,7 +51,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Hermosa Beach",
+        "committee": "Elka Worner for Hermosa Beach City Council 2026",
+        "url": "https://netfile.com/public/COHB/campaign/filingsByFiler/216889729-Elka%20Worner%20for%20Hermosa%20Beach%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 18855,
+        "cashOnHand": 15914.47,
+        "breakdown": [
+          { "kind": "small", "amount": 355 },
+          { "kind": "large", "amount": 13000 },
+          { "kind": "candidate", "amount": 5000 },
+          { "kind": "other", "amount": 500 }
+        ],
+        "fromCandidate": 5000
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -173,6 +193,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.410Z",
-    "version": 1
+    "version": 2
   }
 }

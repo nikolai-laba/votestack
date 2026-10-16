@@ -2,11 +2,12 @@
   "key": "luz-maria-rivas",
   "electionId": "ca-2026-11-03-general",
   "name": "Luz Maria Rivas",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "U.S. Representative, 29th District",
   "contestIds": ["la-4348-cc10809-r1", "la-4348-cc10809-r2"],
   "kind": "candidate",
   "tier": "top",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -63,7 +64,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Luz Rivas for Congress",
+        "url": "https://www.fec.gov/data/committee/C00857417/?cycle=2026",
+        "period": "January 1, 2025 to June 30, 2026",
+        "raised": 670678.01,
+        "cashOnHand": 377476.23,
+        "breakdown": [
+          { "kind": "small", "amount": 13006.07 },
+          { "kind": "large", "amount": 298987.85 },
+          { "kind": "pac", "amount": 356789.68 },
+          { "kind": "other", "amount": 1894.41 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -440,6 +459,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.789Z",
-    "version": 5
+    "version": 6
   }
 }

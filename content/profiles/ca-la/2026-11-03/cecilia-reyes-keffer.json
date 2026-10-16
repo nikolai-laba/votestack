@@ -33,7 +33,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Cecilia Keffer for School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217053623-Cecilia%20Keffer%20for%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 17163.22,
+        "cashOnHand": 4245.15,
+        "breakdown": [
+          { "kind": "small", "amount": 503 },
+          { "kind": "large", "amount": 400 },
+          { "kind": "candidate", "amount": 2025 },
+          { "kind": "other", "amount": 14235.22 }
+        ],
+        "fromCandidate": 2025,
+        "largeSince": { "since": "2026-09-19", "total": 8023.23, "count": 2 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -66,6 +87,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.300Z",
-    "version": 1
+    "version": 2
   }
 }

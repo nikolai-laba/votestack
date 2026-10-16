@@ -25,7 +25,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Shelby Richardson for Inglewood USD Trustee Area 2 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217396022-Shelby%20Richardson%20for%20Inglewood%20USD%20Trustee%20Area%202%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 1150,
+        "cashOnHand": 1065.38,
+        "breakdown": [
+          { "kind": "small", "amount": 50 },
+          { "kind": "large", "amount": 550 },
+          { "kind": "candidate", "amount": 550 }
+        ],
+        "fromCandidate": 550
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -54,6 +73,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.039Z",
-    "version": 2
+    "version": 3
   }
 }

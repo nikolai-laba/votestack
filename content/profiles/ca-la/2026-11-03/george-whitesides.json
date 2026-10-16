@@ -2,11 +2,12 @@
   "key": "george-whitesides",
   "electionId": "ca-2026-11-03-general",
   "name": "George Whitesides",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "U.S. Representative, 27th District",
   "contestIds": ["la-4348-cc10807-r1", "la-4348-cc10807-r2"],
   "kind": "candidate",
   "tier": "top",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -70,7 +71,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "George Whitesides for Congress",
+        "url": "https://www.fec.gov/data/committee/C00834028/?cycle=2026",
+        "period": "January 1, 2025 to June 30, 2026",
+        "raised": 3963530.22,
+        "cashOnHand": 2554916.64,
+        "breakdown": [
+          { "kind": "small", "amount": 359852.57 },
+          { "kind": "large", "amount": 2446148.24 },
+          { "kind": "pac", "amount": 629087.62 },
+          { "kind": "party", "amount": 6895.42 },
+          { "kind": "transfer", "amount": 437133.9 },
+          { "kind": "other", "amount": 84412.47 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -415,6 +436,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.775Z",
-    "version": 5
+    "version": 6
   }
 }

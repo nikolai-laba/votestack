@@ -55,7 +55,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Monica",
+        "committee": "Sue Himmelrich for Santa Monica Rent Control Board 2026",
+        "url": "https://netfile.com/public/CSM/campaign/filingsByFiler/216921852-Sue%20Himmelrich%20for%20Santa%20Monica%20Rent%20Control%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 0,
+        "cashOnHand": 6125,
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 10000,
+          "count": 1,
+          "fromCandidate": 10000
+        }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -144,6 +163,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.609Z",
-    "version": 1
+    "version": 2
   }
 }

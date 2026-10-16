@@ -59,7 +59,24 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Monica",
+        "committee": "Lesley for City Council 2026",
+        "url": "https://netfile.com/public/CSM/campaign/filingsByFiler/215807100-Lesley%20for%20City%20Council%202026",
+        "period": "January 1 to June 30, 2026",
+        "raised": 3585,
+        "cashOnHand": 3357.67,
+        "breakdown": [
+          { "kind": "small", "amount": 705 },
+          { "kind": "large", "amount": 2880 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -157,6 +174,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.599Z",
-    "version": 1
+    "version": 2
   }
 }

@@ -15,7 +15,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Monica",
+        "committee": "Heather Thomason for Rent Control Board 2026",
+        "url": "https://netfile.com/public/CSM/campaign/filingsByFiler/217512925-Heather%20Thomason%20for%20Rent%20Control%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 1000,
+        "cashOnHand": 1000,
+        "breakdown": [{ "kind": "candidate", "amount": 1000 }],
+        "fromCandidate": 1000,
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 10000,
+          "count": 7,
+          "fromCandidate": 3000
+        }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -88,6 +109,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:39:39.220Z",
-    "version": 2
+    "version": 3
   }
 }

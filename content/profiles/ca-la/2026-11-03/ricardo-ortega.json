@@ -33,7 +33,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Ortega for College Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216974999-Ortega%20for%20College%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 14650,
+        "cashOnHand": 7864.81,
+        "breakdown": [
+          { "kind": "large", "amount": 6850 },
+          { "kind": "pac", "amount": 6500 },
+          { "kind": "candidate", "amount": 1300 }
+        ],
+        "fromCandidate": 1300,
+        "largeSince": { "since": "2026-09-19", "total": 9500, "count": 2 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -217,6 +237,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.857Z",
-    "version": 2
+    "version": 3
   }
 }

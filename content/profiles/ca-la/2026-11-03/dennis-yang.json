@@ -37,7 +37,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Dennis Yang for WVWD Board of Directors Division 5 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217178216-Dennis%20Yang%20for%20WVWD%20Board%20of%20Directors%20Division%205%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 7806.38,
+        "cashOnHand": 2123.3,
+        "breakdown": [
+          { "kind": "small", "amount": 175 },
+          { "kind": "large", "amount": 525 },
+          { "kind": "candidate", "amount": 7106.38 }
+        ],
+        "fromCandidate": 7106.38,
+        "largeSince": { "since": "2026-09-19", "total": 13000, "count": 9 }
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -61,6 +81,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.427Z",
-    "version": 1
+    "version": 2
   }
 }

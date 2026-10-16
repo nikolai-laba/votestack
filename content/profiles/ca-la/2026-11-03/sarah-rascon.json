@@ -2,7 +2,7 @@
   "key": "sarah-rascon",
   "electionId": "ca-2026-11-03-general",
   "name": "Sarah Rascón",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "State Senator, 26th District",
   "contestIds": ["la-4348-cc10776"],
   "kind": "candidate",
@@ -52,7 +52,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Rascon for State Senate 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1481478",
+        "period": "July 1 to September 19, 2026",
+        "raised": 63506.08,
+        "cashOnHand": 136815.59,
+        "breakdown": [
+          { "kind": "small", "amount": 1762.11 },
+          { "kind": "large", "amount": 38242.01 },
+          { "kind": "pac", "amount": 17601.96 },
+          { "kind": "other", "amount": 5900 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 24547.43, "count": 9 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -359,6 +379,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.751Z",
-    "version": 3
+    "version": 4
   }
 }

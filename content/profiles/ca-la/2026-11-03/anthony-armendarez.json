@@ -25,7 +25,24 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Anthony Armendarez for NLMUSD Board of Education 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216999354-Armendarez%2C%20Anthony",
+        "period": "July 1 to September 19, 2026",
+        "raised": 2200,
+        "cashOnHand": 2200,
+        "breakdown": [
+          { "kind": "large", "amount": 200 },
+          { "kind": "other", "amount": 2000 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -75,6 +92,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.095Z",
-    "version": 2
+    "version": 3
   }
 }

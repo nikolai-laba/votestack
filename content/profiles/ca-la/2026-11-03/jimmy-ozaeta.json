@@ -52,7 +52,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of South Gate",
+        "committee": "Jimmy Ozeata for South Gate City Council 2026",
+        "url": "https://netfile.com/public/SGC/campaign/filingsByFiler/217473462-Jimmy%20Ozeata%20for%20South%20Gate%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 1907.68,
+        "cashOnHand": 124.85,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -84,6 +98,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.620Z",
-    "version": 1
+    "version": 2
   }
 }

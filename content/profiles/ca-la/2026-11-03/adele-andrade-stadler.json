@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10410"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -55,7 +56,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Alhambra",
+        "committee": "Adele Andrade-Stadler for Alhambra City Council 2026",
+        "url": "https://www.alhambraca.gov/DocumentCenter/Index/29",
+        "period": "July 1 to September 19, 2026",
+        "raised": 5855,
+        "cashOnHand": 9851.03,
+        "fromScan": "ocr"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -124,7 +139,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.279Z",
-    "version": 2
+    "generatedAt": "2026-10-15T21:48:37.452Z",
+    "version": 4
   }
 }

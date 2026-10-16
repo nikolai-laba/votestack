@@ -2,11 +2,12 @@
   "key": "linda-sanchez",
   "electionId": "ca-2026-11-03-general",
   "name": "Linda Sánchez",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "U.S. Representative, 41st District",
   "contestIds": ["la-4348-cc10818-r1", "la-4348-cc10818-r2"],
   "kind": "candidate",
   "tier": "top",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -64,7 +65,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Stand with Sanchez",
+        "url": "https://www.fec.gov/data/committee/C00384057/?cycle=2026",
+        "period": "January 1, 2025 to June 30, 2026",
+        "raised": 1602789.55,
+        "cashOnHand": 415745.67,
+        "breakdown": [
+          { "kind": "small", "amount": 26483.96 },
+          { "kind": "large", "amount": 316778.42 },
+          { "kind": "pac", "amount": 1243176.38 },
+          { "kind": "party", "amount": 32.68 },
+          { "kind": "transfer", "amount": 11526.51 },
+          { "kind": "other", "amount": 4791.6 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -494,6 +515,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.830Z",
-    "version": 3
+    "version": 4
   }
 }

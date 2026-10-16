@@ -2,7 +2,7 @@
   "key": "carolyn-daniels",
   "electionId": "ca-2026-11-03-general",
   "name": "Carolyn Daniels",
-  "party": "Party Preference: Republican",
+  "party": "Republican",
   "office": "State Assembly Member, 44th District",
   "contestIds": ["la-4348-cc10787"],
   "kind": "candidate",
@@ -44,7 +44,20 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Carolyn Daniels for Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1489249",
+        "period": "July 1 to September 19, 2026",
+        "raised": 0,
+        "cashOnHand": 13096.25
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -150,6 +163,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.680Z",
-    "version": 3
+    "version": 4
   }
 }

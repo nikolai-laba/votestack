@@ -47,7 +47,20 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Burbank",
+        "committee": "Nolan Southerland for Burbank City Council 2026",
+        "url": "https://efile.burbankca.gov/public/search/campaign/filings/fbf4d115-84d2-4d02-8ed7-7b50f2e2c945?type=committee",
+        "period": "January 1 to September 19, 2026",
+        "raised": 10450.62,
+        "cashOnHand": 4428.35
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -205,6 +218,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.323Z",
-    "version": 1
+    "version": 2
   }
 }

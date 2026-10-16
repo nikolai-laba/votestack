@@ -33,7 +33,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Fe Springs",
+        "committee": "Valladares for City Council 2026",
+        "url": "https://netfile.com/public/SFS/campaign/filingsByFiler/216966449-Valladares%20for%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 10000,
+        "cashOnHand": 6409.39,
+        "breakdown": [
+          { "kind": "large", "amount": 5000 },
+          { "kind": "other", "amount": 5000 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 10000, "count": 2 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -92,6 +110,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.586Z",
-    "version": 1
+    "version": 2
   }
 }

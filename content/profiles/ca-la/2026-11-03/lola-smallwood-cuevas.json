@@ -2,11 +2,12 @@
   "key": "lola-smallwood-cuevas",
   "electionId": "ca-2026-11-03-general",
   "name": "Lola Smallwood-Cuevas",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "State Senator, 28th District",
   "contestIds": ["la-4348-cc10777"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -56,7 +57,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Lola Smallwood-Cuevas for Senate 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1456867",
+        "period": "July 1 to September 19, 2026",
+        "raised": 130474.69,
+        "cashOnHand": 381981.06,
+        "breakdown": [
+          { "kind": "small", "amount": 275.85 },
+          { "kind": "large", "amount": 11743.82 },
+          { "kind": "pac", "amount": 54478.65 },
+          { "kind": "other", "amount": 63976.37 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 37200, "count": 14 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -469,6 +490,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.756Z",
-    "version": 5
+    "version": 6
   }
 }

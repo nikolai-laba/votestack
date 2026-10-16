@@ -45,7 +45,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Reveles for Montebello Unified School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216929944-Aaron%20Reveles%20for%20Montebello%20Unified%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 3004.2,
+        "cashOnHand": 928.82,
+        "breakdown": [
+          { "kind": "small", "amount": 504.95 },
+          { "kind": "large", "amount": 689.25 },
+          { "kind": "pac", "amount": 800 },
+          { "kind": "candidate", "amount": 410 },
+          { "kind": "other", "amount": 600 }
+        ],
+        "fromCandidate": 410
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-14", "items": [] },
   "sources": [
     {
@@ -85,6 +106,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.196Z",
-    "version": 1
+    "version": 2
   }
 }

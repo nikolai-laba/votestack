@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10505"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -26,7 +27,15 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Rolling Hills",
+      "url": "https://www.rolling-hills.org/government/city_clerk/index.php",
+      "onRequest": true
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -91,7 +100,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:39:39.199Z",
-    "version": 2
+    "generatedAt": "2026-10-15T21:48:37.831Z",
+    "version": 4
   }
 }

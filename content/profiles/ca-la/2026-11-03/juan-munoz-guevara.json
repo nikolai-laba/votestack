@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10477"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -47,7 +48,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Lynwood",
+        "committee": "Munoz-Guevara for City Council 2026",
+        "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=363520&dbid=0&repo=r-a1e5613e",
+        "period": "July 1 to September 19, 2026",
+        "raised": 24793,
+        "cashOnHand": 37695.41,
+        "fromScan": "ocr"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -386,6 +401,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:39:39.183Z",
-    "version": 2
+    "version": 3
   }
 }

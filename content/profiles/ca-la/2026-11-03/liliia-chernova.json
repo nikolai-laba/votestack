@@ -43,7 +43,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Santa Clarita",
+      "url": "https://www.southtechhosting.com/SantaClaritaCity/CampaignDocsWebRetrieval/"
+    }
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -75,6 +82,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.577Z",
-    "version": 1
+    "version": 2
   }
 }

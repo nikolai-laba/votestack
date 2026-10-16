@@ -2,7 +2,7 @@
   "key": "eleni-kounalakis",
   "electionId": "ca-2026-11-03-general",
   "name": "Eleni Kounalakis",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "California Treasurer",
   "contestIds": ["la-4348-cc10832-r1", "la-4348-cc10832-r2"],
   "kind": "candidate",
@@ -70,7 +70,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Eleni Kounalakis for Treasurer 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1483008",
+        "period": "July 1 to September 19, 2026",
+        "raised": 78700.58,
+        "cashOnHand": 2049283.38,
+        "breakdown": [
+          { "kind": "small", "amount": 50 },
+          { "kind": "large", "amount": 590 },
+          { "kind": "pac", "amount": 59200 },
+          { "kind": "party", "amount": 9060.58 },
+          { "kind": "other", "amount": 9800 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 130674.5, "count": 24 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -488,6 +509,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.825Z",
-    "version": 3
+    "version": 4
   }
 }

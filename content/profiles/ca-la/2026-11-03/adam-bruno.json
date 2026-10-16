@@ -15,7 +15,15 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217280641-Bruno%2C%20Adam",
+      "underThreshold": true
+    }
+  },
   "endorsements": { "asOf": "2026-10-14", "items": [] },
   "sources": [
     {
@@ -39,6 +47,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T14:25:51.449Z",
-    "version": 2
+    "version": 3
   }
 }

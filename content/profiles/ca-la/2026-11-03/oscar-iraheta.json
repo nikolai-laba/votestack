@@ -21,7 +21,15 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217048737-Iraheta%2C%20Oscar",
+      "underThreshold": true
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -54,6 +62,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.134Z",
-    "version": 1
+    "version": 2
   }
 }

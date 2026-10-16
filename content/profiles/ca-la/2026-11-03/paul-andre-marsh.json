@@ -2,7 +2,7 @@
   "key": "paul-andre-marsh",
   "electionId": "ca-2026-11-03-general",
   "name": "Paul Andre Marsh",
-  "party": "Party Preference: Republican",
+  "party": "Republican",
   "office": "State Assembly Member, 39th District",
   "contestIds": ["la-4348-cc10782"],
   "kind": "candidate",
@@ -26,7 +26,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Marsh for Assembly 2026; Paul",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1483979",
+        "period": "July 1 to September 19, 2026",
+        "raised": 100,
+        "cashOnHand": 1542.49,
+        "breakdown": [{ "kind": "large", "amount": 100 }]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -72,6 +86,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.666Z",
-    "version": 3
+    "version": 4
   }
 }

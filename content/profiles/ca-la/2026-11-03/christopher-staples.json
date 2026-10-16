@@ -43,7 +43,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Christopher Staples for NLMUSD Board of Education 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217045208-Staples%20for%20NLMUSD%20Board%20of%20Education%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 12173.68,
+        "cashOnHand": 2618.17,
+        "breakdown": [
+          { "kind": "large", "amount": 925 },
+          { "kind": "pac", "amount": 730 },
+          { "kind": "candidate", "amount": 1200 },
+          { "kind": "other", "amount": 9318.68 }
+        ],
+        "fromCandidate": 1200,
+        "largeSince": { "since": "2026-09-19", "total": 5975, "count": 1 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -135,6 +156,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.217Z",
-    "version": 1
+    "version": 2
   }
 }

@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10572"],
   "kind": "candidate",
   "tier": "short",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -29,7 +30,22 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Committee to re-elect Michael R. Adams",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217276082-Committee%20to%20Re-Elect%20Michael%20R.%20Adams%20to%20Antelope%20Valley%20College%20District%20Board%2C%20District%204%2C%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 13000,
+        "cashOnHand": 646.05,
+        "breakdown": [{ "kind": "candidate", "amount": 13000 }],
+        "fromCandidate": 13000
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -103,7 +119,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:50.863Z",
-    "version": 2
+    "generatedAt": "2026-10-15T21:48:36.874Z",
+    "version": 4
   }
 }

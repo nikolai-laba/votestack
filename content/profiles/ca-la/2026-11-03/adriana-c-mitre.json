@@ -33,7 +33,23 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Mitre for School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217222488-Mitre%20for%20School%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 1500,
+        "cashOnHand": 1251.23,
+        "breakdown": [{ "kind": "candidate", "amount": 1500 }],
+        "fromCandidate": 1500,
+        "largeSince": { "since": "2026-09-19", "total": 1560, "count": 1 }
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -49,6 +65,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.171Z",
-    "version": 1
+    "version": 2
   }
 }

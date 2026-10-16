@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10412"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -40,7 +41,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Arcadia",
+        "committee": "Han 4 Arcadia City Council 2026",
+        "url": "https://laserfiche.arcadiaca.gov/WebLink/Browse.aspx?id=883557&dbid=0&repo=CityofArcadia",
+        "period": "July 1 to September 19, 2026",
+        "raised": 24000,
+        "cashOnHand": 11148.28,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -80,7 +95,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T15:48:49.481Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.464Z",
+    "version": 3
   }
 }

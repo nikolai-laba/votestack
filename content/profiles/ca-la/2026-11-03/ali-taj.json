@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10879"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -15,7 +16,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Artesia",
+      "url": "https://www.cityofartesia.us/DocumentCenter/View/8282/460-AAA-102024"
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -89,7 +97,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.292Z",
-    "version": 3
+    "generatedAt": "2026-10-15T21:48:37.468Z",
+    "version": 5
   }
 }

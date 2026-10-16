@@ -47,7 +47,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Manhattan Beach",
+        "committee": "Burton for Council 2026",
+        "url": "https://netfile.com/public/CMB/campaign/filingsByFiler/217143709-Burton%20for%20Council%202026",
+        "period": "September 20 to October 17, 2026",
+        "raised": 23130,
+        "cashOnHand": 12527,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -87,6 +101,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.483Z",
-    "version": 1
+    "version": 2
   }
 }

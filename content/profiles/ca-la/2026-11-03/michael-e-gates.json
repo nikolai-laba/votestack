@@ -2,7 +2,7 @@
   "key": "michael-e-gates",
   "electionId": "ca-2026-11-03-general",
   "name": "Michael E. Gates",
-  "party": "Party Preference: Republican",
+  "party": "Republican",
   "office": "California Attorney General",
   "contestIds": ["la-4348-cc10833-r1", "la-4348-cc10833-r2"],
   "kind": "candidate",
@@ -66,7 +66,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Gates for Attorney General 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1486227",
+        "period": "July 1 to September 19, 2026",
+        "raised": 498726.43,
+        "cashOnHand": 336369.24,
+        "breakdown": [
+          { "kind": "small", "amount": 14349.9 },
+          { "kind": "large", "amount": 411411.36 },
+          { "kind": "pac", "amount": 27715 },
+          { "kind": "party", "amount": 1000 },
+          { "kind": "other", "amount": 44250.17 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 177400, "count": 82 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -410,6 +431,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.768Z",
-    "version": 3
+    "version": 4
   }
 }

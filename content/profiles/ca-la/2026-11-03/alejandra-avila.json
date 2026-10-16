@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10415"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -48,7 +49,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Baldwin Park",
+      "url": "https://www.baldwinpark.com/DocumentCenter/Index/44"
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -108,7 +116,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.304Z",
-    "version": 2
+    "generatedAt": "2026-10-15T21:48:37.485Z",
+    "version": 4
   }
 }

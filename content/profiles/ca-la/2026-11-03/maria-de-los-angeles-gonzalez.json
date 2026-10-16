@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10711"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -25,7 +26,15 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/213447087-Gonzalez%2C%20Maria%20de%20los%20Angeles",
+      "underThreshold": true
+    }
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -48,7 +57,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T15:48:49.166Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.183Z",
+    "version": 3
   }
 }

@@ -25,7 +25,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Committee to Elect Joann N. Smith For School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216866474-Committee%20to%20Elect%20Joann%20N.%20Smith%20for%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 1900,
+        "cashOnHand": 1700,
+        "breakdown": [
+          { "kind": "large", "amount": 400 },
+          { "kind": "candidate", "amount": 1500 }
+        ],
+        "fromCandidate": 1500
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -66,6 +84,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.226Z",
-    "version": 1
+    "version": 2
   }
 }

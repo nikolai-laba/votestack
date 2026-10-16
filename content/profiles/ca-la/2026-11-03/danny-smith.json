@@ -19,7 +19,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Malibu",
+        "committee": "Danny Smith for Malibu City Council 2026",
+        "url": "https://netfile.com/public/MBU/campaign/filingsByFiler/217088304-Danny%20Smith%20for%20Malibu%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 3750,
+        "cashOnHand": 2086.82,
+        "breakdown": [
+          { "kind": "large", "amount": 2750 },
+          { "kind": "candidate", "amount": 1000 }
+        ],
+        "fromCandidate": 1000
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -100,6 +118,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:40:12.489Z",
-    "version": 3
+    "version": 4
   }
 }

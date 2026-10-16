@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10760"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -51,7 +52,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217037168-The%20Committee%20to%20Elect%20Simone%20Zulu%20Diol%20for%20School%20Board%202026"
+    }
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -90,7 +98,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T15:48:49.229Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.227Z",
+    "version": 3
   }
 }

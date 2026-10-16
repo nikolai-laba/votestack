@@ -37,7 +37,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Brandon Macias for Rowland Unified School District Board of Education 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/214513368-Brandon%20Macias%20for%20Rowland%20Unified%20School%20District%20Board%20of%20Education%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 3074,
+        "cashOnHand": 732.52,
+        "breakdown": [
+          { "kind": "small", "amount": 896 },
+          { "kind": "large", "amount": 1692 },
+          { "kind": "candidate", "amount": 486 }
+        ],
+        "fromCandidate": 486,
+        "largeSince": { "since": "2026-09-19", "total": 1400, "count": 1 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -141,6 +161,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.127Z",
-    "version": 2
+    "version": 3
   }
 }

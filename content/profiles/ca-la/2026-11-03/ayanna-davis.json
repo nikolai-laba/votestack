@@ -2,7 +2,7 @@
   "key": "ayanna-davis",
   "electionId": "ca-2026-11-03-general",
   "name": "Ayanna Davis",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "State Assembly Member, 65th District",
   "contestIds": ["la-4348-cc10801"],
   "kind": "candidate",
@@ -34,7 +34,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Ayanna Davis for Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1478609",
+        "period": "July 1 to September 19, 2026",
+        "raised": 221144.76,
+        "cashOnHand": 203741.17,
+        "breakdown": [
+          { "kind": "small", "amount": 494.76 },
+          { "kind": "large", "amount": 24650 },
+          { "kind": "pac", "amount": 154000 },
+          { "kind": "other", "amount": 42000 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 96900, "count": 25 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -438,6 +458,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.723Z",
-    "version": 3
+    "version": 4
   }
 }

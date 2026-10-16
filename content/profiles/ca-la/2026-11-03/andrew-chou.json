@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10441"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -43,7 +44,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Diamond Bar",
+        "committee": "Andrew Chou for Diamond Bar City Council 2026",
+        "url": "https://netfile.com/public/CDB/campaign/filingsByFiler/216934166-Andrew%20Chou%20for%20Diamond%20Bar%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 1500,
+        "cashOnHand": 2281.8,
+        "breakdown": [{ "kind": "large", "amount": 1500 }]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -84,7 +99,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.367Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.575Z",
+    "version": 3
   }
 }

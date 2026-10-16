@@ -2,20 +2,21 @@
   "key": "susan-rubio",
   "electionId": "ca-2026-11-03-general",
   "name": "Susan Rubio",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "State Senator, 22nd District",
   "contestIds": ["la-4348-cc10774"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
       {
-        "text": "Susan Rubio is a Party Preference: Democratic State Senator representing District 22, elected in 2018. She was previously a public school teacher for 20 years in Baldwin Park and Monrovia, and a Baldwin Park elected official for 13 years.",
+        "text": "Susan Rubio is a Democratic State Senator representing District 22, elected in 2018. She was previously a public school teacher for 20 years in Baldwin Park and Monrovia, and a Baldwin Park elected official for 13 years.",
         "cites": [1, 2],
         "sentences": [
           {
-            "text": "Susan Rubio is a Party Preference: Democratic State Senator representing District 22, elected in 2018.",
+            "text": "Susan Rubio is a Democratic State Senator representing District 22, elected in 2018.",
             "cites": [1]
           },
           {
@@ -44,7 +45,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Susan Rubio for Senate 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1456613",
+        "period": "July 1 to September 19, 2026",
+        "raised": 114350,
+        "cashOnHand": 578100.1,
+        "breakdown": [
+          { "kind": "large", "amount": 300 },
+          { "kind": "pac", "amount": 57650 },
+          { "kind": "other", "amount": 56400 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 106450, "count": 22 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -370,6 +390,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.743Z",
-    "version": 4
+    "version": 5
   }
 }

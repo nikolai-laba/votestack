@@ -33,7 +33,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Mike Murchison for WRD Director 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217046952-Mike%20Murchison%20for%20WRD%20Director%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 66500.99,
+        "cashOnHand": 54369.86,
+        "largeSince": { "since": "2026-09-19", "total": 4141.98, "count": 3 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -169,6 +183,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.430Z",
-    "version": 1
+    "version": 2
   }
 }

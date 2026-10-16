@@ -39,7 +39,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Committee to Elect Ralph Velador for Palmdale School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/211588660-Committee%20to%20Elect%20Ralph%20Velador%20for%20Palmdale%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 599,
+        "cashOnHand": 50995.3,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -102,6 +116,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.102Z",
-    "version": 2
+    "version": 3
   }
 }

@@ -37,7 +37,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "San Bernardino County Registrar of Voters",
+      "url": "https://netfile.com/public/SBD/campaign/filingsByFiler/217468449-Russ%20Bond%20%20for%20Wrightwood%20CSD%20Board%202026"
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -78,6 +85,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.447Z",
-    "version": 1
+    "version": 2
   }
 }

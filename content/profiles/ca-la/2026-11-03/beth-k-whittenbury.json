@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10543"],
   "kind": "candidate",
   "tier": "short",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -15,7 +16,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Beth Whittenbury for PVLD Trustee 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216978222-Beth%20Whittenbury%20for%20PVLD%20Trustee%202026",
+        "period": "July 13 to September 19, 2026",
+        "raised": 838.36,
+        "cashOnHand": 54.33,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -63,7 +78,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.208Z",
-    "version": 3
+    "generatedAt": "2026-10-15T21:48:37.364Z",
+    "version": 5
   }
 }

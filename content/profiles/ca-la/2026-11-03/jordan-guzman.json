@@ -29,7 +29,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of San Gabriel",
+        "committee": "Committee to Elect Jordan Guzman for San Gabriel City Council 2026",
+        "url": "https://netfile.com/public/CSG/campaign/filingsByFiler/216935374-Committee%20to%20Elect%20Jordan%20Guzman%20for%20San%20Gabriel%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 2155.91,
+        "cashOnHand": 2111.25,
+        "breakdown": [
+          { "kind": "small", "amount": 216.94 },
+          { "kind": "large", "amount": 1411.5 },
+          { "kind": "candidate", "amount": 527.47 }
+        ],
+        "fromCandidate": 527.47
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -61,6 +80,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.556Z",
-    "version": 1
+    "version": 2
   }
 }

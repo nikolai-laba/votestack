@@ -29,7 +29,15 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217182836-Umana%2C%20Priscilla",
+      "underThreshold": true
+    }
+  },
   "endorsements": { "asOf": "2026-10-14", "items": [] },
   "sources": [
     {
@@ -45,6 +53,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T05:54:20.780Z",
-    "version": 1
+    "version": 2
   }
 }

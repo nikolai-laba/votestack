@@ -53,7 +53,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of West Hollywood",
+        "committee": "John Duran for Weho City Council 2026",
+        "url": "https://netfile.com/public/WEHO/campaign/filingsByFiler/216955769-John%20Duran%20for%20West%20Hollywood%20City%20Council%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 52737.2,
+        "cashOnHand": 49053.77,
+        "breakdown": [
+          { "kind": "small", "amount": 578 },
+          { "kind": "large", "amount": 42231 },
+          { "kind": "candidate", "amount": 6928.2 },
+          { "kind": "other", "amount": 3000 }
+        ],
+        "fromCandidate": 6928.2,
+        "largeSince": { "since": "2026-09-19", "total": 12500, "count": 13 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -202,6 +223,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.649Z",
-    "version": 1
+    "version": 2
   }
 }

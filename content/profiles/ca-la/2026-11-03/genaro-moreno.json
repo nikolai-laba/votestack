@@ -29,7 +29,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Pico Rivera",
+      "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=14559&repo=r-0aa0087e"
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -70,6 +77,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.534Z",
-    "version": 1
+    "version": 2
   }
 }

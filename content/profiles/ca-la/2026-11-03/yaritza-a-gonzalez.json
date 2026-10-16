@@ -44,7 +44,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Yaritza A. Gonzalez for Inglewood School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217230732-Yaritza%20A.%20Gonzalez%20for%20Inglewood%20School%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 6889.11,
+        "cashOnHand": 3552.63,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -168,6 +182,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.043Z",
-    "version": 2
+    "version": 3
   }
 }

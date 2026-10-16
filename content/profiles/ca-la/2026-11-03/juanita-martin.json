@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10513"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -25,7 +26,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Fe Springs",
+        "committee": "Committee to re-elect juanita martin 2026",
+        "url": "https://netfile.com/public/SFS/campaign/filingsByFiler/215933479-Committee%20to%20Re-Elect%20Juanita%20Martin%20to%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 16395,
+        "cashOnHand": 32682.94,
+        "breakdown": [
+          { "kind": "large", "amount": 6399 },
+          { "kind": "other", "amount": 9996 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 2099, "count": 3 }
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -48,7 +67,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.581Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.901Z",
+    "version": 3
   }
 }

@@ -51,7 +51,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Hermosa Beach",
+        "committee": "Eric Horne for Hermosa Beach City Council 2026",
+        "url": "https://netfile.com/public/COHB/campaign/filingsByFiler/216636419-Eric%20Horne%20for%20Hermosa%20Beach%20City%20Council%202026",
+        "period": "July 2 to September 19, 2026",
+        "raised": 12184.63,
+        "cashOnHand": 13870.02,
+        "breakdown": [
+          { "kind": "small", "amount": 805 },
+          { "kind": "large", "amount": 9829.63 },
+          { "kind": "pac", "amount": 500 },
+          { "kind": "other", "amount": 1050 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -183,6 +202,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.411Z",
-    "version": 1
+    "version": 2
   }
 }

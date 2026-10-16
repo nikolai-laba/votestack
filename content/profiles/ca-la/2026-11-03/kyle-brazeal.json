@@ -51,7 +51,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of West Hollywood",
+        "committee": "Committee to Elect Kyle Brazeal to West Hollywood City Council 2026",
+        "url": "https://netfile.com/public/WEHO/campaign/filingsByFiler/216612013-Kyle%20Brazeal%20for%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 55928,
+        "cashOnHand": 77054.83,
+        "breakdown": [
+          { "kind": "small", "amount": 1469 },
+          { "kind": "large", "amount": 28459 },
+          { "kind": "pac", "amount": 1000 },
+          { "kind": "candidate", "amount": 25000 }
+        ],
+        "fromCandidate": 25000,
+        "largeSince": { "since": "2026-09-19", "total": 8000, "count": 8 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -145,6 +166,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.655Z",
-    "version": 1
+    "version": 2
   }
 }

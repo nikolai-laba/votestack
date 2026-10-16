@@ -29,7 +29,33 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Barlevy for ABC Trustee - 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217186951-Barlevy%20for%20ABC-2026",
+        "period": "August 6 to September 19, 2026",
+        "raised": 9228.39,
+        "cashOnHand": 1564.93,
+        "breakdown": [
+          { "kind": "small", "amount": 521.16 },
+          { "kind": "large", "amount": 1630.05 },
+          { "kind": "pac", "amount": 500 },
+          { "kind": "candidate", "amount": 6577.18 }
+        ],
+        "fromCandidate": 6577.18,
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 8064.1,
+          "count": 9,
+          "fromCandidate": 6064.1
+        }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -104,6 +130,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.945Z",
-    "version": 2
+    "version": 3
   }
 }

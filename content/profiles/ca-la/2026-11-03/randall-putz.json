@@ -2,7 +2,7 @@
   "key": "randall-putz",
   "electionId": "ca-2026-11-03-general",
   "name": "Randall Putz",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "State Assembly Member, 34th District",
   "contestIds": ["la-4348-cc10781"],
   "kind": "candidate",
@@ -42,7 +42,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Putz for Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1480258",
+        "period": "July 1 to September 19, 2026",
+        "raised": 52036.15,
+        "cashOnHand": 11309.44,
+        "breakdown": [
+          { "kind": "small", "amount": 740.88 },
+          { "kind": "large", "amount": 27995.27 },
+          { "kind": "pac", "amount": 18300 },
+          { "kind": "other", "amount": 5000 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 4500, "count": 2 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -410,6 +430,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.662Z",
-    "version": 3
+    "version": 4
   }
 }

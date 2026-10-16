@@ -45,7 +45,33 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Jared Gonzales for Beverly Hills School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216918881-Jared%20Gonzales%20for%20Beverly%20Hills%20School%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 4612,
+        "cashOnHand": 819.82,
+        "breakdown": [
+          { "kind": "small", "amount": 317 },
+          { "kind": "large", "amount": 1330 },
+          { "kind": "pac", "amount": 500 },
+          { "kind": "candidate", "amount": 2465 }
+        ],
+        "fromCandidate": 2465,
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 2000,
+          "count": 2,
+          "fromCandidate": 1000
+        }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -129,6 +155,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.974Z",
-    "version": 2
+    "version": 3
   }
 }

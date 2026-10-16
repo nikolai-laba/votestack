@@ -2,7 +2,7 @@
   "key": "ben-allen",
   "electionId": "ca-2026-11-03-general",
   "name": "Ben Allen",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "California Insurance Commissioner",
   "contestIds": ["la-4348-cc10834-r1", "la-4348-cc10834-r2"],
   "kind": "candidate",
@@ -78,7 +78,32 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Ben Allen for Insurance Commissioner 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1483889",
+        "period": "July 1 to September 19, 2026",
+        "raised": 717546.57,
+        "cashOnHand": 698620.95,
+        "breakdown": [
+          { "kind": "small", "amount": 1701.66 },
+          { "kind": "large", "amount": 481879 },
+          { "kind": "pac", "amount": 123605.33 },
+          { "kind": "party", "amount": 9060.58 },
+          { "kind": "other", "amount": 101300 }
+        ],
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 497310.33,
+          "count": 159
+        }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -434,6 +459,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T14:05:39.901Z",
-    "version": 4
+    "version": 5
   }
 }

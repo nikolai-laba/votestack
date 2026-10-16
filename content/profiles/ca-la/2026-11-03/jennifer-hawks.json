@@ -2,7 +2,7 @@
   "key": "jennifer-hawks",
   "electionId": "ca-2026-11-03-general",
   "name": "Jennifer Hawks",
-  "party": "Party Preference: Republican",
+  "party": "Republican",
   "office": "California Treasurer",
   "contestIds": ["la-4348-cc10832-r1", "la-4348-cc10832-r2"],
   "kind": "candidate",
@@ -60,7 +60,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Jennifer Hawks for CA State Treasurer 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1488439",
+        "period": "July 1 to September 19, 2026",
+        "raised": 37255.21,
+        "cashOnHand": 22919.56,
+        "breakdown": [
+          { "kind": "small", "amount": 1052.72 },
+          { "kind": "large", "amount": 21187.49 },
+          { "kind": "pac", "amount": 5015 },
+          { "kind": "candidate", "amount": 10000 }
+        ],
+        "fromCandidate": 10000,
+        "largeSince": { "since": "2026-09-19", "total": 6300, "count": 5 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -262,6 +283,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.828Z",
-    "version": 3
+    "version": 4
   }
 }

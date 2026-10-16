@@ -37,7 +37,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Palmdale",
+      "url": "https://netfile.com/public/CPD/campaign/filingsByFiler/217406942-Elect%20Mark%20Maldonado%20for%20Palmdale%20District%204"
+    }
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -53,6 +60,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.528Z",
-    "version": 1
+    "version": 2
   }
 }

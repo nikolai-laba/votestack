@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10514"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -51,7 +52,32 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Monica",
+        "committee": "Torosis for City Council 2026",
+        "url": "https://netfile.com/public/CSM/campaign/filingsByFiler/203794518-Torosis%20for%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 25924.99,
+        "cashOnHand": 74009.98,
+        "breakdown": [
+          { "kind": "small", "amount": 890.44 },
+          { "kind": "large", "amount": 22101.04 },
+          { "kind": "pac", "amount": 2433.51 },
+          { "kind": "other", "amount": 500 }
+        ],
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 9000,
+          "count": 8,
+          "fromCandidate": 1200
+        }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -377,7 +403,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.589Z",
-    "version": 2
+    "generatedAt": "2026-10-15T21:48:37.908Z",
+    "version": 4
   }
 }

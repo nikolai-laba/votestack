@@ -25,7 +25,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Montebello",
+        "committee": "Ledezma for City Council 2026",
+        "url": "https://netfile.com/public/BELLO/campaign/filingsByFiler/217100993-Ledezma%20for%20City%20Council%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 5113.01,
+        "cashOnHand": 1499.74,
+        "breakdown": [
+          { "kind": "large", "amount": 100 },
+          { "kind": "candidate", "amount": 1500 },
+          { "kind": "other", "amount": 3513.01 }
+        ],
+        "fromCandidate": 1500,
+        "largeSince": { "since": "2026-09-19", "total": 13036.58, "count": 8 }
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -49,6 +69,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.507Z",
-    "version": 1
+    "version": 2
   }
 }

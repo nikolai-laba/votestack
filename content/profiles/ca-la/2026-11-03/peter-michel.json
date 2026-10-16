@@ -21,7 +21,15 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217349818-Michel%2C%20Peter",
+      "underThreshold": true
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -54,6 +62,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.212Z",
-    "version": 2
+    "version": 3
   }
 }

@@ -27,7 +27,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Sandoval for School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/211784635-Sandoval%20for%20School%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 3276.32,
+        "cashOnHand": 1340.51,
+        "breakdown": [
+          { "kind": "small", "amount": 102.12 },
+          { "kind": "large", "amount": 155.75 },
+          { "kind": "candidate", "amount": 2000 },
+          { "kind": "other", "amount": 1018.45 }
+        ],
+        "fromCandidate": 2000,
+        "largeSince": { "since": "2026-09-19", "total": 1254, "count": 1 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -81,6 +102,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.076Z",
-    "version": 2
+    "version": 3
   }
 }

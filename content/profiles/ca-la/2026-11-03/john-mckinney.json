@@ -51,7 +51,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles City Ethics Commission",
+        "committee": "John McKinney for City Attorney 2026 General",
+        "url": "https://ethics.lacity.org/view/?document_id=146793",
+        "period": "July 1 to September 19, 2026",
+        "raised": 308540.17,
+        "cashOnHand": 163002.91,
+        "breakdown": [
+          { "kind": "small", "amount": 2003 },
+          { "kind": "large", "amount": 256626.78 },
+          { "kind": "pac", "amount": 11553.39 },
+          { "kind": "other", "amount": 38357 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -354,6 +373,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.456Z",
-    "version": 3
+    "version": 4
   }
 }

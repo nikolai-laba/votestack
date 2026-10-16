@@ -37,7 +37,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Clarita",
+        "committee": "Bob Khalsa for Santa Clarita City Council 2026",
+        "url": "https://www.southtechhosting.com/SantaClaritaCity/CampaignDocsWebRetrieval/",
+        "period": "July 1 to September 19, 2026",
+        "raised": 9250,
+        "cashOnHand": 17348.47,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -192,6 +206,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.574Z",
-    "version": 1
+    "version": 2
   }
 }

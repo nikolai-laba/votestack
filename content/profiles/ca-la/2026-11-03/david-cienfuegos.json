@@ -51,7 +51,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Cienfuegos 4 BH School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217085090-Cienfuegos%204%20BH%20School%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 3507,
+        "cashOnHand": 1919.59,
+        "breakdown": [
+          { "kind": "small", "amount": 5 },
+          { "kind": "large", "amount": 1502 },
+          { "kind": "loan", "amount": 1500 },
+          { "kind": "other", "amount": 500 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -142,6 +161,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.972Z",
-    "version": 2
+    "version": 3
   }
 }

@@ -52,7 +52,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of La Verne",
+        "committee": "Thomas Allison for La Verne City Council, District 1 2026",
+        "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=160346&dbid=0&repo=r-1fb4295f",
+        "period": "July 1 to September 19, 2026",
+        "raised": 2461.8,
+        "cashOnHand": -795.38,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -108,6 +122,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.441Z",
-    "version": 1
+    "version": 2
   }
 }

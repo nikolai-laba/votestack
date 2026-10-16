@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10686"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -39,7 +40,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Briones for School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/211530030-Briones%20for%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 3435,
+        "cashOnHand": 2446.53,
+        "breakdown": [
+          { "kind": "small", "amount": 75 },
+          { "kind": "large", "amount": 2860 },
+          { "kind": "pac", "amount": 500 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -232,7 +251,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.012Z",
-    "version": 3
+    "generatedAt": "2026-10-15T21:48:37.104Z",
+    "version": 5
   }
 }

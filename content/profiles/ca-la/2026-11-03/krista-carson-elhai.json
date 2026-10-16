@@ -25,7 +25,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Krista Carson Elhai",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/215427780-Krista%20Carson%20Elhai%20for%20Claremont%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 4181.84,
+        "cashOnHand": 3580.46,
+        "breakdown": [
+          { "kind": "small", "amount": 372.62 },
+          { "kind": "large", "amount": 3791.22 },
+          { "kind": "pac", "amount": 18 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -62,6 +80,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.984Z",
-    "version": 2
+    "version": 3
   }
 }

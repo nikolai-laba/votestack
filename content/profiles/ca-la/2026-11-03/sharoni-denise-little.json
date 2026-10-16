@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10581"],
   "kind": "candidate",
   "tier": "short",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -37,7 +38,20 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Committee to Elect Sharoni Little College Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/211600927-Committee%20to%20Elect%20Sharoni%20Little%20College%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 0,
+        "cashOnHand": 2550.38
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-14", "items": [] },
   "sources": [
     {
@@ -68,7 +82,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T05:54:20.767Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:36.908Z",
+    "version": 3
   }
 }

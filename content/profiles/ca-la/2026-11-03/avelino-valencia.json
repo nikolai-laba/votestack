@@ -2,7 +2,7 @@
   "key": "avelino-valencia",
   "electionId": "ca-2026-11-03-general",
   "name": "Avelino Valencia",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "State Senator, 34th District",
   "contestIds": ["la-4348-cc10779"],
   "kind": "candidate",
@@ -38,7 +38,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Avelino Valencia for Senate 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477383",
+        "period": "July 1 to September 19, 2026",
+        "raised": 188818.91,
+        "cashOnHand": 536904.6,
+        "breakdown": [
+          { "kind": "large", "amount": 1085 },
+          { "kind": "pac", "amount": 99833.91 },
+          { "kind": "other", "amount": 87900 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 109800, "count": 29 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -239,6 +258,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.762Z",
-    "version": 3
+    "version": 4
   }
 }

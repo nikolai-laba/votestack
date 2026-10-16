@@ -55,7 +55,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Culver City",
+        "committee": "Thomas Aujero Small for Culver City Council 2026",
+        "url": "https://netfile.com/public/CUL/campaign/filingsByFiler/217146125-Thomas%20Aujero%20Small%20for%20Culver%20City%20Council%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 50945,
+        "cashOnHand": 23755.5,
+        "breakdown": [
+          { "kind": "small", "amount": 1880 },
+          { "kind": "large", "amount": 45745 },
+          { "kind": "pac", "amount": 1660 },
+          { "kind": "other", "amount": 1660 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 8960, "count": 8 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -355,6 +375,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.360Z",
-    "version": 1
+    "version": 2
   }
 }

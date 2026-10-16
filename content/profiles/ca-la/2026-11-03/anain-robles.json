@@ -33,7 +33,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Palmdale",
+      "url": "https://netfile.com/public/CPD/campaign/filingsByFiler/217404976-Anain%20Robles%20Palmdale%20City%20Council%20District%203%202026"
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -91,6 +98,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.522Z",
-    "version": 1
+    "version": 2
   }
 }

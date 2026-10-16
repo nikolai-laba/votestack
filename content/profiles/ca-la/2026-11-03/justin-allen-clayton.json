@@ -37,7 +37,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Clayton for Judge 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1489455",
+        "period": "July 1 to September 19, 2026",
+        "raised": 1380.83,
+        "cashOnHand": 2393.75,
+        "breakdown": [
+          { "kind": "small", "amount": 101.5 },
+          { "kind": "large", "amount": 979.33 },
+          { "kind": "pac", "amount": 300 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -100,14 +118,14 @@
         "kind": "organization",
         "cites": [3]
       },
+      { "organization": "LA Forward", "kind": "organization", "cites": [8] },
       {
         "organization": "Los Angeles County Bar Association",
         "kind": "bar_evaluation",
         "context": "election",
         "rating": "Qualified",
         "cites": [7]
-      },
-      { "organization": "LA Forward", "kind": "organization", "cites": [8] }
+      }
     ]
   },
   "sources": [
@@ -180,6 +198,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.263Z",
-    "version": 3
+    "version": 4
   }
 }

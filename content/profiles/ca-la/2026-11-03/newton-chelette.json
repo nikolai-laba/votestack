@@ -33,7 +33,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Newton Chelette for College Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216871924-Newton%20Chelette%20for%20College%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 10323,
+        "cashOnHand": 10323,
+        "breakdown": [
+          { "kind": "candidate", "amount": 8323 },
+          { "kind": "other", "amount": 2000 }
+        ],
+        "fromCandidate": 8323,
+        "largeSince": { "since": "2026-09-19", "total": 13500, "count": 6 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -156,6 +175,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.856Z",
-    "version": 2
+    "version": 3
   }
 }

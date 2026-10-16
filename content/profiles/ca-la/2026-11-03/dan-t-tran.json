@@ -2,7 +2,7 @@
   "key": "dan-t-tran",
   "electionId": "ca-2026-11-03-general",
   "name": "Dan T. Tran",
-  "party": "Party Preference: Republican",
+  "party": "Republican",
   "office": "State Assembly Member, 48th District",
   "contestIds": ["la-4348-cc10789"],
   "kind": "candidate",
@@ -19,7 +19,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "1466792",
+      "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1466792"
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -78,6 +85,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.689Z",
-    "version": 3
+    "version": 4
   }
 }

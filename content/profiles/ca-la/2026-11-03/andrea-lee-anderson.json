@@ -2,7 +2,7 @@
   "key": "andrea-lee-anderson",
   "electionId": "ca-2026-11-03-general",
   "name": "Andrea Lee Anderson",
-  "party": "Party Preference: Republican",
+  "party": "Republican",
   "office": "State Assembly Member, 52nd District",
   "contestIds": ["la-4348-cc10792"],
   "kind": "candidate",
@@ -30,7 +30,7 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": { "asOf": "2026-10-16", "items": [] },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -84,6 +84,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.700Z",
-    "version": 3
+    "version": 4
   }
 }

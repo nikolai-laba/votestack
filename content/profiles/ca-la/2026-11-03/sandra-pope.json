@@ -18,7 +18,22 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Pope for School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217279643-Pope%20for%20School%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 1036.58,
+        "cashOnHand": 950,
+        "breakdown": [{ "kind": "candidate", "amount": 1036.58 }],
+        "fromCandidate": 1036.58
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-14", "items": [] },
   "sources": [
     {
@@ -34,6 +49,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.146Z",
-    "version": 1
+    "version": 2
   }
 }

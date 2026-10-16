@@ -42,7 +42,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Committee to Re-Elect Alicia Linden Anderson 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217525495-Committee%20to%20Re-Elect%20Alicia%20Linden%20Anderson%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 700,
+        "cashOnHand": 700,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -74,6 +88,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.242Z",
-    "version": 1
+    "version": 2
   }
 }

@@ -2,7 +2,7 @@
   "key": "charles-frederick-hughes",
   "electionId": "ca-2026-11-03-general",
   "name": "Charles Frederick Hughes",
-  "party": "Party Preference: Republican",
+  "party": "Republican",
   "office": "State Assembly Member, 34th District",
   "contestIds": ["la-4348-cc10781"],
   "kind": "candidate",
@@ -16,7 +16,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Charles Hughes for Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1478005",
+        "period": "July 1 to September 19, 2026",
+        "raised": 112125.48,
+        "cashOnHand": 90856.29,
+        "breakdown": [
+          { "kind": "small", "amount": 266 },
+          { "kind": "large", "amount": 12154.48 },
+          { "kind": "pac", "amount": 74855 },
+          { "kind": "other", "amount": 24850 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 55000, "count": 20 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -330,6 +350,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.659Z",
-    "version": 3
+    "version": 4
   }
 }

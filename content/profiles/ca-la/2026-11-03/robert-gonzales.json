@@ -29,7 +29,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Gonzales for San Gabriel Valley Municipal Water District 5",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216218723-Gonzales%20for%20San%20Gabriel%20Valley%20Municipal%20Water%20District%205",
+        "period": "July 1 to September 19, 2026",
+        "raised": 21900,
+        "cashOnHand": 13035,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -53,6 +67,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.412Z",
-    "version": 1
+    "version": 2
   }
 }

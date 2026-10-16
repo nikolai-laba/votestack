@@ -2,7 +2,7 @@
   "key": "mark-pulido",
   "electionId": "ca-2026-11-03-general",
   "name": "Mark Pulido",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "State Assembly Member, 67th District",
   "contestIds": ["la-4348-cc10803"],
   "kind": "candidate",
@@ -52,7 +52,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Mark Pulido For Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1480471",
+        "period": "July 1 to September 19, 2026",
+        "raised": 245365.17,
+        "cashOnHand": 214837.61,
+        "breakdown": [
+          { "kind": "small", "amount": 426 },
+          { "kind": "large", "amount": 42408 },
+          { "kind": "pac", "amount": 177931.17 },
+          { "kind": "other", "amount": 24600 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 91000, "count": 22 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -436,6 +456,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.731Z",
-    "version": 3
+    "version": 4
   }
 }

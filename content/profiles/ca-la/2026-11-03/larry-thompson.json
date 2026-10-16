@@ -2,7 +2,7 @@
   "key": "larry-thompson",
   "electionId": "ca-2026-11-03-general",
   "name": "Larry Thompson",
-  "party": "Party Preference: Republican",
+  "party": "Republican",
   "office": "U.S. Representative, 32nd District",
   "contestIds": ["la-4348-cc10812-r1", "la-4348-cc10812-r2"],
   "kind": "candidate",
@@ -64,7 +64,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Larry Thompson for Congress",
+        "url": "https://www.fec.gov/data/committee/C00907626/?cycle=2026",
+        "period": "January 13, 2025 to September 30, 2026",
+        "raised": 52881.34,
+        "cashOnHand": 955.09,
+        "breakdown": [
+          { "kind": "small", "amount": 1379 },
+          { "kind": "large", "amount": 7550 },
+          { "kind": "candidate", "amount": 43952.34 }
+        ],
+        "fromCandidate": 43952.34
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -268,6 +286,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.808Z",
-    "version": 3
+    "version": 4
   }
 }

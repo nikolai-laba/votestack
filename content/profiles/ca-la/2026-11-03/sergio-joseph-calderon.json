@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10569"],
   "kind": "candidate",
   "tier": "short",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -33,7 +34,34 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Sergio Calderon for Water Board Director 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/209489416-Sergio%20Calderon%20for%20Water%20Board%20Director%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 35594.24,
+        "cashOnHand": 40247.65,
+        "breakdown": [
+          { "kind": "small", "amount": 261.36 },
+          { "kind": "large", "amount": 2582.88 },
+          { "kind": "pac", "amount": 250 },
+          { "kind": "candidate", "amount": 30000 },
+          { "kind": "other", "amount": 2500 }
+        ],
+        "fromCandidate": 30000,
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 14500,
+          "count": 5,
+          "fromCandidate": 10000
+        }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -96,7 +124,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T14:05:39.715Z",
-    "version": 4
+    "generatedAt": "2026-10-15T21:48:37.408Z",
+    "version": 6
   }
 }

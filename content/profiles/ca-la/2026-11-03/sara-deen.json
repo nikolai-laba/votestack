@@ -2,7 +2,7 @@
   "key": "sara-deen",
   "electionId": "ca-2026-11-03-general",
   "name": "Sara Deen",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "State Assembly Member, 66th District",
   "contestIds": ["la-4348-cc10802"],
   "kind": "candidate",
@@ -52,7 +52,32 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Sara Deen for Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1478003",
+        "period": "July 1 to September 19, 2026",
+        "raised": 223273,
+        "cashOnHand": 184414.37,
+        "breakdown": [
+          { "kind": "small", "amount": 1446 },
+          { "kind": "large", "amount": 127277 },
+          { "kind": "pac", "amount": 94050 },
+          { "kind": "other", "amount": 500 }
+        ],
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 242850,
+          "count": 66,
+          "fromCandidate": 100000
+        }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -362,6 +387,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.728Z",
-    "version": 5
+    "version": 6
   }
 }

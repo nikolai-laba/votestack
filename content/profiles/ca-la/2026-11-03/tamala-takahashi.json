@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10425"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -45,7 +46,20 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Burbank",
+        "committee": "Tamala Takahashi for City Council 2026",
+        "url": "https://efile.burbankca.gov/public/search/campaign/filings/04ab0b81-81eb-4982-ab8a-e3a25e3d1784?type=committee",
+        "period": "July 1 to September 19, 2026",
+        "raised": 7615,
+        "cashOnHand": 4967.13
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -127,7 +141,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.326Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.522Z",
+    "version": 3
   }
 }

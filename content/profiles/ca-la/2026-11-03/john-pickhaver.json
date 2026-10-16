@@ -55,7 +55,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of El Segundo",
+        "committee": "John Pickhaver for City Council 2026",
+        "url": "https://netfile.com/public/SEG/campaign/filingsByFiler/217396877-John%20Pickhaver%20for%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 16253.12,
+        "cashOnHand": 10160.67,
+        "breakdown": [
+          { "kind": "small", "amount": 1235.1 },
+          { "kind": "large", "amount": 12927.42 },
+          { "kind": "pac", "amount": 2090.6 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 3522.24, "count": 3 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -201,6 +220,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:40:01.400Z",
-    "version": 1
+    "version": 2
   }
 }

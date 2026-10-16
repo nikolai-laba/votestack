@@ -2,7 +2,7 @@
   "key": "steve-hilton",
   "electionId": "ca-2026-11-03-general",
   "name": "Steve Hilton",
-  "party": "Party Preference: Republican",
+  "party": "Republican",
   "office": "California Governor",
   "contestIds": ["la-4348-cc10828-r1", "la-4348-cc10828-r2"],
   "kind": "candidate",
@@ -82,7 +82,32 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Steve Hilton for Governor 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1480425",
+        "period": "July 1 to September 19, 2026",
+        "raised": 9414689.83,
+        "cashOnHand": 2685017.32,
+        "breakdown": [
+          { "kind": "small", "amount": 1276636.8 },
+          { "kind": "large", "amount": 7400311.61 },
+          { "kind": "pac", "amount": 42690 },
+          { "kind": "party", "amount": 68000 },
+          { "kind": "other", "amount": 627051.42 }
+        ],
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 2089345.11,
+          "count": 1103
+        }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -323,6 +348,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.781Z",
-    "version": 3
+    "version": 4
   }
 }

@@ -37,7 +37,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of West Covina",
+        "committee": "Carlos Yado for West Covina City Council District 2 2026",
+        "url": "https://westcovina.gov/186/Campaign-Disclosure-Reports-Public-Offic",
+        "period": "January 1 to September 19, 2026",
+        "raised": 3603.01,
+        "cashOnHand": 230.66,
+        "fromScan": "ocr"
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -77,6 +91,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.631Z",
-    "version": 1
+    "version": 2
   }
 }

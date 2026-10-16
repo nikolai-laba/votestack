@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10455"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -29,7 +30,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Hawaiian Gardens",
+        "committee": "DANDY DE PAULA for CITY COUNCIL 2026",
+        "url": "https://www.hgcity.org/government/departments/city-clerk/candidate-campaign-financial-filings",
+        "period": "July 29 to September 19, 2026",
+        "raised": 350,
+        "cashOnHand": 0,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -69,7 +84,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:39:39.171Z",
-    "version": 2
+    "generatedAt": "2026-10-15T21:48:37.619Z",
+    "version": 4
   }
 }

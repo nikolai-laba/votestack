@@ -43,7 +43,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Gentry for Saugus School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216605568-Gentry%20for%20Saugus%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 2050,
+        "cashOnHand": 1840.62,
+        "breakdown": [
+          { "kind": "small", "amount": 50 },
+          { "kind": "large", "amount": 500 },
+          { "kind": "pac", "amount": 1500 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 1000, "count": 1 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -169,6 +188,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.150Z",
-    "version": 2
+    "version": 3
   }
 }

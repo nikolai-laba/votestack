@@ -2,11 +2,12 @@
   "key": "mark-gonzalez",
   "electionId": "ca-2026-11-03-general",
   "name": "Mark Gonzalez",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "State Assembly Member, 54th District",
   "contestIds": ["la-4348-cc10794"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -56,7 +57,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Mark Gonzalez for Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477312",
+        "period": "July 1 to September 19, 2026",
+        "raised": 157425,
+        "cashOnHand": 707746.64,
+        "largeSince": { "since": "2026-09-19", "total": 93850, "count": 25 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -377,6 +392,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.708Z",
-    "version": 3
+    "version": 4
   }
 }

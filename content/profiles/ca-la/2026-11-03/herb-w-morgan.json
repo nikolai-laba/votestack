@@ -2,7 +2,7 @@
   "key": "herb-w-morgan",
   "electionId": "ca-2026-11-03-general",
   "name": "Herb W Morgan",
-  "party": "Party Preference: Republican",
+  "party": "Republican",
   "office": "California Controller",
   "contestIds": ["la-4348-cc10831-r1", "la-4348-cc10831-r2"],
   "kind": "candidate",
@@ -52,7 +52,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Herb Morgan For State Controller 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1480103",
+        "period": "July 1 to September 19, 2026",
+        "raised": 163829,
+        "cashOnHand": 139486.39,
+        "breakdown": [
+          { "kind": "small", "amount": 6033.97 },
+          { "kind": "large", "amount": 140080.03 },
+          { "kind": "pac", "amount": 6915 },
+          { "kind": "other", "amount": 10800 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 45515.94, "count": 17 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -443,6 +463,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.774Z",
-    "version": 3
+    "version": 4
   }
 }

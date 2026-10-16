@@ -52,7 +52,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Shinde-Garg for LCUSD School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217101426-Shinde-Garg%20for%20LCUSD%20School%20Board%202026",
+        "period": "August 1 to September 19, 2026",
+        "raised": 9199,
+        "cashOnHand": 6839.15,
+        "breakdown": [
+          { "kind": "small", "amount": 1 },
+          { "kind": "large", "amount": 4147 },
+          { "kind": "candidate", "amount": 5051 }
+        ],
+        "fromCandidate": 5051
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -109,6 +128,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.129Z",
-    "version": 1
+    "version": 2
   }
 }

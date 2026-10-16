@@ -25,7 +25,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles City Ethics Commission",
+        "committee": "Tim Gaspar for LA City Council 2026 - General",
+        "url": "https://ethics.lacity.org/view/?document_id=146810",
+        "period": "July 1 to September 19, 2026",
+        "raised": 84340,
+        "cashOnHand": 277357.19,
+        "breakdown": [
+          { "kind": "small", "amount": 912 },
+          { "kind": "large", "amount": 64628 },
+          { "kind": "pac", "amount": 9500 },
+          { "kind": "other", "amount": 9300 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -251,6 +270,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.450Z",
-    "version": 5
+    "version": 6
   }
 }

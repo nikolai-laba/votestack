@@ -40,7 +40,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of South Gate",
+      "url": "https://netfile.com/public/SGC/campaign/filingsByFiler/217491795-Alan%20Garcia%20for%20South%20Gate%20City%20Council%202026"
+    }
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -56,6 +63,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.615Z",
-    "version": 1
+    "version": 2
   }
 }

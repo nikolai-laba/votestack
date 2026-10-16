@@ -2,7 +2,7 @@
   "key": "jessica-martinez",
   "electionId": "ca-2026-11-03-general",
   "name": "Jessica Martinez",
-  "party": "Party Preference: Republican",
+  "party": "Republican",
   "office": "State Assembly Member, 56th District",
   "contestIds": ["la-4348-cc10796"],
   "kind": "candidate",
@@ -34,7 +34,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Jessica Martinez for 56th Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1479619",
+        "period": "July 1 to September 19, 2026",
+        "raised": 4685.35,
+        "cashOnHand": 919.94,
+        "breakdown": [
+          { "kind": "small", "amount": 425 },
+          { "kind": "large", "amount": 4140.35 },
+          { "kind": "pac", "amount": 120 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -122,6 +140,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.711Z",
-    "version": 3
+    "version": 4
   }
 }

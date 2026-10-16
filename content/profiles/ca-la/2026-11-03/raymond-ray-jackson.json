@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10875"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -56,7 +57,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Hermosa Beach",
+        "committee": "Re-Elect Ray Jackson for Hermosa Beach City Council 2026",
+        "url": "https://netfile.com/public/COHB/campaign/filingsByFiler/216890902-Re-Elect%20Ray%20Jackson%20for%20Hermosa%20Beach%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 10450,
+        "cashOnHand": 7283.86,
+        "breakdown": [
+          { "kind": "small", "amount": 50 },
+          { "kind": "large", "amount": 5400 },
+          { "kind": "candidate", "amount": 5000 }
+        ],
+        "fromCandidate": 5000
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -332,7 +352,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.417Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.645Z",
+    "version": 3
   }
 }

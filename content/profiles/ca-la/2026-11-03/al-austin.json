@@ -37,7 +37,29 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Al Austin for Wrd Director 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216716147-AL%20AUSTIN%20FOR%20WRD%20DIRECTOR%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 44470.83,
+        "cashOnHand": 22436.17,
+        "breakdown": [
+          { "kind": "small", "amount": 683.4 },
+          { "kind": "large", "amount": 23660.8 },
+          { "kind": "pac", "amount": 16418.45 },
+          { "kind": "candidate", "amount": 104.24 },
+          { "kind": "other", "amount": 3603.94 }
+        ],
+        "fromCandidate": 104.24,
+        "largeSince": { "since": "2026-09-19", "total": 11000, "count": 7 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -275,6 +297,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.232Z",
-    "version": 2
+    "version": 3
   }
 }

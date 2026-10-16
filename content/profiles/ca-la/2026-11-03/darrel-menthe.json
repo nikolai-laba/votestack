@@ -47,7 +47,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Menthe for Culver City School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/215630614-Menthe%20for%20Culver%20City%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 5100,
+        "cashOnHand": 15569.07,
+        "breakdown": [
+          { "kind": "small", "amount": 375 },
+          { "kind": "large", "amount": 4475 },
+          { "kind": "other", "amount": 250 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 4904.34, "count": 3 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -235,6 +254,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.987Z",
-    "version": 2
+    "version": 3
   }
 }

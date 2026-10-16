@@ -29,7 +29,31 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "De Jute for Judge 2026; David A.",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1482039",
+        "period": "April 19 to June 30, 2026",
+        "raised": 26000,
+        "cashOnHand": 38114.35,
+        "breakdown": [
+          { "kind": "large", "amount": 5000 },
+          { "kind": "candidate", "amount": 21000 }
+        ],
+        "fromCandidate": 21000,
+        "largeSince": {
+          "since": "2026-06-30",
+          "total": 42000,
+          "count": 4,
+          "fromCandidate": 27000
+        }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -138,16 +162,16 @@
         "cites": [2]
       },
       {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [11]
+      },
+      {
         "organization": "Los Angeles County Bar Association",
         "kind": "bar_evaluation",
         "context": "election",
         "rating": "Qualified",
         "cites": [10]
-      },
-      {
-        "organization": "Los Angeles County Democratic Party",
-        "kind": "party",
-        "cites": [11]
       }
     ]
   },
@@ -245,6 +269,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.266Z",
-    "version": 5
+    "version": 6
   }
 }

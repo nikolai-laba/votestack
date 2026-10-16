@@ -39,7 +39,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Gerard for Burbank School Board District 3",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216893638-Gerard%20for%20Burbank%20School%20District%203%202026",
+        "period": "August 10 to September 19, 2026",
+        "raised": 10252,
+        "cashOnHand": 7164.92,
+        "breakdown": [{ "kind": "large", "amount": 10252 }]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -175,6 +189,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T05:54:20.830Z",
-    "version": 1
+    "version": 2
   }
 }

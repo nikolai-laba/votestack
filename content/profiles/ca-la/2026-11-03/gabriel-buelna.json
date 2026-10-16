@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10590"],
   "kind": "candidate",
   "tier": "short",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -33,7 +34,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Buelna for College Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/208845905-Buelna%20For%20College%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 129484.99,
+        "cashOnHand": 59190.87,
+        "breakdown": [
+          { "kind": "small", "amount": 424.99 },
+          { "kind": "large", "amount": 50360 },
+          { "kind": "pac", "amount": 31500 },
+          { "kind": "loan", "amount": 35000 },
+          { "kind": "other", "amount": 12200 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 5000, "count": 3 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -258,7 +280,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:50.907Z",
-    "version": 3
+    "generatedAt": "2026-10-15T21:48:36.976Z",
+    "version": 5
   }
 }

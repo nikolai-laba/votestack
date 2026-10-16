@@ -33,7 +33,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Susana Gonzalez Edmond for Long Beach City College Trustee 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/214963978-Susana%20Gonzalez%20Edmond%20for%20Long%20Beach%20City%20College%20Trustee%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 23747.13,
+        "cashOnHand": 49170.07,
+        "breakdown": [
+          { "kind": "small", "amount": 149 },
+          { "kind": "large", "amount": 14723.13 },
+          { "kind": "pac", "amount": 7875 },
+          { "kind": "other", "amount": 1000 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 7908.65, "count": 2 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -251,6 +271,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.885Z",
-    "version": 2
+    "version": 3
   }
 }

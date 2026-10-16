@@ -33,7 +33,15 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of San Marino",
+      "url": "https://sanmarinoca.gov/government/mayor___city_council_/fppc_forms.php",
+      "onRequest": true
+    }
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -73,6 +81,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:39:39.202Z",
-    "version": 2
+    "version": 3
   }
 }

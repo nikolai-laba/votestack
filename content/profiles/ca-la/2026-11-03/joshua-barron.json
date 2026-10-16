@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10520"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -15,7 +16,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of South Gate",
+        "committee": "Barron for South Gate City Council 2026",
+        "url": "https://netfile.com/public/SGC/campaign/filingsByFiler/216829121-Barron%20for%20South%20Gate%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 12074,
+        "cashOnHand": 5627.05,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -92,7 +107,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:39:39.225Z",
-    "version": 2
+    "generatedAt": "2026-10-15T21:48:37.945Z",
+    "version": 4
   }
 }

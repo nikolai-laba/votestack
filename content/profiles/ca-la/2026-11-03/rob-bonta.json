@@ -2,11 +2,12 @@
   "key": "rob-bonta",
   "electionId": "ca-2026-11-03-general",
   "name": "Rob Bonta",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "California Attorney General",
   "contestIds": ["la-4348-cc10833-r1", "la-4348-cc10833-r2"],
   "kind": "candidate",
   "tier": "top",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -74,7 +75,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Rob Bonta for CA Attorney General 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1456428",
+        "period": "July 1 to September 19, 2026",
+        "raised": 383097.81,
+        "cashOnHand": 6341151.04,
+        "breakdown": [
+          { "kind": "small", "amount": 42190.34 },
+          { "kind": "large", "amount": 216496.89 },
+          { "kind": "pac", "amount": 73950 },
+          { "kind": "party", "amount": 9060.58 },
+          { "kind": "other", "amount": 41400 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 265021.37, "count": 58 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -482,6 +504,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.770Z",
-    "version": 3
+    "version": 4
   }
 }

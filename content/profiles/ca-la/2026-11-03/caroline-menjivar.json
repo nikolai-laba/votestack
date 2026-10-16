@@ -2,11 +2,12 @@
   "key": "caroline-menjivar",
   "electionId": "ca-2026-11-03-general",
   "name": "Caroline Menjivar",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "State Senator, 20th District",
   "contestIds": ["la-4348-cc10773"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -56,7 +57,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Menjivar for Senate 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1456738",
+        "period": "July 1 to September 19, 2026",
+        "raised": 136305,
+        "cashOnHand": 383975.73,
+        "breakdown": [
+          { "kind": "small", "amount": 10 },
+          { "kind": "large", "amount": 17545 },
+          { "kind": "pac", "amount": 71850 },
+          { "kind": "other", "amount": 46900 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 42800, "count": 11 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -404,6 +425,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.738Z",
-    "version": 3
+    "version": 4
   }
 }

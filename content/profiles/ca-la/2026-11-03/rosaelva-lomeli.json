@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10600"],
   "kind": "candidate",
   "tier": "short",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -41,7 +42,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Lomeli For Rio Hondo College Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/208826097-Lomeli%20For%20Rio%20Hondo%20College%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 36621,
+        "cashOnHand": 21507.38,
+        "breakdown": [
+          { "kind": "small", "amount": 721 },
+          { "kind": "large", "amount": 9500 },
+          { "kind": "pac", "amount": 12400 },
+          { "kind": "other", "amount": 14000 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 3000, "count": 1 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -191,7 +212,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T14:05:39.643Z",
-    "version": 4
+    "generatedAt": "2026-10-15T21:48:37.007Z",
+    "version": 6
   }
 }

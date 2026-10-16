@@ -33,7 +33,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Randall Winston for LACCD Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216878843-Randall%20Winston%20for%20LACCD%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 54297.54,
+        "cashOnHand": 108213.38,
+        "breakdown": [
+          { "kind": "small", "amount": 403.5 },
+          { "kind": "large", "amount": 41244.04 },
+          { "kind": "pac", "amount": 10900 },
+          { "kind": "other", "amount": 1750 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 20401.11, "count": 16 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -296,6 +316,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.907Z",
-    "version": 3
+    "version": 4
   }
 }

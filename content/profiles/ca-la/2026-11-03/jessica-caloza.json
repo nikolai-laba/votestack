@@ -2,11 +2,12 @@
   "key": "jessica-caloza",
   "electionId": "ca-2026-11-03-general",
   "name": "Jessica Caloza",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "State Assembly Member, 52nd District",
   "contestIds": ["la-4348-cc10792"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -38,7 +39,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Caloza for Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1476900",
+        "period": "July 1 to September 19, 2026",
+        "raised": 135065,
+        "cashOnHand": 751084.48,
+        "breakdown": [
+          { "kind": "small", "amount": 15 },
+          { "kind": "large", "amount": 11800 },
+          { "kind": "pac", "amount": 69750 },
+          { "kind": "other", "amount": 53500 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 53450, "count": 23 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -445,6 +466,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.701Z",
-    "version": 3
+    "version": 4
   }
 }

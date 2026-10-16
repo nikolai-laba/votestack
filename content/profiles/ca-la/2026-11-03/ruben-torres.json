@@ -30,7 +30,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Diamond Bar",
+        "committee": "Ruben Torres for Diamond Bar City Council 2026",
+        "url": "https://netfile.com/public/CDB/campaign/filingsByFiler/216806085-Ruben%20Torres%20for%20Diamond%20Bar%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 1339,
+        "cashOnHand": 1178.19,
+        "breakdown": [
+          { "kind": "small", "amount": 719 },
+          { "kind": "large", "amount": 620 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 1000, "count": 1 }
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -70,6 +88,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.364Z",
-    "version": 1
+    "version": 2
   }
 }

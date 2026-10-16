@@ -25,7 +25,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Glendora",
+        "committee": "Ralph Munoz for Glendora City Council 2026",
+        "url": "https://netfile.com/public/COG/campaign/filingsByFiler/216967355-Ralph%20Munoz%20for%20Glendora%20City%20Council%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 6050,
+        "cashOnHand": 3603.25,
+        "breakdown": [
+          { "kind": "small", "amount": 50 },
+          { "kind": "large", "amount": 2500 },
+          { "kind": "pac", "amount": 3000 },
+          { "kind": "loan", "amount": 500 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 1000, "count": 1 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -66,6 +86,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.521Z",
-    "version": 1
+    "version": 2
   }
 }

@@ -2,11 +2,12 @@
   "key": "tony-strickland",
   "electionId": "ca-2026-11-03-general",
   "name": "Tony Strickland",
-  "party": "Party Preference: Republican",
+  "party": "Republican",
   "office": "State Senator, 36th District",
   "contestIds": ["la-4348-cc10780"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -46,7 +47,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Tony Strickland for Senate 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1467958",
+        "period": "July 1 to September 19, 2026",
+        "raised": 352209,
+        "cashOnHand": 1023036.58,
+        "breakdown": [
+          { "kind": "small", "amount": 125 },
+          { "kind": "large", "amount": 113774 },
+          { "kind": "pac", "amount": 107660 },
+          { "kind": "party", "amount": 50000 },
+          { "kind": "other", "amount": 80650 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 197600, "count": 90 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -378,6 +400,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.767Z",
-    "version": 3
+    "version": 4
   }
 }

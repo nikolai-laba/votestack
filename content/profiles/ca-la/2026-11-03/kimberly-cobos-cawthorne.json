@@ -52,7 +52,32 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Montebello",
+        "committee": "Cobos-Cawthorne for City Council 2026",
+        "url": "https://netfile.com/public/BELLO/campaign/filingsByFiler/217095429-Cobos%20Cawthorne%20for%20City%20Council%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 5000,
+        "cashOnHand": 1954,
+        "breakdown": [
+          { "kind": "large", "amount": 500 },
+          { "kind": "pac", "amount": 1500 },
+          { "kind": "candidate", "amount": 3000 }
+        ],
+        "fromCandidate": 3000,
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 28700,
+          "count": 4,
+          "fromCandidate": 25200
+        }
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-14", "items": [] },
   "sources": [
     {
@@ -108,6 +133,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.554Z",
-    "version": 1
+    "version": 2
   }
 }

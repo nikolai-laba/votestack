@@ -15,7 +15,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Monica",
+        "committee": "Morrow for City Council 2026",
+        "url": "https://netfile.com/public/CSM/campaign/filingsByFiler/215401099-Morrow%20for%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 14740.5,
+        "cashOnHand": 47495.46,
+        "breakdown": [
+          { "kind": "small", "amount": 815.5 },
+          { "kind": "large", "amount": 12425 },
+          { "kind": "pac", "amount": 1500 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 2200, "count": 2 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -290,6 +309,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:39:39.206Z",
-    "version": 3
+    "version": 4
   }
 }

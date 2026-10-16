@@ -31,7 +31,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Montebello",
+        "committee": "Rafael Santoya for Montebello City Council 2026",
+        "url": "https://netfile.com/public/BELLO/campaign/filingsByFiler/217049609-Rafael%20Santoya%20for%20Montebello%20City%20Council%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 4104.01,
+        "cashOnHand": 1473.46,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -77,6 +91,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.504Z",
-    "version": 1
+    "version": 2
   }
 }

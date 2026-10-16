@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10636"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -47,7 +48,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Triston Ezidore For Culver City School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/213188479-Triston%20Ezidore%20For%20Culver%20City%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 44688.5,
+        "cashOnHand": 81883.43,
+        "breakdown": [
+          { "kind": "small", "amount": 1756 },
+          { "kind": "large", "amount": 29273.5 },
+          { "kind": "pac", "amount": 7250 },
+          { "kind": "other", "amount": 6409 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 6000, "count": 5 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -362,7 +383,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:50.990Z",
-    "version": 2
+    "generatedAt": "2026-10-15T21:48:37.074Z",
+    "version": 4
   }
 }

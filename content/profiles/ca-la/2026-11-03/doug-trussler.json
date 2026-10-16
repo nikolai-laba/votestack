@@ -29,7 +29,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Monica",
+        "committee": "Trussler for Santa Monica City Council 2026",
+        "url": "https://netfile.com/public/CSM/campaign/filingsByFiler/216052889-Trussler%20for%20Santa%20Monica%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 137660,
+        "cashOnHand": 82056.06,
+        "breakdown": [
+          { "kind": "small", "amount": 210 },
+          { "kind": "large", "amount": 12450 },
+          { "kind": "candidate", "amount": 125000 }
+        ],
+        "fromCandidate": 125000,
+        "largeSince": { "since": "2026-09-19", "total": 4800, "count": 4 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -144,6 +164,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:44:15.737Z",
-    "version": 2
+    "version": 3
   }
 }

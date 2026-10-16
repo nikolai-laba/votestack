@@ -2,11 +2,12 @@
   "key": "brad-sherman",
   "electionId": "ca-2026-11-03-general",
   "name": "Brad Sherman",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "U.S. Representative, 32nd District",
   "contestIds": ["la-4348-cc10812-r1", "la-4348-cc10812-r2"],
   "kind": "candidate",
   "tier": "top",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -78,7 +79,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Sherman for Congress",
+        "url": "https://www.fec.gov/data/committee/C00308742/?cycle=2026",
+        "period": "January 1, 2025 to June 30, 2026",
+        "raised": 2514329.68,
+        "cashOnHand": 2668479.97,
+        "breakdown": [
+          { "kind": "small", "amount": 11438.8 },
+          { "kind": "large", "amount": 1424013.76 },
+          { "kind": "pac", "amount": 703424 },
+          { "kind": "transfer", "amount": 48283.11 },
+          { "kind": "other", "amount": 327170.01 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -436,6 +456,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.804Z",
-    "version": 3
+    "version": 4
   }
 }

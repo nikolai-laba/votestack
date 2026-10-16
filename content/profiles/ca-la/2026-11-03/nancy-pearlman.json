@@ -29,7 +29,15 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/211738210-Pearlman%2C%20Nancy",
+      "underThreshold": true
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -98,6 +106,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.903Z",
-    "version": 2
+    "version": 3
   }
 }

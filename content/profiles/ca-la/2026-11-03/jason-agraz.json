@@ -25,7 +25,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "San Bernardino County Registrar of Voters",
+      "url": "https://netfile.com/public/SBD/campaign/filingsByFiler/217229825-Jason%20Agraz%20for%20Wrightwood%20Community%20Service%20District"
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -58,6 +65,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.446Z",
-    "version": 1
+    "version": 2
   }
 }

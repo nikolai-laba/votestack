@@ -37,7 +37,22 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Stacy Fortner for Wm S Hart School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217209490-Committee%20to%20Elect%20Stacy%20Fortner%20for%20Hart%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 1750,
+        "cashOnHand": 2148.99,
+        "breakdown": [{ "kind": "large", "amount": 1750 }],
+        "largeSince": { "since": "2026-09-19", "total": 1500, "count": 1 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -330,6 +345,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.175Z",
-    "version": 2
+    "version": 3
   }
 }

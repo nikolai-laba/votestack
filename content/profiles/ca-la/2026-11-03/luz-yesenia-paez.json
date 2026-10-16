@@ -33,7 +33,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Duarte",
+        "committee": "Luz Yesenia Paez Campaign for Duarte City Council 2026",
+        "url": "https://netfile.com/public/COD/campaign/filingsByFiler/217036633-Luz%20Yesenia%20Paez%20Campaign%20for%20Duarte%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 7813.26,
+        "cashOnHand": 4793.59,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -131,6 +145,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:44:15.728Z",
-    "version": 2
+    "version": 3
   }
 }

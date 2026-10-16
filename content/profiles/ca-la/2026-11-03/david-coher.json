@@ -33,7 +33,32 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Coher for Pasadena Community College Trustee 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217102150-Coher%20for%20Pasadena%20Community%20College%20Trustee%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 21950,
+        "cashOnHand": 12983.49,
+        "breakdown": [
+          { "kind": "small", "amount": 225 },
+          { "kind": "large", "amount": 11725 },
+          { "kind": "candidate", "amount": 10000 }
+        ],
+        "fromCandidate": 10000,
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 14500,
+          "count": 4,
+          "fromCandidate": 10000
+        }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -92,6 +117,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T05:54:20.790Z",
-    "version": 1
+    "version": 2
   }
 }

@@ -33,7 +33,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Geoff Baum for Pcc Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/214895063-GEOFF%20BAUM%20FOR%20PCC%20BOARD%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 19224,
+        "cashOnHand": 26627.31,
+        "breakdown": [
+          { "kind": "small", "amount": 579 },
+          { "kind": "large", "amount": 18145 },
+          { "kind": "other", "amount": 500 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 9500, "count": 4 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -260,6 +279,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T05:54:20.789Z",
-    "version": 1
+    "version": 2
   }
 }

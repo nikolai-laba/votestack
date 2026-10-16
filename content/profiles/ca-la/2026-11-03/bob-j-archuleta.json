@@ -2,11 +2,12 @@
   "key": "bob-j-archuleta",
   "electionId": "ca-2026-11-03-general",
   "name": "Bob J. Archuleta",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "State Senator, 30th District",
   "contestIds": ["la-4348-cc10778"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -48,7 +49,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Bob Archuleta for Senate 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1456585",
+        "period": "July 1 to September 19, 2026",
+        "raised": 71913.77,
+        "cashOnHand": 186424.42,
+        "breakdown": [
+          { "kind": "large", "amount": 1113.77 },
+          { "kind": "pac", "amount": 45500 },
+          { "kind": "other", "amount": 25300 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 54250, "count": 13 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -218,6 +238,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.760Z",
-    "version": 3
+    "version": 4
   }
 }

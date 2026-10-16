@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10697"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -33,7 +34,15 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/214264697-Bookman%2C%20Julie",
+      "underThreshold": true
+    }
+  },
   "endorsements": { "asOf": "2026-10-14", "items": [] },
   "sources": [
     {
@@ -56,7 +65,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T14:05:39.690Z",
-    "version": 4
+    "generatedAt": "2026-10-15T21:48:37.101Z",
+    "version": 6
   }
 }

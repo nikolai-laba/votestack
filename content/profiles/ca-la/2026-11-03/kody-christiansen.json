@@ -45,7 +45,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of West Hollywood",
+      "url": "https://netfile.com/public/WEHO/campaign/filingsByFiler/215521097-Kody%20Christiansen%20for%20West%20Hollywood%20City%20Council%202026"
+    }
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -85,6 +92,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.654Z",
-    "version": 1
+    "version": 2
   }
 }

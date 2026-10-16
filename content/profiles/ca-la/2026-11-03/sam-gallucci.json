@@ -2,7 +2,7 @@
   "key": "sam-gallucci",
   "electionId": "ca-2026-11-03-general",
   "name": "Sam Gallucci",
-  "party": "Party Preference: Republican",
+  "party": "Republican",
   "office": "U.S. Representative, 26th District",
   "contestIds": ["la-4348-cc10806-r1", "la-4348-cc10806-r2"],
   "kind": "candidate",
@@ -52,7 +52,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Gallucci for Congress 2026",
+        "url": "https://www.fec.gov/data/committee/C00900613/?cycle=2026",
+        "period": "January 1, 2025 to June 30, 2026",
+        "raised": 377077.94,
+        "cashOnHand": 33680.61,
+        "breakdown": [
+          { "kind": "small", "amount": 9620.08 },
+          { "kind": "large", "amount": 134937.41 },
+          { "kind": "candidate", "amount": 232520.45 }
+        ],
+        "fromCandidate": 232520.45
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -119,6 +137,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.775Z",
-    "version": 3
+    "version": 4
   }
 }

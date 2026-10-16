@@ -33,7 +33,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Francis Pollara for PCC Trustee Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216689922-Francis%20Pollara%20for%20PCC%20Trustee%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 26075,
+        "cashOnHand": 30911.48,
+        "breakdown": [
+          { "kind": "small", "amount": 275 },
+          { "kind": "large", "amount": 5500 },
+          { "kind": "pac", "amount": 20300 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 5500, "count": 3 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -298,6 +317,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.916Z",
-    "version": 2
+    "version": 3
   }
 }

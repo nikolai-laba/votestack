@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10717"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -33,7 +34,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Carranza for School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/208822011-Carranza%20for%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 7787.81,
+        "cashOnHand": 6882.59,
+        "breakdown": [
+          { "kind": "small", "amount": 680.34 },
+          { "kind": "large", "amount": 1509.97 },
+          { "kind": "pac", "amount": 5597.5 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 2000, "count": 2 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -78,7 +98,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.087Z",
-    "version": 2
+    "generatedAt": "2026-10-15T21:48:37.207Z",
+    "version": 4
   }
 }

@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10521"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -25,7 +26,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of South Gate",
+        "committee": "Yodit Glaze for South Gate City Clerk 2026",
+        "url": "https://netfile.com/public/SGC/campaign/filingsByFiler/217160440-Yodit%20Glaze%20for%20South%20Gate%20City%20Clerk%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 6474.17,
+        "cashOnHand": 0,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -61,7 +76,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.621Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.946Z",
+    "version": 3
   }
 }

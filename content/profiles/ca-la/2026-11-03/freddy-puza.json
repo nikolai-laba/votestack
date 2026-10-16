@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10439"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -56,7 +57,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Culver City",
+        "committee": "Puza for City Council 2026",
+        "url": "https://netfile.com/public/CUL/campaign/filingsByFiler/216898902-PUZA%20FOR%20CITY%20COUNCIL%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 40335.5,
+        "cashOnHand": 33153.12,
+        "breakdown": [
+          { "kind": "small", "amount": 2710 },
+          { "kind": "large", "amount": 29025.5 },
+          { "kind": "pac", "amount": 6600 },
+          { "kind": "other", "amount": 2000 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 10050, "count": 10 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -392,7 +413,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.358Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.564Z",
+    "version": 3
   }
 }

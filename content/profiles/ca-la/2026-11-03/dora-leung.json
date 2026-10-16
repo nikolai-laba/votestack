@@ -29,7 +29,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Monterey Park",
+        "committee": "Dora Leung For Monterey Park City Clerk 2026",
+        "url": "https://www.montereypark.ca.gov/1747/32377/Dora-Leung",
+        "period": "July 1 to September 19, 2026",
+        "raised": 15844,
+        "cashOnHand": 10372.39,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -71,6 +85,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.514Z",
-    "version": 1
+    "version": 2
   }
 }

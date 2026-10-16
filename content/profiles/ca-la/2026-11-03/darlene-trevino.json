@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10602"],
   "kind": "candidate",
   "tier": "short",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -34,7 +35,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Darlene Trevino for Santa Clarita College Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217203214-Darlene%20Trevino%20for%20Santa%20Clarita%20College%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 6900,
+        "cashOnHand": 6352.5,
+        "breakdown": [
+          { "kind": "small", "amount": 50 },
+          { "kind": "large", "amount": 4550 },
+          { "kind": "candidate", "amount": 1000 },
+          { "kind": "other", "amount": 1300 }
+        ],
+        "fromCandidate": 1000,
+        "largeSince": { "since": "2026-09-19", "total": 2000, "count": 2 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -117,7 +139,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:50.934Z",
-    "version": 2
+    "generatedAt": "2026-10-15T21:48:37.009Z",
+    "version": 4
   }
 }

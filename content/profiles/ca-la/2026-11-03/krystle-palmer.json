@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10427"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -51,7 +52,15 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Burbank",
+      "url": "https://efile.burbankca.gov/public/search/campaign/filings/145497d6-ffdc-47a9-a285-b8247f5d49d5?type=committee",
+      "underThreshold": true
+    }
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -82,7 +91,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T15:48:49.508Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.524Z",
+    "version": 3
   }
 }

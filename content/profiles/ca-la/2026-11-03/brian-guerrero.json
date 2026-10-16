@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10636"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -38,7 +39,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Guerrero for Culver City Unified School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/211559646-Guerrero%20for%20Culver%20City%20Unified%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 4189,
+        "cashOnHand": 5147.32,
+        "breakdown": [
+          { "kind": "small", "amount": 730 },
+          { "kind": "large", "amount": 3459 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 2481, "count": 3 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -169,7 +188,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:50.987Z",
-    "version": 2
+    "generatedAt": "2026-10-15T21:48:37.070Z",
+    "version": 4
   }
 }

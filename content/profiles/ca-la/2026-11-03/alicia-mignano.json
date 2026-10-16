@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10517"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -44,7 +45,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Monica",
+        "committee": "Re-Elect Alicia Mignano for School Board 2026",
+        "url": "https://netfile.com/public/CSM/campaign/filingsByFiler/204173628-Alicia%20Mignano%20for%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 20156.03,
+        "cashOnHand": 19885.51,
+        "breakdown": [
+          { "kind": "small", "amount": 905 },
+          { "kind": "large", "amount": 17251.03 },
+          { "kind": "pac", "amount": 2000 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -289,7 +308,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.138Z",
-    "version": 2
+    "generatedAt": "2026-10-15T21:48:37.272Z",
+    "version": 4
   }
 }

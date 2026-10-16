@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10580"],
   "kind": "candidate",
   "tier": "short",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -33,7 +34,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Doplemore for Community College Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/208821667-Doplemore%20For%20Community%20College%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 2224.24,
+        "cashOnHand": 982.74,
+        "breakdown": [
+          { "kind": "small", "amount": 234.24 },
+          { "kind": "large", "amount": 1890 },
+          { "kind": "pac", "amount": 100 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -210,7 +229,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T15:48:48.872Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:36.901Z",
+    "version": 3
   }
 }

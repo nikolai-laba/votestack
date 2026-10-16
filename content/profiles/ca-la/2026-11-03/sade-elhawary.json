@@ -2,11 +2,12 @@
   "key": "sade-elhawary",
   "electionId": "ca-2026-11-03-general",
   "name": "Sade Elhawary",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "State Assembly Member, 57th District",
   "contestIds": ["la-4348-cc10797"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -48,7 +49,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Sade Elhawary for Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1476905",
+        "period": "July 1 to September 19, 2026",
+        "raised": 93728.64,
+        "cashOnHand": 99743.55,
+        "breakdown": [
+          { "kind": "large", "amount": 150 },
+          { "kind": "pac", "amount": 45478.64 },
+          { "kind": "other", "amount": 48100 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 88721.36, "count": 27 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -306,6 +326,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.715Z",
-    "version": 3
+    "version": 4
   }
 }

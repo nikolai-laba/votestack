@@ -51,7 +51,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Lifschitz for School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216967074-Lifschitz%20for%20School%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 36150.59,
+        "cashOnHand": 18785.96,
+        "breakdown": [
+          { "kind": "small", "amount": 470 },
+          { "kind": "large", "amount": 6395 },
+          { "kind": "loan", "amount": 26500 },
+          { "kind": "other", "amount": 2785.59 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -194,6 +213,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.977Z",
-    "version": 2
+    "version": 3
   }
 }

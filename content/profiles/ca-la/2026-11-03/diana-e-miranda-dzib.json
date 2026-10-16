@@ -44,7 +44,20 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Miranda-Dzib for School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/211579455-Miranda-Dzib%20for%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 0,
+        "cashOnHand": 3727.41
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-14", "items": [] },
   "sources": [
     {
@@ -92,6 +105,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T05:54:20.811Z",
-    "version": 1
+    "version": 2
   }
 }

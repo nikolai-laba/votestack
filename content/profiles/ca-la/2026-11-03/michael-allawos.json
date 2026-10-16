@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10453"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -48,7 +49,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Glendora",
+        "committee": "Allawos for Glendora City Council 2026",
+        "url": "https://netfile.com/public/COG/campaign/filingsByFiler/216849812-Allawos%20for%20Glendora%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 10506.2,
+        "cashOnHand": 3339.43,
+        "breakdown": [
+          { "kind": "small", "amount": 1006.2 },
+          { "kind": "large", "amount": 7000 },
+          { "kind": "pac", "amount": 1000 },
+          { "kind": "loan", "amount": 1200 },
+          { "kind": "other", "amount": 300 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 4000, "count": 2 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -191,7 +213,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.396Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.613Z",
+    "version": 3
   }
 }

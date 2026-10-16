@@ -41,7 +41,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Monica",
+        "committee": "Robbie Staenberg for School Board 2026",
+        "url": "https://netfile.com/public/CSM/campaign/filingsByFiler/216563611-Robbie%20Staenberg%20for%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 12020,
+        "cashOnHand": 41927.99,
+        "breakdown": [
+          { "kind": "small", "amount": 150 },
+          { "kind": "large", "amount": 11850 },
+          { "kind": "candidate", "amount": 20 }
+        ],
+        "fromCandidate": 20,
+        "largeSince": { "since": "2026-09-19", "total": 11100, "count": 7 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -319,6 +339,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.142Z",
-    "version": 2
+    "version": 3
   }
 }

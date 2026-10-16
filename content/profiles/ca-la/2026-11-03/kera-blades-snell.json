@@ -33,7 +33,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Monica",
+        "committee": "Blades-Snell for College Board 2026",
+        "url": "https://netfile.com/public/CSM/campaign/filingsByFiler/215807595-Blades-Snell%20for%20College%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 12203.61,
+        "cashOnHand": 12835.36,
+        "breakdown": [
+          { "kind": "small", "amount": 515.6 },
+          { "kind": "large", "amount": 10188.01 },
+          { "kind": "pac", "amount": 500 },
+          { "kind": "other", "amount": 1000 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -157,6 +176,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.937Z",
-    "version": 2
+    "version": 3
   }
 }

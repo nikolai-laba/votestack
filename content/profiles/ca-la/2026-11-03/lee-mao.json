@@ -38,7 +38,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Diamond Bar",
+        "committee": "Lee Mao for Diamond Bar City Council District 4, 2026",
+        "url": "https://netfile.com/public/CDB/campaign/filingsByFiler/216934121-Lee%20Mao%20for%20Diamond%20Bar%20City%20Council%20District%204%2C%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 43298.88,
+        "cashOnHand": 21314.16,
+        "fromScan": "ocr"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -110,6 +124,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.370Z",
-    "version": 1
+    "version": 2
   }
 }

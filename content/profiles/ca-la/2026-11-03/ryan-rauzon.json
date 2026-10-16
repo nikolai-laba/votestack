@@ -33,7 +33,22 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Ryan Rauzon for Torrance Unified School District Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217179719-Ryan%20Rauzon%20for%20Torrance%20Unified%20School%20District%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 8335.99,
+        "cashOnHand": 5215.53,
+        "fromScan": "ai",
+        "largeSince": { "since": "2026-09-19", "total": 5000, "count": 2 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -175,6 +190,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.158Z",
-    "version": 2
+    "version": 3
   }
 }

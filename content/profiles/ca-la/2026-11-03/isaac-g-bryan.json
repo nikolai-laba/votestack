@@ -2,11 +2,12 @@
   "key": "isaac-g-bryan",
   "electionId": "ca-2026-11-03-general",
   "name": "Isaac G. Bryan",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "State Assembly Member, 55th District",
   "contestIds": ["la-4348-cc10795"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -52,7 +53,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Bryan for Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477262",
+        "period": "July 1 to September 19, 2026",
+        "raised": 83265,
+        "cashOnHand": 570663.17,
+        "breakdown": [
+          { "kind": "small", "amount": 165 },
+          { "kind": "large", "amount": 18700 },
+          { "kind": "pac", "amount": 35500 },
+          { "kind": "party", "amount": 5000 },
+          { "kind": "other", "amount": 23900 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 94000, "count": 26 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -455,6 +477,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.709Z",
-    "version": 5
+    "version": 6
   }
 }

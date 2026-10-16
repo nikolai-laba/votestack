@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10723"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -44,7 +45,22 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Anna Griese For SUSD Board Trustee 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217514328-Anna%20Griese%20For%20SUSD%20Board%20Trustee%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 6526.94,
+        "cashOnHand": 3715.46,
+        "fromScan": "ai",
+        "largeSince": { "since": "2026-09-19", "total": 1800, "count": 1 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -134,7 +150,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.153Z",
-    "version": 2
+    "generatedAt": "2026-10-15T21:48:37.283Z",
+    "version": 4
   }
 }

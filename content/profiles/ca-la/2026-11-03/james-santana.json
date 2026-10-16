@@ -29,7 +29,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Montebello",
+        "committee": "James Santana for Montebello City Council 2026",
+        "url": "https://netfile.com/public/BELLO/campaign/filingsByFiler/216988095-Santana%20for%20Montebello%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 6019.25,
+        "cashOnHand": 4732.14,
+        "breakdown": [
+          { "kind": "small", "amount": 461.42 },
+          { "kind": "large", "amount": 2407.83 },
+          { "kind": "other", "amount": 3150 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 3000, "count": 3 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -109,6 +128,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.509Z",
-    "version": 1
+    "version": 2
   }
 }

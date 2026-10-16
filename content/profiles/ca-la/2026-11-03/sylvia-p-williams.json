@@ -29,7 +29,24 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Sylvia P. Williams ANTELOPE VALLEY UNION JOINT HIGH SCHOOL DISTRICT 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217237411-Sylvia%20P%20Williams%20Antelope%20Valley%20Union%20Joint%20High%20School%20District%20Area%201%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 2005,
+        "cashOnHand": 5,
+        "breakdown": [
+          { "kind": "small", "amount": 5 },
+          { "kind": "other", "amount": 2000 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -70,6 +87,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.954Z",
-    "version": 2
+    "version": 3
   }
 }

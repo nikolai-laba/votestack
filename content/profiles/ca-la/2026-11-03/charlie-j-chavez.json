@@ -25,7 +25,20 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "charlie chavez (Charlie Chavez Campaign) La Puente Valley Water District Board Election year 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217200405-Charlie%20Chavez%2C%20(Charlie%20Chavez%20Campaign)%20La%20Puente%20Valley%20Water%20District%20Board%20Election%20Year%202026",
+        "period": "July 7 to September 19, 2026",
+        "raised": 0,
+        "cashOnHand": 473.92
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -41,6 +54,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.396Z",
-    "version": 1
+    "version": 2
   }
 }

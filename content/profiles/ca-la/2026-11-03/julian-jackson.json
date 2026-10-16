@@ -39,7 +39,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Santa Fe Springs",
+      "url": "https://netfile.com/public/SFS/campaign/filingsByFiler/217259440-Julian%20Jackson"
+    }
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -63,6 +70,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.585Z",
-    "version": 1
+    "version": 2
   }
 }

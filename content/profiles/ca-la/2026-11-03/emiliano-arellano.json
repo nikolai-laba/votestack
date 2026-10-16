@@ -33,7 +33,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Lynwood",
+      "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=363520&dbid=0&repo=r-a1e5613e"
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -206,6 +213,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.470Z",
-    "version": 1
+    "version": 2
   }
 }

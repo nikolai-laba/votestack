@@ -35,7 +35,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Nancy K Smith for PSD School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217496877-Nancy%20K%20Smith%20for%20PSD%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 4669.57,
+        "cashOnHand": 2282.69,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-14", "items": [] },
   "sources": [
     {
@@ -67,6 +81,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.222Z",
-    "version": 1
+    "version": 2
   }
 }

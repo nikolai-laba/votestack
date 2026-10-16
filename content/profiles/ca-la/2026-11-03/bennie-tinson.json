@@ -51,7 +51,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Compton",
+        "committee": "Tinson for City Council 2026",
+        "url": "https://www.comptoncity.org/departments/city-clerk/elections/campaign-statements/460-campaign-statements",
+        "period": "July 1 to September 19, 2026",
+        "raised": 5100,
+        "cashOnHand": 2913.93,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -178,6 +192,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.346Z",
-    "version": 1
+    "version": 2
   }
 }

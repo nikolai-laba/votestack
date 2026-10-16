@@ -29,7 +29,33 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Anna Slotky Reitano for Judge 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1487582",
+        "period": "July 1 to September 19, 2026",
+        "raised": 12400,
+        "cashOnHand": 4921.53,
+        "breakdown": [
+          { "kind": "small", "amount": 190 },
+          { "kind": "large", "amount": 5960 },
+          { "kind": "pac", "amount": 250 },
+          { "kind": "candidate", "amount": 6000 }
+        ],
+        "fromCandidate": 6000,
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 11000,
+          "count": 2,
+          "fromCandidate": 10000
+        }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -309,6 +335,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T14:05:39.724Z",
-    "version": 2
+    "version": 3
   }
 }

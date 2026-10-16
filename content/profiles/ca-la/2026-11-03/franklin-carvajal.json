@@ -37,7 +37,22 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Culver City",
+        "committee": "Dr. Franklin Carvajal for Culver City Council 2026",
+        "url": "https://netfile.com/public/CUL/campaign/filingsByFiler/211705729-Dr.%20Franklin%20Carvajal%20for%20Culver%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 450,
+        "cashOnHand": 0,
+        "breakdown": [{ "kind": "candidate", "amount": 450 }],
+        "fromCandidate": 450
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -61,6 +76,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.357Z",
-    "version": 1
+    "version": 2
   }
 }

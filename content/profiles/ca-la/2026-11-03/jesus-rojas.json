@@ -43,7 +43,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Monrovia",
+        "committee": "Rojas for City Council 2026",
+        "url": "https://netfile.com/public/MON/campaign/filingsByFiler/211773571-Rojas%20for%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 0,
+        "cashOnHand": 8.74,
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 11000,
+          "count": 2,
+          "fromCandidate": 10000
+        }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -102,6 +121,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.497Z",
-    "version": 1
+    "version": 2
   }
 }

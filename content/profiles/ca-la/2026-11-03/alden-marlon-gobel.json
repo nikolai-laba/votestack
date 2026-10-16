@@ -55,7 +55,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of West Hollywood",
+      "url": "https://netfile.com/public/WEHO/campaign/filingsByFiler/217474529-Let's%20Gobel%20for%20WEHO%20City%20Council"
+    }
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -87,6 +94,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.644Z",
-    "version": 1
+    "version": 2
   }
 }

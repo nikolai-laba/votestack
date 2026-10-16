@@ -45,7 +45,22 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of West Hollywood",
+        "committee": "Ligon for West Hollywood City Council 2026; Friends of Kevin",
+        "url": "https://netfile.com/public/WEHO/campaign/filingsByFiler/217190250-Kevin%20Ligon%20for%20West%20Hollywood%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 1114.21,
+        "cashOnHand": 100,
+        "breakdown": [{ "kind": "candidate", "amount": 1114.21 }],
+        "fromCandidate": 1114.21
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -77,6 +92,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.651Z",
-    "version": 1
+    "version": 2
   }
 }

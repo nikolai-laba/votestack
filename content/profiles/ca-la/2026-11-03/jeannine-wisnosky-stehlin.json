@@ -29,7 +29,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Culver City",
+        "committee": "Jeannine Wisnosky Stehlin for Culver City Council 2026",
+        "url": "https://netfile.com/public/CUL/campaign/filingsByFiler/216888550-Jeannine%20Wisnosky%20Stehlin%20for%20Culver%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 24400.6,
+        "cashOnHand": 41152.43,
+        "breakdown": [
+          { "kind": "small", "amount": 360 },
+          { "kind": "large", "amount": 20540.6 },
+          { "kind": "pac", "amount": 2500 },
+          { "kind": "other", "amount": 1000 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 4640, "count": 4 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -325,6 +345,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:39:39.161Z",
-    "version": 2
+    "version": 3
   }
 }

@@ -43,7 +43,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of El Segundo",
+        "committee": "Baldino For El Segundo City Council 2026",
+        "url": "https://netfile.com/public/SEG/campaign/filingsByFiler/217397056-Baldino%20for%20El%20Segundo%20City%20Council%202026",
+        "period": "August 7 to September 19, 2026",
+        "raised": 3150,
+        "cashOnHand": 665.44,
+        "breakdown": [
+          { "kind": "large", "amount": 2150 },
+          { "kind": "candidate", "amount": 1000 }
+        ],
+        "fromCandidate": 1000,
+        "largeSince": { "since": "2026-09-19", "total": 2500, "count": 1 }
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -75,6 +94,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.394Z",
-    "version": 1
+    "version": 2
   }
 }

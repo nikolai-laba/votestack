@@ -33,7 +33,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of West Hollywood",
+        "committee": "Tatyana Tsikanovsky for West Hollywood City Council 2026",
+        "url": "https://netfile.com/public/WEHO/campaign/filingsByFiler/215600959-Tatyana%20for%20West%20Hollywood%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 19425,
+        "cashOnHand": 25809.77,
+        "breakdown": [
+          { "kind": "small", "amount": 397 },
+          { "kind": "large", "amount": 18678 },
+          { "kind": "other", "amount": 350 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -137,6 +155,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:39:39.229Z",
-    "version": 2
+    "version": 3
   }
 }

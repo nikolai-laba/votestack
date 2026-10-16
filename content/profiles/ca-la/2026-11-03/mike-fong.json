@@ -2,11 +2,12 @@
   "key": "mike-fong",
   "electionId": "ca-2026-11-03-general",
   "name": "Mike Fong",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "State Assembly Member, 49th District",
   "contestIds": ["la-4348-cc10790"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -46,7 +47,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Mike Fong For Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477447",
+        "period": "July 1 to September 19, 2026",
+        "raised": 140869,
+        "cashOnHand": 1518364.29,
+        "breakdown": [
+          { "kind": "small", "amount": 60 },
+          { "kind": "large", "amount": 51259 },
+          { "kind": "pac", "amount": 44700 },
+          { "kind": "other", "amount": 44850 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 75920, "count": 30 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -250,6 +271,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.692Z",
-    "version": 3
+    "version": 4
   }
 }

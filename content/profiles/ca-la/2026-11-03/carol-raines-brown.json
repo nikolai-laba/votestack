@@ -29,7 +29,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Raines-Brown for Water Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217164187-RAINES-BROWN%20FOR%20WATER%20BOARD%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 8362.53,
+        "cashOnHand": 293.57,
+        "breakdown": [
+          { "kind": "small", "amount": 78.34 },
+          { "kind": "large", "amount": 1661.19 },
+          { "kind": "pac", "amount": 4913 },
+          { "kind": "candidate", "amount": 1710 }
+        ],
+        "fromCandidate": 1710
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -98,6 +118,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.442Z",
-    "version": 1
+    "version": 2
   }
 }

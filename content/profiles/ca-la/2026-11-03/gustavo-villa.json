@@ -47,7 +47,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Maywood",
+        "committee": "Gustavo Villa for Maywood City Council 2026",
+        "url": "https://www.cityofmaywood.com/523/Campaign-Disclosure-Statements",
+        "period": "September 3 to September 24, 2026",
+        "raised": 300,
+        "cashOnHand": 38,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-14", "items": [] },
   "sources": [
     {
@@ -79,6 +93,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.547Z",
-    "version": 1
+    "version": 2
   }
 }

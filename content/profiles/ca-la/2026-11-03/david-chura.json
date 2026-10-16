@@ -59,7 +59,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Rancho Palos Verdes",
+      "url": "https://documents.rpvca.gov/WebLink/Browse.aspx?id=91061&dbid=0&repo=RanchoPalosVerdes"
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -189,6 +196,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.538Z",
-    "version": 1
+    "version": 2
   }
 }

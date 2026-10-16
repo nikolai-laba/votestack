@@ -29,7 +29,22 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "PLAMBECK for SCV Water Agency 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217111482-PLAMBECK%20for%20SCV%20Water%20Agency%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 8104.05,
+        "cashOnHand": 6817.71,
+        "fromScan": "ai",
+        "largeSince": { "since": "2026-09-19", "total": 1000, "count": 1 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -139,6 +154,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.218Z",
-    "version": 2
+    "version": 3
   }
 }

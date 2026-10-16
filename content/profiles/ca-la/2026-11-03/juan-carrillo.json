@@ -2,11 +2,12 @@
   "key": "juan-carrillo",
   "electionId": "ca-2026-11-03-general",
   "name": "Juan Carrillo",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "State Assembly Member, 39th District",
   "contestIds": ["la-4348-cc10782"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -56,7 +57,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Juan Carrillo for Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477268",
+        "period": "July 1 to September 19, 2026",
+        "raised": 119000,
+        "cashOnHand": 254027.84,
+        "breakdown": [
+          { "kind": "large", "amount": 1400 },
+          { "kind": "pac", "amount": 48200 },
+          { "kind": "other", "amount": 69400 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 150805.11, "count": 45 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -337,6 +357,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.665Z",
-    "version": 3
+    "version": 4
   }
 }

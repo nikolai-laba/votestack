@@ -37,7 +37,15 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Orange County Registrar of Voters",
+      "url": "https://netfile.com/public/COC/campaign/filingsByFiler/217049289-Amy%20Dudich%20for%20Fullerton%20Joint%20Union%20High%20School%20District%20Board%202026",
+      "underThreshold": true
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -106,6 +114,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T05:54:20.842Z",
-    "version": 1
+    "version": 2
   }
 }

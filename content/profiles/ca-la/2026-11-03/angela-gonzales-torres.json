@@ -2,7 +2,7 @@
   "key": "angela-gonzales-torres",
   "electionId": "ca-2026-11-03-general",
   "name": "Angela Gonzales-Torres",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "U.S. Representative, 34th District",
   "contestIds": ["la-4348-cc10813-r1", "la-4348-cc10813-r2"],
   "kind": "candidate",
@@ -76,7 +76,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Angela for Ca34",
+        "url": "https://www.fec.gov/data/committee/C00901652/?cycle=2026",
+        "period": "April 1, 2025 to June 30, 2026",
+        "raised": 228724.03,
+        "cashOnHand": 44069.58,
+        "breakdown": [
+          { "kind": "small", "amount": 107778.89 },
+          { "kind": "large", "amount": 113102.64 },
+          { "kind": "pac", "amount": 7725 },
+          { "kind": "other", "amount": 117.5 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -293,6 +311,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.809Z",
-    "version": 4
+    "version": 5
   }
 }

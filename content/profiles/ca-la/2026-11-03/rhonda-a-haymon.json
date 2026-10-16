@@ -34,7 +34,33 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Haymon for Judge 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1463944",
+        "period": "July 1 to September 19, 2026",
+        "raised": 17629.76,
+        "cashOnHand": 12067.42,
+        "breakdown": [
+          { "kind": "small", "amount": 285.62 },
+          { "kind": "large", "amount": 10244.14 },
+          { "kind": "pac", "amount": 600 },
+          { "kind": "loan", "amount": 5000 },
+          { "kind": "other", "amount": 1500 }
+        ],
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 3670.18,
+          "count": 2,
+          "fromCandidate": 2000
+        }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -211,6 +237,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.257Z",
-    "version": 3
+    "version": 4
   }
 }

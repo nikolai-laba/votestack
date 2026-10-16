@@ -53,7 +53,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Compton",
+        "committee": "Spicer for Mayor 2026",
+        "url": "https://www.comptoncity.org/departments/city-clerk/elections/campaign-statements/460-campaign-statements",
+        "period": "July 1 to September 19, 2026",
+        "raised": 5375.98,
+        "cashOnHand": 2620.96,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -172,6 +186,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T14:05:39.736Z",
-    "version": 2
+    "version": 3
   }
 }

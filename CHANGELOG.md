@@ -7,7 +7,11 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ### Added
 
-- **Los Angeles County.** Voters in Los Angeles County, California can now look up their ballot for the November 3, 2026 General Election: every race, judge up for retention and measure for their address, with each candidate's party preference and ballot designation, in the order of their own ballot. The list comes straight from the Los Angeles County Registrar-Recorder/County Clerk's ballot styles. Every race also has its own page, listed at `/races/ca/los-angeles-county/2026-11-03`. Candidates in Los Angeles County don't have profiles yet.
+- **Los Angeles County.** Voters in Los Angeles County, California can now look up their ballot for the November 3, 2026 General Election: every race, judge up for retention and measure for their address, in the order of their own ballot. The list comes straight from the Los Angeles County Registrar-Recorder/County Clerk's ballot styles. Every race also has its own page, listed at `/races/ca/los-angeles-county/2026-11-03`.
+- **Los Angeles County candidate profiles**, written the same way as Cook County's, with campaign money from official filings (the FEC, the California Secretary of State, the county's and cities' filing systems, and the City of Los Angeles Ethics Commission). Where a filing was only available as a scan, AI read its figures twice, separately, and they're shown only when both reads agree; the profile says so. Candidates who report raising under $2,000, or who haven't filed yet, get a plain note and a link to their filings.
+- Incumbent labels in Los Angeles County, from the official lists and the "Incumbent" ballot designation.
+- In Los Angeles County, statewide measures are titled as propositions ("Proposition 1: Authorizes Bonds for Housing Affordability Programs") and link to the California Secretary of State's voter guide for the full text and arguments. Ballots use California's terms ("propositions and measures") where Cook County's use "referenda".
+- The paper ballot order view follows each county's printed ballot, including Los Angeles County's order of city and local races first, and explains it.
 
 ## [1.2.0] - 2026-10-14
 

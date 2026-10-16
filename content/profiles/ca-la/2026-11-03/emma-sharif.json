@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10766"],
   "kind": "candidate",
   "tier": "top",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -73,7 +74,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Compton",
+        "committee": "Sharif for Mayor 2026",
+        "url": "https://www.comptoncity.org/departments/city-clerk/elections/campaign-statements/460-campaign-statements",
+        "period": "July 1 to September 19, 2026",
+        "raised": 24754.9,
+        "cashOnHand": 14351.53,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -271,7 +286,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.348Z",
-    "version": 3
+    "generatedAt": "2026-10-15T21:48:37.552Z",
+    "version": 5
   }
 }

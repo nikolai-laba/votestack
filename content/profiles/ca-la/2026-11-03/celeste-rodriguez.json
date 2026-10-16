@@ -2,11 +2,12 @@
   "key": "celeste-rodriguez",
   "electionId": "ca-2026-11-03-general",
   "name": "Celeste Rodriguez",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "State Assembly Member, 43rd District",
   "contestIds": ["la-4348-cc10786"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -56,7 +57,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Celeste Rodriguez for Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477040",
+        "period": "July 1 to September 19, 2026",
+        "raised": 40410,
+        "cashOnHand": 284278.58,
+        "breakdown": [
+          { "kind": "small", "amount": 10 },
+          { "kind": "large", "amount": 2750 },
+          { "kind": "pac", "amount": 29650 },
+          { "kind": "other", "amount": 8000 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 31100, "count": 7 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -469,6 +490,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.678Z",
-    "version": 3
+    "version": 4
   }
 }

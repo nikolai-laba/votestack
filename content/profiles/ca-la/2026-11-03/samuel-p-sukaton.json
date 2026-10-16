@@ -2,7 +2,7 @@
   "key": "samuel-p-sukaton",
   "electionId": "ca-2026-11-03-general",
   "name": "Samuel P. Sukaton",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "Board of Equalization Member, 3rd District",
   "contestIds": ["la-4348-cc10835-r1", "la-4348-cc10835-r2"],
   "kind": "candidate",
@@ -38,7 +38,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Sukaton for State Board of Equalization 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1484005",
+        "period": "July 1 to September 19, 2026",
+        "raised": 14877.11,
+        "cashOnHand": 19144.29,
+        "breakdown": [
+          { "kind": "small", "amount": 834.11 },
+          { "kind": "large", "amount": 2743 },
+          { "kind": "pac", "amount": 11300 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -136,6 +154,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.763Z",
-    "version": 5
+    "version": 6
   }
 }

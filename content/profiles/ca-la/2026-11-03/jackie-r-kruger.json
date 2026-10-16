@@ -15,7 +15,32 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Jackie Kruger for School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216986472-Jackie%20Kruger%20for%20School%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 18815,
+        "cashOnHand": 2445.86,
+        "breakdown": [
+          { "kind": "small", "amount": 1010 },
+          { "kind": "large", "amount": 12795 },
+          { "kind": "candidate", "amount": 5010 }
+        ],
+        "fromCandidate": 5010,
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 5000,
+          "count": 1,
+          "fromCandidate": 5000
+        }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -85,6 +110,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.973Z",
-    "version": 3
+    "version": 4
   }
 }

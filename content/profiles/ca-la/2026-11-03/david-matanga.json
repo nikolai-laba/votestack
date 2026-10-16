@@ -30,7 +30,20 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Montebello",
+        "committee": "David Matanga for Montebello City Treasurer 2022",
+        "url": "https://netfile.com/public/BELLO/campaign/filingsByFiler/211702939-David%20Matanga%20for%20Montebello%20City%20Treasurer%202026",
+        "period": "January 1 to June 30, 2026",
+        "raised": 0,
+        "cashOnHand": 0
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -71,6 +84,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.509Z",
-    "version": 1
+    "version": 2
   }
 }

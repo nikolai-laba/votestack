@@ -35,7 +35,24 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Kongkosonkichkan for Pomona USD Trustee Area 4 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217109603-Kongkosonkichkan%20for%20Pomona%20USD%20Trustee%20Area%204%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 2161.38,
+        "cashOnHand": 836.89,
+        "breakdown": [
+          { "kind": "small", "amount": 111.38 },
+          { "kind": "large", "amount": 2050 }
+        ]
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -59,6 +76,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.264Z",
-    "version": 1
+    "version": 2
   }
 }

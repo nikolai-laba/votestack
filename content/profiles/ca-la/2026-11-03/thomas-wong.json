@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10490"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -59,7 +60,22 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Monterey Park",
+        "committee": "Thomas Wong For Monterey Park City Council 2026",
+        "url": "https://www.montereypark.ca.gov/1391/Thomas-Wong-City-Council",
+        "period": "July 1 to September 19, 2026",
+        "raised": 16049,
+        "cashOnHand": 110775.02,
+        "fromScan": "ocr",
+        "largeSince": { "since": "2026-09-19", "total": 1000, "count": 1 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -182,7 +198,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.512Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.787Z",
+    "version": 3
   }
 }

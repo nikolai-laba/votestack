@@ -2,7 +2,7 @@
   "key": "long-david-liu",
   "electionId": "ca-2026-11-03-general",
   "name": "Long David Liu",
-  "party": "Party Preference: Republican",
+  "party": "Republican",
   "office": "State Assembly Member, 49th District",
   "contestIds": ["la-4348-cc10790"],
   "kind": "candidate",
@@ -30,7 +30,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Liu for Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1485173",
+        "period": "July 1 to September 19, 2026",
+        "raised": 1760,
+        "cashOnHand": 4352.19,
+        "breakdown": [
+          { "kind": "small", "amount": 510 },
+          { "kind": "large", "amount": 250 },
+          { "kind": "pac", "amount": 1000 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 15131.72, "count": 4 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -265,6 +284,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.692Z",
-    "version": 3
+    "version": 4
   }
 }

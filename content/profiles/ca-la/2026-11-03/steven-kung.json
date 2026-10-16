@@ -15,7 +15,22 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Monterey Park",
+        "committee": "Kung for Monterey Park City Council 2026",
+        "url": "https://www.montereypark.ca.gov/1729/31834/Vinh-T-Ngo-City-Council-2026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 24169.88,
+        "cashOnHand": 13111.44,
+        "fromScan": "ocr",
+        "largeSince": { "since": "2026-09-19", "total": 2000, "count": 1 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -89,6 +104,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T16:20:30.364Z",
-    "version": 2
+    "version": 3
   }
 }

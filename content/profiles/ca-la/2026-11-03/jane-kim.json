@@ -2,7 +2,7 @@
   "key": "jane-kim",
   "electionId": "ca-2026-11-03-general",
   "name": "Jane Kim",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "California Insurance Commissioner",
   "contestIds": ["la-4348-cc10834-r1", "la-4348-cc10834-r2"],
   "kind": "candidate",
@@ -70,7 +70,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Jane Kim for Insurance Commissioner 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1485530",
+        "period": "July 1 to September 19, 2026",
+        "raised": 362857.88,
+        "cashOnHand": 345280.77,
+        "breakdown": [
+          { "kind": "small", "amount": 4683.25 },
+          { "kind": "large", "amount": 168648.74 },
+          { "kind": "pac", "amount": 168850 },
+          { "kind": "party", "amount": 100 },
+          { "kind": "other", "amount": 20575.89 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 93400, "count": 35 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -427,6 +448,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.792Z",
-    "version": 5
+    "version": 6
   }
 }

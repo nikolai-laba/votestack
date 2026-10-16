@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10717"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -26,7 +27,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Sifuentes for MVSD Board of Education 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217472674-Sifuentes%20for%20MVSD%20Board%20of%20Education%20for%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 3598,
+        "cashOnHand": 1381,
+        "breakdown": [{ "kind": "pac", "amount": 3598 }]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -58,7 +73,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T15:48:49.210Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.213Z",
+    "version": 3
   }
 }

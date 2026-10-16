@@ -26,7 +26,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Montebello",
+        "committee": "Committee to Elect Ana Torres for Montebello City Council 2026",
+        "url": "https://netfile.com/public/BELLO/campaign/filingsByFiler/217101276-Committee%20to%20Elect%20Ana%20Torres%20for%20Montebello%20City%20Council%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 2000,
+        "cashOnHand": 770.04,
+        "breakdown": [
+          { "kind": "small", "amount": 60 },
+          { "kind": "large", "amount": 750 },
+          { "kind": "other", "amount": 1190 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 1000, "count": 1 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -67,6 +86,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.505Z",
-    "version": 1
+    "version": 2
   }
 }

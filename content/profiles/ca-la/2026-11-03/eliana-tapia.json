@@ -21,7 +21,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Tapia for School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217178862-TAPIA%20FOR%20SCHOOL%20BOARD%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 4613.32,
+        "cashOnHand": 3880.35,
+        "breakdown": [
+          { "kind": "small", "amount": 50 },
+          { "kind": "large", "amount": 563.32 },
+          { "kind": "candidate", "amount": 4000 }
+        ],
+        "fromCandidate": 4000,
+        "largeSince": { "since": "2026-09-19", "total": 1462, "count": 1 }
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-14", "items": [] },
   "sources": [
     {
@@ -37,6 +57,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T14:05:39.704Z",
-    "version": 4
+    "version": 5
   }
 }

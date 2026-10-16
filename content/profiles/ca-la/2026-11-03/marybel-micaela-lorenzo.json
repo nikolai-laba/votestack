@@ -29,7 +29,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Marybel Lorenzo for School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217190171-Marybel%20Lorenzo%20for%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 4664,
+        "cashOnHand": 387.52,
+        "breakdown": [
+          { "kind": "small", "amount": 214 },
+          { "kind": "large", "amount": 2450 },
+          { "kind": "other", "amount": 2000 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -75,6 +93,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.094Z",
-    "version": 2
+    "version": 3
   }
 }

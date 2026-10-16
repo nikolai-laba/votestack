@@ -2,7 +2,7 @@
   "key": "gil-cisneros",
   "electionId": "ca-2026-11-03-general",
   "name": "Gil Cisneros",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "U.S. Representative, 31st District",
   "contestIds": ["la-4348-cc10811-r1", "la-4348-cc10811-r2"],
   "kind": "candidate",
@@ -46,7 +46,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Cisneros for Congress",
+        "url": "https://www.fec.gov/data/committee/C00850420/?cycle=2026",
+        "period": "January 1, 2025 to June 30, 2026",
+        "raised": 705263.13,
+        "cashOnHand": 259803.37,
+        "breakdown": [
+          { "kind": "small", "amount": 24197.63 },
+          { "kind": "large", "amount": 216066 },
+          { "kind": "pac", "amount": 453650 },
+          { "kind": "candidate", "amount": 6616.31 },
+          { "kind": "other", "amount": 4733.19 }
+        ],
+        "fromCandidate": 6616.31
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -285,6 +305,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.800Z",
-    "version": 4
+    "version": 5
   }
 }

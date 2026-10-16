@@ -45,7 +45,24 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Monica",
+        "committee": "Eli Gill for City Council 2026",
+        "url": "https://netfile.com/public/CSM/campaign/filingsByFiler/215626657-Eli%20Gill%20for%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 4000,
+        "cashOnHand": 10727.12,
+        "breakdown": [
+          { "kind": "small", "amount": 50 },
+          { "kind": "large", "amount": 3950 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -144,6 +161,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.596Z",
-    "version": 1
+    "version": 2
   }
 }

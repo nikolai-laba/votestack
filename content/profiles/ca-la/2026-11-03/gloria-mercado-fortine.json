@@ -43,7 +43,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Clarita",
+        "committee": "Gloria Mercado-Fortine for City Council 2026, District 2",
+        "url": "https://www.southtechhosting.com/SantaClaritaCity/CampaignDocsWebRetrieval/",
+        "period": "July 1 to September 19, 2026",
+        "raised": 17206.1,
+        "cashOnHand": 7342.55,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -125,6 +139,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.569Z",
-    "version": 1
+    "version": 2
   }
 }

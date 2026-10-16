@@ -2,7 +2,7 @@
   "key": "mike-cargile",
   "electionId": "ca-2026-11-03-general",
   "name": "Mike Cargile",
-  "party": "Party Preference: Republican",
+  "party": "Republican",
   "office": "U.S. Representative, 35th District",
   "contestIds": ["la-4348-cc10814"],
   "kind": "candidate",
@@ -66,7 +66,23 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Cargile for Congress",
+        "url": "https://www.fec.gov/data/committee/C00730812/?cycle=2026",
+        "period": "January 1, 2025 to September 30, 2026",
+        "raised": 9699,
+        "cashOnHand": 597.81,
+        "breakdown": [
+          { "kind": "small", "amount": 1599 },
+          { "kind": "large", "amount": 8100 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -214,6 +230,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.813Z",
-    "version": 3
+    "version": 4
   }
 }

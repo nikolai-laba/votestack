@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10440"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -33,7 +34,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Diamond Bar",
+        "committee": "Steve Tye for City Council 2026",
+        "url": "https://netfile.com/public/CDB/campaign/filingsByFiler/215406282-Steve%20Tye%20for%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 25471.36,
+        "cashOnHand": 14388.57,
+        "breakdown": [
+          { "kind": "large", "amount": 1850 },
+          { "kind": "candidate", "amount": 23621.36 }
+        ],
+        "fromCandidate": 23621.36,
+        "largeSince": { "since": "2026-09-19", "total": 7900, "count": 3 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -111,7 +131,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:39:39.162Z",
-    "version": 2
+    "generatedAt": "2026-10-15T21:48:37.574Z",
+    "version": 4
   }
 }

@@ -41,7 +41,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Palmdale",
+        "committee": "Committee to Elect V. Jesse Smith Palmdale City Council, District 5 2026",
+        "url": "https://netfile.com/public/CPD/campaign/filingsByFiler/217401060-Committee%20to%20Elect%20V.%20Jesse%20Smith%20Palmdale%20City%20Council%2C%20District%205%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 870,
+        "cashOnHand": 710,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -99,6 +113,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.532Z",
-    "version": 1
+    "version": 2
   }
 }

@@ -7,7 +7,21 @@
   "kind": "candidate",
   "tier": "mid",
   "overview": { "asOf": "2026-10-15", "items": [] },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of West Covina",
+        "committee": "Fredrick Sykes West Covina Council 2026",
+        "url": "https://westcovina.gov/186/Campaign-Disclosure-Reports-Public-Offic",
+        "period": "July 1 to September 16, 2026",
+        "raised": 17200,
+        "cashOnHand": 4119.49,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -41,6 +55,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.640Z",
-    "version": 1
+    "version": 2
   }
 }

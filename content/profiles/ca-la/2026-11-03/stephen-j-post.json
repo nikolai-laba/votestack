@@ -55,7 +55,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of West Hollywood",
+        "committee": "People for Post West Hollywood City Council 2026",
+        "url": "https://netfile.com/public/WEHO/campaign/filingsByFiler/215517399-Stephen%20Post%20for%20West%20Hollywood%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 8238.1,
+        "cashOnHand": 23767.75,
+        "breakdown": [
+          { "kind": "small", "amount": 1848.1 },
+          { "kind": "large", "amount": 2890 },
+          { "kind": "pac", "amount": 1000 },
+          { "kind": "candidate", "amount": 2500 }
+        ],
+        "fromCandidate": 2500,
+        "largeSince": { "since": "2026-09-19", "total": 1000, "count": 1 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -268,6 +289,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.656Z",
-    "version": 1
+    "version": 2
   }
 }

@@ -30,7 +30,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Palmdale",
+        "committee": "Raycine Ector For Palmdale City Council District 5 2026",
+        "url": "https://netfile.com/public/CPD/campaign/filingsByFiler/217403852-Raycine%20Ector%20for%20City%20Palmdale%20City%20Council%20District%205",
+        "period": "July 1 to September 19, 2026",
+        "raised": 2245,
+        "cashOnHand": 331,
+        "breakdown": [
+          { "kind": "small", "amount": 650 },
+          { "kind": "large", "amount": 1450 },
+          { "kind": "candidate", "amount": 145 }
+        ],
+        "fromCandidate": 145
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -88,6 +107,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.531Z",
-    "version": 1
+    "version": 2
   }
 }

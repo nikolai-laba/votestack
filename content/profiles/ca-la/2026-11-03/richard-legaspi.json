@@ -55,7 +55,32 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Norwalk",
+        "committee": "LeGaspi Norwalk City Council 2026",
+        "url": "https://netfile.com/public/NWK/campaign/filingsByFiler/217212813-LeGaspi%20Norwalk%20City%20Council%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 19749,
+        "cashOnHand": 4529.46,
+        "breakdown": [
+          { "kind": "small", "amount": 149 },
+          { "kind": "large", "amount": 5100 },
+          { "kind": "candidate", "amount": 14500 }
+        ],
+        "fromCandidate": 14500,
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 22500,
+          "count": 5,
+          "fromCandidate": 15000
+        }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -96,6 +121,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.522Z",
-    "version": 1
+    "version": 2
   }
 }

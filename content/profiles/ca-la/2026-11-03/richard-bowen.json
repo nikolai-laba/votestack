@@ -33,7 +33,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of La Verne",
+      "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=160348&dbid=0&repo=r-1fb4295f"
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -95,6 +102,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:39:39.179Z",
-    "version": 2
+    "version": 3
   }
 }

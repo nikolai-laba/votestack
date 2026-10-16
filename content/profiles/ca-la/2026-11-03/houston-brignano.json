@@ -2,7 +2,7 @@
   "key": "houston-brignano",
   "electionId": "ca-2026-11-03-general",
   "name": "Houston Brignano",
-  "party": "Party Preference: Republican",
+  "party": "Republican",
   "office": "U.S. Representative, 36th District",
   "contestIds": ["la-4348-cc10815-r1", "la-4348-cc10815-r2"],
   "kind": "candidate",
@@ -33,7 +33,23 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Houston Brignano for Congress",
+        "url": "https://www.fec.gov/data/committee/C00925842/?cycle=2026",
+        "period": "July 1, 2025 to September 30, 2026",
+        "raised": 11621.69,
+        "cashOnHand": 912.39,
+        "breakdown": [
+          { "kind": "small", "amount": 1870.42 },
+          { "kind": "large", "amount": 9751.27 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -152,6 +168,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.820Z",
-    "version": 3
+    "version": 4
   }
 }

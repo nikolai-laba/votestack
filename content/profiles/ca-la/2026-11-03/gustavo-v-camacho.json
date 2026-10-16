@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10503"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -43,7 +44,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Pico Rivera",
+        "committee": "Camacho for City Council 2026",
+        "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=244966&dbid=0&repo=r-0aa0087e",
+        "period": "July 1 to December 31, 2025",
+        "raised": 17250,
+        "cashOnHand": 11104.64,
+        "fromScan": "ocr"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -148,7 +163,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.534Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.816Z",
+    "version": 3
   }
 }

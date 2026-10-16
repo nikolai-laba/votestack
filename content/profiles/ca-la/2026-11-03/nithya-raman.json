@@ -77,7 +77,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles City Ethics Commission",
+        "committee": "Nithya Raman for Mayor - General 2026",
+        "url": "https://ethics.lacity.org/view/?document_id=146853",
+        "period": "July 1 to September 19, 2026",
+        "raised": 948912.48,
+        "cashOnHand": 1897031.07,
+        "breakdown": [
+          { "kind": "small", "amount": 55584.51 },
+          { "kind": "large", "amount": 877714.53 },
+          { "kind": "pac", "amount": 12693.44 },
+          { "kind": "other", "amount": 2920 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -418,6 +437,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.461Z",
-    "version": 6
+    "version": 7
   }
 }

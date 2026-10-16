@@ -2,7 +2,7 @@
   "key": "ricardo-benitez",
   "electionId": "ca-2026-11-03-general",
   "name": "Ricardo Benitez",
-  "party": "Party Preference: Republican",
+  "party": "Republican",
   "office": "State Assembly Member, 43rd District",
   "contestIds": ["la-4348-cc10786"],
   "kind": "candidate",
@@ -30,7 +30,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "1481307",
+      "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1481307"
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -118,6 +125,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.679Z",
-    "version": 3
+    "version": 4
   }
 }

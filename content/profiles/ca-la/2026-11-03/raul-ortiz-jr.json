@@ -2,7 +2,7 @@
   "key": "raul-ortiz-jr",
   "electionId": "ca-2026-11-03-general",
   "name": "Raul Ortiz Jr.",
-  "party": "Party Preference: Republican",
+  "party": "Republican",
   "office": "State Assembly Member, 64th District",
   "contestIds": ["la-4348-cc10800"],
   "kind": "candidate",
@@ -38,7 +38,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Raul Ortiz for Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1479626",
+        "period": "July 1 to September 19, 2026",
+        "raised": 6143.22,
+        "cashOnHand": 2630.13,
+        "breakdown": [
+          { "kind": "small", "amount": 1663 },
+          { "kind": "large", "amount": 3780.22 },
+          { "kind": "pac", "amount": 620 },
+          { "kind": "candidate", "amount": 80 }
+        ],
+        "fromCandidate": 80,
+        "largeSince": { "since": "2026-09-19", "total": 2240, "count": 3 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -139,6 +160,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.722Z",
-    "version": 3
+    "version": 4
   }
 }

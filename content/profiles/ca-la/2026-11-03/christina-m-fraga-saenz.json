@@ -25,7 +25,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Christina Fraga-Saenz for PWD Director District 2 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216795171-Christina%20Fraga-Saenz%20for%20PWD%20Director%20District%202%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 2020,
+        "cashOnHand": 627.16,
+        "breakdown": [
+          { "kind": "small", "amount": 220 },
+          { "kind": "large", "amount": 600 },
+          { "kind": "pac", "amount": 500 },
+          { "kind": "candidate", "amount": 700 }
+        ],
+        "fromCandidate": 700
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -58,6 +78,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.403Z",
-    "version": 1
+    "version": 2
   }
 }

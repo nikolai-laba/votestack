@@ -51,7 +51,20 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Burbank",
+        "committee": "Samantha Wick for Burbank City Council 2026",
+        "url": "https://efile.burbankca.gov/public/search/campaign/filings/fbb42d10-2410-43fd-8157-69b7a6e1a91c?type=committee",
+        "period": "July 1 to September 19, 2026",
+        "raised": 28815,
+        "cashOnHand": 12660.1
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -129,6 +142,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.323Z",
-    "version": 1
+    "version": 2
   }
 }

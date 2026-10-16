@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10596"],
   "kind": "candidate",
   "tier": "short",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -34,7 +35,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Steve Gibson for Pasadena City College Board of Trustees 2022",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/208775407-Steve%20Gibson%20for%20Pasadena%20City%20College%20Board%20of%20Trustees%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 18630,
+        "cashOnHand": 20045.5,
+        "breakdown": [
+          { "kind": "small", "amount": 380 },
+          { "kind": "large", "amount": 2750 },
+          { "kind": "pac", "amount": 15500 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 17500, "count": 6 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -229,7 +249,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:50.919Z",
-    "version": 2
+    "generatedAt": "2026-10-15T21:48:36.995Z",
+    "version": 4
   }
 }

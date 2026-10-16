@@ -39,7 +39,31 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Cheryl Williams for School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217092601-Cheryl%20Williams%20for%20School%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 9370,
+        "cashOnHand": 4166.23,
+        "breakdown": [
+          { "kind": "small", "amount": 770 },
+          { "kind": "large", "amount": 3600 },
+          { "kind": "pac", "amount": 5000 }
+        ],
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 3300,
+          "count": 1,
+          "fromCandidate": 3300
+        }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -100,6 +124,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.102Z",
-    "version": 1
+    "version": 2
   }
 }

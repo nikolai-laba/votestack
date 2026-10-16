@@ -43,7 +43,20 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Burbank",
+        "committee": "Jonathan Ontiveros for City Council 2026",
+        "url": "https://efile.burbankca.gov/public/search/campaign/filings/86015e56-c918-4236-9b47-8c092dcb1bec?type=committee",
+        "period": "January 1 to September 19, 2026",
+        "raised": 2049,
+        "cashOnHand": 1582.04
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -100,6 +113,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.319Z",
-    "version": 1
+    "version": 2
   }
 }

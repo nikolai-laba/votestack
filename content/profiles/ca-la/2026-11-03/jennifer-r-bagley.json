@@ -21,7 +21,30 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Jennifer Bagley for School Board Member 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217093797-Jennifer%20Bagley%20for%20School%20Board%20Member%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 9550,
+        "cashOnHand": 7033.28,
+        "breakdown": [
+          { "kind": "small", "amount": 200 },
+          { "kind": "large", "amount": 9350 }
+        ],
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 6000,
+          "count": 2,
+          "fromCandidate": 5000
+        }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -67,6 +90,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.064Z",
-    "version": 2
+    "version": 3
   }
 }

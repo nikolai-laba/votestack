@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10503"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -33,7 +34,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Pico Rivera",
+      "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=244966&dbid=0&repo=r-0aa0087e"
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -103,7 +111,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.535Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.818Z",
+    "version": 3
   }
 }

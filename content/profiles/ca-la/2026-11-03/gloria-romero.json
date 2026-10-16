@@ -2,7 +2,7 @@
   "key": "gloria-romero",
   "electionId": "ca-2026-11-03-general",
   "name": "Gloria Romero",
-  "party": "Party Preference: Republican",
+  "party": "Republican",
   "office": "California Lieutenant Governor",
   "contestIds": ["la-4348-cc10829-r1", "la-4348-cc10829-r2"],
   "kind": "candidate",
@@ -82,7 +82,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Gloria Romero For Lt. Governor 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1486862",
+        "period": "July 1 to September 19, 2026",
+        "raised": 53564,
+        "cashOnHand": 39052.84,
+        "breakdown": [
+          { "kind": "small", "amount": 2241 },
+          { "kind": "large", "amount": 38654 },
+          { "kind": "pac", "amount": 11919 },
+          { "kind": "other", "amount": 750 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 12500, "count": 6 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -244,6 +264,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.796Z",
-    "version": 3
+    "version": 4
   }
 }

@@ -29,7 +29,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Norma Rodarte For Whittier City School District 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216998828-Norma%20Rodarte%20For%20Whittier%20City%20School%20District%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 8780,
+        "cashOnHand": 3700.11,
+        "fromScan": "ocr"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -134,6 +148,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.350Z",
-    "version": 1
+    "version": 2
   }
 }

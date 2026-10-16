@@ -43,7 +43,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Carson",
+        "committee": "Hollaway For City Council 2026",
+        "url": "https://www.southtechhosting.com/CarsonCity/CampaignDocsWebRetrieval/Default.aspx",
+        "period": "January 1 to September 19, 2026",
+        "raised": 6247.21,
+        "cashOnHand": 3591.71,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -130,6 +144,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.331Z",
-    "version": 1
+    "version": 2
   }
 }

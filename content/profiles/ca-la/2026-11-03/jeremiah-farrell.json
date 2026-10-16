@@ -21,7 +21,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Palmdale",
+        "committee": "Farrell, Jeremiah",
+        "url": "https://netfile.com/public/CPD/campaign/filingsByFiler/217406372-Farrell%2C%20Jeremiah",
+        "period": "August 7 to September 24, 2026",
+        "raised": 0,
+        "cashOnHand": 25,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -37,6 +51,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.525Z",
-    "version": 1
+    "version": 2
   }
 }

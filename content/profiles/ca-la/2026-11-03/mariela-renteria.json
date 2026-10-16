@@ -33,7 +33,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Friends of Mariela Renteria for Lynwood School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217217792-Friends%20of%20Mariela%20Renteria%20for%20Lynwood%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 7920,
+        "cashOnHand": 3326.38,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -83,6 +97,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.082Z",
-    "version": 2
+    "version": 3
   }
 }

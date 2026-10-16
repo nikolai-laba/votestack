@@ -33,7 +33,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Ford for the College Board, 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217165153-Ford%20for%20College%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 4400,
+        "cashOnHand": 0,
+        "breakdown": [
+          { "kind": "large", "amount": 900 },
+          { "kind": "other", "amount": 3500 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 6820.55, "count": 3 }
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-14", "items": [] },
   "sources": [
     {
@@ -65,6 +83,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T05:54:20.757Z",
-    "version": 1
+    "version": 2
   }
 }

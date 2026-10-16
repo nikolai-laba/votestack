@@ -2,11 +2,12 @@
   "key": "jose-luis-solache",
   "electionId": "ca-2026-11-03-general",
   "name": "José Luis Solache",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "State Assembly Member, 62nd District",
   "contestIds": ["la-4348-cc10799"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -56,7 +57,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Friends of Solache for Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477768",
+        "period": "July 1 to September 19, 2026",
+        "raised": 130250,
+        "cashOnHand": 370354.43,
+        "breakdown": [
+          { "kind": "large", "amount": 1500 },
+          { "kind": "pac", "amount": 66550 },
+          { "kind": "other", "amount": 62200 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 102000, "count": 30 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -243,6 +263,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.718Z",
-    "version": 3
+    "version": 4
   }
 }

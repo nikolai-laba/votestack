@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10476"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -15,7 +16,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Lawndale",
+      "url": "https://www.lawndale.ca.gov/government/departments/city_clerk_s_office/election_information/campaign_finance"
+    }
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -30,7 +38,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:39:39.182Z",
-    "version": 2
+    "generatedAt": "2026-10-15T21:48:37.687Z",
+    "version": 4
   }
 }

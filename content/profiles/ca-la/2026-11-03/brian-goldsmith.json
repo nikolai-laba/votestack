@@ -2,7 +2,7 @@
   "key": "brian-goldsmith",
   "electionId": "ca-2026-11-03-general",
   "name": "Brian Goldsmith",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "State Senator, 24th District",
   "contestIds": ["la-4348-cc10775"],
   "kind": "candidate",
@@ -53,7 +53,32 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Brian Goldsmith for State Senate 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1480404",
+        "period": "July 1 to September 19, 2026",
+        "raised": 481973,
+        "cashOnHand": 182330.82,
+        "breakdown": [
+          { "kind": "small", "amount": 685 },
+          { "kind": "large", "amount": 424188 },
+          { "kind": "pac", "amount": 43700 },
+          { "kind": "other", "amount": 13400 }
+        ],
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 1833050,
+          "count": 86,
+          "fromCandidate": 1600000
+        }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -439,6 +464,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.745Z",
-    "version": 3
+    "version": 4
   }
 }

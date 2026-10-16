@@ -39,7 +39,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Pina for Lynwood School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217243297-Pina%20for%20Lynwood%20School%20Board",
+        "period": "January 1 to September 19, 2026",
+        "raised": 2285.65,
+        "cashOnHand": 550,
+        "breakdown": [
+          { "kind": "small", "amount": 235.65 },
+          { "kind": "candidate", "amount": 2050 }
+        ],
+        "fromCandidate": 2050,
+        "largeSince": { "since": "2026-09-19", "total": 10600, "count": 5 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -80,6 +99,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.183Z",
-    "version": 1
+    "version": 2
   }
 }

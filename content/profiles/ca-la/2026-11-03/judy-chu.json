@@ -2,11 +2,12 @@
   "key": "judy-chu",
   "electionId": "ca-2026-11-03-general",
   "name": "Judy Chu",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "U.S. Representative, 28th District",
   "contestIds": ["la-4348-cc10808-r1", "la-4348-cc10808-r2"],
   "kind": "candidate",
   "tier": "top",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -56,7 +57,24 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Judy Chu for Congress",
+        "url": "https://www.fec.gov/data/committee/C00458125/?cycle=2026",
+        "period": "January 1, 2025 to June 30, 2026",
+        "raised": 930123.25,
+        "cashOnHand": 3674296.35,
+        "breakdown": [
+          { "kind": "small", "amount": 37156.14 },
+          { "kind": "large", "amount": 513192.11 },
+          { "kind": "pac", "amount": 379775 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -458,6 +476,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.787Z",
-    "version": 4
+    "version": 5
   }
 }

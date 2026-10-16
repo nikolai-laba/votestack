@@ -15,7 +15,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Maria Ghobadi for Judge 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1488221",
+        "period": "July 1 to September 19, 2026",
+        "raised": 30325,
+        "cashOnHand": 10175.85,
+        "breakdown": [
+          { "kind": "small", "amount": 200 },
+          { "kind": "large", "amount": 26775 },
+          { "kind": "other", "amount": 3350 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 7000, "count": 4 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -200,18 +219,18 @@
         "kind": "organization",
         "cites": [12]
       },
+      { "organization": "LA Forward", "kind": "organization", "cites": [14] },
+      {
+        "organization": "Republican Party of Los Angeles County",
+        "kind": "party",
+        "cites": [15]
+      },
       {
         "organization": "Los Angeles County Bar Association",
         "kind": "bar_evaluation",
         "context": "election",
         "rating": "Well Qualified",
         "cites": [13]
-      },
-      { "organization": "LA Forward", "kind": "organization", "cites": [14] },
-      {
-        "organization": "Republican Party of Los Angeles County",
-        "kind": "party",
-        "cites": [15]
       }
     ]
   },
@@ -341,6 +360,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.257Z",
-    "version": 3
+    "version": 4
   }
 }

@@ -29,7 +29,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Rassool for COC Board of Trustees 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216878101-Rassool%20for%20COC%20Board%20of%20Trustees%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 37888.79,
+        "cashOnHand": 1128.31,
+        "breakdown": [
+          { "kind": "small", "amount": 100 },
+          { "kind": "large", "amount": 500 },
+          { "kind": "pac", "amount": 36288.79 },
+          { "kind": "candidate", "amount": 1000 }
+        ],
+        "fromCandidate": 1000,
+        "largeSince": { "since": "2026-09-19", "total": 45396.28, "count": 6 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -133,6 +154,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.935Z",
-    "version": 2
+    "version": 3
   }
 }

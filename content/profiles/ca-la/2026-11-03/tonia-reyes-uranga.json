@@ -29,7 +29,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Tonia Reyes Uranga for Water Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217297127-Tonia%20Reyes%20Uranga%20For%20Water%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 14725,
+        "cashOnHand": 13719.8,
+        "breakdown": [
+          { "kind": "small", "amount": 575 },
+          { "kind": "large", "amount": 4350 },
+          { "kind": "pac", "amount": 500 },
+          { "kind": "candidate", "amount": 5300 },
+          { "kind": "loan", "amount": 4000 }
+        ],
+        "fromCandidate": 5300
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -58,6 +79,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.431Z",
-    "version": 1
+    "version": 2
   }
 }

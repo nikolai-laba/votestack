@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10515"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -15,7 +16,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Santa Monica",
+      "url": "https://netfile.com/public/CSM/campaign/filingsByFiler/217584502-Gonska%20for%20Rent%20Control%20Board%202026"
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -156,7 +164,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:39:39.221Z",
-    "version": 2
+    "generatedAt": "2026-10-15T21:48:37.930Z",
+    "version": 4
   }
 }

@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10663"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -30,7 +31,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Nashua for Pomona Unified School District Trustee 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/211578276-Nashua%20for%20Pomona%20Unified%20School%20District%20Trustee%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 9869.89,
+        "cashOnHand": 8641.97,
+        "breakdown": [
+          { "kind": "small", "amount": 84.29 },
+          { "kind": "large", "amount": 7237.96 },
+          { "kind": "pac", "amount": 1500 },
+          { "kind": "candidate", "amount": 1047.64 }
+        ],
+        "fromCandidate": 1047.64,
+        "largeSince": { "since": "2026-09-19", "total": 10500, "count": 5 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -152,7 +174,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T16:56:23.406Z",
-    "version": 2
+    "generatedAt": "2026-10-15T21:48:37.251Z",
+    "version": 4
   }
 }

@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10739"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -57,7 +58,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Amezcua for School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/211531302-Amezcua%20for%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 4000,
+        "cashOnHand": 2873.83,
+        "breakdown": [
+          { "kind": "small", "amount": 695 },
+          { "kind": "large", "amount": 2555 },
+          { "kind": "other", "amount": 750 }
+        ]
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -104,7 +123,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T15:48:49.213Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.214Z",
+    "version": 3
   }
 }

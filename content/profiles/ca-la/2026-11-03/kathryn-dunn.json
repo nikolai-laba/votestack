@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10631"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -31,7 +32,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Re-elect Kathryn Dunn to Claremont School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217332773-Re-elect%20Kathryn%20Dunn%20to%20Claremont%20School%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 7360,
+        "cashOnHand": 3507,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -71,7 +86,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T05:54:20.831Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.064Z",
+    "version": 3
   }
 }

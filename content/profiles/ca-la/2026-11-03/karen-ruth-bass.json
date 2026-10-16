@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10767"],
   "kind": "candidate",
   "tier": "top",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -65,7 +66,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles City Ethics Commission",
+        "committee": "Re-Elect Karen Bass for Mayor 2026 - General",
+        "url": "https://ethics.lacity.org/view/?document_id=146850",
+        "period": "July 1 to September 19, 2026",
+        "raised": 1024469.7,
+        "cashOnHand": 1160245.71,
+        "breakdown": [
+          { "kind": "small", "amount": 12719.7 },
+          { "kind": "large", "amount": 912682 },
+          { "kind": "pac", "amount": 28275 },
+          { "kind": "other", "amount": 70793 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -415,7 +435,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.459Z",
-    "version": 5
+    "generatedAt": "2026-10-15T21:48:37.703Z",
+    "version": 7
   }
 }

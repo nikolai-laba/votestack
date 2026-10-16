@@ -15,7 +15,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Norwalk",
+        "committee": "Woods for City Council, 2026",
+        "url": "https://netfile.com/public/NWK/campaign/filingsByFiler/217289698-Woods%20for%20Council",
+        "period": "July 1 to September 19, 2026",
+        "raised": 2599.65,
+        "cashOnHand": 141.65,
+        "breakdown": [
+          { "kind": "small", "amount": 164.5 },
+          { "kind": "candidate", "amount": 2435.15 }
+        ],
+        "fromCandidate": 2435.15
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -39,6 +57,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:39:39.194Z",
-    "version": 2
+    "version": 3
   }
 }

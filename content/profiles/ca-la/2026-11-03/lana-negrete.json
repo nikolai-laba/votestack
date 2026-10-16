@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10514"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -15,7 +16,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Monica",
+        "committee": "Lana Negrete for City Council 2026",
+        "url": "https://netfile.com/public/CSM/campaign/filingsByFiler/216668686-Lana%20Negrete%20for%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 58665.33,
+        "cashOnHand": 70546.28,
+        "breakdown": [
+          { "kind": "small", "amount": 1605.33 },
+          { "kind": "large", "amount": 57060 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 4600, "count": 4 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -233,7 +252,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:39:39.215Z",
-    "version": 2
+    "generatedAt": "2026-10-15T21:48:37.920Z",
+    "version": 4
   }
 }

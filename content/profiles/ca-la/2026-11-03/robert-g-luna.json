@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10823-r1", "la-4348-cc10823-r2"],
   "kind": "candidate",
   "tier": "top",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -59,7 +60,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Luna for Sheriff 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216784885-LA%20County%3A%20Luna%20for%20Sheriff%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 226069,
+        "cashOnHand": 420489.96,
+        "breakdown": [
+          { "kind": "small", "amount": 219 },
+          { "kind": "large", "amount": 201600 },
+          { "kind": "pac", "amount": 6500 },
+          { "kind": "other", "amount": 17750 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -426,7 +446,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.270Z",
-    "version": 5
+    "generatedAt": "2026-10-15T21:48:37.442Z",
+    "version": 7
   }
 }

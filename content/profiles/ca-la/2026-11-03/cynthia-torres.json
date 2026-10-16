@@ -55,7 +55,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Torres for PUSD School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217291595-Torres%20for%20PUSD%20School%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 6900,
+        "cashOnHand": 5971.75,
+        "breakdown": [
+          { "kind": "large", "amount": 5800 },
+          { "kind": "pac", "amount": 1000 },
+          { "kind": "other", "amount": 100 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 5000, "count": 3 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -207,6 +226,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.253Z",
-    "version": 1
+    "version": 2
   }
 }

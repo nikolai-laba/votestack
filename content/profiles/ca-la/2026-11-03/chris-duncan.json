@@ -2,7 +2,7 @@
   "key": "chris-duncan",
   "electionId": "ca-2026-11-03-general",
   "name": "Chris Duncan",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "State Senator, 36th District",
   "contestIds": ["la-4348-cc10780"],
   "kind": "candidate",
@@ -44,7 +44,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Chris Duncan for Senate 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1485389",
+        "period": "July 1 to September 19, 2026",
+        "raised": 239313.14,
+        "cashOnHand": 142246.35,
+        "breakdown": [
+          { "kind": "small", "amount": 2315.39 },
+          { "kind": "large", "amount": 60057.5 },
+          { "kind": "pac", "amount": 132700 },
+          { "kind": "party", "amount": 44240.25 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 663544.53, "count": 57 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -403,6 +423,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.765Z",
-    "version": 3
+    "version": 4
   }
 }

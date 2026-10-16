@@ -47,7 +47,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Culver City",
+        "committee": "Kimberley Griffin for Culver City Council 2026",
+        "url": "https://netfile.com/public/CUL/campaign/filingsByFiler/216887940-Kimberley%20Griffin%20for%20Culver%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 18860,
+        "cashOnHand": 24121.57,
+        "breakdown": [
+          { "kind": "small", "amount": 205 },
+          { "kind": "large", "amount": 17495 },
+          { "kind": "pac", "amount": 1160 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 4640, "count": 4 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -261,6 +280,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.360Z",
-    "version": 1
+    "version": 2
   }
 }

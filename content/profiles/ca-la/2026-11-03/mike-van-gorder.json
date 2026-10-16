@@ -49,7 +49,20 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Burbank",
+        "committee": "Mike Van Gorder for Burbank City Council 2026",
+        "url": "https://efile.burbankca.gov/public/search/campaign/filings/3fe6c7ec-76ea-4b27-848b-87592cd81655?type=committee",
+        "period": "July 1 to September 19, 2026",
+        "raised": 10171,
+        "cashOnHand": 4160.52
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -238,6 +251,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.320Z",
-    "version": 1
+    "version": 2
   }
 }

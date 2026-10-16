@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10478"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -51,7 +52,31 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Malibu",
+        "committee": "Stewart For Malibu City Council 2026",
+        "url": "https://netfile.com/public/MBU/campaign/filingsByFiler/216951176-Stewart%20for%20Malibu%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 16850,
+        "cashOnHand": 7095.35,
+        "breakdown": [
+          { "kind": "large", "amount": 4350 },
+          { "kind": "candidate", "amount": 12500 }
+        ],
+        "fromCandidate": 12500,
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 5000,
+          "count": 1,
+          "fromCandidate": 5000
+        }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -114,7 +139,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.479Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.728Z",
+    "version": 3
   }
 }

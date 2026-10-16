@@ -37,7 +37,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Arcadia",
+        "committee": "Rev. Grace A. Lee",
+        "url": "https://laserfiche.arcadiaca.gov/WebLink/Browse.aspx?id=883551&dbid=0&repo=CityofArcadia",
+        "period": "January 1 to November 3, 2026",
+        "raised": 6477,
+        "cashOnHand": 0,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -69,6 +83,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.478Z",
-    "version": 1
+    "version": 2
   }
 }

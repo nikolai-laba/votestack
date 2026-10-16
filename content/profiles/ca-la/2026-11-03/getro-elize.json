@@ -29,7 +29,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Palmdale",
+      "url": "https://netfile.com/public/CPD/campaign/filingsByFiler/217404048-Getro%20Elize%20for%20Palmdale%20City%20Council%20D4%202026"
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -84,6 +91,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.527Z",
-    "version": 1
+    "version": 2
   }
 }

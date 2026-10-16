@@ -40,7 +40,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Glendora",
+        "committee": "Teri Merrick for Glendora City Council 2026",
+        "url": "https://netfile.com/public/COG/campaign/filingsByFiler/216912372-Teri%20Merrick%20for%20Glendora%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 11545,
+        "cashOnHand": 2534.67,
+        "breakdown": [
+          { "kind": "small", "amount": 664 },
+          { "kind": "large", "amount": 4881 },
+          { "kind": "candidate", "amount": 100 },
+          { "kind": "other", "amount": 5900 }
+        ],
+        "fromCandidate": 100
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -129,6 +149,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.396Z",
-    "version": 1
+    "version": 2
   }
 }

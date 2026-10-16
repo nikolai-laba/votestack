@@ -2,7 +2,7 @@
   "key": "scott-alan-meyers",
   "electionId": "ca-2026-11-03-general",
   "name": "Scott Alan Meyers",
-  "party": "Party Preference: Republican",
+  "party": "Republican",
   "office": "U.S. Representative, 30th District",
   "contestIds": ["la-4348-cc10810-r1", "la-4348-cc10810-r2"],
   "kind": "candidate",
@@ -52,7 +52,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Scott Meyers for Congress Ca30",
+        "url": "https://www.fec.gov/data/committee/C00937912/?cycle=2026",
+        "period": "January 1 to September 30, 2026",
+        "raised": 117719.35,
+        "cashOnHand": 30000.47,
+        "breakdown": [
+          { "kind": "small", "amount": 2009.32 },
+          { "kind": "large", "amount": 17052.09 },
+          { "kind": "pac", "amount": 350 },
+          { "kind": "candidate", "amount": 93800 },
+          { "kind": "other", "amount": 4507.94 }
+        ],
+        "fromCandidate": 93800
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -119,6 +139,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.797Z",
-    "version": 3
+    "version": 4
   }
 }

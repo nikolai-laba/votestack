@@ -25,7 +25,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Anouk Harvey for Eastside Union School Board Trustee Area 5, 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217045102-Anouk%20Harvey%20for%20Eastside%20Union%20School%20Board%20Trustee%20Area%205%2C%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 5572.08,
+        "cashOnHand": 5026.99,
+        "breakdown": [
+          { "kind": "small", "amount": 56.87 },
+          { "kind": "large", "amount": 5515.21 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 3000, "count": 1 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -66,6 +84,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.009Z",
-    "version": 5
+    "version": 6
   }
 }

@@ -51,7 +51,22 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Kevin Kim for Saugus Union School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217190079-Kevin%20Kim%20for%20Saugus%20Union%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 600,
+        "cashOnHand": -37.55,
+        "breakdown": [{ "kind": "candidate", "amount": 600 }],
+        "fromCandidate": 600
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -121,6 +136,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.325Z",
-    "version": 1
+    "version": 2
   }
 }

@@ -29,7 +29,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Maywood",
+        "committee": "Maritza Cruz for Maywood City Council 2026",
+        "url": "https://www.cityofmaywood.com/523/Campaign-Disclosure-Statements",
+        "period": "July 1 to September 19, 2026",
+        "raised": 2325,
+        "cashOnHand": 1902,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -45,6 +59,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.491Z",
-    "version": 1
+    "version": 2
   }
 }

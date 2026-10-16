@@ -56,7 +56,33 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Manhattan Beach",
+        "committee": "Ungoco for MB Council 2026",
+        "url": "https://netfile.com/public/CMB/campaign/filingsByFiler/217141023-Ungoco%20for%20MB%20Council%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 8450,
+        "cashOnHand": 4434.49,
+        "breakdown": [
+          { "kind": "small", "amount": 25 },
+          { "kind": "large", "amount": 2675 },
+          { "kind": "candidate", "amount": 5500 },
+          { "kind": "other", "amount": 250 }
+        ],
+        "fromCandidate": 5500,
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 10700,
+          "count": 2,
+          "fromCandidate": 10700
+        }
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -96,6 +122,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.481Z",
-    "version": 1
+    "version": 2
   }
 }

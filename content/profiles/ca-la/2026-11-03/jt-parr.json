@@ -47,7 +47,15 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Burbank",
+      "url": "https://efile.burbankca.gov/public/search/campaign/filings/11fb948b-2553-474b-9104-52dd52a9ad89?type=committee",
+      "underThreshold": true
+    }
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -87,6 +95,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.320Z",
-    "version": 1
+    "version": 2
   }
 }

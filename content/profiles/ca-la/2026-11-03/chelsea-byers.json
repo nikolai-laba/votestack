@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10533"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -44,7 +45,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of West Hollywood",
+        "committee": "Re-Elect Byers West Hollywood City Council 2026",
+        "url": "https://netfile.com/public/WEHO/campaign/filingsByFiler/214522097-Re-Elect%20Byers%20West%20Hollywood%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 32754,
+        "cashOnHand": 45806.92,
+        "breakdown": [
+          { "kind": "small", "amount": 865 },
+          { "kind": "large", "amount": 19440 },
+          { "kind": "pac", "amount": 10000 },
+          { "kind": "other", "amount": 2449 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 10000, "count": 10 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -379,7 +400,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.645Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.975Z",
+    "version": 3
   }
 }

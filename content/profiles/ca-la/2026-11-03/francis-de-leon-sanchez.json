@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10418"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -55,7 +56,20 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Bell Gardens",
+        "committee": "De Leon Sanchez for City Council 2026",
+        "url": "https://www.bellgardens.org/government/city-departments/city-clerk/fppc-filings",
+        "period": "January 1 to September 19, 2026",
+        "raised": 21460,
+        "cashOnHand": 12435.74
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -111,7 +125,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T15:48:49.497Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.491Z",
+    "version": 3
   }
 }

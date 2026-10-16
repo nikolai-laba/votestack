@@ -33,7 +33,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Susan Moore for La Canada Unified School District 2026-2027",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217021074-Susan%20Moore%20for%20La%20Canada%20Unified%20School%20District%20Governing%20Board%202026-2027",
+        "period": "July 1 to September 19, 2026",
+        "raised": 4095,
+        "cashOnHand": 2684.41,
+        "breakdown": [
+          { "kind": "small", "amount": 195 },
+          { "kind": "large", "amount": 3250 },
+          { "kind": "other", "amount": 650 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -120,6 +138,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T16:20:30.343Z",
-    "version": 2
+    "version": 3
   }
 }

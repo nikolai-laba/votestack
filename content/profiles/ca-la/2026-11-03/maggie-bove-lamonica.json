@@ -47,7 +47,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Hermosa Beach",
+        "committee": "Bove-LaMonica for Hermosa Beach City Council 2026",
+        "url": "https://netfile.com/public/COHB/campaign/filingsByFiler/216889653-Bove-LaMonica%20for%20Hermosa%20Beach%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 9504.3,
+        "cashOnHand": 6468.36,
+        "breakdown": [
+          { "kind": "small", "amount": 245 },
+          { "kind": "large", "amount": 7509.3 },
+          { "kind": "pac", "amount": 1750 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -303,6 +321,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.412Z",
-    "version": 1
+    "version": 2
   }
 }

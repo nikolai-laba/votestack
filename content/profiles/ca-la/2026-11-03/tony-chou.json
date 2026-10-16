@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10512"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -39,7 +40,15 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of San Marino",
+      "url": "https://sanmarinoca.gov/government/mayor___city_council_/fppc_forms.php",
+      "onRequest": true
+    }
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -86,7 +95,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.566Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.870Z",
+    "version": 3
   }
 }

@@ -45,7 +45,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Monica",
+        "committee": "Derrick Townsend for Santa Monica City Council 2026",
+        "url": "https://netfile.com/public/CSM/campaign/filingsByFiler/215401012-Derrick%20Townsend%20for%20Santa%20Monica%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 8560.1,
+        "cashOnHand": 4631.28,
+        "largeSince": { "since": "2026-09-19", "total": 1000, "count": 1 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -119,6 +133,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.593Z",
-    "version": 1
+    "version": 2
   }
 }

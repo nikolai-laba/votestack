@@ -15,7 +15,21 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Hawthorne",
+        "committee": "Patterson for City Council 2024",
+        "url": "https://www.cityofhawthorne.org/government/city-clerk/460-forms-current-elected-officials",
+        "period": "January 1 to June 30, 2026",
+        "raised": 0,
+        "cashOnHand": 14.71,
+        "fromScan": "ai"
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -173,6 +187,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:39:39.175Z",
-    "version": 2
+    "version": 3
   }
 }

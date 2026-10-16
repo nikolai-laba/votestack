@@ -55,7 +55,28 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of West Hollywood",
+        "committee": "Larry Block for West Hollywood City Council 2026",
+        "url": "https://netfile.com/public/WEHO/campaign/filingsByFiler/216771835-Larry%20Block%20for%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 58344,
+        "cashOnHand": 92611.07,
+        "breakdown": [
+          { "kind": "small", "amount": 269 },
+          { "kind": "large", "amount": 6975 },
+          { "kind": "candidate", "amount": 50000 },
+          { "kind": "other", "amount": 1100 }
+        ],
+        "fromCandidate": 50000,
+        "largeSince": { "since": "2026-09-19", "total": 2000, "count": 2 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -130,6 +151,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.656Z",
-    "version": 1
+    "version": 2
   }
 }

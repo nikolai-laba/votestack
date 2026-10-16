@@ -21,7 +21,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Sunny Tamrakar for Lawndale School Board Trustee 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217181019-Sunny%20Tamrakar%20for%20Lawndale%20School%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 5976.83,
+        "cashOnHand": 3143.03,
+        "breakdown": [
+          { "kind": "small", "amount": 501.43 },
+          { "kind": "large", "amount": 3475.4 },
+          { "kind": "candidate", "amount": 2000 }
+        ],
+        "fromCandidate": 2000
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -54,6 +73,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.151Z",
-    "version": 1
+    "version": 2
   }
 }

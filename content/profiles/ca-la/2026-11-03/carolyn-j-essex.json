@@ -2,7 +2,7 @@
   "key": "carolyn-j-essex",
   "electionId": "ca-2026-11-03-general",
   "name": "Carolyn J. Essex",
-  "party": "Party Preference: Democratic",
+  "party": "Democratic",
   "office": "State Assembly Member, 69th District",
   "contestIds": ["la-4348-cc10804"],
   "kind": "candidate",
@@ -36,7 +36,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "California Secretary of State",
+      "url": "https://cal-access.sos.ca.gov/Campaign/Candidates/Detail.aspx?id=1489041"
+    }
+  },
   "endorsements": { "asOf": "2026-10-14", "items": [] },
   "sources": [
     {
@@ -68,6 +75,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T14:05:39.850Z",
-    "version": 2
+    "version": 3
   }
 }

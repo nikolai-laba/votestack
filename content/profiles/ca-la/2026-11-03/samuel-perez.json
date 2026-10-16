@@ -43,7 +43,20 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Bell Gardens",
+        "committee": "Samuel Perez for Bell Gardens City Council 2026",
+        "url": "https://www.bellgardens.org/government/city-departments/city-clerk/fppc-filings",
+        "period": "August 5 to September 15, 2026",
+        "raised": 1885,
+        "cashOnHand": 1885
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -67,6 +80,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.500Z",
-    "version": 1
+    "version": 2
   }
 }

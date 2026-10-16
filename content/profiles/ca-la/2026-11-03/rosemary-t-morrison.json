@@ -25,7 +25,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Rosemary Morrison For Burbank Schools 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217207986-Rosemary%20Morrison%20for%20Burbank%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 5117.92,
+        "cashOnHand": 684.83,
+        "breakdown": [
+          { "kind": "small", "amount": 156.08 },
+          { "kind": "large", "amount": 528.75 },
+          { "kind": "other", "amount": 4433.09 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -98,6 +116,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.983Z",
-    "version": 2
+    "version": 3
   }
 }

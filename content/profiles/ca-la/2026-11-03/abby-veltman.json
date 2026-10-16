@@ -15,7 +15,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Abby Veltman for MUSD School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217218010-Abby%20Veltman%20for%20MUSD%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 4912.04,
+        "cashOnHand": 1527.5,
+        "breakdown": [
+          { "kind": "small", "amount": 452.94 },
+          { "kind": "large", "amount": 3959.1 },
+          { "kind": "other", "amount": 500 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -119,6 +137,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.082Z",
-    "version": 3
+    "version": 4
   }
 }

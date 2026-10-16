@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10494"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-15",
     "items": [
@@ -51,7 +52,26 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Norwalk",
+        "committee": "Ayala for Council 2026",
+        "url": "https://netfile.com/public/NWK/campaign/filingsByFiler/217212889-Ayala%20for%20Council%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 6499,
+        "cashOnHand": 5699,
+        "breakdown": [
+          { "kind": "candidate", "amount": 6000 },
+          { "kind": "other", "amount": 499 }
+        ],
+        "fromCandidate": 6000,
+        "largeSince": { "since": "2026-09-19", "total": 10000, "count": 1 }
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
     {
@@ -106,7 +126,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.522Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.798Z",
+    "version": 3
   }
 }

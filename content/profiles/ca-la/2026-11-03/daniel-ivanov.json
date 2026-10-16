@@ -43,7 +43,29 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Monica",
+        "committee": "Danny Ivanov for Santa Monica City Council 2026",
+        "url": "https://netfile.com/public/CSM/campaign/filingsByFiler/215401159-Danny%20Ivanov%20for%20Santa%20Monica%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 13139,
+        "cashOnHand": 16377.72,
+        "breakdown": [
+          { "kind": "small", "amount": 400 },
+          { "kind": "large", "amount": 5775 },
+          { "kind": "pac", "amount": 4800 },
+          { "kind": "candidate", "amount": 1664 },
+          { "kind": "other", "amount": 500 }
+        ],
+        "fromCandidate": 1664,
+        "largeSince": { "since": "2026-09-19", "total": 2400, "count": 2 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -254,6 +276,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.590Z",
-    "version": 2
+    "version": 3
   }
 }

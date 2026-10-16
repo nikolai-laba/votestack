@@ -33,7 +33,25 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Huy Nguyen for LBCCD Trustee 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/215481149-Huy%20Nguyen%20for%20LBCCD%20Trustee%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 6760.39,
+        "cashOnHand": 4707.71,
+        "breakdown": [
+          { "kind": "large", "amount": 559 },
+          { "kind": "pac", "amount": 6201.39 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 13652.8, "count": 3 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -173,6 +191,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T05:54:20.770Z",
-    "version": 1
+    "version": 2
   }
 }

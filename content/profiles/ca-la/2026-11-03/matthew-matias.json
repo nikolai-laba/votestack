@@ -39,7 +39,23 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Orange County Registrar of Voters",
+        "committee": "Matias for FJUHSD Trustee Area 1 2026",
+        "url": "https://netfile.com/public/COC/campaign/filingsByFiler/217177718-Matthew%20Matias",
+        "period": "July 1 to September 19, 2026",
+        "raised": 970.56,
+        "cashOnHand": 32.86,
+        "breakdown": [{ "kind": "candidate", "amount": 970.56 }],
+        "fromCandidate": 970.56,
+        "largeSince": { "since": "2026-09-19", "total": 1000, "count": 1 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -72,6 +88,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T05:54:20.840Z",
-    "version": 1
+    "version": 2
   }
 }

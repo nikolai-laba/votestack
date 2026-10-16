@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10657"],
   "kind": "candidate",
   "tier": "top",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -59,7 +60,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of El Monte",
+      "url": "https://www.ci.el-monte.ca.us/DocumentCenter/Index/373"
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -296,7 +304,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.385Z",
-    "version": 3
+    "generatedAt": "2026-10-15T21:48:37.597Z",
+    "version": 5
   }
 }

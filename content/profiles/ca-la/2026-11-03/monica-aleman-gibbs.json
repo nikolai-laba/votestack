@@ -33,7 +33,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217215563-Monica%20Aleman%20Gibbs%20For%20Water%20Board%202026"
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -184,6 +191,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.221Z",
-    "version": 2
+    "version": 3
   }
 }

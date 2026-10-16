@@ -6,6 +6,7 @@
   "contestIds": ["la-4348-cc10607"],
   "kind": "candidate",
   "tier": "mid",
+  "incumbent": true,
   "overview": {
     "asOf": "2026-10-14",
     "items": [
@@ -33,7 +34,27 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Jean McHatton for ABC School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217075184-Jean%20McHatton%20for%20ABC%20School%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 23946.79,
+        "cashOnHand": 15777.22,
+        "breakdown": [
+          { "kind": "small", "amount": 754.12 },
+          { "kind": "large", "amount": 1642.67 },
+          { "kind": "loan", "amount": 20000 },
+          { "kind": "other", "amount": 1550 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 4000, "count": 3 }
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -243,7 +264,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T05:54:20.805Z",
-    "version": 1
+    "generatedAt": "2026-10-15T21:48:37.025Z",
+    "version": 3
   }
 }

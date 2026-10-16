@@ -55,7 +55,14 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Santa Monica",
+      "url": "https://netfile.com/public/CSM/campaign/filingsByFiler/217235815-Phil%20Brock%20for%20City%20Council%202026"
+    }
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -141,6 +148,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.603Z",
-    "version": 1
+    "version": 2
   }
 }
