@@ -6,7 +6,7 @@
 // reason, never guessed. Downloads are cached in data/raw/money/ for a day.
 // Each summary breaks the money raised down by kind of source (gifts, PACs,
 // transfers, loans, the candidate); no donor is ever named.
-// Run: node scripts/profiles/money.ts [--refresh]
+// Run: node scripts/profiles/money.ts [--region=<id>] [--refresh]
 
 import { join } from 'node:path'
 import type { Contest } from '../../src/shared/ballot.ts'
@@ -46,6 +46,11 @@ import {
 } from '../lib/profiles/isbe.ts'
 import { parseBallotName, type ParsedName } from '../lib/profiles/names.ts'
 import { seatFor, type Seat } from '../lib/profiles/seats.ts'
+import { COOK } from '../../src/shared/regions.ts'
+import { MONEY, readSubjects } from '../lib/profiles/content.ts'
+import { collectMoney, type MoneyPerson } from '../lib/profiles/money-ca.ts'
+import { MONEY_MODULES } from '../lib/profiles/money-sources.ts'
+import { REGION } from '../lib/profiles/region.ts'
 
 const MAX_AGE_HOURS = process.argv.includes('--refresh') ? 0 : 24
 const FEC_DIR = join(RAW, 'money', 'fec')
@@ -74,6 +79,43 @@ export interface MoneyFile {
   generatedAt: string
   byKey: Record<string, MoneyEntry>
   unmatched: { key: string; name: string; office: string; reason: string }[]
+}
+
+// Other regions: their own source modules (money-sources.ts), on the
+// people in their subjects file.
+if (REGION.id !== COOK.id) {
+  const modules = MONEY_MODULES[REGION.id]
+  if (!modules)
+    throw new Error(
+      `No money sources for ${REGION.id}; add them to scripts/lib/profiles/money-sources.ts`,
+    )
+  const { subjects } = await readSubjects()
+  const people: MoneyPerson[] = subjects.map((s) => ({
+    key: s.key,
+    name: s.name,
+    ballot: parseBallotName(s.name),
+    office: s.office,
+    officeType: s.officeType,
+    districtId: s.districtId,
+    contestIds: s.contestIds,
+  }))
+  const file = await collectMoney(people, modules(), {
+    maxAgeHours: MAX_AGE_HOURS,
+    today,
+    year: Number(REGION.election.date.slice(0, 4)),
+  })
+  await writeJson(MONEY, file)
+  const withReport = Object.values(file.byKey).filter((e) => e.summaries.length)
+  console.log(
+    `${REGION.id}: ${people.length} people; ${withReport.length} with a report, ${Object.keys(file.byKey).length - withReport.length} matched without one, ${file.unmatched.length} unmatched`,
+  )
+  console.log('  by source:', file.bySource)
+  const reasons = new Map<string, number>()
+  for (const u of file.unmatched)
+    reasons.set(u.reason, (reasons.get(u.reason) ?? 0) + 1)
+  for (const [r, n] of [...reasons].sort((a, b) => b[1] - a[1]).slice(0, 12))
+    console.log(`  unmatched ${n} × ${r}`)
+  process.exit(0)
 }
 
 // 1. Everyone on the ballot, once per person.

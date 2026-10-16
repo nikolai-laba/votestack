@@ -200,15 +200,17 @@ if (existsSync(MONEY)) {
     byKey: Record<string, MoneyInput>
   }>(MONEY)
   money = { asOf: chicagoDate(file.generatedAt), byKey: file.byKey }
-} else if (dryRun || !IS_COOK) {
-  // Another area's money sources may not be built yet; its profiles then
-  // have no money section until profiles:money runs for it.
+} else if (dryRun) {
   console.warn(
-    `No money.json for ${REGION.id}; money sections stay empty in this run`,
+    `No money.json for ${REGION.id}; money sections stay empty in this dry run`,
   )
   money = { asOf, byKey: {} }
 } else {
-  throw new Error('No money.json; run npm run profiles:money first')
+  // Every region collects money; an empty section must mean nothing was
+  // found, never that nobody looked.
+  throw new Error(
+    `No money.json for ${REGION.id}; run npm run profiles:money -- --region=${REGION.id} first`,
+  )
 }
 const barRatings = await readBarRatings()
 const incumbents = await readIncumbents()

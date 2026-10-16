@@ -1,0 +1,489 @@
+{
+  "about": "Where each Los Angeles County city that isn't on NetFile posts its candidates' campaign statements (Form 460 and 497), for the city campaign money import (scripts/lib/profiles/money-cities-module.ts). One entry per city with a city council or citywide office on the November 3, 2026 ballot. `checked` is the date the URLs were opened; `verified: false` marks a URL taken from the FPPC's list of local filing sites because the city's site refuses automated requests. `wall` says why filings can't be read automatically.",
+  "checked": "2026-10-15",
+  "cities": [
+    {
+      "place": "alhambra",
+      "name": "City of Alhambra",
+      "system": "civicplus",
+      "filingsUrls": ["https://www.alhambraca.gov/DocumentCenter/Index/29"],
+      "clerkUrl": "https://www.alhambraca.gov/DocumentCenter/Index/29",
+      "civicplus": {
+        "host": "www.alhambraca.gov",
+        "folders": [29]
+      }
+    },
+    {
+      "place": "arcadia",
+      "name": "City of Arcadia",
+      "system": "laserfiche",
+      "filingsUrls": [
+        "https://laserfiche.arcadiaca.gov/WebLink/Browse.aspx?id=872583&dbid=0&repo=CityofArcadia"
+      ],
+      "clerkUrl": "https://www.arcadiaca.gov/government/city_clerk/index.php",
+      "laserfiche": {
+        "base": "https://laserfiche.arcadiaca.gov/WebLink",
+        "repo": "CityofArcadia",
+        "folders": [872583]
+      }
+    },
+    {
+      "place": "artesia",
+      "name": "City of Artesia",
+      "system": "webpage",
+      "filingsUrls": [
+        "https://www.cityofartesia.us/DocumentCenter/View/8282/460-AAA-102024"
+      ],
+      "clerkUrl": "https://www.cityofartesia.us/DocumentCenter/View/8282/460-AAA-102024",
+      "wall": "No index of campaign statements found: the city posts single PDFs in its document center with no public list for 2026 candidates, and it isn't on the FPPC's list of local filing sites."
+    },
+    {
+      "place": "azusa",
+      "name": "City of Azusa",
+      "system": "on-request",
+      "filingsUrls": ["https://www.azusaca.gov/1881/Campaign-Statements"],
+      "clerkUrl": "https://www.azusaca.gov/97/City-Clerks-Office",
+      "contact": {
+        "url": "https://www.azusaca.gov/97/City-Clerks-Office",
+        "email": "cityclerkpra@azusaca.gov"
+      },
+      "notes": "The campaign statements page lists committees but posts no statements; copies are by public records request. Azusa is on NetFile's agency list (AZU) with no filings."
+    },
+    {
+      "place": "baldwin_park",
+      "name": "City of Baldwin Park",
+      "system": "civicplus",
+      "filingsUrls": ["https://www.baldwinpark.com/DocumentCenter/Index/44"],
+      "clerkUrl": "https://www.baldwinpark.com/158/City-Clerk",
+      "civicplus": {
+        "host": "www.baldwinpark.com",
+        "folders": [44]
+      },
+      "notes": "Sparse: the 2026 folder held two 2025 statements on October 15, 2026."
+    },
+    {
+      "place": "bell_gardens",
+      "name": "City of Bell Gardens",
+      "system": "webpage",
+      "filingsUrls": [
+        "https://www.bellgardens.org/government/city-departments/city-clerk/fppc-filings"
+      ],
+      "clerkUrl": "https://www.bellgardens.org/government/city-departments/city-clerk/fppc-filings",
+      "verified": false,
+      "wall": "The city's site answers automated requests with 403 Access Denied (Akamai). On NetFile's agency list (BGN) with no filings."
+    },
+    {
+      "place": "bellflower",
+      "name": "City of Bellflower",
+      "system": "laserfiche",
+      "filingsUrls": [
+        "https://portal.laserfiche.com/Portal/Browse.aspx?id=352428&repo=r-ac13a437"
+      ],
+      "clerkUrl": "https://bellflower.ca.gov/government/city_clerk/",
+      "laserfiche": {
+        "base": "https://portal.laserfiche.com/Portal",
+        "repo": "r-ac13a437",
+        "folders": [352428]
+      }
+    },
+    {
+      "place": "burbank",
+      "name": "City of Burbank",
+      "system": "burbank-efile",
+      "filingsUrls": ["https://efile.burbankca.gov/public/search/campaign"],
+      "clerkUrl": "https://efile.burbankca.gov/public/search/campaign",
+      "burbank": {
+        "api": "https://efile.burbankca.gov/api/v1",
+        "site": "https://efile.burbankca.gov",
+        "electionDate": "11/03/2026"
+      },
+      "notes": "Burbank's NetFile entry (COB) is legacy and returns no filings; the city files through its own eFile portal, whose public API links each candidate to their committee. The portal also offers a yearly bulk export (CAL format, xlsx)."
+    },
+    {
+      "place": "carson",
+      "name": "City of Carson",
+      "system": "southtech",
+      "filingsUrls": [
+        "https://www.southtechhosting.com/CarsonCity/CampaignDocsWebRetrieval/Default.aspx"
+      ],
+      "clerkUrl": "https://carsonca.gov/government/city_clerk/index.php",
+      "southtech": {
+        "base": "https://www.southtechhosting.com/CarsonCity/CampaignDocsWebRetrieval"
+      },
+      "wall": "CampaignDocs lists each committee's filings, but its PDF viewer opens only in a browser session; the PDFs can't be fetched without Chrome."
+    },
+    {
+      "place": "claremont",
+      "name": "City of Claremont",
+      "system": "laserfiche",
+      "filingsUrls": [
+        "https://portal.laserfiche.com/Portal/Browse.aspx?id=280044&repo=r-634094de"
+      ],
+      "clerkUrl": "https://portal.laserfiche.com/Portal/Browse.aspx?id=48087&repo=r-634094de",
+      "laserfiche": {
+        "base": "https://portal.laserfiche.com/Portal",
+        "repo": "r-634094de",
+        "folders": [280044]
+      }
+    },
+    {
+      "place": "commerce",
+      "name": "City of Commerce",
+      "system": "on-request",
+      "filingsUrls": [],
+      "clerkUrl": "https://www.commerceca.gov/",
+      "contact": {
+        "url": "https://www.commerceca.gov/"
+      },
+      "verified": false,
+      "wall": "The city's site answers automated requests with 403 Access Denied (Akamai); no online filings found and Commerce isn't on the FPPC's list of local filing sites."
+    },
+    {
+      "place": "compton",
+      "name": "City of Compton",
+      "system": "webpage",
+      "filingsUrls": [
+        "https://www.comptoncity.org/departments/city-clerk/elections/campaign-statements/460-campaign-statements"
+      ],
+      "clerkUrl": "https://www.comptoncity.org/departments/city-clerk/elections/campaign-statements/460-campaign-statements",
+      "verified": false,
+      "wall": "The city's site answers automated requests with 403 Access Denied (Akamai)."
+    },
+    {
+      "place": "cudahy",
+      "name": "City of Cudahy",
+      "system": "on-request",
+      "filingsUrls": [],
+      "clerkUrl": "https://www.cityofcudahyca.gov/Directory.aspx?DID=11",
+      "contact": {
+        "url": "https://www.cityofcudahyca.gov/Directory.aspx?DID=11",
+        "phone": "323-773-5143 ext. 227"
+      },
+      "verified": false,
+      "wall": "The city's site shows a Cloudflare challenge to automated requests; no online filings found and Cudahy isn't on the FPPC's list of local filing sites."
+    },
+    {
+      "place": "downey",
+      "name": "City of Downey",
+      "system": "laserfiche",
+      "filingsUrls": [
+        "https://lf.downeyca.org/WebLink/Browse.aspx?id=782257&dbid=0&repo=Downey"
+      ],
+      "clerkUrl": "https://lf.downeyca.org/WebLink/Browse.aspx?id=782257&dbid=0&repo=Downey",
+      "laserfiche": {
+        "base": "https://lf.downeyca.org/WebLink",
+        "repo": "Downey",
+        "folders": [782257]
+      },
+      "notes": "The city's main site refuses automated requests (403), but its Laserfiche repository is public. Folder per committee. On NetFile's agency list (DOW) with no filings."
+    },
+    {
+      "place": "el_monte",
+      "name": "City of El Monte",
+      "system": "civicplus",
+      "filingsUrls": ["https://www.ci.el-monte.ca.us/DocumentCenter/Index/373"],
+      "clerkUrl": "https://www.ci.el-monte.ca.us/DocumentCenter/Index/373",
+      "civicplus": {
+        "host": "www.ci.el-monte.ca.us",
+        "folders": [373]
+      },
+      "notes": "The Campaign Finance Disclosure folder was empty on October 15, 2026."
+    },
+    {
+      "place": "hawaiian_gardens",
+      "name": "City of Hawaiian Gardens",
+      "system": "webpage",
+      "filingsUrls": [
+        "https://www.hgcity.org/government/departments/city-clerk/candidate-campaign-financial-filings"
+      ],
+      "clerkUrl": "https://www.hgcity.org/government/departments/city-clerk/candidate-campaign-financial-filings",
+      "verified": false,
+      "wall": "The city's site answers automated requests with 403 Access Denied (Akamai)."
+    },
+    {
+      "place": "hawthorne",
+      "name": "City of Hawthorne",
+      "system": "webpage",
+      "filingsUrls": [
+        "https://www.cityofhawthorne.org/government/city-clerk/460-forms-current-elected-officials"
+      ],
+      "clerkUrl": "https://www.cityofhawthorne.org/government/city-clerk/460-forms-current-elected-officials",
+      "verified": false,
+      "wall": "The city's site answers automated requests with 403 Access Denied (Akamai)."
+    },
+    {
+      "place": "huntington_park",
+      "name": "City of Huntington Park",
+      "system": "on-request",
+      "filingsUrls": [],
+      "clerkUrl": "https://www.hpca.gov/9/City-Clerk",
+      "contact": {
+        "url": "https://www.hpca.gov/598/Public-Records-Requests",
+        "email": "hpcityclerk@hpca.gov",
+        "phone": "323-584-6230"
+      },
+      "notes": "No campaign statements posted on the elections or clerk pages."
+    },
+    {
+      "place": "inglewood",
+      "name": "City of Inglewood",
+      "system": "on-request",
+      "filingsUrls": [],
+      "clerkUrl": "https://www.cityofinglewood.org/414/City-Clerks-Office",
+      "contact": {
+        "url": "https://www.cityofinglewood.org/414/City-Clerks-Office",
+        "email": "athompson@cityofinglewood.org"
+      },
+      "notes": "The clerk keeps campaign disclosure reports but doesn't post them."
+    },
+    {
+      "place": "irwindale",
+      "name": "City of Irwindale",
+      "system": "on-request",
+      "filingsUrls": [],
+      "clerkUrl": "https://irwindaleca.gov/115/City-Clerk",
+      "contact": {
+        "url": "https://irwindaleca.gov/280",
+        "email": "cityclerk@irwindaleca.gov",
+        "phone": "626-430-2200"
+      }
+    },
+    {
+      "place": "la_verne",
+      "name": "City of La Verne",
+      "system": "laserfiche",
+      "filingsUrls": [
+        "https://portal.laserfiche.com/Portal/Browse.aspx?id=160339&repo=r-1fb4295f"
+      ],
+      "clerkUrl": "https://portal.laserfiche.com/Portal/Browse.aspx?id=160339&repo=r-1fb4295f",
+      "laserfiche": {
+        "base": "https://portal.laserfiche.com/Portal",
+        "repo": "r-1fb4295f",
+        "folders": [160339]
+      }
+    },
+    {
+      "place": "lawndale",
+      "name": "City of Lawndale",
+      "system": "webpage",
+      "filingsUrls": [
+        "https://www.lawndale.ca.gov/government/departments/city_clerk_s_office/election_information/campaign_finance"
+      ],
+      "clerkUrl": "https://www.lawndale.ca.gov/government/departments/city_clerk_s_office",
+      "wall": "The campaign finance page loads its document list with a script (CivicLive); the list can't be read without a browser."
+    },
+    {
+      "place": "los_angeles",
+      "name": "City of Los Angeles",
+      "system": "lacity-manual",
+      "filingsUrls": ["https://ethics.lacity.gov/campaigns/"],
+      "clerkUrl": "https://ethics.lacity.gov/campaigns/",
+      "filingOfficer": "Los Angeles City Ethics Commission",
+      "lacity": {
+        "statements": "https://data.lacity.org/resource/br3a-db9a.json",
+        "electionDate": "2026-11-03"
+      },
+      "wall": "ethics.lacity.gov disallows automated access (robots.txt). Committees and statement links come from the Ethics Commission's open data; the Form 460 and 497 PDFs are downloaded by hand into the manual folder."
+    },
+    {
+      "place": "lynwood",
+      "name": "City of Lynwood",
+      "system": "laserfiche",
+      "filingsUrls": [
+        "https://portal.laserfiche.com/Portal/Browse.aspx?id=144704&repo=r-a1e5613e"
+      ],
+      "clerkUrl": "https://portal.laserfiche.com/Portal/Browse.aspx?id=144704&repo=r-a1e5613e",
+      "laserfiche": {
+        "base": "https://portal.laserfiche.com/Portal",
+        "repo": "r-a1e5613e",
+        "folders": [144705, 250625]
+      }
+    },
+    {
+      "place": "maywood",
+      "name": "City of Maywood",
+      "system": "webpage",
+      "filingsUrls": [
+        "https://www.cityofmaywood.com/523/Campaign-Disclosure-Statements"
+      ],
+      "clerkUrl": "https://www.cityofmaywood.com/175/City-Clerk",
+      "webpage": {
+        "pages": [
+          {
+            "url": "https://www.cityofmaywood.com/523/Campaign-Disclosure-Statements"
+          }
+        ]
+      },
+      "notes": "On NetFile's agency list (MAY) with no filings."
+    },
+    {
+      "place": "monterey_park",
+      "name": "City of Monterey Park",
+      "system": "webpage",
+      "filingsUrls": [
+        "https://www.montereypark.ca.gov/144/Campaign-Statements"
+      ],
+      "clerkUrl": "https://www.montereypark.ca.gov/131/City-Clerks-Office",
+      "webpage": {
+        "pages": [
+          {
+            "url": "https://www.montereypark.ca.gov/1729/31834/Vinh-T-Ngo-City-Council-2026",
+            "person": "steven-kung"
+          },
+          {
+            "url": "https://www.montereypark.ca.gov/1747/32377/Dora-Leung",
+            "person": "dora-leung"
+          },
+          {
+            "url": "https://www.montereypark.ca.gov/1391/Thomas-Wong-City-Council",
+            "person": "thomas-wong"
+          },
+          {
+            "url": "https://www.montereypark.ca.gov/1394/Vinh-T-Ngo-City-Council",
+            "person": "vinh-t-ngo"
+          },
+          {
+            "url": "https://www.montereypark.ca.gov/1463/Amy-Lee-City-Treasurer",
+            "person": "amy-lee"
+          }
+        ]
+      },
+      "notes": "One page per committee, linked from the campaign statements page; the page for Steven Kung's 2026 committee has an older address."
+    },
+    {
+      "place": "palos_verdes_estates",
+      "name": "City of Palos Verdes Estates",
+      "system": "webpage",
+      "filingsUrls": [
+        "https://www.pvestates.org/government/city-clerk/elections/fair-political-practices-commission-filing"
+      ],
+      "clerkUrl": "https://www.pvestates.org/government/city-clerk/elections/fair-political-practices-commission-filing",
+      "verified": false,
+      "wall": "The city's site answers automated requests with 403 Access Denied (Akamai)."
+    },
+    {
+      "place": "pico_rivera",
+      "name": "City of Pico Rivera",
+      "system": "laserfiche",
+      "filingsUrls": [
+        "https://portal.laserfiche.com/Portal/Browse.aspx?id=14559&repo=r-0aa0087e"
+      ],
+      "clerkUrl": "https://www.pico-rivera.org/our-city/departments/city-clerk/",
+      "laserfiche": {
+        "base": "https://portal.laserfiche.com/Portal",
+        "repo": "r-0aa0087e",
+        "folders": [49836]
+      },
+      "notes": "Only Form 460s are posted (no 497 folder)."
+    },
+    {
+      "place": "rancho_palos_verdes",
+      "name": "City of Rancho Palos Verdes",
+      "system": "laserfiche",
+      "filingsUrls": [
+        "https://documents.rpvca.gov/WebLink/Browse.aspx?id=90476&dbid=0&repo=RanchoPalosVerdes"
+      ],
+      "clerkUrl": "https://documents.rpvca.gov/WebLink/Browse.aspx?dbid=0&id=45448&row=1",
+      "laserfiche": {
+        "base": "https://documents.rpvca.gov/WebLink",
+        "repo": "RanchoPalosVerdes",
+        "folders": [90476]
+      },
+      "notes": "Folder per candidate. On NetFile's agency list (RPV) with no filings."
+    },
+    {
+      "place": "rolling_hills",
+      "name": "City of Rolling Hills",
+      "system": "on-request",
+      "filingsUrls": [],
+      "clerkUrl": "https://www.rolling-hills.org/government/city_clerk/index.php",
+      "contact": {
+        "url": "https://www.rolling-hills.org/government/city_clerk/index.php",
+        "phone": "310-377-1521"
+      },
+      "notes": "The city's Laserfiche repository holds agendas, minutes and resolutions but no campaign statements."
+    },
+    {
+      "place": "rosemead",
+      "name": "City of Rosemead",
+      "system": "on-request",
+      "filingsUrls": [
+        "https://rosemeadca.gov/services/city_clerk/fair_political_practices.php"
+      ],
+      "clerkUrl": "https://rosemeadca.gov/services/city_clerk/index.php",
+      "contact": {
+        "url": "https://rosemeadca.gov/services/city_clerk/public_records_request.php",
+        "email": "cityclerk@rosemeadca.gov"
+      },
+      "notes": "The FPPC page posts no statements. On NetFile's agency list (CORM) with 2024 filings only."
+    },
+    {
+      "place": "san_marino",
+      "name": "City of San Marino",
+      "system": "on-request",
+      "filingsUrls": [],
+      "clerkUrl": "https://sanmarinoca.gov/government/departments/city_clerk/index.php",
+      "contact": {
+        "url": "https://sanmarinoca.gov/government/mayor___city_council_/fppc_forms.php",
+        "email": "cityclerk@cityofsanmarino.org"
+      },
+      "notes": "The FPPC forms page says statements are available by public records request."
+    },
+    {
+      "place": "santa_clarita",
+      "name": "City of Santa Clarita",
+      "system": "southtech",
+      "filingsUrls": [
+        "https://www.southtechhosting.com/SantaClaritaCity/CampaignDocsWebRetrieval/"
+      ],
+      "clerkUrl": "https://www.santaclarita.gov/city-clerk/",
+      "southtech": {
+        "base": "https://www.southtechhosting.com/SantaClaritaCity/CampaignDocsWebRetrieval"
+      },
+      "wall": "CampaignDocs lists each committee's filings, but its PDF viewer opens only in a browser session; the PDFs can't be fetched without Chrome."
+    },
+    {
+      "place": "south_el_monte",
+      "name": "City of South El Monte",
+      "system": "laserfiche",
+      "filingsUrls": [
+        "https://portal.laserfiche.com/Portal/Browse.aspx?id=24933&repo=r-fe8f1ab6"
+      ],
+      "clerkUrl": "https://portal.laserfiche.com/Portal/Browse.aspx?id=24933&repo=r-fe8f1ab6",
+      "laserfiche": {
+        "base": "https://portal.laserfiche.com/Portal",
+        "repo": "r-fe8f1ab6",
+        "folders": [24933]
+      },
+      "notes": "Folder per candidate. On NetFile's agency list (CSEM) with no filings."
+    },
+    {
+      "place": "walnut",
+      "name": "City of Walnut",
+      "system": "webpage",
+      "filingsUrls": [
+        "https://www.cityofwalnut.org/my-government/election-financial-reporting"
+      ],
+      "clerkUrl": "https://www.cityofwalnut.org/my-government/election-financial-reporting",
+      "verified": false,
+      "wall": "The city's site answers automated requests with 403 Access Denied (Akamai)."
+    },
+    {
+      "place": "west_covina",
+      "name": "City of West Covina",
+      "system": "webpage",
+      "filingsUrls": [
+        "https://westcovina.gov/186/Campaign-Disclosure-Reports-Public-Offic"
+      ],
+      "clerkUrl": "https://westcovina.gov/181/City-Clerk",
+      "webpage": {
+        "pages": [
+          {
+            "url": "https://westcovina.gov/186/Campaign-Disclosure-Reports-Public-Offic"
+          }
+        ]
+      },
+      "notes": "Statements sit under a tab per officeholder or committee; the tab name says whose they are."
+    }
+  ]
+}

@@ -52,6 +52,7 @@ export type SourceInput = Omit<ProfileSource, 'id'>
 export interface MoneyInput {
   summaries: MoneySectionData['items']
   sharedCommittee?: MoneySectionData['sharedCommittee']
+  filingsAt?: MoneySectionData['filingsAt']
 }
 
 /**
@@ -221,6 +222,8 @@ export function mergeMoney(
       ...money.sharedCommittee,
       name: readableName(money.sharedCommittee.name),
     }
+  else if (money?.filingsAt && section.items.length === 0)
+    section.filingsAt = money.filingsAt
   return { ...p, money: section }
 }
 
