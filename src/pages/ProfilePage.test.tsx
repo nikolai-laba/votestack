@@ -184,7 +184,7 @@ async function lookUp() {
 
 afterEach(() => vi.unstubAllGlobals())
 
-/** Beside a profile on wide screens: the candidate's race(s) only. */
+/** At a profile's top below 840px: the candidate's race(s) only. */
 const panel = () => screen.getByRole('region', { name: 'On your ballot' })
 
 describe('candidate profiles', () => {
@@ -238,15 +238,17 @@ describe('candidate profiles', () => {
     expect(screen.getByText('21%')).toBeInTheDocument()
     expect(screen.getAllByText('Not reported')).toHaveLength(1)
 
-    // The race panel holds the only link back, on every screen: beside the
-    // profile from 840px, at its top below that.
+    // One link back on each screen: first in the ballot list beside the
+    // profile from 840px, first in the race panel at its top below that.
     const back = screen.getAllByRole('link', {
       name: 'Back to your full ballot',
     })
-    expect(back).toHaveLength(1)
+    expect(back).toHaveLength(2)
     expect(
       within(panel()).getByRole('link', { name: 'Back to your full ballot' }),
     ).toBe(back[0])
+    expect(back[0].closest('.lg\\:hidden')).not.toBeNull()
+    expect(back[1].closest('.max-lg\\:hidden')).not.toBeNull()
     await userEvent.click(back[0])
     expect(screen.queryByRole('article', { name: 'Jane Doe' })).toBeNull()
     expect(screen.getByText('Illinois General Election')).toBeVisible()
@@ -258,17 +260,38 @@ describe('candidate profiles', () => {
       expect(JSON.stringify(location)).not.toMatch(/834|lake|oak park|60301/i)
   })
 
-  it('shows only the candidate’s race beside the profile', async () => {
+  it('shows the whole ballot beside the profile, and its race on phones', async () => {
     mockApi()
     renderAt('/')
     await lookUp()
     await userEvent.click(screen.getByRole('link', { name: /^Jane Doe/ }))
     await screen.findByRole('heading', { level: 1, name: 'Jane Doe' })
 
-    // The whole ballot list is put away; the panel has just this race.
+    // From 840px the whole list is beside the profile, in a pane of its own,
+    // with the way back first.
+    const list = screen.getByRole('article', {
+      name: 'Illinois General Election',
+    })
+    const pane = list.parentElement as HTMLElement
+    expect(pane).not.toHaveAttribute('hidden')
+    expect(pane).toHaveClass('max-lg:hidden', 'lg:sticky')
+    expect(within(pane).getAllByRole('link')[0]).toHaveTextContent(
+      'Back to your full ballot',
+    )
     expect(
-      screen.queryByRole('article', { name: 'Illinois General Election' }),
-    ).toBeNull()
+      within(list).getByRole('link', { name: /^Jane Doe/ }),
+    ).toHaveAttribute('aria-current', 'page')
+    expect(within(list).getByText(/John Roe/)).toBeInTheDocument()
+    // The profile follows the list.
+    expect(
+      pane.compareDocumentPosition(
+        screen.getByRole('article', { name: 'Jane Doe' }),
+      ) & Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy()
+
+    // Below 840px the panel at the profile's top has just this race.
+    const top = panel().parentElement as HTMLElement
+    expect(top).toHaveClass('lg:hidden')
     expect(
       within(panel())
         .getAllByRole('heading', { level: 3 })
@@ -277,8 +300,6 @@ describe('candidate profiles', () => {
     expect(panel()).not.toHaveTextContent(
       /John Roe|on your ballot\.|To make a list/,
     )
-    // The list, with its summary, stays mounted but out of sight.
-    expect(screen.getByText(/You have .* on your ballot/)).not.toBeVisible()
     expect(
       within(panel()).queryByRole('link', { name: /saved choices|my ballot/i }),
     ).toBeNull()
@@ -290,15 +311,6 @@ describe('candidate profiles', () => {
     expect(current).toHaveAttribute('aria-current', 'page')
     expect(current.className).not.toMatch(/highlight/)
     expect(current.className).toBe(other.className)
-    // The card shows on phones too, at the top of the profile; the election
-    // block spans both columns above it.
-    const pane = panel().parentElement as HTMLElement
-    expect(pane).not.toHaveClass('max-lg:hidden')
-    expect(
-      pane.compareDocumentPosition(
-        screen.getByRole('article', { name: 'Jane Doe' }),
-      ) & Node.DOCUMENT_POSITION_FOLLOWING,
-    ).toBeTruthy()
     expect(
       within(panel()).getByRole('link', { name: /^Richard Roe/ }),
     ).toHaveAttribute('href', '/candidates/richard-roe')
@@ -306,7 +318,7 @@ describe('candidate profiles', () => {
     expect(within(panel()).getAllByRole('link')[0]).toHaveTextContent(
       'Back to your full ballot',
     )
-    // No id repeats the list's, which stays mounted out of sight.
+    // No id repeats the list's.
     const ids = [...document.querySelectorAll('[id]')].map((el) => el.id)
     expect(ids.length).toBe(new Set(ids).size)
 
@@ -318,7 +330,7 @@ describe('candidate profiles', () => {
     expect(screen.getByRole('link', { name: /^Jane Doe/ })).toHaveFocus()
   })
 
-  it('shows the election above the profile with one h1', async () => {
+  it('shows the election above the profile on phones, with one h1', async () => {
     mockApi()
     renderAt('/')
     await lookUp()
@@ -327,20 +339,46 @@ describe('candidate profiles', () => {
 
     const election = screen
       .getAllByText('Illinois General Election')
-      .find((el) => el.closest('[hidden]') === null)
-    expect(election?.tagName).toBe('P')
+      .find((el) => el.tagName === 'P')
     const block = election!.parentElement as HTMLElement
     expect(block).toHaveTextContent('Election day')
     expect(block).toHaveTextContent('Tuesday, November 3, 2026')
-    // Above the race panel and the profile, across both columns.
-    expect(block.parentElement).toHaveClass('lg:col-span-2')
+    // Above the race panel; from 840px the list beside shows the election.
+    expect(block.parentElement).toHaveClass('lg:hidden')
     expect(
       block.compareDocumentPosition(panel()) & Node.DOCUMENT_POSITION_FOLLOWING,
     ).toBeTruthy()
-    // The candidate's name stays the page's only visible h1.
+    // The list's title steps down to h2: the candidate's name stays the
+    // page's only h1.
+    expect(
+      screen.getByRole('heading', {
+        level: 2,
+        name: 'Illinois General Election',
+      }),
+    ).toBeInTheDocument()
     expect(
       screen.getAllByRole('heading', { level: 1 }).map((h) => h.textContent),
     ).toEqual(['Jane Doe'])
+  })
+
+  it('keeps the ballot list off pages that aren’t profiles', async () => {
+    mockApi()
+    const { router } = renderAt('/')
+    await lookUp()
+    for (const [path, title] of [
+      ['/about', 'About VoteStack'],
+      ['/how-profiles-are-made', 'How we make profiles'],
+      ['/saved-choices', 'Saved choices'],
+    ]) {
+      await router.navigate(path)
+      await screen.findByRole('heading', { level: 1, name: title })
+      expect(
+        screen.queryByRole('article', { name: 'Illinois General Election' }),
+      ).toBeNull()
+      expect(
+        screen.queryByRole('region', { name: 'On your ballot' }),
+      ).toBeNull()
+    }
   })
 
   it('shows just the judge’s retention item beside a judge’s profile', async () => {

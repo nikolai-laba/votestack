@@ -13,6 +13,10 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 - In Los Angeles County, statewide measures are titled as propositions ("Proposition 1: Authorizes Bonds for Housing Affordability Programs") and link to the California Secretary of State's voter guide for the full text and arguments. Ballots use California's terms ("propositions and measures") where Cook County's use "referenda".
 - The paper ballot order view follows each county's printed ballot, including Los Angeles County's order of city and local races first, and explains it.
 
+### Changed
+
+- On wider screens (840px and up), a candidate's profile again shows your whole ballot beside it, scrolled to that candidate's race, so you can move between races and candidates without going back. On phones, the candidate's race stays at the top of the profile. Other pages, like About, stay full width.
+
 ## [1.2.0] - 2026-10-14
 
 ### Added
