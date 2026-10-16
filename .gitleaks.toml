@@ -1,0 +1,16 @@
+# gitleaks settings: the default rules, plus one exception.
+
+[extend]
+useDefault = true
+
+# The published lists map each candidate's profile key to a SHA-256 hash of
+# the profile file. A key that contains "key" (e.g. "james-cody-birkey")
+# reads like an API key to the generic rule, so that rule skips a
+# 64-character hex hash in these files. Every other rule still applies.
+[[allowlists]]
+description = "Profile content hashes in the published lists"
+targetRules = ["generic-api-key"]
+condition = "AND"
+paths = ['''^content/profiles/published/.+\.json$''']
+regexTarget = "secret"
+regexes = ['''^[0-9a-f]{64}$''']
