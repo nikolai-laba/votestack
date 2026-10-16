@@ -763,7 +763,7 @@ describe('paper ballot order', () => {
     await userEvent.click(radio('Paper ballot order'))
     expect(
       within(savedPage()).getByText(
-        "This follows the Los Angeles County Registrar's sample ballot for your ballot style.",
+        "This follows the Los Angeles County Registrar's sample ballot for your ballot style. Los Angeles County's ballot lists city and local races first and state races last, an order California law allows only in this county.",
       ),
     ).toBeVisible()
   })

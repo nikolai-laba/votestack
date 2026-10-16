@@ -6,18 +6,27 @@
 // order instead (`paperSections`).
 
 import type { Contest } from '../shared/ballot.ts'
+import { COOK, type MeasureWords } from '../shared/regions.ts'
 
 type LevelId =
   'federal' | 'state' | 'county' | 'judges' | 'local' | 'retention' | 'measures'
 
-/** Sections by level, plus 'races' for the races part of the paper order. */
-export type SectionId = LevelId | 'races'
+/**
+ * Sections by level, plus 'races' for the races part of the paper order.
+ * A paper part that comes back later on the ballot gets a numbered id
+ * ('measures-2').
+ */
+export type SectionId = LevelId | 'races' | `${string}-${number}`
 
 export interface Section {
   id: SectionId
   title: string
   contests: Contest[]
 }
+
+/** Section titles that name the region's yes/no questions in its own words. */
+const titleFor = (id: LevelId, words: MeasureWords) =>
+  id === 'measures' ? words.section : LEVEL_TITLES[id]
 
 export const LEVEL_TITLES: Record<LevelId, string> = {
   federal: 'Federal',
@@ -36,7 +45,14 @@ export function sectionFor(contest: Contest): LevelId {
   if (contest.kind === 'measure') return 'measures'
   const office = `${contest.office} ${contest.title}`
   if (/\b(judge|justice)\b/i.test(office)) return 'judges'
-  const district = contest.districtId
+  return districtLevel(contest.districtId, office)
+}
+
+/** The level of government of a district: federal, state, county or local. */
+function districtLevel(
+  district: string,
+  office = '',
+): 'federal' | 'state' | 'county' | 'local' {
   if (/\/cd:/.test(district) || /\b(U\.S\.|United States)/i.test(office))
     return 'federal'
   // Cities, townships and local districts. In California, school, college
@@ -53,7 +69,10 @@ export function sectionFor(contest: Contest): LevelId {
 }
 
 /** Non-empty sections in display order, contests in ballot order within each. */
-export function groupContests(contests: Contest[]): Section[] {
+export function groupContests(
+  contests: Contest[],
+  words: MeasureWords = COOK.measureWords,
+): Section[] {
   const byId = new Map<LevelId, Contest[]>()
   for (const contest of contests) {
     const id = sectionFor(contest)
@@ -61,7 +80,7 @@ export function groupContests(contests: Contest[]): Section[] {
   }
   return ORDER.filter((id) => byId.has(id)).map((id) => ({
     id,
-    title: LEVEL_TITLES[id],
+    title: titleFor(id, words),
     contests: byId
       .get(id)!
       .sort((a, b) => (a.ballotOrder ?? 0) - (b.ballotOrder ?? 0)),
@@ -76,38 +95,86 @@ export function hasPaperOrder(contests: Contest[]): boolean {
   )
 }
 
-const PAPER_PARTS: Record<Contest['kind'], { id: SectionId; title: string }> = {
-  candidate: { id: 'races', title: 'Races' },
-  measure: { id: 'measures', title: LEVEL_TITLES.measures },
-  retention: { id: 'retention', title: LEVEL_TITLES.retention },
+const PAPER_PARTS: Record<Contest['kind'], { id: LevelId | 'races' }> = {
+  candidate: { id: 'races' },
+  measure: { id: 'measures' },
+  retention: { id: 'retention' },
 }
 
 /**
- * The ballot in paper order: one section per part of the paper
- * ballot (races, referenda, judges up for retention) in the order the paper
- * prints the parts, and every contest in paper order within its part. The
- * parts don't interleave on the 2026 ballots; if they did, a contest would
- * join the first part of its kind.
+ * A title for one of several runs of the same kind on the paper ballot,
+ * from its contests' level: "County measures", "State", or "Races" when
+ * the races are from more than one level.
  */
-export function paperSections(contests: Contest[]): Section[] {
+function runTitle(contests: Contest[], words: MeasureWords): string {
+  const kind = contests[0].kind
+  if (kind === 'retention') return LEVEL_TITLES.retention
+  if (kind === 'measure') {
+    const levels = new Set(contests.map((c) => districtLevel(c.districtId)))
+    if (levels.size === 1) {
+      const [level] = levels
+      if (level === 'state') return words.state
+      if (level === 'county') return `County ${words.many}`
+      if (level === 'local') return `City and local ${words.many}`
+    }
+    return words.section
+  }
+  const levels = new Set(contests.map(sectionFor))
+  return levels.size === 1 ? LEVEL_TITLES[[...levels][0]] : 'Races'
+}
+
+/**
+ * The ballot in paper order: one section per part of the paper ballot
+ * (races, referenda, judges up for retention) in the order the paper prints
+ * them, and every contest in paper order. A part is a run of contests of
+ * the same kind. Some ballots (Los Angeles County's) interleave the kinds:
+ * local races, local measures, county races, county measures, and so on.
+ * Then each run is its own section, titled by its level, and the later
+ * runs of a kind get numbered ids ('measures-2'). Where each kind is one
+ * run (Cook County), the parts keep their usual titles.
+ */
+export function paperSections(
+  contests: Contest[],
+  words: MeasureWords = COOK.measureWords,
+): Section[] {
   const sorted = [...contests].sort(
     (a, b) => (a.paperOrder ?? Infinity) - (b.paperOrder ?? Infinity),
   )
-  const parts = new Map<Contest['kind'], Contest[]>()
-  for (const contest of sorted)
-    parts.set(contest.kind, [...(parts.get(contest.kind) ?? []), contest])
-  return [...parts].map(([kind, list]) => ({
-    ...PAPER_PARTS[kind],
-    contests: list,
-  }))
+  const runs: Contest[][] = []
+  for (const contest of sorted) {
+    const last = runs.at(-1)
+    if (last && last[0].kind === contest.kind) last.push(contest)
+    else runs.push([contest])
+  }
+  const runsOf = (kind: Contest['kind']) =>
+    runs.filter((r) => r[0].kind === kind).length
+  const seen = new Map<Contest['kind'], number>()
+  return runs.map((run) => {
+    const kind = run[0].kind
+    const n = (seen.get(kind) ?? 0) + 1
+    seen.set(kind, n)
+    const base = PAPER_PARTS[kind].id
+    const title =
+      runsOf(kind) > 1
+        ? runTitle(run, words)
+        : base === 'races'
+          ? 'Races'
+          : titleFor(base, words)
+    return {
+      id: n === 1 ? base : (`${base}-${n}` as SectionId),
+      title,
+      contests: run,
+    }
+  })
 }
 
 /** Sections in the voter's chosen order; by level when paper order isn't known. */
 export function sectionsFor(
   contests: Contest[],
   order: 'level' | 'paper',
+  words: MeasureWords = COOK.measureWords,
 ): Section[] {
   return order === 'paper' && hasPaperOrder(contests)
-    ? paperSections(contests)
-    : groupContests(contests)
+    ? paperSections(contests, words)
+    : groupContests(contests, words)
 }

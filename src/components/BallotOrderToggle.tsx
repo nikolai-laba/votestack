@@ -49,7 +49,7 @@ export function BallotOrderToggle({ contests }: { contests: Contest[] }) {
           {authority === CHICAGO
             ? "This follows the order of the Chicago Board of Election Commissioners' official list and the order of offices in Illinois law. It hasn't been checked against a printed Chicago ballot yet."
             : authority === LOS_ANGELES_COUNTY
-              ? "This follows the Los Angeles County Registrar's sample ballot for your ballot style."
+              ? "This follows the Los Angeles County Registrar's sample ballot for your ballot style. Los Angeles County's ballot lists city and local races first and state races last, an order California law allows only in this county."
               : "This follows the Cook County Clerk's sample ballot for your ballot style."}
         </p>
       )}

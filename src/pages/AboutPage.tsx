@@ -212,7 +212,7 @@ export default function AboutPage() {
             <a href="https://isb.lavote.gov/" target="_blank" rel="noreferrer">
               isb.lavote.gov
             </a>
-            . It lists the races, candidates and referenda on each ballot style,
+            . It lists the races, candidates and measures on each ballot style,
             in ballot order, and which ballot style each precinct gets. Your
             ballot shows every race on your precinct&rsquo;s ballot style.
           </li>

@@ -18,13 +18,14 @@
       "candidates": [
         {
           "name": "Jay Obernolte",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Congressman/Business Owner",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Tessa Lynn Hodge",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Social Worker/Businesswoman",
           "ballotOrder": 2
         }
@@ -43,13 +44,14 @@
       "candidates": [
         {
           "name": "Derek Tran",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Representative/Business Owner",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Chuong V. Vo",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Retired Police Officer",
           "ballotOrder": 2
         }
@@ -68,13 +70,14 @@
       "candidates": [
         {
           "name": "Robert Garcia",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "United States Congressman",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Brian Burley",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Trustee, Huntington Beach City School District",
           "ballotOrder": 2
         }
@@ -93,15 +96,16 @@
       "candidates": [
         {
           "name": "Mitch Clemmons",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Plumbing Contractor",
           "ballotOrder": 1
         },
         {
           "name": "Linda Sánchez",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Congresswoman/Mom",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -118,12 +122,12 @@
       "candidates": [
         {
           "name": "Pedro Antonio Casas",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "ballotOrder": 1
         },
         {
           "name": "Hilda Solis",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "County Supervisor",
           "ballotOrder": 2
         }
@@ -142,15 +146,16 @@
       "candidates": [
         {
           "name": "Mike Cargile",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Small Businessman",
           "ballotOrder": 1
         },
         {
           "name": "Norma J. Torres",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "U.S. Representative",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -167,13 +172,14 @@
       "candidates": [
         {
           "name": "Judy Chu",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "United States Representative",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "April A. Verlato",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Small Business Owner",
           "ballotOrder": 2
         }
@@ -192,13 +198,13 @@
       "candidates": [
         {
           "name": "Eric Ching",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Entrepreneur",
           "ballotOrder": 1
         },
         {
           "name": "Gil Cisneros",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "U.S. Congressman",
           "ballotOrder": 2
         }
@@ -217,13 +223,14 @@
       "candidates": [
         {
           "name": "Laura Friedman",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Member, United States House of Representatives",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Scott Alan Meyers",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Small Business Owner",
           "ballotOrder": 2
         }
@@ -242,13 +249,14 @@
       "candidates": [
         {
           "name": "Ted W. Lieu",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "United States Representative, 36th District",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Houston Brignano",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Technology Executive",
           "ballotOrder": 2
         }
@@ -267,13 +275,14 @@
       "candidates": [
         {
           "name": "George Whitesides",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "U.S. Representative/Father",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Jason Gibbs",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "City Councilmember/Engineer",
           "ballotOrder": 2
         }
@@ -292,13 +301,13 @@
       "candidates": [
         {
           "name": "Jacqui Irwin",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "California State Assemblymember",
           "ballotOrder": 1
         },
         {
           "name": "Sam Gallucci",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Business Executive/Pastor",
           "ballotOrder": 2
         }
@@ -317,13 +326,14 @@
       "candidates": [
         {
           "name": "Maxine Waters",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "United States Congresswoman",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Cristian Morales",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Manufacturing Executive",
           "ballotOrder": 2
         }
@@ -342,15 +352,16 @@
       "candidates": [
         {
           "name": "Genevieve Angel",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Family Nurse Practitioner",
           "ballotOrder": 1
         },
         {
           "name": "Nanette Diaz Barragan",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "U.S. Representative, 44th District",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -367,13 +378,14 @@
       "candidates": [
         {
           "name": "Brad Sherman",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "United States Congressman/Dad",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Larry Thompson",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Attorney/Film Producer",
           "ballotOrder": 2
         }
@@ -392,15 +404,16 @@
       "candidates": [
         {
           "name": "Angélica María Dueñas",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Mother/Community Organizer",
           "ballotOrder": 1
         },
         {
           "name": "Luz Maria Rivas",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Congresswoman",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -417,13 +430,14 @@
       "candidates": [
         {
           "name": "Sydney Kamlager-Dove",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "U.S. Representative, 37th District",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Samantha Mota",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Community Advocate",
           "ballotOrder": 2
         }
@@ -442,15 +456,16 @@
       "candidates": [
         {
           "name": "Angela Gonzales-Torres",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Advocate For Justice",
           "ballotOrder": 1
         },
         {
           "name": "Jimmy Gomez",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "U.S. Representative/Parent",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -467,15 +482,16 @@
       "candidates": [
         {
           "name": "Chris Duncan",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Anti-Tariff Attorney",
           "ballotOrder": 1
         },
         {
           "name": "Tony Strickland",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "State Senator/Businessman",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -492,13 +508,13 @@
       "candidates": [
         {
           "name": "Avelino Valencia",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "California State Assemblymember",
           "ballotOrder": 1
         },
         {
           "name": "Rhonda Shader",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Local Small Businesswoman",
           "ballotOrder": 2
         }
@@ -517,13 +533,13 @@
       "candidates": [
         {
           "name": "Randall Putz",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Mayor/Business Owner",
           "ballotOrder": 1
         },
         {
           "name": "Charles Frederick Hughes",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Small Business Owner",
           "ballotOrder": 2
         }
@@ -542,13 +558,14 @@
       "candidates": [
         {
           "name": "Juan Carrillo",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "State Assemblymember",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Paul Andre Marsh",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Community Services Liaison",
           "ballotOrder": 2
         }
@@ -567,13 +584,13 @@
       "candidates": [
         {
           "name": "Mark Pulido",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "City Councilmember",
           "ballotOrder": 1
         },
         {
           "name": "Paulo Morales",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Law Enforcement Officer",
           "ballotOrder": 2
         }
@@ -592,13 +609,14 @@
       "candidates": [
         {
           "name": "Bob J. Archuleta",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "State Senator",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Araceli Martinez",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Small Business Owner",
           "ballotOrder": 2
         }
@@ -617,15 +635,16 @@
       "candidates": [
         {
           "name": "Paul Irving Jones",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Retired Combat Marine",
           "ballotOrder": 1
         },
         {
           "name": "José Luis Solache",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "California State Assemblymember",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -642,13 +661,14 @@
       "candidates": [
         {
           "name": "Blanca Pacheco",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Assemblywoman",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Raul Ortiz Jr.",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Pest Control Manager",
           "ballotOrder": 2
         }
@@ -667,13 +687,13 @@
       "candidates": [
         {
           "name": "Brian Goldsmith",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Small Business Owner",
           "ballotOrder": 1
         },
         {
           "name": "John M. Erickson",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Councilmember",
           "ballotOrder": 2
         }
@@ -692,13 +712,13 @@
       "candidates": [
         {
           "name": "Sara Deen",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "School Boardmember/Businesswoman",
           "ballotOrder": 1
         },
         {
           "name": "Paul Seo",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Mayor/Corruption Prosecutor",
           "ballotOrder": 2
         }
@@ -717,13 +737,14 @@
       "candidates": [
         {
           "name": "Josh Lowenthal",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Business Owner/Assemblymember",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Carolyn J. Essex",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Legislative Policy Analyst",
           "ballotOrder": 2
         }
@@ -742,13 +763,13 @@
       "candidates": [
         {
           "name": "Ayanna Davis",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Educator/School Boardmember",
           "ballotOrder": 1
         },
         {
           "name": "Lydia A. Gutiérrez",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Public School Teacher",
           "ballotOrder": 2
         }
@@ -767,15 +788,16 @@
       "candidates": [
         {
           "name": "Mike Netter",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Small Business Owner",
           "ballotOrder": 1
         },
         {
           "name": "Susan Rubio",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "State Senator/Teacher",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -792,15 +814,16 @@
       "candidates": [
         {
           "name": "Rafaela Romero",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Special Education Aide",
           "ballotOrder": 1
         },
         {
           "name": "Michelle Rodriguez",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Assemblymember/Mom",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -817,13 +840,14 @@
       "candidates": [
         {
           "name": "Lisa Calderon",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Assembly Member/Mom",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Jessica Martinez",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Retired Teacher",
           "ballotOrder": 2
         }
@@ -842,13 +866,14 @@
       "candidates": [
         {
           "name": "Blanca Rubio",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "State Assemblymember/Teacher",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Dan T. Tran",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Real Estate Businessman",
           "ballotOrder": 2
         }
@@ -867,13 +892,13 @@
       "candidates": [
         {
           "name": "Sara Hernandez",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Affordable Housing Advocate",
           "ballotOrder": 1
         },
         {
           "name": "Sarah Rascón",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Environmental Protection Director",
           "ballotOrder": 2
         }
@@ -892,13 +917,14 @@
       "candidates": [
         {
           "name": "Jessica Caloza",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "California State Assemblymember",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Andrea Lee Anderson",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "ballotOrder": 2
         }
       ]
@@ -916,15 +942,16 @@
       "candidates": [
         {
           "name": "Joe Lisuzzo",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "LA Neighborhood Councilmember",
           "ballotOrder": 1
         },
         {
           "name": "Lola Smallwood-Cuevas",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "State Senator",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -939,16 +966,13 @@
       "ballots": ["los-angeles-county"],
       "voteFor": 1,
       "candidates": [
-        {
-          "name": "Brian Lockwood",
-          "party": "Party Preference: Republican",
-          "ballotOrder": 1
-        },
+        { "name": "Brian Lockwood", "party": "Republican", "ballotOrder": 1 },
         {
           "name": "Tina Simone McKinnor",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "State Assemblymember",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -965,15 +989,16 @@
       "candidates": [
         {
           "name": "Long David Liu",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Attorney/Father",
           "ballotOrder": 1
         },
         {
           "name": "Mike Fong",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "California State Assemblymember",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -990,13 +1015,13 @@
       "candidates": [
         {
           "name": "Ted Nordblum",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Small Business Owner",
           "ballotOrder": 1
         },
         {
           "name": "Deborah Klein Lopez",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "City Councilmember",
           "ballotOrder": 2
         }
@@ -1015,15 +1040,16 @@
       "candidates": [
         {
           "name": "Ashley M. Brown",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "School Social Worker",
           "ballotOrder": 1
         },
         {
           "name": "Isaac G. Bryan",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "State Assemblymember",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -1040,14 +1066,15 @@
       "candidates": [
         {
           "name": "Alexandra Briseno",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "ballotOrder": 1
         },
         {
           "name": "Mark Gonzalez",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Member of the State Assembly",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -1062,16 +1089,13 @@
       "ballots": ["los-angeles-county"],
       "voteFor": 1,
       "candidates": [
-        {
-          "name": "Tony Rodriguez",
-          "party": "Party Preference: Republican",
-          "ballotOrder": 1
-        },
+        { "name": "Tony Rodriguez", "party": "Republican", "ballotOrder": 1 },
         {
           "name": "Caroline Menjivar",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "State Senator",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -1088,13 +1112,14 @@
       "candidates": [
         {
           "name": "John Harabedian",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "California State Assemblymember",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Adam Christopher Vena",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Father/Sanitation Employee",
           "ballotOrder": 2
         }
@@ -1113,15 +1138,16 @@
       "candidates": [
         {
           "name": "Rickey Tracy Hayes II",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Lineman/Entrepreneur/Businessman",
           "ballotOrder": 1
         },
         {
           "name": "Pilar Schiavo",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Assemblymember",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -1138,15 +1164,16 @@
       "candidates": [
         {
           "name": "Carolyn Daniels",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Independent Contractor/Mother",
           "ballotOrder": 1
         },
         {
           "name": "Nicholas \"Nick\" Schultz",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "California State Assemblymember",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -1163,15 +1190,16 @@
       "candidates": [
         {
           "name": "Ricardo Benitez",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Plumber/Electrical Contractor",
           "ballotOrder": 1
         },
         {
           "name": "Celeste Rodriguez",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Assemblymember",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -1188,15 +1216,16 @@
       "candidates": [
         {
           "name": "Colin D. Hernandez",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Digital Communication Strategist",
           "ballotOrder": 1
         },
         {
           "name": "Rick Chavez Zbur",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "California Assemblymember",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -1213,13 +1242,14 @@
       "candidates": [
         {
           "name": "Jesse Gabriel",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Member of the State Assembly, 46th District",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Tracey Schroeder",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Teacher",
           "ballotOrder": 2
         }
@@ -1238,13 +1268,14 @@
       "candidates": [
         {
           "name": "Sade Elhawary",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "California State Assemblymember",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Constance Jewel Menzies",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "In-Home Care Provider",
           "ballotOrder": 2
         }
@@ -1263,13 +1294,13 @@
       "candidates": [
         {
           "name": "Xavier Becerra",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Voting Rights Attorney",
           "ballotOrder": 1
         },
         {
           "name": "Steve Hilton",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Small Business Owner",
           "ballotOrder": 2
         }
@@ -1288,13 +1319,13 @@
       "candidates": [
         {
           "name": "Fiona Ma",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "State Treasurer/CPA",
           "ballotOrder": 1
         },
         {
           "name": "Gloria Romero",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Educator/Businesswoman",
           "ballotOrder": 2
         }
@@ -1313,13 +1344,14 @@
       "candidates": [
         {
           "name": "Shirley N. Weber",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "California Secretary of State",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Donald P. (Don) Wagner",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Orange County Supervisor",
           "ballotOrder": 2
         }
@@ -1338,15 +1370,16 @@
       "candidates": [
         {
           "name": "Herb W Morgan",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Chief Investment Officer",
           "ballotOrder": 1
         },
         {
           "name": "Malia M. Cohen",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "State Controller/Mother",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -1363,13 +1396,13 @@
       "candidates": [
         {
           "name": "Eleni Kounalakis",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Lieutenant Governor of California",
           "ballotOrder": 1
         },
         {
           "name": "Jennifer Hawks",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Retired Business Executive",
           "ballotOrder": 2
         }
@@ -1388,15 +1421,16 @@
       "candidates": [
         {
           "name": "Michael E. Gates",
-          "party": "Party Preference: Republican",
+          "party": "Republican",
           "designation": "Deputy United States Attorney",
           "ballotOrder": 1
         },
         {
           "name": "Rob Bonta",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "California Attorney General",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -1413,13 +1447,13 @@
       "candidates": [
         {
           "name": "Ben Allen",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "California State Senator",
           "ballotOrder": 1
         },
         {
           "name": "Jane Kim",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Attorney/Consumer Advocate",
           "ballotOrder": 2
         }
@@ -1438,13 +1472,13 @@
       "candidates": [
         {
           "name": "Samuel P. Sukaton",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "Labor Union Organizer",
           "ballotOrder": 1
         },
         {
           "name": "Mike Gipson",
-          "party": "Party Preference: Democratic",
+          "party": "Democratic",
           "designation": "State Assemblymember/Father",
           "ballotOrder": 2
         }
@@ -1487,7 +1521,8 @@
         {
           "name": "Robert G. Luna",
           "designation": "Sheriff of Los Angeles County",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Alex Villanueva",
@@ -1608,7 +1643,7 @@
           "designation": "Small Businesswoman/Cosmetologist",
           "ballotOrder": 1
         },
-        { "name": "Pamela Starlson", "ballotOrder": 2 }
+        { "name": "Pamela Starlson", "ballotOrder": 2, "incumbent": true }
       ]
     },
     {
@@ -1635,7 +1670,8 @@
         {
           "name": "Laura Bettencourt",
           "designation": "Councilmember/Crime Analyst",
-          "ballotOrder": 3
+          "ballotOrder": 3,
+          "incumbent": true
         },
         {
           "name": "Anain Robles",
@@ -1691,7 +1727,8 @@
         {
           "name": "Julie Ann Bookman",
           "designation": "Governing Board Member",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -1728,7 +1765,8 @@
         {
           "name": "Duane G. Winn",
           "designation": "Incumbent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Oscar Iraheta",
@@ -1779,7 +1817,8 @@
         {
           "name": "Eric Ohlsen",
           "designation": "Councilmember/Business Owner",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Francisco Sanchez",
@@ -1808,7 +1847,8 @@
         {
           "name": "Alma I. Rodriguez",
           "designation": "Incumbent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Matthew Gaines",
@@ -1831,7 +1871,8 @@
         {
           "name": "Karen Ruth Bass",
           "designation": "Mayor, City of Los Angeles",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Nithya Raman",
@@ -1944,7 +1985,8 @@
         {
           "name": "Steven Frank Johnson",
           "designation": "Insurance Broker",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Thomas D. Allison",
@@ -1967,7 +2009,8 @@
         {
           "name": "Meshal \"Kash\" Kashifalghita",
           "designation": "Council Member",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Richard Bowen",
@@ -1990,7 +2033,8 @@
         {
           "name": "Timothy Hepburn",
           "designation": "Small Business Owner",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         }
       ]
     },
@@ -2013,7 +2057,8 @@
         {
           "name": "Kimberly Kenne",
           "designation": "Board of Education Member, Pasadena Unified School District",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -2031,7 +2076,8 @@
         {
           "name": "Dan Jeffries",
           "designation": "Incumbent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Shilpa Shinde-Garg",
@@ -2051,7 +2097,8 @@
         {
           "name": "Octavia Thuss",
           "designation": "Incumbent",
-          "ballotOrder": 5
+          "ballotOrder": 5,
+          "incumbent": true
         }
       ]
     },
@@ -2092,7 +2139,8 @@
         {
           "name": "Michelle Richardson Bailey",
           "designation": "Board Member, Pasadena Unified School District",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Veronica Elias",
@@ -2112,7 +2160,12 @@
       "ballots": ["los-angeles-county"],
       "voteFor": 1,
       "candidates": [
-        { "name": "Becky A. Shevlin", "designation": "Mayor", "ballotOrder": 1 }
+        {
+          "name": "Becky A. Shevlin",
+          "designation": "Mayor",
+          "ballotOrder": 1,
+          "incumbent": true
+        }
       ]
     },
     {
@@ -2129,7 +2182,8 @@
         {
           "name": "Ed Reece",
           "designation": "Councilmember/Business Owner",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         }
       ]
     },
@@ -2147,7 +2201,8 @@
         {
           "name": "Jennifer Stark",
           "designation": "City Councilwoman",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Sonja Stump",
@@ -2200,12 +2255,14 @@
         {
           "name": "Doug Stewart",
           "designation": "Councilmember/Business Owner",
-          "ballotOrder": 3
+          "ballotOrder": 3,
+          "incumbent": true
         },
         {
           "name": "Marianne Riggins",
           "designation": "Incumbent",
-          "ballotOrder": 4
+          "ballotOrder": 4,
+          "incumbent": true
         }
       ]
     },
@@ -2239,7 +2296,8 @@
         {
           "name": "Nikki Perez",
           "designation": "Burbank City Councilmember",
-          "ballotOrder": 5
+          "ballotOrder": 5,
+          "incumbent": true
         },
         {
           "name": "Jonathan Ontiveros",
@@ -2279,7 +2337,8 @@
         {
           "name": "Tamala Takahashi",
           "designation": "Incumbent",
-          "ballotOrder": 13
+          "ballotOrder": 13,
+          "incumbent": true
         }
       ]
     },
@@ -2307,7 +2366,8 @@
         {
           "name": "Andrew N. Mendez",
           "designation": "Councilmember, City of Azusa",
-          "ballotOrder": 3
+          "ballotOrder": 3,
+          "incumbent": true
         }
       ]
     },
@@ -2330,7 +2390,8 @@
         {
           "name": "Edward J. Alvarez",
           "designation": "Councilmember/Federal Auditor",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -2348,7 +2409,8 @@
         {
           "name": "Hector \"Manuel\" Ortiz",
           "designation": "Incumbent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Marguerite S. Lopez-Sapien",
@@ -2381,7 +2443,8 @@
         {
           "name": "Margaret E. Finlay",
           "designation": "Duarte City Councilmember",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -2399,7 +2462,8 @@
         {
           "name": "Letty Lopez",
           "designation": "Director/Mayor/Councilwoman",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Carlos Yado",
@@ -2427,7 +2491,8 @@
         {
           "name": "Ollie Cantos",
           "designation": "West Covina Councilman/Attorney",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Pauline Pezza",
@@ -2452,7 +2517,12 @@
       "ballots": ["los-angeles-county"],
       "voteFor": 1,
       "candidates": [
-        { "name": "Tony Wu", "designation": "Councilman", "ballotOrder": 1 },
+        {
+          "name": "Tony Wu",
+          "designation": "Councilman",
+          "ballotOrder": 1,
+          "incumbent": true
+        },
         {
           "name": "Fredrick Fred Sykes",
           "designation": "Commissioner/Retired Police",
@@ -2479,12 +2549,14 @@
         {
           "name": "Jean M. Ayala",
           "designation": "Teacher/Vice Mayor",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         },
         {
           "name": "Alejandra Avila",
           "designation": "Councilmember",
-          "ballotOrder": 3
+          "ballotOrder": 3,
+          "incumbent": true
         }
       ]
     },
@@ -2502,7 +2574,8 @@
         {
           "name": "Nancy Loera",
           "designation": "Teacher/Parent/Boardmember",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Carmen Eulalia Basso",
@@ -2531,7 +2604,8 @@
         {
           "name": "Cary C. Chen",
           "designation": "Governing Board Member, Rowland Unified School District",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Jeannette C. Alvarado",
@@ -2559,7 +2633,8 @@
         {
           "name": "Michael Allawos",
           "designation": "Councilmember/Business Owner",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Teri Merrick",
@@ -2579,7 +2654,12 @@
       "ballots": ["los-angeles-county"],
       "voteFor": 1,
       "candidates": [
-        { "name": "Karen K. Davis", "designation": "Pastor", "ballotOrder": 1 },
+        {
+          "name": "Karen K. Davis",
+          "designation": "Pastor",
+          "ballotOrder": 1,
+          "incumbent": true
+        },
         {
           "name": "Lindsey Morgan",
           "designation": "Realtor/Cheer Coach",
@@ -2606,7 +2686,8 @@
         {
           "name": "Jessica Ancona",
           "designation": "Mayor/Educator",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Viviana Longoria",
@@ -2654,7 +2735,12 @@
       "ballots": ["los-angeles-county"],
       "voteFor": 1,
       "candidates": [
-        { "name": "Ross J. Maza", "designation": "Incumbent", "ballotOrder": 1 }
+        {
+          "name": "Ross J. Maza",
+          "designation": "Incumbent",
+          "ballotOrder": 1,
+          "incumbent": true
+        }
       ]
     },
     {
@@ -2676,7 +2762,8 @@
         {
           "name": "Adele Andrade Stadler",
           "designation": "Incumbent",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         },
         {
           "name": "Melissa Michelson",
@@ -2696,7 +2783,12 @@
       "ballots": ["los-angeles-county"],
       "voteFor": 1,
       "candidates": [
-        { "name": "Sharon Kwan", "designation": "Incumbent", "ballotOrder": 1 },
+        {
+          "name": "Sharon Kwan",
+          "designation": "Incumbent",
+          "ballotOrder": 1,
+          "incumbent": true
+        },
         {
           "name": "Burton Brink",
           "designation": "Chairman, Nonprofit Organization",
@@ -2718,7 +2810,8 @@
         {
           "name": "John Han",
           "designation": "Appointed Incumbent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Grace Arabella Lee",
@@ -2746,7 +2839,8 @@
         {
           "name": "Michael Cao",
           "designation": "Arcadia Councilmember/Cardiologist",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Steve Rhee",
@@ -2769,7 +2863,8 @@
         {
           "name": "Thomas Wong",
           "designation": "Monterey Park City Councilmember",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         }
       ]
     },
@@ -2792,7 +2887,8 @@
         {
           "name": "Vinh T. Ngo",
           "designation": "Monterey Park City Councilmember",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -2810,7 +2906,8 @@
         {
           "name": "Sandra Armenta",
           "designation": "Mayor of Rosemead/District Representative",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Diana Lam",
@@ -2820,7 +2917,8 @@
         {
           "name": "Steven Ly",
           "designation": "Councilmember, City of Rosemead",
-          "ballotOrder": 3
+          "ballotOrder": 3,
+          "incumbent": true
         },
         {
           "name": "John Tran",
@@ -2845,11 +2943,17 @@
           "designation": "Businesswoman/Boardmember/Caregiver",
           "ballotOrder": 1
         },
-        { "name": "John Wu", "designation": "Councilmember", "ballotOrder": 2 },
+        {
+          "name": "John Wu",
+          "designation": "Councilmember",
+          "ballotOrder": 2,
+          "incumbent": true
+        },
         {
           "name": "Eric L. Chan",
           "designation": "Councilmember",
-          "ballotOrder": 3
+          "ballotOrder": 3,
+          "incumbent": true
         },
         {
           "name": "Jordan Guzman",
@@ -2859,7 +2963,8 @@
         {
           "name": "Denise Menchaca",
           "designation": "Councilmember",
-          "ballotOrder": 5
+          "ballotOrder": 5,
+          "incumbent": true
         }
       ]
     },
@@ -2874,8 +2979,18 @@
       "ballots": ["los-angeles-county"],
       "voteFor": 3,
       "candidates": [
-        { "name": "Tony Chou", "designation": "Incumbent", "ballotOrder": 1 },
-        { "name": "Calvin Lo", "designation": "Incumbent", "ballotOrder": 2 },
+        {
+          "name": "Tony Chou",
+          "designation": "Incumbent",
+          "ballotOrder": 1,
+          "incumbent": true
+        },
+        {
+          "name": "Calvin Lo",
+          "designation": "Incumbent",
+          "ballotOrder": 2,
+          "incumbent": true
+        },
         {
           "name": "John Dustin",
           "designation": "Quality Improvement Specialist",
@@ -2902,7 +3017,8 @@
         {
           "name": "Michael Cacciotti",
           "designation": "South Pasadena Councilmember",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Nevin Stanton-Trehan",
@@ -2971,7 +3087,8 @@
         {
           "name": "Chelsea Byers",
           "designation": "Councilmember/Policy Director",
-          "ballotOrder": 11
+          "ballotOrder": 11,
+          "incumbent": true
         },
         {
           "name": "Alden \"Marlon\" Gobel",
@@ -3024,7 +3141,8 @@
         {
           "name": "Lana Negrete",
           "designation": "Councilmember/Businesswoman/Mother",
-          "ballotOrder": 5
+          "ballotOrder": 5,
+          "incumbent": true
         },
         {
           "name": "Phil Brock",
@@ -3054,7 +3172,8 @@
         {
           "name": "Caroline M. Torosis",
           "designation": "Mayor/Attorney",
-          "ballotOrder": 11
+          "ballotOrder": 11,
+          "incumbent": true
         },
         {
           "name": "Doug Trussler",
@@ -3077,7 +3196,8 @@
         {
           "name": "Victor Preciado",
           "designation": "Councilmember/Garey Coach",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Jacky Elizalde",
@@ -3105,7 +3225,8 @@
         {
           "name": "Lisa C. Nashua",
           "designation": "School Board President",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         },
         {
           "name": "John Mendoza",
@@ -3189,7 +3310,8 @@
         {
           "name": "Danielle Romero",
           "designation": "Veteran Advocate/Councilmember",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Rafael Gutierrez",
@@ -3212,7 +3334,8 @@
         {
           "name": "Ricardo \"Ric\" Alonzo",
           "designation": "Engineer/Councilmember",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "James Santana",
@@ -3284,7 +3407,8 @@
         {
           "name": "Freddy Puza",
           "designation": "Mayor/Education Director",
-          "ballotOrder": 3
+          "ballotOrder": 3,
+          "incumbent": true
         },
         {
           "name": "Thomas Aujero Small",
@@ -3312,12 +3436,14 @@
         {
           "name": "Manuel \"Manny\" Acosta",
           "designation": "Professor/Incumbent Councilmember",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Rudy Bojorquez",
           "designation": "Councilmember",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         },
         {
           "name": "Kimberly \"Kim\" Valencia",
@@ -3340,12 +3466,14 @@
         {
           "name": "Allen Wu",
           "designation": "City Councilmember/Watermaster",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Richard \"Ritchie\" Cajulis",
           "designation": "Council Member",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         },
         {
           "name": "Hong \"Diana\" Zhao",
@@ -3378,7 +3506,8 @@
         {
           "name": "Steve Tye",
           "designation": "Councilmember",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -3396,7 +3525,8 @@
         {
           "name": "Andrew Chou",
           "designation": "Councilmember/Financial Planner",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         }
       ]
     },
@@ -3416,7 +3546,12 @@
           "designation": "Small Business Owner",
           "ballotOrder": 1
         },
-        { "name": "Chia-Yu Teng", "designation": "Incumbent", "ballotOrder": 2 }
+        {
+          "name": "Chia-Yu Teng",
+          "designation": "Incumbent",
+          "ballotOrder": 2,
+          "incumbent": true
+        }
       ]
     },
     {
@@ -3433,12 +3568,14 @@
         {
           "name": "Gustavo V. Camacho",
           "designation": "Mayor/Business Executive",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Johnny Garcia",
           "designation": "Incumbent",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         },
         {
           "name": "Genaro Moreno",
@@ -3461,7 +3598,8 @@
         {
           "name": "Lisa Michelle Dabbs",
           "designation": "Governing Board Member, East Whittier City School District",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         { "name": "Brenda Smith", "designation": "Teacher", "ballotOrder": 2 }
       ]
@@ -3485,7 +3623,8 @@
         {
           "name": "Marilyn Buchi",
           "designation": "Governing Board Member, Fullerton Joint Union High School District, Area 5",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -3503,7 +3642,8 @@
         {
           "name": "Gino Kwok",
           "designation": "Boardmember/Attorney/Parent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Tran Bao Satter",
@@ -3536,7 +3676,8 @@
         {
           "name": "Jeffrey De La Torre",
           "designation": "Educator/Parent/Boardmember",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         },
         {
           "name": "Jessica Rubio",
@@ -3587,7 +3728,8 @@
         {
           "name": "Linda L. Small",
           "designation": "Incumbent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Andrew Roble",
@@ -3610,7 +3752,8 @@
         {
           "name": "Alexandre \"Alex\" Monteiro",
           "designation": "Incumbent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Sergio Roberto Mortara",
@@ -3620,7 +3763,8 @@
         {
           "name": "Katrina Manning",
           "designation": "Incumbent",
-          "ballotOrder": 3
+          "ballotOrder": 3,
+          "incumbent": true
         }
       ]
     },
@@ -3653,12 +3797,14 @@
         {
           "name": "James T Butts",
           "designation": "Mayor of Inglewood",
-          "ballotOrder": 4
+          "ballotOrder": 4,
+          "incumbent": true
         },
         {
           "name": "Gloria D. Gray",
           "designation": "Councilwoman",
-          "ballotOrder": 5
+          "ballotOrder": 5,
+          "incumbent": true
         },
         {
           "name": "Arturo Martinez",
@@ -3681,7 +3827,8 @@
         {
           "name": "Robert Pullen-Miles",
           "designation": "Mayor, City of Lawndale",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Francisco M. Talavera",
@@ -3709,7 +3856,8 @@
         {
           "name": "Wendi Morse",
           "designation": "Incumbent/Business Owner",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -3732,7 +3880,8 @@
         {
           "name": "Mayra Aguiluz",
           "designation": "Councilwoman/Licensed Therapist",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         },
         {
           "name": "Aleyda Lemus",
@@ -3742,7 +3891,8 @@
         {
           "name": "Eduardo \"Eddie\" De La Riva",
           "designation": "Council Member",
-          "ballotOrder": 4
+          "ballotOrder": 4,
+          "incumbent": true
         },
         {
           "name": "Gabriela A. Bernal",
@@ -3785,7 +3935,8 @@
         {
           "name": "Brad W. Crihfield",
           "designation": "Governing Board Member, Bellflower Unified School District",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Todd J. Roberts",
@@ -3887,12 +4038,14 @@
         {
           "name": "Gabriela Camacho",
           "designation": "Mayor/Teacher/Mom",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         },
         {
           "name": "Luis Gerardo Cuellar",
           "designation": "Appointed Councilmember/Businessman",
-          "ballotOrder": 3
+          "ballotOrder": 3,
+          "incumbent": true
         },
         {
           "name": "Emiliano Arellano",
@@ -3907,7 +4060,8 @@
         {
           "name": "Juan Muñoz-Guevara",
           "designation": "Councilmember/Labor Organizer",
-          "ballotOrder": 6
+          "ballotOrder": 6,
+          "incumbent": true
         }
       ]
     },
@@ -3958,12 +4112,14 @@
         {
           "name": "Joshua Barron",
           "designation": "City Member/Financial Crimes Investigator",
-          "ballotOrder": 3
+          "ballotOrder": 3,
+          "incumbent": true
         },
         {
           "name": "Al Rios",
           "designation": "Council Member/Retired Educator",
-          "ballotOrder": 4
+          "ballotOrder": 4,
+          "incumbent": true
         },
         { "name": "Alan Garcia", "ballotOrder": 5 }
       ]
@@ -3988,9 +4144,15 @@
         {
           "name": "Annette Rodriguez",
           "designation": "Incumbent",
-          "ballotOrder": 3
+          "ballotOrder": 3,
+          "incumbent": true
         },
-        { "name": "Bill Rounds", "designation": "Incumbent", "ballotOrder": 4 },
+        {
+          "name": "Bill Rounds",
+          "designation": "Incumbent",
+          "ballotOrder": 4,
+          "incumbent": true
+        },
         {
           "name": "Odalys Valladares",
           "designation": "Business Owner",
@@ -3999,7 +4161,8 @@
         {
           "name": "Juanita Martin",
           "designation": "Incumbent",
-          "ballotOrder": 6
+          "ballotOrder": 6,
+          "incumbent": true
         }
       ]
     },
@@ -4071,7 +4234,12 @@
           "designation": "Student",
           "ballotOrder": 2
         },
-        { "name": "Tony Ayala", "designation": "Incumbent", "ballotOrder": 3 },
+        {
+          "name": "Tony Ayala",
+          "designation": "Incumbent",
+          "ballotOrder": 3,
+          "incumbent": true
+        },
         {
           "name": "Richard Legaspi",
           "designation": "Business Manager/Commissioner",
@@ -4136,7 +4304,8 @@
         {
           "name": "Cynthia Gonzalez",
           "designation": "Educator/Parent/Mayor",
-          "ballotOrder": 3
+          "ballotOrder": 3,
+          "incumbent": true
         },
         {
           "name": "Jose R. Gonzalez",
@@ -4146,7 +4315,8 @@
         {
           "name": "Martin U. Fuentes",
           "designation": "Councilmember",
-          "ballotOrder": 5
+          "ballotOrder": 5,
+          "incumbent": true
         }
       ]
     },
@@ -4169,17 +4339,20 @@
         {
           "name": "Miguel De La Rosa",
           "designation": "Councilmember",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         },
         {
           "name": "Francis De Leon Sanchez",
           "designation": "Councilwoman/Educator/Administrator",
-          "ballotOrder": 3
+          "ballotOrder": 3,
+          "incumbent": true
         },
         {
           "name": "Marco Barcena",
           "designation": "Councilmember",
-          "ballotOrder": 4
+          "ballotOrder": 4,
+          "incumbent": true
         },
         {
           "name": "Jorge O. Verdin",
@@ -4199,7 +4372,12 @@
       "ballots": ["los-angeles-county"],
       "voteFor": 1,
       "candidates": [
-        { "name": "Emma Sharif", "designation": "Mayor", "ballotOrder": 1 },
+        {
+          "name": "Emma Sharif",
+          "designation": "Mayor",
+          "ballotOrder": 1,
+          "incumbent": true
+        },
         {
           "name": "Andre Spicer",
           "designation": "Councilperson",
@@ -4226,7 +4404,8 @@
         {
           "name": "Jim Dear",
           "designation": "Carson City Councilmember/Teacher",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -4249,7 +4428,8 @@
         {
           "name": "Arleen Bocatija Rojas",
           "designation": "Councilmember/Retired Police",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -4301,12 +4481,14 @@
         {
           "name": "Raymond \"Ray\" Jackson",
           "designation": "Councilmember, Hermosa Beach/Colonel, Army (Retired)",
-          "ballotOrder": 3
+          "ballotOrder": 3,
+          "incumbent": true
         },
         {
           "name": "Rob Saemann",
           "designation": "Councilmember/Retired Business Owner",
-          "ballotOrder": 4
+          "ballotOrder": 4,
+          "incumbent": true
         },
         {
           "name": "Maggie Bove-Lamonica",
@@ -4316,7 +4498,8 @@
         {
           "name": "Dean Francois",
           "designation": "Hermosa Beach Councilmember",
-          "ballotOrder": 6
+          "ballotOrder": 6,
+          "incumbent": true
         }
       ]
     },
@@ -4331,7 +4514,12 @@
       "ballots": ["los-angeles-county"],
       "voteFor": 2,
       "candidates": [
-        { "name": "Amy Howorth", "designation": "Incumbent", "ballotOrder": 1 },
+        {
+          "name": "Amy Howorth",
+          "designation": "Incumbent",
+          "ballotOrder": 1,
+          "incumbent": true
+        },
         { "name": "Mark Burton", "designation": "Attorney", "ballotOrder": 2 },
         {
           "name": "Richard P. Montgomery",
@@ -4359,12 +4547,14 @@
         {
           "name": "Michael Kemps",
           "designation": "Incumbent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Victoria A. Lozzi",
           "designation": "Incumbent",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         },
         {
           "name": "Mark Saroyan",
@@ -4430,15 +4620,22 @@
         {
           "name": "Pat Wilson",
           "designation": "Business Owner/Councilmember",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         { "name": "Jeanevra Calhoun", "ballotOrder": 2 },
         {
           "name": "James Black",
           "designation": "Incumbent/Plastic Surgeon",
-          "ballotOrder": 3
+          "ballotOrder": 3,
+          "incumbent": true
         },
-        { "name": "Leah Mirsch", "designation": "Incumbent", "ballotOrder": 4 }
+        {
+          "name": "Leah Mirsch",
+          "designation": "Incumbent",
+          "ballotOrder": 4,
+          "incumbent": true
+        }
       ]
     },
     {
@@ -4483,18 +4680,21 @@
         {
           "name": "Melissa Ramoso",
           "designation": "Mayor Pro Tem",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         },
         { "name": "Craig Francis", "ballotOrder": 3 },
         {
           "name": "Ali Taj",
           "designation": "Grandfather/Businessman/Councilmember",
-          "ballotOrder": 4
+          "ballotOrder": 4,
+          "incumbent": true
         },
         {
           "name": "Rene J. Trevino",
           "designation": "Mayor/Business Owner",
-          "ballotOrder": 5
+          "ballotOrder": 5,
+          "incumbent": true
         }
       ]
     },
@@ -4512,14 +4712,21 @@
         {
           "name": "Dandy De Paula",
           "designation": "Incumbent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Maria Teresa Del Rio",
           "designation": "Incumbent",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         },
-        { "name": "Luis Roa", "designation": "Incumbent", "ballotOrder": 3 },
+        {
+          "name": "Luis Roa",
+          "designation": "Incumbent",
+          "ballotOrder": 3,
+          "incumbent": true
+        },
         {
           "name": "Luis Gonzalez",
           "designation": "Accounting Technician",
@@ -4569,12 +4776,14 @@
         {
           "name": "Aaron Simental",
           "designation": "Governing Board Member, Bassett Unified School District",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Patrice Stanzione",
           "designation": "Teacher/Board Member",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         },
         {
           "name": "Samuel Brown-Vazquez",
@@ -4584,7 +4793,8 @@
         {
           "name": "Dolores C. Rivera",
           "designation": "Retired Community Liaison",
-          "ballotOrder": 4
+          "ballotOrder": 4,
+          "incumbent": true
         },
         {
           "name": "Carol Tula",
@@ -4635,7 +4845,8 @@
         {
           "name": "Juanita Doplemore",
           "designation": "Incumbent",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -4653,7 +4864,8 @@
         {
           "name": "Richard (Rick) Hever",
           "designation": "Governing Board Member, Whittier City SD",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Norma Natalie Rodarte",
@@ -4699,7 +4911,8 @@
         {
           "name": "Evelyn Mendez Avdalyan",
           "designation": "Legal Assistant",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Christian Ibarra",
@@ -4727,7 +4940,8 @@
         {
           "name": "Jean McHatton",
           "designation": "Appointed ABC USD Governing Board, Trustee Area 5",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -4745,7 +4959,8 @@
         {
           "name": "Wayne M. Kalliomaa",
           "designation": "Appointed Incumbent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Timothy M. Wiley",
@@ -4778,7 +4993,8 @@
         {
           "name": "Roberta Perlman",
           "designation": "School Boardmember/Optometrist",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -4829,7 +5045,8 @@
         {
           "name": "Joe Messina",
           "designation": "School Board President",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -4847,7 +5064,8 @@
         {
           "name": "Simon Wright",
           "designation": "Governing Board Member",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Gary C. Rodriguez",
@@ -4870,7 +5088,8 @@
         {
           "name": "Kevin T. Hayakawa",
           "designation": "Governing Board Member, Rowland Unified School District",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Falynn Love Thompson",
@@ -4893,7 +5112,8 @@
         {
           "name": "Kristine E. Kwong",
           "designation": "Governing Board Member, Pasadena Area Community College District",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Jennifer Thompson",
@@ -4921,7 +5141,8 @@
         {
           "name": "Armando Urteaga",
           "designation": "Appointed Board Member, Whittier Union High School District",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -4939,7 +5160,8 @@
         {
           "name": "Christine Chacon Kennedy",
           "designation": "Incumbent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         { "name": "Michael Ramos", "ballotOrder": 2 }
       ]
@@ -5023,7 +5245,8 @@
         {
           "name": "Gabriela Arellanes",
           "designation": "Incumbent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Marcos C. Gonzales Jr.",
@@ -5051,7 +5274,8 @@
         {
           "name": "Monica Garcia",
           "designation": "Governing Board Member, Glendora USD",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -5074,7 +5298,8 @@
         {
           "name": "Soo Yoo",
           "designation": "Governing Board Member, ABCUSD",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -5092,7 +5317,8 @@
         {
           "name": "John Curiel",
           "designation": "Board Member, Westside Union School District",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Shameka Andre",
@@ -5102,9 +5328,15 @@
         {
           "name": "Jennifer Navarro",
           "designation": "School Boardmember/Businesswoman",
-          "ballotOrder": 3
+          "ballotOrder": 3,
+          "incumbent": true
         },
-        { "name": "Andrew Rowe", "designation": "Incumbent", "ballotOrder": 4 }
+        {
+          "name": "Andrew Rowe",
+          "designation": "Incumbent",
+          "ballotOrder": 4,
+          "incumbent": true
+        }
       ]
     },
     {
@@ -5164,7 +5396,8 @@
         {
           "name": "Myloc Dinh",
           "designation": "Appointed Governing Board Member, El Camino Community College",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -5182,7 +5415,8 @@
         {
           "name": "Norma Olmos",
           "designation": "School Board President",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Christina Lucero",
@@ -5192,7 +5426,8 @@
         {
           "name": "John B. De Leon",
           "designation": "Incumbent",
-          "ballotOrder": 3
+          "ballotOrder": 3,
+          "incumbent": true
         },
         {
           "name": "Laura A. Franklin",
@@ -5220,17 +5455,20 @@
         {
           "name": "Stephanie Loredo",
           "designation": "Governing Board Member, Culver City Unified School District",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Brian Guerrero",
           "designation": "Governing Board Member, Culver City Unified School District",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         },
         {
           "name": "Triston Ezidore",
           "designation": "Governing Board Member, Culver City Unified School District",
-          "ballotOrder": 3
+          "ballotOrder": 3,
+          "incumbent": true
         },
         {
           "name": "Darrel Menthe",
@@ -5253,7 +5491,8 @@
         {
           "name": "Renita Armstrong",
           "designation": "Incumbent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "John Paul Drayer",
@@ -5281,7 +5520,8 @@
         {
           "name": "Joseph Manacmul",
           "designation": "Appointed Incumbent",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -5299,7 +5539,8 @@
         {
           "name": "Simone Zulu",
           "designation": "Governing Board Member",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Marcos Torres Alvarez",
@@ -5355,7 +5596,8 @@
         {
           "name": "Darlene Trevino",
           "designation": "Member, Board of Trustees, Santa Clarita Community College District, Trustee Area 1",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -5373,7 +5615,8 @@
         {
           "name": "Kathryn Dunn",
           "designation": "Incumbent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Krista Carson Elhai",
@@ -5396,14 +5639,20 @@
         {
           "name": "Rochelle Kate Ongsiako Haas",
           "designation": "Incumbent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Cecilia Reyes Keffer",
           "designation": "Educator/Realtor",
           "ballotOrder": 2
         },
-        { "name": "Gina L. Chi", "designation": "Incumbent", "ballotOrder": 3 },
+        {
+          "name": "Gina L. Chi",
+          "designation": "Incumbent",
+          "ballotOrder": 3,
+          "incumbent": true
+        },
         {
           "name": "Leif Halgard Andersen",
           "designation": "Physics Professor",
@@ -5412,7 +5661,8 @@
         {
           "name": "Gary Thomas Scott",
           "designation": "Incumbent",
-          "ballotOrder": 5
+          "ballotOrder": 5,
+          "incumbent": true
         }
       ]
     },
@@ -5430,7 +5680,8 @@
         {
           "name": "Laurie Lieberman",
           "designation": "School Board Vice-President",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Harry Leshner",
@@ -5445,12 +5696,14 @@
         {
           "name": "Stacy Rouse",
           "designation": "Boardmember/Conflict Specialist",
-          "ballotOrder": 4
+          "ballotOrder": 4,
+          "incumbent": true
         },
         {
           "name": "Alicia Mignano",
           "designation": "School Board President",
-          "ballotOrder": 5
+          "ballotOrder": 5,
+          "incumbent": true
         }
       ]
     },
@@ -5473,7 +5726,8 @@
         {
           "name": "Agnes P. Gonzalez",
           "designation": "Governing Board Member, Rowland Unified School District",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -5496,7 +5750,8 @@
         {
           "name": "Steve Gibson",
           "designation": "Governing Board Member, Pasadena Area Community College District",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -5560,7 +5815,8 @@
         {
           "name": "Barbara Gaines",
           "designation": "Governing Board Member, Antelope Valley Community College District",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Pamela Ford",
@@ -5606,12 +5862,14 @@
         {
           "name": "Tamala P. Kelly",
           "designation": "Incumbent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Larry J. Spicer",
           "designation": "Council Member",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         },
         {
           "name": "Jesus Rojas",
@@ -5668,7 +5926,8 @@
         {
           "name": "Martin Herrera",
           "designation": "Incumbent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         }
       ]
     },
@@ -5686,7 +5945,8 @@
         {
           "name": "Julia Ruedas",
           "designation": "Educator/Councilwoman",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         }
       ]
     },
@@ -5704,7 +5964,8 @@
         {
           "name": "Ricardo Padilla",
           "designation": "Educator/Counselor",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Raul Pardo",
@@ -5727,7 +5988,8 @@
         {
           "name": "Marisol Cortez",
           "designation": "Councilmember/School Administrator",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Ana Elsa Barcelo",
@@ -5755,7 +6017,8 @@
         {
           "name": "Florencio Briones",
           "designation": "Governing Board Member, El Monte Union High School District",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -5806,7 +6069,8 @@
         {
           "name": "Alex Padilla",
           "designation": "Councilman District 2",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Subrina Miller",
@@ -5829,12 +6093,14 @@
         {
           "name": "Pat Kearney",
           "designation": "City Council Member",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Bernadette Lourdes Suarez",
           "designation": "Lawndale City Councilmember",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -5917,7 +6183,8 @@
         {
           "name": "Norma Amezcua",
           "designation": "Governing Board Member, Norwalk La Mirada USD",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Marybel Micaela Lorenzo",
@@ -5968,7 +6235,8 @@
         {
           "name": "Sharoni Denise Little",
           "designation": "Educator/Servant Leader",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -5986,7 +6254,8 @@
         {
           "name": "Anna Griese",
           "designation": "Governing Board Member, Saugus Union School District",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Alisa Gentry",
@@ -6014,7 +6283,8 @@
         {
           "name": "Christopher Trunkey",
           "designation": "Governing Board Member, Saugus Union School District",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -6037,7 +6307,8 @@
         {
           "name": "Thomas Baird",
           "designation": "Appointed Incumbent",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -6056,7 +6327,8 @@
         {
           "name": "Sylvia V. Macias",
           "designation": "Incumbent",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -6074,7 +6346,8 @@
         {
           "name": "James Cody Birkey",
           "designation": "Incumbent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Sue Elhessen",
@@ -6117,7 +6390,8 @@
         {
           "name": "Judith Manouchehri",
           "designation": "School Board President",
-          "ballotOrder": 5
+          "ballotOrder": 5,
+          "incumbent": true
         }
       ]
     },
@@ -6135,7 +6409,8 @@
         {
           "name": "Rebecca Hamburg Cappy",
           "designation": "Nonprofit Executive/Attorney",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Jeanne Ogar",
@@ -6150,7 +6425,8 @@
         {
           "name": "Rogelio \"Roger\" Bañuelos",
           "designation": "School Board President",
-          "ballotOrder": 4
+          "ballotOrder": 4,
+          "incumbent": true
         },
         {
           "name": "Dawson Bruckman",
@@ -6160,7 +6436,8 @@
         {
           "name": "Nelson E. Martinez",
           "designation": "Governing Board Member, Wiseburn USD",
-          "ballotOrder": 6
+          "ballotOrder": 6,
+          "incumbent": true
         }
       ]
     },
@@ -6183,7 +6460,8 @@
         {
           "name": "Maritza C. Travanti",
           "designation": "Incumbent",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -6201,7 +6479,8 @@
         {
           "name": "Bonnie J. Coronado",
           "designation": "Incumbent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Jennifer R. Bagley",
@@ -6224,7 +6503,8 @@
         {
           "name": "Laura Luciana Santos",
           "designation": "College Board Member",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Armando Barajas",
@@ -6247,7 +6527,8 @@
         {
           "name": "Karina Cordero",
           "designation": "Incumbent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "José Luis Becerra",
@@ -6257,7 +6538,8 @@
         {
           "name": "Maria De Los Angeles Gonzalez",
           "designation": "School Board President",
-          "ballotOrder": 3
+          "ballotOrder": 3,
+          "incumbent": true
         },
         {
           "name": "Jaime Vaca",
@@ -6285,7 +6567,8 @@
         {
           "name": "Reyna E. Diaz",
           "designation": "Incumbent",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -6313,7 +6596,8 @@
         {
           "name": "Julian Del Real-Calleros",
           "designation": "Teacher/Governing Boardmember",
-          "ballotOrder": 3
+          "ballotOrder": 3,
+          "incumbent": true
         },
         {
           "name": "James M. Bishop Sr.",
@@ -6346,7 +6630,8 @@
         {
           "name": "Andres Ramos",
           "designation": "Governing Board Member, Compton Community College District",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Skyy D. Fisher",
@@ -6374,7 +6659,8 @@
         {
           "name": "Nicole J. Jones",
           "designation": "Higher Education Administrator",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -6397,7 +6683,8 @@
         {
           "name": "Brandon George Myers",
           "designation": "Incumbent",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -6438,7 +6725,8 @@
         {
           "name": "Qui Nguyen",
           "designation": "Governing Board Member, El Monte Union High School District",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Kristy Socorro Rowe",
@@ -6461,7 +6749,8 @@
         {
           "name": "Nickolas Lewis",
           "designation": "Incumbent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         }
       ]
     },
@@ -6479,12 +6768,14 @@
         {
           "name": "Veronica Lauria",
           "designation": "Incumbent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Jacqueline J. Rubio",
           "designation": "Incumbent",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         },
         {
           "name": "Angelica Garcia",
@@ -6494,7 +6785,8 @@
         {
           "name": "Rudy T. Martinez",
           "designation": "Incumbent",
-          "ballotOrder": 4
+          "ballotOrder": 4,
+          "incumbent": true
         }
       ]
     },
@@ -6517,7 +6809,8 @@
         {
           "name": "Joyce Randall",
           "designation": "Classroom Teacher/Trustee",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -6535,7 +6828,8 @@
         {
           "name": "Shirley Rudolph",
           "designation": "Incumbent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Varun \"Sunny\" Tamrakar",
@@ -6558,7 +6852,8 @@
         {
           "name": "Michael R. Adams",
           "designation": "Governing Board Member",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Nashon T. Mitchell",
@@ -6604,7 +6899,8 @@
         {
           "name": "Tom Peters",
           "designation": "SMC Board Vice-Chair",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Oscar De La Torre",
@@ -6614,7 +6910,8 @@
         {
           "name": "Luis Barrera Castanon",
           "designation": "Appointed Santa Monica College Board Trustee",
-          "ballotOrder": 3
+          "ballotOrder": 3,
+          "incumbent": true
         },
         {
           "name": "Kera Blades-Snell",
@@ -6624,7 +6921,8 @@
         {
           "name": "Sion Roy",
           "designation": "Santa Monica College Board Chair/Physician",
-          "ballotOrder": 5
+          "ballotOrder": 5,
+          "incumbent": true
         }
       ]
     },
@@ -6642,12 +6940,14 @@
         {
           "name": "Cindy Wu",
           "designation": "Governing Board Member, Mountain View School District",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Adam C. Carranza",
           "designation": "Governing Board Member, Mountain View School District",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         },
         {
           "name": "Griselda Saharai Olivares",
@@ -6662,7 +6962,8 @@
         {
           "name": "Veronica B. Sifuentes",
           "designation": "Governing Board Member, Mountain View School District",
-          "ballotOrder": 5
+          "ballotOrder": 5,
+          "incumbent": true
         }
       ]
     },
@@ -6680,7 +6981,8 @@
         {
           "name": "Rosaelva Lomeli",
           "designation": "Governing Boardmember/Teacher",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Manuel Urteaga",
@@ -6726,7 +7028,8 @@
         {
           "name": "Angela Cutbill",
           "designation": "Governing Board Member, Las Virgenes Unified School District",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Sandra Pope",
@@ -6736,7 +7039,8 @@
         {
           "name": "Dallas Lawrence",
           "designation": "Governing Board Member, Las Virgenes Unified School District",
-          "ballotOrder": 3
+          "ballotOrder": 3,
+          "incumbent": true
         },
         {
           "name": "Coral Edwardsen",
@@ -6803,7 +7107,8 @@
         {
           "name": "Steven F. Veres",
           "designation": "Los Angeles Community College District, Member of the Board of Trustees",
-          "ballotOrder": 5
+          "ballotOrder": 5,
+          "incumbent": true
         }
       ]
     },
@@ -6826,7 +7131,8 @@
         {
           "name": "Anais Medina Diaz",
           "designation": "Governing Board Member",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -6877,6 +7183,25 @@
     },
     {
       "level": "local",
+      "path": "ca/monrovia/2026-11-03/city-of-monrovia-city-clerk",
+      "kind": "candidate",
+      "title": "City of Monrovia, City Clerk",
+      "office": "City of Monrovia, City Clerk",
+      "districtId": "ocd-division/country:us/state:ca/place:monrovia",
+      "contestIds": ["la-4348-cc10489"],
+      "ballots": ["los-angeles-county"],
+      "voteFor": 1,
+      "candidates": [
+        {
+          "name": "Alice D. Atkins",
+          "designation": "City Clerk",
+          "ballotOrder": 1,
+          "incumbent": true
+        }
+      ]
+    },
+    {
+      "level": "local",
       "path": "ca/west-covina/2026-11-03/city-of-west-covina-city-treasurer",
       "kind": "candidate",
       "title": "City of West Covina, City Treasurer",
@@ -6889,7 +7214,8 @@
         {
           "name": "Colleen B. Rozatti",
           "designation": "City Treasurer/Educator",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         }
       ]
     },
@@ -6907,25 +7233,8 @@
         {
           "name": "Erica Harbison",
           "designation": "Incumbent",
-          "ballotOrder": 1
-        }
-      ]
-    },
-    {
-      "level": "local",
-      "path": "ca/monrovia/2026-11-03/city-of-monrovia-city-clerk",
-      "kind": "candidate",
-      "title": "City of Monrovia, City Clerk",
-      "office": "City of Monrovia, City Clerk",
-      "districtId": "ocd-division/country:us/state:ca/place:monrovia",
-      "contestIds": ["la-4348-cc10489"],
-      "ballots": ["los-angeles-county"],
-      "voteFor": 1,
-      "candidates": [
-        {
-          "name": "Alice D. Atkins",
-          "designation": "City Clerk",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         }
       ]
     },
@@ -6943,7 +7252,8 @@
         {
           "name": "Christopher Saenz",
           "designation": "City Clerk, City of Baldwin Park",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         }
       ]
     },
@@ -6973,7 +7283,8 @@
         {
           "name": "Gabriel Buelna",
           "designation": "Member of the Board of Trustees, Los Angeles Community College District, Seat 6",
-          "ballotOrder": 4
+          "ballotOrder": 4,
+          "incumbent": true
         }
       ]
     },
@@ -6991,7 +7302,8 @@
         {
           "name": "Dayna S. Williams-Hunter",
           "designation": "Hawthorne City Clerk",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         }
       ]
     },
@@ -7006,7 +7318,12 @@
       "ballots": ["los-angeles-county"],
       "voteFor": 1,
       "candidates": [
-        { "name": "Yodit Glaze", "designation": "City Clerk", "ballotOrder": 1 }
+        {
+          "name": "Yodit Glaze",
+          "designation": "City Clerk",
+          "ballotOrder": 1,
+          "incumbent": true
+        }
       ]
     },
     {
@@ -7046,7 +7363,8 @@
         {
           "name": "Khaleah K. Bradshaw",
           "designation": "Carson City Clerk",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         }
       ]
     },
@@ -7064,7 +7382,8 @@
         {
           "name": "Jose De La Paz",
           "designation": "City Treasurer",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         }
       ]
     },
@@ -7082,7 +7401,8 @@
         {
           "name": "Gabriel Ramirez",
           "designation": "City Clerk",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Jerry Velasco",
@@ -7105,7 +7425,8 @@
         {
           "name": "Janet Wall",
           "designation": "City Treasurer",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         }
       ]
     },
@@ -7141,7 +7462,8 @@
         {
           "name": "Thu \"Julie\" Nguyen",
           "designation": "Incumbent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         }
       ]
     },
@@ -7177,7 +7499,8 @@
         {
           "name": "Joanna Valenzuela",
           "designation": "Elected City Treasurer",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         }
       ]
     },
@@ -7200,7 +7523,8 @@
         {
           "name": "Kurt Gonska",
           "designation": "Rent Control Commissioner",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         },
         {
           "name": "Soledad Marcial",
@@ -7233,7 +7557,8 @@
         {
           "name": "Monica Cooper",
           "designation": "The City of Carson Treasurer",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         }
       ]
     },
@@ -7279,7 +7604,8 @@
         {
           "name": "Kimberley Clark",
           "designation": "Burbank City Clerk",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         }
       ]
     },
@@ -7297,7 +7623,8 @@
         {
           "name": "Kevin Sawkins",
           "designation": "City Treasurer",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         }
       ]
     },
@@ -7315,7 +7642,8 @@
         {
           "name": "Amy Lee",
           "designation": "City Treasurer/Attorney",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         }
       ]
     },
@@ -7330,7 +7658,12 @@
       "ballots": ["los-angeles-county"],
       "voteFor": 1,
       "candidates": [
-        { "name": "Theresa Lee", "designation": "Incumbent", "ballotOrder": 1 },
+        {
+          "name": "Theresa Lee",
+          "designation": "Incumbent",
+          "ballotOrder": 1,
+          "incumbent": true
+        },
         {
           "name": "Kenny Shu",
           "designation": "Business Owner",
@@ -7352,7 +7685,8 @@
         {
           "name": "Krystle Palmer",
           "designation": "Incumbent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         }
       ]
     },
@@ -7385,12 +7719,14 @@
         {
           "name": "Erin C. Degroot",
           "designation": "Mother/Business Owner",
-          "ballotOrder": 4
+          "ballotOrder": 4,
+          "incumbent": true
         },
         {
           "name": "David E. Schoenwetter",
           "designation": "Appointed Incumbent",
-          "ballotOrder": 5
+          "ballotOrder": 5,
+          "incumbent": true
         }
       ]
     },
@@ -7433,7 +7769,7 @@
       "ballots": ["los-angeles-county"],
       "voteFor": 3,
       "candidates": [
-        { "name": "Henry P. Hernandez", "ballotOrder": 1 },
+        { "name": "Henry P. Hernandez", "ballotOrder": 1, "incumbent": true },
         {
           "name": "Charlie J. Chavez",
           "designation": "Public Servant",
@@ -7452,9 +7788,10 @@
         {
           "name": "Cesar J. Barajas",
           "designation": "Water Board President",
-          "ballotOrder": 5
+          "ballotOrder": 5,
+          "incumbent": true
         },
-        { "name": "John P. Escalera", "ballotOrder": 6 }
+        { "name": "John P. Escalera", "ballotOrder": 6, "incumbent": true }
       ]
     },
     {
@@ -7517,7 +7854,8 @@
         {
           "name": "Michael Yen-Ting Lin",
           "designation": "Appointed Incumbent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Dennis Yang",
@@ -7564,7 +7902,8 @@
         {
           "name": "Drew Mercy",
           "designation": "Director, Antelope Valley-East Kern Water Agency, Division 1",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -7607,7 +7946,7 @@
           "designation": "Fire Captain/Rancher",
           "ballotOrder": 1
         },
-        { "name": "Jay A. Tremblay", "ballotOrder": 2 }
+        { "name": "Jay A. Tremblay", "ballotOrder": 2, "incumbent": true }
       ]
     },
     {
@@ -7629,7 +7968,8 @@
         {
           "name": "Laura Olhasso",
           "designation": "Appointed Incumbent",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -7648,7 +7988,8 @@
         {
           "name": "Jeffery W. Johnson",
           "designation": "Incumbent",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         },
         {
           "name": "Carla D. Dillon",
@@ -7658,7 +7999,8 @@
         {
           "name": "James Bodnar",
           "designation": "Director/Engineer/Operator",
-          "ballotOrder": 4
+          "ballotOrder": 4,
+          "incumbent": true
         }
       ]
     },
@@ -7676,7 +8018,8 @@
         {
           "name": "John Vrsalovich",
           "designation": "Incumbent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Tom Majich",
@@ -7704,7 +8047,8 @@
         {
           "name": "Sheree Rae Butts",
           "designation": "Incumbent",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         }
       ]
     },
@@ -7746,7 +8090,8 @@
         {
           "name": "Lenet Pacheco",
           "designation": "Incumbent",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Erik Peña",
@@ -7761,12 +8106,14 @@
         {
           "name": "Jazmin Leos",
           "designation": "Water Board Vice-President",
-          "ballotOrder": 4
+          "ballotOrder": 4,
+          "incumbent": true
         },
         {
           "name": "David L. Muse",
           "designation": "Water Board President",
-          "ballotOrder": 5
+          "ballotOrder": 5,
+          "incumbent": true
         }
       ]
     },
@@ -7784,7 +8131,8 @@
         {
           "name": "Andy Coradeschi",
           "designation": "Director/Engineer/Businessowner",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Teri L. Davis",
@@ -7807,7 +8155,8 @@
         {
           "name": "Bill Cooper",
           "designation": "Member, Board of Directors, Santa Clarita Valley Water Agency",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Noah M. Ropp",
@@ -7835,12 +8184,14 @@
         {
           "name": "Kenneth \"Ken\" Petersen",
           "designation": "Member, Board of Directors, Santa Clarita Valley Water Agency",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         },
         {
           "name": "Maria A. Gutzeit",
           "designation": "Water Director/Engineer",
-          "ballotOrder": 3
+          "ballotOrder": 3,
+          "incumbent": true
         }
       ]
     },
@@ -7863,7 +8214,8 @@
         {
           "name": "Sergio Joseph Calderon",
           "designation": "Director, Water Replenishment District of So. Calif.",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         },
         {
           "name": "Samuel A. Peña",
@@ -7896,7 +8248,8 @@
         {
           "name": "Tommy G. Faavae",
           "designation": "Appointed Member, Board of Directors, West Basin Municipal Water District",
-          "ballotOrder": 3
+          "ballotOrder": 3,
+          "incumbent": true
         },
         {
           "name": "Anthony J. Fidaleo",
@@ -7957,7 +8310,8 @@
         {
           "name": "Gloria D. Gray",
           "designation": "Water Board Director",
-          "ballotOrder": 2
+          "ballotOrder": 2,
+          "incumbent": true
         },
         {
           "name": "Tyron D. Turner",
@@ -7980,7 +8334,8 @@
         {
           "name": "Beth K. Whittenbury",
           "designation": "Appointed Member, Board of Trustees",
-          "ballotOrder": 1
+          "ballotOrder": 1,
+          "incumbent": true
         },
         {
           "name": "Gabor Nemeth",
@@ -7991,7 +8346,8 @@
         {
           "name": "Jonathan Beutler",
           "designation": "Incumbent",
-          "ballotOrder": 4
+          "ballotOrder": 4,
+          "incumbent": true
         },
         {
           "name": "Maria D. Villa Lathrop",

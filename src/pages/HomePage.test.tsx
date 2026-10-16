@@ -172,6 +172,57 @@ describe('HomePage', () => {
     expect(within(results).queryByText(/public lotteries/)).toBeNull()
   })
 
+  it('uses California’s words for measures and links the state voter guide', async () => {
+    const CA = 'ocd-division/country:us/state:ca'
+    const prop: Contest = {
+      ...base,
+      electionId: 'ca-2026-11-03-general',
+      authorityId: `${CA}/county:los_angeles`,
+      kind: 'measure',
+      id: 'p1',
+      districtId: CA,
+      title:
+        'Proposition 1: Authorizes Bonds for Housing Affordability Programs',
+      question: 'Authorizes bonds.\nFiscal Impact: Costs.',
+      guide: {
+        name: 'California voter guide',
+        url: 'https://voterguide.sos.ca.gov/propositions/1/',
+      },
+    }
+    mockApi(200, {
+      ...ballot,
+      election: {
+        id: 'ca-2026-11-03-general',
+        name: 'General Election',
+        date: '2026-11-03',
+        divisionId: CA,
+      },
+      contests: [prop, { ...prop, id: 'p2', guide: undefined }],
+    })
+    renderAt('/')
+    await lookUp('200 N Spring St', 'Los Angeles', '90012')
+
+    const results = await screen.findByRole('article')
+    expect(
+      within(results).getByRole('heading', {
+        level: 2,
+        name: 'Propositions and measures',
+      }),
+    ).toBeInTheDocument()
+    expect(screen.getByText(/^You have 0 races and 2 measures/)).toBeVisible()
+    const links = within(results).getAllByRole('link', {
+      name: 'California voter guide',
+    })
+    expect(links).toHaveLength(1)
+    expect(links[0]).toHaveAttribute(
+      'href',
+      'https://voterguide.sos.ca.gov/propositions/1/',
+    )
+    expect(links[0].parentElement).toHaveTextContent(
+      'Full text and arguments: California voter guide',
+    )
+  })
+
   it('shows no notice when the ballot matched every official list', async () => {
     mockApi(200, {
       ...ballot,

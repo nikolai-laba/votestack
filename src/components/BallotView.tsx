@@ -21,6 +21,7 @@ import { SampleModeContext, useSampleMode } from '../picks/sampleMode.ts'
 import { useBallotStore, type Picks } from '../picks/store.ts'
 import { choicesFor, swapText } from '../picks/summary.ts'
 import { partyLine, profileKey } from '../shared/profile.ts'
+import { COOK, measureWordsFor, type MeasureWords } from '../shared/regions.ts'
 import { BallotOrderToggle } from './BallotOrderToggle.tsx'
 import { ChevronDownIcon, WarningIcon } from './icons.tsx'
 import {
@@ -35,14 +36,17 @@ const plural = (n: number, one: string, many: string) =>
   `${n} ${n === 1 ? one : many}`
 
 /** "26 races, 60 judges up for retention and 2 referenda" */
-export function raceCountText(contests: Contest[]): string {
+export function raceCountText(
+  contests: Contest[],
+  words: MeasureWords = COOK.measureWords,
+): string {
   const count = (kind: Contest['kind']) =>
     contests.filter((c) => c.kind === kind).length
   const parts = [
     plural(count('candidate'), 'race', 'races'),
     count('retention') &&
       `${plural(count('retention'), 'judge', 'judges')} up for retention`,
-    count('measure') && plural(count('measure'), 'referendum', 'referenda'),
+    count('measure') && plural(count('measure'), words.one, words.many),
   ].filter((p): p is string => Boolean(p))
   return parts.length > 1
     ? `${parts.slice(0, -1).join(', ')} and ${parts.at(-1)}`
@@ -64,7 +68,8 @@ export function BallotView({
   titleElsewhere?: boolean
 }) {
   const [order] = useBallotOrder()
-  const sections = sectionsFor(ballot.contests, order)
+  const words = measureWordsFor(ballot.election.id)
+  const sections = sectionsFor(ballot.contests, order, words)
   const current = useCurrentSection(sections)
   const published = new Set(ballot.publishedProfiles ?? [])
   const Title = titleElsewhere ? 'h2' : 'h1'
@@ -88,8 +93,8 @@ export function BallotView({
 
       <p className="text-section font-heading font-semibold">
         {sample
-          ? `This ballot has ${raceCountText(ballot.contests)}.`
-          : `You have ${raceCountText(ballot.contests)} on your ballot.`}
+          ? `This ballot has ${raceCountText(ballot.contests, words)}.`
+          : `You have ${raceCountText(ballot.contests, words)} on your ballot.`}
       </p>
 
       <CoverageNotice coverage={ballot.coverage} />
@@ -133,7 +138,7 @@ export function BallotView({
       )}
 
       {sections.map((section) =>
-        section.id === 'retention' ? (
+        section.contests.every((c) => c.kind === 'retention') ? (
           <RetentionPanel
             key={section.id}
             section={section}
@@ -510,6 +515,19 @@ function Measure({
           Official ballot text
         </p>
         <p className="whitespace-pre-line">{contest.question}</p>
+        {contest.guide && webUrl(contest.guide.url) && (
+          <p>
+            Full text and arguments:{' '}
+            <a
+              className="inline-flex min-h-11 items-center"
+              href={webUrl(contest.guide.url)}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {contest.guide.name}
+            </a>
+          </p>
+        )}
       </div>
       {!sample && (
         <div className="px-4 pb-3">

@@ -7,6 +7,7 @@ import {
   type BallotOutletContext,
 } from '../ballot/profileLinks.ts'
 import { LEVEL_TITLES } from '../ballot/sections.ts'
+import { measureWordsFor } from '../shared/regions.ts'
 import { ProfileSkeleton } from '../components/profile/ProfileSkeleton.tsx'
 import {
   RaceCardFor,
@@ -60,6 +61,9 @@ function Heading({ children }: { children: string }) {
     </h1>
   )
 }
+
+const capitalize = (word: string) =>
+  word.charAt(0).toUpperCase() + word.slice(1)
 
 export default function RacesPage() {
   const rest = (useParams()['*'] ?? '').replace(/\/$/, '')
@@ -158,8 +162,8 @@ function RaceArea({
         <p>
           This list has every race and every judge up for retention on any
           ballot in {areaBallotsText(list)}. Your own ballot has only some of
-          them. Referenda aren&apos;t listed here, because which ones you see
-          depends on your exact address.
+          them. {capitalize(measureWordsFor(list.electionId).many)} aren&apos;t
+          listed here, because which ones you see depends on your exact address.
         </p>
         <p>
           <Link to={ABOUT_PATH}>Where the race lists come from</Link>

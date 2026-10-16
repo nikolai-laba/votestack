@@ -1,5 +1,6 @@
 import { describe, expect, it, vi } from 'vitest'
 import type { Ballot, Contest } from '../shared/ballot.ts'
+import { LOS_ANGELES } from '../shared/regions.ts'
 import { MemoryStorage } from '../test/memoryStorage.ts'
 import { STORAGE_KEY, createBallotStore, parseStored } from './store.ts'
 import {
@@ -144,6 +145,9 @@ describe('ballot store', () => {
     expect(counts.picked).toBe(2)
     expect(pickCountText(counts)).toBe(
       '1 of 1 race, 0 of 1 judge up for retention and 1 of 1 referendum',
+    )
+    expect(pickCountText(counts, LOS_ANGELES.measureWords)).toBe(
+      '1 of 1 race, 0 of 1 judge up for retention and 1 of 1 measure',
     )
   })
 

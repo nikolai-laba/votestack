@@ -31,6 +31,7 @@ import { WarningIcon } from '../components/icons.tsx'
 import { SampleModeContext } from '../picks/sampleMode.ts'
 import { isRaceHandoffState } from '../races/data.ts'
 import { useBallotStore } from '../picks/store.ts'
+import { measureWordsFor } from '../shared/regions.ts'
 
 // My ballot, at /: this session's lookup, a sample, or the ballot saved on
 // the device. With none of them it sends the visitor to /getstarted (the
@@ -280,8 +281,12 @@ export function HomePage() {
             )}
             {inSample && sampleLookup.data && (
               <p className="sr-only">
-                Showing {raceCountText(sampleLookup.data.contests)} on the
-                sample ballot.
+                Showing{' '}
+                {raceCountText(
+                  sampleLookup.data.contests,
+                  measureWordsFor(sampleLookup.data.election.id),
+                )}{' '}
+                on the sample ballot.
               </p>
             )}
           </div>

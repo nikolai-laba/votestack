@@ -24,7 +24,7 @@ import type {
   OcdId,
   SourceRef,
 } from '../../src/shared/ballot.ts'
-import type { ClerkSplit } from '../../src/shared/cook.ts'
+import { BALLOT_STYLE_LAYER, type ClerkSplit } from '../../src/shared/cook.ts'
 import type { AreaGeometry, PolygonCoords } from '../../src/shared/geo.ts'
 import { LOS_ANGELES } from '../../src/shared/regions.ts'
 import { readableCase } from '../../src/shared/text.ts'
@@ -37,13 +37,20 @@ import {
 } from '../lib/data.ts'
 import { contestTitle, measureDistrict, officeDistrict } from './districts.ts'
 import { AreaGrid, loadSegments, segmentStyle } from './segments.ts'
+import {
+  measureText,
+  propositionTitle,
+  stateMeasure,
+  titleCase,
+  voterGuideUrl,
+} from './titles.ts'
 
 const ELECTION = process.argv[2] ?? '4348'
 const ISB = join(RAW, 'la', 'isb', ELECTION)
 const OUT = join(BUILD, 'la')
 const AUTHORITY = LOS_ANGELES.authorityFor(undefined)
 /** The layer name the Worker sees for districts from a ballot style. */
-const LAYER = 'ballot style'
+const LAYER = BALLOT_STYLE_LAYER
 
 type Text = Record<string, string | null | undefined>
 interface IsbCandidate {
@@ -73,20 +80,6 @@ interface IsbBallot {
 interface IsbSegment {
   PrecinctID: string
   partyBallotMap: Record<string, string>
-}
-
-/**
- * A title in readable case. readableCase leaves a lone capitalized word
- * ("SHERIFF", "GOVERNOR") as it is, so a title with no lower case at all is
- * capitalized word by word.
- */
-function titleCase(text: string): string {
-  const readable = readableCase(text)
-  if (/[a-z]/.test(readable)) return readable
-  return readable
-    .toLowerCase()
-    .replace(/(^|[\s(-])(\p{L})/gu, (_, sep, ch) => sep + ch.toUpperCase())
-    .replace(/\b(Of|The|And|For)\b/g, (w) => w.toLowerCase())
 }
 
 /** "JUDGE OF THE SUPERIOR COURT Office No. 64" → "Office No. 64". */
@@ -281,14 +274,19 @@ for (const [id, district] of districtOf) {
   }
 }
 
-// Party preference labels as printed ("Party Preference: Democratic").
+// Party names. The ballot prints "Party Preference: Democratic" (required on
+// the ballot for voter-nominated offices); the app shows the party name alone,
+// as it does for Cook County.
 const election = await readJson<{
   parties: { id: string; display_name: Text }[]
 }>(join(ISB, 'election.json'))
 const partyName = new Map(
   election.parties
     .filter((p) => !['NP', 'VNC'].includes(p.id))
-    .map((p) => [p.id, en(p.display_name)]),
+    .map((p) => [
+      p.id,
+      en(p.display_name).replace(/^Party Preference:\s*/i, ''),
+    ]),
 )
 
 /**
@@ -314,14 +312,27 @@ for (const [id, c] of isbContests) {
         : contestTitle(name.replace(/^For /, '')),
     ),
     ballotOrder: rank.get(id),
+    // The Registrar orders contests the same way on every ballot style
+    // (orderCycles is 0), so the ballot order is the paper ballot's order.
+    paperOrder: rank.get(id),
     sources: [source],
     lastVerified: retrievedAt.slice(0, 10),
   }
   if (c.contest_class === 'ballot_measure_class') {
+    // Statewide measures are numbered propositions with the Secretary of
+    // State's title; county and local measures keep the Registrar's name.
+    const state = stateMeasure(name, c.long_description?.EN ?? '')
     contests.push({
       ...base,
+      ...(state && { title: propositionTitle(state) }),
       kind: 'measure',
-      question: en(c.long_description),
+      question: measureText(c.long_description?.EN ?? ''),
+      ...(state && {
+        guide: {
+          name: 'California voter guide',
+          url: voterGuideUrl(state.number),
+        },
+      }),
     })
     continue
   }
@@ -440,6 +451,16 @@ for (const line of rows) {
     votes.set(precinct, tally)
   }
 }
+/**
+ * The styles a precinct's addresses split between when none has 80%: each
+ * with at least 10% of them, so one stray address doesn't add a ballot.
+ */
+function stylesFromSplitAddresses(precinct: string): Set<string> {
+  const tally = [...(votes.get(precinct) ?? [])]
+  const total = tally.reduce((n, [, v]) => n + v, 0)
+  return new Set(tally.filter(([, v]) => v >= 0.1 * total).map(([s]) => s))
+}
+
 /** The style most of a precinct's addresses have, if at least 80% agree. */
 function styleFromAddresses(precinct: string): string | undefined {
   const tally = [...(votes.get(precinct) ?? [])].sort((a, b) => b[1] - a[1])
@@ -450,6 +471,7 @@ function styleFromAddresses(precinct: string): string | undefined {
 const splits: Record<string, ClerkSplit[]> = {}
 let borrowed = 0
 let fromAddresses = 0
+let splitByAddresses = 0
 let noStyle = 0
 let ambiguousBorrow = 0
 let signatureVsAddresses = 0
@@ -465,6 +487,12 @@ for (const precinct of shapes.keys()) {
     } else if (fromVotes) {
       styles = new Set([fromVotes])
       fromAddresses++
+    } else if (stylesFromSplitAddresses(precinct).size > 1) {
+      // A precinct whose addresses really are on different ballots: every
+      // one of them, so the lookup shows all their races and says the
+      // precinct is split, rather than leaving the local races out.
+      styles = stylesFromSplitAddresses(precinct)
+      splitByAddresses++
     } else {
       if (candidates && candidates.size > 1) ambiguousBorrow++
       noStyle++
@@ -539,9 +567,11 @@ const report = {
   addressPointsOutsideEveryPrecinct: outsideCounty,
   precinctsOnMap: shapes.size,
   precinctsWithStyle: Object.keys(splits).length,
-  styleFromSegments: Object.keys(splits).length - borrowed - fromAddresses,
+  styleFromSegments:
+    Object.keys(splits).length - borrowed - fromAddresses - splitByAddresses,
   styleBorrowedFromSameDistricts: borrowed,
   styleFromTheirAddresses: fromAddresses,
+  stylesFromAddressesSplitBetweenStyles: splitByAddresses,
   sameDistrictsStyleDisagreesWithAddresses: signatureVsAddresses,
   precinctsWithoutStyle: noStyle,
   precinctsWithoutStyleAmbiguousBorrow: ambiguousBorrow,

@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { Contest } from '../shared/ballot.ts'
+import { LOS_ANGELES } from '../shared/regions.ts'
 import {
   groupContests,
   hasPaperOrder,
@@ -196,5 +197,85 @@ describe('paper order', () => {
     expect(hasPaperOrder(old)).toBe(false)
     expect(sectionsFor(old, 'paper')[0].id).toBe('federal')
     expect(hasPaperOrder([])).toBe(false)
+  })
+})
+
+describe('paperSections on an interleaved ballot (Los Angeles County)', () => {
+  const words = LOS_ANGELES.measureWords
+  const at = (contest: Contest, paperOrder: number): Contest => ({
+    ...contest,
+    paperOrder,
+  })
+  const measure = (title: string, districtId: string, paperOrder: number) =>
+    at(
+      {
+        kind: 'measure',
+        id: title,
+        electionId: 'e',
+        districtId,
+        authorityId: LA,
+        title,
+        question: '?',
+        sources: [],
+        lastVerified: '2026-10-16',
+      },
+      paperOrder,
+    )
+  const contests: Contest[] = [
+    measure('Proposition 1', CA, 40),
+    at(candidate('Governor', CA), 30),
+    measure('County Measure A', LA, 20),
+    at(candidate('Sheriff', LA), 10),
+    at(candidate('Judge of the Superior Court', LA), 11),
+    measure('Measure TE', `${CA}/place:los_angeles`, 2),
+    measure('Measure SC', `${CA}/place:los_angeles/contest_area:x`, 3),
+    at(candidate('Member of the City Council', `${CA}/place:los_angeles`), 1),
+    measure('Proposition 2', CA, 41),
+    {
+      kind: 'retention',
+      id: 'Ann Lee',
+      electionId: 'e',
+      districtId: CA,
+      authorityId: LA,
+      title: 'Ann Lee',
+      judge: 'Ann Lee',
+      office: 'Associate Justice',
+      paperOrder: 50,
+      sources: [],
+      lastVerified: '2026-10-16',
+    },
+  ]
+
+  it('makes a section of each run, titled by its level, with unique ids', () => {
+    const sections = paperSections(contests, words)
+    expect(sections.map((s) => [s.id, s.title])).toEqual([
+      ['races', 'City and local'],
+      ['measures', 'City and local measures'],
+      ['races-2', 'Races'],
+      ['measures-2', 'County measures'],
+      ['races-3', 'State'],
+      ['measures-3', 'State propositions'],
+      ['retention', 'Judicial retention'],
+    ])
+    expect(sections[1].contests.map((c) => c.id)).toEqual([
+      'Measure TE',
+      'Measure SC',
+    ])
+    expect(sections[5].contests.map((c) => c.id)).toEqual([
+      'Proposition 1',
+      'Proposition 2',
+    ])
+  })
+
+  it('uses the region’s words for its measures', () => {
+    expect(
+      groupContests(contests, words).find((s) => s.id === 'measures')?.title,
+    ).toBe('Propositions and measures')
+    const one = contests.filter(
+      (c) => c.kind !== 'measure' || c.id === 'Proposition 1',
+    )
+    expect(paperSections(one, words).map((s) => s.title)).toContain(
+      'Propositions and measures',
+    )
   })
 })

@@ -1,20 +1,25 @@
 // Incumbent labels: which candidates hold the seat they're running
 // for, from official lists only (see scripts/lib/incumbents.ts). Reads the
 // profile subjects (npm run profiles:subjects), the FEC candidate summary,
-// the ilga.gov member lists and the hand-checked content/incumbents/rosters.json,
-// and writes content/incumbents/{election date}.json, which load-supabase.ts
-// merges into the contests and profiles:generate into the profiles.
+// the hand-checked content/incumbents/rosters.json and, for Cook County, the
+// ilga.gov member lists or, for Los Angeles County, the ballot designations
+// in the Registrar's contests (data/build/la/contests.json). Writes
+// content/incumbents/{election date}.json (in a folder per area after Cook
+// County), which load-supabase.ts merges into the contests and
+// profiles:generate into the profiles.
 // Downloads are cached in data/raw/ for a day; --refresh fetches them again.
 // ilga.gov serves an incomplete certificate chain that Node's fetch rejects,
 // so its pages are fetched with curl, which completes the chain.
-// Run: npm run data:incumbents [-- --refresh]
+// Run: npm run data:incumbents [-- --refresh] [--region=<id>]
 
 import { execFile } from 'node:child_process'
 import { mkdir, readFile, rename, stat } from 'node:fs/promises'
 import { promisify } from 'node:util'
 import { join } from 'node:path'
 import { chicagoDate } from '../src/shared/dates.ts'
-import { RAW, ROOT, readJson } from './lib/data.ts'
+import type { Contest } from '../src/shared/ballot.ts'
+import { profileKey } from '../src/shared/profile.ts'
+import { BUILD, RAW, ROOT, readJson } from './lib/data.ts'
 import {
   buildIncumbents,
   ilgaListUrl,
@@ -28,12 +33,18 @@ import {
   SUBJECTS,
   writeFormattedJson,
 } from './lib/profiles/content.ts'
+import { IS_COOK, REGION, regionDir } from './lib/profiles/region.ts'
 import { downloadFec, FEC_CYCLE, loadFec } from './lib/profiles/fec.ts'
 
 const MAX_AGE_HOURS = process.argv.includes('--refresh') ? 0 : 24
 const FEC_DIR = join(RAW, 'money', 'fec')
 const ILGA_DIR = join(RAW, 'incumbents')
-const ROSTERS = join(ROOT, 'content', 'incumbents', 'rosters.json')
+const ROSTERS = join(
+  regionDir(join(ROOT, 'content', 'incumbents')),
+  'rosters.json',
+)
+/** The FEC's two-letter code for the region's state. */
+const STATE = REGION.id === 'ca-la' ? 'CA' : 'IL'
 
 /** Like cachedDownload (scripts/lib/profiles/download.ts), through curl. */
 async function curlDownload(url: string, path: string, maxAgeHours: number) {
@@ -63,7 +74,7 @@ const { subjects } = await readJson<{ subjects: Person[] }>(SUBJECTS)
 await downloadFec(FEC_DIR, MAX_AGE_HOURS)
 const fecFile = join(FEC_DIR, `candidate_summary_${FEC_CYCLE}.csv`)
 const fec = {
-  candidates: (await loadFec(FEC_DIR)).candidates,
+  candidates: (await loadFec(FEC_DIR, STATE)).candidates,
   checked: await checkedOn(fecFile),
 }
 
@@ -71,7 +82,7 @@ const ilga = {} as Record<
   Chamber,
   { members: ReturnType<typeof parseIlgaMembers>; checked: string }
 >
-for (const chamber of ['House', 'Senate'] as const) {
+for (const chamber of IS_COOK ? (['House', 'Senate'] as const) : []) {
   const path = join(ILGA_DIR, `ilga-${chamber.toLowerCase()}.html`)
   await curlDownload(ilgaListUrl(chamber), path, MAX_AGE_HOURS)
   const members = parseIlgaMembers(await readFile(path, 'utf8'))
@@ -84,11 +95,27 @@ for (const chamber of ['House', 'Senate'] as const) {
   ilga[chamber] = { members, checked: await checkedOn(path) }
 }
 
+// Ballot designations as the Registrar prints them (Los Angeles County).
+const LA_CONTESTS = join(BUILD, 'la', 'contests.json')
+const designations = IS_COOK
+  ? undefined
+  : {
+      byKey: new Map(
+        (await readJson<{ contests: Contest[] }>(LA_CONTESTS)).contests
+          .flatMap((c) => (c.kind === 'candidate' ? c.candidates : []))
+          .filter((c) => c.designation)
+          .map((c) => [profileKey(c.name), c.designation!]),
+      ),
+      source: 'https://isb.lavote.gov/',
+      checked: await checkedOn(LA_CONTESTS),
+    }
+
 const rosters = await readJson<RosterFile>(ROSTERS)
 const { incumbents, unusedRoster } = buildIncumbents(subjects, {
   fec,
-  ilga,
+  ...(IS_COOK && { ilga }),
   roster: rosters.entries,
+  designations,
 })
 if (unusedRoster.length)
   throw new Error(

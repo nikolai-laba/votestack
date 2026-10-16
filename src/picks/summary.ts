@@ -3,6 +3,7 @@
 
 import type { CandidateContest, Contest } from '../shared/ballot.ts'
 import { profileKey } from '../shared/profile.ts'
+import { COOK, type MeasureWords } from '../shared/regions.ts'
 import type { Choice, Picks, SavedBallot } from './store.ts'
 
 export function choicesFor(picks: Picks, contest: Contest): Choice[] {
@@ -55,14 +56,17 @@ export function pickCounts(ballot: SavedBallot, picks: Picks): PickCounts {
 }
 
 /** "3 of 26 races, 10 of 60 judges up for retention and 0 of 2 referenda" */
-export function pickCountText(counts: PickCounts): string {
+export function pickCountText(
+  counts: PickCounts,
+  words: MeasureWords = COOK.measureWords,
+): string {
   const part = ({ picked, total }: Tally, one: string, many: string) =>
     total ? `${picked} of ${total} ${total === 1 ? one : many}` : ''
   const parts = [
     part(counts.races, 'race', 'races'),
     part(counts.retention, 'judge', 'judges') &&
       `${part(counts.retention, 'judge', 'judges')} up for retention`,
-    part(counts.measures, 'referendum', 'referenda'),
+    part(counts.measures, words.one, words.many),
   ].filter(Boolean)
   if (parts.length === 0) return 'no races'
   return parts.length > 1

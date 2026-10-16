@@ -18,7 +18,7 @@ import {
   pickedCandidates,
 } from '../picks/summary.ts'
 import type { Contest } from '../shared/ballot.ts'
-import { regionForElection } from '../shared/regions.ts'
+import { measureWordsFor, regionForElection } from '../shared/regions.ts'
 import { SAVED_CHOICES_HEAD, useDocumentHead } from '../head.ts'
 
 // Saved choices: the voter's picks in ballot order, to fill in a mail
@@ -70,7 +70,8 @@ export function SavedChoicesPage() {
     )
   }
 
-  const sections = sectionsFor(ballot.contests, order)
+  const words = measureWordsFor(ballot.election.id)
+  const sections = sectionsFor(ballot.contests, order, words)
   // Illinois's law against showing a marked ballot. California's differs,
   // so the warning is for Illinois ballots (and any ballot whose state isn't
   // known).
@@ -83,7 +84,7 @@ export function SavedChoicesPage() {
         <p className="text-muted">
           {ballot.election.name}, {longDate(ballot.election.date)}
         </p>
-        <p>You picked in {pickCountText(pickCounts(ballot, picks))}.</p>
+        <p>You picked in {pickCountText(pickCounts(ballot, picks), words)}.</p>
       </header>
 
       <PickNotices />

@@ -30,6 +30,17 @@ export interface Segment {
   partyBallotMap: Record<string, string>
 }
 
+/**
+ * A street key in the form both sides share: the Registrar zero-pads
+ * numbered streets ("096TH") and drops hyphens ("AVENUE M4") where the
+ * County's address points don't ("96TH", "AVENUE M-4").
+ */
+const normalKey = (key: string) =>
+  key.replace(/\|0+(?=\d)/, '|').replace(/-/g, '')
+
+/** The same street with any direction, for addresses that carry it after the name. */
+const anyDirection = (key: string) => `*${key.slice(key.indexOf('|'))}`
+
 /** Segments by street key (src/shared/address.ts), as voters' addresses are keyed. */
 export async function loadSegments(
   dir: string,
@@ -42,10 +53,12 @@ export async function loadSegments(
         `1 ${s.StreetDirection || s.AddressDirection} ${s.StreetName} ${s.StreetSuffix}`,
       )
       if (!parsed) continue
-      const key = streetKey(parsed)
-      const list = byStreet.get(key)
-      if (list) list.push(s)
-      else byStreet.set(key, [s])
+      const key = normalKey(streetKey(parsed))
+      for (const k of [key, anyDirection(key)]) {
+        const list = byStreet.get(k)
+        if (list) list.push(s)
+        else byStreet.set(k, [s])
+      }
     }
   }
   return byStreet
@@ -64,14 +77,20 @@ export function segmentStyle(
 ): string | null | undefined {
   const parsed = parseAddress(address)
   if (!parsed) return undefined
-  const matches = (segments.get(streetKey(parsed)) ?? []).filter(
-    (s) =>
-      parsed.number >= s.StartHouseNumber &&
-      parsed.number <= s.EndHouseNumber &&
-      (s.OddEvenBoth === 'both' ||
-        (s.OddEvenBoth === 'odd') === (parsed.number % 2 === 1)) &&
-      (!zip || !s.Zip || s.Zip === zip),
-  )
+  const covers = (s: Segment) =>
+    parsed.number >= s.StartHouseNumber &&
+    parsed.number <= s.EndHouseNumber &&
+    (s.OddEvenBoth === 'both' ||
+      (s.OddEvenBoth === 'odd') === (parsed.number % 2 === 1)) &&
+    (!zip || !s.Zip || s.Zip === zip)
+  const key = normalKey(streetKey(parsed))
+  // The street as written first; then the same name with any direction, as
+  // when the Registrar gives a direction the address doesn't ("W 149th St"
+  // for "149th Street", "E 96th St" for "96th Street E"). Disagreeing
+  // segments still give null below, so a guess between two streets is never made.
+  let matches = (segments.get(key) ?? []).filter(covers)
+  if (matches.length === 0)
+    matches = (segments.get(anyDirection(key)) ?? []).filter(covers)
   const styles = new Set(matches.map(styleOf).filter(Boolean))
   if (styles.size === 0) return undefined
   return styles.size === 1 ? [...styles][0] : null

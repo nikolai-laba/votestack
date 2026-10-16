@@ -97,6 +97,13 @@ export interface ClerkSplit {
   covers?: string[]
 }
 
+/**
+ * The layer of a split that is a whole official ballot style (Los Angeles
+ * County): every district its contests belong to, several of a kind where
+ * the ballot has them (an elementary and a high school district).
+ */
+export const BALLOT_STYLE_LAYER = 'ballot style'
+
 /** Map layers the Clerk's assignments replace (see scripts/build-clerk-precincts.ts). */
 export const CLERK_LAYERS = [
   'congressional',
@@ -163,7 +170,10 @@ export function applyClerkSplits(
         .join(' '),
     ),
   )
-  const layers = own(chosen[0]).map((d) => d.layer)
+  // A ballot style lists several districts of one kind by design.
+  const layers = own(chosen[0])
+    .map((d) => d.layer)
+    .filter((l) => l !== BALLOT_STYLE_LAYER)
   const twoInOneLayer = new Set(layers).size < layers.length
   // Or if a district may cover only part of the precinct.
   const possible = clerk.some((d) => d.possible)

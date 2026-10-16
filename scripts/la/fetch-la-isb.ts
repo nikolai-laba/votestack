@@ -59,8 +59,13 @@ for await (const row of csvRows(join(RAW, 'la', 'cams.csv'))) {
     row.StreetName,
     [row.PreType, row.StreetName].filter(Boolean).join(' '),
   ]) {
-    const prefix = name?.trim().toUpperCase().slice(0, 3)
+    const upper = name?.trim().toUpperCase()
+    const prefix = upper?.slice(0, 3)
     if (prefix && /^[A-Z0-9]/.test(prefix)) prefixes.add(prefix)
+    // The Registrar writes numbered streets zero-padded ("096TH" for 96th
+    // Street) and files them under the padded prefix ("096").
+    const numbered = upper?.match(/^(\d{1,2})(?!\d)/)?.[1]
+    if (numbered) prefixes.add(numbered.padStart(3, '0'))
   }
 }
 
