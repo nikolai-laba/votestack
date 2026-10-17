@@ -1,0 +1,87 @@
+{
+  "key": "james-bodnar",
+  "electionId": "ca-2026-11-03-general",
+  "name": "James Bodnar",
+  "office": "Crescenta Valley Water District, Member, Board of Directors",
+  "contestIds": ["la-4348-cc10377"],
+  "kind": "candidate",
+  "tier": "short",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "James Bodnar, a licensed civil engineer, was elected to the Crescenta Valley Water District board in 2009 and is its 2026 president. In 2013, he said he wanted to keep water rates low and review the rate structure. In 2019, he presided over a hearing on proposed water and sewer rate increases. In 2026, he voted to authorize a $2.7 million construction contract.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "James Bodnar, a licensed civil engineer, was elected to the Crescenta Valley Water District board in 2009 and is its 2026 president.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2013, he said he wanted to keep water rates low and review the rate structure.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2019, he presided over a hearing on proposed water and sewer rate increases.",
+            "cites": [3]
+          },
+          {
+            "text": "In 2026, he voted to authorize a $2.7 million construction contract.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/214314374-Bodnar%2C%20James",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "James D. Bodnar - Crescenta Valley Water District",
+      "publisher": "Crescenta Valley Water District",
+      "url": "https://www.cvwd.com/board-of-directors/2026-board-president/",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Incumbents win reelection on CV Water District board",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/socal/glendale-news-press/news/tn-gnp-me-incumbents-win-reelection-on-cv-water-district-board-20131106-story.html",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Residents Offer Opinions Regarding Proposed Water Rate Increases at CVWD Meeting - Crescenta Valley Weekly",
+      "publisher": "Crescenta Valley Weekly",
+      "url": "https://www.crescentavalleyweekly.com/news/06/13/2019/residents-offer-opinions-regarding-proposed-water-rate-increases-cvwd-meeting/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "042826-Board-Packet.pdf",
+      "publisher": "Crescenta Valley Water District",
+      "url": "https://cvwd.ccsdesigns.com/wp-content/uploads/042826-Board-Packet.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.342Z",
+    "version": 3
+  }
+}

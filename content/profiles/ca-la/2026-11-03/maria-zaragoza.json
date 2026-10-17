@@ -1,0 +1,49 @@
+{
+  "key": "maria-zaragoza",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Maria Zaragoza",
+  "office": "City of Downey, Member of the City Council, 2nd District",
+  "contestIds": ["la-4348-cc10443"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Maria Zaragoza is a candidate for the Downey City Council District 2 seat.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Maria Zaragoza is a candidate for the Downey City Council District 2 seat.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Downey",
+      "url": "https://lf.downeyca.org/WebLink/Browse.aspx?id=782257&dbid=0&repo=Downey"
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate Statements - LAVote.gov",
+      "publisher": "LA County Registrar-Recorder/County Clerk",
+      "url": "https://apps.lavote.gov/candidate-statements/public-statement/9254/23136/EN",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.374Z",
+    "version": 2
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "key": "shazia-hoq",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Shazia Hoq",
+  "office": "City of Montebello, Member of the City Council, 1st District",
+  "contestIds": ["la-4348-cc10481"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Shazia Hoq is a businesswoman running for Montebello City Council, District 1. Her campaign states she has spent 20 years building a business and serving the community. She supports growth that creates local jobs and helps small businesses. She proposes transparent budgeting, accountable contracting, and community input in city decisions. Her campaign calls for faster emergency response times and safer streets.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Shazia Hoq is a businesswoman running for Montebello City Council, District 1.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign states she has spent 20 years building a business and serving the community.",
+            "cites": [1]
+          },
+          {
+            "text": "She supports growth that creates local jobs and helps small businesses.",
+            "cites": [1]
+          },
+          {
+            "text": "She proposes transparent budgeting, accountable contracting, and community input in city decisions.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign calls for faster emergency response times and safer streets.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Montebello",
+        "committee": "Shazia Hoq City Council 2026",
+        "url": "https://netfile.com/public/BELLO/campaign/filingsByFiler/217100084-Shazia%20Hoq%20City%20Council%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 19010,
+        "cashOnHand": 9748.1,
+        "breakdown": [
+          { "kind": "small", "amount": 10 },
+          { "kind": "loan", "amount": 19000 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 10500, "count": 2 }
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Shazia Hoq for Montebello City Council",
+      "publisher": "Shazia Hoq campaign",
+      "url": "https://www.shaziahoq.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.504Z",
+    "version": 2
+  }
+}

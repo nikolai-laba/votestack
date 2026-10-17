@@ -1,0 +1,27 @@
+{
+  "key": "georgene-mrs-georgie-navarrete",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Georgene \"Mrs. Georgie\" Navarrete",
+  "office": "La Puente Valley County Water District, Member, Board of Directors",
+  "contestIds": ["la-4348-cc10384"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217062587-Navarrete%2C%20Georgene",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.399Z",
+    "version": 2
+  }
+}

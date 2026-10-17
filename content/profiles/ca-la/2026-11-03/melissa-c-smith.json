@@ -1,0 +1,58 @@
+{
+  "key": "melissa-c-smith",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Melissa C. Smith",
+  "office": "Hacienda La Puente Unified School District, Governing Board Member, Trustee Area No. 4",
+  "contestIds": ["la-4348-cc10649"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Melissa C. Smith is a retired elementary school teacher running for the Hacienda La Puente Unified School District board in Trustee Area 4. She says she wants to focus on budget help and increasing public transparency. She says she spent 36 years in education, including 33 years as an elementary teacher and three as a classroom aide, and that she served as a union site representative at her school.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Melissa C. Smith is a retired elementary school teacher running for the Hacienda La Puente Unified School District board in Trustee Area 4.",
+            "cites": [1]
+          },
+          {
+            "text": "She says she wants to focus on budget help and increasing public transparency.",
+            "cites": [1]
+          },
+          {
+            "text": "She says she spent 36 years in education, including 33 years as an elementary teacher and three as a classroom aide, and that she served as a union site representative at her school.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217051857-Smith%2C%20Melissa",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Melissa Smith, Hacienda-La Puente Unified School District Area 4 candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/melissa-smith-hacienda-la-puente-unified-school-district-area-4-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.091Z",
+    "version": 2
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "reason": "The cited Los Angeles Times article moved to a new URL; re-sourced to the same article (same facts).",
+  "overview": [
+    {
+      "action": "replace",
+      "match": "Amy Lee is the City Treasurer of Monterey Park, elected to a four-year term ending in November 2026.",
+      "text": "Amy Lee is the City Treasurer of Monterey Park, elected to a four-year term ending in November 2026. In 2023, she oversaw the Monterey Park Community Healing Fund, which raised about $193,000 to support victims and local mental health services.",
+      "sources": [
+        {
+          "title": "Terms of Office | Monterey Park, CA - Official Website",
+          "publisher": "City of Monterey Park",
+          "url": "https://www.montereypark.ca.gov/912/Terms-of-Office",
+          "kind": "official",
+          "viewedAt": "2026-10-15"
+        },
+        {
+          "title": "'We begged them': Some Monterey Park shooting survivors feel left out of donations",
+          "publisher": "Los Angeles Times",
+          "url": "https://www.latimes.com/california/story/2023-11-13/more-than-1-million-was-collected-for-monterey-park-shooting-victims-some-survivors-feel-left-behind",
+          "kind": "news",
+          "viewedAt": "2026-10-15"
+        }
+      ]
+    }
+  ]
+}

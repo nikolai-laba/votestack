@@ -1,0 +1,54 @@
+{
+  "key": "vanessa-jones",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Vanessa Jones",
+  "office": "City of Azusa, Member of the City Council, 3rd District",
+  "contestIds": ["la-4348-cc10414"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Vanessa Jones is running for the Azusa City Council. She works as a tax preparer and office administrator.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Vanessa Jones is running for the Azusa City Council.",
+            "cites": [1]
+          },
+          {
+            "text": "She works as a tax preparer and office administrator.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Azusa",
+      "url": "https://www.azusaca.gov/97/City-Clerks-Office",
+      "onRequest": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Vanessa Jones, Azusa City Council candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/vanessa-jones-azusa-city-council-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.490Z",
+    "version": 2
+  }
+}

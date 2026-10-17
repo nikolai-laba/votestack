@@ -1,0 +1,105 @@
+{
+  "key": "robbie-brody",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Robbie Brody",
+  "office": "City of Burbank, Member of the City Council",
+  "contestIds": ["la-4348-cc10425"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "His campaign says he chairs Burbank's Parks and Recreation board and previously chaired the city's Water & Power and Art in Public Places boards. He is an administrative law judge, a role his campaign says he has held in Pasadena for 24 years.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "His campaign says he chairs Burbank's Parks and Recreation board and previously chaired the city's Water & Power and Art in Public Places boards.",
+            "cites": [1]
+          },
+          {
+            "text": "He is an administrative law judge, a role his campaign says he has held in Pasadena for 24 years.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "His campaign says he would preserve neighborhood character, cut red tape for small businesses, and support housing young families can afford. At a candidate forum, he called the city's police surveillance cameras a \"warrantless search of people who have not done anything wrong.\" He urged safeguards like limited use and shorter data retention. He told the Los Angeles Daily News he would hold quarterly town halls and publish plain-language vote explanations.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "His campaign says he would preserve neighborhood character, cut red tape for small businesses, and support housing young families can afford.",
+            "cites": [1]
+          },
+          {
+            "text": "At a candidate forum, he called the city's police surveillance cameras a \"warrantless search of people who have not done anything wrong.\"",
+            "cites": [2]
+          },
+          {
+            "text": "He urged safeguards like limited use and shorter data retention.",
+            "cites": [3]
+          },
+          {
+            "text": "He told the Los Angeles Daily News he would hold quarterly town halls and publish plain-language vote explanations.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Burbank",
+        "committee": "Brody for City Council 2026",
+        "url": "https://efile.burbankca.gov/public/search/campaign/filings/ff0fa727-6762-497c-a225-10af78550ace?type=committee",
+        "period": "January 1 to September 19, 2026",
+        "raised": 6663.98,
+        "cashOnHand": 4504
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "ROBBIE BRODY FOR BURBANK CITY COUNCIL",
+      "publisher": "Robbie Brody campaign",
+      "url": "https://www.robbieforburbank.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Burbank council candidates clash on housing, surveillance",
+      "publisher": "HeySoCal",
+      "url": "https://heysocal.com/2026/09/24/burbank-council-candidates-clash-on-housing-surveillance/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Privacy vs. policing: candidates weigh expansion or ban of ALPR \"Flock\" cameras",
+      "publisher": "CitizenPortal.ai",
+      "url": "https://citizenportal.ai/articles/10195950/california/los-angeles-county/burbank/privacy-vs-policing-candidates-weigh-expansion-or-ban-of-alpr-flock-cameras",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Robbie Brody, Burbank City Council candidate, 2026 election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/robbie-brody-burbank-city-council-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.323Z",
+    "version": 2
+  }
+}

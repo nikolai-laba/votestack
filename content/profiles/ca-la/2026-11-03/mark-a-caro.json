@@ -1,0 +1,90 @@
+{
+  "key": "mark-a-caro",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Mark A. Caro",
+  "office": "City of Azusa, Member of the City Council, 1st District",
+  "contestIds": ["la-4348-cc10536"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Mark A. Caro works in supply management. His campaign says he has served on the Villa Azusa Homeowners Association board for more than 10 years.",
+        "cites": [1],
+        "sentences": [
+          { "text": "Mark A. Caro works in supply management.", "cites": [1] },
+          {
+            "text": "His campaign says he has served on the Villa Azusa Homeowners Association board for more than 10 years.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "His campaign has proposed improving safety and management in District 1, ending speeding on Sierra Madre Avenue and repairing a crossing beacon. He has also proposed revisiting the Athens amendment contract.",
+        "cites": [2],
+        "sentences": [
+          {
+            "text": "His campaign has proposed improving safety and management in District 1, ending speeding on Sierra Madre Avenue and repairing a crossing beacon.",
+            "cites": [2]
+          },
+          {
+            "text": "He has also proposed revisiting the Athens amendment contract.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Azusa",
+      "url": "https://www.azusaca.gov/97/City-Clerks-Office",
+      "onRequest": true
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Former Azusa Mayor Joe Rocha",
+        "kind": "elected_official",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Mark Caro, Azusa City Council candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/mark-caro-azusa-city-council-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Mark A. Caro — Azusa City Council District 1 Candidate 2026",
+      "publisher": "Playpotus",
+      "url": "https://playpotus.com/ca/azusa/mark-caro",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Mark Caro for Azusa City Council, District 1",
+      "publisher": "Mark Caro for Azusa City Council 2026",
+      "url": "https://mark4azusa.carrd.co/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.487Z",
+    "version": 2
+  }
+}

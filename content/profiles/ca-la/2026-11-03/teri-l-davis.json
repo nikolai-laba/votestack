@@ -1,0 +1,50 @@
+{
+  "key": "teri-l-davis",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Teri L. Davis",
+  "office": "Las Virgenes Municipal Water District, Member, Board of Directors, Division 2",
+  "contestIds": ["la-4348-cc10548"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Teri L. Davis is a retired public administrator running for a seat on the Las Virgenes Municipal Water District board in Division 2.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Teri L. Davis is a retired public administrator running for a seat on the Las Virgenes Municipal Water District board in Division 2.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217170323-Davis%2C%20Teri",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate List",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.402Z",
+    "version": 2
+  }
+}

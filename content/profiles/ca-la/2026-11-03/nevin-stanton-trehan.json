@@ -1,0 +1,127 @@
+{
+  "key": "nevin-stanton-trehan",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Nevin Stanton-Trehan",
+  "office": "City of South Pasadena, Member of the City Council, 4th District",
+  "contestIds": ["la-4348-cc10524"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Nevin Stanton-Trehan is chair of the South Pasadena Finance Commission and a candidate for City Council in District 4. He is the chief people officer and general counsel at the YMCA of Metropolitan Los Angeles. He serves on the South Pasadena Education Foundation board. He supports the $80 million bond measure on the November ballot to repair streets. As general counsel, he says he has settled more than 15 litigation matters.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Nevin Stanton-Trehan is chair of the South Pasadena Finance Commission and a candidate for City Council in District 4.",
+            "cites": [1]
+          },
+          {
+            "text": "He is the chief people officer and general counsel at the YMCA of Metropolitan Los Angeles.",
+            "cites": [2]
+          },
+          {
+            "text": "He serves on the South Pasadena Education Foundation board.",
+            "cites": [2]
+          },
+          {
+            "text": "He supports the $80 million bond measure on the November ballot to repair streets.",
+            "cites": [3]
+          },
+          {
+            "text": "As general counsel, he says he has settled more than 15 litigation matters.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of South Pasadena",
+      "url": "https://netfile.com/public/SPAS/campaign"
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "South Pasadena Unified School District Board Member Zahir Robb",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "South Pasadena Unified School District Board Member Patricia Martinez-Miller",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "South Pasadena Unified School District Board Member Karissa Adams",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Former South Pasadena Mayor Odom Stamps",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Former South Pasadena City Treasurer Gary Pia",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [5] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "South Pasadena's Only Contested 2026 Election Race",
+      "publisher": "Colorado Boulevard",
+      "url": "https://www.coloradoboulevard.net/south-pasadenas-only-contested-2026-election-race/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Nevin Stanton-Trehan - LA Executive Awards - Los Angeles Times",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/b2b/events/la-executive-awards/nevin-stanton-trehan",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Local Elections Nov. 2026: Nevin Stanton-Trehan Wants Michael Cacciotti's Seat. Revealing Interview Peeks Behind The Smile",
+      "publisher": "The South Pasadenan",
+      "url": "https://southpasadenan.com/local-elections-nov-2026-nevin-stanton-trehan-wants-michael-cacciottis-seat-revealing-interview-peeks-behind-the-smile/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Endorsements - Nevin Stanton-Trehan",
+      "publisher": "Nevin Stanton-Trehan for City Council",
+      "url": "https://www.nevinstantontrehan.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 5
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.624Z",
+    "version": 2
+  }
+}

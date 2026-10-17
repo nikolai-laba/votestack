@@ -1,0 +1,112 @@
+{
+  "key": "martha-camacho-rodriguez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Martha Camacho Rodriguez",
+  "office": "City of Downey, Member of the City Council, 4th District",
+  "contestIds": ["la-4348-cc10444"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Martha Camacho Rodriguez is a teacher and water advocate who served on the Central Basin Municipal Water District board. She also served as a Cerritos College trustee from 2016 to 2020.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Martha Camacho Rodriguez is a teacher and water advocate who served on the Central Basin Municipal Water District board.",
+            "cites": [1]
+          },
+          {
+            "text": "She also served as a Cerritos College trustee from 2016 to 2020.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "In a 2024 survey, she said she wants residents warned about efforts to privatize water and ratepayers protected. As a water board member in 2023, she called for a forensic audit of the district's finances and voiced concerns about potential risks to public money. The California Fair Political Practices Commission found probable cause in 2026 that she and her 2022 campaign committee failed to timely file two campaign finance statements.",
+        "cites": [1, 3, 4],
+        "sentences": [
+          {
+            "text": "In a 2024 survey, she said she wants residents warned about efforts to privatize water and ratepayers protected.",
+            "cites": [1]
+          },
+          {
+            "text": "As a water board member in 2023, she called for a forensic audit of the district's finances and voiced concerns about potential risks to public money.",
+            "cites": [3]
+          },
+          {
+            "text": "The California Fair Political Practices Commission found probable cause in 2026 that she and her 2022 campaign committee failed to timely file two campaign finance statements.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Downey",
+      "url": "https://lf.downeyca.org/WebLink/Browse.aspx?id=782257&dbid=0&repo=Downey"
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Martha Camacho Rodriguez — Downey City Council Candidate 2026",
+      "publisher": "playpotus.com",
+      "url": "https://playpotus.com/ca/downey/martha-camacho-rodriguez",
+      "kind": "reference",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Martha Camacho Rodriguez, Cerritos Community College Area 1 candidate, 2024 election questionnaire",
+      "publisher": "Press-Telegram",
+      "url": "https://www.presstelegram.com/2024/10/15/martha-camacho-rodriguez-cerritos-community-college-area-1-candidate-2024-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Water district roiled by bitter infighting, criminal charges",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2023-01-21/water-district-roiled-by-bitter-infighting-criminal-charges",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "March 2026 Executive Staff Report",
+      "publisher": "California Fair Political Practices Commission",
+      "url": "https://www.fppc.ca.gov/siteassets/documents/agendadocuments/executive-staff-reports/2026/mar_2026_executive-staff-report.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.378Z",
+    "version": 2
+  }
+}

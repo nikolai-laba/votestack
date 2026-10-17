@@ -1,0 +1,243 @@
+{
+  "key": "bob-j-archuleta",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Bob J. Archuleta",
+  "party": "Democratic",
+  "office": "State Senator, 30th District",
+  "contestIds": ["la-4348-cc10778"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Bob J. Archuleta is a Democratic State Senator first elected in 2018 and chairs the Senate Committee on Military and Veterans Affairs. He previously served as mayor of Pico Rivera and is an Army combat veteran.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Bob J. Archuleta is a Democratic State Senator first elected in 2018 and chairs the Senate Committee on Military and Veterans Affairs.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously served as mayor of Pico Rivera and is an Army combat veteran.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "He has focused on hydrogen energy, authoring legislation to speed up permitting for hydrogen stations (SB 1418) and urge clean hydrogen priorities (SCR 21). He also extended deadlines for air quality program funds (SB 1158). The governor signed his bills creating a hydrogen pipeline safety framework (SB 804), updating DUI laws (SB 907), and addressing public safety (SB 1354). In 2024, he introduced a bill to require male driver’s license applicants to register with Selective Service.",
+        "cites": [3, 4, 1],
+        "sentences": [
+          {
+            "text": "He has focused on hydrogen energy, authoring legislation to speed up permitting for hydrogen stations (SB 1418) and urge clean hydrogen priorities (SCR 21).",
+            "cites": [3]
+          },
+          {
+            "text": "He also extended deadlines for air quality program funds (SB 1158).",
+            "cites": [3]
+          },
+          {
+            "text": "The governor signed his bills creating a hydrogen pipeline safety framework (SB 804), updating DUI laws (SB 907), and addressing public safety (SB 1354).",
+            "cites": [4]
+          },
+          {
+            "text": "In 2024, he introduced a bill to require male driver’s license applicants to register with Selective Service.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Bob Archuleta for Senate 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1456585",
+        "period": "July 1 to September 19, 2026",
+        "raised": 71913.77,
+        "cashOnHand": 186424.42,
+        "breakdown": [
+          { "kind": "large", "amount": 1113.77 },
+          { "kind": "pac", "amount": 45500 },
+          { "kind": "other", "amount": 25300 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 54250, "count": 13 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Democratic Party",
+        "kind": "party",
+        "cites": [5]
+      },
+      {
+        "organization": "National Union of Healthcare Workers",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Communications Workers of America District 9",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "California Federation of Teachers",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "California Teachers Association",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Democrats for Israel – Los Angeles",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "American Independent Party",
+        "kind": "party",
+        "cites": [12]
+      },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [13]
+      },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [14] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Bob Archuleta - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bob_J._Archuleta",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Biography | Senator Bob Archuleta",
+      "publisher": "California State Senate",
+      "url": "https://sd30.senate.ca.gov/biography",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Archuleta.Bob | California Air Resources Board",
+      "publisher": "California Air Resources Board",
+      "url": "https://ww2.arb.ca.gov/taxonomy/term/1161",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Senator Bob Archuleta | Proudly Representing California Senate District 30",
+      "publisher": "California State Senate",
+      "url": "https://sd30.senate.ca.gov/",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "2026 General Election Endorsements",
+      "publisher": "California Democratic Party",
+      "url": "https://cadem.org/wp-content/uploads/2026/08/8.5.26-FINAL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Political Action",
+      "publisher": "NUHW",
+      "url": "https://home.nuhw.org/political-action/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "2026 CA - General Election Endorsements",
+      "publisher": "CWA District 9",
+      "url": "https://cwad9.org/2026-ca-general-election-endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "Equality California Election Center",
+      "publisher": "Equality California",
+      "url": "https://www.eqca.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "CFT Endorsements, General Election 2026 (Tuesday, November 3)",
+      "publisher": "California Federation of Teachers",
+      "url": "https://www.cft.org/2026-midterm-elections-hub",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "2026 Candidate Recommendations",
+      "publisher": "California Teachers Association",
+      "url": "https://www.cta.org/our-advocacy/election-2026",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Democrats for Israel – Los Angeles",
+      "url": "https://dfi-la.org/endorse",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "Party Endorsements for Voter-Nominated Offices, November 3, 2026 General Election",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/additional-election-information",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
+      "publisher": "SEIU Local 721",
+      "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 14
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.760Z",
+    "version": 4
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "key": "john-paul-drayer",
+  "electionId": "ca-2026-11-03-general",
+  "name": "John Paul Drayer",
+  "office": "Bellflower Unified School District, Governing Board Member, Trustee Area No. 2",
+  "contestIds": ["la-4348-cc10764"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "John Paul Drayer is a teacher, counselor and businessman running for the Bellflower Unified School District Governing Board, Trustee Area No. 2. He served on the Cerritos College Board of Trustees from 2012 to 2017, representing an area including Bellflower. He retired from the Los Angeles Unified School District and now teaches part-time for the Los Alamitos School District.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "John Paul Drayer is a teacher, counselor and businessman running for the Bellflower Unified School District Governing Board, Trustee Area No. 2.",
+            "cites": [1]
+          },
+          {
+            "text": "He served on the Cerritos College Board of Trustees from 2012 to 2017, representing an area including Bellflower.",
+            "cites": [2]
+          },
+          {
+            "text": "He retired from the Los Angeles Unified School District and now teaches part-time for the Los Alamitos School District.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "He supports balancing the district’s budget to avoid a state takeover, following state audit guidelines, and increasing student enrollment. His website calls for school safety measures, fiscal transparency through community forums, and reducing financial burdens on families. He says his Cerritos College board service gave him experience with budgets, student success and building projects.",
+        "cites": [4, 5],
+        "sentences": [
+          {
+            "text": "He supports balancing the district’s budget to avoid a state takeover, following state audit guidelines, and increasing student enrollment.",
+            "cites": [4]
+          },
+          {
+            "text": "His website calls for school safety measures, fiscal transparency through community forums, and reducing financial burdens on families.",
+            "cites": [5]
+          },
+          {
+            "text": "He says his Cerritos College board service gave him experience with budgets, student success and building projects.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/214469746-John%20Paul%20Drayer%204%20BUSD%202026"
+    }
+  },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate List",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Cerritos College Board Member John Paul Drayer announces his retirement",
+      "publisher": "The Norwalk Patriot",
+      "url": "http://www.thenorwalkpatriot.com/news/2017/3/25/cerritos-college-board-member-john-paul-drayer-announces-his-retirement",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "About | John Paul Drayer",
+      "publisher": "John Paul Drayer campaign",
+      "url": "https://www.johnpauldrayer4busd.com/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "John Paul Drayer, Bellflower Unified School District Area 2 candidate, 2026 election questionnaire",
+      "publisher": "Press Telegram",
+      "url": "https://www.presstelegram.com/2026/10/05/john-paul-drayer-bellflower-unified-school-district-area-2-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Home | John Paul Drayer",
+      "publisher": "John Paul Drayer campaign",
+      "url": "https://www.johnpauldrayer4busd.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T05:54:20.820Z",
+    "version": 2
+  }
+}

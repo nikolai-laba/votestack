@@ -1,0 +1,469 @@
+{
+  "key": "brian-goldsmith",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Brian Goldsmith",
+  "party": "Democratic",
+  "office": "State Senator, 24th District",
+  "contestIds": ["la-4348-cc10775"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Brian Goldsmith is a political strategist and small business owner. He has worked as a journalist, media consultant, political advisor and entrepreneur. He was a senior adviser to the Democratic Majority for Israel PAC, helping elect pro-Israel politicians to Congress.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Brian Goldsmith is a political strategist and small business owner.",
+            "cites": [1]
+          },
+          {
+            "text": "He has worked as a journalist, media consultant, political advisor and entrepreneur.",
+            "cites": [2]
+          },
+          {
+            "text": "He was a senior adviser to the Democratic Majority for Israel PAC, helping elect pro-Israel politicians to Congress.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "Goldsmith supports extending the Tenant Protection Act and opposes further state-mandated upzoning, saying it can harm low- and middle-income renters. He does not support SB 79. He proposes increasing the Homeless Housing Assistance and Prevention Program to $1 billion annually. His campaign says he backs dedicated funding for universal child care starting at six months and a public health care option. He supports a temporary gas tax repeal and opposes closing refineries when the alternative is trucking in fuel.",
+        "cites": [4, 5, 6, 1],
+        "sentences": [
+          {
+            "text": "Goldsmith supports extending the Tenant Protection Act and opposes further state-mandated upzoning, saying it can harm low- and middle-income renters.",
+            "cites": [4]
+          },
+          { "text": "He does not support SB 79.", "cites": [5] },
+          {
+            "text": "He proposes increasing the Homeless Housing Assistance and Prevention Program to $1 billion annually.",
+            "cites": [6]
+          },
+          {
+            "text": "His campaign says he backs dedicated funding for universal child care starting at six months and a public health care option.",
+            "cites": [6]
+          },
+          {
+            "text": "He supports a temporary gas tax repeal and opposes closing refineries when the alternative is trucking in fuel.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Brian Goldsmith for State Senate 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1480404",
+        "period": "July 1 to September 19, 2026",
+        "raised": 481973,
+        "cashOnHand": 182330.82,
+        "breakdown": [
+          { "kind": "small", "amount": 685 },
+          { "kind": "large", "amount": 424188 },
+          { "kind": "pac", "amount": 43700 },
+          { "kind": "other", "amount": 13400 }
+        ],
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 1833050,
+          "count": 86,
+          "fromCandidate": 1600000
+        }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Los Angeles Daily News editorial board",
+        "kind": "editorial_board",
+        "cites": [7]
+      },
+      {
+        "organization": "Daily Breeze editorial board",
+        "kind": "editorial_board",
+        "cites": [8]
+      },
+      {
+        "organization": "U.S. Rep. Nancy Pelosi, Speaker Emerita",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "U.S. Rep. Julia Brownley",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Former U.S. Secretary of State and U.S. Sen. Hillary Rodham Clinton",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Former U.S. Sen. Barbara Boxer",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Former U.S. Transportation Secretary Pete Buttigieg",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Former U.S. Rep. Gabby Giffords",
+        "kind": "elected_official",
+        "cites": [11]
+      },
+      {
+        "organization": "Lt. Gov. Eleni Kounalakis",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [11]
+      },
+      {
+        "organization": "State Sen. Henry Stern",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "State Sen. Josh Becker",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "State Sen. Susan Rubio",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Assemblymember Jacqui Irwin",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [12]
+      },
+      {
+        "organization": "Assemblymember Jesse Gabriel",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [11]
+      },
+      {
+        "organization": "Assemblymember Rick Chavez Zbur",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [11]
+      },
+      {
+        "organization": "Assemblymember Rebecca Bauer-Kahan",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [11]
+      },
+      {
+        "organization": "Assemblymember Marc Berman",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [11]
+      },
+      {
+        "organization": "Assemblymember Esmeralda Soria",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [11]
+      },
+      {
+        "organization": "Los Angeles County District Attorney Nathan Hochman",
+        "kind": "elected_official",
+        "cites": [13]
+      },
+      {
+        "organization": "Los Angeles City Attorney Hydee Feldstein Soto",
+        "kind": "elected_official",
+        "cites": [11]
+      },
+      {
+        "organization": "Los Angeles City Councilmember Traci Park",
+        "kind": "elected_official",
+        "cites": [11]
+      },
+      {
+        "organization": "Former Los Angeles Mayor Eric Garcetti",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Former Los Angeles Mayor and Assembly Speaker Antonio Villaraigosa",
+        "kind": "elected_official",
+        "cites": [11]
+      },
+      {
+        "organization": "West Hollywood Councilmember Lauren Meister",
+        "kind": "elected_official",
+        "cites": [14]
+      },
+      {
+        "organization": "California Environmental Voters",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Peace Officers Research Association of California (PORAC)",
+        "kind": "union",
+        "cites": [13]
+      },
+      { "organization": "GIFFORDS PAC", "kind": "organization", "cites": [9] },
+      {
+        "organization": "Everytown for Gun Safety Action Fund",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "California Police Chiefs Association",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "California Association of Highway Patrolmen",
+        "kind": "union",
+        "cites": [13]
+      },
+      { "organization": "CAL FIRE Local 2881", "kind": "union", "cites": [11] },
+      {
+        "organization": "California Statewide Law Enforcement Association",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "California Legislative Jewish Caucus",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Climate Action California",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [15]
+      },
+      {
+        "organization": "Los Angeles Police Protective League",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Los Angeles County Professional Peace Officers Association",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "Apartment Association of Greater Los Angeles",
+        "kind": "organization",
+        "cites": [16]
+      },
+      {
+        "organization": "Santa Monica Democratic Club",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "San Fernando Valley Democratic Council",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Democrats for Israel – Los Angeles",
+        "kind": "organization",
+        "cites": [17]
+      },
+      {
+        "organization": "American Independent Party",
+        "kind": "party",
+        "cites": [18]
+      },
+      {
+        "organization": "Republican Party of Los Angeles County",
+        "kind": "party",
+        "cites": [19]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Brian Goldsmith, Senate District 24 candidate, 2026 election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/brian-goldsmith-senate-district-24-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "The Brian Goldsmith Interview. A Legislative Blueprint for a Better California",
+      "publisher": "CityWatch LA",
+      "url": "https://www.citywatchla.com/neighborhood-politics/32571-the-brian-goldsmith-interview-a-legislative-blueprint-for-a-better-california",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Brian Goldsmith’s Senate Bid Rooted in Fighting Antisemitism in California",
+      "publisher": "Jewish Journal",
+      "url": "https://jewishjournal.com/community/388712/brian-goldsmiths-senate-bid-rooted-in-fighting-antisemitism-in-california/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Questionnaire for State Senate District 24",
+      "publisher": "SMRR questionnaire",
+      "url": "https://www.smrr.org/wp-content/uploads/2026/08/Completed-GOLDSMITH-FINAL-SMRR-Questionnaire-for-SD-24-BRIAN-GOLDSMITHSD24.pdf",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Goldsmith hopes to reimagine the 'California dream' as SD24 representative",
+      "publisher": "Beverly Press",
+      "url": "https://beverlypress.com/2026/10/goldsmith-hopes-to-reimagine-the-california-dream-as-sd24-representative/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Issues — Brian Goldsmith for CA State Senate",
+      "publisher": "Brian Goldsmith campaign",
+      "url": "https://www.briangoldsmith.com/issues",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Endorsement: Brian Goldsmith for Senate District 24",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/09/26/endorsement-brian-goldsmith-for-senate-district-24/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "Endorsement: Brian Goldsmith for Senate District 24",
+      "publisher": "Daily Breeze",
+      "url": "https://www.dailybreeze.com/2026/09/26/endorsement-brian-goldsmith-for-senate-district-24/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "California Environmental Voters endorses Brian Goldsmith for state Senate",
+      "publisher": "Santa Monica Daily Press",
+      "url": "https://www.smdp.com/california-environmental-voters-endorses-brian-goldsmith-for-state-senate/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "Santa Monica Democratic Club endorses Goldsmith for state Senate",
+      "publisher": "Santa Monica Daily Press",
+      "url": "https://www.smdp.com/santa-monica-democratic-club-endorses-goldsmith-for-state-senate/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "Endorsements",
+      "publisher": "Brian Goldsmith for CA State Senate",
+      "url": "https://www.briangoldsmith.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "Assemblywoman Irwin Endorses Goldsmith for State Senate",
+      "publisher": "Beverly Hills Courier",
+      "url": "https://beverlyhillscourier.com/2026/06/19/assemblywoman-irwin-endorses-goldsmith-for-state-senate/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 13,
+      "title": "Goldsmith Expands Support After Leading Democratic Caucus Vote",
+      "publisher": "Westside Current",
+      "url": "https://www.westsidecurrent.com/elections/goldsmith-expands-support-after-leading-democratic-caucus-vote/article_092cd9e8-8dcd-4325-bc24-681017ca8f6e.html",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 14,
+      "title": "Meister to Erickson: Not You. Endorses Brian Goldsmith for State Senate",
+      "publisher": "WEHO Online",
+      "url": "https://wehoonline.com/lauren-meister-endorses-brian-goldsmith-state-senate/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 15,
+      "title": "2026 Voter Guide",
+      "publisher": "Teamsters Local 572",
+      "url": "https://www.teamsters572.org/local-572-voter-guide/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 16,
+      "title": "Apartment Association of Greater Los Angeles Voting Slate: Candidate Endorsements, Election: Tuesday, November 3, 2026",
+      "publisher": "Apartment Association of Greater Los Angeles",
+      "url": "https://members.aagla.org/news/apartment-association-of-greater-los-angeles--voting-slate-candidate-endorsements-election-tuesday",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Democrats for Israel – Los Angeles",
+      "url": "https://dfi-la.org/endorse",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "Party Endorsements for Voter-Nominated Offices, November 3, 2026 General Election",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/additional-election-information",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "LAGOP Endorsement Lookup, November 3, 2026 General Election",
+      "publisher": "Republican Party of Los Angeles County",
+      "url": "https://lagop-endorsement-lookup.vercel.app/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 19
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.745Z",
+    "version": 4
+  }
+}

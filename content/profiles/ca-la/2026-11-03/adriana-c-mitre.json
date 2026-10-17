@@ -1,0 +1,70 @@
+{
+  "key": "adriana-c-mitre",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Adriana C. Mitre",
+  "office": "Little Lake City School District, Governing Board Member, Trustee Area No. 2",
+  "contestIds": ["la-4348-cc10713"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Adriana C. Mitre is a human resources and payroll manager running for the Little Lake City School District board. Mitre says budget transparency should be a top priority. She would prioritize student and classroom investments over facilities and administrative costs. She says open communication about district finances is essential to build trust.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Adriana C. Mitre is a human resources and payroll manager running for the Little Lake City School District board.",
+            "cites": [1]
+          },
+          {
+            "text": "Mitre says budget transparency should be a top priority.",
+            "cites": [1]
+          },
+          {
+            "text": "She would prioritize student and classroom investments over facilities and administrative costs.",
+            "cites": [1]
+          },
+          {
+            "text": "She says open communication about district finances is essential to build trust.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Mitre for School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217222488-Mitre%20for%20School%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 1500,
+        "cashOnHand": 1251.23,
+        "breakdown": [{ "kind": "candidate", "amount": 1500 }],
+        "fromCandidate": 1500,
+        "largeSince": { "since": "2026-09-19", "total": 1560, "count": 1 }
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Adriana Mitre, Little Lake City School District 2 candidate, 2026 election questionnaire",
+      "publisher": "Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/adriana-mitre-little-lake-city-school-district-2-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.171Z",
+    "version": 2
+  }
+}

@@ -268,6 +268,59 @@ export function parseIsba(html: string): BarRating[] {
   return ratings
 }
 
+// ---------------------------------------------------------------------------
+// Los Angeles County Bar Association (lacba.org, Judicial Elections Evaluation
+// Committee). Rates candidates in contested Los Angeles County Superior Court
+// races only; it doesn't evaluate appellate or Supreme Court justices.
+
+export const LACBA = 'Los Angeles County Bar Association'
+
+/** The Committee's scale, longest first so "Well Qualified" isn't read as "Qualified". */
+const LACBA_RATING =
+  'Exceptionally Well Qualified|Well Qualified|Not Qualified|Qualified'
+
+export interface OfficeRating extends BarRating {
+  /** The office number the publisher lists the candidate under ("64"). */
+  office: string
+}
+
+/**
+ * The Committee's general election voter guide, from `pdftotext -layout`:
+ * "SUPERIOR COURT OFFICE NO. 64" headings, each followed by "Name   Rating"
+ * rows, set in two columns. A row belongs to the heading whose column it
+ * starts nearest to.
+ */
+export function parseLacbaGuide(text: string): OfficeRating[] {
+  const ratings: OfficeRating[] = []
+  let columns: { at: number; office: string }[] = []
+  const row = new RegExp(
+    `(\\S+(?: \\S+)*?)\\s{2,}(${LACBA_RATING})(?=\\s{2,}|\\s*$)`,
+    'g',
+  )
+  for (const line of text.replace(/\f/g, '').split('\n')) {
+    const headings = [
+      ...line.matchAll(/SUPERIOR COURT OFFICE NO\.\s*(\d+)/gi),
+    ].map((m) => ({ at: m.index, office: m[1] }))
+    if (headings.length > 0) {
+      columns = headings
+      continue
+    }
+    if (columns.length === 0) continue
+    for (const m of line.matchAll(row)) {
+      const office = columns.reduce((best, c) =>
+        Math.abs(c.at - m.index) < Math.abs(best.at - m.index) ? c : best,
+      ).office
+      ratings.push({
+        name: m[1].trim(),
+        context: 'election',
+        rating: m[2],
+        office,
+      })
+    }
+  }
+  return ratings
+}
+
 const ENTITIES: Record<string, string> = {
   amp: '&',
   nbsp: ' ',

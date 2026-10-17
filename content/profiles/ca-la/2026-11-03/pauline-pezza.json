@@ -1,0 +1,121 @@
+{
+  "key": "pauline-pezza",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Pauline Pezza",
+  "office": "City of West Covina, Member of the City Council, 4th District",
+  "contestIds": ["la-4348-cc10528"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Pauline Pezza says she is a vice president. Her campaign says she has an MBA in finance and has run a small business.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Pauline Pezza says she is a vice president.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign says she has an MBA in finance and has run a small business.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign says she would push for brush clearance and defensible-space enforcement before fire season. She pledges to pursue state and federal grants for street repaving, park maintenance, and safety projects. She promises to respond to every resident request and fix neighborhood problems like playgrounds behind on maintenance. She would work to revitalize District 4 commercial corridors and reduce red tape for small businesses.",
+        "cites": [2],
+        "sentences": [
+          {
+            "text": "Her campaign says she would push for brush clearance and defensible-space enforcement before fire season.",
+            "cites": [2]
+          },
+          {
+            "text": "She pledges to pursue state and federal grants for street repaving, park maintenance, and safety projects.",
+            "cites": [2]
+          },
+          {
+            "text": "She promises to respond to every resident request and fix neighborhood problems like playgrounds behind on maintenance.",
+            "cites": [2]
+          },
+          {
+            "text": "She would work to revitalize District 4 commercial corridors and reduce red tape for small businesses.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of West Covina",
+        "committee": "Pauline Pezza for West Covina City Council 2026",
+        "url": "https://westcovina.gov/186/Campaign-Disclosure-Reports-Public-Offic",
+        "period": "January 1 to September 19, 2026",
+        "raised": 5223.5,
+        "cashOnHand": 2836.89,
+        "fromScan": "ai"
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Federation of Labor, AFL-CIO",
+        "kind": "union",
+        "cites": [3]
+      },
+      { "organization": "IBEW Local 18", "kind": "union", "cites": [4] },
+      {
+        "organization": "Former West Covina Mayor Dario Castellanos",
+        "kind": "elected_official",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Pauline Pezza, West Covina City Council District 4 candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/pauline-pezza-west-covina-city-council-district-4-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Pauline Pezza for West Covina City Council, District 4",
+      "publisher": "Pauline Pezza campaign",
+      "url": "https://www.pauline4westcovina.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Endorsements",
+      "publisher": "Pauline Pezza for West Covina City Council, District 4",
+      "url": "https://www.pauline4westcovina.com/view-endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "IBEW Local 18 — November 3, 2026 Voter Guide",
+      "publisher": "IBEW Local 18",
+      "url": "https://www.ibewlocal18.org/2020/wp-content/uploads/2026/10/IBEW-Local-18-Final-Recommendations-November-2026-1.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.639Z",
+    "version": 2
+  }
+}

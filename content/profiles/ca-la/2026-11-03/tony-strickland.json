@@ -1,0 +1,405 @@
+{
+  "key": "tony-strickland",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Tony Strickland",
+  "party": "Republican",
+  "office": "State Senator, 36th District",
+  "contestIds": ["la-4348-cc10780"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Tony Strickland is the Republican state senator for District 36. He previously served in the Assembly (1998 to 2004) and Senate (2008 to 2012), and on the Huntington Beach City Council.",
+        "cites": [1]
+      },
+      {
+        "text": "He opposes California’s high-speed rail project and sought to defund it. He introduced a bill to reduce the state gas tax, which he says would have cut prices by $1.08 per gallon, but it did not advance. He has pushed to fully fund Proposition 36, an anti-crime initiative. He introduced SB 926 to distribute its funding. His bill, SB 1133, to give students information on making healthier choices passed and was sent to the governor. His campaign says he co-authored a voter ID initiative.",
+        "cites": [2, 3, 1, 4],
+        "sentences": [
+          {
+            "text": "He opposes California’s high-speed rail project and sought to defund it.",
+            "cites": [2]
+          },
+          {
+            "text": "He introduced a bill to reduce the state gas tax, which he says would have cut prices by $1.08 per gallon, but it did not advance.",
+            "cites": [3]
+          },
+          {
+            "text": "He has pushed to fully fund Proposition 36, an anti-crime initiative.",
+            "cites": [2]
+          },
+          {
+            "text": "He introduced SB 926 to distribute its funding.",
+            "cites": [1]
+          },
+          {
+            "text": "His bill, SB 1133, to give students information on making healthier choices passed and was sent to the governor.",
+            "cites": [3]
+          },
+          {
+            "text": "His campaign says he co-authored a voter ID initiative.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Tony Strickland for Senate 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1467958",
+        "period": "July 1 to September 19, 2026",
+        "raised": 352209,
+        "cashOnHand": 1023036.58,
+        "breakdown": [
+          { "kind": "small", "amount": 125 },
+          { "kind": "large", "amount": 113774 },
+          { "kind": "pac", "amount": 107660 },
+          { "kind": "party", "amount": 50000 },
+          { "kind": "other", "amount": 80650 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 197600, "count": 90 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Former Gov. Pete Wilson",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "State Sen. Steven Choi",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [5]
+      },
+      {
+        "organization": "Assemblymember Laurie Davies",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [5]
+      },
+      {
+        "organization": "Assemblymember Kate Sanchez",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [5]
+      },
+      {
+        "organization": "Assemblymember Phillip Chen",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [5]
+      },
+      {
+        "organization": "Assemblymember Diane Dixon",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [5]
+      },
+      {
+        "organization": "Assemblymember Tri Ta",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [5]
+      },
+      {
+        "organization": "Orange County Sheriff Don Barnes",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Orange County Supervisor Don Wagner",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Orange County Auditor-Controller Andrew Hamilton",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Orange County Board of Education Trustee Mari Barke",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Orange County Board of Education Trustee Tim Shaw",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Orange County Board of Education Trustee Lisa Sparks",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Orange County Board of Education Trustee Ken Williams Jr.",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Orange County Board of Education Trustee Jorge Valdes",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Huntington Beach Mayor Casey McKeon",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Newport Beach Mayor Lauren Kleiman",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Garden Grove Mayor Stephanie Klopfenstein",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "San Clemente Mayor Rick Loeffler",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Fountain Valley Mayor Jim Cunneen",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Dana Point Mayor John Gabbard",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Seal Beach Mayor Lisa Landau",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "California Republican Party",
+        "kind": "party",
+        "cites": [6]
+      },
+      {
+        "organization": "American Independent Party of California",
+        "kind": "party",
+        "cites": [7]
+      },
+      {
+        "organization": "Howard Jarvis Taxpayers Association PAC",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "California Rifle and Pistol Association",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "California Professional Firefighters",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "California Association of Highway Patrolmen",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "California Correctional Peace Officers Association",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "California Coalition of Law Enforcement Associations",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Western States Regional Council of Carpenters",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Crime Victims United",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Log Cabin Republicans of California",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "California Womens Leadership Association",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Los Angeles County Taxpayers Association",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Apartment Association of Orange County PAC",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "Orange County Employees Association",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Orange County Professional Firefighters Association #3631",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Huntington Beach Police Officers Association",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "California Firefighters Association Local 2881",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "California Republican Assembly",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [13]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Tony Strickland, Senate District 36 candidate, 2026 ...",
+      "publisher": "Orange County Register",
+      "url": "https://www.ocregister.com/2026/10/05/tony-strickland-senate-district-36-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Three Takeaways from My First 100 Days as a State Senator",
+      "publisher": "Senator Tony Strickland",
+      "url": "https://sr36.senate.ca.gov/content/three-takeaways-my-first-100-days-state-senator",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "August 2026 E-Newsletter: Back to School and Back to ...",
+      "publisher": "Senator Tony Strickland",
+      "url": "https://sr36.senate.ca.gov/content/august-2026-e-newsletter-back-school-and-back-sacramento",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Issues",
+      "publisher": "Tony Strickland for State Senate",
+      "url": "https://www.stricklandforsenate.com/issues",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements | Tony Strickland for State Senate",
+      "publisher": "Tony Strickland for Senate 2026",
+      "url": "https://www.stricklandforsenate.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "2026 CRP Endorsements",
+      "publisher": "California Republican Party",
+      "url": "https://cagop.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "Additional Election Information: November 3, 2026 General Election, Party Endorsements for Voter-Nominated Offices",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/additional-election-information",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 8,
+      "title": "HJTA PAC Endorsements: Statewide Primary Election – June 2, 2026",
+      "publisher": "Howard Jarvis Taxpayers Association",
+      "url": "https://www.hjta.org/wp-content/uploads/2026/04/HJTA-PAC-ENDORSEMENTS-4.16.26.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "Crime Victims United Endorses Senator Tony Strickland for Re-Election",
+      "publisher": "Crime Victims United",
+      "url": "https://www.crimevictimsunited.com/endorsements/Blog%20Post%20Title%20One-3zaa9-zlxng-67tfc-38lgm",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "Endorsements | Log Cabin CA",
+      "publisher": "Log Cabin Republicans of California",
+      "url": "https://www.logcabincalifornia.com/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "AAOC PAC: 2026 California Primary Election Voter Guide",
+      "publisher": "Apartment Association of Orange County",
+      "url": "https://www.aaoc.com/news/aaoc-pac-endorsements-california-primary-election-june-2026",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "November 2026 General Election Endorsements: Los Angeles County",
+      "publisher": "California Republican Assembly",
+      "url": "https://cragop.org/los-angeles-county/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 13
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.767Z",
+    "version": 4
+  }
+}

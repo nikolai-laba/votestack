@@ -1,0 +1,129 @@
+{
+  "key": "norma-amezcua",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Norma Amezcua",
+  "office": "Norwalk-La Mirada Unified School District, Governing Board Member, Trustee Area No. 2",
+  "contestIds": ["la-4348-cc10739"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Norma Amezcua serves on the Norwalk-La Mirada Unified School District Board of Education. She was appointed in May 2018. She served as board president in 2022. She is the Early Care and Education Program Director at the Mexican American Opportunity Foundation. She manages early learning centers across six California counties.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Norma Amezcua serves on the Norwalk-La Mirada Unified School District Board of Education.",
+            "cites": [1]
+          },
+          { "text": "She was appointed in May 2018.", "cites": [1] },
+          { "text": "She served as board president in 2022.", "cites": [2] },
+          {
+            "text": "She is the Early Care and Education Program Director at the Mexican American Opportunity Foundation.",
+            "cites": [3]
+          },
+          {
+            "text": "She manages early learning centers across six California counties.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "In her 2017 board application, she said she would not recommend school vouchers. She also said, “We have to respect our students and their rights” regarding transgender students. In 2026, the board tabled a waste-disposal contract and an after-school tutoring agreement. Trustees questioned the documentation and whether district teachers had the first opportunity for the tutoring work. She has highlighted district modernization projects supported by Measure G.",
+        "cites": [4, 5, 2],
+        "sentences": [
+          {
+            "text": "In her 2017 board application, she said she would not recommend school vouchers.",
+            "cites": [4]
+          },
+          {
+            "text": "She also said, “We have to respect our students and their rights” regarding transgender students.",
+            "cites": [4]
+          },
+          {
+            "text": "In 2026, the board tabled a waste-disposal contract and an after-school tutoring agreement.",
+            "cites": [5]
+          },
+          {
+            "text": "Trustees questioned the documentation and whether district teachers had the first opportunity for the tutoring work.",
+            "cites": [5]
+          },
+          {
+            "text": "She has highlighted district modernization projects supported by Measure G.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Amezcua for School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/211531302-Amezcua%20for%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 4000,
+        "cashOnHand": 2873.83,
+        "breakdown": [
+          { "kind": "small", "amount": 695 },
+          { "kind": "large", "amount": 2555 },
+          { "kind": "other", "amount": 750 }
+        ]
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "NORWALK RESIDENT NORMA AMEZCUA APPOINTED AS NEW NLMUSD BOARD MEMBER | La Mirada Lamplighter",
+      "publisher": "La Mirada Lamplighter",
+      "url": "https://lmlamplighter.com/2018/05/16/norwalk-resident-norma-amezcua-appointed-as-new-nlmusd-board-member/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "After 3 years of waiting, La Mirada breaks ground on new stadium — The Norwalk Patriot",
+      "publisher": "The Norwalk Patriot",
+      "url": "http://www.thenorwalkpatriot.com/news/2022/7/28/after-3-years-of-waiting-la-mirada-breaks-ground-on-new-stadium",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Norma Amezcua - Norwalk-La Mirada Unified School District",
+      "publisher": "Norwalk-La Mirada Unified School District",
+      "url": "https://www.nlmusd.org/about/board-of-education/norma-amezcua",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Meet the finalists to replace Margarita Rios on the NLMUSD school board — The Norwalk Patriot",
+      "publisher": "The Norwalk Patriot",
+      "url": "http://www.thenorwalkpatriot.com/news/2017/5/22/meet-the-finalists-to-replace-margarita-rios-on-the-nlmusd-school-board",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "NLMUSD Trustees Tables Waste Contract, After-School Tutoring Agreement | Los Cerritos Community News",
+      "publisher": "Los Cerritos Community News",
+      "url": "https://www.loscerritosnews.net/2026/08/24/nlmusd-trustees-tables-waste-contract-after-school-tutoring-agreement/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.214Z",
+    "version": 3
+  }
+}

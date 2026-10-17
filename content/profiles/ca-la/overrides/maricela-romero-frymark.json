@@ -1,0 +1,26 @@
+{
+  "reason": "Chrome review: the cited Planning Commission page moved (old URL returns 404); same member list at the city's current Planning Commission page",
+  "overview": [
+    {
+      "action": "replace",
+      "match": "Maricela Romero Frymark is the chair of the City of Irwindale Planning Commission.",
+      "text": "Maricela Romero Frymark is the chair of the City of Irwindale Planning Commission. At a 2023 meeting, she encouraged the commission to compromise with a youth organization. She stated that the city lacked a strong sports program and the long-term value of sports outweighed any potential damage to park turf.",
+      "sources": [
+        {
+          "title": "Planning Commission",
+          "publisher": "City of Irwindale",
+          "url": "https://irwindaleca.gov/130/Planning-Commission",
+          "kind": "official",
+          "viewedAt": "2026-10-15"
+        },
+        {
+          "title": "City of Irwindale",
+          "publisher": "City of Irwindale",
+          "url": "https://www.irwindaleca.gov/AgendaCenter/ViewFile/Agenda/_10042023-808",
+          "kind": "official",
+          "viewedAt": "2026-10-15"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "key": "long-david-liu",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Long David Liu",
+  "party": "Republican",
+  "office": "State Assembly Member, 49th District",
+  "contestIds": ["la-4348-cc10790"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Long David Liu is CEO of The Liu Law Firm. His campaign says he prioritizes law and order, public safety, education, parental rights, and economic growth. He has proposed a California version of the federal SAVE America Act, which would require proof of citizenship for voter registration and photo ID for voting.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Long David Liu is CEO of The Liu Law Firm.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he prioritizes law and order, public safety, education, parental rights, and economic growth.",
+            "cites": [2]
+          },
+          {
+            "text": "He has proposed a California version of the federal SAVE America Act, which would require proof of citizenship for voter registration and photo ID for voting.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Liu for Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1485173",
+        "period": "July 1 to September 19, 2026",
+        "raised": 1760,
+        "cashOnHand": 4352.19,
+        "breakdown": [
+          { "kind": "small", "amount": 510 },
+          { "kind": "large", "amount": 250 },
+          { "kind": "pac", "amount": 1000 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 15131.72, "count": 4 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Republican Party",
+        "kind": "party",
+        "cites": [4]
+      },
+      {
+        "organization": "California Republican Assembly",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Lincoln Club of Orange County",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Lincoln Clubs of LA County",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "California Cities for Local Control",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "State Sen. Tony Strickland",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Phillip Chen (59th District)",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Diane Dixon (72nd District)",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Kate Sanchez (71st District)",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Heath Flora (9th District)",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Laurie Davies (74th District)",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Jeff Gonzalez (36th District)",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Leticia Castillo (58th District)",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Greg Wallis (47th District)",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Carl DeMaio (75th District)",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Tri Ta (70th District)",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [6]
+      },
+      {
+        "organization": "Former Assembly Republican Leader James Gallagher",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [6]
+      },
+      {
+        "organization": "Former Los Angeles County Supervisor Michael Antonovich",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Riverside County Sheriff Chad Bianco",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Former Los Angeles County Sheriff Alex Villanueva",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Former Huntington Beach City Attorney Michael Gates",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Former Mayor of Arcadia April Verlato",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Former Mayor of Arcadia Peter Amundson",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Former Mayor of Monterey Park Betty Chu",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Former Mayor of Monterey Park Peter Chan",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Former Mayor of Monterey Park Stephen Lam",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Former Mayor of Monterey Park Anthony Wong",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Former Mayor of San Gabriel Chin Ho Liao",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Former Mayor of Temple City Kevin Wang",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Former Mayor of Cerritos Chuong Vo",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [7]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Long David Liu, AD-49 candidate, 2026 primary election questionnaire",
+      "publisher": "Orange County Register",
+      "url": "https://www.ocregister.com/2026/05/06/long-david-liu-ad-49-candidate-2026-primary-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Long David Liu",
+      "publisher": "Long David Liu for Assembly",
+      "url": "https://www.liuforassembly.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "華裔律師再度參選加州眾議員盼改善民生治安",
+      "publisher": "The Epoch Times",
+      "url": "https://sf.epochtimes.com/2026/03/09/53636.html",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "2026 CRP Endorsements",
+      "publisher": "California Republican Party",
+      "url": "https://cagop.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "State Assembly: November 2026 General Election Endorsements",
+      "publisher": "California Republican Assembly",
+      "url": "https://cragop.org/state-assembly/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements",
+      "publisher": "Long David Liu for Assembly",
+      "url": "https://www.liuforassembly.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 7
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.692Z",
+    "version": 4
+  }
+}

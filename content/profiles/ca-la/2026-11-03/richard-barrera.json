@@ -1,0 +1,503 @@
+{
+  "key": "richard-barrera",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Richard Barrera",
+  "office": "California Superintendent of Public Instruction",
+  "contestIds": ["la-4348-cc10836-r1", "la-4348-cc10836-r2"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Richard Barrera is president of the San Diego Unified School Board and a senior policy adviser at the California Department of Education. He has served on the school board since 2008. According to his official biography, during his tenure the district passed four school bonds totaling $11.6 billion and ranked first in reading and second in math among large urban districts on the Nation's Report Card. His campaign says he led the expansion of transitional kindergarten to all four-year-olds, making San Diego the first California district to guarantee it. He says he pushed earlier this year to build over 2,000 units of affordable housing for teachers.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Richard Barrera is president of the San Diego Unified School Board and a senior policy adviser at the California Department of Education.",
+            "cites": [1]
+          },
+          {
+            "text": "He has served on the school board since 2008.",
+            "cites": [1]
+          },
+          {
+            "text": "According to his official biography, during his tenure the district passed four school bonds totaling $11.6 billion and ranked first in reading and second in math among large urban districts on the Nation's Report Card.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he led the expansion of transitional kindergarten to all four-year-olds, making San Diego the first California district to guarantee it.",
+            "cites": [2]
+          },
+          {
+            "text": "He says he pushed earlier this year to build over 2,000 units of affordable housing for teachers.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "He has pledged to treat Proposition 98 as a floor, not a ceiling, and to secure stable school funding. He criticized the governor's decision to withhold some Proposition 98 funding. He supports better pay, benefits, training pipelines and affordable housing for educators. He opposes making SAT or ACT scores a UC admissions requirement, arguing that universities should teach incoming students foundational math if needed. He promises to enforce civil rights protections for LGBTQ+ and immigrant students.",
+        "cites": [4, 5, 6, 7],
+        "sentences": [
+          {
+            "text": "He has pledged to treat Proposition 98 as a floor, not a ceiling, and to secure stable school funding.",
+            "cites": [4]
+          },
+          {
+            "text": "He criticized the governor's decision to withhold some Proposition 98 funding.",
+            "cites": [5]
+          },
+          {
+            "text": "He supports better pay, benefits, training pipelines and affordable housing for educators.",
+            "cites": [6]
+          },
+          {
+            "text": "He opposes making SAT or ACT scores a UC admissions requirement, arguing that universities should teach incoming students foundational math if needed.",
+            "cites": [7]
+          },
+          {
+            "text": "He promises to enforce civil rights protections for LGBTQ+ and immigrant students.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Richard Barrera for Superintendent of Public Instruction 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1478161",
+        "period": "July 1 to September 19, 2026",
+        "raised": 348351.77,
+        "cashOnHand": 198874.42,
+        "breakdown": [
+          { "kind": "small", "amount": 2093.06 },
+          { "kind": "large", "amount": 58308.23 },
+          { "kind": "pac", "amount": 267100 },
+          { "kind": "party", "amount": 9060.58 },
+          { "kind": "other", "amount": 11789.9 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 97074.5, "count": 19 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Democratic Party",
+        "kind": "party",
+        "cites": [8]
+      },
+      {
+        "organization": "U.S. Sen. Alex Padilla",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "U.S. Sen. Adam Schiff",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Juan Vargas",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "State Superintendent of Public Instruction Tony Thurmond",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "Former State Superintendent of Public Instruction Jack O'Connell",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "Former California Treasurer Kathleen Brown",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "State Sen. Eloise Gomez Reyes",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "State Sen. Robert Archuleta",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "State Sen. Steve Padilla",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "State Sen. John Laird",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Former State Sen. Art Torres",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Former State Sen. Steven Bradford",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Assembly Speaker Emeritus Anthony Rendon",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Assemblymember Darshana Patel",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Assemblymember Chris Ward",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Assemblymember Jessica Caloza",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Assemblymember Dawn Addis",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Former Assemblymember Jackie Goldberg",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Lindsay Horvath",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "Los Angeles County Assessor Jeff Prang",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "California Federation of Teachers (CFT)",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "California Federation of Labor Unions, AFL-CIO",
+        "kind": "union",
+        "cites": [10]
+      },
+      { "organization": "SEIU California", "kind": "union", "cites": [10] },
+      {
+        "organization": "California Professional Firefighters",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "State Building and Construction Trades Council of California",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "California School Employees Association",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "United Administrators of Southern California",
+        "kind": "union",
+        "cites": [12]
+      },
+      {
+        "organization": "United Domestic Workers",
+        "kind": "union",
+        "cites": [13]
+      },
+      {
+        "organization": "Planned Parenthood Affiliates of California",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "California Charter Schools Association Advocates",
+        "kind": "organization",
+        "cites": [14]
+      },
+      {
+        "organization": "Human Rights Campaign PAC",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Sierra Club California",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "California Environmental Voters",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Association of California School Administrators",
+        "kind": "organization",
+        "cites": [10]
+      },
+      { "organization": "ACCE Action", "kind": "organization", "cites": [9] },
+      {
+        "organization": "California Association of Bilingual Educators PAC",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "San Francisco Chronicle Editorial Board",
+        "kind": "editorial_board",
+        "cites": [15]
+      },
+      {
+        "organization": "Mercury News and East Bay Times Editorial Boards",
+        "kind": "editorial_board",
+        "cites": [16]
+      },
+      {
+        "organization": "California Teachers Association",
+        "kind": "union",
+        "cites": [17]
+      },
+      { "organization": "Knock LA", "kind": "organization", "cites": [18] },
+      { "organization": "LA Forward", "kind": "organization", "cites": [19] },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [20]
+      },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [21] },
+      {
+        "organization": "United Teachers Los Angeles",
+        "kind": "union",
+        "cites": [22]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Richard Barrera - San Diego Unified School District",
+      "publisher": "San Diego Unified School District",
+      "url": "https://www.sandiegounified.org/about/board_of_education/overview/richard_barrera",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Why I am Running — Richard Barrera",
+      "publisher": "Richard Barrera campaign",
+      "url": "https://www.barreraforedu.com/about-richard",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Your guide to California's superintendent of public instruction race",
+      "publisher": "The Sacramento Bee",
+      "url": "https://www.sacbee.com/news/politics-government/election/voter-guide/article317117765.html",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Richard Barrera — State Superintendent of Public Instruction Candidate Questionnaire",
+      "publisher": "GrowSF",
+      "url": "https://growsf.org/voter-guide/questionnaires/june-2026/richard-barrera/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Richard Barrera, California superintendent of public instruction candidate, 2026 election questionnaire",
+      "publisher": "Orange County Register",
+      "url": "https://www.ocregister.com/2026/10/05/richard-barrera-california-superintendent-of-public-instruction-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Richard Barrera, candidate for superintendent of public instruction, answers Bay Area News Group's primary questionnaire",
+      "publisher": "Bay Area News Group (Mercury News)",
+      "url": "https://www.mercurynews.com/2026/05/27/richard-barrera-candidate-for-superintendent-of-public-instruction-answers-bay-area-news-groups-primary-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Richard Barrera opposes SAT return as UC math readiness concerns grow",
+      "publisher": "Fox News",
+      "url": "https://www.foxnews.com/media/california-education-candidate-tells-professors-teach-college-students-basic-math-thats-your-job",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "California Democratic Party Announces Endorsements for Statewide, Congressional and State Legislature Candidates",
+      "publisher": "California Democratic Party",
+      "url": "https://cadem.org/california-democratic-party-announces-endorsements-for-statewide-congressional-and-state-legislature-candidates/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "Endorsements - Richard Barrera",
+      "publisher": "Richard Barrera for Superintendent of Public Instruction 2026",
+      "url": "https://www.barreraforedu.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "News releases - Richard Barrera",
+      "publisher": "Richard Barrera for Superintendent of Public Instruction 2026",
+      "url": "https://www.barreraforedu.com/newsreleases",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "CFT Endorses Richard Barrera for Superintendent of Public Instruction",
+      "publisher": "CFT – A Union of Educators and Classified Professionals",
+      "url": "https://www.cft.org/news-release/cft-endorses-richard-barrera-superintendent-public-instruction",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "Endorsement of Richard Barrera",
+      "publisher": "Administrators Association Sweetwater Union (American Federation of School Administrators)",
+      "url": "https://www.theschoolleader.org/administrators-association-sweetwater-union/endorsement-richard-barrera",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 13,
+      "title": "California superintendent of public instruction: Who's running and why it matters",
+      "publisher": "LAist",
+      "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-superintendent-of-public-instruction",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 14,
+      "title": "They used to battle in CA elections. Now, they back the same candidate",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.org/newsletter/superintendent-california-election-endorsements/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 15,
+      "title": "Endorsement: This outcomes-driven progressive should be California's superintendent of public instruction",
+      "publisher": "San Francisco Chronicle",
+      "url": "https://www.sfchronicle.com/opinion/editorials/article/superintendent-richard-barrera-sonja-shaw-22376416.php",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 16,
+      "title": "Endorsement Cheat Sheet: Mercury News and East Bay Times Editorial Boards' top picks for California's Nov. 3 general election",
+      "publisher": "East Bay Times",
+      "url": "https://www.eastbaytimes.com/2026/10/13/bay-area-news-group-california-election-endorsements-november-2026/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "2026 Candidate Recommendations",
+      "publisher": "California Teachers Association",
+      "url": "https://www.cta.org/our-advocacy/election-2026",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
+      "publisher": "Knock LA (Ground Game LA)",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 20
+    },
+    {
+      "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
+      "publisher": "SEIU Local 721",
+      "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 21
+    },
+    {
+      "title": "UTLA 2026 Endorsements",
+      "publisher": "United Teachers Los Angeles",
+      "url": "https://utla.net/campaigns/2026-endorsements/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 22
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.815Z",
+    "version": 6
+  }
+}

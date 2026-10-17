@@ -1,0 +1,97 @@
+{
+  "key": "anthony-armendarez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Anthony Armendarez",
+  "office": "Norwalk-La Mirada Unified School District, Governing Board Member, Trustee Area No. 4",
+  "contestIds": ["la-4348-cc10740"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Anthony Armendarez is a youth coordinator and a parent. He is a member of the Norwalk Parks and Recreation Commission.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Anthony Armendarez is a youth coordinator and a parent.",
+            "cites": [1]
+          },
+          {
+            "text": "He is a member of the Norwalk Parks and Recreation Commission.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Anthony Armendarez for NLMUSD Board of Education 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216999354-Armendarez%2C%20Anthony",
+        "period": "July 1 to September 19, 2026",
+        "raised": 2200,
+        "cashOnHand": 2200,
+        "breakdown": [
+          { "kind": "large", "amount": 200 },
+          { "kind": "other", "amount": 2000 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [3]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [4] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate List - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Anthony Armendarez, Norwalk-La Mirada Unified District 4 candidate, 2026 election questionnaire",
+      "publisher": "Whittier Daily News",
+      "url": "https://www.whittierdailynews.com/2026/10/05/anthony-armendarez-norwalk-la-mirada-unified-district-4-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.095Z",
+    "version": 3
+  }
+}

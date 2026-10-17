@@ -14,8 +14,8 @@ import { ABOUT_HEAD, useDocumentHead } from '../head.ts'
 
 // What VoteStack is, where its information comes from and when it was
 // checked. The site footer links here, including to the ballot order
-// explainer (#ballot-order). Keep the data sources in step with
-// data/README.md and the methods summary in step with HowProfilesPage.
+// explainer (#ballot-order). Keep the data sources for each area VoteStack
+// covers in step with data/README.md and the methods summary in step with HowProfilesPage.
 
 const HEADING_ID = 'about-heading'
 
@@ -85,12 +85,12 @@ export default function AboutPage() {
         </h1>
       </div>
 
-      <Section id="what" title="What VoteStack is">
+      <Section id="what" title="What is VoteStack?">
         <p>
           VoteStack shows you every race on your ballot and helps you understand
-          the people running. We&rsquo;re starting with Chicago and suburban
-          Cook County, Illinois. Over time, VoteStack is meant to cover every
-          upcoming election. If you live somewhere else,{' '}
+          the people running. It covers Chicago and suburban Cook County,
+          Illinois, and Los Angeles County, California. Over time, VoteStack is
+          meant to cover every upcoming election. If you live somewhere else,{' '}
           <Link to={NOTIFY_PATH}>
             get an email when VoteStack covers your area
           </Link>
@@ -99,8 +99,8 @@ export default function AboutPage() {
         <p>
           Seeing what&rsquo;s on your ballot is the easy part. Knowing who the
           candidates are is harder, especially for judges and local offices. So
-          every candidate and judge on the ballot has a short profile with the
-          same three parts:
+          every candidate and judge covered has a short profile with the same
+          three parts:
         </p>
         <ul className="list-disc space-y-2 ps-6">
           <li>
@@ -119,9 +119,9 @@ export default function AboutPage() {
         </ul>
         <p>Every sentence links to its source, so you can check it.</p>
         <p>
-          VoteStack doesn&rsquo;t support or oppose any candidate, party or
-          referendum. It isn&rsquo;t a government site. We don&rsquo;t tell you
-          how to vote.
+          VoteStack doesn&rsquo;t support or oppose any candidate, party,
+          referendum or measure. It isn&rsquo;t a government site. We
+          don&rsquo;t tell you how to vote.
         </p>
       </Section>
 
@@ -174,6 +174,7 @@ export default function AboutPage() {
           Election officials decide what is on your ballot. We use the lists
           they publish.
         </p>
+        <h3 className="text-label font-semibold">Cook County, Illinois</h3>
         <ul className="list-disc space-y-2 ps-6">
           <li>
             For suburban Cook County, the Cook County Clerk&rsquo;s lists of
@@ -196,6 +197,33 @@ export default function AboutPage() {
           We compare our ballots with the Clerk&rsquo;s sample ballots to find
           mistakes. When a race may be missing or may not be on your ballot,
           your ballot says so and links to your official sample ballot.
+        </p>
+        <h3 className="text-label font-semibold">
+          Los Angeles County, California
+        </h3>
+        <ul className="list-disc space-y-2 ps-6">
+          <li>
+            The Los Angeles County Registrar-Recorder/County Clerk&rsquo;s
+            Interactive Sample Ballot data, from{' '}
+            <a href="https://isb.lavote.gov/" target="_blank" rel="noreferrer">
+              isb.lavote.gov
+            </a>
+            . It lists the races, candidates and measures on each ballot style,
+            in ballot order, and which ballot style each precinct gets. Your
+            ballot shows every race on your precinct&rsquo;s ballot style.
+          </li>
+          <li>
+            To find your precinct, we match your address to Los Angeles
+            County&rsquo;s address points (CAMS, from the County&rsquo;s
+            Enterprise GIS program) and to the Registrar&rsquo;s map of
+            precincts with district names. The County&rsquo;s terms let anyone
+            copy and adapt its address data. The County doesn&rsquo;t endorse
+            VoteStack.
+          </li>
+        </ul>
+        <p>
+          We check the precinct we find for an address against the street lists
+          in the Registrar&rsquo;s sample ballot data.
         </p>
         <p>
           We mark a candidate as the incumbent only when an official list
@@ -245,6 +273,19 @@ export default function AboutPage() {
           hold public lotteries to decide which party&rsquo;s candidates are
           listed first. Candidates who file at the same time are also ordered by
           lottery. VoteStack never changes the order.
+        </p>
+        <p>
+          For Los Angeles County ballots, California law sets the order. The
+          California Secretary of State draws a random order of the letters of
+          the alphabet, and names are listed in that order. For some offices,
+          the order changes from one Assembly district to the next. We show the
+          order from the Registrar&rsquo;s sample ballot for your ballot style.
+        </p>
+        <p>
+          The Los Angeles County ballot lists city and local races first and
+          state races last. California law allows this order only in Los Angeles
+          County. Your ballot on VoteStack starts out grouped by level of
+          government. You can switch it to the paper ballot order.
         </p>
       </Section>
 

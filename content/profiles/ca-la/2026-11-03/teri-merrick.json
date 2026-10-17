@@ -1,0 +1,154 @@
+{
+  "key": "teri-merrick",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Teri Merrick",
+  "office": "City of Glendora, Member of the City Council, 1st District",
+  "contestIds": ["la-4348-cc10453"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Teri Merrick is a retired professor and teacher. In 2018, she formed a group called Welcome to Glendora. She opposed the city council's decision to join a legal brief against California's sanctuary law. She supports affordable development. She wants to repair roads and create safe pathways for pedestrians. She supports community-oriented policing. She wants to protect local parks. She wants the local government to share information before making decisions.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Teri Merrick is a retired professor and teacher.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2018, she formed a group called Welcome to Glendora.",
+            "cites": [2]
+          },
+          {
+            "text": "She opposed the city council's decision to join a legal brief against California's sanctuary law.",
+            "cites": [2]
+          },
+          { "text": "She supports affordable development.", "cites": [3] },
+          {
+            "text": "She wants to repair roads and create safe pathways for pedestrians.",
+            "cites": [3]
+          },
+          { "text": "She supports community-oriented policing.", "cites": [3] },
+          { "text": "She wants to protect local parks.", "cites": [3] },
+          {
+            "text": "She wants the local government to share information before making decisions.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Glendora",
+        "committee": "Teri Merrick for Glendora City Council 2026",
+        "url": "https://netfile.com/public/COG/campaign/filingsByFiler/216912372-Teri%20Merrick%20for%20Glendora%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 11545,
+        "cashOnHand": 2534.67,
+        "breakdown": [
+          { "kind": "small", "amount": 664 },
+          { "kind": "large", "amount": 4881 },
+          { "kind": "candidate", "amount": 100 },
+          { "kind": "other", "amount": 5900 }
+        ],
+        "fromCandidate": 100
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [4]
+      },
+      {
+        "organization": "Glendora Forward",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Covina City Clerk Susan Zermeno",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Brian Calderón Tabatabai, former West Covina Mayor",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [7] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Notice of Nominees for Public Office - November 3, 2026",
+      "publisher": "City of Glendora",
+      "url": "https://www.cityofglendora.gov/News-Articles/Notice-of-Nominees-for-Public-Office-November-3-2026",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Glendora town hall packed by SB 54 supporters",
+      "publisher": "CC Clarion",
+      "url": "https://www.ccclarion.com/2018/12/06/glendora-town-hall-packed-by-sb-54-supporters/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Teri Merrick for Glendora City Council · District 1",
+      "publisher": "Teri Merrick campaign",
+      "url": "https://www.merrickforglendora.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Glendora Forward City Council and School Board Endorsements",
+      "publisher": "Glendora Forward",
+      "url": "https://www.glendoraforward.org/blog/glendora-forward-local-endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Voices From the District - Teri Merrick for Glendora City Council",
+      "publisher": "Teri Merrick for Glendora City Council 2026",
+      "url": "https://www.merrickforglendora.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 7
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.396Z",
+    "version": 2
+  }
+}

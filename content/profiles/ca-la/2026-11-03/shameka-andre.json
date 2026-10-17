@@ -1,0 +1,58 @@
+{
+  "key": "shameka-andre",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Shameka Andre",
+  "office": "Westside Union School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10732"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Shameka Andre is a school administrator and co-principal at Monte Vista Elementary School in the Lancaster School District. She previously taught second grade at Quartz Hill Elementary and served as a vice principal in the Westside Union School District focused on IEP support. Her doctoral research examined applying a systems approach to literacy in PK-12 education.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Shameka Andre is a school administrator and co-principal at Monte Vista Elementary School in the Lancaster School District.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously taught second grade at Quartz Hill Elementary and served as a vice principal in the Westside Union School District focused on IEP support.",
+            "cites": [1]
+          },
+          {
+            "text": "Her doctoral research examined applying a systems approach to literacy in PK-12 education.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217293895-Andre%2C%20Shameka",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Westside Union Board Race: 4 Candidates, 3 Seats – Antelope Valley Online",
+      "publisher": "Antelope Valley Online",
+      "url": "https://antelopevalleyonline.com/westside-union-board-race-set-for-nov-3-election/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.349Z",
+    "version": 2
+  }
+}

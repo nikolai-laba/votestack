@@ -1,0 +1,101 @@
+{
+  "key": "wendi-morse",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Wendi Morse",
+  "office": "City of Bellflower, Member of the City Council, 1st District",
+  "contestIds": ["la-4348-cc10420"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Wendi Morse is a Bellflower City Council member. She was appointed to the council in October 2023. She was elected in 2024. Her campaign says she has supervised senior living facilities and volunteered with local organizations.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Wendi Morse is a Bellflower City Council member.",
+            "cites": [1]
+          },
+          {
+            "text": "She was appointed to the council in October 2023.",
+            "cites": [2]
+          },
+          { "text": "She was elected in 2024.", "cites": [3] },
+          {
+            "text": "Her campaign says she has supervised senior living facilities and volunteered with local organizations.",
+            "cites": [4]
+          }
+        ]
+      },
+      {
+        "text": "On the council, her campaign says she supported the Senior & Youth Oak Center, Chick-fil-A, Chipotle, and the Northgate Market to expand services and encourage growth. She says the county's latest homeless count found a more than 50% reduction in unsheltered homelessness in Bellflower. She supports increasing police funding. She favors developer incentives for affordable housing. She is undecided on rent caps, citing a need to balance the interests of renters and property owners.",
+        "cites": [4, 2],
+        "sentences": [
+          {
+            "text": "On the council, her campaign says she supported the Senior & Youth Oak Center, Chick-fil-A, Chipotle, and the Northgate Market to expand services and encourage growth.",
+            "cites": [4]
+          },
+          {
+            "text": "She says the county's latest homeless count found a more than 50% reduction in unsheltered homelessness in Bellflower.",
+            "cites": [4]
+          },
+          {
+            "text": "She supports increasing police funding. She favors developer incentives for affordable housing. She is undecided on rent caps, citing a need to balance the interests of renters and property owners.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Bellflower",
+      "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=295140&dbid=0&repo=r-ac13a437"
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Bellflower, CA",
+      "publisher": "City of Bellflower",
+      "url": "https://www.bellflower.org/government/city_clerk/ethics_regulations.php",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "“Proud to call Bellflower home”: Wendi Morse, Candidate for Bellflower District 1",
+      "publisher": "Downey Latino News",
+      "url": "https://downeylatinonews.com/en/2024/10/proud-to-call-bellflower-home-wendi-morse-candidate-for-bellflower-district-1/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Election Results Text Version",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://results.lavote.gov/text-results/4324",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Vote Wendi Morse",
+      "publisher": "Vote Wendi Morse",
+      "url": "https://www.votewendimorse.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.497Z",
+    "version": 3
+  }
+}

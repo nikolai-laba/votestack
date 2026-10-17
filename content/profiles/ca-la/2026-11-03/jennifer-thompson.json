@@ -1,0 +1,98 @@
+{
+  "key": "jennifer-thompson",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Jennifer Thompson",
+  "office": "Pasadena Area Community College District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10597"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Jennifer Thompson is a media and communications consultant running for the Pasadena Area Community College District, Trustee Area 5. In a candidate questionnaire, she said her two main priorities are increasing access and enrollment through stronger community connections and investing in the district's aging infrastructure.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Jennifer Thompson is a media and communications consultant running for the Pasadena Area Community College District, Trustee Area 5.",
+            "cites": [1]
+          },
+          {
+            "text": "In a candidate questionnaire, she said her two main priorities are increasing access and enrollment through stronger community connections and investing in the district's aging infrastructure.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Thompson for PCC Board of Trustees 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217216303-Thompson%20for%20PCC%20Board%20of%20Trustees%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 35124.15,
+        "cashOnHand": 30728.12,
+        "breakdown": [
+          { "kind": "small", "amount": 25 },
+          { "kind": "large", "amount": 3901.02 },
+          { "kind": "candidate", "amount": 31098.13 },
+          { "kind": "other", "amount": 100 }
+        ],
+        "fromCandidate": 31098.13
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Los Angeles County Supervisor Kathryn Barger",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Pasadena City College Trustee Tammy Silver",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Former Pasadena City College Trustee Jim Osterling",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Former Pasadena City College Trustee Linda Wah",
+        "kind": "elected_official",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Jennifer Thompson, Pasadena Area Community College District 5 candidate, 2026 election questionnaire",
+      "publisher": "Pasadena Star-News",
+      "url": "https://www.pasadenastarnews.com/2026/10/05/jennifer-thompson-pasadena-area-community-college-district-5-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Endorsements",
+      "publisher": "Jennifer Thompson for PCC Board of Trustees",
+      "url": "https://www.thompsonforpcc.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T05:54:20.793Z",
+    "version": 2
+  }
+}

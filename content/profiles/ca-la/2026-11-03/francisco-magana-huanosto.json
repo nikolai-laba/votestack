@@ -1,0 +1,56 @@
+{
+  "key": "francisco-magana-huanosto",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Francisco Magana-Huanosto",
+  "office": "Palmdale School District, Governing Board Member, Trustee Area No. 3",
+  "contestIds": ["la-4348-cc10759"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Francisco Magana-Huanosto works as a law clerk.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Francisco Magana-Huanosto works as a law clerk.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Francisco Magana Huanosto for Palmdale School District Governing Board Member 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217159925-Francisco%20Magana%20Huanosto%20for%20Palmdale%20School%20District%20Governing%20Board%20Member%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 0,
+        "cashOnHand": 0,
+        "fromScan": "ai"
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Palmdale School Board 2026: Seven Filers Line Up for Three Trustee-Area Seats",
+      "publisher": "Antelope Valley Online",
+      "url": "https://antelopevalleyonline.com/palmdale-school-board-2026-seven-filers-line-up-for-three-trustee-area-seats/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.225Z",
+    "version": 2
+  }
+}

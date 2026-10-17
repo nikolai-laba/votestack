@@ -1,0 +1,62 @@
+{
+  "key": "marcos-c-gonzales-jr",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Marcos C. Gonzales Jr.",
+  "office": "Azusa Unified School District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10619"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Marcos C. Gonzales Jr. is a candidate for the Azusa Unified School District Governing Board in Trustee Area No. 5. The ballot lists him as a retired recreation superintendent.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Marcos C. Gonzales Jr. is a candidate for the Azusa Unified School District Governing Board in Trustee Area No. 5.",
+            "cites": [1]
+          },
+          {
+            "text": "The ballot lists him as a retired recreation superintendent.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217182278-Gonzales%2C%20Marcos",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Ballot Marking Device Code List - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/ballot-marking-device-code-list",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Candidate List - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:48.947Z",
+    "version": 2
+  }
+}

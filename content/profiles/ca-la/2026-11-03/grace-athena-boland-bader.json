@@ -1,0 +1,55 @@
+{
+  "key": "grace-athena-boland-bader",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Grace Athena Boland Bader",
+  "office": "Wiseburn Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10678"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Grace Athena Boland Bader is a nurse. At a July 20, 2026, Wiseburn school board meeting, she criticized the board for limiting public comment at a prior meeting and alleged that board member Roger Banuelos used the platform to defend his corporate resume. She cited a district survey she said showed 23% of students are bullied for their race.",
+        "cites": [1, 2],
+        "sentences": [
+          { "text": "Grace Athena Boland Bader is a nurse.", "cites": [1] },
+          {
+            "text": "At a July 20, 2026, Wiseburn school board meeting, she criticized the board for limiting public comment at a prior meeting and alleged that board member Roger Banuelos used the platform to defend his corporate resume.",
+            "cites": [2]
+          },
+          {
+            "text": "She cited a district survey she said showed 23% of students are bullied for their race.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-16", "items": [] },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate List",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Residents accuse Wiseburn board members of conflicts and demand transparency over $100,000 legal contract",
+      "publisher": "Citizen Portal",
+      "url": "https://citizenportal.ai/articles/8557744/california/school-districts/wiseburn-unified/residents-accuse-wiseburn-board-members-of-conflicts-and-demand-transparency-over-100000-legal-contract",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.363Z",
+    "version": 2
+  }
+}

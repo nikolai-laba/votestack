@@ -1,0 +1,80 @@
+{
+  "key": "carolyn-j-essex",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Carolyn J. Essex",
+  "party": "Democratic",
+  "office": "State Assembly Member, 69th District",
+  "contestIds": ["la-4348-cc10804"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Carolyn J. Essex is a legislative policy analyst from Long Beach.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Carolyn J. Essex is a legislative policy analyst from Long Beach.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "She supports affordable housing with wraparound health services. Her campaign says she would be an accessible Assembly member for all of District 69.",
+        "cites": [2, 3],
+        "sentences": [
+          {
+            "text": "She supports affordable housing with wraparound health services.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign says she would be an accessible Assembly member for all of District 69.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "California Secretary of State",
+      "url": "https://cal-access.sos.ca.gov/Campaign/Candidates/Detail.aspx?id=1489041"
+    }
+  },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Carolyn Essex, Assembly District 69 candidate, 2026 ...",
+      "publisher": "Press Telegram",
+      "url": "https://www.presstelegram.com/2026/10/05/carolyn-essex-assembly-district-69-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "The Knock LA Progressive Voter Guide for the November ...",
+      "publisher": "Knock LA",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Carolynjessex4stateassembly",
+      "publisher": "Carolyn J. Essex campaign",
+      "url": "https://carolynjessex.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T14:05:39.850Z",
+    "version": 3
+  }
+}

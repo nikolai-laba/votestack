@@ -1,0 +1,166 @@
+{
+  "key": "brandon-m-macias",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Brandon M. Macias",
+  "office": "Rowland Unified School District, Governing Board Member, Trustee Area No. 3",
+  "contestIds": ["la-4348-cc10667"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Brandon M. Macias is a teacher's aide at Oswalt Elementary School. He is Vice President of the Rowland Heights Community Coordinating Council and has served as chairman of the Nogales School Site Council. In a 2026 candidate questionnaire, Macias said he supports expanding access to competitive courses and providing free in-person tutoring at schools. As a student at Giano Intermediate School, Macias proposed installing new water fountains. The district later used his proposal to update fountains districtwide.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Brandon M. Macias is a teacher's aide at Oswalt Elementary School.",
+            "cites": [1]
+          },
+          {
+            "text": "He is Vice President of the Rowland Heights Community Coordinating Council and has served as chairman of the Nogales School Site Council.",
+            "cites": [2]
+          },
+          {
+            "text": "In a 2026 candidate questionnaire, Macias said he supports expanding access to competitive courses and providing free in-person tutoring at schools.",
+            "cites": [3]
+          },
+          {
+            "text": "As a student at Giano Intermediate School, Macias proposed installing new water fountains.",
+            "cites": [4]
+          },
+          {
+            "text": "The district later used his proposal to update fountains districtwide.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Brandon Macias for Rowland Unified School District Board of Education 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/214513368-Brandon%20Macias%20for%20Rowland%20Unified%20School%20District%20Board%20of%20Education%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 3074,
+        "cashOnHand": 732.52,
+        "breakdown": [
+          { "kind": "small", "amount": 896 },
+          { "kind": "large", "amount": 1692 },
+          { "kind": "candidate", "amount": 486 }
+        ],
+        "fromCandidate": 486,
+        "largeSince": { "since": "2026-09-19", "total": 1400, "count": 1 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Run for Something",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "National Democratic Municipal Officials",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "California For the People",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "California School Employees Association Chapter 133",
+        "kind": "union",
+        "cites": [2]
+      },
+      {
+        "organization": "Neil Polzin, Covina City Treasurer",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Susan Zermeno, Covina City Clerk",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "California Working Families Party",
+        "kind": "organization",
+        "cites": [6]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [7] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "These Gen Z candidates can't order a drink, but are running in ...",
+      "publisher": "The Press-Enterprise",
+      "url": "https://www.pressenterprise.com/2026/10/11/these-gen-z-candidates-cant-order-a-drink-but-are-running-in-southern-california-elections/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "A New Vision for RUSD",
+      "publisher": "Brandon Macias campaign",
+      "url": "https://brandonmacias.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Brandon Macias, Rowland Unified District 3 candidate ...",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/brandon-macias-rowland-unified-district-3-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "These Gen Z candidates can't order a drink, but are running in Southern California elections",
+      "publisher": "The Orange County Register",
+      "url": "https://www.ocregister.com/2026/10/11/these-gen-z-candidates-cant-order-a-drink-but-are-running-in-southern-california-elections/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Run for Something Endorses Nearly 50 Young Candidates Across 24 States",
+      "publisher": "Run for Something",
+      "url": "https://runforsomething.net/rfs-press/run-for-something-endorses-nearly-50-young-candidates-across-24-states/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "California Working Families Party: Our 2026 Candidates",
+      "publisher": "Working Families Party",
+      "url": "https://workingfamilies.org/state/california/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 6
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 7
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.127Z",
+    "version": 3
+  }
+}

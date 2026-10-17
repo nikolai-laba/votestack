@@ -1,0 +1,50 @@
+{
+  "key": "todd-j-roberts",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Todd J. Roberts",
+  "office": "Bellflower Unified School District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10765"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Todd J. Roberts is a candidate for Governing Board Member in Trustee Area No. 5 of the Bellflower Unified School District.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Todd J. Roberts is a candidate for Governing Board Member in Trustee Area No. 5 of the Bellflower Unified School District.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217189670-Roberts%2C%20Todd",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Ballot Marking Device Code List",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/ballot-marking-device-code-list",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T05:54:20.820Z",
+    "version": 2
+  }
+}

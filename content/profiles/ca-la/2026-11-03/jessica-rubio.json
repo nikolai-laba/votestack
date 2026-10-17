@@ -1,0 +1,50 @@
+{
+  "key": "jessica-rubio",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Jessica Rubio",
+  "office": "Hacienda La Puente Unified School District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10650"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Jessica Rubio is a candidate for the Hacienda La Puente Unified School District Governing Board, Trustee Area No. 5.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Jessica Rubio is a candidate for the Hacienda La Puente Unified School District Governing Board, Trustee Area No. 5.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217111277-Rubio%2C%20Jessica",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate Statements - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://apps.lavote.gov/candidate-statements/public-statement/9254/23136/EN",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.101Z",
+    "version": 2
+  }
+}

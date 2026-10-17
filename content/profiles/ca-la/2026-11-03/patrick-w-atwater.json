@@ -1,0 +1,94 @@
+{
+  "key": "patrick-w-atwater",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Patrick W. Atwater",
+  "office": "Foothill Municipal Water District, Member, Board of Directors, Division 5",
+  "contestIds": ["la-4348-cc10547"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Patrick W. Atwater is a water program manager. He says he has nearly two decades of experience in water management and infrastructure financing, and leads an innovation program for a large water utility. He also says he helped build La Crescenta's first stormwater recharge bioswale. If elected, he says he will improve disaster coordination, speed up Altadena fire recovery, invest in local water supplies, and insist on accountability.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Patrick W. Atwater is a water program manager.",
+            "cites": [1]
+          },
+          {
+            "text": "He says he has nearly two decades of experience in water management and infrastructure financing, and leads an innovation program for a large water utility.",
+            "cites": [2]
+          },
+          {
+            "text": "He also says he helped build La Crescenta's first stormwater recharge bioswale.",
+            "cites": [2]
+          },
+          {
+            "text": "If elected, he says he will improve disaster coordination, speed up Altadena fire recovery, invest in local water supplies, and insist on accountability.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217142175-Atwater%2C%20Patrick",
+      "underThreshold": true
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Ardy Kassakhian, Mayor of Glendale",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Rick Cole, Pasadena City Council member",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Frank Colcord, Director, Division 5, Foothill Municipal Water District",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Kathy Ross, former Director, Crescenta Valley Water District",
+        "kind": "elected_official",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate List",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Patrick Atwater for FMWD | Future of the Foothills",
+      "publisher": "Patrick Atwater for FMWD",
+      "url": "https://atwaterforfmwd.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.394Z",
+    "version": 2
+  }
+}

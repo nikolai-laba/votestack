@@ -1,0 +1,164 @@
+{
+  "key": "dallas-lawrence",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Dallas Lawrence",
+  "office": "Las Virgenes Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10652"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Dallas Lawrence has served on the Las Virgenes Unified School District Board of Education since 2013. He says he previously served as a director at the U.S. Department of Education and a Navy officer.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Dallas Lawrence has served on the Las Virgenes Unified School District Board of Education since 2013.",
+            "cites": [1]
+          },
+          {
+            "text": "He says he previously served as a director at the U.S. Department of Education and a Navy officer.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "His campaign says he wants to address student mental health and close the academic achievement gap. It also says that as board president after the Parkland shooting, he led the district to invest more than $1 million in school safety.",
+        "cites": [2],
+        "sentences": [
+          {
+            "text": "His campaign says he wants to address student mental health and close the academic achievement gap.",
+            "cites": [2]
+          },
+          {
+            "text": "It also says that as board president after the Parkland shooting, he led the district to invest more than $1 million in school safety.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/214319012-Lawrence%2C%20Dallas",
+      "underThreshold": true
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Las Virgenes Unified School District Board Vice President Angela Cutbill",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Las Virgenes Unified School District Board Clerk Alan Lazar",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Agoura Hills Mayor Jeremy Wolf",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Calabasas Mayor James Bozajian",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Calabasas Mayor Pro Tem Edward Albrecht",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Westlake Village Mayor Pro Tem Brad Halpern",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Calabasas Councilmember Peter Kraut",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Calabasas Councilmember Alicia Weintraub",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Calabasas Councilmember David Shapiro",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Westlake Village Councilmember Ned Davis",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Westlake Village Councilmember Kelly Honig",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Westlake Village Councilmember Ray Pearl",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Hidden Hills Councilmember Laura McCorkindale",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Former Calabasas Mayor Fred Gaines",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Former Agoura Hills Mayor Denis Weber",
+        "kind": "elected_official",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Dallas B. Lawrence - Ballotpedia",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Dallas_B._Lawrence",
+      "kind": "reference",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Dallas Lawrence: Las Virgenes School Board Election",
+      "publisher": "Dallas Lawrence for Las Virgenes School Board",
+      "url": "https://dallaslawrence.com/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Supporters — Dallas Lawrence for Las Virgenes School Board",
+      "publisher": "Supporters — Dallas Lawrence for Las Virgenes School Board",
+      "url": "https://dallaslawrence.com/supporters",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.169Z",
+    "version": 3
+  }
+}

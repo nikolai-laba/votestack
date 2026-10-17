@@ -1,0 +1,109 @@
+{
+  "key": "mark-hanasono",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Mark Hanasono",
+  "office": "Associate Justice, Court of Appeal, Second District, Division Three",
+  "contestIds": ["la-4348-rc10894"],
+  "kind": "retention",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Mark Hanasono is an Associate Justice of the California Court of Appeal, Second Appellate District, Division Three. Confirmed in 2025, he was previously a Los Angeles County Superior Court judge for nearly 12 years and a public defender. He authored an opinion finding a defamation lawsuit against actress Rebel Wilson was not a SLAPP suit. He also ruled that automakers cannot enforce dealership arbitration clauses in warranty disputes.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Mark Hanasono is an Associate Justice of the California Court of Appeal, Second Appellate District, Division Three.",
+            "cites": [1]
+          },
+          {
+            "text": "Confirmed in 2025, he was previously a Los Angeles County Superior Court judge for nearly 12 years and a public defender.",
+            "cites": [1]
+          },
+          {
+            "text": "He authored an opinion finding a defamation lawsuit against actress Rebel Wilson was not a SLAPP suit.",
+            "cites": [2]
+          },
+          {
+            "text": "He also ruled that automakers cannot enforce dealership arbitration clauses in warranty disputes.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-16", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [4] },
+      {
+        "organization": "Indivisible Ventura",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Santa Clarita Valley Democrats",
+        "kind": "organization",
+        "cites": [6]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Mark K. Hanasono | Second Appellate District",
+      "publisher": "California Courts",
+      "url": "https://appellate.courts.ca.gov/district-courts/2dca/bio/mark-k-hanasono",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Lawsuit Alleging Utterances of False Allegations Not a SLAPP",
+      "publisher": "Metropolitan News-Enterprise",
+      "url": "http://www.metnews.com/articles/2026/rebelwilson_051526.htm",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Ruling limits automaker use of dealer arbitration clauses",
+      "publisher": "Daily Journal",
+      "url": "https://www.dailyjournal.com/article/389057-ruling-limits-automaker-use-of-dealer-arbitration-clauses",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Nonpartisan Judicial Offices",
+      "publisher": "Indivisible Ventura",
+      "url": "https://indivisibleventura.org/nonpartisan-judicial-offices/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "November 2026 Candidate Endorsements",
+      "publisher": "Santa Clarita Valley Democrats",
+      "url": "https://www.santaclaritavalleydemocrats.com/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T14:05:39.945Z",
+    "version": 3
+  }
+}

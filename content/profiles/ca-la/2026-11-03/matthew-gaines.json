@@ -1,0 +1,69 @@
+{
+  "key": "matthew-gaines",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Matthew Gaines",
+  "office": "Keppel Union School District, Governing Board Member, Trustee Area No. 2",
+  "contestIds": ["la-4348-cc10756"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Matthew Gaines is a former Keppel Union board member. He is a political director. He supports Measure K, the school bond on the 2026 ballot, and submitted an argument in favor of it.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Matthew Gaines is a former Keppel Union board member.",
+            "cites": [1]
+          },
+          { "text": "He is a political director.", "cites": [2] },
+          {
+            "text": "He supports Measure K, the school bond on the 2026 ballot, and submitted an argument in favor of it.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Gaines for School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217203510-Gaines%20for%20School%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 5250,
+        "cashOnHand": 5200,
+        "fromScan": "ai"
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "What you need to know to vote on Keppel Union School District Measure K",
+      "publisher": "LAist",
+      "url": "https://laist.com/news/politics/voter-guides/voter-guide-2026-general-election-school-bond-keppel-union-measure-k",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Candidate List - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.117Z",
+    "version": 2
+  }
+}

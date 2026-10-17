@@ -1,0 +1,44 @@
+{
+  "key": "alec-hyeler",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Alec Hyeler",
+  "office": "Crescenta Valley Water District, Member, Board of Directors",
+  "contestIds": ["la-4348-cc10377"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Alec Hyeler is an engineer. He says he has 25 years of engineering experience at Fortune 500 companies. In 2024, he said his goals included keeping water rates affordable and ensuring high water quality. He supported long-term planning and preparing infrastructure for droughts. He also wanted to increase board transparency and use social media to communicate with ratepayers.",
+        "cites": [1]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/212087473-Hyeler%2C%20Alec",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Water District Introduces Board Candidates",
+      "publisher": "Crescenta Valley Weekly",
+      "url": "https://www.crescentavalleyweekly.com/news/10/17/2024/water-district-introduces-board-candidates/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T16:20:30.352Z",
+    "version": 3
+  }
+}

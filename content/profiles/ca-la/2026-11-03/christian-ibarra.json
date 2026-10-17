@@ -1,0 +1,59 @@
+{
+  "key": "christian-ibarra",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Christian Ibarra",
+  "office": "Los Nietos School District, Governing Board Member, Trustee Area No. 2",
+  "contestIds": ["la-4348-cc10714"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Christian Ibarra is a data scientist. He is a candidate for the Los Nietos School District Governing Board, Trustee Area No. 2.",
+        "cites": [1, 2],
+        "sentences": [
+          { "text": "Christian Ibarra is a data scientist.", "cites": [1] },
+          {
+            "text": "He is a candidate for the Los Nietos School District Governing Board, Trustee Area No. 2.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217180508-Ibarra%2C%20Christian",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate List - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Candidate Statements - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://apps.lavote.gov/candidate-statements/",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.177Z",
+    "version": 2
+  }
+}

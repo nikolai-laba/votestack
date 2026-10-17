@@ -1,0 +1,238 @@
+{
+  "key": "luis-barrera-castanon",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Luis Barrera Castanon",
+  "office": "Santa Monica Community College District, Member of the Board of Trustees",
+  "contestIds": ["la-4348-cc10516"],
+  "kind": "candidate",
+  "tier": "short",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Luis Barrera Castañón was appointed to the Santa Monica Community College District Board of Trustees in February 2025. He founded LBC+ Consulting & Creative and previously worked for Goodwill Southern California. His campaign focuses on student success and career pathways. He says he publishes his board votes online. In February 2026, he supported staff layoffs, stating the process was needed for the college to survive.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Luis Barrera Castañón was appointed to the Santa Monica Community College District Board of Trustees in February 2025.",
+            "cites": [1]
+          },
+          {
+            "text": "He founded LBC+ Consulting & Creative and previously worked for Goodwill Southern California.",
+            "cites": [2]
+          },
+          {
+            "text": "His campaign focuses on student success and career pathways.",
+            "cites": [3]
+          },
+          {
+            "text": "He says he publishes his board votes online.",
+            "cites": [3]
+          },
+          {
+            "text": "In February 2026, he supported staff layoffs, stating the process was needed for the college to survive.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Monica",
+        "committee": "Luis Barrera Castanon for SMC College Board 2026",
+        "url": "https://netfile.com/public/CSM/campaign/filingsByFiler/216921832-Luis%20Barrera%20Castanon%20for%20SMC%20College%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 10481,
+        "cashOnHand": 5797.83,
+        "breakdown": [
+          { "kind": "small", "amount": 480 },
+          { "kind": "large", "amount": 5801 },
+          { "kind": "candidate", "amount": 4100 },
+          { "kind": "other", "amount": 100 }
+        ],
+        "fromCandidate": 4100
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Assemblymember Mike Fong",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [3]
+      },
+      {
+        "organization": "Santa Monica Mayor Caroline Torosis",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Santa Monica College Trustee Nancy Greenstein",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Santa Monica College Trustee Rob Rader",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Santa Monica College Trustee Anastasia Foster",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [5]
+      },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Santa Monica Democratic Club",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Santa Monicans for Renters' Rights",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Community for Excellent Public Schools",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Malibu Democratic Club",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Los Angeles/Orange Counties Building and Construction Trades Council",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "Westside Young Democrats",
+        "kind": "organization",
+        "cites": [11]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [12] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Luis Barrera Castañón Appointed to SMC BOT - Santa Monica College",
+      "publisher": "Santa Monica College",
+      "url": "https://www.smc.edu/news/2025/2025-03-07-dr-luis-barrera-castanon-appointed-to-smc-board-of-trustees.php",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Dr. Luis Barrera Castañón - Santa Monica College",
+      "publisher": "Santa Monica College",
+      "url": "https://www.smc.edu/directory/castanon-luis-barrera.php",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "General Election 2026 - santamonica.gov",
+      "publisher": "City of Santa Monica",
+      "url": "https://www.santamonica.gov/elections/2026-11-03/candidates/luis-barrera-castanon",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Santa Monica College Board approves 70 staff layoffs amid deficit",
+      "publisher": "Santa Monica Daily Press",
+      "url": "https://www.smdp.com/a-divided-smc-board-approves-layoffs-after-hearing-hours-of-criticism-over-their-leadership/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "2026 Stonewall Endorsed Candidates",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Our Final '26 Endorsements",
+      "publisher": "Santa Monica Democratic Club",
+      "url": "https://santamonicademocrats.com/our-final-26-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "SMRR 2026 Annual Membership Convention – August 9, 2026",
+      "publisher": "Santa Monicans for Renters' Rights",
+      "url": "https://smrr.org/2026smrrconvention/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "Our Endorsements for 2026",
+      "publisher": "Community for Excellent Public Schools",
+      "url": "https://www.cepssm.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "Endorsements",
+      "publisher": "Malibu Democratic Club",
+      "url": "https://malibudemocraticclub.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "Luis Barrera Castañón for SMC Board of Trustees",
+      "publisher": "Luis Barrera Castañón campaign",
+      "url": "https://www.lbc4smc.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 12
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.013Z",
+    "version": 4
+  }
+}

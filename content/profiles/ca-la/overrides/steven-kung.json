@@ -1,0 +1,19 @@
+{
+  "reason": "Chrome review: LAist names him as a co-founder of the group and reports Measure NDC passed, but does not say the group advocated for it",
+  "overview": [
+    {
+      "action": "replace",
+      "match": "Steven Kung co-founded No Data Center Monterey Park, a group that advo",
+      "text": "Steven Kung is a co-founder of No Data Center Monterey Park. In June 2026, Monterey Park voters approved Measure NDC, a ban on data centers.",
+      "sources": [
+        {
+          "title": "San Gabriel Valley residents fighting data centers hit a 12-mile-long snag | LAist",
+          "publisher": "LAist",
+          "url": "https://laist.com/news/climate-environment/san-gabriel-valley-residents-fighting-data-centers-hit-a-12-mile-long-snag",
+          "kind": "news",
+          "viewedAt": "2026-10-15"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "key": "kimberly-kenne",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Kimberly Kenne",
+  "office": "Pasadena Unified School District, Board of Education, District No. 1",
+  "contestIds": ["la-4348-cc10499"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Kimberly Kenne represents District 1 on the Pasadena Unified School District Board of Education, first elected in 2011. A systems integration expert and parent leader, she has chaired the District Advisory Council and helped found the Parent Education Network.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Kimberly Kenne represents District 1 on the Pasadena Unified School District Board of Education, first elected in 2011.",
+            "cites": [1]
+          },
+          {
+            "text": "A systems integration expert and parent leader, she has chaired the District Advisory Council and helped found the Parent Education Network.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "In 2026, she opposed ending Professional Learning Communities for elementary schools, calling it a mistake. She calls for greater budget transparency and aligning spending with planning and values. Kenne is open to school closures if a consolidation process recommends them. She moved to delay rebuilding San Rafael Elementary until that process finishes, warning against committing bond money before the district completes its facilities master plan. She has criticized one-time state funding for causing repeated layoffs.",
+        "cites": [2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "In 2026, she opposed ending Professional Learning Communities for elementary schools, calling it a mistake.",
+            "cites": [2]
+          },
+          {
+            "text": "She calls for greater budget transparency and aligning spending with planning and values.",
+            "cites": [2]
+          },
+          {
+            "text": "Kenne is open to school closures if a consolidation process recommends them.",
+            "cites": [3]
+          },
+          {
+            "text": "She moved to delay rebuilding San Rafael Elementary until that process finishes, warning against committing bond money before the district completes its facilities master plan.",
+            "cites": [4]
+          },
+          {
+            "text": "She has criticized one-time state funding for causing repeated layoffs.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Kenne for School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217040506-Kenne%20for%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 0,
+        "cashOnHand": 61840.6,
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 25000,
+          "count": 1,
+          "fromCandidate": 25000
+        }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Monrovia Unified School Board Trustee Michael Ocon",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Former Pasadena Unified School Board President Pat Cahalan",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Former Pasadena Unified School Board Member Dr. Mikala Rahn",
+        "kind": "elected_official",
+        "cites": [6]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Kimberly Kenne (District 1) - Pasadena Unified School District",
+      "publisher": "Pasadena Unified School District",
+      "url": "https://www.pusd.us/about/board-of-education/board-members/kimberly-kenne-district-1",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Kimberly Kenne, Pasadena Unified District 1 candidate, 2026 election questionnaire",
+      "publisher": "Pasadena Star-News",
+      "url": "https://www.pasadenastarnews.com/2026/10/05/kimberly-kenne-pasadena-unified-district-1-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "PUSD Board Candidates Confront Closures, Finances and a Question of Trust",
+      "publisher": "Pasadena Now",
+      "url": "https://pasadenanow.com/main/pusd-board-candidates-confront-closures-finances-and-a-question-of-trust",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Pasadena Unified Board Approves Full Rebuild of San Rafael Elementary Over Fiscal Concerns",
+      "publisher": "Pasadena Now",
+      "url": "https://pasadenanow.com/main/pasadena-unified-board-approves-full-rebuild-of-san-rafael-elementary-over-fiscal-objections",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "PUSD Board Approves Layoffs as Trustees Concede Cycle Will Likely Repeat",
+      "publisher": "Altadena Now",
+      "url": "https://www.altadena-now.com/main/education/pusd-board-approves-layoffs-as-trustees-concede-cycle-will-likely-repeat/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements | Kim Kenne Pasadena U",
+      "publisher": "Kenne for School Board 2026",
+      "url": "https://www.kenneforpusd.com/Endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.242Z",
+    "version": 3
+  }
+}

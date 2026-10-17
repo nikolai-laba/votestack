@@ -1,0 +1,170 @@
+{
+  "key": "kurt-gonska",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Kurt Gonska",
+  "office": "City of Santa Monica, Member of the Rent Control Board",
+  "contestIds": ["la-4348-cc10515"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Kurt Gonska is a commissioner on the Santa Monica Rent Control Board who was elected in 2022 and served as board chair in 2025. His professional experience includes marketing and political campaign management. He supports strengthening rent control and in his 2022 campaign called for reducing the maximum annual rent increase from 6% to 3%. In 2022, he opposed means-testing for rent control, saying it would weaken protections. He says that as a commissioner, he worked to increase standards for rent decreases for loss of amenities or deteriorating conditions, ban algorithmic price-fixing software, and develop charter amendments for the November 2026 ballot.",
+        "cites": [1, 2, 3]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Santa Monica",
+      "url": "https://netfile.com/public/CSM/campaign/filingsByFiler/217584502-Gonska%20for%20Rent%20Control%20Board%202026"
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [4]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [5] },
+      {
+        "organization": "Santa Monica Democratic Club",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Westside Young Democrats",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Santa Monica Mayor Caroline Torosis",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Santa Monica City Councilmember Dan Hall",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Santa Monica City Councilmember Ellis Raskin",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Santa Monica City Councilmember Barry Snell",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Santa Monica City Councilmember Natalya Zernitskaya",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Santa Monica Rent Control Board Commissioner Danny Ivanov",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Santa Monica Rent Control Board Vice Chair Kay Ambriz",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Santa Monica Rent Control Board Commissioner Phillis Dudick",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      { "organization": "Knock LA", "kind": "organization", "cites": [8] },
+      { "organization": "LA Forward", "kind": "organization", "cites": [9] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "General Election 2026",
+      "publisher": "City of Santa Monica",
+      "url": "https://www.santamonica.gov/elections/2026-11-03/candidates/kurt-gonska",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "General Election 2022",
+      "publisher": "City of Santa Monica",
+      "url": "https://www.santamonica.gov/elections/2022-11-08/candidates/kurt-gonska",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Rent Control Board race all but sewn up",
+      "publisher": "Santa Monica Daily Press",
+      "url": "https://www.smdp.com/rent-control-board-race-all-but-sewn-up/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Full 2026 Endorsements",
+      "publisher": "Santa Monica Democratic Club",
+      "url": "https://santamonicademocrats.com/full-2026-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "Home · Kurt Gonska for Santa Monica Rent Control Board",
+      "publisher": "Kurt Gonska campaign",
+      "url": "https://kurtforsantamonica.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
+      "publisher": "Knock LA (Ground Game LA)",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 8
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 9
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.930Z",
+    "version": 4
+  }
+}

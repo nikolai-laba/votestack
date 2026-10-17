@@ -1,0 +1,66 @@
+{
+  "key": "laura-olhasso",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Laura Olhasso",
+  "office": "Foothill Municipal Water District, Member, Board of Directors, Division 4",
+  "contestIds": ["la-4348-cc10546"],
+  "kind": "candidate",
+  "tier": "short",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Laura Olhasso was appointed to the Foothill Municipal Water District Board of Directors, Division 4, in February 2026. She is a former mayor and city councilmember of La Cañada Flintridge. She previously served on the LA County Sanitation District board and as president of the California Contract Cities Association.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Laura Olhasso was appointed to the Foothill Municipal Water District Board of Directors, Division 4, in February 2026.",
+            "cites": [1]
+          },
+          {
+            "text": "She is a former mayor and city councilmember of La Cañada Flintridge.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously served on the LA County Sanitation District board and as president of the California Contract Cities Association.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Laura Olhasso for Foothill Municipal Water District 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217256727-Laura%20Olhasso%20for%20Foothill%20Municipal%20Water%20District%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 9201,
+        "cashOnHand": 4667.55,
+        "fromScan": "ai",
+        "largeSince": { "since": "2026-09-19", "total": 2000, "count": 2 }
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board Members - Foothill Municipal Water District",
+      "publisher": "Foothill Municipal Water District",
+      "url": "https://www.fmwd.com/board-members",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.347Z",
+    "version": 3
+  }
+}

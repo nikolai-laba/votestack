@@ -124,6 +124,17 @@ describe('HomePage', () => {
     })
   })
 
+  it('sends a Los Angeles County address with California’s state code', async () => {
+    const fetch = mockApi(200, ballot)
+    renderAt('/')
+    await lookUp('200 N Spring St', 'Los Angeles', '90012')
+    await screen.findByText('Oak Park 22', { exact: false })
+    const [, init] = fetch.mock.calls[0] as unknown as [string, RequestInit]
+    expect(JSON.parse(String(init.body))).toEqual({
+      address: '200 N Spring St, Los Angeles, CA 90012',
+    })
+  })
+
   it('shows the ballot in sections with possible gaps', async () => {
     mockApi(200, ballot)
     renderAt('/')
@@ -147,9 +158,17 @@ describe('HomePage', () => {
     ).toBeInTheDocument()
     expect(screen.getByText('Jane Doe')).toBeInTheDocument()
     expect(screen.getByText(/not matched to districts/i)).toBeInTheDocument()
-    expect(
-      screen.getByRole('link', { name: /official sample ballot/i }),
-    ).toHaveAttribute('href', ballot.coverage.officialSampleBallotUrl)
+    const sampleLink = screen.getByRole('link', {
+      name: /official sample ballot/i,
+    })
+    expect(sampleLink).toHaveAttribute(
+      'href',
+      ballot.coverage.officialSampleBallotUrl,
+    )
+    // The notes and the link read as one paragraph, with no bullet list.
+    expect(sampleLink.parentElement).toHaveTextContent(
+      /not matched to districts yet\. Check your official sample ballot$/,
+    )
     expect(screen.getByText('Judges up for retention (1)')).toBeVisible()
     expect(screen.getByText('Official ballot text')).toBeInTheDocument()
     // Sources, checked dates and the ballot order explainer live on the
@@ -159,6 +178,64 @@ describe('HomePage', () => {
     ).toBeNull()
     expect(within(results).queryByText(/checked/)).toBeNull()
     expect(within(results).queryByText(/public lotteries/)).toBeNull()
+  })
+
+  it('uses California’s words for measures and links the state voter guide', async () => {
+    const CA = 'ocd-division/country:us/state:ca'
+    const prop: Contest = {
+      ...base,
+      electionId: 'ca-2026-11-03-general',
+      authorityId: `${CA}/county:los_angeles`,
+      kind: 'measure',
+      id: 'p1',
+      districtId: CA,
+      title:
+        'Proposition 1: Authorizes Bonds for Housing Affordability Programs',
+      question: 'Authorizes bonds.\nFiscal Impact: Costs.',
+      guide: {
+        name: 'California voter guide',
+        url: 'https://voterguide.sos.ca.gov/propositions/1/',
+      },
+    }
+    mockApi(200, {
+      ...ballot,
+      election: {
+        id: 'ca-2026-11-03-general',
+        name: 'General Election',
+        date: '2026-11-03',
+        divisionId: CA,
+      },
+      contests: [prop, { ...prop, id: 'p2', guide: undefined }],
+    })
+    renderAt('/')
+    await lookUp('200 N Spring St', 'Los Angeles', '90012')
+
+    const results = await screen.findByRole('article')
+    expect(
+      within(results).getByRole('heading', {
+        level: 2,
+        name: 'Propositions and measures',
+      }),
+    ).toBeInTheDocument()
+    expect(screen.getByText(/^You have 0 races and 2 measures/)).toBeVisible()
+    const links = within(results).getAllByRole('link', {
+      name: 'California voter guide',
+    })
+    expect(links).toHaveLength(1)
+    expect(links[0]).toHaveAttribute(
+      'href',
+      'https://voterguide.sos.ca.gov/propositions/1/',
+    )
+    expect(links[0].parentElement).toHaveTextContent(
+      'Full text and arguments: California voter guide',
+    )
+    // Each part of the official text is its own paragraph, its label in bold.
+    const fiscal = within(results).getAllByText('Fiscal Impact:')[0]
+    expect(fiscal.tagName).toBe('STRONG')
+    expect(fiscal.parentElement).toHaveTextContent('Fiscal Impact: Costs.')
+    expect(fiscal.parentElement?.previousElementSibling).toHaveTextContent(
+      'Authorizes bonds.',
+    )
   })
 
   it('shows no notice when the ballot matched every official list', async () => {
@@ -185,14 +262,14 @@ describe('HomePage', () => {
     ).toBeNull()
   })
 
-  it('links the footer to the ballot order explainer', () => {
+  it('links the footer to the About page', () => {
     renderAt('/')
     const footer = screen.getByRole('contentinfo')
     expect(
-      within(footer).getByRole('link', {
+      within(footer).queryByRole('link', {
         name: 'Candidates listed in official ballot order',
       }),
-    ).toHaveAttribute('href', '/about#ballot-order')
+    ).not.toBeInTheDocument()
     expect(
       within(footer).getByRole('link', { name: 'About VoteStack' }),
     ).toHaveAttribute('href', '/about')
@@ -335,8 +412,8 @@ describe('HomePage', () => {
     expect(await screen.findByRole('status')).toHaveTextContent(
       /couldn’t find that address/i,
     )
-    expect(screen.getByRole('status')).toHaveTextContent(
-      'only available in Chicago and Cook County for its initial release',
+    expect(screen.getByRole('status')).not.toHaveTextContent(
+      'only available in',
     )
     // Right under the button, with no links to the official sites.
     const status = screen.getByRole('status')

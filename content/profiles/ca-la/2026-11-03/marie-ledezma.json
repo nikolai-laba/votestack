@@ -1,0 +1,74 @@
+{
+  "key": "marie-ledezma",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Marie Ledezma",
+  "office": "City of Montebello, Member of the City Council, 3rd District",
+  "contestIds": ["la-4348-cc10482"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Marie Ledezma is a paralegal and small business owner. She is running for the District 3 seat on the Montebello City Council in the November 2026 election.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Marie Ledezma is a paralegal and small business owner.",
+            "cites": [1]
+          },
+          {
+            "text": "She is running for the District 3 seat on the Montebello City Council in the November 2026 election.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Montebello",
+        "committee": "Ledezma for City Council 2026",
+        "url": "https://netfile.com/public/BELLO/campaign/filingsByFiler/217100993-Ledezma%20for%20City%20Council%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 5113.01,
+        "cashOnHand": 1499.74,
+        "breakdown": [
+          { "kind": "large", "amount": 100 },
+          { "kind": "candidate", "amount": 1500 },
+          { "kind": "other", "amount": 3513.01 }
+        ],
+        "fromCandidate": 1500,
+        "largeSince": { "since": "2026-09-19", "total": 13036.58, "count": 8 }
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Marie Ledezma",
+      "publisher": "Marie Ledezma Campaign",
+      "url": "https://marieledezma.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "2026 General Election - City of Montebello",
+      "publisher": "City of Montebello",
+      "url": "https://www.montebelloca.gov/departments/administration/city_clerks_office/elections_voting_information/2026_general_election",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.507Z",
+    "version": 2
+  }
+}

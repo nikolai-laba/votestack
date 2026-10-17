@@ -1,0 +1,113 @@
+{
+  "key": "roberta-perlman",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Roberta Perlman",
+  "office": "Pomona Unified School District, Governing Board Member, Trustee Area No. 4",
+  "contestIds": ["la-4348-cc10664"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Dr. Roberta Perlman is Vice President of the Pomona Unified School District Board of Education. She has served on the board since 2009. She is an optometrist and an assistant professor at Western University of Health Sciences.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Dr. Roberta Perlman is Vice President of the Pomona Unified School District Board of Education.",
+            "cites": [1]
+          },
+          { "text": "She has served on the board since 2009.", "cites": [2] },
+          {
+            "text": "She is an optometrist and an assistant professor at Western University of Health Sciences.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign website says the district has a 92% graduation rate, over 50 new transitional kindergarten classrooms, and three dual language immersion programs. She supports expanding preschool, career technical education, and arts and music programs. In a 2026 candidate questionnaire, she said the district is considering building workforce housing to attract and retain educators.",
+        "cites": [2, 4, 5],
+        "sentences": [
+          {
+            "text": "Her campaign website says the district has a 92% graduation rate, over 50 new transitional kindergarten classrooms, and three dual language immersion programs.",
+            "cites": [2]
+          },
+          {
+            "text": "She supports expanding preschool, career technical education, and arts and music programs.",
+            "cites": [4]
+          },
+          {
+            "text": "In a 2026 candidate questionnaire, she said the district is considering building workforce housing to attract and retain educators.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Citizens for Dr. Roberta Perlman for School Board 2022",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/211577109-Citizens%20for%20Dr.%20Roberta%20Perlman%20for%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 4133.18,
+        "cashOnHand": 12372.71,
+        "breakdown": [{ "kind": "other", "amount": 4133.18 }],
+        "largeSince": { "since": "2026-09-19", "total": 2500, "count": 2 }
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Staff Directory | Pomona Unified School District",
+      "publisher": "Pomona Unified School District",
+      "url": "https://proudtobe.pusd.org/apps/staff/departmental.jsp?show=ESD",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Home | Vote Roberta Perlman",
+      "publisher": "Roberta Perlman campaign",
+      "url": "https://www.votedrroberta.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Diversifying STEM fields one student at a time – CSBA Blog",
+      "publisher": "CSBA Blog",
+      "url": "https://blog.csba.org/diversifying-stem/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "About Me | Vote Roberta Perlman",
+      "publisher": "Roberta Perlman campaign",
+      "url": "https://www.votedrroberta.com/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Roberta Perlman, Pomona Unified School District Area 4 candidate, 2026 election questionnaire – Daily Bulletin",
+      "publisher": "Daily Bulletin",
+      "url": "https://www.dailybulletin.com/2026/10/05/roberta-perlman-pomona-unified-school-district-area-4-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.254Z",
+    "version": 3
+  }
+}

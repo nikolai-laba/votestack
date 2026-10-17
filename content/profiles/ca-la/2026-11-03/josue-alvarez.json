@@ -1,0 +1,50 @@
+{
+  "key": "josue-alvarez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Josue Alvarez",
+  "office": "Norwalk-La Mirada Unified School District, Governing Board Member, Trustee Area No. 4",
+  "contestIds": ["la-4348-cc10740"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Josue Alvarez is a business owner running for the Norwalk-La Mirada Unified School District Governing Board in Trustee Area 4.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Josue Alvarez is a business owner running for the Norwalk-La Mirada Unified School District Governing Board in Trustee Area 4.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217293565-Alvarez%2C%20Josue",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate List",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.216Z",
+    "version": 2
+  }
+}

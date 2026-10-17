@@ -1,0 +1,65 @@
+{
+  "key": "wes-zuber",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Wes Zuber",
+  "office": "Wrightwood Community Services District, Member, Board of Directors",
+  "contestIds": ["la-4348-cc10375"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Wes Zuber says he is the founder and owner of UIA, an infrastructure services company. He served as the first president of the Wrightwood Community Services District board and helped set up the district's billing and accounting processes when it was established. He says he would prioritize operational efficiency, reliable services, and careful use of public funds.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Wes Zuber says he is the founder and owner of UIA, an infrastructure services company.",
+            "cites": [1]
+          },
+          {
+            "text": "He served as the first president of the Wrightwood Community Services District board and helped set up the district's billing and accounting processes when it was established.",
+            "cites": [2]
+          },
+          {
+            "text": "He says he would prioritize operational efficiency, reliable services, and careful use of public funds.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "San Bernardino County Registrar of Voters",
+      "url": "https://netfile.com/public/SBD/campaign"
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Meet Candidates Running for Wrightwood Community Service District Board of Directors",
+      "publisher": "Tri-Community NewsPlus",
+      "url": "https://4newsplus.com/meet-candidates-running-for-wrightwood-community-service-district-board-of-directors/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Wrightwood CSD Seeks Dedicated Board Candidates; Looking Back At Past Achievements",
+      "publisher": "Tri-Community NewsPlus",
+      "url": "https://4newsplus.com/wrightwood-csd-seeks-dedicated-board-candidates-looking-back-at-past-achievements/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.449Z",
+    "version": 2
+  }
+}

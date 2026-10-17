@@ -1,0 +1,121 @@
+{
+  "key": "ralph-velador",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Ralph Velador",
+  "office": "Palmdale School District, Governing Board Member, Trustee Area No. 1",
+  "contestIds": ["la-4348-cc10758"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Ralph Velador is the board president and trustee for Area 1 of the Palmdale School District. He was appointed in February 2017 and elected to a four-year term in November 2018. He is a U.S. Army veteran, commander of American Legion Post 348, and director of organizing for LIUNA’s Pacific Southwest Regional Organizing Coalition.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Ralph Velador is the board president and trustee for Area 1 of the Palmdale School District.",
+            "cites": [1]
+          },
+          {
+            "text": "He was appointed in February 2017 and elected to a four-year term in November 2018.",
+            "cites": [1]
+          },
+          {
+            "text": "He is a U.S. Army veteran, commander of American Legion Post 348, and director of organizing for LIUNA’s Pacific Southwest Regional Organizing Coalition.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "In 2026, the district broke ground on an Extended Learning Opportunities Program Center, which Velador described as the first phase of a larger project.",
+        "cites": [2],
+        "sentences": [
+          {
+            "text": "In 2026, the district broke ground on an Extended Learning Opportunities Program Center, which Velador described as the first phase of a larger project.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Committee to Elect Ralph Velador for Palmdale School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/211588660-Committee%20to%20Elect%20Ralph%20Velador%20for%20Palmdale%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 599,
+        "cashOnHand": 50995.3,
+        "fromScan": "ai"
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [3]
+      },
+      { "organization": "IBEW Local 18", "kind": "union", "cites": [4] },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board of Trustees – Board – Palmdale School District",
+      "publisher": "Palmdale School District",
+      "url": "https://www.palmdalesd.org/apps/pages/index.jsp?uREC_ID=4322297&type=d&pREC_ID=2531617",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Extending chances for learning | News",
+      "publisher": "Antelope Valley Press",
+      "url": "https://www.avpress.com/news/extending-chances-for-learning/article_60d4c9e1-4448-47cf-8411-0b794836288e.html",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "IBEW Local 18 — November 3, 2026 Voter Guide",
+      "publisher": "IBEW Local 18",
+      "url": "https://www.ibewlocal18.org/2020/wp-content/uploads/2026/10/IBEW-Local-18-Final-Recommendations-November-2026-1.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 5
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.102Z",
+    "version": 3
+  }
+}

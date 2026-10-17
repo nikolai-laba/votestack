@@ -1,0 +1,86 @@
+{
+  "key": "christine-raquel-cruz-arvayo",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Christine Raquel Cruz-Arvayo",
+  "office": "Pomona Unified School District, Governing Board Member, Trustee Area No. 1",
+  "contestIds": ["la-4348-cc10663"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Christine Raquel Cruz-Arvayo is a retired school administrator running for the Pomona Unified School District Governing Board in Trustee Area 1. Her campaign says she spent 30 years working in Pomona Unified as a teacher, coach, activities director, and district administrator, most recently as a Program Administrator for Secondary Curriculum and Instruction. She also serves as a board member and clerk for the San Antonio Regional Occupational Program, representing Pomona Unified.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Christine Raquel Cruz-Arvayo is a retired school administrator running for the Pomona Unified School District Governing Board in Trustee Area 1.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign says she spent 30 years working in Pomona Unified as a teacher, coach, activities director, and district administrator, most recently as a Program Administrator for Secondary Curriculum and Instruction.",
+            "cites": [2]
+          },
+          {
+            "text": "She also serves as a board member and clerk for the San Antonio Regional Occupational Program, representing Pomona Unified.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Cruz-Arvayo for School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216999097-Cruz-Arvayo%20for%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 350,
+        "cashOnHand": 350,
+        "breakdown": [{ "kind": "large", "amount": 350 }],
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 3275,
+          "count": 2,
+          "fromCandidate": 3275
+        }
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate List - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Christine Cruz-Arvayo for PUSD Board of Education, Trustee Area 1",
+      "publisher": "Christine Cruz-Arvayo campaign",
+      "url": "https://christine4pusd.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Board of Directors",
+      "publisher": "San Antonio ROP",
+      "url": "https://sites.google.com/view/sarop/board-of-directors",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.259Z",
+    "version": 2
+  }
+}

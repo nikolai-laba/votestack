@@ -1,0 +1,100 @@
+{
+  "key": "michael-ramos",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Michael Ramos",
+  "office": "East Whittier City School District, Governing Board Member, Trustee Area No. 3",
+  "contestIds": ["la-4348-cc10692"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Michael Ramos is a district sales representative for the California Lottery. He told the Los Angeles Daily News his top priorities are improving communication between the school board and the community, and budget oversight. He wants to ensure funds support students and staff, and prevent staffing cuts.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Michael Ramos is a district sales representative for the California Lottery.",
+            "cites": [1]
+          },
+          {
+            "text": "He told the Los Angeles Daily News his top priorities are improving communication between the school board and the community, and budget oversight.",
+            "cites": [1]
+          },
+          {
+            "text": "He wants to ensure funds support students and staff, and prevent staffing cuts.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217215628-Ramos%2C%20Michael",
+      "underThreshold": true
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "State Sen. Bob Archuleta",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [2]
+      },
+      {
+        "organization": "Whittier Union High School District Board Member Jaime Lopez",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      { "organization": "SEIU Local 1000", "kind": "union", "cites": [3] },
+      {
+        "organization": "California School Employees Association",
+        "kind": "union",
+        "cites": [2]
+      },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Michael Ramos, East Whittier Elementary School District Area 3 candidate, 2026 election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/michael-ramos-east-whittier-elementary-school-district-area-3-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Endorsements | Mike Ramos for EWCSD School Board Trustee Area 3",
+      "publisher": "Mike Ramos for EWCSD",
+      "url": "https://www.mikeramos4ewcsd.com/view-endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "SEIU Local 1000 Election Endorsements",
+      "publisher": "SEIU Local 1000",
+      "url": "https://www.seiu1000.org/2026elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:48.989Z",
+    "version": 2
+  }
+}

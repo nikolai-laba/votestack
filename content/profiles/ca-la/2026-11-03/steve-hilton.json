@@ -1,0 +1,353 @@
+{
+  "key": "steve-hilton",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Steve Hilton",
+  "party": "Republican",
+  "office": "California Governor",
+  "contestIds": ["la-4348-cc10828-r1", "la-4348-cc10828-r2"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Steve Hilton is a former Fox News host who was a top adviser to British Prime Minister David Cameron from 2010 to 2012. In the United Kingdom, he helped design Cameron's \"Big Society\" policy to shift power from central government to local communities. His campaign centers on an affordability agenda, blaming the state's high cost of living on Democratic policies.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Steve Hilton is a former Fox News host who was a top adviser to British Prime Minister David Cameron from 2010 to 2012.",
+            "cites": [1]
+          },
+          {
+            "text": "In the United Kingdom, he helped design Cameron's \"Big Society\" policy to shift power from central government to local communities.",
+            "cites": [2]
+          },
+          {
+            "text": "His campaign centers on an affordability agenda, blaming the state's high cost of living on Democratic policies.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "He has proposed eliminating state income taxes on the first $150,000 of earnings and pledges to reduce gas prices to $3 a gallon by reducing oil industry regulations and clean energy mandates. To offset the tax cuts, he says he would stop funding high-speed rail, trim state agencies by 5%, crack down on Medicaid fraud, and end state-funded health care for undocumented immigrants. On water, he supports increasing desalination and building more dams and reservoirs, including raising Shasta Dam. He wants to reduce environmental regulations, but opposes the Delta tunnel project.",
+        "cites": [4, 5],
+        "sentences": [
+          {
+            "text": "He has proposed eliminating state income taxes on the first $150,000 of earnings and pledges to reduce gas prices to $3 a gallon by reducing oil industry regulations and clean energy mandates.",
+            "cites": [4]
+          },
+          {
+            "text": "To offset the tax cuts, he says he would stop funding high-speed rail, trim state agencies by 5%, crack down on Medicaid fraud, and end state-funded health care for undocumented immigrants.",
+            "cites": [4]
+          },
+          {
+            "text": "On water, he supports increasing desalination and building more dams and reservoirs, including raising Shasta Dam.",
+            "cites": [5]
+          },
+          {
+            "text": "He wants to reduce environmental regulations, but opposes the Delta tunnel project.",
+            "cites": [5]
+          }
+        ]
+      },
+      {
+        "text": "He has called for overturning the state law that decriminalized sidewalk vending. He wants to cap vehicle registration fees at $73 and move routine services to county offices, abolishing the Department of Motor Vehicles as a stand-alone state agency. On homelessness, he says he would enforce existing laws and remove encampments from streets. He criticizes publicly funded harm-reduction programs that distribute clean drug supplies and says he would end them. He supports cooperating with federal immigration authorities in cases involving dangerous criminals. He supports a ban on artificial intelligence in classrooms.",
+        "cites": [6, 7, 8, 9, 10],
+        "sentences": [
+          {
+            "text": "He has called for overturning the state law that decriminalized sidewalk vending.",
+            "cites": [6]
+          },
+          {
+            "text": "He wants to cap vehicle registration fees at $73 and move routine services to county offices, abolishing the Department of Motor Vehicles as a stand-alone state agency.",
+            "cites": [7]
+          },
+          {
+            "text": "On homelessness, he says he would enforce existing laws and remove encampments from streets.",
+            "cites": [8]
+          },
+          {
+            "text": "He criticizes publicly funded harm-reduction programs that distribute clean drug supplies and says he would end them.",
+            "cites": [9]
+          },
+          {
+            "text": "He supports cooperating with federal immigration authorities in cases involving dangerous criminals.",
+            "cites": [10]
+          },
+          {
+            "text": "He supports a ban on artificial intelligence in classrooms.",
+            "cites": [10]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Steve Hilton for Governor 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1480425",
+        "period": "July 1 to September 19, 2026",
+        "raised": 9414689.83,
+        "cashOnHand": 2685017.32,
+        "breakdown": [
+          { "kind": "small", "amount": 1276636.8 },
+          { "kind": "large", "amount": 7400311.61 },
+          { "kind": "pac", "amount": 42690 },
+          { "kind": "party", "amount": 68000 },
+          { "kind": "other", "amount": 627051.42 }
+        ],
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 2089345.11,
+          "count": 1103
+        }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "President Donald Trump",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [11]
+      },
+      {
+        "organization": "U.S. Rep. Tom McClintock",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [12]
+      },
+      {
+        "organization": "U.S. Rep. Kevin Kiley",
+        "kind": "elected_official",
+        "cites": [13],
+        "party": "Independent"
+      },
+      {
+        "organization": "State Sen. Tony Strickland",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [13]
+      },
+      {
+        "organization": "Former State Senate Majority Leader Gloria Romero",
+        "kind": "elected_official",
+        "cites": [13]
+      },
+      {
+        "organization": "Yolo County District Attorney Jeff Reisig",
+        "kind": "elected_official",
+        "cites": [14]
+      },
+      {
+        "organization": "California Republican Party",
+        "kind": "party",
+        "cites": [15]
+      },
+      {
+        "organization": "Howard Jarvis Taxpayers Association PAC",
+        "kind": "organization",
+        "cites": [16]
+      },
+      {
+        "organization": "Nisei Farmers League",
+        "kind": "organization",
+        "cites": [17]
+      },
+      {
+        "organization": "Israeli-American Civic Action Network",
+        "kind": "organization",
+        "cites": [17]
+      },
+      {
+        "organization": "California ProLife Council",
+        "kind": "organization",
+        "cites": [18]
+      },
+      {
+        "organization": "California Republican Assembly",
+        "kind": "organization",
+        "cites": [19]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [20]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Steve Hilton - UK aide endorsed by Trump - advances for California governor",
+      "publisher": "BBC",
+      "url": "https://www.bbc.com/news/articles/c77yl1p0vvxo",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Who is Steve Hilton, the former Downing Street aide running for governor of California?",
+      "publisher": "ITV News",
+      "url": "https://www.itv.com/news/2026-06-10/who-is-steve-hilton-the-briton-running-for-governor-of-california",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Ex-UK political aide Steve Hilton would overhaul California as governor, he tells BBC",
+      "publisher": "BBC",
+      "url": "https://www.bbc.com/news/articles/cd95x25e2nqo",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Hilton warm on tax cuts, tepid on Trump, cold on offshore wind during town hall",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-10-06/hilton-warm-on-tax-cuts-tepid-on-trump-cold-on-offshore-wind-during-town-hall",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "What would CA governor candidates Hilton and Becerra do about water?",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.org/politics/elections/2026/10/becerra-hilton-governor-candidates-california-water/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Steve Hilton takes aim at Los Angeles street vending during exclusive FOX 11 walk",
+      "publisher": "FOX 11 Los Angeles",
+      "url": "https://www.foxla.com/news/steve-hilton-takes-aim-los-angeles-street-vending-during-exclusive-fox-11-walk",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Steve Hilton proposes abolishing California DMV, capping registration fees at $73",
+      "publisher": "FOX 11 Los Angeles",
+      "url": "https://www.foxla.com/news/steve-hilton-abolish-dmv",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "Steve Hilton says California homelessness is a scandal, not a crisis",
+      "publisher": "Fox News",
+      "url": "https://www.foxnews.com/politics/exclusive-inside-las-homeless-hellscape-unlikely-critics-blast-dems-gop-hopeful-tours-skid-row",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "California's homeless problem laid bare as Steve Hilton tours MacArthur Park",
+      "publisher": "New York Post",
+      "url": "https://nypost.com/2026/10/14/us-news/steve-hilton-campaigns-at-macarthur-park-in-los-angeles-to-address-california-homeless-crisis/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "Becerra and Hilton Tangle Over Taxes and Trump in California Governor Debate",
+      "publisher": "The New York Times",
+      "url": "https://www.nytimes.com/live/2026/09/30/us/california-governor-debate/who-is-steve-hilton-the-republican-candidate-for-governor",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "Trump endorses Republican Steven Hilton for California governor, reordering wide-open race",
+      "publisher": "Associated Press",
+      "url": "https://apnews.com/article/california-governor-donald-trump-endorsement-steve-hilton-0c3b0f4752466e3fd12463cbb49c079d",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "Congressman McClintock Endorses Steve Hilton",
+      "publisher": "Steve Hilton for Governor 2026",
+      "url": "https://stevehiltonforgovernor.com/congressman-mcclintock-endorses-steve-hilton/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 13,
+      "title": "100 Days of Action and a Clear Lead for Steve Hilton",
+      "publisher": "Steve Hilton for Governor 2026",
+      "url": "https://stevehiltonforgovernor.com/100-days-of-action-and-a-clear-lead-for-steve-hilton/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 14,
+      "title": "Prop 36 Architect and Yolo County DA Jeff Reisig Endorses Steve Hilton",
+      "publisher": "Steve Hilton for Governor 2026",
+      "url": "https://stevehiltonforgovernor.com/prop-36-architect-and-yolo-county-da-jeff-reisig-endorses-steve-hilton/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 15,
+      "title": "Endorsements - CAGOP",
+      "publisher": "California Republican Party",
+      "url": "https://cagop.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 16,
+      "title": "HJTA PAC Endorsements: Statewide Primary Election – June 2, 2026",
+      "publisher": "Howard Jarvis Taxpayers Association PAC",
+      "url": "https://www.hjta.org/wp-content/uploads/2026/04/HJTA-PAC-ENDORSEMENTS-4.16.26.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 17,
+      "title": "Governor of California",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.org/california-voter-guide-2026/governor/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "California ProLife Council 2026 Voter Guide",
+      "publisher": "California ProLife Council",
+      "url": "https://californiaprolife.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "November 2026 General Election Endorsements: Los Angeles County",
+      "publisher": "California Republican Assembly",
+      "url": "https://cragop.org/los-angeles-county/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 20
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.781Z",
+    "version": 4
+  }
+}

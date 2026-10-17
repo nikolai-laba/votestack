@@ -1,0 +1,123 @@
+{
+  "key": "carol-raines-brown",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Carol Raines Brown",
+  "office": "West Basin Municipal Water District, Member, Board of Directors, Division 2",
+  "contestIds": ["la-4348-cc10560"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Carol Raines-Brown is a former Inglewood Unified School District board member and a community outreach organizer for the Los Angeles Unified School District. She says she would protect affordable water, strengthen conservation, expand environmental education, and ensure every community has a voice. She voted against the Inglewood Unified School District entering state receivership.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Carol Raines-Brown is a former Inglewood Unified School District board member and a community outreach organizer for the Los Angeles Unified School District.",
+            "cites": [1]
+          },
+          {
+            "text": "She says she would protect affordable water, strengthen conservation, expand environmental education, and ensure every community has a voice.",
+            "cites": [1]
+          },
+          {
+            "text": "She voted against the Inglewood Unified School District entering state receivership.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Raines-Brown for Water Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217164187-RAINES-BROWN%20FOR%20WATER%20BOARD%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 8362.53,
+        "cashOnHand": 293.57,
+        "breakdown": [
+          { "kind": "small", "amount": 78.34 },
+          { "kind": "large", "amount": 1661.19 },
+          { "kind": "pac", "amount": 4913 },
+          { "kind": "candidate", "amount": 1710 }
+        ],
+        "fromCandidate": 1710
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Inglewood Mayor James T. Butts",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Compton Mayor Emma Sharif",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Inglewood City Councilmember Dionne Faulk",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Inglewood Unified School District Board Member Margaret Evans",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Former Inglewood Unified School District Board Member Bishop Johnny J. Young",
+        "kind": "elected_official",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Meet Candidates Seeking Office This November in Inglewood",
+      "publisher": "Los Angeles News Observer",
+      "url": "https://ognsc.com/meet-candidates-seeking-office-this-november-in-inglewood/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Gloria Gray draws challengers for water board seat",
+      "publisher": "The Wave",
+      "url": "https://wavepublication.com/gloria-gray-draws-challengers-for-water-board-seat/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Endorsements",
+      "publisher": "Carol Raines Brown for West Basin Municipal Water District - Division 2",
+      "url": "https://www.carol4westbasinwater.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Carol Raines-Brown Gains Endorsement from Inglewood Mayor James T. Butts",
+      "publisher": "Carol Raines Brown for West Basin Municipal Water District - Division 2",
+      "url": "https://www.carol4westbasinwater.com/post/carol-raines-brown-gains-endorsement-of-mayor-james-t--butts",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.442Z",
+    "version": 2
+  }
+}

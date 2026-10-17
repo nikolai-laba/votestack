@@ -1,0 +1,104 @@
+{
+  "key": "jose-luis-pina",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Jose Luis Piña",
+  "office": "Lynwood Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10653"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Jose Luis Piña is a candidate for the Lynwood Unified School District Governing Board. His campaign says he served as PTO president at Mark Twain Elementary and president of the District English Learner Advisory Committee. It also says he is a business owner with experience in insurance, tax preparation, real estate, and business management.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Jose Luis Piña is a candidate for the Lynwood Unified School District Governing Board.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he served as PTO president at Mark Twain Elementary and president of the District English Learner Advisory Committee.",
+            "cites": [2]
+          },
+          {
+            "text": "It also says he is a business owner with experience in insurance, tax preparation, real estate, and business management.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "His campaign priorities include student achievement, safe and supportive schools, fiscal responsibility and transparency, parent and community voice, supporting teachers and school employees, and protecting district programs and services.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "His campaign priorities include student achievement, safe and supportive schools, fiscal responsibility and transparency, parent and community voice, supporting teachers and school employees, and protecting district programs and services.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Pina for Lynwood School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217243297-Pina%20for%20Lynwood%20School%20Board",
+        "period": "January 1 to September 19, 2026",
+        "raised": 2285.65,
+        "cashOnHand": 550,
+        "breakdown": [
+          { "kind": "small", "amount": 235.65 },
+          { "kind": "candidate", "amount": 2050 }
+        ],
+        "fromCandidate": 2050,
+        "largeSince": { "since": "2026-09-19", "total": 10600, "count": 5 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Jose Luis Pina",
+      "publisher": "Jose Luis Piña campaign",
+      "url": "https://pina4lynwood.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Meet José Luis - www.pina4lynwood.com",
+      "publisher": "Jose Luis Piña campaign",
+      "url": "https://pina4lynwood.com/meet-jose-luis.html",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Endorsed Candidates - Los Angeles County Democratic Party",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.183Z",
+    "version": 2
+  }
+}

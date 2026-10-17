@@ -1,0 +1,111 @@
+{
+  "key": "harry-leshner",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Harry Leshner",
+  "office": "Santa Monica-Malibu Unified School District, Member of the Board of Education",
+  "contestIds": ["la-4348-cc10517"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Harry Leshner is a technology partnerships executive and an education nonprofit board member.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Harry Leshner is a technology partnerships executive and an education nonprofit board member.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "He supports expanding affordable after-care and a technology policy that limits screen time and restricts classroom AI. He supports the 2025 agreements to split the district into separate Santa Monica and Malibu districts, and says he would focus on maintaining program quality and financial health during the transition.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "He supports expanding affordable after-care and a technology policy that limits screen time and restricts classroom AI.",
+            "cites": [1]
+          },
+          {
+            "text": "He supports the 2025 agreements to split the district into separate Santa Monica and Malibu districts, and says he would focus on maintaining program quality and financial health during the transition.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Monica",
+        "committee": "Leshner for School Board 2026",
+        "url": "https://netfile.com/public/CSM/campaign/filingsByFiler/216529031-Leshner%20for%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 755,
+        "cashOnHand": 729.35,
+        "breakdown": [
+          { "kind": "small", "amount": 105 },
+          { "kind": "large", "amount": 650 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles League of Conservation Voters",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Democrats for Israel – Los Angeles",
+        "kind": "organization",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "General Election 2026 - santamonica.gov",
+      "publisher": "santamonica.gov",
+      "url": "https://www.santamonica.gov/elections/2026-11-03/candidates/harry-leshner",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Priorities | Join the Movement—Support Schools — HARRY LESHNER FOR SMMUSD",
+      "publisher": "leshnerforsmmusd.com",
+      "url": "https://www.leshnerforsmmusd.com/campaign-priorities",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "2026 Endorsements | LALCV",
+      "publisher": "Los Angeles League of Conservation Voters",
+      "url": "http://lalcv.org/endorsement/endorsements-in-the-year-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Democrats for Israel – Los Angeles",
+      "url": "https://dfi-la.org/endorse",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 4
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.140Z",
+    "version": 3
+  }
+}

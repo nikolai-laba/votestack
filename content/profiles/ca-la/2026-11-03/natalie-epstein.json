@@ -1,0 +1,136 @@
+{
+  "key": "natalie-epstein",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Natalie Epstein",
+  "office": "Saugus Union School District, Governing Board Member, Trustee Area No. 1",
+  "contestIds": ["la-4348-cc10722"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Natalie Epstein is a small-business owner and parent in the Saugus Union School District. She says she has been a room parent and PTA member in the district. She decided to run after a safety incident in which a student left an elementary school campus and was found over a mile away before district staff knew they were missing. She says she wants to improve campus safety, support teachers, listen to families, and ensure responsible spending. She opposes making Proposition 3’s tax permanent without first improving accountability and transparency for existing taxpayer dollars.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Natalie Epstein is a small-business owner and parent in the Saugus Union School District.",
+            "cites": [1]
+          },
+          {
+            "text": "She says she has been a room parent and PTA member in the district.",
+            "cites": [1]
+          },
+          {
+            "text": "She decided to run after a safety incident in which a student left an elementary school campus and was found over a mile away before district staff knew they were missing.",
+            "cites": [2]
+          },
+          {
+            "text": "She says she wants to improve campus safety, support teachers, listen to families, and ensure responsible spending.",
+            "cites": [2]
+          },
+          {
+            "text": "She opposes making Proposition 3’s tax permanent without first improving accountability and transparency for existing taxpayer dollars.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Natalie Epstein SUSD 2026 Governing Board Member",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216882220-Natalie%20Epstein%20SUSD%202026%20Governing%20Board%20Member",
+        "period": "July 1 to September 19, 2026",
+        "raised": 150,
+        "cashOnHand": 150,
+        "breakdown": [
+          { "kind": "small", "amount": 50 },
+          { "kind": "large", "amount": 100 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "KHTS AM 1220 / FM 98.1 (owners' editorial)",
+        "kind": "editorial_board",
+        "cites": [3]
+      },
+      {
+        "organization": "Santa Clarita City Council Member Jason Gibbs",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "College of the Canyons Board of Trustees President Sharlene Johnson",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Republican Party of Los Angeles County",
+        "kind": "party",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Natalie Epstein SUSD 2026 Governing Board Member · Area 1",
+      "publisher": "Natalie Epstein campaign",
+      "url": "https://natalieforsaugus.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Santa Clarita Valley School Board Candidates Take Part In Meet-And-Greet",
+      "publisher": "KHTS Radio",
+      "url": "https://www.hometownstation.com/santa-clarita-news/community-news/santa-clarita-valley-school-board-candidates-take-part-in-meet-and-greet-612305",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "EDITORIAL: KHTS Endorsements For The 2026 Election",
+      "publisher": "KHTS AM 1220 / FM 98.1 (hometownstation.com)",
+      "url": "https://www.hometownstation.com/santa-clarita-news/politics/santa-clarita-elections/editorial-khts-endorsements-for-the-2026-election-612909",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 4
+    },
+    {
+      "title": "LAGOP Endorsement Lookup, November 3, 2026 General Election",
+      "publisher": "Republican Party of Los Angeles County",
+      "url": "https://lagop-endorsement-lookup.vercel.app/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 5
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.150Z",
+    "version": 3
+  }
+}

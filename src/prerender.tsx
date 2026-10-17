@@ -40,10 +40,15 @@ import {
   type PageHead,
 } from './head.ts'
 import { prerenderData, type PrerenderData } from './prerenderData.ts'
-import { RACES_QUERY_KEY, loadRaces } from './races/data.ts'
+import {
+  RACES_QUERY_KEY,
+  loadRaces,
+  publishedFor,
+  type RaceData,
+} from './races/data.ts'
 import { routes } from './routes.tsx'
 import type { CandidateProfile } from './shared/profile.ts'
-import { RACES_PATH, racePath, type RaceList } from './shared/races.ts'
+import { RACES_PATH, racePath } from './shared/races.ts'
 
 export { SITE_URL, headHtml, prerenderData }
 
@@ -130,8 +135,8 @@ export function candidatePages(
   ]
 }
 
-/** /races, the area's list of races and a page for every race. */
-export function racePages(list: RaceList): PrerenderPage[] {
+/** /races, each area's list of races and a page for every race. */
+export function racePages(data: RaceData): PrerenderPage[] {
   const page = (path: string, head: PageHead): PrerenderPage => ({
     path,
     // Cloudflare serves /races/il/… from races/il/….html.
@@ -142,14 +147,24 @@ export function racePages(list: RaceList): PrerenderPage[] {
   })
   return [
     page(RACES_PATH, RACES_HEAD),
-    page(`${RACES_PATH}/${list.areaPath}`, raceAreaHead(list)),
-    ...list.races.map((race) => page(racePath(race), raceHead(race))),
+    ...data.lists.flatMap((list) => {
+      const withProfiles = publishedFor(data, list).size > 0
+      return [
+        page(
+          `${RACES_PATH}/${list.areaPath}`,
+          raceAreaHead(list, withProfiles),
+        ),
+        ...list.races.map((race) =>
+          page(racePath(race), raceHead(race, withProfiles)),
+        ),
+      ]
+    }),
   ]
 }
 
-/** The race list the pages are built from. */
-export async function raceList(): Promise<RaceList> {
-  return (await loadRaces()).list
+/** The race lists the pages are built from. */
+export async function raceData(): Promise<RaceData> {
+  return loadRaces()
 }
 
 /** The HTML inside #root for a page. */

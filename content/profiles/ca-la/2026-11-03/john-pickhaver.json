@@ -1,0 +1,225 @@
+{
+  "key": "john-pickhaver",
+  "electionId": "ca-2026-11-03-general",
+  "name": "John Pickhaver",
+  "office": "City of El Segundo, Member of the City Council",
+  "contestIds": ["la-4348-cc10452"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "John Pickhaver is a nonprofit CEO, running coach, and chair of El Segundo’s Arts and Culture Advisory Committee. He co-founded the Sweat Equity Alliance, a community organization. He also co-founded the Gundo Pride celebration. His campaign says he helped develop the city's Cultural Arts Master Plan and get it adopted.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "John Pickhaver is a nonprofit CEO, running coach, and chair of El Segundo’s Arts and Culture Advisory Committee.",
+            "cites": [1]
+          },
+          {
+            "text": "He co-founded the Sweat Equity Alliance, a community organization.",
+            "cites": [2]
+          },
+          {
+            "text": "He also co-founded the Gundo Pride celebration.",
+            "cites": [3]
+          },
+          {
+            "text": "His campaign says he helped develop the city's Cultural Arts Master Plan and get it adopted.",
+            "cites": [4]
+          }
+        ]
+      },
+      {
+        "text": "He supports building housing for all income levels and adding homes near jobs to reduce commutes. He says the city needs housing east of Pacific Coast Highway and lost a $659,000 Metro grant when the council removed an affordable housing study. His campaign says he helped mobilize residents to defeat a planned data center. He pushed for transparency on a charter city proposal, arguing that resident input should guide decisions.",
+        "cites": [1, 5, 6, 3],
+        "sentences": [
+          {
+            "text": "He supports building housing for all income levels and adding homes near jobs to reduce commutes.",
+            "cites": [1]
+          },
+          {
+            "text": "He says the city needs housing east of Pacific Coast Highway and lost a $659,000 Metro grant when the council removed an affordable housing study.",
+            "cites": [5]
+          },
+          {
+            "text": "His campaign says he helped mobilize residents to defeat a planned data center.",
+            "cites": [6]
+          },
+          {
+            "text": "He pushed for transparency on a charter city proposal, arguing that resident input should guide decisions.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of El Segundo",
+        "committee": "John Pickhaver for City Council 2026",
+        "url": "https://netfile.com/public/SEG/campaign/filingsByFiler/217396877-John%20Pickhaver%20for%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 16253.12,
+        "cashOnHand": 10160.67,
+        "breakdown": [
+          { "kind": "small", "amount": 1235.1 },
+          { "kind": "large", "amount": 12927.42 },
+          { "kind": "pac", "amount": 2090.6 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 3522.24, "count": 3 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [7]
+      },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Los Angeles League of Conservation Voters",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Streets For All",
+        "kind": "organization",
+        "cites": [9]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [10] },
+      {
+        "organization": "Indivisible South Bay LA",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "Black Los Angeles Young Democrats",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "LAX Area Democratic Club",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "South Bay Forward",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Sea Change El Segundo",
+        "kind": "organization",
+        "cites": [6]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Incumbents, local advocate newcomer vie for 2 El Segundo City Council seats",
+      "publisher": "Daily Breeze",
+      "url": "https://www.dailybreeze.com/2026/10/12/incumbents-local-advocate-newcomer-vie-for-2-el-segundo-city-council-seats/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "ABOUT | John Pickhaver For El Segundo City Council",
+      "publisher": "John Pickhaver campaign",
+      "url": "https://www.johnpickhaver.com/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "The Weekly Newspaper of El Segundo",
+      "publisher": "Herald Publications",
+      "url": "http://www.heraldpublications.com/herald/sites/default/files/publications/pdf-files/Herald_091726_FNL_lorez.pdf",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Campaign Launch | John Pickhaver for El Segundo City Council",
+      "publisher": "John Pickhaver campaign",
+      "url": "https://www.johnpickhaver.com/campaign-launch",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "El Segundo survey shows 70.6% favor housing east of PCH",
+      "publisher": "South Bay Tide",
+      "url": "https://southbaytide.com/articles/el-segundo-planners-weigh-vision-2050-rezoning-concepts-munj8v82",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "John Pickhaver for El Segundo City Council 2026",
+      "publisher": "John Pickhaver campaign",
+      "url": "https://www.johnpickhaver.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 8,
+      "title": "Current Endorsements",
+      "publisher": "Los Angeles League of Conservation Voters",
+      "url": "https://lalcv.org/current-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 9,
+      "title": "2026 Endorsements",
+      "publisher": "Streets For All",
+      "url": "https://www.streetsforall.org/2026",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 10,
+      "title": "El Segundo · LA Forward Voter Guide",
+      "publisher": "LA Forward",
+      "url": "https://laforwardguide.org/guide/el-segundo",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 11,
+      "title": "2026 Endorsements",
+      "publisher": "Indivisible South Bay LA",
+      "url": "https://indivisiblesouthbay.com/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:40:01.400Z",
+    "version": 2
+  }
+}

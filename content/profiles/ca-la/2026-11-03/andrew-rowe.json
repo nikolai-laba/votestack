@@ -1,0 +1,73 @@
+{
+  "key": "andrew-rowe",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Andrew Rowe",
+  "office": "Westside Union School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10732"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Andrew Rowe is the president of the Westside Union School District Governing Board. He is an aerospace engineer. He was elected to the board in 2022. In December 2025, he voted with the full board to adopt a community facilities district ordinance.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Andrew Rowe is the president of the Westside Union School District Governing Board.",
+            "cites": [1]
+          },
+          { "text": "He is an aerospace engineer.", "cites": [2] },
+          { "text": "He was elected to the board in 2022.", "cites": [2] },
+          {
+            "text": "In December 2025, he voted with the full board to adopt a community facilities district ordinance.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217110494-Rowe%2C%20Andrew",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board",
+      "publisher": "Westside Union School District",
+      "url": "https://www.westside.k12.ca.us/trustees",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Westside Union Board Race Set for Nov. 3 Election - Antelope Valley Online",
+      "publisher": "Antelope Valley Online",
+      "url": "https://antelopevalleyonline.com/westside-union-board-race-set-for-nov-3-election/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "[PDF] Ordinance Westside CFD 2023-1 (SC391162-3).DOC",
+      "publisher": "Westside Union School District",
+      "url": "https://resources.finalsite.net/images/v1766008386/westside/l7cmhsfykmnjnnqzf50c/Publicationversion-OrdinanceWestsideCFD2025-14903-2788-87701.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.300Z",
+    "version": 3
+  }
+}

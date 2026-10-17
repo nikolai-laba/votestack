@@ -1,0 +1,90 @@
+{
+  "key": "anthony-perry",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Anthony Perry",
+  "office": "City of Compton, Member of the City Council, 2nd District",
+  "contestIds": ["la-4348-cc10769"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Anthony Perry is a community organizer, educator, and small business owner, according to his campaign. At a candidates' forum, he said Compton is not a healthy city. He said leaders should operate with integrity and focus on constituents.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Anthony Perry is a community organizer, educator, and small business owner, according to his campaign.",
+            "cites": [1]
+          },
+          {
+            "text": "At a candidates' forum, he said Compton is not a healthy city.",
+            "cites": [2]
+          },
+          {
+            "text": "He said leaders should operate with integrity and focus on constituents.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "His campaign says he would prioritize fair access to affordable housing, quality education and green spaces. He has proposed workforce training for green industries and support for small businesses. His platform includes youth programs and neighborhood safety through enhanced policing and community engagement.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "His campaign says he would prioritize fair access to affordable housing, quality education and green spaces.",
+            "cites": [1]
+          },
+          {
+            "text": "He has proposed workforce training for green industries and support for small businesses.",
+            "cites": [1]
+          },
+          {
+            "text": "His platform includes youth programs and neighborhood safety through enhanced policing and community engagement.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Compton",
+        "committee": "Perry for Council District 2 2026",
+        "url": "https://www.comptoncity.org/departments/city-clerk/elections/campaign-statements/460-campaign-statements",
+        "period": "July 1 to September 19, 2026",
+        "raised": 1450,
+        "cashOnHand": 700,
+        "fromScan": "ai"
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Anthony Perry for Compton",
+      "publisher": "Anthony Perry for Compton",
+      "url": "https://perryforcompton.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Compton political candidates jockey for inside position – The Bulletin",
+      "publisher": "The Compton Bulletin",
+      "url": "https://thecomptonbulletin.news4usonline.com/2026/04/03/compton-political-candidates-jockey-for-inside-position/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.513Z",
+    "version": 2
+  }
+}

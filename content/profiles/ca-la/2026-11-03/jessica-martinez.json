@@ -1,0 +1,145 @@
+{
+  "key": "jessica-martinez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Jessica Martinez",
+  "party": "Republican",
+  "office": "State Assembly Member, 56th District",
+  "contestIds": ["la-4348-cc10796"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Jessica Martinez is a former Whittier city councilor. She is an educator who has worked in communications, the federal government, and public schools. During her 2022 campaign, she held a pro-business, anti-regulation, and anti-tax policy outlook, and strongly opposed shifting funding away from law enforcement. She has emphasized religious freedom, the right to life, gun rights, free enterprise, and limited government.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Jessica Martinez is a former Whittier city councilor.",
+            "cites": [1]
+          },
+          {
+            "text": "She is an educator who has worked in communications, the federal government, and public schools.",
+            "cites": [2]
+          },
+          {
+            "text": "During her 2022 campaign, she held a pro-business, anti-regulation, and anti-tax policy outlook, and strongly opposed shifting funding away from law enforcement.",
+            "cites": [3]
+          },
+          {
+            "text": "She has emphasized religious freedom, the right to life, gun rights, free enterprise, and limited government.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Jessica Martinez for 56th Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1479619",
+        "period": "July 1 to September 19, 2026",
+        "raised": 4685.35,
+        "cashOnHand": 919.94,
+        "breakdown": [
+          { "kind": "small", "amount": 425 },
+          { "kind": "large", "amount": 4140.35 },
+          { "kind": "pac", "amount": 120 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Republican Party",
+        "kind": "party",
+        "cites": [4]
+      },
+      {
+        "organization": "California Republican Assembly",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "American Independent Party",
+        "kind": "party",
+        "cites": [6]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [7]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "2026 California State Assembly election",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_California_State_Assembly_election",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Assembly District 56 – Initiate Justice Action",
+      "publisher": "Initiate Justice Action",
+      "url": "https://ijaction.org/ad-56-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Election 2022: Here’s who is running for LA County state Assembly seats",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2022/10/15/election-2022-heres-who-is-running-for-la-county-state-assembly-seats/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "2026 CRP Endorsements",
+      "publisher": "California Republican Party",
+      "url": "https://cagop.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "State Assembly - November 2026 General Election Endorsements",
+      "publisher": "California Republican Assembly",
+      "url": "https://cragop.org/state-assembly/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Party Endorsements for Voter-Nominated Offices, November 3, 2026 General Election",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/additional-election-information",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 6
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 7
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.711Z",
+    "version": 4
+  }
+}

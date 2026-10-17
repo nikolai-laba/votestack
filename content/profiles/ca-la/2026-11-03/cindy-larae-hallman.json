@@ -1,0 +1,142 @@
+{
+  "key": "cindy-larae-hallman",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Cindy Larae Hallman",
+  "office": "Saugus Union School District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10724"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Cindy Larae Hallman is a retired educator. She says she worked in education for 40 years, including 25 years as a teacher in the Saugus Union School District. She says she later worked as an administrator and an education professor at The Master's University.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Cindy Larae Hallman is a retired educator.",
+            "cites": [1]
+          },
+          {
+            "text": "She says she worked in education for 40 years, including 25 years as a teacher in the Saugus Union School District.",
+            "cites": [1]
+          },
+          {
+            "text": "She says she later worked as an administrator and an education professor at The Master's University.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "In a 2026 candidate questionnaire, she said the school district's top problems are student misbehavior and too many required programs for teachers. She proposes giving teachers more professional autonomy and reducing the number of programs they must implement each day. Her campaign also advocates for limiting artificial intelligence use and screen time for elementary students.",
+        "cites": [1, 3],
+        "sentences": [
+          {
+            "text": "In a 2026 candidate questionnaire, she said the school district's top problems are student misbehavior and too many required programs for teachers.",
+            "cites": [1]
+          },
+          {
+            "text": "She proposes giving teachers more professional autonomy and reducing the number of programs they must implement each day.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign also advocates for limiting artificial intelligence use and screen time for elementary students.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Cindy Hallman for SUSD Governing Board Trustee 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216846741-Cindy%20Hallman%20for%20SUSD%20Governing%20Board%20Trustee%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 4118.5,
+        "cashOnHand": 183.5,
+        "fromScan": "ai",
+        "largeSince": { "since": "2026-09-19", "total": 1800, "count": 1 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "KHTS Santa Clarita Valley's Hometown Station (editorial by owners Carl and Jeri Seratti-Goldman)",
+        "kind": "editorial_board",
+        "cites": [4]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Republican Party of Los Angeles County",
+        "kind": "party",
+        "cites": [6]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Cindy Hallman, Saugus Union School District Area 5 ...",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/cindy-hallman-saugus-union-school-district-area-5-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Cindy Hallman | Passion for Education",
+      "publisher": "Santa Clarita Valley Signal",
+      "url": "https://signalscv.com/2026/09/cindy-hallman-passion-for-education/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Cindy Hallman Seeks Trustee Seat, Advocates for Teacher Autonomy and Lowered Screen Time",
+      "publisher": "Head Topics",
+      "url": "https://us.headtopics.com/news/cindy-hallman-seeks-trustee-seat-advocates-for-teacher-88487589",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Editorial: KHTS Endorsements for the 2026 Election",
+      "publisher": "KHTS Santa Clarita Valley's Hometown Station",
+      "url": "https://www.hometownstation.com/santa-clarita-news/politics/santa-clarita-elections/editorial-khts-endorsements-for-the-2026-election-612909",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 5
+    },
+    {
+      "title": "LAGOP Endorsement Lookup, November 3, 2026 General Election",
+      "publisher": "Republican Party of Los Angeles County",
+      "url": "https://lagop-endorsement-lookup.vercel.app/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 6
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.153Z",
+    "version": 3
+  }
+}

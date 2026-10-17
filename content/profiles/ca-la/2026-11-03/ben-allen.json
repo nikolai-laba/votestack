@@ -1,0 +1,464 @@
+{
+  "key": "ben-allen",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Ben Allen",
+  "party": "Democratic",
+  "office": "California Insurance Commissioner",
+  "contestIds": ["la-4348-cc10834-r1", "la-4348-cc10834-r2"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Ben Allen is a Democratic state senator who was elected in 2014 and represents a district hit by the Los Angeles County fires. He previously served on the Santa Monica-Malibu Board of Education. He has chaired the Senate Environmental Quality Committee and the Budget Subcommittee on Resources, Environmental Protection and Energy.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Ben Allen is a Democratic state senator who was elected in 2014 and represents a district hit by the Los Angeles County fires.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously served on the Santa Monica-Malibu Board of Education.",
+            "cites": [2]
+          },
+          {
+            "text": "He has chaired the Senate Environmental Quality Committee and the Budget Subcommittee on Resources, Environmental Protection and Energy.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "He wants to keep insurers in the market by allowing faster rate reviews and forward-looking tools, with guardrails such as requiring them to serve high-risk communities. He would increase staff to handle customer service and create a consumer advocate position in the department. He calls for requiring insurers to explain claim denials and to report delays and outstanding claims after a disaster. He supports restricting new construction in high-risk zones. He wants to reduce risk by bringing together insurers, builders, local governments, firefighters and the state.",
+        "cites": [2, 4, 5, 6],
+        "sentences": [
+          {
+            "text": "He wants to keep insurers in the market by allowing faster rate reviews and forward-looking tools, with guardrails such as requiring them to serve high-risk communities.",
+            "cites": [2]
+          },
+          {
+            "text": "He would increase staff to handle customer service and create a consumer advocate position in the department.",
+            "cites": [4]
+          },
+          {
+            "text": "He calls for requiring insurers to explain claim denials and to report delays and outstanding claims after a disaster.",
+            "cites": [5]
+          },
+          {
+            "text": "He supports restricting new construction in high-risk zones.",
+            "cites": [6]
+          },
+          {
+            "text": "He wants to reduce risk by bringing together insurers, builders, local governments, firefighters and the state.",
+            "cites": [6]
+          }
+        ]
+      },
+      {
+        "text": "As a legislator, Allen authored a law restricting single-use plastics and touts writing Proposition 4, a climate bond measure approved by voters in 2024. He authored Senate Bill 1209, which allows the insurance commissioner to order insurers to fix issues found during investigations without going through a lengthy legal process. He also wrote a law requiring insurers to pay 60% of a policyholder's contents coverage without a detailed inventory. Another law he authored requires insurers to provide more details when planning to drop coverage and gives homeowners time to fix the issues.",
+        "cites": [1, 7, 4, 8],
+        "sentences": [
+          {
+            "text": "As a legislator, Allen authored a law restricting single-use plastics and touts writing Proposition 4, a climate bond measure approved by voters in 2024.",
+            "cites": [1]
+          },
+          {
+            "text": "He authored Senate Bill 1209, which allows the insurance commissioner to order insurers to fix issues found during investigations without going through a lengthy legal process.",
+            "cites": [7]
+          },
+          {
+            "text": "He also wrote a law requiring insurers to pay 60% of a policyholder's contents coverage without a detailed inventory.",
+            "cites": [4]
+          },
+          {
+            "text": "Another law he authored requires insurers to provide more details when planning to drop coverage and gives homeowners time to fix the issues.",
+            "cites": [8]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Ben Allen for Insurance Commissioner 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1483889",
+        "period": "July 1 to September 19, 2026",
+        "raised": 717546.57,
+        "cashOnHand": 698620.95,
+        "breakdown": [
+          { "kind": "small", "amount": 1701.66 },
+          { "kind": "large", "amount": 481879 },
+          { "kind": "pac", "amount": 123605.33 },
+          { "kind": "party", "amount": 9060.58 },
+          { "kind": "other", "amount": 101300 }
+        ],
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 497310.33,
+          "count": 159
+        }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "U.S. Sen. Adam Schiff",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "U.S. Sen. Alex Padilla",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "U.S. Rep. Pete Aguilar",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Judy Chu",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Ted Lieu",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Brad Sherman",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Nanette Barragán",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Laura Friedman",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Luz Rivas",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Mike Levin",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Former Gov. Gray Davis",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Board of Equalization Member Sally Lieber",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Board of Equalization Member Tony Vazquez",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Senate President pro Tem Monique Limón",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Assembly Speaker Robert Rivas",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [11]
+      },
+      {
+        "organization": "State Sen. Henry Stern",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "State Sen. Scott Wiener",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Lindsey Horvath",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Hilda Solis",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Los Angeles County Assessor Jeff Prang",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "California Democratic Party",
+        "kind": "party",
+        "cites": [12]
+      },
+      {
+        "organization": "Southern California News Group editorial board (Orange County Register)",
+        "kind": "editorial_board",
+        "cites": [13]
+      },
+      {
+        "organization": "The Mercury News/East Bay Times editorial boards",
+        "kind": "editorial_board",
+        "cites": [14]
+      },
+      {
+        "organization": "The Press Democrat editorial board",
+        "kind": "editorial_board",
+        "cites": [15]
+      },
+      {
+        "organization": "San Francisco Chronicle editorial board",
+        "kind": "editorial_board",
+        "cites": [7]
+      },
+      {
+        "organization": "California Environmental Voters",
+        "kind": "organization",
+        "cites": [7]
+      },
+      { "organization": "Sierra Club", "kind": "organization", "cites": [7] },
+      {
+        "organization": "Consumer Federation of California",
+        "kind": "organization",
+        "cites": [16]
+      },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Planned Parenthood Affiliates of California",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "California Farm Bureau Federation",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "California YIMBY",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Crime Victims United",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Jane Fonda Climate PAC",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "California Professional Firefighters",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "State Building and Construction Trades Council of California",
+        "kind": "union",
+        "cites": [17]
+      },
+      {
+        "organization": "United Nurses Association of California (UNAC)",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "American Independent Party",
+        "kind": "party",
+        "cites": [18]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "General Election 2026: California's insurance commissioner race explainer",
+      "publisher": "KPBS",
+      "url": "https://www.kpbs.org/news/politics/2026/09/14/2026/2026-general-election-who-wants-to-be-californias-insurance-commissioner-your-guide-to-the-candidates",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Ben Allen, California insurance commissioner candidate, 2026 primary election questionnaire",
+      "publisher": "Orange County Register",
+      "url": "https://www.ocregister.com/2026/05/05/ben-allen-california-insurance-commissioner-candidate-2026-primary-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Biography | Senator Ben Allen",
+      "publisher": "California State Senate",
+      "url": "https://sd24.senate.ca.gov/biography",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "California insurance commissioner race is set: Kim vs. Allen",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.org/economy/2026/06/california-insurance-commissioner-top-two/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Who's running for insurance commissioner in CA's 2026 election?",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.org/california-voter-guide-2026/insurance-commissioner/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Who wants to be California's insurance commissioner? Your guide to the candidates",
+      "publisher": "LAist",
+      "url": "https://laist.com/news/politics/who-wants-to-be-californias-insurance-commissioner-your-guide-to-the-candidates",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "California insurance commissioner race: Jane Kim vs. Ben Allen",
+      "publisher": "Mission Local",
+      "url": "https://missionlocal.org/2026/10/ben-allen-jane-kim-california-insurance-commissioner/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "How California insurance commissioner candidates Jane Kim and Ben Allen measure up",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.org/economy/2026/10/insurance-commissioner-california-nov-election/?channel=brytalocals",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "How California insurance commissioner candidates Jane Kim and Ben Allen measure up",
+      "publisher": "CalMatters (via The Mendocino Voice)",
+      "url": "https://mendovoice.com/2026/10/how-california-insurance-commissioner-candidates-jane-kim-and-ben-allen-measure-up/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "Endorsements - Ben Allen for Insurance Commissioner",
+      "publisher": "Ben Allen for Insurance Commissioner",
+      "url": "https://www.benallenca.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "Here's five candidates vying to be California's next insurance commissioner",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.org/politics/2026/04/california-insurance-commissioner-candidates/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "California Democratic Party Endorses Insurance Commissioner and Statewide Ballot Measures Ahead of 2026 General Election",
+      "publisher": "California Democratic Party",
+      "url": "https://cadem.org/california-democratic-party-endorses-insurance-commissioner-and-statewide-ballot-measures-ahead-of-2026-general-election/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 13,
+      "title": "Endorsement: Ben Allen for California insurance commissioner",
+      "publisher": "Orange County Register",
+      "url": "https://www.ocregister.com/2026/08/16/endorsement-ben-allen-for-insurance-commissioner/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 14,
+      "title": "Endorsement: California's homeowners need a fix, not an experiment. Elect Ben Allen",
+      "publisher": "The Mercury News",
+      "url": "https://www.mercurynews.com/2026/09/26/endorsement-elect-ben-allen-californias-next-insurance-commissioner-2/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 15,
+      "title": "Endorsements: Press Democrat recommendations for Nov. 3 election",
+      "publisher": "The Press Democrat",
+      "url": "https://www.pressdemocrat.com/2026/10/12/endorsements-press-democrat-recommendations-for-nov-3-election/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 16,
+      "title": "Consumer Federation of California Endorses State Senator Ben Allen for Insurance Commissioner",
+      "publisher": "Consumer Federation of California",
+      "url": "https://consumercal.org/consumer-federation-of-california-endorses-state-senator-ben-allen-for-insurance-commissioner/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 17,
+      "title": "Insurance commissioner candidates split key endorsements",
+      "publisher": "Los Angeles Times (via Yahoo News)",
+      "url": "https://www.yahoo.com/news/politics/articles/insurance-commissioner-candidates-split-key-100000830.html",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Party Endorsements for Voter-Nominated Offices, November 3, 2026 General Election",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/additional-election-information",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 18
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T14:05:39.901Z",
+    "version": 5
+  }
+}

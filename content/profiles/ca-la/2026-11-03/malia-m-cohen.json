@@ -1,0 +1,483 @@
+{
+  "key": "malia-m-cohen",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Malia M. Cohen",
+  "party": "Democratic",
+  "office": "California Controller",
+  "contestIds": ["la-4348-cc10831-r1", "la-4348-cc10831-r2"],
+  "kind": "candidate",
+  "tier": "top",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Malia M. Cohen, a Democrat, is the California State Controller. She was elected in 2022. She is seeking re-election in 2026. She previously served on the California State Board of Equalization, chairing it in 2019 and 2022, and was president of the San Francisco Board of Supervisors, where she chaired the Budget and Finance Committee. As president of the San Francisco Employees’ Retirement System, she led efforts to divest from fossil fuels and moved $100 million into a fossil fuel-free index fund.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Malia M. Cohen, a Democrat, is the California State Controller.",
+            "cites": [1]
+          },
+          { "text": "She was elected in 2022.", "cites": [2] },
+          { "text": "She is seeking re-election in 2026.", "cites": [1] },
+          {
+            "text": "She previously served on the California State Board of Equalization, chairing it in 2019 and 2022, and was president of the San Francisco Board of Supervisors, where she chaired the Budget and Finance Committee.",
+            "cites": [2]
+          },
+          {
+            "text": "As president of the San Francisco Employees’ Retirement System, she led efforts to divest from fossil fuels and moved $100 million into a fossil fuel-free index fund.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign says she has expanded public access to financial and payroll data, released monthly cash reports, and advanced efforts to modernize the state payroll system. In 2025, she cautioned that the state faces significant structural deficits and urged fiscal prudence. In October 2026, after reporting that state spending was running above budget projections, she called for discipline to protect reserves and ensure the state can meet its obligations. She also chairs the Franchise Tax Board and sits on the boards of CalPERS and CalSTRS.",
+        "cites": [1, 4, 5, 2],
+        "sentences": [
+          {
+            "text": "Her campaign says she has expanded public access to financial and payroll data, released monthly cash reports, and advanced efforts to modernize the state payroll system.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2025, she cautioned that the state faces significant structural deficits and urged fiscal prudence.",
+            "cites": [4]
+          },
+          {
+            "text": "In October 2026, after reporting that state spending was running above budget projections, she called for discipline to protect reserves and ensure the state can meet its obligations.",
+            "cites": [5]
+          },
+          {
+            "text": "She also chairs the Franchise Tax Board and sits on the boards of CalPERS and CalSTRS.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "A state audit found the controller’s office mishandled more than $33,000 in employee overpayments and did not detect managers working remotely from out of state.",
+        "cites": [6],
+        "sentences": [
+          {
+            "text": "A state audit found the controller’s office mishandled more than $33,000 in employee overpayments and did not detect managers working remotely from out of state.",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Malia Cohen for Controller 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1456350",
+        "period": "July 1 to September 19, 2026",
+        "raised": 169112.13,
+        "cashOnHand": 1623100.7,
+        "breakdown": [
+          { "kind": "small", "amount": 228.1 },
+          { "kind": "large", "amount": 64260.03 },
+          { "kind": "pac", "amount": 81549.3 },
+          { "kind": "party", "amount": 9581.46 },
+          { "kind": "other", "amount": 13493.24 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 95604.2, "count": 66 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Gov. Gavin Newsom",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Sen. Adam Schiff",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Lt. Gov. Eleni Kounalakis",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Secretary of State Shirley Weber",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Treasurer Fiona Ma",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Assembly Speaker Robert Rivas",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Senate President pro Tempore Monique Limón",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Sen. Mike McGuire",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Sen. María Elena Durazo",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "California Democratic Party",
+        "kind": "party",
+        "cites": [8]
+      },
+      {
+        "organization": "California Labor Federation",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [9]
+      },
+      { "organization": "SEIU California", "kind": "union", "cites": [10] },
+      {
+        "organization": "California Nurses Association",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "California Faculty Association",
+        "kind": "union",
+        "cites": [12]
+      },
+      {
+        "organization": "Teamsters California",
+        "kind": "union",
+        "cites": [13]
+      },
+      {
+        "organization": "California Professional Firefighters",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "State Building and Construction Trades Council of California",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "California Federation of Teachers",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "AFSCME California PEOPLE",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "UFCW Western States Council",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "UAW Region 6", "kind": "union", "cites": [7] },
+      {
+        "organization": "Communications Workers of America District 9",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "California Statewide Law Enforcement Association",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Teamsters Joint Council 7",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "California State Pipe Trades Council",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "California State Association of Electrical Workers",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "UNAC", "kind": "union", "cites": [7] },
+      { "organization": "Teamsters Local 665", "kind": "union", "cites": [13] },
+      {
+        "organization": "California Environmental Voters",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "California Legislative Women's Caucus",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "California Asian Pacific Chamber of Commerce PAC (CalAsian PAC)",
+        "kind": "organization",
+        "cites": [14]
+      },
+      {
+        "organization": "California State Retirees",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "California Council for Affordable Housing",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Black Women Organized for Political Action (BWOPA)",
+        "kind": "organization",
+        "cites": [7]
+      },
+      { "organization": "Vote Mama", "kind": "organization", "cites": [7] },
+      { "organization": "Fund Her", "kind": "organization", "cites": [7] },
+      {
+        "organization": "Jane Fonda Climate PAC",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Alice B. Toklas LGBTQ Democratic Club",
+        "kind": "organization",
+        "cites": [7]
+      },
+      { "organization": "GrowSF", "kind": "organization", "cites": [15] },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [16]
+      },
+      {
+        "organization": "California Teachers Association",
+        "kind": "union",
+        "cites": [17]
+      },
+      { "organization": "Knock LA", "kind": "organization", "cites": [18] },
+      { "organization": "LA Forward", "kind": "organization", "cites": [19] },
+      {
+        "organization": "American Independent Party",
+        "kind": "party",
+        "cites": [20]
+      },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [21]
+      },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [22] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Controller Candidate Statements",
+      "publisher": "California Secretary of State",
+      "url": "https://vigarchive.sos.ca.gov/2026/primary/candidates/controller-candidate-statements.htm",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Malia M. Cohen - CalPERS",
+      "publisher": "CalPERS",
+      "url": "https://www.calpers.ca.gov/about/board/board-members/malia-cohen",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Celebrating Women's History Month: Women Leaders and the Future of Politics",
+      "publisher": "Commonwealth Club",
+      "url": "https://www.commonwealthclub.org/events/archive/podcast/celebrating-womens-history-month-women-leaders-and-future-politics",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Press Releases - SCO - CA.gov",
+      "publisher": "California State Controller's Office",
+      "url": "https://www.sco.ca.gov/eo_pressrel_26939.html",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Controller Malia M. Cohen Reports September Receipts ...",
+      "publisher": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/economy/policy/articles/controller-malia-m-cohen-reports-185500054.html",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "California's fiscal watchdog accused of using fake addresses to ...",
+      "publisher": "New York Post",
+      "url": "https://nypost.com/2026/10/08/us-news/california-controller-accused-of-using-fake-addresses-to-seize-fortunes-in-lawsuit/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements",
+      "publisher": "Malia Cohen for Controller 2026",
+      "url": "https://www.maliacohenforca.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "2026 General Election Endorsements & Ballot Measure Positions",
+      "publisher": "California Democratic Party",
+      "url": "https://cadem.org/wp-content/uploads/2026/08/8.5.26-FINAL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "California controller: Who's running and why it matters",
+      "publisher": "LAist",
+      "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-state-controller",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "SEIU California | 2025 & 2026 Elections",
+      "publisher": "SEIU California",
+      "url": "https://seiuca.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "California endorsements",
+      "publisher": "National Nurses United",
+      "url": "https://www.nationalnursesunited.org/california-endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "Endorsements - California Faculty Association",
+      "publisher": "California Faculty Association",
+      "url": "https://www.calfac.org/politics/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 13,
+      "title": "Teamsters Local 665 & Teamsters California Endorse State Candidates",
+      "publisher": "Teamsters Local 665",
+      "url": "https://www.teamsters665.org/teamsters-local-665-teamsters-california-endorse-state-candidates/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 14,
+      "title": "Political Action Committee – CalAsian Chamber",
+      "publisher": "California Asian Pacific Chamber of Commerce",
+      "url": "https://calasiancc.org/pac/?Slot=4346.html",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 15,
+      "title": "State Controller — November 2026 Election",
+      "publisher": "GrowSF",
+      "url": "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/controller/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 16,
+      "title": "Endorsements",
+      "publisher": "Sierra Club Angeles Chapter",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "2026 Candidate Recommendations",
+      "publisher": "California Teachers Association",
+      "url": "https://www.cta.org/our-advocacy/election-2026",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
+      "publisher": "Knock LA (Ground Game LA)",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "Party Endorsements for Voter-Nominated Offices, November 3, 2026 General Election",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/additional-election-information",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 20
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 21
+    },
+    {
+      "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
+      "publisher": "SEIU Local 721",
+      "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 22
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.779Z",
+    "version": 4
+  }
+}

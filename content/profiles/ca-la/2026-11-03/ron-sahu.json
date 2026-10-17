@@ -1,0 +1,148 @@
+{
+  "key": "ron-sahu",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Ron Sahu",
+  "office": "City of Alhambra, Member of the City Council, First District",
+  "contestIds": ["la-4348-cc10408"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Ron Sahu is an environmental engineer with a PhD from Caltech. He has served on the city's Planning, Environmental Sustainability, and Parks and Recreation commissions. He says he has led the advocacy group Grassroots Alhambra for two decades. He identified traffic congestion and development scale as common concerns, along with balancing housing needs.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Ron Sahu is an environmental engineer with a PhD from Caltech.",
+            "cites": [1]
+          },
+          {
+            "text": "He has served on the city's Planning, Environmental Sustainability, and Parks and Recreation commissions.",
+            "cites": [1]
+          },
+          {
+            "text": "He says he has led the advocacy group Grassroots Alhambra for two decades.",
+            "cites": [1]
+          },
+          {
+            "text": "He identified traffic congestion and development scale as common concerns, along with balancing housing needs.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "His campaign says he supports greater government transparency and long-term public investments, as well as development that considers traffic and infrastructure. At a February 2026 council meeting, he criticized the spending of $2 million on Measure R projects with no progress. At a May 2026 town hall where he spoke, the council agreed to conduct a traffic study for the 710 Stub.",
+        "cites": [3, 4],
+        "sentences": [
+          {
+            "text": "His campaign says he supports greater government transparency and long-term public investments, as well as development that considers traffic and infrastructure.",
+            "cites": [3]
+          },
+          {
+            "text": "At a February 2026 council meeting, he criticized the spending of $2 million on Measure R projects with no progress.",
+            "cites": [4]
+          },
+          {
+            "text": "At a May 2026 town hall where he spoke, the council agreed to conduct a traffic study for the 710 Stub.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Alhambra",
+        "committee": "Sahu for City Council 2026",
+        "url": "https://www.alhambraca.gov/DocumentCenter/Index/29",
+        "period": "July 1 to September 19, 2026",
+        "raised": 21254,
+        "cashOnHand": 54952.2,
+        "fromScan": "ai"
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Alhambra Police Officers' Association",
+        "kind": "union",
+        "cites": [5]
+      },
+      { "organization": "BizFed PAC", "kind": "organization", "cites": [5] },
+      {
+        "organization": "Alhambra City Councilmember Katherine Lee",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Alhambra Vice Mayor Ross Maza",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Temple City Mayor William Man",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "San Gabriel City Council Member John Wu",
+        "kind": "elected_official",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Running for Alhambra City Council District 1: Ron Sahu",
+      "publisher": "Around Alhambra",
+      "url": "https://aroundalhambra.org/running-for-alhambra-city-council-district-1-ron-sahu/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "They championed the fight against a Monterey Park data center. Now they're running for office",
+      "publisher": "Pasadena Star-News",
+      "url": "https://www.pasadenastarnews.com/2026/08/18/they-championed-the-fight-against-a-monterey-park-data-center-now-theyre-running-for-office/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "VISION | Dr. Ron Sahu for Alhambra City Council",
+      "publisher": "Ron Sahu campaign",
+      "url": "https://www.ronsahu.com/vision",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "The Decades-Long Fight Over the 710 Stub and Where the Money Went",
+      "publisher": "Local News Pasadena",
+      "url": "https://localnewspasadena.com/2026/the-decades-long-fight-over-the-710-stub-and-where-the-money-went/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "ENDORSEMENTS | Dr. Ron Sahu for Alhambra City Council",
+      "publisher": "Sahu for City Council 2026",
+      "url": "https://www.ronsahu.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.466Z",
+    "version": 2
+  }
+}

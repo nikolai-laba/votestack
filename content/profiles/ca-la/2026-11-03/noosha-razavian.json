@@ -1,0 +1,118 @@
+{
+  "key": "noosha-razavian",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Noosha Razavian",
+  "office": "Foothill Municipal Water District, Member, Board of Directors, Division 5",
+  "contestIds": ["la-4348-cc10547"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Noosha Razavian is a resource specialist at the Metropolitan Water District of Southern California. She studied environmental economics and policy at UC Berkeley. Her campaign says she wants to ensure safe, reliable, and equitable access to water at the lowest cost for residents.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Noosha Razavian is a resource specialist at the Metropolitan Water District of Southern California.",
+            "cites": [1]
+          },
+          {
+            "text": "She studied environmental economics and policy at UC Berkeley.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign says she wants to ensure safe, reliable, and equitable access to water at the lowest cost for residents.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Noosha Razavian",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217272556-Noosha%20Razavian%20for%202026%20Foothill%20Municipal%20Water%20District%20Board%20of%20Directors%20Division%205",
+        "period": "July 1 to September 19, 2026",
+        "raised": 2500,
+        "cashOnHand": 2272.72,
+        "breakdown": [{ "kind": "candidate", "amount": 2500 }],
+        "fromCandidate": 2500,
+        "largeSince": { "since": "2026-09-19", "total": 3000, "count": 2 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "James Bodnar, President, Crescenta Valley Water District",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Fauzia Rizvi, Vice President, Western Municipal Water District",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Los Angeles League of Conservation Voters",
+        "kind": "organization",
+        "cites": [4]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [5] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Recent rainstorms translate to billions of gallons of water added to reservoirs",
+      "publisher": "Pasadena Star-News",
+      "url": "https://www.pasadenastarnews.com/2026/01/16/recent-rainstorms-translate-to-billions-of-gallons-of-water-added-to-reservoirs/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "2016-17 DEPARTMENTAL CITATION RECIPIENTS",
+      "publisher": "UC Berkeley Financial Aid and Scholarships Office",
+      "url": "https://financialaid.berkeley.edu/wp-content/uploads/2020/11/2016-17-DEPARTMENTAL-CITATION-RECIPIENTS.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Noosha Razavian for Foothill Division 5",
+      "publisher": "Noosha Razavian campaign",
+      "url": "https://www.nooshaforfoothill.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "LALCV Endorses Noosha Razavian for Director, Foothill Municipal Water District, Division 5",
+      "publisher": "Los Angeles League of Conservation Voters",
+      "url": "https://lalcv.org/lalcv-endorses-noosha-razavian-for-director-foothill-municipal-water-district-division-5/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 5
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.195Z",
+    "version": 3
+  }
+}

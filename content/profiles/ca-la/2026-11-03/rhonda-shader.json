@@ -1,0 +1,411 @@
+{
+  "key": "rhonda-shader",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Rhonda Shader",
+  "party": "Republican",
+  "office": "State Senator, 34th District",
+  "contestIds": ["la-4348-cc10779"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Rhonda Shader is a former Placentia city councilmember and mayor, and owns an insurance agency. She was first elected in 2016 and has served on the St. Jude Medical Center Community Health Committee and the Orange County Human Relations Commission. Her campaign says that as mayor, she launched an independent fire department, saving the city over $28 million, and created a city-county infrastructure district that generated 5,000 jobs. In 2022, she opposed raising the minimum wage and supported overturning laws she said enabled smash-and-grab robberies. During her 2022 campaign, she proposed lowering the gas tax and sales tax.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Rhonda Shader is a former Placentia city councilmember and mayor, and owns an insurance agency.",
+            "cites": [1]
+          },
+          {
+            "text": "She was first elected in 2016 and has served on the St. Jude Medical Center Community Health Committee and the Orange County Human Relations Commission.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign says that as mayor, she launched an independent fire department, saving the city over $28 million, and created a city-county infrastructure district that generated 5,000 jobs.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2022, she opposed raising the minimum wage and supported overturning laws she said enabled smash-and-grab robberies.",
+            "cites": [3]
+          },
+          {
+            "text": "During her 2022 campaign, she proposed lowering the gas tax and sales tax.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Rhonda Shader for Senate 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1460521",
+        "period": "July 1 to September 19, 2026",
+        "raised": 27803,
+        "cashOnHand": 23221.15,
+        "breakdown": [
+          { "kind": "small", "amount": 357 },
+          { "kind": "large", "amount": 12446 },
+          { "kind": "pac", "amount": 9500 },
+          { "kind": "other", "amount": 5500 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 7900, "count": 4 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "State Sen. Brian Jones, Senate Minority Leader",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [5]
+      },
+      {
+        "organization": "State Sen. Roger Niello",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [5]
+      },
+      {
+        "organization": "State Sen. Steven Choi",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [5]
+      },
+      {
+        "organization": "State Sen. Shannon Grove",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [5]
+      },
+      {
+        "organization": "State Sen. Rosilicie Ochoa Bogh",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [5]
+      },
+      {
+        "organization": "State Sen. Kelly Seyarto",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [5]
+      },
+      {
+        "organization": "State Sen. Tony Strickland",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [6]
+      },
+      {
+        "organization": "State Sen. Suzette Valladares",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [5]
+      },
+      {
+        "organization": "Assemblymember Phillip Chen",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Laurie Davies",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Carl DeMaio",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [5]
+      },
+      {
+        "organization": "Assemblymember Tri Ta",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [5]
+      },
+      {
+        "organization": "Assemblymember Diane Dixon",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [5]
+      },
+      {
+        "organization": "Assemblymember Kate Sanchez",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [5]
+      },
+      {
+        "organization": "Former State Sen. Dick Ackerman",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Former State Sen. John Moorlach",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Scott Baugh, former Assembly Republican Leader",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Orange County Supervisor Janet Nguyen",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Orange County Supervisor Don Wagner",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Orange County Sheriff Don Barnes",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Orange County Treasurer Shari Freidenrich",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Orange County Assessor Claude Parrish",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Garden Grove Mayor Stephanie Klopfenstein",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Placentia Mayor Kevin Kirwin",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Orange County Register Editorial Board",
+        "kind": "editorial_board",
+        "cites": [7]
+      },
+      {
+        "organization": "California Republican Party",
+        "kind": "party",
+        "cites": [8]
+      },
+      {
+        "organization": "Howard Jarvis Taxpayers Association PAC",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "California Republican Assembly",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Republican Party of Orange County",
+        "kind": "party",
+        "cites": [11]
+      },
+      {
+        "organization": "National Federation of Independent Business (NFIB)",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Log Cabin Republicans of California",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "California College Republicans",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "California Young Republicans Federated",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "California Women's Leadership Association",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "GOP Union Caucus",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "Lincoln Club of Orange County",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "New Majority Orange County",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Orange County Young Republicans",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Huntington Beach Republican Women",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Pat Nixon Republican Women Federated",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "American Independent Party",
+        "kind": "party",
+        "cites": [13]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [14]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Rhonda Shader, Senate District 34 candidate, 2026 election questionnaire",
+      "publisher": "Orange County Register",
+      "url": "https://www.ocregister.com/2026/10/05/rhonda-shader-senate-district-34-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Meet Rhonda - Rhonda Shader for Senate 2026",
+      "publisher": "Rhonda Shader campaign",
+      "url": "https://shaderforsenate.com/meet-rhonda/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Tom Umberg posts solid lead over Rhonda Shader in early SD-34 results",
+      "publisher": "Orange County Register",
+      "url": "https://www.ocregister.com/2022/11/08/sen-tom-umberg-faces-rhonda-shader-in-reelection-bid/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Shader, Rhonda - California Voter Guide",
+      "publisher": "California Voter Guide",
+      "url": "https://www.cafamilyvoter.com/candidate/shader-rhonda/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Rhonda's Endorsements",
+      "publisher": "Rhonda Shader for Senate 2026",
+      "url": "https://shaderforsenate.com/endorsements/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Regional Elected Officials Endorse Rhonda Shader for California State Senate",
+      "publisher": "Rhonda Shader for Senate 2026",
+      "url": "https://shaderforsenate.com/regional-elected-officials-endorse-rhonda-shader-for-california-state-senate/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Endorsement: Elect Rhonda Shader in the 34th Senate District",
+      "publisher": "Orange County Register",
+      "url": "https://www.ocregister.com/2026/09/16/endorsement-elect-rhonda-shader-in-the-34th-senate-district/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "2026 Primary Election State Senator Voter Guide",
+      "publisher": "Republican Party of Los Angeles County",
+      "url": "https://static1.squarespace.com/static/65972b6654d89538e4445a4d/t/69f58ff3fcb0a6000683d8c1/1777700851511/LAGOP_StateSenator_Voter_Guide_2026X.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "HJTA PAC Endorsements: Statewide Primary Election – June 2, 2026",
+      "publisher": "Howard Jarvis Taxpayers Association",
+      "url": "https://www.hjta.org/wp-content/uploads/2026/04/HJTA-PAC-ENDORSEMENTS-4.16.26.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "State Senate - CRA",
+      "publisher": "California Republican Assembly",
+      "url": "https://cragop.org/state-senate/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "Republican Party of Orange County endorses challengers and incumbent legislators ahead of 2026",
+      "publisher": "Rhonda Shader for Senate 2026",
+      "url": "https://shaderforsenate.com/republican-party-of-orange-county-endorses-challengers-and-incumbent-legislators-ahead-of-2026/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "Rhonda Shader Endorsed by GOP Union Caucus",
+      "publisher": "Rhonda Shader for Senate 2026",
+      "url": "https://shaderforsenate.com/rhonda-shader-endorsed-by-gop-union-caucus-endorsement-highlights-shaders-commitment-to-working-families/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Party Endorsements for Voter-Nominated Offices, November 3, 2026 General Election",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/additional-election-information",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 14
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.764Z",
+    "version": 4
+  }
+}

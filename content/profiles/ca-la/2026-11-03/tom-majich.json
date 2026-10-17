@@ -1,0 +1,86 @@
+{
+  "key": "tom-majich",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Tom Majich",
+  "office": "Foothill Municipal Water District, Member, Board of Directors, Division 2",
+  "contestIds": ["la-4348-cc10545"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Tom Majich is the general manager of the Kinneloa Irrigation District, a public water agency. He previously was president of a Los Angeles real estate investment company. During the 2025 Eaton fire, he said his district supplied water for firefighters using backup generators and borrowing water from Pasadena Water and Power. By February 2025, he reported that potable water service had been restored to all customers.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Tom Majich is the general manager of the Kinneloa Irrigation District, a public water agency.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously was president of a Los Angeles real estate investment company.",
+            "cites": [2]
+          },
+          {
+            "text": "During the 2025 Eaton fire, he said his district supplied water for firefighters using backup generators and borrowing water from Pasadena Water and Power.",
+            "cites": [3]
+          },
+          {
+            "text": "By February 2025, he reported that potable water service had been restored to all customers.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217124681-Majich%2C%20Thomas",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Why no water system is built with capacity for fires like Palisades and Eaton",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/opinion/story/2025-02-04/palisades-eaton-fires-water-system-capacity",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Highland Park Swap Mall: A Year Later",
+      "publisher": "Marketplace",
+      "url": "https://www.marketplace.org/story/2015/08/20/highland-park-swap-mall-year-later",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Why hydrants ran dry as firefighters battled California's deadly fires",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/environment/story/2025-01-09/california-fires-water-supply-problems",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Altadena Water Agencies Report Progress Toward Drinking Water Restoration",
+      "publisher": "Pasadena Now",
+      "url": "https://pasadenanow.com/main/altadena-water-agencies-report-progress-toward-drinking-water-restoration",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.390Z",
+    "version": 2
+  }
+}

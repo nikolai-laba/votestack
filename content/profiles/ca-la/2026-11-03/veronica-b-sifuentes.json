@@ -1,0 +1,79 @@
+{
+  "key": "veronica-b-sifuentes",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Veronica B. Sifuentes",
+  "office": "Mountain View School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10717"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Veronica B. Sifuentes has been a member of the Mountain View School District Governing Board since 2013. She serves as the board's clerk. She works as an elementary school secretary in the Bassett Unified School District.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Veronica B. Sifuentes has been a member of the Mountain View School District Governing Board since 2013.",
+            "cites": [1]
+          },
+          { "text": "She serves as the board's clerk.", "cites": [1] },
+          {
+            "text": "She works as an elementary school secretary in the Bassett Unified School District.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Sifuentes for MVSD Board of Education 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217472674-Sifuentes%20for%20MVSD%20Board%20of%20Education%20for%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 3598,
+        "cashOnHand": 1381,
+        "breakdown": [{ "kind": "pac", "amount": 3598 }]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Veronica Sifuentes - Clerk - Mountain View School District",
+      "publisher": "Mountain View School District",
+      "url": "https://www.mtviewschools.com/50770_3",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Endorsed Candidates - Los Angeles County Democratic Party",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.213Z",
+    "version": 3
+  }
+}

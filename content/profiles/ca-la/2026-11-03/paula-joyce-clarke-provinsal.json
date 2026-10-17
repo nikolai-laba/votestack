@@ -1,0 +1,68 @@
+{
+  "key": "paula-joyce-clarke-provinsal",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Paula Joyce Clarke-Provinsal",
+  "office": "Lancaster School District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10707"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Paula Joyce Clarke-Provinsal is running for the Lancaster School District Governing Board in Trustee Area 5. She is a small businesswoman and cosmetologist.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Paula Joyce Clarke-Provinsal is running for the Lancaster School District Governing Board in Trustee Area 5.",
+            "cites": [1]
+          },
+          {
+            "text": "She is a small businesswoman and cosmetologist.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Paula for Lancaster School Trustee Area 5 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217200669-Paula%20for%20Lancaster%20School%20Trustee%20Area%205%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 882,
+        "cashOnHand": 882,
+        "fromScan": "ai"
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Lancaster School Board Election 2026: Candidate Guide",
+      "publisher": "Antelope Valley Online",
+      "url": "https://antelopevalleyonline.com/lancaster-school-board-election-2026-candidate-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Candidate List",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.137Z",
+    "version": 2
+  }
+}

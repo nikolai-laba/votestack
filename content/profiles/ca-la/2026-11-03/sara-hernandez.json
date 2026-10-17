@@ -1,0 +1,456 @@
+{
+  "key": "sara-hernandez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Sara Hernandez",
+  "party": "Democratic",
+  "office": "State Senator, 26th District",
+  "contestIds": ["la-4348-cc10776"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Sara Hernandez is president of the Los Angeles Community College District board and an affordable housing advocate. She taught middle school in LAUSD, worked in Los Angeles City Hall, and practices as a housing and environmental attorney. She proposes a workforce housing tax credit for middle-income earners. She supports streamlining housing approvals and making duplexes and fourplexes more viable.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Sara Hernandez is president of the Los Angeles Community College District board and an affordable housing advocate.",
+            "cites": [1]
+          },
+          {
+            "text": "She taught middle school in LAUSD, worked in Los Angeles City Hall, and practices as a housing and environmental attorney.",
+            "cites": [2]
+          },
+          {
+            "text": "She proposes a workforce housing tax credit for middle-income earners.",
+            "cites": [3]
+          },
+          {
+            "text": "She supports streamlining housing approvals and making duplexes and fourplexes more viable.",
+            "cites": [4]
+          }
+        ]
+      },
+      {
+        "text": "She proposes state funding to reduce bus and rail wait times to under 10 minutes. She supports strict AI regulations, including a mandatory \"kill switch\" and company liability. She proposed expanding safe zone doctrines for immigrants and taxing private ICE detention facilities. As LACCD board president, she helped launch a college housing partnership to support students facing housing instability.",
+        "cites": [5, 6, 7, 8],
+        "sentences": [
+          {
+            "text": "She proposes state funding to reduce bus and rail wait times to under 10 minutes.",
+            "cites": [5]
+          },
+          {
+            "text": "She supports strict AI regulations, including a mandatory \"kill switch\" and company liability.",
+            "cites": [6]
+          },
+          {
+            "text": "She proposed expanding safe zone doctrines for immigrants and taxing private ICE detention facilities.",
+            "cites": [7]
+          },
+          {
+            "text": "As LACCD board president, she helped launch a college housing partnership to support students facing housing instability.",
+            "cites": [8]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Sara Hernandez for State Senate 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477357",
+        "period": "July 1 to September 19, 2026",
+        "raised": 410378.43,
+        "cashOnHand": 343807.1,
+        "breakdown": [
+          { "kind": "small", "amount": 1125 },
+          { "kind": "large", "amount": 149300 },
+          { "kind": "pac", "amount": 172700 },
+          { "kind": "other", "amount": 87253.43 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 167400, "count": 58 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "U.S. Rep. Robert Garcia",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "U.S. Rep. Mike Levin",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "U.S. Rep. Derek Tran",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "California State Controller Malia Cohen",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Assembly Speaker Robert Rivas",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "State Sen. Ben Allen",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "State Sen. Bob Archuleta",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "State Sen. Anna Caballero",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "State Sen. Dave Cortese",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "State Sen. Lena Gonzalez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "State Sen. Caroline Menjivar",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "State Sen. Lola Smallwood-Cuevas",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "State Sen. Henry Stern",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Assemblymember Juan Carrillo",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Assemblymember Anamarie Ávila Farías",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Assemblymember John Harabedian",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Assemblymember Matt Haney",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Assemblymember Nick Schultz",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Hilda L. Solis",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Janice Hahn",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "Los Angeles City Councilmember Adrin Nazarian",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "Los Angeles City Councilmember Tim McOsker",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "California Federation of Labor Unions",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "California Federation of Teachers",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "United Nurses Associations of California/Union of Health Care Professionals (UNAC/UHCP)",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "AFSCME California PEOPLE",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "UAW Region 6", "kind": "union", "cites": [9] },
+      {
+        "organization": "Los Angeles/Orange Counties Building and Construction Trades Council",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "Sierra Club", "kind": "organization", "cites": [9] },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "California YIMBY",
+        "kind": "organization",
+        "cites": [12]
+      },
+      { "organization": "YIMBY Action", "kind": "organization", "cites": [13] },
+      {
+        "organization": "YIMBY Los Angeles",
+        "kind": "organization",
+        "cites": [14]
+      },
+      {
+        "organization": "Abundant Housing LA",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Streets For All",
+        "kind": "organization",
+        "cites": [15]
+      },
+      {
+        "organization": "Center for New Liberalism and LA New Liberals",
+        "kind": "organization",
+        "cites": [16]
+      },
+      {
+        "organization": "California Teachers Association",
+        "kind": "union",
+        "cites": [17]
+      },
+      {
+        "organization": "Democrats for Israel – Los Angeles",
+        "kind": "organization",
+        "cites": [18]
+      },
+      {
+        "organization": "American Independent Party",
+        "kind": "party",
+        "cites": [19]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Here are the candidates for LA County state Senate races moving on to the general election",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/06/27/here-are-the-candidates-for-la-county-state-senate-races-moving-on-to-the-general-election/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "About Sara - Sara Hernandez for Los Angeles Community College Trustee",
+      "publisher": "Sara Hernandez for State Senate",
+      "url": "https://www.sarahernandez.com/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Get to know Eagle Rock Senate District 26 candidate Sara Hernandez",
+      "publisher": "The Eastsider",
+      "url": "https://www.theeastsiderla.com/news/government_and_politics/get-to-know-eagle-rock-senate-district-26-candidate-sara-hernandez/article_39abcbfc-b4e1-4905-a11c-2ae4d00cb0fd.html",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Platform - Sara Hernandez for State Senate",
+      "publisher": "Sara Hernandez for State Senate",
+      "url": "https://www.sarahernandez.com/platform",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Sara Hernandez — Former Koreatown Resident Runs for CA Senate",
+      "publisher": "The Korea Daily",
+      "url": "https://en.koreadaily.com/sara-hernandez-ca-senate/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "The trouble with tech PACs",
+      "publisher": "Politico",
+      "url": "https://www.politico.com/newsletters/california-playbook-pm/2026/10/01/tech-pacs-california-legislature-01103950",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Senate District 26 candidates face off at Boyle Heights forum",
+      "publisher": "The L.A. Local",
+      "url": "https://thelalocal.org/government/election/california-senate-district-26-candidate-forum/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "Cal State LA, East Los Angeles College, and LACCD launch LA NEXT College Housing Partnership to help Eastside students stay enrolled and keep moving toward transfer",
+      "publisher": "Cal State LA",
+      "url": "https://news.calstatela.edu/2026/05/27/cal-state-la-east-los-angeles-college-and-laccd-launch-la-next-college-housing-partnership-to-help-eastside-students-stay-enrolled-and-keep-moving-toward-transfer/",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "Endorsements! - Sara Hernandez for California State Senate 26",
+      "publisher": "Sara Hernandez for State Senate",
+      "url": "https://www.sarahernandez.com/endorse",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "Breaking down a 'Sara vs. Sarah' faceoff for the State Senate District 26 seat",
+      "publisher": "The LA Local",
+      "url": "https://thelalocal.org/government/election/election-senate-district-26-candidates/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "CFT Endorsements, Primary Election 2026",
+      "publisher": "California Federation of Teachers",
+      "url": "https://www.cft.org/sites/main/files/file-attachments/cft_endorsements-primary-election_4.27.2026.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "The Homework: July 6, 2026",
+      "publisher": "California YIMBY",
+      "url": "https://cayimby.org/?p=21485",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 13,
+      "title": "June 2026 California Primary Election Voter Guide",
+      "publisher": "YIMBY Action",
+      "url": "https://yimbyaction.org/endorsements/2026/june-2026-california-primary-election-voter-guide/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 14,
+      "title": "November General Election Endorsements",
+      "publisher": "YIMBY Los Angeles",
+      "url": "https://yimby.la/voter-guide/november-general-election-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 15,
+      "title": "2026 Endorsements",
+      "publisher": "Streets For All",
+      "url": "https://www.streetsforall.org/2026",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 16,
+      "title": "Center for New Liberalism & LA New Liberals Endorse Sara Hernandez for California Senate District 26",
+      "publisher": "Center for New Liberalism",
+      "url": "https://cnliberalism.org/posts/la-new-liberals-endorse-sara-hernandez-for-california-senate-district-26",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "2026 Candidate Recommendations",
+      "publisher": "California Teachers Association",
+      "url": "https://www.cta.org/our-advocacy/election-2026",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Democrats for Israel – Los Angeles",
+      "url": "https://dfi-la.org/endorse",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "Party Endorsements for Voter-Nominated Offices, November 3, 2026 General Election",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/additional-election-information",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 19
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.746Z",
+    "version": 4
+  }
+}

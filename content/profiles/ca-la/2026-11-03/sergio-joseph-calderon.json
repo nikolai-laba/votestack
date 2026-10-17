@@ -1,0 +1,130 @@
+{
+  "key": "sergio-joseph-calderon",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Sergio Joseph Calderon",
+  "office": "Water Replenishment District of Southern California, Member, Board of Directors, Division 4",
+  "contestIds": ["la-4348-cc10569"],
+  "kind": "candidate",
+  "tier": "short",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Sergio Joseph Calderon is the Division 4 director on the Water Replenishment District of Southern California board, elected in 2006. He works as a teacher and adviser for the Los Angeles Unified School District's adult education division. He says he previously served as a mayor, councilmember, and city clerk. He supports the district's Water Independence Now program, which seeks independence from imported water for basin recharge.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Sergio Joseph Calderon is the Division 4 director on the Water Replenishment District of Southern California board, elected in 2006.",
+            "cites": [1]
+          },
+          {
+            "text": "He works as a teacher and adviser for the Los Angeles Unified School District's adult education division.",
+            "cites": [2]
+          },
+          {
+            "text": "He says he previously served as a mayor, councilmember, and city clerk.",
+            "cites": [3]
+          },
+          {
+            "text": "He supports the district's Water Independence Now program, which seeks independence from imported water for basin recharge.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Sergio Calderon for Water Board Director 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/209489416-Sergio%20Calderon%20for%20Water%20Board%20Director%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 35594.24,
+        "cashOnHand": 40247.65,
+        "breakdown": [
+          { "kind": "small", "amount": 261.36 },
+          { "kind": "large", "amount": 2582.88 },
+          { "kind": "pac", "amount": 250 },
+          { "kind": "candidate", "amount": 30000 },
+          { "kind": "other", "amount": 2500 }
+        ],
+        "fromCandidate": 30000,
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 14500,
+          "count": 5,
+          "fromCandidate": 10000
+        }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      { "organization": "IBEW Local 11", "kind": "union", "cites": [5] },
+      {
+        "organization": "Laborers' International Union of North America Local 300",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Los Angeles Carpenters Local 110",
+        "kind": "union",
+        "cites": [5]
+      },
+      { "organization": "AFSCME Local 1902", "kind": "union", "cites": [5] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board Profiles - Water Replenishment District",
+      "publisher": "Water Replenishment District",
+      "url": "https://www.wrd.org/board-profiles",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Director Sergio Calderon - Water Replenishment District",
+      "publisher": "Water Replenishment District",
+      "url": "https://www.wrd.org/director-sergio-calderon",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "About me - CALDERON FOR CLEAN WATER",
+      "publisher": "Calderon for Clean Water",
+      "url": "https://calderon4cleanwater.org/about-me",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Calderon seeks re-election to water replenishment board | Santa Monica Wave",
+      "publisher": "Santa Monica Wave",
+      "url": "https://santamonicawave.com/articles/calderon-seeks-re-election-to-water-replenishment-board-muy8su45",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Calderon Clean Water Endorsements",
+      "publisher": "Calderon 4 Clean Water (Sergio Calderon for Water Board Director)",
+      "url": "https://calderon4cleanwater.org/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.408Z",
+    "version": 6
+  }
+}

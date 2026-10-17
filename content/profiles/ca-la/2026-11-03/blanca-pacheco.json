@@ -1,0 +1,257 @@
+{
+  "key": "blanca-pacheco",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Blanca Pacheco",
+  "party": "Democratic",
+  "office": "State Assembly Member, 64th District",
+  "contestIds": ["la-4348-cc10800"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Blanca Pacheco was elected to the California State Assembly in 2022. She is an attorney and chairs the Assembly Rules Committee. She previously served as mayor of Downey.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Blanca Pacheco was elected to the California State Assembly in 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "She is an attorney and chairs the Assembly Rules Committee.",
+            "cites": [2]
+          },
+          { "text": "She previously served as mayor of Downey.", "cites": [2] }
+        ]
+      },
+      {
+        "text": "In 2026, she authored Assembly Bill 1821 to extend the time government agencies have to respond to public records requests. Her spokesperson said sponsored travel, including a study tour to Spain, informed the legislation. She told CalMatters the measure aimed to prevent frivolous, AI-generated requests. She also authored Assembly Bill 2235 to shield judges' home addresses from public records. According to CalMatters, 24 of her 43 bills have passed, including measures on sex discrimination and mental health training for coaches. Her campaign says as mayor she led a pandemic rent moratorium.",
+        "cites": [3, 4, 5, 6, 7, 8],
+        "sentences": [
+          {
+            "text": "In 2026, she authored Assembly Bill 1821 to extend the time government agencies have to respond to public records requests.",
+            "cites": [3]
+          },
+          {
+            "text": "Her spokesperson said sponsored travel, including a study tour to Spain, informed the legislation.",
+            "cites": [4]
+          },
+          {
+            "text": "She told CalMatters the measure aimed to prevent frivolous, AI-generated requests.",
+            "cites": [5]
+          },
+          {
+            "text": "She also authored Assembly Bill 2235 to shield judges' home addresses from public records.",
+            "cites": [6]
+          },
+          {
+            "text": "According to CalMatters, 24 of her 43 bills have passed, including measures on sex discrimination and mental health training for coaches.",
+            "cites": [7]
+          },
+          {
+            "text": "Her campaign says as mayor she led a pandemic rent moratorium.",
+            "cites": [8]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Blanca Pacheco for Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1476868",
+        "period": "July 1 to September 19, 2026",
+        "raised": 164100,
+        "cashOnHand": 1223892.23,
+        "breakdown": [
+          { "kind": "pac", "amount": 91000 },
+          { "kind": "other", "amount": 73100 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 91400, "count": 26 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Democratic Party",
+        "kind": "party",
+        "cites": [9]
+      },
+      { "organization": "United Farm Workers", "kind": "union", "cites": [10] },
+      {
+        "organization": "California Federation of Teachers",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "California Young Democrats",
+        "kind": "organization",
+        "cites": [13]
+      },
+      {
+        "organization": "California Teachers Association",
+        "kind": "union",
+        "cites": [14]
+      },
+      {
+        "organization": "Democrats for Israel – Los Angeles",
+        "kind": "organization",
+        "cites": [15]
+      },
+      {
+        "organization": "Planned Parenthood Advocacy Project Los Angeles County",
+        "kind": "organization",
+        "cites": [16]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "State Assembly Member Blanca Pacheco - Detail Page",
+      "publisher": "ciclt.net",
+      "url": "http://www.ciclt.net/sn/leg_app/po_detail.aspx?ClientCode=slt&P_IDEO=cash64",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Biography | Official Website - Assemblymember Blanca Pacheco",
+      "publisher": "Blanca Pacheco State Assembly website",
+      "url": "https://pacheco.asmdc.org/biography",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "California public records bill scaled back again after backlash",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.org/politics/2026/06/california-transparency-law-senate-judiciary/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Pebble Beach golf, Maui resorts, European tours: How special interests woo California lawmakers",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.org/politics/2026/03/california-lawmakers-free-gifts-trips/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "This lawmaker's proposal could make California 'the most secretive state in the country' - CalMatters",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.org/politics/2026/06/california-public-records-access-restriction/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Judicial Council - California Courts",
+      "publisher": "California Courts Judicial Council",
+      "url": "https://courts.ca.gov/system/files/file/ga-position-letter-25-26-assembly-ab2235-pacheco_0.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Blanca Pacheco - Digital Democracy | CalMatters",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.digitaldemocracy.org/legislators/blanca-pacheco-165430",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "Meet Blanca | Blanca Pacheco for State Assembly",
+      "publisher": "Blanca Pacheco campaign site",
+      "url": "https://www.pachecoforassembly.com/meet-blanca",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "2026 General Election Endorsements & Ballot Measure Positions (August 2, 2026)",
+      "publisher": "California Democratic Party",
+      "url": "https://cadem.org/wp-content/uploads/2026/08/FINAL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 10,
+      "title": "Endorsements",
+      "publisher": "United Farm Workers",
+      "url": "https://ufw.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "General Election 2026, Tuesday, November 3",
+      "publisher": "California Federation of Teachers",
+      "url": "https://www.cft.org/sites/main/files/file-attachments/cft_endorsements-general-election_9.29.2026.pdf?1790783088",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "Equality California 2026 Primary Endorsements",
+      "publisher": "Equality California",
+      "url": "https://www.eqca.org/2026-primary-endorsement/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 13,
+      "title": "Endorsements",
+      "publisher": "California Young Democrats",
+      "url": "https://www.cayoungdems.net/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "2026 Candidate Recommendations",
+      "publisher": "California Teachers Association",
+      "url": "https://www.cta.org/our-advocacy/election-2026",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Democrats for Israel – Los Angeles",
+      "url": "https://dfi-la.org/endorse",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "Voter Guide, November 3, 2026",
+      "publisher": "Planned Parenthood Advocacy Project Los Angeles County",
+      "url": "https://www.plannedparenthoodaction.org/planned-parenthood-advocacy-project-los-angeles-county/voter-guide-ppapx",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 16
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.721Z",
+    "version": 4
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "key": "rogelio-roger-banuelos",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Rogelio \"Roger\" Bañuelos",
+  "office": "Wiseburn Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10678"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Rogelio \"Roger\" Bañuelos is president of the Wiseburn Unified School District Board of Trustees, serving since 2009. He is also president of Element Consulting, a construction management company dedicated to improving learning environments for students in the education sector. He has been a board member for Da Vinci Schools and the Wiseburn Education Foundation, and a board member representative for the Los Angeles County School Trustees Association. His company profile says he is an original founder of Da Vinci Schools. He has voiced support for a performing arts program spanning transitional kindergarten through high school.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Rogelio \"Roger\" Bañuelos is president of the Wiseburn Unified School District Board of Trustees, serving since 2009.",
+            "cites": [1]
+          },
+          {
+            "text": "He is also president of Element Consulting, a construction management company dedicated to improving learning environments for students in the education sector.",
+            "cites": [1]
+          },
+          {
+            "text": "He has been a board member for Da Vinci Schools and the Wiseburn Education Foundation, and a board member representative for the Los Angeles County School Trustees Association.",
+            "cites": [1]
+          },
+          {
+            "text": "His company profile says he is an original founder of Da Vinci Schools.",
+            "cites": [2]
+          },
+          {
+            "text": "He has voiced support for a performing arts program spanning transitional kindergarten through high school.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/214310725-Banuelos%2C%20Roger",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "School Board Members",
+      "publisher": "Wiseburn Unified School District",
+      "url": "https://www.wiseburn.org/school-board/school-board-members",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Roger Bañuelos, MAOM - Element Consulting",
+      "publisher": "Element Consulting",
+      "url": "https://www.elementconsultinginc.com/roger-banuelos-maom",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Developing Valuable Life Skills Through GREASE! and the Performing Arts",
+      "publisher": "Da Vinci Schools",
+      "url": "https://www.davincischools.org/developing-valuable-life-skills-through-grease/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.330Z",
+    "version": 3
+  }
+}

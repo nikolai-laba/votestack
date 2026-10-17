@@ -1,0 +1,515 @@
+{
+  "key": "xavier-becerra",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Xavier Becerra",
+  "party": "Democratic",
+  "office": "California Governor",
+  "contestIds": ["la-4348-cc10828-r1", "la-4348-cc10828-r2"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Xavier Becerra formerly served as U.S. Health and Human Services Secretary and California’s attorney general, and he represented Los Angeles in Congress for more than two decades. In Congress, he helped write and pass the Affordable Care Act. As attorney general, he sued the Trump administration over 120 times on issues ranging from immigration to environmental policies. His campaign says that as health secretary, he negotiated lower prescription drug prices. A 2024 federal audit found that his department missed safety checks before releasing unaccompanied migrant children to sponsors.",
+        "cites": [1, 2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "Xavier Becerra formerly served as U.S. Health and Human Services Secretary and California’s attorney general, and he represented Los Angeles in Congress for more than two decades.",
+            "cites": [1]
+          },
+          {
+            "text": "In Congress, he helped write and pass the Affordable Care Act.",
+            "cites": [2]
+          },
+          {
+            "text": "As attorney general, he sued the Trump administration over 120 times on issues ranging from immigration to environmental policies.",
+            "cites": [3]
+          },
+          {
+            "text": "His campaign says that as health secretary, he negotiated lower prescription drug prices.",
+            "cites": [4]
+          },
+          {
+            "text": "A 2024 federal audit found that his department missed safety checks before releasing unaccompanied migrant children to sponsors.",
+            "cites": [5]
+          }
+        ]
+      },
+      {
+        "text": "Becerra has proposed declaring a state of emergency to freeze insurance and utility rates and address price gouging. He supports providing state health coverage to all Californians, including undocumented residents, and opposes Proposition 40, a billionaire tax. On homelessness, he said he would clear encampments. He wants to speed up housing construction by setting deadlines for building permits. He says he would oppose President Donald Trump on issues such as immigration and environmental policy.",
+        "cites": [1, 6, 7, 8],
+        "sentences": [
+          {
+            "text": "Becerra has proposed declaring a state of emergency to freeze insurance and utility rates and address price gouging.",
+            "cites": [1]
+          },
+          {
+            "text": "He supports providing state health coverage to all Californians, including undocumented residents, and opposes Proposition 40, a billionaire tax.",
+            "cites": [6]
+          },
+          {
+            "text": "On homelessness, he said he would clear encampments.",
+            "cites": [7]
+          },
+          {
+            "text": "He wants to speed up housing construction by setting deadlines for building permits.",
+            "cites": [8]
+          },
+          {
+            "text": "He says he would oppose President Donald Trump on issues such as immigration and environmental policy.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Becerra for Governor 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1480025",
+        "period": "July 1 to September 19, 2026",
+        "raised": 12606128.01,
+        "cashOnHand": 7609499.29,
+        "breakdown": [
+          { "kind": "small", "amount": 37541.07 },
+          { "kind": "large", "amount": 6329195.21 },
+          { "kind": "pac", "amount": 2138364.24 },
+          { "kind": "party", "amount": 58933.79 },
+          { "kind": "other", "amount": 4042093.7 }
+        ],
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 5299282.27,
+          "count": 463
+        }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Former Vice President Kamala Harris",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "U.S. Sen. Alex Padilla",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Sen. Adam Schiff",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Judy Chu",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Ted Lieu",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Robert Garcia",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Nanette Barragán",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Zoe Lofgren",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Former U.S. Rep. Katie Porter",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Gov. Gavin Newsom",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Lt. Gov. Eleni Kounalakis",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Attorney General Rob Bonta",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "State Controller Malia Cohen",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Insurance Commissioner Ricardo Lara",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "State Superintendent of Public Instruction Tony Thurmond",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Assembly Speaker Robert Rivas",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [11]
+      },
+      {
+        "organization": "Senate President pro Tempore Monique Limón",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Holly Mitchell",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Hilda Solis",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Lindsey Horvath",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "San Francisco Mayor Daniel Lurie",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Long Beach Mayor Rex Richardson",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Former Los Angeles Mayor Antonio Villaraigosa",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "California Democratic Party",
+        "kind": "party",
+        "cites": [12]
+      },
+      { "organization": "SEIU California", "kind": "union", "cites": [13] },
+      {
+        "organization": "State Building and Construction Trades Council of California",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "California Professional Firefighters",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Teamsters California",
+        "kind": "union",
+        "cites": [10]
+      },
+      { "organization": "AFSCME California", "kind": "union", "cites": [10] },
+      { "organization": "United Farm Workers", "kind": "union", "cites": [10] },
+      {
+        "organization": "California Faculty Association",
+        "kind": "union",
+        "cites": [14]
+      },
+      {
+        "organization": "California Chamber of Commerce",
+        "kind": "organization",
+        "cites": [15]
+      },
+      {
+        "organization": "California Medical Association",
+        "kind": "organization",
+        "cites": [16]
+      },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [1]
+      },
+      {
+        "organization": "Planned Parenthood Affiliates of California",
+        "kind": "organization",
+        "cites": [17]
+      },
+      { "organization": "GIFFORDS PAC", "kind": "organization", "cites": [18] },
+      {
+        "organization": "Latino Victory Fund",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "UnidosUS Action Fund",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "California Academy of Family Physicians",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "California Environmental Voters",
+        "kind": "organization",
+        "cites": [19]
+      },
+      {
+        "organization": "California Federation of Teachers",
+        "kind": "union",
+        "cites": [20]
+      },
+      {
+        "organization": "California Teachers Association",
+        "kind": "union",
+        "cites": [21]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [22] },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [23]
+      },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [24] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Who are the 2026 California governor candidates? - CalMatters",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.org/california-voter-guide-2026/governor/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Why Xavier Becerra is rising in the California governor's race",
+      "publisher": "CNN",
+      "url": "https://www.cnn.com/2026/04/28/politics/xavier-becerra-california-governor",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Democrat Xavier Becerra advances to general election in race for California governor",
+      "publisher": "Associated Press",
+      "url": "https://www.chicagotribune.com/2026/06/05/california-governor-race-xavier-becerra/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Meet Xavier Becerra",
+      "publisher": "Xavier Becerra campaign",
+      "url": "https://www.xavierbecerra2026.com/bio/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Becerra dodges tough questions as frontrunner in governor's race",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.org/politics/2026/05/california-governor-becerra-criticism/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Candidates for California governor differ on many issues — but both dislike Prop 40’s billionaire tax",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/09/candidates-for-california-governor-differ-on-many-issues-but-both-dislike-proposition-40s-billionaire-tax/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Becerra and Hilton clash over immigration, Trump and Hollywood in California governor debate",
+      "publisher": "Associated Press",
+      "url": "https://apnews.com/article/california-governor-xavier-becerra-steve-hilton-newsom-b8ece38004841391102bf034b2f4ff23",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "California governor's race: Xavier Becerra leans on experience, offers few specifics on tax changes",
+      "publisher": "ABC7 San Francisco",
+      "url": "https://abc7news.com/story/california-governors-race-xavier-becerra-leans-experience-offers-few-specifics-tax-changes/19926175/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "Katie Porter endorses former rival Xavier Becerra for California governor",
+      "publisher": "San Francisco Chronicle",
+      "url": "https://www.sfchronicle.com/politics/article/katie-porter-xavier-becerra-california-governor-en-22298818.php",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "Endorsements - Xavier Becerra",
+      "publisher": "Xavier Becerra for Governor 2026",
+      "url": "https://www.xavierbecerra2026.com/endorsements/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "California Assembly speaker endorses Xavier Becerra for governor",
+      "publisher": "KRON4",
+      "url": "https://www.kron4.com/news/politics/inside-california-politics/california-assembly-speaker-endorses-xavier-becerra-for-governor/amp/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "2026 General Election Endorsements & Ballot Measure Positions",
+      "publisher": "California Democratic Party",
+      "url": "https://cadem.org/wp-content/uploads/2026/08/8.5.26-FINAL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 13,
+      "title": "SEIU California | 2025 & 2026 Elections",
+      "publisher": "SEIU California",
+      "url": "https://seiuca.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 14,
+      "title": "Endorsements - California Faculty Association",
+      "publisher": "California Faculty Association",
+      "url": "https://www.calfac.org/politics/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 15,
+      "title": "CalChamber Endorses Xavier Becerra for Governor",
+      "publisher": "California Chamber of Commerce",
+      "url": "https://advocacy.calchamber.com/2026/06/11/calchamber-endorses-xavier-becerra-for-governor/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 16,
+      "title": "CMA endorses Xavier Becerra for Governor",
+      "publisher": "California Medical Association",
+      "url": "https://www.cmadocs.org/newsroom/news/view/cma-endorses-xavier-becerra-for-governor",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 17,
+      "title": "Planned Parenthood Affiliates of California Endorses Xavier Becerra for Governor",
+      "publisher": "Planned Parenthood Affiliates of California",
+      "url": "https://www.plannedparenthoodaction.org/planned-parenthood-affiliates-california/press/planned-parenthood-affiliates-of-california-endorses-xavier-becerra-for-governor",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 18,
+      "title": "GIFFORDS endorses Xavier Becerra for governor of California",
+      "publisher": "GIFFORDS",
+      "url": "https://giffords.org/press-release/2026/10/giffords-endorses-xavier-becerra-for-governor-of-california/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Who We're Endorsing in California's 2026 Election",
+      "publisher": "California Environmental Voters",
+      "url": "https://envirovoters.org/2026-endorsements/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "CFT Endorsements, General Election 2026 (Tuesday, November 3)",
+      "publisher": "California Federation of Teachers",
+      "url": "https://www.cft.org/2026-midterm-elections-hub",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 20
+    },
+    {
+      "title": "2026 Candidate Recommendations",
+      "publisher": "California Teachers Association",
+      "url": "https://www.cta.org/our-advocacy/election-2026",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 21
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 22
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 23
+    },
+    {
+      "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
+      "publisher": "SEIU Local 721",
+      "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 24
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.784Z",
+    "version": 4
+  }
+}

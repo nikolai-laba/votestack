@@ -1,0 +1,191 @@
+{
+  "key": "andre-spicer",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Andre Spicer",
+  "office": "City of Compton, Mayor",
+  "contestIds": ["la-4348-cc10766"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Andre Spicer represents District 2 on the Compton City Council. He took office in May 2022. He was sworn in after a court overturned the 2021 election results due to four illegal ballots. He owns Hub City Radio.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Andre Spicer represents District 2 on the Compton City Council.",
+            "cites": [1]
+          },
+          { "text": "He took office in May 2022.", "cites": [2] },
+          {
+            "text": "He was sworn in after a court overturned the 2021 election results due to four illegal ballots.",
+            "cites": [3]
+          },
+          { "text": "He owns Hub City Radio.", "cites": [4] }
+        ]
+      },
+      {
+        "text": "His campaign website says his priorities include public safety, economic development, housing, and culture. His campaign says he installed Botts’ Dots at intersections to deter street takeovers and partnered with the sheriff’s department to shut down nine illegal marijuana dispensaries. The site also highlights his work with a foundation to renovate a basketball court and add a mural at Wilson Park. In his mayoral bid he has said the city needs “more than reactive leadership” and should build its own future.",
+        "cites": [5, 6, 4],
+        "sentences": [
+          {
+            "text": "His campaign website says his priorities include public safety, economic development, housing, and culture.",
+            "cites": [5]
+          },
+          {
+            "text": "His campaign says he installed Botts’ Dots at intersections to deter street takeovers and partnered with the sheriff’s department to shut down nine illegal marijuana dispensaries.",
+            "cites": [6]
+          },
+          {
+            "text": "The site also highlights his work with a foundation to renovate a basketball court and add a mural at Wilson Park.",
+            "cites": [6]
+          },
+          {
+            "text": "In his mayoral bid he has said the city needs “more than reactive leadership” and should build its own future.",
+            "cites": [4]
+          }
+        ]
+      },
+      {
+        "text": "In May 2026 the City Council voted 4 to 0 to censure Spicer after an outside report concluded he had used his city-issued Cal-Card for expenses outside the policy limiting its use to travel and training. The report initially flagged nearly $8,000 in out-of-policy purchases. Spicer released a public statement taking responsibility. He later found receipts that reduced the total and repaid $513 to the city. The council revoked his credit card access and removed his mayor pro tem title. It also took him off all municipal boards and committees and forwarded the matter to the Los Angeles County District Attorney’s Office for review. He called the censure a political attack timed before the election. He publicly criticized the decision to place the city manager on administrative leave, arguing it was done without a formal council vote or shared legal advice. He also called for transparency and due process.",
+        "cites": [7, 8, 9]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Compton",
+        "committee": "Spicer for Mayor 2026",
+        "url": "https://www.comptoncity.org/departments/city-clerk/elections/campaign-statements/460-campaign-statements",
+        "period": "July 1 to September 19, 2026",
+        "raised": 5375.98,
+        "cashOnHand": 2620.96,
+        "fromScan": "ai"
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California City Mayor Marq Hawkins",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Commerce Vice Mayor Kevin Lainez",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Former Lynwood Mayor Oscar Flores",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Carson City Clerk Khaleah K. Bradshaw",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Los Angeles Community College District Trustee Nichelle Henderson",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Compton Unified School District Board Member Michael D. Hooper Jr.",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Compton Unified School District Trustee Sandra Moss",
+        "kind": "elected_official",
+        "cites": [6]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Andre Spicer - District 2 | Compton, CA",
+      "publisher": "City of Compton",
+      "url": "https://www.comptoncity.org/our-city/elected-officials/district-2-andre-spicer",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Elected Officials | Compton, CA",
+      "publisher": "City of Compton",
+      "url": "https://www.comptoncity.org/departments/city-clerk/elections/elected-officials",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Compton City Council election overturned - Los Angeles Times",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2022-05-30/compton-city-council-election-overturned",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Councilman Andre Spicer announces he's running for mayor",
+      "publisher": "Wave Publication",
+      "url": "https://wavepublication.com/councilman-andre-spicer-announces-hes-running-for-mayor/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "ACCOMPLISHMENTS | Andrespicer",
+      "publisher": "Andre Spicer campaign",
+      "url": "https://www.andrespicer4mayor.com/platform",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Andre Spicer for Mayor of the City of Compton",
+      "publisher": "Andre Spicer campaign",
+      "url": "https://www.andrespicer4mayor.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Council censures colleague over credit card allegations",
+      "publisher": "Wave Publication",
+      "url": "https://wavepublication.com/council-censures-colleague-over-credit-card-allegations/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "The Pattern Doesn't Lie",
+      "publisher": "The Compton Bulletin",
+      "url": "https://thecomptonbulletin.news4usonline.com/2026/06/01/the-pattern-doesnt-lie/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "Spicer condemns actions against city manager – The Bulletin",
+      "publisher": "The Compton Bulletin",
+      "url": "https://thecomptonbulletin.news4usonline.com/2026/04/13/spicer-condemns-actions-against-city-manager/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T14:05:39.736Z",
+    "version": 3
+  }
+}

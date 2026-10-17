@@ -1,0 +1,50 @@
+{
+  "key": "jiamin-li",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Jiamin Li",
+  "office": "Valley County Water District, Member, Board of Directors",
+  "contestIds": ["la-4348-cc10397"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Jiamin Li is a candidate for the Valley County Water District Board of Directors.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Jiamin Li is a candidate for the Valley County Water District Board of Directors.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217205663-Li%2C%20Jiamin",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Ballot Marking Device Code List",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/ballot-marking-device-code-list",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.422Z",
+    "version": 2
+  }
+}

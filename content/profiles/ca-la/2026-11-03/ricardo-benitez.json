@@ -1,0 +1,130 @@
+{
+  "key": "ricardo-benitez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Ricardo Benitez",
+  "party": "Republican",
+  "office": "State Assembly Member, 43rd District",
+  "contestIds": ["la-4348-cc10786"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Ricardo Benitez is a plumber and electrical contractor running for State Assembly in the 43rd District. In February 2026, he praised President Trump for acknowledging crime victims and freeing Venezuela, and said immigration enforcement would not reduce Latino support for Republicans. He also called the removal of a Cesar Chavez statue in San Fernando rushed.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Ricardo Benitez is a plumber and electrical contractor running for State Assembly in the 43rd District.",
+            "cites": [1]
+          },
+          {
+            "text": "In February 2026, he praised President Trump for acknowledging crime victims and freeing Venezuela, and said immigration enforcement would not reduce Latino support for Republicans.",
+            "cites": [2]
+          },
+          {
+            "text": "He also called the removal of a Cesar Chavez statue in San Fernando rushed.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "1481307",
+      "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1481307"
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Republican Assembly",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "California Republican Party",
+        "kind": "party",
+        "cites": [5]
+      },
+      {
+        "organization": "American Independent Party",
+        "kind": "party",
+        "cites": [6]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [7]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "California State Assembly: Who's running Nov. 3 and why it matters",
+      "publisher": "LAist",
+      "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-state-assembly",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "This Latino Republican Trump speech watch party was neither large, nor especially Latino",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-02-25/latino-trump-supporters-state-of-union",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Cesar Chavez statue removed from San Fernando park following sexual abuse allegations",
+      "publisher": "CBS News",
+      "url": "https://www.cbsnews.com/losangeles/news/cesar-chavez-statue-removed-san-fernando-park/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "California Republican Assembly November 2026 General Election Endorsements",
+      "publisher": "California Republican Assembly",
+      "url": "https://cragop.org/2026/07/03/california-republican-assembly-november-2026-general-election-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "2026 CRP Endorsements",
+      "publisher": "California Republican Party",
+      "url": "https://cagop.org/endorsements/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 5
+    },
+    {
+      "title": "Party Endorsements for Voter-Nominated Offices, November 3, 2026 General Election",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/additional-election-information",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 6
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 7
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.679Z",
+    "version": 4
+  }
+}

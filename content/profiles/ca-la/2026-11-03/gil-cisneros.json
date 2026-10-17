@@ -1,0 +1,310 @@
+{
+  "key": "gil-cisneros",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Gil Cisneros",
+  "party": "Democratic",
+  "office": "U.S. Representative, 31st District",
+  "contestIds": ["la-4348-cc10811-r1", "la-4348-cc10811-r2"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Gil Cisneros is the U.S. Representative for California’s 31st District, first elected to that seat in 2024. He previously served in the 116th Congress and as Under Secretary of Defense for Personnel and Readiness in the Biden administration. A Navy veteran, he sits on the House Armed Services Committee and the House Committee on Small Business. He also co-founded a foundation that provides college scholarships.",
+        "cites": [1, 2, 3]
+      },
+      {
+        "text": "In 2026 he introduced the Streamlining Small Business Contracts Act, which would set a $10 million threshold for single-source small business contracts across SBA programs. He also introduced the Duty Status Reform Act to reduce Reserve Component duty statuses from about 30 to four, aiming to deliver equitable benefits and pay. He introduced the PROTECT Military Families Act, a bill to shield military families from deportation. He voted in January 2026 to extend Affordable Care Act tax credits for three years to reduce healthcare costs. The House passed his bipartisan SBA IT Modernization Reporting Act, which requires the SBA to carry out GAO recommendations for IT upgrades, by a unanimous vote in December 2025.",
+        "cites": [4, 5, 6],
+        "sentences": [
+          {
+            "text": "In 2026 he introduced the Streamlining Small Business Contracts Act, which would set a $10 million threshold for single-source small business contracts across SBA programs.",
+            "cites": [4]
+          },
+          {
+            "text": "He also introduced the Duty Status Reform Act to reduce Reserve Component duty statuses from about 30 to four, aiming to deliver equitable benefits and pay.",
+            "cites": [4]
+          },
+          {
+            "text": "He introduced the PROTECT Military Families Act, a bill to shield military families from deportation.",
+            "cites": [4]
+          },
+          {
+            "text": "He voted in January 2026 to extend Affordable Care Act tax credits for three years to reduce healthcare costs.",
+            "cites": [5]
+          },
+          {
+            "text": "The House passed his bipartisan SBA IT Modernization Reporting Act, which requires the SBA to carry out GAO recommendations for IT upgrades, by a unanimous vote in December 2025.",
+            "cites": [6]
+          }
+        ]
+      },
+      {
+        "text": "He supports universal background checks. During his first term, he supported the Enhanced Background Checks Act, as well as bills to close the boyfriend loophole and fund community violence intervention. He also supported an assault weapons ban during his first term, which he has said he wants to reintroduce. He says he wants to reverse the “Big Ugly Bill” healthcare cuts, roll back Trump-era tariffs, and protect DACA recipients. He says he supports a permanent ceasefire and two-state solution in the Israeli-Palestinian conflict. He voted against a government funding bill in November 2025, saying it failed to lower healthcare costs.",
+        "cites": [7, 8, 9, 10, 11, 12]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Cisneros for Congress",
+        "url": "https://www.fec.gov/data/committee/C00850420/?cycle=2026",
+        "period": "January 1, 2025 to June 30, 2026",
+        "raised": 705263.13,
+        "cashOnHand": 259803.37,
+        "breakdown": [
+          { "kind": "small", "amount": 24197.63 },
+          { "kind": "large", "amount": 216066 },
+          { "kind": "pac", "amount": 453650 },
+          { "kind": "candidate", "amount": 6616.31 },
+          { "kind": "other", "amount": 4733.19 }
+        ],
+        "fromCandidate": 6616.31
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Democratic Party",
+        "kind": "party",
+        "cites": [13]
+      },
+      {
+        "organization": "LCV Action Fund",
+        "kind": "organization",
+        "cites": [14]
+      },
+      { "organization": "Giffords", "kind": "organization", "cites": [7] },
+      {
+        "organization": "California Young Democrats",
+        "kind": "organization",
+        "cites": [15]
+      },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [16]
+      },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [17]
+      },
+      {
+        "organization": "California Environmental Voters",
+        "kind": "organization",
+        "cites": [18]
+      },
+      {
+        "organization": "California Federation of Teachers",
+        "kind": "union",
+        "cites": [19]
+      },
+      {
+        "organization": "California Teachers Association",
+        "kind": "union",
+        "cites": [20]
+      },
+      {
+        "organization": "Democrats for Israel – Los Angeles",
+        "kind": "organization",
+        "cites": [21]
+      },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [22]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "About | Representative Gil Cisneros - House.gov",
+      "publisher": "Representative Gil Cisneros House.gov",
+      "url": "https://cisneros.house.gov/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Congressman Gilbert R. Cisneros Jr. Sworn Into 119th Congress",
+      "publisher": "Representative Gil Cisneros House.gov",
+      "url": "https://cisneros.house.gov/media/press-releases/congressman-gilbert-r-cisneros-jr-sworn-119th-congress",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Meet Gil - Gil Cisneros for Congress",
+      "publisher": "Gil Cisneros for Congress",
+      "url": "https://www.gilonthehill.com/meet-the-candidate/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Congress | Representative Gil Cisneros",
+      "publisher": "Representative Gil Cisneros House.gov",
+      "url": "https://cisneros.house.gov/issues/congress?page",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "119th Congress | Representative Gil Cisneros",
+      "publisher": "Representative Gil Cisneros House.gov",
+      "url": "https://cisneros.house.gov/taxonomy/term/4?page=15",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "House Passes Rep. Cisneros' SBA IT Modernization Reporting Act",
+      "publisher": "Representative Gil Cisneros House.gov",
+      "url": "https://cisneros.house.gov/media/press-releases/house-passes-rep-cisneros-sba-it-modernization-reporting-act",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Gil Cisneros | GIFFORDS",
+      "publisher": "GIFFORDS",
+      "url": "https://giffords.org/candidates/gil-cisneros-3/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "Your guide to California’s Congressional District 31 race: San Gabriel Valley",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2024-02-01/2024-california-election-congressional-district-31-primary-voter-guide",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "Gil Cisneros, CA-31 candidate, 2026 election questionnaire",
+      "publisher": "Daily Bulletin",
+      "url": "https://www.dailybulletin.com/2026/10/05/gil-cisneros-ca-31-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "Issues | Representative Gil Cisneros",
+      "publisher": "Representative Gil Cisneros House.gov",
+      "url": "https://cisneros.house.gov/issues",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "119th Congress | Representative Gil Cisneros",
+      "publisher": "Representative Gil Cisneros House.gov",
+      "url": "https://cisneros.house.gov/taxonomy/term/4?page=8",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "Congress | Representative Gil Cisneros",
+      "publisher": "Representative Gil Cisneros House.gov",
+      "url": "https://cisneros.house.gov/issues/congress?page=0",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 13,
+      "title": "November 3, 2026 General Election: Party Endorsements for Voter-Nominated Offices",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/additional-election-information",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 14,
+      "title": "2025-2026 Endorsements",
+      "publisher": "League of Conservation Voters",
+      "url": "https://www.lcv.org/endorsements/?cycle=general&result_page=9",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 15,
+      "title": "Endorsements",
+      "publisher": "California Young Democrats",
+      "url": "https://www.cayoungdems.net/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 16,
+      "title": "Equality California Election Center",
+      "publisher": "Equality California",
+      "url": "https://www.eqca.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 17,
+      "title": "Endorsements",
+      "publisher": "Sierra Club Angeles Chapter",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Who We're Endorsing in California's 2026 Election",
+      "publisher": "California Environmental Voters",
+      "url": "https://envirovoters.org/2026-endorsements/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "CFT Endorsements, General Election 2026 (Tuesday, November 3)",
+      "publisher": "California Federation of Teachers",
+      "url": "https://www.cft.org/2026-midterm-elections-hub",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "2026 Candidate Recommendations",
+      "publisher": "California Teachers Association",
+      "url": "https://www.cta.org/our-advocacy/election-2026",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 20
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Democrats for Israel – Los Angeles",
+      "url": "https://dfi-la.org/endorse",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 21
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 22
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.800Z",
+    "version": 5
+  }
+}

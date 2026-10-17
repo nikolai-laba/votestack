@@ -1,0 +1,78 @@
+{
+  "key": "vanessa-haro",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Vanessa Haro",
+  "office": "City of Commerce, Member of the City Council",
+  "contestIds": ["la-4348-cc10437"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Vanessa Haro is a candidate for the City of Commerce City Council. She says one of her biggest priorities is creating a cleaner, greener, healthy environment for the community. She supports emergency preparedness for industrial facility accidents, increased tree canopy and parks, and expanded affordable housing options to protect against high heat.",
+        "cites": [1, 2]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Commerce",
+      "url": "https://www.commerceca.gov/",
+      "onRequest": true
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles League of Conservation Voters",
+        "kind": "organization",
+        "cites": [3]
+      },
+      { "organization": "IBEW Local 11", "kind": "union", "cites": [4] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Commerce councilmember barred from running again, judge rules",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/08/28/commerce-councilmember-barred-from-running-again-judge-rules/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "LALCV ENDORSES VANESSA HARO AND MAYOR KEVIN LAINEZ FOR COMMERCE CITY COUNCIL",
+      "publisher": "Los Angeles League of Conservation Voters",
+      "url": "https://lalcv.org/lalcv-endorses-vanessa-haro-and-mayor-kevin-lainez-for-commerce-city-council/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Endorsements in the Year 2026",
+      "publisher": "Los Angeles League of Conservation Voters",
+      "url": "http://lalcv.org/endorsement/endorsements-in-the-year-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Political Action & Endorsements",
+      "publisher": "IBEW Local 11",
+      "url": "https://www.ibew11.org/political",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:39:39.154Z",
+    "version": 3
+  }
+}

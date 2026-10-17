@@ -1,0 +1,59 @@
+{
+  "key": "carmen-eulalia-basso",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Carmen Eulalia Basso",
+  "office": "Hacienda La Puente Unified School District, Governing Board Member, Trustee Area No. 2",
+  "contestIds": ["la-4348-cc10648"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Carmen Eulalia Basso is running for the Hacienda La Puente Unified School District Governing Board in Trustee Area No. 2. She is a retired reservation agent.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Carmen Eulalia Basso is running for the Hacienda La Puente Unified School District Governing Board in Trustee Area No. 2.",
+            "cites": [1]
+          },
+          { "text": "She is a retired reservation agent.", "cites": [2] }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217055729-Basso%2C%20Carmen",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Ballot Marking Device Code List - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/ballot-marking-device-code-list",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Candidate List - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.081Z",
+    "version": 2
+  }
+}

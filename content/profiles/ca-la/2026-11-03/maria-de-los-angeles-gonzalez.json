@@ -1,0 +1,63 @@
+{
+  "key": "maria-de-los-angeles-gonzalez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Maria De Los Angeles Gonzalez",
+  "office": "Lennox School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10711"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Maria De Los Angeles Gonzalez is the president of the Lennox School District Governing Board. In a 2026 district message, she described education as a shared responsibility to develop children who can think, act, and lead with values.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Maria De Los Angeles Gonzalez is the president of the Lennox School District Governing Board.",
+            "cites": [1]
+          },
+          {
+            "text": "In a 2026 district message, she described education as a shared responsibility to develop children who can think, act, and lead with values.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/213447087-Gonzalez%2C%20Maria%20de%20los%20Angeles",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Public Schools Directory",
+      "publisher": "Los Angeles County Office of Education",
+      "url": "https://schooldirectory.lacoe.edu/SchoolDirectory/lacoe_schooldistrictdetails.aspx?dtype=Traditional&dsid=42&pageid=0&mid=2",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Our Key Ingredients / Nuestros Ingredientes Principales",
+      "publisher": "School News Roll Call",
+      "url": "https://schoolnewsrollcall.com/wp-content/uploads/2026/04/Lennox-SD_MAY_26.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.183Z",
+    "version": 3
+  }
+}

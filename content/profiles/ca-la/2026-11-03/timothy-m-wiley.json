@@ -1,0 +1,50 @@
+{
+  "key": "timothy-m-wiley",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Timothy M. Wiley",
+  "office": "Eastside Union School District, Governing Board Member, Trustee Area No. 1",
+  "contestIds": ["la-4348-cc10694"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Timothy M. Wiley is a candidate for the Eastside Union School District Governing Board, Trustee Area No. 1.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Timothy M. Wiley is a candidate for the Eastside Union School District Governing Board, Trustee Area No. 1.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217143104-Wiley%2C%20Timothy",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate Statements",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://apps.lavote.gov/candidate-statements/",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.009Z",
+    "version": 2
+  }
+}

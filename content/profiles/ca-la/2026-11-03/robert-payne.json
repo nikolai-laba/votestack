@@ -1,0 +1,58 @@
+{
+  "key": "robert-payne",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Robert Payne",
+  "office": "Los Angeles Community College District, Member of the Board of Trustees, Seat 2",
+  "contestIds": ["la-4348-cc10588"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Robert Payne is a writer and researcher running for Seat 2 on the Los Angeles Community College District Board of Trustees; he says he has taught at L.A. Mission College. He proposes offering more job-specific training and less expensive online textbooks. He supports ending student debt and identifies low enrollment growth as the district's main challenge.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Robert Payne is a writer and researcher running for Seat 2 on the Los Angeles Community College District Board of Trustees; he says he has taught at L.A. Mission College.",
+            "cites": [1]
+          },
+          {
+            "text": "He proposes offering more job-specific training and less expensive online textbooks.",
+            "cites": [1]
+          },
+          {
+            "text": "He supports ending student debt and identifies low enrollment growth as the district's main challenge.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/211734386-Payne%2C%20Robert",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "L.A. Community College Board of Trustees Seat 2 election ...",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-10-01/2026-california-election-los-angeles-community-college-board-of-trustees-seat-2-voter-guide",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:48.886Z",
+    "version": 2
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "key": "obie-obiacoro",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Obie Obiacoro",
+  "office": "Rowland Unified School District, Governing Board Member, Trustee Area No. 1",
+  "contestIds": ["la-4348-cc10666"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Obie Obiacoro is an office administrator running for the Rowland Unified School Board. He was elected to the school site council at Stanley G. Oswalt Academy in 2012. In a 2026 candidate questionnaire, Obiacoro said the district's top needs are strengthening student achievement and sustaining student well-being. He wants to ensure access to high-quality instruction and to expand access to counseling and mental-health resources. He said the school board should set a clear vision and allocate resources responsibly.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Obie Obiacoro is an office administrator running for the Rowland Unified School Board.",
+            "cites": [1]
+          },
+          {
+            "text": "He was elected to the school site council at Stanley G. Oswalt Academy in 2012.",
+            "cites": [2]
+          },
+          {
+            "text": "In a 2026 candidate questionnaire, Obiacoro said the district's top needs are strengthening student achievement and sustaining student well-being.",
+            "cites": [1]
+          },
+          {
+            "text": "He wants to ensure access to high-quality instruction and to expand access to counseling and mental-health resources.",
+            "cites": [1]
+          },
+          {
+            "text": "He said the school board should set a clear vision and allocate resources responsibly.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217208890-Obiacoro%2C%20Obie",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Obie Obiacoro, Rowland Unified District 1 candidate, 2026 election questionnaire - Daily News",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/obie-obiacoro-rowland-unified-district-1-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "News | Rowland Unified School District",
+      "publisher": "Rowland Unified School District",
+      "url": "https://www.rowlandschools.org/apps/news/category/2135?pageIndex=61",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.269Z",
+    "version": 2
+  }
+}

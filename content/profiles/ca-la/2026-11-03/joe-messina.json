@@ -1,0 +1,172 @@
+{
+  "key": "joe-messina",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Joe Messina",
+  "office": "William S. Hart Union High School District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10848"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Joe Messina is president of the William S. Hart Union High School District Governing Board, representing Trustee Area 5. In 2023, he supported a parent notification policy, saying parents should be notified of issues including bullying, drug abuse, and mental health. In 2023, he co-led an ad hoc committee to review the district's notification policies. He has said declining enrollment and affordability are top concerns, stating the district lost about 1,500 students over six years.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Joe Messina is president of the William S. Hart Union High School District Governing Board, representing Trustee Area 5.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2023, he supported a parent notification policy, saying parents should be notified of issues including bullying, drug abuse, and mental health.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2023, he co-led an ad hoc committee to review the district's notification policies.",
+            "cites": [3]
+          },
+          {
+            "text": "He has said declining enrollment and affordability are top concerns, stating the district lost about 1,500 students over six years.",
+            "cites": [4]
+          }
+        ]
+      },
+      {
+        "text": "He supports career technical education. He has said 35 percent of district students are enrolled in these courses. He has proposed establishing a center for trades including plumbing and carpentry. In 2021, he supported keeping the Hart High School Indians mascot.",
+        "cites": [5, 6],
+        "sentences": [
+          { "text": "He supports career technical education.", "cites": [5] },
+          {
+            "text": "He has said 35 percent of district students are enrolled in these courses.",
+            "cites": [5]
+          },
+          {
+            "text": "He has proposed establishing a center for trades including plumbing and carpentry.",
+            "cites": [5]
+          },
+          {
+            "text": "In 2021, he supported keeping the Hart High School Indians mascot.",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Joe Messina for Wm S Hart Union High School District 2026, Trustee Area 5",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/215119223-Joe%20Messina%20for%20Wm%20S%20Hart%20Union%20High%20School%20District%202026%2C%20Trustee%20Area%205",
+        "period": "July 1 to September 19, 2026",
+        "raised": 7924,
+        "cashOnHand": 18317.55,
+        "breakdown": [
+          { "kind": "small", "amount": 75 },
+          { "kind": "large", "amount": 7099 },
+          { "kind": "other", "amount": 750 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 15931, "count": 4 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      { "organization": "IBEW Local 11", "kind": "union", "cites": [7] },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Republican Party of Los Angeles County",
+        "kind": "party",
+        "cites": [9]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Governing Board Members - Board & Committees - William S. Hart Union High School District",
+      "publisher": "William S. Hart Union High School District",
+      "url": "https://www.hartdistrict.org/apps/pages/governing-board-members",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Hart district board members address parental-notification system",
+      "publisher": "Santa Clarita Valley Signal",
+      "url": "https://signalscv.com/2023/11/hart-district-board-members-address-parental-notification-system/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Moore, Messina to head review of Hart district's notification policies",
+      "publisher": "Santa Clarita Valley Signal",
+      "url": "https://signalscv.com/2023/12/moore-messina-to-head-review-of-hart-districts-notification-policies/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Candidates discuss Hart district challenges, opportunities",
+      "publisher": "Santa Clarita Valley Signal",
+      "url": "https://signalscv.com/2026/10/candidates-discuss-hart-district-challenges-opportunities/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "State of the Hart District",
+      "publisher": "Santa Clarita Valley Signal",
+      "url": "https://signalscv.com/2026/04/state-of-the-hart-district/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Fate of school's Indians mascot in hands of Hart Union High School District board",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2021/07/09/fate-of-schools-indians-mascot-in-hands-of-hart-union-high-school-district-board/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "Political Action & Endorsements",
+      "publisher": "IBEW Local 11",
+      "url": "https://www.ibew11.org/political",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 8
+    },
+    {
+      "title": "LAGOP Endorsement Lookup, November 3, 2026 General Election",
+      "publisher": "Republican Party of Los Angeles County",
+      "url": "https://lagop-endorsement-lookup.vercel.app/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 9
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.314Z",
+    "version": 4
+  }
+}

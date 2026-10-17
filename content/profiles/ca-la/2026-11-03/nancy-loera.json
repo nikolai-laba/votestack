@@ -1,0 +1,128 @@
+{
+  "key": "nancy-loera",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Nancy Loera",
+  "office": "Hacienda La Puente Unified School District, Governing Board Member, Trustee Area No. 2",
+  "contestIds": ["la-4348-cc10648"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Nancy Loera is the board clerk of the Hacienda La Puente Unified School District. She was elected in 2022. Her campaign says she is a classroom teacher with nearly 25 years of experience. She taught in the Compton Unified School District. Her campaign says she holds bachelor's degrees in early childhood education and curriculum and instruction.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Nancy Loera is the board clerk of the Hacienda La Puente Unified School District.",
+            "cites": [1]
+          },
+          { "text": "She was elected in 2022.", "cites": [2] },
+          {
+            "text": "Her campaign says she is a classroom teacher with nearly 25 years of experience.",
+            "cites": [3]
+          },
+          {
+            "text": "She taught in the Compton Unified School District.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign says she holds bachelor's degrees in early childhood education and curriculum and instruction.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "She says the district's top needs are improving student achievement and maintaining long-term financial stability. Her campaign says she supported consolidating Sunset Elementary with Lassalette and transitioning Sparks Middle School to grades 6-8. Her campaign says she supports STEM and visual and performing arts programs. In 2025, she voted to remove the board president after a dispute over her remote attendance request.",
+        "cites": [4, 3, 5],
+        "sentences": [
+          {
+            "text": "She says the district's top needs are improving student achievement and maintaining long-term financial stability.",
+            "cites": [4]
+          },
+          {
+            "text": "Her campaign says she supported consolidating Sunset Elementary with Lassalette and transitioning Sparks Middle School to grades 6-8.",
+            "cites": [3]
+          },
+          {
+            "text": "Her campaign says she supports STEM and visual and performing arts programs.",
+            "cites": [3]
+          },
+          {
+            "text": "In 2025, she voted to remove the board president after a dispute over her remote attendance request.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Students First- Teacher Nancy Loera for Hacienda La Puente Unified School District Area 2 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216987106-Students%20First%20-%20Teacher%20Nancy%20Loera%20for%20Hacienda%20La%20Puente%20Unified%20School%20District%20Area%202%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 4264,
+        "cashOnHand": 983.99,
+        "breakdown": [
+          { "kind": "small", "amount": 264 },
+          { "kind": "candidate", "amount": 4000 }
+        ],
+        "fromCandidate": 4000
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Hacienda La Puente Unified School District Adult Education: Unlock ...",
+      "publisher": "Hacienda La Puente Unified School District",
+      "url": "https://www.hlpae.com/about/hacienda-la-puente-usd",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Hacienda La Puente Unified Board Members Take Oath of Office ...",
+      "publisher": "California School News Report",
+      "url": "https://caschoolnews.net/articles/hacienda-la-puente-unified-board-members-take-oath-of-office-bring-new-perspectives-to-the-district/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Experienced Leadership. Strong Schools. Bright Futures.​",
+      "publisher": "Nancy Loera campaign",
+      "url": "https://nancyloera.net/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Nancy Loera, Hacienda-La Puente Unified School District ...",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/nancy-loera-hacienda-la-puente-unified-school-district-area-2-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Upheaval continues at Hacienda La Puente, as new leader takes helm",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2025/09/05/upheaval-continues-at-hacienda-la-puente-as-new-leader-takes-helm/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.121Z",
+    "version": 3
+  }
+}

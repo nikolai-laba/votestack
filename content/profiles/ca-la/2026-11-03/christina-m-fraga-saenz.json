@@ -1,0 +1,83 @@
+{
+  "key": "christina-m-fraga-saenz",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Christina M. Fraga-Saenz",
+  "office": "Palmdale Water District, Member, Board of Directors, Division 2",
+  "contestIds": ["la-4348-cc10535"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Christina M. Fraga-Saenz is a Housing Authority commissioner for the City of Palmdale. She holds a tenant member commissioner seat, with a term from October 2025 to September 2027.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Christina M. Fraga-Saenz is a Housing Authority commissioner for the City of Palmdale.",
+            "cites": [1]
+          },
+          {
+            "text": "She holds a tenant member commissioner seat, with a term from October 2025 to September 2027.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Christina Fraga-Saenz for PWD Director District 2 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216795171-Christina%20Fraga-Saenz%20for%20PWD%20Director%20District%202%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 2020,
+        "cashOnHand": 627.16,
+        "breakdown": [
+          { "kind": "small", "amount": 220 },
+          { "kind": "large", "amount": 600 },
+          { "kind": "pac", "amount": 500 },
+          { "kind": "candidate", "amount": 700 }
+        ],
+        "fromCandidate": 700
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Maddy Act Local Appointment List",
+      "publisher": "City of Palmdale",
+      "url": "https://www.cityofpalmdaleca.gov/DocumentCenter/View/899/Maddy-Act-Local-Appointment-List-PDF",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Endorsed Candidates - Los Angeles County Democratic Party",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.403Z",
+    "version": 2
+  }
+}

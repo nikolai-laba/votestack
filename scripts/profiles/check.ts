@@ -14,23 +14,31 @@
 //                     its sentence (not wired to a model yet; skipped)
 //   --today YYYY-MM-DD  date the checks run as (default today in Chicago)
 
-import { relative, resolve } from 'node:path'
+import { existsSync } from 'node:fs'
+import { join, relative, resolve } from 'node:path'
 import { parseArgs } from 'node:util'
+import { IS_COOK, REGION_OPTION } from '../lib/profiles/region.ts'
 import { ROOT, readJson, writeJson } from '../lib/data.ts'
 import {
   CHECK,
+  PIPELINE_BUILD,
   PROFILES_DIR,
   SUBJECTS,
   readProfiles,
   today,
 } from '../lib/profiles/content.ts'
-import { checkUrls } from '../lib/profiles/links.ts'
+import { checkUrls, lastName, pagesMention } from '../lib/profiles/links.ts'
 import type { SupportChecker } from '../lib/profiles/race-checks.ts'
-import { reviewProfiles, type CheckFile } from '../lib/profiles/review.ts'
+import {
+  NONE_OPENED,
+  reviewProfiles,
+  type CheckFile,
+} from '../lib/profiles/review.ts'
 import type { SubjectsFile } from '../lib/profiles/subjects.ts'
 
 const { values } = parseArgs({
   options: {
+    ...REGION_OPTION,
     dir: { type: 'string' },
     subjects: { type: 'string' },
     out: { type: 'string' },
@@ -70,6 +78,74 @@ if (values.support) {
 }
 
 const result = reviewProfiles(profiles, subjects, { today: day, links })
+
+// Outside Cook County: every overview sentence's cited page must name the
+// candidate. A page that can't be read is left to the link checks; one that
+// reads but never mentions them is a reason to review the profile.
+if (!IS_COOK && links) {
+  const wanted = [...profiles.values()].flatMap((p) =>
+    p.overview.items.flatMap((para) =>
+      (para.sentences ?? []).flatMap((s) =>
+        s.cites.flatMap((id) => {
+          const url = p.sources.find((x) => x.id === id)?.url
+          return url ? [{ key: p.key, url, name: lastName(p.name) }] : []
+        }),
+      ),
+    ),
+  )
+  // The checker's own notes: sentences it kept on the captured excerpt
+  // because the page wouldn't open, and checks that opened no page at all.
+  const browserPath = join(PIPELINE_BUILD, 'chrome-review.json')
+  const browserReviewed = new Set(
+    existsSync(browserPath)
+      ? (
+          await readJson<{ key: string; status: string }[]>(browserPath)
+        ).flatMap((r) => (r.status === 'done' ? [r.key] : []))
+      : [],
+  )
+  for (const p of profiles.values()) {
+    const path = join(PIPELINE_BUILD, 'traces', `${p.key}.json`)
+    const entry = result.profiles[p.key]
+    if (!entry || !existsSync(path)) continue
+    const trace = await readJson<{
+      review?: { note?: string }[]
+      stages?: { stage: string; pages?: { opened: number } }[]
+    }>(path)
+    const excerptOnly = (trace.review ?? []).filter((r) =>
+      /^excerpt only/i.test(r.note ?? ''),
+    ).length
+    // A warning, not a reason: paywalled news is common, and the excerpt
+    // was captured from the page itself.
+    if (excerptOnly)
+      entry.warnings.push(
+        `source: ${excerptOnly} sentence(s) kept on the captured excerpt; the page wouldn't open`,
+      )
+    const checks = (trace.stages ?? []).filter((s) => s.stage === 'check')
+    if (checks.length && checks.every((s) => s.pages?.opened === 0)) {
+      // A browser review (report.ts's chrome-review.json) stands in for it.
+      if (browserReviewed.has(p.key))
+        entry.warnings.push(
+          'source: the checker opened none of the cited pages; checked in a browser instead',
+        )
+      else entry.reasons.push(NONE_OPENED)
+    }
+    if (entry.reasons.length) entry.status = 'flagged'
+  }
+  const mentions = await pagesMention(wanted)
+  for (const w of wanted) {
+    if (mentions.get(`${w.url} ${w.name}`) !== false) continue
+    const entry = result.profiles[w.key]
+    const reason = `source: cited page doesn't name the candidate: ${w.url}`
+    if (!entry || entry.reasons.includes(reason)) continue
+    // A person read this profile's pages in a browser (chrome-review.json).
+    if (browserReviewed.has(w.key)) {
+      entry.warnings.push(`${reason}; checked in a browser instead`)
+      continue
+    }
+    entry.reasons.push(reason)
+    entry.status = 'flagged'
+  }
+}
 const file: CheckFile = {
   checkedAt: new Date().toISOString(),
   today: day,

@@ -1,0 +1,111 @@
+{
+  "key": "oscar-de-la-torre",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Oscar De La Torre",
+  "office": "Santa Monica Community College District, Member of the Board of Trustees",
+  "contestIds": ["la-4348-cc10516"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Oscar De La Torre founded the Pico Youth & Family Center. He is a former Santa Monica city councilmember. He served on the Santa Monica-Malibu Unified School District Board of Education from 2002 to 2020. His campaign says he would improve retention and graduation rates, create student and workforce housing, and start a workforce retraining initiative. On the board, he supported restorative justice and racial equity in student discipline.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Oscar De La Torre founded the Pico Youth & Family Center.",
+            "cites": [1]
+          },
+          {
+            "text": "He is a former Santa Monica city councilmember.",
+            "cites": [2]
+          },
+          {
+            "text": "He served on the Santa Monica-Malibu Unified School District Board of Education from 2002 to 2020.",
+            "cites": [2]
+          },
+          {
+            "text": "His campaign says he would improve retention and graduation rates, create student and workforce housing, and start a workforce retraining initiative.",
+            "cites": [3]
+          },
+          {
+            "text": "On the board, he supported restorative justice and racial equity in student discipline.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Monica",
+        "committee": "Oscar de la Torre for SMC College Board 2026",
+        "url": "https://netfile.com/public/CSM/campaign/filingsByFiler/216936838-Oscar%20de%20la%20Torre%20for%20SMC%20College%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 13995,
+        "cashOnHand": 7831.97,
+        "breakdown": [
+          { "kind": "large", "amount": 6995 },
+          { "kind": "candidate", "amount": 3000 },
+          { "kind": "other", "amount": 4000 }
+        ],
+        "fromCandidate": 3000,
+        "largeSince": { "since": "2026-09-19", "total": 6000, "count": 3 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Former Santa Monica Councilmembers Run for New Offices",
+      "publisher": "Santa Monica Daily Press",
+      "url": "https://www.smdp.com/two-former-councilmembers-run-for-new-offices/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "De La Torre seeks Santa Monica College board seat",
+      "publisher": "Santa Monica Wave",
+      "url": "https://santamonicawave.com/articles/de-la-torre-seeks-santa-monica-college-board-seat-muy91g8g",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "General Election 2026 - Santa Monica",
+      "publisher": "City of Santa Monica",
+      "url": "https://www.santamonica.gov/elections/2026-11-03/candidates/oscar-de-la-torre",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 4
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.941Z",
+    "version": 3
+  }
+}

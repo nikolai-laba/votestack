@@ -1,0 +1,86 @@
+{
+  "key": "dennis-yang",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Dennis Yang",
+  "office": "Walnut Valley Water District, Member, Board of Directors, Division 5 (Unexpired term ending December 1, 2028)",
+  "contestIds": ["la-4348-cc10374"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Dennis Yang, chief information officer of the Motion Picture Association, is running for the Walnut Valley Water District Division 5 board. He says he will review expenses to avoid sudden rate hikes. He proposes using smart meters to detect leaks early and reviewing base fees for low-income households. He plans to use his information security background to protect water systems. He is treasurer of his homeowners association.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Dennis Yang, chief information officer of the Motion Picture Association, is running for the Walnut Valley Water District Division 5 board.",
+            "cites": [1]
+          },
+          {
+            "text": "He says he will review expenses to avoid sudden rate hikes.",
+            "cites": [1]
+          },
+          {
+            "text": "He proposes using smart meters to detect leaks early and reviewing base fees for low-income households.",
+            "cites": [2]
+          },
+          {
+            "text": "He plans to use his information security background to protect water systems.",
+            "cites": [1]
+          },
+          {
+            "text": "He is treasurer of his homeowners association.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Dennis Yang for WVWD Board of Directors Division 5 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217178216-Dennis%20Yang%20for%20WVWD%20Board%20of%20Directors%20Division%205%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 7806.38,
+        "cashOnHand": 2123.3,
+        "breakdown": [
+          { "kind": "small", "amount": 175 },
+          { "kind": "large", "amount": 525 },
+          { "kind": "candidate", "amount": 7106.38 }
+        ],
+        "fromCandidate": 7106.38,
+        "largeSince": { "since": "2026-09-19", "total": 13000, "count": 9 }
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "角逐核桃谷水區第五選區理事 楊柏嵐主打財務監督 | 期中選舉 | 洛杉磯 | 世界新聞網",
+      "publisher": "World Journal",
+      "url": "https://www.worldjournal.com/wj/story/121555/9780953?from=wj_catelistnews",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "楊柏嵐盼以科技改善水務管理 | 洛城焦點 | 洛杉磯 | 世界新聞網",
+      "publisher": "World Journal",
+      "url": "https://www.worldjournal.com/wj/story/121359/9799787?from=wj_referralnews",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.427Z",
+    "version": 2
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "key": "wendy-wang",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Wendy Wang",
+  "office": "City of San Gabriel, Member of the City Council",
+  "contestIds": ["la-4348-cc10509"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "She is a businesswoman, nonprofit executive, and care provider. She organized youth volunteer projects with the CIRC Youth Education & Empowerment Foundation.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "She is a businesswoman, nonprofit executive, and care provider.",
+            "cites": [1]
+          },
+          {
+            "text": "She organized youth volunteer projects with the CIRC Youth Education & Empowerment Foundation.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "She advocates for a one-stop permit center for small businesses. She questioned the city's 25-year waste contract and a commercial rate increase of up to 60.8%. She calls for competitive bidding for waste-service contracts. She wants stronger oversight of the 11% sales tax and clearer reporting on how the money is spent. She proposes a Youth Commission to give young people a voice. She also wants to diversify local business types beyond boba tea shops and repair neglected roads.",
+        "cites": [3, 4],
+        "sentences": [
+          {
+            "text": "She advocates for a one-stop permit center for small businesses.",
+            "cites": [3]
+          },
+          {
+            "text": "She questioned the city's 25-year waste contract and a commercial rate increase of up to 60.8%.",
+            "cites": [4]
+          },
+          {
+            "text": "She calls for competitive bidding for waste-service contracts.",
+            "cites": [3]
+          },
+          {
+            "text": "She wants stronger oversight of the 11% sales tax and clearer reporting on how the money is spent.",
+            "cites": [3]
+          },
+          {
+            "text": "She proposes a Youth Commission to give young people a voice.",
+            "cites": [3]
+          },
+          {
+            "text": "She also wants to diversify local business types beyond boba tea shops and repair neglected roads.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of San Gabriel",
+        "committee": "Wendy Wang for San Gabriel City Council 2026",
+        "url": "https://netfile.com/public/CSG/campaign/filingsByFiler/216935262-Wendy%20Wang%20for%20San%20Gabriel%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 70368.01,
+        "cashOnHand": 15801.08,
+        "breakdown": [
+          { "kind": "small", "amount": 172.46 },
+          { "kind": "large", "amount": 36795.55 },
+          { "kind": "pac", "amount": 100 },
+          { "kind": "candidate", "amount": 11000 },
+          { "kind": "other", "amount": 22300 }
+        ],
+        "fromCandidate": 11000
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "State Sen. Bob Archuleta",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Walnut Mayor Allen Wu",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Upland Councilmember Carlos A. Garcia",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Hesperia Councilmember Chris Ochoa",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "La Puente Councilmember David E. Argudo",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Kyle Miller, former La Habra Heights Mayor",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [5]
+      },
+      { "organization": "SEIU Local 2015", "kind": "union", "cites": [5] },
+      { "organization": "LIUNA Local 300", "kind": "union", "cites": [5] },
+      { "organization": "Teamsters Local 572", "kind": "union", "cites": [7] },
+      { "organization": "IBEW Local 18", "kind": "union", "cites": [8] },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [9]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Wendy Wang, San Gabriel City Council candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/wendy-wang-san-gabriel-city-council-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Cearvol Intelligence Medical Partners with Community Organizations to Host “Hear Together · Grow Together” Intergenerational Hearing Health and Youth Volunteer Service Day in San Gabriel",
+      "publisher": "The Los Angeles Post",
+      "url": "https://lapost.us/?p=80141",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "VISIONS | Wendywangsg",
+      "publisher": "Wendy Wang for San Gabriel City Council 2026",
+      "url": "https://www.wendywangsg.com/visions",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "聖蓋博市議員候選人王溫蒂新人新視角 發現城市問題",
+      "publisher": "World Journal",
+      "url": "https://www.worldjournal.com/wj/story/121359/9789976",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "ENDORSEMENTS | Wendy Wang for San Gabriel City Council",
+      "publisher": "Wendy Wang for San Gabriel City Council 2026",
+      "url": "https://www.wendywangsg.com/donate",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "王温蒂（Wendy Wang）2026年圣盖博市议员竞选正式启动 加州州参议员 Bob Archuleta站台",
+      "publisher": "iCity News (城市新闻)",
+      "url": "https://icitynews.com/?p=471498",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "2026 Voter Guide",
+      "publisher": "Teamsters Local 572",
+      "url": "https://www.teamsters572.org/local-572-voter-guide/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 8,
+      "title": "IBEW Local 18 — November 3, 2026 Voter Guide",
+      "publisher": "IBEW Local 18",
+      "url": "https://www.ibewlocal18.org/2020/wp-content/uploads/2026/10/IBEW-Local-18-Final-Recommendations-November-2026-1.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 9
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.560Z",
+    "version": 2
+  }
+}

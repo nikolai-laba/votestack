@@ -1,0 +1,369 @@
+{
+  "key": "estuardo-mazariegos",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Estuardo Mazariegos",
+  "office": "City of Los Angeles, Member of the City Council, 9th District",
+  "contestIds": ["la-4348-cc10771"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Estuardo Mazariegos is a community organizer in South L.A. and a co-director of the Los Angeles office of the Alliance of Californians for Community Empowerment. He supports reducing the police budget and prioritizing basic services.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Estuardo Mazariegos is a community organizer in South L.A. and a co-director of the Los Angeles office of the Alliance of Californians for Community Empowerment.",
+            "cites": [1]
+          },
+          {
+            "text": "He supports reducing the police budget and prioritizing basic services.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "On housing, he supports expanding social housing and enforcing tenant protections. He proposes auditing homeless services and raising wages, and wants to hire local youth for cleanups. He also backs a surcharge on event tickets to fund local businesses and parks. His campaign says he helped pass Measure ULA, along with the Tenant Anti-Harassment Ordinance and the Resident Protection Ordinance. In 2009, he pleaded guilty to a misdemeanor gun possession charge, and he has a shoplifting conviction.",
+        "cites": [3, 4, 5, 6],
+        "sentences": [
+          {
+            "text": "On housing, he supports expanding social housing and enforcing tenant protections.",
+            "cites": [3]
+          },
+          {
+            "text": "He proposes auditing homeless services and raising wages, and wants to hire local youth for cleanups.",
+            "cites": [4]
+          },
+          {
+            "text": "He also backs a surcharge on event tickets to fund local businesses and parks.",
+            "cites": [5]
+          },
+          {
+            "text": "His campaign says he helped pass Measure ULA, along with the Tenant Anti-Harassment Ordinance and the Resident Protection Ordinance.",
+            "cites": [3]
+          },
+          {
+            "text": "In 2009, he pleaded guilty to a misdemeanor gun possession charge, and he has a shoplifting conviction.",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles City Ethics Commission",
+        "committee": "Estuardo Mazariegos For City Council 2026-General",
+        "url": "https://ethics.lacity.org/view/?document_id=146844",
+        "period": "July 1 to September 19, 2026",
+        "raised": 114158.93,
+        "cashOnHand": 161558.22,
+        "breakdown": [
+          { "kind": "small", "amount": 14221.94 },
+          { "kind": "large", "amount": 95936.99 },
+          { "kind": "pac", "amount": 3000 },
+          { "kind": "other", "amount": 1000 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "U.S. Sen. Bernie Sanders",
+        "kind": "elected_official",
+        "party": "Independent",
+        "cites": [7]
+      },
+      {
+        "organization": "Assemblymember Sade Elhawary",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [3]
+      },
+      {
+        "organization": "Los Angeles City Controller Kenneth Mejia",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Los Angeles City Councilmember Eunisses Hernandez",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "LAUSD Board Member Karla Griego",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "LAUSD Board Member Dr. Rocío Rivas",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Former Los Angeles City Councilmember Mike Bonin",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "United Teachers Los Angeles",
+        "kind": "union",
+        "cites": [8]
+      },
+      { "organization": "SEIU Local 1000", "kind": "union", "cites": [3] },
+      {
+        "organization": "SEIU United Service Workers West",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "National Union of Healthcare Workers",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "SEIU Healthcare Committee of Interns and Residents",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "Engineers and Architects Association",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "Los Angeles College Faculty Guild, AFT Local 1521",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "United Steelworkers Local 675",
+        "kind": "union",
+        "cites": [3]
+      },
+      { "organization": "UPTE-CWA", "kind": "union", "cites": [3] },
+      {
+        "organization": "Los Angeles County Public Defenders Union Local 148",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "Our Revolution",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Democratic Socialists of America - Los Angeles",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Los Angeles League of Conservation Voters",
+        "kind": "organization",
+        "cites": [11]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [12] },
+      {
+        "organization": "Initiate Justice Action",
+        "kind": "organization",
+        "cites": [13]
+      },
+      {
+        "organization": "California Working Families Party",
+        "kind": "organization",
+        "cites": [3]
+      },
+      { "organization": "ACCE Action", "kind": "organization", "cites": [3] },
+      {
+        "organization": "Sunrise Movement LA",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Run for Something",
+        "kind": "organization",
+        "cites": [3]
+      },
+      { "organization": "One Fair Wage", "kind": "organization", "cites": [3] },
+      {
+        "organization": "Jane Fonda Climate PAC",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Center for Biological Diversity Action Fund",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Food & Water Action",
+        "kind": "organization",
+        "cites": [3]
+      },
+      { "organization": "CAIR Action", "kind": "organization", "cites": [3] },
+      { "organization": "Lead Locally", "kind": "organization", "cites": [3] },
+      {
+        "organization": "Evolve California",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Americans for Democratic Action SoCal",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Stonewall Democrats",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Stonewall Young Democrats",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Pilipino American Los Angeles Democrats",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Korean American Democratic Committee",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Organize for Peace",
+        "kind": "organization",
+        "cites": [3]
+      },
+      { "organization": "Knock LA", "kind": "organization", "cites": [14] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "L.A. City Council District 9: What you need to know about the candidates",
+      "publisher": "LAist",
+      "url": "https://laist.com/news/politics/voter-guides/2026-general-election-la-city-council-district-9",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Your guide to the L.A. City Council District 9 race: Ugarte vs. Mazariegos",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-10-01/2026-california-election-los-angeles-city-council-district-9-ugarte-mazariegos-voter-guide",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Estuardo for City Council",
+      "publisher": "Estuardo Mazariegos campaign",
+      "url": "https://www.estuardo4la.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Locals brave the heat to hear LA City Council District 9 candidate forum",
+      "publisher": "The LA Local",
+      "url": "https://thelalocal.org/neighborhoods/south-la/la-city-council-district-9-candidate-forum-jose-ugarte-and-estuardo-mazariegos/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Locals brave the heat to hear LA City Council District 9 candidates lay out plans in South LA",
+      "publisher": "LAist",
+      "url": "https://laist.com/news/politics/locals-brave-the-heat-to-hear-la-city-council-district-9-candidates-lay-out-plans-in-south-la",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "He was busted for gun possession. Now he's running for L.A. City Council",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-03-26/he-was-busted-for-gun-possession-now-hes-running-for-la-city-council",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "'Building a Movement for the Future,' Bernie Sanders Endorses 61 State and Local Progressives",
+      "publisher": "Common Dreams",
+      "url": "https://www.commondreams.org/news/bernie-sanders-endorsement",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "UTLA 2026 Endorsements",
+      "publisher": "United Teachers Los Angeles",
+      "url": "https://utla.net/campaigns/2026-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 9,
+      "title": "Estuardo Mazariegos for LA City Council D-9",
+      "publisher": "Our Revolution",
+      "url": "https://ourrevolution.com/estuardo-mazariegos-for-la-city-council-d-9/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "Count Me In: Electing Socialists in Los Angeles in 2026",
+      "publisher": "DSA-LA",
+      "url": "https://2026.dsa-la.org/count-me-in-electing-socialists-in-los-angeles-in-2026",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "LALCV Endorses Estuardo Mazariegos for Los Angeles City Council District 9",
+      "publisher": "Los Angeles League of Conservation Voters",
+      "url": "https://lalcv.org/lalcv-endorses-estuardo-mazariegos-for-los-angeles-city-council-district-9/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "LA Forward Endorsements",
+      "publisher": "LA Forward",
+      "url": "https://laforward.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 13,
+      "title": "Estuardo Mazariegos – LA City Council District 9",
+      "publisher": "Initiate Justice Action",
+      "url": "https://ijaction.org/estuardo-mazariegos-la-city-council-district-9/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
+      "publisher": "Knock LA (Ground Game LA)",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 14
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.451Z",
+    "version": 7
+  }
+}

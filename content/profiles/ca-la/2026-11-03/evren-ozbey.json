@@ -1,0 +1,50 @@
+{
+  "key": "evren-ozbey",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Evren Ozbey",
+  "office": "Burbank Unified School District, Governing Board Member, Trustee Area No. 3",
+  "contestIds": ["la-4348-cc10625"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Evren Ozbey is a candidate for the Burbank Board of Education in Trustee Area 3.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Evren Ozbey is a candidate for the Burbank Board of Education in Trustee Area 3.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217036510-Ozbey%2C%20Evren",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Six Candidates Vie for Burbank Board of Education",
+      "publisher": "Burbank Leader",
+      "url": "https://outlooknewspapers.com/burbankleader/six-candidates-vie-for-burbank-board-of-education/article_4f1ecb94-4d72-444d-84c3-018b224e8770.html",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T05:54:20.828Z",
+    "version": 2
+  }
+}

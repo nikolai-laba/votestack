@@ -1,0 +1,153 @@
+{
+  "key": "robert-pullen-miles",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Robert Pullen-Miles",
+  "office": "City of Lawndale, Mayor",
+  "contestIds": ["la-4348-cc10474"],
+  "kind": "candidate",
+  "tier": "top",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Robert Pullen-Miles is the mayor of Lawndale, first elected in 2014 after serving on the city council from 2004 to 2014. He was district director for Assemblymember Autumn Burke and earlier a staffer for state senators.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Robert Pullen-Miles is the mayor of Lawndale, first elected in 2014 after serving on the city council from 2004 to 2014.",
+            "cites": [1]
+          },
+          {
+            "text": "He was district director for Assemblymember Autumn Burke and earlier a staffer for state senators.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "His 2022 campaign outlined plans to increase the number of deputy sheriffs and support juvenile diversion programs. His campaign says he initiated an amnesty program for unpermitted properties and a home improvement rebate program.",
+        "cites": [3],
+        "sentences": [
+          {
+            "text": "His 2022 campaign outlined plans to increase the number of deputy sheriffs and support juvenile diversion programs.",
+            "cites": [3]
+          },
+          {
+            "text": "His campaign says he initiated an amnesty program for unpermitted properties and a home improvement rebate program.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "In 2020, he defended the city's decision to block a homeless housing project at a hotel, saying other communities were more suitable. He supported the Hawthorne Boulevard route for the Metro C Line extension.",
+        "cites": [4, 5],
+        "sentences": [
+          {
+            "text": "In 2020, he defended the city's decision to block a homeless housing project at a hotel, saying other communities were more suitable.",
+            "cites": [4]
+          },
+          {
+            "text": "He supported the Hawthorne Boulevard route for the Metro C Line extension.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Lawndale",
+      "url": "https://www.lawndale.ca.gov/government/departments/city_clerk_s_office/election_information/campaign_finance"
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [6]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [7] },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Robert Pullen-Miles",
+      "publisher": "JoinCalifornia",
+      "url": "https://www.joincalifornia.com/candidate/4287",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Column: Mayor Robert Pullen-Miles: Prepared and Ready to Represent in Sacramento!",
+      "publisher": "Westside Today",
+      "url": "https://westsidetoday.com/2022/03/02/column-mayor-robert-pullen-miles-prepared-and-ready-to-represent-in-sacramento/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Re-Elect Robert Pullen-Miles for Lawndale Mayor 2022",
+      "publisher": "Robert Pullen-Miles campaign",
+      "url": "https://pullenmilesformayor.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Homeless people fleeing coronavirus meet NIMBY resistance",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/homeless-housing/story/2020-04-23/coronavirus-homeless-housing-shelter-hotel-nimby-cities-california",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Metro Advances Transit Access in the South Bay with Approval of the Hawthorne Boulevard Route for Extending the C Line to Torrance",
+      "publisher": "LA County Supervisor's Office",
+      "url": "https://mitchell.lacounty.gov/transit-access-in-the-south-bay/",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 7
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 8
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.685Z",
+    "version": 5
+  }
+}

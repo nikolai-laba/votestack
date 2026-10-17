@@ -1,0 +1,167 @@
+{
+  "key": "julee-brooks",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Julee Brooks",
+  "office": "William S. Hart Union High School District, Governing Board Member, Trustee Area No. 2",
+  "contestIds": ["la-4348-cc10845"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Brooks says she is the chief executive officer of a community-based educational organization that provides afterschool, summer, and outdoor education programs to 30,000 students annually in Southern California.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Brooks says she is the chief executive officer of a community-based educational organization that provides afterschool, summer, and outdoor education programs to 30,000 students annually in Southern California.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "At an October 2026 candidate forum, Brooks said her priorities include student safety, mental health supports, and extracurricular activities that give young people places to belong. She said she would work to ensure parity in educational opportunities and academic success across the district. She stressed the importance of parent-teacher partnerships and praised the district's communication when problems arise.",
+        "cites": [2],
+        "sentences": [
+          {
+            "text": "At an October 2026 candidate forum, Brooks said her priorities include student safety, mental health supports, and extracurricular activities that give young people places to belong.",
+            "cites": [2]
+          },
+          {
+            "text": "She said she would work to ensure parity in educational opportunities and academic success across the district.",
+            "cites": [2]
+          },
+          {
+            "text": "She stressed the importance of parent-teacher partnerships and praised the district's communication when problems arise.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Committee to Elect Julee Brooks for Hart School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/214900839-Committee%20to%20Elect%20Julee%20Brooks%20for%20Hart%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 15959,
+        "cashOnHand": 8693.63,
+        "breakdown": [
+          { "kind": "small", "amount": 809 },
+          { "kind": "large", "amount": 11050 },
+          { "kind": "candidate", "amount": 2100 },
+          { "kind": "other", "amount": 2000 }
+        ],
+        "fromCandidate": 2100,
+        "largeSince": { "since": "2026-09-19", "total": 7000, "count": 4 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [3]
+      },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Santa Clarita Valley Democrats",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [6]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [7] },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Julee Brooks | Putting Kids First - Santa Clarita Valley Signal",
+      "publisher": "Santa Clarita Valley Signal",
+      "url": "https://signalscv.com/2026/08/julee-brooks-putting-kids-first/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Candidates discuss Hart district challenges, opportunities",
+      "publisher": "Santa Clarita Valley Signal",
+      "url": "https://signalscv.com/2026/10/candidates-discuss-hart-district-challenges-opportunities/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "2026 Stonewall Endorsed Candidates",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "November 2026 Candidate Endorsements",
+      "publisher": "Santa Clarita Valley Democrats",
+      "url": "https://www.santaclaritavalleydemocrats.com/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Equality California Election Center",
+      "publisher": "Equality California",
+      "url": "https://www.eqca.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 7
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 8
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.173Z",
+    "version": 3
+  }
+}

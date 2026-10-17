@@ -1,0 +1,89 @@
+{
+  "key": "ricardo-padilla",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Ricardo Padilla",
+  "office": "El Monte Union High School District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10687"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Ricardo Padilla is a member of the El Monte Union High School District Governing Board. His district biography states he has worked in education for 23 years in the El Monte City School District, currently as an outreach consultant.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Ricardo Padilla is a member of the El Monte Union High School District Governing Board.",
+            "cites": [1]
+          },
+          {
+            "text": "His district biography states he has worked in education for 23 years in the El Monte City School District, currently as an outreach consultant.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "In February 2023, Padilla and two other board members voted to cancel a $1.1 million design project for a new campus for adult students with disabilities and instead integrate those students back into the district's high schools. The Pasadena Star-News reported the district decided to rent the originally proposed site to a board member's employer.",
+        "cites": [2],
+        "sentences": [
+          {
+            "text": "In February 2023, Padilla and two other board members voted to cancel a $1.1 million design project for a new campus for adult students with disabilities and instead integrate those students back into the district's high schools.",
+            "cites": [2]
+          },
+          {
+            "text": "The Pasadena Star-News reported the district decided to rent the originally proposed site to a board member's employer.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Padilla 4 School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/208826552-Padilla%204%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 11846,
+        "cashOnHand": 8888.84,
+        "breakdown": [
+          { "kind": "small", "amount": 1146 },
+          { "kind": "large", "amount": 5200 },
+          { "kind": "pac", "amount": 5000 },
+          { "kind": "other", "amount": 500 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 5000, "count": 1 }
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Meet the Board - El Monte Union High School District",
+      "publisher": "El Monte Union High School District",
+      "url": "https://www.emuhsd.org/meet-the-board",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "El Monte Union board ditches new site for students with disabilities, igniting political storm",
+      "publisher": "Pasadena Star-News",
+      "url": "https://www.pasadenastarnews.com/2023/02/12/el-monte-union-board-ditches-new-site-for-students-with-disabilities-igniting-political-storm/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.108Z",
+    "version": 6
+  }
+}

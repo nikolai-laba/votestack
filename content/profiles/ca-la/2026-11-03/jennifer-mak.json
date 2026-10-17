@@ -1,0 +1,109 @@
+{
+  "key": "jennifer-mak",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Jennifer Mak",
+  "office": "Torrance Unified School District, Governing Board Member, Trustee Area D",
+  "contestIds": ["la-4348-cc10747"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Jennifer Mak is a retired school administrator. She spent 38 years as a teacher, principal, and district administrator. Her campaign says she led a school to earn the California Gold Ribbon School and Title I Academic Achievement awards, and oversaw 16 schools and 7,000 students as a Community of Schools Administrator.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Jennifer Mak is a retired school administrator.",
+            "cites": [1]
+          },
+          {
+            "text": "She spent 38 years as a teacher, principal, and district administrator.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign says she led a school to earn the California Gold Ribbon School and Title I Academic Achievement awards, and oversaw 16 schools and 7,000 students as a Community of Schools Administrator.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "Mak says she would closely examine revenues and costs to align resources with district priorities. She sees the board’s role as providing vision and accountability to create conditions for student and educator success. Her campaign priorities include putting students first and strengthening family and community partnerships.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Mak says she would closely examine revenues and costs to align resources with district priorities.",
+            "cites": [1]
+          },
+          {
+            "text": "She sees the board’s role as providing vision and accountability to create conditions for student and educator success.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign priorities include putting students first and strengthening family and community partnerships.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217053559-Mak%2C%20Jennifer",
+      "underThreshold": true
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Dr. William Blischke, Former Torrance and Redondo Beach School Board Member",
+        "kind": "elected_official",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Jennifer Mak, Torrance Unified School District Area D candidate, 2026 election questionnaire – Daily Breeze",
+      "publisher": "Daily Breeze",
+      "url": "https://www.dailybreeze.com/2026/10/05/jennifer-mak-torrance-unified-school-district-area-d-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "About Jennifer Mak | TUSD School Board, Trustee Area D",
+      "publisher": "Jennifer Mak for Torrance Unified School District",
+      "url": "https://www.jennifermakfortusd.com/about/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Jennifer Mak for TUSD Board Area D | Torrance mom of 3 South High grads",
+      "publisher": "Jennifer Mak for Torrance Unified School District",
+      "url": "https://www.jennifermakfortusd.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Endorsements | Jennifer Mak for TUSD",
+      "publisher": "Jennifer Mak for Torrance Unified School District 2026",
+      "url": "https://www.jennifermakfortusd.com/endorsements/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.341Z",
+    "version": 2
+  }
+}

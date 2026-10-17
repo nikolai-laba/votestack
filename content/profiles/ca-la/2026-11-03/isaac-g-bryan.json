@@ -1,0 +1,482 @@
+{
+  "key": "isaac-g-bryan",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Isaac G. Bryan",
+  "party": "Democratic",
+  "office": "State Assembly Member, 55th District",
+  "contestIds": ["la-4348-cc10795"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Isaac G. Bryan is the Democratic Assembly member for California's 55th District, representing Los Angeles, Culver City and parts of Inglewood. He was elected in May 2021 and previously founded the UCLA Black Policy Project. He chairs the Assembly Natural Resources Committee.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Isaac G. Bryan is the Democratic Assembly member for California's 55th District, representing Los Angeles, Culver City and parts of Inglewood.",
+            "cites": [1]
+          },
+          {
+            "text": "He was elected in May 2021 and previously founded the UCLA Black Policy Project.",
+            "cites": [1]
+          },
+          {
+            "text": "He chairs the Assembly Natural Resources Committee.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "His Assembly Bill 2716 requires the Inglewood Oil Field to close by 2030. Assembly Bill 1661 directs $5 million in cash aid to 1,000 nearby households with qualifying health impacts. He wrote Assembly Bill 246 to pause evictions for renters whose Social Security benefits are delayed without fault. He authored the Truth in Disclosure Act, which requires companies with over $100 million in annual gross receipts to disclose if they profited from chattel slavery.",
+        "cites": [3, 4, 5],
+        "sentences": [
+          {
+            "text": "His Assembly Bill 2716 requires the Inglewood Oil Field to close by 2030.",
+            "cites": [3]
+          },
+          {
+            "text": "Assembly Bill 1661 directs $5 million in cash aid to 1,000 nearby households with qualifying health impacts.",
+            "cites": [3]
+          },
+          {
+            "text": "He wrote Assembly Bill 246 to pause evictions for renters whose Social Security benefits are delayed without fault.",
+            "cites": [4]
+          },
+          {
+            "text": "He authored the Truth in Disclosure Act, which requires companies with over $100 million in annual gross receipts to disclose if they profited from chattel slavery.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Bryan for Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477262",
+        "period": "July 1 to September 19, 2026",
+        "raised": 83265,
+        "cashOnHand": 570663.17,
+        "breakdown": [
+          { "kind": "small", "amount": 165 },
+          { "kind": "large", "amount": 18700 },
+          { "kind": "pac", "amount": 35500 },
+          { "kind": "party", "amount": 5000 },
+          { "kind": "other", "amount": 23900 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 94000, "count": 26 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Gov. Gavin Newsom",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "U.S. Sen. Alex Padilla",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "U.S. Rep. Sydney Kamlager-Dove",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "U.S. Rep. Luz Rivas",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Insurance Commissioner Ricardo Lara",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assembly Speaker Robert Rivas",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "State Sen. Ben Allen",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "State Sen. Lena Gonzalez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "State Sen. Henry Stern",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Ash Kalra",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Alex Lee",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Holly Mitchell",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Los Angeles Mayor Karen Bass",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Los Angeles City Council President Marqueece Harris-Dawson",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "California Democratic Party",
+        "kind": "party",
+        "cites": [7]
+      },
+      {
+        "organization": "California Federation of Labor Unions, AFL-CIO",
+        "kind": "union",
+        "cites": [6]
+      },
+      { "organization": "SEIU California", "kind": "union", "cites": [6] },
+      {
+        "organization": "California Nurses Association",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "State Building & Construction Trades Council of California",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "California Professional Firefighters",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Planned Parenthood Advocacy Project Los Angeles County Action Fund",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Planned Parenthood Affiliates of California (PPAC Votes PAC)",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "California Environmental Voters",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Sierra Club California",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "NARAL Pro-Choice California",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "California Medical Association",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Consumer Attorneys of California",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Initiate Justice Action",
+        "kind": "organization",
+        "cites": [11]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [6] },
+      {
+        "organization": "National Union of Healthcare Workers",
+        "kind": "union",
+        "cites": [12]
+      },
+      {
+        "organization": "UNAC/UHCP (United Nurses Associations of California)",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "United Domestic Workers of America (UDW, AFSCME Local 3930)",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Teamsters (California Teamsters PAC + DRIVE)",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "California State Council of Laborers (LIUNA)",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "UFCW Western States Council",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Directors Guild of America (DGA-PAC)",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Smart Justice California",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "California Black Power Network Action Fund",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "California Federation of Teachers",
+        "kind": "union",
+        "cites": [13]
+      },
+      {
+        "organization": "California Teachers Association",
+        "kind": "union",
+        "cites": [14]
+      },
+      {
+        "organization": "California Working Families Party",
+        "kind": "organization",
+        "cites": [15]
+      },
+      {
+        "organization": "Democrats for Israel – Los Angeles",
+        "kind": "organization",
+        "cites": [16]
+      },
+      { "organization": "Knock LA", "kind": "organization", "cites": [17] },
+      { "organization": "LA Forward", "kind": "organization", "cites": [18] },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [19]
+      },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [20] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Isaac Bryan | Legislative Black Caucus",
+      "publisher": "California Legislative Black Caucus",
+      "url": "https://blackcaucus.legislature.ca.gov/isaac-bryan",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Assembly Member Bryan | California State Assembly",
+      "publisher": "California State Assembly",
+      "url": "https://www.assembly.ca.gov/assemblymembers/55",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "These Black Los Angeles Residents May Soon Receive Environmental Reparations",
+      "publisher": "Mother Jones",
+      "url": "https://www.motherjones.com/politics/2026/09/black-los-angeles-inglewood-residents-environmental-justice-reparations-oil-toxic-industrial-california-ab-1661-isaac-bryan/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "California renters could avoid eviction if Social Security delayed",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.org/politics/2025/09/california-social-security-renter-protections/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Calmatters: New California Reparations Law Requires Companies To Disclose Past Profits From Slavery",
+      "publisher": "SFGATE",
+      "url": "https://www.sfgate.com/news/bayarea/article/calmatters-new-california-reparations-law-22461688.php",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements",
+      "publisher": "Bryan for Assembly 2026",
+      "url": "https://isaacbryanforca.com/endorsements/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "2026 General Election Endorsements & Ballot Measure Positions",
+      "publisher": "California Democratic Party",
+      "url": "https://cadem.org/wp-content/uploads/2026/08/FINAL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 8,
+      "title": "Voter Guide",
+      "publisher": "Planned Parenthood Advocacy Project Los Angeles County",
+      "url": "https://www.plannedparenthoodaction.org/planned-parenthood-advocacy-project-los-angeles-county/voter-guide-ppapx",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 9,
+      "title": "Who We're Endorsing in California's 2026 Election",
+      "publisher": "California Environmental Voters",
+      "url": "https://envirovoters.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "2026 Stonewall Endorsed Candidates",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "Assembly District 55 (General Election Voter Guide 2026)",
+      "publisher": "Initiate Justice Action",
+      "url": "https://ijaction.org/2026-ad55/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "Political Action",
+      "publisher": "National Union of Healthcare Workers",
+      "url": "https://home.nuhw.org/political-action/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "CFT Endorsements, General Election 2026 (Tuesday, November 3)",
+      "publisher": "California Federation of Teachers",
+      "url": "https://www.cft.org/2026-midterm-elections-hub",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "2026 Candidate Recommendations",
+      "publisher": "California Teachers Association",
+      "url": "https://www.cta.org/our-advocacy/election-2026",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "California Working Families Party: Our 2026 Candidates",
+      "publisher": "Working Families Party",
+      "url": "https://workingfamilies.org/state/california/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Democrats for Israel – Los Angeles",
+      "url": "https://dfi-la.org/endorse",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
+      "publisher": "Knock LA (Ground Game LA)",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
+      "publisher": "SEIU Local 721",
+      "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 20
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.709Z",
+    "version": 6
+  }
+}

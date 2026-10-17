@@ -1,0 +1,50 @@
+{
+  "key": "vincent-m-santana",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Vincent M. Santana",
+  "office": "La Puente Valley County Water District, Member, Board of Directors",
+  "contestIds": ["la-4348-cc10384"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Vincent M. Santana is running for the La Puente Valley County Water District Board.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Vincent M. Santana is running for the La Puente Valley County Water District Board.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/212098605-Santana%2C%20Vincent",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Vincent M. Santana (La Puente Valley County Water District Board At-large, California, candidate 2026)",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Vincent_M._Santana_(La_Puente_Valley_County_Water_District_Board_At-large,_California,_candidate_2026)",
+      "kind": "reference",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.400Z",
+    "version": 2
+  }
+}

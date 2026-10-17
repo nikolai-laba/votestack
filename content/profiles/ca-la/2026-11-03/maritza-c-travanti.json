@@ -1,0 +1,129 @@
+{
+  "key": "maritza-c-travanti",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Maritza C. Travanti",
+  "office": "Monrovia Unified School District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10656"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Maritza Travanti is the incumbent Monrovia Unified School District Board member for Trustee Area 5, first elected in 2018, and has served as Board President. She retired after a 35-year IRS career, where she was Chief of Operations and Program Support. During her tenure on the board, the district navigated COVID-19 and returned students to in-person learning in 2021. She says she helped guide a Fiscal Stabilization Plan and middle school consolidation.",
+        "cites": [1, 2, 3]
+      },
+      {
+        "text": "She says the district's top needs are addressing declining enrollment and fiscal stability, along with recruiting and retaining staff. She supports aligning staffing and spending with enrollment while protecting student programs. She also favors competitive pay and a supportive workplace for employees.",
+        "cites": [2],
+        "sentences": [
+          {
+            "text": "She says the district's top needs are addressing declining enrollment and fiscal stability, along with recruiting and retaining staff.",
+            "cites": [2]
+          },
+          {
+            "text": "She supports aligning staffing and spending with enrollment while protecting student programs.",
+            "cites": [2]
+          },
+          {
+            "text": "She also favors competitive pay and a supportive workplace for employees.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/214322441-Travanti%2C%20Maritza",
+      "underThreshold": true
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "U.S. Rep. Gil Cisneros (CA-31)",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "State Sen. Susan Rubio",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "Assemblymember Blanca E. Rubio",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "Sergio Jimenez, Monrovia Mayor Pro Tem",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Larry Spicer, Monrovia City Councilmember",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Rob Hammond, Monrovia Unified School Board Member and former Monrovia Mayor",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Lois Gaston, former Duarte Mayor",
+        "kind": "elected_official",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Meet the Board of Education",
+      "publisher": "Monrovia Unified School District",
+      "url": "https://www.monroviaschools.net/apps/pages/index.jsp?uREC_ID=346812&type=d&pREC_ID=755311",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Maritza Travanti, Monrovia Unified School District Area 5 candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/maritza-travanti-monrovia-unified-school-district-area-5-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "MUSD Board of Education Elects New President, Officers",
+      "publisher": "Monrovia Unified School District",
+      "url": "https://www.monroviaschools.net/apps/news/article/1543430",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Endorsements | Maritza Travanti for School Board",
+      "publisher": "Maritza Travanti for School Board",
+      "url": "https://www.maritzaformusd.com/team-members",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.201Z",
+    "version": 4
+  }
+}

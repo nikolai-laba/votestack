@@ -1,0 +1,392 @@
+{
+  "key": "sara-deen",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Sara Deen",
+  "party": "Democratic",
+  "office": "State Assembly Member, 66th District",
+  "contestIds": ["la-4348-cc10802"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Sara Deen is president of the Palos Verdes Peninsula Unified School District Board of Education, a family dentist, and co-owner of a Torrance urgent care. She says she has balanced the district budget annually and led a 2024 bond measure for classroom repairs.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Sara Deen is president of the Palos Verdes Peninsula Unified School District Board of Education, a family dentist, and co-owner of a Torrance urgent care.",
+            "cites": [1]
+          },
+          {
+            "text": "She says she has balanced the district budget annually and led a 2024 bond measure for classroom repairs.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign says she wants to close tax loopholes, lower energy costs, expand housing, and reduce special interest influence. At an April 2026 forum, she said the legislature should review special education funding. She signed a pledge to phase out modified hydrofluoric acid at a local refinery. In September 2026, she said the state should evaluate whether regulations hinder businesses. She told CalBike she supports prioritizing low-income communities of color for walking and biking funds.",
+        "cites": [2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "Her campaign says she wants to close tax loopholes, lower energy costs, expand housing, and reduce special interest influence.",
+            "cites": [2]
+          },
+          {
+            "text": "At an April 2026 forum, she said the legislature should review special education funding.",
+            "cites": [3]
+          },
+          {
+            "text": "She signed a pledge to phase out modified hydrofluoric acid at a local refinery.",
+            "cites": [3]
+          },
+          {
+            "text": "In September 2026, she said the state should evaluate whether regulations hinder businesses.",
+            "cites": [4]
+          },
+          {
+            "text": "She told CalBike she supports prioritizing low-income communities of color for walking and biking funds.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Sara Deen for Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1478003",
+        "period": "July 1 to September 19, 2026",
+        "raised": 223273,
+        "cashOnHand": 184414.37,
+        "breakdown": [
+          { "kind": "small", "amount": 1446 },
+          { "kind": "large", "amount": 127277 },
+          { "kind": "pac", "amount": 94050 },
+          { "kind": "other", "amount": 500 }
+        ],
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 242850,
+          "count": 66,
+          "fromCandidate": 100000
+        }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Former State Controller Betty Yee",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Sharon Quirk-Silva",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "LAUSD Board Member Tanya Ortiz Franklin",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Palos Verdes Peninsula Unified School District Board Member Ami Gandhi",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Palos Verdes Peninsula Unified School District Board Member Linda Kurt",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Palos Verdes Peninsula Unified School District Board Member Linda Reid",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Redondo Beach Unified School District Board Member Dan Elder",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "El Segundo Unified School District Board Member Meredith Beachly",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "California Nurses Association",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "National Union of Healthcare Workers",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "California School Employees Association",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "California Faculty Association",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Western States Regional Council of Carpenters",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "UA Local 761 Plumbers & Fitters",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "LA College Faculty Guild Local 1521",
+        "kind": "union",
+        "cites": [6]
+      },
+      { "organization": "Local 148", "kind": "union", "cites": [6] },
+      {
+        "organization": "California Medical Association",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "California Dental Association",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "CPCA Advocates (California Primary Care Association)",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "California YIMBY",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "California Women's List",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "National Women's Political Caucus California",
+        "kind": "organization",
+        "cites": [8]
+      },
+      { "organization": "314 Action", "kind": "organization", "cites": [6] },
+      { "organization": "CalBike", "kind": "organization", "cites": [5] },
+      {
+        "organization": "Democratic Legislative Women's Caucus",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Consumer Federation of CA",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Indian American Impact",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Californians Allied for Patient Protection (CAPP)",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Cooperative of American Physicians",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Physician Association of California",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "CA Association of Physical Therapists",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "CA Association of Psychiatric Technicians",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "California Association of Orthodontics",
+        "kind": "organization",
+        "cites": [6]
+      },
+      { "organization": "Leading Age", "kind": "organization", "cites": [6] },
+      {
+        "organization": "Indivisible South Bay LA",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "South Bay Forward",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "California Federation of Teachers",
+        "kind": "union",
+        "cites": [12]
+      },
+      {
+        "organization": "California Teachers Association",
+        "kind": "union",
+        "cites": [13]
+      },
+      { "organization": "Knock LA", "kind": "organization", "cites": [14] },
+      { "organization": "LA Forward", "kind": "organization", "cites": [15] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Meet Sara Deen - Sara Deen for California Assembly District 66",
+      "publisher": "Sara Deen for California Assembly District 66",
+      "url": "https://www.saradeenforca.com/meet-sara/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Why I'm Running - Sara Deen for California Assembly District 66",
+      "publisher": "Sara Deen for California Assembly District 66",
+      "url": "https://www.saradeenforca.com/why-im-running/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "District 66 Assembly candidates talk education, housing and environment",
+      "publisher": "Daily Breeze",
+      "url": "https://www.dailybreeze.com/2026/04/26/district-66-assembly-candidates-talk-education-housing-and-environment/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "South Bay state Senate, Assembly candidates address concerns of local businesses",
+      "publisher": "Daily Breeze",
+      "url": "https://www.dailybreeze.com/2026/09/10/south-bay-state-senate-assembly-candidates-address-concerns-of-local-businesses/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "CalBike’s 2026 Primary Election Endorsements",
+      "publisher": "CalBike",
+      "url": "https://www.calbike.org/calbikes-2026-primary-election-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements - Sara Deen for California Assembly District 66",
+      "publisher": "Sara Deen for Assembly 2026",
+      "url": "https://www.saradeenforca.com/endorsements/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Political Action",
+      "publisher": "National Union of Healthcare Workers",
+      "url": "https://home.nuhw.org/political-action/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "DSA on One Side, Labor and Cops on the Other: South Bay Independents Get the Deciding Vote",
+      "publisher": "IVN",
+      "url": "https://ivn.us/dsa-on-one-side-labor-and-cops-on-the-other-south-bay-independents-get-the-deciding-vote/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "Endorsements",
+      "publisher": "CPCA Advocates",
+      "url": "https://cpcaadvocates.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "Endorsements",
+      "publisher": "California YIMBY",
+      "url": "https://cayimby.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "Six Candidates Seeking Muratsuchi's Assembly Seat",
+      "publisher": "Rafu Shimpo",
+      "url": "https://rafu.com/2026/05/six-candidates-seeking-muratsuchis-assembly-seat/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "CFT Endorsements, General Election 2026 (Tuesday, November 3)",
+      "publisher": "California Federation of Teachers",
+      "url": "https://www.cft.org/2026-midterm-elections-hub",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "2026 Candidate Recommendations",
+      "publisher": "California Teachers Association",
+      "url": "https://www.cta.org/our-advocacy/election-2026",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
+      "publisher": "Knock LA (Ground Game LA)",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 15
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.728Z",
+    "version": 6
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "key": "darlene-nava",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Darlene Nava",
+  "office": "Mountain View School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10717"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Darlene Nava is a fiscal services clerk running for the Mountain View School District Governing Board.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Darlene Nava is a fiscal services clerk running for the Mountain View School District Governing Board.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217209303-Nava%2C%20Darlene",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate List",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.205Z",
+    "version": 2
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "key": "carlos-yado",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Carlos Yado",
+  "office": "City of West Covina, Member of the City Council, 2nd District",
+  "contestIds": ["la-4348-cc10527"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Carlos Yado is the deputy chief of fire safety for the California State University Office of the Chancellor. His campaign says he has more than 17 years of experience in community and economic development, public safety, code enforcement, and building services. The LA Forward voter guide describes his campaign as emphasizing fiscal restraint, stronger law enforcement, streamlined permitting, and enforcement against encampments and public drug use. He has criticized the condition of local fire stations and parks, and has questioned a proposed city health department. He also calls for transparency and accountability in city government.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Carlos Yado is the deputy chief of fire safety for the California State University Office of the Chancellor.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he has more than 17 years of experience in community and economic development, public safety, code enforcement, and building services.",
+            "cites": [2]
+          },
+          {
+            "text": "The LA Forward voter guide describes his campaign as emphasizing fiscal restraint, stronger law enforcement, streamlined permitting, and enforcement against encampments and public drug use.",
+            "cites": [3]
+          },
+          {
+            "text": "He has criticized the condition of local fire stations and parks, and has questioned a proposed city health department.",
+            "cites": [4]
+          },
+          {
+            "text": "He also calls for transparency and accountability in city government.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of West Covina",
+        "committee": "Carlos Yado for West Covina City Council District 2 2026",
+        "url": "https://westcovina.gov/186/Campaign-Disclosure-Reports-Public-Offic",
+        "period": "January 1 to September 19, 2026",
+        "raised": 3603.01,
+        "cashOnHand": 230.66,
+        "fromScan": "ocr"
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Carlos Yado, West Covina City Council District 2 candidate, 2026 election questionnaire – San Gabriel Valley Tribune",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/carlos-yado-west-covina-city-council-district-2-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Carlos Yado for West Covina City Council District 2",
+      "publisher": "Carlos Yado campaign",
+      "url": "https://www.carlosyado.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "West Covina · LA Forward Voter Guide",
+      "publisher": "LA Forward",
+      "url": "https://laforwardguide.org/guide/west-covina",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Latest From the Campaign | Carlos Yado for West Covina City Council",
+      "publisher": "Carlos Yado campaign",
+      "url": "https://www.carlosyado.com/updates",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.631Z",
+    "version": 2
+  }
+}

@@ -50,7 +50,40 @@ const list: RaceList = {
     },
   ],
 }
-const data: RaceData = { list, published: ['jane-doe', 'lewis-nixon'] }
+const CA = 'ocd-division/country:us/state:ca'
+const laList: RaceList = {
+  electionId: 'ca-2026-11-03-general',
+  electionName: 'General Election',
+  date: '2026-11-03',
+  area: 'Los Angeles County, California',
+  areaPath: 'ca/los-angeles-county/2026-11-03',
+  races: [
+    {
+      level: 'county',
+      path: 'ca/los-angeles-county/2026-11-03/supervisor-3rd-district',
+      kind: 'candidate',
+      title: 'Supervisor, 3rd District',
+      office: 'Supervisor',
+      districtId: `${CA}/county:los_angeles/council_district:3`,
+      contestIds: ['la:sup-3'],
+      ballots: ['los-angeles-county'],
+      voteFor: 1,
+      // A namesake of a Cook County candidate with a profile.
+      candidates: [
+        {
+          name: 'Jane Doe',
+          party: 'Party Preference: Democratic',
+          designation: 'Educator',
+          ballotOrder: 1,
+        },
+      ],
+    },
+  ],
+}
+const data: RaceData = {
+  lists: [list, laList],
+  published: { 'il-2026-11-03-general': ['jane-doe', 'lewis-nixon'] },
+}
 
 const SENATE = '/races/il/2026-11-03/state-senator-5th-district'
 
@@ -234,6 +267,46 @@ describe('race pages', () => {
     expect(
       await screen.findByRole('link', { name: 'Cook County, Illinois' }),
     ).toHaveAttribute('href', '/races/il/cook-county/2026-11-03')
+    expect(
+      screen.getByRole('link', { name: 'Los Angeles County, California' }),
+    ).toHaveAttribute('href', '/races/ca/los-angeles-county/2026-11-03')
+  })
+
+  it('shows a Los Angeles County race, with no profile links yet', async () => {
+    renderAt('/races/ca/los-angeles-county/2026-11-03/supervisor-3rd-district')
+    expect(
+      await screen.findByRole('heading', {
+        level: 1,
+        name: 'Supervisor, 3rd District',
+      }),
+    ).toBeInTheDocument()
+    expect(
+      screen.getByText(
+        'Voters in the 3rd Supervisorial District of Los Angeles County.',
+      ),
+    ).toBeInTheDocument()
+    expect(screen.getByText('Los Angeles County')).toBeInTheDocument()
+    // The Cook County Jane Doe's profile isn't this candidate's.
+    expect(screen.queryByRole('link', { name: /Jane Doe/ })).toBeNull()
+    expect(screen.getByText('No profile yet')).toBeInTheDocument()
+    expect(screen.getByText('Party Preference: Democratic')).toBeInTheDocument()
+    expect(screen.getByText('Educator')).toBeInTheDocument()
+    expect(document.title).toBe(
+      'Supervisor, 3rd District (Los Angeles County): 2026 candidates | VoteStack',
+    )
+  })
+
+  it('lists every race in Los Angeles County', async () => {
+    renderAt('/races/ca/los-angeles-county/2026-11-03')
+    expect(
+      await screen.findByRole('heading', {
+        level: 1,
+        name: 'Races in Los Angeles County, California',
+      }),
+    ).toBeInTheDocument()
+    expect(
+      screen.getByText(/on any ballot in Los Angeles County\./),
+    ).toBeInTheDocument()
   })
 
   it('shows not found for an unknown race', async () => {
@@ -243,11 +316,14 @@ describe('race pages', () => {
     ).toBeInTheDocument()
   })
 
-  it('links the home page to the area list', () => {
+  it('links the home page to the area lists', () => {
     renderAt('/getstarted')
     expect(
-      screen.getByRole('link', { name: 'browse every race in Cook County' }),
+      screen.getByRole('link', { name: 'every race in Cook County' }),
     ).toHaveAttribute('href', '/races/il/cook-county/2026-11-03')
+    expect(
+      screen.getByRole('link', { name: 'every race in Los Angeles County' }),
+    ).toHaveAttribute('href', '/races/ca/los-angeles-county/2026-11-03')
   })
 })
 

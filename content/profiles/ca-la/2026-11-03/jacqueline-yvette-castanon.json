@@ -1,0 +1,56 @@
+{
+  "key": "jacqueline-yvette-castanon",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Jacqueline Yvette Castañon",
+  "office": "El Monte Union High School District, Governing Board Member, Trustee Area No. 4",
+  "contestIds": ["la-4348-cc10686"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Jacqueline Yvette Castañon is an educator running for the El Monte Union High School District Governing Board, Trustee Area 4.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Jacqueline Yvette Castañon is an educator running for the El Monte Union High School District Governing Board, Trustee Area 4.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Castanon for School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217334738-Castanon%20for%20School%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 0,
+        "cashOnHand": 0,
+        "largeSince": { "since": "2026-09-19", "total": 1459.92, "count": 1 }
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate List",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T05:54:20.839Z",
+    "version": 2
+  }
+}

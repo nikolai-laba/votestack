@@ -1,0 +1,118 @@
+{
+  "key": "jonathan-ontiveros",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Jonathan Ontiveros",
+  "office": "City of Burbank, Member of the City Council",
+  "contestIds": ["la-4348-cc10425"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Jonathan Ontiveros is a civil engineering professional running for Burbank City Council. He is a senior civil engineering assistant with Los Angeles County Public Works and a director with the California Association of Professional Employees. His candidate statement says his priorities include modernizing the city's housing approach, strengthening relationships with businesses, and keeping neighborhoods safe.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Jonathan Ontiveros is a civil engineering professional running for Burbank City Council.",
+            "cites": [1]
+          },
+          {
+            "text": "He is a senior civil engineering assistant with Los Angeles County Public Works and a director with the California Association of Professional Employees.",
+            "cites": [2]
+          },
+          {
+            "text": "His candidate statement says his priorities include modernizing the city's housing approach, strengthening relationships with businesses, and keeping neighborhoods safe.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "At a September 2026 League of Women Voters forum, he said the city must first address its general fund deficit. He also said four specific city plans could yield nearly 16,000 housing units, adding that some have not been updated since the 1990s.",
+        "cites": [4, 5],
+        "sentences": [
+          {
+            "text": "At a September 2026 League of Women Voters forum, he said the city must first address its general fund deficit.",
+            "cites": [4]
+          },
+          {
+            "text": "He also said four specific city plans could yield nearly 16,000 housing units, adding that some have not been updated since the 1990s.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Burbank",
+        "committee": "Jonathan Ontiveros for City Council 2026",
+        "url": "https://efile.burbankca.gov/public/search/campaign/filings/86015e56-c918-4236-9b47-8c092dcb1bec?type=committee",
+        "period": "January 1 to September 19, 2026",
+        "raised": 2049,
+        "cashOnHand": 1582.04
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "California Association of Professional Employees",
+        "kind": "union",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "November 3, 2026 Candidates - City Clerk's Office - City of Burbank",
+      "publisher": "City of Burbank",
+      "url": "https://www.burbankca.gov/web/city-clerks-office/november-3-2026-candidates",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Jonathan Ontiveros for Burbank City Council | November 3, 2026",
+      "publisher": "Jonathan Ontiveros for Burbank City Council",
+      "url": "https://jonathan4burbank.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "CANDIDATE STATEMENT",
+      "publisher": "City of Burbank",
+      "url": "https://www.burbankca.gov/documents/d/city-clerks-office/ontiveros_candidate-statement-2026",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Candidates Share Ideas at League Forum | Burbank Leader",
+      "publisher": "Burbank Leader",
+      "url": "https://outlooknewspapers.com/burbankleader/candidates-share-ideas-at-league-forum/article_09ac85dc-534b-43ab-a769-db464d1ea7ed.html",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Burbank council candidates clash on housing, surveillance",
+      "publisher": "Hey SoCal",
+      "url": "https://heysocal.com/2026/09/24/burbank-council-candidates-clash-on-housing-surveillance/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.319Z",
+    "version": 2
+  }
+}

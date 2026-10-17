@@ -1,0 +1,139 @@
+{
+  "key": "danielle-romero",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Danielle Romero",
+  "office": "City of Montebello, Member of the City Council, 4th District (Unexpired term ending November 7, 2028)",
+  "contestIds": ["la-4348-cc10483"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Danielle Romero is the Mayor Pro Tem of Montebello, representing District 4 on the City Council since February 2025. She is a U.S. Army veteran and works as a Veteran Service Officer for the American Legion Los Angeles County Council. Before joining the council, she served on the city’s Traffic and Safety Commission. She also acts as the city’s delegate to the San Gabriel Valley Council of Governments.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Danielle Romero is the Mayor Pro Tem of Montebello, representing District 4 on the City Council since February 2025.",
+            "cites": [1]
+          },
+          {
+            "text": "She is a U.S. Army veteran and works as a Veteran Service Officer for the American Legion Los Angeles County Council.",
+            "cites": [2]
+          },
+          {
+            "text": "Before joining the council, she served on the city’s Traffic and Safety Commission.",
+            "cites": [1]
+          },
+          {
+            "text": "She also acts as the city’s delegate to the San Gabriel Valley Council of Governments.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "Her stated priorities include supporting economic development, investing in open spaces, enhancing public safety, and improving city infrastructure.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Her stated priorities include supporting economic development, investing in open spaces, enhancing public safety, and improving city infrastructure.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Montebello",
+        "committee": "Danielle Romero for Montebello City Council 2026",
+        "url": "https://netfile.com/public/BELLO/campaign/filingsByFiler/217330711-Danielle%20Romero%20for%20Montebello%20City%20Council%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 4586.62,
+        "cashOnHand": 3529.31,
+        "breakdown": [
+          { "kind": "small", "amount": 585 },
+          { "kind": "large", "amount": 3350 },
+          { "kind": "other", "amount": 651.62 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 3500, "count": 2 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [4]
+      },
+      { "organization": "IBEW Local 18", "kind": "union", "cites": [5] },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [6]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Mayor Pro Tem Romero - City of Montebello",
+      "publisher": "City of Montebello",
+      "url": "https://www.montebelloca.gov/government/elected_officials/councilmember_romero",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Politics | Montebello News",
+      "publisher": "Montebello News",
+      "url": "https://montebello.news/politics",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Governing Board | San Gabriel Valley Council of Governments",
+      "publisher": "San Gabriel Valley Council of Governments",
+      "url": "https://www.sgvcog.org/governingboard",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "IBEW Local 18 — November 3, 2026 Voter Guide",
+      "publisher": "IBEW Local 18",
+      "url": "https://www.ibewlocal18.org/2020/wp-content/uploads/2026/10/IBEW-Local-18-Final-Recommendations-November-2026-1.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 6
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.779Z",
+    "version": 3
+  }
+}

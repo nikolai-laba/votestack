@@ -1,0 +1,66 @@
+{
+  "key": "franzelle-louis-johnson-jr",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Franzelle Louis Johnson Jr.",
+  "office": "City of Palmdale, Member of the City Council, 3rd District",
+  "contestIds": ["la-4348-cc10495"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Franzelle Louis Johnson Jr. is a small business owner running for Palmdale City Council District 3. He holds a degree in behavioral and social science, according to his campaign website. He says the city's biggest need is improving public safety and infrastructure as it grows.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Franzelle Louis Johnson Jr. is a small business owner running for Palmdale City Council District 3.",
+            "cites": [1]
+          },
+          {
+            "text": "He holds a degree in behavioral and social science, according to his campaign website.",
+            "cites": [2]
+          },
+          {
+            "text": "He says the city's biggest need is improving public safety and infrastructure as it grows.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Palmdale",
+      "url": "https://netfile.com/public/CPD/campaign/filingsByFiler/217406440-Johnson%2C%20Franzelle",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Franzelle Johnson Jr., Palmdale City Council District 3 candidate, 2026 election questionnaire – Daily News",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/franzelle-johnson-jr-palmdale-city-council-district-3-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "VoteZelle | Franzelle Johnson Jr. for Palmdale City Council District 3",
+      "publisher": "Franzelle Johnson Jr. campaign",
+      "url": "https://www.votezelle.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.524Z",
+    "version": 2
+  }
+}

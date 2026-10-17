@@ -1,0 +1,76 @@
+{
+  "key": "cesar-j-barajas",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Cesar J. Barajas",
+  "office": "La Puente Valley County Water District, Member, Board of Directors",
+  "contestIds": ["la-4348-cc10384"],
+  "kind": "candidate",
+  "tier": "short",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Cesar J. Barajas is president of the La Puente Valley County Water District board, serving a term from 2022 to 2026. He joined the board in 2018. He holds a master's degree in civil engineering and works at a local construction company. As board president, he has presided over meetings considering budget amendments and a CalPERS contract compliance resolution.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Cesar J. Barajas is president of the La Puente Valley County Water District board, serving a term from 2022 to 2026.",
+            "cites": [1]
+          },
+          { "text": "He joined the board in 2018.", "cites": [2] },
+          {
+            "text": "He holds a master's degree in civil engineering and works at a local construction company.",
+            "cites": [1]
+          },
+          {
+            "text": "As board president, he has presided over meetings considering budget amendments and a CalPERS contract compliance resolution.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/214318743-Barajas%2C%20Cesar",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board of Directors – La Puente Valley County Water District",
+      "publisher": "La Puente Valley County Water District",
+      "url": "https://lapuentewater.com/governance/board-of-directors/",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "AGENDA REGULAR MEETING OF THE BOARD OF DIRECTORS",
+      "publisher": "La Puente Valley County Water District",
+      "url": "https://lapuentewater.com/uploads/files/Agenda%20Packets/December%2010,%202018%20Board%20Meeting%20Agenda%20Packet_1.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "AGENDA REGULAR MEETING OF THE BOARD OF DIRECTORS",
+      "publisher": "La Puente Valley County Water District",
+      "url": "https://lapuentewater.com/wp-content/uploads/2025/12/5-2026.08.10-BM-Agenda.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.354Z",
+    "version": 3
+  }
+}

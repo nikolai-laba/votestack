@@ -1,0 +1,50 @@
+{
+  "key": "isidro-j-armenta",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Isidro J. Armenta",
+  "office": "Los Angeles Community College District, Member of the Board of Trustees, Seat 4",
+  "contestIds": ["la-4348-cc10589"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Isidro J. Armenta is a fire department employee running for Seat 4 on the Los Angeles Community College District Board of Trustees.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Isidro J. Armenta is a fire department employee running for Seat 4 on the Los Angeles Community College District Board of Trustees.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217190047-Armenta%2C%20Isidro",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Your guide to the Los Angeles Community College Board of Trustees Seat 4 race",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-10-01/2026-california-election-los-angeles-community-college-board-of-trustees-seat-4-voter-guide",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T05:54:20.775Z",
+    "version": 2
+  }
+}

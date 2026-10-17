@@ -1,0 +1,148 @@
+{
+  "key": "sharon-kwan",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Sharon Kwan",
+  "office": "City of Arcadia, Member of the City Council, 2nd District",
+  "contestIds": ["la-4348-cc10411"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Sharon Kwan is a District 2 council member. She was elected in 2022. She served as mayor until February 2026. Before office, she led the Rancho Santa Anita Property Owners Association and served on local boards. She is a small business owner.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Sharon Kwan is a District 2 council member.",
+            "cites": [1]
+          },
+          { "text": "She was elected in 2022.", "cites": [2] },
+          { "text": "She served as mayor until February 2026.", "cites": [3] },
+          {
+            "text": "Before office, she led the Rancho Santa Anita Property Owners Association and served on local boards.",
+            "cites": [1]
+          },
+          { "text": "She is a small business owner.", "cites": [1] }
+        ]
+      },
+      {
+        "text": "Her campaign says she proposed discussing then-Mayor Wang's foreign connections before Wang's guilty plea. She urged the council to review members' ties to a China-linked media firm. She voted against the 2026-27 budget, calling it a deferral of costs. She opposed a drug rehab center and an 11% sales tax. The council censured her in 2025 for decorum violations; she claimed retaliation, but a court upheld the censure.",
+        "cites": [4, 5, 6, 7],
+        "sentences": [
+          {
+            "text": "Her campaign says she proposed discussing then-Mayor Wang's foreign connections before Wang's guilty plea.",
+            "cites": [4]
+          },
+          {
+            "text": "She urged the council to review members' ties to a China-linked media firm.",
+            "cites": [5]
+          },
+          {
+            "text": "She voted against the 2026-27 budget, calling it a deferral of costs.",
+            "cites": [6]
+          },
+          {
+            "text": "She opposed a drug rehab center and an 11% sales tax.",
+            "cites": [4]
+          },
+          {
+            "text": "The council censured her in 2025 for decorum violations; she claimed retaliation, but a court upheld the censure.",
+            "cites": [7]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Arcadia",
+      "url": "https://laserfiche.arcadiaca.gov/WebLink/Browse.aspx?id=883358&dbid=0&repo=CityofArcadia"
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Council Member Sharon Kwan - Arcadia, CA",
+      "publisher": "City of Arcadia",
+      "url": "https://www.arcadiaca.gov/government/city_council/council_member_sharon_kwan.php",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "3 new Arcadia council members sworn in, along with new mayor",
+      "publisher": "HeySoCal.com",
+      "url": "https://heysocal.com/2022/12/07/3-new-arcadia-council-members-sworn-in-along-with-new-mayor/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "February 2026",
+      "publisher": "City of Arcadia",
+      "url": "https://www.arcadiaca.gov/government/city_managers_office/public_information/february_2026.php",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Sharon Kwan for Arcadia City Council",
+      "publisher": "Sharon Kwan campaign",
+      "url": "https://kwanforarcadia.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Arcadia council denies members' requests for transparency hearings",
+      "publisher": "HeySoCal.com",
+      "url": "https://heysocal.com/2026/08/25/arcadia-council-denies-members-requests-for-transparency-hearings/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Kwan: Arcadia budget doesn't show 'full picture' of city's finances",
+      "publisher": "HeySoCal.com",
+      "url": "https://heysocal.com/2026/06/27/kwan-arcadia-budget-doesnt-show-full-picture-of-citys-finances/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "Court quashes lawsuit challenging Arcadia council censure",
+      "publisher": "HeySoCal.com",
+      "url": "https://heysocal.com/2026/07/24/court-quashes-lawsuit-challenging-arcadia-council-censure/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 8
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.461Z",
+    "version": 4
+  }
+}

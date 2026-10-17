@@ -1,0 +1,355 @@
+{
+  "key": "charles-frederick-hughes",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Charles Frederick Hughes",
+  "party": "Republican",
+  "office": "State Assembly Member, 34th District",
+  "contestIds": ["la-4348-cc10781"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Charles Frederick Hughes is a small business owner and a trustee on the Antelope Valley Union High School District board. He previously worked for 26 years in law enforcement. He proposes eliminating the state gas tax and reducing regulations to lower the cost of fuel, housing, and groceries. He supports ensuring law enforcement has necessary resources and expanding vocational and trade programs.",
+        "cites": [9, 1]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Charles Hughes for Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1478005",
+        "period": "July 1 to September 19, 2026",
+        "raised": 112125.48,
+        "cashOnHand": 90856.29,
+        "breakdown": [
+          { "kind": "small", "amount": 266 },
+          { "kind": "large", "amount": 12154.48 },
+          { "kind": "pac", "amount": 74855 },
+          { "kind": "other", "amount": 24850 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 55000, "count": 20 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "U.S. Rep. Vince Fong",
+        "kind": "elected_official",
+        "cites": [2],
+        "party": "Republican"
+      },
+      {
+        "organization": "U.S. Rep. Jay Obernolte",
+        "kind": "elected_official",
+        "cites": [2],
+        "party": "Republican"
+      },
+      {
+        "organization": "State Sen. Brian Jones",
+        "kind": "elected_official",
+        "cites": [2],
+        "party": "Republican"
+      },
+      {
+        "organization": "State Sen. Shannon Grove",
+        "kind": "elected_official",
+        "cites": [2],
+        "party": "Republican"
+      },
+      {
+        "organization": "State Sen. Suzette Valladares",
+        "kind": "elected_official",
+        "cites": [2],
+        "party": "Republican"
+      },
+      {
+        "organization": "Former State Sen. Scott Wilk",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Assembly Republican Leader Heath Flora",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [2]
+      },
+      {
+        "organization": "Assemblymember James Gallagher",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Assemblymember Tom Lackey",
+        "kind": "elected_official",
+        "cites": [2],
+        "party": "Republican"
+      },
+      {
+        "organization": "Former Assemblymember Thurston Smith",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Assemblymember Carl DeMaio",
+        "kind": "elected_official",
+        "cites": [2],
+        "party": "Republican"
+      },
+      {
+        "organization": "Assemblymember Greg Wallis",
+        "kind": "elected_official",
+        "cites": [2],
+        "party": "Republican"
+      },
+      {
+        "organization": "Assemblymember David Tangipa",
+        "kind": "elected_official",
+        "cites": [2],
+        "party": "Republican"
+      },
+      {
+        "organization": "Assemblymember Joe Patterson",
+        "kind": "elected_official",
+        "cites": [2],
+        "party": "Republican"
+      },
+      {
+        "organization": "Assemblymember Diane Dixon",
+        "kind": "elected_official",
+        "cites": [2],
+        "party": "Republican"
+      },
+      {
+        "organization": "Assemblymember Laurie Davies",
+        "kind": "elected_official",
+        "cites": [2],
+        "party": "Republican"
+      },
+      {
+        "organization": "Assemblymember Phillip Chen",
+        "kind": "elected_official",
+        "cites": [2],
+        "party": "Republican"
+      },
+      {
+        "organization": "Assemblymember Josh Hoover",
+        "kind": "elected_official",
+        "cites": [2],
+        "party": "Republican"
+      },
+      {
+        "organization": "Los Angeles County Supervisor Kathryn Barger",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "San Bernardino County Supervisor Paul Cook",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Lancaster Mayor R. Rex Parris",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Palmdale Mayor Richard Loa",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Apple Valley Mayor Scott Nassif",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Victorville Mayor Liz Becerra",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "California Republican Party",
+        "kind": "party",
+        "cites": [3]
+      },
+      {
+        "organization": "Howard Jarvis Taxpayers Association",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "California Professional Firefighters",
+        "kind": "union",
+        "cites": [2]
+      },
+      {
+        "organization": "California Correctional Peace Officers Association",
+        "kind": "union",
+        "cites": [2]
+      },
+      {
+        "organization": "California Association of Highway Patrolmen",
+        "kind": "union",
+        "cites": [2]
+      },
+      {
+        "organization": "California Statewide Law Enforcement Association",
+        "kind": "union",
+        "cites": [2]
+      },
+      {
+        "organization": "Sheriff Employee Benefit Association",
+        "kind": "union",
+        "cites": [2]
+      },
+      {
+        "organization": "California Police Chiefs Association",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "California Narcotic Officers' Association",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "Crime Victims United",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "New California Coalition",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "Los Angeles Police Protective League",
+        "kind": "union",
+        "cites": [2]
+      },
+      {
+        "organization": "Association for Los Angeles Deputy Sheriffs",
+        "kind": "union",
+        "cites": [2]
+      },
+      {
+        "organization": "Los Angeles County Professional Peace Officers Association",
+        "kind": "union",
+        "cites": [2]
+      },
+      {
+        "organization": "Long Beach Police Officers Association",
+        "kind": "union",
+        "cites": [2]
+      },
+      {
+        "organization": "Riverside Sheriffs' Association",
+        "kind": "union",
+        "cites": [2]
+      },
+      {
+        "organization": "California Republican Assembly",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "American Independent Party",
+        "kind": "party",
+        "cites": [7]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Priorities",
+      "publisher": "Charles Hughes for Assembly 2026",
+      "url": "https://www.votecharleshughes.com/priorities",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Endorsements",
+      "publisher": "Charles Hughes for Assembly 2026",
+      "url": "https://www.votecharleshughes.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "2026 Primary Election Official Voter Guide: State Assembly",
+      "publisher": "Republican Party of Los Angeles County",
+      "url": "https://static1.squarespace.com/static/65972b6654d89538e4445a4d/t/69f590073d814d38b21a8a1e/1777700871973/LAGOP_Assembly_Voter_Guide_2026X.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "HJTA PAC Endorsements: Statewide Primary Election - June 2, 2026",
+      "publisher": "Howard Jarvis Taxpayers Association PAC",
+      "url": "https://www.hjta.org/wp-content/uploads/2026/05/HJTA-PAC-Endorsements-Ballot-Measures-5.4.26.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Crime Victims United Endorses Charles Hughes for California State Assembly",
+      "publisher": "Crime Victims United",
+      "url": "https://www.crimevictimsunited.com/endorsements/t3j02nfo6wbn71i8sikfi11608vcik",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "November 2026 General Election Endorsements: Los Angeles County",
+      "publisher": "California Republican Assembly",
+      "url": "https://cragop.org/los-angeles-county/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 6
+    },
+    {
+      "title": "Party Endorsements for Voter-Nominated Offices, November 3, 2026 General Election",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/additional-election-information",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 7
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 8
+    },
+    {
+      "title": "About",
+      "publisher": "Charles Hughes for Assembly 2026",
+      "url": "https://votecharleshughes.com/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15",
+      "id": 9
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.659Z",
+    "version": 4
+  }
+}

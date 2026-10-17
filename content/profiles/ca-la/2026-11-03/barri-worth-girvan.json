@@ -1,0 +1,397 @@
+{
+  "key": "barri-worth-girvan",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Barri Worth Girvan",
+  "office": "City of Los Angeles, Member of the City Council, 3rd District",
+  "contestIds": ["la-4348-cc10770"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Barri Worth Girvan is the director of community affairs for Los Angeles County Supervisor Lindsey Horvath. She previously worked for Mayor Antonio Villaraigosa and state Senator Bob Hertzberg.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Barri Worth Girvan is the director of community affairs for Los Angeles County Supervisor Lindsey Horvath.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously worked for Mayor Antonio Villaraigosa and state Senator Bob Hertzberg.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "She supports using Section 41.18 to remove homeless encampments in sensitive areas and wants county health agencies to help move people into shelter and housing. She proposes dismantling the Los Angeles Homeless Services Authority and increasing interim housing and treatment beds. She supports more housing construction near transit lines. She also wants to streamline permitting to keep control of development from the state. She wants the LAPD to return to 10,000 officers. She also wants to strengthen unarmed response. She called federal immigration raids unconscionable.",
+        "cites": [2, 3, 1, 4, 5],
+        "sentences": [
+          {
+            "text": "She supports using Section 41.18 to remove homeless encampments in sensitive areas and wants county health agencies to help move people into shelter and housing.",
+            "cites": [2]
+          },
+          {
+            "text": "She proposes dismantling the Los Angeles Homeless Services Authority and increasing interim housing and treatment beds.",
+            "cites": [3]
+          },
+          {
+            "text": "She supports more housing construction near transit lines.",
+            "cites": [1]
+          },
+          {
+            "text": "She also wants to streamline permitting to keep control of development from the state.",
+            "cites": [2]
+          },
+          {
+            "text": "She wants the LAPD to return to 10,000 officers.",
+            "cites": [4]
+          },
+          {
+            "text": "She also wants to strengthen unarmed response.",
+            "cites": [5]
+          },
+          {
+            "text": "She called federal immigration raids unconscionable.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles City Ethics Commission",
+        "committee": "Barri Worth Girvan For City Council 2026-General",
+        "url": "https://ethics.lacity.org/view/?document_id=146846",
+        "period": "July 1 to September 19, 2026",
+        "raised": 69374.99,
+        "cashOnHand": 131925.31,
+        "breakdown": [
+          { "kind": "small", "amount": 976.99 },
+          { "kind": "large", "amount": 51156 },
+          { "kind": "pac", "amount": 13499 },
+          { "kind": "candidate", "amount": 100 },
+          { "kind": "other", "amount": 3643 }
+        ],
+        "fromCandidate": 100
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "U.S. Rep. Julia Brownley",
+        "kind": "elected_official",
+        "cites": [6],
+        "party": "Democratic"
+      },
+      {
+        "organization": "U.S. Rep. Sydney Kamlager-Dove",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "State Sen. Ben Allen",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Sen. Henry Stern",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "State Sen. Caroline Menjivar",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "State Sen. María Elena Durazo",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Mark González",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Rick Chavez Zbur",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Jesse Gabriel",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Nick Schultz",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Celeste Rodriguez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Mike Fong",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Pilar Schiavo",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Former Assembly Speaker Anthony Rendon",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Former State Sen. Fran Pavley",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Former State Sen. Marty Block",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Lindsey Horvath",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Los Angeles County Assessor Jeffrey Prang",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "Former Los Angeles Mayor Antonio Villaraigosa",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [10]
+      },
+      {
+        "organization": "Democratic Party of San Fernando Valley",
+        "kind": "party",
+        "cites": [9]
+      },
+      {
+        "organization": "Los Angeles County Federation of Labor, AFL-CIO",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Western States Regional Council of Carpenters",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [9] },
+      { "organization": "SEIU Local 2015", "kind": "union", "cites": [9] },
+      {
+        "organization": "SEIU United Healthcare Workers West (SEIU-UHW)",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "International Brotherhood of Electrical Workers (IBEW) Local 11",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "United Nurses Associations of California/Union of Health Care Professionals (UNAC/UHCP)",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "National Union of Healthcare Workers (NUHW)",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Communications Workers of America (CWA)",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "AFSCME District Council 36",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 12",
+        "kind": "union",
+        "cites": [6]
+      },
+      { "organization": "Sierra Club", "kind": "organization", "cites": [9] },
+      {
+        "organization": "Los Angeles League of Conservation Voters",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "California Women's List",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Streets For All",
+        "kind": "organization",
+        "cites": [12]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [13] },
+      { "organization": "Knock LA", "kind": "organization", "cites": [14] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Business and labor square off in West Valley's 3rd District L.A. City Council race",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/politics/story/2026-08-17/business-labor-square-off-in-west-valleys-3rd-district-la-city-council-race",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "LA City Council District 3: Who's running in the June 2 primary and why it matters",
+      "publisher": "LAist",
+      "url": "https://laist.com/news/politics/voter-guides/2026-election-california-primary-la-city-councilmember-district-3",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "2026 Voter Guide P6 – La Defensa",
+      "publisher": "La Defensa",
+      "url": "https://ladefensa.org/2026-voter-guide-6/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "L.A. City Council District 3 voter guide: Gaspar vs. Girvan vs. Celona",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-05-01/2026-california-election-los-angeles-city-council-district-3-voter-guide",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Barri Worth Girvan, Los Angeles City Council District 3 candidate, 2026 primary election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/05/04/barri-worth-girvan-los-angeles-city-council-district-3-candidate-2026-primary-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements - Barri Worth Girvan",
+      "publisher": "Barri Worth Girvan for City Council 2026",
+      "url": "https://www.barriforthevalley.com/copy-of-issues",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Senate predictions, Tesla self-driving safety, LA CD-3 candidate Barri Worth Girvan and more",
+      "publisher": "LAist",
+      "url": "https://laist.com/news/senate-race-tesla-autopilot-safety-cd-3-barri-worth-girvan-housing-tv-talk",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "Your guide to the L.A. City Council District 3 race: Gaspar vs. Worth Girvan",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-10-01/2026-california-election-los-angeles-city-council-district-3-gaspar-worth-girvan-voter-guide",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "L.A. City Council District 3: What to know about the Valley runoff",
+      "publisher": "LAist",
+      "url": "https://laist.com/news/politics/voter-guides/2026-general-election-la-city-council-district-3",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 11,
+      "title": "LALCV Endorses Barri Worth Girvan for Election to Los Angeles City Council, District 3",
+      "publisher": "Los Angeles League of Conservation Voters",
+      "url": "https://lalcv.org/lalcv-endorses-barri-worth-girvan-for-election-to-los-angeles-city-council-district-3/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "2026 Endorsements",
+      "publisher": "Streets For All",
+      "url": "https://www.streetsforall.org/2026",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 13,
+      "title": "Los Angeles - LA Forward Voter Guide",
+      "publisher": "LA Forward",
+      "url": "https://laforwardguide.org/guide/los-angeles",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
+      "publisher": "Knock LA (Ground Game LA)",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 14
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.450Z",
+    "version": 4
+  }
+}

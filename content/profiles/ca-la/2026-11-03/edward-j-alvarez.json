@@ -1,0 +1,107 @@
+{
+  "key": "edward-j-alvarez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Edward J. Alvarez",
+  "office": "City of Azusa, Member of the City Council, 3rd District",
+  "contestIds": ["la-4348-cc10414"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Edward J. Alvarez has served on the five-member Azusa City Council since he was first elected in March 2013, and was re-elected in 2017 and 2022. He is running for re-election to the council in 2026, and works as a federal auditor.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Edward J. Alvarez has served on the five-member Azusa City Council since he was first elected in March 2013, and was re-elected in 2017 and 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "He is running for re-election to the council in 2026, and works as a federal auditor.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "In June 2026, Alvarez and the council unanimously adopted an $84.6 million operating budget backed by $52 million in general fund reserves, adding $6.25 million for capital projects like renovations to the senior center, library, and Civic Center. He says that when he was first elected, the city had zero reserves and a $32,000 surplus.",
+        "cites": [3, 2],
+        "sentences": [
+          {
+            "text": "In June 2026, Alvarez and the council unanimously adopted an $84.6 million operating budget backed by $52 million in general fund reserves, adding $6.25 million for capital projects like renovations to the senior center, library, and Civic Center.",
+            "cites": [3]
+          },
+          {
+            "text": "He says that when he was first elected, the city had zero reserves and a $32,000 surplus.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Azusa",
+      "url": "https://www.azusaca.gov/97/City-Clerks-Office",
+      "onRequest": true
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      { "organization": "Teamsters Local 572", "kind": "union", "cites": [4] },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [5] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "HONORABLE MAYOR AND MEMBERS OF THE CITY ...",
+      "publisher": "City of Azusa",
+      "url": "https://azusa.granicus.com/MetaViewer.php?view_id=5&clip_id=1500&meta_id=111558",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Edward Alvarez, Azusa City Council candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/edward-alvarez-azusa-city-council-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Azusa city officials tout new budget",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/07/17/azusa-city-officials-tout-new-budget/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "2026 Voter Guide",
+      "publisher": "Teamsters Local 572",
+      "url": "https://www.teamsters572.org/local-572-voter-guide/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
+      "publisher": "SEIU Local 721",
+      "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 5
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.483Z",
+    "version": 3
+  }
+}

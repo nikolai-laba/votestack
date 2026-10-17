@@ -1,0 +1,77 @@
+{
+  "key": "kimberly-kim-valencia",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Kimberly \"Kim\" Valencia",
+  "office": "City of South El Monte, Member of the City Council",
+  "contestIds": ["la-4348-cc10519"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Kimberly Valencia is a continuing education manager at UCLA. She has served on the Valle Lindo School District Parent Advisory Committee, the El Monte Union High School District Citizens’ Oversight Committee, and as vice president of the El Monte/South El Monte Jets youth sports program. Valencia wants to bring back the city’s public safety division. She wants tighter controls on a recently approved cannabis ordinance. She supports cautious development.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Kimberly Valencia is a continuing education manager at UCLA.",
+            "cites": [1]
+          },
+          {
+            "text": "She has served on the Valle Lindo School District Parent Advisory Committee, the El Monte Union High School District Citizens’ Oversight Committee, and as vice president of the El Monte/South El Monte Jets youth sports program.",
+            "cites": [1]
+          },
+          {
+            "text": "Valencia wants to bring back the city’s public safety division.",
+            "cites": [2]
+          },
+          {
+            "text": "She wants tighter controls on a recently approved cannabis ordinance.",
+            "cites": [2]
+          },
+          { "text": "She supports cautious development.", "cites": [2] }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of South El Monte",
+        "committee": "Kimberly Valencia",
+        "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=54873&dbid=0&repo=r-fe8f1ab6",
+        "period": "July 1 to September 19, 2026",
+        "raised": 11705,
+        "cashOnHand": 14743.45,
+        "fromScan": "ocr"
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Meet Kim",
+      "publisher": "Kimberly Valencia campaign",
+      "url": "https://www.kimvalenciaforsouthelmonte.com/meet_kim",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "A First-Time Candidate Takes Aim at South El Monte Council Seat",
+      "publisher": "Local News Pasadena",
+      "url": "https://localnewspasadena.com/2026/a-first-time-candidate-takes-aim-at-south-el-monte-council-seat/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T14:05:39.777Z",
+    "version": 5
+  }
+}

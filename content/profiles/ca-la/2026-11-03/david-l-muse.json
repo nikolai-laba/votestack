@@ -1,0 +1,66 @@
+{
+  "key": "david-l-muse",
+  "electionId": "ca-2026-11-03-general",
+  "name": "David L. Muse",
+  "office": "Valley County Water District, Member, Board of Directors",
+  "contestIds": ["la-4348-cc10397"],
+  "kind": "candidate",
+  "tier": "short",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "David L. Muse is president of the Valley County Water District board of directors. He served on the board in 2020.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "David L. Muse is president of the Valley County Water District board of directors.",
+            "cites": [1]
+          },
+          { "text": "He served on the board in 2020.", "cites": [2] }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Re-Elect David Muse for VCWD Board Member 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217546084-Re-Elect%20David%20Muse%20for%20VCWD%20Board%20Member%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 7811,
+        "cashOnHand": 7162,
+        "fromScan": "ai"
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "David L. Muse, president | Valley County Water District, CA",
+      "publisher": "Valley County Water District",
+      "url": "https://www.vcwd.org/217/David-L-Muse",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Financial Statements and Supplementary Information Fiscal Year Ended June 30, 2020",
+      "publisher": "Valley County Water District",
+      "url": "https://vcwd.org/Archive/ViewFile/Item/184",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.384Z",
+    "version": 3
+  }
+}

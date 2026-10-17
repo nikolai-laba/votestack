@@ -1,0 +1,365 @@
+{
+  "key": "maria-ghobadi",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Maria Ghobadi",
+  "office": "Superior Court Judge, Los Angeles County (Office No. 64)",
+  "contestIds": ["la-4348-cc10824-r1", "la-4348-cc10824-r2"],
+  "kind": "judicial_candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Maria Ghobadi is a Los Angeles County deputy district attorney. She began prosecuting in San Joaquin County in 2007, later prosecuting attorney misconduct for the State Bar of California. In 2015 she joined the Los Angeles County district attorney's office, spending seven years in the gang homicide division. She says she has completed 87 jury trials. In 2025 she prosecuted a man accused of killing a boy.",
+        "cites": [1, 2]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Maria Ghobadi for Judge 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1488221",
+        "period": "July 1 to September 19, 2026",
+        "raised": 30325,
+        "cashOnHand": 10175.85,
+        "breakdown": [
+          { "kind": "small", "amount": 200 },
+          { "kind": "large", "amount": 26775 },
+          { "kind": "other", "amount": 3350 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 7000, "count": 4 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Assemblymember Pilar Schiavo",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [3]
+      },
+      {
+        "organization": "Los Angeles County District Attorney Nathan Hochman",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Former Los Angeles County District Attorney Jackie Lacey",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Former Los Angeles County District Attorney Steve Cooley",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Cerritos Mayor Lynda Provido Johnson",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Monterey Park Mayor Henry Lo",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Cypress Mayor Leo Medrano",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Artesia Mayor Pro Tem Melissa Ramoso",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Cerritos City Councilmember Frank Aurelio Yokoyama",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Cerritos City Councilmember Jennifer Hong",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Cerritos City Councilmember Mark Pulido",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "San Gabriel City Councilmember John Wu",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Former Monterey Park Mayor Elizabeth Yang",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Burbank Unified School District Board Member Armond Aghakhanian",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [5]
+      },
+      {
+        "organization": "Los Angeles Daily News editorial board (Southern California News Group)",
+        "kind": "editorial_board",
+        "cites": [6]
+      },
+      {
+        "organization": "Colorado Boulevard editorial board",
+        "kind": "editorial_board",
+        "cites": [7]
+      },
+      {
+        "organization": "National Women's Political Caucus of California",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Iranian American Democrats of California",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Chinese American Citizens Alliance",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Asian Democrats of Los Angeles County",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Los Angeles Police Protective League",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "Association for Los Angeles Deputy Sheriffs (ALADS)",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "Los Angeles Association of Deputy District Attorneys",
+        "kind": "union",
+        "cites": [5]
+      },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [4] },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [10] },
+      { "organization": "AFSCME Council 57", "kind": "union", "cites": [3] },
+      {
+        "organization": "International Brotherhood of Electrical Workers (IBEW) Local 11",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "International Longshore and Warehouse Union Southern California District Council",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 12",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "AFSCME Los Angeles County Deputy Probation Officers' Union",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "Ironworkers Local 416",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "Ironworkers Local 433",
+        "kind": "union",
+        "cites": [3]
+      },
+      { "organization": "IATSE Local 33", "kind": "union", "cites": [3] },
+      {
+        "organization": "Long Beach Police Officers Association",
+        "kind": "union",
+        "cites": [3]
+      },
+      { "organization": "HONOR PAC", "kind": "organization", "cites": [3] },
+      {
+        "organization": "Crime Survivors PAC",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Santa Monica Democratic Club",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "Santa Clarita Valley Democrats",
+        "kind": "organization",
+        "cites": [12]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [14] },
+      {
+        "organization": "Republican Party of Los Angeles County",
+        "kind": "party",
+        "cites": [15]
+      },
+      {
+        "organization": "Los Angeles County Bar Association",
+        "kind": "bar_evaluation",
+        "context": "election",
+        "rating": "Well Qualified",
+        "cites": [13]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "L.A. County Superior Court judge elections voter guide - LA Times",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-10-01/2026-california-election-los-angeles-county-superior-court-judge-voter-guide",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Your guide to the L.A. County Superior Court judge elections: Every competitive race",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-05-01/2026-california-election-los-angeles-county-superior-court-judge-voter-guide",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Maria Ghobadi for Los Angeles Superior Court Judge Seat 64 (Endorsements)",
+      "publisher": "Maria Ghobadi for Judge 2026",
+      "url": "https://mariaghobadi4judge.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "資深檢察官Maria Ghobadi競選洛縣高院法官 獲逾75法官支持",
+      "publisher": "World Journal",
+      "url": "https://www.worldjournal.com/wj/story/121555/9805751",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Endorsement: Maria Ghobadi for Superior Court Office No. 64",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/05/17/endorsement-maria-ghobadi-for-superior-court-office-no-64/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Confused by the judicial races? Here are our LA County Superior Court endorsements",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/09/confused-by-the-judicial-races-here-are-our-la-county-superior-court-endorsements/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "2026 General Election: Recommendations for L.A. County Superior Court Judges",
+      "publisher": "Colorado Boulevard",
+      "url": "https://www.coloradoboulevard.net/2026-general-election-recommendations-for-l-a-county-superior-court-judges/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "Endorsements",
+      "publisher": "National Women's Political Caucus of California",
+      "url": "https://www.nwpcca.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "2026 Stonewall Endorsed Candidates",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "Our Final '26 Endorsements",
+      "publisher": "Santa Monica Democratic Club",
+      "url": "https://santamonicademocrats.com/our-final-26-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "November 2026 Candidate Endorsements",
+      "publisher": "Santa Clarita Valley Democrats",
+      "url": "https://www.santaclaritavalleydemocrats.com/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "General Election Judicial Candidate Ratings for L.A. County, November 3, 2026",
+      "publisher": "Los Angeles County Bar Association",
+      "url": "https://lacba.org/docDownload/3141411",
+      "kind": "bar",
+      "viewedAt": "2026-10-14",
+      "id": 13
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "LAGOP Endorsement Lookup, November 3, 2026 General Election",
+      "publisher": "Republican Party of Los Angeles County",
+      "url": "https://lagop-endorsement-lookup.vercel.app/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 15
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.257Z",
+    "version": 4
+  }
+}

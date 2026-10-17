@@ -1,0 +1,166 @@
+{
+  "key": "david-cienfuegos",
+  "electionId": "ca-2026-11-03-general",
+  "name": "David Cienfuegos",
+  "office": "Beverly Hills Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10622"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "David Cienfuegos is a trial attorney at a personal injury law firm. He says he holds degrees from California State University, Los Angeles, the University of San Francisco School of Law, and Harvard. He served on Horace Mann Elementary's Principal's Advisory Council for two years, including as chair.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "David Cienfuegos is a trial attorney at a personal injury law firm.",
+            "cites": [1]
+          },
+          {
+            "text": "He says he holds degrees from California State University, Los Angeles, the University of San Francisco School of Law, and Harvard.",
+            "cites": [2]
+          },
+          {
+            "text": "He served on Horace Mann Elementary's Principal's Advisory Council for two years, including as chair.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "He advocates for rigorous instruction in reading, writing, math, science, history and critical thinking, plus tutoring and strong standards. He wants less classroom technology in TK-8 and supports the Wait Until 8th phone pledge. His plans include more honors, AP and dual enrollment courses, SAT and ACT prep, and an internship network. He supports phone-free school days for elementary and middle schoolers, and advanced AI education in high school.",
+        "cites": [1, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "He advocates for rigorous instruction in reading, writing, math, science, history and critical thinking, plus tutoring and strong standards.",
+            "cites": [1]
+          },
+          {
+            "text": "He wants less classroom technology in TK-8 and supports the Wait Until 8th phone pledge.",
+            "cites": [3]
+          },
+          {
+            "text": "His plans include more honors, AP and dual enrollment courses, SAT and ACT prep, and an internship network.",
+            "cites": [4]
+          },
+          {
+            "text": "He supports phone-free school days for elementary and middle schoolers, and advanced AI education in high school.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Cienfuegos 4 BH School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217085090-Cienfuegos%204%20BH%20School%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 3507,
+        "cashOnHand": 1919.59,
+        "breakdown": [
+          { "kind": "small", "amount": 5 },
+          { "kind": "large", "amount": 1502 },
+          { "kind": "loan", "amount": 1500 },
+          { "kind": "other", "amount": 500 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Israeli-American Civic Action Network",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Voz Unida — the California Latino Voter Alliance",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "David Cienfuegos enters BHUSD board race - Beverly Press & Park Labrea News",
+      "publisher": "Beverly Press",
+      "url": "https://beverlypress.com/2026/08/david-cienfuegos-enters-bhusd-board-race/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Meet David Cienfuegos, Candidate For Beverly Hills Unified School District Board",
+      "publisher": "Patch",
+      "url": "https://patch.com/california/beverlyhills/meet-david-cienfuegos-candidate-beverly-hills-unified-school-district-board",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Five candidates set for BHUSD board race - Beverly Press & Park Labrea News",
+      "publisher": "Beverly Press",
+      "url": "https://beverlypress.com/2026/08/five-candidates-set-for-bhusd-board-race/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "David Cienfuegos Kicks Off BHUSD Election Bid",
+      "publisher": "Beverly Hills Standard",
+      "url": "https://beverlyhillsstandard.com/david-cienfuegos-kicks-off-bhusd-election-bid",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "BHUSD Candidates Draw Clear Lines on Phones, Screens and AI",
+      "publisher": "NewsBreak",
+      "url": "https://www.newsbreak.com/beverly-hills-standard-364873389/4930834489793-bhusd-candidates-draw-clear-lines-on-phones-screens-and-ai",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "ICAN Endorses Manouchehri, Cienfuegos for Beverly Hills School Board",
+      "publisher": "Beverly Hills Standard",
+      "url": "https://beverlyhillsstandard.com/ican-endorses-manouchehri-cienfuegos-for-beverly-hills-school-board",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Voz Unida voter guide: Los Angeles County",
+      "publisher": "Voz Unida / California Latino Voter Alliance",
+      "url": "https://www.latinovoteralliance.org/voter-guides/los-angeles",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 8
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.972Z",
+    "version": 3
+  }
+}

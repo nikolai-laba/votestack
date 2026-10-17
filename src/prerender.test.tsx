@@ -8,6 +8,7 @@ import {
   STATIC_PAGES,
 } from './prerender.tsx'
 import { routes } from './routes.tsx'
+import type { RaceData } from './races/data.ts'
 import type { CandidateProfile } from './shared/profile.ts'
 import type { RaceList } from './shared/races.ts'
 
@@ -31,6 +32,33 @@ const raceList: RaceList = {
       candidates: [{ name: 'Jane Doe', party: 'Democratic' }],
     },
   ],
+}
+
+const laList: RaceList = {
+  electionId: 'ca-2026-11-03-general',
+  electionName: 'General Election',
+  date: '2026-11-03',
+  area: 'Los Angeles County, California',
+  areaPath: 'ca/los-angeles-county/2026-11-03',
+  races: [
+    {
+      level: 'county',
+      path: 'ca/los-angeles-county/2026-11-03/sheriff',
+      kind: 'candidate',
+      title: 'Sheriff',
+      office: 'Sheriff',
+      districtId: 'ocd-division/country:us/state:ca/county:los_angeles',
+      contestIds: ['la:sheriff'],
+      ballots: ['los-angeles-county'],
+      voteFor: 1,
+      candidates: [{ name: 'Jane Doe', party: 'Party Preference: None' }],
+    },
+  ],
+}
+
+const raceData: RaceData = {
+  lists: [raceList],
+  published: { 'il-2026-11-03-general': ['jane-doe'] },
 }
 
 const empty = { asOf: '2026-10-05', items: [] }
@@ -87,7 +115,7 @@ describe('prerender', () => {
         p.path.replace('jane-doe', ':key'),
       ),
       // /races and every page under it (racePages).
-      ...(racePages(raceList).length === 3 ? ['/races/*'] : []),
+      ...(racePages(raceData).length === 3 ? ['/races/*'] : []),
       '/my-ballot', // a redirect in _redirects
       '/*', // 404.html
     ])
@@ -116,7 +144,7 @@ describe('prerender', () => {
   })
 
   it('builds /races, the area list and every race, with their content', async () => {
-    const pages = racePages(raceList)
+    const pages = racePages(raceData)
     expect(pages.map((p) => p.file)).toEqual([
       'races.html',
       'races/il/cook-county/2026-11-03.html',
@@ -127,6 +155,22 @@ describe('prerender', () => {
     const html = await renderPage(real)
     expect(html).toContain('Races in Cook County, Illinois')
     expect(html).toContain('href="/races/il/2026-11-03/united-states-senator"')
+  })
+
+  it('builds every area’s races, promising profiles only where they exist', () => {
+    const pages = racePages({ ...raceData, lists: [raceList, laList] })
+    expect(pages.map((p) => p.file)).toEqual([
+      'races.html',
+      'races/il/cook-county/2026-11-03.html',
+      'races/il/2026-11-03/state-senator-5th-district.html',
+      'races/ca/los-angeles-county/2026-11-03.html',
+      'races/ca/los-angeles-county/2026-11-03/sheriff.html',
+    ])
+    expect(pages[2].head.description).toContain('A profile for each candidate')
+    expect(pages[3].head.description).not.toContain('profile')
+    expect(pages[4].head.description).toBe(
+      'Sheriff on the November 3, 2026 ballot in Los Angeles County, California. Candidates in ballot order: Jane Doe.',
+    )
   })
 
   it('renders the address form for the home page', async () => {

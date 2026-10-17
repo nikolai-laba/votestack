@@ -1,0 +1,70 @@
+{
+  "key": "jason-agraz",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Jason Agraz",
+  "office": "Wrightwood Community Services District, Member, Board of Directors",
+  "contestIds": ["la-4348-cc10375"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Jason Agraz is a business owner in financial services and a candidate for the Wrightwood Community Services District Board of Directors. He says he wants the board to be functional, efficient, and representative, with a focus on keeping streets safe, supporting youth and seniors, and promoting a healthy economy while protecting the quality of small-town living.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Jason Agraz is a business owner in financial services and a candidate for the Wrightwood Community Services District Board of Directors.",
+            "cites": [1]
+          },
+          {
+            "text": "He says he wants the board to be functional, efficient, and representative, with a focus on keeping streets safe, supporting youth and seniors, and promoting a healthy economy while protecting the quality of small-town living.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "San Bernardino County Registrar of Voters",
+      "url": "https://netfile.com/public/SBD/campaign/filingsByFiler/217229825-Jason%20Agraz%20for%20Wrightwood%20Community%20Service%20District"
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Inland Empire Jobs PAC",
+        "kind": "organization",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Meet Candidates Running for Wrightwood Community Service District Board of Directors",
+      "publisher": "Tri-Community NewsPlus",
+      "url": "https://4newsplus.com/meet-candidates-running-for-wrightwood-community-service-district-board-of-directors/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Endorsements | IE Jobs PAC",
+      "publisher": "Inland Empire Jobs Political Action Committee",
+      "url": "https://www.iejobspac.com/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.446Z",
+    "version": 2
+  }
+}

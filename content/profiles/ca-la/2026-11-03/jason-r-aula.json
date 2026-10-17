@@ -1,0 +1,57 @@
+{
+  "key": "jason-r-aula",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Jason R. Aula",
+  "office": "Los Angeles Community College District, Member of the Board of Trustees, Seat 4",
+  "contestIds": ["la-4348-cc10589"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Jason R. Aula is a business owner and journalist who says he has worked as a political campaign consultant. He proposes a moratorium on noncitizens attending LACCD and wants to address students' basic needs in the interests of U.S. citizens. He wants to protect athletics funding, especially for football, and partner with the Navy and law enforcement.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Jason R. Aula is a business owner and journalist who says he has worked as a political campaign consultant.",
+            "cites": [1]
+          },
+          {
+            "text": "He proposes a moratorium on noncitizens attending LACCD and wants to address students' basic needs in the interests of U.S. citizens.",
+            "cites": [1]
+          },
+          {
+            "text": "He wants to protect athletics funding, especially for football, and partner with the Navy and law enforcement.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/212205330-Aula%2C%20Jason"
+    }
+  },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "L.A. Community College Board of Trustees Seat 4 election ...",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-10-01/2026-california-election-los-angeles-community-college-board-of-trustees-seat-4-voter-guide",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T05:54:20.777Z",
+    "version": 2
+  }
+}

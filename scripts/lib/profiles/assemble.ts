@@ -6,6 +6,7 @@
 // new research.
 
 import type {
+  BarContext,
   CandidateProfile,
   OverviewParagraph,
   Endorsement,
@@ -51,6 +52,7 @@ export type SourceInput = Omit<ProfileSource, 'id'>
 export interface MoneyInput {
   summaries: MoneySectionData['items']
   sharedCommittee?: MoneySectionData['sharedCommittee']
+  filingsAt?: MoneySectionData['filingsAt']
 }
 
 /**
@@ -220,6 +222,8 @@ export function mergeMoney(
       ...money.sharedCommittee,
       name: readableName(money.sharedCommittee.name),
     }
+  else if (money?.filingsAt && section.items.length === 0)
+    section.filingsAt = money.filingsAt
   return { ...p, money: section }
 }
 
@@ -276,12 +280,28 @@ export function mergeBarRatings(
     sources = result.sources
     return result.ids
   }
-  const fallback = p.kind === 'retention' ? 'retention' : 'election'
-  const contextOf = (e: Endorsement) => e.context ?? fallback
+  const fallback: BarContext = p.kind === 'retention' ? 'retention' : 'election'
+  const contextOf = (e: Endorsement): BarContext => e.context ?? fallback
   const contexts = [...new Set(ratings.endorsements.map(contextOf))]
 
-  const added: Endorsement[] = contexts.flatMap((context) => {
-    const set = ratings.endorsements.filter((e) => contextOf(e) === context)
+  // Lists without Cook County's groups (Los Angeles County: one bar
+  // association) are shown as published, one line per rating.
+  const cookGroups = ratings.endorsements.some((e) =>
+    (SHOWN_ON_OWN_LINE as readonly string[]).includes(e.organization),
+  )
+  const added: Endorsement[] = cookGroups
+    ? contexts.flatMap(cookRatings)
+    : ratings.endorsements.map((e) => ({
+        organization: e.organization,
+        kind: 'bar_evaluation' as const,
+        context: contextOf(e),
+        ...(e.contextLabel ? { contextLabel: e.contextLabel } : {}),
+        ...(e.rating && e.rating !== NO_RATING ? { rating: e.rating } : {}),
+        cites: cite(e.cites),
+      }))
+
+  function cookRatings(context: BarContext): Endorsement[] {
+    const set = ratings!.endorsements.filter((e) => contextOf(e) === context)
     const label = set.find((e) => e.contextLabel)?.contextLabel
     const common = {
       kind: 'bar_evaluation' as const,
@@ -313,7 +333,7 @@ export function mergeBarRatings(
       cites: cite([...new Set(members.flatMap((e) => e.cites))]),
     }
     return [...own, alliance]
-  })
+  }
 
   const kept = p.endorsements.items.filter((e) => e.kind !== 'bar_evaluation')
   return {

@@ -6,20 +6,21 @@
 // address without a file gets 404.html with a 404 status.
 //
 // Candidate pages are built only for profiles in the committed published
-// list (content/profiles/published/), which `profiles:publish` writes.
+// lists (content/profiles/published/), which `profiles:publish` writes.
 //
 // Run: node scripts/prerender.ts (part of npm run build)
 
 import { existsSync } from 'node:fs'
-import { mkdir, readFile, rm, writeFile } from 'node:fs/promises'
-import { dirname, join } from 'node:path'
+import { mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises'
+import { dirname, join, relative } from 'node:path'
 import { pathToFileURL } from 'node:url'
 import type { CandidateProfile } from '../src/shared/profile.ts'
 import type { RaceList } from '../src/shared/races.ts'
 import { ROOT, readJson } from './lib/data.ts'
-import { PROFILES_DIR, readProfiles } from './lib/profiles/content.ts'
+import { profilesDirFor, readProfiles } from './lib/profiles/content.ts'
+import { REGIONS } from '../src/shared/regions.ts'
 import {
-  PUBLISHED_LIST,
+  publishedListFor,
   checkTemplate,
   fillTemplate,
   modulePreloads,
@@ -29,6 +30,12 @@ import {
   type PublishedList,
   type ViteManifest,
 } from './lib/prerender.ts'
+
+/** The race lists, as src/races/data.ts loads them. */
+interface RaceData {
+  lists: RaceList[]
+  published: Record<string, string[]>
+}
 
 /** What src/prerender.tsx exports, as far as this script uses it. */
 interface Page {
@@ -42,8 +49,8 @@ interface Ssr {
   SITE_URL: string
   STATIC_PAGES: Page[]
   candidatePages(profile: CandidateProfile, live: boolean): Page[]
-  racePages(list: RaceList): Page[]
-  raceList(): Promise<RaceList>
+  racePages(data: RaceData): Page[]
+  raceData(): Promise<RaceData>
   renderPage(page: Page): Promise<string>
   headHtml(head: Page['head']): string
   prerenderData(data: NonNullable<Page['data']>): string
@@ -61,11 +68,21 @@ const PAGE_MODULES: Record<NonNullable<Page['data']>['page'], string> = {
   races: 'src/pages/RacesPage.tsx',
 }
 
-/** The race list's chunks, which race pages and profiles load first (src/races/data.ts). */
-const RACE_DATA = [
-  'content/contests/2026-11-03.json',
-  'content/profiles/published/2026-11-03.json',
-]
+/**
+ * The race lists' and published lists' chunks, which race pages and
+ * profiles load first (src/races/data.ts loads every file in these folders).
+ */
+const RACE_DATA = (
+  await Promise.all(
+    ['content/contests', 'content/profiles/published'].map(async (dir) =>
+      (await readdir(join(ROOT, dir), { recursive: true }))
+        .filter((f) => f.endsWith('.json'))
+        .map((f) => relative(ROOT, join(ROOT, dir, f))),
+    ),
+  )
+)
+  .flat()
+  .sort()
 
 const ssr = (await import(
   pathToFileURL(join(SSR_DIR, 'prerender.js')).href
@@ -74,24 +91,31 @@ const template = await readFile(join(DIST, 'index.html'), 'utf8')
 checkTemplate(template)
 const manifest = await readJson<ViteManifest>(MANIFEST)
 
-let candidates: { profile: CandidateProfile; live: boolean }[] = []
-if (existsSync(PUBLISHED_LIST)) {
-  const list = await readJson<PublishedList>(PUBLISHED_LIST)
-  const result = publishedCandidates(list, await readProfiles(PROFILES_DIR))
-  candidates = result.entries
+const candidates: { profile: CandidateProfile; live: boolean }[] = []
+for (const region of REGIONS) {
+  const listPath = publishedListFor(region)
+  if (!existsSync(listPath)) {
+    console.warn(`${region.id}: no published list; building no candidate pages`)
+    continue
+  }
+  const list = await readJson<PublishedList>(listPath)
+  const result = publishedCandidates(
+    list,
+    await readProfiles(profilesDirFor(region)),
+  )
+  candidates.push(...result.entries)
   if (result.missing.length)
     console.warn(
-      `Published but no profile file (no page built): ${result.missing.join(', ')}`,
+      `${region.id}: published but no profile file (no page built): ${result.missing.join(', ')}`,
     )
   if (result.stale.length)
     console.warn(
-      `Profile file differs from the published version (head only; run profiles:publish): ${result.stale.join(', ')}`,
+      `${region.id}: profile file differs from the published version (head only; run profiles:publish): ${result.stale.join(', ')}`,
     )
-} else {
-  console.warn('No published list; building no candidate pages')
 }
 
-const races = await ssr.raceList()
+const races = await ssr.raceData()
+const raceCount = races.lists.reduce((n, l) => n + l.races.length, 0)
 const pages = [
   ...ssr.STATIC_PAGES,
   ...candidates.flatMap((c) => ssr.candidatePages(c.profile, c.live)),
@@ -133,5 +157,5 @@ await rm(SSR_DIR, { recursive: true, force: true })
 await rm(join(DIST, '.vite'), { recursive: true, force: true })
 
 console.log(
-  `Prerendered ${pages.length} pages (${candidates.length} candidates, ${races.races.length} races); sitemap lists ${sitemap.length}`,
+  `Prerendered ${pages.length} pages (${candidates.length} candidates, ${raceCount} races in ${races.lists.length} areas); sitemap lists ${sitemap.length}`,
 )

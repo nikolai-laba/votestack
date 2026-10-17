@@ -1,0 +1,102 @@
+{
+  "key": "blanca-nava",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Blanca Nava",
+  "office": "Keppel Union School District, Governing Board Member, Trustee Area No. 1",
+  "contestIds": ["la-4348-cc10755"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Blanca Nava is a member of the Keppel Union School District Governing Board and serves as its vice president. She was elected in November 2022. She has also served as board president. Nava completed the California School Boards Association’s Masters in Governance program in 2025.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Blanca Nava is a member of the Keppel Union School District Governing Board and serves as its vice president.",
+            "cites": [1]
+          },
+          { "text": "She was elected in November 2022.", "cites": [2] },
+          { "text": "She has also served as board president.", "cites": [2] },
+          {
+            "text": "Nava completed the California School Boards Association’s Masters in Governance program in 2025.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "In 2023, Nava voted with two other trustees to terminate the superintendent's contract without cause. In 2026, the board she serves on voted to place a $27 million bond measure on the November ballot, with an estimated tax rate of $30 per $100,000 of assessed valuation.",
+        "cites": [4, 5],
+        "sentences": [
+          {
+            "text": "In 2023, Nava voted with two other trustees to terminate the superintendent's contract without cause.",
+            "cites": [4]
+          },
+          {
+            "text": "In 2026, the board she serves on voted to place a $27 million bond measure on the November ballot, with an estimated tax rate of $30 per $100,000 of assessed valuation.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/213344125-Nava%2C%20Blanca",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate List - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "2 on Keppel board face recall",
+      "publisher": "Antelope Valley Press",
+      "url": "https://www.avpress.com/news/2-on-keppel-board-face-recall/article_98da0244-b681-11ee-b196-cbcc3a27c6fd.html",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Congratulations to CSBA's Masters in Governance® Class of 2025!*",
+      "publisher": "California School Boards Association",
+      "url": "https://publications.csba.org/issue/winter-2026/congratulations-to-csbas-masters-in-governance-class-of-2025/",
+      "kind": "reference",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Keppel Union School District, California, elections - Ballotpedia",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Keppel_Union_School_District,_California,_elections",
+      "kind": "reference",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Resolution No. 2025-26-022",
+      "publisher": "Los Angeles County",
+      "url": "https://file.lacounty.gov/SDSInter/bos/supdocs/218961.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.112Z",
+    "version": 2
+  }
+}

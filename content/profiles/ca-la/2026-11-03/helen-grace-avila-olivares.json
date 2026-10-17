@@ -1,0 +1,50 @@
+{
+  "key": "helen-grace-avila-olivares",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Helen Grace Avila Olivares",
+  "office": "La Cañada Irrigation District, Member, Board of Directors, Division 4",
+  "contestIds": ["la-4348-cc10405"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Helen Grace Avila Olivares is running for the La Cañada Irrigation District Board of Directors, Division 4.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Helen Grace Avila Olivares is running for the La Cañada Irrigation District Board of Directors, Division 4.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217145050-Olivares%2C%20Helen",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate Statements - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://apps.lavote.gov/candidate-statements/public-statement/9254/23136/EN",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.394Z",
+    "version": 2
+  }
+}

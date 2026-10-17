@@ -1,0 +1,68 @@
+{
+  "key": "scherise-r-acosta",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Scherise R. Acosta",
+  "office": "Little Lake City School District, Governing Board Member, Trustee Area No. 5 (Unexpired term ending December 12, 2028)",
+  "contestIds": ["la-4348-cc10871"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Scherise R. Acosta works as a school attendance clerk for the Los Angeles Unified School District and serves as a Norwalk Social Services commissioner. Her campaign says she supports transparency, resources for special education and manageable class sizes, fiscal responsibility, and well-maintained school facilities.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Scherise R. Acosta works as a school attendance clerk for the Los Angeles Unified School District and serves as a Norwalk Social Services commissioner.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign says she supports transparency, resources for special education and manageable class sizes, fiscal responsibility, and well-maintained school facilities.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Acosta for Little Lake City School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217164761-Acosta%20for%20Little%20Lake%20City%20School%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 3950,
+        "cashOnHand": 2445.48,
+        "breakdown": [
+          { "kind": "small", "amount": 100 },
+          { "kind": "large", "amount": 200 },
+          { "kind": "candidate", "amount": 150 },
+          { "kind": "loan", "amount": 1000 },
+          { "kind": "other", "amount": 2500 }
+        ],
+        "fromCandidate": 150,
+        "largeSince": { "since": "2026-09-19", "total": 4000, "count": 3 }
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Home | Scherise Acosta for Little Lake City School Board",
+      "publisher": "Scherise Acosta campaign",
+      "url": "https://www.scheriseacosta.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.175Z",
+    "version": 2
+  }
+}

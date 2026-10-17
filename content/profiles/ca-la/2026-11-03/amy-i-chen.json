@@ -1,0 +1,211 @@
+{
+  "key": "amy-i-chen",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Amy I. Chen",
+  "office": "Foothill Municipal Water District, Member, Board of Directors, Division 4",
+  "contestIds": ["la-4348-cc10546"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Amy Chen is a licensed professional engineer. She worked as an engineer at the Los Angeles Department of Water and Power. She also worked on water policy and rates at the San Diego County Water Authority. Her campaign prioritizes affordable rates and emergency preparedness. She also supports infrastructure investments. She supports sustainable water supplies to provide reliable water.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Amy Chen is a licensed professional engineer.",
+            "cites": [1]
+          },
+          {
+            "text": "She worked as an engineer at the Los Angeles Department of Water and Power.",
+            "cites": [2]
+          },
+          {
+            "text": "She also worked on water policy and rates at the San Diego County Water Authority.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign prioritizes affordable rates and emergency preparedness.",
+            "cites": [2]
+          },
+          {
+            "text": "She also supports infrastructure investments.",
+            "cites": [2]
+          },
+          {
+            "text": "She supports sustainable water supplies to provide reliable water.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Amy Chen for Director of Foothill Municipal Water District 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216936617-Amy%20Chen%20for%20Director%20of%20Foothill%20Municipal%20Water%20District%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 37283,
+        "cashOnHand": 29226.34,
+        "breakdown": [
+          { "kind": "small", "amount": 383 },
+          { "kind": "large", "amount": 6900 },
+          { "kind": "candidate", "amount": 30000 }
+        ],
+        "fromCandidate": 30000,
+        "largeSince": { "since": "2026-09-19", "total": 1000, "count": 1 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "U.S. Rep. Laura Friedman",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "Assemblymember Nick Schultz",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "Noya Wang, Councilmember, City of Alhambra",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Cathy Green, Director, Orange County Water District",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Joe Grindstaff, Director, Eastern Municipal Water District",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Desi Alvarez, Director, West Basin Municipal Water District",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Scott Houston, Director, West Basin Municipal Water District",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Tommy Faavae, Director, West Basin Municipal Water District",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Juan Garza, Director, Central Basin Municipal Water District",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Gary Croucher, Director, Otay Water District",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "James Bodnar, President, Crescenta Valley Water District",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Richard Myers, President, La Cañada Irrigation District",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Carol Kwan, former Director, West Basin Municipal Water District",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [5]
+      },
+      {
+        "organization": "Los Angeles League of Conservation Voters",
+        "kind": "organization",
+        "cites": [3]
+      },
+      { "organization": "IBEW Local 11", "kind": "union", "cites": [4] },
+      { "organization": "UFCW Local 770", "kind": "union", "cites": [4] },
+      {
+        "organization": "Cañada Crescenta Democratic Club",
+        "kind": "organization",
+        "cites": [4]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [6] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "About Amy Chen | Foothill Municipal Water District Division 4",
+      "publisher": "Amy Chen for Foothill Municipal Water District",
+      "url": "https://www.amy4foothill.com/about-amy",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Amy Chen for Foothill Municipal Water District",
+      "publisher": "Amy Chen for Foothill Municipal Water District",
+      "url": "https://www.amy4foothill.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "LALCV endorses Amy Chen for Director Foothill Municipal Water District, Division 4",
+      "publisher": "Los Angeles League of Conservation Voters",
+      "url": "https://lalcv.org/lalcv-endorses-amy-chen-for-director-foothill-municipal-water-district-division-4/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Endorsements | Amy Chen for Foothill Municipal Water District",
+      "publisher": "Amy Chen campaign",
+      "url": "https://www.amy4foothill.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 6
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.194Z",
+    "version": 3
+  }
+}

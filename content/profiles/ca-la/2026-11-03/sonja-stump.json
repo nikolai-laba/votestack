@@ -1,0 +1,69 @@
+{
+  "key": "sonja-stump",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Sonja Stump",
+  "office": "City of Claremont, Member of the City Council, 3rd District",
+  "contestIds": ["la-4348-cc10435"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Sonja Stump is retired and owned Sonja Stump Photography until it closed in 2025. She chairs the city’s Traffic and Transportation Commission and serves on the boards of several local groups, including Claremont Meals on Wheels. The commission reviews the traffic impacts of major development proposals. Her campaign website lists six areas of focus: housing and affordability, environmental stewardship, local economic growth, education and youth, community connection, and public safety.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Sonja Stump is retired and owned Sonja Stump Photography until it closed in 2025.",
+            "cites": [1]
+          },
+          {
+            "text": "She chairs the city’s Traffic and Transportation Commission and serves on the boards of several local groups, including Claremont Meals on Wheels.",
+            "cites": [2]
+          },
+          {
+            "text": "The commission reviews the traffic impacts of major development proposals.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign website lists six areas of focus: housing and affordability, environmental stewardship, local economic growth, education and youth, community connection, and public safety.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Claremont",
+      "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=304999&dbid=0&repo=r-634094de"
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Election 2026 profiles: Sonja Stump, Claremont City Council ...",
+      "publisher": "Claremont COURIER",
+      "url": "https://claremontcourier.com/latest-news/election-2026-profiles-sonja-stump-claremont-city-council-90272/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Sonja Stump | Rooted in Community",
+      "publisher": "Sonja Stump campaign",
+      "url": "https://sonja4claremont.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.334Z",
+    "version": 2
+  }
+}

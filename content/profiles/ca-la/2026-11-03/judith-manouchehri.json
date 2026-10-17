@@ -1,0 +1,145 @@
+{
+  "key": "judith-manouchehri",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Judith Manouchehri",
+  "office": "Beverly Hills Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10622"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Judith Manouchehri is the president of the Beverly Hills Unified School District Board of Education and was first elected in 2022. She is a real estate attorney and a graduate of BHUSD. She backed a resolution to combat antisemitism through education and remembrance programming. She voted to approve a partnership with Special Olympics Southern California to launch a Unified Champion Schools program. She says districtwide scores increased 4% in English, 5% in math, and 9% in science during the past year. Her candidate statement says she wants to continue raising academic standards and modernizing schools.",
+        "cites": [1, 2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "Judith Manouchehri is the president of the Beverly Hills Unified School District Board of Education and was first elected in 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "She is a real estate attorney and a graduate of BHUSD.",
+            "cites": [1]
+          },
+          {
+            "text": "She backed a resolution to combat antisemitism through education and remembrance programming.",
+            "cites": [2]
+          },
+          {
+            "text": "She voted to approve a partnership with Special Olympics Southern California to launch a Unified Champion Schools program.",
+            "cites": [3]
+          },
+          {
+            "text": "She says districtwide scores increased 4% in English, 5% in math, and 9% in science during the past year.",
+            "cites": [4]
+          },
+          {
+            "text": "Her candidate statement says she wants to continue raising academic standards and modernizing schools.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign"
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Israeli-American Civic Action Network",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Voz Unida — the California Latino Voter Alliance",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Meet Judith Manouchehri, Candidate For Beverly Hills Unified School District Board",
+      "publisher": "Patch",
+      "url": "https://patch.com/california/beverlyhills/meet-judith-manouchehri-candidate-beverly-hills-unified-school-district",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Combating Antisemitism Through Education in Beverly Hills",
+      "publisher": "Jewish Journal",
+      "url": "https://jewishjournal.com/community/392318/combating-antisemitism-through-education-in-beverly-hills/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "BHUSD Approves Special Olympics Partnership",
+      "publisher": "Beverly Hills Standard",
+      "url": "https://beverlyhillsstandard.com/bhusd-approves-special-olympics-partnership",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "BHUSD candidates make case to students at district forum",
+      "publisher": "Beverly Press",
+      "url": "https://beverlypress.com/2026/10/bhusd-candidates-make-case-to-students-at-district-forum/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Judith Manouchehri – BHUSD Board of Education Candidate",
+      "publisher": "Beverly Hills Standard",
+      "url": "https://beverlyhillsstandard.com/election-center/bhusd-board-election-2026/candidates/judith-manouchehri",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "ICAN Endorses Manouchehri, Cienfuegos for Beverly Hills School Board",
+      "publisher": "Beverly Hills Standard",
+      "url": "https://beverlyhillsstandard.com/ican-endorses-manouchehri-cienfuegos-for-beverly-hills-school-board",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Voz Unida voter guide: Los Angeles County",
+      "publisher": "Voz Unida / California Latino Voter Alliance",
+      "url": "https://www.latinovoteralliance.org/voter-guides/los-angeles",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 8
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.054Z",
+    "version": 4
+  }
+}

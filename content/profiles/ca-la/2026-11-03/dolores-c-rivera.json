@@ -1,0 +1,60 @@
+{
+  "key": "dolores-c-rivera",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Dolores C. Rivera",
+  "office": "Bassett Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10621"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Dolores C. Rivera is a member of the Bassett Unified School District Governing Board. She says she worked in the district for 25 years as a community liaison. She says she was also a PTA leader. She wants to bring more mental health agencies into the district to serve students.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Dolores C. Rivera is a member of the Bassett Unified School District Governing Board.",
+            "cites": [1]
+          },
+          {
+            "text": "She says she worked in the district for 25 years as a community liaison.",
+            "cites": [1]
+          },
+          { "text": "She says she was also a PTA leader.", "cites": [1] },
+          {
+            "text": "She wants to bring more mental health agencies into the district to serve students.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/214303836-Rivera%2C%20Dolores",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Dolores Rivera, Bassett Unified School District candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/dolores-rivera-bassett-unified-school-district-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.041Z",
+    "version": 3
+  }
+}

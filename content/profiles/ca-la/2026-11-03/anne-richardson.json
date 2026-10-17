@@ -1,0 +1,89 @@
+{
+  "key": "anne-richardson",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Anne Richardson",
+  "office": "Associate Justice, Court of Appeal, Second District, Division Two",
+  "contestIds": ["la-4348-rc10892"],
+  "kind": "retention",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Anne Richardson is an associate justice on the California Court of Appeal, Second District, Division Two, serving since November 2024. She served as a Los Angeles County Superior Court judge from 2018 to 2024, handling family law and civil cases. Before that, she directed the litigation of consumer cases at Public Counsel and worked in private practice for 24 years.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Anne Richardson is an associate justice on the California Court of Appeal, Second District, Division Two, serving since November 2024.",
+            "cites": [1]
+          },
+          {
+            "text": "She served as a Los Angeles County Superior Court judge from 2018 to 2024, handling family law and civil cases.",
+            "cites": [1]
+          },
+          {
+            "text": "Before that, she directed the litigation of consumer cases at Public Counsel and worked in private practice for 24 years.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-16", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [2] },
+      {
+        "organization": "Indivisible Ventura",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Santa Clarita Valley Democrats",
+        "kind": "organization",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Anne Richardson | Second Appellate District | District Courts of Appeal",
+      "publisher": "Judicial Branch of California",
+      "url": "https://appellate.courts.ca.gov/district-courts/2dca/bio/anne-richardson",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Nonpartisan Judicial Offices",
+      "publisher": "Indivisible Ventura",
+      "url": "https://indivisibleventura.org/nonpartisan-judicial-offices/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "November 2026 Candidate Endorsements",
+      "publisher": "Santa Clarita Valley Democrats",
+      "url": "https://www.santaclaritavalleydemocrats.com/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T14:05:39.927Z",
+    "version": 3
+  }
+}

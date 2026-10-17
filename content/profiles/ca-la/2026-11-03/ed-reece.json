@@ -1,0 +1,123 @@
+{
+  "key": "ed-reece",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Ed Reece",
+  "office": "City of Claremont, Member of the City Council, 2nd District",
+  "contestIds": ["la-4348-cc10434"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Ed Reece is the Vice Mayor of Claremont, serving his second term on the City Council. He is the CEO of a technology firm he founded, and he served on the city's police commission before joining the council. His campaign says he supports focusing on core services: police staffing and training, maintaining parks and sports fields, expanding senior and youth programs, repairing streets and sidewalks, and balancing the budget without raising taxes.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Ed Reece is the Vice Mayor of Claremont, serving his second term on the City Council.",
+            "cites": [1]
+          },
+          {
+            "text": "He is the CEO of a technology firm he founded, and he served on the city's police commission before joining the council.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he supports focusing on core services: police staffing and training, maintaining parks and sports fields, expanding senior and youth programs, repairing streets and sidewalks, and balancing the budget without raising taxes.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "In 2022, as chair of the Foothill Gold Line Construction Authority, he said his goal was to get funding to extend the light-rail line to Claremont and Montclair. In 2026, the board advanced the Claremont Extension project, awarding a design and engineering contract.",
+        "cites": [3, 4],
+        "sentences": [
+          {
+            "text": "In 2022, as chair of the Foothill Gold Line Construction Authority, he said his goal was to get funding to extend the light-rail line to Claremont and Montclair.",
+            "cites": [3]
+          },
+          {
+            "text": "In 2026, the board advanced the Claremont Extension project, awarding a design and engineering contract.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Claremont",
+      "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=280046&dbid=0&repo=r-634094de"
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Association for Los Angeles Deputy Sheriffs (ALADS)",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Claremont Police Officers Association",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Claremont Police Management Association",
+        "kind": "union",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "City Council | City of Claremont, CA",
+      "publisher": "City of Claremont",
+      "url": "https://www.claremontca.gov/Government/City-Council",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "My Priorities | Ed Reece | Claremont",
+      "publisher": "Ed Reece campaign",
+      "url": "https://www.edreece.com/priorities",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "L Line construction board puts focus on Claremont with new chairperson",
+      "publisher": "Daily Bulletin",
+      "url": "https://www.dailybulletin.com/2022/01/13/l-line-construction-board-puts-focus-on-claremont-with-new-chairperson/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Media Resources | Foothill Gold Line",
+      "publisher": "Foothill Gold Line",
+      "url": "https://foothillgoldline.org/media-resources/",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Ed Reece - Claremont City Council",
+      "publisher": "Ed Reece for Claremont City Council 2026",
+      "url": "https://www.edreece.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.533Z",
+    "version": 3
+  }
+}

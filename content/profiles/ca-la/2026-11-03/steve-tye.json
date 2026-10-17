@@ -1,0 +1,137 @@
+{
+  "key": "steve-tye",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Steve Tye",
+  "office": "City of Diamond Bar, Member of the City Council, 1st District",
+  "contestIds": ["la-4348-cc10440"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Steve Tye is the mayor of Diamond Bar and its District 1 council member, first elected in 2005. He previously served on the city's Planning Commission and Parks and Recreation Commission. He holds a bachelor's degree in public administration.",
+        "cites": [1]
+      },
+      {
+        "text": "He says Measure Q, a 1% city sales tax on the November 2026 ballot, would raise an estimated $6 million per year for local services. In 2026, the council approved budget cuts that included reductions to public safety, landscaping, and community events to close a $1.1 million deficit. He also promotes the Shop Diamond Bar First local business campaign and the Preserve Diamond Bar community engagement initiative.",
+        "cites": [2, 3, 4],
+        "sentences": [
+          {
+            "text": "He says Measure Q, a 1% city sales tax on the November 2026 ballot, would raise an estimated $6 million per year for local services.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2026, the council approved budget cuts that included reductions to public safety, landscaping, and community events to close a $1.1 million deficit.",
+            "cites": [3]
+          },
+          {
+            "text": "He also promotes the Shop Diamond Bar First local business campaign and the Preserve Diamond Bar community engagement initiative.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Diamond Bar",
+        "committee": "Steve Tye for City Council 2026",
+        "url": "https://netfile.com/public/CDB/campaign/filingsByFiler/215406282-Steve%20Tye%20for%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 25471.36,
+        "cashOnHand": 14388.57,
+        "breakdown": [
+          { "kind": "large", "amount": 1850 },
+          { "kind": "candidate", "amount": 23621.36 }
+        ],
+        "fromCandidate": 23621.36,
+        "largeSince": { "since": "2026-09-19", "total": 7900, "count": 3 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "State Sen. Bob Archuleta",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Former State Sen. Bob Huff",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [5]
+      },
+      {
+        "organization": "Diamond Bar Mayor Pro Tem Ruth Low",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Former Diamond Bar Council Member Nancy Lyons",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Association for Los Angeles Deputy Sheriffs",
+        "kind": "union",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Mayor Steve Tye | Diamond Bar, CA",
+      "publisher": "City of Diamond Bar",
+      "url": "https://www.diamondbarca.gov/717/Mayor-Steve-Tye",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Closing Out Summer, Staying Informed",
+      "publisher": "City of Diamond Bar",
+      "url": "https://www.diamondbarca.gov/CivicSend/ViewMessage/Message/298642",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Achievements and Fiscal Stewardship",
+      "publisher": "City of Diamond Bar",
+      "url": "https://www.diamondbarca.gov/CivicSend/ViewMessage/message/291327",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Fostering Community Engagement and Support - Diamond Bar",
+      "publisher": "City of Diamond Bar",
+      "url": "https://www.diamondbarca.gov/CivicSend/ViewMessage/message/281038",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements | Steve Tye for City Council 2026",
+      "publisher": "Steve Tye for City Council 2026",
+      "url": "https://tye4diamondbar.com/endorsements/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.574Z",
+    "version": 4
+  }
+}

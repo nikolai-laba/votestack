@@ -1,0 +1,90 @@
+{
+  "key": "michael-yen-ting-lin",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Michael Yen-Ting Lin",
+  "office": "Walnut Valley Water District, Member, Board of Directors, Division 5 (Unexpired term ending December 1, 2028)",
+  "contestIds": ["la-4348-cc10374"],
+  "kind": "candidate",
+  "tier": "short",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Michael Yen-Ting Lin was appointed to the Walnut Valley Water District Board for Division 5 in July 2026. He is a certified public accountant with experience in accounting, tax and finance, including at PwC. His campaign focuses on long-term water reliability, affordable rates, infrastructure investment and responsible management of ratepayer dollars. He says he wants to apply his financial expertise to water policy and fiscal oversight.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Michael Yen-Ting Lin was appointed to the Walnut Valley Water District Board for Division 5 in July 2026.",
+            "cites": [1]
+          },
+          {
+            "text": "He is a certified public accountant with experience in accounting, tax and finance, including at PwC.",
+            "cites": [2]
+          },
+          {
+            "text": "His campaign focuses on long-term water reliability, affordable rates, infrastructure investment and responsible management of ratepayer dollars.",
+            "cites": [3]
+          },
+          {
+            "text": "He says he wants to apply his financial expertise to water policy and fiscal oversight.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Michael Lin for Walnut Valley Water District Board of Directors 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217440088-Michael%20Lin%20for%20Walnut%20Valley%20Water%20District%20Board%20of%20Directors%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 7305,
+        "cashOnHand": 7075.03,
+        "breakdown": [
+          { "kind": "small", "amount": 155 },
+          { "kind": "large", "amount": 5000 },
+          { "kind": "other", "amount": 2150 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 5547.64, "count": 5 }
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "WVWD Appoints Michael Lin to Board of Directors",
+      "publisher": "Walnut Valley Water District",
+      "url": "https://walnutvalleywater.gov/wvwd-appoints-michael-lin-to-board-of-directors/",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "現任核桃谷水務局第五選區理事Michael Y. Lin,宣布參選,繼續服務第五選區居民",
+      "publisher": "World Journal",
+      "url": "https://www.worldjournal.com/wj/story/121365/9789627?from=wj_catelistnews",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Michael Lin Launches Campaign for Walnut Valley Water District Division 5, Emphasizing Affordable Rates and Long-Term Water Planning",
+      "publisher": "The Los Angeles Post",
+      "url": "https://lapost.us/?p=84224",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.397Z",
+    "version": 3
+  }
+}

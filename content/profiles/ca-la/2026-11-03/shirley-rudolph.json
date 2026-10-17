@@ -1,0 +1,93 @@
+{
+  "key": "shirley-rudolph",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Shirley Rudolph",
+  "office": "Lawndale School District, Governing Board Member, Trustee Area No. 2",
+  "contestIds": ["la-4348-cc10709"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Shirley Rudolph is a member of the Lawndale Elementary School District governing board, representing Trustee Area 2. She was elected to the board in 1993. She served as board president, with a term expiring in 2013. She serves as board clerk. By 1988, she had served on the Lawndale Parks, Recreation and Social Services Commission for five years.",
+        "cites": [1, 2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "Shirley Rudolph is a member of the Lawndale Elementary School District governing board, representing Trustee Area 2.",
+            "cites": [1]
+          },
+          { "text": "She was elected to the board in 1993.", "cites": [2] },
+          {
+            "text": "She served as board president, with a term expiring in 2013.",
+            "cites": [3]
+          },
+          { "text": "She serves as board clerk.", "cites": [4] },
+          {
+            "text": "By 1988, she had served on the Lawndale Parks, Recreation and Social Services Commission for five years.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216732307-Rudolph%2C%20Shirley",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board of Trustees - Lawndale Elementary School District",
+      "publisher": "Lawndale Elementary School District",
+      "url": "https://www.lawndalesd.net/board/lesd-board-of-trustees",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "FINAL ELECTION RETURNS",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/archives/la-xpm-1993-11-04-me-53120-story.html",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "lawndale elementary school district ...",
+      "publisher": "Lawndale Elementary School District",
+      "url": "https://resources.finalsite.net/images/v1685014436/lawndalek12caus/coni4zhxvzuufgug5iyj/5740629375566381675.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Trustee Areas - Lawndale Elementary School District",
+      "publisher": "Lawndale Elementary School District",
+      "url": "https://www.lawndalesd.net/board/trustee-areas",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Chamber Opposed Controversial Commissioner : Lawndale Planner Wins Reappointment",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/archives/la-xpm-1988-05-08-me-3781-story.html",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.174Z",
+    "version": 3
+  }
+}

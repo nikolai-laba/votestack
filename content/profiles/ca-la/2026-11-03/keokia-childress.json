@@ -1,0 +1,83 @@
+{
+  "key": "keokia-childress",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Keokia Childress",
+  "office": "City of Inglewood, Member of the City Council, 1st District",
+  "contestIds": ["la-4348-cc10464"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Keokia Childress is a small-business owner. She has served as an Inglewood Housing Commissioner for eight years. She co-founded the Taste of Inglewood festival and founded Keokia’s Kitchen. She wants to preserve affordable housing and repurpose vacant properties. She proposes clustering new developments near transit and job centers. She supports small businesses and transparent city government. She pledges to hold community meetings and provide regular public updates. She opposes Measure BB.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Keokia Childress is a small-business owner.",
+            "cites": [1]
+          },
+          {
+            "text": "She has served as an Inglewood Housing Commissioner for eight years.",
+            "cites": [1]
+          },
+          {
+            "text": "She co-founded the Taste of Inglewood festival and founded Keokia’s Kitchen.",
+            "cites": [1]
+          },
+          {
+            "text": "She wants to preserve affordable housing and repurpose vacant properties.",
+            "cites": [2]
+          },
+          {
+            "text": "She proposes clustering new developments near transit and job centers.",
+            "cites": [2]
+          },
+          {
+            "text": "She supports small businesses and transparent city government.",
+            "cites": [1]
+          },
+          {
+            "text": "She pledges to hold community meetings and provide regular public updates.",
+            "cites": [2]
+          },
+          { "text": "She opposes Measure BB.", "cites": [2] }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Inglewood",
+      "url": "https://www.cityofinglewood.org/414/City-Clerks-Office",
+      "onRequest": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Meet Candidates Seeking Office This November in Inglewood",
+      "publisher": "Observer Group Newspapers of Southern California",
+      "url": "https://ognsc.com/meet-candidates-seeking-office-this-november-in-inglewood/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Keokia Childress Campaign for Inglewood City Council District 1 Focuses on Affordable Housing, Fiscal Responsibility and Transparent Governance",
+      "publisher": "Head Topics",
+      "url": "https://us.headtopics.com/news/keokia-childress-campaign-for-inglewood-city-council-88488093",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.427Z",
+    "version": 2
+  }
+}

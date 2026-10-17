@@ -1,0 +1,74 @@
+{
+  "key": "roberto-david-lacarra",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Roberto David Lacarra",
+  "office": "Los Angeles Community College District, Member of the Board of Trustees, Seat 6",
+  "contestIds": ["la-4348-cc10590"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Roberto David Lacarra is a community college professor who has taught at Los Angeles Valley College and Gavilan College. He says he worked as a probation officer at the Los Angeles County Probation Department, and he served as a counselor at the Los Angeles County Sheriff's Department. His campaign says he increased enrollment in ethnic studies classes at Los Angeles Valley College, leading to their adoption in the general curriculum.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Roberto David Lacarra is a community college professor who has taught at Los Angeles Valley College and Gavilan College.",
+            "cites": [1]
+          },
+          {
+            "text": "He says he worked as a probation officer at the Los Angeles County Probation Department, and he served as a counselor at the Los Angeles County Sheriff's Department.",
+            "cites": [2]
+          },
+          {
+            "text": "His campaign says he increased enrollment in ethnic studies classes at Los Angeles Valley College, leading to their adoption in the general curriculum.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216572995-LaCarra%2C%20Roberto",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Who's Running - PV Informer",
+      "publisher": "PV Informer",
+      "url": "https://pvinformer.com/ballot-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Lacarra runs for LACCD Board Seat 6 in November | Platinum Tribune",
+      "publisher": "Platinum Tribune",
+      "url": "https://platinumtribune.com/articles/lacarra-runs-for-laccd-board-seat-6-in-november-mux2j0is",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "About Doctor Roberto LaCarra for California State Senate | California",
+      "publisher": "Roberto LaCarra campaign",
+      "url": "https://lacarraforelectedoffice.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T05:54:20.785Z",
+    "version": 2
+  }
+}

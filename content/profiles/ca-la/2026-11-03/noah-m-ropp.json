@@ -1,0 +1,110 @@
+{
+  "key": "noah-m-ropp",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Noah M. Ropp",
+  "office": "Santa Clarita Valley Water Agency, Member, Board of Directors, Division 1",
+  "contestIds": ["la-4348-cc10565"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Noah M. Ropp is an organizer with Food & Water Watch. At a March 2026 event, he spoke about the health impacts of fossil fuel facilities on community life expectancy and gathered signatures opposing a planned data center in Monterey Park. He said environmental fights must address the disproportionate effects on local communities.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Noah M. Ropp is an organizer with Food & Water Watch.",
+            "cites": [1]
+          },
+          {
+            "text": "At a March 2026 event, he spoke about the health impacts of fossil fuel facilities on community life expectancy and gathered signatures opposing a planned data center in Monterey Park.",
+            "cites": [1]
+          },
+          {
+            "text": "He said environmental fights must address the disproportionate effects on local communities.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217402884-Ropp%2C%20Noah",
+      "underThreshold": true
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [2]
+      },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Santa Clarita Valley Democrats",
+        "kind": "organization",
+        "cites": [4]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [5] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Third annual Eco Film Festival finds its audience for local environmental causes",
+      "publisher": "Santa Clarita Valley Signal",
+      "url": "https://signalscv.com/2026/03/third-annual-eco-film-festival-finds-its-audience-for-local-environmental-causes/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Endorsed Candidates - Los Angeles County Democratic Party",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "2026 Stonewall Endorsed Candidates",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "November 2026 Candidate Endorsements | Santa Clarita Valley Democrats",
+      "publisher": "Santa Clarita Valley Democrats",
+      "url": "https://www.santaclaritavalleydemocrats.com/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 5
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.214Z",
+    "version": 6
+  }
+}

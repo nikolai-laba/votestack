@@ -1,0 +1,453 @@
+{
+  "key": "jane-kim",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Jane Kim",
+  "party": "Democratic",
+  "office": "California Insurance Commissioner",
+  "contestIds": ["la-4348-cc10834-r1", "la-4348-cc10834-r2"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Jane Kim is an attorney who served on the San Francisco Board of Supervisors from 2011 to 2019. She served on the San Francisco Board of Education from 2006 to 2010. After leaving office she worked as California political director for Bernie Sanders' 2020 presidential campaign. She later served as state director for the California Working Families Party from January 2022 through January 2026.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Jane Kim is an attorney who served on the San Francisco Board of Supervisors from 2011 to 2019.",
+            "cites": [1]
+          },
+          {
+            "text": "She served on the San Francisco Board of Education from 2006 to 2010.",
+            "cites": [2]
+          },
+          {
+            "text": "After leaving office she worked as California political director for Bernie Sanders' 2020 presidential campaign.",
+            "cites": [3]
+          },
+          {
+            "text": "She later served as state director for the California Working Families Party from January 2022 through January 2026.",
+            "cites": [4]
+          }
+        ]
+      },
+      {
+        "text": "She proposes a state-run, nonprofit Natural Disaster Insurance for All program that would cover wildfire, flood and earthquake losses, funded by premiums. She wants to require home and auto insurers to pay out at least 65 to 75 cents in claims per premium dollar, similar to the federal minimum for health insurers. She proposes making insurers pay interest for each day they deny, delay or underpay a valid claim. Kim would audit the FAIR Plan governing committee and add seats for consumer advocates, the governor's office and the Department of Insurance. She proposes creating a Policyholder Bill of Rights with timely claim decisions, clear written explanations for denials and access to independent appraisal.",
+        "cites": [5, 6, 7],
+        "sentences": [
+          {
+            "text": "She proposes a state-run, nonprofit Natural Disaster Insurance for All program that would cover wildfire, flood and earthquake losses, funded by premiums.",
+            "cites": [5]
+          },
+          {
+            "text": "She wants to require home and auto insurers to pay out at least 65 to 75 cents in claims per premium dollar, similar to the federal minimum for health insurers.",
+            "cites": [6]
+          },
+          {
+            "text": "She proposes making insurers pay interest for each day they deny, delay or underpay a valid claim.",
+            "cites": [6]
+          },
+          {
+            "text": "Kim would audit the FAIR Plan governing committee and add seats for consumer advocates, the governor's office and the Department of Insurance.",
+            "cites": [6]
+          },
+          {
+            "text": "She proposes creating a Policyholder Bill of Rights with timely claim decisions, clear written explanations for denials and access to independent appraisal.",
+            "cites": [7]
+          }
+        ]
+      },
+      {
+        "text": "As supervisor, Kim helped secure free community college for city residents, the state's first $15 minimum wage ordinance and a tenant-protection ordinance against unjust evictions.",
+        "cites": [8],
+        "sentences": [
+          {
+            "text": "As supervisor, Kim helped secure free community college for city residents, the state's first $15 minimum wage ordinance and a tenant-protection ordinance against unjust evictions.",
+            "cites": [8]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Jane Kim for Insurance Commissioner 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1485530",
+        "period": "July 1 to September 19, 2026",
+        "raised": 362857.88,
+        "cashOnHand": 345280.77,
+        "breakdown": [
+          { "kind": "small", "amount": 4683.25 },
+          { "kind": "large", "amount": 168648.74 },
+          { "kind": "pac", "amount": 168850 },
+          { "kind": "party", "amount": 100 },
+          { "kind": "other", "amount": 20575.89 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 93400, "count": 35 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "U.S. Sen. Bernie Sanders",
+        "kind": "elected_official",
+        "party": "Independent",
+        "cites": [4]
+      },
+      {
+        "organization": "U.S. Sen. Andy Kim",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Lt. Gov. Eleni Kounalakis",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "State Controller Malia Cohen",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "U.S. Rep. Ro Khanna",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Pramila Jayapal",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "U.S. Rep. Grace Meng",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "U.S. Rep. Kevin Mullin",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "U.S. Rep. Lateefah Simon",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "State Sen. Lena Gonzalez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "State Sen. Lola Smallwood-Cuevas",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Assemblymember Matt Haney",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Assemblymember Mia Bonta",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Assemblymember Sade Elhawary",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Assemblymember Corey Jackson",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Assemblymember Ash Kalra",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Assemblymember LaShae Sharp-Collins",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "Oakland Mayor Barbara Lee",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "Los Angeles City Controller Kenneth Mejia",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "Los Angeles City Councilmember Eunisses Hernandez",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "Los Angeles City Councilmember Ysabel Jurado",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "Working Families Party",
+        "kind": "party",
+        "cites": [11]
+      },
+      {
+        "organization": "California Federation of Labor Unions",
+        "kind": "union",
+        "cites": [12]
+      },
+      { "organization": "SEIU California", "kind": "union", "cites": [10] },
+      {
+        "organization": "California Nurses Association",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "California Faculty Association",
+        "kind": "union",
+        "cites": [13]
+      },
+      {
+        "organization": "UFCW Western States Council",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "California School Employees Association",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "Teamsters California", "kind": "union", "cites": [9] },
+      {
+        "organization": "United Domestic Workers of America (UDW/AFSCME Local 3930)",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "National Union of Healthcare Workers",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Communication Workers of America District 9",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Our Revolution",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "National Women's Political Caucus",
+        "kind": "organization",
+        "cites": [9]
+      },
+      { "organization": "ACCE Action", "kind": "organization", "cites": [9] },
+      {
+        "organization": "Dolores Huerta Action Fund",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "California Young Democrats",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "California Teachers Association",
+        "kind": "union",
+        "cites": [14]
+      },
+      { "organization": "Knock LA", "kind": "organization", "cites": [15] },
+      { "organization": "LA Forward", "kind": "organization", "cites": [16] },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [17]
+      },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [18] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "The Race for California Insurance Commissioner: Meet Jane Kim",
+      "publisher": "Carrier Management",
+      "url": "https://www.carriermanagement.com/features/2026/05/15/287741.htm",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Jane Kim, California insurance commissioner candidate, 2026 election questionnaire",
+      "publisher": "The Orange County Register",
+      "url": "https://www.ocregister.com/2026/10/05/jane-kim-california-insurance-commissioner-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Jane Kim - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jane_Kim",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "California insurance commissioner race: Jane Kim vs. Ben Allen",
+      "publisher": "Mission Local",
+      "url": "https://missionlocal.org/2026/10/ben-allen-jane-kim-california-insurance-commissioner/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "California Insurance Commissioner candidate Jane Kim wants state-run disaster insurance program",
+      "publisher": "CBS News",
+      "url": "https://www.cbsnews.com/sanfrancisco/news/insurance-commissioner-candidate-jane-kim-state-run-disaster-insurance/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Insurance Commissioner candidate Jane Kim says the current system is 'a disaster'",
+      "publisher": "KPBS",
+      "url": "https://www.kpbs.org/news/economy/2026/09/23/insurance-commissioner-candidate-jane-kim-says-the-current-system-is-a-disaster",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Jane Kim, California insurance commissioner candidate, answers Bay Area News Group’s primary questionnaire",
+      "publisher": "The Mercury News",
+      "url": "https://www.mercurynews.com/2026/05/22/jane-kim-california-insurance-commissioner-candidate-answers-bay-area-news-groups-primary-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "Who's running for insurance commissioner in CA's 2026 election?",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.org/california-voter-guide-2026/insurance-commissioner/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "Endorsements",
+      "publisher": "Jane Kim for Insurance Commissioner 2026",
+      "url": "https://www.janekim.org/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "Here's five candidates vying to be California's next insurance commissioner",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.org/politics/2026/04/california-insurance-commissioner-candidates/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "WFP Endorses Jane Kim for California Insurance Commissioner",
+      "publisher": "Working Families Party",
+      "url": "https://workingfamilies.org/2026/01/wfp-endorses-jane-kim-for-california-insurance-commissioner/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "Insurance commissioner candidates split key endorsements",
+      "publisher": "Los Angeles Times (via Yahoo News)",
+      "url": "https://www.yahoo.com/news/politics/articles/insurance-commissioner-candidates-split-key-100000830.html",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 13,
+      "title": "California insurance commissioner: Who's running and why it matters",
+      "publisher": "LAist",
+      "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-insurance-commissioner",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "2026 Candidate Recommendations",
+      "publisher": "California Teachers Association",
+      "url": "https://www.cta.org/our-advocacy/election-2026",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
+      "publisher": "Knock LA (Ground Game LA)",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
+      "publisher": "SEIU Local 721",
+      "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 18
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.792Z",
+    "version": 6
+  }
+}

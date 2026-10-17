@@ -1,0 +1,183 @@
+{
+  "key": "coral-edwardsen",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Coral Edwardsen",
+  "office": "Las Virgenes Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10652"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Coral Edwardsen is a candidate for the Las Virgenes Unified School District governing board. Her campaign website says she is a former teacher in the district. Her campaign says she supports maintaining a practical curriculum, using technology responsibly, strengthening school safety and mental health, and working with the district to use funds effectively.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Coral Edwardsen is a candidate for the Las Virgenes Unified School District governing board.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign website says she is a former teacher in the district.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign says she supports maintaining a practical curriculum, using technology responsibly, strengthening school safety and mental health, and working with the district to use funds effectively.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216987481-Edwardsen%2C%20Coral",
+      "underThreshold": true
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Las Virgenes Educators Association (LVEA)",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "Las Virgenes Unified School District Board President Lesli Stein",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Las Virgenes Unified School District Board Vice President Angela Cutbill",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Las Virgenes Unified School District Board Clerk Alan Lazar",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Las Virgenes Unified School District Board Member Linda Menges",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Las Virgenes Unified School District Board Member Dallas Lawrence",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Agoura Hills Mayor Jeremy Wolf",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Calabasas Mayor James Robert Bozajian",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Westlake Village Mayor Susan McSweeney",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Calabasas Mayor Pro Tem Edward Albrecht",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Westlake Village Mayor Pro Tem Brad Halpern",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Agoura Hills Councilmember Kate Anderson",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Agoura Hills Councilmember Penny Sylvester",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Calabasas Councilmember Alicia Weintraub",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Calabasas Councilmember Peter Kraut",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Westlake Village Councilmember Ray Pearl",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Westlake Village Councilmember Kelly Honig",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Hidden Hills Councilmember Laura McCorkindale",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Former Agoura Hills Mayor Illece Buckley Weber",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Former Las Virgenes Unified School District Board Member Jill Gaines",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Former Las Virgenes Unified School District Board Member Charlotte Meyer",
+        "kind": "elected_official",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Ballot Marking Device Code List - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/ballot-marking-device-code-list",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Coral Edwardsen for LVUSD School Board",
+      "publisher": "Coral Edwardsen campaign",
+      "url": "https://www.coraledwardsen.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Endorsements — Coral Edwardsen for LVUSD School Board",
+      "publisher": "Endorsements — Coral Edwardsen for LVUSD School Board",
+      "url": "https://www.coraledwardsen.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.141Z",
+    "version": 2
+  }
+}

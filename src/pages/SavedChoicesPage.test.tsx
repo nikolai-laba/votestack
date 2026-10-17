@@ -741,11 +741,120 @@ describe('paper ballot order', () => {
     ).toBeVisible()
   })
 
+  it('leaves out the Illinois ballot-photo law on a California ballot', () => {
+    seed(
+      {},
+      {
+        ...ballot,
+        election: { ...ballot.election, id: 'ca-2026-11-03-general' },
+      },
+    )
+    renderAt('/saved-choices')
+    const note = screen.getByText(/^Saved only on this device\./)
+    expect(note).toHaveTextContent(
+      "Saved only on this device. This isn't an official ballot.",
+    )
+    expect(note).not.toHaveTextContent(/Illinois/)
+  })
+
+  it('says a Los Angeles County order comes from the Registrar', async () => {
+    seed({}, onPaper('ocd-division/country:us/state:ca/county:los_angeles'))
+    renderAt('/saved-choices')
+    await userEvent.click(radio('Paper ballot order'))
+    expect(
+      within(savedPage()).getByText(
+        "This follows the Los Angeles County Registrar's sample ballot for your ballot style. Los Angeles County's ballot lists city and local races first and state races last, an order California law allows only in this county.",
+      ),
+    ).toBeVisible()
+  })
+
   it('offers no switch when the paper order is not known', () => {
     seed({})
     orderStore.set('paper')
     renderAt('/saved-choices')
     expect(screen.queryByRole('radio')).toBeNull()
     expect(h2s(savedPage())).toEqual(LEVELS)
+  })
+})
+
+describe('measures from more than one level', () => {
+  const CA = 'ocd-division/country:us/state:ca'
+  const measure = (
+    id: string,
+    title: string,
+    districtId: string,
+    ballotOrder: number,
+  ): Contest => ({
+    ...base,
+    electionId: 'ca-2026-11-03-general',
+    kind: 'measure',
+    id,
+    districtId,
+    title,
+    question: '?',
+    ballotOrder,
+  })
+  const california: Ballot = {
+    ...ballot,
+    election: {
+      ...ballot.election,
+      id: 'ca-2026-11-03-general',
+      name: 'California General Election',
+    },
+    contests: [
+      ...contests.filter((c) => c.kind === 'candidate'),
+      measure(
+        'te',
+        'Los Angeles City General Municipal Election - Measure TE',
+        `${CA}/place:los_angeles`,
+        325,
+      ),
+      measure('p2', 'Proposition 2: Rainy Day Fund', CA, 377),
+      measure('p1', 'Proposition 1: Housing Bonds', CA, 376),
+    ],
+  }
+  const headings = (container: HTMLElement, level: number) =>
+    within(container)
+      .queryAllByRole('heading', { level })
+      .map((h) => h.textContent)
+
+  it('puts each level under its own heading on the ballot', () => {
+    seed({}, california)
+    orderStore.set('level')
+    renderAt('/')
+    const section = screen.getByRole('region', {
+      name: 'Propositions and measures',
+    })
+    expect(headings(section, 3)).toEqual([
+      'State propositions',
+      'City and local measures',
+    ])
+    expect(headings(section, 4)).toEqual([
+      'Proposition 1: Housing Bonds',
+      'Proposition 2: Rainy Day Fund',
+      'Los Angeles City General Municipal Election - Measure TE',
+    ])
+    // Races elsewhere keep h3 titles.
+    expect(
+      screen.getByRole('heading', { level: 3, name: GOV }),
+    ).toBeInTheDocument()
+  })
+
+  it('shows the same headings on Saved choices', () => {
+    seed({}, california)
+    orderStore.set('level')
+    renderAt('/saved-choices')
+    const section = screen.getByRole('region', {
+      name: 'Propositions and measures',
+    })
+    expect(headings(section, 3)).toEqual([
+      'State propositions',
+      'City and local measures',
+    ])
+    expect(headings(section, 4)).toEqual([
+      'Proposition 1: Housing Bonds',
+      'Proposition 2: Rainy Day Fund',
+      'Los Angeles City General Municipal Election - Measure TE',
+    ])
   })
 })

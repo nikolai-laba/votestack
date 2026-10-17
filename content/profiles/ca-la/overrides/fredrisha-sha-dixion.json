@@ -1,0 +1,26 @@
+{
+  "reason": "Chrome review: the cited LAist brief does not mention her; re-sourced the coalition-meeting sentence to the full LA Local story it summarizes, which does (same facts)",
+  "overview": [
+    {
+      "action": "replace",
+      "match": "At an October 2026 candidate forum, she supported creating term limits",
+      "text": "At an October 2026 candidate forum, she supported creating term limits for city officials, conducting a forensic audit of city finances, and moving city council meetings to an evening slot. She led a coalition meeting in July 2026 that argued the Inglewood Unified School District is not financially stable, pointing to a projected $13.3 million deficit for the 2025-2026 fiscal year.",
+      "sources": [
+        {
+          "title": "Inglewood mayoral challengers weigh in on video billboards and ...",
+          "publisher": "LAist",
+          "url": "https://laist.com/news/politics/inglewood-mayoral-challengers-video-billboards-transparency",
+          "kind": "news",
+          "viewedAt": "2026-10-15"
+        },
+        {
+          "title": "State agency praises Inglewood school district for being one step closer to regaining control",
+          "publisher": "The LA Local",
+          "url": "https://thelalocal.org/education/inglewood-unified-school-district-board-of-education-fcmat-report/",
+          "kind": "news",
+          "viewedAt": "2026-10-15"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "key": "tyron-d-turner",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Tyron D. Turner",
+  "office": "West Basin Municipal Water District, Member, Board of Directors, Division 2",
+  "contestIds": ["la-4348-cc10560"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Tyron D. Turner is a community water advisor who has served on an AQMD advisory group and as a neighborhood council representative. His campaign says he will deliver clean, safe, affordable drinking water and keep rates low. He has argued the water board position should be treated as a full-time job.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Tyron D. Turner is a community water advisor who has served on an AQMD advisory group and as a neighborhood council representative.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he will deliver clean, safe, affordable drinking water and keep rates low.",
+            "cites": [1]
+          },
+          {
+            "text": "He has argued the water board position should be treated as a full-time job.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Turner for Water Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/215715109-Turner%20for%20Water%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 101650,
+        "cashOnHand": 74609.61,
+        "breakdown": [
+          { "kind": "large", "amount": 4050 },
+          { "kind": "pac", "amount": 7500 },
+          { "kind": "candidate", "amount": 90000 },
+          { "kind": "other", "amount": 100 }
+        ],
+        "fromCandidate": 90000,
+        "largeSince": { "since": "2026-09-19", "total": 1000, "count": 1 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "State Sen. Lola Smallwood-Cuevas",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [1]
+      },
+      {
+        "organization": "State Sen. Lena Gonzalez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [1]
+      },
+      {
+        "organization": "Former Assemblymember Autumn Burke",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Former Los Angeles County Supervisor Yvonne Brathwaite Burke",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Long Beach Mayor Rex Richardson",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Inglewood Mayor James Butts",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Former Gardena Mayor Rachel Johnson",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Hawthorne City Councilmember Katrina Manning",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Inglewood City Councilmember Alex Padilla",
+        "kind": "elected_official",
+        "cites": [1],
+        "party": "Democratic"
+      },
+      {
+        "organization": "Inglewood City Councilmember Eloy Morales Jr.",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Carson City Councilmember Jawane Hilton",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Gardena City Councilmember Dr. Mark Henderson",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Water Replenishment District Director Joy Langford",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Water Replenishment District Director Robert Katherman",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Former West Basin Municipal Water District Director Carol Kwan",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "East Area Progressive Democrats",
+        "kind": "organization",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Strong endorsements fuel Turner Water District run",
+      "publisher": "South Bay Black Journal",
+      "url": "https://southbayblackjournal.com/strong-endorsements-fuel-turner-water-district-run/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "AG approves 'incompatible offices' lawsuit against Inglewood councilmember",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/09/ag-approves-incompatible-offices-lawsuit-against-inglewood-councilmember/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Endorsements",
+      "publisher": "East Area Progressive Democrats",
+      "url": "https://www.eapd.la/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.443Z",
+    "version": 2
+  }
+}

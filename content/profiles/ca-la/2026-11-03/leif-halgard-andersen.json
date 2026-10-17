@@ -1,0 +1,70 @@
+{
+  "key": "leif-halgard-andersen",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Leif Halgard Andersen",
+  "office": "San Gabriel Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10669"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Leif Halgard Andersen is a physics professor running for the San Gabriel Unified School District Governing Board. He names his top two district needs as helping students do well academically and making sure they feel supported, including extra help where students are struggling and support for teachers, counselors and staff. He sees artificial intelligence as a useful tool but wants students to learn to check facts and not let AI do the thinking for them. He also suggests requiring a civics course to help students learn how to disagree without arguing.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Leif Halgard Andersen is a physics professor running for the San Gabriel Unified School District Governing Board.",
+            "cites": [1]
+          },
+          {
+            "text": "He names his top two district needs as helping students do well academically and making sure they feel supported, including extra help where students are struggling and support for teachers, counselors and staff.",
+            "cites": [2]
+          },
+          {
+            "text": "He sees artificial intelligence as a useful tool but wants students to learn to check facts and not let AI do the thinking for them.",
+            "cites": [2]
+          },
+          {
+            "text": "He also suggests requiring a civics course to help students learn how to disagree without arguing.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217215922-Andersen%2C%20Leif",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "San Gabriel Voters Face Key Choices in November General Election",
+      "publisher": "Colorado Boulevard",
+      "url": "https://www.coloradoboulevard.net/san-gabriel-voters-face-key-choices-in-november-general-election/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Leif Halgard Andersen, San Gabriel Unified School District candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/leif-halgard-andersen-san-gabriel-unified-school-district-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.309Z",
+    "version": 2
+  }
+}

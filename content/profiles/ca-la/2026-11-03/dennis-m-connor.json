@@ -1,0 +1,50 @@
+{
+  "key": "dennis-m-connor",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Dennis M. Connor",
+  "office": "Burbank Unified School District, Governing Board Member, Trustee Area No. 3",
+  "contestIds": ["la-4348-cc10625"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Dennis M. Connor is a candidate for Burbank Unified School District Governing Board, Trustee Area No. 3.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Dennis M. Connor is a candidate for Burbank Unified School District Governing Board, Trustee Area No. 3.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217202279-Connor%2C%20Dennis",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate Statements - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County",
+      "url": "https://apps.lavote.gov/candidate-statements/",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T05:54:20.827Z",
+    "version": 2
+  }
+}

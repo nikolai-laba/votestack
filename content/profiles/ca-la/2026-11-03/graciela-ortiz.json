@@ -1,0 +1,125 @@
+{
+  "key": "graciela-ortiz",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Graciela Ortiz",
+  "office": "City of Huntington Park, Member of the City Council, 4th District",
+  "contestIds": ["la-4348-cc10461"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Graciela Ortiz formerly served on the Huntington Park City Council. She served two terms as mayor. She is a pupil services and attendance administrator for L.A. Unified. After she was elected in 2015, she voted for a bus contract with a firm connected to her campaign; costs rose, but she said the state's Fair Political Practices Commission advised her the vote was legal. In 2024, she was put on administrative leave from her L.A. Unified post while the district investigated; she was later reinstated. In 2025, search warrants were executed at her home as part of a corruption investigation into a failed pool complex. She has not been charged.",
+        "cites": [1, 2, 3, 4, 5, 6],
+        "sentences": [
+          {
+            "text": "Graciela Ortiz formerly served on the Huntington Park City Council.",
+            "cites": [1]
+          },
+          { "text": "She served two terms as mayor.", "cites": [2] },
+          {
+            "text": "She is a pupil services and attendance administrator for L.A. Unified.",
+            "cites": [3]
+          },
+          {
+            "text": "After she was elected in 2015, she voted for a bus contract with a firm connected to her campaign; costs rose, but she said the state's Fair Political Practices Commission advised her the vote was legal.",
+            "cites": [4]
+          },
+          {
+            "text": "In 2024, she was put on administrative leave from her L.A. Unified post while the district investigated; she was later reinstated.",
+            "cites": [5]
+          },
+          {
+            "text": "In 2025, search warrants were executed at her home as part of a corruption investigation into a failed pool complex.",
+            "cites": [1]
+          },
+          { "text": "She has not been charged.", "cites": [6] }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Huntington Park",
+      "url": "https://www.hpca.gov/598/Public-Records-Requests",
+      "onRequest": true
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [7]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Huntington Park was promised a $24-million pool complex. ...",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2025-02-26/huntington-park-city-hall-and-mayors-home-raided-by-law-enforcement-as-part-of-corruption-probe",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "These are the 4 candidates running for LAUSD's District 5",
+      "publisher": "Daily News",
+      "url": "https://www.dailynews.com/2024/02/15/election-2024-these-are-the-4-candidates-running-for-lausds-district-5/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "L.A. Unified School District 5 election: Griego vs. Ortiz voter ...",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2024-10-03/2024-california-election-guide-lausd-district-5-griego-ortiz",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Costs soar after Huntington Park picks politically connected firm to provide bus service",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/local/lanow/la-me-ln-huntington-park-bus-costs-20170415-story.html",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "A new dawn for Latino politicians in L.A. County's 'corridor ...",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2024-02-27/southeast-la-politics-sela-united",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "BREAKING: DA's Public Integrity Division requests ...",
+      "publisher": "SELA News",
+      "url": "https://www.selanews.com/dainvestigatinghpcouncilcandidates/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "Endorsed Candidates - Los Angeles County Democratic Party",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.424Z",
+    "version": 2
+  }
+}

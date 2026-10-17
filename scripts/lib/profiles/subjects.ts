@@ -31,6 +31,11 @@ export type OfficeType =
   | 'retention'
   | 'regional_superintendent'
   | 'sanitary_district'
+  | 'board_of_equalization'
+  | 'city_executive'
+  | 'city_council'
+  | 'community_college'
+  | 'special_district'
   | 'other'
 
 export interface Subject {
@@ -81,13 +86,40 @@ const slug = (s: string) =>
 const isJudge = (c: CandidateContest) =>
   /\bjudge\b/i.test(`${c.office} ${c.title}`)
 
+/**
+ * A contest's district without its ballot-order version: where candidate
+ * order rotates by area (California), each order is its own contest in a
+ * `…/ballot_rotation:N` district, but it's one race.
+ */
+export const baseDistrict = (districtId: string) =>
+  districtId.replace(/\/ballot_rotation:\d+$/, '')
+
+/** California offices, by the district IDs scripts/la/districts.ts gives them. */
+function californiaOfficeType(id: string, office: string): OfficeType {
+  if (/\/cd:\d+$/.test(id)) return 'us_house'
+  if (/\/(sldl|sldu):\d+$/.test(id)) return 'state_legislature'
+  if (/\/boe_district:\d+$/.test(id)) return 'board_of_equalization'
+  if (/\/state:ca$/.test(id))
+    return /united states senator/.test(office) ? 'us_senate' : 'statewide'
+  if (/\/county:[a-z_]+\/council_district:\d+$/.test(id)) return 'county_board'
+  if (/\/county:[a-z_]+$/.test(id)) return 'county_executive'
+  if (/\/place:[a-z_]+\/council_district:\d+$/.test(id)) return 'city_council'
+  if (/\/place:[a-z_]+$/.test(id))
+    return /council/.test(office) ? 'city_council' : 'city_executive'
+  if (/\/school_district:/.test(id)) return 'school_board'
+  if (/\/community_college_district:/.test(id)) return 'community_college'
+  if (/\/special_district:/.test(id)) return 'special_district'
+  return 'other'
+}
+
 /** The office type of a contest, from its district and office. */
 export function officeTypeFor(contest: Contest): OfficeType {
   if (contest.kind === 'retention') return 'retention'
   if (contest.kind === 'measure') return 'other'
-  const id = contest.districtId
+  const id = baseDistrict(contest.districtId)
   const office = `${contest.office} ${contest.title}`.toLowerCase()
   if (isJudge(contest)) return 'judicial_candidate'
+  if (/\/state:ca\b/.test(id)) return californiaOfficeType(id, office)
   if (/\/cd:\d+$/.test(id)) return 'us_house'
   if (/\/(sldl|sldu):\d+$/.test(id)) return 'state_legislature'
   if (
@@ -126,10 +158,27 @@ const TIERS: Record<OfficeType, ProfileTier> = {
   retention: 'short',
   regional_superintendent: 'short',
   sanitary_district: 'short',
+  board_of_equalization: 'mid',
+  city_executive: 'mid',
+  city_council: 'mid',
+  community_college: 'short',
+  special_district: 'short',
   other: 'short',
 }
 
 export const tierFor = (type: OfficeType): ProfileTier => TIERS[type]
+
+/** A contest's tier: by office type, except that California mayors get the top tier, like sheriffs. */
+function tierOf(contest: Contest, type: OfficeType): ProfileTier {
+  if (
+    type === 'city_executive' &&
+    contest.kind === 'candidate' &&
+    /\/state:ca\b/.test(contest.districtId) &&
+    /\bmayor\b/i.test(`${contest.office} ${contest.title}`)
+  )
+    return 'top'
+  return tierFor(type)
+}
 
 export function kindFor(contest: Contest): ProfileKind {
   if (contest.kind === 'retention') return 'retention'
@@ -145,6 +194,8 @@ function role(contest: CandidateContest): string {
     [/president of the chicago board of education/, 'school-board-president'],
     [/board of education/, 'school-board-member'],
     [/\bjudge\b/, 'judge'],
+    // California elects its lieutenant governor in a race of its own.
+    [/^lieutenant governor/, 'lieutenant-governor'],
     [/governor/, 'governor'],
     [/attorney general/, 'attorney-general'],
     [/secretary of state/, 'secretary-of-state'],
@@ -158,6 +209,7 @@ function role(contest: CandidateContest): string {
     [/assessor/, 'assessor'],
     [/superintendent/, 'superintendent'],
     [/board of review/, 'member'],
+    [/insurance commissioner/, 'insurance-commissioner'],
     [/commissioner|trustee/, 'member'],
   ]
   return roles.find(([re]) => re.test(office))?.[1] ?? slug(contest.office)
@@ -173,7 +225,7 @@ export function raceKeyFor(contest: Contest): string {
     return `retention:${profileKey(contest.judge)}`
   if (contest.kind === 'measure') return `measure:${contest.id}`
   const parts = [
-    contest.districtId.replace(/^ocd-division\//, ''),
+    baseDistrict(contest.districtId).replace(/^ocd-division\//, ''),
     role(contest),
   ]
   if (/unexpired/i.test(`${contest.id} ${contest.title} ${contest.office}`))
@@ -190,6 +242,20 @@ const DESCRIPTIONS: Partial<Record<OfficeType, string>> = {
   sanitary_district: 'a small local sewer district in suburban Cook County',
   regional_superintendent: 'oversees schools in a regional office of education',
 }
+
+/** California's offices, where Cook County's descriptions don't fit. */
+const CA_DESCRIPTIONS: Partial<Record<OfficeType, string>> = {
+  board_of_equalization:
+    "California's elected tax board: it oversees how counties assess property and handles some special taxes",
+  school_board: 'helps run a local public school district',
+  community_college: 'helps run a community college district',
+  special_district:
+    'a local special district board (for example water, health care, library or irrigation)',
+}
+
+/** The one-line description for an office type in the district's state. */
+const descriptionFor = (type: OfficeType, districtId: string) =>
+  /\/state:ca\b/.test(districtId) ? CA_DESCRIPTIONS[type] : DESCRIPTIONS[type]
 
 /** "Retention: Judge, Circuit Court" → "Judge, Circuit Court". */
 function officeTitle(contest: CandidateContest | RetentionContest): string {
@@ -243,7 +309,8 @@ export function readableOffice(
   const [first] = contests
   const titles = contests.map(officeTitle)
   const fallback = titles[0]
-  const id = first.districtId
+  const id = baseDistrict(first.districtId)
+  if (/\/state:ca\b/.test(id)) return californiaOffice(first, fallback, id)
   const n = districtOrdinal(id)
   const matchTitle = (re: RegExp) =>
     titles.map((t) => re.exec(t)?.[1]).find(Boolean)
@@ -306,6 +373,46 @@ export function readableOffice(
       const district = matchTitle(/,\s*(\S.* Sanitary District)/)
       return district ? `${district} Trustee` : fallback
     }
+    default:
+      return fallback
+  }
+}
+
+/**
+ * California offices as voters say them: "U.S. Representative, 28th
+ * District", "State Senator, 22nd District", "Superior Court Judge, Los
+ * Angeles County (Office No. 64)". Local offices keep the Registrar's title,
+ * which already names the place ("City of Downey, Member of the City
+ * Council, 2nd District").
+ */
+function californiaOffice(
+  first: CandidateContest | RetentionContest,
+  fallback: string,
+  id: string,
+): string {
+  const n = districtOrdinal(id)
+  if (first.kind === 'candidate' && isJudge(first)) {
+    const seat = /Office No\.? ?(\d+)/i.exec(first.title)?.[1]
+    return `Superior Court Judge, Los Angeles County${seat ? ` (Office No. ${seat})` : ''}`
+  }
+  if (first.kind === 'retention') return fallback
+  switch (
+    californiaOfficeType(id, `${first.office} ${first.title}`.toLowerCase())
+  ) {
+    case 'us_house':
+      return n ? `U.S. Representative, ${n} District` : fallback
+    case 'state_legislature':
+      return n
+        ? `${/\/sldu:/.test(id) ? 'State Senator' : 'State Assembly Member'}, ${n} District`
+        : fallback
+    case 'board_of_equalization':
+      return n ? `Board of Equalization Member, ${n} District` : fallback
+    case 'statewide':
+      return `California ${fallback}`
+    case 'county_executive':
+      return `Los Angeles County ${fallback}`
+    case 'county_board':
+      return n ? `Los Angeles County Supervisor, ${n} District` : fallback
     default:
       return fallback
   }
@@ -380,10 +487,13 @@ export function buildSubjects(
                 const officeType = officeTypeFor(contest)
                 existing.office = officeOf(contest)
                 existing.officeType = officeType
-                existing.tier = tierFor(officeType)
+                existing.tier = tierOf(contest, officeType)
                 existing.kind = kindFor(contest)
-                existing.districtId = contest.districtId
-                existing.officeDescription = DESCRIPTIONS[officeType]
+                existing.districtId = baseDistrict(contest.districtId)
+                existing.officeDescription = descriptionFor(
+                  officeType,
+                  contest.districtId,
+                )
               }
             }
           } else if (existing.raceKey !== raceKey) {
@@ -403,11 +513,11 @@ export function buildSubjects(
           name,
           party: partyOf(party),
           office: officeOf(contest),
-          officeDescription: DESCRIPTIONS[officeType],
+          officeDescription: descriptionFor(officeType, contest.districtId),
           contestIds: [contest.id],
-          districtId: contest.districtId,
+          districtId: baseDistrict(contest.districtId),
           kind: kindFor(contest),
-          tier: tierFor(officeType),
+          tier: tierOf(contest, officeType),
           officeType,
           raceKey,
         })

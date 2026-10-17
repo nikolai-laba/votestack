@@ -91,3 +91,6 @@ export function reviewProfiles(
     .map((s) => ({ key: s.key, name: s.name, raceKey: s.raceKey }))
   return { profiles: out, missing }
 }
+
+/** The reason check.ts gives when the checker could open none of a profile's cited pages. */
+export const NONE_OPENED = 'source: the checker opened none of the cited pages'

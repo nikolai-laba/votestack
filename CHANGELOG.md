@@ -5,8 +5,21 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+### Added
+
+- **Los Angeles County.** Voters in Los Angeles County, California can now look up their ballot for the November 3, 2026 General Election: every race, judge up for retention and measure for their address, in the order of their own ballot. The list comes straight from the Los Angeles County Registrar-Recorder/County Clerk's ballot styles. Every race also has its own page, listed at `/races/ca/los-angeles-county/2026-11-03`.
+- **Los Angeles County candidate profiles**, written the same way as Cook County's, with campaign money from official filings (the FEC, the California Secretary of State, the county's and cities' filing systems, and the City of Los Angeles Ethics Commission). Where a filing was only available as a scan, AI read its figures twice, separately, and they're shown only when both reads agree; the profile says so. Candidates who report raising under $2,000, or who haven't filed yet, get a plain note and a link to their filings.
+- Incumbent labels in Los Angeles County, from the official lists and the "Incumbent" ballot designation.
+- In Los Angeles County, statewide measures are titled as propositions ("Proposition 1: Authorizes Bonds for Housing Affordability Programs") and link to the California Secretary of State's voter guide for the full text and arguments. Ballots use California's terms ("propositions and measures") where Cook County's use "referenda".
+- The paper ballot order view follows each county's printed ballot, including Los Angeles County's order of city and local races first, and explains it.
+
 ### Changed
 
+- In the list by level of government, measures are grouped under subheads by level (state, county, then city and local) and sorted by number or letter, and each area's offices follow its official order, so Governor leads the State section in Los Angeles County. In Los Angeles County, local measures are named by city or district and letter, followed by their official title where they have one.
+- About, Get started and How we make profiles now cover Los Angeles County: who writes and checks its profiles, where its endorsements and campaign money come from, and why its paper ballot lists local races first. How we make profiles is shorter and sticks to the process; About describes what a profile contains.
+- The site footer puts About VoteStack, GitHub and Contact on one line.
+- The notice for races that may be missing is one short paragraph, with the link to your official sample ballot at its end.
+- In a measure's official text, Fiscal Impact, Supporters and Opponents each start their own paragraph, with the label in bold.
 - On wider screens (840px and up), a candidate's profile again shows your whole ballot beside it, scrolled to that candidate's race, so you can move between races and candidates without going back. On phones, the candidate's race stays at the top of the profile. Other pages, like About, stay full width.
 
 ## [1.2.0] - 2026-10-14

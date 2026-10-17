@@ -1,0 +1,84 @@
+{
+  "key": "beth-k-whittenbury",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Beth K. Whittenbury",
+  "office": "Palos Verdes Library District, Member, Board of Trustees",
+  "contestIds": ["la-4348-cc10543"],
+  "kind": "candidate",
+  "tier": "short",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Beth K. Whittenbury is a member and secretary of the Palos Verdes Library District Board of Trustees, serving since October 2025. She is an educator, author, consultant, and mediator. She lists her priorities as keeping libraries open and welcoming, ensuring equal access to media, providing inclusive programming, and spending property-tax funding responsibly.",
+        "cites": [1, 2, 3]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Beth Whittenbury for PVLD Trustee 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216978222-Beth%20Whittenbury%20for%20PVLD%20Trustee%202026",
+        "period": "July 13 to September 19, 2026",
+        "raised": 838.36,
+        "cashOnHand": 54.33,
+        "fromScan": "ai"
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Beth Whittenbury - Palos Verdes Library District",
+      "publisher": "Palos Verdes Library District",
+      "url": "https://www.pvld.org/about/trustees/beth-whittenbury",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Home - Beth K. Whittenbury & Associates",
+      "publisher": "Beth K. Whittenbury & Associates",
+      "url": "https://bkwhittenbury.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Who's Running - PV Informer",
+      "publisher": "PV Informer",
+      "url": "https://pvinformer.com/ballot-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.364Z",
+    "version": 5
+  }
+}

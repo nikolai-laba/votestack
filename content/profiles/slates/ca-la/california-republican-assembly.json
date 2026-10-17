@@ -1,0 +1,451 @@
+{
+  "slug": "california-republican-assembly",
+  "endorser": "California Republican Assembly",
+  "kind": "organization",
+  "title": "November 2026 General Election Endorsements: Los Angeles County",
+  "publisher": "California Republican Assembly",
+  "url": "https://cragop.org/los-angeles-county/",
+  "note": "The Los Angeles County page lists local candidates and links the statewide quick sheet (documentUrl), which has the statewide, Board of Equalization, congressional and legislative endorsements. The PDF prints some letter pairs (ti, tt, ffi) as gaps; they are filled from CRA_LIGATURES in scripts/lib/profiles/slate-parsers.ts, and the parser stops on one it does not know. Statewide list: offices outside Los Angeles County are marked \"outside\". \"No Endorsement\" and ballot measures are left out.",
+  "documentUrl": "https://cragop.org/wp-content/uploads/2026/10/Updated-10-01-26-November-2026-General-Election-Endorsements-.pdf",
+  "fetchedAt": "2026-10-15",
+  "entries": [
+    {
+      "name": "Steve Hilton",
+      "office": "Governor",
+      "matchedKey": "steve-hilton"
+    },
+    {
+      "name": "Gloria Romero",
+      "office": "Lieutenant Governor",
+      "matchedKey": "gloria-romero"
+    },
+    {
+      "name": "Michael Gates",
+      "office": "Attorney General",
+      "matchedKey": "michael-e-gates"
+    },
+    {
+      "name": "Don Wagner",
+      "office": "Secretary of State",
+      "matchedKey": "donald-p-don-wagner"
+    },
+    {
+      "name": "Herb Morgan",
+      "office": "State Controller",
+      "matchedKey": "herb-w-morgan"
+    },
+    {
+      "name": "Jennifer Hawks",
+      "office": "State Treasurer",
+      "matchedKey": "jennifer-hawks"
+    },
+    {
+      "name": "Sonja Shaw",
+      "office": "Superintendent of Public Instruction",
+      "matchedKey": "sonja-shaw"
+    },
+    {
+      "name": "Shannon Grove",
+      "office": "Board of Equalization, District 1",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Denis Bilodeau",
+      "office": "Board of Equalization, District 4",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Robb Tucker",
+      "office": "U.S. House, District 3",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Tom McClintock",
+      "office": "U.S. House, District 5",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Rudy Recile",
+      "office": "U.S. House, District 8",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "John McBride",
+      "office": "U.S. House, District 9",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Shane Lewis",
+      "office": "U.S. House, District 18",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Vince Fong",
+      "office": "U.S. House, District 20",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "David Valadao",
+      "office": "U.S. House, District 22",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Jay Obernolte",
+      "office": "U.S. House, District 23",
+      "matchedKey": "jay-obernolte"
+    },
+    {
+      "name": "Joe Males",
+      "office": "U.S. House, District 25",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Jason Gibbs",
+      "office": "U.S. House, District 27",
+      "matchedKey": "jason-gibbs"
+    },
+    {
+      "name": "April Verlato",
+      "office": "U.S. House, District 28",
+      "matchedKey": "april-a-verlato"
+    },
+    {
+      "name": "Larry Thompson",
+      "office": "U.S. House, District 32",
+      "matchedKey": "larry-thompson"
+    },
+    {
+      "name": "Stephanie Vargas",
+      "office": "U.S. House, District 33",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Mike Cargile",
+      "office": "U.S. House, District 35",
+      "matchedKey": "mike-cargile"
+    },
+    {
+      "name": "Houston Brignano",
+      "office": "U.S. House, District 36",
+      "matchedKey": "houston-brignano"
+    },
+    {
+      "name": "Pedro Antonio Casas",
+      "office": "U.S. House, District 38",
+      "matchedKey": "pedro-antonio-casas"
+    },
+    {
+      "name": "Ken Calvert",
+      "office": "U.S. House, District 40",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Brian Burley",
+      "office": "U.S. House, District 42",
+      "matchedKey": "brian-burley"
+    },
+    {
+      "name": "Cristian Morales",
+      "office": "U.S. House, District 43",
+      "matchedKey": "cristian-morales"
+    },
+    {
+      "name": "Chuong Vo",
+      "office": "U.S. House, District 45",
+      "matchedKey": "chuong-v-vo"
+    },
+    {
+      "name": "David Pan",
+      "office": "U.S. House, District 46",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Armen Kurdian",
+      "office": "U.S. House, District 49",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Tief Gibbs",
+      "office": "State Senate, District 2",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Roger Niello",
+      "office": "State Senate, District 6",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Sue Mason",
+      "office": "State Senate, District 8",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Nathan Magsig",
+      "office": "State Senate, District 12",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Darin DuPont",
+      "office": "State Senate, District 14",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Guillermo Gonzalez",
+      "office": "State Senate, District 16",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Tony Rodriguez",
+      "office": "State Senate, District 20",
+      "matchedKey": "tony-rodriguez"
+    },
+    {
+      "name": "Mike Netter",
+      "office": "State Senate, District 22",
+      "matchedKey": "mike-netter"
+    },
+    {
+      "name": "Joe Lisuzzo",
+      "office": "State Senate, District 28",
+      "matchedKey": "joe-lisuzzo"
+    },
+    {
+      "name": "Araceli Martinez",
+      "office": "State Senate, District 30",
+      "matchedKey": "araceli-martinez"
+    },
+    {
+      "name": "Kelly Seyarto",
+      "office": "State Senate, District 32",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Rhonda Shader",
+      "office": "State Senate, District 34",
+      "matchedKey": "rhonda-shader"
+    },
+    {
+      "name": "Tony Strickland",
+      "office": "State Senate, District 36",
+      "matchedKey": "tony-strickland"
+    },
+    {
+      "name": "Laura Basse",
+      "office": "State Senate, District 38",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Dom Belza",
+      "office": "State Assembly, District 3",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Josh Hoover",
+      "office": "State Assembly, District 7",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "David Tangipa",
+      "office": "State Assembly, District 8",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Juan Alanis",
+      "office": "State Assembly, District 22",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Michael Murphy",
+      "office": "State Assembly, District 27",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Shannon Kessler",
+      "office": "State Assembly, District 30",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Jim Polsgrove",
+      "office": "State Assembly, District 31",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "David Couch",
+      "office": "State Assembly, District 32",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Alexandra Macedo",
+      "office": "State Assembly, District 33",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Charles Hughes",
+      "office": "State Assembly, District 34",
+      "matchedKey": "charles-frederick-hughes"
+    },
+    {
+      "name": "Saul Ayon",
+      "office": "State Assembly, District 35",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Adam Vena",
+      "office": "State Assembly, District 41",
+      "matchedKey": "adam-christopher-vena"
+    },
+    {
+      "name": "Ted Nordblum",
+      "office": "State Assembly, District 42",
+      "matchedKey": "ted-nordblum"
+    },
+    {
+      "name": "Ricardo Benitez",
+      "office": "State Assembly, District 43",
+      "matchedKey": "ricardo-benitez"
+    },
+    {
+      "name": "Greg Abdouch",
+      "office": "State Assembly, District 45",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Tracey Schroeder",
+      "office": "State Assembly, District 46",
+      "matchedKey": "tracey-schroeder"
+    },
+    {
+      "name": "Victoria Mageno",
+      "office": "State Assembly, District 50",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Andrea Lee Anderson",
+      "office": "State Assembly, District 52",
+      "matchedKey": "andrea-lee-anderson"
+    },
+    {
+      "name": "Rafaela Romero",
+      "office": "State Assembly, District 53",
+      "matchedKey": "rafaela-romero"
+    },
+    {
+      "name": "Jessica Martinez",
+      "office": "State Assembly, District 56",
+      "matchedKey": "jessica-martinez"
+    },
+    {
+      "name": "Constance Menzies",
+      "office": "State Assembly, District 57",
+      "matchedKey": "constance-jewel-menzies"
+    },
+    {
+      "name": "Leticia Castillo",
+      "office": "State Assembly, District 58",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Phillip Chen",
+      "office": "State Assembly, District 59",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Ed Delgado",
+      "office": "State Assembly, District 60",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Natasha Johnson",
+      "office": "State Assembly, District 63",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Raul Ortiz Jr.",
+      "office": "State Assembly, District 64",
+      "matchedKey": "raul-ortiz-jr"
+    },
+    {
+      "name": "Lydia Gutierrez",
+      "office": "State Assembly, District 65",
+      "matchedKey": "lydia-a-gutierrez"
+    },
+    {
+      "name": "Tri Ta",
+      "office": "State Assembly, District 70",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Kate Sanchez",
+      "office": "State Assembly, District 71",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Gracie Van Der Mark",
+      "office": "State Assembly, District 72",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Urson Russell",
+      "office": "State Assembly, District 73",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Andrew Lawson",
+      "office": "State Assembly, District 79",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Raymond Vergara",
+      "office": "Hawthorne Treasurer",
+      "matchedKey": "raymond-vergara"
+    },
+    {
+      "name": "Sergio Mortara",
+      "office": "Hawthorne City Council, At Large",
+      "matchedKey": "sergio-roberto-mortara"
+    }
+  ]
+}

@@ -1,0 +1,435 @@
+{
+  "key": "randall-putz",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Randall Putz",
+  "party": "Democratic",
+  "office": "State Assembly Member, 34th District",
+  "contestIds": ["la-4348-cc10781"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Randall Putz is the mayor of Big Bear Lake and a small business owner. He has served on the Big Bear Lake City Council for 12 years and was a Bear Valley Unified School Board trustee for six years. He co-founded the Big Bear Valley Trails Foundation and opened Chirp Nature Center in 2018. Putz supports reducing red tape and expanding funding for workforce and affordable housing. His campaign says he supports policing strategies that target violent crime and drug trafficking, and investments in fire protection and rural emergency medical services. He has called for tying education spending to teacher retention and student outcomes, rather than paperwork compliance.",
+        "cites": [1, 2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "Randall Putz is the mayor of Big Bear Lake and a small business owner.",
+            "cites": [1]
+          },
+          {
+            "text": "He has served on the Big Bear Lake City Council for 12 years and was a Bear Valley Unified School Board trustee for six years.",
+            "cites": [1]
+          },
+          {
+            "text": "He co-founded the Big Bear Valley Trails Foundation and opened Chirp Nature Center in 2018.",
+            "cites": [2]
+          },
+          {
+            "text": "Putz supports reducing red tape and expanding funding for workforce and affordable housing.",
+            "cites": [3]
+          },
+          {
+            "text": "His campaign says he supports policing strategies that target violent crime and drug trafficking, and investments in fire protection and rural emergency medical services.",
+            "cites": [4]
+          },
+          {
+            "text": "He has called for tying education spending to teacher retention and student outcomes, rather than paperwork compliance.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Putz for Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1480258",
+        "period": "July 1 to September 19, 2026",
+        "raised": 52036.15,
+        "cashOnHand": 11309.44,
+        "breakdown": [
+          { "kind": "small", "amount": 740.88 },
+          { "kind": "large", "amount": 27995.27 },
+          { "kind": "pac", "amount": 18300 },
+          { "kind": "other", "amount": 5000 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 4500, "count": 2 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "U.S. Rep. Pete Aguilar",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "U.S. Rep. Norma Torres",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "U.S. Rep. George Whitesides",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Lt. Gov. Eleni Kounalakis",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "California State Treasurer Fiona Ma",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "State Superintendent of Public Instruction Tony Thurmond",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "State Sen. Tom Umberg",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "State Sen. Eloise Gómez Reyes",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assembly Speaker pro Tempore Josh Lowenthal",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Rick Chavez Zbur",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Juan Carrillo",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember James Ramos",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Robert Garcia",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember John Harabedian",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Nick Schultz",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Corey Jackson",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Al Muratsuchi",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Blanca Pacheco",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Mark González",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember José Solache",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Darshana Patel",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Lindsey Horvath",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "San Bernardino County Supervisor Joe Baca Jr.",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "California Democratic Party",
+        "kind": "party",
+        "cites": [7]
+      },
+      {
+        "organization": "California Federation of Teachers",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "California School Employees Association",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [6]
+      },
+      { "organization": "SEIU Local 1000", "kind": "union", "cites": [9] },
+      {
+        "organization": "Communications Workers of America",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "United Auto Workers (UAW) Region 6",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "California Young Democrats",
+        "kind": "party",
+        "cites": [6]
+      },
+      {
+        "organization": "The Community Action Fund of Planned Parenthood of Orange and San Bernardino Counties",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Inland Empire United",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "San Bernardino County Professional Firefighters, Local 935",
+        "kind": "union",
+        "cites": [6]
+      },
+      { "organization": "IBEW Local 40", "kind": "union", "cites": [6] },
+      {
+        "organization": "United Food and Commercial Workers (UFCW) Local 1167",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Southern California Armenian Democrats",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "San Bernardino County Young Democrats",
+        "kind": "party",
+        "cites": [6]
+      },
+      {
+        "organization": "High Desert Progressive Democrats",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "Mountain Bears Democratic Club",
+        "kind": "organization",
+        "cites": [13]
+      },
+      {
+        "organization": "California Teachers Association",
+        "kind": "union",
+        "cites": [14]
+      },
+      { "organization": "Knock LA", "kind": "organization", "cites": [15] },
+      { "organization": "LA Forward", "kind": "organization", "cites": [16] },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [17] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Randall Putz, Assembly District 34 candidate, 2026 election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/randall-putz-assembly-district-34-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "About | Randall Putz for Assembly District 34",
+      "publisher": "Randall Putz campaign",
+      "url": "https://www.putzforassembly.com/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "California State Assembly Districts 34 and 47 Primary Preview",
+      "publisher": "Desert Trumpet",
+      "url": "https://www.deserttrumpet.org/p/california-state-assembly-districts?action=share",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Public Safety | Randall On The Issues",
+      "publisher": "Randall Putz campaign",
+      "url": "https://www.putzforassembly.com/public-safety",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Randall Putz: Education is more than an expense",
+      "publisher": "Pasadena Star-News",
+      "url": "https://www.pasadenastarnews.com/2026/09/30/randall-putz-education-is-more-than-an-expense/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements | Get Involved Today — Randall Putz For Assembly District 34",
+      "publisher": "Putz for Assembly 2026",
+      "url": "https://www.putzforassembly.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "2026 General Election Endorsements & Ballot Measure Positions",
+      "publisher": "California Democratic Party",
+      "url": "https://cadem.org/wp-content/uploads/2026/08/FINAL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 8,
+      "title": "General Election 2026 • Tuesday, November 3",
+      "publisher": "California Federation of Teachers COPE",
+      "url": "https://utla.net/app/uploads/2026/08/cft_endorsements-primary-election_4.27.2026_1.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "2026 Elections - SEIU Local 1000",
+      "publisher": "SEIU Local 1000",
+      "url": "https://www.seiu1000.org/2026elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "2026 Midterm Election Voter Guide | The Community Action Fund of Planned Parenthood of Orange and San Bernardino Counties",
+      "publisher": "The Community Action Fund of Planned Parenthood of Orange and San Bernardino Counties",
+      "url": "https://www.plannedparenthoodaction.org/community-action-fund-planned-parenthood-orange-and-san-bernardi/elections/2026-midterm-election-voter-guide",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "2026 Endorsements – Inland Empire United",
+      "publisher": "Inland Empire United",
+      "url": "https://ieunited.org/2026-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "Endorsements | High Desert Progress",
+      "publisher": "High Desert Progressive Democrats",
+      "url": "https://www.hdprogressivedemocrats.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 13,
+      "title": "Speakers – Mountain Bears Democratic Club",
+      "publisher": "Mountain Bears Democratic Club",
+      "url": "https://mountainbearsdemocrats.org/speakers/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "2026 Candidate Recommendations",
+      "publisher": "California Teachers Association",
+      "url": "https://www.cta.org/our-advocacy/election-2026",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
+      "publisher": "Knock LA (Ground Game LA)",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
+      "publisher": "SEIU Local 721",
+      "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 17
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.662Z",
+    "version": 4
+  }
+}

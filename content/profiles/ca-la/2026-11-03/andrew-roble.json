@@ -1,0 +1,100 @@
+{
+  "key": "andrew-roble",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Andrew Roble",
+  "office": "Whittier City School District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10735"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Andrew Roble described himself as a parent and labor leader in his candidate filing for the Whittier City School District Governing Board.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Andrew Roble described himself as a parent and labor leader in his candidate filing for the Whittier City School District Governing Board.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Andrew Roble for Whittier School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216999229-Andrew%20Roble%20for%20Whittier%20School%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 6626.49,
+        "cashOnHand": 6375.31,
+        "breakdown": [
+          { "kind": "small", "amount": 506.55 },
+          { "kind": "large", "amount": 3485.21 },
+          { "kind": "pac", "amount": 250 },
+          { "kind": "other", "amount": 2384.73 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [2]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [3] },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate List - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 4
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.169Z",
+    "version": 3
+  }
+}

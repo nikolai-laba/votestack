@@ -1,0 +1,166 @@
+{
+  "key": "tamala-p-kelly",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Tamala P. Kelly",
+  "office": "City of Monrovia, Member of the City Council",
+  "contestIds": ["la-4348-cc10486"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Tamala P. Kelly was elected to the Monrovia City Council in 2022 and appointed Mayor Pro Tem from 2024 to 2026. She is an associate college professor and a CEO, and she co-founded The Purpose Church in Monrovia.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Tamala P. Kelly was elected to the Monrovia City Council in 2022 and appointed Mayor Pro Tem from 2024 to 2026.",
+            "cites": [1]
+          },
+          {
+            "text": "She is an associate college professor and a CEO, and she co-founded The Purpose Church in Monrovia.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "Her priorities include public safety, affordable housing, preserving Monrovia’s character, and ensuring the city remains fiscally responsible and transparent. Her 2022 campaign statement called for city-wide town halls, creating a community-based response team for some 911 calls, and reinstating the city’s Environmental Accord.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Her priorities include public safety, affordable housing, preserving Monrovia’s character, and ensuring the city remains fiscally responsible and transparent.",
+            "cites": [1]
+          },
+          {
+            "text": "Her 2022 campaign statement called for city-wide town halls, creating a community-based response team for some 911 calls, and reinstating the city’s Environmental Accord.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Monrovia",
+      "url": "https://netfile.com/public/MON/campaign"
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Assemblymember John Harabedian",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [3]
+      },
+      {
+        "organization": "Monrovia Mayor Becky Shevlin",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Monrovia Mayor Pro Tem Sergio Jimenez",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Monrovia Councilmember Larry J. Spicer",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Monrovia Councilmember Edward Belden",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Monrovia City Treasurer Janet Wall",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Former Monrovia Mayor and Former Citrus Community College Board Trustee Mary Ann Lutz",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Former Monrovia Mayor Lara Larramendi",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Former Pasadena Councilwoman Jackie Robins",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Former Monrovia Unified School Board Vice President Traci Gholar",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [4]
+      },
+      {
+        "organization": "Foothill Community Democrats",
+        "kind": "party",
+        "cites": [3]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [5] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Meet the City Council",
+      "publisher": "City of Monrovia",
+      "url": "https://www.monroviaca.gov/your-government/city-council/meet-the-city-council",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Statement of City Council Candidate Dr. Tamala Kelly",
+      "publisher": "Monrovia Now",
+      "url": "https://www.monrovianow.com/2022/05/statement-of-city-council-candidate-dr.html",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "View Endorsements - Friends of Tamala Kelly",
+      "publisher": "Friends of Tamala Kelly Campaign",
+      "url": "https://www.votetamalakelly.com/view-endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Endorsed Candidates - 2026 General Election",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 5
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.760Z",
+    "version": 3
+  }
+}

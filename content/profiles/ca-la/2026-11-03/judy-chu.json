@@ -1,0 +1,481 @@
+{
+  "key": "judy-chu",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Judy Chu",
+  "party": "Democratic",
+  "office": "U.S. Representative, 28th District",
+  "contestIds": ["la-4348-cc10808-r1", "la-4348-cc10808-r2"],
+  "kind": "candidate",
+  "tier": "top",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Judy Chu is the U.S. Representative for the 28th District, which includes Pasadena and the west San Gabriel Valley. She was first elected to Congress in 2009, after serving on the Monterey Park City Council, in the California State Assembly, and on the State Board of Equalization. In Congress, she serves on the House Ways and Means Committee, where her subcommittee assignments include Health, Worker and Family Support, and Oversight, and on the House Budget Committee. She chaired the Congressional Asian Pacific American Caucus from 2011 to 2025.",
+        "cites": [1, 2, 3]
+      },
+      {
+        "text": "Her campaign highlights her work passing a congressional resolution of regret for the Chinese Exclusion Act of 1882, and working with President Obama to create, and President Biden to expand, the San Gabriel Mountains National Monument. Her campaign also notes her role in reviving the Small Business Administration's 504 loan refinance program and establishing two new Small Business Development Centers in the San Gabriel Valley. In 2026, she secured more than $7 million in community project funding for her district, including money for a joint fire training center in Arcadia, zero-emission buses for Foothill Transit, and facility upgrades at the Altadena Community Center and Pasadena's Jackie Robinson Community Center.",
+        "cites": [2, 4],
+        "sentences": [
+          {
+            "text": "Her campaign highlights her work passing a congressional resolution of regret for the Chinese Exclusion Act of 1882, and working with President Obama to create, and President Biden to expand, the San Gabriel Mountains National Monument.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign also notes her role in reviving the Small Business Administration's 504 loan refinance program and establishing two new Small Business Development Centers in the San Gabriel Valley.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2026, she secured more than $7 million in community project funding for her district, including money for a joint fire training center in Arcadia, zero-emission buses for Foothill Transit, and facility upgrades at the Altadena Community Center and Pasadena's Jackie Robinson Community Center.",
+            "cites": [4]
+          }
+        ]
+      },
+      {
+        "text": "In 2026, she introduced the Harry Lew and Danny Chen Military Justice Reform Act to make military hazing a separate federal crime. She voted against a bill to fund the Department of Homeland Security, calling Immigration and Customs Enforcement \"an uncontrolled rogue agency.\" Her campaign says she has also introduced legislation to create a new legal protection for the right to provide and obtain abortion care. In September 2026, she voted against a resolution to block California's emissions rules for commercial harbor craft.",
+        "cites": [5, 6],
+        "sentences": [
+          {
+            "text": "In 2026, she introduced the Harry Lew and Danny Chen Military Justice Reform Act to make military hazing a separate federal crime.",
+            "cites": [5]
+          },
+          {
+            "text": "She voted against a bill to fund the Department of Homeland Security, calling Immigration and Customs Enforcement \"an uncontrolled rogue agency.\"",
+            "cites": [5]
+          },
+          {
+            "text": "Her campaign says she has also introduced legislation to create a new legal protection for the right to provide and obtain abortion care.",
+            "cites": [5]
+          },
+          {
+            "text": "In September 2026, she voted against a resolution to block California's emissions rules for commercial harbor craft.",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Judy Chu for Congress",
+        "url": "https://www.fec.gov/data/committee/C00458125/?cycle=2026",
+        "period": "January 1, 2025 to June 30, 2026",
+        "raised": 930123.25,
+        "cashOnHand": 3674296.35,
+        "breakdown": [
+          { "kind": "small", "amount": 37156.14 },
+          { "kind": "large", "amount": 513192.11 },
+          { "kind": "pac", "amount": 379775 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "U.S. Sen. Alex Padilla",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Sen. Adam Schiff",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Gov. Gavin Newsom",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Lt. Gov. Eleni Kounalakis",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Attorney General Rob Bonta",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Controller Malia Cohen",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Treasurer Fiona Ma",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Nancy Pelosi",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Pete Aguilar",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Ted Lieu",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Maxine Waters",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Brad Sherman",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Robert Garcia",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Sen. María Elena Durazo",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Sen. Ben Allen",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Sen. Sasha Renée Pérez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Sen. Bob Archuleta",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Assemblymember Mike Fong",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Assemblymember Lisa Calderon",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Assemblymember John Harabedian",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Hilda Solis",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Lindsey Horvath",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Los Angeles County Sheriff Robert Luna",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Los Angeles Mayor Karen Bass",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "California Democratic Party",
+        "kind": "party",
+        "cites": [8]
+      },
+      {
+        "organization": "League of Conservation Voters Action Fund",
+        "kind": "organization",
+        "cites": [9]
+      },
+      { "organization": "Giffords PAC", "kind": "organization", "cites": [10] },
+      {
+        "organization": "Planned Parenthood Action Fund",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Human Rights Campaign",
+        "kind": "organization",
+        "cites": [7]
+      },
+      { "organization": "Sierra Club", "kind": "organization", "cites": [7] },
+      {
+        "organization": "National Education Association",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Communications Workers of America District 9",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "California Labor Federation",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "California Professional Firefighters",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Service Employees International Union-California",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Americans for Democratic Action Southern California",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "Asian Democrats of Los Angeles County",
+        "kind": "organization",
+        "cites": [13]
+      },
+      { "organization": "ACT", "kind": "organization", "cites": [14] },
+      {
+        "organization": "Pasadena Arroyo Democratic Club",
+        "kind": "organization",
+        "cites": [14]
+      },
+      {
+        "organization": "California Environmental Voters",
+        "kind": "organization",
+        "cites": [15]
+      },
+      {
+        "organization": "California Federation of Teachers",
+        "kind": "union",
+        "cites": [16]
+      },
+      {
+        "organization": "California Teachers Association",
+        "kind": "union",
+        "cites": [17]
+      },
+      { "organization": "Knock LA", "kind": "organization", "cites": [18] },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [19]
+      },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [20] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Biography | Representative Judy Chu",
+      "publisher": "U.S. House of Representatives",
+      "url": "https://chu.house.gov/about/biography",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "About — Judy Chu for Congress",
+      "publisher": "Judy Chu for Congress",
+      "url": "https://www.judychu.org/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Judy Chu",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Judy_Chu",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Pasadena, Altadena Projects Included in $7 Million Secured by Congresswoman Rep. Chu in Federal Spending Bill",
+      "publisher": "Pasadena Now",
+      "url": "https://pasadenanow.com/main/pasadena-altadena-projects-included-in-7-million-secured-by-congresswoman-rep-chu-in-federal-spending-bill",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Press — Judy Chu for Congress",
+      "publisher": "Judy Chu for Congress",
+      "url": "https://www.judychu.org/press",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Votes and Legislation | Representative Judy Chu",
+      "publisher": "U.S. House of Representatives",
+      "url": "https://chu.house.gov/about/votes-and-legislation",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "2026 Endorsements — Judy Chu for Congress",
+      "publisher": "Judy Chu for Congress",
+      "url": "https://www.judychu.org/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "2026 General Election Endorsements & Ballot Measure Positions",
+      "publisher": "California Democratic Party",
+      "url": "https://cadem.org/wp-content/uploads/2026/08/8.5.26-FINAL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "LCV Action Fund Endorses New Slate of Candidates for U.S. House of Representatives and Senate",
+      "publisher": "League of Conservation Voters",
+      "url": "https://www.lcv.org/media-center/lcv-action-fund-endorses-new-slate-of-candidates-for-u-s-house-of-representatives-and-senate/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "Judy Chu | GIFFORDS",
+      "publisher": "Giffords",
+      "url": "https://giffords.org/candidates/judy-chu-2/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "2026 CA - General Election Endorsements",
+      "publisher": "CWA District 9",
+      "url": "https://cwad9.org/2026-ca-general-election-endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "U.S House of Representatives - ADA SoCal",
+      "publisher": "Americans for Democratic Action Southern California",
+      "url": "https://www.adasocal.org/u_s_house_of_reprsentatives",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 13,
+      "title": "2026 Endorsements - ASIAN DEMS",
+      "publisher": "Asian Democrats of Los Angeles County",
+      "url": "https://www.asiandemsla.org/2026-endorsements.html",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 14,
+      "title": "ACT, Pasadena Arroyo Democratic Club Endorse Pasadena Council Incumbents, Back Becerra for Governor",
+      "publisher": "Pasadena Now",
+      "url": "https://pasadenanow.com/main/act-pasadena-arroyo-democratic-club-endorse-pasadena-council-incumbents-back-becerra-for-governor",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Who We're Endorsing in California's 2026 Election",
+      "publisher": "California Environmental Voters",
+      "url": "https://envirovoters.org/2026-endorsements/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "CFT Endorsements, General Election 2026 (Tuesday, November 3)",
+      "publisher": "California Federation of Teachers",
+      "url": "https://www.cft.org/2026-midterm-elections-hub",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "2026 Candidate Recommendations",
+      "publisher": "California Teachers Association",
+      "url": "https://www.cta.org/our-advocacy/election-2026",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
+      "publisher": "Knock LA (Ground Game LA)",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
+      "publisher": "SEIU Local 721",
+      "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 20
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.787Z",
+    "version": 5
+  }
+}

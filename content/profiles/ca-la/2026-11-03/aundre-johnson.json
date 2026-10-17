@@ -1,0 +1,88 @@
+{
+  "key": "aundre-johnson",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Aundre Johnson",
+  "office": "City of Claremont, Member of the City Council, 4th District",
+  "contestIds": ["la-4348-cc10436"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Aundré Johnson is a film and television director and consultant. He previously ran a video production business and worked at 20th Century Fox Television. His campaign says he served as a volunteer on the Claremont Police Commission, the Police Station Citizens Advisory Committee, and the Sumner Danbury Elementary School Site Council.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Aundré Johnson is a film and television director and consultant.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously ran a video production business and worked at 20th Century Fox Television.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he served as a volunteer on the Claremont Police Commission, the Police Station Citizens Advisory Committee, and the Sumner Danbury Elementary School Site Council.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "His campaign says if elected he would focus on neighborhood safety, infrastructure, and homelessness. He also supports responsible spending and government transparency.",
+        "cites": [2],
+        "sentences": [
+          {
+            "text": "His campaign says if elected he would focus on neighborhood safety, infrastructure, and homelessness.",
+            "cites": [2]
+          },
+          {
+            "text": "He also supports responsible spending and government transparency.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Claremont",
+      "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=304233&dbid=0&repo=r-634094de"
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Former Claremont Mayor Sam Pedroza",
+        "kind": "elected_official",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Election 2026 profiles: Aundre Johnson, Claremont City Council",
+      "publisher": "Claremont COURIER",
+      "url": "https://claremontcourier.com/latest-news/election-2026-profiles-aundre-johnson-claremont-city-council-90505/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Homepage - Aundré Johnson for Claremont",
+      "publisher": "Aundré Johnson for Claremont",
+      "url": "https://www.johnsonforclaremont.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.340Z",
+    "version": 2
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "key": "lisa-c-nashua",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Lisa C. Nashua",
+  "office": "Pomona Unified School District, Governing Board Member, Trustee Area No. 1",
+  "contestIds": ["la-4348-cc10663"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Lisa C. Nashua is a member of the Pomona Unified School District Board of Education, representing Trustee Area 1, and was elected in 2022. She serves as board president. She is also the executive director of the Los Angeles City College Foundation.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Lisa C. Nashua is a member of the Pomona Unified School District Board of Education, representing Trustee Area 1, and was elected in 2022.",
+            "cites": [1]
+          },
+          { "text": "She serves as board president.", "cites": [2] },
+          {
+            "text": "She is also the executive director of the Los Angeles City College Foundation.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign website says she supports increasing school safety, expanding technical training programs that lead to living-wage careers, and providing enrichment in the visual and performing arts. As board president, she backed a districtwide student safety initiative for scooter and bicycle education.",
+        "cites": [3, 4]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Nashua for Pomona Unified School District Trustee 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/211578276-Nashua%20for%20Pomona%20Unified%20School%20District%20Trustee%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 9869.89,
+        "cashOnHand": 8641.97,
+        "breakdown": [
+          { "kind": "small", "amount": 84.29 },
+          { "kind": "large", "amount": 7237.96 },
+          { "kind": "pac", "amount": 1500 },
+          { "kind": "candidate", "amount": 1047.64 }
+        ],
+        "fromCandidate": 1047.64,
+        "largeSince": { "since": "2026-09-19", "total": 10500, "count": 5 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Assemblymember Michelle Rodriguez (Assembly District 53)",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Carlos Goytia, Three Valleys Municipal Water District Board of Directors",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Jorge Marquez, Three Valleys Municipal Water District Board of Directors",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Dr. Armond Aghakanian, Burbank Unified School District Board of Education Member",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Sue Ovitt, Chaffey Joint Union High School District Board of Trustees President",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Gary Ovitt, Chaffey College Governing Board Member",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Los Angeles County Federation of Labor, AFL-CIO",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Los Angeles/Orange Counties Building & Construction Trades Council",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "International Brotherhood of Electrical Workers, Local 11",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "United Food and Commercial Workers Local 1428",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "California School Employees Association, Chapter 14",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Associated Pomona Teachers",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Bricklayers and Tile Layers Local 4, So. California",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Pomona Democratic Club",
+        "kind": "organization",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Trustee Area 1 Schools - Board of Trustees",
+      "publisher": "Pomona Unified School District",
+      "url": "https://proudtobe.pusd.org/apps/pages/TrusteeArea1",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "About Us - Board of Trustees",
+      "publisher": "Pomona Unified School District",
+      "url": "https://proudtobe.pusd.org/apps/pages/AboutUs",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "About Dr. Lisa Nashua",
+      "publisher": "Lisa Nashua campaign",
+      "url": "https://lisanashua4pusd.com/?p=1",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Press Release: Pomona Unified Honors Simons Middle School Student, Angel Mendoza Lopez, Launches Student Safety Initiative",
+      "publisher": "Pomona Unified School District",
+      "url": "https://proudtobe.pusd.org/apps/news/article/2208589?categoryId=11710",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Endorsements",
+      "publisher": "Nashua for Pomona Unified School District Trustee 2026",
+      "url": "https://lisanashua4pusd.com/?page_id=147",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.251Z",
+    "version": 4
+  }
+}

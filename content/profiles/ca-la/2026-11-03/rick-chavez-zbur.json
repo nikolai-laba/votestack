@@ -1,0 +1,451 @@
+{
+  "key": "rick-chavez-zbur",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Rick Chavez Zbur",
+  "party": "Democratic",
+  "office": "State Assembly Member, 51st District",
+  "contestIds": ["la-4348-cc10791"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Rick Chavez Zbur is the State Assembly Member for the 51st District and the Assembly Democratic Caucus Chair. He previously directed Equality California and was board president of California Environmental Voters. He authored the California Retail Theft Reduction Act, allowing multiple thefts to be charged as a felony. He backed a law expanding eligibility for the state's film and television tax credit.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Rick Chavez Zbur is the State Assembly Member for the 51st District and the Assembly Democratic Caucus Chair.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously directed Equality California and was board president of California Environmental Voters.",
+            "cites": [1]
+          },
+          {
+            "text": "He authored the California Retail Theft Reduction Act, allowing multiple thefts to be charged as a felony.",
+            "cites": [2]
+          },
+          {
+            "text": "He backed a law expanding eligibility for the state's film and television tax credit.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "He supported bills to maintain sterile syringe access and require large cities to plan for electric-vehicle charging. He also backed legislation protecting attorneys who help out-of-state clients seek reproductive and gender-affirming care. He opposed a coastal development exemption in Santa Monica. He led opposition to a bill allowing dense housing near transit, defending single-family zoning.",
+        "cites": [3, 4, 5],
+        "sentences": [
+          {
+            "text": "He supported bills to maintain sterile syringe access and require large cities to plan for electric-vehicle charging.",
+            "cites": [3]
+          },
+          {
+            "text": "He also backed legislation protecting attorneys who help out-of-state clients seek reproductive and gender-affirming care.",
+            "cites": [3]
+          },
+          {
+            "text": "He opposed a coastal development exemption in Santa Monica.",
+            "cites": [4]
+          },
+          {
+            "text": "He led opposition to a bill allowing dense housing near transit, defending single-family zoning.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Re-Elect Rick Chavez Zbur for Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477252",
+        "period": "July 1 to September 19, 2026",
+        "raised": 129811,
+        "cashOnHand": 789464.27,
+        "breakdown": [
+          { "kind": "small", "amount": 301 },
+          { "kind": "large", "amount": 38410 },
+          { "kind": "pac", "amount": 45900 },
+          { "kind": "other", "amount": 45200 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 157300, "count": 44 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Democratic Party",
+        "kind": "party",
+        "cites": [6]
+      },
+      {
+        "organization": "U.S. Sen. Alex Padilla",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Sen. Adam Schiff",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Laura Friedman",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Ted Lieu",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Brad Sherman",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Gov. Gavin Newsom",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Lt. Gov. Eleni Kounalakis",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Attorney General Rob Bonta",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Treasurer Fiona Ma",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Insurance Commissioner Ricardo Lara",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Secretary of State Shirley N. Weber",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Controller Malia Cohen",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Superintendent of Public Instruction Tony Thurmond",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "State Board of Equalization Member Antonio Vazquez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Assembly Speaker Robert Rivas",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Sen. Ben Allen",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Sen. Maria Elena Durazo",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Janice Hahn",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Lindsey Horvath",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Los Angeles Mayor Karen Bass",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "California Labor Federation",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "California Nurses Association",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "California Professional Firefighters",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "SEIU California State Council",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Sierra Club California",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Consumer Attorneys of California",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Communications Workers of America District 9",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Israeli-American Civic Action Network (ICAN)",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Climate Action California",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "California Young Democrats",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "AFSCME California PEOPLE",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "National Union of Healthcare Workers",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "United Nurses Associations of California/United Health Care Professionals (UNAC/UHCP)",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "IATSE California", "kind": "union", "cites": [7] },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "United Farm Workers", "kind": "union", "cites": [7] },
+      {
+        "organization": "Los Angeles/Orange County Building and Construction Trades Council",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "LGBTQ+ Victory Fund",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "California Environmental Voters",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "Democrats for Israel – Los Angeles",
+        "kind": "organization",
+        "cites": [13]
+      },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [14]
+      },
+      {
+        "organization": "Planned Parenthood Advocacy Project Los Angeles County",
+        "kind": "organization",
+        "cites": [15]
+      },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [16] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Biography | Official Website - Rick Chavez Zbur",
+      "publisher": "Official Website - Rick Chavez Zbur",
+      "url": "https://zbur.asmdc.org/biography",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Catching Up with Rick: End of Summer 2024",
+      "publisher": "Official Website - Rick Chavez Zbur",
+      "url": "https://zbur.asmdc.org/newsletters/catching-rick-summer-2024",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Catching Up With Rick - Back in the District",
+      "publisher": "Official Website - Rick Chavez Zbur",
+      "url": "https://zbur.asmdc.org/newsletters/catching-rick-back-district",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "A coastal development exemption in Santa Monica? Shame on Gov. Newsom",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-08-28/coastal-development-exemption-in-santa-monica-shame-on-gov-newsom",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Rick Zbur",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rick_Zbur",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "2026 General Election Endorsements & Ballot Measure Positions (August 2, 2026)",
+      "publisher": "California Democratic Party",
+      "url": "https://cadem.org/wp-content/uploads/2026/08/8.5.26-FINAL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements | Rick Chavez Zbur for State Assembly",
+      "publisher": "Re-Elect Rick Chavez Zbur for Assembly 2026",
+      "url": "https://www.rickchavezzbur.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "Rick Chavez Zbur, Colin Hernandez advance to state assembly general election",
+      "publisher": "Daily Bruin",
+      "url": "https://dailybruin.com/2026/06/06/rick-chavez-zbur-colin-hernandez-advance-to-state-assembly-general-election",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "2026 CA - General Election Endorsements",
+      "publisher": "CWA District 9",
+      "url": "https://cwad9.org/2026-ca-general-election-endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "ICAN Announces First Round of 2026 Endorsements",
+      "publisher": "Israeli-American Civic Action Network",
+      "url": "https://icanaction.org/briefings/ican-announces-first-round-of-2026-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "AD 51: Rick Chavez Zbur",
+      "publisher": "Climate Action California",
+      "url": "https://climateactioncaelections.org/ad-51-rick-chavez-zbur-2/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Who We're Endorsing in California's 2026 Election",
+      "publisher": "California Environmental Voters",
+      "url": "https://envirovoters.org/2026-endorsements/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Democrats for Israel – Los Angeles",
+      "url": "https://dfi-la.org/endorse",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "Voter Guide, November 3, 2026",
+      "publisher": "Planned Parenthood Advocacy Project Los Angeles County",
+      "url": "https://www.plannedparenthoodaction.org/planned-parenthood-advocacy-project-los-angeles-county/voter-guide-ppapx",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
+      "publisher": "SEIU Local 721",
+      "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 16
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.693Z",
+    "version": 4
+  }
+}

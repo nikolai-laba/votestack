@@ -2,6 +2,7 @@
 // the Search API as the evidence step for models without their own search.
 // The Agent API replaced Sonar chat completions, which now return 403.
 
+import { isBlockedSite } from '../place.ts'
 import {
   apiKey,
   costFromUsage,
@@ -137,7 +138,8 @@ export async function gatherEvidence(
   const seen = new Set<string>()
   const docs: EvidenceDoc[] = []
   for (const r of res.results.flat()) {
-    if (seen.has(r.url) || isSocialMedia(r.url)) continue
+    if (seen.has(r.url) || isSocialMedia(r.url) || isBlockedSite(r.url))
+      continue
     seen.add(r.url)
     docs.push({
       url: r.url,
@@ -181,7 +183,8 @@ export async function searchEvidence(
   const seen = new Set<string>()
   const docs: EvidenceDoc[] = []
   for (const r of responses.flatMap((res) => res.results.flat())) {
-    if (seen.has(r.url) || isSocialMedia(r.url)) continue
+    if (seen.has(r.url) || isSocialMedia(r.url) || isBlockedSite(r.url))
+      continue
     seen.add(r.url)
     docs.push({ url: r.url, title: r.title, snippet: r.snippet, date: r.date })
   }

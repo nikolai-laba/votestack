@@ -1,0 +1,26 @@
+{
+  "reason": "Chrome review: the LA County Office of Education directory lists him as a board member; another trustee is president",
+  "overview": [
+    {
+      "action": "replace",
+      "match": "Rudy T. Martinez is the board president of the Valle Lindo School Dist",
+      "text": "Rudy T. Martinez is a member of the Valle Lindo School District governing board. He is running for re-election in 2026.",
+      "sources": [
+        {
+          "title": "Valle Lindo School District",
+          "publisher": "Los Angeles County Office of Education",
+          "url": "https://schooldirectory.lacoe.edu/SchoolDirectory/lacoe_schooldistrictdetails.aspx?dsid=72&pageid=0&dtype=Traditional&mid=2",
+          "kind": "official",
+          "viewedAt": "2026-10-15"
+        },
+        {
+          "title": "Candidate List",
+          "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+          "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+          "kind": "official",
+          "viewedAt": "2026-10-15"
+        }
+      ]
+    }
+  ]
+}

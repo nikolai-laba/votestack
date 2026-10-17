@@ -1,0 +1,146 @@
+{
+  "key": "regina-cuadra",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Regina Cuadra",
+  "office": "Fullerton Joint Union High School District, Governing Board Member, Trustee Area No. 1",
+  "contestIds": ["la-4348-cc10750"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Regina Cuadra is a special education teacher in the La Habra City School District. She has served as a PTA president and is the treasurer of the teachers' union.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Regina Cuadra is a special education teacher in the La Habra City School District.",
+            "cites": [1]
+          },
+          {
+            "text": "She has served as a PTA president and is the treasurer of the teachers' union.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "In a 2026 candidate questionnaire, Cuadra said the district's top needs are stabilizing fiscal operations while protecting student programs, and modernizing campus facilities for safety and equity. At a candidate forum, she voiced support for Proposition 3, a school funding measure. Her campaign says she supports career and technical education and school safety improvements. Her campaign also states that her PTA grant-writing brought new funding to schools.",
+        "cites": [2, 1, 3],
+        "sentences": [
+          {
+            "text": "In a 2026 candidate questionnaire, Cuadra said the district's top needs are stabilizing fiscal operations while protecting student programs, and modernizing campus facilities for safety and equity.",
+            "cites": [2]
+          },
+          {
+            "text": "At a candidate forum, she voiced support for Proposition 3, a school funding measure.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign says she supports career and technical education and school safety improvements.",
+            "cites": [3]
+          },
+          {
+            "text": "Her campaign also states that her PTA grant-writing brought new funding to schools.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Orange County Registrar of Voters",
+        "committee": "Cuadra, Regina (Fullerton Joint Union High School District)",
+        "url": "https://netfile.com/public/COC/campaign/filingsByFiler/180673624-Cuadra%2C%20Regina%20(Fullerton%20Joint%20Union%20High%20School%20District)",
+        "period": "July 31 to September 19, 2026",
+        "raised": 8097.67,
+        "cashOnHand": 0,
+        "fromScan": "ai",
+        "largeSince": { "since": "2026-09-19", "total": 20000, "count": 1 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Democratic Party of Orange County",
+        "kind": "party",
+        "cites": [4]
+      },
+      {
+        "organization": "Fullerton Secondary Teachers Organization",
+        "kind": "union",
+        "cites": [1]
+      },
+      {
+        "organization": "Supporters of Public Education Orange County",
+        "kind": "organization",
+        "cites": [1]
+      },
+      {
+        "organization": "La Habra Mayor Jose Medrano",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "La Habra City School District Board President Justin Rodgers",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "La Habra City School District Trustee Adam Rogers",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "La Habra City School District Trustee Emily Pruitt",
+        "kind": "elected_official",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Fullerton Joint Union High School District Board of Trustees Candidate Forum Hosted by the League of Women Voters of North Orange County - Fullerton Observer",
+      "publisher": "Fullerton Observer",
+      "url": "https://fullertonobserver.com/2026/10/02/fullerton-joint-union-high-school-district-board-of-trustees-candidate-forum-hosted-by-the-league-of-women-voters-of-north-orange-county/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Regina Cuadra, Fullerton Joint Union High School District Area 1 candidate, 2026 election questionnaire – Orange County Register",
+      "publisher": "Orange County Register",
+      "url": "https://www.ocregister.com/2026/10/05/regina-cuadra-fullerton-joint-union-high-school-district-area-1-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Cuadra for FJUHSD Area 1 | Stronger Schools",
+      "publisher": "Regina Cuadra campaign",
+      "url": "https://www.cuadrafjuhsd.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Orange County Endorsements",
+      "publisher": "Democratic Party of Orange County",
+      "url": "https://orangecountydemocrats.com/oc-endorsements-2",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T05:54:20.840Z",
+    "version": 2
+  }
+}

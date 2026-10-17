@@ -1,0 +1,468 @@
+{
+  "key": "herb-w-morgan",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Herb W Morgan",
+  "party": "Republican",
+  "office": "California Controller",
+  "contestIds": ["la-4348-cc10831-r1", "la-4348-cc10831-r2"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Herb W. Morgan is a retired investment executive. He served as board chair of the San Diego City Employees' Retirement System. He founded an investment firm in San Diego that was later acquired by Cantor Fitzgerald Investment Advisors.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Herb W. Morgan is a retired investment executive.",
+            "cites": [1]
+          },
+          {
+            "text": "He served as board chair of the San Diego City Employees' Retirement System.",
+            "cites": [2]
+          },
+          {
+            "text": "He founded an investment firm in San Diego that was later acquired by Cantor Fitzgerald Investment Advisors.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "He campaigns on a platform he calls Radical Transparency, and proposes publishing all state spending on a public, real-time blockchain ledger and using artificial intelligence to audit for fraud. He wants to automatically withhold funds from programs that fail audits and require zero-based budgeting. He would prioritize audits of non-governmental organizations that receive state homelessness money. He opposes raising the minimum wage, arguing government mandates raise costs and kill jobs. He opposes a \"split roll\" revision to Proposition 13, saying it would harm California’s business climate. His campaign says the state’s budget masks a roughly $20 billion structural deficit.",
+        "cites": [4, 5, 6, 7]
+      },
+      {
+        "text": "His campaign says he collaborated with other trustees to overhaul the retirement system's financial reporting and governance. He built a transparency platform, California Radical Transparency, that his campaign says analyzed over 122 million state financial records covering nearly $2 trillion in transactions. His campaign’s white paper estimated $312 billion to $425 billion in potential waste, fraud, and improper payments over five years.",
+        "cites": [2, 8, 9],
+        "sentences": [
+          {
+            "text": "His campaign says he collaborated with other trustees to overhaul the retirement system's financial reporting and governance.",
+            "cites": [2]
+          },
+          {
+            "text": "He built a transparency platform, California Radical Transparency, that his campaign says analyzed over 122 million state financial records covering nearly $2 trillion in transactions.",
+            "cites": [8]
+          },
+          {
+            "text": "His campaign’s white paper estimated $312 billion to $425 billion in potential waste, fraud, and improper payments over five years.",
+            "cites": [9]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Herb Morgan For State Controller 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1480103",
+        "period": "July 1 to September 19, 2026",
+        "raised": 163829,
+        "cashOnHand": 139486.39,
+        "breakdown": [
+          { "kind": "small", "amount": 6033.97 },
+          { "kind": "large", "amount": 140080.03 },
+          { "kind": "pac", "amount": 6915 },
+          { "kind": "other", "amount": 10800 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 45515.94, "count": 17 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "State Sen. Brian Jones",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [10]
+      },
+      {
+        "organization": "State Sen. Shannon Grove",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [10]
+      },
+      {
+        "organization": "State Sen. Rosilicie Ochoa Bogh",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [10]
+      },
+      {
+        "organization": "State Sen. Kelly Seyarto",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [10]
+      },
+      {
+        "organization": "State Sen. Tony Strickland",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [10]
+      },
+      {
+        "organization": "State Sen. Steven Choi",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [10]
+      },
+      {
+        "organization": "State Sen. Roger Niello",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [10]
+      },
+      {
+        "organization": "Assemblymember Carl DeMaio",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [10]
+      },
+      {
+        "organization": "Assemblymember David Tangipa",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [10]
+      },
+      {
+        "organization": "Former U.S. Rep. John Shadegg",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Former Assembly Republican Leader Martin Garrick",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Former San Diego Mayor Kevin Faulconer",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Former Ventura County Treasurer-Tax Collector Steven Hintz",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Former San Francisco Supervisor Tony Hall",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Vista Mayor John Franklin",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Manhattan Beach Mayor Pro Tem Joe Franklin",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Former Whittier Mayor Joe Vinatieri",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Lakeside Union School District Trustee Andrew Hayes",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "California Republican Party",
+        "kind": "party",
+        "cites": [11]
+      },
+      {
+        "organization": "Unity Party of California",
+        "kind": "party",
+        "cites": [12]
+      },
+      {
+        "organization": "California Republican Assembly",
+        "kind": "organization",
+        "cites": [13]
+      },
+      {
+        "organization": "Howard Jarvis Taxpayers Association PAC",
+        "kind": "organization",
+        "cites": [14]
+      },
+      {
+        "organization": "California Rifle & Pistol Association PAC",
+        "kind": "organization",
+        "cites": [15]
+      },
+      {
+        "organization": "California Congress of Republicans",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Lincoln Clubs of Los Angeles County",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Lincoln Clubs of Orange County",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Capital Lincoln Club",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "New Majority Los Angeles County",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "New Majority Orange County",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "New Majority San Diego County",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Israeli-American Civic Action Network (ICAN)",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "California Republican Hispanic Club",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Keep Orange Red",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "United Indian Council",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Silicon Valley Chinese Association",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "United Vietnamese Community of Northern California",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Vietnamese Community of Pomona Valley",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "McClatchy Media California editorial board (The Sacramento Bee, Modesto Bee, Merced Sun-Star, Fresno Bee, San Luis Obispo Tribune)",
+        "kind": "editorial_board",
+        "cites": [16]
+      },
+      {
+        "organization": "Los Angeles Daily News",
+        "kind": "editorial_board",
+        "cites": [17]
+      },
+      {
+        "organization": "San Diego Union-Tribune",
+        "kind": "editorial_board",
+        "cites": [18]
+      },
+      {
+        "organization": "California ProLife Council",
+        "kind": "organization",
+        "cites": [19]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [20]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Herb Morgan, California controller candidate, 2026 election questionnaire",
+      "publisher": "San Bernardino Sun",
+      "url": "https://www.sbsun.com/2026/10/05/herb-morgan-california-controller-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "About Herb Morgan | California State Controller Candidate",
+      "publisher": "Herb Morgan campaign",
+      "url": "https://www.herbmorgan.com/about-herb-morgan",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Who are the state controller candidates in 2026 California election?",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.org/california-voter-guide-2026/controller/?ref=smdp.com",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Press Release: Herb Morgan: LAHSA Transition Highlights Why California Needs Radical Transparency",
+      "publisher": "Herb Morgan campaign",
+      "url": "https://www.herbmorgan.com/post/press-release-herb-morgan-lahsa-transition-highlights-why-california-needs-radical-transparency",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Voter Guide Profile for CA Controller candidate - Herb W Morgan",
+      "publisher": "iVoterGuide",
+      "url": "https://ivoterguide.com/candidate/91093/race/30575/election/1454",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Herb Morgan, California controller candidate, 2026 primary election questionnaire",
+      "publisher": "Orange County Register",
+      "url": "https://www.ocregister.com/2026/05/05/herb-morgan-california-controller-candidate-2026-primary-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "STATEMENT: California's Budget Isn't Balanced—Taxpayers Deserve the Truth",
+      "publisher": "Herb Morgan campaign",
+      "url": "https://www.herbmorgan.com/post/statement-california-s-budget-isn-t-balanced-taxpayers-deserve-the-truth",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "Herb W. Morgan Launches California Radical Transparency (CRT) Version 2.0, Revealing Billions in CA State Spending and Challenging FI$Cal's Billion-Dollar Failures",
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/press-releases/herb-morgan-crt-2-california-spending-fiscal-failures-2026-05-12/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "Updated Analysis from CA Controller Candidate Herb Morgan Identifies Up to $425 Billion in Potential California Spending Exposure",
+      "publisher": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/economy/policy/articles/updated-analysis-ca-controller-candidate-140000798.html",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "Herb Morgan Endorsements | California State Controller 2026",
+      "publisher": "Herb Morgan for State Controller 2026",
+      "url": "https://www.herbmorgan.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "2026 CRP Endorsements",
+      "publisher": "California Republican Party",
+      "url": "https://cagop.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 12,
+      "title": "California State Controller: 2026 general election voter guide",
+      "publisher": "LAist",
+      "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-state-controller",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 13,
+      "title": "Statewide Offices: November 2026 General Election",
+      "publisher": "California Republican Assembly",
+      "url": "https://cragop.org/statewide-offices/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 14,
+      "title": "HJTA PAC Endorsements: Statewide Primary Election – June 2, 2026",
+      "publisher": "Howard Jarvis Taxpayers Association",
+      "url": "https://www.hjta.org/wp-content/uploads/2026/04/HJTA-PAC-ENDORSEMENTS-4.16.26.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 15,
+      "title": "2026 Executive Candidates",
+      "publisher": "California Rifle & Pistol Association",
+      "url": "https://crpa.org/2026-executive-candidates/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 16,
+      "title": "For California state controller, a Republican is the superior candidate. | Opinion",
+      "publisher": "McClatchy Media (via AOL)",
+      "url": "https://www.aol.com/articles/california-state-controller-republican-superior-170000000.html",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 17,
+      "title": "Endorsement: Herb Morgan for state controller",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/09/06/endorsement-herb-morgan-for-state-controller/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 18,
+      "title": "The U-T Editorial Board's endorsements",
+      "publisher": "San Diego Union-Tribune",
+      "url": "https://www.sandiegouniontribune.com/2026/10/02/the-u-t-editorial-boards-endorsements/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "California ProLife Council 2026 Voter Guide",
+      "publisher": "California ProLife Council",
+      "url": "https://californiaprolife.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 20
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.774Z",
+    "version": 4
+  }
+}

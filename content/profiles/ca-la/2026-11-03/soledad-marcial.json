@@ -1,0 +1,159 @@
+{
+  "key": "soledad-marcial",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Soledad Marcial",
+  "office": "City of Santa Monica, Member of the Rent Control Board",
+  "contestIds": ["la-4348-cc10515"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Soledad Marcial's campaign says she has worked for many years to fight against evictions and displacement. Her top priority is to maintain policies that protect people in rent-controlled units and adapt new policies that benefit renters. She pledges to enforce the rent control law and support amendments that benefit renters. She states she will be a fair and impartial decision-maker who can work effectively with tenants and owners.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Soledad Marcial's campaign says she has worked for many years to fight against evictions and displacement.",
+            "cites": [1]
+          },
+          {
+            "text": "Her top priority is to maintain policies that protect people in rent-controlled units and adapt new policies that benefit renters.",
+            "cites": [2]
+          },
+          {
+            "text": "She pledges to enforce the rent control law and support amendments that benefit renters.",
+            "cites": [3]
+          },
+          {
+            "text": "She states she will be a fair and impartial decision-maker who can work effectively with tenants and owners.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Monica",
+        "committee": "Marcial for SM Rent Control Board 2026",
+        "url": "https://netfile.com/public/CSM/campaign/filingsByFiler/217278007-Marcial%20for%20SM%20Rent%20Control%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 1400,
+        "cashOnHand": 744.65,
+        "breakdown": [
+          { "kind": "large", "amount": 700 },
+          { "kind": "loan", "amount": 700 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Westside Young Democrats",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Santa Monica City Councilmember Dan Hall",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Santa Monica City Councilmember Ellis Raskin",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Santa Monica City Councilmember Barry Snell",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Santa Monica City Councilmember Natalya Zernitskaya",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Santa Monica Rent Control Board Vice Chair Kay Ambriz",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Santa Monica-Malibu Unified School District Board President Alicia Mignano",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Santa Monica-Malibu Unified School District Board Member Maria Leon-Vazquez",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Santa Monica College Board Trustee Dr. Luis Barrera Castañón",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "LAUSD Board Member Dr. Rocío Rivas (District 2)",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Former Santa Monica Mayor Kevin McKeown",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Former Santa Monica Rent Control Board Chair Todd Flora",
+        "kind": "elected_official",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Soledad Marcial for Santa Monica Rent Control Board",
+      "publisher": "Soledad Marcial campaign",
+      "url": "https://www.solforsantamonica.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "2026 Rent Control Board Candidate Questionnaire",
+      "publisher": "Santa Monica Democratic Club",
+      "url": "https://santamonicademocrats.com/wp-content/uploads/2026/06/Soledad-Marcial-Rent-Control-Board.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Soledad Marcial - General Election 2026",
+      "publisher": "City of Santa Monica",
+      "url": "https://www.santamonica.gov/elections/2026-11-03/candidates/soledad-marcial",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Endorsements/Respaldos — Soledad Marcial for Santa Monica Rent Control Board",
+      "publisher": "Soledad Marcial campaign",
+      "url": "https://www.solforsantamonica.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:40:01.407Z",
+    "version": 2
+  }
+}

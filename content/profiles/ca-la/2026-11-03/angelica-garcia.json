@@ -1,0 +1,72 @@
+{
+  "key": "angelica-garcia",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Angelica Garcia",
+  "office": "Valle Lindo School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10731"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Angelica Garcia is listed as a high school counselor on the county's candidate list for the Valle Lindo School District Governing Board. Her campaign website says she will push for updated classrooms, improved campus safety, and long-term facilities planning. She also states on her site that she wants to increase parent and community involvement in board decisions and advocate for teacher pay, professional development, and classroom resources.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Angelica Garcia is listed as a high school counselor on the county's candidate list for the Valle Lindo School District Governing Board.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign website says she will push for updated classrooms, improved campus safety, and long-term facilities planning.",
+            "cites": [2]
+          },
+          {
+            "text": "She also states on her site that she wants to increase parent and community involvement in board decisions and advocate for teacher pay, professional development, and classroom resources.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Friends to Elect Angelica Garcia for School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217349876-Friends%20to%20Elect%20Angelica%20Garcia%20for%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 0,
+        "cashOnHand": 0,
+        "fromScan": "ai"
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate List - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Angelica Garcia for Valle Lindo School District Board of Education",
+      "publisher": "Angelica Garcia campaign",
+      "url": "https://garcia4vallelindosd.org/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.342Z",
+    "version": 2
+  }
+}

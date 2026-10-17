@@ -1,0 +1,160 @@
+{
+  "key": "michelle-richardson-bailey",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Michelle Richardson Bailey",
+  "office": "Pasadena Unified School District, Board of Education, District No. 3",
+  "contestIds": ["la-4348-cc10500"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Michelle Richardson Bailey has represented District 3 on the Pasadena Unified School District Board of Education since 2017. She was a classified employee of PUSD and the County Office of Education for 20 years. She served as a secretary at Blair and Pasadena high schools and in the superintendent's office. She is a board member of the California Association of Black School Educators.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Michelle Richardson Bailey has represented District 3 on the Pasadena Unified School District Board of Education since 2017.",
+            "cites": [1]
+          },
+          {
+            "text": "She was a classified employee of PUSD and the County Office of Education for 20 years.",
+            "cites": [1]
+          },
+          {
+            "text": "She served as a secretary at Blair and Pasadena high schools and in the superintendent's office.",
+            "cites": [1]
+          },
+          {
+            "text": "She is a board member of the California Association of Black School Educators.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "In 2026, she opposed the school consolidation process and called for starting over with a new process to rebuild trust. She moved to delay the district's transformation agenda until after an educational visioning process, but the motion failed. Her campaign statement prioritized classroom resources and accountability, and highlighted her advocacy for ethnic studies and staff housing.",
+        "cites": [2, 3, 4],
+        "sentences": [
+          {
+            "text": "In 2026, she opposed the school consolidation process and called for starting over with a new process to rebuild trust.",
+            "cites": [2]
+          },
+          {
+            "text": "She moved to delay the district's transformation agenda until after an educational visioning process, but the motion failed.",
+            "cites": [3]
+          },
+          {
+            "text": "Her campaign statement prioritized classroom resources and accountability, and highlighted her advocacy for ethnic studies and staff housing.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Richardson Bailey for PUSD school Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217227589-Richardson%20Bailey%20for%20PUSD%20School%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 2784.81,
+        "cashOnHand": 2021.28,
+        "breakdown": [
+          { "kind": "small", "amount": 100 },
+          { "kind": "large", "amount": 2250 },
+          { "kind": "pac", "amount": 434.81 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 2000, "count": 2 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [5]
+      },
+      {
+        "organization": "ACT (Pasadena)",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Pasadena Arroyo Democratic Club",
+        "kind": "organization",
+        "cites": [6]
+      },
+      { "organization": "Teamsters Local 572", "kind": "union", "cites": [7] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Michelle Richardson Bailey (District 3) - Pasadena Unified School District",
+      "publisher": "Pasadena Unified School District",
+      "url": "https://www.pusd.us/about/board-of-education/board-members/michelle-richardson-bailey-district-3",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Pasadena Unified school merger process halted amid lack of trust in process",
+      "publisher": "Pasadena Star-News",
+      "url": "https://www.pasadenastarnews.com/2026/05/28/pasadena-unified-school-district-trustees-served-with-intent-to-recall-notices-during-packed-meeting/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Pasadena Unified School District trustees define ‘transformation,’ create community committee",
+      "publisher": "Pasadena Star-News",
+      "url": "https://www.pasadenastarnews.com/2026/10/09/pasadena-unified-school-district-trustees-define-transformation-create-community-committee/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "School Consolidation Emerges as Key Divide in Pasadena Unified Board Forum",
+      "publisher": "ColoradoBoulevard.net",
+      "url": "https://www.coloradoboulevard.net/school-consolidation-emerges-as-key-divide-in-pasadena-unified-board-forum/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements",
+      "publisher": "ACT Pasadena",
+      "url": "https://www.actpasadena.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "2026 Voter Guide",
+      "publisher": "Teamsters Local 572",
+      "url": "https://www.teamsters572.org/local-572-voter-guide/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.242Z",
+    "version": 3
+  }
+}

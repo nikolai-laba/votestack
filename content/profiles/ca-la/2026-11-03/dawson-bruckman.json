@@ -1,0 +1,63 @@
+{
+  "key": "dawson-bruckman",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Dawson Bruckman",
+  "office": "Wiseburn Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10678"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Dawson Bruckman is a chief engineer and candidate for the Wiseburn Unified School District Governing Board. His campaign says he wants to make data-informed decisions to support staff and improve education.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Dawson Bruckman is a chief engineer and candidate for the Wiseburn Unified School District Governing Board.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he wants to make data-informed decisions to support staff and improve education.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217145303-Bruckman%20for%20Wiseburn%20School%20Board%202026",
+      "underThreshold": true
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Wiseburn Faculty Association",
+        "kind": "union",
+        "cites": [1]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Bruckman for Wiseburn School Board — Dawson Bruckman, 2026",
+      "publisher": "Dawson Bruckman campaign",
+      "url": "https://bruckmanforwiseburn.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.362Z",
+    "version": 2
+  }
+}

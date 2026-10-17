@@ -1,0 +1,105 @@
+{
+  "key": "tonia-arey",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Tonia Arey",
+  "office": "Los Angeles Community College District, Member of the Board of Trustees, Seat 6",
+  "contestIds": ["la-4348-cc10590"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Tonia Arey is a realtor running for Seat 6 on the Los Angeles Community College District Board of Trustees. She supports increasing campus safety and expanding career education. She wants to review the district’s budget to identify waste and duplication. She proposes cutting administrative expenses before classroom instruction and using underutilized district property to raise revenue.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Tonia Arey is a realtor running for Seat 6 on the Los Angeles Community College District Board of Trustees.",
+            "cites": [1]
+          },
+          {
+            "text": "She supports increasing campus safety and expanding career education.",
+            "cites": [1]
+          },
+          {
+            "text": "She wants to review the district’s budget to identify waste and duplication.",
+            "cites": [1]
+          },
+          {
+            "text": "She proposes cutting administrative expenses before classroom instruction and using underutilized district property to raise revenue.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217123037-Arey%2C%20Tonia",
+      "underThreshold": true
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Howard Jarvis Taxpayers Association (HJTA-PAC)",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Republican Party of Los Angeles County",
+        "kind": "party",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Your guide to the Los Angeles Community College Board of Trustees Seat 6 race",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-10-01/2026-california-election-los-angeles-community-college-board-of-trustees-seat-6-voter-guide",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "2026 Voting Guide for California Statewide General Election",
+      "publisher": "Howard Jarvis Taxpayers Association",
+      "url": "https://www.hjta.org/2026votingguide/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 3
+    },
+    {
+      "title": "LAGOP Endorsement Lookup, November 3, 2026 General Election",
+      "publisher": "Republican Party of Los Angeles County",
+      "url": "https://lagop-endorsement-lookup.vercel.app/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 4
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.908Z",
+    "version": 3
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "key": "lawrence-mueller",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Lawrence Mueller",
+  "office": "City of Claremont, Member of the City Council, 4th District",
+  "contestIds": ["la-4348-cc10436"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Lawrence Mueller is a Claremont renter who has built a career writing software. He supports a modestly tighter local cap on annual rent increases for older apartments already covered by AB 1482. He says he will vote to keep parking in the Claremont Village free. He wants the six Flock Safety license plate cameras added in 2025 removed and the contract not renewed. His campaign website says he will push the city to formally challenge water rate increases and push residents to attend state hearings.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Lawrence Mueller is a Claremont renter who has built a career writing software.",
+            "cites": [1]
+          },
+          {
+            "text": "He supports a modestly tighter local cap on annual rent increases for older apartments already covered by AB 1482.",
+            "cites": [1]
+          },
+          {
+            "text": "He says he will vote to keep parking in the Claremont Village free.",
+            "cites": [1]
+          },
+          {
+            "text": "He wants the six Flock Safety license plate cameras added in 2025 removed and the contract not renewed.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign website says he will push the city to formally challenge water rate increases and push residents to attend state hearings.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Claremont",
+      "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=314362&dbid=0&repo=r-634094de"
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Lawrence Mueller — Claremont City Council Candidate 2026",
+      "publisher": "Playpotus",
+      "url": "https://playpotus.com/ca/claremont/lawrence-mueller",
+      "kind": "reference",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Lawrence Mueller for Claremont City Council, District 4",
+      "publisher": "Lawrence Mueller campaign",
+      "url": "https://lawrenceforclaremont.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.340Z",
+    "version": 2
+  }
+}

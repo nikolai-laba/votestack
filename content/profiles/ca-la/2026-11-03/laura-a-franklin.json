@@ -1,0 +1,44 @@
+{
+  "key": "laura-a-franklin",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Laura A. Franklin",
+  "office": "Baldwin Park Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10620"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Laura A. Franklin is an educator and advocate running for the Baldwin Park Unified School District board. In a candidate questionnaire, she lists her positions as housing commissioner and chair of the district’s Bond Oversight Committee. She says the district’s top needs are educator support and student success. She says she would work with board leaders to ensure all students have access to quality education, supportive services, and opportunities to thrive in and out of the classroom.",
+        "cites": [1]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217052053-Franklin%2C%20Laura",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Laura Franklin, Baldwin Park Unified School District candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/laura-franklin-baldwin-park-unified-school-district-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T14:25:51.465Z",
+    "version": 3
+  }
+}

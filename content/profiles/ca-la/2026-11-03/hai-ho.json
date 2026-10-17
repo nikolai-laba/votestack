@@ -1,0 +1,49 @@
+{
+  "key": "hai-ho",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Hai Ho",
+  "office": "Burbank Unified School District, Governing Board Member, Trustee Area No. 3",
+  "contestIds": ["la-4348-cc10625"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Hai Ho is a retired aerospace engineer running for the Burbank Unified School District board to represent Trustee Area 3.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Hai Ho is a retired aerospace engineer running for the Burbank Unified School District board to represent Trustee Area 3.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign"
+    }
+  },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Burbank Elections 2026: Candidates, Measures & Voting Guide | Burbank Votes",
+      "publisher": "Burbank Votes",
+      "url": "https://burbankvotes.com/candidates/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T05:54:20.828Z",
+    "version": 2
+  }
+}

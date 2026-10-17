@@ -14,8 +14,12 @@
 
 import type { Candidate, OcdId } from './ballot.ts'
 
-/** The ballots that list a race in Cook County. */
-export type BallotArea = 'chicago' | 'suburban-cook'
+/**
+ * The ballots that list a race: in Cook County, Chicago's or suburban Cook's
+ * (each has its own election authority); in Los Angeles County, the
+ * Registrar's, which covers the whole county.
+ */
+export type BallotArea = 'chicago' | 'suburban-cook' | 'los-angeles-county'
 
 /** Levels of government, in the order the ballot groups them (src/ballot/sections.ts). */
 export const RACE_LEVELS = [
@@ -51,7 +55,10 @@ export interface Race {
   candidates?: Candidate[]
 }
 
-/** content/contests/{election date}.json */
+/**
+ * content/contests/{election date}.json for Cook County, and
+ * content/contests/{region}/{election date}.json for other areas.
+ */
 export interface RaceList {
   electionId: string
   electionName: string
@@ -143,22 +150,79 @@ const titleCase = (s: string) =>
     .map((w) => PROPER[w] ?? w.charAt(0).toUpperCase() + w.slice(1))
     .join(' ')
 
+const STATE_NAMES: Record<string, string> = {
+  ca: 'California',
+  il: 'Illinois',
+}
+
+/** The state the district is in: "Illinois", or its code for a state not covered. */
+export function stateName(districtId: OcdId): string {
+  const code = stateCode(districtId)
+  return STATE_NAMES[code] ?? code.toUpperCase()
+}
+
 /** Where the office belongs, for page titles: "Illinois", "Cook County", "Chicago". */
 export function placeName(districtId: OcdId): string {
   const locality = localitySlug(districtId)
   if (locality) return titleCase(locality)
-  return stateCode(districtId) === 'il'
-    ? 'Illinois'
-    : stateCode(districtId).toUpperCase()
+  return stateName(districtId)
+}
+
+/** The name in an ID part like `special_district:{slug}`, title cased. */
+const partName = (districtId: OcdId, type: string) =>
+  titleCase(new RegExp(`/${type}:([a-z0-9_]+)`).exec(districtId)?.[1] ?? '')
+
+/** "Pasadena Unified" → "Pasadena Unified School District"; a name that already ends in "District" stays. */
+const districtName = (name: string, suffix: string) =>
+  /\bDistrict$/.test(name) ? name : `${name} ${suffix}`
+
+/** Who votes in a California district, where its wording differs from Illinois's. */
+function whoVotesCalifornia(
+  districtId: OcdId,
+  type: string,
+  value: string,
+): string | undefined {
+  const parent = districtId.split('/').at(-2) ?? ''
+  const [parentType] = parent.split(':')
+  switch (type) {
+    case 'council_district':
+      return parentType === 'place'
+        ? `Voters in ${partName(districtId, 'place')} City Council District ${value}.`
+        : `Voters in the ${ordinal(value)} Supervisorial District of Los Angeles County.`
+    case 'sldl':
+      return `Voters in the ${ordinal(value)} State Assembly District.`
+    case 'school_district':
+      return `Voters in the ${districtName(titleCase(value), 'School District')}.`
+    case 'community_college_district':
+      return `Voters in the ${districtName(titleCase(value), 'Community College District')}.`
+    case 'special_district':
+      return `Voters in the ${districtName(titleCase(value), 'District')}.`
+    case 'trustee_area':
+      return parentType === 'community_college_district'
+        ? `Voters in Trustee Area ${value} of the ${districtName(partName(districtId, 'community_college_district'), 'Community College District')}.`
+        : `Voters in Trustee Area ${value} of the ${districtName(partName(districtId, 'school_district'), 'School District')}.`
+    case 'division':
+      return `Voters in Division ${value} of the ${districtName(partName(districtId, 'special_district'), 'District')}.`
+    case 'boe_district':
+      return `Voters in the ${ordinal(value)} Board of Equalization District.`
+    case 'court_of_appeals':
+      return `Voters in the ${ordinal(value)} Appellate District of the California Court of Appeal.`
+    default:
+      return undefined
+  }
 }
 
 /** Who sees a race on their ballot, in a sentence: "Voters in the 7th Congressional District." */
 export function whoVotes(districtId: OcdId): string {
   const last = districtId.split('/').at(-1) ?? ''
   const [type, value = ''] = last.split(':')
+  if (stateCode(districtId) === 'ca') {
+    const la = whoVotesCalifornia(districtId, type, value)
+    if (la) return la
+  }
   switch (type) {
     case 'state':
-      return 'Every voter in Illinois.'
+      return `Every voter in ${stateName(districtId)}.`
     case 'cd':
       return `Voters in the ${ordinal(value)} Congressional District.`
     case 'sldu':
@@ -192,8 +256,17 @@ export function whoVotes(districtId: OcdId): string {
 
 /** Where the race is on the ballot: "Chicago and suburban Cook County". */
 export function ballotsText(ballots: BallotArea[]): string {
+  if (ballots.includes('los-angeles-county')) return 'Los Angeles County'
   if (ballots.length > 1) return 'Chicago and suburban Cook County'
   return ballots[0] === 'chicago' ? 'Chicago only' : 'Suburban Cook County only'
+}
+
+/** Every ballot in an area's list, for a sentence: "Chicago and suburban Cook County". */
+export function areaBallotsText(list: Pick<RaceList, 'races'>): string {
+  const ballots = [...new Set(list.races.flatMap((r) => r.ballots))]
+  if (ballots.includes('chicago') && ballots.includes('suburban-cook'))
+    return 'Chicago and suburban Cook County'
+  return ballotsText(ballots)
 }
 
 /** A race's name as a heading: its title, or for a judge "Retention of Jane Doe, Judge, Circuit Court". */

@@ -1,0 +1,50 @@
+{
+  "key": "deirdre-badal",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Deirdre Badal",
+  "office": "West Basin Municipal Water District, Member, Board of Directors, Division 1",
+  "contestIds": ["la-4348-cc10559"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Deirdre Badal is a project manager and broker running for the West Basin Municipal Water District Board of Directors, Division 1.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Deirdre Badal is a project manager and broker running for the West Basin Municipal Water District Board of Directors, Division 1.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217187087-Badal%20for%20West%20Basin%20Water%20District%202026",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Who's Running - PV Informer",
+      "publisher": "PV Informer",
+      "url": "https://pvinformer.com/ballot-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.438Z",
+    "version": 2
+  }
+}

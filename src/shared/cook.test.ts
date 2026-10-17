@@ -1,5 +1,10 @@
 import { describe, expect, it } from 'vitest'
-import { applyClerkSplits, authorityFor, precinctDistricts } from './cook.ts'
+import {
+  applyClerkSplits,
+  authorityFor,
+  BALLOT_STYLE_LAYER,
+  precinctDistricts,
+} from './cook.ts'
 import { CHICAGO, COOK_COUNTY, municipality } from './ocd.ts'
 
 describe('authorityFor', () => {
@@ -72,6 +77,26 @@ describe('applyClerkSplits', () => {
     )
     expect(result.districts).toEqual([rep(24), rep(6)])
     expect(result.ambiguous).toBe(true)
+  })
+
+  it('is not ambiguous for one whole ballot style, which lists several districts of a kind', () => {
+    const style = (ocdId: string) => ({ ocdId, layer: BALLOT_STYLE_LAYER })
+    const result = applyClerkSplits(
+      [],
+      [
+        {
+          split: '2E722',
+          districts: [
+            style('ocd-division/country:us/state:ca/place:baldwin_park'),
+            style('ocd-division/country:us/state:ca/sldu:22'),
+            style('ocd-division/country:us/state:ca/sldl:48'),
+          ],
+          covers: [BALLOT_STYLE_LAYER],
+        },
+      ],
+    )
+    expect(result.districts).toHaveLength(3)
+    expect(result.ambiguous).toBe(false)
   })
 
   it('keeps a district that may cover only part of the precinct, and says so', () => {

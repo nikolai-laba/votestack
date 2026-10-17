@@ -1,0 +1,96 @@
+{
+  "key": "rafael-santoya",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Rafael Santoya",
+  "office": "City of Montebello, Member of the City Council, 1st District",
+  "contestIds": ["la-4348-cc10481"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Rafael Santoya is a Los Angeles County employee.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Rafael Santoya is a Los Angeles County employee.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "His campaign website lists supporting police and fire services among his priorities.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "His campaign website lists supporting police and fire services among his priorities.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Montebello",
+        "committee": "Rafael Santoya for Montebello City Council 2026",
+        "url": "https://netfile.com/public/BELLO/campaign/filingsByFiler/217049609-Rafael%20Santoya%20for%20Montebello%20City%20Council%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 4104.01,
+        "cashOnHand": 1473.46,
+        "fromScan": "ai"
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Rafael Santoya for Montebello City Council 2026",
+      "publisher": "Rafael Santoya for Montebello City Council",
+      "url": "https://drrafaelsantoya.com",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "2026 Stonewall Endorsed Candidates",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 3
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.504Z",
+    "version": 2
+  }
+}

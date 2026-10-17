@@ -1,0 +1,98 @@
+{
+  "key": "marybel-micaela-lorenzo",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Marybel Micaela Lorenzo",
+  "office": "Norwalk-La Mirada Unified School District, Governing Board Member, Trustee Area No. 2",
+  "contestIds": ["la-4348-cc10739"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Marybel Micaela Lorenzo is a real estate agent running for the Norwalk-La Mirada Unified School District board. She states she earned a bachelor's degree in sociology from Cal State San Bernardino and spent more than 12 years at Grameen America, helping underserved women entrepreneurs. Her campaign says she wants to bring transparency, accountability, and family engagement to the school board.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Marybel Micaela Lorenzo is a real estate agent running for the Norwalk-La Mirada Unified School District board.",
+            "cites": [1]
+          },
+          {
+            "text": "She states she earned a bachelor's degree in sociology from Cal State San Bernardino and spent more than 12 years at Grameen America, helping underserved women entrepreneurs.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign says she wants to bring transparency, accountability, and family engagement to the school board.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Marybel Lorenzo for School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217190171-Marybel%20Lorenzo%20for%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 4664,
+        "cashOnHand": 387.52,
+        "breakdown": [
+          { "kind": "small", "amount": 214 },
+          { "kind": "large", "amount": 2450 },
+          { "kind": "other", "amount": 2000 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Norwalk-La Mirada Unified School District Board Member Espie Free",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Marybel Lorenzo — Candidate for Norwalk-La Mirada School Board",
+      "publisher": "Marybel Lorenzo campaign",
+      "url": "https://marybellorenzo.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Endorsements — Marybel Lorenzo for Norwalk-La Mirada School Board",
+      "publisher": "Marybel Lorenzo for Norwalk-La Mirada School Board",
+      "url": "https://marybellorenzo.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 3
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.094Z",
+    "version": 3
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "key": "maria-santay",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Maria Santay",
+  "office": "City of El Monte, City Treasurer",
+  "contestIds": ["la-4348-cc10659"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Maria Santay is a licensed insurance agent running for city treasurer.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Maria Santay is a licensed insurance agent running for city treasurer.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "She says she wants to bring fiscal transparency and accountability to the city's finances. She supports strengthening reserves, controlling spending, and reviewing city contracts for efficiency. She also proposes using state and federal resources to add housing while listening to community input.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "She says she wants to bring fiscal transparency and accountability to the city's finances.",
+            "cites": [1]
+          },
+          {
+            "text": "She supports strengthening reserves, controlling spending, and reviewing city contracts for efficiency.",
+            "cites": [1]
+          },
+          {
+            "text": "She also proposes using state and federal resources to add housing while listening to community input.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of El Monte",
+      "url": "https://www.ci.el-monte.ca.us/DocumentCenter/Index/373"
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Maria Santay, El Monte city treasurer candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/maria-santay-el-monte-city-treasurer-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.390Z",
+    "version": 2
+  }
+}

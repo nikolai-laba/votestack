@@ -1,0 +1,77 @@
+{
+  "key": "duane-g-winn",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Duane G. Winn",
+  "office": "Lancaster School District, Governing Board Member, Trustee Area No. 2",
+  "contestIds": ["la-4348-cc10705"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Duane G. Winn was appointed to the Lancaster School Board in 2016. He is a former air traffic controller and served in the military. His board page says his priority is to promote students' potential by including music, arts, and literature in their lives.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Duane G. Winn was appointed to the Lancaster School Board in 2016.",
+            "cites": [1]
+          },
+          {
+            "text": "He is a former air traffic controller and served in the military.",
+            "cites": [1]
+          },
+          {
+            "text": "His board page says his priority is to promote students' potential by including music, arts, and literature in their lives.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "As board president in 2024, he and the board unanimously voted to place a school district bond on the November 2024 ballot.",
+        "cites": [2],
+        "sentences": [
+          {
+            "text": "As board president in 2024, he and the board unanimously voted to place a school district bond on the November 2024 ballot.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/214267908-Winn%2C%20Duane",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Meet the Board - Lancaster School District",
+      "publisher": "Lancaster School District",
+      "url": "https://www.lancsd.org/Board-of-Trustees/Meet-the-Board/index.html",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Voters get school district bond",
+      "publisher": "Antelope Valley Press",
+      "url": "https://www.avpress.com/news/voters-get-school-district-bond/article_42ff656e-44b4-11ef-a63b-1b4a0899fb94.html",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.160Z",
+    "version": 3
+  }
+}

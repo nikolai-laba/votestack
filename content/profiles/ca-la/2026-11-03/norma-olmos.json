@@ -1,0 +1,97 @@
+{
+  "key": "norma-olmos",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Norma Olmos",
+  "office": "Baldwin Park Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10620"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Norma Olmos is the president of the Baldwin Park Unified School District Board of Education. She was elected in 2024 to a term ending in 2026. She previously served on the City of Baldwin Park Parks and Recreation Commission. She also served on the district's Citizen's Oversight Committee, which supervised a high school gym project.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Norma Olmos is the president of the Baldwin Park Unified School District Board of Education.",
+            "cites": [1]
+          },
+          {
+            "text": "She was elected in 2024 to a term ending in 2026.",
+            "cites": [2]
+          },
+          {
+            "text": "She previously served on the City of Baldwin Park Parks and Recreation Commission.",
+            "cites": [3]
+          },
+          {
+            "text": "She also served on the district's Citizen's Oversight Committee, which supervised a high school gym project.",
+            "cites": [4]
+          }
+        ]
+      },
+      {
+        "text": "She supports promoting literacy, teaching practical life skills, and increasing parent involvement.",
+        "cites": [3],
+        "sentences": [
+          {
+            "text": "She supports promoting literacy, teaching practical life skills, and increasing parent involvement.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/211912519-Olmos%2C%20Norma",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board of Education Designates New Officers for 2026",
+      "publisher": "Baldwin Park Unified School District",
+      "url": "https://www.bpusd.net/apps/news/article/2144878",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "November 05, 2024 - Election Results",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://results.lavote.gov/text-results/4324",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Board of Education – Board Members",
+      "publisher": "Baldwin Park Unified School District",
+      "url": "https://www.bpusd.net/apps/pages/index.jsp?uREC_ID=822588&type=d&pREC_ID=1205100",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Baldwin Park Unified Alumni, Community Return for Baldwin Park High School Gym Groundbreaking",
+      "publisher": "California School News Report",
+      "url": "https://caschoolnews.net/articles/baldwin-park-unified-alumni-community-return-for-baldwin-park-high-school-gym-groundbreaking/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.037Z",
+    "version": 3
+  }
+}

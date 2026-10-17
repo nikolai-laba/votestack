@@ -1,0 +1,91 @@
+{
+  "key": "lenet-pacheco",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Lenet Pacheco",
+  "office": "Valley County Water District, Member, Board of Directors",
+  "contestIds": ["la-4348-cc10397"],
+  "kind": "candidate",
+  "tier": "short",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Lenet Pacheco has served on the Valley County Water District board since 2009. She chairs the Finance and Capital Improvements Committee. She serves as an alternate on the Administrative Committee. She says she advocates for safe, affordable, clean, and reliable water and supported pandemic relief policies. In 2020, the California Fair Political Practices Commission fined her and her campaign committees $9,000 for failing to file multiple campaign finance reports on time.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Lenet Pacheco has served on the Valley County Water District board since 2009.",
+            "cites": [1]
+          },
+          {
+            "text": "She chairs the Finance and Capital Improvements Committee.",
+            "cites": [2]
+          },
+          {
+            "text": "She serves as an alternate on the Administrative Committee.",
+            "cites": [3]
+          },
+          {
+            "text": "She says she advocates for safe, affordable, clean, and reliable water and supported pandemic relief policies.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2020, the California Fair Political Practices Commission fined her and her campaign committees $9,000 for failing to file multiple campaign finance reports on time.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/214330190-Pacheco%2C%20Lenet",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "2023 Executive Committee Election Candidates – ACWA JPIA",
+      "publisher": "ACWA JPIA",
+      "url": "https://www.acwajpia.com/2023-executive-committee-election-candidates/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "2025 0820 Finance Committee Agenda",
+      "publisher": "Valley County Water District",
+      "url": "https://www.vcwd.org/AgendaCenter/ViewFile/Agenda/_08202025-311?packet=true",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "ADMINISTRATIVE COMMITTEE MEETING",
+      "publisher": "Valley County Water District",
+      "url": "https://www.vcwd.org/AgendaCenter/ViewFile/Item/787?fileID=2492",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "FPPC 2020 Annual Report",
+      "publisher": "California Fair Political Practices Commission",
+      "url": "https://www.fppc.ca.gov/siteassets/documents/reports/annual/2020_Annual_Report.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.388Z",
+    "version": 3
+  }
+}

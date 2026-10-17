@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { confirmation } from './endorsers.ts'
-import { hintFor } from './slate-parsers.ts'
+import { hintFor, laHint } from './slate-parsers.ts'
 import {
   matchEntry,
   matchSlate,
@@ -256,5 +256,64 @@ describe('mergeSlates', () => {
     const once = mergeSlates(fixtureProfile(), [slate]).profile
     const again = mergeSlates(once, [{ ...slate, fetchedAt: '2026-11-01' }])
     expect(again.profile.sources.at(-1)?.viewedAt).toBe('2026-11-01')
+  })
+})
+
+describe('officeFits for Los Angeles offices', () => {
+  const council = (office: string) =>
+    fixtureSubject({ office, officeType: 'city_council' })
+
+  it('needs the place to begin the office, after "City of"', () => {
+    const hint = laHint('El Monte City Council, District 2')!
+    expect(
+      officeFits(
+        council('City of El Monte, Member of the City Council, 2nd District'),
+        hint,
+      ),
+    ).toBe(true)
+    expect(
+      officeFits(
+        council(
+          'City of South El Monte, Member of the City Council, 2nd District',
+        ),
+        hint,
+      ),
+    ).toBe(false)
+    expect(
+      officeFits(
+        council('City of City of Culver, Member of the City Council'),
+        laHint('Culver City Council')!,
+      ),
+    ).toBe(true)
+  })
+
+  it('reads spelled-out districts when the office has no digits', () => {
+    const office =
+      'City of Alhambra, Member of the City Council, Fifth District'
+    expect(
+      officeFits(council(office), laHint('Alhambra City Council, CD 5')!),
+    ).toBe(true)
+    expect(
+      officeFits(council(office), laHint('Alhambra City Council, CD 1')!),
+    ).toBe(false)
+  })
+
+  it('ignores dashes and accents in places', () => {
+    const school = fixtureSubject({
+      office:
+        'Hacienda La Puente Unified School District, Governing Board Member, Trustee Area No. 4',
+      officeType: 'school_board',
+    })
+    expect(
+      officeFits(
+        school,
+        laHint('Hacienda- La Puente Unified School District, Area 4')!,
+      ),
+    ).toBe(true)
+  })
+
+  it('matches a list nickname to the ballot name', () => {
+    expect(slateNameMatches('Abby Veltman', 'Abigail Veltman')).toBe(true)
+    expect(slateNameMatches('Jacky Elizalde', 'Jacqueline Elizalde')).toBe(true)
   })
 })

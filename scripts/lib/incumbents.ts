@@ -8,8 +8,12 @@
 //   incumbent/challenger/open-seat field the FEC sets from its own records.
 // - Illinois General Assembly: the current member lists on ilga.gov, matched
 //   by chamber, district and name.
-// - Everything else: content/incumbents/rosters.json, a hand-checked list
-//   copied from each body's own roster page, with the page and the date.
+// - California: a ballot designation of "Incumbent" or "Appointed
+//   Incumbent", which the Elections Code (13107) allows only for the person
+//   holding that office, and which the Registrar reviews before printing.
+// - Everything else: content/incumbents/rosters.json (in a folder per area
+//   after Cook County), a hand-checked list copied from each body's own
+//   roster page, with the page and the date.
 
 import type { Contest, IsoDate } from '../../src/shared/ballot.ts'
 import { profileKey } from '../../src/shared/profile.ts'
@@ -108,8 +112,37 @@ const districtOf = (districtId: string, type: string) =>
 
 export interface Sources {
   fec: { candidates: FecCandidate[]; checked: IsoDate }
-  ilga: Record<Chamber, { members: Member[]; checked: IsoDate }>
+  /** Illinois only. */
+  ilga?: Record<Chamber, { members: Member[]; checked: IsoDate }>
   roster: RosterEntry[]
+  /** California only: each candidate's ballot designation, by key. */
+  designations?: {
+    byKey: Map<string, string>
+    source: string
+    checked: IsoDate
+  }
+}
+
+/** "Incumbent" or "Appointed Incumbent", alone or as one part ("Incumbent/Business Owner"). */
+const INCUMBENT_DESIGNATION = /^(appointed\s+)?incumbent$/i
+
+/** The ballot designation says so (California). */
+export function designationIncumbent(
+  p: Person,
+  designations: Sources['designations'],
+): IncumbentEntry | null {
+  const designation = designations?.byKey.get(p.key)?.trim()
+  return designation &&
+    designation
+      .split('/')
+      .some((part) => INCUMBENT_DESIGNATION.test(part.trim()))
+    ? {
+        incumbent: true,
+        office: p.office,
+        source: designations!.source,
+        checked: designations!.checked,
+      }
+    : null
 }
 
 /** FEC: incumbent when a candidate record for this seat and name says so. */
@@ -144,7 +177,7 @@ export function ilgaIncumbent(
   p: Person,
   ilga: Sources['ilga'],
 ): IncumbentEntry | null {
-  if (p.officeType !== 'state_legislature') return null
+  if (!ilga || p.officeType !== 'state_legislature') return null
   const house = districtOf(p.districtId, 'sldl')
   const chamber: Chamber | null = Number.isFinite(house)
     ? 'House'
@@ -201,7 +234,8 @@ export function buildIncumbents(
     const entry =
       fecIncumbent(p, sources.fec) ??
       ilgaIncumbent(p, sources.ilga) ??
-      rosterIncumbent(p, sources.roster)
+      rosterIncumbent(p, sources.roster) ??
+      designationIncumbent(p, sources.designations)
     if (!entry) continue
     incumbents[p.key] = entry
     const r = sources.roster.find(

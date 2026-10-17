@@ -1,0 +1,100 @@
+{
+  "key": "laura-luciana-santos",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Laura Luciana Santos",
+  "office": "Mt. San Antonio Community College District, Governing Board Member, Trustee Area No. 3",
+  "contestIds": ["la-4348-cc10592"],
+  "kind": "candidate",
+  "tier": "short",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Laura Luciana Santos is the Mt. San Antonio College Board of Trustees vice president for Area 3, first elected in 2013 and re-elected in 2022. She has also served on the Bassett Unified School District Board and works as a public relations representative. She practiced law for 10 years. The State Bar of California lists her as disbarred and prohibited from practicing law in California.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Laura Luciana Santos is the Mt. San Antonio College Board of Trustees vice president for Area 3, first elected in 2013 and re-elected in 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "She has also served on the Bassett Unified School District Board and works as a public relations representative.",
+            "cites": [2]
+          },
+          { "text": "She practiced law for 10 years.", "cites": [3] },
+          {
+            "text": "The State Bar of California lists her as disbarred and prohibited from practicing law in California.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217596951-Laura%20Santos%20for%20Mt%20San%20Antonio%20College%20Trustee%20Area%203%202026"
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Mt. SAC Board of Trustees - Laura Santos",
+      "publisher": "Mt. San Antonio College",
+      "url": "https://www.mtsac.edu/governance/trustees/members/santos.html",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Laura Luciana Santos, Mt. San Antonio Community College District 3 candidate, 2026 election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/laura-luciana-santos-mt-san-antonio-community-college-district-3-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Hidalgo Elected Board President - Mt. SAC",
+      "publisher": "Mt. San Antonio College",
+      "url": "https://www.mtsac.edu/newsroom/news/posts/2024-12-17-peter-hidalgo-board-prez.html",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Laura Luciana Santos # 150378 - Attorney Licensee Search",
+      "publisher": "State Bar of California",
+      "url": "https://apps.calbar.ca.gov/attorney/Licensee/Detail/150378",
+      "kind": "bar",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 5
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:36.988Z",
+    "version": 4
+  }
+}

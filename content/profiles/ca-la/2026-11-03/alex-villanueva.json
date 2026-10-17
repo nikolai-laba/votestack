@@ -1,0 +1,339 @@
+{
+  "key": "alex-villanueva",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Alex Villanueva",
+  "office": "Los Angeles County Sheriff",
+  "contestIds": ["la-4348-cc10823-r1", "la-4348-cc10823-r2"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Alex Villanueva served as Sheriff of Los Angeles County from 2018 to 2022. He served 36 years in the Los Angeles County Sheriff’s Department. He retired as a lieutenant. He previously served as a planning commissioner for La Habra Heights.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Alex Villanueva served as Sheriff of Los Angeles County from 2018 to 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "He served 36 years in the Los Angeles County Sheriff’s Department.",
+            "cites": [2]
+          },
+          { "text": "He retired as a lieutenant.", "cites": [1] },
+          {
+            "text": "He previously served as a planning commissioner for La Habra Heights.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "He says the department faces a staffing crisis with roughly 3,000 sworn vacancies. He has proposed reducing deputy overtime and increasing staffing levels. He disputes the existence of deputy gangs. He frequently disagreed with the county Board of Supervisors and opened investigations into critics, including a Los Angeles Times reporter. He refused to comply with subpoenas regarding deputy gangs. After leaving office, a county panel placed him on a \"do not rehire\" list because it found he had violated policies on discrimination and harassment; he denied the allegation.",
+        "cites": [4, 5, 6, 7]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Villanueva for Sheriff 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216786014-LA%20County%3A%20Villanueva%20for%20Sheriff%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 82303.5,
+        "cashOnHand": 128887.37,
+        "breakdown": [
+          { "kind": "small", "amount": 2699.5 },
+          { "kind": "large", "amount": 70654 },
+          { "kind": "pac", "amount": 2250 },
+          { "kind": "other", "amount": 6700 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 25200, "count": 19 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Assemblymember David Tangipa",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [8]
+      },
+      {
+        "organization": "Assemblymember Carl DeMaio",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [8]
+      },
+      {
+        "organization": "Assemblymember Leticia Castillo",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [8]
+      },
+      {
+        "organization": "Santa Clarita Mayor Bill Miranda",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Rosemead Mayor Margaret Clark",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Stanton Mayor David John Shawver",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "West Covina Mayor Pro Tem Ollie Cantos",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Hawthorne Mayor Pro Tem Faye Johnson",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Baldwin Park Council Member Jean M. Ayala",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Baldwin Park Council Member Manuel Lozano",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "La Habra Heights Council Member Norm Zezula",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Lancaster Council Member Ken Maan",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Santa Fe Springs Council Member Bill Rounds",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Walnut Council Member Kaylee May Law",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Whittier Council Member Cathy Warner",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Bell Gardens Council Member Dr. Francis De Leon Sanchez",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Cerritos City Council Member Jennifer Hong",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Norwalk City Council Member Rick Ramirez",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "La Puente City Council Member David Argudo",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Former Cerritos Mayor Chuong Vo",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Centinela Valley Union High School District Board President Hugo M. Rojas II",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Baldwin Park Unified School District Board Member Ricardo Vasquez",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "ABC Unified School District Board Member Soo Yoo",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Beverly Hills Unified School District Board Member Russell Stuart",
+        "kind": "elected_official",
+        "cites": [8]
+      },
+      {
+        "organization": "Los Angeles County Republican Party",
+        "kind": "party",
+        "cites": [6]
+      },
+      {
+        "organization": "Los Angeles Sheriff's Professional Association (LASPA)",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Los Angeles School Police Officers Association",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Los Angeles County Taxpayers Association",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "National Latino Peace Officers Association Advocacy",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Los Angeles County Lincoln Clubs",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "San Bernardino Police Officers Association",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "Whittier Police Officers Association",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "Arcadia Police Officers Association",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "Alhambra Police Officers Association",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "Monterey Park Police Officers Association",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "Claremont Police Officers Association",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [10]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Alex Villanueva - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alex_Villanueva",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Meet Alex | Alex Villanueva for Sheriff 2026",
+      "publisher": "Alex Villanueva for Sheriff 2026",
+      "url": "https://alexvillanueva2026.com/meet-alex/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Alex Villanueva, Los Angeles County Sheriff candidate, 2026 election questionnaire",
+      "publisher": "Daily News",
+      "url": "https://www.dailynews.com/2026/09/23/alex-villanueva-los-angeles-county-sheriff-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Meet Alex Villanueva, Candidate For Los Angeles County Sheriff",
+      "publisher": "Patch",
+      "url": "https://patch.com/california/los-angeles/meet-alex-villanueva-candidate-los-angeles-county-sheriff",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Election 2026: LA County Sheriff Luna faces 7 challengers",
+      "publisher": "Daily News",
+      "url": "https://www.dailynews.com/2026/05/28/los-angeles-county-sheriff-luna-faces-7-challengers-including-the-one-he-unseated/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "LA County Sheriff: Who's running on Nov. 3 and why it matters | LAist",
+      "publisher": "LAist",
+      "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-la-county-sheriff",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "L.A. County sheriff's election guide: Robert Luna vs. Alex Villanueva",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-10-01/2026-california-election-los-angeles-county-sheriff-race-luna-villanueva-voter-guide",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "Endorsements | Alex Villanueva for Sheriff 2026",
+      "publisher": "Alex Villanueva for Sheriff 2026",
+      "url": "https://alexvillanueva2026.com/endorsements/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "Deputies' organization backs Villanueva in 2026 race for sheriff",
+      "publisher": "KTLA",
+      "url": "https://digital-dev.ktla.com/?p=3921707",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 10
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.268Z",
+    "version": 7
+  }
+}

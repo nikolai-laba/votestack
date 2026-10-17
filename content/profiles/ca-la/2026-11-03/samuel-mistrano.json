@@ -1,0 +1,70 @@
+{
+  "key": "samuel-mistrano",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Samuel Mistrano",
+  "office": "Altadena Library District, Member, Board of Trustees, Trustee Area No. 3",
+  "contestIds": ["la-4348-cc10541"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Samuel Mistrano is a clinical associate professor at USC's Suzanne Dworak-Peck School of Social Work. He is a former senior project manager for the Los Angeles Unified School District's facilities division. In his candidate statement, he wrote that the Main Library renovation process needs strong oversight. His resume states he led an LAUSD initiative developing four workforce housing projects with 236 affordable apartments, generating $33 million in lease revenue.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Samuel Mistrano is a clinical associate professor at USC's Suzanne Dworak-Peck School of Social Work.",
+            "cites": [1]
+          },
+          {
+            "text": "He is a former senior project manager for the Los Angeles Unified School District's facilities division.",
+            "cites": [2]
+          },
+          {
+            "text": "In his candidate statement, he wrote that the Main Library renovation process needs strong oversight.",
+            "cites": [2]
+          },
+          {
+            "text": "His resume states he led an LAUSD initiative developing four workforce housing projects with 236 affordable apartments, generating $33 million in lease revenue.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217104416-Mistrano%2C%20Samuel",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Samuel Albert Mistrano, JD",
+      "publisher": "University of Southern California",
+      "url": "https://dworakpeck.usc.edu/sites/default/files/2021-05/Sam%20Mistrano%20CV%20(2021).pdf",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Altadena Library District Sets October 19 Forum for Trustee Area 3 Candidates",
+      "publisher": "Pasadena Now",
+      "url": "https://pasadenanow.com/main/altadena-library-district-sets-october-19-forum-for-trustee-area-3-candidates",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T14:05:39.708Z",
+    "version": 5
+  }
+}

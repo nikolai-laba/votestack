@@ -1,0 +1,169 @@
+{
+  "key": "doug-trussler",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Doug Trussler",
+  "office": "City of Santa Monica, Member of the City Council",
+  "contestIds": ["la-4348-cc10514"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Doug Trussler is an investment manager. He co-founded an investment firm in Santa Monica that he says has partnered with over 45 businesses, particularly in healthcare and renewable energy. Trussler centers his campaign on restoring the city’s finances, citing a 2026 budget that projects $477 million in revenue against $512 million in spending, a deficit of more than $35 million. He says that within his first six months he will work to give the city a long-term budget and cash-flow forecast, and that he will push for budget reporting with clear benchmarks.",
+        "cites": [1, 2, 3, 4]
+      },
+      {
+        "text": "He supports building significantly more housing concentrated downtown and along commercial corridors, while protecting existing rent-controlled tenants. His campaign says he has specific strategies for recycling rent-controlled units and creating community-based financing for affordable housing.",
+        "cites": [4],
+        "sentences": [
+          {
+            "text": "He supports building significantly more housing concentrated downtown and along commercial corridors, while protecting existing rent-controlled tenants.",
+            "cites": [4]
+          },
+          {
+            "text": "His campaign says he has specific strategies for recycling rent-controlled units and creating community-based financing for affordable housing.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Monica",
+        "committee": "Trussler for Santa Monica City Council 2026",
+        "url": "https://netfile.com/public/CSM/campaign/filingsByFiler/216052889-Trussler%20for%20Santa%20Monica%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 137660,
+        "cashOnHand": 82056.06,
+        "breakdown": [
+          { "kind": "small", "amount": 210 },
+          { "kind": "large", "amount": 12450 },
+          { "kind": "candidate", "amount": 125000 }
+        ],
+        "fromCandidate": 125000,
+        "largeSince": { "since": "2026-09-19", "total": 4800, "count": 4 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [5] },
+      {
+        "organization": "Santa Monica Police Officers Association",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Santa Monica Firefighters, IAFF Local 1109",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "YIMBY Los Angeles",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Blue Wave Democratic Club",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Northeast Neighbors",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Democrats for Israel – Los Angeles",
+        "kind": "organization",
+        "cites": [9]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Santa Monica Council Candidate Spotlight: Doug Trussler",
+      "publisher": "Patch",
+      "url": "https://patch.com/california/santamonica/santa-monica-council-candidate-spotlight-doug-trussler",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "General Election 2026",
+      "publisher": "City of Santa Monica",
+      "url": "https://www.santamonica.gov/elections/2026-11-03/candidates/douglas-trussler",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Santa Monica Deserves a Straight Answer About Its Finances",
+      "publisher": "Santa Monica Daily Press",
+      "url": "https://www.smdp.com/santa-monica-deserves-a-straight-answer-about-its-finances/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Candidate Name: Douglas Trussler",
+      "publisher": "Santa Monica Democratic Club",
+      "url": "https://santamonicademocrats.com/wp-content/uploads/2026/06/Doug-Trussler-City-Council.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Hotel union endorses four candidates for three open spots on the City Council",
+      "publisher": "Santa Monica Daily Press",
+      "url": "https://www.smdp.com/hotel-union-endorses-four-candidates-for-three-open-spots-on-the-city-council/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Public safety unions expand endorsements alongside new survey saying the City is on the wrong track",
+      "publisher": "Santa Monica Daily Press",
+      "url": "https://www.smdp.com/public-safety-unions-expand-endorsements-alongside-new-survey-saying-the-city-is-on-the-wrong-track/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "YIMBY Action endorsement",
+      "publisher": "YIMBY Action",
+      "url": "https://yimbyaction.org/candidates/doug-trussler",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 8,
+      "title": "Slow-Growth Group Endorses Negrete, Oelsen",
+      "publisher": "Santa Monica Lookout",
+      "url": "https://santamonicalookout.com/ssm_site/the_lookout/news/News-2026/September-2026/09_09_2026_Slow_Growth_Group_Endorses_Negrete_Oelsen.html",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Democrats for Israel – Los Angeles",
+      "url": "https://dfi-la.org/endorse",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 9
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:44:15.737Z",
+    "version": 3
+  }
+}

@@ -18,6 +18,7 @@ import {
   pickedCandidates,
 } from '../picks/summary.ts'
 import type { Contest } from '../shared/ballot.ts'
+import { COOK, regionForElection } from '../shared/regions.ts'
 import { SAVED_CHOICES_HEAD, useDocumentHead } from '../head.ts'
 
 // Saved choices: the voter's picks in ballot order, to fill in a mail
@@ -25,8 +26,8 @@ import { SAVED_CHOICES_HEAD, useDocumentHead } from '../head.ts'
 // the picked names standing out for a quick scan. Sections by level of
 // government, or in paper ballot order to follow along in the booth.
 // Read from the device only. There is deliberately no print, download or
-// share: showing a marked ballot is against the law in Illinois
-// (10 ILCS 5/29-9).
+// share, for any area: showing a marked ballot is against the law in
+// Illinois (10 ILCS 5/29-9).
 
 const HEADING_ID = 'saved-choices-heading'
 const CLEARED_ID = 'saved-choices-cleared'
@@ -69,7 +70,13 @@ export function SavedChoicesPage() {
     )
   }
 
-  const sections = sectionsFor(ballot.contests, order)
+  const region = regionForElection(ballot.election.id)
+  const words = (region ?? COOK).measureWords
+  const sections = sectionsFor(ballot.contests, order, region ?? COOK)
+  // Illinois's law against showing a marked ballot. California's differs,
+  // so the warning is for Illinois ballots (and any ballot whose state isn't
+  // known).
+  const illinois = region?.state !== 'CA'
 
   return (
     <div className="max-w-[65ch] space-y-8">
@@ -78,7 +85,7 @@ export function SavedChoicesPage() {
         <p className="text-muted">
           {ballot.election.name}, {longDate(ballot.election.date)}
         </p>
-        <p>You picked in {pickCountText(pickCounts(ballot, picks))}.</p>
+        <p>You picked in {pickCountText(pickCounts(ballot, picks), words)}.</p>
       </header>
 
       <PickNotices />
@@ -94,13 +101,29 @@ export function SavedChoicesPage() {
           <h2 id={`picks-${section.id}-heading`} className="text-section">
             {section.title}
           </h2>
-          <ul className="divide-y divide-line border-y border-line">
-            {section.contests.map((contest) => (
-              <li key={contest.id} className="py-3">
-                <PickedRace contest={contest} picks={picks} />
-              </li>
-            ))}
-          </ul>
+          {section.groups ? (
+            section.groups.map((group) => {
+              const headingId = `picks-${section.id}-${group.id}-heading`
+              return (
+                <section
+                  key={group.id}
+                  aria-labelledby={headingId}
+                  className="space-y-2 pt-4"
+                >
+                  <h3 id={headingId} className="text-race">
+                    {group.title}
+                  </h3>
+                  <PickedList
+                    contests={group.contests}
+                    picks={picks}
+                    headingLevel={4}
+                  />
+                </section>
+              )
+            })
+          ) : (
+            <PickedList contests={section.contests} picks={picks} />
+          )}
         </section>
       ))}
 
@@ -110,13 +133,38 @@ export function SavedChoicesPage() {
 
       <div className="space-y-4 border-t border-line pt-6">
         <p className="text-small text-muted">
-          Saved only on this device. This isn&apos;t an official ballot. In
-          Illinois it&apos;s against the law to show your marked ballot to
-          anyone, including in a photo.
+          Saved only on this device. This isn&apos;t an official ballot.
+          {illinois &&
+            " In Illinois it's against the law to show your marked ballot to anyone, including in a photo."}
         </p>
         <ClearPicks picks={picks} />
       </div>
     </div>
+  )
+}
+
+function PickedList({
+  contests,
+  picks,
+  headingLevel = 3,
+}: {
+  contests: Contest[]
+  picks: Picks
+  /** 4 inside a group that has its own h3. */
+  headingLevel?: 3 | 4
+}) {
+  return (
+    <ul className="divide-y divide-line border-y border-line">
+      {contests.map((contest) => (
+        <li key={contest.id} className="py-3">
+          <PickedRace
+            contest={contest}
+            picks={picks}
+            headingLevel={headingLevel}
+          />
+        </li>
+      ))}
+    </ul>
   )
 }
 
@@ -125,7 +173,16 @@ export function SavedChoicesPage() {
  * `primary`, so the picks are what the eye finds first. Every pick looks the
  * same.
  */
-function PickedRace({ contest, picks }: { contest: Contest; picks: Picks }) {
+function PickedRace({
+  contest,
+  picks,
+  headingLevel,
+}: {
+  contest: Contest
+  picks: Picks
+  headingLevel: 3 | 4
+}) {
+  const Heading = headingLevel === 4 ? 'h4' : 'h3'
   let label: ReactNode
   let choice: ReactNode
 
@@ -133,9 +190,9 @@ function PickedRace({ contest, picks }: { contest: Contest; picks: Picks }) {
     const picked = pickedCandidates(picks, contest)
     label = (
       <>
-        <h3 className="font-sans text-small font-semibold text-muted">
+        <Heading className="font-sans text-small font-semibold text-muted">
           {contest.title}
-        </h3>
+        </Heading>
         {contest.voteFor > 1 && (
           <p className="text-small text-muted">
             {picked.length} of {contest.voteFor} picked
@@ -165,9 +222,9 @@ function PickedRace({ contest, picks }: { contest: Contest; picks: Picks }) {
       )
   } else if (contest.kind === 'measure') {
     label = (
-      <h3 className="font-sans text-small font-semibold text-muted">
+      <Heading className="font-sans text-small font-semibold text-muted">
         {contest.title}
-      </h3>
+      </Heading>
     )
     choice = <Answer choice={choicesFor(picks, contest)[0]} />
   } else {

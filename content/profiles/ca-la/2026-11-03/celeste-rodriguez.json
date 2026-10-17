@@ -1,0 +1,495 @@
+{
+  "key": "celeste-rodriguez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Celeste Rodriguez",
+  "party": "Democratic",
+  "office": "State Assembly Member, 43rd District",
+  "contestIds": ["la-4348-cc10786"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Celeste Rodriguez has represented California’s 43rd Assembly District since 2024. She previously served on the San Fernando City Council and was mayor from 2022 to 2024. Before holding office, she worked for the city of Los Angeles, where she oversaw a guaranteed basic income pilot program.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Celeste Rodriguez has represented California’s 43rd Assembly District since 2024.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously served on the San Fernando City Council and was mayor from 2022 to 2024.",
+            "cites": [1]
+          },
+          {
+            "text": "Before holding office, she worked for the city of Los Angeles, where she oversaw a guaranteed basic income pilot program.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "In 2025, Governor Newsom signed her bill AB 495, allowing parents to designate a caregiver if separated by immigration enforcement. She advocated for $3.75 million in Proposition 4 funding for wildfire prevention and a new Sylmar fire station. Rodriguez voted for state Medi-Cal cuts affecting some immigrants, saying she felt torn over her responsibility to protect them. Her campaign prioritizes economic stability and career training. She also supports safe learning environments.",
+        "cites": [3, 4, 5, 6],
+        "sentences": [
+          {
+            "text": "In 2025, Governor Newsom signed her bill AB 495, allowing parents to designate a caregiver if separated by immigration enforcement.",
+            "cites": [3]
+          },
+          {
+            "text": "She advocated for $3.75 million in Proposition 4 funding for wildfire prevention and a new Sylmar fire station.",
+            "cites": [4]
+          },
+          {
+            "text": "Rodriguez voted for state Medi-Cal cuts affecting some immigrants, saying she felt torn over her responsibility to protect them.",
+            "cites": [5]
+          },
+          {
+            "text": "Her campaign prioritizes economic stability and career training.",
+            "cites": [6]
+          },
+          {
+            "text": "She also supports safe learning environments.",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Celeste Rodriguez for Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477040",
+        "period": "July 1 to September 19, 2026",
+        "raised": 40410,
+        "cashOnHand": 284278.58,
+        "breakdown": [
+          { "kind": "small", "amount": 10 },
+          { "kind": "large", "amount": 2750 },
+          { "kind": "pac", "amount": 29650 },
+          { "kind": "other", "amount": 8000 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 31100, "count": 7 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Democratic Party",
+        "kind": "party",
+        "cites": [7]
+      },
+      {
+        "organization": "California Federation of Teachers",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "California Professional Firefighters",
+        "kind": "union",
+        "cites": [10]
+      },
+      { "organization": "SEIU California", "kind": "union", "cites": [10] },
+      { "organization": "AFSCME California", "kind": "union", "cites": [10] },
+      {
+        "organization": "National Union of Healthcare Workers",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "United Nurses Associations of California/Union of Health Care Professionals",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Los Angeles/Orange Counties Building and Construction Trades Council",
+        "kind": "union",
+        "cites": [10]
+      },
+      { "organization": "IBEW Local 11", "kind": "union", "cites": [10] },
+      {
+        "organization": "Operating Engineers Local 12",
+        "kind": "union",
+        "cites": [10]
+      },
+      { "organization": "SEIU Local 99", "kind": "union", "cites": [10] },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Consumer Attorneys of California",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "California Reproductive Freedom",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Climate Action California",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "Housing Action Coalition",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "California Legislative Latino Caucus",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "California Legislative Women's Caucus",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Sen. Alex Padilla",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Luz Rivas",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Brad Sherman",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Former U.S. Rep. Tony Cárdenas",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "State Treasurer Fiona Ma",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "State Board of Equalization Member Tony Vazquez",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Assembly Speaker Robert Rivas",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "State Sen. Caroline Menjivar",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "State Sen. Monique Limón",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Assemblymember Pilar Schiavo",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Assemblymember Mike Fong",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Assemblymember Isaac Bryan",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Assemblymember Jesse Gabriel",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Assemblymember Cecilia Aguiar-Curry",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Assemblymember Buffy Wicks",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Assemblymember Juan Carrillo",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Assemblymember Lisa Calderon",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Lindsey P. Horvath",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Los Angeles Mayor Karen Bass",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Los Angeles City Councilmember Monica Rodriguez",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Los Angeles City Councilmember Imelda Padilla",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [13]
+      },
+      {
+        "organization": "California Environmental Voters",
+        "kind": "organization",
+        "cites": [14]
+      },
+      {
+        "organization": "California Teachers Association",
+        "kind": "union",
+        "cites": [15]
+      },
+      {
+        "organization": "Democrats for Israel – Los Angeles",
+        "kind": "organization",
+        "cites": [16]
+      },
+      { "organization": "Knock LA", "kind": "organization", "cites": [17] },
+      { "organization": "LA Forward", "kind": "organization", "cites": [18] },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [19]
+      },
+      {
+        "organization": "Planned Parenthood Advocacy Project Los Angeles County",
+        "kind": "organization",
+        "cites": [20]
+      },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [21] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Celeste Rodriguez - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Celeste_Rodriguez",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Celeste Rodriguez - Digital Democracy | CalMatters",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.digitaldemocracy.org/legislators/celeste-rodriguez-187423",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Governor Newsom signs bill to protect parents’ rights and children | Governor of California",
+      "publisher": "Governor of California",
+      "url": "https://www.gov.ca.gov/2025/10/12/governor-newsom-signs-bill-to-protect-parents-rights-and-children/",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Assemblywoman Celeste Rodriguez brings $3.75 Million Dollars to Sylmar",
+      "publisher": "Sylmar Neighborhood Council",
+      "url": "https://www.sylmarneighborhoodcouncil.org/page/viewNews/10941",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "‘Joy turned into shame’: California’s Latino Caucus agonized over slashing immigrant health care • Long Beach Post News",
+      "publisher": "Long Beach Post",
+      "url": "https://lbpost.com/news/joy-turned-into-shame-californias-latino-caucus-agonized-over-slashing-immigrant-health-care/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Re-Elect Celeste Rodriguez for Assembly",
+      "publisher": "Celeste Rodriguez campaign",
+      "url": "https://www.votecelesterodriguez.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "FINAL 2026 General Election Endorsements",
+      "publisher": "California Democratic Party",
+      "url": "https://cadem.org/wp-content/uploads/2026/08/FINAL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 8,
+      "title": "General Election 2026 • Tuesday, November 3",
+      "publisher": "California Federation of Teachers COPE",
+      "url": "https://www.cft.org/sites/main/files/file-attachments/cft_endorsements-general-election_9.29.2026.pdf?1790783088",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "2026 Voter Guide",
+      "publisher": "Teamsters Local 572",
+      "url": "https://www.teamsters572.org/local-572-voter-guide/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "Celeste's Endorsements",
+      "publisher": "Celeste Rodriguez for Assembly 2026",
+      "url": "https://www.votecelesterodriguez.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "AD 43: Celeste Rodriguez",
+      "publisher": "Climate Action California",
+      "url": "https://climateactioncaelections.org/ad-43-celeste-rodriguez/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "November 2026 Endorsements",
+      "publisher": "Housing Action Coalition",
+      "url": "https://housingactioncoalition.org/news/nov-2026-endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 13,
+      "title": "Endorsements",
+      "publisher": "Sierra Club Angeles Chapter",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Who We're Endorsing in California's 2026 Election",
+      "publisher": "California Environmental Voters",
+      "url": "https://envirovoters.org/2026-endorsements/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "2026 Candidate Recommendations",
+      "publisher": "California Teachers Association",
+      "url": "https://www.cta.org/our-advocacy/election-2026",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Democrats for Israel – Los Angeles",
+      "url": "https://dfi-la.org/endorse",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
+      "publisher": "Knock LA (Ground Game LA)",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "Voter Guide, November 3, 2026",
+      "publisher": "Planned Parenthood Advocacy Project Los Angeles County",
+      "url": "https://www.plannedparenthoodaction.org/planned-parenthood-advocacy-project-los-angeles-county/voter-guide-ppapx",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 20
+    },
+    {
+      "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
+      "publisher": "SEIU Local 721",
+      "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 21
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.678Z",
+    "version": 4
+  }
+}

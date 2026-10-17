@@ -1,0 +1,471 @@
+{
+  "key": "jessica-caloza",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Jessica Caloza",
+  "party": "Democratic",
+  "office": "State Assembly Member, 52nd District",
+  "contestIds": ["la-4348-cc10792"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Jessica Caloza is a Democratic member of the California State Assembly, representing the 52nd District since 2024, and previously served as a Los Angeles Public Works Commissioner and deputy chief of staff to the state attorney general. In the Assembly, she wrote AB 1650 to increase transparency around ICE's use of unmarked vehicles. She also proposed a constitutional amendment to add a second voting student regent at the University of California. Her campaign says she supports lowering the cost of living, building affordable housing, strengthening public education, and protecting reproductive freedom. She passed bills addressing property-tax welfare exemptions for community land trusts and reserve accounts for common interest developments.",
+        "cites": [1, 2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "Jessica Caloza is a Democratic member of the California State Assembly, representing the 52nd District since 2024, and previously served as a Los Angeles Public Works Commissioner and deputy chief of staff to the state attorney general.",
+            "cites": [1]
+          },
+          {
+            "text": "In the Assembly, she wrote AB 1650 to increase transparency around ICE's use of unmarked vehicles.",
+            "cites": [2]
+          },
+          {
+            "text": "She also proposed a constitutional amendment to add a second voting student regent at the University of California.",
+            "cites": [3]
+          },
+          {
+            "text": "Her campaign says she supports lowering the cost of living, building affordable housing, strengthening public education, and protecting reproductive freedom.",
+            "cites": [4]
+          },
+          {
+            "text": "She passed bills addressing property-tax welfare exemptions for community land trusts and reserve accounts for common interest developments.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Caloza for Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1476900",
+        "period": "July 1 to September 19, 2026",
+        "raised": 135065,
+        "cashOnHand": 751084.48,
+        "breakdown": [
+          { "kind": "small", "amount": 15 },
+          { "kind": "large", "amount": 11800 },
+          { "kind": "pac", "amount": 69750 },
+          { "kind": "other", "amount": 53500 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 53450, "count": 23 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Democratic Party",
+        "kind": "party",
+        "cites": [6]
+      },
+      {
+        "organization": "U.S. Rep. Judy Chu",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Sydney Kamlager-Dove",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "U.S. Rep. Ted Lieu",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Attorney General Rob Bonta",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Treasurer Fiona Ma",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Sen. Maria Elena Durazo",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Sen. Lola Smallwood-Cuevas",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Sen. Josh Becker",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Sen. Ben Allen",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Assembly Majority Leader Cecilia Aguiar-Curry",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Assemblymember Rick Chavez Zbur",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Assemblymember Mike Fong",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Assemblymember Jesse Gabriel",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Assemblymember Isaac Bryan",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Assemblymember Mia Bonta",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Hilda Solis",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Lindsey Horvath",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Los Angeles County Assessor Jeff Prang",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "California Labor Federation",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "California Nurses Association",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "California Professional Firefighters",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "SEIU California State Council",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Communications Workers of America District 9",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "State Building & Construction Trades Council of California",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "California School Employees Association",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "SEIU United Healthcare Workers West",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "United Farm Workers", "kind": "union", "cites": [7] },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [7] },
+      {
+        "organization": "National Union of Healthcare Workers",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Sierra Club California",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Brady: United Against Gun Violence",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Reproductive Freedom for All California",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "California YIMBY",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "YIMBY Los Angeles",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "Asian Americans & Pacific Islanders for Civic Empowerment (AAPI FORCE)",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "Abundant Housing Los Angeles",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "California Asian & Pacific Islander Legislative Caucus",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "California Democratic Legislative Women's Caucus",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "California Environmental Voters",
+        "kind": "organization",
+        "cites": [13]
+      },
+      {
+        "organization": "California Federation of Teachers",
+        "kind": "union",
+        "cites": [14]
+      },
+      {
+        "organization": "California Teachers Association",
+        "kind": "union",
+        "cites": [15]
+      },
+      { "organization": "Knock LA", "kind": "organization", "cites": [16] },
+      { "organization": "LA Forward", "kind": "organization", "cites": [17] },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [18]
+      },
+      {
+        "organization": "Planned Parenthood Advocacy Project Los Angeles County",
+        "kind": "organization",
+        "cites": [19]
+      },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [20] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Biography",
+      "publisher": "Assemblymember Jessica Caloza",
+      "url": "https://caloza.asmdc.org/biography",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "State leaders agree: Governor Newsom’s signature on federal immigration enforcement bills protects Californians",
+      "publisher": "Governor of California",
+      "url": "https://www.gov.ca.gov/2026/09/29/state-leaders-agree-governor-newsoms-signature-on-federal-immigration-enforcement-bills-protects-californians/",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Does lobbying at the Capitol work? These UC students say yes, and they've got receipts",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.org/education/2026/03/uc-student-lobbying-capitol-calfresh-housing-regents/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Jessica Caloza for Assembly 2026",
+      "publisher": "Jessica Caloza for Assembly 2026",
+      "url": "https://www.jessicacaloza.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Jessica Caloza - Digital Democracy",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.digitaldemocracy.org/people/187425",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "2026 General Election Endorsements & Ballot Measure Positions (August 2, 2026)",
+      "publisher": "California Democratic Party",
+      "url": "https://cadem.org/wp-content/uploads/2026/08/8.5.26-FINAL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements | Jessica Caloza for Assembly 2026",
+      "publisher": "Caloza for Assembly 2026",
+      "url": "https://www.jessicacaloza.com/2026-supporters",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "Issues | Jessica Caloza for Assembly",
+      "publisher": "Caloza for Assembly 2026",
+      "url": "https://www.jessicacaloza.com/issues",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "2026 CA - General Election Endorsements",
+      "publisher": "CWA District 9",
+      "url": "https://cwad9.org/2026-ca-general-election-endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "Endorsements - California YIMBY",
+      "publisher": "California YIMBY",
+      "url": "https://cayimby.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "November General Election Endorsements",
+      "publisher": "YIMBY Los Angeles",
+      "url": "https://yimby.la/voter-guide/november-general-election-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "2026 General Endorsements",
+      "publisher": "AAPI FORCE",
+      "url": "https://www.aapiforce.org/2026general",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Who We're Endorsing in California's 2026 Election",
+      "publisher": "California Environmental Voters",
+      "url": "https://envirovoters.org/2026-endorsements/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "CFT Endorsements, General Election 2026 (Tuesday, November 3)",
+      "publisher": "California Federation of Teachers",
+      "url": "https://www.cft.org/2026-midterm-elections-hub",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "2026 Candidate Recommendations",
+      "publisher": "California Teachers Association",
+      "url": "https://www.cta.org/our-advocacy/election-2026",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
+      "publisher": "Knock LA (Ground Game LA)",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "Voter Guide, November 3, 2026",
+      "publisher": "Planned Parenthood Advocacy Project Los Angeles County",
+      "url": "https://www.plannedparenthoodaction.org/planned-parenthood-advocacy-project-los-angeles-county/voter-guide-ppapx",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
+      "publisher": "SEIU Local 721",
+      "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 20
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.701Z",
+    "version": 4
+  }
+}

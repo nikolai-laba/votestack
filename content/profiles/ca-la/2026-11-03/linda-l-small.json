@@ -1,0 +1,71 @@
+{
+  "key": "linda-l-small",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Linda L. Small",
+  "office": "Whittier City School District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10735"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Linda Small was elected to the Whittier City School District Governing Board for Trustee Area 5 in 2022. She works as a senior safety consultant. She says she has served the district's community for 35 years through the school board, the YMCA board, and the WCSD Educational Foundation.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Linda Small was elected to the Whittier City School District Governing Board for Trustee Area 5 in 2022.",
+            "cites": [1]
+          },
+          { "text": "She works as a senior safety consultant.", "cites": [2] },
+          {
+            "text": "She says she has served the district's community for 35 years through the school board, the YMCA board, and the WCSD Educational Foundation.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Linda Small For School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217452574-Linda%20Small%20for%20School%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 2000,
+        "cashOnHand": 2000,
+        "breakdown": [{ "kind": "candidate", "amount": 2000 }],
+        "fromCandidate": 2000
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board of Education – Board of Education – Whittier City School District",
+      "publisher": "Whittier City School District",
+      "url": "https://www.whittiercity.net/apps/pages/index.jsp?uREC_ID=687934&type=d&pREC_ID=1127514",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Linda Small, Whittier Elementary School District Area 5 candidate, 2026 election questionnaire – Daily News",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/linda-small-whittier-elementary-school-district-area-5-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.307Z",
+    "version": 3
+  }
+}

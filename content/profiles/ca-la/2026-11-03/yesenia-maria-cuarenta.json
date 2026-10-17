@@ -1,0 +1,108 @@
+{
+  "key": "yesenia-maria-cuarenta",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Yesenia Maria Cuarenta",
+  "office": "Paramount Unified School District, Governing Board Member, Trustee Area No. 4",
+  "contestIds": ["la-4348-cc10743"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Yesenia Maria Cuarenta is a member of the Paramount Unified School District Board of Education, elected in 2018 and re-elected in 2022. She wrote policy to support the creation of the district’s Office of Equity, Diversity and Support Systems. She is a California School Board Association delegate.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Yesenia Maria Cuarenta is a member of the Paramount Unified School District Board of Education, elected in 2018 and re-elected in 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "She wrote policy to support the creation of the district’s Office of Equity, Diversity and Support Systems.",
+            "cites": [1]
+          },
+          {
+            "text": "She is a California School Board Association delegate.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign says she voted against laying off teachers and support staff, and she supports equal opportunities for students regardless of immigration status. In 2024, she spoke at a board meeting in favor of special education teachers and proposed forming an Asian American Pacific Islander parent advisory group.",
+        "cites": [2, 3],
+        "sentences": [
+          {
+            "text": "Her campaign says she voted against laying off teachers and support staff, and she supports equal opportunities for students regardless of immigration status.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2024, she spoke at a board meeting in favor of special education teachers and proposed forming an Asian American Pacific Islander parent advisory group.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/214329101-Cuarenta%2C%20Yesenia",
+      "underThreshold": true
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "State Sen. Lena Gonzalez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [2]
+      },
+      {
+        "organization": "Latinas Lead California",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "San Diego Unified School Board President Richard Barrera",
+        "kind": "elected_official",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Yesenia Cuarenta, Board Member - Paramount Unified School District",
+      "publisher": "Paramount Unified School District",
+      "url": "https://www.paramountusd.com/board/board-of-education/yesenia-cuarenta-board-member",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Re-Elect Yesenia Cuarenta for PUSD Board of Education 2026",
+      "publisher": "Yesenia Cuarenta Campaign",
+      "url": "https://www.yeseniaforparamount.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Paramount Unified School District Board meeting minutes, May 14, 2024",
+      "publisher": "Paramount Unified School District",
+      "url": "https://go.boarddocs.com/ca/paramount/Board.nsf/files/DAYUHA7C1BCE/$file/May%2014,%202024.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.244Z",
+    "version": 2
+  }
+}

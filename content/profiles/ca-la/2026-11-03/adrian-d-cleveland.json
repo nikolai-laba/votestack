@@ -1,0 +1,58 @@
+{
+  "key": "adrian-d-cleveland",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Adrian D. Cleveland",
+  "office": "Compton Community College District, Governing Board Member, Trustee Area No. 2 (Unexpired term ending December 8, 2028)",
+  "contestIds": ["la-4348-cc10582"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Adrian D. Cleveland is a plant manager with the Compton Unified School District. In a board application, Cleveland wrote of over 30 years of leadership experience in personnel supervision, fiscal oversight, regulatory compliance, and labor-management engagement. He is a Compton College graduate and supports student success, workforce alignment, and institutional stability.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Adrian D. Cleveland is a plant manager with the Compton Unified School District.",
+            "cites": [1]
+          },
+          {
+            "text": "In a board application, Cleveland wrote of over 30 years of leadership experience in personnel supervision, fiscal oversight, regulatory compliance, and labor-management engagement.",
+            "cites": [1]
+          },
+          {
+            "text": "He is a Compton College graduate and supports student success, workforce alignment, and institutional stability.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/212045015-Cleveland%2C%20Adrian",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "TA2 Vacancy Application Adrian Cleveland",
+      "publisher": "Compton College",
+      "url": "https://www.compton.edu/district/board-of-trustees/docs/Adrian_Cleveland_Application_Packet.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T05:54:20.763Z",
+    "version": 2
+  }
+}

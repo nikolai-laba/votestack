@@ -1,0 +1,509 @@
+{
+  "key": "rob-bonta",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Rob Bonta",
+  "party": "Democratic",
+  "office": "California Attorney General",
+  "contestIds": ["la-4348-cc10833-r1", "la-4348-cc10833-r2"],
+  "kind": "candidate",
+  "tier": "top",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Rob Bonta is the California Attorney General, appointed in 2021 and elected to a full term in 2022. Before that, he served in the State Assembly for more than eight years and worked as a deputy city attorney for San Francisco. He also served on the Alameda City Council.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Rob Bonta is the California Attorney General, appointed in 2021 and elected to a full term in 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "Before that, he served in the State Assembly for more than eight years and worked as a deputy city attorney for San Francisco.",
+            "cites": [2]
+          },
+          {
+            "text": "He also served on the Alameda City Council.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "Since the reelection of Donald Trump, Bonta has filed or joined more than 50 lawsuits against his administration. In 2026, he secured a victory that prevented the president from keeping California National Guard troops under federal control indefinitely. During his tenure, he created an Affordability Response Team within the Department of Justice to investigate practices that unlawfully raise costs for Californians. His office secured a $17 billion proposed settlement with Meta over claims that Instagram and Facebook harmed children’s mental health. He also led a coalition of attorneys general in a settlement with Paramount Skydance over its merger with Warner Bros. Discovery, requiring an additional $1.5 billion in domestic film production over five years and annual film release commitments. His office secured a sentence against a real estate agent who attempted to raise rent by 38% for a couple who lost their home in the Eaton Fire.",
+        "cites": [1, 4, 5, 6, 7, 8],
+        "sentences": [
+          {
+            "text": "Since the reelection of Donald Trump, Bonta has filed or joined more than 50 lawsuits against his administration.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2026, he secured a victory that prevented the president from keeping California National Guard troops under federal control indefinitely.",
+            "cites": [4]
+          },
+          {
+            "text": "During his tenure, he created an Affordability Response Team within the Department of Justice to investigate practices that unlawfully raise costs for Californians.",
+            "cites": [5]
+          },
+          {
+            "text": "His office secured a $17 billion proposed settlement with Meta over claims that Instagram and Facebook harmed children’s mental health.",
+            "cites": [6]
+          },
+          {
+            "text": "He also led a coalition of attorneys general in a settlement with Paramount Skydance over its merger with Warner Bros. Discovery, requiring an additional $1.5 billion in domestic film production over five years and annual film release commitments.",
+            "cites": [7]
+          },
+          {
+            "text": "His office secured a sentence against a real estate agent who attempted to raise rent by 38% for a couple who lost their home in the Eaton Fire.",
+            "cites": [8]
+          }
+        ]
+      },
+      {
+        "text": "In the State Assembly, Bonta authored legislation to protect renters from wrongful evictions and wrote the law that made California the first state to ban for-profit prisons. He also authored a law to automatically expunge records for minor marijuana charges following statewide legalization.",
+        "cites": [9],
+        "sentences": [
+          {
+            "text": "In the State Assembly, Bonta authored legislation to protect renters from wrongful evictions and wrote the law that made California the first state to ban for-profit prisons.",
+            "cites": [9]
+          },
+          {
+            "text": "He also authored a law to automatically expunge records for minor marijuana charges following statewide legalization.",
+            "cites": [9]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Rob Bonta for CA Attorney General 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1456428",
+        "period": "July 1 to September 19, 2026",
+        "raised": 383097.81,
+        "cashOnHand": 6341151.04,
+        "breakdown": [
+          { "kind": "small", "amount": 42190.34 },
+          { "kind": "large", "amount": 216496.89 },
+          { "kind": "pac", "amount": 73950 },
+          { "kind": "party", "amount": 9060.58 },
+          { "kind": "other", "amount": 41400 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 265021.37, "count": 58 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Former Vice President Kamala Harris",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Sen. Alex Padilla",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Sen. Adam Schiff",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Sen. Cory Booker (New Jersey)",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Pete Aguilar",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Ted Lieu",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Judy Chu",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Robert Garcia",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Zoe Lofgren",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Linda Sánchez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Nanette Barragán",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Sydney Kamlager-Dove",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Jimmy Gomez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Brad Sherman",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Gov. Gavin Newsom",
+        "kind": "elected_official",
+        "cites": [11]
+      },
+      {
+        "organization": "Secretary of State Shirley Weber",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "State Controller Malia Cohen",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Senate President pro Tempore Monique Limón",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Assembly Speaker Robert Rivas",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "State Sen. María Elena Durazo",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "State Sen. Caroline Menjivar",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Los Angeles Mayor Karen Bass",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Long Beach Mayor Rex Richardson",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "San Diego Mayor Todd Gloria",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Oakland Mayor Barbara Lee",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "California Democratic Party",
+        "kind": "party",
+        "cites": [12]
+      },
+      {
+        "organization": "California Environmental Voters",
+        "kind": "organization",
+        "cites": [13]
+      },
+      {
+        "organization": "California Nurses Association/National Nurses United",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "Service Employees International Union (SEIU) California",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Teamsters California",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "California Professional Firefighters",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "California Correctional Peace Officers Association",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "State Building & Construction Trades Council of California",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "California School Employees Association",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "United Food & Commercial Workers (UFCW) Western States Council",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Sierra Club California",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Planned Parenthood Affiliates of California",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "California Medical Association",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Santa Barbara Independent",
+        "kind": "editorial_board",
+        "cites": [14]
+      },
+      {
+        "organization": "California Federation of Teachers",
+        "kind": "union",
+        "cites": [15]
+      },
+      {
+        "organization": "California Teachers Association",
+        "kind": "union",
+        "cites": [16]
+      },
+      { "organization": "Knock LA", "kind": "organization", "cites": [17] },
+      { "organization": "LA Forward", "kind": "organization", "cites": [18] },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [19]
+      },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [20] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Meet the candidates for California Attorney General",
+      "publisher": "KPBS",
+      "url": "https://www.kpbs.org/news/politics/2026/09/14/2026/2026-general-election-california-attorney-general-race-explainer",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Attorney General Rob Bonta | State of California - Department ...",
+      "publisher": "California Office of the Attorney General",
+      "url": "https://oag.ca.gov/about",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Meet Rob - Re-elect Rob Bonta Attorney General of California",
+      "publisher": "Rob Bonta campaign",
+      "url": "https://robbonta.com/about/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Rob Bonta: How CA beat Trump in court on National Guard ...",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.org/justice/2026/01/rob-bonta-national-guard-lawsuits/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Attorney General Bonta Announces California DOJ'S Affordability ...",
+      "publisher": "California Office of the Attorney General",
+      "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-announces-california-doj%E2%80%99s-affordability-response-team",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Attorney General Bonta Secures Transformative $17 Billion ...",
+      "publisher": "California Office of the Attorney General",
+      "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-secures-transformative-17-billion-settlement-meta",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Attorney General Bonta Announces Settlement in Warner Bros ...",
+      "publisher": "California Office of the Attorney General",
+      "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-announces-settlement-warner-brosparamount-litigation",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "Attorney General Bonta Secures Sentence Against Southern ...",
+      "publisher": "California Office of the Attorney General",
+      "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-secures-sentence-against-southern-california-real-estate",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "Governor Newsom Swears in Rob Bonta as Attorney General ...",
+      "publisher": "Office of Governor Gavin Newsom",
+      "url": "https://www.gov.ca.gov/2021/04/23/governor-newsom-swears-in-rob-bonta-as-attorney-general-of-california/",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "Endorsements - Re-elect Rob Bonta Attorney General of California",
+      "publisher": "Re-elect Rob Bonta for Attorney General 2026",
+      "url": "https://robbonta.com/endorsements/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "Incumbent Rob Bonta, candidate Michael Gates advance in attorney general primary",
+      "publisher": "Daily Bruin",
+      "url": "https://dailybruin.com/2026/06/02/incumbent-rob-bonta-candidate-michael-gates-advance-in-attorney-general-primary/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "2026 General Election Endorsements & Ballot Measure Positions",
+      "publisher": "California Democratic Party",
+      "url": "https://cadem.org/wp-content/uploads/2026/08/8.5.26-FINAL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 13,
+      "title": "2026 Endorsements",
+      "publisher": "California Environmental Voters",
+      "url": "https://envirovoters.org/2026-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 14,
+      "title": "The 'Santa Barbara Independent' Endorsements for the General Election, November 3, 2026",
+      "publisher": "Santa Barbara Independent",
+      "url": "https://www.independent.com/2026/10/07/the-santa-barbara-independent-endorsements-for-the-general-election-november-3-2026/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "CFT Endorsements, General Election 2026 (Tuesday, November 3)",
+      "publisher": "California Federation of Teachers",
+      "url": "https://www.cft.org/2026-midterm-elections-hub",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "2026 Candidate Recommendations",
+      "publisher": "California Teachers Association",
+      "url": "https://www.cta.org/our-advocacy/election-2026",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
+      "publisher": "Knock LA (Ground Game LA)",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
+      "publisher": "SEIU Local 721",
+      "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 20
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.770Z",
+    "version": 4
+  }
+}

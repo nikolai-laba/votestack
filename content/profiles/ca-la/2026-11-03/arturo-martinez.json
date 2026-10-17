@@ -1,0 +1,104 @@
+{
+  "key": "arturo-martinez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Arturo Martinez",
+  "office": "City of Inglewood, Mayor",
+  "contestIds": ["la-4348-cc10870"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Arturo Martinez is an executive IT director running for Inglewood mayor. His campaign says he graduated from California State University, Long Beach, and has spent more than 25 years leading technology and operations teams.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Arturo Martinez is an executive IT director running for Inglewood mayor.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he graduated from California State University, Long Beach, and has spent more than 25 years leading technology and operations teams.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "Martinez’s campaign says he wants to reduce government waste and increase transparency. He wants large entertainment venues, such as SoFi Stadium, to increase their contributions to the city. He wants to protect longtime residents from displacement and make growth in the entertainment district benefit existing families. He has criticized the city council for approving development without enough resident feedback and says the entire council should be replaced. He says he is running to challenge what he describes as election gatekeeping in the city clerk’s office.",
+        "cites": [2, 3, 4],
+        "sentences": [
+          {
+            "text": "Martinez’s campaign says he wants to reduce government waste and increase transparency.",
+            "cites": [2]
+          },
+          {
+            "text": "He wants large entertainment venues, such as SoFi Stadium, to increase their contributions to the city.",
+            "cites": [3]
+          },
+          {
+            "text": "He wants to protect longtime residents from displacement and make growth in the entertainment district benefit existing families.",
+            "cites": [3]
+          },
+          {
+            "text": "He has criticized the city council for approving development without enough resident feedback and says the entire council should be replaced.",
+            "cites": [4]
+          },
+          {
+            "text": "He says he is running to challenge what he describes as election gatekeeping in the city clerk’s office.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Inglewood",
+      "url": "https://www.cityofinglewood.org/414/City-Clerks-Office",
+      "onRequest": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Arturo Martinez, Inglewood mayor candidate, 2026 election questionnaire – Daily News",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/arturo-martinez-inglewood-mayor-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Inglewood mayor voter guide, candidates - LA Local",
+      "publisher": "The LA Local",
+      "url": "https://thelalocal.org/neighborhoods/inglewood/your-la-local-voter-guide-inglewood-mayor/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "For Inglewood By Inglewood",
+      "publisher": "Arturo Martinez campaign",
+      "url": "https://foribyi.org/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Inglewood election year opens with 2 vying for mayor's seat - LA Local",
+      "publisher": "The LA Local",
+      "url": "https://thelalocal.org/neighborhoods/inglewood/inglewood-mayor-election-announcements/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T14:05:39.747Z",
+    "version": 3
+  }
+}

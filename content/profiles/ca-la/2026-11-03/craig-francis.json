@@ -1,0 +1,66 @@
+{
+  "key": "craig-francis",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Craig Francis",
+  "office": "City of Artesia, Member of the City Council",
+  "contestIds": ["la-4348-cc10879"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Craig Francis is a candidate for the Artesia City Council in the November 3, 2026 general election.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Craig Francis is a candidate for the Artesia City Council in the November 3, 2026 general election.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Artesia",
+      "url": "https://www.cityofartesia.us/DocumentCenter/View/8282/460-AAA-102024"
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Republican Party of Los Angeles County",
+        "kind": "party",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "2026 Election Information",
+      "publisher": "City of Artesia",
+      "url": "https://www.cityofartesia.us/1618/2026-Election-Information",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "LAGOP Endorsement Lookup, November 3, 2026 General Election",
+      "publisher": "Republican Party of Los Angeles County",
+      "url": "https://lagop-endorsement-lookup.vercel.app/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 2
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.294Z",
+    "version": 3
+  }
+}

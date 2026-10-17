@@ -1,0 +1,445 @@
+{
+  "key": "jimmy-gomez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Jimmy Gomez",
+  "party": "Democratic",
+  "office": "U.S. Representative, 34th District",
+  "contestIds": ["la-4348-cc10813-r1", "la-4348-cc10813-r2"],
+  "kind": "candidate",
+  "tier": "top",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Jimmy Gomez has represented California’s 34th District in the U.S. House since 2017. He previously served in the California State Assembly and worked as a union organizer for AFSCME and the United Nurses Associations of California. In the House he sits on the Ways and Means Committee, is a Deputy Whip for the Progressive Caucus, and founded the Congressional Renters Caucus.",
+        "cites": [1, 18]
+      },
+      {
+        "text": "In 2026 he introduced a bill to shift $175 billion from immigration enforcement into a monthly renter tax credit, down-payment assistance, and incentives to convert offices into affordable homes. He supported capping insulin at $35 a month and giving Medicare the power to negotiate drug prices. He co-sponsored the Green New Deal and legislation to ban congressional stock trading. He also co-sponsored a bill to stop presidents from unilaterally imposing tariffs. He reported that his unannounced inspection of a downtown Los Angeles ICE detention center revealed the facility was temporarily closing. He announced over $149 million in federal funding for a Metro bus rapid transit line. His campaign says he secured $2 million for L.A. River restoration and $20 million for citizenship education grants.",
+        "cites": [2, 3, 4, 5, 6],
+        "sentences": [
+          {
+            "text": "In 2026 he introduced a bill to shift $175 billion from immigration enforcement into a monthly renter tax credit, down-payment assistance, and incentives to convert offices into affordable homes.",
+            "cites": [2]
+          },
+          {
+            "text": "He supported capping insulin at $35 a month and giving Medicare the power to negotiate drug prices.",
+            "cites": [3]
+          },
+          {
+            "text": "He co-sponsored the Green New Deal and legislation to ban congressional stock trading.",
+            "cites": [3]
+          },
+          {
+            "text": "He also co-sponsored a bill to stop presidents from unilaterally imposing tariffs.",
+            "cites": [4]
+          },
+          {
+            "text": "He reported that his unannounced inspection of a downtown Los Angeles ICE detention center revealed the facility was temporarily closing.",
+            "cites": [5]
+          },
+          {
+            "text": "He announced over $149 million in federal funding for a Metro bus rapid transit line.",
+            "cites": [6]
+          },
+          {
+            "text": "His campaign says he secured $2 million for L.A. River restoration and $20 million for citizenship education grants.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "In 2026 the House Ethics Committee opened an inquiry into sexual misconduct allegations against Gomez. He has stated that the encounters were consensual and did not violate House rules.",
+        "cites": [7],
+        "sentences": [
+          {
+            "text": "In 2026 the House Ethics Committee opened an inquiry into sexual misconduct allegations against Gomez.",
+            "cites": [7]
+          },
+          {
+            "text": "He has stated that the encounters were consensual and did not violate House rules.",
+            "cites": [7]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Jimmy Gomez for Congress",
+        "url": "https://www.fec.gov/data/committee/C00629659/?cycle=2026",
+        "period": "January 1, 2025 to June 30, 2026",
+        "raised": 1175128.2,
+        "cashOnHand": 781725.64,
+        "breakdown": [
+          { "kind": "small", "amount": 12049.85 },
+          { "kind": "large", "amount": 638516.9 },
+          { "kind": "pac", "amount": 521111.6 },
+          { "kind": "party", "amount": 32.68 },
+          { "kind": "transfer", "amount": 1093.64 },
+          { "kind": "other", "amount": 2323.53 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Former Vice President Kamala Harris",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [8]
+      },
+      {
+        "organization": "U.S. Sen. Alex Padilla",
+        "kind": "elected_official",
+        "cites": [9],
+        "party": "Democratic"
+      },
+      {
+        "organization": "U.S. Sen. Adam Schiff",
+        "kind": "elected_official",
+        "cites": [9],
+        "party": "Democratic"
+      },
+      {
+        "organization": "U.S. Sen. Andy Kim",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "U.S. Rep. Alexandria Ocasio-Cortez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Ayanna Pressley",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "U.S. Rep. Pramila Jayapal",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Hilda Solis",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "California Democratic Party",
+        "kind": "party",
+        "cites": [11]
+      },
+      {
+        "organization": "Planned Parenthood Action Fund",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "Latino Victory Fund",
+        "kind": "organization",
+        "cites": [13]
+      },
+      {
+        "organization": "Leading the Future",
+        "kind": "organization",
+        "cites": [14]
+      },
+      {
+        "organization": "Los Angeles County Federation of Labor, AFL-CIO",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "California Federation of Labor",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "National Education Association",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Service Employees International Union",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "United Auto Workers (UAW)",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "American Federation of State County and Municipal Employees (AFSCME)",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "United Farm Workers", "kind": "union", "cites": [9] },
+      { "organization": "EnviroVoters", "kind": "organization", "cites": [9] },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Human Rights Campaign",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "League of Conservation Voters",
+        "kind": "organization",
+        "cites": [9]
+      },
+      { "organization": "GIFFORDS PAC", "kind": "organization", "cites": [9] },
+      {
+        "organization": "Moms Demand Action for Gun Violence",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Newtown Action Alliance",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "National Association of Social Workers",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Service Employees International Union United Healthcare Workers West",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "United Nurses Associations of California/Union of Health Care Professionals (UNAC/UHCP)",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Western States Regional Council of Carpenters",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Laborers' International Union of North America, LiUNA",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "LA/OC Building Trades",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "Unite HERE Local 11", "kind": "union", "cites": [9] },
+      {
+        "organization": "International Brotherhood of Electrical Workers (IBEW) Local 11",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "United Food and Commercial Workers (UFCW), Local 770",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "SEIU Local 99 Education Workers",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "UAW Region 6", "kind": "union", "cites": [9] },
+      {
+        "organization": "United Firefighters Los Angeles City IAFF Local 112",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "California Federation of Teachers",
+        "kind": "union",
+        "cites": [15]
+      },
+      {
+        "organization": "California Teachers Association",
+        "kind": "union",
+        "cites": [16]
+      },
+      {
+        "organization": "Democrats for Israel – Los Angeles",
+        "kind": "organization",
+        "cites": [17]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Biography | U.S. Representative Jimmy Gomez",
+      "publisher": "U.S. Representative Jimmy Gomez",
+      "url": "https://gomez.house.gov/biography/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Progressive Caucus Endorses Rep. Jimmy Gomez Bill to Redirect $175 Billion From Trump's ICE Enforcement Slush Fund to Housing",
+      "publisher": "U.S. Representative Jimmy Gomez",
+      "url": "https://gomez.house.gov/news/documentsingle.aspx?DocumentID=5909",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Progressive Record - Jimmy Gomez for Congress",
+      "publisher": "Jimmy Gomez for Congress",
+      "url": "https://jimmygomezforcongress.com/progressive-record/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Rep. Jimmy Gomez Delivers Keynote Address to Los Angeles Chamber of Commerce",
+      "publisher": "U.S. Representative Jimmy Gomez",
+      "url": "https://gomez.house.gov/news/documentsingle.aspx?DocumentID=6160",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Immigration/Immigrant Rights - Jimmy Gomez - House.gov",
+      "publisher": "U.S. Representative Jimmy Gomez",
+      "url": "https://gomez.house.gov/news/documentquery.aspx?IssueID=14927",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Latest News | U.S. Representative Jimmy Gomez - House.gov",
+      "publisher": "U.S. Representative Jimmy Gomez",
+      "url": "https://gomez.house.gov/news/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Will Rep. Jimmy Gomez weather misconduct probe in reelection bid?",
+      "publisher": "NBC Los Angeles",
+      "url": "https://www.nbclosangeles.com/news/local/jimmy-gomez-angela-gonzales-torres-34th-congressional-district/3953305/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "Will Rep. Jimmy Gomez weather misconduct probe in reelection bid?",
+      "publisher": "NBC Bay Area",
+      "url": "https://www.nbcbayarea.com/news/local/jimmy-gomez-angela-gonzales-torres-34th-congressional-district/4155362/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "Supporters - Jimmy Gomez for Congress",
+      "publisher": "Jimmy Gomez for Congress",
+      "url": "https://jimmygomezforcongress.com/endorsements/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "Three CA-34 contenders share campaign priorities",
+      "publisher": "The Occidental",
+      "url": "https://theoccidentalnews.com/community/2026/03/04/three-ca-34-contenders-share-campaign-priorities/2916977",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "2026 General Election Endorsements",
+      "publisher": "California Democratic Party",
+      "url": "https://cadem.org/wp-content/uploads/2026/08/8.5.26-FINAL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "Voter Guide (November 3, 2026)",
+      "publisher": "Planned Parenthood Advocacy Project Los Angeles County",
+      "url": "https://www.plannedparenthoodaction.org/planned-parenthood-advocacy-project-los-angeles-county/voter-guide-ppapx",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 13,
+      "title": "Endorsements",
+      "publisher": "Latino Victory",
+      "url": "https://latinovictory.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 14,
+      "title": "The House Districts Where Democrats Are Still Fighting Each Other",
+      "publisher": "The American Prospect",
+      "url": "https://prospect.org/2026/09/28/california-house-districts-where-democrats-are-still-fighting-each-other/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "CFT Endorsements, General Election 2026 (Tuesday, November 3)",
+      "publisher": "California Federation of Teachers",
+      "url": "https://www.cft.org/2026-midterm-elections-hub",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "2026 Candidate Recommendations",
+      "publisher": "California Teachers Association",
+      "url": "https://www.cta.org/our-advocacy/election-2026",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Democrats for Israel – Los Angeles",
+      "url": "https://dfi-la.org/endorse",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "Meet Jimmy - Jimmy Gomez for Congress",
+      "publisher": "Jimmy Gomez for Congress",
+      "url": "https://jimmygomezforcongress.com/bio/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15",
+      "id": 18
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.811Z",
+    "version": 4
+  }
+}

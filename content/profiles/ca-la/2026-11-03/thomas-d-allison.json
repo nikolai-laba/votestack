@@ -1,0 +1,127 @@
+{
+  "key": "thomas-d-allison",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Thomas D. Allison",
+  "office": "City of La Verne, Member of the City Council, 1st District",
+  "contestIds": ["la-4348-cc10471"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Thomas D. Allison is an attorney and law professor at the University of La Verne. He founded the Social Justice Advocacy Project. He served on La Verne’s Planning Commission from 2020 to 2025. He was its vice-chair. He also served on the Committee on Cultural Awareness and Social Inclusion from 2018 to 2026.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Thomas D. Allison is an attorney and law professor at the University of La Verne.",
+            "cites": [1]
+          },
+          {
+            "text": "He founded the Social Justice Advocacy Project.",
+            "cites": [2]
+          },
+          {
+            "text": "He served on La Verne’s Planning Commission from 2020 to 2025.",
+            "cites": [1]
+          },
+          { "text": "He was its vice-chair.", "cites": [3] },
+          {
+            "text": "He also served on the Committee on Cultural Awareness and Social Inclusion from 2018 to 2026.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "He proposes a resident-driven District 1 Improvement Plan focusing on beautification, safety and preparedness, community life, and asset mapping. He says his first priority would be a financial sustainability and performance plan to address the city’s structural budget deficit. In 2022, as a planning commissioner, he voted against recommending a draft housing element, explaining his reasoning in writing.",
+        "cites": [4, 5, 6],
+        "sentences": [
+          {
+            "text": "He proposes a resident-driven District 1 Improvement Plan focusing on beautification, safety and preparedness, community life, and asset mapping.",
+            "cites": [4]
+          },
+          {
+            "text": "He says his first priority would be a financial sustainability and performance plan to address the city’s structural budget deficit.",
+            "cites": [5]
+          },
+          {
+            "text": "In 2022, as a planning commissioner, he voted against recommending a draft housing element, explaining his reasoning in writing.",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of La Verne",
+        "committee": "Thomas Allison for La Verne City Council, District 1 2026",
+        "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=160346&dbid=0&repo=r-1fb4295f",
+        "period": "July 1 to September 19, 2026",
+        "raised": 2461.8,
+        "cashOnHand": -795.38,
+        "fromScan": "ai"
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Thomas for La Verne",
+      "publisher": "Thomas for La Verne campaign",
+      "url": "https://www.thomasforlaverne.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Allison works toward social justice - Campus Times",
+      "publisher": "Campus Times",
+      "url": "https://lvcampustimes.org/2017/04/allison-works-toward-social-justice/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "CITY OF LA VERNE",
+      "publisher": "City of La Verne",
+      "url": "https://www.laverneca.gov/AgendaCenter/ViewFile/Agenda/_12102025-931",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "2026 Local Elections for La Verne, California",
+      "publisher": "La Verne Daily News",
+      "url": "https://www.lavernedaily.org/elections26/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Forum 1 of 2: Hear From La Verne's District 1 and 3 Council Candidates in Their Own Words",
+      "publisher": "La Verne Daily News",
+      "url": "https://www.lavernedaily.org/forum-1-of-2-hear-from-la-vernes-district-1-and-3-council-candidates-in-their-own-words/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Nov 21, 2022 City Council - La Verne, CA",
+      "publisher": "City of La Verne",
+      "url": "https://laverneca.new.swagit.com/videos/190061",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.441Z",
+    "version": 2
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "key": "alexandra-briseno",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Alexandra Briseno",
+  "party": "Republican",
+  "office": "State Assembly Member, 54th District",
+  "contestIds": ["la-4348-cc10794"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Alexandra Briseno is an electrical engineer who works in legislative affairs for the Los Angeles Department of Water and Power, tracking state policies and pursuing grant money. She is the chairperson of the Montebello Civil Service Commission and previously chaired the city’s Planning Commission. Her campaign says she helped update the General Plan and organize the passage of the Hillside Viewshed Preservation Ordinance. Her campaign says she supports policies to strengthen families, expand opportunity, and make everyday life more affordable.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Alexandra Briseno is an electrical engineer who works in legislative affairs for the Los Angeles Department of Water and Power, tracking state policies and pursuing grant money.",
+            "cites": [1]
+          },
+          {
+            "text": "She is the chairperson of the Montebello Civil Service Commission and previously chaired the city’s Planning Commission.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign says she helped update the General Plan and organize the passage of the Hillside Viewshed Preservation Ordinance.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign says she supports policies to strengthen families, expand opportunity, and make everyday life more affordable.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "1493233",
+      "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1493233"
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Howard Jarvis Taxpayers Association PAC",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "National Latino Peace Officers Association",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "California Cities for Local Control",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Republican Party of Los Angeles County",
+        "kind": "party",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Briseno 54 Official Site",
+      "publisher": "Briseno for Assembly 2026",
+      "url": "https://briseno54.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "2026 Voting Guide for California Statewide General Election",
+      "publisher": "Howard Jarvis Taxpayers Association",
+      "url": "https://www.hjta.org/2026votingguide/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Supporters",
+      "publisher": "Briseno for Assembly 2026",
+      "url": "https://briseno54.com/supporters",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 4
+    },
+    {
+      "title": "LAGOP Endorsement Lookup, November 3, 2026 General Election",
+      "publisher": "Republican Party of Los Angeles County",
+      "url": "https://lagop-endorsement-lookup.vercel.app/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 5
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.706Z",
+    "version": 4
+  }
+}

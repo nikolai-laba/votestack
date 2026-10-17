@@ -1,0 +1,85 @@
+{
+  "key": "krista-carson-elhai",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Krista Carson Elhai",
+  "office": "Claremont Unified School District, Governing Board Member, Trustee Area No. 1",
+  "contestIds": ["la-4348-cc10631"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Krista Carson Elhai was the theatre director at Claremont High School from 1994 to 2021 and serves as president of the Educational Theatre Association board. Her campaign says she wants to address declining enrollment, plan beyond a single budget year, recruit and retain educators, and make board meetings more transparent.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Krista Carson Elhai was the theatre director at Claremont High School from 1994 to 2021 and serves as president of the Educational Theatre Association board.",
+            "cites": [1]
+          },
+          {
+            "text": "Her campaign says she wants to address declining enrollment, plan beyond a single budget year, recruit and retain educators, and make board meetings more transparent.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Krista Carson Elhai",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/215427780-Krista%20Carson%20Elhai%20for%20Claremont%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 4181.84,
+        "cashOnHand": 3580.46,
+        "breakdown": [
+          { "kind": "small", "amount": 372.62 },
+          { "kind": "large", "amount": 3791.22 },
+          { "kind": "pac", "amount": 18 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      { "organization": "LA Forward", "kind": "organization", "cites": [3] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Obituary: Don Frederick Fruechte | Claremont COURIER",
+      "publisher": "Claremont COURIER",
+      "url": "https://claremont-courier.com/obituaries/obituary-don-frederick-fruechte-79092/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Elhai for CUSD School Board District 1 | Join the Movement Today",
+      "publisher": "Krista Carson Elhai campaign",
+      "url": "https://www.krista4claremont.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 3
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.984Z",
+    "version": 3
+  }
+}

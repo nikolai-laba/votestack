@@ -1,0 +1,215 @@
+{
+  "key": "laurie-lieberman",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Laurie Lieberman",
+  "office": "Santa Monica-Malibu Unified School District, Member of the Board of Education",
+  "contestIds": ["la-4348-cc10517"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Laurie Lieberman has served on the Santa Monica-Malibu Unified School District Board of Education since 2010. An attorney, she previously worked for 13 years in the Santa Monica City Attorney's Office and for the city's Rent Control Board. In 2025, the board unanimously voted to divide the district into separate Santa Monica and Malibu school districts; as a subcommittee member, she expressed sadness but concluded a fair separation would benefit both communities.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Laurie Lieberman has served on the Santa Monica-Malibu Unified School District Board of Education since 2010.",
+            "cites": [1]
+          },
+          {
+            "text": "An attorney, she previously worked for 13 years in the Santa Monica City Attorney's Office and for the city's Rent Control Board.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2025, the board unanimously voted to divide the district into separate Santa Monica and Malibu school districts; as a subcommittee member, she expressed sadness but concluded a fair separation would benefit both communities.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "Following her 2022 reelection, she prioritized closing the achievement gap and introducing global languages in elementary schools. She also proposed strengthening media literacy instruction. She supported a November 2026 citizen-initiated parcel tax, warning its failure would leave the district in a far worse financial position.",
+        "cites": [3, 4],
+        "sentences": [
+          {
+            "text": "Following her 2022 reelection, she prioritized closing the achievement gap and introducing global languages in elementary schools.",
+            "cites": [3]
+          },
+          {
+            "text": "She also proposed strengthening media literacy instruction.",
+            "cites": [3]
+          },
+          {
+            "text": "She supported a November 2026 citizen-initiated parcel tax, warning its failure would leave the district in a far worse financial position.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Monica",
+        "committee": "Re-Elect Laurie Lieberman for School Board 2026",
+        "url": "https://netfile.com/public/CSM/campaign/filingsByFiler/216563788-Re-Elect%20Laurie%20Lieberman%20for%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 13379.21,
+        "cashOnHand": 20893.93,
+        "breakdown": [
+          { "kind": "small", "amount": 204.21 },
+          { "kind": "large", "amount": 13175 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 2500, "count": 1 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "U.S. Rep. Ted Lieu",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "State Sen. Ben Allen",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Assemblymember Rick Chavez Zbur",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [6]
+      },
+      {
+        "organization": "Community for Excellent Public Schools",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [8]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [9] },
+      {
+        "organization": "Santa Monica-Malibu Classroom Teachers Association",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [11]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Laurie Lieberman - Ballotpedia",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Laurie_Lieberman",
+      "kind": "reference",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Santa Monica–Malibu school board unanimously approves historic unification agreements",
+      "publisher": "Malibu Times",
+      "url": "https://malibutimes.com/santa-monica-malibu-school-board-unanimously-approves-historic-unification-agreements",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "New School Board members turn their eyes to the future",
+      "publisher": "Santa Monica Daily Press",
+      "url": "https://www.smdp.com/new-school-board-members-turn-their-eyes-to-the-future/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "School board backs November parcel tax, adopts budget revision and tax-collection deal",
+      "publisher": "Santa Monica Daily Press",
+      "url": "https://www.smdp.com/school-board-backs-november-parcel-tax-adopts-budget-revision-and-tax-collection-deal/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "General Election 2026 - Laurie Lieberman",
+      "publisher": "City of Santa Monica",
+      "url": "https://www.santamonica.gov/elections/2026-11-03/candidates/laurie-lieberman",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Endorsed Candidates - Los Angeles County Democratic Party",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "Issues | CEPS - Community for Excellent Public Schools",
+      "publisher": "Community for Excellent Public Schools",
+      "url": "https://www.cepssm.org/issues",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 8,
+      "title": "2026 STONEWALL ENDORSED CANDIDATES",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 9,
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 10,
+      "title": "POLITICAL ACTION - SANTA MONICA-MALIBU CLASSROOM TEACHERS ASSOCIATION",
+      "publisher": "Santa Monica-Malibu Classroom Teachers Association",
+      "url": "https://www.smmcta.com/political-action.html",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 11
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.275Z",
+    "version": 4
+  }
+}

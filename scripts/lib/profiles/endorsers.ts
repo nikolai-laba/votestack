@@ -32,6 +32,62 @@ const ALIASES: [RegExp, string][] = [
     'illinois afl cio',
   ],
   [/^personal (pac|political action committee)$/, 'personal pac'],
+  [
+    /^(la fed|(los angeles|la)( county)? federation of labor( afl cio)?)$/,
+    'los angeles county federation of labor',
+  ],
+  [
+    /^(lacdp|(los angeles|la) county democratic party|democratic party of (los angeles|la) county)$/,
+    'los angeles county democratic party',
+  ],
+  [
+    /^(lagop|republican party of (los angeles|la) county|(los angeles|la) county republican party)$/,
+    'republican party of los angeles county',
+  ],
+  [
+    /^(cadem|california democrats|california democratic party|democratic party of california)$/,
+    'california democratic party',
+  ],
+  [
+    /^(cagop|california republican party|republican party of california)$/,
+    'california republican party',
+  ],
+  [
+    /^(seiu|service employees international union) (local )?721$/,
+    'seiu local 721',
+  ],
+  [/^(utla|united teachers (of )?los angeles)$/, 'united teachers los angeles'],
+  [
+    /^(cft|california federation of teachers( afl cio)?)$/,
+    'california federation of teachers',
+  ],
+  [
+    /^(cta|california teachers association)$/,
+    'california teachers association',
+  ],
+  [/^(cra|california republican assembly)$/, 'california republican assembly'],
+  [/^california pro ?life council( pac)?$/, 'california prolife council'],
+  [
+    /^(wfp|california working families party|working families party)$/,
+    'california working families party',
+  ],
+  [/^(la forward|los angeles forward)$/, 'la forward'],
+  [
+    /^planned parenthood advocacy project (los angeles|la) county( action fund)?$/,
+    'planned parenthood advocacy project los angeles county',
+  ],
+  [
+    /^(envirovoters|california environmental voters|california league of conservation voters)$/,
+    'california environmental voters',
+  ],
+  [
+    /^(california labor federation|california federation of labor unions)( afl cio)?$/,
+    'california labor federation',
+  ],
+  [
+    /^american independent party( of california)?$/,
+    'american independent party',
+  ],
 ]
 
 /**

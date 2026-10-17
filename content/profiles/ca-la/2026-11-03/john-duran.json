@@ -1,0 +1,228 @@
+{
+  "key": "john-duran",
+  "electionId": "ca-2026-11-03-general",
+  "name": "John Duran",
+  "office": "City of West Hollywood, Member of the City Council",
+  "contestIds": ["la-4348-cc10533"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "John Duran is a civil rights attorney. He served on the West Hollywood City Council from 2001 to 2020. He was statewide co-chair of the Life AIDS lobby. He co-founded Equality California and was an attorney for ACT UP.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          { "text": "John Duran is a civil rights attorney.", "cites": [1] },
+          {
+            "text": "He served on the West Hollywood City Council from 2001 to 2020.",
+            "cites": [2]
+          },
+          {
+            "text": "He was statewide co-chair of the Life AIDS lobby.",
+            "cites": [3]
+          },
+          {
+            "text": "He co-founded Equality California and was an attorney for ACT UP.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "He says the council majority has put West Hollywood on the wrong track by defunding the sheriff's department and damaging relationships with small businesses. He opposes the Fountain Avenue Streetscape Project because it would remove one lane of traffic in each direction. He supports Flock Safety cameras. He supports a transit-oriented development alternative plan. He wants the sheriff's department fully funded.",
+        "cites": [4, 5, 6],
+        "sentences": [
+          {
+            "text": "He says the council majority has put West Hollywood on the wrong track by defunding the sheriff's department and damaging relationships with small businesses.",
+            "cites": [4]
+          },
+          {
+            "text": "He opposes the Fountain Avenue Streetscape Project because it would remove one lane of traffic in each direction.",
+            "cites": [4]
+          },
+          { "text": "He supports Flock Safety cameras.", "cites": [4] },
+          {
+            "text": "He supports a transit-oriented development alternative plan.",
+            "cites": [5]
+          },
+          {
+            "text": "He wants the sheriff's department fully funded.",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of West Hollywood",
+        "committee": "John Duran for Weho City Council 2026",
+        "url": "https://netfile.com/public/WEHO/campaign/filingsByFiler/216955769-John%20Duran%20for%20West%20Hollywood%20City%20Council%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 52737.2,
+        "cashOnHand": 49053.77,
+        "breakdown": [
+          { "kind": "small", "amount": 578 },
+          { "kind": "large", "amount": 42231 },
+          { "kind": "candidate", "amount": 6928.2 },
+          { "kind": "other", "amount": 3000 }
+        ],
+        "fromCandidate": 6928.2,
+        "largeSince": { "since": "2026-09-19", "total": 12500, "count": 13 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "State Sen. Ben Allen",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Former State Sen. Robert Hertzberg",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Former Assemblymember Betsy Butler",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "West Hollywood Mayor John Heilman",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "West Hollywood Councilmember Lauren Meister",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Former West Hollywood Councilmember Steve Martin",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Former Santa Monica Mayor Bobby Shriver",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Former Malibu Mayor Pamela Ulich",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Former Palm Springs Mayor Geoff Kors",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Association for Los Angeles Deputy Sheriffs",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Los Angeles County Firefighters Association",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "West Hollywood Municipal Employees (WEHOME), AFSCME Local 3339",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "A Safer LA For All Families",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Democrats for Israel – Los Angeles",
+        "kind": "organization",
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "John Duran for WeHo City Council",
+      "publisher": "John Duran for WeHo City Council",
+      "url": "https://www.duranforwehocouncil2026.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "John Duran - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/John_Duran",
+      "kind": "reference",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Former council member John Duran is running for one last term",
+      "publisher": "Los Angeles Blade",
+      "url": "https://www.losangelesblade.com/2026/07/03/former-council-member-john-duran-is-running-for-one-last-term/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Candidates vie for three seats on WeHo City Council",
+      "publisher": "Beverly Press",
+      "url": "https://beverlypress.com/2026/09/candidates-vie-for-three-seats-on-weho-city-council/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "We asked WeHo City Council candidates your most pressing questions",
+      "publisher": "Los Angeles Blade",
+      "url": "https://www.losangelesblade.com/2026/10/01/weho-city-council-candidates-questionnai/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "West Hollywood Council Hopefuls Clash Over Flock Cameras and Bike Lanes",
+      "publisher": "Hoodline",
+      "url": "https://hoodline.com/2026/08/west-hollywood-council-hopefuls-clash-over-flock-cameras-and-bike-lanes/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "John Duran For West Hollywood City Council 2026 Endorsements",
+      "publisher": "John Duran for WeHo City Council",
+      "url": "https://www.duranforwehocouncil2026.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Democrats for Israel – Los Angeles",
+      "url": "https://dfi-la.org/endorse",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 8
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.649Z",
+    "version": 2
+  }
+}

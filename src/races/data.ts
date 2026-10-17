@@ -1,32 +1,77 @@
-// The race list (content/contests/, see src/shared/races.ts) and which
-// candidates have a published profile (content/profiles/published/), for
-// the race pages and for profiles opened without a ballot. Both are
-// committed files bundled into a chunk of their own, loaded on demand, so
+// The race lists (content/contests/, one per area, see src/shared/races.ts)
+// and which candidates have a published profile (content/profiles/published/),
+// for the race pages and for profiles opened without a ballot. All are
+// committed files bundled into chunks of their own, loaded on demand, so
 // they work offline in the apps and need no request to the Worker.
 
 import { useQuery } from '@tanstack/react-query'
 import type { CandidateContest, RetentionContest } from '../shared/ballot.ts'
-import { CURRENT_ELECTION } from '../shared/cook.ts'
+import { REGIONS, regionForElection } from '../shared/regions.ts'
 import type { Race, RaceList } from '../shared/races.ts'
 
 export interface RaceData {
-  list: RaceList
-  /** Keys (profileKey(name)) of the candidates with a published profile. */
-  published: string[]
+  /** One list per area, in the order of the regions VoteStack covers. */
+  lists: RaceList[]
+  /**
+   * Keys (profileKey(name)) of the candidates with a published profile, by
+   * election ID. A key counts only in its own election, so a namesake in
+   * another area never links to someone else's profile.
+   */
+  published: Record<string, string[]>
 }
 
-export const RACES_QUERY_KEY = ['races', CURRENT_ELECTION.date] as const
+export const RACES_QUERY_KEY = ['races'] as const
+
+// Every area's list and every published list; a missing one is skipped.
+const RACE_LISTS = import.meta.glob<{ default: RaceList }>(
+  '../../content/contests/**/*.json',
+)
+const PUBLISHED_LISTS = import.meta.glob<{
+  default: { electionId: string; profiles: Record<string, string> }
+}>('../../content/profiles/published/**/*.json')
+
+const regionIndex = (list: RaceList) => {
+  const region = regionForElection(list.electionId)
+  return region ? REGIONS.indexOf(region) : REGIONS.length
+}
 
 export async function loadRaces(): Promise<RaceData> {
-  // Import paths must be literal: the current election's date (CURRENT_ELECTION).
-  const [list, published] = await Promise.all([
-    import('../../content/contests/2026-11-03.json'),
-    import('../../content/profiles/published/2026-11-03.json'),
+  const [lists, published] = await Promise.all([
+    Promise.all(Object.values(RACE_LISTS).map((load) => load())),
+    Promise.all(Object.values(PUBLISHED_LISTS).map((load) => load())),
   ])
+  const keys: Record<string, string[]> = {}
+  for (const { default: file } of published)
+    keys[file.electionId] = [
+      ...(keys[file.electionId] ?? []),
+      ...Object.keys(file.profiles),
+    ]
   return {
-    list: list.default as RaceList,
-    published: Object.keys(published.default.profiles),
+    lists: lists
+      .map((m) => m.default)
+      .sort(
+        (a, b) =>
+          regionIndex(a) - regionIndex(b) ||
+          a.areaPath.localeCompare(b.areaPath),
+      ),
+    published: keys,
   }
+}
+
+/** The published profiles that a list's candidates can link to. */
+export const publishedFor = (data: RaceData, list: RaceList) =>
+  new Set(data.published[list.electionId] ?? [])
+
+/** The race at a path after /races/, with the list it's in. */
+export function findRace(
+  data: RaceData,
+  path: string,
+): { race: Race; list: RaceList } | undefined {
+  for (const list of data.lists) {
+    const race = list.races.find((r) => r.path === path)
+    if (race) return { race, list }
+  }
+  return undefined
 }
 
 export function useRaces() {
@@ -37,11 +82,19 @@ export function useRaces() {
   })
 }
 
-/** The races a profile's person is in, by the contest ids on the profile. */
-export function racesFor(list: RaceList, contestIds: string[]): Race[] {
-  return list.races.filter((r) =>
-    r.contestIds.some((id) => contestIds.includes(id)),
-  )
+/** The races a profile's person is in, by the contest ids on the profile, with their lists. */
+export function racesFor(
+  data: Pick<RaceData, 'lists'>,
+  electionId: string,
+  contestIds: string[],
+): { race: Race; list: RaceList }[] {
+  return data.lists
+    .filter((list) => list.electionId === electionId)
+    .flatMap((list) =>
+      list.races
+        .filter((r) => r.contestIds.some((id) => contestIds.includes(id)))
+        .map((race) => ({ race, list })),
+    )
 }
 
 /** A race in the ballot's shape, so it can use the ballot's race card. */

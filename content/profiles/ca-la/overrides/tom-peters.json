@@ -1,0 +1,40 @@
+{
+  "reason": "Source 404 (thomaspeters.com/about/; the new About page no longer states it); removed the one sentence that relied only on it",
+  "overview": [
+    {
+      "action": "replace",
+      "match": "Tom Peters is vice chair of the Santa Monica Community Colle",
+      "text": "Tom Peters is vice chair of the Santa Monica Community College District Board of Trustees. He was elected in 2022. In his 2022 campaign, he supported Measure SMC, a $375 million bond for facility renovations. In February 2026, he supported layoffs with amendments to spread the impact and said top management should share the sacrifice.",
+      "sources": [
+        {
+          "title": "admin.smc.edu",
+          "publisher": "Santa Monica College",
+          "url": "https://admin.smc.edu/administration/governance/board-of-trustees/documents/Minutes-3-23-2026.pdf",
+          "kind": "official",
+          "viewedAt": "2026-10-14"
+        },
+        {
+          "title": "Dr. Tom Peters - Santa Monica College",
+          "publisher": "Santa Monica College",
+          "url": "https://www.smc.edu/directory/peters-tom.php",
+          "kind": "official",
+          "viewedAt": "2026-10-14"
+        },
+        {
+          "title": "Meet SMC’s new Trustee",
+          "publisher": "Santa Monica Daily Press",
+          "url": "https://www.smdp.com/smc/",
+          "kind": "news",
+          "viewedAt": "2026-10-14"
+        },
+        {
+          "title": "Santa Monica College Board approves 70 staff layoffs amid deficit",
+          "publisher": "Santa Monica Daily Press",
+          "url": "https://www.smdp.com/a-divided-smc-board-approves-layoffs-after-hearing-hours-of-criticism-over-their-leadership/",
+          "kind": "news",
+          "viewedAt": "2026-10-14"
+        }
+      ]
+    }
+  ]
+}

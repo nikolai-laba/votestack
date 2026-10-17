@@ -1,0 +1,27 @@
+{
+  "key": "richard-rodriguez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Richard Rodriguez",
+  "office": "Hacienda La Puente Unified School District, Governing Board Member, Trustee Area No. 2",
+  "contestIds": ["la-4348-cc10648"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": { "asOf": "2026-10-15", "items": [] },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217293035-Rodriguez%2C%20Richard",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.088Z",
+    "version": 2
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "key": "becky-a-shevlin",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Becky A. Shevlin",
+  "office": "City of Monrovia, Mayor",
+  "contestIds": ["la-4348-cc10487"],
+  "kind": "candidate",
+  "tier": "top",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Becky A. Shevlin is the Mayor of Monrovia, first elected in 2022, and has served on the City Council since 2009. She serves as the Executive Board Chair of Foothill Transit. She is Vice Chair of the Los Angeles County Executive Committee for Regional Homeless Alignment. She also serves on the San Gabriel Valley Regional Housing Trust Fund and the San Gabriel Valley Mosquito and Vector Control District Board of Trustees.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Becky A. Shevlin is the Mayor of Monrovia, first elected in 2022, and has served on the City Council since 2009.",
+            "cites": [1]
+          },
+          {
+            "text": "She serves as the Executive Board Chair of Foothill Transit.",
+            "cites": [2]
+          },
+          {
+            "text": "She is Vice Chair of the Los Angeles County Executive Committee for Regional Homeless Alignment.",
+            "cites": [3]
+          },
+          {
+            "text": "She also serves on the San Gabriel Valley Regional Housing Trust Fund and the San Gabriel Valley Mosquito and Vector Control District Board of Trustees.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "Her priorities include strengthening public safety, expanding affordable housing, maintaining financial stability, and addressing mental health needs. In a 2020 candidate forum, she said that addressing homelessness starts with more affordable housing and that Monrovia must exercise local control over its housing development.",
+        "cites": [1, 4],
+        "sentences": [
+          {
+            "text": "Her priorities include strengthening public safety, expanding affordable housing, maintaining financial stability, and addressing mental health needs.",
+            "cites": [1]
+          },
+          {
+            "text": "In a 2020 candidate forum, she said that addressing homelessness starts with more affordable housing and that Monrovia must exercise local control over its housing development.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Monrovia",
+      "url": "https://netfile.com/public/MON/campaign"
+    }
+  },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Meet the City Council",
+      "publisher": "City of Monrovia",
+      "url": "https://www.monroviaca.gov/your-government/city-council/meet-the-city-council",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Governing Boards | Foothill Transit",
+      "publisher": "Foothill Transit",
+      "url": "https://www.foothilltransit.org/about-us/about-foothill-transit/governing-boards",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Governance - LA County Homeless Services & Housing",
+      "publisher": "Los Angeles County Homeless Services & Housing",
+      "url": "https://homeless.lacounty.gov/governance/",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Elections: 3 Monrovia council candidates discuss housing, homeless, Old Town",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2020/02/15/elections-3-monrovia-council-candidates-discuss-housing-homeless-old-town/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.753Z",
+    "version": 4
+  }
+}

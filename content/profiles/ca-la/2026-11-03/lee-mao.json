@@ -1,0 +1,129 @@
+{
+  "key": "lee-mao",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Lee Mao",
+  "office": "City of Diamond Bar, Member of the City Council, 4th District",
+  "contestIds": ["la-4348-cc10442"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Lee Mao is vice chair of the Diamond Bar Planning Commission and a business president. His campaign calls fiscal responsibility essential. He says the city should consider more sheriff patrols, adding license plate readers, and expanding neighborhood watch teams. He says he would attract new businesses. He supports the Downtown Diamond Bar expansion to boost revenue without tax increases. On housing, he supports the Town Center mixed-use development.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Lee Mao is vice chair of the Diamond Bar Planning Commission and a business president.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign calls fiscal responsibility essential.",
+            "cites": [2]
+          },
+          {
+            "text": "He says the city should consider more sheriff patrols, adding license plate readers, and expanding neighborhood watch teams.",
+            "cites": [2]
+          },
+          { "text": "He says he would attract new businesses.", "cites": [1] },
+          {
+            "text": "He supports the Downtown Diamond Bar expansion to boost revenue without tax increases.",
+            "cites": [2]
+          },
+          {
+            "text": "On housing, he supports the Town Center mixed-use development.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Diamond Bar",
+        "committee": "Lee Mao for Diamond Bar City Council District 4, 2026",
+        "url": "https://netfile.com/public/CDB/campaign/filingsByFiler/216934121-Lee%20Mao%20for%20Diamond%20Bar%20City%20Council%20District%204%2C%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 43298.88,
+        "cashOnHand": 21314.16,
+        "fromScan": "ocr"
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Former State Sen. Josh Newman",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [3]
+      },
+      {
+        "organization": "Diamond Bar Mayor Steve Tye",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Diamond Bar Mayor Pro Tem Ruth Low",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Former Diamond Bar Mayor Nancy Lyons",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Pomona Unified School District Board Member Patty Tye",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Walnut school board member Larry Redinger",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Association for Los Angeles Deputy Sheriffs",
+        "kind": "union",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Lee Mao, Diamond Bar City Council District 4 candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/lee-mao-diamond-bar-city-council-district-4-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Home | Lee Mao for Diamond Bar City Council 2026",
+      "publisher": "Lee Mao campaign",
+      "url": "https://www.lee4diamondbar.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Endorsements | Lee Mao for Diamond Bar City Council 2026",
+      "publisher": "Lee Mao for Diamond Bar City Council District 4, 2026",
+      "url": "https://www.lee4diamondbar.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.370Z",
+    "version": 2
+  }
+}

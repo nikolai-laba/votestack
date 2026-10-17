@@ -1,0 +1,145 @@
+{
+  "key": "leonard-shryock",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Leonard Shryock",
+  "office": "City of Norwalk, Member of the City Council",
+  "contestIds": ["la-4348-cc10494"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Leonard Shryock has worked as an educator in the Norwalk-La Mirada school district and previously served on the Norwalk City Council as vice mayor. He also served on the Norwalk-La Mirada school board.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Leonard Shryock has worked as an educator in the Norwalk-La Mirada school district and previously served on the Norwalk City Council as vice mayor.",
+            "cites": [1]
+          },
+          {
+            "text": "He also served on the Norwalk-La Mirada school board.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "His campaign says he wants to focus on public safety, accountability for tax dollars, city services, and communication. In 2018, he was the only council member to vote against a solid waste contract with Athens Services. He said a competing bid from CR&R would have lower rates for residents and businesses. In 2016, he opposed filling a vacant council seat by appointment, voting instead to hold a special election so that the appointee would not start with incumbent status.",
+        "cites": [2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "His campaign says he wants to focus on public safety, accountability for tax dollars, city services, and communication.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2018, he was the only council member to vote against a solid waste contract with Athens Services.",
+            "cites": [3]
+          },
+          {
+            "text": "He said a competing bid from CR&R would have lower rates for residents and businesses.",
+            "cites": [4]
+          },
+          {
+            "text": "In 2016, he opposed filling a vacant council seat by appointment, voting instead to hold a special election so that the appointee would not start with incumbent status.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Norwalk",
+        "committee": "Shryock for Council 2026",
+        "url": "https://netfile.com/public/NWK/campaign/filingsByFiler/217289414-Shryock%20for%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 9150,
+        "cashOnHand": 5431.92,
+        "breakdown": [
+          { "kind": "large", "amount": 1850 },
+          { "kind": "candidate", "amount": 7000 },
+          { "kind": "other", "amount": 300 }
+        ],
+        "fromCandidate": 7000,
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 1900,
+          "count": 1,
+          "fromCandidate": 1900
+        }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "State Sen. Bob Archuleta",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [2]
+      },
+      {
+        "organization": "Association for Los Angeles Deputy Sheriffs (ALADS)",
+        "kind": "union",
+        "cites": [2]
+      },
+      {
+        "organization": "The Norwalk Employee Association",
+        "kind": "union",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Time Capsule Mystery Grows",
+      "publisher": "City of Norwalk",
+      "url": "https://cms3.revize.com/revize/norwalkca/Documents/Departments%20&%20Services/Communications%20and%20Public%20Affairs/Norwalk%20Newsletters%20Hub/NorwalkNow%20Newsletter/241.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Shryock for City Council",
+      "publisher": "Leonard Shryock campaign",
+      "url": "https://www.shryockforcitycouncil.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Norwalk finalizes waste agreement with Athens — The Norwalk Patriot",
+      "publisher": "The Norwalk Patriot",
+      "url": "http://www.thenorwalkpatriot.com/news/2018/5/10/norwalk-finalizes-waste-agreement-with-athens",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Friday, April 27, 2018",
+      "publisher": "The Norwalk Patriot",
+      "url": "https://static1.squarespace.com/static/57df855ff7e0ab74193e26a8/t/5ae2336e575d1f8378af6068/1524773753097/2018-04-27.pdf",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "thedowneypatriot.com",
+      "publisher": "The Downey Patriot",
+      "url": "https://www.thedowneypatriot.com/articles/norwalk-city-council-split-on-how-to-fill-rodartes-open-seat",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.517Z",
+    "version": 2
+  }
+}

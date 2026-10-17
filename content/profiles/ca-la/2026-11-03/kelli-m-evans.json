@@ -1,0 +1,143 @@
+{
+  "key": "kelli-m-evans",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Kelli M. Evans",
+  "office": "Associate Justice of the Supreme Court",
+  "contestIds": ["la-4348-rc10889"],
+  "kind": "retention",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Kelli M. Evans is an Associate Justice of the California Supreme Court. She was an Alameda County Superior Court judge, Governor Newsom's chief deputy legal affairs secretary, and a civil rights and public defense attorney. She wrote an opinion requiring civil commitment warnings for sex crime pleas. She dissented from a ruling limiting negligence lawsuits against drug manufacturers. She dissented from a death penalty ruling, citing concerns about juror discrimination.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Kelli M. Evans is an Associate Justice of the California Supreme Court.",
+            "cites": [1]
+          },
+          {
+            "text": "She was an Alameda County Superior Court judge, Governor Newsom's chief deputy legal affairs secretary, and a civil rights and public defense attorney.",
+            "cites": [1]
+          },
+          {
+            "text": "She wrote an opinion requiring civil commitment warnings for sex crime pleas.",
+            "cites": [2]
+          },
+          {
+            "text": "She dissented from a ruling limiting negligence lawsuits against drug manufacturers.",
+            "cites": [3]
+          },
+          {
+            "text": "She dissented from a death penalty ruling, citing concerns about juror discrimination.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-16", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [5] },
+      {
+        "organization": "Americans for Democratic Action Southern California",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Indivisible Ventura",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Santa Clarita Valley Democrats",
+        "kind": "organization",
+        "cites": [8]
+      },
+      { "organization": "GrowSF", "kind": "organization", "cites": [9] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Justice Kelli M. Evans | Supreme Court of California",
+      "publisher": "Supreme Court of California",
+      "url": "https://supreme.courts.ca.gov/about-court/justices-court/justice-kelli-m-evans",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Judges must warn violent sex crime defendants of civil commitment risks, justices rule",
+      "publisher": "Daily Journal",
+      "url": "https://www.dailyjournal.com/article/380520-judges-must-warn-violent-sex-crime-defendants-of-civil-commitment-risks-justices-rule",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "California Supreme Court rules Gilead not liable for defective HIV drug claims",
+      "publisher": "Courthouse News",
+      "url": "https://www.courthousenews.com/california-supreme-court-rules-gilead-not-liable-for-defective-hiv-drug-claims/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Kern County murder verdict upheld as divided court rejects bias claim",
+      "publisher": "Yahoo News",
+      "url": "https://www.yahoo.com/news/us/articles/kern-county-murder-verdict-upheld-012855269.html",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Judicial Endorsements - ADA SoCal",
+      "publisher": "ADA Southern California",
+      "url": "https://www.adasocal.org/judicial_endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Nonpartisan Judicial Offices",
+      "publisher": "Indivisible Ventura",
+      "url": "https://indivisibleventura.org/nonpartisan-judicial-offices/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "November 2026 Candidate Endorsements",
+      "publisher": "Santa Clarita Valley Democrats",
+      "url": "https://www.santaclaritavalleydemocrats.com/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "California Supreme Court Retention — November 2026 Election",
+      "publisher": "GrowSF",
+      "url": "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/supreme-court-retention/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.846Z",
+    "version": 4
+  }
+}

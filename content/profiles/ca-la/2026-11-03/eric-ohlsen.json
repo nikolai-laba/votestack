@@ -1,0 +1,168 @@
+{
+  "key": "eric-ohlsen",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Eric Ohlsen",
+  "office": "City of Palmdale, Member of the City Council, 4th District",
+  "contestIds": ["la-4348-cc10496"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Eric Ohlsen is the mayor of Palmdale and represents District 4 on the Palmdale City Council. He was elected in 2022 and served in the U.S. Coast Guard. He founded the Community Coalition of the Antelope Valley, which runs desert cleanups and rural broadband work. In January 2026 the council expanded Palmdale's Aerospace Incentive Program to offer up to $500,000 for construction and $125,000 for leases. Ohlsen said the program aims to attract aerospace suppliers and create skilled jobs. In June 2026 a code enforcement illegal dumping investigation uncovered over 800 pounds of methamphetamine. Ohlsen said he created the Community Preservation Program and that giving code enforcement the right focus protects residents' quality of life.",
+        "cites": [1, 2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "Eric Ohlsen is the mayor of Palmdale and represents District 4 on the Palmdale City Council.",
+            "cites": [1]
+          },
+          {
+            "text": "He was elected in 2022 and served in the U.S. Coast Guard.",
+            "cites": [2]
+          },
+          {
+            "text": "He founded the Community Coalition of the Antelope Valley, which runs desert cleanups and rural broadband work.",
+            "cites": [1]
+          },
+          {
+            "text": "In January 2026 the council expanded Palmdale's Aerospace Incentive Program to offer up to $500,000 for construction and $125,000 for leases.",
+            "cites": [3]
+          },
+          {
+            "text": "Ohlsen said the program aims to attract aerospace suppliers and create skilled jobs.",
+            "cites": [3]
+          },
+          {
+            "text": "In June 2026 a code enforcement illegal dumping investigation uncovered over 800 pounds of methamphetamine.",
+            "cites": [4]
+          },
+          {
+            "text": "Ohlsen said he created the Community Preservation Program and that giving code enforcement the right focus protects residents' quality of life.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Palmdale",
+        "committee": "Ohlsen for Council 2026",
+        "url": "https://netfile.com/public/CPD/campaign/filingsByFiler/213905294-Ohlsen%20For%20Council%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 9450,
+        "cashOnHand": 1456.89,
+        "breakdown": [
+          { "kind": "large", "amount": 3950 },
+          { "kind": "other", "amount": 5500 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [6]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [8] },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [9]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Councilmember Eric Ohlsen Selected as Palmdale's Next Mayor; Austin Bishop Named Mayor Pro Tem",
+      "publisher": "City of Palmdale",
+      "url": "https://cityofpalmdaleca.gov/m/newsflash/Home/Detail/2113",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Mayor Eric Ohlsen | Palmdale, CA",
+      "publisher": "City of Palmdale",
+      "url": "https://www.cityofpalmdaleca.gov/307/Mayor-Eric-Ohlsen",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Palmdale elevates aerospace incentives to $500,000 to attract defense supply chain businesses",
+      "publisher": "PublicCEO",
+      "url": "https://www.publicceo.com/2026/03/palmdale-elevates-aerospace-incentives-to-500000-to-attract-defense-supply-chain-businesses/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Over 800 pounds of meth seized after illegal dumping investigation uncovers large lab in Palmdale, authorities say",
+      "publisher": "ABC7 Los Angeles",
+      "url": "https://abc7.com/post/800-pounds-meth-seized-illegal-dumping-investigation-uncovers-large-lab-palmdale-authorities-say/19393468/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Code Enforcement Investigation Leads to Meth Bust",
+      "publisher": "City of Palmdale",
+      "url": "https://www.cityofpalmdaleca.gov/m/newsflash/Home/Detail/2273",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements",
+      "publisher": "Teamsters Joint Council 42",
+      "url": "https://www.teamstersjc42.com/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 8
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 9
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.805Z",
+    "version": 3
+  }
+}

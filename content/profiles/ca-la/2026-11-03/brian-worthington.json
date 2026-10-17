@@ -1,0 +1,117 @@
+{
+  "key": "brian-worthington",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Brian Worthington",
+  "office": "Walnut Valley Water District, Member, Board of Directors, Division 2",
+  "contestIds": ["la-4348-cc10371"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Brian Worthington is the chair of the Diamond Bar Planning Commission and a commissioner on the PUSD Bond Oversight Committee, according to his campaign website. He previously served on the city's Parks & Recreation Commission. He was vice chair of the city's General Plan Advisory Committee.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Brian Worthington is the chair of the Diamond Bar Planning Commission and a commissioner on the PUSD Bond Oversight Committee, according to his campaign website.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously served on the city's Parks & Recreation Commission.",
+            "cites": [1]
+          },
+          {
+            "text": "He was vice chair of the city's General Plan Advisory Committee.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Worthington for Walnut Valley Water Board District 2 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217183185-Worthington%20for%20Walnut%20Valley%20Water%20Board%20District%202%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 3684,
+        "cashOnHand": 565.08,
+        "breakdown": [
+          { "kind": "small", "amount": 582 },
+          { "kind": "large", "amount": 3102 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Diamond Bar Mayor Steve Tye",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Diamond Bar Mayor Pro Tem Ruth Low",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Former Diamond Bar Mayor Nancy Lyons",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Walnut Valley Water District Board Member Ed Hilden",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Walnut Valley Unified School District Board Member Dr. Tony Torng",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Pomona Unified School District Board Member Patty Tye",
+        "kind": "elected_official",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Brian Worthington for Walnut Valley Water District, Division 2",
+      "publisher": "Brian Worthington campaign",
+      "url": "https://www.brianworthington-wvwd-2026.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "diamondbarca.gov",
+      "publisher": "City of Diamond Bar",
+      "url": "https://www.diamondbarca.gov/DocumentCenter/View/7097/GP-TOCr?bidId=",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Endorsements - Brian Worthington for Walnut Valley Water District, Division 2",
+      "publisher": "Worthington for Walnut Valley Water Board Division 2 2026",
+      "url": "https://www.brianworthington-wvwd-2026.com/view-endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.425Z",
+    "version": 2
+  }
+}

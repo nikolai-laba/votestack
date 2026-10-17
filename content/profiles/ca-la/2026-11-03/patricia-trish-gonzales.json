@@ -1,0 +1,62 @@
+{
+  "key": "patricia-trish-gonzales",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Patricia \"Trish\" Gonzales",
+  "office": "City of Azusa, Member of the City Council, 1st District",
+  "contestIds": ["la-4348-cc10536"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "In 2023, Patricia \"Trish\" Gonzales was recommended for appointment to the Azusa Park and Recreation Commission. She remains on the commission, with a term that expires in 2026.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "In 2023, Patricia \"Trish\" Gonzales was recommended for appointment to the Azusa Park and Recreation Commission.",
+            "cites": [1]
+          },
+          {
+            "text": "She remains on the commission, with a term that expires in 2026.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Azusa",
+      "url": "https://www.azusaca.gov/97/City-Clerks-Office",
+      "onRequest": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "CITY OF AZUSA",
+      "publisher": "City of Azusa",
+      "url": "https://azusa.granicus.com/MetaViewer.php?view_id=3&clip_id=1388&meta_id=102069",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "CITY COUNCIL - BOARDS AND COMMISSIONS ROSTER",
+      "publisher": "City of Azusa",
+      "url": "https://www.azusaca.gov/DocumentCenter/View/48646/City-Council---Boards--Commission-Roster",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.300Z",
+    "version": 2
+  }
+}

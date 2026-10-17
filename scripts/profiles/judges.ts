@@ -1,12 +1,23 @@
-// Bar association evaluations for every judge on the Cook County ballot
-// contested judicial races and retention votes. Downloads the 2026
-// general election lists published by the Chicago Bar Association, the
-// Alliance of Bar Associations for Judicial Screening (voteforjudges.org), the
-// Chicago Council of Lawyers and the Illinois State Bar Association, matches
-// names with the ballot and writes content/profiles/judges/bar-ratings.json.
+// Bar association evaluations for the judges on the ballot, for the region
+// named with --region (see scripts/lib/profiles/region.ts).
+//
+// Cook County (the default): every judge in the contested judicial races and
+// retention votes. Downloads the 2026 general election lists published by the
+// Chicago Bar Association, the Alliance of Bar Associations for Judicial
+// Screening (voteforjudges.org), the Chicago Council of Lawyers and the
+// Illinois State Bar Association, matches names with the ballot and writes
+// content/profiles/judges/bar-ratings.json.
+//
+// Los Angeles County (--region=ca-la): the candidates in contested Superior
+// Court races, rated by the Los Angeles County Bar Association's Judicial
+// Elections Evaluation Committee. Writes
+// content/profiles/ca-la/judges/bar-ratings.json with the candidates the
+// Committee rated; no bar group publishes evaluations of the appellate and
+// Supreme Court justices up for retention, so they get nothing.
+//
 // Names it can't match are printed, never guessed. Needs `pdftotext`
 // (poppler) and the contest files from `npm run data:build`.
-// Run: node scripts/profiles/judges.ts [--refresh]
+// Run: node scripts/profiles/judges.ts [--region=ca-la] [--refresh]
 
 import { execFileSync } from 'node:child_process'
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
@@ -17,6 +28,7 @@ import { chicagoDate } from '../../src/shared/dates.ts'
 import { profileKey } from '../../src/shared/profile.ts'
 import { BUILD, RAW, ROOT, readJson } from '../lib/data.ts'
 import { cachedDownload } from '../lib/profiles/download.ts'
+import { IS_COOK, regionDir } from '../lib/profiles/region.ts'
 import {
   ALLIANCE_MEMBERS,
   buildEntries,
@@ -31,11 +43,14 @@ import {
   type BarList,
   type BarRating,
   type JudgeBarRatings,
+  LACBA,
+  parseLacbaGuide,
 } from '../lib/profiles/bar.ts'
 
 const MAX_AGE_HOURS = process.argv.includes('--refresh') ? 0 : 24
-const DIR = join(RAW, 'judges')
-const OUT = join(ROOT, 'content', 'profiles', 'judges', 'bar-ratings.json')
+const DIR = regionDir(join(RAW, 'judges'))
+const OUT_DIR = join(regionDir(join(ROOT, 'content', 'profiles')), 'judges')
+const OUT = join(OUT_DIR, 'bar-ratings.json')
 const today = chicagoDate()
 
 const ALLIANCE_URL =
@@ -106,137 +121,242 @@ async function page(url: string, name: string): Promise<string> {
   return readFile(path, 'utf8')
 }
 
-const alliance = parseAlliance(await pdfText(ALLIANCE_URL, 'alliance'))
-const cba = parseCba(await page(CBA_URL, 'cba'))
-const ccl = parseCcl(await pdfText(CCL_URL, 'ccl'))
-const isba = parseIsba(await page(ISBA_URL, 'isba'))
+/** Cook County: four published lists, every judge gets an entry per list. */
+async function cook(): Promise<void> {
+  const alliance = parseAlliance(await pdfText(ALLIANCE_URL, 'alliance'))
+  const cba = parseCba(await page(CBA_URL, 'cba'))
+  const ccl = parseCcl(await pdfText(CCL_URL, 'ccl'))
+  const isba = parseIsba(await page(ISBA_URL, 'isba'))
 
-const allianceSource = {
-  title:
-    'Alliance of Bar Associations for Judicial Screening, 2026 General Election ratings',
-  publisher: 'Alliance of Bar Associations for Judicial Screening',
-  url: ALLIANCE_URL,
-  kind: 'bar' as const,
+  const allianceSource = {
+    title:
+      'Alliance of Bar Associations for Judicial Screening, 2026 General Election ratings',
+    publisher: 'Alliance of Bar Associations for Judicial Screening',
+    url: ALLIANCE_URL,
+    kind: 'bar' as const,
+  }
+
+  // The Chicago Bar Association first, then the Alliance's members in the
+  // Alliance's order. The Council and the ISBA publish their own reports with
+  // the same ratings in words, so their own reports stand in for their columns.
+  const lists: BarList[] = [
+    {
+      organization: 'Chicago Bar Association',
+      source: {
+        title:
+          "Vote Smart: CBA Judicial Voter's Guide, General Election, November 3, 2026",
+        publisher: 'Chicago Bar Association',
+        url: CBA_URL,
+        kind: 'bar',
+      },
+      ratings: cba,
+    },
+    ...ALLIANCE_MEMBERS.map((organization, i): BarList => {
+      if (organization === 'Chicago Council of Lawyers')
+        return {
+          organization,
+          source: {
+            title:
+              'Evaluation Report: Judges on the Ballot in the November 3, 2026 General Election',
+            publisher: 'Chicago Council of Lawyers',
+            url: CCL_URL,
+            kind: 'bar',
+          },
+          ratings: ccl,
+        }
+      if (organization === 'Illinois State Bar Association')
+        return {
+          organization,
+          source: {
+            title: '2026 General Election, Cook County Judicial Evaluations',
+            publisher: 'Illinois State Bar Association',
+            url: ISBA_URL,
+            kind: 'bar',
+          },
+          ratings: isba,
+        }
+      return { organization, source: allianceSource, ratings: alliance[i] }
+    }),
+  ]
+
+  const judges = await ballotJudges()
+  const ballotNames = new Map([...judges].map(([k, j]) => [k, j.name]))
+  const matched = new Map<string, { list: number; rating: BarRating }[]>()
+  const unmatched: string[] = []
+  const wrongContext: string[] = []
+
+  lists.forEach((list, i) => {
+    for (const rating of list.ratings) {
+      const key = matchJudge(rating.name, ballotNames, ALIASES)
+      if (!key) {
+        unmatched.push(
+          `${list.organization}: ${rating.name} (${rating.context})`,
+        )
+        continue
+      }
+      if (!judges.get(key)!.contexts.has(rating.context))
+        wrongContext.push(
+          `${list.organization}: ${rating.name} (${rating.context})`,
+        )
+      const entries = matched.get(key) ?? []
+      if (
+        entries.some((e) => e.list === i && e.rating.context === rating.context)
+      )
+        throw new Error(`${list.organization} rates ${rating.name} twice`)
+      entries.push({ list: i, rating })
+      matched.set(key, entries)
+    }
+  })
+
+  // Cross-check: the Alliance's Council and ISBA columns against their own
+  // reports, for contested races (retention columns say Yes/No instead).
+  const crossChecks: string[] = []
+  for (const [org, own] of [
+    ['Chicago Council of Lawyers', ccl],
+    ['Illinois State Bar Association', isba],
+  ] as const) {
+    const column = alliance[ALLIANCE_MEMBERS.indexOf(org)]
+    for (const r of own.filter((x) => x.context === 'election')) {
+      const key = matchJudge(r.name, ballotNames, ALIASES)
+      const other = column.find(
+        (c) =>
+          c.context === 'election' &&
+          matchJudge(c.name, ballotNames, ALIASES) === key,
+      )
+      if (other && other.rating !== r.rating)
+        crossChecks.push(
+          `${org}, ${r.name}: report "${r.rating}", Alliance table "${other.rating}"`,
+        )
+    }
+  }
+
+  const out: Record<string, JudgeBarRatings> = {}
+  for (const key of [...judges.keys()].sort())
+    out[key] = buildEntries(lists, matched, key, today, judges.get(key)!.votes)
+
+  await mkdir(OUT_DIR, { recursive: true })
+  // Formatted like the rest of the repo, so a rerun passes `prettier --check`.
+  await writeFile(OUT, await format(JSON.stringify(out), { parser: 'json' }))
+
+  console.log(`${judges.size} judges on the ballot; wrote ${OUT}`)
+  console.log('\nRated (not "No rating published"), by organization:')
+  for (const list of lists) {
+    const rated = Object.values(out).filter((j) =>
+      j.endorsements.some(
+        (e) => e.organization === list.organization && e.rating !== NO_RATING,
+      ),
+    ).length
+    console.log(`  ${list.organization}: ${rated} of ${judges.size}`)
+  }
+  const report = (title: string, lines: string[]) => {
+    console.log(`\n${title}: ${lines.length}`)
+    for (const l of lines) console.log(`  ${l}`)
+  }
+  report('Unmatched published names', unmatched)
+  report('Rated for a race the judge is not in', wrongContext)
+  report('Alliance table differs from the own report', crossChecks)
+  report(
+    'Judges with no rating from any list',
+    [...judges].filter(([k]) => !matched.has(k)).map(([, j]) => j.name),
+  )
 }
 
-// The Chicago Bar Association first, then the Alliance's members in the
-// Alliance's order. The Council and the ISBA publish their own reports with
-// the same ratings in words, so their own reports stand in for their columns.
-const lists: BarList[] = [
-  {
-    organization: 'Chicago Bar Association',
+/**
+ * The Committee's general election voter guide, which repeats the ratings of
+ * its April 2026 final report for the candidates in the November runoffs.
+ * The link redirects to the current copy of the file.
+ */
+const LACBA_GUIDE_URL = 'https://lacba.org/docDownload/3141411'
+
+/** Los Angeles County: one list, only candidates it rates get an entry. */
+async function losAngeles(): Promise<void> {
+  // Every candidate in a Superior Court race, with the race's office number.
+  const { contests } = await readJson<{ contests: Contest[] }>(
+    join(BUILD, 'la', 'contests.json'),
+  )
+  const candidates = new Map<string, { name: string; office: string }>()
+  for (const c of contests) {
+    if (c.kind !== 'candidate') continue
+    const office = c.office.match(
+      /^Judge of the Superior Court, Office No\. (\d+)$/,
+    )?.[1]
+    if (!office) continue
+    for (const p of c.candidates)
+      candidates.set(profileKey(p.name), { name: p.name, office })
+  }
+  if (candidates.size === 0)
+    throw new Error('No Superior Court races in the contest file')
+
+  const guide = parseLacbaGuide(await pdfText(LACBA_GUIDE_URL, 'lacba-guide'))
+  if (guide.length === 0)
+    throw new Error(
+      'No ratings found in the LACBA guide; has its layout changed?',
+    )
+  const list: BarList = {
+    organization: LACBA,
     source: {
       title:
-        "Vote Smart: CBA Judicial Voter's Guide, General Election, November 3, 2026",
-      publisher: 'Chicago Bar Association',
-      url: CBA_URL,
+        'General Election Judicial Candidate Ratings for L.A. County, November 3, 2026',
+      publisher: LACBA,
+      url: LACBA_GUIDE_URL,
       kind: 'bar',
     },
-    ratings: cba,
-  },
-  ...ALLIANCE_MEMBERS.map((organization, i): BarList => {
-    if (organization === 'Chicago Council of Lawyers')
-      return {
-        organization,
-        source: {
-          title:
-            'Evaluation Report: Judges on the Ballot in the November 3, 2026 General Election',
-          publisher: 'Chicago Council of Lawyers',
-          url: CCL_URL,
-          kind: 'bar',
-        },
-        ratings: ccl,
-      }
-    if (organization === 'Illinois State Bar Association')
-      return {
-        organization,
-        source: {
-          title: '2026 General Election, Cook County Judicial Evaluations',
-          publisher: 'Illinois State Bar Association',
-          url: ISBA_URL,
-          kind: 'bar',
-        },
-        ratings: isba,
-      }
-    return { organization, source: allianceSource, ratings: alliance[i] }
-  }),
-]
+    ratings: guide,
+  }
 
-const judges = await ballotJudges()
-const ballotNames = new Map([...judges].map(([k, j]) => [k, j.name]))
-const matched = new Map<string, { list: number; rating: BarRating }[]>()
-const unmatched: string[] = []
-const wrongContext: string[] = []
-
-lists.forEach((list, i) => {
-  for (const rating of list.ratings) {
-    const key = matchJudge(rating.name, ballotNames, ALIASES)
+  const ballotNames = new Map(
+    [...candidates].map(([k, c]) => [k, c.name] as [string, string]),
+  )
+  const matched = new Map<string, { list: number; rating: BarRating }[]>()
+  const unmatched: string[] = []
+  const wrongOffice: string[] = []
+  for (const rating of guide) {
+    const key = matchJudge(rating.name, ballotNames, {})
     if (!key) {
-      unmatched.push(`${list.organization}: ${rating.name} (${rating.context})`)
+      unmatched.push(`${rating.name} (Office No. ${rating.office})`)
       continue
     }
-    if (!judges.get(key)!.contexts.has(rating.context))
-      wrongContext.push(
-        `${list.organization}: ${rating.name} (${rating.context})`,
+    const ballotOffice = candidates.get(key)!.office
+    if (ballotOffice !== rating.office)
+      wrongOffice.push(
+        `${rating.name}: Office No. ${rating.office} in the guide, ${ballotOffice} on the ballot`,
       )
-    const entries = matched.get(key) ?? []
-    if (
-      entries.some((e) => e.list === i && e.rating.context === rating.context)
-    )
-      throw new Error(`${list.organization} rates ${rating.name} twice`)
-    entries.push({ list: i, rating })
-    matched.set(key, entries)
+    if (matched.has(key)) throw new Error(`${LACBA} rates ${rating.name} twice`)
+    matched.set(key, [{ list: 0, rating }])
   }
-})
+  if (wrongOffice.length > 0)
+    throw new Error(`Office numbers differ:\n  ${wrongOffice.join('\n  ')}`)
 
-// Cross-check: the Alliance's Council and ISBA columns against their own
-// reports, for contested races (retention columns say Yes/No instead).
-const crossChecks: string[] = []
-for (const [org, own] of [
-  ['Chicago Council of Lawyers', ccl],
-  ['Illinois State Bar Association', isba],
-] as const) {
-  const column = alliance[ALLIANCE_MEMBERS.indexOf(org)]
-  for (const r of own.filter((x) => x.context === 'election')) {
-    const key = matchJudge(r.name, ballotNames, ALIASES)
-    const other = column.find(
-      (c) =>
-        c.context === 'election' &&
-        matchJudge(c.name, ballotNames, ALIASES) === key,
-    )
-    if (other && other.rating !== r.rating)
-      crossChecks.push(
-        `${org}, ${r.name}: report "${r.rating}", Alliance table "${other.rating}"`,
-      )
+  // Only rated candidates: with one list, an entry saying "no rating" would
+  // add nothing a missing entry doesn't say.
+  const out: Record<string, JudgeBarRatings> = {}
+  for (const key of [...matched.keys()].sort())
+    out[key] = buildEntries([list], matched, key, today, {
+      election: `Superior Court, Office No. ${candidates.get(key)!.office}`,
+    })
+
+  await mkdir(OUT_DIR, { recursive: true })
+  await writeFile(OUT, await format(JSON.stringify(out), { parser: 'json' }))
+
+  console.log(
+    `${candidates.size} Superior Court candidates on the ballot, ${matched.size} rated; wrote ${OUT}`,
+  )
+  const report = (title: string, lines: string[]) => {
+    console.log(`\n${title}: ${lines.length}`)
+    for (const l of lines) console.log(`  ${l}`)
   }
-}
-
-const out: Record<string, JudgeBarRatings> = {}
-for (const key of [...judges.keys()].sort())
-  out[key] = buildEntries(lists, matched, key, today, judges.get(key)!.votes)
-
-await mkdir(join(ROOT, 'content', 'profiles', 'judges'), { recursive: true })
-// Formatted like the rest of the repo, so a rerun passes `prettier --check`.
-await writeFile(OUT, await format(JSON.stringify(out), { parser: 'json' }))
-
-console.log(`${judges.size} judges on the ballot; wrote ${OUT}`)
-console.log('\nRated (not "No rating published"), by organization:')
-for (const list of lists) {
-  const rated = Object.values(out).filter((j) =>
-    j.endorsements.some(
-      (e) => e.organization === list.organization && e.rating !== NO_RATING,
+  report(
+    'Ratings',
+    [...matched].map(
+      ([k, [{ rating }]]) =>
+        `Office No. ${candidates.get(k)!.office}: ${candidates.get(k)!.name}, ${rating.rating}`,
     ),
-  ).length
-  console.log(`  ${list.organization}: ${rated} of ${judges.size}`)
+  )
+  report('Unmatched published names', unmatched)
+  report(
+    'Candidates with no rating',
+    [...candidates].filter(([k]) => !matched.has(k)).map(([, c]) => c.name),
+  )
 }
-const report = (title: string, lines: string[]) => {
-  console.log(`\n${title}: ${lines.length}`)
-  for (const l of lines) console.log(`  ${l}`)
-}
-report('Unmatched published names', unmatched)
-report('Rated for a race the judge is not in', wrongContext)
-report('Alliance table differs from the own report', crossChecks)
-report(
-  'Judges with no rating from any list',
-  [...judges].filter(([k]) => !matched.has(k)).map(([, j]) => j.name),
-)
+
+await (IS_COOK ? cook() : losAngeles())

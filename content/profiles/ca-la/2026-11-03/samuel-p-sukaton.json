@@ -1,0 +1,159 @@
+{
+  "key": "samuel-p-sukaton",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Samuel P. Sukaton",
+  "party": "Democratic",
+  "office": "Board of Equalization Member, 3rd District",
+  "contestIds": ["la-4348-cc10835-r1", "la-4348-cc10835-r2"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Samuel P. Sukaton is a labor union organizer running for the California Board of Equalization. He is the lead organizer for AFT Local 1521, the LA Community College Faculty Guild. He holds a bachelor’s degree in history from UCLA. He served as a regional campaign director for Bernie Sanders' 2020 presidential run in the Inland Empire and Orange County. He supports property tax transparency and stronger oversight of assessors.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Samuel P. Sukaton is a labor union organizer running for the California Board of Equalization.",
+            "cites": [1]
+          },
+          {
+            "text": "He is the lead organizer for AFT Local 1521, the LA Community College Faculty Guild.",
+            "cites": [2]
+          },
+          {
+            "text": "He holds a bachelor’s degree in history from UCLA.",
+            "cites": [2]
+          },
+          {
+            "text": "He served as a regional campaign director for Bernie Sanders' 2020 presidential run in the Inland Empire and Orange County.",
+            "cites": [1]
+          },
+          {
+            "text": "He supports property tax transparency and stronger oversight of assessors.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Sukaton for State Board of Equalization 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1484005",
+        "period": "July 1 to September 19, 2026",
+        "raised": 14877.11,
+        "cashOnHand": 19144.29,
+        "breakdown": [
+          { "kind": "small", "amount": 834.11 },
+          { "kind": "large", "amount": 2743 },
+          { "kind": "pac", "amount": 11300 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Our Revolution",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Americans for Democratic Action Southern California",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "California Environmental Voters",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "California Working Families Party",
+        "kind": "organization",
+        "cites": [6]
+      },
+      { "organization": "Knock LA", "kind": "organization", "cites": [7] },
+      { "organization": "LA Forward", "kind": "organization", "cites": [8] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "California Board of Equalization District 3: Who's running and why it matters | LAist",
+      "publisher": "LAist",
+      "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-board-of-equalization-district-3",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Sukaton seeks Board of Equalization District 3 seat | Platinum Tribune",
+      "publisher": "Platinum Tribune",
+      "url": "https://platinumtribune.com/articles/sukaton-seeks-board-of-equalization-district-3-seat-mv6zfkxu",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "CA Board of Equalization Endorsement",
+      "publisher": "Our Revolution",
+      "url": "https://ourrevolution.com/ca-board-of-equalization-endorsement/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "State Administrators - ADA SoCal",
+      "publisher": "Americans for Democratic Action Southern California",
+      "url": "https://www.adasocal.org/state_administrators",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Who We're Endorsing in California's 2026 Election",
+      "publisher": "California Environmental Voters",
+      "url": "https://envirovoters.org/2026-endorsements/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 5
+    },
+    {
+      "title": "California Working Families Party: Our 2026 Candidates",
+      "publisher": "Working Families Party",
+      "url": "https://workingfamilies.org/state/california/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 6
+    },
+    {
+      "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
+      "publisher": "Knock LA (Ground Game LA)",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 7
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 8
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.763Z",
+    "version": 6
+  }
+}

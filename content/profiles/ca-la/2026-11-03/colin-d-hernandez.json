@@ -1,0 +1,194 @@
+{
+  "key": "colin-d-hernandez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Colin D. Hernandez",
+  "party": "Democratic",
+  "office": "State Assembly Member, 51st District",
+  "contestIds": ["la-4348-cc10791"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Colin D. Hernandez is a digital communications strategist. He holds a bachelor’s degree in political science from the University of Colorado Boulder. His campaign website criticizes California’s tax breaks for large corporations and billionaires.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Colin D. Hernandez is a digital communications strategist.",
+            "cites": [1]
+          },
+          {
+            "text": "He holds a bachelor’s degree in political science from the University of Colorado Boulder.",
+            "cites": [2]
+          },
+          {
+            "text": "His campaign website criticizes California’s tax breaks for large corporations and billionaires.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Hernandez for California Assembly 2026; Colin",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1482866",
+        "period": "July 1 to September 19, 2026",
+        "raised": 12827.8,
+        "cashOnHand": 4981.76,
+        "breakdown": [
+          { "kind": "small", "amount": 1921.2 },
+          { "kind": "large", "amount": 9801.6 },
+          { "kind": "candidate", "amount": 1105 }
+        ],
+        "fromCandidate": 1105
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "American Independent Party",
+        "kind": "party",
+        "cites": [4]
+      },
+      {
+        "organization": "CAIR Action California",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Progressive Voters Network",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Park La Brea Residents Association",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Feel the Bern Los Angeles County Democratic Club",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "Feel the Bern San Fernando Valley",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "Pilipino American Los Angeles Democrats",
+        "kind": "organization",
+        "cites": [2]
+      },
+      {
+        "organization": "Young Democratic Socialists of America at UCLA",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Los Angeles City Controller Kenneth Mejia",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Burbank City Councilmember Konstantine Anthony",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Former Culver City Mayor Daniel Lee",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      { "organization": "Knock LA", "kind": "organization", "cites": [9] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "California State Assembly: Who's running Nov. 3 and why it ...",
+      "publisher": "LAist",
+      "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-state-assembly",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Hernandez seeks Assembly District 51 seat Nov. 3",
+      "publisher": "Platinum Tribune",
+      "url": "https://platinumtribune.com/articles/hernandez-seeks-assembly-district-51-seat-nov-3-mv149o6w",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Colin Hernandez",
+      "publisher": "Colin Hernandez campaign",
+      "url": "https://colinforcalifornia.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "November 3, 2026 General Election: Party Endorsements for Voter-Nominated Offices",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/additional-election-information",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "California Primary Election Voter Guide 2026 (Southern California)",
+      "publisher": "CAIR Action California",
+      "url": "https://cairaction.org/wp-content/uploads/2026/05/SoCal-Voter-Guide-2.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Endorsements – Colin Hernandez",
+      "publisher": "Colin Hernandez for State Assembly",
+      "url": "https://colinforcalifornia.com/endorsements/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "2026 Election Endorsements",
+      "publisher": "Park La Brea Residents Association",
+      "url": "https://www.plbra.org/2026-election-endorsements.html",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "Rick Chavez Zbur, Colin Hernandez advance to state assembly general election",
+      "publisher": "Daily Bruin",
+      "url": "https://dailybruin.com/2026/06/06/rick-chavez-zbur-colin-hernandez-advance-to-state-assembly-general-election",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
+      "publisher": "Knock LA (Ground Game LA)",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 9
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.693Z",
+    "version": 5
+  }
+}

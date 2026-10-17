@@ -1,0 +1,93 @@
+{
+  "key": "letty-lopez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Letty Lopez",
+  "office": "City of West Covina, Member of the City Council, 2nd District",
+  "contestIds": ["la-4348-cc10527"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Letty Lopez-Viado is the mayor of West Covina, first elected to the city council in 2018. She is a senior director for the Los Angeles Department of Recreation and Parks and previously served on the city’s Community and Senior Services Commission. She sits on the boards of the Los Angeles County Sanitation Districts and Foothill Transit. Her city biography says she is committed to maintaining parks, strengthening public safety, supporting local businesses, and promoting fiscal stewardship and transparency. In 2025 she proposed censuring a councilman for alleged harassment; the council instead voted to open a third-party investigation into both members’ claims. The city won a 2026 federal court ruling; she said the decision reinforced a safe, respectful workplace.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Letty Lopez-Viado is the mayor of West Covina, first elected to the city council in 2018.",
+            "cites": [1]
+          },
+          {
+            "text": "She is a senior director for the Los Angeles Department of Recreation and Parks and previously served on the city’s Community and Senior Services Commission.",
+            "cites": [1]
+          },
+          {
+            "text": "She sits on the boards of the Los Angeles County Sanitation Districts and Foothill Transit.",
+            "cites": [1]
+          },
+          {
+            "text": "Her city biography says she is committed to maintaining parks, strengthening public safety, supporting local businesses, and promoting fiscal stewardship and transparency.",
+            "cites": [1]
+          },
+          {
+            "text": "In 2025 she proposed censuring a councilman for alleged harassment; the council instead voted to open a third-party investigation into both members’ claims.",
+            "cites": [2]
+          },
+          {
+            "text": "The city won a 2026 federal court ruling; she said the decision reinforced a safe, respectful workplace.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of West Covina",
+        "committee": "Letty Lopez for West Covina City Council District 2",
+        "url": "https://westcovina.gov/186/Campaign-Disclosure-Reports-Public-Offic",
+        "period": "July 1 to September 19, 2026",
+        "raised": 10011,
+        "cashOnHand": 8584.15,
+        "fromScan": "ocr"
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Staff Directory • Letty Lopez-Viado - Mayor",
+      "publisher": "City of West Covina",
+      "url": "https://www.westcovina.gov/m/directory/employee?eid=37",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Censure vote leads to investigation at West Covina",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2025/09/17/censure-vote-leads-to-investigation-at-west-covina/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "City of West Covina Prevails in Federal Court Ruling",
+      "publisher": "City of West Covina",
+      "url": "https://www.westcovina.gov/m/newsflash/home/detail/43",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.966Z",
+    "version": 3
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "key": "bonnie-j-coronado",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Bonnie J. Coronado",
+  "office": "Lawndale School District, Governing Board Member, Trustee Area No. 1",
+  "contestIds": ["la-4348-cc10708"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Bonnie J. Coronado is a trustee on the Lawndale Elementary School District Governing Board, representing Trustee Area 1. She has served on the board since 2013.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Bonnie J. Coronado is a trustee on the Lawndale Elementary School District Governing Board, representing Trustee Area 1.",
+            "cites": [1]
+          },
+          { "text": "She has served on the board since 2013.", "cites": [2] }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217605751-Coronado%204%20LESD%20Students%20School%20Board%202026"
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board of Trustees - Lawndale Elementary School District",
+      "publisher": "Lawndale Elementary School District",
+      "url": "https://www.lawndalesd.net/board/lesd-board-of-trustees",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "lawndale elementary school district ...",
+      "publisher": "Lawndale Elementary School District",
+      "url": "https://resources.finalsite.net/images/v1685014436/lawndalek12caus/coni4zhxvzuufgug5iyj/5740629375566381675.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.173Z",
+    "version": 3
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "key": "qui-nguyen",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Qui Nguyen",
+  "office": "El Monte Union High School District, Governing Board Member, Trustee Area No. 3",
+  "contestIds": ["la-4348-cc10685"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Qui Nguyen is a member of the El Monte Union High School District Board of Trustees, first elected in 2022. He says he is a UCLA graduate, a retired electrical engineer and a retired Certified Financial Planner. Nguyen supports closing academic achievement gaps between Asian and Latino student subgroups in English, math and science. He says the board’s role is making policy changes in curriculum and fiscal responsibility so students are ready for careers or college after graduation. In February 2023, Nguyen voted to scrap $1.1 million in design work on a new campus for adult students with disabilities and reintegrate those students into the district’s high schools.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Qui Nguyen is a member of the El Monte Union High School District Board of Trustees, first elected in 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "He says he is a UCLA graduate, a retired electrical engineer and a retired Certified Financial Planner.",
+            "cites": [2]
+          },
+          {
+            "text": "Nguyen supports closing academic achievement gaps between Asian and Latino student subgroups in English, math and science.",
+            "cites": [2]
+          },
+          {
+            "text": "He says the board’s role is making policy changes in curriculum and fiscal responsibility so students are ready for careers or college after graduation.",
+            "cites": [2]
+          },
+          {
+            "text": "In February 2023, Nguyen voted to scrap $1.1 million in design work on a new campus for adult students with disabilities and reintegrate those students into the district’s high schools.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/214315144-Nguyen%2C%20Qui",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "El Monte Union High School District - Meet the Board",
+      "publisher": "El Monte Union High School District",
+      "url": "https://www.emuhsd.org/meet-the-board",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Qui Nguyen, El Monte Union High School District 3 candidate, 2026 election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/qui-nguyen-el-monte-union-high-school-district-3-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "El Monte Union board ditches new site for students with disabilities, igniting political storm",
+      "publisher": "Pasadena Star-News",
+      "url": "https://www.pasadenastarnews.com/2023/02/12/el-monte-union-board-ditches-new-site-for-students-with-disabilities-igniting-political-storm/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.103Z",
+    "version": 3
+  }
+}

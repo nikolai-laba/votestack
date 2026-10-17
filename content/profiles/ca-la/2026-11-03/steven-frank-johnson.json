@@ -1,0 +1,92 @@
+{
+  "key": "steven-frank-johnson",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Steven Frank Johnson",
+  "office": "City of La Verne, Member of the City Council, 1st District",
+  "contestIds": ["la-4348-cc10471"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Steven Frank Johnson is a member of the La Verne City Council, representing District 1 since 2022. He works as an insurance broker. During a May 2026 council meeting, Johnson said he does not think e-bikes should be on city sidewalks. In July 2026, he seconded and voted for a salary chart that gave police and fire personnel pay increases of 3 to 5 percent. He serves as vice-chair of the city's Enhanced Infrastructure Financing District board. His council delegate roles include the Southern California Association of Governments and the financial committee.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Steven Frank Johnson is a member of the La Verne City Council, representing District 1 since 2022.",
+            "cites": [1]
+          },
+          { "text": "He works as an insurance broker.", "cites": [2] },
+          {
+            "text": "During a May 2026 council meeting, Johnson said he does not think e-bikes should be on city sidewalks.",
+            "cites": [3]
+          },
+          {
+            "text": "In July 2026, he seconded and voted for a salary chart that gave police and fire personnel pay increases of 3 to 5 percent.",
+            "cites": [4]
+          },
+          {
+            "text": "He serves as vice-chair of the city's Enhanced Infrastructure Financing District board.",
+            "cites": [4]
+          },
+          {
+            "text": "His council delegate roles include the Southern California Association of Governments and the financial committee.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of La Verne",
+      "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=160350&dbid=0&repo=r-1fb4295f",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "City Council Minutes, July 18, 2022",
+      "publisher": "City of La Verne",
+      "url": "https://www.laverneca.gov/AgendaCenter/ViewFile/Minutes/_07182022-543",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Staff Directory • Steven F. Johnson",
+      "publisher": "City of La Verne",
+      "url": "https://www.laverneca.gov/m/directory/employee?eid=40",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "City Council — La Verne, CA — May 18, 2026",
+      "publisher": "muyni.com",
+      "url": "https://www.muyni.com/meetings/la-verne-ca-city-council-2026-05-18",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "July 20 City Council Recap Report: 3 Things to Know",
+      "publisher": "La Verne Daily News",
+      "url": "https://www.lavernedaily.org/july-20-city-council-recap-reportl-3-thi/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.677Z",
+    "version": 3
+  }
+}

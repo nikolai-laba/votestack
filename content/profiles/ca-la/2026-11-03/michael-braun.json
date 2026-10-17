@@ -1,0 +1,77 @@
+{
+  "key": "michael-braun",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Michael Braun",
+  "office": "Walnut Valley Water District, Member, Board of Directors, Division 2",
+  "contestIds": ["la-4348-cc10371"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Michael Braun is a criminal justice professor running for the Walnut Valley Water District Division 2 board. His campaign says he supports water rates that reflect the cost of reliable service, with increases publicly justified. He proposes investing in infrastructure and making decisions openly.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Michael Braun is a criminal justice professor running for the Walnut Valley Water District Division 2 board.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he supports water rates that reflect the cost of reliable service, with increases publicly justified.",
+            "cites": [1]
+          },
+          {
+            "text": "He proposes investing in infrastructure and making decisions openly.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217187518-Braun%2C%20Michael",
+      "underThreshold": true
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Diamond Bar City Councilmember Andrew Chou",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Three Valleys Municipal Water District Board Member Carlos Goytia",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "Former Walnut Valley Water District Board Member Scarlett Kwong",
+        "kind": "elected_official",
+        "cites": [1]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Dr. Michael Braun | Braun for Diamond Bar",
+      "publisher": "Michael Braun campaign",
+      "url": "https://braunfordiamondbar.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.426Z",
+    "version": 2
+  }
+}

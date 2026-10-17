@@ -77,7 +77,20 @@ export interface Section<T> {
 
 /** Campaign money from official filings (ISBE for state and local races, FEC for federal). */
 export interface MoneySummary {
-  source: 'ISBE' | 'FEC'
+  /**
+   * The filing system: the FEC, the Illinois State Board of Elections, or a
+   * California Form 460 (filed with the Secretary of State, a county or a
+   * city; `filedWith` names which).
+   */
+  source: 'ISBE' | 'FEC' | 'CA'
+  /** For California filings, the office the report was filed with ("City of Burbank"). */
+  filedWith?: string
+  /**
+   * The figures were read from a scanned copy of the filing: by OCR, or by
+   * AI with two separate reads that agreed. Either way line 5 had to equal
+   * lines 1, 2 and 4.
+   */
+  fromScan?: 'ocr' | 'ai'
   committee: string
   /** The committee's filings page. */
   url: string
@@ -171,6 +184,18 @@ export const MONEY_SOURCE_LABELS: Record<
     loan: 'Loans from others',
     other: 'Other receipts',
   },
+  // California's Form 460 sorts contributors by code (individual, committee,
+  // party, small contributor committee, other) and lists gifts under $100
+  // as one unitemized total.
+  CA: {
+    small: 'Small gifts (under $100)',
+    large: 'Gifts from people ($100 or more)',
+    pac: 'PACs and other committees',
+    party: 'Party committees',
+    candidate: 'The candidate',
+    loan: 'Loans from others',
+    other: 'Businesses and other groups',
+  },
 }
 
 /**
@@ -193,6 +218,22 @@ export const showsMoneyShares = (s: MoneySummary): boolean =>
  */
 export interface MoneySectionData extends Section<MoneySummary> {
   sharedCommittee?: { name: string; url: string }
+  /**
+   * Where the person's filings can be seen when we have no summary of them
+   * (a city that posts scanned reports, or one that gives them only on
+   * request), so the section points somewhere instead of saying nothing.
+   */
+  filingsAt?: {
+    name: string
+    url: string
+    onRequest?: boolean
+    /**
+     * The candidate filed a Form 470 this cycle (California): a short
+     * statement for candidates who expect to raise and spend less than $2,000
+     * in the year, who then file no full report.
+     */
+    underThreshold?: boolean
+  }
 }
 
 export interface Endorsement {

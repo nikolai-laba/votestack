@@ -136,6 +136,10 @@ export class SupabaseBallotProvider implements BallotProvider {
       )
     }
     if (!located.precinct) notes.push('We could not find your precinct.')
+    else if (region.officialListsOnly && !located.clerkSplits?.length)
+      notes.push(
+        `We could not match your precinct to a ballot from the ${authority.name}, so local races and measures may be missing.`,
+      )
     if (clerk.ambiguous) {
       notes.push(
         'Your precinct is split between districts and we could not tell which part you are in, so this list may include races that are not on your ballot.',

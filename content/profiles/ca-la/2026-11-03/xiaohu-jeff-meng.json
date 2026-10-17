@@ -1,0 +1,66 @@
+{
+  "key": "xiaohu-jeff-meng",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Xiaohu \"Jeff\" Meng",
+  "office": "City of El Monte, City Treasurer",
+  "contestIds": ["la-4348-cc10659"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Xiaohu “Jeff” Meng is a business owner. His campaign says he is a chief financial officer with extensive experience in financial management, accounting, and strategic planning. His campaign website states he supports affordable housing, stronger schools, and safer streets, and prioritizes fiscal responsibility. At a city council meeting in February 2026, he opposed eliminating the elected positions of mayor, city clerk, and city treasurer.",
+        "cites": [1, 2],
+        "sentences": [
+          { "text": "Xiaohu “Jeff” Meng is a business owner.", "cites": [1] },
+          {
+            "text": "His campaign says he is a chief financial officer with extensive experience in financial management, accounting, and strategic planning.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign website states he supports affordable housing, stronger schools, and safer streets, and prioritizes fiscal responsibility.",
+            "cites": [1]
+          },
+          {
+            "text": "At a city council meeting in February 2026, he opposed eliminating the elected positions of mayor, city clerk, and city treasurer.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of El Monte",
+      "url": "https://www.ci.el-monte.ca.us/DocumentCenter/Index/373"
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Xiaohu Jeff Meng: Home",
+      "publisher": "Xiaohu Jeff Meng campaign",
+      "url": "https://www.votejeffmeng.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Microsoft Word - 2-11-2026  CC Minutes",
+      "publisher": "City of El Monte",
+      "url": "https://www.ci.el-monte.ca.us/AgendaCenter/ViewFile/Minutes/_02112026-1349",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.394Z",
+    "version": 2
+  }
+}

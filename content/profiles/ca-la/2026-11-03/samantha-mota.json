@@ -1,0 +1,134 @@
+{
+  "key": "samantha-mota",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Samantha Mota",
+  "party": "Democratic",
+  "office": "U.S. Representative, 37th District",
+  "contestIds": ["la-4348-cc10816-r1", "la-4348-cc10816-r2"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Samantha Mota is a community advocate running for California’s 37th Congressional District. She served as a commissioner on the Santa Monica Public Safety Reform and Oversight Commission, which reviewed law enforcement policies.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Samantha Mota is a community advocate running for California’s 37th Congressional District.",
+            "cites": [1]
+          },
+          {
+            "text": "She served as a commissioner on the Santa Monica Public Safety Reform and Oversight Commission, which reviewed law enforcement policies.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "Her platform includes backing a national health insurance system with dental, vision, and mental health coverage, and supporting the Green New Deal, the Homes for All Act, and tuition-free public college. She also proposes ending U.S. aid to Israel, passing the For the People Act, and ending the Citizens United ruling. Her campaign says she will focus on community funding and policies that reduce corruption and increase equity.",
+        "cites": [3, 2],
+        "sentences": [
+          {
+            "text": "Her platform includes backing a national health insurance system with dental, vision, and mental health coverage, and supporting the Green New Deal, the Homes for All Act, and tuition-free public college.",
+            "cites": [3]
+          },
+          {
+            "text": "She also proposes ending U.S. aid to Israel, passing the For the People Act, and ending the Citizens United ruling.",
+            "cites": [3]
+          },
+          {
+            "text": "Her campaign says she will focus on community funding and policies that reduce corruption and increase equity.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "Her activism began with Climate Action Santa Monica, where she advocated for community green spaces. Her campaign says she also lobbied the City of Santa Monica to support Assembly Bill 551, a measure to promote local food production and reduce waste.",
+        "cites": [4, 2],
+        "sentences": [
+          {
+            "text": "Her activism began with Climate Action Santa Monica, where she advocated for community green spaces.",
+            "cites": [4]
+          },
+          {
+            "text": "Her campaign says she also lobbied the City of Santa Monica to support Assembly Bill 551, a measure to promote local food production and reduce waste.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Samantha Mota for Congress",
+        "url": "https://www.fec.gov/data/committee/C00908947/?cycle=2026",
+        "period": "June 5, 2024 to September 30, 2026",
+        "raised": 11408.93,
+        "cashOnHand": 208.29,
+        "breakdown": [
+          { "kind": "small", "amount": 3665.39 },
+          { "kind": "large", "amount": 1636 },
+          { "kind": "candidate", "amount": 6107.54 }
+        ],
+        "fromCandidate": 6107.54
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      { "organization": "Knock LA", "kind": "organization", "cites": [5] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Samantha Mota, CA-37 candidate, 2026 election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/samantha-mota-ca-37-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "About",
+      "publisher": "Samantha Mota for Congress",
+      "url": "https://www.motaforcongress.com/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Top Progressive Candidates",
+      "publisher": "Progressive Congress",
+      "url": "https://progressivecongress.net/top.html",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "2026 DSA-LB Primary Voter Guide",
+      "publisher": "Democratic Socialists of America - Long Beach",
+      "url": "https://static1.squarespace.com/static/63af4e6cec808e1d6b9ba20d/t/6a0cf48dd0fdc315d7586538/1779233936985/2026+DSA-LB+Primary+Voter+Guide.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
+      "publisher": "Knock LA (Ground Game LA)",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 5
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.823Z",
+    "version": 4
+  }
+}

@@ -1,4 +1,5 @@
-// Open Civic Data division IDs for the districts on Cook County ballots.
+// Open Civic Data division IDs for the districts on Cook County and Los
+// Angeles County ballots.
 // IDs marked "minted" don't exist in opencivicdata/ocd-division-ids yet; we
 // follow its naming style so they can be proposed upstream later.
 
@@ -72,3 +73,10 @@ export function municipality(name: string): OcdId {
     .replace(/\bMc\s+/i, 'Mc')
   return `${ILLINOIS}/place:${slugify(bare)}`
 }
+
+export const CALIFORNIA: OcdId = `${US}/state:ca`
+export const LOS_ANGELES_COUNTY: OcdId = `${CALIFORNIA}/county:los_angeles`
+export const LOS_ANGELES_CITY: OcdId = `${CALIFORNIA}/place:los_angeles`
+
+/** "Los Angeles Unified" → `los_angeles_unified`, for minted IDs. */
+export const ocdSlug = (name: string) => slugify(name.replace(/['’]/g, ''))

@@ -1,0 +1,113 @@
+{
+  "key": "tim-zajic",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Tim Zajic",
+  "office": "West Basin Municipal Water District, Member, Board of Directors, Division 1",
+  "contestIds": ["la-4348-cc10559"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Tim Zajic is an engineer and environmental advocate running for West Basin Municipal Water District Board of Directors, Division 1. He worked as a research staff member at Lockheed Martin. He says he holds a Stanford engineering doctorate. His campaign says he will focus on water consumers over special interests, support fiscal responsibility, plan for climate-driven hydrology, and restudy desalination.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Tim Zajic is an engineer and environmental advocate running for West Basin Municipal Water District Board of Directors, Division 1.",
+            "cites": [1]
+          },
+          {
+            "text": "He worked as a research staff member at Lockheed Martin.",
+            "cites": [2]
+          },
+          {
+            "text": "He says he holds a Stanford engineering doctorate.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he will focus on water consumers over special interests, support fiscal responsibility, plan for climate-driven hydrology, and restudy desalination.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217294017-Zajic%2C%20Timothy",
+      "underThreshold": true
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Palos Verdes Peninsula Republican Women Federated",
+        "kind": "organization",
+        "cites": [3]
+      },
+      {
+        "organization": "Former Rancho Palos Verdes Mayor John Cruikshank",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Republican Party of Los Angeles County",
+        "kind": "party",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Who's Running - PV Informer",
+      "publisher": "PV Informer",
+      "url": "https://pvinformer.com/ballot-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Contributors",
+      "publisher": "INFORMS",
+      "url": "https://pubsonline.informs.org/doi/pdf/10.1287/opre.47.4.643",
+      "kind": "reference",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "PVPRWF 2026 General Election Voter Guide",
+      "publisher": "Palos Verdes Peninsula Republican Women Federated",
+      "url": "https://img1.wsimg.com/blobby/go/fde87087-63d5-4aa0-8ffe-96924b23036f/2026%2011%20PVPRWF%20Voter%20Guide%20(1).pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Tim Zajic for West Basin Municipal Water District, Division 1",
+      "publisher": "Tim Zajic campaign",
+      "url": "http://www.timzajic.com/timz4wbmwd.html",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "LAGOP Endorsement Lookup, November 3, 2026 General Election",
+      "publisher": "Republican Party of Los Angeles County",
+      "url": "https://lagop-endorsement-lookup.vercel.app/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 5
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.244Z",
+    "version": 3
+  }
+}

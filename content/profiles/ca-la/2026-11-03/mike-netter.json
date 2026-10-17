@@ -1,0 +1,276 @@
+{
+  "key": "mike-netter",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Mike Netter",
+  "party": "Republican",
+  "office": "State Senator, 22nd District",
+  "contestIds": ["la-4348-cc10774"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Mike Netter is a small business owner and radio host at KABC Talk Radio AM 790. His campaign says he founded Quantum Charging and worked as a sales executive. He led the 2020 recall attempt against Governor Gavin Newsom.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Mike Netter is a small business owner and radio host at KABC Talk Radio AM 790.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he founded Quantum Charging and worked as a sales executive.",
+            "cites": [2]
+          },
+          {
+            "text": "He led the 2020 recall attempt against Governor Gavin Newsom.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "He proposes cutting state income taxes by 28% for people earning $150,000 or less. He supports fully funding voter-approved Proposition 36 and auditing and eliminating some state regulations. On energy, he backs an all-of-the-above approach, including keeping hydroelectric dams and investing in nuclear power. He supports reducing the California gas tax and curbing the power of the California Air Resources Board.",
+        "cites": [3, 4, 5],
+        "sentences": [
+          {
+            "text": "He proposes cutting state income taxes by 28% for people earning $150,000 or less.",
+            "cites": [3]
+          },
+          {
+            "text": "He supports fully funding voter-approved Proposition 36 and auditing and eliminating some state regulations.",
+            "cites": [4]
+          },
+          {
+            "text": "On energy, he backs an all-of-the-above approach, including keeping hydroelectric dams and investing in nuclear power.",
+            "cites": [4]
+          },
+          {
+            "text": "He supports reducing the California gas tax and curbing the power of the California Air Resources Board.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Mike Netter For California State Senate 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1488396",
+        "period": "July 1 to September 19, 2026",
+        "raised": 5447.76,
+        "cashOnHand": 7384.44,
+        "breakdown": [
+          { "kind": "small", "amount": 532.76 },
+          { "kind": "large", "amount": 4825 },
+          { "kind": "pac", "amount": 90 }
+        ],
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 3500,
+          "count": 3,
+          "fromCandidate": 1500
+        }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Republican Party",
+        "kind": "party",
+        "cites": [6]
+      },
+      {
+        "organization": "California Republican Assembly",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Howard Jarvis Taxpayers Association PAC",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "California Young Republican Federation",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "California Rifle & Pistol Association",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Los Angeles County Taxpayers Association",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Los Angeles Lincoln Clubs",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "GOP Union Caucus",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "California Hispanic Republican Club",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Tom McClintock",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Kevin Kiley",
+        "kind": "elected_official",
+        "party": "Independent",
+        "cites": [10]
+      },
+      {
+        "organization": "State Sen. Shannon Grove",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [10]
+      },
+      {
+        "organization": "State Sen. Roger Niello",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [10]
+      },
+      {
+        "organization": "Former State Senate Majority Leader Gloria Romero",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Assemblymember Carl DeMaio",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [10]
+      },
+      {
+        "organization": "Chino Valley Unified School District Board President Sonja Shaw",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Former Riverside Community College District Trustee Nathan Miller",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [11]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Mike Netter, the eccentric conservative running for Senate District 22",
+      "publisher": "Daily Bulletin",
+      "url": "https://www.dailybulletin.com/2026/10/08/mike-netter-the-eccentric-conservative-running-for-senate-district-22/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Biography",
+      "publisher": "Mike Netter campaign",
+      "url": "https://www.netter.vote/biography",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "State Senate Candidate Mike Netter: It's Time to Undo a lot of Bad Laws",
+      "publisher": "California Globe",
+      "url": "https://californiaglobe.com/fr/state-senate-candidate-mike-netter-its-time-to-undo-a-lot-of-bad-laws/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Mike Netter: Stop Talking, Start Fixing",
+      "publisher": "CityWatch LA",
+      "url": "https://www.citywatchla.com/la-election-2022/32653-mike-netter-stop-talking-start-fixing",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Mike Netter, Senate District 22 candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/mike-netter-senate-district-22-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "2026 Primary Election Official Voter Guide: State Senator",
+      "publisher": "Republican Party of Los Angeles County",
+      "url": "https://static1.squarespace.com/static/65972b6654d89538e4445a4d/t/69f58ff3fcb0a6000683d8c1/1777700851511/LAGOP_StateSenator_Voter_Guide_2026X.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "November 2026 General Election Endorsements (updated August 26, 2026)",
+      "publisher": "California Republican Assembly",
+      "url": "https://cragop.org/wp-content/uploads/2026/08/PDF-November-2026-General-Election-Endorsements-08-26-26.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "2026 Voting Guide for California Statewide General Election: Official HJTA-PAC Candidate Endorsements",
+      "publisher": "Howard Jarvis Taxpayers Association",
+      "url": "https://www.hjta.org/2026votingguide/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "Endorsements",
+      "publisher": "California Young Republicans",
+      "url": "https://www.cayrf.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "Endorsements",
+      "publisher": "Mike Netter for California State Senate",
+      "url": "https://www.netter.vote/view-endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 11
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.741Z",
+    "version": 4
+  }
+}

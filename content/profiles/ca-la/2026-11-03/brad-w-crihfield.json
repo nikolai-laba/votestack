@@ -1,0 +1,156 @@
+{
+  "key": "brad-w-crihfield",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Brad W. Crihfield",
+  "office": "Bellflower Unified School District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10765"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Brad Crihfield is the Vice President of the Bellflower Unified School District Board for Trustee Area 5. He has served on the board since 2022. He is also a City Safety Commissioner for Lakewood and a board member for California Advancing Pathways for Students. His campaign says he helped form a safety committee and add armed perimeter security and vape detection systems at high schools. He reports helping hire the district’s first public information officer and stream board meetings with Spanish translation. In 2024, as board president, he announced the board's decision to part ways with the superintendent to ensure stability.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Brad Crihfield is the Vice President of the Bellflower Unified School District Board for Trustee Area 5.",
+            "cites": [1]
+          },
+          { "text": "He has served on the board since 2022.", "cites": [2] },
+          {
+            "text": "He is also a City Safety Commissioner for Lakewood and a board member for California Advancing Pathways for Students.",
+            "cites": [2]
+          },
+          {
+            "text": "His campaign says he helped form a safety committee and add armed perimeter security and vape detection systems at high schools.",
+            "cites": [3]
+          },
+          {
+            "text": "He reports helping hire the district’s first public information officer and stream board meetings with Spanish translation.",
+            "cites": [3]
+          },
+          {
+            "text": "In 2024, as board president, he announced the board's decision to part ways with the superintendent to ensure stability.",
+            "cites": [4]
+          }
+        ]
+      },
+      {
+        "text": "He also cites expanding Special Olympics programs and breaking ground on a new stadium at Mayfair.",
+        "cites": [3],
+        "sentences": [
+          {
+            "text": "He also cites expanding Special Olympics programs and breaking ground on a new stadium at Mayfair.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Brad Crihfield for School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/211544967-Brad%20Crihfield%20for%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 5668.68,
+        "cashOnHand": 3188.06,
+        "breakdown": [
+          { "kind": "small", "amount": 156.08 },
+          { "kind": "large", "amount": 4012.6 },
+          { "kind": "other", "amount": 1500 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 4527.47, "count": 4 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [5]
+      },
+      {
+        "organization": "Assemblymember José Luis Solache Jr.",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [3]
+      },
+      {
+        "organization": "Bellflower Teachers Association",
+        "kind": "union",
+        "cites": [3]
+      },
+      {
+        "organization": "Lakewood Vice Mayor David Arellano",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Bellflower Unified School District Board President Mayra Garza",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Bellflower Unified School District Board Member Amie Stewart",
+        "kind": "elected_official",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board of Education - Bellflower Unified School District",
+      "publisher": "Bellflower Unified School District",
+      "url": "https://www.busd.k12.ca.us/governance/governance",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Home | Vote Brad Crihfield",
+      "publisher": "Brad Crihfield campaign",
+      "url": "https://www.bradcrihfield.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Track Record | Vote Brad Crihfield",
+      "publisher": "Brad Crihfield campaign",
+      "url": "https://www.bradcrihfield.com/blank-1",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Bellflower school district hires interim superintendent — 3rd leader since 2022",
+      "publisher": "Press-Telegram",
+      "url": "https://www.presstelegram.com/2024/03/15/bellflower-school-district-hires-interim-superintendent-3rd-leader-since-2022/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.047Z",
+    "version": 4
+  }
+}

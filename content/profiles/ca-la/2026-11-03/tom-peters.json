@@ -1,0 +1,248 @@
+{
+  "key": "tom-peters",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Tom Peters",
+  "office": "Santa Monica Community College District, Member of the Board of Trustees",
+  "contestIds": ["la-4348-cc10516"],
+  "kind": "candidate",
+  "tier": "short",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Tom Peters is vice chair of the Santa Monica Community College District Board of Trustees. He was elected in 2022. In his 2022 campaign, he supported Measure SMC, a $375 million bond for facility renovations. In February 2026, he supported layoffs with amendments to spread the impact and said top management should share the sacrifice.",
+        "cites": [1, 2, 3, 4]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Monica",
+        "committee": "Re-Elect Tom Peters for College Trustee 2026",
+        "url": "https://netfile.com/public/CSM/campaign/filingsByFiler/204177032-Re-Elect%20Tom%20Peters%20for%20College%20Trustee%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 4989,
+        "cashOnHand": 3317.19,
+        "breakdown": [
+          { "kind": "small", "amount": 539 },
+          { "kind": "large", "amount": 2950 },
+          { "kind": "pac", "amount": 500 },
+          { "kind": "candidate", "amount": 1000 }
+        ],
+        "fromCandidate": 1000
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "U.S. Rep. Ted Lieu",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "Assemblymember Rick Chavez Zbur",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [5]
+      },
+      {
+        "organization": "West Hollywood City Councilmember John Erickson",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Santa Monica College Board Chair Sion Roy",
+        "kind": "elected_official",
+        "cites": [5]
+      },
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [6]
+      },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Santa Monica Democratic Club",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Santa Monicans for Renters' Rights",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Community for Excellent Public Schools",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Malibu Democratic Club",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "Los Angeles/Orange Counties Building and Construction Trades Council",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "International Union of Painters and Allied Trades District Council 36",
+        "kind": "union",
+        "cites": [5]
+      },
+      {
+        "organization": "Westside Young Democrats",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Los Angeles County Veteran Democrats",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Democrats for Israel – Los Angeles",
+        "kind": "organization",
+        "cites": [12]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [13] },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [14]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "admin.smc.edu",
+      "publisher": "Santa Monica College",
+      "url": "https://admin.smc.edu/administration/governance/board-of-trustees/documents/Minutes-3-23-2026.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Dr. Tom Peters - Santa Monica College",
+      "publisher": "Santa Monica College",
+      "url": "https://www.smc.edu/directory/peters-tom.php",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Meet SMC’s new Trustee",
+      "publisher": "Santa Monica Daily Press",
+      "url": "https://www.smdp.com/smc/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Santa Monica College Board approves 70 staff layoffs amid deficit",
+      "publisher": "Santa Monica Daily Press",
+      "url": "https://www.smdp.com/a-divided-smc-board-approves-layoffs-after-hearing-hours-of-criticism-over-their-leadership/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Re-Elect Tom Peters Campaign",
+      "publisher": "Committee to Re-Elect Tom Peters for College Board Trustee 2026",
+      "url": "https://tompeters4trustee.org/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "2026 Stonewall Endorsed Candidates",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "Our Final '26 Endorsements",
+      "publisher": "Santa Monica Democratic Club",
+      "url": "https://santamonicademocrats.com/our-final-26-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "SMRR 2026 Annual Membership Convention – August 9, 2026",
+      "publisher": "Santa Monicans for Renters' Rights",
+      "url": "https://smrr.org/2026smrrconvention/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "Our Endorsements for 2026",
+      "publisher": "Community for Excellent Public Schools",
+      "url": "https://www.cepssm.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "Endorsements",
+      "publisher": "Malibu Democratic Club",
+      "url": "https://malibudemocraticclub.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Democrats for Israel – Los Angeles",
+      "url": "https://dfi-la.org/endorse",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 14
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.020Z",
+    "version": 5
+  }
+}

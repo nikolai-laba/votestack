@@ -1,0 +1,88 @@
+{
+  "key": "brenda-smith",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Brenda Smith",
+  "office": "East Whittier City School District, Governing Board Member, Trustee Area No. 1",
+  "contestIds": ["la-4348-cc10691"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Brenda Smith is a teacher running for the East Whittier City School District Governing Board, Trustee Area No. 1. She says she has taught kindergarten, second grade, intervention, and transitional kindergarten. She identifies class size and fiscal transparency as the district's top needs. She advocates for small class sizes and resource allocation that prioritizes students and staff. She says a school board member should provide leadership, oversight, and accountability while keeping the interests of students and the community central.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Brenda Smith is a teacher running for the East Whittier City School District Governing Board, Trustee Area No. 1.",
+            "cites": [1]
+          },
+          {
+            "text": "She says she has taught kindergarten, second grade, intervention, and transitional kindergarten.",
+            "cites": [1]
+          },
+          {
+            "text": "She identifies class size and fiscal transparency as the district's top needs.",
+            "cites": [1]
+          },
+          {
+            "text": "She advocates for small class sizes and resource allocation that prioritizes students and staff.",
+            "cites": [1]
+          },
+          {
+            "text": "She says a school board member should provide leadership, oversight, and accountability while keeping the interests of students and the community central.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217225989-Smith%2C%20Brenda",
+      "underThreshold": true
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "East Whittier Education Association",
+        "kind": "union",
+        "cites": [2]
+      },
+      {
+        "organization": "California School Employees Association Chapter 87",
+        "kind": "union",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Brenda Smith, East Whittier Elementary School District Area 1 candidate, 2026 election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/brenda-smith-east-whittier-elementary-school-district-area-1-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Endorsements - Brenda Smith for Trustee Area 1",
+      "publisher": "Brenda Smith for Trustee Area 1",
+      "url": "https://brendasmith4ewcsd.com/view-endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:48.988Z",
+    "version": 2
+  }
+}

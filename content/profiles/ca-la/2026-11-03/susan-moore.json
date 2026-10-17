@@ -1,0 +1,143 @@
+{
+  "key": "susan-moore",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Susan Moore",
+  "office": "La Cañada Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10651"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Susan Moore is a retired English teacher. She says that during her nearly two decades at La Cañada High School, she taught all grade levels, including Honors and AP Literature, and served as department chair, on the school site council, and as the founding Diamond Award coach for the school's debate program. She previously worked in entertainment and ran a business.",
+        "cites": [1, 2, 3]
+      },
+      {
+        "text": "She says she wants to maintain academic excellence, support teachers, and ensure fiscal stewardship. At a candidate forum, she called for a consistent district policy on artificial intelligence and urged parent collaboration on responsible AI use. She named hiring and retaining teachers and supporting student well-being as priorities.",
+        "cites": [2, 3],
+        "sentences": [
+          {
+            "text": "She says she wants to maintain academic excellence, support teachers, and ensure fiscal stewardship.",
+            "cites": [2]
+          },
+          {
+            "text": "At a candidate forum, she called for a consistent district policy on artificial intelligence and urged parent collaboration on responsible AI use.",
+            "cites": [3]
+          },
+          {
+            "text": "She named hiring and retaining teachers and supporting student well-being as priorities.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Susan Moore for La Canada Unified School District 2026-2027",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217021074-Susan%20Moore%20for%20La%20Canada%20Unified%20School%20District%20Governing%20Board%202026-2027",
+        "period": "July 1 to September 19, 2026",
+        "raised": 4095,
+        "cashOnHand": 2684.41,
+        "breakdown": [
+          { "kind": "small", "amount": 195 },
+          { "kind": "large", "amount": 3250 },
+          { "kind": "other", "amount": 650 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "La Cañada Teachers Association",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "Cañada Crescenta Democratic Club",
+        "kind": "party",
+        "cites": [5]
+      },
+      {
+        "organization": "Glendale Unified School District Governing Board Vice President Telly Tse",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Former LCUSD Governing Board President Kaitzer Puglia",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Former LCUSD Governing Board President David Sagal",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Former LCUSD Governing Board President Ellen Multari",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Former LCUSD Governing Board President Ronald Dietel",
+        "kind": "elected_official",
+        "cites": [4]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Susan Moore, La Cañada Unified School District candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/susan-moore-la-canada-unified-school-district-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Moore Announces Candidacy for School Board",
+      "publisher": "La Cañada Outlook",
+      "url": "https://outlooknewspapers.com/lacanadaoutlook/moore-announces-candidacy-for-school-board/article_b89fe264-f8eb-423f-9ed9-e8eb3add10ac.html",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "La Cañada Unified Board Candidates Talk Goals, Priorities at Forum",
+      "publisher": "La Cañada Outlook",
+      "url": "https://outlooknewspapers.com/lacanadaoutlook/la-ca-ada-unified-board-candidates-talk-goals-priorities-at-forum/article_9e89d02a-fe8d-4b38-8b02-822986781f08.html",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "2026 Supporters",
+      "publisher": "Susan Moore for LCUSD School Board",
+      "url": "https://www.susanmooreforlcusd.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "2026 General Election Endorsements",
+      "publisher": "Cañada Crescenta Democratic Club",
+      "url": "https://ccdemclub.org/?page_id=4455",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T16:20:30.343Z",
+    "version": 3
+  }
+}

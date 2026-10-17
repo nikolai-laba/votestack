@@ -1,0 +1,133 @@
+{
+  "key": "renita-armstrong",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Renita Armstrong",
+  "office": "Bellflower Unified School District, Governing Board Member, Trustee Area No. 2",
+  "contestIds": ["la-4348-cc10764"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Renita Armstrong represents Trustee Area 2 on the Bellflower Unified School District board. She was president in 2022. Her campaign says she is a Montebello Unified School District special education specialist with 27 years of experience. Her campaign also cites 15 years of PTA membership.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Renita Armstrong represents Trustee Area 2 on the Bellflower Unified School District board.",
+            "cites": [1]
+          },
+          { "text": "She was president in 2022.", "cites": [2] },
+          {
+            "text": "Her campaign says she is a Montebello Unified School District special education specialist with 27 years of experience.",
+            "cites": [3]
+          },
+          {
+            "text": "Her campaign also cites 15 years of PTA membership.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "A 2022 state audit found the administration and board failed at financial oversight, keeping an $83 million reserve while inconsistently providing services to students with disabilities. In 2020, the Los Angeles County Office of Education sued the district for refusing to comply with the revocation of its fiscal independence; lawyers denied wrongdoing. As board president, she oversaw hiring Superintendent Ben Drati, who left in 2024 under a mutual separation agreement.",
+        "cites": [2, 4, 5],
+        "sentences": [
+          {
+            "text": "A 2022 state audit found the administration and board failed at financial oversight, keeping an $83 million reserve while inconsistently providing services to students with disabilities.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2020, the Los Angeles County Office of Education sued the district for refusing to comply with the revocation of its fiscal independence; lawyers denied wrongdoing.",
+            "cites": [4]
+          },
+          {
+            "text": "As board president, she oversaw hiring Superintendent Ben Drati, who left in 2024 under a mutual separation agreement.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Renita Armstrong for Bellflower School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/211531026-Renita%20Armstrong%20for%20Bellflower%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 1500,
+        "cashOnHand": 1500,
+        "fromScan": "ai"
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [6]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board of Education - Bellflower Unified School District",
+      "publisher": "Bellflower Unified School District",
+      "url": "https://www.busd.k12.ca.us/governance/governance",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Audit Slams Bellflower Unified, Finds a Massive $83 Million in Reserve While Administration Neglects Students",
+      "publisher": "Los Cerritos Community News",
+      "url": "https://www.loscerritosnews.net/2022/06/26/audit-slams-bellflower-unified-finds-a-massive-83-million-in-reserve-while-administration-neglects-students/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "About — - Renita Armstrong",
+      "publisher": "Renita Armstrong campaign",
+      "url": "https://renitaarmstrong.org/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Dispute over Bellflower Unified's fiscal independence sent to neutral forum",
+      "publisher": "Press-Telegram",
+      "url": "https://www.presstelegram.com/2020/10/08/dispute-over-bellflower-unifieds-fiscal-independence-sent-to-neutral-forum/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Bellflower school district hires interim superintendent — 3rd leader since 2022",
+      "publisher": "Press-Telegram",
+      "url": "https://www.presstelegram.com/2024/03/15/bellflower-school-district-hires-interim-superintendent-3rd-leader-since-2022/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.047Z",
+    "version": 4
+  }
+}

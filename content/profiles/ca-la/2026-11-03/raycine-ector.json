@@ -1,0 +1,112 @@
+{
+  "key": "raycine-ector",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Raycine Ector",
+  "office": "City of Palmdale, Member of the City Council, 5th District",
+  "contestIds": ["la-4348-cc10497"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Raycine Ector is a student. She is a community organizer affiliated with Cancel the Contract Antelope Valley. The coalition has discussed law enforcement contracts and the role of sheriff’s deputies on school campuses. A 2023 county presentation listed her as a co-chair of the group.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          { "text": "Raycine Ector is a student.", "cites": [1] },
+          {
+            "text": "She is a community organizer affiliated with Cancel the Contract Antelope Valley.",
+            "cites": [2]
+          },
+          {
+            "text": "The coalition has discussed law enforcement contracts and the role of sheriff’s deputies on school campuses.",
+            "cites": [2]
+          },
+          {
+            "text": "A 2023 county presentation listed her as a co-chair of the group.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Palmdale",
+        "committee": "Raycine Ector For Palmdale City Council District 5 2026",
+        "url": "https://netfile.com/public/CPD/campaign/filingsByFiler/217403852-Raycine%20Ector%20for%20City%20Palmdale%20City%20Council%20District%205",
+        "period": "July 1 to September 19, 2026",
+        "raised": 2245,
+        "cashOnHand": 331,
+        "breakdown": [
+          { "kind": "small", "amount": 650 },
+          { "kind": "large", "amount": 1450 },
+          { "kind": "candidate", "amount": 145 }
+        ],
+        "fromCandidate": 145
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [4]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [5] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Raycine Ector, Palmdale City Council District 5 candidate ...",
+      "publisher": "Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/raycine-ector-palmdale-city-council-district-5-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Palmdale School Board 2026: 7 Filers, 3 Seats – Antelope Valley Online",
+      "publisher": "Antelope Valley Online",
+      "url": "https://antelopevalleyonline.com/palmdale-school-board-2026-seven-filers-line-up-for-three-trustee-area-seats/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Impact of SRDs for Antelope Valley Students - Lacounty",
+      "publisher": "lacounty.gov",
+      "url": "https://file.lacounty.gov/SDSInter/bos/supdocs/CTCAV-COCPresentation-July272023.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 5
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.531Z",
+    "version": 2
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "key": "helen-zukin",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Helen Zukin",
+  "office": "Presiding Justice, Court of Appeal, Second District, Division Four",
+  "contestIds": ["la-4348-rc10897"],
+  "kind": "retention",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Helen Zukin is the Presiding Justice of the Second District Court of Appeal, Division Four. She served on the Los Angeles Superior Court and spent over three decades in plaintiffs' complex civil litigation. She helped develop a statewide mentor program that walks lawyers through the judicial selection process. In G.G. v. G.S. (2024), she ruled courts cannot make a distinction between physical and non-physical abuse when renewing restraining orders.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Helen Zukin is the Presiding Justice of the Second District Court of Appeal, Division Four.",
+            "cites": [1]
+          },
+          {
+            "text": "She served on the Los Angeles Superior Court and spent over three decades in plaintiffs' complex civil litigation.",
+            "cites": [2]
+          },
+          {
+            "text": "She helped develop a statewide mentor program that walks lawyers through the judicial selection process.",
+            "cites": [2]
+          },
+          {
+            "text": "In G.G. v. G.S. (2024), she ruled courts cannot make a distinction between physical and non-physical abuse when renewing restraining orders.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-16", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [3] },
+      {
+        "organization": "Indivisible Ventura",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Santa Clarita Valley Democrats",
+        "kind": "organization",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Helen Zukin | Second Appellate District | District Courts of Appeal",
+      "publisher": "California Courts of Appeal",
+      "url": "https://appellate.courts.ca.gov/district-courts/2dca/bio/helen-zukin",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Justice Zukin helped build state's judicial mentor program, faces first retention vote",
+      "publisher": "Daily Journal",
+      "url": "https://www.dailyjournal.com/articles/395080-justice-zukin-helped-build-state-s-judicial-mentor-program-faces-first-retention-vote",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Nonpartisan Judicial Offices",
+      "publisher": "Indivisible Ventura",
+      "url": "https://indivisibleventura.org/nonpartisan-judicial-offices/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "November 2026 Candidate Endorsements",
+      "publisher": "Santa Clarita Valley Democrats",
+      "url": "https://www.santaclaritavalleydemocrats.com/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T14:05:39.937Z",
+    "version": 3
+  }
+}

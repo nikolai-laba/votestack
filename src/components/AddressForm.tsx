@@ -9,6 +9,7 @@ import {
   type FocusHeadingState,
 } from '../ballot/session.ts'
 import type { RaceHandoffState } from '../races/data.ts'
+import { REGIONS, coveredAreas } from '../shared/regions.ts'
 import { BALLOT_HEADING_ID } from './BallotView.tsx'
 import { WarningIcon } from './icons.tsx'
 import { TextField } from './TextField.tsx'
@@ -39,8 +40,7 @@ function validate(field: Field, value: string): string | undefined {
   return /^\d{5}(-\d{4})?$/.test(v) ? undefined : 'Enter a 5-digit ZIP code.'
 }
 
-const NOT_FOUND =
-  'We couldn’t find that address in Cook County. VoteStack is currently only available in Chicago and Cook County for its initial release. Check the street, city and ZIP code'
+const NOT_FOUND = `We couldn’t find that address in ${coveredAreas()}. Check the street, city and ZIP code`
 
 const LOOKUP_ERRORS = {
   invalid: 'Enter your full street address, starting with the house number.',
@@ -54,8 +54,15 @@ const LOOKUP_ERRORS = {
 /** With the sample ballots under the form (/getstarted). */
 const NOT_FOUND_WITH_SAMPLES = `${NOT_FOUND}, or look through the sample ballots to get an idea of how VoteStack works.`
 
-const fullAddress = (v: Record<Field, string>) =>
-  `${v.street.trim()}, ${v.city.trim()}, IL ${v.zip.trim()}`
+/** The state a ZIP code is in, among the areas VoteStack covers. */
+const stateForZip = (zip: string) =>
+  REGIONS.find((r) => r.zipPrefixes.includes(zip.slice(0, 2)))?.state
+
+const fullAddress = (v: Record<Field, string>) => {
+  const zip = v.zip.trim()
+  const state = stateForZip(zip)
+  return `${v.street.trim()}, ${v.city.trim()}, ${state ? `${state} ` : ''}${zip}`
+}
 
 export function AddressForm({
   race,
@@ -184,7 +191,7 @@ export function AddressForm({
                 </p>
                 {errorKind === 'not_found' && (
                   <p>
-                    Live outside Cook County?{' '}
+                    Live outside {coveredAreas()}?{' '}
                     <Link className="text-warn-fg" to={NOTIFY_PATH}>
                       Get an email when VoteStack covers your area
                     </Link>

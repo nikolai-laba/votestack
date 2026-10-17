@@ -1,0 +1,62 @@
+{
+  "key": "gabriel-ramirez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Gabriel Ramirez",
+  "office": "City of El Monte, City Clerk",
+  "contestIds": ["la-4348-cc10658"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Gabriel Ramirez is the city clerk of El Monte. He previously worked as a city employee in Alhambra.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Gabriel Ramirez is the city clerk of El Monte.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously worked as a city employee in Alhambra.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of El Monte",
+      "url": "https://www.ci.el-monte.ca.us/DocumentCenter/Index/373"
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "City Clerk's Office | El Monte, CA",
+      "publisher": "City of El Monte",
+      "url": "https://www.ci.el-monte.ca.us/153/City-Clerks-Office",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Alhambra City Council Minutes",
+      "publisher": "City of Alhambra",
+      "url": "https://www.alhambraca.gov/AgendaCenter/ViewFile/Minutes/_12122022-927",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.600Z",
+    "version": 3
+  }
+}

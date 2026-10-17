@@ -1,0 +1,156 @@
+{
+  "key": "anna-griese",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Anna Griese",
+  "office": "Saugus Union School District, Governing Board Member, Trustee Area No. 2",
+  "contestIds": ["la-4348-cc10723"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Anna Griese is a member of the Saugus Union School District Governing Board, representing Trustee Area 2. She was elected in 2022. In December 2025 she was board clerk and nominated herself for board president; the board chose Matthew Watson 4-1. Griese said she would continue advocating for parents and teachers.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Anna Griese is a member of the Saugus Union School District Governing Board, representing Trustee Area 2.",
+            "cites": [1]
+          },
+          { "text": "She was elected in 2022.", "cites": [2] },
+          {
+            "text": "In December 2025 she was board clerk and nominated herself for board president; the board chose Matthew Watson 4-1.",
+            "cites": [3]
+          },
+          {
+            "text": "Griese said she would continue advocating for parents and teachers.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "In 2026 she asked the board to be more open about difficult discussions in public. During the superintendent search she pointed to student behavior as a challenge and called for new classroom protocols.",
+        "cites": [4, 5],
+        "sentences": [
+          {
+            "text": "In 2026 she asked the board to be more open about difficult discussions in public.",
+            "cites": [4]
+          },
+          {
+            "text": "During the superintendent search she pointed to student behavior as a challenge and called for new classroom protocols.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Anna Griese For SUSD Board Trustee 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217514328-Anna%20Griese%20For%20SUSD%20Board%20Trustee%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 6526.94,
+        "cashOnHand": 3715.46,
+        "fromScan": "ai",
+        "largeSince": { "since": "2026-09-19", "total": 1800, "count": 1 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "KHTS Santa Clarita Valley's Hometown Station (editorial by owners Carl and Jeri Seratti-Goldman)",
+        "kind": "editorial_board",
+        "cites": [6]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Republican Party of Los Angeles County",
+        "kind": "party",
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Governing Board | Saugus Union School District",
+      "publisher": "Saugus Union School District",
+      "url": "https://www.saugususd.org/governing-board",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Anna Griese - Ballotpedia",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Anna_Griese",
+      "kind": "reference",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Saugus board chooses Watson as president, 4-1, passing over Griese",
+      "publisher": "Santa Clarita Valley Signal",
+      "url": "https://signalscv.com/2025/12/saugus-board-chooses-watson-as-president-4-1-passing-over-griese/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Saugus board holds retreat with new superintendent",
+      "publisher": "Santa Clarita Valley Signal",
+      "url": "https://signalscv.com/2026/07/saugus-board-holds-retreat-with-new-superintendent/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Consultant presents survey findings in Saugus superintendent search",
+      "publisher": "Santa Clarita Valley Signal",
+      "url": "https://signalscv.com/2026/03/consultant-presents-survey-findings-in-saugus-superintendent-search/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Editorial: KHTS Endorsements for the 2026 Election",
+      "publisher": "KHTS Santa Clarita Valley's Hometown Station",
+      "url": "https://www.hometownstation.com/santa-clarita-news/politics/santa-clarita-elections/editorial-khts-endorsements-for-the-2026-election-612909",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 7
+    },
+    {
+      "title": "LAGOP Endorsement Lookup, November 3, 2026 General Election",
+      "publisher": "Republican Party of Los Angeles County",
+      "url": "https://lagop-endorsement-lookup.vercel.app/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 8
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.283Z",
+    "version": 4
+  }
+}

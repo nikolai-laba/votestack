@@ -1,0 +1,109 @@
+{
+  "key": "gary-thomas-scott",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Gary Thomas Scott",
+  "office": "San Gabriel Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10669"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Gary Thomas Scott is the clerk and a member of the San Gabriel Unified School District Governing Board. He says he is a retired college dean who worked in education for 38 years, including in classroom instruction and college administration. He serves on the San Gabriel Valley Regional Occupational Program Joint Board of Management.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Gary Thomas Scott is the clerk and a member of the San Gabriel Unified School District Governing Board.",
+            "cites": [1]
+          },
+          {
+            "text": "He says he is a retired college dean who worked in education for 38 years, including in classroom instruction and college administration.",
+            "cites": [2]
+          },
+          {
+            "text": "He serves on the San Gabriel Valley Regional Occupational Program Joint Board of Management.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "In his 2026 candidate questionnaire, he says a school board's primary job is to hire and evaluate the superintendent, and the board approves the annual budget. He also says that social and emotional wellness is necessary for student success. He served as the board's president in 2020 during the COVID-19 pandemic.",
+        "cites": [4, 5],
+        "sentences": [
+          {
+            "text": "In his 2026 candidate questionnaire, he says a school board's primary job is to hire and evaluate the superintendent, and the board approves the annual budget.",
+            "cites": [4]
+          },
+          {
+            "text": "He also says that social and emotional wellness is necessary for student success.",
+            "cites": [4]
+          },
+          {
+            "text": "He served as the board's president in 2020 during the COVID-19 pandemic.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/213336009-Scott%2C%20Gary%20Thomas",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Governing Board Members - San Gabriel Unified School District",
+      "publisher": "San Gabriel Unified School District",
+      "url": "https://www.sgusd.k12.ca.us/apps/pages/index.jsp?uREC_ID=414118&type=d",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Gary Thomas Scott, San Gabriel Unified School District candidate, 2026 election questionnaire",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/10/05/gary-thomas-scott-san-gabriel-unified-school-district-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Joint Board of Management – San Gabriel Valley ROP",
+      "publisher": "San Gabriel Valley Regional Occupational Program",
+      "url": "https://www.sgvrop.org/joint-board-of-management-2/",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Gary Thomas Scott, San Gabriel Unified School District candidate, 2026 election questionnaire",
+      "publisher": "Pasadena Star-News",
+      "url": "https://www.pasadenastarnews.com/2026/10/05/gary-thomas-scott-san-gabriel-unified-school-district-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Board Meeting Bullets- December 15, 2020 - SGTA",
+      "publisher": "San Gabriel Teachers Association",
+      "url": "https://www.sangabrielteachers.com/announcements/board-meeting-bullets-december-15-2020",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.267Z",
+    "version": 3
+  }
+}

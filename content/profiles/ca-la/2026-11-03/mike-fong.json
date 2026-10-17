@@ -1,0 +1,276 @@
+{
+  "key": "mike-fong",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Mike Fong",
+  "party": "Democratic",
+  "office": "State Assembly Member, 49th District",
+  "contestIds": ["la-4348-cc10790"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Mike Fong has represented the 49th State Assembly District since 2022. He previously served as a trustee for the Los Angeles Community College District, a deputy mayor, and a city councilmember's aide. His passed 2025-2026 bills included AB 2436 on tuition for Team USA athletes and AB 2392 on generative artificial intelligence training at public colleges. In 2023, he said he planned to push for stronger gun safety laws and violence prevention funding. In 2023, he proposed a bill shortening the deadline for prohibited persons to turn over firearms from five days to two. His campaign says he is addressing climate change and homelessness. His website states he has secured $35 million for local parks and community centers.",
+        "cites": [1, 2, 3, 4, 5, 6],
+        "sentences": [
+          {
+            "text": "Mike Fong has represented the 49th State Assembly District since 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously served as a trustee for the Los Angeles Community College District, a deputy mayor, and a city councilmember's aide.",
+            "cites": [2]
+          },
+          {
+            "text": "His passed 2025-2026 bills included AB 2436 on tuition for Team USA athletes and AB 2392 on generative artificial intelligence training at public colleges.",
+            "cites": [3]
+          },
+          {
+            "text": "In 2023, he said he planned to push for stronger gun safety laws and violence prevention funding.",
+            "cites": [4]
+          },
+          {
+            "text": "In 2023, he proposed a bill shortening the deadline for prohibited persons to turn over firearms from five days to two.",
+            "cites": [5]
+          },
+          {
+            "text": "His campaign says he is addressing climate change and homelessness.",
+            "cites": [6]
+          },
+          {
+            "text": "His website states he has secured $35 million for local parks and community centers.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Mike Fong For Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477447",
+        "period": "July 1 to September 19, 2026",
+        "raised": 140869,
+        "cashOnHand": 1518364.29,
+        "breakdown": [
+          { "kind": "small", "amount": 60 },
+          { "kind": "large", "amount": 51259 },
+          { "kind": "pac", "amount": 44700 },
+          { "kind": "other", "amount": 44850 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 75920, "count": 30 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Democratic Party",
+        "kind": "party",
+        "cites": [7]
+      },
+      {
+        "organization": "American Independent Party",
+        "kind": "party",
+        "cites": [8]
+      },
+      {
+        "organization": "California Federation of Teachers",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Planned Parenthood Advocates Pasadena & San Gabriel Valley",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "California Environmental Voters",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "California Teachers Association",
+        "kind": "union",
+        "cites": [13]
+      },
+      {
+        "organization": "Democrats for Israel – Los Angeles",
+        "kind": "organization",
+        "cites": [14]
+      },
+      { "organization": "Knock LA", "kind": "organization", "cites": [15] },
+      { "organization": "LA Forward", "kind": "organization", "cites": [16] },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [17]
+      },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [18] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Biography | Official Website - Assemblymember Mike Fong",
+      "publisher": "Assemblymember Mike Fong",
+      "url": "https://fong.asmdc.org/about/biography",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Mike Fong - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mike_Fong",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Mike Fong - Digital Democracy | CalMatters",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.digitaldemocracy.org/people/165455",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "After Monterey Park, more gun safety talk",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.org/newsletters/whatmatters/2023/01/monterey-park-shooting-gun-safety/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "A $5 billion ask for California public transit - CalMatters",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.org/newsletters/whatmatters/2023/04/california-public-transit-budget/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Mike Fong for Assembly - AD 49",
+      "publisher": "Mike Fong campaign",
+      "url": "https://mikefong.org/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "2026 General Election Endorsements & Ballot Measure Positions",
+      "publisher": "California Democratic Party",
+      "url": "https://cadem.org/wp-content/uploads/2026/08/FINAL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 8,
+      "title": "November 3, 2026 General Election: Party Endorsements for Voter-Nominated Offices",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/additional-election-information",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 9,
+      "title": "CFT Endorsements: Primary Election 2026, Tuesday, June 2",
+      "publisher": "California Federation of Teachers",
+      "url": "https://www.cft.org/sites/main/files/file-attachments/cft_endorsements-primary-election_4.27.2026.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "Pasadena-Based Planned Parenthood Advocates Endorses Harabedian, Fong for June Primary",
+      "publisher": "Pasadena Now",
+      "url": "https://pasadenanow.com/main/pasadena-based-planned-parenthood-advocates-endorses-harabedian-fong-for-june-primary",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "Equality California Election Center",
+      "publisher": "Equality California",
+      "url": "https://www.eqca.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Who We're Endorsing in California's 2026 Election",
+      "publisher": "California Environmental Voters",
+      "url": "https://envirovoters.org/2026-endorsements/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "2026 Candidate Recommendations",
+      "publisher": "California Teachers Association",
+      "url": "https://www.cta.org/our-advocacy/election-2026",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Democrats for Israel – Los Angeles",
+      "url": "https://dfi-la.org/endorse",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
+      "publisher": "Knock LA (Ground Game LA)",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
+      "publisher": "SEIU Local 721",
+      "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 18
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.692Z",
+    "version": 4
+  }
+}

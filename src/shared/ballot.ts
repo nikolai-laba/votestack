@@ -69,6 +69,11 @@ export interface Candidate {
   name: string
   /** Party as printed on the ballot, if any. */
   party?: string
+  /**
+   * Ballot designation as printed under the name, where the ballot has one
+   * (California: the candidate's occupation, e.g. "Educator").
+   */
+  designation?: string
   /** Position on the ballot within the contest. */
   ballotOrder?: number
   /**
@@ -128,6 +133,11 @@ export interface RetentionContest extends ContestBase {
 export interface MeasureContest extends ContestBase {
   kind: 'measure'
   question: string
+  /**
+   * The official guide with the measure's full text and the arguments for
+   * and against, e.g. California's Official Voter Information Guide.
+   */
+  guide?: { name: string; url: string }
 }
 
 export type Contest = CandidateContest | RetentionContest | MeasureContest

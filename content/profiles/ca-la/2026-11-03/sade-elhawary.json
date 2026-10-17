@@ -1,0 +1,331 @@
+{
+  "key": "sade-elhawary",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Sade Elhawary",
+  "party": "Democratic",
+  "office": "State Assembly Member, 57th District",
+  "contestIds": ["la-4348-cc10797"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Sade Elhawary is the Assemblymember for the 57th District, sworn in December 2024. She previously worked as an educator, and as a youth organizer at Community Coalition. Her official website says she helped found the Nelson Mandela School for Social Justice and establish the Fremont High School Wellness Center.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Sade Elhawary is the Assemblymember for the 57th District, sworn in December 2024.",
+            "cites": [1]
+          },
+          {
+            "text": "She previously worked as an educator, and as a youth organizer at Community Coalition.",
+            "cites": [2]
+          },
+          {
+            "text": "Her official website says she helped found the Nelson Mandela School for Social Justice and establish the Fremont High School Wellness Center.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "In the Assembly, she authored AB 2483, signed into law in 2026, to give formerly incarcerated firefighters credentials and a hiring preference at Cal Fire. She also wrote AB 1331 on workplace surveillance and AB 2318 on facilitating medical care by law enforcement, both of which passed. She supports expanding tenant protections, building more affordable housing, and focusing on prevention-based programs to reduce crime.",
+        "cites": [3, 4, 5],
+        "sentences": [
+          {
+            "text": "In the Assembly, she authored AB 2483, signed into law in 2026, to give formerly incarcerated firefighters credentials and a hiring preference at Cal Fire.",
+            "cites": [3]
+          },
+          {
+            "text": "She also wrote AB 1331 on workplace surveillance and AB 2318 on facilitating medical care by law enforcement, both of which passed.",
+            "cites": [4]
+          },
+          {
+            "text": "She supports expanding tenant protections, building more affordable housing, and focusing on prevention-based programs to reduce crime.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Sade Elhawary for Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1476905",
+        "period": "July 1 to September 19, 2026",
+        "raised": 93728.64,
+        "cashOnHand": 99743.55,
+        "breakdown": [
+          { "kind": "large", "amount": 150 },
+          { "kind": "pac", "amount": 45478.64 },
+          { "kind": "other", "amount": 48100 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 88721.36, "count": 27 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Democratic Party",
+        "kind": "party",
+        "cites": [6]
+      },
+      {
+        "organization": "California Federation of Teachers",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "SEIU Local 1000", "kind": "union", "cites": [8] },
+      {
+        "organization": "California State University Employees Union (CSUEU)",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [10] },
+      { "organization": "Teamsters Local 572", "kind": "union", "cites": [11] },
+      {
+        "organization": "California Environmental Justice Alliance Action (CEJA Action)",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "Planned Parenthood Advocacy Project Los Angeles County Action Fund",
+        "kind": "organization",
+        "cites": [13]
+      },
+      {
+        "organization": "YIMBY Los Angeles",
+        "kind": "organization",
+        "cites": [14]
+      },
+      { "organization": "AROC Action", "kind": "organization", "cites": [15] },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [16]
+      },
+      {
+        "organization": "California Environmental Voters",
+        "kind": "organization",
+        "cites": [17]
+      },
+      {
+        "organization": "California Teachers Association",
+        "kind": "union",
+        "cites": [18]
+      },
+      {
+        "organization": "California Working Families Party",
+        "kind": "organization",
+        "cites": [19]
+      },
+      { "organization": "Knock LA", "kind": "organization", "cites": [20] },
+      { "organization": "LA Forward", "kind": "organization", "cites": [21] },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [22]
+      },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [23] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Sade Elhawary is sworn in as 57th District Assemblymember | Official Website - Assemblymember Sade Elhawary, California Assembly District 57",
+      "publisher": "Assemblymember Sade Elhawary",
+      "url": "https://elhawary.asmdc.org/press-releases/20241202-sade-elhawary-sworn-57th-district-assemblymember",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Biography | Official Website - Assemblymember Sade Elhawary, California Assembly District 57",
+      "publisher": "Assemblymember Sade Elhawary",
+      "url": "https://elhawary.asmdc.org/biography",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "New law to help prison firefighters land jobs at Cal Fire - CalMatters",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.org/justice/2026/09/prison-firefighters-cal-fire-jobs/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Sade Elhawary - Digital Democracy | CalMatters",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.digitaldemocracy.org/people/187428",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Endorsement: Sade Elhawary for State Assembly District 57",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/opinion/story/2024-09-19/endorsement-sade-elhawary-for-state-assembly-district-57",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "2026 General Election Endorsements & Ballot Measure Positions (August 2, 2026)",
+      "publisher": "California Democratic Party",
+      "url": "https://cadem.org/wp-content/uploads/2026/08/FINAL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "General Election 2026, Tuesday, November 3",
+      "publisher": "California Federation of Teachers",
+      "url": "https://www.cft.org/sites/main/files/file-attachments/cft_endorsements-general-election_9.29.2026.pdf?1790783088",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "2026 Elections - SEIU Local 1000 Election Endorsements",
+      "publisher": "SEIU Local 1000",
+      "url": "https://www.seiu1000.org/2026elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "2026 Endorsements",
+      "publisher": "CSUEU",
+      "url": "https://csueu.org/news?details=2026-endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "2026 UNITE HERE Local 11 Official Voter Guide",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/wp-content/uploads/2026-UHL11-Voter-Guides.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "2026 Voter Guide: Teamsters Local 572 Endorsements",
+      "publisher": "Teamsters Local 572",
+      "url": "https://www.teamsters572.org/local-572-voter-guide/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "2026 California General Election Environmental Justice Candidates",
+      "publisher": "CEJA Action",
+      "url": "https://ceja-action.org/2026/09/17/2026-california-general-election-environmental-justice-candidates/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 13,
+      "title": "Voter Guide",
+      "publisher": "Planned Parenthood Advocacy Project Los Angeles County",
+      "url": "https://www.plannedparenthoodaction.org/planned-parenthood-advocacy-project-los-angeles-county/voter-guide-ppapx",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 14,
+      "title": "November General Election Endorsements",
+      "publisher": "YIMBY Los Angeles",
+      "url": "https://yimby.la/voter-guide/november-general-election-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 15,
+      "title": "Endorsements",
+      "publisher": "AROC Action",
+      "url": "https://arocaction.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 16,
+      "title": "Equality California Election Center",
+      "publisher": "Equality California",
+      "url": "https://www.eqca.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Who We're Endorsing in California's 2026 Election",
+      "publisher": "California Environmental Voters",
+      "url": "https://envirovoters.org/2026-endorsements/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "2026 Candidate Recommendations",
+      "publisher": "California Teachers Association",
+      "url": "https://www.cta.org/our-advocacy/election-2026",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "California Working Families Party: Our 2026 Candidates",
+      "publisher": "Working Families Party",
+      "url": "https://workingfamilies.org/state/california/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
+      "publisher": "Knock LA (Ground Game LA)",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 20
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 21
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 22
+    },
+    {
+      "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
+      "publisher": "SEIU Local 721",
+      "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 23
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.715Z",
+    "version": 4
+  }
+}

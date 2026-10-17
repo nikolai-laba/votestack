@@ -1,0 +1,286 @@
+{
+  "key": "josh-lowenthal",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Josh Lowenthal",
+  "party": "Democratic",
+  "office": "State Assembly Member, 69th District",
+  "contestIds": ["la-4348-cc10804"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Josh Lowenthal represents the 69th District in the California State Assembly, elected in 2022. He is a small-business owner in tech and a former teacher. In the Assembly, he wrote AB 2 to allow fines up to $1 million per child when a tech platform's negligence causes harm. He also co-introduced a bill to bar social media platforms from allowing users under 16 to create or maintain accounts. His campaign says he wants to build more housing, grow the economy, and cut red tape. In 2025, he supported temporarily suspending the state's independent redistricting commission.",
+        "cites": [1, 2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "Josh Lowenthal represents the 69th District in the California State Assembly, elected in 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "He is a small-business owner in tech and a former teacher.",
+            "cites": [1]
+          },
+          {
+            "text": "In the Assembly, he wrote AB 2 to allow fines up to $1 million per child when a tech platform's negligence causes harm.",
+            "cites": [2]
+          },
+          {
+            "text": "He also co-introduced a bill to bar social media platforms from allowing users under 16 to create or maintain accounts.",
+            "cites": [3]
+          },
+          {
+            "text": "His campaign says he wants to build more housing, grow the economy, and cut red tape.",
+            "cites": [4]
+          },
+          {
+            "text": "In 2025, he supported temporarily suspending the state's independent redistricting commission.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Josh Lowenthal for Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477066",
+        "period": "July 1 to September 19, 2026",
+        "raised": 151774,
+        "cashOnHand": 839536.01,
+        "breakdown": [
+          { "kind": "small", "amount": 249 },
+          { "kind": "large", "amount": 21500 },
+          { "kind": "pac", "amount": 100325 },
+          { "kind": "other", "amount": 29700 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 88650, "count": 23 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Democratic Party",
+        "kind": "party",
+        "cites": [6]
+      },
+      {
+        "organization": "California YIMBY",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Planned Parenthood Advocacy Project Los Angeles County Action Fund",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Apartment Association of Greater Los Angeles",
+        "kind": "organization",
+        "cites": [9]
+      },
+      { "organization": "UFCW Local 324", "kind": "union", "cites": [10] },
+      { "organization": "Teamsters Local 572", "kind": "union", "cites": [11] },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "California Environmental Voters",
+        "kind": "organization",
+        "cites": [13]
+      },
+      {
+        "organization": "California Federation of Teachers",
+        "kind": "union",
+        "cites": [14]
+      },
+      {
+        "organization": "Democrats for Israel – Los Angeles",
+        "kind": "organization",
+        "cites": [15]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [16] },
+      {
+        "organization": "American Independent Party",
+        "kind": "party",
+        "cites": [17]
+      },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [18]
+      },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [19] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Biography | Official Website - Assemblymember Josh Lowenthal ...",
+      "publisher": "Josh Lowenthal official Assembly website",
+      "url": "https://lowenthal.asmdc.org/biography",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Social media giants could face even stiffer penalties under California bill",
+      "publisher": "Politico",
+      "url": "https://www.politico.com/news/2026/08/28/social-media-giants-could-face-even-stiffer-penalties-under-california-bill-01054814",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "California considers restrictions on social media for kids",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/business/story/2026-03-21/california-considers-restrictions-on-social-media-for-kids",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Josh Lowenthal, AD-69 candidate, 2026 primary election questionnaire",
+      "publisher": "Orange County Register",
+      "url": "https://www.ocregister.com/2026/05/06/josh-lowenthal-ad-69-candidate-2026-primary-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Gavin Newsom's redistricting plan is on its way to voters. What you need to know",
+      "publisher": "KVPR",
+      "url": "https://www.kvpr.org/government-politics/2025-08-21/gavin-newsoms-redistricting-plan-is-on-its-way-to-voters-what-you-need-to-know",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "2026 General Election Endorsements & Ballot Measure Positions",
+      "publisher": "California Democratic Party",
+      "url": "https://cadem.org/wp-content/uploads/2026/08/8.5.26-FINAL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements",
+      "publisher": "California YIMBY",
+      "url": "https://cayimby.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "Voter Guide",
+      "publisher": "Planned Parenthood Advocacy Project Los Angeles County",
+      "url": "https://www.plannedparenthoodaction.org/planned-parenthood-advocacy-project-los-angeles-county/voter-guide-ppapx",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 9,
+      "title": "Apartment Association of Greater Los Angeles Voting Slate: Candidate Endorsements Election: Tuesday, November 3, 2026",
+      "publisher": "Apartment Association of Greater Los Angeles",
+      "url": "https://members.aagla.org/news/apartment-association-of-greater-los-angeles--voting-slate-candidate-endorsements-election-tuesday",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "Los Angeles County Voter Guide",
+      "publisher": "UFCW Local 324",
+      "url": "https://ufcw324.org/?p=26592",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "2026 Voter Guide",
+      "publisher": "Teamsters Local 572",
+      "url": "https://www.teamsters572.org/local-572-voter-guide/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "Equality California Election Center",
+      "publisher": "Equality California",
+      "url": "https://www.eqca.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Who We're Endorsing in California's 2026 Election",
+      "publisher": "California Environmental Voters",
+      "url": "https://envirovoters.org/2026-endorsements/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "CFT Endorsements, General Election 2026 (Tuesday, November 3)",
+      "publisher": "California Federation of Teachers",
+      "url": "https://www.cft.org/2026-midterm-elections-hub",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Democrats for Israel – Los Angeles",
+      "url": "https://dfi-la.org/endorse",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "Party Endorsements for Voter-Nominated Offices, November 3, 2026 General Election",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/additional-election-information",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
+      "publisher": "SEIU Local 721",
+      "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 19
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.736Z",
+    "version": 4
+  }
+}

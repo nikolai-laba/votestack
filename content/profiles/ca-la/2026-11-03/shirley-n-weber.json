@@ -1,0 +1,446 @@
+{
+  "key": "shirley-n-weber",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Shirley N. Weber",
+  "party": "Democratic",
+  "office": "California Secretary of State",
+  "contestIds": ["la-4348-cc10830-r1", "la-4348-cc10830-r2"],
+  "kind": "candidate",
+  "tier": "top",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Shirley N. Weber is the California Secretary of State. She was appointed in 2021 and elected to a full term in 2022. Before holding statewide office, she served four terms in the State Assembly representing the San Diego area and chaired the Assembly Elections and Redistricting Committee. She also served on the San Diego Unified School District board and was a professor of Africana Studies at San Diego State University.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Shirley N. Weber is the California Secretary of State.",
+            "cites": [1]
+          },
+          {
+            "text": "She was appointed in 2021 and elected to a full term in 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "Before holding statewide office, she served four terms in the State Assembly representing the San Diego area and chaired the Assembly Elections and Redistricting Committee.",
+            "cites": [1]
+          },
+          {
+            "text": "She also served on the San Diego Unified School District board and was a professor of Africana Studies at San Diego State University.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "As secretary, she oversaw California's permanent shift to universal mail-in voting and took local governments to court over voting laws. She has pledged to expand voting access, improve transparency in election filings, and strengthen election cybersecurity. She has also publicly pushed back against claims of election fraud. She has supported restoring voting rights for individuals who have completed their prison terms.",
+        "cites": [2, 3, 1],
+        "sentences": [
+          {
+            "text": "As secretary, she oversaw California's permanent shift to universal mail-in voting and took local governments to court over voting laws.",
+            "cites": [2]
+          },
+          {
+            "text": "She has pledged to expand voting access, improve transparency in election filings, and strengthen election cybersecurity.",
+            "cites": [2]
+          },
+          {
+            "text": "She has also publicly pushed back against claims of election fraud.",
+            "cites": [3]
+          },
+          {
+            "text": "She has supported restoring voting rights for individuals who have completed their prison terms.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Shirley Weber for Secretary of State 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1456658",
+        "period": "July 1 to September 19, 2026",
+        "raised": 59369.96,
+        "cashOnHand": 995408.12,
+        "breakdown": [
+          { "kind": "small", "amount": 181 },
+          { "kind": "large", "amount": 560 },
+          { "kind": "pac", "amount": 49047.5 },
+          { "kind": "party", "amount": 9581.46 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 25458.89, "count": 38 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Attorney General Rob Bonta",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "State Treasurer Fiona Ma",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "State Controller Malia Cohen",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "Insurance Commissioner Ricardo Lara",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Superintendent of Public Instruction Tony Thurmond",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "State Sen. Akilah Weber Pierson",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "Assemblymember Cecilia Aguiar-Curry",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "Assemblymember Buffy Wicks",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "Assemblymember Blanca Rubio",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "Assemblymember LaShae Sharp-Collins",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [4]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Holly Mitchell",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "San Diego County Supervisor Monica Montgomery Steppe",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "San Diego Mayor Todd Gloria",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "Oakland Mayor Barbara Lee",
+        "kind": "elected_official",
+        "cites": [4]
+      },
+      {
+        "organization": "California Democratic Party",
+        "kind": "party",
+        "cites": [5]
+      },
+      {
+        "organization": "San Francisco Chronicle Editorial Board",
+        "kind": "editorial_board",
+        "cites": [6]
+      },
+      {
+        "organization": "Planned Parenthood Affiliates of California",
+        "kind": "organization",
+        "cites": [7]
+      },
+      { "organization": "SEIU California", "kind": "union", "cites": [2] },
+      {
+        "organization": "California Federation of Teachers",
+        "kind": "union",
+        "cites": [2]
+      },
+      {
+        "organization": "California State University Employees Union (CSUEU)",
+        "kind": "union",
+        "cites": [8]
+      },
+      { "organization": "AFSCME", "kind": "union", "cites": [4] },
+      {
+        "organization": "Communications Workers of America",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "International Brotherhood of Electrical Workers",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "California Professional Firefighters",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "California Nurses Association",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "CA State Council of Laborers",
+        "kind": "union",
+        "cites": [4]
+      },
+      { "organization": "SEIU Local 1000", "kind": "union", "cites": [4] },
+      {
+        "organization": "AFSCME District Council 36",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "Professional Engineers in California Government (PECG)",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "Association of California State Supervisors",
+        "kind": "union",
+        "cites": [4]
+      },
+      {
+        "organization": "Reproductive Freedom for All",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Center for Biological Diversity Action Fund",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Women’s March Action",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "California YIMBY",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Jane Fonda Climate PAC",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "NWPC California",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "California Women’s List",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "California Black Women’s Collective PAC",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "California State Retirees",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Armenian National Committee of America – Western Region",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "California Environmental Voters",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "California Teachers Association",
+        "kind": "union",
+        "cites": [12]
+      },
+      { "organization": "Knock LA", "kind": "organization", "cites": [13] },
+      { "organization": "LA Forward", "kind": "organization", "cites": [14] },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [15]
+      },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [16] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "About :: California Secretary of State",
+      "publisher": "California Secretary of State",
+      "url": "https://www.sos.ca.gov/administration/about",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Who is running for secretary of state in California's 2026 election?",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.org/california-voter-guide-2026/secretary-of-state/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "California Secretary of State Shirley N. Weber, Ph.D., Sets the Record Straight about Accusations of Election Irregularities and Investigation Interference in Riverside County",
+      "publisher": "California Secretary of State",
+      "url": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-sets-record-straight-about-accusations-election-irregularities-and-investigation",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Endorsements - Shirley Weber for Secretary of State",
+      "publisher": "Shirley Weber for Secretary of State 2026",
+      "url": "https://drshirleyweber.com/endorsements/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "2026 General Election Endorsements & Ballot Measure Positions, August 2, 2026",
+      "publisher": "California Democratic Party",
+      "url": "https://cadem.org/wp-content/uploads/2026/08/8.5.26-FINAL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "S.F. Chronicle Endorsements for the 2026 California Election",
+      "publisher": "San Francisco Chronicle",
+      "url": "https://www.sfchronicle.com/projects/2026/california-sf-election-endorsements/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Planned Parenthood Affiliates of California Announces Full Slate of 2026 Statewide Constitutional Endorsements",
+      "publisher": "Planned Parenthood Affiliates of California",
+      "url": "https://www.plannedparenthoodaction.org/planned-parenthood-affiliates-california/press/planned-parenthood-affiliates-of-california-announces-full-slate-of-2026-statewide-constitutional-endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "2026 Endorsements",
+      "publisher": "California State University Employees Union",
+      "url": "https://csueu.org/news?details=2026-endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "Equality California Election Center",
+      "publisher": "Equality California",
+      "url": "https://www.eqca.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "Endorsements",
+      "publisher": "Sierra Club Angeles Chapter",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Who We're Endorsing in California's 2026 Election",
+      "publisher": "California Environmental Voters",
+      "url": "https://envirovoters.org/2026-endorsements/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "2026 Candidate Recommendations",
+      "publisher": "California Teachers Association",
+      "url": "https://www.cta.org/our-advocacy/election-2026",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
+      "publisher": "Knock LA (Ground Game LA)",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
+      "publisher": "SEIU Local 721",
+      "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 16
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.812Z",
+    "version": 4
+  }
+}

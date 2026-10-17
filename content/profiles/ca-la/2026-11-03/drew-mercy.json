@@ -1,0 +1,133 @@
+{
+  "key": "drew-mercy",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Drew Mercy",
+  "office": "Antelope Valley-East Kern Water Agency, Member, Board of Directors, Division 1",
+  "contestIds": ["la-4348-cc10562"],
+  "kind": "candidate",
+  "tier": "short",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Drew Mercy is the Division 1 Director of the Antelope Valley-East Kern Water Agency Board, appointed in June 2023. He previously served as vice president of the Quartz Hill Water District in 2023. He is a member of the agency's Water Rates and Capacity Fees Committee.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Drew Mercy is the Division 1 Director of the Antelope Valley-East Kern Water Agency Board, appointed in June 2023.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously served as vice president of the Quartz Hill Water District in 2023.",
+            "cites": [2]
+          },
+          {
+            "text": "He is a member of the agency's Water Rates and Capacity Fees Committee.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Drew Mercy for AVEK Water Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/211579678-Drew%20Mercy%20for%20AVEK%20Water%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 2700,
+        "cashOnHand": 2997,
+        "breakdown": [
+          { "kind": "pac", "amount": 250 },
+          { "kind": "candidate", "amount": 2450 }
+        ],
+        "fromCandidate": 2450
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      { "organization": "IBEW Local 11", "kind": "union", "cites": [4] },
+      { "organization": "IBEW Local 18", "kind": "union", "cites": [5] },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Republican Party of Los Angeles County",
+        "kind": "party",
+        "cites": [7]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Regular Board Meeting Agenda, June 27, 2023",
+      "publisher": "Antelope Valley-East Kern Water Agency",
+      "url": "https://www.avek.org/files/cb0021dd4/23.06.27+Agenda+Board+POSTED.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Regular Board Meeting Agenda, January 19, 2023",
+      "publisher": "Quartz Hill Water District",
+      "url": "https://www.qhwd.org/files/6c543b1a8/January-19-2023-Agenda-Packet.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Water Rates & Capacity Fees Committee Agenda, March 17, 2026",
+      "publisher": "Antelope Valley-East Kern Water Agency",
+      "url": "https://www.avek.org/files/33cd8c9ce/26.03.17-Agenda-WRCF-POSTED.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Political Action & Endorsements",
+      "publisher": "IBEW Local 11",
+      "url": "https://www.ibew11.org/political",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "IBEW Local 18 — November 3, 2026 Voter Guide",
+      "publisher": "IBEW Local 18",
+      "url": "https://www.ibewlocal18.org/2020/wp-content/uploads/2026/10/IBEW-Local-18-Final-Recommendations-November-2026-1.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 6
+    },
+    {
+      "title": "LAGOP Endorsement Lookup, November 3, 2026 General Election",
+      "publisher": "Republican Party of Los Angeles County",
+      "url": "https://lagop-endorsement-lookup.vercel.app/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 7
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.335Z",
+    "version": 4
+  }
+}

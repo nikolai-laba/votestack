@@ -1,0 +1,120 @@
+{
+  "key": "lydia-a-gutierrez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Lydia A. Gutiérrez",
+  "party": "Republican",
+  "office": "State Assembly Member, 65th District",
+  "contestIds": ["la-4348-cc10801"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Lydia A. Gutiérrez is a public school teacher. According to her campaign, she has taught in public schools for more than 30 years and previously worked in the aerospace industry as an administrator and acting cost estimating supervisor. Her website states she served seven years as an elected board member of the Coastal San Pedro Neighborhood Council, where she sat on the Public Safety, Budget & Finance, Education, and Cultural committees. Her campaign also notes she is a co-chair of the California Teachers Association's State Legislative Committee for Adult, Alternative, and Career Technical Education.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Lydia A. Gutiérrez is a public school teacher.",
+            "cites": [1]
+          },
+          {
+            "text": "According to her campaign, she has taught in public schools for more than 30 years and previously worked in the aerospace industry as an administrator and acting cost estimating supervisor.",
+            "cites": [2]
+          },
+          {
+            "text": "Her website states she served seven years as an elected board member of the Coastal San Pedro Neighborhood Council, where she sat on the Public Safety, Budget & Finance, Education, and Cultural committees.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign also notes she is a co-chair of the California Teachers Association's State Legislative Committee for Adult, Alternative, and Career Technical Education.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Gutierrez for State Assembly 2026; Lydia",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1489992",
+        "period": "July 1 to September 19, 2026",
+        "raised": 150,
+        "cashOnHand": 1885.22,
+        "breakdown": [{ "kind": "large", "amount": 150 }]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Republican Party",
+        "kind": "party",
+        "cites": [3]
+      },
+      {
+        "organization": "American Independent Party",
+        "kind": "party",
+        "cites": [4]
+      },
+      {
+        "organization": "California Republican Assembly",
+        "kind": "organization",
+        "cites": [5]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "California State Assembly: Who's running Nov. 3 and why it matters | LAist",
+      "publisher": "LAist",
+      "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-state-assembly",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Lydia Gutierrez's Education, Experience and Organizations - Lydia Gutierrez for LAUSD School Board",
+      "publisher": "Lydia Gutiérrez campaign",
+      "url": "https://www.lydia4education.com/lydia_s_experience",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Endorsements - CAGOP (2026 CRP Endorsements)",
+      "publisher": "California Republican Party",
+      "url": "https://cagop.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Additional Election Information: November 3, 2026 General Election party endorsements",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/additional-election-information",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "November 2026 General Election Endorsements (updated August 26, 2026)",
+      "publisher": "California Republican Assembly",
+      "url": "https://cragop.org/wp-content/uploads/2026/08/PDF-November-2026-General-Election-Endorsements-08-26-26.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.724Z",
+    "version": 4
+  }
+}

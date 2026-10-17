@@ -1,0 +1,49 @@
+{
+  "key": "johnny-hernandez",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Johnny Hernandez",
+  "office": "City of Santa Fe Springs, Member of the City Council",
+  "contestIds": ["la-4348-cc10513"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Johnny Hernandez is running for the Santa Fe Springs City Council.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Johnny Hernandez is running for the Santa Fe Springs City Council.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Santa Fe Springs",
+      "url": "https://netfile.com/public/SFS/campaign/filingsByFiler/217256665-Candidate%20for%20Santa%20Fe%20Springs%20City%20Council%202026"
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Johnny Hernandez (Santa Fe Springs City Council At-large, California, candidate 2026) - Ballotpedia",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Johnny_Hernandez_(Santa_Fe_Springs_City_Council_At-large,_California,_candidate_2026)",
+      "kind": "reference",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.580Z",
+    "version": 2
+  }
+}

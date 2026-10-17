@@ -1,0 +1,95 @@
+{
+  "key": "peter-yahiayan",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Peter Yahiayan",
+  "office": "City of Santa Clarita, Member of the City Council, 4th District",
+  "contestIds": ["la-4348-cc10838"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "His campaign says Peter Yahiayan is a real estate professional and small-business owner. His campaign notes that he also has experience in investment, property management and tax preparation. His California real estate salesperson license is currently restricted.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "His campaign says Peter Yahiayan is a real estate professional and small-business owner.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign notes that he also has experience in investment, property management and tax preparation.",
+            "cites": [2]
+          },
+          {
+            "text": "His California real estate salesperson license is currently restricted.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "According to his campaign, his priorities include linking growth to infrastructure, addressing traffic and emergency access, expanding housing options, ensuring accountable spending, and providing public safety with privacy oversight. In June 2026, he described the effects of the Bouquet Canyon Road closure on businesses and noted residents’ concerns about traffic congestion, emergency access and infrastructure as growth continues.",
+        "cites": [2, 4],
+        "sentences": [
+          {
+            "text": "According to his campaign, his priorities include linking growth to infrastructure, addressing traffic and emergency access, expanding housing options, ensuring accountable spending, and providing public safety with privacy oversight.",
+            "cites": [2]
+          },
+          {
+            "text": "In June 2026, he described the effects of the Bouquet Canyon Road closure on businesses and noted residents’ concerns about traffic congestion, emergency access and infrastructure as growth continues.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Santa Clarita",
+      "url": "https://www.southtechhosting.com/SantaClaritaCity/CampaignDocsWebRetrieval/"
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Peter Yahiayan | Santa Clarita City Council District 4",
+      "publisher": "Peter Yahiayan campaign",
+      "url": "http://www.peteryahiayan.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Know Before You Vote: Santa Clarita City Council Voter Guide",
+      "publisher": "SCV Living",
+      "url": "https://www.scvliving.com/p/know-before-you-vote-santa-clarita-city-council-voter-guide",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Public License Lookup - DRE",
+      "publisher": "California Department of Real Estate",
+      "url": "https://www2.dre.ca.gov/publicasp/pplinfo.asp?License_id=01913002",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Bouquet Canyon Road Closure Taking Toll On Local Businesses",
+      "publisher": "KHTS Radio",
+      "url": "https://www.hometownstation.com/santa-clarita-news/community-news/bouquet-canyon-road-closure-taking-toll-on-local-businesses-597551",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.573Z",
+    "version": 2
+  }
+}

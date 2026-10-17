@@ -1,0 +1,91 @@
+{
+  "key": "john-vrsalovich",
+  "electionId": "ca-2026-11-03-general",
+  "name": "John Vrsalovich",
+  "office": "Foothill Municipal Water District, Member, Board of Directors, Division 2",
+  "contestIds": ["la-4348-cc10545"],
+  "kind": "candidate",
+  "tier": "short",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "John Vrsalovich was appointed to the Foothill Municipal Water District Board of Directors for Division 2 in July 2023. He holds degrees in civil engineering, manages construction contracts at the Metropolitan Water District of Southern California, and has served on the Rubio Cañon Land and Water Association board for nearly 20 years. His campaign says he focuses on reliable water service, fire recovery, and careful spending.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "John Vrsalovich was appointed to the Foothill Municipal Water District Board of Directors for Division 2 in July 2023.",
+            "cites": [1]
+          },
+          {
+            "text": "He holds degrees in civil engineering, manages construction contracts at the Metropolitan Water District of Southern California, and has served on the Rubio Cañon Land and Water Association board for nearly 20 years.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he focuses on reliable water service, fire recovery, and careful spending.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/214315883-Vrsalovich%2C%20John",
+      "underThreshold": true
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Laura Olhasso, Director, Division 4, Foothill Municipal Water District (former Mayor of La Cañada Flintridge)",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "LaDrena Dansby, President, Foothill Municipal Water District Board of Directors",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Garry Bryant, Director, Division 1, Foothill Municipal Water District",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Beautiful Altadena",
+        "kind": "organization",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Board Members - Foothill Municipal Water District",
+      "publisher": "Foothill Municipal Water District",
+      "url": "https://www.fmwd.com/board-members",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "John Vrsalovich for FMWD Division 2",
+      "publisher": "John Vrsalovich campaign",
+      "url": "https://johnforfmwd.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.344Z",
+    "version": 3
+  }
+}

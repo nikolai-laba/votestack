@@ -1,0 +1,430 @@
+{
+  "key": "caroline-menjivar",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Caroline Menjivar",
+  "party": "Democratic",
+  "office": "State Senator, 20th District",
+  "contestIds": ["la-4348-cc10773"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Caroline Menjivar has represented the 20th District since 2022. She is a Marine veteran, former EMT and social worker. She previously worked as the East Valley representative for the Los Angeles mayor’s office. She chairs a Senate budget subcommittee on health and human services.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Caroline Menjivar has represented the 20th District since 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "She is a Marine veteran, former EMT and social worker.",
+            "cites": [2]
+          },
+          {
+            "text": "She previously worked as the East Valley representative for the Los Angeles mayor’s office.",
+            "cites": [1]
+          },
+          {
+            "text": "She chairs a Senate budget subcommittee on health and human services.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "She authored a law requiring large employer health plans to cover infertility treatment, including IVF. She opposed Medi-Cal cuts for undocumented immigrants, saying people would lose coverage. She voted against a bill for denser housing near transit, arguing it would not serve working-class residents. Her office says in 2026 she secured $19 million for her district and had six bills signed into law, including paid postpartum leave for firefighters and hearing aid coverage for children.",
+        "cites": [4, 5, 6],
+        "sentences": [
+          {
+            "text": "She authored a law requiring large employer health plans to cover infertility treatment, including IVF.",
+            "cites": [4]
+          },
+          {
+            "text": "She opposed Medi-Cal cuts for undocumented immigrants, saying people would lose coverage.",
+            "cites": [5]
+          },
+          {
+            "text": "She voted against a bill for denser housing near transit, arguing it would not serve working-class residents.",
+            "cites": [6]
+          },
+          {
+            "text": "Her office says in 2026 she secured $19 million for her district and had six bills signed into law, including paid postpartum leave for firefighters and hearing aid coverage for children.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Menjivar for Senate 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1456738",
+        "period": "July 1 to September 19, 2026",
+        "raised": 136305,
+        "cashOnHand": 383975.73,
+        "breakdown": [
+          { "kind": "small", "amount": 10 },
+          { "kind": "large", "amount": 17545 },
+          { "kind": "pac", "amount": 71850 },
+          { "kind": "other", "amount": 46900 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 42800, "count": 11 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "U.S. Rep. Luz Rivas",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Assemblymember Celeste Rodriguez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "California Democratic Party",
+        "kind": "party",
+        "cites": [8]
+      },
+      { "organization": "SEIU California", "kind": "union", "cites": [7] },
+      {
+        "organization": "California Nurses Association",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "California Federation of Teachers",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "California School Employees Association",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Faculty Association of California Community Colleges",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "United Farm Workers", "kind": "union", "cites": [7] },
+      {
+        "organization": "International Association of Machinists and Aerospace Workers",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "National Union of Healthcare Workers",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Western States Carpenters",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Professional Engineers in California Government",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Association of California State Supervisors",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "California State Retirees",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Los Angeles County Federation of Labor, AFL-CIO",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [10] },
+      { "organization": "Teamsters Local 572", "kind": "union", "cites": [11] },
+      {
+        "organization": "CAL FIRE Firefighters Local 2881",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "UDW AFSCME Local 3930",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "ILWU Local 13", "kind": "union", "cites": [7] },
+      {
+        "organization": "Painters and Allied Trades District Council 36",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "Sierra Club", "kind": "organization", "cites": [7] },
+      {
+        "organization": "California Environmental Voters",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "California Working Families Party",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "National Women's Political Caucus California",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "California Women's List",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Latinas Lead California",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Armenian National Committee of America Western Region",
+        "kind": "organization",
+        "cites": [7]
+      },
+      { "organization": "CEJA Action", "kind": "organization", "cites": [7] },
+      {
+        "organization": "Democrats for the Protection of Animals",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Planned Parenthood Advocacy Project Los Angeles County Action Fund",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "Women's Political Committee Los Angeles",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Pilipino Action Center",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Project Super Bloom PAC",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Democratic Party of the San Fernando Valley",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Asian Dems of Los Angeles County",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Stonewall Young Democrats",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "San Fernando Valley Young Democrats",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [13]
+      },
+      {
+        "organization": "California Teachers Association",
+        "kind": "union",
+        "cites": [14]
+      },
+      {
+        "organization": "Democrats for Israel – Los Angeles",
+        "kind": "organization",
+        "cites": [15]
+      },
+      { "organization": "Knock LA", "kind": "organization", "cites": [16] },
+      { "organization": "LA Forward", "kind": "organization", "cites": [17] },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [18] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Biography | California State Senator Caroline Menjivar",
+      "publisher": "California State Senator Caroline Menjivar",
+      "url": "https://sd20.senate.ca.gov/biography",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "California Senate District 20 | Marine, EMT, Social Worker",
+      "publisher": "Caroline Menjivar campaign",
+      "url": "https://www.carolinemenjivar.com/meet-caroline",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Senator Caroline Menjivar | Proudly Representing California ...",
+      "publisher": "California State Senator Caroline Menjivar",
+      "url": "https://sd20.senate.ca.gov/",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Press Releases | California State Senator Caroline Menjivar",
+      "publisher": "California State Senator Caroline Menjivar",
+      "url": "https://sd20.senate.ca.gov/press-releases",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "CA Latino legislators agonized over slashing immigrant health care",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.org/health/2025/07/california-latino-caucus-legislators-immigrants-health-care-medi-cal/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Caroline Menjivar - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Caroline_Menjivar",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements — Caroline Menjivar for State Senate",
+      "publisher": "Menjivar for Senate 2026",
+      "url": "https://www.carolinemenjivar.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "2026 General Election Endorsements & Ballot Measure Positions",
+      "publisher": "California Democratic Party",
+      "url": "https://cadem.org/wp-content/uploads/2026/08/8.5.26-FINAL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "General Election 2026 endorsements",
+      "publisher": "California Federation of Teachers COPE",
+      "url": "https://utla.net/app/uploads/2026/08/cft_endorsements-primary-election_4.27.2026_1.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "2026 Official Voter Guide",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/wp-content/uploads/2026-UHL11-Voter-Guides.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "2026 Voter Guide",
+      "publisher": "Teamsters Local 572",
+      "url": "https://www.teamsters572.org/local-572-voter-guide/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "Voter Guide",
+      "publisher": "Planned Parenthood Advocacy Project Los Angeles County",
+      "url": "https://www.plannedparenthoodaction.org/planned-parenthood-advocacy-project-los-angeles-county/voter-guide-ppapx",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 13,
+      "title": "Equality California Election Center",
+      "publisher": "Equality California",
+      "url": "https://www.eqca.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "2026 Candidate Recommendations",
+      "publisher": "California Teachers Association",
+      "url": "https://www.cta.org/our-advocacy/election-2026",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Democrats for Israel – Los Angeles",
+      "url": "https://dfi-la.org/endorse",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
+      "publisher": "Knock LA (Ground Game LA)",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
+      "publisher": "SEIU Local 721",
+      "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 18
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.738Z",
+    "version": 4
+  }
+}

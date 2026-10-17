@@ -1,0 +1,62 @@
+{
+  "key": "adriana-franco",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Adriana Franco",
+  "office": "South Whittier School District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10727"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Adriana Franco is a candidate for the South Whittier School District Governing Board, Trustee Area No. 5. She serves as an alternate voting member of the Community Advisory Committee for the Whittier Area Cooperative Special Education Program, representing the district.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Adriana Franco is a candidate for the South Whittier School District Governing Board, Trustee Area No. 5.",
+            "cites": [1]
+          },
+          {
+            "text": "She serves as an alternate voting member of the Community Advisory Committee for the Whittier Area Cooperative Special Education Program, representing the district.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217111255-Franco%2C%20Adriana",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate List",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Community Advisory Committee",
+      "publisher": "Whittier Area Cooperative Special Education Program",
+      "url": "https://wacsep.org/info/community-advisory-committee--cac-",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.338Z",
+    "version": 2
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "key": "robert-g-luna",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Robert G. Luna",
+  "office": "Los Angeles County Sheriff",
+  "contestIds": ["la-4348-cc10823-r1", "la-4348-cc10823-r2"],
+  "kind": "candidate",
+  "tier": "top",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Robert G. Luna is the 34th Sheriff of Los Angeles County, first elected in 2022. He previously served as Long Beach Police Chief, ending a 36-year career at that department. As chief during the 2020 George Floyd protests, he drew criticism from small business owners, local officials, and some department officers over his response. He leads the largest sheriff's department in the United States, with nearly 18,000 budgeted staff.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Robert G. Luna is the 34th Sheriff of Los Angeles County, first elected in 2022.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously served as Long Beach Police Chief, ending a 36-year career at that department.",
+            "cites": [1]
+          },
+          {
+            "text": "As chief during the 2020 George Floyd protests, he drew criticism from small business owners, local officials, and some department officers over his response.",
+            "cites": [2]
+          },
+          {
+            "text": "He leads the largest sheriff's department in the United States, with nearly 18,000 budgeted staff.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "His campaign says the department reported a 14% decline in homicides and increased crime clearance rates during his first term. His campaign also says he established the Office of Constitutional Policing and banned deputy gangs. A county oversight body documented a 16% reduction in custody use of force and an 11% reduction in patrol use of force. It also noted a 42% drop in shooting-involved deaths. He is planning a Correctional Care Center for inmates, over half of whom have mental health or substance use issues. The department is replacing its decades-old computer dispatch system and deploying drones and license plate readers.",
+        "cites": [4, 5]
+      },
+      {
+        "text": "His campaign says he will reduce violent crime, build public trust, modernize department technology, and address homelessness. He faces staffing shortages of about 1,400 sworn and 1,300 professional vacancies and the need to secure large-scale events such as the 2026 World Cup. In 2025, he requested National Guard deployment and imposed curfews to stop looting during wildfires, leading to 20 arrests. In September 2026, the U.S. Department of Justice opened an investigation into the physical conditions at Men's Central Jail.",
+        "cites": [6, 5, 7, 8],
+        "sentences": [
+          {
+            "text": "His campaign says he will reduce violent crime, build public trust, modernize department technology, and address homelessness.",
+            "cites": [6]
+          },
+          {
+            "text": "He faces staffing shortages of about 1,400 sworn and 1,300 professional vacancies and the need to secure large-scale events such as the 2026 World Cup.",
+            "cites": [5]
+          },
+          {
+            "text": "In 2025, he requested National Guard deployment and imposed curfews to stop looting during wildfires, leading to 20 arrests.",
+            "cites": [7]
+          },
+          {
+            "text": "In September 2026, the U.S. Department of Justice opened an investigation into the physical conditions at Men's Central Jail.",
+            "cites": [8]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Luna for Sheriff 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216784885-LA%20County%3A%20Luna%20for%20Sheriff%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 226069,
+        "cashOnHand": 420489.96,
+        "breakdown": [
+          { "kind": "small", "amount": 219 },
+          { "kind": "large", "amount": 201600 },
+          { "kind": "pac", "amount": 6500 },
+          { "kind": "other", "amount": 17750 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "U.S. Sen. Alex Padilla",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [9]
+      },
+      {
+        "organization": "U.S. Rep. Judy Chu",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. Robert Garcia",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "U.S. Rep. George Whitesides",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "California State Treasurer Fiona Ma",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "State Sen. Bob Archuleta",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "State Sen. Maria Elena Durazo",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "State Sen. Lena Gonzalez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "State Sen. Caroline Menjivar",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "State Sen. Sasha Renée Pérez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "State Sen. Susan Rubio",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Assemblymember Lisa Calderon",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Assemblymember Mike Fong",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Assemblymember Mike Gipson",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Assemblymember John Harabedian",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Assemblymember Josh Lowenthal",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Assemblymember Blanca Pacheco",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Assemblymember Celeste Rodriguez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Assemblymember Nick Schultz",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Assemblymember Jose Solache",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Assemblymember Rick Chavez Zbur",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [10]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Kathryn Barger",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Janice Hahn",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Lindsey Horvath",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Holly Mitchell",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Hilda Solis",
+        "kind": "elected_official",
+        "cites": [9]
+      },
+      {
+        "organization": "Los Angeles County District Attorney Nathan Hochman",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Los Angeles County Assessor Jeffrey Prang",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Los Angeles Mayor Karen Bass",
+        "kind": "elected_official",
+        "cites": [10]
+      },
+      {
+        "organization": "Southern California News Group editorial board",
+        "kind": "editorial_board",
+        "cites": [11]
+      },
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [12]
+      },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Association for Los Angeles Deputy Sheriffs (ALADS)",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Los Angeles County Police Chiefs Association",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "Peace Officers Research Association of California (PORAC)",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "California Association of Highway Patrolmen",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Los Angeles County Professional Peace Officers Association (PPOA)",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Los Angeles Police Protective League (LAPPL)",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Los Angeles County Firefighters, IAFF Local 1014",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Los Angeles County Business Federation (BizFed)",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Democrats for Israel – Los Angeles",
+        "kind": "organization",
+        "cites": [13]
+      },
+      { "organization": "Knock LA", "kind": "organization", "cites": [14] },
+      { "organization": "LA Forward", "kind": "organization", "cites": [15] },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [16] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Executive Staff | Los Angeles County Sheriff's Department",
+      "publisher": "Los Angeles County Sheriff's Department",
+      "url": "https://lasd.org/staffbios/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Robert Luna - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Robert_Luna",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Sheriff Robert G. Luna Takes Charge of the LA County Sheriff's Department",
+      "publisher": "Los Angeles County Sheriff's Department",
+      "url": "https://lasd.org/sheriff-robert-g-luna-takes-charge-of-the-la-county-sheriffs-department/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "LA County Sheriff Election: Meet the 8 certified candidates in the June 2 primary",
+      "publisher": "FOX 11 Los Angeles",
+      "url": "https://www.foxla.com/news/la-county-sheriff-election-2026-candidates-platforms",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "April 9, 2026 Robert G. Luna Sheriff Los Angeles County Sheriff's Department",
+      "publisher": "Los Angeles County Civilian Oversight Commission",
+      "url": "https://assets-us-01.kc-usercontent.com/0234f496-d2b7-00b6-17a4-b43e949b70a2/2699a095-2984-4aa9-8502-329a010a7d67/SH%20Department%20Visit%20Report%203-25-26%20FINAL.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Who is running for LA County Sheriff? Luna faces 7 challengers",
+      "publisher": "NBC Los Angeles",
+      "url": "https://www.nbclosangeles.com/news/local/la-county-sheriff-election-candidates-june-california-primary/3892927/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Board of Supervisors Chair Barger, Sheriff Luna Announce County Will Call National Guard and Implement Curfews to Combat Looting",
+      "publisher": "Pasadena Now",
+      "url": "https://pasadenanow.com/main/board-of-supervisors-chair-barger-sheriff-luna-announce-county-will-call-national-guard-and-implement-curfews-to-combat-looting",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "Justice Department Notifies Los Angeles County of Investigation into Whether Conditions at Downtown L.A. Jail Violate Constitution",
+      "publisher": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/usao-cdca/pr/justice-department-notifies-los-angeles-county-investigation-whether-conditions",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "Luna faces off against ex-Sheriff Villanueva in crowded primary rematch",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-05-28/sheriff-robert-luna-is-looking-for-second-term-in-office",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "Endorsements | Robert Luna for Los Angeles County Sheriff",
+      "publisher": "Robert Luna for Los Angeles County Sheriff",
+      "url": "https://www.lunaforsheriff.com/2026endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "Southern California News Group endorsements for the Nov. 3, 2026 general election",
+      "publisher": "Southern California News Group (San Bernardino Sun)",
+      "url": "https://www.sbsun.com/2026/10/01/southern-california-news-groups-endorsements-for-nov-3-general-election/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "LA County Sheriff: Who's running on Nov. 3 and why it matters",
+      "publisher": "LAist",
+      "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-la-county-sheriff",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Democrats for Israel – Los Angeles",
+      "url": "https://dfi-la.org/endorse",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
+      "publisher": "Knock LA (Ground Game LA)",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
+      "publisher": "SEIU Local 721",
+      "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 16
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.442Z",
+    "version": 7
+  }
+}

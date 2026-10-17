@@ -1,0 +1,355 @@
+{
+  "key": "jesse-gabriel",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Jesse Gabriel",
+  "party": "Democratic",
+  "office": "State Assembly Member, 46th District",
+  "contestIds": ["la-4348-cc10788"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Jesse Gabriel is a member of the California State Assembly, representing the 46th District since 2018. He is a former constitutional rights attorney who sued the Trump administration to protect \"Dreamers\" from deportation. As chair of the Assembly Budget Committee, he advocates for a larger state rainy day fund.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Jesse Gabriel is a member of the California State Assembly, representing the 46th District since 2018.",
+            "cites": [1]
+          },
+          {
+            "text": "He is a former constitutional rights attorney who sued the Trump administration to protect \"Dreamers\" from deportation.",
+            "cites": [1]
+          },
+          {
+            "text": "As chair of the Assembly Budget Committee, he advocates for a larger state rainy day fund.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "He authored a law that banned four chemicals in food. He wrote a law to help recover art stolen during the Holocaust. He proposed a bill to require independent investigations into shootings by federal immigration agents. His 2019 bill created a state-funded nonprofit security grant program.",
+        "cites": [3, 4, 5, 6],
+        "sentences": [
+          {
+            "text": "He authored a law that banned four chemicals in food.",
+            "cites": [3]
+          },
+          {
+            "text": "He wrote a law to help recover art stolen during the Holocaust.",
+            "cites": [4]
+          },
+          {
+            "text": "He proposed a bill to require independent investigations into shootings by federal immigration agents.",
+            "cites": [5]
+          },
+          {
+            "text": "His 2019 bill created a state-funded nonprofit security grant program.",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Jesse Gabriel for Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1476845",
+        "period": "July 1 to September 19, 2026",
+        "raised": 132350,
+        "cashOnHand": 3194407.35,
+        "breakdown": [
+          { "kind": "large", "amount": 9400 },
+          { "kind": "pac", "amount": 69850 },
+          { "kind": "other", "amount": 53100 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 119174.15, "count": 27 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Democratic Party",
+        "kind": "party",
+        "cites": [7]
+      },
+      { "organization": "SEIU Local 1000", "kind": "union", "cites": [8] },
+      {
+        "organization": "Association of California State Supervisors",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [10] },
+      {
+        "organization": "California YIMBY",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "Armenian National Committee of America - Western Region",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "California Council for Affordable Housing",
+        "kind": "organization",
+        "cites": [13]
+      },
+      {
+        "organization": "YIMBY Los Angeles",
+        "kind": "organization",
+        "cites": [14]
+      },
+      {
+        "organization": "Indivisible Ventura",
+        "kind": "organization",
+        "cites": [15]
+      },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [16]
+      },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [17]
+      },
+      {
+        "organization": "California Environmental Voters",
+        "kind": "organization",
+        "cites": [18]
+      },
+      {
+        "organization": "California Federation of Teachers",
+        "kind": "union",
+        "cites": [19]
+      },
+      {
+        "organization": "Democrats for Israel – Los Angeles",
+        "kind": "organization",
+        "cites": [20]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [21] },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [22]
+      },
+      {
+        "organization": "Planned Parenthood Advocacy Project Los Angeles County",
+        "kind": "organization",
+        "cites": [23]
+      },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [24] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Jesse Gabriel - Digital Democracy | CalMatters",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.digitaldemocracy.org/legislators/jesse-gabriel-160858",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Opinion | California needs larger rainy day fund, political rivals say",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.org/commentary/2026/10/rainy-day-fund-california-proposition/?taid=0c2aac1e-bfa7-4fde-8c3e-18e961fb4707",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "California 1st in US to ban 4 chemicals in food: What to know",
+      "publisher": "ABC News",
+      "url": "https://abcnews.com/GMA/Food/landmark-ca-bill-ban-harmful-food-chemicals-spares/story?id=103150822",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "New laws trigger a legal fight over Nazi-looted art in L.A. and Auschwitz museums",
+      "publisher": "NBC News",
+      "url": "https://www.nbcnews.com/news/us-news/new-laws-trigger-legal-fight-nazi-looted-art-l-auschwitz-museums-rcna598715",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "California Democrats urge government shutdown after federal agents kill Minnesota nurse",
+      "publisher": "CalMatters",
+      "url": "https://calmatters.org/politics/2026/01/california-legislature-minnesota-response/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Jewish Caucus Celebrates Signing of Two Priority Bills Protecting Californians from Hate and Violence",
+      "publisher": "California Legislative Jewish Caucus",
+      "url": "https://jewishcaucus.legislature.ca.gov/news/jewish-caucus-celebrates-signing-two-priority-bills-protecting-californians-hate-and-violence",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "2026 General Election Endorsements & Ballot Measure Positions",
+      "publisher": "California Democratic Party",
+      "url": "https://cadem.org/wp-content/uploads/2026/08/8.5.26-FINAL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "2026 Elections - SEIU Local 1000",
+      "publisher": "SEIU Local 1000",
+      "url": "https://www.seiu1000.org/2026elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "Candidate Endorsements (updated 9/30/2026)",
+      "publisher": "Association of California State Supervisors",
+      "url": "https://www.acss.org/Candidate-Endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "Endorsements (November 2026 election)",
+      "publisher": "California YIMBY",
+      "url": "https://cayimby.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "ANCA-Western Region Announces 2026 Primary Endorsements",
+      "publisher": "Armenian National Committee of America - Western Region",
+      "url": "https://ancawr.org/press-release/anca-western-region-announces-2026-primary-endorsements-2/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 13,
+      "title": "CCAH Releases 2026 Voter Guide and Endorsements",
+      "publisher": "California Council for Affordable Housing",
+      "url": "https://californiacouncil.org/news/ccah-releases-2026-voter-guide-and-endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 14,
+      "title": "November General Election Endorsements",
+      "publisher": "YIMBY Los Angeles",
+      "url": "https://yimby.la/voter-guide/november-general-election-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 15,
+      "title": "STATE: 46th Assembly District – 2026 Primary Election",
+      "publisher": "Indivisible Ventura",
+      "url": "https://indivisibleventura.org/state-46th-assembly-district-2026-primary-election/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 16,
+      "title": "Equality California Election Center",
+      "publisher": "Equality California",
+      "url": "https://www.eqca.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 17,
+      "title": "Endorsements",
+      "publisher": "Sierra Club Angeles Chapter",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Who We're Endorsing in California's 2026 Election",
+      "publisher": "California Environmental Voters",
+      "url": "https://envirovoters.org/2026-endorsements/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "CFT Endorsements, General Election 2026 (Tuesday, November 3)",
+      "publisher": "California Federation of Teachers",
+      "url": "https://www.cft.org/2026-midterm-elections-hub",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Democrats for Israel – Los Angeles",
+      "url": "https://dfi-la.org/endorse",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 20
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 21
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 22
+    },
+    {
+      "title": "Voter Guide, November 3, 2026",
+      "publisher": "Planned Parenthood Advocacy Project Los Angeles County",
+      "url": "https://www.plannedparenthoodaction.org/planned-parenthood-advocacy-project-los-angeles-county/voter-guide-ppapx",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 23
+    },
+    {
+      "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
+      "publisher": "SEIU Local 721",
+      "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 24
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.685Z",
+    "version": 4
+  }
+}

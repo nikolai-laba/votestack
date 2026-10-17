@@ -1,0 +1,74 @@
+{
+  "key": "kevin-sawkins",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Kevin Sawkins",
+  "office": "City of San Gabriel, City Treasurer",
+  "contestIds": ["la-4348-cc10511"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Kevin Sawkins is the incumbent City Treasurer of San Gabriel. He previously served on the City Council for 12 years, including as mayor. He is an attorney who has run his own law practice since 1996, handling personal injury, civil litigation, and criminal defense cases.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Kevin Sawkins is the incumbent City Treasurer of San Gabriel.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously served on the City Council for 12 years, including as mayor.",
+            "cites": [2]
+          },
+          {
+            "text": "He is an attorney who has run his own law practice since 1996, handling personal injury, civil litigation, and criminal defense cases.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of San Gabriel",
+      "url": "https://netfile.com/public/CSG/campaign"
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Election information | San Gabriel, CA - Official Website",
+      "publisher": "City of San Gabriel",
+      "url": "https://sangabrielcity.com/elections",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Kevin B. Sawkins - Law Office of Kevin B. Sawkins",
+      "publisher": "Law Office of Kevin B. Sawkins",
+      "url": "https://www.sawkinslaw.com/attorney/kevin-b-sawkins/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Law Office of Kevin B. Sawkins: Monrovia Law Firm",
+      "publisher": "Law Office of Kevin B. Sawkins",
+      "url": "https://www.sawkinslaw.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.865Z",
+    "version": 3
+  }
+}

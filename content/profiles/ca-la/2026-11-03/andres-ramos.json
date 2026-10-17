@@ -1,0 +1,97 @@
+{
+  "key": "andres-ramos",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Andres Ramos",
+  "office": "Compton Community College District, Governing Board Member, Trustee Area No. 1",
+  "contestIds": ["la-4348-cc10579"],
+  "kind": "candidate",
+  "tier": "short",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Andres Ramos has served on the Compton Community College District board since 2007. He says he served in the Navy Reserve and works for AT&T. He says his accomplishments include the college regaining accreditation in 2019 and voters passing Measure C in 2014. A 251-bed student housing project broke ground in 2025. In his 2022 campaign, he said his goals included growing dual enrollment, vocational education, and improving facilities.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Andres Ramos has served on the Compton Community College District board since 2007.",
+            "cites": [1]
+          },
+          {
+            "text": "He says he served in the Navy Reserve and works for AT&T.",
+            "cites": [1]
+          },
+          {
+            "text": "He says his accomplishments include the college regaining accreditation in 2019 and voters passing Measure C in 2014.",
+            "cites": [1]
+          },
+          {
+            "text": "A 251-bed student housing project broke ground in 2025.",
+            "cites": [2]
+          },
+          {
+            "text": "In his 2022 campaign, he said his goals included growing dual enrollment, vocational education, and improving facilities.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Andres Ramos for College Board 2022",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/211601533-Andres%20Ramos%20for%20College%20Board%202022",
+        "period": "July 1 to September 19, 2026",
+        "raised": 0,
+        "cashOnHand": 2115
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Andres Ramos - Ballotpedia",
+      "publisher": "Ballotpedia",
+      "url": "https://ballotpedia.org/Andres_Ramos",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Compton College 2035: Comprehensive Master Plan Guides Student Learning, Facilities Upgrades",
+      "publisher": "2UrbanGirls",
+      "url": "https://2urbangirls.com/2025/02/compton-college-2035-comprehensive-master-plan-guides-student-learning-facilities-upgrades/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Endorsed Candidates – November 3, 2026 General Election",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:36.889Z",
+    "version": 4
+  }
+}

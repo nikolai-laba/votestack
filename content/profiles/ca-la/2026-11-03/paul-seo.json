@@ -1,0 +1,422 @@
+{
+  "key": "paul-seo",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Paul Seo",
+  "party": "Democratic",
+  "office": "State Assembly Member, 66th District",
+  "contestIds": ["la-4348-cc10802"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Paul Seo, a Democrat, is the mayor of Rancho Palos Verdes and a deputy attorney general at the California Department of Justice. He previously served as a deputy district attorney prosecuting violent felonies and as a U.S. Army officer. At a forum, he said the state should plan a fossil fuel phaseout but warned that closing refineries too quickly could raise gas prices, and he opposes single-payer healthcare, calling instead for stable state healthcare funding. He proposes increasing police and prosecutor staffing, expanding emergency response, cutting housing construction regulations, and improving access to affordable healthcare and childcare. His campaign credits him with prosecuting the 2021 Huntington Beach oil spill, creating a public safety division, and securing landslide relief funds.",
+        "cites": [1, 2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "Paul Seo, a Democrat, is the mayor of Rancho Palos Verdes and a deputy attorney general at the California Department of Justice.",
+            "cites": [1]
+          },
+          {
+            "text": "He previously served as a deputy district attorney prosecuting violent felonies and as a U.S. Army officer.",
+            "cites": [2]
+          },
+          {
+            "text": "At a forum, he said the state should plan a fossil fuel phaseout but warned that closing refineries too quickly could raise gas prices, and he opposes single-payer healthcare, calling instead for stable state healthcare funding.",
+            "cites": [3]
+          },
+          {
+            "text": "He proposes increasing police and prosecutor staffing, expanding emergency response, cutting housing construction regulations, and improving access to affordable healthcare and childcare.",
+            "cites": [4]
+          },
+          {
+            "text": "His campaign credits him with prosecuting the 2021 Huntington Beach oil spill, creating a public safety division, and securing landslide relief funds.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Paul Seo for Assembly 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477831",
+        "period": "July 1 to September 19, 2026",
+        "raised": 271786.76,
+        "cashOnHand": 129038.76,
+        "breakdown": [
+          { "kind": "small", "amount": 159 },
+          { "kind": "large", "amount": 68448.84 },
+          { "kind": "pac", "amount": 143578.92 },
+          { "kind": "other", "amount": 59600 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 180700, "count": 51 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "U.S. Sen. Adam Schiff",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "U.S. Sen. Andy Kim (New Jersey)",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "U.S. Rep. Judy Chu",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "U.S. Rep. Dave Min",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "California Attorney General Rob Bonta",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "California State Treasurer Fiona Ma",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assembly Speaker Robert Rivas",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Sen. Lena Gonzalez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Al Muratsuchi",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assembly Democratic Caucus Chair Rick Chavez Zbur",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assembly Majority Whip Mark González",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assembly Assistant Majority Whip Jessica Caloza",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Mike Fong",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Assemblymember Stephanie Nguyen",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [6]
+      },
+      {
+        "organization": "Los Angeles County Supervisor Janice Hahn",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Los Angeles County Assessor Jeff Prang",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "California Democratic Party",
+        "kind": "party",
+        "cites": [8]
+      },
+      {
+        "organization": "California Federation of Labor Unions",
+        "kind": "union",
+        "cites": [1]
+      },
+      { "organization": "SEIU California", "kind": "union", "cites": [6] },
+      {
+        "organization": "California Professional Firefighters",
+        "kind": "union",
+        "cites": [1]
+      },
+      {
+        "organization": "California Environmental Voters",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Planned Parenthood Advocacy Project Los Angeles County Action Fund",
+        "kind": "organization",
+        "cites": [10]
+      },
+      { "organization": "Sierra Club", "kind": "organization", "cites": [6] },
+      {
+        "organization": "California Asian American & Pacific Islander (AAPI) Legislative Caucus",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Los Angeles Police Protective League",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Association for Los Angeles Deputy Sheriffs",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "California Association of Highway Patrolmen",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Association of Deputy District Attorneys of Los Angeles County",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "California Narcotic Officers' Association",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "International Alliance of Theatrical Stage Employees (IATSE)",
+        "kind": "union",
+        "cites": [6]
+      },
+      { "organization": "IBEW Local 40", "kind": "union", "cites": [6] },
+      { "organization": "IAM District 947", "kind": "union", "cites": [6] },
+      {
+        "organization": "Painters and Allied Trades District Council 36",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "United Steelworkers Local 675",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "United Nurses Associations of California/Union of Health Care Professionals",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Asian Democrats of Los Angeles County",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "Los Angeles County Young Democrats",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Stonewall Young Democrats",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "California Correctional Peace Officers Association (CCPOA)",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Democrats for Israel – Los Angeles",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "American Independent Party",
+        "kind": "party",
+        "cites": [13]
+      },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [14]
+      },
+      {
+        "organization": "Republican Party of Los Angeles County",
+        "kind": "party",
+        "cites": [15]
+      },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [16] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Paul Seo seeks Assembly District 66 seat Nov. 3 | South Bay Tide",
+      "publisher": "South Bay Tide",
+      "url": "https://southbaytide.com/articles/paul-seo-seeks-assembly-district-66-seat-nov-3-mv14c7aq",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Mayor Paul Seo | Rancho Palos Verdes, CA - Official Website",
+      "publisher": "City of Rancho Palos Verdes",
+      "url": "https://www.rpvca.gov/1582/Mayor-Paul-Seo",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "South Bay state Senate, Assembly candidates address concerns of local businesses",
+      "publisher": "Daily Breeze",
+      "url": "https://www.dailybreeze.com/2026/09/10/south-bay-state-senate-assembly-candidates-address-concerns-of-local-businesses/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Paul Seo — Meet the Korean-American Leader Running for Assembly",
+      "publisher": "Korea Daily",
+      "url": "https://en.koreadaily.com/paul-seo-california-assembly-candidate/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Meet Paul | Paul Seo for Assembly",
+      "publisher": "Paul Seo campaign",
+      "url": "https://www.paulseo.com/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Muratsuchi Endorses Seo for 66th District",
+      "publisher": "Rafu Shimpo",
+      "url": "https://rafu.com/2026/08/muratsuchi-endorses-seo-for-66th-district/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements | Paul Seo for Assembly",
+      "publisher": "Paul Seo for Assembly 2026",
+      "url": "https://www.paulseo.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "2026 General Election Endorsements & Ballot Measure Positions",
+      "publisher": "California Democratic Party",
+      "url": "https://cadem.org/wp-content/uploads/2026/08/FINAL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 9,
+      "title": "Who We're Endorsing in California's 2026 Election",
+      "publisher": "California Environmental Voters",
+      "url": "https://envirovoters.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "Voter Guide",
+      "publisher": "Planned Parenthood Advocacy Project Los Angeles County",
+      "url": "https://www.plannedparenthoodaction.org/planned-parenthood-advocacy-project-los-angeles-county/voter-guide-ppapx",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 11,
+      "title": "2026 General Endorsements",
+      "publisher": "Asian Democrats of Los Angeles County",
+      "url": "https://www.asiandemsla.org/2026-endorsements.html",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Democrats for Israel – Los Angeles",
+      "url": "https://dfi-la.org/endorse",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "Party Endorsements for Voter-Nominated Offices, November 3, 2026 General Election",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/additional-election-information",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "LAGOP Endorsement Lookup, November 3, 2026 General Election",
+      "publisher": "Republican Party of Los Angeles County",
+      "url": "https://lagop-endorsement-lookup.vercel.app/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
+      "publisher": "SEIU Local 721",
+      "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 16
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.726Z",
+    "version": 6
+  }
+}

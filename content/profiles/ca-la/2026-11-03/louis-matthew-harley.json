@@ -1,0 +1,120 @@
+{
+  "key": "louis-matthew-harley",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Louis Matthew Harley",
+  "office": "Palos Verdes Peninsula Unified School District, Governing Board Member",
+  "contestIds": ["la-4348-cc10662"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Louis Matthew Harley is a retired high school teacher and attorney. He taught for 30 years and served on the board of the Palos Verdes Faculty Association, which negotiates teachers' contracts.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Louis Matthew Harley is a retired high school teacher and attorney.",
+            "cites": [1]
+          },
+          {
+            "text": "He taught for 30 years and served on the board of the Palos Verdes Faculty Association, which negotiates teachers' contracts.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "He lists declining enrollment, banning student artificial intelligence use, and cleaner campuses among his top priorities. He says his priorities for district bond funds include air conditioning and heaters. He opposes school vouchers. He also wants to recruit and keep new teachers.",
+        "cites": [2, 1],
+        "sentences": [
+          {
+            "text": "He lists declining enrollment, banning student artificial intelligence use, and cleaner campuses among his top priorities.",
+            "cites": [2]
+          },
+          {
+            "text": "He says his priorities for district bond funds include air conditioning and heaters.",
+            "cites": [1]
+          },
+          { "text": "He opposes school vouchers.", "cites": [1] },
+          {
+            "text": "He also wants to recruit and keep new teachers.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217101346-Harley%2C%20Louis",
+      "underThreshold": true
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [3]
+      },
+      {
+        "organization": "Democrats for Israel - Los Angeles",
+        "kind": "organization",
+        "cites": [4]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [5] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "PVP Watch endorses Jeremy Vanderhal and Liz Peterson for the Palos Verdes Peninsula Unified School District (PVPUSD)",
+      "publisher": "PVP Watch",
+      "url": "https://www.pvpwatch.com/uploads/PVPUSD%202026.pdf",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Who's Running - PV Informer",
+      "publisher": "PV Informer",
+      "url": "https://pvinformer.com/ballot-guide/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Endorsed Candidates - Los Angeles County Democratic Party",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Endorsements - Election Candidates Endorsed by DFI-Los Angeles",
+      "publisher": "Democrats for Israel - Los Angeles",
+      "url": "https://www.dfi-la.org/endorse",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 5
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.110Z",
+    "version": 3
+  }
+}

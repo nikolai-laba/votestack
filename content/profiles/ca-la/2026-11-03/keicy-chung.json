@@ -1,0 +1,59 @@
+{
+  "key": "keicy-chung",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Keicy Chung",
+  "office": "El Camino Community College District, Governing Board Member, Trustee Area No. 5",
+  "contestIds": ["la-4348-cc10584"],
+  "kind": "candidate",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Keicy Chung is a candidate for El Camino Community College District Governing Board Member, Trustee Area No. 5. Chung is a business owner and student.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Keicy Chung is a candidate for El Camino Community College District Governing Board Member, Trustee Area No. 5.",
+            "cites": [1]
+          },
+          { "text": "Chung is a business owner and student.", "cites": [2] }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217154839-Chung%2C%20Keicy",
+      "underThreshold": true
+    }
+  },
+  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate Statements - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://apps.lavote.gov/candidate-statements/",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Candidate List - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/Apps/CandidateList/Index?id=4348",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T05:54:20.768Z",
+    "version": 2
+  }
+}

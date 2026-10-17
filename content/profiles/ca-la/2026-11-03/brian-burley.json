@@ -1,0 +1,212 @@
+{
+  "key": "brian-burley",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Brian Burley",
+  "party": "Republican",
+  "office": "U.S. Representative, 42nd District",
+  "contestIds": ["la-4348-cc10819"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Brian Burley is a trustee on the Huntington Beach City School District Board. He works as a system administrator at USC. He is also running for an at-large seat on the Huntington Beach City Council. A constitutional law expert told the Orange County Register that he likely could not serve in both offices if elected.",
+        "cites": [1, 2, 3],
+        "sentences": [
+          {
+            "text": "Brian Burley is a trustee on the Huntington Beach City School District Board.",
+            "cites": [1]
+          },
+          {
+            "text": "He works as a system administrator at USC.",
+            "cites": [2]
+          },
+          {
+            "text": "He is also running for an at-large seat on the Huntington Beach City Council.",
+            "cites": [3]
+          },
+          {
+            "text": "A constitutional law expert told the Orange County Register that he likely could not serve in both offices if elected.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "Burley said he would support responsible federal spending, tax relief for families and small businesses, expanded domestic energy production, and fewer costly federal regulations. To address housing affordability, he proposes expanding federal mortgage credit certificate programs for first-time homebuyers, with updated eligibility limits for high-cost areas. He says surveillance tools like license plate readers should be limited to targeted public-safety investigations, with warrants generally required and strict data retention limits. On immigration, he calls for permanently secured borders, completion of the border wall, nationwide employment verification, and stronger action against sanctuary jurisdictions.",
+        "cites": [4],
+        "sentences": [
+          {
+            "text": "Burley said he would support responsible federal spending, tax relief for families and small businesses, expanded domestic energy production, and fewer costly federal regulations.",
+            "cites": [4]
+          },
+          {
+            "text": "To address housing affordability, he proposes expanding federal mortgage credit certificate programs for first-time homebuyers, with updated eligibility limits for high-cost areas.",
+            "cites": [4]
+          },
+          {
+            "text": "He says surveillance tools like license plate readers should be limited to targeted public-safety investigations, with warrants generally required and strict data retention limits.",
+            "cites": [4]
+          },
+          {
+            "text": "On immigration, he calls for permanently secured borders, completion of the border wall, nationwide employment verification, and stronger action against sanctuary jurisdictions.",
+            "cites": [4]
+          }
+        ]
+      },
+      {
+        "text": "His campaign says he has stood for parental rights and fiscal responsibility on the school board.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "His campaign says he has stood for parental rights and fiscal responsibility on the school board.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Brian Burley for Congress",
+        "url": "https://www.fec.gov/data/committee/C00700187/?cycle=2026",
+        "period": "January 1, 2025 to June 30, 2026",
+        "raised": 231370.76,
+        "cashOnHand": 5508.52,
+        "breakdown": [
+          { "kind": "small", "amount": 22655.6 },
+          { "kind": "large", "amount": 22201.26 },
+          { "kind": "candidate", "amount": 186000 },
+          { "kind": "other", "amount": 513.9 }
+        ],
+        "fromCandidate": 186000
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Republican Party",
+        "kind": "party",
+        "cites": [5]
+      },
+      {
+        "organization": "American Independent Party",
+        "kind": "party",
+        "cites": [6]
+      },
+      {
+        "organization": "California Republican Assembly",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "California Congress of Republicans",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "California ProLife Council",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [10]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Bio | Brian Burley for Congress",
+      "publisher": "Brian Burley campaign",
+      "url": "https://www.burley4congress.com/bio",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Brian Burley, CA-42 candidate, 2026 election questionnaire",
+      "publisher": "Orange County Register",
+      "url": "https://www.ocregister.com/2026/10/05/brian-burley-ca-42-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Election 2026: Why a Huntington Beach candidate will appear twice on ballots",
+      "publisher": "Orange County Register",
+      "url": "https://www.ocregister.com/2026/09/29/election-2026-why-a-huntington-beach-candidate-will-appear-twice-on-ballots/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "California's 42nd Congressional District candidates align on surveillance tech, differ on immigration policy",
+      "publisher": "Orange County Register",
+      "url": "https://www.ocregister.com/2026/10/13/californias-42nd-congressional-district-candidates-align-on-surveillance-tech-differ-on-immigration-policy/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "2026 CRP Endorsements",
+      "publisher": "California Republican Party",
+      "url": "https://cagop.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "November 3, 2026 General Election: Party Endorsements for Voter-Nominated Offices",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/additional-election-information",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "November 2026 General Election Endorsements (updated August 26, 2026)",
+      "publisher": "California Republican Assembly",
+      "url": "https://cragop.org/wp-content/uploads/2026/08/PDF-November-2026-General-Election-Endorsements-08-26-26.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "Endorsements | Brian Burley for Congress",
+      "publisher": "Brian Burley for Congress",
+      "url": "https://www.burley4congress.com/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "California ProLife Council 2026 Voter Guide",
+      "publisher": "California ProLife Council",
+      "url": "https://californiaprolife.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 10
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.839Z",
+    "version": 4
+  }
+}

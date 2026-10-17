@@ -21,6 +21,9 @@
     "data:build": "node scripts/build-precincts.ts && node scripts/import-cook-clerk.ts && node scripts/import-chicago-boe.ts && node scripts/fetch-clerk-precincts.ts && node scripts/fetch-clerk-ballots.ts && node scripts/build-clerk-precincts.ts && node scripts/build-chicago-precincts.ts && node scripts/build-paper-order.ts",
     "lookup": "node scripts/lookup.ts",
     "data:audit": "node scripts/audit-sample-ballots.ts && node scripts/audit-chicago.ts",
+    "la:fetch": "node scripts/la/fetch-la-address-points.ts && node scripts/la/fetch-la-precincts.ts && node scripts/la/fetch-la-isb.ts",
+    "la:build": "node scripts/la/build-la.ts",
+    "la:audit": "node scripts/la/audit-la.ts",
     "data:load": "node --env-file=.env scripts/load-supabase.ts",
     "profiles:money": "node scripts/profiles/money.ts",
     "profiles:subjects": "node scripts/profiles/subjects.ts",
@@ -34,7 +37,9 @@
     "profiles:slates": "node scripts/profiles/slates.ts",
     "reports": "node --env-file=.env scripts/reports.ts",
     "data:incumbents": "node scripts/build-incumbents.ts",
-    "contests:export": "node scripts/export-contests.ts"
+    "contests:export": "node scripts/export-contests.ts",
+    "region:check": "node scripts/region-check.ts",
+    "profiles:rosters": "node scripts/profiles/rosters.ts"
   },
   "dependencies": {
     "@fontsource-variable/atkinson-hyperlegible-next": "^5.3.0",

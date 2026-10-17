@@ -21,6 +21,11 @@ import { SampleModeContext, useSampleMode } from '../picks/sampleMode.ts'
 import { useBallotStore, type Picks } from '../picks/store.ts'
 import { choicesFor, swapText } from '../picks/summary.ts'
 import { partyLine, profileKey } from '../shared/profile.ts'
+import {
+  COOK,
+  regionForElection,
+  type MeasureWords,
+} from '../shared/regions.ts'
 import { BallotOrderToggle } from './BallotOrderToggle.tsx'
 import { ChevronDownIcon, WarningIcon } from './icons.tsx'
 import {
@@ -35,14 +40,17 @@ const plural = (n: number, one: string, many: string) =>
   `${n} ${n === 1 ? one : many}`
 
 /** "26 races, 60 judges up for retention and 2 referenda" */
-export function raceCountText(contests: Contest[]): string {
+export function raceCountText(
+  contests: Contest[],
+  words: MeasureWords = COOK.measureWords,
+): string {
   const count = (kind: Contest['kind']) =>
     contests.filter((c) => c.kind === kind).length
   const parts = [
     plural(count('candidate'), 'race', 'races'),
     count('retention') &&
       `${plural(count('retention'), 'judge', 'judges')} up for retention`,
-    count('measure') && plural(count('measure'), 'referendum', 'referenda'),
+    count('measure') && plural(count('measure'), words.one, words.many),
   ].filter((p): p is string => Boolean(p))
   return parts.length > 1
     ? `${parts.slice(0, -1).join(', ')} and ${parts.at(-1)}`
@@ -64,7 +72,9 @@ export function BallotView({
   titleElsewhere?: boolean
 }) {
   const [order] = useBallotOrder()
-  const sections = sectionsFor(ballot.contests, order)
+  const region = regionForElection(ballot.election.id) ?? COOK
+  const words = region.measureWords
+  const sections = sectionsFor(ballot.contests, order, region)
   const current = useCurrentSection(sections)
   const published = new Set(ballot.publishedProfiles ?? [])
   const Title = titleElsewhere ? 'h2' : 'h1'
@@ -88,8 +98,8 @@ export function BallotView({
 
       <p className="text-section font-heading font-semibold">
         {sample
-          ? `This ballot has ${raceCountText(ballot.contests)}.`
-          : `You have ${raceCountText(ballot.contests)} on your ballot.`}
+          ? `This ballot has ${raceCountText(ballot.contests, words)}.`
+          : `You have ${raceCountText(ballot.contests, words)} on your ballot.`}
       </p>
 
       <CoverageNotice coverage={ballot.coverage} />
@@ -133,7 +143,7 @@ export function BallotView({
       )}
 
       {sections.map((section) =>
-        section.id === 'retention' ? (
+        section.contests.every((c) => c.kind === 'retention') ? (
           <RetentionPanel
             key={section.id}
             section={section}
@@ -150,22 +160,34 @@ export function BallotView({
             <h2 id={`section-${section.id}-heading`} className="text-section">
               {section.title}
             </h2>
-            <ul className="space-y-4">
-              {section.contests.map((contest) => (
-                <li key={contest.id}>
-                  {contest.kind === 'candidate' && (
-                    <CandidateRace
-                      contest={contest}
+            {section.groups ? (
+              section.groups.map((group) => {
+                const headingId = `section-${section.id}-${group.id}-heading`
+                return (
+                  <section
+                    key={group.id}
+                    aria-labelledby={headingId}
+                    className="space-y-4"
+                  >
+                    <h3 id={headingId} className="text-race">
+                      {group.title}
+                    </h3>
+                    <ContestList
+                      contests={group.contests}
                       published={published}
                       picks={picks}
+                      headingLevel={4}
                     />
-                  )}
-                  {contest.kind === 'measure' && (
-                    <Measure contest={contest} picks={picks} />
-                  )}
-                </li>
-              ))}
-            </ul>
+                  </section>
+                )
+              })
+            ) : (
+              <ContestList
+                contests={section.contests}
+                published={published}
+                picks={picks}
+              />
+            )}
           </section>
         ),
       )}
@@ -174,6 +196,44 @@ export function BallotView({
         <p>No races found for this address yet.</p>
       )}
     </article>
+  )
+}
+
+/** A section's (or a group's) races and measures, as cards. */
+function ContestList({
+  contests,
+  published,
+  picks,
+  headingLevel = 3,
+}: {
+  contests: Contest[]
+  published: Set<string>
+  picks: Picks
+  /** 4 inside a group that has its own h3. */
+  headingLevel?: HeadingLevel
+}) {
+  return (
+    <ul className="space-y-4">
+      {contests.map((contest) => (
+        <li key={contest.id}>
+          {contest.kind === 'candidate' && (
+            <CandidateRace
+              contest={contest}
+              published={published}
+              picks={picks}
+              headingLevel={headingLevel}
+            />
+          )}
+          {contest.kind === 'measure' && (
+            <Measure
+              contest={contest}
+              picks={picks}
+              headingLevel={headingLevel}
+            />
+          )}
+        </li>
+      ))}
+    </ul>
   )
 }
 
@@ -368,24 +428,22 @@ function CoverageNotice({ coverage }: { coverage: Coverage }) {
         <h2 className="font-sans text-label font-bold">
           Some races may be missing from this list
         </h2>
-        {coverage.notes.length > 0 && (
-          <ul className="list-disc space-y-1 ps-5">
-            {coverage.notes.map((note) => (
-              <li key={note}>{note}</li>
-            ))}
-          </ul>
-        )}
-        {coverage.officialSampleBallotUrl && (
+        {(coverage.notes.length > 0 || coverage.officialSampleBallotUrl) && (
           <p>
-            {/* A link on its own line, so it gets a 44px target. */}
-            <a
-              className="inline-flex min-h-11 items-center text-warn-fg"
-              href={webUrl(coverage.officialSampleBallotUrl)}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Check your official sample ballot
-            </a>
+            {coverage.notes.join(' ')}
+            {coverage.notes.length > 0 &&
+              coverage.officialSampleBallotUrl &&
+              ' '}
+            {coverage.officialSampleBallotUrl && (
+              <a
+                className="text-warn-fg"
+                href={webUrl(coverage.officialSampleBallotUrl)}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Check your official sample ballot
+              </a>
+            )}
           </p>
         )}
       </div>
@@ -393,22 +451,33 @@ function CoverageNotice({ coverage }: { coverage: Coverage }) {
   )
 }
 
+type HeadingLevel = 3 | 4
+
 /** The paper-ballot header: office name and how many to vote for. */
 function ContestBand({
   title,
   voteFor,
   anchorId,
+  headingLevel = 3,
 }: {
   title: string
   voteFor?: number
   /** Focused by a race's "Show on ballot" link on Saved choices. */
   anchorId?: string
+  /** 4 under a group's own heading (measures by level). */
+  headingLevel?: HeadingLevel
 }) {
+  const Heading = headingLevel === 4 ? 'h4' : 'h3'
   return (
     <div className="border-b-2 border-text bg-band px-4 py-3">
-      <h3 id={anchorId} tabIndex={-1} className="scroll-mt-4 text-race">
+      <Heading
+        id={anchorId}
+        tabIndex={-1}
+        // An h4 gets the heading face that h1 to h3 get from the base styles.
+        className={`scroll-mt-4 text-race ${headingLevel === 4 ? 'font-heading font-semibold text-balance' : ''}`.trim()}
+      >
         {title}
-      </h3>
+      </Heading>
       {voteFor !== undefined && (
         <p className="text-small">
           {voteFor === 1 ? 'Vote for 1' : `Vote for up to ${voteFor}`}
@@ -424,6 +493,7 @@ function CandidateRace({
   picks,
   idPrefix = '',
   fromBallot = true,
+  headingLevel = 3,
 }: {
   contest: CandidateContest
   published: Set<string>
@@ -431,6 +501,7 @@ function CandidateRace({
   /** Set in the race panel, so its ids don't repeat the list's. */
   idPrefix?: string
   fromBallot?: boolean
+  headingLevel?: HeadingLevel
 }) {
   const candidates = [...contest.candidates].sort(
     (a, b) => (a.ballotOrder ?? 0) - (b.ballotOrder ?? 0),
@@ -445,6 +516,7 @@ function CandidateRace({
         title={contest.title}
         voteFor={contest.voteFor}
         anchorId={idPrefix ? undefined : raceAnchorId(contest.id)}
+        headingLevel={headingLevel}
       />
       {candidates.length > 0 && <SwapAnnouncement text={swapped} />}
       {candidates.length > 0 ? (
@@ -475,6 +547,7 @@ function CandidateRace({
                 <CandidateRow
                   name={candidate.name}
                   detail={partyLine(candidate.party, candidate.incumbent)}
+                  designation={candidate.designation}
                   rowId={`row-${contest.id}-${profileKey(candidate.name)}`}
                   idPrefix={idPrefix}
                   published={published}
@@ -493,22 +566,61 @@ function CandidateRace({
   )
 }
 
+/** The lead-in labels the official text starts a part with (scripts/la/titles.ts). */
+const MEASURE_PART = /^(Fiscal Impact|Supporters|Opponents):\s*/
+
+/** A measure's official text, each part in its own paragraph with its label in bold. */
+function MeasureText({ text }: { text: string }) {
+  return (
+    <div className="space-y-3">
+      {text.split('\n').map((line, i) => {
+        const part = line.match(MEASURE_PART)
+        return (
+          <p key={i}>
+            {part && <strong>{part[1]}:</strong>}
+            {part ? ` ${line.slice(part[0].length)}` : line}
+          </p>
+        )
+      })}
+    </div>
+  )
+}
+
 function Measure({
   contest,
   picks,
+  headingLevel = 3,
 }: {
   contest: MeasureContest
   picks: Picks
+  headingLevel?: HeadingLevel
 }) {
   const sample = useSampleMode()
   return (
     <div className="overflow-hidden rounded-md border border-line bg-surface">
-      <ContestBand title={contest.title} anchorId={raceAnchorId(contest.id)} />
+      <ContestBand
+        title={contest.title}
+        anchorId={raceAnchorId(contest.id)}
+        headingLevel={headingLevel}
+      />
       <div className="max-w-[65ch] space-y-1 px-4 py-3">
         <p className="text-small font-semibold text-muted">
           Official ballot text
         </p>
-        <p className="whitespace-pre-line">{contest.question}</p>
+        <MeasureText text={contest.question} />
+        {contest.guide && webUrl(contest.guide.url) && (
+          <p>
+            Full text and arguments:{' '}
+            <a
+              className="inline-flex min-h-11 items-center"
+              href={webUrl(contest.guide.url)}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {contest.guide.name}
+            </a>
+          </p>
+        )}
       </div>
       {!sample && (
         <div className="px-4 pb-3">
@@ -633,6 +745,7 @@ function RetentionRow({
 function CandidateRow({
   name,
   detail,
+  designation,
   rowId,
   idPrefix = '',
   published,
@@ -641,6 +754,8 @@ function CandidateRow({
   name: string
   /** Party (and "incumbent", see partyLine) for candidates, office for judges. */
   detail?: string
+  /** The ballot designation printed under the name, where ballots have one. */
+  designation?: string
   /** The row's id in the ballot list, where Back returns focus. */
   rowId: string
   /** Set in the race panel, so its ids don't repeat the list's. */
@@ -662,6 +777,12 @@ function CandidateRow({
         <span className="block text-small text-muted">
           <span className="sr-only">, </span>
           {detail}
+        </span>
+      )}
+      {designation && (
+        <span className="block text-small text-muted">
+          <span className="sr-only">, </span>
+          {designation}
         </span>
       )}
     </span>

@@ -1,0 +1,139 @@
+{
+  "key": "lissette-rivera",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Lissette Rivera",
+  "office": "City of Downey, Member of the City Council, 4th District",
+  "contestIds": ["la-4348-cc10444"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Lissette Rivera is a small business owner and former Public Works Committee member. In January 2026, her appointment to the city's Recreation and Community Services Commission was on the City Council's agenda. She is co-founder and president of WOLF (War On Lethal Fentanyl). Her campaign priorities include supporting police and firefighters, repairing streets and parks, reducing small-business red tape, expanding STEM education, protecting seniors and veterans, and increasing government transparency.",
+        "cites": [1, 2]
+      },
+      {
+        "text": "In 2023 she asked the city to install Narcan in facilities and increase fentanyl training. She opposed a local rent control ordinance in 2021. The city council tightened ethics rules after she distributed business cards with the city logo without authorization.",
+        "cites": [3, 4, 5],
+        "sentences": [
+          {
+            "text": "In 2023 she asked the city to install Narcan in facilities and increase fentanyl training.",
+            "cites": [3]
+          },
+          {
+            "text": "She opposed a local rent control ordinance in 2021.",
+            "cites": [4]
+          },
+          {
+            "text": "The city council tightened ethics rules after she distributed business cards with the city logo without authorization.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Downey",
+      "url": "https://lf.downeyca.org/WebLink/Browse.aspx?id=782257&dbid=0&repo=Downey"
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "U.S. Rep. Linda Sánchez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [1]
+      },
+      {
+        "organization": "California State Treasurer Fiona Ma",
+        "kind": "elected_official",
+        "cites": [1]
+      },
+      {
+        "organization": "State Sen. Lena Gonzalez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [1]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [6]
+      },
+      { "organization": "IBEW Local 11", "kind": "union", "cites": [6] },
+      { "organization": "IBEW Local 47", "kind": "union", "cites": [6] },
+      {
+        "organization": "Operating Engineers Local 12",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Operating Engineers Local 501",
+        "kind": "union",
+        "cites": [6]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Lissette Rivera Announces Candidacy for Downey City Council District 4",
+      "publisher": "Los Cerritos Community News",
+      "url": "https://www.loscerritosnews.net/2026/07/04/lissette-rivera-announces-candidacy-for-downey-city-council-district-4/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "City Council Regular Closed & Open Sessions Packet",
+      "publisher": "City of Downey",
+      "url": "https://horizon.agendalink.app/engage-v2/downeyca/695db4ae130b45004af93383",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Minutes 05-23-23 Regular Meeting",
+      "publisher": "City of Downey",
+      "url": "https://lf.downeyca.org/WebLink/DocView.aspx?id=977562&dbid=0&repo=Downey",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Minutes 02-09-21 Regular Meeting - City of Downey",
+      "publisher": "City of Downey",
+      "url": "https://lf.downeyca.org/WebLink/DocView.aspx?id=786098&dbid=0&repo=Downey",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "City tightens conduct rules for appointed officials",
+      "publisher": "The Downey Patriot",
+      "url": "https://www.thedowneypatriot.com/articles/city-tightens-conduct-rules-for-appointed-officials",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Five labor organizations endorse Lissette Rivera for Downey City Council District 4",
+      "publisher": "The Downey Patriot",
+      "url": "https://www.thedowneypatriot.com/articles/five-labor-organizations-endorse-lissette-rivera-for-downey-city-council-district-4",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T16:56:23.431Z",
+    "version": 3
+  }
+}

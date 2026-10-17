@@ -1,0 +1,138 @@
+{
+  "key": "bill-rounds",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Bill Rounds",
+  "office": "City of Santa Fe Springs, Member of the City Council",
+  "contestIds": ["la-4348-cc10513"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Bill Rounds was first elected to the Santa Fe Springs City Council in 2007 and served as mayor in 2012, 2017, and 2020. He served 11 years on the planning commission and retired from the LA County Sanitation District.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Bill Rounds was first elected to the Santa Fe Springs City Council in 2007 and served as mayor in 2012, 2017, and 2020.",
+            "cites": [1]
+          },
+          {
+            "text": "He served 11 years on the planning commission and retired from the LA County Sanitation District.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "In 2020, he voted to change landscaping contractors to save roughly $71,000 annually. In 2008, he served on a subcommittee to renegotiate the Whittier police contract. In 2016, he said moving the fireworks show to Sunday would let police focus on illegal fireworks. In 2022, he called a 140-unit affordable housing proposal a 'definite improvement.' As mayor in 2025, he spoke at the Aquatic Center's Phase Two groundbreaking, calling the project a commitment to wellness and inclusion.",
+        "cites": [3, 4, 5, 6, 7],
+        "sentences": [
+          {
+            "text": "In 2020, he voted to change landscaping contractors to save roughly $71,000 annually.",
+            "cites": [3]
+          },
+          {
+            "text": "In 2008, he served on a subcommittee to renegotiate the Whittier police contract.",
+            "cites": [4]
+          },
+          {
+            "text": "In 2016, he said moving the fireworks show to Sunday would let police focus on illegal fireworks.",
+            "cites": [5]
+          },
+          {
+            "text": "In 2022, he called a 140-unit affordable housing proposal a 'definite improvement.'",
+            "cites": [6]
+          },
+          {
+            "text": "As mayor in 2025, he spoke at the Aquatic Center's Phase Two groundbreaking, calling the project a commitment to wellness and inclusion.",
+            "cites": [7]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Santa Fe Springs",
+        "committee": "committee to re-elect Bill Rounds to city council 2026",
+        "url": "https://netfile.com/public/SFS/campaign/filingsByFiler/215932212-Committee%20to%20Re-Elect%20Bill%20Rounds%20to%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 22395,
+        "cashOnHand": 35797.1,
+        "breakdown": [
+          { "kind": "large", "amount": 6399 },
+          { "kind": "other", "amount": 15996 }
+        ]
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Santa Fe Springs City Council appoints new mayor in ...",
+      "publisher": "Whittier Daily News",
+      "url": "https://www.whittierdailynews.com/2023/12/11/santa-fe-springs-city-council-has-appointed-their-new-mayor-and-mayor-pro-tem-for-2024/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Staff Directory • William K. Rounds - City Council",
+      "publisher": "City of Santa Fe Springs",
+      "url": "https://www.santafesprings.gov/m/directory/employee?eid=39",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "After 38 years with one landscaping company, Santa Fe ...",
+      "publisher": "Whittier Daily News",
+      "url": "https://www.whittierdailynews.com/2020/07/10/after-38-years-with-one-landscaping-company-santa-fe-springs-chooses-another-direction/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Santa Fe Springs in talks with Whittier over police contract",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2008/12/29/santa-fe-springs-in-talks-with-whittier-over-police-contract/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Why some cities are holding fireworks shows before Independence Day",
+      "publisher": "Whittier Daily News",
+      "url": "https://www.whittierdailynews.com/2016/07/01/why-some-cities-are-holding-fireworks-shows-before-independence-day/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Santa Fe Springs affordable housing project has all of its ...",
+      "publisher": "Whittier Daily News",
+      "url": "https://www.whittierdailynews.com/2022/01/25/santa-fe-springs-affordable-housing-project-has-all-of-its-entitlements/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "Santa Fe Springs Enters Phase Two of the Paul T. Nakamura Regional Aquatic Center",
+      "publisher": "Los Cerritos Community News",
+      "url": "https://www.loscerritosnews.net/2025/10/30/santa-fe-springs-enters-phase-two-of-the-paul-t-nakamura-regional-aquatic-center/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.896Z",
+    "version": 3
+  }
+}

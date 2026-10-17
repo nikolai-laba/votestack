@@ -1,0 +1,222 @@
+{
+  "key": "jay-obernolte",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Jay Obernolte",
+  "party": "Republican",
+  "office": "U.S. Representative, 23rd District",
+  "contestIds": ["la-4348-cc10805"],
+  "kind": "candidate",
+  "tier": "top",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Jay Obernolte represents California's 23rd Congressional District. He started the software development company FarSight Studios and earned a master's degree in artificial intelligence. He chairs the House Science Subcommittee on Research and Technology and serves on the Energy and Commerce and Budget committees.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Jay Obernolte represents California's 23rd Congressional District.",
+            "cites": [1]
+          },
+          {
+            "text": "He started the software development company FarSight Studios and earned a master's degree in artificial intelligence.",
+            "cites": [2]
+          },
+          {
+            "text": "He chairs the House Science Subcommittee on Research and Technology and serves on the Energy and Commerce and Budget committees.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "His campaign says he supports balancing the federal budget, cutting spending, and completing the border wall. He has focused on artificial intelligence policy and served as chairman of the House AI Task Force.",
+        "cites": [2, 3],
+        "sentences": [
+          {
+            "text": "His campaign says he supports balancing the federal budget, cutting spending, and completing the border wall.",
+            "cites": [2]
+          },
+          {
+            "text": "He has focused on artificial intelligence policy and served as chairman of the House AI Task Force.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Jay Obernolte for Congress",
+        "url": "https://www.fec.gov/data/committee/C00720078/?cycle=2026",
+        "period": "January 1, 2025 to June 30, 2026",
+        "raised": 1455867.71,
+        "cashOnHand": 1644221.69,
+        "breakdown": [
+          { "kind": "small", "amount": 1363.12 },
+          { "kind": "large", "amount": 497396.71 },
+          { "kind": "pac", "amount": 863371.22 },
+          { "kind": "transfer", "amount": 60716.59 },
+          { "kind": "other", "amount": 33020.07 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Republican Party",
+        "kind": "party",
+        "cites": [4]
+      },
+      {
+        "organization": "American Independent Party of California",
+        "kind": "party",
+        "cites": [5]
+      },
+      {
+        "organization": "U.S. Chamber of Commerce",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Howard Jarvis Taxpayers Association PAC",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Log Cabin Republicans",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "San Bernardino Sun editorial board (Southern California News Group)",
+        "kind": "editorial_board",
+        "cites": [9]
+      },
+      {
+        "organization": "California ProLife Council",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "California Republican Assembly",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [12]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "About | Representative Jay Obernolte",
+      "publisher": "House.gov",
+      "url": "https://obernolte.house.gov/about",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Jay Obernolte for Congress – Conservative for California's 23rd ...",
+      "publisher": "Jay Obernolte campaign",
+      "url": "https://electjay.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Congressional Digest » Honorable Jay Obernolte",
+      "publisher": "Congressional Digest",
+      "url": "https://congressionaldigest.com/issue/artificial-intelligence-2/honorable-jay-obernolte/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Endorsements - CAGOP (2026 CRP Endorsements)",
+      "publisher": "California Republican Party",
+      "url": "https://cagop.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "November 3, 2026 General Election: Party Endorsements for Voter-Nominated Offices",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://www.lavote.gov/additional-election-information",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "U.S. Chamber Endorses Rep. Jay Obernolte for California's Twenty-Third District",
+      "publisher": "U.S. Chamber of Commerce",
+      "url": "https://www.uschamber.com/improving-government/u-s-chamber-endorses-rep-jay-obernolte-for-californias-twenty-third-district",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "HJTA PAC Endorsements Ballot Measures 5.4.26",
+      "publisher": "Howard Jarvis Taxpayers Association",
+      "url": "https://www.hjta.org/wp-content/uploads/2026/05/HJTA-PAC-Endorsements-Ballot-Measures-5.4.26.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "Log Cabin Republicans Endorse 22 GOP Candidates",
+      "publisher": "Instinct Magazine",
+      "url": "https://instinctmagazine.com/log-cabin-republicans-22-gop-candidates/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "Endorsement: Jay Obernolte for the 23rd congressional district",
+      "publisher": "San Bernardino Sun",
+      "url": "https://www.sbsun.com/2026/09/26/endorsement-jay-obernolte-for-the-23rd-congressional-district/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "California ProLife Council 2026 Voter Guide",
+      "publisher": "California ProLife Council",
+      "url": "https://californiaprolife.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "November 2026 General Election Endorsements: Los Angeles County",
+      "publisher": "California Republican Assembly",
+      "url": "https://cragop.org/los-angeles-county/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 12
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.763Z",
+    "version": 4
+  }
+}

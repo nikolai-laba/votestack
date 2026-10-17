@@ -1,0 +1,89 @@
+{
+  "key": "joann-n-smith",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Joann N. Smith",
+  "office": "Palmdale School District, Governing Board Member, Trustee Area No. 3",
+  "contestIds": ["la-4348-cc10759"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Joann N. Smith is a teacher and a candidate for the Palmdale School District board in Trustee Area 3. On her campaign site, Smith says she taught for nearly 30 years and wants to put students first.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Joann N. Smith is a teacher and a candidate for the Palmdale School District board in Trustee Area 3.",
+            "cites": [1]
+          },
+          {
+            "text": "On her campaign site, Smith says she taught for nearly 30 years and wants to put students first.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Committee to Elect Joann N. Smith For School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/216866474-Committee%20to%20Elect%20Joann%20N.%20Smith%20for%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 1900,
+        "cashOnHand": 1700,
+        "breakdown": [
+          { "kind": "large", "amount": 400 },
+          { "kind": "candidate", "amount": 1500 }
+        ],
+        "fromCandidate": 1500
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [3]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Palmdale School Board 2026: Seven Filers Line Up for Three Trustee-Area Seats",
+      "publisher": "Antelope Valley Online",
+      "url": "https://antelopevalleyonline.com/palmdale-school-board-2026-seven-filers-line-up-for-three-trustee-area-seats/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Joann N. Smith for Palmdale School Board — Students First, Community Always",
+      "publisher": "Joann N. Smith campaign",
+      "url": "https://joann4schools.org/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.226Z",
+    "version": 2
+  }
+}

@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest'
 import type { CandidateContest, Contest } from '../../src/shared/ballot.ts'
 import {
   buildIncumbents,
+  designationIncumbent,
   fecIncumbent,
   ilgaIncumbent,
   parseIlgaMembers,
@@ -189,6 +190,38 @@ describe('rosterIncumbent', () => {
         roster,
       ),
     ).toBeNull()
+  })
+})
+
+describe('designationIncumbent (California ballot designations)', () => {
+  const designations = (byKey: Record<string, string>) => ({
+    byKey: new Map(Object.entries(byKey)),
+    source: 'https://isb.lavote.gov/',
+    checked: '2026-10-15',
+  })
+  const ca = (key: string) => person({ key, name: key })
+
+  it('labels "Incumbent" and "Appointed Incumbent", alone or as one part', () => {
+    const d = designations({
+      a: 'Incumbent',
+      b: 'Appointed Incumbent',
+      c: 'Incumbent/Business Owner',
+    })
+    for (const key of ['a', 'b', 'c'])
+      expect(designationIncumbent(ca(key), d)).toMatchObject({
+        source: 'https://isb.lavote.gov/',
+      })
+  })
+
+  it('does not label other titles, which may name a different office', () => {
+    const d = designations({
+      a: 'Councilmember',
+      b: 'Assemblymember/Businesswoman',
+      c: 'Incumbent Water Director Advocate',
+    })
+    for (const key of ['a', 'b', 'c', 'missing'])
+      expect(designationIncumbent(ca(key), d)).toBeNull()
+    expect(designationIncumbent(ca('a'), undefined)).toBeNull()
   })
 })
 

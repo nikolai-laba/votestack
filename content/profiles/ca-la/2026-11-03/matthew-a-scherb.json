@@ -1,0 +1,130 @@
+{
+  "key": "matthew-a-scherb",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Matthew A. Scherb",
+  "office": "Associate Justice, Court of Appeal, Second District, Division Eight",
+  "contestIds": ["la-4348-rc10905"],
+  "kind": "retention",
+  "tier": "short",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Matthew A. Scherb is an Associate Justice of the Second District Court of Appeal, Division Eight, appointed in 2025. He was previously a California Supreme Court chambers attorney, an appellate court attorney, and a Los Angeles deputy city attorney. In 2026, he ruled that a TikTok post about a plastic surgery clinic’s staff lacked anti-SLAPP protection. He joined a ruling that disclosing the existence of sex-related videos was unprotected.",
+        "cites": [1, 2, 3, 4],
+        "sentences": [
+          {
+            "text": "Matthew A. Scherb is an Associate Justice of the Second District Court of Appeal, Division Eight, appointed in 2025.",
+            "cites": [1]
+          },
+          {
+            "text": "He was previously a California Supreme Court chambers attorney, an appellate court attorney, and a Los Angeles deputy city attorney.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2026, he ruled that a TikTok post about a plastic surgery clinic’s staff lacked anti-SLAPP protection.",
+            "cites": [3]
+          },
+          {
+            "text": "He joined a ruling that disclosing the existence of sex-related videos was unprotected.",
+            "cites": [4]
+          }
+        ]
+      }
+    ]
+  },
+  "money": { "asOf": "2026-10-16", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [5] },
+      {
+        "organization": "Indivisible Ventura",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Santa Clarita Valley Democrats",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Republican Party of San Luis Obispo County",
+        "kind": "party",
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Matthew Scherb | Second Appellate District | District Courts of Appeal",
+      "publisher": "Judicial Branch of California",
+      "url": "https://appellate.courts.ca.gov/district-courts/2dca/bio/matthew-scherb",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Commission Confirms Three Appointments to Courts of Appeal",
+      "publisher": "Judicial Branch of California",
+      "url": "https://courts.ca.gov/news/commission-confirms-three-appointments-courts-appeal",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Video Asserting Shoddy Reception Service at Plastic Surgery Clinic Is Not Protected—C.A.",
+      "publisher": "Metropolitan News-Enterprise",
+      "url": "http://www.metnews.com/articles/2026/unprotectedcommentary_100226.htm",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Disclosing Existence of Sex-Related Videos Is Unprotected",
+      "publisher": "Metropolitan News-Enterprise",
+      "url": "http://www.metnews.com/articles/2026/disclosureunprotected_080726.htm",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Nonpartisan Judicial Offices",
+      "publisher": "Indivisible Ventura",
+      "url": "https://indivisibleventura.org/nonpartisan-judicial-offices/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "November 2026 Candidate Endorsements",
+      "publisher": "Santa Clarita Valley Democrats",
+      "url": "https://www.santaclaritavalleydemocrats.com/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 8,
+      "title": "Candidate Information",
+      "publisher": "Republican Party of San Luis Obispo County",
+      "url": "https://www.rpsloc.org/candidate-information/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.847Z",
+    "version": 3
+  }
+}

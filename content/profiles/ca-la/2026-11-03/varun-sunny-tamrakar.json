@@ -1,0 +1,78 @@
+{
+  "key": "varun-sunny-tamrakar",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Varun \"Sunny\" Tamrakar",
+  "office": "Lawndale School District, Governing Board Member, Trustee Area No. 2",
+  "contestIds": ["la-4348-cc10709"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Varun Tamrakar is a candidate for the Lawndale School District Governing Board, Trustee Area No. 2.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Varun Tamrakar is a candidate for the Lawndale School District Governing Board, Trustee Area No. 2.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Sunny Tamrakar for Lawndale School Board Trustee 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217181019-Sunny%20Tamrakar%20for%20Lawndale%20School%20Board%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 5976.83,
+        "cashOnHand": 3143.03,
+        "breakdown": [
+          { "kind": "small", "amount": 501.43 },
+          { "kind": "large", "amount": 3475.4 },
+          { "kind": "candidate", "amount": 2000 }
+        ],
+        "fromCandidate": 2000
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Candidate Statements - Registrar-Recorder/County Clerk",
+      "publisher": "Los Angeles County Registrar-Recorder/County Clerk",
+      "url": "https://apps.lavote.gov/candidate-statements/public-statement/9254/23136/EN",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T15:48:49.151Z",
+    "version": 2
+  }
+}

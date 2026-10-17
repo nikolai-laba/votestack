@@ -1,0 +1,177 @@
+{
+  "key": "leslie-h-garcia",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Leslie H. Garcia",
+  "office": "City of West Covina, Member of the City Council, 2nd District",
+  "contestIds": ["la-4348-cc10527"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Leslie H. Garcia is an air quality instrument specialist and a candidate for West Covina City Council District 2. She works at the South Coast Air Quality Management District. Her campaign says she previously worked at the California Air Resources Board on a statewide incentive program to reduce air pollution.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Leslie H. Garcia is an air quality instrument specialist and a candidate for West Covina City Council District 2.",
+            "cites": [1]
+          },
+          {
+            "text": "She works at the South Coast Air Quality Management District.",
+            "cites": [2]
+          },
+          {
+            "text": "Her campaign says she previously worked at the California Air Resources Board on a statewide incentive program to reduce air pollution.",
+            "cites": [2]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign supports a pathway to permanently ban data centers and end the city’s Flock surveillance contract. At a September 2026 council meeting she supported the city’s resolution opposing large-scale data centers and battery storage and said the ban should be permanent. Her platform also includes renter protections and investments in parks and youth recreation.",
+        "cites": [2, 3],
+        "sentences": [
+          {
+            "text": "Her campaign supports a pathway to permanently ban data centers and end the city’s Flock surveillance contract.",
+            "cites": [2]
+          },
+          {
+            "text": "At a September 2026 council meeting she supported the city’s resolution opposing large-scale data centers and battery storage and said the ban should be permanent.",
+            "cites": [3]
+          },
+          {
+            "text": "Her platform also includes renter protections and investments in parks and youth recreation.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of West Covina",
+        "committee": "Leslie H. Garcia for West Covina City Council 2026",
+        "url": "https://westcovina.gov/186/Campaign-Disclosure-Reports-Public-Offic",
+        "period": "July 1 to September 19, 2026",
+        "raised": 5648,
+        "cashOnHand": 1955.4,
+        "fromScan": "ai"
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Former West Covina Mayor Brian Calderón Tabatabai",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Covina City Clerk Susan Zermeno",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Covina City Treasurer Neil Polzin",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [4]
+      },
+      {
+        "organization": "California Working Families Party",
+        "kind": "party",
+        "cites": [2]
+      },
+      {
+        "organization": "Run for Something",
+        "kind": "organization",
+        "cites": [5]
+      },
+      { "organization": "314 Action", "kind": "organization", "cites": [2] },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [6]
+      },
+      { "organization": "HONOR PAC", "kind": "organization", "cites": [2] },
+      {
+        "organization": "SGVoices for Change",
+        "kind": "organization",
+        "cites": [2]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [7] }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Leslie Garcia, West Covina City Council District 2 candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/leslie-garcia-west-covina-city-council-district-2-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Leslie for West Covina City Council",
+      "publisher": "Leslie for West Covina City Council",
+      "url": "https://www.leslieforwestcovina.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "In a moment of rare unity, West Covina moves to oppose data centers",
+      "publisher": "Pasadena Star-News",
+      "url": "https://www.pasadenastarnews.com/2026/09/16/in-a-moment-of-rare-unity-west-covina-moves-to-oppose-data-centers/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Endorsed Candidates - Los Angeles County Democratic Party",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Leslie Garcia - Run For Something",
+      "publisher": "Run for Something",
+      "url": "https://directory.runforsomething.net/candidate/161489285b102ca2fd7889f22dba57a4/garcia-leslie/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "2026 STONEWALL ENDORSED CANDIDATES",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "November 2026 LA Progressive Voter Guide",
+      "publisher": "LA Forward Action Fund",
+      "url": "https://laforwardguide.org/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 7
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.631Z",
+    "version": 2
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "key": "danny-smith",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Danny Smith",
+  "office": "City of Malibu, Member of the City Council",
+  "contestIds": ["la-4348-cc10478"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Danny Smith is a candidate for Malibu City Council. He lost his beachfront home in the Palisades Fire. He says he is a rebuild zone captain for the La Costa and Carbon Beach neighborhoods. A Malibu Rebuild Task Force co-chair wrote that he helped coordinate the community response to state legislation, connecting residents with expertise.",
+        "cites": [1, 2, 3, 4]
+      },
+      {
+        "text": "He supports expedited rebuild policies and fee waivers. He calls for a \"Fire First\" culture with community cisterns and brush clearance. He also wants higher insurance limits. At a council meeting he described the burden that septic system replacement rules would place on fire-damaged properties and favored a sewer on environmental grounds. He would restrict commercial development and acquire land for preservation. He proposes keeping all four lanes of Pacific Coast Highway open. He calls for speed cameras and increased patrols.",
+        "cites": [3, 5, 6, 7]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Malibu",
+        "committee": "Danny Smith for Malibu City Council 2026",
+        "url": "https://netfile.com/public/MBU/campaign/filingsByFiler/217088304-Danny%20Smith%20for%20Malibu%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 3750,
+        "cashOnHand": 2086.82,
+        "breakdown": [
+          { "kind": "large", "amount": 2750 },
+          { "kind": "candidate", "amount": 1000 }
+        ],
+        "fromCandidate": 1000
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [8]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Election Information | Malibu, CA - Official Website",
+      "publisher": "City of Malibu",
+      "url": "https://www.malibucity.org/190/Election-Information",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Malibu homeowners struggle to rebuild 18 months after Palisades Fire",
+      "publisher": "New York Post",
+      "url": "https://nypost.com/2026/08/01/us-news/malibu-homeowners-struggle-to-rebuild-18-months-after-palisades-fire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Danny Smith for Malibu City Council",
+      "publisher": "Danny Smith campaign",
+      "url": "https://danny4malibu.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "When Malibu speaks with one voice",
+      "publisher": "The Malibu Times",
+      "url": "https://malibutimes.com/when-malibu-speaks-with-one-voice",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Council Agenda Report",
+      "publisher": "City of Malibu",
+      "url": "https://www.malibucity.org/AgendaCenter/ViewFile/Item/8195?fileID=89869",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Council candidate stumbles on Malibu Mission Statement at debate",
+      "publisher": "Malibu.FM",
+      "url": "https://malibu.fm/story/council-candidate-stumbles-on-malibu-mission-statement-at-debate-20260922",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 7,
+      "title": "Malibu City Council candidates face off on community's most pressing issues",
+      "publisher": "The Malibu Times",
+      "url": "https://malibutimes.com/malibu-city-council-candidates-face-off-on-community-s-most-pressing-issues",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 8,
+      "title": "Endorsed Candidates: 2026 General Election",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:40:12.489Z",
+    "version": 4
+  }
+}

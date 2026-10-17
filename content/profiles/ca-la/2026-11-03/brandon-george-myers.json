@@ -1,0 +1,87 @@
+{
+  "key": "brandon-george-myers",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Brandon George Myers",
+  "office": "Inglewood Unified School District, Member, Board of Education, Trustee Area 3",
+  "contestIds": ["la-4348-cc10467"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Brandon George Myers is the vice president of the Inglewood Unified School District Board of Education, elected in 2020 to represent Trustee Area 3. His district biography states he worked as a child and family specialist at Vista Del Mar Child and Family Services, advocating for foster children, and has over 14 years of experience with children and families.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Brandon George Myers is the vice president of the Inglewood Unified School District Board of Education, elected in 2020 to represent Trustee Area 3.",
+            "cites": [1]
+          },
+          {
+            "text": "His district biography states he worked as a child and family specialist at Vista Del Mar Child and Family Services, advocating for foster children, and has over 14 years of experience with children and families.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "In 2026, he opposed Measure MM, a $396 million bond to modernize school facilities. He said past bond projects were delayed and lacked accountability, and the district's county receivership made an additional tax burden unwise.",
+        "cites": [2],
+        "sentences": [
+          {
+            "text": "In 2026, he opposed Measure MM, a $396 million bond to modernize school facilities.",
+            "cites": [2]
+          },
+          {
+            "text": "He said past bond projects were delayed and lacked accountability, and the district's county receivership made an additional tax burden unwise.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "Los Angeles County Registrar-Recorder/County Clerk",
+        "committee": "Brandon Myers for School Board 2026",
+        "url": "https://netfile.com/public/LACO/campaign/filingsByFiler/217395709-Brandon%20Myers%20for%20School%20Board%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 2349,
+        "cashOnHand": 1332.69,
+        "breakdown": [
+          { "kind": "small", "amount": 99 },
+          { "kind": "large", "amount": 1250 },
+          { "kind": "other", "amount": 1000 }
+        ]
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Inglewood Unified School District",
+      "publisher": "Inglewood Unified School District",
+      "url": "https://www.inglewoodusd.com/",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Inglewood teachers push back against $396M bond measure to upgrade district properties",
+      "publisher": "LAist",
+      "url": "https://laist.com/news/education/inglewood-teachers-push-back-against-bond-measure",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.139Z",
+    "version": 3
+  }
+}

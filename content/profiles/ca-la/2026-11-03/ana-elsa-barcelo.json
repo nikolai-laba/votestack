@@ -1,0 +1,66 @@
+{
+  "key": "ana-elsa-barcelo",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Ana Elsa Barcelo",
+  "office": "City of El Monte, Member of the City Council, 6th District",
+  "contestIds": ["la-4348-cc10451"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Ana Elsa Barcelo is a health education assistant running for El Monte City Council District 6.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Ana Elsa Barcelo is a health education assistant running for El Monte City Council District 6.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of El Monte",
+      "url": "https://www.ci.el-monte.ca.us/DocumentCenter/Index/373"
+    }
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [2]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Ana Elsa Barcelo, El Monte City Council District 6 candidate, 2026 election questionnaire",
+      "publisher": "San Gabriel Valley Tribune",
+      "url": "https://www.sgvtribune.com/2026/10/05/ana-elsa-barcelo-el-monte-city-council-district-6-candidate-2026-election-questionnaire/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "ENDORSEMENTS - Teamsters Joint Council 42",
+      "publisher": "Teamsters Joint Council 42",
+      "url": "https://www.teamstersjc42.com/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.382Z",
+    "version": 2
+  }
+}

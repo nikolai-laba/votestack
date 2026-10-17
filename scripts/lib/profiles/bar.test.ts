@@ -13,6 +13,7 @@ import {
   parseCba,
   parseCcl,
   parseIsba,
+  parseLacbaGuide,
   sameJudge,
   type BarList,
 } from './bar.ts'
@@ -138,6 +139,55 @@ Judith C. Rice—Qualified
       { name: 'Natalia Moore', context: 'election', rating: 'Not Recommended' },
       { name: 'Judith C. Rice', context: 'retention', rating: 'Qualified' },
     ])
+  })
+})
+
+describe('parseLacbaGuide', () => {
+  // Lines from `pdftotext -layout` of the LACBA's November 2026 voter guide,
+  // plus a made-up third row to cover the rest of the scale.
+  const text = [
+    'The Los Angeles County Bar Association’s Judicial Elections Evaluation Committee',
+    'issued its final report in April 2026, evaluating the following candidates for Los Ange-',
+    '                  2026 Judicial Elections Candidate Ratings:',
+    '',
+    'SUPERIOR COURT OFFICE NO. 64                 SUPERIOR COURT OFFICE NO. 87',
+    'Maria Ghobadi            Well Qualified      Anthony Bayne            Well Qualified',
+    'Rhonda Haymon            Qualified           David DeJute             Qualified',
+    'Jane Q. Example          Not Qualified       John Example             Exceptionally Well Qualified',
+    '',
+    '\fSUPERIOR COURT OFFICE NO. 65                 SUPERIOR COURT OFFICE NO. 131',
+    'Anna Slotky Reitano      Qualified           Donna Tryfman            Qualified',
+    '                                                                             lacba.org',
+  ].join('\n')
+
+  it('reads both columns under their own office, words as printed', () => {
+    const row = (name: string, office: string, rating: string) => ({
+      name,
+      context: 'election',
+      rating,
+      office,
+    })
+    expect(parseLacbaGuide(text)).toEqual([
+      row('Maria Ghobadi', '64', 'Well Qualified'),
+      row('Anthony Bayne', '87', 'Well Qualified'),
+      row('Rhonda Haymon', '64', 'Qualified'),
+      row('David DeJute', '87', 'Qualified'),
+      row('Jane Q. Example', '64', 'Not Qualified'),
+      row('John Example', '87', 'Exceptionally Well Qualified'),
+      row('Anna Slotky Reitano', '65', 'Qualified'),
+      row('Donna Tryfman', '131', 'Qualified'),
+    ])
+  })
+
+  it("matches the guide's short names with the ballot's", () => {
+    const ballot = new Map([
+      ['anthony-aj-bayne', 'Anthony (A.J.) Bayne'],
+      ['david-dejute', 'David Dejute'],
+      ['rhonda-a-haymon', 'Rhonda A. Haymon'],
+    ])
+    expect(matchJudge('Anthony Bayne', ballot, {})).toBe('anthony-aj-bayne')
+    expect(matchJudge('David DeJute', ballot, {})).toBe('david-dejute')
+    expect(matchJudge('Rhonda Haymon', ballot, {})).toBe('rhonda-a-haymon')
   })
 })
 

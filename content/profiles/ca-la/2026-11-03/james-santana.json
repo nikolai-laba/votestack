@@ -1,0 +1,133 @@
+{
+  "key": "james-santana",
+  "electionId": "ca-2026-11-03-general",
+  "name": "James Santana",
+  "office": "City of Montebello, Member of the City Council, 5th District",
+  "contestIds": ["la-4348-cc10484"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "James Santana is a candidate for Montebello City Council, District 5. He is an operations manager who says he has spent 17 years training teams in business and nonprofit settings. In his 2022 campaign for Montebello Unified school board, he called for balancing budgets, paying a living wage for teachers, and accountability.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "James Santana is a candidate for Montebello City Council, District 5.",
+            "cites": [1]
+          },
+          {
+            "text": "He is an operations manager who says he has spent 17 years training teams in business and nonprofit settings.",
+            "cites": [2]
+          },
+          {
+            "text": "In his 2022 campaign for Montebello Unified school board, he called for balancing budgets, paying a living wage for teachers, and accountability.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Montebello",
+        "committee": "James Santana for Montebello City Council 2026",
+        "url": "https://netfile.com/public/BELLO/campaign/filingsByFiler/216988095-Santana%20for%20Montebello%20City%20Council%202026",
+        "period": "July 1 to September 19, 2026",
+        "raised": 6019.25,
+        "cashOnHand": 4732.14,
+        "breakdown": [
+          { "kind": "small", "amount": 461.42 },
+          { "kind": "large", "amount": 2407.83 },
+          { "kind": "other", "amount": 3150 }
+        ],
+        "largeSince": { "since": "2026-09-19", "total": 3000, "count": 3 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "organization": "Los Angeles County Democratic Party",
+        "kind": "party",
+        "cites": [3]
+      },
+      {
+        "organization": "Los Angeles League of Conservation Voters",
+        "kind": "organization",
+        "cites": [4]
+      },
+      {
+        "organization": "Run for Something",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [6]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "2026 General Election",
+      "publisher": "City of Montebello",
+      "url": "https://www.montebelloca.gov/departments/administration/city_clerks_office/elections_voting_information/2026_general_election",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Election 2022: 6 Montebello school board candidates debate issues",
+      "publisher": "Whittier Daily News",
+      "url": "https://www.whittierdailynews.com/2022/10/17/election-2022-6-montebello-school-board-candidates-debate-issues/",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Endorsed Candidates",
+      "publisher": "Los Angeles County Democratic Party",
+      "url": "https://www.lacdp.org/candidates",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Current Endorsements",
+      "publisher": "Los Angeles League of Conservation Voters",
+      "url": "https://lalcv.org/current-endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "James Santana - Run For Something",
+      "publisher": "Run for Something",
+      "url": "https://directory.runforsomething.net/candidate/078d11a85cb628ae6600cccfafbc6f30/santana-james/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Equality California Election Center",
+      "publisher": "Equality California",
+      "url": "https://www.eqca.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.509Z",
+    "version": 2
+  }
+}

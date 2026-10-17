@@ -1,0 +1,33 @@
+{
+  "reason": "Chrome review: the Administrative Committee agenda is from January 2025, so present tense isn't supported; the committee's name is Finance & Capital Improvements Committee",
+  "overview": [
+    {
+      "action": "replace",
+      "match": "Jazmin Leos is Vice President of the Valley County Water District Board of Directors.",
+      "text": "Jazmin Leos is Vice President of the Valley County Water District Board of Directors. She has served as Co-Chairperson of the district's Administrative Committee and of its Finance and Capital Improvements Committee.",
+      "sources": [
+        {
+          "title": "AGENDA for a REGULAR MEETING OF THE BOARD ...",
+          "publisher": "Valley County Water District",
+          "url": "https://www.vcwd.org/AgendaCenter/ViewFile/Item/828?fileID=3226",
+          "kind": "official",
+          "viewedAt": "2026-10-15"
+        },
+        {
+          "title": "[PDF] ADMINISTRATIVE COMMITTEE MEETING - Valley County Water ...",
+          "publisher": "Valley County Water District",
+          "url": "https://www.vcwd.org/AgendaCenter/ViewFile/Item/719?fileID=2265",
+          "kind": "official",
+          "viewedAt": "2026-10-15"
+        },
+        {
+          "title": "2025 0820 Finance Committee Agenda",
+          "publisher": "Valley County Water District",
+          "url": "https://www.vcwd.org/AgendaCenter/ViewFile/Agenda/_08202025-311?packet=true",
+          "kind": "official",
+          "viewedAt": "2026-10-15"
+        }
+      ]
+    }
+  ]
+}

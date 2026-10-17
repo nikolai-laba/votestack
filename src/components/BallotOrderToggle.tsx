@@ -2,7 +2,7 @@ import { useId } from 'react'
 import { hasPaperOrder } from '../ballot/sections.ts'
 import { useBallotOrder, type BallotOrder } from '../ballot/orderPreference.ts'
 import type { Contest } from '../shared/ballot.ts'
-import { CHICAGO } from '../shared/ocd.ts'
+import { CHICAGO, LOS_ANGELES_COUNTY } from '../shared/ocd.ts'
 
 // The switch between sections by level of government and paper ballot order
 // on the ballot and on Saved choices. Two native radio buttons, so the
@@ -19,7 +19,7 @@ export function BallotOrderToggle({ contests }: { contests: Contest[] }) {
   const [order, setOrder] = useBallotOrder()
   const name = useId()
   if (!hasPaperOrder(contests)) return null
-  const chicago = contests[0].authorityId === CHICAGO
+  const authority = contests[0].authorityId
 
   return (
     <div className="space-y-2">
@@ -46,9 +46,11 @@ export function BallotOrderToggle({ contests }: { contests: Contest[] }) {
       </fieldset>
       {order === 'paper' && (
         <p className="max-w-[65ch] text-small text-muted">
-          {chicago
+          {authority === CHICAGO
             ? "This follows the order of the Chicago Board of Election Commissioners' official list and the order of offices in Illinois law. It hasn't been checked against a printed Chicago ballot yet."
-            : "This follows the Cook County Clerk's sample ballot for your ballot style."}
+            : authority === LOS_ANGELES_COUNTY
+              ? "This follows the Los Angeles County Registrar's sample ballot for your ballot style. Los Angeles County's ballot lists city and local races first and state races last, an order California law allows only in this county."
+              : "This follows the Cook County Clerk's sample ballot for your ballot style."}
         </p>
       )}
     </div>

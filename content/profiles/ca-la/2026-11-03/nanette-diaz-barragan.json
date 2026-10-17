@@ -1,0 +1,302 @@
+{
+  "key": "nanette-diaz-barragan",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Nanette Diaz Barragan",
+  "party": "Democratic",
+  "office": "U.S. Representative, 44th District",
+  "contestIds": ["la-4348-cc10821-r1", "la-4348-cc10821-r2"],
+  "kind": "candidate",
+  "tier": "top",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Nanette Diaz Barragán is the U.S. Representative for California's 44th District, serving since 2017; she previously was a Hermosa Beach city councilmember from 2013 to 2015. She sits on the House Energy and Commerce Committee.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Nanette Diaz Barragán is the U.S. Representative for California's 44th District, serving since 2017; she previously was a Hermosa Beach city councilmember from 2013 to 2015.",
+            "cites": [1]
+          },
+          {
+            "text": "She sits on the House Energy and Commerce Committee.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "Her legislative work focuses heavily on environmental justice and air pollution, which she describes as a public health crisis in her district due to freeways, ports, oil refineries and urban drilling. In 2020, she introduced the Climate Smart Ports Act to invest in zero-emissions technology at ports, and the Outdoors for All Act to fund park projects in urban, low-income communities. On health access, she introduced the Improving Social Determinants of Health Act in 2020. In 2026, she introduced the Ensuring Kids Have Access to Medically Necessary Dental Care Act and the 9-8-8 Community Infrastructure Act. Her campaign prioritizes protecting Medicare and Social Security and passing comprehensive immigration reform.",
+        "cites": [2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "Her legislative work focuses heavily on environmental justice and air pollution, which she describes as a public health crisis in her district due to freeways, ports, oil refineries and urban drilling.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2020, she introduced the Climate Smart Ports Act to invest in zero-emissions technology at ports, and the Outdoors for All Act to fund park projects in urban, low-income communities.",
+            "cites": [3]
+          },
+          {
+            "text": "On health access, she introduced the Improving Social Determinants of Health Act in 2020.",
+            "cites": [2]
+          },
+          {
+            "text": "In 2026, she introduced the Ensuring Kids Have Access to Medically Necessary Dental Care Act and the 9-8-8 Community Infrastructure Act.",
+            "cites": [4]
+          },
+          {
+            "text": "Her campaign prioritizes protecting Medicare and Social Security and passing comprehensive immigration reform.",
+            "cites": [5]
+          }
+        ]
+      },
+      {
+        "text": "Barragán voted to impeach President Trump for incitement of insurrection in 2021. In 2020, she voted for the Moving Forward Act, a more than $1.5 trillion infrastructure package that included her port and parks bills.",
+        "cites": [6, 3],
+        "sentences": [
+          {
+            "text": "Barragán voted to impeach President Trump for incitement of insurrection in 2021.",
+            "cites": [6]
+          },
+          {
+            "text": "In 2020, she voted for the Moving Forward Act, a more than $1.5 trillion infrastructure package that included her port and parks bills.",
+            "cites": [3]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "FEC",
+        "committee": "Barragan for Congress",
+        "url": "https://www.fec.gov/data/committee/C00577353/?cycle=2026",
+        "period": "January 1, 2025 to June 30, 2026",
+        "raised": 785765.2,
+        "cashOnHand": 1088422.95,
+        "breakdown": [
+          { "kind": "small", "amount": 3846.6 },
+          { "kind": "large", "amount": 166922.02 },
+          { "kind": "pac", "amount": 606750 },
+          { "kind": "other", "amount": 8246.58 }
+        ]
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Democratic Party",
+        "kind": "party",
+        "cites": [7]
+      },
+      { "organization": "EMILY's List", "kind": "organization", "cites": [8] },
+      {
+        "organization": "League of Conservation Voters Action Fund",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Latino Victory Fund",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "National Union of Healthcare Workers",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "Americans for Democratic Action Southern California (ADA SoCal)",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "Equality California",
+        "kind": "organization",
+        "cites": [13]
+      },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [14]
+      },
+      {
+        "organization": "California Environmental Voters",
+        "kind": "organization",
+        "cites": [15]
+      },
+      {
+        "organization": "California Federation of Teachers",
+        "kind": "union",
+        "cites": [16]
+      },
+      {
+        "organization": "Democrats for Israel – Los Angeles",
+        "kind": "organization",
+        "cites": [17]
+      },
+      {
+        "organization": "Los Angeles County Federation of Labor",
+        "kind": "union",
+        "cites": [18]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Nanette Barragán - Wikipedia",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nanette_Barrag%C3%A1n",
+      "kind": "reference",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "Transit California: On Board With… California State Congresswoman Nanette Diaz Barragán",
+      "publisher": "Congresswoman Barragan",
+      "url": "https://barragan.house.gov/2020/10/30/transit-california-on-board-with-california-state-congresswoman-nanette-diaz-barragan/",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Barragán Votes to Create Millions of Jobs, Fight Inequality and Address the Climate Crisis",
+      "publisher": "Congresswoman Barragan",
+      "url": "https://barragan.house.gov/2020/07/01/barragan-votes-to-create-millions-of-jobs-fight-inequality-and-address-the-climate-crisis/",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "Representative Nanette Diaz Barragán",
+      "publisher": "Congress.gov",
+      "url": "https://www.congress.gov/member/nanette-barragan/B001300",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Issues",
+      "publisher": "Nanette Barragan For Congress",
+      "url": "https://barraganforcongress.com/issues/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "Barragán Statement on Impeaching President Trump",
+      "publisher": "Congresswoman Barragan",
+      "url": "https://barragan.house.gov/2021/01/13/barragan-statement-on-impeaching-president-trump/",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "2026 General Election Endorsements & Ballot Measure Positions",
+      "publisher": "California Democratic Party",
+      "url": "https://cadem.org/wp-content/uploads/2026/08/FINAL-2026-General-Election-Endorsements.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 8,
+      "title": "Candidates",
+      "publisher": "EMILY's List",
+      "url": "https://emilyslist.org/candidates/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "Endorsements",
+      "publisher": "League of Conservation Voters",
+      "url": "https://www.lcv.org/endorsements/?result_page=3",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "Endorsements",
+      "publisher": "Latino Victory",
+      "url": "https://latinovictory.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "Political Action",
+      "publisher": "National Union of Healthcare Workers",
+      "url": "https://home.nuhw.org/political-action/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "U.S House of Representatives - ADA SoCal",
+      "publisher": "ADA SoCal",
+      "url": "https://www.adasocal.org/u_s_house_of_reprsentatives",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 13,
+      "title": "Equality California Election Center",
+      "publisher": "Equality California",
+      "url": "https://www.eqca.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 14,
+      "title": "Endorsements",
+      "publisher": "Sierra Club Angeles Chapter",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Who We're Endorsing in California's 2026 Election",
+      "publisher": "California Environmental Voters",
+      "url": "https://envirovoters.org/2026-endorsements/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "CFT Endorsements, General Election 2026 (Tuesday, November 3)",
+      "publisher": "California Federation of Teachers",
+      "url": "https://www.cft.org/2026-midterm-elections-hub",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Democrats for Israel – Los Angeles",
+      "url": "https://dfi-la.org/endorse",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
+      "publisher": "Los Angeles County Federation of Labor",
+      "url": "https://thelafed.org/resource/lalaborvoterguide/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 18
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:50.851Z",
+    "version": 4
+  }
+}

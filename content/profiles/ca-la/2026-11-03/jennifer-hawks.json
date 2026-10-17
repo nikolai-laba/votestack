@@ -1,0 +1,288 @@
+{
+  "key": "jennifer-hawks",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Jennifer Hawks",
+  "party": "Republican",
+  "office": "California Treasurer",
+  "contestIds": ["la-4348-cc10832-r1", "la-4348-cc10832-r2"],
+  "kind": "candidate",
+  "tier": "top",
+  "overview": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "text": "Jennifer Hawks is a retired school administrator. She served on the executive team at Sacred Heart Schools, a Catholic school in Atherton. She is president of the Palo Alto Republican Women Federated.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Jennifer Hawks is a retired school administrator.",
+            "cites": [1]
+          },
+          {
+            "text": "She served on the executive team at Sacred Heart Schools, a Catholic school in Atherton.",
+            "cites": [2]
+          },
+          {
+            "text": "She is president of the Palo Alto Republican Women Federated.",
+            "cites": [1]
+          }
+        ]
+      },
+      {
+        "text": "In her campaign, Hawks pledges to prioritize thorough audits and clear financial reporting. She proposes publishing public dashboards so taxpayers can track how state funds are spent. She wants to mandate an annual debt affordability study and set a strict borrowing limit. She has also proposed conducting fiscal stress tests to manage debt and improve the state's credit rating. Hawks has criticized state spending on the high-speed rail project. She has said she would be extremely cautious about investing state or pension funds in speculative digital assets like cryptocurrency.",
+        "cites": [3, 1, 4, 5, 6],
+        "sentences": [
+          {
+            "text": "In her campaign, Hawks pledges to prioritize thorough audits and clear financial reporting.",
+            "cites": [3]
+          },
+          {
+            "text": "She proposes publishing public dashboards so taxpayers can track how state funds are spent.",
+            "cites": [1]
+          },
+          {
+            "text": "She wants to mandate an annual debt affordability study and set a strict borrowing limit.",
+            "cites": [4]
+          },
+          {
+            "text": "She has also proposed conducting fiscal stress tests to manage debt and improve the state's credit rating.",
+            "cites": [4]
+          },
+          {
+            "text": "Hawks has criticized state spending on the high-speed rail project.",
+            "cites": [5]
+          },
+          {
+            "text": "She has said she would be extremely cautious about investing state or pension funds in speculative digital assets like cryptocurrency.",
+            "cites": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "California Secretary of State",
+        "committee": "Jennifer Hawks for CA State Treasurer 2026",
+        "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1488439",
+        "period": "July 1 to September 19, 2026",
+        "raised": 37255.21,
+        "cashOnHand": 22919.56,
+        "breakdown": [
+          { "kind": "small", "amount": 1052.72 },
+          { "kind": "large", "amount": 21187.49 },
+          { "kind": "pac", "amount": 5015 },
+          { "kind": "candidate", "amount": 10000 }
+        ],
+        "fromCandidate": 10000,
+        "largeSince": { "since": "2026-09-19", "total": 6300, "count": 5 }
+      }
+    ]
+  },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "California Republican Party",
+        "kind": "party",
+        "cites": [7]
+      },
+      {
+        "organization": "American Independent Party",
+        "kind": "party",
+        "cites": [8]
+      },
+      {
+        "organization": "Assemblymember Carl DeMaio",
+        "kind": "elected_official",
+        "party": "Republican",
+        "cites": [8]
+      },
+      {
+        "organization": "California Republican Assembly",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Howard Jarvis Taxpayers Association PAC",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "California Rifle & Pistol Association PAC",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "California Women's Leadership Association PAC",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "California Young Republicans",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "California College Republicans",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Republican Conservative Coalition",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "United Vietnamese American Community of Northern California",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Capital Lincoln Club",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Tri-Valley Republicans",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Pasadena Republican Club",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Temecula Valley Republican Women",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "California ProLife Council",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "Reform California",
+        "kind": "organization",
+        "cites": [13]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Your guide to the California state treasurer's race",
+      "publisher": "San Luis Obispo Tribune",
+      "url": "https://www.sanluisobispo.com/news/california/article317117760.html",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 2,
+      "title": "California Treasurer: Who's running in the June 2 primary and why it matters",
+      "publisher": "LAist",
+      "url": "https://laist.com/news/politics/voter-guides/2026-election-california-primary-california-treasurer",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 3,
+      "title": "Treasurer Candidate Statements",
+      "publisher": "California Secretary of State",
+      "url": "https://vigarchive.sos.ca.gov/2026/primary/candidates/treasurer-candidate-statements.htm",
+      "kind": "official",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 4,
+      "title": "2026 California treasurer candidates share ideas for financing affordable housing",
+      "publisher": "Los Angeles Daily News",
+      "url": "https://www.dailynews.com/2026/05/20/2026-california-treasurer-candidates-share-ideas-for-financing-affordable-housing/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 5,
+      "title": "Your guide to the California treasurer race: Kounalakis vs. Hawks",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-10-01/2026-california-election-treasurer-kounalakis-hawks-voter-guide",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 6,
+      "title": "California treasurer candidates share ideas on high-speed rail, the future of digital assets and more",
+      "publisher": "Orange County Register",
+      "url": "https://www.ocregister.com/2026/10/07/california-treasurer-candidates-share-ideas-on-high-speed-rail-the-future-of-digital-assets-and-more/",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "Endorsements - CAGOP",
+      "publisher": "California Republican Party",
+      "url": "https://cagop.org/cagop-endorsements-2026/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 8,
+      "title": "Jennifer Hawks for California State Treasurer 2026",
+      "publisher": "Jennifer Hawks for Treasurer 2026",
+      "url": "https://hawksforus.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "California Treasurer: Who's running in the 2026 general election",
+      "publisher": "LAist",
+      "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-state-treasurer",
+      "kind": "news",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "2026 Voting Guide for California Statewide General Election",
+      "publisher": "Howard Jarvis Taxpayers Association",
+      "url": "https://www.hjta.org/2026votingguide/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "2026 Executive Candidates (General)",
+      "publisher": "California Rifle & Pistol Association",
+      "url": "https://crpa.org/2026-executive-candidates-general/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "California ProLife Council 2026 Voter Guide",
+      "publisher": "California ProLife Council",
+      "url": "https://californiaprolife.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "Reform California Voter Guide: Los Angeles County",
+      "publisher": "Reform California",
+      "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 13
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.828Z",
+    "version": 4
+  }
+}

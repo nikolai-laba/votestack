@@ -1,0 +1,80 @@
+{
+  "key": "danny-roman",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Danny Roman",
+  "office": "City of West Covina, Member of the City Council, 4th District",
+  "contestIds": ["la-4348-cc10528"],
+  "kind": "candidate",
+  "tier": "mid",
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Danny Roman is a retired Los Angeles Police Department sergeant and business owner. His campaign says he served 34 years with the LAPD, including more than a decade in Internal Affairs. In his candidate statement, he says he is running to improve accountability in the city organization. He proposes publishing an infrastructure spending dashboard and streamlining business permitting and licensing. He supports community policing, neighborhood watch programs, and funding mental health crisis response partnerships.",
+        "cites": [1, 2],
+        "sentences": [
+          {
+            "text": "Danny Roman is a retired Los Angeles Police Department sergeant and business owner.",
+            "cites": [1]
+          },
+          {
+            "text": "His campaign says he served 34 years with the LAPD, including more than a decade in Internal Affairs.",
+            "cites": [1]
+          },
+          {
+            "text": "In his candidate statement, he says he is running to improve accountability in the city organization.",
+            "cites": [2]
+          },
+          {
+            "text": "He proposes publishing an infrastructure spending dashboard and streamlining business permitting and licensing.",
+            "cites": [2]
+          },
+          {
+            "text": "He supports community policing, neighborhood watch programs, and funding mental health crisis response partnerships.",
+            "cites": [2]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of West Covina",
+        "committee": "Danny Roman for West Covina City Council 2026",
+        "url": "https://westcovina.gov/186/Campaign-Disclosure-Reports-Public-Offic",
+        "period": "January 1 to September 19, 2026",
+        "raised": 20000,
+        "cashOnHand": 17321.21,
+        "fromScan": "ai"
+      }
+    ]
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "About Danny Roman — West Covina City Council District 4",
+      "publisher": "Danny Roman campaign",
+      "url": "https://dannyjroman.com/about",
+      "kind": "candidate",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Danny Roman — West Covina City Council District 4 Candidate 2026",
+      "publisher": "Playpotus",
+      "url": "https://playpotus.com/ca/west-covina/danny-roman",
+      "kind": "reference",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T19:03:51.638Z",
+    "version": 2
+  }
+}

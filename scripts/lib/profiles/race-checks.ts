@@ -35,7 +35,9 @@ export function checkDates(p: CandidateProfile, today: string): Issue[] {
         message: 'Not a date',
         at,
       })
-    } else if (days(today, date) > 0) {
+    } else if (days(today, date) > (date.includes('T') ? 1 : 0)) {
+      // A timestamp is in UTC, which runs up to a day ahead of the local
+      // date `today` is in; only a calendar date must not pass it.
       issues.push({
         rule: 'date',
         severity: 'error',

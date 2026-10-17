@@ -1,0 +1,92 @@
+{
+  "key": "erica-harbison",
+  "electionId": "ca-2026-11-03-general",
+  "name": "Erica Harbison",
+  "office": "City of Lawndale, City Clerk",
+  "contestIds": ["la-4348-cc10475"],
+  "kind": "candidate",
+  "tier": "mid",
+  "incumbent": true,
+  "overview": {
+    "asOf": "2026-10-15",
+    "items": [
+      {
+        "text": "Erica Harbison is the City Clerk of Lawndale. She was appointed to the office. She was elected in 2022. She works as an English teacher at Lawndale High School. She previously served on the city’s Parks, Recreation and Social Services Commission.",
+        "cites": [1, 2, 3, 4, 5],
+        "sentences": [
+          {
+            "text": "Erica Harbison is the City Clerk of Lawndale.",
+            "cites": [1]
+          },
+          { "text": "She was appointed to the office.", "cites": [2] },
+          { "text": "She was elected in 2022.", "cites": [3] },
+          {
+            "text": "She works as an English teacher at Lawndale High School.",
+            "cites": [4]
+          },
+          {
+            "text": "She previously served on the city’s Parks, Recreation and Social Services Commission.",
+            "cites": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "money": {
+    "asOf": "2026-10-16",
+    "items": [],
+    "filingsAt": {
+      "name": "City of Lawndale",
+      "url": "https://www.lawndale.ca.gov/government/departments/city_clerk_s_office/election_information/campaign_finance"
+    }
+  },
+  "endorsements": { "asOf": "2026-10-15", "items": [] },
+  "sources": [
+    {
+      "id": 1,
+      "title": "City Clerk's Office - City of Lawndale, CA",
+      "publisher": "City of Lawndale",
+      "url": "https://www.lawndale.ca.gov/government/departments/city_clerk_s_office",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "title": "Candidate Filing Report",
+      "publisher": "LA County Registrar-Recorder/County Clerk",
+      "url": "http://content.lavote.gov/docs/rrcc/documents/final-list-of-qualified-candidates-to-appear-on-the-ballot.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 3,
+      "title": "Election Results Text Version",
+      "publisher": "LA County Registrar-Recorder/County Clerk",
+      "url": "https://results.lavote.gov/text-results/4300",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 4,
+      "title": "Staff Directory | Lawndale High School",
+      "publisher": "Lawndale High School",
+      "url": "https://www.lawndalehs.org/apps/staff/",
+      "kind": "official",
+      "viewedAt": "2026-10-15"
+    },
+    {
+      "id": 5,
+      "title": "Lawndale Tribune",
+      "publisher": "Herald Publications",
+      "url": "http://www.heraldpublications.com/herald/sites/default/files/publications/pdf-files/Lawndale_FB_072116_FNL_lorez.pdf",
+      "kind": "news",
+      "viewedAt": "2026-10-15"
+    }
+  ],
+  "meta": {
+    "model": "deepseek-gemini",
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-15T21:48:37.688Z",
+    "version": 3
+  }
+}
