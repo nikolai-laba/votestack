@@ -9,7 +9,6 @@ import {
   type FocusHeadingState,
 } from '../ballot/session.ts'
 import type { RaceHandoffState } from '../races/data.ts'
-import { coveredFullNames } from '../ballot/coverage.ts'
 import { REGIONS, coveredAreas } from '../shared/regions.ts'
 import { BALLOT_HEADING_ID } from './BallotView.tsx'
 import { WarningIcon } from './icons.tsx'
@@ -41,7 +40,7 @@ function validate(field: Field, value: string): string | undefined {
   return /^\d{5}(-\d{4})?$/.test(v) ? undefined : 'Enter a 5-digit ZIP code.'
 }
 
-const NOT_FOUND = `We couldn’t find that address in ${coveredAreas()}. VoteStack is currently only available in ${coveredFullNames()}. Check the street, city and ZIP code`
+const NOT_FOUND = `We couldn’t find that address in ${coveredAreas()}. Check the street, city and ZIP code`
 
 const LOOKUP_ERRORS = {
   invalid: 'Enter your full street address, starting with the house number.',

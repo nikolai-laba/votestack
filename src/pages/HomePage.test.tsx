@@ -158,9 +158,17 @@ describe('HomePage', () => {
     ).toBeInTheDocument()
     expect(screen.getByText('Jane Doe')).toBeInTheDocument()
     expect(screen.getByText(/not matched to districts/i)).toBeInTheDocument()
-    expect(
-      screen.getByRole('link', { name: /official sample ballot/i }),
-    ).toHaveAttribute('href', ballot.coverage.officialSampleBallotUrl)
+    const sampleLink = screen.getByRole('link', {
+      name: /official sample ballot/i,
+    })
+    expect(sampleLink).toHaveAttribute(
+      'href',
+      ballot.coverage.officialSampleBallotUrl,
+    )
+    // The notes and the link read as one paragraph, with no bullet list.
+    expect(sampleLink.parentElement).toHaveTextContent(
+      /not matched to districts yet\. Check your official sample ballot$/,
+    )
     expect(screen.getByText('Judges up for retention (1)')).toBeVisible()
     expect(screen.getByText('Official ballot text')).toBeInTheDocument()
     // Sources, checked dates and the ballot order explainer live on the
@@ -221,6 +229,13 @@ describe('HomePage', () => {
     expect(links[0].parentElement).toHaveTextContent(
       'Full text and arguments: California voter guide',
     )
+    // Each part of the official text is its own paragraph, its label in bold.
+    const fiscal = within(results).getAllByText('Fiscal Impact:')[0]
+    expect(fiscal.tagName).toBe('STRONG')
+    expect(fiscal.parentElement).toHaveTextContent('Fiscal Impact: Costs.')
+    expect(fiscal.parentElement?.previousElementSibling).toHaveTextContent(
+      'Authorizes bonds.',
+    )
   })
 
   it('shows no notice when the ballot matched every official list', async () => {
@@ -247,14 +262,14 @@ describe('HomePage', () => {
     ).toBeNull()
   })
 
-  it('links the footer to the ballot order explainer', () => {
+  it('links the footer to the About page', () => {
     renderAt('/')
     const footer = screen.getByRole('contentinfo')
     expect(
-      within(footer).getByRole('link', {
+      within(footer).queryByRole('link', {
         name: 'Candidates listed in official ballot order',
       }),
-    ).toHaveAttribute('href', '/about#ballot-order')
+    ).not.toBeInTheDocument()
     expect(
       within(footer).getByRole('link', { name: 'About VoteStack' }),
     ).toHaveAttribute('href', '/about')
@@ -397,8 +412,8 @@ describe('HomePage', () => {
     expect(await screen.findByRole('status')).toHaveTextContent(
       /couldn’t find that address/i,
     )
-    expect(screen.getByRole('status')).toHaveTextContent(
-      'only available in Cook County, Illinois, and Los Angeles County, California',
+    expect(screen.getByRole('status')).not.toHaveTextContent(
+      'only available in',
     )
     // Right under the button, with no links to the official sites.
     const status = screen.getByRole('status')

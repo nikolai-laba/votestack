@@ -16,6 +16,10 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 ### Changed
 
 - In the list by level of government, measures are grouped under subheads by level (state, county, then city and local) and sorted by number or letter, and each area's offices follow its official order, so Governor leads the State section in Los Angeles County. In Los Angeles County, local measures are named by city or district and letter, followed by their official title where they have one.
+- About, Get started and How we make profiles now cover Los Angeles County: who writes and checks its profiles, where its endorsements and campaign money come from, and why its paper ballot lists local races first. How we make profiles is shorter and sticks to the process; About describes what a profile contains.
+- The site footer puts About VoteStack, GitHub and Contact on one line.
+- The notice for races that may be missing is one short paragraph, with the link to your official sample ballot at its end.
+- In a measure's official text, Fiscal Impact, Supporters and Opponents each start their own paragraph, with the label in bold.
 - On wider screens (840px and up), a candidate's profile again shows your whole ballot beside it, scrolled to that candidate's race, so you can move between races and candidates without going back. On phones, the candidate's race stays at the top of the profile. Other pages, like About, stay full width.
 
 ## [1.2.0] - 2026-10-14

@@ -428,24 +428,22 @@ function CoverageNotice({ coverage }: { coverage: Coverage }) {
         <h2 className="font-sans text-label font-bold">
           Some races may be missing from this list
         </h2>
-        {coverage.notes.length > 0 && (
-          <ul className="list-disc space-y-1 ps-5">
-            {coverage.notes.map((note) => (
-              <li key={note}>{note}</li>
-            ))}
-          </ul>
-        )}
-        {coverage.officialSampleBallotUrl && (
+        {(coverage.notes.length > 0 || coverage.officialSampleBallotUrl) && (
           <p>
-            {/* A link on its own line, so it gets a 44px target. */}
-            <a
-              className="inline-flex min-h-11 items-center text-warn-fg"
-              href={webUrl(coverage.officialSampleBallotUrl)}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Check your official sample ballot
-            </a>
+            {coverage.notes.join(' ')}
+            {coverage.notes.length > 0 &&
+              coverage.officialSampleBallotUrl &&
+              ' '}
+            {coverage.officialSampleBallotUrl && (
+              <a
+                className="text-warn-fg"
+                href={webUrl(coverage.officialSampleBallotUrl)}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Check your official sample ballot
+              </a>
+            )}
           </p>
         )}
       </div>
@@ -568,6 +566,26 @@ function CandidateRace({
   )
 }
 
+/** The lead-in labels the official text starts a part with (scripts/la/titles.ts). */
+const MEASURE_PART = /^(Fiscal Impact|Supporters|Opponents):\s*/
+
+/** A measure's official text, each part in its own paragraph with its label in bold. */
+function MeasureText({ text }: { text: string }) {
+  return (
+    <div className="space-y-3">
+      {text.split('\n').map((line, i) => {
+        const part = line.match(MEASURE_PART)
+        return (
+          <p key={i}>
+            {part && <strong>{part[1]}:</strong>}
+            {part ? ` ${line.slice(part[0].length)}` : line}
+          </p>
+        )
+      })}
+    </div>
+  )
+}
+
 function Measure({
   contest,
   picks,
@@ -589,7 +607,7 @@ function Measure({
         <p className="text-small font-semibold text-muted">
           Official ballot text
         </p>
-        <p className="whitespace-pre-line">{contest.question}</p>
+        <MeasureText text={contest.question} />
         {contest.guide && webUrl(contest.guide.url) && (
           <p>
             Full text and arguments:{' '}

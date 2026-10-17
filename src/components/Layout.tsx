@@ -2,7 +2,6 @@ import { useRef, useState, type KeyboardEvent } from 'react'
 import { Link, NavLink, Outlet, useMatches } from 'react-router'
 import {
   ABOUT_PATH,
-  BALLOT_ORDER_ID,
   SAVED_CHOICES_PATH,
   type RouteHandle,
 } from '../ballot/profileLinks.ts'
@@ -110,16 +109,8 @@ export function Layout() {
             site is subject to change at any time. It is understood that the
             data provided at this site is being used at one&apos;s own risk.
           </p>
-          <ul className="space-y-1">
-            <li>
-              {/* Each link on its own line, so it gets a 44px target. */}
-              <Link
-                to={`${ABOUT_PATH}#${BALLOT_ORDER_ID}`}
-                className="inline-flex min-h-11 items-center"
-              >
-                Candidates listed in official ballot order
-              </Link>
-            </li>
+          {/* One line, each link a 44px target with room between them. */}
+          <ul className="flex flex-wrap gap-x-6">
             <li>
               <Link
                 to={ABOUT_PATH}
