@@ -18,7 +18,7 @@ import {
   pickedCandidates,
 } from '../picks/summary.ts'
 import type { Contest } from '../shared/ballot.ts'
-import { measureWordsFor, regionForElection } from '../shared/regions.ts'
+import { COOK, regionForElection } from '../shared/regions.ts'
 import { SAVED_CHOICES_HEAD, useDocumentHead } from '../head.ts'
 
 // Saved choices: the voter's picks in ballot order, to fill in a mail
@@ -70,12 +70,13 @@ export function SavedChoicesPage() {
     )
   }
 
-  const words = measureWordsFor(ballot.election.id)
-  const sections = sectionsFor(ballot.contests, order, words)
+  const region = regionForElection(ballot.election.id)
+  const words = (region ?? COOK).measureWords
+  const sections = sectionsFor(ballot.contests, order, region ?? COOK)
   // Illinois's law against showing a marked ballot. California's differs,
   // so the warning is for Illinois ballots (and any ballot whose state isn't
   // known).
-  const illinois = regionForElection(ballot.election.id)?.state !== 'CA'
+  const illinois = region?.state !== 'CA'
 
   return (
     <div className="max-w-[65ch] space-y-8">
@@ -100,13 +101,29 @@ export function SavedChoicesPage() {
           <h2 id={`picks-${section.id}-heading`} className="text-section">
             {section.title}
           </h2>
-          <ul className="divide-y divide-line border-y border-line">
-            {section.contests.map((contest) => (
-              <li key={contest.id} className="py-3">
-                <PickedRace contest={contest} picks={picks} />
-              </li>
-            ))}
-          </ul>
+          {section.groups ? (
+            section.groups.map((group) => {
+              const headingId = `picks-${section.id}-${group.id}-heading`
+              return (
+                <section
+                  key={group.id}
+                  aria-labelledby={headingId}
+                  className="space-y-2 pt-4"
+                >
+                  <h3 id={headingId} className="text-race">
+                    {group.title}
+                  </h3>
+                  <PickedList
+                    contests={group.contests}
+                    picks={picks}
+                    headingLevel={4}
+                  />
+                </section>
+              )
+            })
+          ) : (
+            <PickedList contests={section.contests} picks={picks} />
+          )}
         </section>
       ))}
 
@@ -126,12 +143,46 @@ export function SavedChoicesPage() {
   )
 }
 
+function PickedList({
+  contests,
+  picks,
+  headingLevel = 3,
+}: {
+  contests: Contest[]
+  picks: Picks
+  /** 4 inside a group that has its own h3. */
+  headingLevel?: 3 | 4
+}) {
+  return (
+    <ul className="divide-y divide-line border-y border-line">
+      {contests.map((contest) => (
+        <li key={contest.id} className="py-3">
+          <PickedRace
+            contest={contest}
+            picks={picks}
+            headingLevel={headingLevel}
+          />
+        </li>
+      ))}
+    </ul>
+  )
+}
+
 /**
  * One race: its title as a quiet label, then what the voter picked in bold
  * `primary`, so the picks are what the eye finds first. Every pick looks the
  * same.
  */
-function PickedRace({ contest, picks }: { contest: Contest; picks: Picks }) {
+function PickedRace({
+  contest,
+  picks,
+  headingLevel,
+}: {
+  contest: Contest
+  picks: Picks
+  headingLevel: 3 | 4
+}) {
+  const Heading = headingLevel === 4 ? 'h4' : 'h3'
   let label: ReactNode
   let choice: ReactNode
 
@@ -139,9 +190,9 @@ function PickedRace({ contest, picks }: { contest: Contest; picks: Picks }) {
     const picked = pickedCandidates(picks, contest)
     label = (
       <>
-        <h3 className="font-sans text-small font-semibold text-muted">
+        <Heading className="font-sans text-small font-semibold text-muted">
           {contest.title}
-        </h3>
+        </Heading>
         {contest.voteFor > 1 && (
           <p className="text-small text-muted">
             {picked.length} of {contest.voteFor} picked
@@ -171,9 +222,9 @@ function PickedRace({ contest, picks }: { contest: Contest; picks: Picks }) {
       )
   } else if (contest.kind === 'measure') {
     label = (
-      <h3 className="font-sans text-small font-semibold text-muted">
+      <Heading className="font-sans text-small font-semibold text-muted">
         {contest.title}
-      </h3>
+      </Heading>
     )
     choice = <Answer choice={choicesFor(picks, contest)[0]} />
   } else {

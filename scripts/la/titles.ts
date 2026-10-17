@@ -45,7 +45,7 @@ const SMALL_WORDS = new Set([
  * A statewide measure's title in the Secretary of State's style:
  * "AUTHORIZES BONDS FOR HOUSING AFFORDABILITY PROGRAMS." → "Authorizes
  * Bonds for Housing Affordability Programs". Every word is capitalized
- * (each part of a hyphenated word too) except small words after a word;
+ * (each part of a hyphenated or slashed word too) except small words after a word;
  * after a number the Secretary of State capitalizes them ("90% Of
  * Revenue"). Possessives keep a lower-case s ("STATE'S" → "State's").
  */
@@ -64,7 +64,7 @@ function stateTitleCase(text: string): string {
       previous = word
       if (small) return lower
       return lower.replace(
-        /(^|-)(\p{L})/gu,
+        /(^|[-/])(\p{L})/gu,
         (_, sep, ch) => sep + ch.toUpperCase(),
       )
     })
@@ -92,6 +92,56 @@ export function stateMeasure(
     .replace(/\s*\b(LEGISLATIVE|INITIATIVE|REFERENDUM)\b[A-Z ,]*\.?$/, '')
     .replace(/\.$/, '')
   return { number, title: stateTitleCase(heading) }
+}
+
+/**
+ * A county or local measure's short name and official title. The Registrar
+ * names it after the election ("LOS ANGELES CITY GENERAL MUNICIPAL ELECTION
+ * - MEASURE EE"); the short name keeps the jurisdiction and the letter
+ * ("City of Los Angeles Measure EE"). When the description opens with a
+ * bold title, that is the measure's official title, without the kind of
+ * measure that follows it ("CITY ETHICS, ELECTIONS, AND GOVERNANCE. CHARTER
+ * AMENDMENT EE."). Many local measures have none: their description opens
+ * with the ballot question, so the title is the short name alone.
+ */
+export function localMeasureTitle(name: string, description: string): string {
+  const parts = /^(.*?)\s*-?\s*\bMEASURE\s+(\S+)\s*$/i.exec(name.trim())
+  if (!parts) return titleCase(name)
+  const place = parts[1]
+    .replace(
+      /\s*\b(GENERAL|SPECIAL|REGULAR)\s+(MUNICIPAL\s+)?ELECTION\s*-?\s*$/i,
+      '',
+    )
+    .replace(/^LOS ANGELES CITY$/i, 'CITY OF LOS ANGELES')
+  const short = `${titleCase(place)} Measure ${parts[2]}`.trim()
+  const bold = /^\s*<b>([^<]+)<\/b>/i
+    .exec(description)?.[1]
+    ?.replace(/\s+/g, ' ')
+    .trim()
+  // A title is a sentence of its own; bold words that run on into the
+  // question ("WITHOUT INCREASING EXISTING TAX RATES,") aren't one.
+  if (
+    !bold ||
+    /^(Supporters|Opponents|Fiscal Impact)\b/i.test(bold) ||
+    /,$/.test(bold)
+  )
+    return short
+  let heading = bold
+  // The kind of measure and its letter, which the title leaves out
+  // ("CHARTER AMENDMENT EE.", "INITIATIVE ORDINANCE FD.", "MEASURE C:").
+  for (;;) {
+    const next = heading
+      .replace(
+        /[\s.:]*\b(CHARTER AMENDMENT|INITIATIVE ORDINANCE|ORDINANCE|PROPOSITION|MEASURE)\s+[A-Z0-9-]+\s*[.:]?\s*$/i,
+        '',
+      )
+      .replace(/[\s.:]+$/, '')
+    if (next === heading) break
+    heading = next
+  }
+  if (!heading) return short
+  const title = /[a-z]/.test(heading) ? heading : stateTitleCase(heading)
+  return `${short}: ${title}`
 }
 
 /** "Proposition 1: Authorizes Bonds for Housing Affordability Programs" */

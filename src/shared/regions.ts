@@ -54,6 +54,14 @@ export interface Region {
    * show its local races.
    */
   officialListsOnly?: boolean
+  /**
+   * The order of offices within a level of government, where the region's
+   * own ballot order doesn't follow it (Los Angeles County prints local
+   * races first). Matched against each contest's title and office; the
+   * first pattern that matches gives its rank. Contests that match none
+   * follow the ranked ones in ballot order.
+   */
+  officeOrder?: RegExp[]
 }
 
 export const COOK: Region = {
@@ -116,6 +124,22 @@ export const LOS_ANGELES: Region = {
   authorityFor: () => LA_REGISTRAR,
   precinctDistricts: () => [],
   officialListsOnly: true,
+  // California's order of offices on the ballot (Elections Code 13109).
+  officeOrder: [
+    /^United States Senator\b/i,
+    /^United States Representative\b/i,
+    /^Governor\b/i,
+    /^Lieutenant Governor\b/i,
+    /^Secretary of State\b/i,
+    /^Controller\b/i,
+    /^Treasurer\b/i,
+    /^Attorney General\b/i,
+    /^Insurance Commissioner\b/i,
+    /\bState Board of Equalization\b/i,
+    /^State Senator\b/i,
+    /\bMember of the State Assembly\b/i,
+    /^Superintendent of Public Instruction\b/i,
+  ],
 }
 
 export const REGIONS: Region[] = [COOK, LOS_ANGELES]

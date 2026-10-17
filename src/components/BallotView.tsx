@@ -21,7 +21,11 @@ import { SampleModeContext, useSampleMode } from '../picks/sampleMode.ts'
 import { useBallotStore, type Picks } from '../picks/store.ts'
 import { choicesFor, swapText } from '../picks/summary.ts'
 import { partyLine, profileKey } from '../shared/profile.ts'
-import { COOK, measureWordsFor, type MeasureWords } from '../shared/regions.ts'
+import {
+  COOK,
+  regionForElection,
+  type MeasureWords,
+} from '../shared/regions.ts'
 import { BallotOrderToggle } from './BallotOrderToggle.tsx'
 import { ChevronDownIcon, WarningIcon } from './icons.tsx'
 import {
@@ -68,8 +72,9 @@ export function BallotView({
   titleElsewhere?: boolean
 }) {
   const [order] = useBallotOrder()
-  const words = measureWordsFor(ballot.election.id)
-  const sections = sectionsFor(ballot.contests, order, words)
+  const region = regionForElection(ballot.election.id) ?? COOK
+  const words = region.measureWords
+  const sections = sectionsFor(ballot.contests, order, region)
   const current = useCurrentSection(sections)
   const published = new Set(ballot.publishedProfiles ?? [])
   const Title = titleElsewhere ? 'h2' : 'h1'
@@ -155,22 +160,34 @@ export function BallotView({
             <h2 id={`section-${section.id}-heading`} className="text-section">
               {section.title}
             </h2>
-            <ul className="space-y-4">
-              {section.contests.map((contest) => (
-                <li key={contest.id}>
-                  {contest.kind === 'candidate' && (
-                    <CandidateRace
-                      contest={contest}
+            {section.groups ? (
+              section.groups.map((group) => {
+                const headingId = `section-${section.id}-${group.id}-heading`
+                return (
+                  <section
+                    key={group.id}
+                    aria-labelledby={headingId}
+                    className="space-y-4"
+                  >
+                    <h3 id={headingId} className="text-race">
+                      {group.title}
+                    </h3>
+                    <ContestList
+                      contests={group.contests}
                       published={published}
                       picks={picks}
+                      headingLevel={4}
                     />
-                  )}
-                  {contest.kind === 'measure' && (
-                    <Measure contest={contest} picks={picks} />
-                  )}
-                </li>
-              ))}
-            </ul>
+                  </section>
+                )
+              })
+            ) : (
+              <ContestList
+                contests={section.contests}
+                published={published}
+                picks={picks}
+              />
+            )}
           </section>
         ),
       )}
@@ -179,6 +196,44 @@ export function BallotView({
         <p>No races found for this address yet.</p>
       )}
     </article>
+  )
+}
+
+/** A section's (or a group's) races and measures, as cards. */
+function ContestList({
+  contests,
+  published,
+  picks,
+  headingLevel = 3,
+}: {
+  contests: Contest[]
+  published: Set<string>
+  picks: Picks
+  /** 4 inside a group that has its own h3. */
+  headingLevel?: HeadingLevel
+}) {
+  return (
+    <ul className="space-y-4">
+      {contests.map((contest) => (
+        <li key={contest.id}>
+          {contest.kind === 'candidate' && (
+            <CandidateRace
+              contest={contest}
+              published={published}
+              picks={picks}
+              headingLevel={headingLevel}
+            />
+          )}
+          {contest.kind === 'measure' && (
+            <Measure
+              contest={contest}
+              picks={picks}
+              headingLevel={headingLevel}
+            />
+          )}
+        </li>
+      ))}
+    </ul>
   )
 }
 
@@ -398,22 +453,33 @@ function CoverageNotice({ coverage }: { coverage: Coverage }) {
   )
 }
 
+type HeadingLevel = 3 | 4
+
 /** The paper-ballot header: office name and how many to vote for. */
 function ContestBand({
   title,
   voteFor,
   anchorId,
+  headingLevel = 3,
 }: {
   title: string
   voteFor?: number
   /** Focused by a race's "Show on ballot" link on Saved choices. */
   anchorId?: string
+  /** 4 under a group's own heading (measures by level). */
+  headingLevel?: HeadingLevel
 }) {
+  const Heading = headingLevel === 4 ? 'h4' : 'h3'
   return (
     <div className="border-b-2 border-text bg-band px-4 py-3">
-      <h3 id={anchorId} tabIndex={-1} className="scroll-mt-4 text-race">
+      <Heading
+        id={anchorId}
+        tabIndex={-1}
+        // An h4 gets the heading face that h1 to h3 get from the base styles.
+        className={`scroll-mt-4 text-race ${headingLevel === 4 ? 'font-heading font-semibold text-balance' : ''}`.trim()}
+      >
         {title}
-      </h3>
+      </Heading>
       {voteFor !== undefined && (
         <p className="text-small">
           {voteFor === 1 ? 'Vote for 1' : `Vote for up to ${voteFor}`}
@@ -429,6 +495,7 @@ function CandidateRace({
   picks,
   idPrefix = '',
   fromBallot = true,
+  headingLevel = 3,
 }: {
   contest: CandidateContest
   published: Set<string>
@@ -436,6 +503,7 @@ function CandidateRace({
   /** Set in the race panel, so its ids don't repeat the list's. */
   idPrefix?: string
   fromBallot?: boolean
+  headingLevel?: HeadingLevel
 }) {
   const candidates = [...contest.candidates].sort(
     (a, b) => (a.ballotOrder ?? 0) - (b.ballotOrder ?? 0),
@@ -450,6 +518,7 @@ function CandidateRace({
         title={contest.title}
         voteFor={contest.voteFor}
         anchorId={idPrefix ? undefined : raceAnchorId(contest.id)}
+        headingLevel={headingLevel}
       />
       {candidates.length > 0 && <SwapAnnouncement text={swapped} />}
       {candidates.length > 0 ? (
@@ -502,14 +571,20 @@ function CandidateRace({
 function Measure({
   contest,
   picks,
+  headingLevel = 3,
 }: {
   contest: MeasureContest
   picks: Picks
+  headingLevel?: HeadingLevel
 }) {
   const sample = useSampleMode()
   return (
     <div className="overflow-hidden rounded-md border border-line bg-surface">
-      <ContestBand title={contest.title} anchorId={raceAnchorId(contest.id)} />
+      <ContestBand
+        title={contest.title}
+        anchorId={raceAnchorId(contest.id)}
+        headingLevel={headingLevel}
+      />
       <div className="max-w-[65ch] space-y-1 px-4 py-3">
         <p className="text-small font-semibold text-muted">
           Official ballot text

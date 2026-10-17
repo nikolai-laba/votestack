@@ -38,6 +38,7 @@ import {
 import { contestTitle, measureDistrict, officeDistrict } from './districts.ts'
 import { AreaGrid, loadSegments, segmentStyle } from './segments.ts'
 import {
+  localMeasureTitle,
   measureText,
   propositionTitle,
   stateMeasure,
@@ -320,11 +321,14 @@ for (const [id, c] of isbContests) {
   }
   if (c.contest_class === 'ballot_measure_class') {
     // Statewide measures are numbered propositions with the Secretary of
-    // State's title; county and local measures keep the Registrar's name.
+    // State's title; county and local measures are named by jurisdiction
+    // and letter, with their official title where they have one.
     const state = stateMeasure(name, c.long_description?.EN ?? '')
     contests.push({
       ...base,
-      ...(state && { title: propositionTitle(state) }),
+      title: state
+        ? propositionTitle(state)
+        : localMeasureTitle(name, c.long_description?.EN ?? ''),
       kind: 'measure',
       question: measureText(c.long_description?.EN ?? ''),
       ...(state && {

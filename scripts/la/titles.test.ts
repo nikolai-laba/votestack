@@ -2,6 +2,7 @@
 import { readFile } from 'node:fs/promises'
 import { describe, expect, it } from 'vitest'
 import {
+  localMeasureTitle,
   measureText,
   propositionTitle,
   stateMeasure,
@@ -157,4 +158,47 @@ it('reads every proposition in the built data, when it is there', async () => {
   for (const [number, , title] of PROPOSITIONS)
     if (built.contests.some((c) => c.title.startsWith('Proposition ')))
       expect(titles).toContain(`Proposition ${number}: ${title}`)
+})
+
+describe('localMeasureTitle', () => {
+  it('names a measure by jurisdiction and letter, with its official title', () => {
+    expect(
+      localMeasureTitle(
+        'LOS ANGELES CITY GENERAL MUNICIPAL ELECTION - MEASURE EE',
+        '<b>CITY ETHICS, ELECTIONS, AND GOVERNANCE. CHARTER AMENDMENT EE.</b> Shall the City Charter be amended',
+      ),
+    ).toBe(
+      'City of Los Angeles Measure EE: City Ethics, Elections, and Governance',
+    )
+    expect(
+      localMeasureTitle(
+        'CITY OF SOUTH PASADENA GENERAL MUNICIPAL ELECTION - MEASURE SOS',
+        '<b>SOUTH PASADENA STREET/ROAD/POTHOLE REPAIR, 9-1-1 SAFETY MEASURE.</b> To fix',
+      ),
+    ).toBe(
+      'City of South Pasadena Measure SOS: South Pasadena Street/Road/Pothole Repair, 9-1-1 Safety Measure',
+    )
+    expect(
+      localMeasureTitle(
+        'CITY OF BURBANK GENERAL MUNICIPAL ELECTION - MEASURE C',
+        '<b>CITY OF BURBANK CITY SERVICES MEASURE: MEASURE C:</b> To maintain',
+      ),
+    ).toBe('City of Burbank Measure C: City of Burbank City Services Measure')
+  })
+
+  it('uses the short name alone when the text opens with the question', () => {
+    expect(
+      localMeasureTitle(
+        'CITY OF BELL GARDENS GENERAL MUNICIPAL ELECTION - MEASURE W',
+        'Shall the measure permitting the City of Bell Gardens to sell <b>Supporters:</b>',
+      ),
+    ).toBe('City of Bell Gardens Measure W')
+    expect(
+      localMeasureTitle(
+        'TEMPLE CITY UNIFIED SCHOOL DISTRICT SPECIAL ELECTION - MEASURE TCS',
+        '<b>WITHOUT INCREASING EXISTING TAX RATES,</b> shall Temple City',
+      ),
+    ).toBe('Temple City Unified School District Measure TCS')
+    expect(localMeasureTitle('COUNTY MEASURE E', '')).toBe('County Measure E')
+  })
 })

@@ -269,7 +269,8 @@ describe('paperSections on an interleaved ballot (Los Angeles County)', () => {
 
   it('uses the region’s words for its measures', () => {
     expect(
-      groupContests(contests, words).find((s) => s.id === 'measures')?.title,
+      groupContests(contests, LOS_ANGELES).find((s) => s.id === 'measures')
+        ?.title,
     ).toBe('Propositions and measures')
     const one = contests.filter(
       (c) => c.kind !== 'measure' || c.id === 'Proposition 1',
@@ -277,5 +278,151 @@ describe('paperSections on an interleaved ballot (Los Angeles County)', () => {
     expect(paperSections(one, words).map((s) => s.title)).toContain(
       'Propositions and measures',
     )
+  })
+})
+
+describe('groupContests for Los Angeles County', () => {
+  const measure = (title: string, districtId: string, ballotOrder: number) =>
+    ({
+      ...candidate(title, districtId, ballotOrder),
+      kind: 'measure',
+      question: '?',
+    }) as Contest
+
+  it('orders offices by California law within a level, not local-first ballot order', () => {
+    const sections = groupContests(
+      [
+        candidate(
+          'Member of the State Assembly, 34th District',
+          `${CA}/sldl:34`,
+          188,
+        ),
+        candidate(
+          'United States Representative, 23rd District',
+          `${CA}/cd:23`,
+          199,
+        ),
+        candidate('State Senator, 20th District', `${CA}/sldu:20`, 256),
+        candidate('Superintendent of Public Instruction', CA, 375),
+        candidate('Lieutenant Governor', CA, 368),
+        candidate('Governor', CA, 367),
+        candidate(
+          'Member State Board of Equalization, 3rd District',
+          `${CA}/boe_district:3`,
+          374,
+        ),
+        candidate('Sheriff', LA, 100),
+        candidate('Assessor', LA, 90),
+      ],
+      LOS_ANGELES,
+    )
+    const titles = (id: string) =>
+      sections.find((s) => s.id === id)?.contests.map((c) => c.title)
+    expect(titles('state')).toEqual([
+      'Governor',
+      'Lieutenant Governor',
+      'Member State Board of Equalization, 3rd District',
+      'State Senator, 20th District',
+      'Member of the State Assembly, 34th District',
+      'Superintendent of Public Instruction',
+    ])
+    // Offices outside the list keep ballot order.
+    expect(titles('county')).toEqual(['Assessor', 'Sheriff'])
+  })
+
+  it('groups measures by level, state first, by number or letter', () => {
+    const [section] = groupContests(
+      [
+        measure(
+          'Los Angeles City General Municipal Election - Measure TE',
+          `${CA}/place:los_angeles`,
+          325,
+        ),
+        measure(
+          'City of Burbank General Municipal Election - Measure C',
+          `${CA}/place:burbank`,
+          338,
+        ),
+        measure(
+          'Los Angeles City General Municipal Election - Measure FD',
+          `${CA}/place:los_angeles`,
+          348,
+        ),
+        measure('County Measure E', LA, 366),
+        measure('County Measure A', LA, 365),
+        measure('Proposition 45: Modifies Environmental Review', CA, 389),
+        measure("Proposition 2: Increases State's Rainy Day Fund", CA, 377),
+        measure('Proposition 10: Example', CA, 360),
+        measure('Proposition 1: Authorizes Bonds', CA, 376),
+      ],
+      LOS_ANGELES,
+    )
+    expect(section.title).toBe('Propositions and measures')
+    expect(section.groups?.map((g) => [g.id, g.title])).toEqual([
+      ['state', 'State propositions'],
+      ['county', 'County measures'],
+      ['local', 'City and local measures'],
+    ])
+    expect(section.groups?.map((g) => g.contests.map((c) => c.id))).toEqual([
+      [
+        'Proposition 1: Authorizes Bonds',
+        "Proposition 2: Increases State's Rainy Day Fund",
+        'Proposition 10: Example',
+        'Proposition 45: Modifies Environmental Review',
+      ],
+      ['County Measure A', 'County Measure E'],
+      [
+        'City of Burbank General Municipal Election - Measure C',
+        'Los Angeles City General Municipal Election - Measure FD',
+        'Los Angeles City General Municipal Election - Measure TE',
+      ],
+    ])
+    expect(section.contests).toEqual(section.groups?.flatMap((g) => g.contests))
+  })
+})
+
+describe('groupContests for Cook County referenda', () => {
+  const referendum = (title: string, districtId: string, ballotOrder: number) =>
+    ({
+      ...candidate(title, districtId, ballotOrder),
+      kind: 'measure',
+      question: '?',
+    }) as Contest
+
+  it('groups county and city referenda, each in official order', () => {
+    const [section] = groupContests([
+      referendum('Village of Niles, Term Limits', `${IL}/place:niles`, 1984),
+      referendum(
+        'Village of Niles, Indoor-Outdoor Theater',
+        `${IL}/place:niles`,
+        1974,
+      ),
+      referendum('Cook County, Millionaire Tax Amendment', COOK, 1804),
+    ])
+    expect(section.title).toBe('Referenda and questions')
+    expect(
+      section.groups?.map((g) => [g.title, g.contests.map((c) => c.title)]),
+    ).toEqual([
+      ['County referenda', ['Cook County, Millionaire Tax Amendment']],
+      [
+        'City and local referenda',
+        [
+          'Village of Niles, Indoor-Outdoor Theater',
+          'Village of Niles, Term Limits',
+        ],
+      ],
+    ])
+  })
+
+  it('keeps a one-level section without groups', () => {
+    const [section] = groupContests([
+      referendum('Village of Niles, Term Limits', `${IL}/place:niles`, 1984),
+      referendum('Village of Alsip, Term Limits', `${IL}/place:alsip`, 1814),
+    ])
+    expect(section.groups).toBeUndefined()
+    expect(section.contests.map((c) => c.title)).toEqual([
+      'Village of Alsip, Term Limits',
+      'Village of Niles, Term Limits',
+    ])
   })
 })
