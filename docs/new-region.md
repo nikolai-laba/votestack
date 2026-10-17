@@ -8,6 +8,7 @@ Every step writes a file that a later step reads. `scripts/lib/regions/manifest.
 
 - Pick an id for the area: the state's two-letter code and a short name, such as `il-cook`, `ca-la` or `ny-nyc`. It tags the area's rows in the database and names its folders.
 - Find the official sources and read their terms before writing code. Each step below needs a source from a government body, or a published list from the group itself (endorsements, bar ratings). Record each one, with its terms, in `data/README.md`.
+- If you build the area in a git worktree, link its `data/raw/` to the main checkout's (`ln -s ../../<main checkout>/data/raw data/raw`) so downloads are shared. `data/build/` stays per checkout, and it isn't committed, so see step 9 before removing the worktree.
 - Find a ground truth for the ballot: something official that says which contests appear at an address or precinct. Cook has the Clerk's per-ballot-style sample ballots; Los Angeles has the Registrar's street segments. Without one, ballots can't be audited, and the area shouldn't go live.
 
 ## 1. Region config
@@ -62,3 +63,4 @@ Every step writes a file that a later step reads. `scripts/lib/regions/manifest.
 - `npm run region:check -- --region=<id>` passes for the new area and for every existing one.
 - Add the change to `CHANGELOG.md`, and add the area's sources and terms to `data/README.md`.
 - Plan the refreshes: new campaign filings, contest changes and source pages that go out of date.
+- If the area was built in a worktree, copy its `data/build/` folders (for example `data/build/<area>/` and `data/build/profiles/<id>/`) into the main checkout with their timestamps (`cp -Rp`) before removing the worktree; some took paid calls to make. Then run `region:check` from the main checkout. Git doesn't keep file times, so a committed file can look older than its source after a merge: when the contents match, re-run its step or update its time.
