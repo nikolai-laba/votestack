@@ -85,7 +85,7 @@ export default function AboutPage() {
         </h1>
       </div>
 
-      <Section id="what" title="What VoteStack is">
+      <Section id="what" title="What is VoteStack?">
         <p>
           VoteStack shows you every race on your ballot and helps you understand
           the people running. It covers Chicago and suburban Cook County,
@@ -99,8 +99,8 @@ export default function AboutPage() {
         <p>
           Seeing what&rsquo;s on your ballot is the easy part. Knowing who the
           candidates are is harder, especially for judges and local offices. So
-          every candidate and judge on Cook County ballots has a short profile
-          with the same three parts:
+          every candidate and judge covered has a short profile with the same
+          three parts:
         </p>
         <ul className="list-disc space-y-2 ps-6">
           <li>
@@ -119,13 +119,9 @@ export default function AboutPage() {
         </ul>
         <p>Every sentence links to its source, so you can check it.</p>
         <p>
-          Candidates in Los Angeles County don&rsquo;t have profiles yet. Their
-          ballots show every race and every candidate&rsquo;s name.
-        </p>
-        <p>
-          VoteStack doesn&rsquo;t support or oppose any candidate, party or
-          referendum. It isn&rsquo;t a government site. We don&rsquo;t tell you
-          how to vote.
+          VoteStack doesn&rsquo;t support or oppose any candidate, party,
+          referendum or measure. It isn&rsquo;t a government site. We
+          don&rsquo;t tell you how to vote.
         </p>
       </Section>
 
@@ -284,6 +280,12 @@ export default function AboutPage() {
           the alphabet, and names are listed in that order. For some offices,
           the order changes from one Assembly district to the next. We show the
           order from the Registrar&rsquo;s sample ballot for your ballot style.
+        </p>
+        <p>
+          The Los Angeles County ballot lists city and local races first and
+          state races last. California law allows this order only in Los Angeles
+          County. Your ballot on VoteStack starts out grouped by level of
+          government. You can switch it to the paper ballot order.
         </p>
       </Section>
 

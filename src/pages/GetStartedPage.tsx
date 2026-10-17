@@ -49,8 +49,7 @@ export function GetStartedPage() {
         </h1>
         <p className="max-w-[65ch]">
           VoteStack shows you every race on your ballot with a profile for each
-          candidate. It covers {coveredFullNames()}. Candidates in Los Angeles
-          County don&apos;t have profiles yet.
+          candidate. It covers {coveredFullNames()}.
         </p>
         <p className="max-w-[65ch]">
           Live outside {coveredAreas()}?{' '}

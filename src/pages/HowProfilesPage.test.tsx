@@ -4,7 +4,6 @@ import { RouterProvider, createMemoryRouter } from 'react-router'
 import { describe, expect, it } from 'vitest'
 import { lintTone } from '../../scripts/lib/profiles/checks.ts'
 import { routes } from '../routes.tsx'
-import { OVERVIEW_WORD_LIMITS } from '../shared/profile.ts'
 
 function renderPage() {
   const router = createMemoryRouter(routes, {
@@ -27,7 +26,6 @@ describe('How we make profiles', () => {
       screen.getAllByRole('heading', { level: 2 }).map((h) => h.textContent),
     ).toEqual([
       'In short',
-      'What a profile contains',
       'Where the information comes from',
       'How a profile is written',
       'What we can’t promise',
@@ -37,7 +35,7 @@ describe('How we make profiles', () => {
       'Report an error',
     ])
     for (const name of [
-      'What a profile contains',
+      'Where the information comes from',
       'Campaign money',
       'Report an error',
     ])
@@ -51,6 +49,7 @@ describe('How we make profiles', () => {
       name: 'How a profile is written',
     })
     expect(writing).toHaveTextContent('DeepSeek V4 Pro')
+    expect(writing).toHaveTextContent('Claude Opus 5.5')
     expect(writing).toHaveTextContent('Google Gemini 3.1 Pro')
     expect(writing).toHaveTextContent('Each sentence cites one source')
     expect(writing).toHaveTextContent(/removes anything it can.t confirm/)
@@ -93,19 +92,11 @@ describe('How we make profiles', () => {
     expect(equal).toHaveTextContent('the same research')
   })
 
-  it('states the length limits from the shared schema', () => {
-    renderPage()
-    const contents = screen.getByRole('region', {
-      name: 'What a profile contains',
-    })
-    for (const limit of Object.values(OVERVIEW_WORD_LIMITS))
-      expect(contents).toHaveTextContent(`up to ${limit} words`)
-  })
-
   it('explains when breakdown percentages are left out', () => {
     renderPage()
     const money = screen.getByRole('region', { name: 'Campaign money' })
     expect(money).toHaveTextContent('ISBE')
+    expect(money).toHaveTextContent('Cal-Access')
     expect(money).toHaveTextContent('FEC')
     expect(money).toHaveTextContent(
       'We show percentages only when a committee raised at least $5,000 in the period',

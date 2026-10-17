@@ -29,7 +29,7 @@ describe('About page', () => {
     expect(
       screen.getAllByRole('heading', { level: 2 }).map((h) => h.textContent),
     ).toEqual([
-      'What VoteStack is',
+      'What is VoteStack?',
       'Who makes VoteStack',
       'How we stay fair',
       'Where ballot information comes from',
@@ -45,9 +45,9 @@ describe('About page', () => {
   it('says who we are and what it covers', async () => {
     renderAt('/about')
     await title()
-    const what = screen.getByRole('region', { name: 'What VoteStack is' })
+    const what = screen.getByRole('region', { name: 'What is VoteStack?' })
     expect(what).toHaveTextContent(
-      'doesn’t support or oppose any candidate, party or referendum',
+      'doesn’t support or oppose any candidate, party, referendum or measure',
     )
     expect(what).toHaveTextContent('isn’t a government site')
     expect(what).toHaveTextContent('We don’t tell you how to vote')
@@ -118,12 +118,11 @@ describe('About page', () => {
     ).toHaveTextContent('Apache License 2.0')
   })
 
-  it('opens at the ballot order explainer from the footer link', async () => {
-    renderAt('/')
+  it('opens at the ballot order explainer from its link', async () => {
+    renderAt('/about')
+    const fair = await screen.findByRole('region', { name: 'How we stay fair' })
     await userEvent.click(
-      screen.getByRole('link', {
-        name: 'Candidates listed in official ballot order',
-      }),
+      within(fair).getByRole('link', { name: 'official ballot order' }),
     )
     expect(
       await screen.findByRole('heading', {

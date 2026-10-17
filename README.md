@@ -1,8 +1,8 @@
 # VoteStack
 
-See every election, race, and candidate on your ballot, then plan your picks before you vote. VoteStack is starting with **Chicago and suburban Cook County, Illinois**, and is meant to cover every upcoming election over time.
+See every election, race, and candidate on your ballot, then plan your picks before you vote. VoteStack covers **Chicago and suburban Cook County, Illinois**, and **Los Angeles County, California**, and is meant to cover every upcoming election over time.
 
-> **VoteStack is not an official election source.** Always confirm your ballot with the [Chicago Board of Election Commissioners](https://chicagoelections.gov) or the [Cook County Clerk](https://www.cookcountyclerkil.gov/elections).
+> **VoteStack is not an official election source.** Always confirm your ballot with the [Chicago Board of Election Commissioners](https://chicagoelections.gov), the [Cook County Clerk](https://www.cookcountyclerkil.gov/elections) or the [Los Angeles County Registrar-Recorder/County Clerk](https://www.lavote.gov).
 
 ## Why VoteStack exists
 
@@ -42,7 +42,7 @@ The rest of this file is for developers.
 
 The code is open source under Apache-2.0. Some of the data it can use is not:
 
-- Ballot data comes through **provider adapters** (`src/shared/provider.ts`). Each one converts a data source into one internal schema (election → contest → candidate/retention/measure). The current adapter (`worker/ballot.ts`) reads official data from the Cook County Clerk and the Chicago Board of Election Commissioners, loaded into Supabase. Others, such as Ballotpedia, BallotReady, or a dataset you curate yourself, can be added without changing the app.
+- Ballot data comes through **provider adapters** (`src/shared/provider.ts`). Each one converts a data source into one internal schema (election → contest → candidate/retention/measure). The current adapter (`worker/ballot.ts`) reads official data from the Cook County Clerk, the Chicago Board of Election Commissioners and the Los Angeles County Registrar-Recorder/County Clerk, loaded into Supabase. Others, such as Ballotpedia, BallotReady, or a dataset you curate yourself, can be added without changing the app.
 - Proprietary sources need your own API keys and are subject to their own terms. You can fork VoteStack, plug in your own provider, and run your own ballot tracker.
 
 ## Tech stack
@@ -95,7 +95,7 @@ Anything prefixed `VITE_` is bundled into the public website. Only put public va
 
 ## Data sources and attribution
 
-Ballots are built from official sources only: the Cook County Clerk's and the Chicago Board of Election Commissioners' lists of races, candidates and referenda, Cook County address points, and official district maps from Cook County, the City of Chicago and the State of Illinois. Campaign money comes from Illinois State Board of Elections and FEC filings. [data/README.md](data/README.md) lists every source, its terms and the commands that download and build the data (`npm run data:fetch`, `npm run data:build`, `npm run data:audit`, `npm run data:load`). This data is not covered by the Apache-2.0 license, and the City of Chicago's terms require the data notice shown in the site footer.
+Ballots are built from official sources only: the Cook County Clerk's and the Chicago Board of Election Commissioners' lists of races, candidates and referenda, Cook County address points, and official district maps from Cook County, the City of Chicago and the State of Illinois. Los Angeles County ballots come from the Registrar-Recorder/County Clerk's Interactive Sample Ballot data, the County's CAMS address points and the Registrar's precinct map. Campaign money comes from FEC, Illinois State Board of Elections, Cal-Access, NetFile and city filings. [data/README.md](data/README.md) lists every source, its terms and the commands that download and build the data (`npm run data:fetch`, `npm run data:build`, `npm run data:audit`, `npm run data:load`). This data is not covered by the Apache-2.0 license, and the City of Chicago's terms require the data notice shown in the site footer.
 
 ## How candidate profiles are made
 
@@ -103,8 +103,8 @@ Voters can read the full method on the site at [/how-profiles-are-made](src/page
 
 - **Same parts for everyone:** Overview, Campaign money, Endorsements (for judges, also bar association ratings) and a numbered list of Sources, in that order. Overview length is set by the race (`OVERVIEW_WORD_LIMITS` in `src/shared/profile.ts`), never by the candidate. An empty part says "Not found in public sources" with the date.
 - **Sources:** news organizations, candidates' own sites, Wikipedia, Ballotpedia, official sources, bar associations and endorsing organizations. No social media and no opponents' material. Profiles never include home addresses, contact details, family, birth dates or unproven allegations.
-- **Written by AI, checked by AI and software.** DeepSeek V4 Pro drafts each overview from search results, and Gemini 3.1 Pro opens every cited page and keeps, corrects or removes each sentence. The checks in `scripts/lib/profiles/` cover citations, allowed sources, links that open (no login or paywall pages), source dates, tone, length, privacy patterns and equal coverage within a race. A race publishes only when every candidate in it passes.
-- **Not written by AI:** campaign money comes from FEC and ISBE filings (`scripts/profiles/money.ts`; ISBE's published bulk data files only, never its search pages). Judges' bar ratings are copied word for word from the published lists (`scripts/profiles/judges.ts`, `content/profiles/judges/`).
+- **Written by AI, checked by AI and software.** DeepSeek V4 Pro drafts each overview from search results, and Gemini 3.1 Pro checks every cited link and keeps, corrects or removes each sentence. Endorsements are found by Gemini in Cook County and by Claude Opus 5.5 in Los Angeles County, plus published endorsement lists merged by code. The checks in `scripts/lib/profiles/` cover citations, allowed sources, links that open (no login or paywall pages), source dates, tone, length, privacy patterns and equal coverage within a race. A race publishes only when every candidate in it passes.
+- **Not written by AI:** campaign money comes from FEC and ISBE filings in Cook County (`scripts/profiles/money.ts`; ISBE's published bulk data files only, never its search pages) and from FEC, Cal-Access, NetFile and city filings in Los Angeles County (`scripts/lib/profiles/money-sources.ts`). Scanned filings are read by two separate AI reads that must agree, with the totals adding up. Judges' bar ratings are copied word for word from the published lists (`scripts/profiles/judges.ts`, `content/profiles/judges/`).
 - **No ranking or recommendations.** Endorsements and ratings are reported as published.
 
 When you change a check, a source rule or a limit, update the methods page and this summary in the same commit.

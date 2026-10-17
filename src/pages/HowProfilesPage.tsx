@@ -3,11 +3,7 @@ import { useOutletContext } from 'react-router'
 import type { BallotOutletContext } from '../ballot/profileLinks.ts'
 import { BackLink } from '../components/profile/BackLink.tsx'
 import { money } from '../format.ts'
-import {
-  OVERVIEW_PARAGRAPH_LIMITS,
-  OVERVIEW_WORD_LIMITS,
-  MONEY_SHARES_MIN_RAISED,
-} from '../shared/profile.ts'
+import { MONEY_SHARES_MIN_RAISED } from '../shared/profile.ts'
 import { HOW_PROFILES_HEAD, useDocumentHead } from '../head.ts'
 
 // The methods page for candidate profiles, linked from every
@@ -53,9 +49,6 @@ export function HowProfilesPage() {
 
   useDocumentHead(HOW_PROFILES_HEAD)
 
-  const words = OVERVIEW_WORD_LIMITS
-  const paragraphs = OVERVIEW_PARAGRAPH_LIMITS
-
   return (
     <article className="max-w-[65ch] space-y-8">
       <div className="space-y-4">
@@ -69,9 +62,9 @@ export function HowProfilesPage() {
         </h1>
         <p>
           VoteStack has a short profile for each candidate and judge on Cook
-          County ballots. Candidates in Los Angeles County don&rsquo;t have
-          profiles yet. This page explains how we make them and what we
-          can&rsquo;t check. VoteStack doesn&rsquo;t tell you how to vote.
+          County and Los Angeles County ballots. This page explains how we make
+          them and what we can&rsquo;t check. VoteStack doesn&rsquo;t tell you
+          how to vote.
         </p>
       </div>
 
@@ -93,59 +86,15 @@ export function HowProfilesPage() {
         <p>The rest of this page explains each step in detail.</p>
       </Section>
 
-      <Section id="contents" title="What a profile contains">
-        <p>Every profile has the same four parts, in the same order.</p>
-        <List>
-          <li>
-            The overview says who the person is, their main positions, their
-            record and their main work. Judges may not announce views on issues,
-            so a judge&rsquo;s overview covers their legal background and time
-            on the bench instead of positions.
-          </li>
-          <li>
-            Campaign money shows totals from official campaign finance reports.
-            See &ldquo;Campaign money&rdquo; below.
-          </li>
-          <li>
-            Endorsements lists the organizations and elected officials that
-            endorsed the candidate, each with a link to a page that shows it.
-            For judges, this part also shows each bar association&rsquo;s
-            rating, word for word.
-          </li>
-          <li>
-            Sources is a numbered list of every page the profile uses, with the
-            date we read it. The small numbers in the text point to this list.
-          </li>
-        </List>
-        <p>The length of the overview depends on the race:</p>
-        <List>
-          <li>
-            Top of the ballot, such as governor or U.S. Senate: up to{' '}
-            {words.top} words in {paragraphs.top} paragraphs or fewer.
-          </li>
-          <li>
-            Legislature, county board, Board of Review, Water Reclamation
-            District and school board: up to {words.mid} words in{' '}
-            {paragraphs.mid} paragraphs or fewer.
-          </li>
-          <li>
-            Judges and small local offices: up to {words.short} words in one
-            paragraph.
-          </li>
-        </List>
-        <p>
-          When we find nothing for a part, it says &ldquo;Not found in public
-          sources&rdquo; with the date we looked. We never hide a part.
-        </p>
-      </Section>
-
       <Section id="sources" title="Where the information comes from">
         <p>
           Profiles use news organizations, the candidate&rsquo;s own website,
           Wikipedia and Ballotpedia, official sources such as government and
           court websites, bar associations, and the endorsers&rsquo; own
           announcements. We don&rsquo;t use social media or material from a
-          candidate&rsquo;s opponents.
+          candidate&rsquo;s opponents. In Los Angeles County, we also
+          don&rsquo;t use voter-guide sites that only repeat other
+          people&rsquo;s reporting.
         </p>
         <p>
           Profiles never include home addresses, phone numbers, email addresses,
@@ -172,18 +121,22 @@ export function HowProfilesPage() {
             everything in the sentence.
           </li>
           <li>
-            A second AI model, Google Gemini 3.1 Pro, opens every page the draft
-            cites. It keeps or corrects each sentence, and removes anything it
-            can&rsquo;t confirm. It also finds endorsements and confirms each
-            one on a page it opened.
+            A second AI model, Google Gemini 3.1 Pro, checks every link the
+            draft cites. It keeps or corrects each sentence, and removes
+            anything it can&rsquo;t confirm.
           </li>
           <li>
-            Software adds campaign money and bar ratings from official lists.
-            Then it checks that every paragraph and endorsement cites a source,
-            every link opens without a login or paywall, no source is social
-            media, every source was read in the last {MAX_SOURCE_AGE_DAYS} days,
-            the wording is neutral, the length fits the limit and no personal
-            details appear.
+            In Cook County, Gemini also finds endorsements. In Los Angeles
+            County, a third AI model, Anthropic&rsquo;s Claude Opus 5.5, finds
+            them. Each endorsement links to a page that shows it.
+          </li>
+          <li>
+            Software adds campaign money, bar ratings and the endorsement lists
+            that parties, unions and other groups publish. Then it checks that
+            every paragraph and endorsement cites a source, every link opens
+            without a login or paywall, no source is social media, every source
+            was read in the last {MAX_SOURCE_AGE_DAYS} days, the wording is
+            neutral, the length fits the limit and no personal details appear.
           </li>
         </ol>
       </Section>
@@ -231,10 +184,29 @@ export function HowProfilesPage() {
 
       <Section id="money" title="Campaign money">
         <p>
-          Campaign money comes from official reports: the Federal Election
-          Commission (FEC) for U.S. Senate and House, and the Illinois State
-          Board of Elections (ISBE) for all other races. AI doesn&rsquo;t write
+          Campaign money comes from official reports. AI doesn&rsquo;t write
           this part.
+        </p>
+        <List>
+          <li>
+            In Cook County, the reports come from the Federal Election
+            Commission (FEC) for U.S. Senate and House, and from the Illinois
+            State Board of Elections (ISBE) for all other races.
+          </li>
+          <li>
+            In Los Angeles County, they come from the FEC for U.S. House, and
+            from the California Secretary of State (Cal-Access) for state
+            offices and judges. For county, city, school, college and special
+            district races, they come from the filings the county and each city
+            publish, including the City of Los Angeles Ethics Commission.
+          </li>
+        </List>
+        <p>
+          Some filings are only scanned copies. An AI model reads the numbers
+          from each scan twice, separately. We use them only when both reads
+          agree and the totals add up, and the profile says so. Some cities keep
+          filings only on paper. For those candidates, the profile links to
+          where the filings are kept.
         </p>
         <p>
           Each profile shows how much the campaign raised, its cash on hand and
@@ -262,10 +234,6 @@ export function HowProfilesPage() {
           the form doesn&rsquo;t ask how to reach you. It saves only what you
           write and which profile it&rsquo;s about. It doesn&rsquo;t save your
           name, email, IP address or street address.
-        </p>
-        <p>
-          We research every profile again at least every {MAX_SOURCE_AGE_DAYS}{' '}
-          days.
         </p>
       </Section>
     </article>

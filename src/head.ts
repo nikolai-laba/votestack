@@ -69,7 +69,7 @@ const ELECTION_DAY = new Date(
 
 export const HOME_HEAD: PageHead = {
   title: 'VoteStack: know what and who is on your ballot',
-  description: `Enter your address to see every race on your ballot for the ${ELECTION_DAY} General Election in ${coveredFullNames()}. Cook County candidates have detailed profiles covering positions, campaign financing, and endorsements, with cited sources.`,
+  description: `Enter your address to see every race on your ballot for the ${ELECTION_DAY} General Election in ${coveredFullNames()}. Every candidate has a profile covering positions, campaign financing, and endorsements, with cited sources.`,
   path: '/',
   structuredData: SITE_STRUCTURED_DATA,
 }
@@ -155,7 +155,7 @@ export function profileHead(profile: CandidateProfile): PageHead {
 
 export const RACES_HEAD: PageHead = {
   title: 'Races on the ballot | VoteStack',
-  description: `Every race and every judge up for retention on the ${ELECTION_DAY} ballot in ${coveredFullNames()}, with a profile for each Cook County candidate.`,
+  description: `Every race and every judge up for retention on the ${ELECTION_DAY} ballot in ${coveredFullNames()}, with a profile for each candidate.`,
   path: RACES_PATH,
 }
 
