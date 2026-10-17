@@ -15,6 +15,7 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ### Changed
 
+- In the list by level of government, measures are grouped under subheads by level (state, county, then city and local) and sorted by number or letter, and each area's offices follow its official order, so Governor leads the State section in Los Angeles County. In Los Angeles County, local measures are named by city or district and letter, followed by their official title where they have one.
 - On wider screens (840px and up), a candidate's profile again shows your whole ballot beside it, scrolled to that candidate's race, so you can move between races and candidates without going back. On phones, the candidate's race stays at the top of the profile. Other pages, like About, stay full width.
 
 ## [1.2.0] - 2026-10-14
