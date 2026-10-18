@@ -144,7 +144,7 @@
       {
         "organization": "Cook County College Teachers Union Local 1600",
         "kind": "union",
-        "cites": [7]
+        "cites": [11]
       },
       {
         "organization": "International Association of Firefighters",
@@ -172,14 +172,24 @@
       {
         "organization": "Planned Parenthood Illinois Action",
         "kind": "organization",
-        "cites": [8]
+        "cites": [7]
       },
       {
         "organization": "SEIU Healthcare Illinois",
         "kind": "union",
-        "cites": [9]
+        "cites": [8]
       },
-      { "organization": "SEIU Local 73", "kind": "union", "cites": [10] }
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [9] },
+      {
+        "organization": "Chicago Laborers' District Council",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Illinois Nurses Association",
+        "kind": "union",
+        "cites": [12]
+      }
     ]
   },
   "sources": [
@@ -232,20 +242,12 @@
       "viewedAt": "2026-10-07"
     },
     {
-      "id": 7,
-      "title": "Endorsements for the March 17, 2026 Primary Election",
-      "publisher": "Cook County College Teachers Union Local 1600",
-      "url": "https://www.ccctu.org/post/early-endorsements-for-the-march-17-2026-primary-election",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
       "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
       "publisher": "Planned Parenthood Illinois Action (press release, published by Windy City Times)",
       "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
       "viewedAt": "2026-10-17",
       "kind": "endorser",
-      "id": 8
+      "id": 7
     },
     {
       "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
@@ -253,7 +255,7 @@
       "url": "https://seiuhcilin.org/resources/election-information/",
       "viewedAt": "2026-10-17",
       "kind": "endorser",
-      "id": 9
+      "id": 8
     },
     {
       "title": "Election 2026: 2026 Endorsements",
@@ -261,13 +263,37 @@
       "url": "https://seiu73.org/election-2026/",
       "viewedAt": "2026-10-17",
       "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "Chicago Laborers’ District Council Endorsements for the November 2026 General Election",
+      "publisher": "Chicago Laborers' District Council (LIUNA)",
+      "url": "https://www.liunachicago.org/content/documents/cldc_2026_endorsement_template.pdf",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
       "id": 10
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Cook County College Teachers Union (CCCTU), Local 1600",
+      "url": "https://www.ccctu.org/post/november-2026-general-election-endorsements",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "Illinois Nurses Association General Election Endorsements",
+      "publisher": "Illinois Nurses Association (INA-PAC)",
+      "url": "https://illinoisnurses.com/wp-content/uploads/2026/07/INA-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 12
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:43:33.971Z",
-    "version": 6
+    "version": 7
   }
 }

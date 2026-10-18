@@ -95,6 +95,21 @@
         "organization": "Illinois Education Association",
         "kind": "union",
         "cites": [9]
+      },
+      {
+        "organization": "Chicago Laborers' District Council",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Cook County College Teachers Union Local 1600",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "Republican Organization of Orland Township",
+        "kind": "organization",
+        "cites": [12]
       }
     ]
   },
@@ -145,7 +160,7 @@
       "publisher": "NFIB",
       "url": "https://www.nfib.com/news/news/nfib-illinois-pac-announces-2026-legislative-endorsements/",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-18"
     },
     {
       "id": 7,
@@ -170,12 +185,36 @@
       "url": "https://dupagepolicyjournal.com/dupage-county-republicans-here-s-who-s-on-your-nov-3-ballot",
       "kind": "news",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Chicago Laborers’ District Council Endorsements for the November 2026 General Election",
+      "publisher": "Chicago Laborers' District Council (LIUNA)",
+      "url": "https://www.liunachicago.org/content/documents/cldc_2026_endorsement_template.pdf",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Cook County College Teachers Union (CCCTU), Local 1600",
+      "url": "https://www.ccctu.org/post/november-2026-general-election-endorsements",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "2026 Midterm Republican Sample Ballot",
+      "publisher": "Republican Organization of Orland Township",
+      "url": "https://orlandtownshipgop.org/",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 12
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:55:40.391Z",
-    "version": 5
+    "version": 6
   }
 }

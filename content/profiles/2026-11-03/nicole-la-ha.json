@@ -86,7 +86,17 @@
         "kind": "union",
         "cites": [9]
       },
-      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [10] }
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [10] },
+      {
+        "organization": "Chicago Laborers' District Council",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "Republican Organization of Orland Township",
+        "kind": "organization",
+        "cites": [12]
+      }
     ]
   },
   "sources": [
@@ -169,12 +179,28 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 10
+    },
+    {
+      "title": "Chicago Laborers’ District Council Endorsements for the November 2026 General Election",
+      "publisher": "Chicago Laborers' District Council (LIUNA)",
+      "url": "https://www.liunachicago.org/content/documents/cldc_2026_endorsement_template.pdf",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "2026 Midterm Republican Sample Ballot",
+      "publisher": "Republican Organization of Orland Township",
+      "url": "https://orlandtownshipgop.org/",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 12
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:21:33.577Z",
-    "version": 7
+    "version": 8
   }
 }

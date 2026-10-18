@@ -1,0 +1,140 @@
+{
+  "slug": "republican-organization-of-orland-township",
+  "endorser": "Republican Organization of Orland Township",
+  "kind": "organization",
+  "title": "2026 Midterm Republican Sample Ballot",
+  "publisher": "Republican Organization of Orland Township",
+  "url": "https://orlandtownshipgop.org/",
+  "generalEvidence": "Page: \"Bring this to the polls with you 2026 Midterm Republican Sample Ballot\" and \"November 3rd, 2026- Tuesday Important - Next Election-2026 Midterm Elections\". Ballot image: https://img1.wsimg.com/isteam/ip/2aaa0978-37d5-4a53-b317-d604b15cda4b/20261017_223933.jpg",
+  "whyItCounts": "Township Republican organization (party club) with stated stances (cut taxes, fight crime, family values).",
+  "note": "List is an image ('REPUBLICAN SAMPLE BALLOT ... Paid for by Republican Organization of Orland Township'); quotes transcribed from it. The image labels Nicole La Ha 'STATE REPRESENTATIVE, 32ND DISTRICT'; she is the 82nd District nominee in the input, so office set to 82nd.",
+  "entries": [
+    {
+      "name": "Don Tracy",
+      "office": "U.S. Senator",
+      "stance": "support",
+      "quote": "U.S. SENATOR DON TRACY",
+      "verified": true
+    },
+    {
+      "name": "Christian Maxwell",
+      "office": "U.S. Representative, 1st District",
+      "stance": "support",
+      "quote": "U.S. REPRESENTATIVE, 1ST DISTRICT CHRISTIAN MAXWELL",
+      "verified": true
+    },
+    {
+      "name": "Niki Conforti",
+      "office": "U.S. Representative, 6th District",
+      "stance": "support",
+      "quote": "U.S. REPRESENTATIVE, 6TH DISTRICT NIKI CONFORTI",
+      "verified": true
+    },
+    {
+      "name": "Darren Bailey & Aaron B. Del Mar",
+      "office": "Illinois Governor and Lieutenant Governor",
+      "stance": "support",
+      "quote": "GOVERNOR & LIEUTENANT GOVERNOR, ILLINOIS DARREN BAILEY & AARON B. DEL MAR",
+      "verified": true
+    },
+    {
+      "name": "Robert W. Fioretti",
+      "office": "Illinois Attorney General",
+      "stance": "support",
+      "quote": "ATTORNEY GENERAL, STATE OF ILLINOIS ROBERT W. FIORETTI",
+      "verified": true
+    },
+    {
+      "name": "Diane M. Harris",
+      "office": "Illinois Secretary of State",
+      "stance": "support",
+      "quote": "SECRETARY OF STATE, STATE OF ILLINOIS DIANE M. HARRIS",
+      "verified": true
+    },
+    {
+      "name": "Bryan Drew",
+      "office": "Illinois Comptroller",
+      "stance": "support",
+      "quote": "COMPTROLLER, STATE OF ILLINOIS BRYAN DREW",
+      "verified": true
+    },
+    {
+      "name": "Max Solomon",
+      "office": "Illinois Treasurer",
+      "stance": "support",
+      "quote": "TREASURER, STATE OF ILLINOIS MAX SOLOMON",
+      "verified": true
+    },
+    {
+      "name": "Brian Skala",
+      "office": "State Senator, 14th District",
+      "stance": "support",
+      "quote": "STATE SENATOR, 14TH DISTRICT BRIAN SKALA",
+      "verified": true
+    },
+    {
+      "name": "Christine McGovern",
+      "office": "State Senator, 18th District",
+      "stance": "support",
+      "quote": "STATE SENATOR, 18TH DISTRICT CHRISTINE MCGOVERN",
+      "verified": true
+    },
+    {
+      "name": "John Curran",
+      "office": "State Senator, 41st District",
+      "stance": "support",
+      "quote": "STATE SENATOR, 41ST DISTRICT JOHN CURRAN",
+      "verified": true
+    },
+    {
+      "name": "David Sheppard",
+      "office": "State Representative, 36th District",
+      "stance": "support",
+      "quote": "STATE REPRESENTATIVE, 36TH DISTRICT DAVID SHEPPARD",
+      "verified": true
+    },
+    {
+      "name": "Patrick Sheehan",
+      "office": "State Representative, 37th District",
+      "stance": "support",
+      "quote": "STATE REPRESENTATIVE, 37TH DISTRICT PATRICK SHEEHAN",
+      "verified": true
+    },
+    {
+      "name": "Nicole La Ha",
+      "office": "State Representative, 82nd District",
+      "stance": "support",
+      "quote": "STATE REPRESENTATIVE, 32ND DISTRICT NICOLE LA HA",
+      "verified": true,
+      "verifyNote": "Image prints \"32ND DISTRICT\"; she is the 82nd District nominee on the Cook ballot (32nd has only Lisa J. Davis), so office stays 82nd."
+    },
+    {
+      "name": "Michelle Pennington",
+      "office": "Metropolitan Water Reclamation District Commissioner",
+      "stance": "support",
+      "quote": "COMMISSIONER, WATER RECLAMATION DIST MICHELLE PENNINGTON",
+      "verified": true
+    },
+    {
+      "name": "Timothy Rueckert",
+      "office": "Metropolitan Water Reclamation District Commissioner",
+      "stance": "support",
+      "quote": "TIMOTHY RUECKERT",
+      "verified": true
+    },
+    {
+      "name": "Jill B. Shestokas",
+      "office": "Metropolitan Water Reclamation District Commissioner",
+      "stance": "support",
+      "quote": "JILL B. SHESTOKAS",
+      "verified": true
+    }
+  ],
+  "verify": {
+    "general": "yes: page says \"Bring this to the polls with you / 2026 Midterm Republican Sample Ballot\" and \"November 3rd, 2026- Tuesday\"; the image lists only Republican nominees.",
+    "checkedAt": "2026-10-18",
+    "fixes": [],
+    "removed": [],
+    "note": "Image (20261017_223933.jpg) confirmed displayed on the page in Chrome and read at full resolution: all 17 names and offices match. Nicole La Ha is printed under \"STATE REPRESENTATIVE, 32ND DISTRICT\"; she is the Republican candidate (sole) for State Representative, 82nd District in the contests file, and the 32nd District race has only Lisa J. Davis (D). The 82nd mapping (already in the transcription) is sound; \"32ND\" is a printing error on the image."
+  }
+}

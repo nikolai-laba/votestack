@@ -219,7 +219,22 @@
         "kind": "union",
         "cites": [22]
       },
-      { "organization": "SEIU Local 73", "kind": "union", "cites": [22] }
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [22] },
+      {
+        "organization": "Chicago Laborers' District Council",
+        "kind": "union",
+        "cites": [23]
+      },
+      {
+        "organization": "Cook County College Teachers Union Local 1600",
+        "kind": "union",
+        "cites": [24]
+      },
+      {
+        "organization": "Illinois Nurses Association",
+        "kind": "union",
+        "cites": [25]
+      }
     ]
   },
   "sources": [
@@ -398,12 +413,36 @@
       "viewedAt": "2026-10-17",
       "kind": "endorser",
       "id": 22
+    },
+    {
+      "title": "Chicago Laborers’ District Council Endorsements for the November 2026 General Election",
+      "publisher": "Chicago Laborers' District Council (LIUNA)",
+      "url": "https://www.liunachicago.org/content/documents/cldc_2026_endorsement_template.pdf",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 23
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Cook County College Teachers Union (CCCTU), Local 1600",
+      "url": "https://www.ccctu.org/post/november-2026-general-election-endorsements",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 24
+    },
+    {
+      "title": "Illinois Nurses Association General Election Endorsements",
+      "publisher": "Illinois Nurses Association (INA-PAC)",
+      "url": "https://illinoisnurses.com/wp-content/uploads/2026/07/INA-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 25
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:54:13.734Z",
-    "version": 6
+    "version": 7
   }
 }

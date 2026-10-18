@@ -64,35 +64,45 @@
     "asOf": "2026-10-07",
     "items": [
       { "organization": "Personal PAC", "kind": "organization", "cites": [8] },
-      { "organization": "IUOE Local 150", "kind": "union", "cites": [16] },
+      { "organization": "IUOE Local 150", "kind": "union", "cites": [15] },
       { "organization": "IUOE Local 399", "kind": "union", "cites": [9] },
       {
         "organization": "Cook County College Teachers Union",
         "kind": "union",
-        "cites": [10]
+        "cites": [17]
       },
       {
         "organization": "Chicago Federation of Labor",
         "kind": "union",
-        "cites": [11]
+        "cites": [10]
       },
-      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [12] },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [11] },
       {
         "organization": "Equality Illinois",
         "kind": "organization",
-        "cites": [13]
+        "cites": [12]
       },
       {
         "organization": "Illinois Federation of Teachers",
         "kind": "union",
-        "cites": [14]
+        "cites": [13]
       },
       {
         "organization": "SEIU Illinois State Council",
         "kind": "union",
-        "cites": [15]
+        "cites": [14]
       },
-      { "organization": "SEIU Local 73", "kind": "union", "cites": [15] }
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [14] },
+      {
+        "organization": "Chicago Laborers' District Council",
+        "kind": "union",
+        "cites": [16]
+      },
+      {
+        "organization": "Illinois Nurses Association",
+        "kind": "union",
+        "cites": [18]
+      }
     ]
   },
   "sources": [
@@ -169,20 +179,12 @@
       "viewedAt": "2026-10-07"
     },
     {
-      "id": 10,
-      "title": "Early Endorsements for the March 17, 2026 Primary Election",
-      "publisher": "Cook County College Teachers Union",
-      "url": "https://www.ccctu.org/post/early-endorsements-for-the-march-17-2026-primary-election",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
       "title": "November 3, 2026 General Election Endorsed Candidates",
       "publisher": "Chicago Federation of Labor",
       "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
-      "id": 11
+      "id": 10
     },
     {
       "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
@@ -190,7 +192,7 @@
       "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
-      "id": 12
+      "id": 11
     },
     {
       "title": "2026 General midterm Election endorsements",
@@ -198,7 +200,7 @@
       "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
       "viewedAt": "2026-10-17",
       "kind": "endorser",
-      "id": 13
+      "id": 12
     },
     {
       "title": "2026 voter information: IFT Endorsements",
@@ -206,7 +208,7 @@
       "url": "https://www.ift-aft.org/vote",
       "viewedAt": "2026-10-17",
       "kind": "endorser",
-      "id": 14
+      "id": 13
     },
     {
       "title": "Election 2026: 2026 Endorsements",
@@ -214,7 +216,7 @@
       "url": "https://seiu73.org/election-2026/",
       "viewedAt": "2026-10-17",
       "kind": "endorser",
-      "id": 15
+      "id": 14
     },
     {
       "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
@@ -222,13 +224,37 @@
       "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "Chicago Laborers’ District Council Endorsements for the November 2026 General Election",
+      "publisher": "Chicago Laborers' District Council (LIUNA)",
+      "url": "https://www.liunachicago.org/content/documents/cldc_2026_endorsement_template.pdf",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
       "id": 16
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Cook County College Teachers Union (CCCTU), Local 1600",
+      "url": "https://www.ccctu.org/post/november-2026-general-election-endorsements",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "Illinois Nurses Association General Election Endorsements",
+      "publisher": "Illinois Nurses Association (INA-PAC)",
+      "url": "https://illinoisnurses.com/wp-content/uploads/2026/07/INA-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 18
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:55:59.530Z",
-    "version": 10
+    "version": 12
   }
 }

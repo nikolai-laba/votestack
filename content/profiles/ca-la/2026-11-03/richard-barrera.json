@@ -324,7 +324,17 @@
         "kind": "union",
         "cites": [24]
       },
-      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [25] }
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [25] },
+      {
+        "organization": "Culver City Democratic Club",
+        "kind": "organization",
+        "cites": [26]
+      },
+      {
+        "organization": "Santa Monica Democratic Club",
+        "kind": "organization",
+        "cites": [27]
+      }
     ]
   },
   "sources": [
@@ -527,12 +537,28 @@
       "viewedAt": "2026-10-17",
       "kind": "endorser",
       "id": 25
+    },
+    {
+      "title": "Culver City Democratic Club Endorsements, November 3, 2026 General Election",
+      "publisher": "Culver City Democratic Club",
+      "url": "https://www.c-c-d-c.com/endorsements/",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 26
+    },
+    {
+      "title": "Full 2026 Endorsements",
+      "publisher": "Santa Monica Democratic Club",
+      "url": "https://santamonicademocrats.com/full-2026-endorsements/",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 27
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.815Z",
-    "version": 7
+    "version": 8
   }
 }

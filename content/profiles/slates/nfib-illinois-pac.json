@@ -1,0 +1,49 @@
+{
+  "slug": "nfib-illinois-pac",
+  "endorser": "NFIB Illinois PAC",
+  "kind": "organization",
+  "title": "NFIB Illinois PAC Announces 2026 Legislative Endorsements",
+  "publisher": "National Federation of Independent Business (NFIB)",
+  "url": "https://www.nfib.com/news/news/nfib-illinois-pac-announces-2026-legislative-endorsements/",
+  "note": "Transcribed from the page by a researcher. Small-business federation PAC; endorsements based on its small-business voting record and positions. General election: \"Dated \"August 25, 2026\" (after the March 17, 2026 primary): \"NFIB Illinois PAC announced its state legislative endorsements today ... The following legislators are officially endorsed by NFIB IL PAC\"\"",
+  "verify": {
+    "general": "yes: release dated August 25, 2026 (after the March 17, 2026 primary) endorsing named nominees for state legislative seats; it does not say \"November 3\" or \"general election\" in words, but the date makes it a general-election endorsement list.",
+    "checkedAt": "2026-10-18",
+    "fixes": [],
+    "removed": [],
+    "note": "WebFetch got 403; read in Chrome. All 6 Cook-ballot entries appear (\"District 24 Seth Lewis\" etc.). Checked the rest of the list against the contests file: no other listed district is on the Cook ballot. \"Marty McLaughlin\" = ballot name Martin McLaughlin (HD-52)."
+  },
+  "fetchedAt": "2026-10-18",
+  "entries": [
+    {
+      "name": "Seth Lewis",
+      "office": "State Senator, 24th District",
+      "matchedKey": "seth-lewis"
+    },
+    {
+      "name": "Darby Hills",
+      "office": "State Senator, 26th District",
+      "matchedKey": "darby-hills"
+    },
+    {
+      "name": "John Curran",
+      "office": "State Senator, 41st District",
+      "matchedKey": "john-curran"
+    },
+    {
+      "name": "Brad Stephens",
+      "office": "State Representative, 20th District",
+      "matchedKey": "brad-stephens"
+    },
+    {
+      "name": "Martin McLaughlin",
+      "office": "State Representative, 52nd District",
+      "matchedKey": "martin-mclaughlin"
+    },
+    {
+      "name": "Jackie Haas",
+      "office": "State Representative, 79th District",
+      "matchedKey": "jackie-haas"
+    }
+  ]
+}

@@ -76,6 +76,11 @@
         "cites": [9]
       },
       {
+        "organization": "Chicago Laborers' District Council",
+        "kind": "union",
+        "cites": [12]
+      },
+      {
         "organization": "Chicago Bar Association",
         "kind": "bar_evaluation",
         "context": "election",
@@ -200,12 +205,20 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 11
+    },
+    {
+      "title": "Chicago Laborers’ District Council Endorsements for the November 2026 General Election",
+      "publisher": "Chicago Laborers' District Council (LIUNA)",
+      "url": "https://www.liunachicago.org/content/documents/cldc_2026_endorsement_template.pdf",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 12
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:29:21.292Z",
-    "version": 7
+    "version": 9
   }
 }

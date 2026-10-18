@@ -1,0 +1,86 @@
+{
+  "slug": "culver-city-democrats-united",
+  "endorser": "Culver City Democrats United",
+  "kind": "organization",
+  "title": "Endorsements, November 3, 2026 General Election",
+  "publisher": "Culver City Democrats United",
+  "url": "https://culvercitydems.com/endorsements/",
+  "notes": "List is an image on the page (read in Chrome); the page's text section 'Endorsements – June 2026 Election' and 2024 entries were not used. Measures omitted: Measure AA YES, Measure YV NO. A Sept 2, 2026 Culver City Crossroads article (https://culvercitydems.com is cited there) also reports the club endorsing Sydney Kamlager-Dove (CD37) at its August meeting; she is not on the club's own card, so she is not included.",
+  "verify": {
+    "general": "yes: card (NOV2026-ENDORSE-082526.png) on the page is headed 'NOVEMBER 3, 2026 · GENERAL ELECTION'",
+    "checkedAt": "2026-10-18",
+    "fixes": [],
+    "removed": [
+      {
+        "name": "David Walgren",
+        "office": "Judge of the Superior Court, Office No. 81",
+        "why": "On the card (Seat #81), but Superior Court Office No. 81 is not a Nov 3, 2026 LA contest in VoteStack's contest list (likely decided in June); do not merge."
+      }
+    ],
+    "note": "Card image downloaded and read: all 13 names and offices match. 12 offices are Nov 3, 2026 LA contests (statewide, SD24, LA Mayor, LA City Attorney, Culver City council, CCUSD, Superior Court 64/65/87); Office No. 81 (Walgren) is not on the Nov ballot, so marked unverified."
+  },
+  "note": "Transcribed from the page by a researcher. Democratic political club in Culver City that endorses candidates and takes yes/no positions on ballot measures. General election: \"Endorsement card on the page (https://culvercitydems.com/wp-content/uploads/2026/08/NOV2026-ENDORSE-082526.png) headed \"ENDORSEMENTS · NOVEMBER 3, 2026 · GENERAL ELECTION\"\"",
+  "fetchedAt": "2026-10-18",
+  "entries": [
+    {
+      "name": "Xavier Becerra",
+      "office": "Governor",
+      "matchedKey": "xavier-becerra"
+    },
+    {
+      "name": "Fiona Ma",
+      "office": "Lieutenant Governor",
+      "matchedKey": "fiona-ma"
+    },
+    {
+      "name": "Ben Allen",
+      "office": "Insurance Commissioner",
+      "matchedKey": "ben-allen"
+    },
+    {
+      "name": "Brian Goldsmith",
+      "office": "State Senator, 24th District",
+      "matchedKey": "brian-goldsmith"
+    },
+    {
+      "name": "Karen Bass",
+      "office": "City of Los Angeles, Mayor",
+      "matchedKey": "karen-ruth-bass"
+    },
+    {
+      "name": "John McKinney",
+      "office": "City of Los Angeles, City Attorney",
+      "matchedKey": "john-mckinney"
+    },
+    {
+      "name": "Jeannine Wisnosky Stehlin",
+      "office": "City of Culver City, Member of the City Council",
+      "matchedKey": "jeannine-wisnosky-stehlin"
+    },
+    {
+      "name": "Kimberley Griffin",
+      "office": "City of Culver City, Member of the City Council",
+      "matchedKey": "kimberley-kim-griffin"
+    },
+    {
+      "name": "Darrel Menthe",
+      "office": "Culver City Unified School District, Governing Board Member",
+      "matchedKey": "darrel-menthe"
+    },
+    {
+      "name": "Maria Ghobadi",
+      "office": "Judge of the Superior Court, Office No. 64",
+      "matchedKey": "maria-ghobadi"
+    },
+    {
+      "name": "Anna Slotky Reitano",
+      "office": "Judge of the Superior Court, Office No. 65",
+      "matchedKey": "anna-slotky-reitano"
+    },
+    {
+      "name": "David DeJute",
+      "office": "Judge of the Superior Court, Office No. 87",
+      "matchedKey": "david-dejute"
+    }
+  ]
+}

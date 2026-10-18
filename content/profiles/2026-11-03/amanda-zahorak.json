@@ -102,6 +102,11 @@
         "organization": "Plumbers Local 130 UA",
         "kind": "union",
         "cites": [10]
+      },
+      {
+        "organization": "Cook County College Teachers Union Local 1600",
+        "kind": "union",
+        "cites": [11]
       }
     ]
   },
@@ -185,12 +190,20 @@
       "url": "https://plumberslu130ua.com/ULWSiteResources/ualocal130_v2/Resources/file/Breaking%20News/2026/2026%20PATF%20Endorsements_Revised%202.pdf",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Cook County College Teachers Union (CCCTU), Local 1600",
+      "url": "https://www.ccctu.org/post/november-2026-general-election-endorsements",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 11
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:10:29.953Z",
-    "version": 7
+    "version": 8
   }
 }

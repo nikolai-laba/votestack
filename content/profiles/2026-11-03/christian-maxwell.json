@@ -91,6 +91,11 @@
         "organization": "Illinois Family Action",
         "kind": "organization",
         "cites": [5]
+      },
+      {
+        "organization": "Republican Organization of Orland Township",
+        "kind": "organization",
+        "cites": [6]
       }
     ]
   },
@@ -134,12 +139,20 @@
       "url": "https://illinoisfamilyaction.org/2026/09/ifas-2026-general-election-endorsements-2/",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "2026 Midterm Republican Sample Ballot",
+      "publisher": "Republican Organization of Orland Township",
+      "url": "https://orlandtownshipgop.org/",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 6
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T16:59:29.616Z",
-    "version": 8
+    "version": 9
   }
 }

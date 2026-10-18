@@ -59,6 +59,11 @@
         "cites": [9]
       },
       {
+        "organization": "Democratic Party of Evanston",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
         "organization": "Chicago Bar Association",
         "kind": "bar_evaluation",
         "context": "retention",
@@ -167,12 +172,20 @@
       "viewedAt": "2026-10-17",
       "kind": "endorser",
       "id": 9
+    },
+    {
+      "title": "Recommended Candidates (sample ballot, Nov. 3, 2026)",
+      "publisher": "Democratic Party of Evanston",
+      "url": "https://www.evanstondems.com/election-resources.html#recommended-candidates",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 10
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T21:25:59.271Z",
-    "version": 4
+    "version": 6
   }
 }

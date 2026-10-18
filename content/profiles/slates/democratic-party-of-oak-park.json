@@ -1,0 +1,159 @@
+{
+  "slug": "democratic-party-of-oak-park",
+  "endorser": "Democratic Party of Oak Park",
+  "kind": "organization",
+  "title": "Sample Ballot (November 3, 2026)",
+  "publisher": "Democratic Party of Oak Park",
+  "url": "https://dpop.us/",
+  "note": "Transcribed from the page by a researcher. Oak Park Township Democratic organization (party club) recommending Democratic candidates. General election: \"Home page 'SAMPLE BALLOT' section: \"Early voting begins in Oak Park on Monday, October 19th ... your Election Day polling place (November 3rd)\"; image https://dpop.us/wp-content/uploads/2026/10/1.png headed \"SAMPLE BALLOT ... Paid for by Democratic Party of Oak Park\"\"",
+  "verify": {
+    "general": "yes: home-page SAMPLE BALLOT section refers to early voting from Oct 19 and Election Day \"November 3rd\"; image (wp-content/uploads/2026/10/1.png) shows general-election ballot numbers and only nominees.",
+    "checkedAt": "2026-10-18",
+    "fixes": [],
+    "removed": [],
+    "note": "Image confirmed in Chrome on dpop.us and read at full resolution: every name and office matches. Unlabeled circuit 103-107 map to the single candidates of the Burke/Cobbs/Coghlan/Hooks/Karkula countywide vacancies; 11th Subcircuit Knox = McLean Meyerson vacancy and Przekota = Roberts vacancy (each the only candidate). \"Vote YES to Retain All Judges\" names no judges, so no retention entries (correct)."
+  },
+  "fetchedAt": "2026-10-18",
+  "entries": [
+    {
+      "name": "Juliana Stratton",
+      "office": "U.S. Senator",
+      "matchedKey": "juliana-stratton"
+    },
+    {
+      "name": "JB Pritzker",
+      "office": "Illinois Governor and Lieutenant Governor",
+      "matchedKey": "jb-pritzker-christian-mitchell"
+    },
+    {
+      "name": "Kwame Raoul",
+      "office": "Illinois Attorney General",
+      "matchedKey": "kwame-raoul"
+    },
+    {
+      "name": "Alexi Giannoulias",
+      "office": "Illinois Secretary of State",
+      "matchedKey": "alexi-giannoulias"
+    },
+    {
+      "name": "Margaret Croke",
+      "office": "Illinois Comptroller",
+      "matchedKey": "margaret-croke"
+    },
+    {
+      "name": "Michael W. Frerichs",
+      "office": "Illinois Treasurer",
+      "matchedKey": "michael-w-frerichs"
+    },
+    {
+      "name": "La Shawn K. Ford",
+      "office": "U.S. Representative, 7th District",
+      "matchedKey": "la-shawn-k-ford"
+    },
+    {
+      "name": "Don Harmon",
+      "office": "State Senator, 39th District",
+      "matchedKey": "don-harmon"
+    },
+    {
+      "name": "Camille Lilly",
+      "office": "State Representative, 78th District",
+      "matchedKey": "camille-lilly"
+    },
+    {
+      "name": "Shantel Franklin",
+      "office": "State Representative, 8th District",
+      "matchedKey": "shantel-franklin"
+    },
+    {
+      "name": "Precious Brady-Davis",
+      "office": "Metropolitan Water Reclamation District Commissioner",
+      "matchedKey": "precious-brady-davis"
+    },
+    {
+      "name": "Eira Lizeth Corral Sepulveda",
+      "office": "Metropolitan Water Reclamation District Commissioner",
+      "matchedKey": "eira-lizeth-corral-sepulveda"
+    },
+    {
+      "name": "Beth McElroy Kirkwood",
+      "office": "Metropolitan Water Reclamation District Commissioner",
+      "matchedKey": "beth-mcelroy-kirkwood"
+    },
+    {
+      "name": "Cameron “Cam” Davis",
+      "office": "Metropolitan Water Reclamation District Commissioner (unexpired 2-year term)",
+      "matchedKey": "cameron-cam-davis"
+    },
+    {
+      "name": "Toni Preckwinkle",
+      "office": "Cook County Board President",
+      "matchedKey": "toni-preckwinkle"
+    },
+    {
+      "name": "Monica Gordon",
+      "office": "Cook County Clerk",
+      "matchedKey": "monica-gordon"
+    },
+    {
+      "name": "Thomas J. Dart",
+      "office": "Cook County Sheriff",
+      "matchedKey": "thomas-j-dart"
+    },
+    {
+      "name": "Maria Pappas",
+      "office": "Cook County Treasurer",
+      "matchedKey": "maria-pappas"
+    },
+    {
+      "name": "Pat Hynes",
+      "office": "Cook County Assessor",
+      "matchedKey": "pat-hynes"
+    },
+    {
+      "name": "Tara Stamps",
+      "office": "Cook County Commissioner, 1st District",
+      "matchedKey": "tara-stamps"
+    },
+    {
+      "name": "Judith Rice",
+      "office": "Appellate Court Judge, 1st District (Vacancy of Hoffman)",
+      "matchedKey": "judith-c-rice"
+    },
+    {
+      "name": "Steve McKenzie",
+      "office": "Circuit Court Judge, Cook County (Vacancy of Burke)",
+      "matchedKey": "steven-q-mckenzie"
+    },
+    {
+      "name": "Luz Maria Toledo",
+      "office": "Circuit Court Judge, Cook County (Vacancy of Cobbs)",
+      "matchedKey": "luz-maria-toledo"
+    },
+    {
+      "name": "Ashonta Rice",
+      "office": "Circuit Court Judge, Cook County (Vacancy of Coghlan)",
+      "matchedKey": "ashonta-c-rice"
+    },
+    {
+      "name": "Ava George Stewart",
+      "office": "Circuit Court Judge, Cook County (Vacancy of Hooks)",
+      "matchedKey": "ava-george-stewart"
+    },
+    {
+      "name": "D’Anthony “Tony” Thedford",
+      "office": "Circuit Court Judge, Cook County (Vacancy of Karkula)",
+      "matchedKey": "danthony-tony-thedford"
+    },
+    {
+      "name": "Jarrett Knox",
+      "office": "Circuit Court Judge, 11th Subcircuit (Vacancy of McLean Meyerson)",
+      "matchedKey": "jarrett-knox"
+    },
+    {
+      "name": "Kim Przekota",
+      "office": "Circuit Court Judge, 11th Subcircuit (Vacancy of Roberts)",
+      "matchedKey": "kim-przekota"
+    }
+  ]
+}

@@ -128,6 +128,26 @@
         "organization": "Illinois Federation of Teachers",
         "kind": "union",
         "cites": [17]
+      },
+      {
+        "organization": "Chicago Laborers' District Council",
+        "kind": "union",
+        "cites": [19]
+      },
+      {
+        "organization": "Cook County College Teachers Union Local 1600",
+        "kind": "union",
+        "cites": [20]
+      },
+      {
+        "organization": "Democrats of Northfield Township",
+        "kind": "organization",
+        "cites": [21]
+      },
+      {
+        "organization": "Illinois Nurses Association",
+        "kind": "union",
+        "cites": [22]
       }
     ]
   },
@@ -275,12 +295,44 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 18
+    },
+    {
+      "title": "Chicago Laborers’ District Council Endorsements for the November 2026 General Election",
+      "publisher": "Chicago Laborers' District Council (LIUNA)",
+      "url": "https://www.liunachicago.org/content/documents/cldc_2026_endorsement_template.pdf",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Cook County College Teachers Union (CCCTU), Local 1600",
+      "url": "https://www.ccctu.org/post/november-2026-general-election-endorsements",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 20
+    },
+    {
+      "title": "Candidates 2026",
+      "publisher": "Democrats of Northfield Township",
+      "url": "https://www.northfielddems.org/candidates-2026",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 21
+    },
+    {
+      "title": "Illinois Nurses Association General Election Endorsements",
+      "publisher": "Illinois Nurses Association (INA-PAC)",
+      "url": "https://illinoisnurses.com/wp-content/uploads/2026/07/INA-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 22
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:15:17.218Z",
-    "version": 8
+    "version": 9
   }
 }

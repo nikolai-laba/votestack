@@ -74,7 +74,7 @@
       {
         "organization": "Cook County College Teachers Union",
         "kind": "union",
-        "cites": [7]
+        "cites": [7, 14]
       },
       {
         "organization": "Democratic Socialists of America",
@@ -223,12 +223,20 @@
       "viewedAt": "2026-10-17",
       "kind": "endorser",
       "id": 13
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Cook County College Teachers Union (CCCTU), Local 1600",
+      "url": "https://www.ccctu.org/post/november-2026-general-election-endorsements",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 14
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:44:44.570Z",
-    "version": 6
+    "version": 8
   }
 }

@@ -46,6 +46,11 @@
         "organization": "Chicago Flips Red",
         "kind": "organization",
         "cites": [4]
+      },
+      {
+        "organization": "Republican Organization of Orland Township",
+        "kind": "organization",
+        "cites": [5]
       }
     ]
   },
@@ -81,12 +86,20 @@
       "url": "https://www.flipsred.com/candidates",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "2026 Midterm Republican Sample Ballot",
+      "publisher": "Republican Organization of Orland Township",
+      "url": "https://orlandtownshipgop.org/",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 5
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:25:20.404Z",
-    "version": 5
+    "version": 6
   }
 }

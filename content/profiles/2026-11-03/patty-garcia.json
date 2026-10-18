@@ -274,7 +274,17 @@
         "kind": "union",
         "cites": [17]
       },
-      { "organization": "SEIU Local 73", "kind": "union", "cites": [18] }
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [18] },
+      {
+        "organization": "Chicago Laborers' District Council",
+        "kind": "union",
+        "cites": [19]
+      },
+      {
+        "organization": "Illinois Nurses Association",
+        "kind": "union",
+        "cites": [20]
+      }
     ]
   },
   "sources": [
@@ -421,12 +431,28 @@
       "viewedAt": "2026-10-17",
       "kind": "endorser",
       "id": 18
+    },
+    {
+      "title": "Chicago Laborers’ District Council Endorsements for the November 2026 General Election",
+      "publisher": "Chicago Laborers' District Council (LIUNA)",
+      "url": "https://www.liunachicago.org/content/documents/cldc_2026_endorsement_template.pdf",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "Illinois Nurses Association General Election Endorsements",
+      "publisher": "Illinois Nurses Association (INA-PAC)",
+      "url": "https://illinoisnurses.com/wp-content/uploads/2026/07/INA-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 20
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:36:19.694Z",
-    "version": 8
+    "version": 9
   }
 }

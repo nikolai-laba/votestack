@@ -83,6 +83,11 @@
         "organization": "Chicago Tribune Editorial Board",
         "kind": "editorial_board",
         "cites": [3]
+      },
+      {
+        "organization": "Chicago Laborers' District Council",
+        "kind": "union",
+        "cites": [8]
       }
     ]
   },
@@ -142,12 +147,20 @@
       "url": "https://cgcollective.org/endorsements",
       "kind": "endorser",
       "viewedAt": "2026-10-17"
+    },
+    {
+      "title": "Chicago Laborers’ District Council Endorsements for the November 2026 General Election",
+      "publisher": "Chicago Laborers' District Council (LIUNA)",
+      "url": "https://www.liunachicago.org/content/documents/cldc_2026_endorsement_template.pdf",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 8
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:43:37.180Z",
-    "version": 4
+    "version": 5
   }
 }

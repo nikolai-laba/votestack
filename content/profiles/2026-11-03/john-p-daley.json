@@ -80,7 +80,17 @@
         "kind": "union",
         "cites": [8]
       },
-      { "organization": "AFSCME Council 31", "kind": "union", "cites": [9] }
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [9] },
+      {
+        "organization": "Chicago Laborers' District Council",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Illinois Nurses Association",
+        "kind": "union",
+        "cites": [11]
+      }
     ]
   },
   "sources": [
@@ -155,12 +165,28 @@
       "viewedAt": "2026-10-17",
       "kind": "endorser",
       "id": 9
+    },
+    {
+      "title": "Chicago Laborers’ District Council Endorsements for the November 2026 General Election",
+      "publisher": "Chicago Laborers' District Council (LIUNA)",
+      "url": "https://www.liunachicago.org/content/documents/cldc_2026_endorsement_template.pdf",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "Illinois Nurses Association General Election Endorsements",
+      "publisher": "Illinois Nurses Association (INA-PAC)",
+      "url": "https://illinoisnurses.com/wp-content/uploads/2026/07/INA-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 11
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:14:49.943Z",
-    "version": 7
+    "version": 8
   }
 }

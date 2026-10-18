@@ -92,6 +92,11 @@
         "organization": "Schaumburg Township Republican Organization",
         "kind": "organization",
         "cites": [8]
+      },
+      {
+        "organization": "Republican Organization of Orland Township",
+        "kind": "organization",
+        "cites": [9]
       }
     ]
   },
@@ -159,12 +164,20 @@
       "viewedAt": "2026-10-17",
       "kind": "endorser",
       "id": 8
+    },
+    {
+      "title": "2026 Midterm Republican Sample Ballot",
+      "publisher": "Republican Organization of Orland Township",
+      "url": "https://orlandtownshipgop.org/",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 9
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:51:53.871Z",
-    "version": 3
+    "version": 4
   }
 }

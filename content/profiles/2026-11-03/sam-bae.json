@@ -125,12 +125,17 @@
       {
         "organization": "Northfield Township Democrats",
         "kind": "party",
-        "cites": [3]
+        "cites": [3, 10]
       },
       {
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
         "cites": [7]
+      },
+      {
+        "organization": "Chicago Laborers' District Council",
+        "kind": "union",
+        "cites": [9]
       },
       {
         "organization": "Chicago Bar Association",
@@ -233,12 +238,28 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 8
+    },
+    {
+      "title": "Chicago Laborers’ District Council Endorsements for the November 2026 General Election",
+      "publisher": "Chicago Laborers' District Council (LIUNA)",
+      "url": "https://www.liunachicago.org/content/documents/cldc_2026_endorsement_template.pdf",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "Candidates 2026",
+      "publisher": "Democrats of Northfield Township",
+      "url": "https://www.northfielddems.org/candidates-2026",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 10
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:28:47.709Z",
-    "version": 7
+    "version": 9
   }
 }

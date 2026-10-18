@@ -166,7 +166,7 @@
       {
         "organization": "Cook County College Teachers Union, Local 1600",
         "kind": "union",
-        "cites": [16]
+        "cites": [21]
       },
       {
         "organization": "West Suburban Teachers Union Local 571",
@@ -181,7 +181,7 @@
       {
         "organization": "Better Streets Chicago Action Fund",
         "kind": "organization",
-        "cites": [17]
+        "cites": [16]
       },
       {
         "organization": "Chicago Growth Project",
@@ -196,17 +196,32 @@
       {
         "organization": "Chicago Federation of Labor",
         "kind": "union",
-        "cites": [18]
+        "cites": [17]
       },
       {
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
-        "cites": [19]
+        "cites": [18]
       },
       {
         "organization": "SEIU Healthcare Illinois",
         "kind": "union",
+        "cites": [19]
+      },
+      {
+        "organization": "Chicago Laborers' District Council",
+        "kind": "union",
         "cites": [20]
+      },
+      {
+        "organization": "Democratic Party of Oak Park",
+        "kind": "organization",
+        "cites": [22]
+      },
+      {
+        "organization": "Illinois Nurses Association",
+        "kind": "union",
+        "cites": [23]
       }
     ]
   },
@@ -333,14 +348,6 @@
     },
     {
       "id": 16,
-      "title": "Endorsements for the March 17, 2026 Primary Election",
-      "publisher": "Cook County College Teachers Union",
-      "url": "https://www.ccctu.org/post/early-endorsements-for-the-march-17-2026-primary-election",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 17,
       "title": "2026 Endorsements",
       "publisher": "Better Streets Chicago Action Fund",
       "url": "https://www.bscactionfund.org/2026-midterms/endorsements",
@@ -353,7 +360,7 @@
       "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
-      "id": 18
+      "id": 17
     },
     {
       "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
@@ -361,7 +368,7 @@
       "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
-      "id": 19
+      "id": 18
     },
     {
       "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
@@ -369,13 +376,45 @@
       "url": "https://seiuhcilin.org/resources/election-information/",
       "viewedAt": "2026-10-17",
       "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "Chicago Laborers’ District Council Endorsements for the November 2026 General Election",
+      "publisher": "Chicago Laborers' District Council (LIUNA)",
+      "url": "https://www.liunachicago.org/content/documents/cldc_2026_endorsement_template.pdf",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
       "id": 20
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Cook County College Teachers Union (CCCTU), Local 1600",
+      "url": "https://www.ccctu.org/post/november-2026-general-election-endorsements",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 21
+    },
+    {
+      "title": "Sample Ballot (November 3, 2026)",
+      "publisher": "Democratic Party of Oak Park",
+      "url": "https://dpop.us/",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 22
+    },
+    {
+      "title": "Illinois Nurses Association General Election Endorsements",
+      "publisher": "Illinois Nurses Association (INA-PAC)",
+      "url": "https://illinoisnurses.com/wp-content/uploads/2026/07/INA-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 23
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:21:17.608Z",
-    "version": 6
+    "version": 7
   }
 }

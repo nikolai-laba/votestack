@@ -125,6 +125,11 @@
         "organization": "Reform California",
         "kind": "organization",
         "cites": [9]
+      },
+      {
+        "organization": "The Signal Editorial Board",
+        "kind": "editorial_board",
+        "cites": [10]
       }
     ]
   },
@@ -200,12 +205,20 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 9
+    },
+    {
+      "title": "Our View | Accountability: Why You Should Vote for Gibbs",
+      "publisher": "The Santa Clarita Valley Signal",
+      "url": "https://signalscv.com/2026/10/our-view-accountability-why-you-should-vote-for-gibbs/",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 10
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.779Z",
-    "version": 7
+    "version": 8
   }
 }

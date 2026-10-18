@@ -323,7 +323,47 @@
         "kind": "union",
         "cites": [24]
       },
-      { "organization": "SEIU Local 73", "kind": "union", "cites": [24] }
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [24] },
+      {
+        "organization": "Chicago Laborers' District Council",
+        "kind": "union",
+        "cites": [25]
+      },
+      {
+        "organization": "Cook County College Teachers Union Local 1600",
+        "kind": "union",
+        "cites": [26]
+      },
+      {
+        "organization": "Democratic Party of Evanston",
+        "kind": "organization",
+        "cites": [27]
+      },
+      {
+        "organization": "Democratic Party of Oak Park",
+        "kind": "organization",
+        "cites": [28]
+      },
+      {
+        "organization": "Democrats of Northfield Township",
+        "kind": "organization",
+        "cites": [29]
+      },
+      {
+        "organization": "Greater Palatine Area Democrats (GPAD)",
+        "kind": "organization",
+        "cites": [30]
+      },
+      {
+        "organization": "Illinois Nurses Association",
+        "kind": "union",
+        "cites": [31]
+      },
+      {
+        "organization": "Wheeling Township Democratic Organization",
+        "kind": "organization",
+        "cites": [32]
+      }
     ]
   },
   "sources": [
@@ -518,12 +558,76 @@
       "viewedAt": "2026-10-17",
       "kind": "endorser",
       "id": 24
+    },
+    {
+      "title": "Chicago Laborers’ District Council Endorsements for the November 2026 General Election",
+      "publisher": "Chicago Laborers' District Council (LIUNA)",
+      "url": "https://www.liunachicago.org/content/documents/cldc_2026_endorsement_template.pdf",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 25
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Cook County College Teachers Union (CCCTU), Local 1600",
+      "url": "https://www.ccctu.org/post/november-2026-general-election-endorsements",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 26
+    },
+    {
+      "title": "Recommended Candidates (sample ballot, Nov. 3, 2026)",
+      "publisher": "Democratic Party of Evanston",
+      "url": "https://www.evanstondems.com/election-resources.html#recommended-candidates",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 27
+    },
+    {
+      "title": "Sample Ballot (November 3, 2026)",
+      "publisher": "Democratic Party of Oak Park",
+      "url": "https://dpop.us/",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 28
+    },
+    {
+      "title": "Candidates 2026",
+      "publisher": "Democrats of Northfield Township",
+      "url": "https://www.northfielddems.org/candidates-2026",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 29
+    },
+    {
+      "title": "2026 November General Election Candidates",
+      "publisher": "Greater Palatine Area Democrats",
+      "url": "https://www.gpadems.org/2026-general-election-candidates",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 30
+    },
+    {
+      "title": "Illinois Nurses Association General Election Endorsements",
+      "publisher": "Illinois Nurses Association (INA-PAC)",
+      "url": "https://illinoisnurses.com/wp-content/uploads/2026/07/INA-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 31
+    },
+    {
+      "title": "Endorsements from Your Local Democratic Party (Nov 3 ballot)",
+      "publisher": "Wheeling Township Democratic Organization",
+      "url": "https://www.wheelingdems.com/election-resources.html",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 32
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T21:01:51.068Z",
-    "version": 5
+    "version": 6
   }
 }

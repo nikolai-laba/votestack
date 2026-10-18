@@ -176,7 +176,12 @@
         "kind": "union",
         "cites": [21]
       },
-      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [22] }
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [22] },
+      {
+        "organization": "Santa Monica Democratic Club",
+        "kind": "organization",
+        "cites": [23]
+      }
     ]
   },
   "sources": [
@@ -355,12 +360,20 @@
       "viewedAt": "2026-10-17",
       "kind": "endorser",
       "id": 22
+    },
+    {
+      "title": "Full 2026 Endorsements",
+      "publisher": "Santa Monica Democratic Club",
+      "url": "https://santamonicademocrats.com/full-2026-endorsements/",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 23
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.822Z",
-    "version": 5
+    "version": 6
   }
 }

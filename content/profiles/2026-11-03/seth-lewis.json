@@ -178,6 +178,11 @@
         "organization": "Schaumburg Township Republican Organization",
         "kind": "organization",
         "cites": [14]
+      },
+      {
+        "organization": "Chicago Laborers' District Council",
+        "kind": "union",
+        "cites": [15]
       }
     ]
   },
@@ -244,7 +249,7 @@
       "publisher": "National Federation of Independent Business",
       "url": "https://www.nfib.com/news/news/nfib-illinois-pac-announces-2026-legislative-endorsements/",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-18"
     },
     {
       "id": 9,
@@ -293,12 +298,20 @@
       "viewedAt": "2026-10-17",
       "kind": "endorser",
       "id": 14
+    },
+    {
+      "title": "Chicago Laborers’ District Council Endorsements for the November 2026 General Election",
+      "publisher": "Chicago Laborers' District Council (LIUNA)",
+      "url": "https://www.liunachicago.org/content/documents/cldc_2026_endorsement_template.pdf",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 15
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:51:51.899Z",
-    "version": 4
+    "version": 5
   }
 }

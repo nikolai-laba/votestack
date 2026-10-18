@@ -134,6 +134,11 @@
         "organization": "Milton Township Republican Organization Leadership",
         "kind": "party",
         "cites": [7]
+      },
+      {
+        "organization": "Republican Organization of Orland Township",
+        "kind": "organization",
+        "cites": [8]
       }
     ]
   },
@@ -193,12 +198,20 @@
       "url": "https://conforti4congress.com/endorsements/",
       "kind": "candidate",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "2026 Midterm Republican Sample Ballot",
+      "publisher": "Republican Organization of Orland Township",
+      "url": "https://orlandtownshipgop.org/",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 8
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:09:11.666Z",
-    "version": 7
+    "version": 8
   }
 }

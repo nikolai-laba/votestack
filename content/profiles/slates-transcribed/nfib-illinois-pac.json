@@ -1,0 +1,63 @@
+{
+  "slug": "nfib-illinois-pac",
+  "endorser": "NFIB Illinois PAC",
+  "kind": "organization",
+  "title": "NFIB Illinois PAC Announces 2026 Legislative Endorsements",
+  "publisher": "National Federation of Independent Business (NFIB)",
+  "url": "https://www.nfib.com/news/news/nfib-illinois-pac-announces-2026-legislative-endorsements/",
+  "generalEvidence": "Dated \"August 25, 2026\" (after the March 17, 2026 primary): \"NFIB Illinois PAC announced its state legislative endorsements today ... The following legislators are officially endorsed by NFIB IL PAC\"",
+  "whyItCounts": "Small-business federation PAC; endorsements based on its small-business voting record and positions.",
+  "note": "Only entries for districts on the Cook County ballot are transcribed (Senate 24, 26, 41; House 20, 52, 79). The rest of the list is downstate/collar-county districts. NFIB FedPAC's Oct 1, 2026 congressional endorsements (IL-12, IL-15, IL-16) are outside Cook.",
+  "entries": [
+    {
+      "name": "Seth Lewis",
+      "office": "State Senator, 24th District",
+      "stance": "support",
+      "quote": "District 24 Seth Lewis",
+      "verified": true
+    },
+    {
+      "name": "Darby Hills",
+      "office": "State Senator, 26th District",
+      "stance": "support",
+      "quote": "District 26 Darby Hills",
+      "verified": true
+    },
+    {
+      "name": "John Curran",
+      "office": "State Senator, 41st District",
+      "stance": "support",
+      "quote": "District 41 John Curran",
+      "verified": true
+    },
+    {
+      "name": "Brad Stephens",
+      "office": "State Representative, 20th District",
+      "stance": "support",
+      "quote": "District 20 Brad Stephens",
+      "verified": true
+    },
+    {
+      "name": "Marty McLaughlin",
+      "office": "State Representative, 52nd District",
+      "stance": "support",
+      "quote": "District 52 Marty McLaughlin",
+      "verified": true,
+      "nameOnBallot": "Martin McLaughlin"
+    },
+    {
+      "name": "Jackie Haas",
+      "office": "State Representative, 79th District",
+      "stance": "support",
+      "quote": "District 79 Jackie Haas",
+      "verified": true
+    }
+  ],
+  "verify": {
+    "general": "yes: release dated August 25, 2026 (after the March 17, 2026 primary) endorsing named nominees for state legislative seats; it does not say \"November 3\" or \"general election\" in words, but the date makes it a general-election endorsement list.",
+    "checkedAt": "2026-10-18",
+    "fixes": [],
+    "removed": [],
+    "note": "WebFetch got 403; read in Chrome. All 6 Cook-ballot entries appear (\"District 24 Seth Lewis\" etc.). Checked the rest of the list against the contests file: no other listed district is on the Cook ballot. \"Marty McLaughlin\" = ballot name Martin McLaughlin (HD-52)."
+  }
+}

@@ -161,6 +161,11 @@
         "organization": "Planned Parenthood Illinois Action",
         "kind": "organization",
         "cites": [11]
+      },
+      {
+        "organization": "Cook County College Teachers Union Local 1600",
+        "kind": "union",
+        "cites": [12]
       }
     ]
   },
@@ -252,12 +257,20 @@
       "viewedAt": "2026-10-17",
       "kind": "endorser",
       "id": 11
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Cook County College Teachers Union (CCCTU), Local 1600",
+      "url": "https://www.ccctu.org/post/november-2026-general-election-endorsements",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 12
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:51:13.167Z",
-    "version": 3
+    "version": 4
   }
 }

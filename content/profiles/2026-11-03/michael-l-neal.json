@@ -62,6 +62,11 @@
         "organization": "Common Ground Collective",
         "kind": "organization",
         "cites": [5]
+      },
+      {
+        "organization": "Chicago Laborers' District Council",
+        "kind": "union",
+        "cites": [6]
       }
     ]
   },
@@ -105,12 +110,20 @@
       "url": "https://cgcollective.org/endorsements",
       "kind": "endorser",
       "viewedAt": "2026-10-17"
+    },
+    {
+      "title": "Chicago Laborers’ District Council Endorsements for the November 2026 General Election",
+      "publisher": "Chicago Laborers' District Council (LIUNA)",
+      "url": "https://www.liunachicago.org/content/documents/cldc_2026_endorsement_template.pdf",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 6
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:47:26.285Z",
-    "version": 3
+    "version": 4
   }
 }

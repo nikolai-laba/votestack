@@ -86,6 +86,11 @@
         "organization": "California Federation of Teachers",
         "kind": "union",
         "cites": [9]
+      },
+      {
+        "organization": "Culver City Democratic Club",
+        "kind": "organization",
+        "cites": [10]
       }
     ]
   },
@@ -161,12 +166,20 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 9
+    },
+    {
+      "title": "Culver City Democratic Club Endorsements, November 3, 2026 General Election",
+      "publisher": "Culver City Democratic Club",
+      "url": "https://www.c-c-d-c.com/endorsements/",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 10
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.763Z",
-    "version": 7
+    "version": 8
   }
 }

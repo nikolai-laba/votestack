@@ -261,7 +261,7 @@
       {
         "organization": "LiUNA Chicago Laborers District Council",
         "kind": "union",
-        "cites": [8]
+        "cites": [8, 23]
       },
       {
         "organization": "Mid-America Carpenters Regional Council",
@@ -289,7 +289,27 @@
         "kind": "union",
         "cites": [21]
       },
-      { "organization": "SEIU Local 73", "kind": "union", "cites": [22] }
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [22] },
+      {
+        "organization": "Cook County College Teachers Union Local 1600",
+        "kind": "union",
+        "cites": [24]
+      },
+      {
+        "organization": "Democratic Party of Evanston",
+        "kind": "organization",
+        "cites": [25]
+      },
+      {
+        "organization": "Democrats of Northfield Township",
+        "kind": "organization",
+        "cites": [26]
+      },
+      {
+        "organization": "Wheeling Township Democratic Organization",
+        "kind": "organization",
+        "cites": [27]
+      }
     ]
   },
   "sources": [
@@ -468,12 +488,52 @@
       "viewedAt": "2026-10-17",
       "kind": "endorser",
       "id": 22
+    },
+    {
+      "title": "Chicago Laborers’ District Council Endorsements for the November 2026 General Election",
+      "publisher": "Chicago Laborers' District Council (LIUNA)",
+      "url": "https://www.liunachicago.org/content/documents/cldc_2026_endorsement_template.pdf",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 23
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Cook County College Teachers Union (CCCTU), Local 1600",
+      "url": "https://www.ccctu.org/post/november-2026-general-election-endorsements",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 24
+    },
+    {
+      "title": "Recommended Candidates (sample ballot, Nov. 3, 2026)",
+      "publisher": "Democratic Party of Evanston",
+      "url": "https://www.evanstondems.com/election-resources.html#recommended-candidates",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 25
+    },
+    {
+      "title": "Candidates 2026",
+      "publisher": "Democrats of Northfield Township",
+      "url": "https://www.northfielddems.org/candidates-2026",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 26
+    },
+    {
+      "title": "Endorsements from Your Local Democratic Party (Nov 3 ballot)",
+      "publisher": "Wheeling Township Democratic Organization",
+      "url": "https://www.wheelingdems.com/election-resources.html",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 27
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:37:45.353Z",
-    "version": 7
+    "version": 9
   }
 }

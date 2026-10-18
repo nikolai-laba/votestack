@@ -96,6 +96,21 @@
         "organization": "SEIU Healthcare Illinois",
         "kind": "union",
         "cites": [9]
+      },
+      {
+        "organization": "33rd Ward Working Families",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Cook County College Teachers Union Local 1600",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "United Neighbors of the 35th Ward (UN35)",
+        "kind": "organization",
+        "cites": [12]
       }
     ]
   },
@@ -171,12 +186,36 @@
       "viewedAt": "2026-10-17",
       "kind": "endorser",
       "id": 9
+    },
+    {
+      "title": "2026 School Board Endorsements: Progressive School Board Slate",
+      "publisher": "33rd Ward Working Families",
+      "url": "https://www.workingfamilies33.org/2026-school-board-endorsements",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Cook County College Teachers Union (CCCTU), Local 1600",
+      "url": "https://www.ccctu.org/post/november-2026-general-election-endorsements",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "35th Ward Progressive Voter Guide: 2026 Illinois General Election",
+      "publisher": "United Neighbors of the 35th Ward",
+      "url": "https://www.un35.org/elections/",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 12
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:42:57.395Z",
-    "version": 5
+    "version": 6
   }
 }

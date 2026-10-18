@@ -1,0 +1,158 @@
+{
+  "slug": "santa-monica-democratic-club",
+  "endorser": "Santa Monica Democratic Club",
+  "kind": "organization",
+  "title": "Full 2026 Endorsements",
+  "publisher": "Santa Monica Democratic Club",
+  "url": "https://santamonicademocrats.com/full-2026-endorsements/",
+  "notes": "Source is a news report; the club's own site was not found (smdems.org, smdemocrats.org do not resolve). No City Council endorsement (no consensus); no consensus on the fourth SMMUSD seat (Lieberman vs Leshner). Not to be confused with Santa Monicans for Renters' Rights (already merged).",
+  "verify": {
+    "general": "yes: the club's own 'Full 2026 Endorsements' page (Oct 8, 2026) lists these as its 2026 endorsements alongside the November statewide races and Nov ballot measures; Santa Monica RCB, SMMUSD and SMC seats are Nov 3, 2026 LA contests.",
+    "checkedAt": "2026-10-18",
+    "fixes": [],
+    "removed": [
+      {
+        "name": "Soledad Marcial",
+        "office": "City of Santa Monica, Member of the Rent Control Board",
+        "reason": "Not endorsed. The Santa Monica Next article says she earned an endorsement, but the club's own results page (santamonicademocrats.com/local-endorsement-results/) shows she got 33% in Round Two (55% needed) and its endorsed list and Full 2026 Endorsements page name only Thomason, Himmelrich and Gonska for Rent Control Board."
+      }
+    ],
+    "betterUrl": "https://santamonicademocrats.com/full-2026-endorsements/",
+    "note": "Santa Monica Next attributes the endorsements to the club (July 15, 2026 meeting) and they match the club's own pages except Marcial (news error). Club site exists at santamonicademocrats.com (smdems.com redirects there). betterUrl page shows the same local list plus many more endorsements not in this file, listed in verify.extraOnBetterUrl for the caller to decide (not added to entries). Names on the club page: 'Luis Barrera Castañon', 'Kera Blades Snell'. Rebuilt from the club page (betterUrl) on 2026-10-18 with its 16 further picks; ballot measures left out."
+  },
+  "newsUrl": "https://santamonicanext.org/2026/07/dem-club-makes-endorsements-in-rent-control-board-school-college-board-elections-fails-to-reach-consensus-on-city-council/",
+  "note": "Transcribed from the page by a researcher. Chartered Democratic club in Santa Monica that endorses in local races (55% threshold) and took a position opposing AB 1740. General election: \"Page dated \"October 8, 2026\": \"Our endorsements for 2026, as voted on by the Santa Monica Democratic Club membership.\" Every race listed is on the Nov 3, 2026 ballot, after the June 2 primary.\"",
+  "fetchedAt": "2026-10-18",
+  "entries": [
+    {
+      "name": "Alicia Mignano",
+      "office": "Santa Monica-Malibu Unified School District, Governing Board Member",
+      "matchedKey": "alicia-mignano"
+    },
+    {
+      "name": "Stacy Rouse",
+      "office": "Santa Monica-Malibu Unified School District, Governing Board Member",
+      "matchedKey": "stacy-rouse"
+    },
+    {
+      "name": "Robbie Staenberg",
+      "office": "Santa Monica-Malibu Unified School District, Governing Board Member",
+      "matchedKey": "robbie-staenberg"
+    },
+    {
+      "name": "Heather Thomason",
+      "office": "City of Santa Monica, Member of the Rent Control Board",
+      "matchedKey": "heather-thomason"
+    },
+    {
+      "name": "Sue Himmelrich",
+      "office": "City of Santa Monica, Member of the Rent Control Board",
+      "matchedKey": "sue-himmelrich"
+    },
+    {
+      "name": "Kurt Gonska",
+      "office": "City of Santa Monica, Member of the Rent Control Board",
+      "matchedKey": "kurt-gonska"
+    },
+    {
+      "name": "Sion Roy",
+      "office": "Santa Monica Community College District, Member, Board of Trustees",
+      "matchedKey": "sion-roy"
+    },
+    {
+      "name": "Tom Peters",
+      "office": "Santa Monica Community College District, Member, Board of Trustees",
+      "matchedKey": "tom-peters"
+    },
+    {
+      "name": "Luis Castanon",
+      "office": "Santa Monica Community College District, Member, Board of Trustees",
+      "matchedKey": "luis-barrera-castanon"
+    },
+    {
+      "name": "Kera Blades-Snell",
+      "office": "Santa Monica Community College District, Member, Board of Trustees",
+      "matchedKey": "kera-blades-snell"
+    },
+    {
+      "name": "Xavier Becerra",
+      "office": "Governor",
+      "matchedKey": "xavier-becerra"
+    },
+    {
+      "name": "Fiona Ma",
+      "office": "Lieutenant Governor",
+      "matchedKey": "fiona-ma"
+    },
+    {
+      "name": "Shirley Weber",
+      "office": "Secretary of State",
+      "matchedKey": "shirley-n-weber"
+    },
+    {
+      "name": "Rob Bonta",
+      "office": "Attorney General",
+      "matchedKey": "rob-bonta"
+    },
+    {
+      "name": "Malia Cohen",
+      "office": "Controller",
+      "matchedKey": "malia-m-cohen"
+    },
+    {
+      "name": "Eleni Kounalakis",
+      "office": "Treasurer",
+      "matchedKey": "eleni-kounalakis"
+    },
+    {
+      "name": "Ben Allen",
+      "office": "Insurance Commissioner",
+      "matchedKey": "ben-allen"
+    },
+    {
+      "name": "Richard Barrera",
+      "office": "Superintendent of Public Instruction",
+      "matchedKey": "richard-barrera"
+    },
+    {
+      "name": "Mike Gipson",
+      "office": "Member, State Board of Equalization, 3rd District",
+      "matchedKey": "mike-gipson"
+    },
+    {
+      "name": "Robert Luna",
+      "office": "Los Angeles County, Sheriff",
+      "matchedKey": "robert-g-luna"
+    },
+    {
+      "name": "Ted Lieu",
+      "office": "United States Representative, 36th District",
+      "matchedKey": "ted-w-lieu"
+    },
+    {
+      "name": "Brian Goldsmith",
+      "office": "State Senator, 24th District",
+      "matchedKey": "brian-goldsmith"
+    },
+    {
+      "name": "Rick Chavez Zbur",
+      "office": "Member of the State Assembly, 51st District",
+      "matchedKey": "rick-chavez-zbur"
+    },
+    {
+      "name": "Maria Ghobadi",
+      "office": "Judge of the Superior Court, Office No. 64",
+      "matchedKey": "maria-ghobadi"
+    },
+    {
+      "name": "Anna Slotky Reitano",
+      "office": "Judge of the Superior Court, Office No. 65",
+      "matchedKey": "anna-slotky-reitano"
+    },
+    {
+      "name": "David DeJute",
+      "office": "Judge of the Superior Court, Office No. 87",
+      "matchedKey": "david-dejute"
+    }
+  ]
+}

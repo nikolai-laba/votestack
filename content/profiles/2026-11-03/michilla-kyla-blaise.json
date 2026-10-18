@@ -82,6 +82,11 @@
         "organization": "Our Schools Chicago",
         "kind": "organization",
         "cites": [6]
+      },
+      {
+        "organization": "Cook County College Teachers Union Local 1600",
+        "kind": "union",
+        "cites": [7]
       }
     ]
   },
@@ -133,12 +138,20 @@
       "viewedAt": "2026-10-17",
       "kind": "endorser",
       "id": 6
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Cook County College Teachers Union (CCCTU), Local 1600",
+      "url": "https://www.ccctu.org/post/november-2026-general-election-endorsements",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 7
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:46:24.050Z",
-    "version": 5
+    "version": 6
   }
 }

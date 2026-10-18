@@ -239,7 +239,27 @@
         "kind": "union",
         "cites": [18]
       },
-      { "organization": "SEIU Local 73", "kind": "union", "cites": [18] }
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [18] },
+      {
+        "organization": "Chicago Laborers' District Council",
+        "kind": "union",
+        "cites": [19]
+      },
+      {
+        "organization": "Greater Palatine Area Democrats (GPAD)",
+        "kind": "organization",
+        "cites": [20]
+      },
+      {
+        "organization": "Illinois Nurses Association",
+        "kind": "union",
+        "cites": [21]
+      },
+      {
+        "organization": "Wheeling Township Democratic Organization",
+        "kind": "organization",
+        "cites": [22]
+      }
     ]
   },
   "sources": [
@@ -386,12 +406,44 @@
       "viewedAt": "2026-10-17",
       "kind": "endorser",
       "id": 18
+    },
+    {
+      "title": "Chicago Laborers’ District Council Endorsements for the November 2026 General Election",
+      "publisher": "Chicago Laborers' District Council (LIUNA)",
+      "url": "https://www.liunachicago.org/content/documents/cldc_2026_endorsement_template.pdf",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "2026 November General Election Candidates",
+      "publisher": "Greater Palatine Area Democrats",
+      "url": "https://www.gpadems.org/2026-general-election-candidates",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 20
+    },
+    {
+      "title": "Illinois Nurses Association General Election Endorsements",
+      "publisher": "Illinois Nurses Association (INA-PAC)",
+      "url": "https://illinoisnurses.com/wp-content/uploads/2026/07/INA-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 21
+    },
+    {
+      "title": "Endorsements from Your Local Democratic Party (Nov 3 ballot)",
+      "publisher": "Wheeling Township Democratic Organization",
+      "url": "https://www.wheelingdems.com/election-resources.html",
+      "viewedAt": "2026-10-18",
+      "kind": "endorser",
+      "id": 22
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:17:24.446Z",
-    "version": 5
+    "version": 6
   }
 }
