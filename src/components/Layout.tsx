@@ -7,6 +7,7 @@ import {
 } from '../ballot/profileLinks.ts'
 import { useBallotStore } from '../picks/store.ts'
 import { pickCounts } from '../picks/summary.ts'
+import { useUsageViews } from '../metrics/listen.ts'
 import { useTheme } from '../theme/themePreference.ts'
 import { ChevronDownIcon, MoonIcon, SunIcon } from './icons.tsx'
 
@@ -37,6 +38,7 @@ export function Layout() {
   // screens; everything else stays at reading width.
   const detail = useMatches().some((m) => (m.handle as RouteHandle)?.detail)
   const width = detail ? 'max-w-3xl lg:max-w-[75rem]' : 'max-w-3xl'
+  useUsageViews()
   return (
     <div className="flex min-h-dvh flex-col bg-bg text-text">
       {/* First stop for keyboard users: past the header to the page itself. */}

@@ -300,6 +300,16 @@ export default function AboutPage() {
           device. We never see them.
         </p>
         <p>
+          To learn what helps voters, we count how VoteStack is used: which
+          pages are opened, how many ballots are looked up, how many races get a
+          pick and how long the site is open. We keep only totals, by page,
+          level of government and county. We never count your address, your IP
+          address or the names you pick, and nothing tells one visitor apart
+          from another. Your device keeps a short note so it&rsquo;s counted
+          once per election. Cloudflare, which hosts VoteStack, also counts
+          visits without cookies.
+        </p>
+        <p>
           If you sign up for an email when VoteStack covers your area, we save
           your email address and ZIP code. We use them only for that email and
           to count where people are asking from, and we never share them. To

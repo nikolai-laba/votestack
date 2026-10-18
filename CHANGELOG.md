@@ -5,6 +5,10 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+### Added
+
+- **Anonymous usage counts**, to learn what helps voters: pages opened, ballot lookups and their outcomes, devices that looked up a ballot each election, profiles opened per race, first picks and links out, as totals by page, level of government and county. Nothing counted includes an address, an IP address, the names picked or anything that tells one visitor from another. The About page's privacy section says what's counted.
+
 ## [1.3.0] - 2026-10-17
 
 ### Added

@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { RouterProvider, createBrowserRouter } from 'react-router'
 import { HOME_HEAD, applyHead } from './head.ts'
+import { startUsage } from './metrics/listen.ts'
 import { LazyAboutPage } from './pages/LazyAboutPage.tsx'
 import { LazyNotifyPage } from './pages/LazyNotifyPage.tsx'
 import { LazyProfilePage } from './pages/LazyProfilePage.tsx'
@@ -38,6 +39,7 @@ if (prerendered?.profile) {
 }
 function render() {
   applyHead(HOME_HEAD)
+  startUsage()
   createRoot(document.getElementById('root')!).render(
     <StrictMode>
       <QueryClientProvider client={queryClient}>

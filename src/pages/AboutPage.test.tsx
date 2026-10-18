@@ -114,6 +114,9 @@ describe('About page', () => {
       screen.getByRole('region', { name: 'Your privacy' }),
     ).toHaveTextContent('It isn’t saved, logged or added to the page link.')
     expect(
+      screen.getByRole('region', { name: 'Your privacy' }),
+    ).toHaveTextContent('We keep only totals, by page, level of government')
+    expect(
       screen.getByRole('region', { name: 'Open source' }),
     ).toHaveTextContent('Apache License 2.0')
   })

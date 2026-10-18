@@ -6,6 +6,7 @@ import userEvent from '@testing-library/user-event'
 import { RouterProvider, createMemoryRouter } from 'react-router'
 import { afterEach, describe, expect, it, vi } from 'vitest'
 import { ORDER_KEY, orderStore } from '../ballot/orderPreference.ts'
+import { USAGE_KEY } from '../metrics/usage.ts'
 import { ballotStore, STORAGE_KEY } from '../picks/store.ts'
 import { routes } from '../routes.tsx'
 import type { Ballot, Contest } from '../shared/ballot.ts'
@@ -349,8 +350,15 @@ describe('picks on the ballot', () => {
     const stored = localStorage.getItem(STORAGE_KEY)!
     expect(stored).toContain('jane-doe')
     expect(stored).not.toMatch(/834|lake st|oak park|60301|precinct|cook:85/i)
-    for (let i = 0; i < localStorage.length; i++)
-      expect(localStorage.key(i)).toBe(STORAGE_KEY)
+    // The only other key is the usage record (src/metrics/usage.ts), which
+    // holds dates and race ids, nothing from the address either.
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i)!
+      expect([STORAGE_KEY, USAGE_KEY]).toContain(key)
+      expect(localStorage.getItem(key)).not.toMatch(
+        /834|lake st|oak park|60301|precinct|cook:85/i,
+      )
+    }
   })
 })
 
