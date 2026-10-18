@@ -579,6 +579,7 @@ describe('collectCalAccess', () => {
     const { result } = await run([lee, kim, justice, ghost])
     expect(result.byKey['lee-nobody']).toMatchObject({
       summaries: [],
+      noCommittee: { filedWith: 'California Secretary of State' },
       filingsAt: {
         url: 'https://cal-access.sos.ca.gov/Campaign/Candidates/Detail.aspx?id=800003',
       },
@@ -586,6 +587,7 @@ describe('collectCalAccess', () => {
     expect(result.byKey['kim-paper'].note).toContain('filed September 24, 2026')
     expect(result.byKey['jo-justice']).toEqual({
       summaries: [],
+      noCommittee: { filedWith: 'California Secretary of State' },
       note: 'No campaign committee on file with the Secretary of State.',
     })
     expect(result.unmatched.map((u) => u.key)).toEqual(['gus-ghost'])

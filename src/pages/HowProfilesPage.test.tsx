@@ -102,6 +102,10 @@ describe('How we make profiles', () => {
       'We show percentages only when a committee raised at least $5,000 in the period',
     )
     expect(money).not.toHaveTextContent('Top contributors')
+    expect(money).toHaveTextContent('file a short statement (Form 470)')
+    expect(
+      screen.getByRole('region', { name: 'Endorsements and bar ratings' }),
+    ).toHaveTextContent('recommendation to vote No is listed apart')
   })
 
   it('says how reports work', () => {

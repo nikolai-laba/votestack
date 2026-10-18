@@ -60,7 +60,11 @@ export interface RegionManifest {
     overview: number
     endorsements: number
     money: number
-    /** Candidates with a summary from a filing (not just a link or a note). */
+    /**
+     * Candidates with an answer from the filings: a summary, a Form 470
+     * (under $2,000, California) or no committee on file. A bare link to
+     * the filings doesn't count.
+     */
     moneySummaries: number
     incumbentLabels: number
   }
@@ -240,15 +244,15 @@ export const MANIFESTS: Record<string, RegionManifest> = {
         committed: true,
       },
     },
-    // Endorsements and money summaries sit just under the launch fill
-    // (63.6% and 57.9%, October 2026), so a step that breaks still fails.
-    // Raise them as paper-only cities, unread scans and more endorsement
-    // research come in.
+    // Floors sit just under the fill (endorsements 63.6% at launch; money
+    // answers about 80% once Form 470s and no-committee cases counted,
+    // October 2026), so a step that breaks still fails. Raise them as
+    // paper-only cities, unread scans and more endorsement research come in.
     floors: {
       overview: 0.98,
       endorsements: 0.6,
       money: 0.65,
-      moneySummaries: 0.55,
+      moneySummaries: 0.75,
       incumbentLabels: 0.1,
     },
   },

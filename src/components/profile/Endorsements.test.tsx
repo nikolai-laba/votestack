@@ -11,6 +11,8 @@ import { barSummary } from './barSummary.ts'
 import {
   Endorsements,
   NO_RATING_TEXT,
+  OPPOSE_HEADING,
+  OPPOSE_LABEL,
   RETENTION_NOTE,
 } from './Endorsements.tsx'
 
@@ -324,5 +326,41 @@ describe('Endorsements for candidates', () => {
       'U.S. Sen. Pat Example1Democratic elected official',
       'Ald. Sam Roe1Elected official',
     ])
+  })
+})
+
+describe('Endorsements: a "vote No" on keeping a judge', () => {
+  it('lists it apart from support, under its own heading and label', () => {
+    render(
+      <Endorsements
+        section={{
+          asOf: '2026-10-17',
+          items: [
+            { organization: 'Group Yes', kind: 'organization', cites: [1] },
+            {
+              organization: 'Group No',
+              kind: 'party',
+              stance: 'oppose',
+              cites: [1],
+            },
+          ],
+        }}
+        kind="retention"
+        sources={sources}
+      />,
+    )
+    const region = screen.getByRole('region', {
+      name: 'Endorsements and bar evaluations',
+    })
+    const lists = within(region).getAllByRole('list')
+    expect(within(lists[0]).getByRole('listitem')).toHaveTextContent(
+      'Group Yes',
+    )
+    expect(
+      within(region).getByRole('heading', { name: OPPOSE_HEADING }),
+    ).toBeInTheDocument()
+    expect(within(lists[1]).getByRole('listitem')).toHaveTextContent(
+      `Group No${'1'}${OPPOSE_LABEL}`,
+    )
   })
 })

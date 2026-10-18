@@ -33,21 +33,36 @@ export function MoneySection({ section }: { section: MoneySectionData }) {
     section.items.length === 0 ? section.sharedCommittee : undefined
   const filings =
     section.items.length === 0 && !shared ? section.filingsAt : undefined
+  const noCommittee =
+    section.items.length === 0 && !shared ? section.noCommittee : undefined
   return (
     <ProfileSection
       id="money"
       title="Campaign money"
       asOf={section.asOf}
-      empty={section.items.length === 0 && !shared && !filings}
+      empty={section.items.length === 0 && !shared && !filings && !noCommittee}
     >
       {filings?.underThreshold ? (
         <p>
           Filed a Form 470, the short statement for candidates who expect to
           raise and spend less than $2,000 this year, so there&rsquo;s no full
-          report. Their filings are with{' '}
+          report:{' '}
           <a href={webUrl(filings.url)} target="_blank" rel="noreferrer">
-            {filings.name}
+            Less than $2,000 raised (Form 470, {filings.name})
           </a>
+          .
+        </p>
+      ) : noCommittee ? (
+        // Not missing data: the filing office has nothing for them.
+        <p>
+          No active campaign committee of their own on file with the{' '}
+          {filings ? (
+            <a href={webUrl(filings.url)} target="_blank" rel="noreferrer">
+              {filings.name}
+            </a>
+          ) : (
+            noCommittee.filedWith
+          )}
           .
         </p>
       ) : filings ? (

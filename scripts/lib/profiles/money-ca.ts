@@ -28,6 +28,8 @@ export interface MoneyEntry {
   sharedCommittee?: MoneySectionData['sharedCommittee']
   /** Where to see the filings when there's no summary (see MoneySectionData). */
   filingsAt?: MoneySectionData['filingsAt']
+  /** No active committee or reports on file (see MoneySectionData). */
+  noCommittee?: MoneySectionData['noCommittee']
   note?: string
 }
 

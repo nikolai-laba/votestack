@@ -208,6 +208,7 @@ export function netfileModule(
             entry: {
               summaries: [],
               filingsAt: atAgency,
+              noCommittee: { filedWith },
               note: `${filedWith} lists this candidate with no campaign committee on NetFile (${aid}).`,
             },
             outcome: 'no-committee',
@@ -226,6 +227,7 @@ export function netfileModule(
               entry: {
                 summaries: [],
                 filingsAt: atAgency,
+                noCommittee: { filedWith },
                 note: `No campaign committee or filings for this candidate on NetFile (${aid}) in ${ctx.year}.`,
               },
               outcome: 'no-committee',

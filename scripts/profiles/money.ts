@@ -72,6 +72,8 @@ export interface MoneyEntry {
   matchedCommittee?: string
   /** The joint committee a judge up for retention campaigns through, when they have none of their own. */
   sharedCommittee?: MoneySectionData['sharedCommittee']
+  /** No active committee of their own on file (see MoneySectionData). */
+  noCommittee?: MoneySectionData['noCommittee']
   note?: string
 }
 
@@ -179,6 +181,7 @@ for (const p of people.values()) {
   if (funded.length === 0) {
     byKey[p.key] = {
       summaries: [],
+      noCommittee: { filedWith: 'Federal Election Commission' },
       note: `No campaign committee reports with the FEC for ${YEAR} (candidate ${matches.map((m) => m.id).join(', ')}).`,
     }
     continue
@@ -241,7 +244,7 @@ for (const p of people.values()) {
               url: committeeUrl(shared[0].id),
             },
           }
-        : {}),
+        : { noCommittee: { filedWith: 'Illinois State Board of Elections' } }),
       note:
         shared.length > 0
           ? `No campaign committee of their own on file; linked only to ${shared.map((c) => c.name).join(', ')}, which also supports other candidates.`

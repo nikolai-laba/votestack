@@ -231,6 +231,30 @@ describe('mergeSlates', () => {
     })
   })
 
+  it('keeps a list’s “vote No” on a judge as an opposing entry', () => {
+    const no: Slate = {
+      ...slate,
+      slug: 'retention-guide',
+      endorser: 'Retention Guide Group',
+      kind: 'organization',
+      entries: [
+        {
+          name: 'Jane Doe',
+          office: 'Retention',
+          matchedKey: 'jane-doe',
+          stance: 'oppose',
+        },
+      ],
+    }
+    const e = mergeSlates(fixtureProfile(), [no]).profile.endorsements.items.at(
+      -1,
+    )!
+    expect(e).toMatchObject({
+      organization: 'Retention Guide Group',
+      stance: 'oppose',
+    })
+  })
+
   it("doesn't add an endorser the profile already lists, under any spelling", () => {
     const p = fixtureProfile({
       endorsements: {

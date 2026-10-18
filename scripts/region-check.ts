@@ -187,9 +187,17 @@ const fills = {
     (pr) =>
       pr.money.items.length > 0 ||
       !!pr.money.sharedCommittee ||
-      !!pr.money.filingsAt,
+      !!pr.money.filingsAt ||
+      !!pr.money.noCommittee,
   ),
-  moneySummaries: share((pr) => pr.money.items.length > 0),
+  // An answer from the filings: a summary, a Form 470 (under $2,000) or no
+  // committee on file. A bare link to the filings doesn't count.
+  moneySummaries: share(
+    (pr) =>
+      pr.money.items.length > 0 ||
+      !!pr.money.filingsAt?.underThreshold ||
+      !!pr.money.noCommittee,
+  ),
   incumbentLabels: share((pr) => !!pr.incumbent),
 }
 for (const [part, floor] of Object.entries(manifest.floors) as [

@@ -16,6 +16,12 @@ import { ProfileSection } from './ProfileSection.tsx'
 export const RETENTION_NOTE =
   'Yes means the group recommends keeping the judge in office.'
 
+/** Heading over groups that published a "vote No" on keeping a judge. */
+export const OPPOSE_HEADING = 'Recommend voting No on keeping this judge'
+
+/** Shown under each of them, so it never reads as support. */
+export const OPPOSE_LABEL = 'Recommends a No vote'
+
 /** Our wording for a group that published nothing for this judge. */
 export const NO_RATING_TEXT = 'No rating published'
 
@@ -86,7 +92,9 @@ export function Endorsements({
   sources: ProfileSource[]
 }) {
   const judicial = kind !== 'candidate'
-  const endorsements = section.items.filter((e) => e.kind !== 'bar_evaluation')
+  const listed = section.items.filter((e) => e.kind !== 'bar_evaluation')
+  const endorsements = listed.filter((e) => e.stance !== 'oppose')
+  const opposed = listed.filter((e) => e.stance === 'oppose')
   const sets = ratingSets(
     section.items.filter((e) => e.kind === 'bar_evaluation'),
     kind,
@@ -101,6 +109,24 @@ export function Endorsements({
       <div className="space-y-4">
         {endorsements.length > 0 && (
           <EndorsementList items={orderEndorsements(endorsements)} />
+        )}
+        {opposed.length > 0 && (
+          // Apart from the endorsements, with its own heading and a label on
+          // each, so a "vote No" never reads as support.
+          <div className="space-y-2">
+            <h3 className="text-label font-semibold">{OPPOSE_HEADING}</h3>
+            <ul className="list-disc space-y-2 ps-6">
+              {orderEndorsements(opposed).map((e) => (
+                <li key={e.organization}>
+                  {e.organization}
+                  <Cite ids={e.cites} />
+                  <span className="block text-small text-muted">
+                    {OPPOSE_LABEL}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
         )}
         {sets.map((set) => (
           <div key={set.context} className="space-y-2">

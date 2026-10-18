@@ -438,6 +438,8 @@ export interface Endorsed {
     name: string
     kind: EndorsementKind
     party?: string | null
+    /** A published "vote No" on keeping a judge (retention only). */
+    stance?: 'oppose'
     source: PageRef
   }[]
 }
@@ -525,6 +527,7 @@ export function mergeStages(
       organization: name,
       kind: e.kind,
       ...(party && { party }),
+      ...(e.stance === 'oppose' && { stance: 'oppose' as const }),
       cites: [id],
     })
   }

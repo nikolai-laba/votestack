@@ -62,6 +62,13 @@ export interface PromptPlace {
    * against the endorser's name, ignoring case.
    */
   excludedEndorsers: RegExp[]
+  /**
+   * An endorser credited to rivals for one seat: 'drop' removes it from both
+   * unless a hand correction (or, in Cook County, a published list) confirms
+   * it; 'show' keeps it on every profile that lists it, since groups do
+   * endorse more than one candidate in a race.
+   */
+  sharedEndorsers: 'drop' | 'show'
 }
 
 const COOK: PromptPlace = {
@@ -93,6 +100,7 @@ const COOK: PromptPlace = {
   blockedSites: [],
   partyPairs: [],
   excludedEndorsers: [],
+  sharedEndorsers: 'drop',
   writerRules: '',
   checkerOpenStep:
     "1. Open the page it cites. If the page can't be opened, use the excerpt given with it, which was captured from that page.",
@@ -132,6 +140,7 @@ const LOS_ANGELES: PromptPlace = {
     ['Los Angeles County Democratic Party', 'California Democratic Party'],
     ['Republican Party of Los Angeles County', 'California Republican Party'],
   ],
+  sharedEndorsers: 'show',
   excludedEndorsers: [
     /alumni association/i,
     /\bhomeowners'? association\b|\bHOA\b/i,

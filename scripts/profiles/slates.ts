@@ -7,16 +7,23 @@
 // Entries that fit no one, or more than one person, are printed for review
 // and never merged.
 //
+// Lists no parser reads are transcribed by a researcher into
+// content/profiles/slates-transcribed[/{region}]/{slug}.json (each entry with
+// the office as our ballots name it and the exact text on the page), and
+// matched here the same way.
+//
 // Run:  node scripts/profiles/slates.ts [--region ca-la] [--only slug,slug]
 
 import { execFileSync } from 'node:child_process'
 import { createHash } from 'node:crypto'
-import { mkdir, writeFile } from 'node:fs/promises'
+import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises'
+import { existsSync } from 'node:fs'
 import { join } from 'node:path'
 import { parseArgs } from 'node:util'
 import {
   PIPELINE_BUILD,
   SLATES_DIR,
+  TRANSCRIBED_DIR,
   readSubjects,
   today,
   writeFormattedJson,
@@ -50,7 +57,12 @@ import {
   parseWfpCa,
   type ParsedEntry,
 } from '../lib/profiles/slate-parsers.ts'
-import { matchSlate, type Slate } from '../lib/profiles/slates.ts'
+import {
+  matchSlate,
+  slateNameMatches,
+  type Slate,
+} from '../lib/profiles/slates.ts'
+import type { OfficeType } from '../lib/profiles/subjects.ts'
 
 const { values } = parseArgs({
   options: { only: { type: 'string' }, ...REGION_OPTION },
@@ -504,12 +516,104 @@ const LAVOTE_PARTY_SOURCES: Source[] = [
   },
 }))
 
-const SOURCES: Record<string, Source[]> = {
-  'il-cook': COOK_SOURCES,
-  'ca-la': [...LA_SOURCES, ...LAVOTE_PARTY_SOURCES],
+/** A transcribed list (see the header). */
+interface Transcribed extends Omit<Slate, 'entries' | 'fetchedAt'> {
+  generalEvidence: string
+  whyItCounts: string
+  entries: {
+    name: string
+    /** The name as the ballot prints it, where the page misspells it. */
+    nameOnBallot?: string
+    office: string
+    stance?: 'support' | 'oppose'
+    quote: string
+  }[]
 }
 
 const { subjects: listed } = await readSubjects()
+const OFFICE_TYPES = [...new Set(listed.map((s) => s.officeType))]
+
+/**
+ * The office as our ballots name it ("City of El Monte, Member of the City
+ * Council"): its first part must begin the person's office, and a seat or
+ * district number must match. A "vote No" fits only a judge up for retention.
+ */
+function transcribedHint(
+  name: string,
+  office: string,
+  oppose: boolean,
+): ParsedEntry['hint'] {
+  // A retention vote (a "Yes" or a "No" on keeping a judge) is matched among
+  // judges up for retention by name; every other office by office and name.
+  if (
+    oppose ||
+    /\bretention\b/i.test(office) ||
+    (/\b(judge|justice)\b/i.test(office) &&
+      listed.some(
+        (s) => s.officeType === 'retention' && slateNameMatches(s.name, name),
+      ))
+  )
+    return { types: ['retention'] as OfficeType[] }
+  // A local office names its city or district first ("City of El Monte",
+  // "Bassett Unified School District"), which must begin the person's office;
+  // state and federal offices are worded differently from list to list, so
+  // their seat number and the name decide.
+  const first = office.split(',')[0].trim()
+  const local =
+    /\b(city|town|village|township|school|college|unified|water|district|library|hospital|park)\b/i.test(
+      first,
+    ) &&
+    !/\b(state|united states|u\.s\.|congress|assembly|senate)\b/i.test(first)
+  const district = office.match(/\d+/)?.[0]
+  return {
+    types: OFFICE_TYPES.filter((t) => t !== 'retention'),
+    ...(local ? { includes: [first] } : {}),
+    ...(district ? { district: Number(district) } : {}),
+  }
+}
+
+async function transcribedSources(): Promise<Source[]> {
+  if (!existsSync(TRANSCRIBED_DIR)) return []
+  const files = (await readdir(TRANSCRIBED_DIR)).filter((f) =>
+    f.endsWith('.json'),
+  )
+  return Promise.all(
+    files.sort().map(async (f) => {
+      const t = JSON.parse(
+        await readFile(join(TRANSCRIBED_DIR, f), 'utf8'),
+      ) as Transcribed
+      const { generalEvidence, whyItCounts, entries, ...meta } = t
+      return {
+        ...meta,
+        note: `Transcribed from the page by a researcher. ${whyItCounts} General election: "${generalEvidence}"`,
+        async read() {
+          return {
+            entries: entries.map((e) => ({
+              name: e.nameOnBallot ?? e.name,
+              office: e.office,
+              hint: transcribedHint(
+                e.nameOnBallot ?? e.name,
+                e.office,
+                e.stance === 'oppose',
+              ),
+              ...(e.stance === 'oppose' && { stance: 'oppose' as const }),
+            })),
+          }
+        },
+      }
+    }),
+  )
+}
+
+const SOURCES: Record<string, Source[]> = {
+  'il-cook': [...COOK_SOURCES, ...(await transcribedSources())],
+  'ca-la': [
+    ...LA_SOURCES,
+    ...LAVOTE_PARTY_SOURCES,
+    ...(await transcribedSources()),
+  ],
+}
+
 // A person on the ballot in two races (subjects.ts SAME_PERSON) has one
 // profile, filed under the first; lists may name them for the other race, so
 // they're matched as that race's candidate too, with the office and type an

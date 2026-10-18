@@ -33,6 +33,11 @@ export const BAR_RATINGS = join(
 )
 /** Published endorsement lists (scripts/profiles/slates.ts). */
 export const SLATES_DIR = regionDir(join(CONTENT, 'slates'))
+/**
+ * Lists transcribed by a researcher from a group's page (exact quotes kept),
+ * for pages no parser reads; profiles:slates turns each into a slate.
+ */
+export const TRANSCRIBED_DIR = regionDir(join(CONTENT, 'slates-transcribed'))
 /** Official legislative rosters, for endorsing officials' parties (profiles:rosters). */
 export const ROSTERS = join(regionDir(CONTENT), 'rosters.json')
 

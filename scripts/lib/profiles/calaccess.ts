@@ -731,7 +731,11 @@ export async function collectCalAccess(
     }
     if (m.kind === 'none') {
       if (seat.retention)
-        result.byKey[p.key] = { summaries: [], note: RETENTION_NOTE }
+        result.byKey[p.key] = {
+          summaries: [],
+          noCommittee: { filedWith: FILED_WITH },
+          note: RETENTION_NOTE,
+        }
       else
         miss(
           p,
@@ -748,6 +752,7 @@ export async function collectCalAccess(
             url: candidateUrl(m.candidateIds[0]),
           },
         }),
+        noCommittee: { filedWith: FILED_WITH },
         note: `Filed a statement of intention to run (Form 501) for ${ctx.year}, but no campaign committee is on file with the Secretary of State.`,
       }
       continue

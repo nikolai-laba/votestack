@@ -8,6 +8,14 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 ### Added
 
 - **Anonymous usage counts**, to learn what helps voters: pages opened, ballot lookups and their outcomes, devices that looked up a ballot each election, profiles opened per race, first picks and links out, as totals by page, level of government and county. Nothing counted includes an address, an IP address, the names picked or anything that tells one visitor from another. The About page's privacy section says what's counted.
+- **More endorsements from groups' published lists**, in both areas: 21 more lists for Cook County (parties, unions, issue groups and the Chicago Tribune and Daily Herald editorial boards) and 9 more for Los Angeles County (including the Sierra Club Angeles Chapter, Stonewall Democratic Club, Teamsters Joint Council 42 and UNITE HERE Local 11), each checked against the group's own page.
+- For judges up for retention, a group's published recommendation to vote No is shown apart from the endorsements, with its own label.
+
+### Changed
+
+- Candidates who filed only a Form 470 (California's short statement for campaigns under $2,000) now say "Less than $2,000 raised" in the link to their filings, and candidates with no campaign committee on file say so instead of "Not found".
+- More Los Angeles County campaign money: scanned filings read twice by AI, with matching figures, for 20 more candidates. Cook County's money is updated with the latest state and federal reports.
+- In Los Angeles County, a group that endorses more than one candidate in a race is shown on each of their profiles.
 
 ## [1.3.0] - 2026-10-17
 

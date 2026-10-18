@@ -176,6 +176,11 @@ export function HowProfilesPage() {
           links to a page that shows it.
         </p>
         <p>
+          For a judge up for retention, a group&rsquo;s published recommendation
+          to vote No is listed apart from the endorsements, with its own label,
+          so it never reads as support.
+        </p>
+        <p>
           Bar association ratings of judges come from the lists the groups
           publish. AI doesn&rsquo;t write them. When a group published nothing
           for a judge, the profile says &ldquo;No rating published&rdquo;.
@@ -207,6 +212,11 @@ export function HowProfilesPage() {
           agree and the totals add up, and the profile says so. Some cities keep
           filings only on paper. For those candidates, the profile links to
           where the filings are kept.
+        </p>
+        <p>
+          In California, candidates who expect to raise and spend less than
+          $2,000 file a short statement (Form 470) instead of a full report.
+          Their profile says so and links to it.
         </p>
         <p>
           Each profile shows how much the campaign raised, its cash on hand and

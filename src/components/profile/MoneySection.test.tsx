@@ -187,4 +187,43 @@ describe('MoneySection', () => {
       .closest('.divide-y')
     expect(list?.children).toHaveLength(2)
   })
+  it('puts the under-$2,000 fact in the link to a Form 470 filer’s filings', () => {
+    render(
+      <MoneySection
+        section={{
+          asOf: '2026-10-16',
+          items: [],
+          filingsAt: {
+            name: 'City of Malibu',
+            url: 'https://netfile.com/public/MBU/campaign',
+            underThreshold: true,
+          },
+        }}
+      />,
+    )
+    expect(
+      screen.getByRole('link', {
+        name: 'Less than $2,000 raised (Form 470, City of Malibu)',
+      }),
+    ).toHaveAttribute('href', 'https://netfile.com/public/MBU/campaign')
+    expect(screen.queryByText(/Not found in public sources/)).toBeNull()
+  })
+
+  it('says when no committee is on file, instead of “not found”', () => {
+    render(
+      <MoneySection
+        section={{
+          asOf: '2026-10-16',
+          items: [],
+          noCommittee: { filedWith: 'California Secretary of State' },
+        }}
+      />,
+    )
+    expect(
+      screen.getByText(
+        'No active campaign committee of their own on file with the California Secretary of State.',
+      ),
+    ).toBeInTheDocument()
+    expect(screen.queryByText(/Not found in public sources/)).toBeNull()
+  })
 })

@@ -62,6 +62,7 @@ export function fecModule(state: string): MoneySourceModule {
         if (funded.length === 0) {
           result.byKey[p.key] = {
             summaries: [],
+            noCommittee: { filedWith: 'Federal Election Commission' },
             note: `No campaign committee reports with the FEC for ${ctx.year} (candidate ${matches.map((m) => m.id).join(', ')}).`,
           }
           continue

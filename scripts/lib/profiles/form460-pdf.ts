@@ -60,7 +60,13 @@ export async function readForm460Pdf(
 ): Promise<PdfRead<Form460>> {
   const read = await textOf(path)
   if (read === null) return { ok: false, reason: 'unreadable', detail: path }
-  if (!read.ocr) return parseForm460Text(read.text, candidate)
+  if (!read.ocr) {
+    // A text layer that doesn't parse (a scan with poor OCR text baked in,
+    // or a redacted copy) can still have an agreed read of its page images.
+    const parsed = parseForm460Text(read.text, candidate)
+    if (parsed.ok) return parsed
+    return (await scanReadOf(path, committee)) ?? parsed
+  }
   const parsed = parseForm460Ocr(read.text, committee)
   if (parsed.ok) {
     parsed.value.fromScan = 'ocr'

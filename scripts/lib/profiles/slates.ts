@@ -31,6 +31,8 @@ export interface SlateEntry {
    */
   status?: 'outside' | 'unmatched' | 'ambiguous'
   note?: string
+  /** A published "vote No" on keeping a judge (retention only). */
+  stance?: 'oppose'
 }
 
 /** content/profiles/slates/{slug}.json */
@@ -38,7 +40,10 @@ export interface Slate {
   slug: string
   /** The endorser's name as profiles show it. */
   endorser: string
-  kind: Extract<Endorsement['kind'], 'union' | 'organization' | 'party'>
+  kind: Extract<
+    Endorsement['kind'],
+    'union' | 'organization' | 'party' | 'editorial_board'
+  >
   title: string
   publisher: string
   /** The page profiles cite. */
@@ -189,7 +194,11 @@ export function matchEntry(
   entry: ParsedEntry,
   subjects: Subject[],
 ): SlateEntry {
-  const base = { name: entry.name, office: entry.office }
+  const base = {
+    name: entry.name,
+    office: entry.office,
+    ...(entry.stance && { stance: entry.stance }),
+  }
   const fits = entry.hint
     ? subjects.filter((s) => officeFits(s, entry.hint as OfficeHint))
     : []
@@ -253,10 +262,42 @@ export function mergeSlates(
   const added: string[] = []
   const confirmed: string[] = []
   for (const slate of slates) {
-    if (!slate.entries.some((e) => e.matchedKey === p.key)) continue
+    const entry = slate.entries.find((e) => e.matchedKey === p.key)
+    if (!entry) continue
     confirmed.push(confirmation(p.key, slate.endorser))
-    if (items.some((e) => sameEndorser(e.organization, slate.endorser)))
+    const listed = items.findIndex((e) =>
+      sameEndorser(e.organization, slate.endorser),
+    )
+    if (listed >= 0) {
+      // Already listed: a citation of the group's primary-election page
+      // gives way to its general-election list.
+      const old = items[listed]
+      const primary = old.cites.filter((id) =>
+        /primary/i.test(sources.find((s) => s.id === id)?.url ?? ''),
+      )
+      if (primary.length === 0) continue
+      const r = addSources(sources, [
+        {
+          title: slate.title,
+          publisher: slate.publisher,
+          url: slate.url,
+          viewedAt: slate.fetchedAt,
+          kind: 'endorser',
+        },
+      ])
+      sources = r.sources
+      items[listed] = {
+        ...old,
+        cites: [
+          ...new Set([
+            ...old.cites.filter((id) => !primary.includes(id)),
+            ...r.ids,
+          ]),
+        ],
+      }
+      added.push(slate.slug)
       continue
+    }
     const r = addSources(sources, [
       {
         title: slate.title,
@@ -267,7 +308,12 @@ export function mergeSlates(
       },
     ])
     sources = r.sources
-    items.push({ organization: slate.endorser, kind: slate.kind, cites: r.ids })
+    items.push({
+      organization: slate.endorser,
+      kind: slate.kind,
+      ...(entry.stance && { stance: entry.stance }),
+      cites: r.ids,
+    })
     added.push(slate.slug)
   }
   // A list fetched again refreshes the date its page was viewed.

@@ -109,6 +109,7 @@ import {
 import {
   confirmation,
   dropSharedEndorsers,
+  foldSameEndorsers,
   sameEndorser,
   type SharedEndorserRemoval,
 } from '../lib/profiles/endorsers.ts'
@@ -444,7 +445,7 @@ async function runJob(job: Job) {
   for (const slug of merged.added) slateAdds.push({ key: subject.key, slug })
   const applied = applyOverride(dropRatifiedParties(merged.profile), override)
   for (const s of applied.stale) stale.push(`${subject.key}: ${s}`)
-  const parties = fillParties(applied.profile, rosters)
+  const parties = fillParties(foldSameEndorsers(applied.profile), rosters)
   partiesFilled += parties.filled.length
   assembled.set(subject.key, compactSources(parties.profile))
 }
@@ -490,10 +491,9 @@ await Promise.all(
 )
 
 // The same endorser for opponents, race by race, over every profile: this
-// run's, and the committed ones of everyone else in those races.
-// Outside Cook County, a published list doesn't keep a shared endorser in a
-// one-seat race: an endorser backing both rivals is dropped from both. Hand
-// corrections still count.
+// run's, and the committed ones of everyone else in those races. Only where
+// the area drops shared endorsers (PLACE.sharedEndorsers); in Cook County a
+// published list or a hand correction keeps one.
 const confirmed = new Set<string>()
 const slateConfirmed = new Set<string>()
 for (const slate of slates)
@@ -510,7 +510,7 @@ const current = (key: string) => assembled.get(key) ?? existing.get(key)
 const touched = new Set(assembled.keys())
 const shared: SharedEndorserRemoval[] = []
 const others = new Map<string, CandidateProfile>()
-for (const race of races) {
+for (const race of PLACE.sharedEndorsers === 'drop' ? races : []) {
   if (!race.keys.some((k) => touched.has(k))) continue
   const profiles = race.keys
     .map((k) => others.get(k) ?? current(k))

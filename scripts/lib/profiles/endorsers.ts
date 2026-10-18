@@ -88,6 +88,20 @@ const ALIASES: [RegExp, string][] = [
     /^american independent party( of california)?$/,
     'american independent party',
   ],
+  [
+    /^seiu healthcare( illinois)?( indiana)?( missouri)?( kansas)?$/,
+    'seiu healthcare illinois',
+  ],
+  [/^seiu (illinois )?state council$/, 'seiu illinois state council'],
+  [/^equality illinois( pac)?$/, 'equality illinois'],
+  [
+    /^(southern california news group|(los angeles )?daily news)( editorial board)?$/,
+    'southern california news group editorial board',
+  ],
+  [
+    /^northfield township( regular)? republican organization$/,
+    'northfield township republican organization',
+  ],
 ]
 
 /**
@@ -169,4 +183,33 @@ export function dropSharedEndorsers(
       changed.push({ ...p, endorsements: { ...p.endorsements, items } })
   }
   return { changed, removed }
+}
+
+/**
+ * One entry per endorser: a group found twice under different spellings
+ * (a researcher's and a published list's) keeps the first entry, citing the
+ * sources of both. Bar evaluations are left as they are.
+ */
+export function foldSameEndorsers(p: CandidateProfile): CandidateProfile {
+  const items: Endorsement[] = []
+  let changed = false
+  for (const e of p.endorsements.items) {
+    const first =
+      e.kind === 'bar_evaluation'
+        ? undefined
+        : items.find(
+            (x) =>
+              x.kind !== 'bar_evaluation' &&
+              (x.stance ?? 'support') === (e.stance ?? 'support') &&
+              endorserKey(x.organization) === endorserKey(e.organization),
+          )
+    if (!first) {
+      items.push({ ...e })
+      continue
+    }
+    changed = true
+    first.cites = [...new Set([...first.cites, ...e.cites])]
+  }
+  if (!changed) return p
+  return { ...p, endorsements: { ...p.endorsements, items } }
 }

@@ -60,6 +60,8 @@ export interface ParsedEntry {
   office: string
   /** Null when the office can't be on the region's ballots or isn't recognized. */
   hint: OfficeHint | null
+  /** A published "vote No" on keeping a judge (retention only). */
+  stance?: 'oppose'
 }
 
 interface Detail {

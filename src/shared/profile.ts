@@ -234,6 +234,12 @@ export interface MoneySectionData extends Section<MoneySummary> {
      */
     underThreshold?: boolean
   }
+  /**
+   * The filing office has no active campaign committee or reports for the
+   * person this cycle: an answer, not missing data. `filedWith` names the
+   * office ("California Secretary of State").
+   */
+  noCommittee?: { filedWith: string }
 }
 
 export interface Endorsement {
@@ -251,6 +257,11 @@ export interface Endorsement {
    * this judge (VoteStack's wording, shown as such).
    */
   rating?: string
+  /**
+   * 'oppose' for a group's published "vote No" on keeping a judge in office
+   * (retention votes only). Omitted for support, which is every endorsement.
+   */
+  stance?: 'oppose'
   /** Bar evaluations only: the vote the rating is for. */
   context?: BarContext
   /**

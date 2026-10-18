@@ -4,6 +4,7 @@ import {
   confirmation,
   dropSharedEndorsers,
   endorserKey,
+  foldSameEndorsers,
   sameEndorser,
 } from './endorsers.ts'
 import { fixtureProfile } from './test-fixtures.ts'
@@ -107,5 +108,29 @@ describe('dropSharedEndorsers', () => {
       new Set(),
     )
     expect(removed).toEqual([])
+  })
+})
+
+describe('foldSameEndorsers', () => {
+  it('keeps one entry for a group found under two spellings, citing both', () => {
+    const p = fixtureProfile({
+      endorsements: {
+        asOf: '2026-10-17',
+        items: [
+          { organization: 'SEIU Healthcare', kind: 'union', cites: [1] },
+          { organization: 'Sierra Club', kind: 'organization', cites: [1] },
+          {
+            organization: 'SEIU Healthcare Illinois',
+            kind: 'union',
+            cites: [2],
+          },
+        ],
+      },
+    })
+    expect(foldSameEndorsers(p).endorsements.items).toEqual([
+      { organization: 'SEIU Healthcare', kind: 'union', cites: [1, 2] },
+      { organization: 'Sierra Club', kind: 'organization', cites: [1] },
+    ])
+    expect(p.endorsements.items[0].cites).toEqual([1])
   })
 })

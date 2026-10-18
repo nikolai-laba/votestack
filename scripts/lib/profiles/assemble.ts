@@ -53,6 +53,7 @@ export interface MoneyInput {
   summaries: MoneySectionData['items']
   sharedCommittee?: MoneySectionData['sharedCommittee']
   filingsAt?: MoneySectionData['filingsAt']
+  noCommittee?: MoneySectionData['noCommittee']
 }
 
 /**
@@ -224,6 +225,12 @@ export function mergeMoney(
     }
   else if (money?.filingsAt && section.items.length === 0)
     section.filingsAt = money.filingsAt
+  if (
+    money?.noCommittee &&
+    section.items.length === 0 &&
+    !section.sharedCommittee
+  )
+    section.noCommittee = money.noCommittee
   return { ...p, money: section }
 }
 
