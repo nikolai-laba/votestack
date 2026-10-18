@@ -83,7 +83,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -99,7 +99,7 @@
           { "kind": "pac", "amount": 11919 },
           { "kind": "other", "amount": 750 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 12500, "count": 6 }
+        "largeSince": { "since": "2026-09-19", "total": 29500, "count": 7 }
       }
     ]
   },
@@ -264,6 +264,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.796Z",
-    "version": 4
+    "version": 5
   }
 }

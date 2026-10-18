@@ -42,22 +42,17 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Miranda Hernandez",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40923",
-        "period": "April 1 to June 30, 2026",
-        "raised": 23895,
-        "cashOnHand": 33295.96,
-        "breakdown": [
-          { "kind": "small", "amount": 230 },
-          { "kind": "large", "amount": 19650 },
-          { "kind": "transfer", "amount": 4000 },
-          { "kind": "other", "amount": 15 }
-        ],
-        "largeSince": { "since": "2026-06-30", "total": 1000, "count": 1 }
+        "period": "July 1 to September 30, 2026",
+        "raised": 0,
+        "cashOnHand": 30835.93,
+        "breakdown": [],
+        "largeSince": { "since": "2026-09-30", "total": 1000, "count": 1 }
       }
     ]
   },
@@ -204,6 +199,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:17:55.704Z",
-    "version": 4
+    "version": 5
   }
 }

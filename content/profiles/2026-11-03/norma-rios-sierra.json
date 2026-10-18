@@ -55,21 +55,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Norma Rios Sierra",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41082",
-        "period": "April 1 to June 30, 2026",
-        "raised": 9085,
-        "cashOnHand": 5536.21,
+        "period": "July 1 to September 30, 2026",
+        "raised": 28913,
+        "cashOnHand": 18479.62,
         "breakdown": [
-          { "kind": "small", "amount": 2785 },
-          { "kind": "large", "amount": 1950 },
-          { "kind": "transfer", "amount": 4350 }
+          { "kind": "small", "amount": 2213 },
+          { "kind": "large", "amount": 5700 },
+          { "kind": "transfer", "amount": 21000 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 46932.1, "count": 9 }
+        "largeSince": { "since": "2026-09-30", "total": 29104.6, "count": 5 }
       }
     ]
   },
@@ -86,7 +86,17 @@
         "kind": "union",
         "cites": [6]
       },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [7] }
+      { "organization": "Personal PAC", "kind": "organization", "cites": [7] },
+      {
+        "organization": "Our Schools Chicago",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [9]
+      }
     ]
   },
   "sources": [
@@ -145,12 +155,28 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 7
+    },
+    {
+      "title": "Our Endorsed Candidates",
+      "publisher": "Our Schools Chicago (publicschoolchampions.com)",
+      "url": "https://publicschoolchampions.com/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 8
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 9
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:42:57.395Z",
-    "version": 4
+    "version": 5
   }
 }

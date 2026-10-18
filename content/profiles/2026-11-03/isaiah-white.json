@@ -50,21 +50,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Isaiah White",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40744",
-        "period": "April 1 to June 30, 2026",
-        "raised": 8016.12,
-        "cashOnHand": 3032.54,
+        "period": "July 1 to September 30, 2026",
+        "raised": 39260.52,
+        "cashOnHand": 32200.79,
         "breakdown": [
-          { "kind": "small", "amount": 160.83 },
-          { "kind": "large", "amount": 5855.29 },
-          { "kind": "transfer", "amount": 2000 }
+          { "kind": "small", "amount": 160 },
+          { "kind": "large", "amount": 29501 },
+          { "kind": "transfer", "amount": 9500 },
+          { "kind": "other", "amount": 99.52 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 43415.22, "count": 13 }
+        "largeSince": { "since": "2026-09-30", "total": 8000, "count": 4 }
       }
     ]
   },
@@ -93,6 +94,11 @@
         "organization": "Chicago Tribune Editorial Board",
         "kind": "editorial_board",
         "cites": [3]
+      },
+      {
+        "organization": "Illinois Policy PAC",
+        "kind": "organization",
+        "cites": [8]
       }
     ]
   },
@@ -143,7 +149,7 @@
       "publisher": "Common Ground Collective",
       "url": "https://cgcollective.org/endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 7,
@@ -152,12 +158,20 @@
       "url": "https://en.wikipedia.org/wiki/2026_Chicago_Board_of_Education_election",
       "kind": "reference",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Who is running for Chicago school board in 2026? (table: \"Illinois Policy PAC endorsed\")",
+      "publisher": "Illinois Policy / Illinois Policy PAC",
+      "url": "https://www.illinoispolicy.org/chicago-school-board-election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 8
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:47:03.433Z",
-    "version": 2
+    "version": 3
   }
 }

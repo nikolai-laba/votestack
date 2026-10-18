@@ -34,7 +34,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -50,7 +50,7 @@
           { "kind": "candidate", "amount": 1300 }
         ],
         "fromCandidate": 1300,
-        "largeSince": { "since": "2026-09-19", "total": 9500, "count": 2 }
+        "largeSince": { "since": "2026-09-19", "total": 11000, "count": 3 }
       }
     ]
   },
@@ -230,13 +230,13 @@
       "publisher": "UNITE HERE Local 11",
       "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
       "kind": "endorser",
-      "viewedAt": "2026-10-14"
+      "viewedAt": "2026-10-17"
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.857Z",
-    "version": 3
+    "version": 4
   }
 }

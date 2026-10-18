@@ -41,20 +41,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Sandefur for Sheriff",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=37056",
-        "period": "April 1 to June 30, 2026",
-        "raised": 1365.64,
-        "cashOnHand": 1014.76,
+        "period": "July 1 to September 30, 2026",
+        "raised": 4171.99,
+        "cashOnHand": 4659.69,
         "breakdown": [
-          { "kind": "small", "amount": 161.99 },
-          { "kind": "candidate", "amount": 1203.65 }
+          { "kind": "small", "amount": 421.99 },
+          { "kind": "large", "amount": 750 },
+          { "kind": "candidate", "amount": 3000 }
         ],
-        "fromCandidate": 1203.65
+        "fromCandidate": 3000
       }
     ]
   },
@@ -65,6 +66,11 @@
         "organization": "Independence Party of Illinois",
         "kind": "party",
         "cites": [4]
+      },
+      {
+        "organization": "Northfield Township Republican Organization",
+        "kind": "organization",
+        "cites": [5]
       }
     ]
   },
@@ -100,12 +106,20 @@
       "url": "https://lagrangedaily.com/articles/brad-sandefur-seeks-cook-county-sheriff-post-as-libertarian-muvlrj77",
       "kind": "news",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Your 2026 Republican Ticket / Republican Sample Ballot, General Election",
+      "publisher": "Northfield Township Republican Organization",
+      "url": "https://www.northfieldgop.org/sample_ballot",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 5
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:41:51.945Z",
-    "version": 3
+    "version": 4
   }
 }

@@ -51,21 +51,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of George A. Cardenas",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=17290",
-        "period": "April 1 to June 30, 2026",
-        "raised": 18991.98,
-        "cashOnHand": 57913.91,
+        "period": "July 1 to September 30, 2026",
+        "raised": 65808.21,
+        "cashOnHand": 101992.74,
         "breakdown": [
-          { "kind": "large", "amount": 16850 },
-          { "kind": "transfer", "amount": 1500 },
-          { "kind": "other", "amount": 641.98 }
+          { "kind": "large", "amount": 63800 },
+          { "kind": "transfer", "amount": 2000 },
+          { "kind": "other", "amount": 8.21 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 72300, "count": 26 }
+        "largeSince": { "since": "2026-09-30", "total": 9500, "count": 5 }
       }
     ]
   },
@@ -211,6 +211,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:12:42.911Z",
-    "version": 8
+    "version": 9
   }
 }

@@ -37,7 +37,20 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-07", "items": [] },
+  "money": {
+    "asOf": "2026-10-17",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Citizens for Charles Spizzirri",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41473",
+        "period": "September 18 to September 30, 2026",
+        "raised": 0,
+        "cashOnHand": 0,
+        "breakdown": []
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-13", "items": [] },
   "sources": [
     {
@@ -61,6 +74,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-13T15:06:25.521Z",
-    "version": 4
+    "version": 5
   }
 }

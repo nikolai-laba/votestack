@@ -56,18 +56,18 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Chris Getty for Congress",
         "url": "https://www.fec.gov/data/committee/C00940403/?cycle=2026",
-        "period": "April 1 to June 30, 2026",
-        "raised": 188169.64,
-        "cashOnHand": 131646.81,
+        "period": "April 1 to September 30, 2026",
+        "raised": 400432.94,
+        "cashOnHand": 138500.21,
         "breakdown": [
-          { "kind": "small", "amount": 12159.9 },
-          { "kind": "large", "amount": 176009.74 }
+          { "kind": "small", "amount": 22122.47 },
+          { "kind": "large", "amount": 378310.47 }
         ]
       }
     ]
@@ -175,6 +175,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:01:45.172Z",
-    "version": 6
+    "version": 7
   }
 }

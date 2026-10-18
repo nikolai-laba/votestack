@@ -44,12 +44,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
-    "items": [],
-    "filingsAt": {
-      "name": "City of Rancho Palos Verdes",
-      "url": "https://documents.rpvca.gov/WebLink/Browse.aspx?id=91336&dbid=0&repo=RanchoPalosVerdes"
-    }
+    "asOf": "2026-10-17",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Rancho Palos Verdes",
+        "committee": "Tina L. Funiciello, Esq. for RPV City Council 2026",
+        "url": "https://documents.rpvca.gov/WebLink/Browse.aspx?id=91336&dbid=0&repo=RanchoPalosVerdes",
+        "period": "July 1 to September 19, 2026",
+        "raised": 2450,
+        "cashOnHand": 1236,
+        "fromScan": "ai"
+      }
+    ]
   },
   "endorsements": {
     "asOf": "2026-10-15",
@@ -99,6 +106,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.543Z",
-    "version": 2
+    "version": 3
   }
 }

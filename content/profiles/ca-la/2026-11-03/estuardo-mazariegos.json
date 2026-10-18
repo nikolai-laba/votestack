@@ -52,7 +52,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -243,7 +243,12 @@
         "kind": "organization",
         "cites": [3]
       },
-      { "organization": "Knock LA", "kind": "organization", "cites": [14] }
+      { "organization": "Knock LA", "kind": "organization", "cites": [14] },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [15]
+      }
     ]
   },
   "sources": [
@@ -358,12 +363,20 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 14
+    },
+    {
+      "title": "November 2026 Stonewall Democratic Club Endorsements",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.451Z",
-    "version": 7
+    "version": 8
   }
 }

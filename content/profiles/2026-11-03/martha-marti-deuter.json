@@ -50,21 +50,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Marti Deuter",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39601",
-        "period": "April 1 to June 30, 2026",
-        "raised": 17908.21,
-        "cashOnHand": 67285.51,
+        "period": "July 1 to September 30, 2026",
+        "raised": 44596.26,
+        "cashOnHand": 48203.85,
         "breakdown": [
-          { "kind": "small", "amount": 4058.21 },
-          { "kind": "large", "amount": 7600 },
-          { "kind": "transfer", "amount": 6250 }
+          { "kind": "small", "amount": 646.26 },
+          { "kind": "large", "amount": 16350 },
+          { "kind": "transfer", "amount": 27600 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 187665.11, "count": 38 }
+        "largeSince": { "since": "2026-09-30", "total": 69193.2, "count": 8 }
       }
     ]
   },
@@ -76,8 +76,8 @@
         "kind": "union",
         "cites": [6]
       },
-      { "organization": "IUOE Local 150", "kind": "union", "cites": [7] },
-      { "organization": "IUOE Local 399", "kind": "union", "cites": [8] },
+      { "organization": "IUOE Local 150", "kind": "union", "cites": [18] },
+      { "organization": "IUOE Local 399", "kind": "union", "cites": [7] },
       {
         "organization": "Equality Illinois",
         "kind": "organization",
@@ -92,24 +92,46 @@
       {
         "organization": "National Association of Social Workers, Illinois Chapter",
         "kind": "organization",
-        "cites": [9]
+        "cites": [8]
       },
       {
         "organization": "Illinois NOW PAC",
         "kind": "organization",
-        "cites": [10]
+        "cites": [9]
       },
       {
         "organization": "Illinois Retired Teachers Association Political Action Committee",
         "kind": "organization",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "Chicago Federation of Labor",
         "kind": "union",
-        "cites": [12]
+        "cites": [11]
       },
-      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [13] }
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [12] },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [13] },
+      {
+        "organization": "Daily Herald Editorial Board",
+        "kind": "editorial_board",
+        "cites": [14]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [15]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [16]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [17]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [17] }
     ]
   },
   "sources": [
@@ -163,14 +185,6 @@
     },
     {
       "id": 7,
-      "title": "IUOE LOCAL 150 DISTRICT 1 ENDORSEMENTS",
-      "publisher": "IUOE Local 150",
-      "url": "https://local150.org/wp-content/uploads/2026/02/2026-IL-Primary-Mailer-District-1_V7.pdf",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 8,
       "title": "2026 local 399 illinois - primary election endorsements",
       "publisher": "IUOE Local 399",
       "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
@@ -178,7 +192,7 @@
       "viewedAt": "2026-10-07"
     },
     {
-      "id": 9,
+      "id": 8,
       "title": "NASW-IL Announces Endorsements for 2026 Illinois General Election",
       "publisher": "National Association of Social Workers, Illinois Chapter",
       "url": "https://www.naswil.org/post/nasw-il-announces-endorsements-for-2026-illinois-general-election",
@@ -186,7 +200,7 @@
       "viewedAt": "2026-10-07"
     },
     {
-      "id": 10,
+      "id": 9,
       "title": "Illinois NOW Political Action Committee",
       "publisher": "Illinois NOW PAC",
       "url": "https://ilnow.org/illinois-now-political-action-committee/",
@@ -194,7 +208,7 @@
       "viewedAt": "2026-10-07"
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "Retired Teachers Endorse Candidates for Illinois General Assembly",
       "publisher": "Aroundptown.com",
       "url": "https://aroundptown.com/retired-teachers-endorse-candidates-for-illinois-general-assembly/",
@@ -207,7 +221,7 @@
       "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
-      "id": 12
+      "id": 11
     },
     {
       "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
@@ -215,13 +229,61 @@
       "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
       "id": 13
+    },
+    {
+      "title": "Daily Herald endorsements, Nov. 3, 2026 general election (published Oct. 13-16, 2026)",
+      "publisher": "Daily Herald (Arlington Heights)",
+      "url": "https://www.dailyherald.com/opinion/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 18
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:10:24.382Z",
-    "version": 7
+    "version": 9
   }
 }

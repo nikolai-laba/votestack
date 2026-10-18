@@ -40,17 +40,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "LaPamela for Our Schools",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41108",
-        "period": "April 1 to June 30, 2026",
-        "raised": 0,
-        "cashOnHand": 95,
-        "breakdown": [],
-        "largeSince": { "since": "2026-06-30", "total": 44174.29, "count": 13 }
+        "period": "July 1 to September 30, 2026",
+        "raised": 36300,
+        "cashOnHand": 19506.42,
+        "breakdown": [
+          { "kind": "small", "amount": 1700 },
+          { "kind": "large", "amount": 31100 },
+          { "kind": "transfer", "amount": 3500 }
+        ],
+        "largeSince": { "since": "2026-09-30", "total": 7500, "count": 1 }
       }
     ]
   },
@@ -76,6 +80,11 @@
         "organization": "Chicago Tribune Editorial Board",
         "kind": "editorial_board",
         "cites": [2]
+      },
+      {
+        "organization": "Illinois Policy PAC",
+        "kind": "organization",
+        "cites": [5]
       }
     ]
   },
@@ -86,7 +95,7 @@
       "publisher": "Common Ground Collective",
       "url": "https://cgcollective.org/endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 2,
@@ -111,12 +120,20 @@
       "url": "https://chicago.suntimes.com/education/2026/09/21/key-education-endorsements-for-cps-school-board-candidates",
       "kind": "news",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Who is running for Chicago school board in 2026? (table: \"Illinois Policy PAC endorsed\")",
+      "publisher": "Illinois Policy / Illinois Policy PAC",
+      "url": "https://www.illinoispolicy.org/chicago-school-board-election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 5
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:45:09.229Z",
-    "version": 2
+    "version": 3
   }
 }

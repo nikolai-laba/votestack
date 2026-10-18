@@ -71,7 +71,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -88,7 +88,7 @@
           { "kind": "party", "amount": 9060.58 },
           { "kind": "other", "amount": 9800 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 130674.5, "count": 24 }
+        "largeSince": { "since": "2026-09-19", "total": 173674.5, "count": 33 }
       }
     ]
   },
@@ -239,7 +239,7 @@
       {
         "organization": "Los Angeles Daily News Editorial Board",
         "kind": "editorial_board",
-        "cites": [14]
+        "cites": [14, 26]
       },
       {
         "organization": "Orange County Register Editorial Board",
@@ -316,7 +316,28 @@
         "kind": "union",
         "cites": [22]
       },
-      { "organization": "SEIU Local 721", "kind": "union", "cites": [23] }
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [23] },
+      {
+        "organization": "Armenian National Committee of America, Western Region",
+        "kind": "organization",
+        "cites": [24]
+      },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [25]
+      },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [27]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [28]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [29] }
     ]
   },
   "sources": [
@@ -503,12 +524,60 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 23
+    },
+    {
+      "title": "ANCA Western Region 2026 General Election Endorsements",
+      "publisher": "ANCA Western Region",
+      "url": "https://ancawr.org/elect26/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 24
+    },
+    {
+      "title": "Sierra Club Political Endorsements (2026)",
+      "publisher": "Sierra Club Angeles Chapter Political Committee",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 25
+    },
+    {
+      "title": "Southern California News Group endorsements for the Nov. 3, 2026 general election",
+      "publisher": "Southern California News Group (San Gabriel Valley Tribune, Daily News, Daily Breeze, Press-Telegram, Pasadena Star-News, Whittier Daily News)",
+      "url": "https://www.sgvtribune.com/2026/10/01/southern-california-news-groups-endorsements-for-nov-3-general-election/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 26
+    },
+    {
+      "title": "November 2026 Stonewall Democratic Club Endorsements",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 27
+    },
+    {
+      "title": "California Teamsters Endorsements",
+      "publisher": "Teamsters Joint Council 42",
+      "url": "https://www.teamstersjc42.com/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 28
+    },
+    {
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 29
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.825Z",
-    "version": 4
+    "version": 6
   }
 }

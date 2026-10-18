@@ -49,7 +49,24 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-07", "items": [] },
+  "money": {
+    "asOf": "2026-10-17",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Patrick C. Watson",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41261",
+        "period": "July 7 to September 30, 2026",
+        "raised": 36285,
+        "cashOnHand": 32225.78,
+        "breakdown": [
+          { "kind": "small", "amount": 635 },
+          { "kind": "large", "amount": 20650 },
+          { "kind": "transfer", "amount": 15000 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-07",
     "items": [
@@ -104,6 +121,11 @@
         "organization": "The Urban Center",
         "kind": "organization",
         "cites": [6]
+      },
+      {
+        "organization": "Fraternal Order of Police Lodge 7",
+        "kind": "union",
+        "cites": [7]
       }
     ]
   },
@@ -146,7 +168,7 @@
       "publisher": "Common Ground Collective",
       "url": "https://cgcollective.org/endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 6,
@@ -155,12 +177,20 @@
       "url": "https://chicago.suntimes.com/education/2026/09/21/key-education-endorsements-for-cps-school-board-candidates",
       "kind": "news",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Chicago Fraternal Order of Police Lodge 7 Endorsed Candidates, 2026 General Election",
+      "publisher": "Chicago Fraternal Order of Police Lodge 7",
+      "url": "https://www.chicagofop.org/latest-news/2026-endorsed-candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 7
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:39:51.187Z",
-    "version": 2
+    "version": 3
   }
 }

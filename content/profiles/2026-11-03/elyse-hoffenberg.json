@@ -39,17 +39,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Elyse Hoffenberg",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=34231",
-        "period": "April 1 to June 30, 2026",
-        "raised": 500,
-        "cashOnHand": 13869.36,
-        "breakdown": [{ "kind": "small", "amount": 500 }],
-        "largeSince": { "since": "2026-06-30", "total": 120440.28, "count": 14 }
+        "period": "July 1 to September 30, 2026",
+        "raised": 94275,
+        "cashOnHand": 78218.77,
+        "breakdown": [
+          { "kind": "small", "amount": 2695 },
+          { "kind": "large", "amount": 6080 },
+          { "kind": "transfer", "amount": 35500 },
+          { "kind": "loan", "amount": 50000 }
+        ],
+        "largeSince": { "since": "2026-09-30", "total": 82440.28, "count": 5 }
       }
     ]
   },
@@ -86,7 +91,19 @@
         "organization": "Plumbers Local 130 UA",
         "kind": "union",
         "cites": [11]
-      }
+      },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [12] },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [13]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [14]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [14] }
     ]
   },
   "sources": [
@@ -177,12 +194,36 @@
       "url": "https://plumberslu130ua.com/ULWSiteResources/ualocal130_v2/Resources/file/Breaking%20News/2026/2026%20PATF%20Endorsements_Revised%202.pdf",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:19:51.700Z",
-    "version": 3
+    "version": 4
   }
 }

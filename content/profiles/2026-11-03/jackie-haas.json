@@ -32,21 +32,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Citizens For Jackie Haas",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=35843",
-        "period": "April 1 to June 30, 2026",
-        "raised": 16648.33,
-        "cashOnHand": 25288.79,
+        "period": "July 1 to September 30, 2026",
+        "raised": 35777.67,
+        "cashOnHand": 37285.17,
         "breakdown": [
-          { "kind": "small", "amount": 2845.25 },
-          { "kind": "large", "amount": 4078.08 },
-          { "kind": "transfer", "amount": 9725 }
+          { "kind": "small", "amount": 2447.38 },
+          { "kind": "large", "amount": 18503.53 },
+          { "kind": "transfer", "amount": 14275 },
+          { "kind": "other", "amount": 551.76 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 23500, "count": 19 }
+        "largeSince": { "since": "2026-09-30", "total": 2500, "count": 2 }
       }
     ]
   },
@@ -115,6 +116,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:20:24.214Z",
-    "version": 5
+    "version": 6
   }
 }

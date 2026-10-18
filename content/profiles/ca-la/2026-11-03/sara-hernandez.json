@@ -57,7 +57,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -73,7 +73,7 @@
           { "kind": "pac", "amount": 172700 },
           { "kind": "other", "amount": 87253.43 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 167400, "count": 58 }
+        "largeSince": { "since": "2026-09-19", "total": 180800, "count": 62 }
       }
     ]
   },
@@ -221,7 +221,7 @@
       {
         "organization": "California Federation of Teachers",
         "kind": "union",
-        "cites": [11]
+        "cites": [21]
       },
       {
         "organization": "Teamsters Joint Council 42",
@@ -253,13 +253,13 @@
       {
         "organization": "California YIMBY",
         "kind": "organization",
-        "cites": [12]
+        "cites": [11]
       },
-      { "organization": "YIMBY Action", "kind": "organization", "cites": [13] },
+      { "organization": "YIMBY Action", "kind": "organization", "cites": [12] },
       {
         "organization": "YIMBY Los Angeles",
         "kind": "organization",
-        "cites": [14]
+        "cites": [13]
       },
       {
         "organization": "Abundant Housing LA",
@@ -269,27 +269,37 @@
       {
         "organization": "Streets For All",
         "kind": "organization",
-        "cites": [15]
+        "cites": [14]
       },
       {
         "organization": "Center for New Liberalism and LA New Liberals",
         "kind": "organization",
-        "cites": [16]
+        "cites": [15]
       },
       {
         "organization": "California Teachers Association",
         "kind": "union",
-        "cites": [17]
+        "cites": [16]
       },
       {
         "organization": "Democrats for Israel – Los Angeles",
         "kind": "organization",
-        "cites": [18]
+        "cites": [17]
       },
       {
         "organization": "American Independent Party",
         "kind": "party",
+        "cites": [18]
+      },
+      {
+        "organization": "Armenian National Committee of America, Western Region",
+        "kind": "organization",
         "cites": [19]
+      },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [20]
       }
     ]
   },
@@ -376,14 +386,6 @@
     },
     {
       "id": 11,
-      "title": "CFT Endorsements, Primary Election 2026",
-      "publisher": "California Federation of Teachers",
-      "url": "https://www.cft.org/sites/main/files/file-attachments/cft_endorsements-primary-election_4.27.2026.pdf",
-      "kind": "endorser",
-      "viewedAt": "2026-10-14"
-    },
-    {
-      "id": 12,
       "title": "The Homework: July 6, 2026",
       "publisher": "California YIMBY",
       "url": "https://cayimby.org/?p=21485",
@@ -391,7 +393,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 13,
+      "id": 12,
       "title": "June 2026 California Primary Election Voter Guide",
       "publisher": "YIMBY Action",
       "url": "https://yimbyaction.org/endorsements/2026/june-2026-california-primary-election-voter-guide/",
@@ -399,7 +401,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 14,
+      "id": 13,
       "title": "November General Election Endorsements",
       "publisher": "YIMBY Los Angeles",
       "url": "https://yimby.la/voter-guide/november-general-election-endorsements/",
@@ -407,7 +409,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 15,
+      "id": 14,
       "title": "2026 Endorsements",
       "publisher": "Streets For All",
       "url": "https://www.streetsforall.org/2026",
@@ -415,7 +417,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 16,
+      "id": 15,
       "title": "Center for New Liberalism & LA New Liberals Endorse Sara Hernandez for California Senate District 26",
       "publisher": "Center for New Liberalism",
       "url": "https://cnliberalism.org/posts/la-new-liberals-endorse-sara-hernandez-for-california-senate-district-26",
@@ -428,7 +430,7 @@
       "url": "https://www.cta.org/our-advocacy/election-2026",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 17
+      "id": 16
     },
     {
       "title": "November 2026 General Election Endorsements",
@@ -436,7 +438,7 @@
       "url": "https://dfi-la.org/endorse",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 18
+      "id": 17
     },
     {
       "title": "Party Endorsements for Voter-Nominated Offices, November 3, 2026 General Election",
@@ -444,13 +446,37 @@
       "url": "https://www.lavote.gov/additional-election-information",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "ANCA Western Region 2026 General Election Endorsements",
+      "publisher": "ANCA Western Region",
+      "url": "https://ancawr.org/elect26/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
       "id": 19
+    },
+    {
+      "title": "Sierra Club Political Endorsements (2026)",
+      "publisher": "Sierra Club Angeles Chapter Political Committee",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 20
+    },
+    {
+      "title": "CFT Endorsements, General Election 2026 (Tuesday, November 3)",
+      "publisher": "California Federation of Teachers",
+      "url": "https://www.cft.org/2026-midterm-elections-hub",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 21
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.746Z",
-    "version": 4
+    "version": 6
   }
 }

@@ -44,21 +44,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Citizens for Ben McAdams",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40904",
-        "period": "April 1 to June 30, 2026",
-        "raised": 28174.26,
-        "cashOnHand": 16706.58,
+        "period": "July 1 to September 30, 2026",
+        "raised": 113053.78,
+        "cashOnHand": 48953.21,
         "breakdown": [
-          { "kind": "small", "amount": 3224.26 },
-          { "kind": "large", "amount": 9200 },
-          { "kind": "transfer", "amount": 15750 }
+          { "kind": "small", "amount": 5093.78 },
+          { "kind": "large", "amount": 12760 },
+          { "kind": "transfer", "amount": 95200 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 123267.38, "count": 29 }
+        "largeSince": { "since": "2026-09-30", "total": 171178.66, "count": 6 }
       }
     ]
   },
@@ -151,6 +151,16 @@
         "organization": "Bloomingdale Township Democratic Organization",
         "kind": "party",
         "cites": [6]
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [11]
       }
     ]
   },
@@ -226,12 +236,28 @@
       "url": "https://thepeopleslobbyusa.org/endorsements/",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Planned Parenthood Illinois Action (press release, published by Windy City Times)",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 11
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:51:13.167Z",
-    "version": 2
+    "version": 3
   }
 }

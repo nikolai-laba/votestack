@@ -54,21 +54,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Michelle Mussman",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=22346",
-        "period": "April 1 to June 30, 2026",
-        "raised": 2775,
-        "cashOnHand": 102848.42,
+        "period": "July 1 to September 30, 2026",
+        "raised": 16580,
+        "cashOnHand": 107185.16,
         "breakdown": [
-          { "kind": "small", "amount": 25 },
-          { "kind": "large", "amount": 2000 },
-          { "kind": "transfer", "amount": 750 }
-        ],
-        "largeSince": { "since": "2026-06-30", "total": 13500, "count": 8 }
+          { "kind": "small", "amount": 330 },
+          { "kind": "large", "amount": 1500 },
+          { "kind": "transfer", "amount": 14750 }
+        ]
       }
     ]
   },
@@ -136,7 +135,24 @@
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
         "cites": [14]
-      }
+      },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [15] },
+      {
+        "organization": "Daily Herald Editorial Board",
+        "kind": "editorial_board",
+        "cites": [16]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [17]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [18]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [18] }
     ]
   },
   "sources": [
@@ -202,7 +218,7 @@
       "publisher": "Windy City Times",
       "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
       "kind": "news",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 9,
@@ -251,12 +267,44 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 14
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "Daily Herald endorsements, Nov. 3, 2026 general election (published Oct. 13-16, 2026)",
+      "publisher": "Daily Herald (Arlington Heights)",
+      "url": "https://www.dailyherald.com/opinion/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:16:14.091Z",
-    "version": 6
+    "version": 7
   }
 }

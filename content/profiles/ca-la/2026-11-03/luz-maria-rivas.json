@@ -65,19 +65,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Luz Rivas for Congress",
         "url": "https://www.fec.gov/data/committee/C00857417/?cycle=2026",
-        "period": "January 1, 2025 to June 30, 2026",
-        "raised": 670678.01,
-        "cashOnHand": 377476.23,
+        "period": "January 1, 2025 to September 30, 2026",
+        "raised": 858501.05,
+        "cashOnHand": 359811.73,
         "breakdown": [
-          { "kind": "small", "amount": 13006.07 },
-          { "kind": "large", "amount": 298987.85 },
-          { "kind": "pac", "amount": 356789.68 },
+          { "kind": "small", "amount": 15065.09 },
+          { "kind": "large", "amount": 394751.87 },
+          { "kind": "pac", "amount": 446789.68 },
           { "kind": "other", "amount": 1894.41 }
         ]
       }
@@ -192,49 +192,60 @@
       {
         "organization": "Armenian National Committee of America – Western Region",
         "kind": "organization",
-        "cites": [18]
+        "cites": [30]
       },
       {
         "organization": "Stonewall Young Democrats",
         "kind": "organization",
-        "cites": [19]
+        "cites": [18]
       },
-      { "organization": "Thrive LA", "kind": "organization", "cites": [20] },
+      { "organization": "Thrive LA", "kind": "organization", "cites": [19] },
       {
         "organization": "Equality California",
         "kind": "organization",
-        "cites": [21]
+        "cites": [20]
       },
       {
         "organization": "Sierra Club Angeles Chapter",
         "kind": "organization",
-        "cites": [22]
+        "cites": [21]
       },
       {
         "organization": "California Democratic Party",
         "kind": "party",
-        "cites": [23]
+        "cites": [22]
       },
       {
         "organization": "California Federation of Teachers",
         "kind": "union",
-        "cites": [24]
+        "cites": [23]
       },
       {
         "organization": "California Teachers Association",
         "kind": "union",
-        "cites": [25]
+        "cites": [24]
       },
       {
         "organization": "Democrats for Israel – Los Angeles",
         "kind": "organization",
-        "cites": [26]
+        "cites": [25]
       },
       {
         "organization": "Los Angeles County Federation of Labor",
         "kind": "union",
+        "cites": [26]
+      },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
         "cites": [27]
-      }
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [28]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [29] }
     ]
   },
   "sources": [
@@ -376,14 +387,6 @@
     },
     {
       "id": 18,
-      "title": "ANCA-Western Region Announces 2026 Primary Endorsements",
-      "publisher": "ANCA-Western Region",
-      "url": "https://ancawr.org/press-release/anca-western-region-announces-2026-primary-endorsements-2/",
-      "kind": "endorser",
-      "viewedAt": "2026-10-14"
-    },
-    {
-      "id": 19,
       "title": "Endorsed Candidates (2026 Endorsements)",
       "publisher": "Stonewall Young Democrats",
       "url": "https://www.stonewallyoungdemocrats.com/endorsed-candidates",
@@ -391,7 +394,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 20,
+      "id": 19,
       "title": "LA Voter Guide 2026: Endorsements for the General Election",
       "publisher": "Thrive LA",
       "url": "https://www.thrivelosangeles.org/voter-guide",
@@ -399,7 +402,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 21,
+      "id": 20,
       "title": "Equality California Election Center",
       "publisher": "Equality California",
       "url": "https://www.eqca.org/elections/",
@@ -407,12 +410,12 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 22,
+      "id": 21,
       "title": "Endorsements",
       "publisher": "Sierra Club Angeles Chapter",
       "url": "https://www.sierraclub.org/angeles/endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-14"
+      "viewedAt": "2026-10-17"
     },
     {
       "title": "2026 General Election Endorsements & Ballot Measure Positions",
@@ -420,7 +423,7 @@
       "url": "https://cadem.org/wp-content/uploads/2026/08/FINAL-2026-General-Election-Endorsements.pdf",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 23
+      "id": 22
     },
     {
       "title": "CFT Endorsements, General Election 2026 (Tuesday, November 3)",
@@ -428,7 +431,7 @@
       "url": "https://www.cft.org/2026-midterm-elections-hub",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 24
+      "id": 23
     },
     {
       "title": "2026 Candidate Recommendations",
@@ -436,7 +439,7 @@
       "url": "https://www.cta.org/our-advocacy/election-2026",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 25
+      "id": 24
     },
     {
       "title": "November 2026 General Election Endorsements",
@@ -444,7 +447,7 @@
       "url": "https://dfi-la.org/endorse",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 26
+      "id": 25
     },
     {
       "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
@@ -452,13 +455,45 @@
       "url": "https://thelafed.org/resource/lalaborvoterguide/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
+      "id": 26
+    },
+    {
+      "title": "November 2026 Stonewall Democratic Club Endorsements",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
       "id": 27
+    },
+    {
+      "title": "California Teamsters Endorsements",
+      "publisher": "Teamsters Joint Council 42",
+      "url": "https://www.teamstersjc42.com/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 28
+    },
+    {
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 29
+    },
+    {
+      "title": "ANCA Western Region 2026 General Election Endorsements",
+      "publisher": "ANCA Western Region",
+      "url": "https://ancawr.org/elect26/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 30
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.789Z",
-    "version": 6
+    "version": 8
   }
 }

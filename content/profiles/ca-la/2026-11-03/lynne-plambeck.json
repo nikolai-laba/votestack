@@ -30,7 +30,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -123,7 +123,7 @@
       "publisher": "Stonewall Democratic Club",
       "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
       "kind": "endorser",
-      "viewedAt": "2026-10-14"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 7,
@@ -139,7 +139,7 @@
       "publisher": "Sierra Club Angeles Chapter",
       "url": "https://www.sierraclub.org/angeles/endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-14"
+      "viewedAt": "2026-10-17"
     },
     {
       "title": "November 2026 LA Progressive Voter Guide",
@@ -153,7 +153,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.218Z",
-    "version": 3
+    "generatedAt": "2026-10-18T03:18:00.316Z",
+    "version": 4
   }
 }

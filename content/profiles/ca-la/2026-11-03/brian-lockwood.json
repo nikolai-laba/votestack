@@ -27,12 +27,13 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [],
     "filingsAt": {
       "name": "California Secretary of State",
       "url": "https://cal-access.sos.ca.gov/Campaign/Candidates/Detail.aspx?id=1491359"
-    }
+    },
+    "noCommittee": { "filedWith": "California Secretary of State" }
   },
   "endorsements": {
     "asOf": "2026-10-14",
@@ -66,6 +67,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.717Z",
-    "version": 4
+    "version": 5
   }
 }

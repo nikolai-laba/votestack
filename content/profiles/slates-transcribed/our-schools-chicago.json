@@ -1,0 +1,139 @@
+{
+  "slug": "our-schools-chicago",
+  "endorser": "Our Schools Chicago",
+  "kind": "organization",
+  "title": "Our Endorsed Candidates",
+  "publisher": "Our Schools Chicago (publicschoolchampions.com)",
+  "url": "https://publicschoolchampions.com/",
+  "generalEvidence": "\"For Chicago's First-Ever Fully Elected School Board, Let's Elect Public School Champions This Year\" with School Board President and A/B subdistrict seats, which are first elected at the Nov. 3, 2026 general. No explicit date printed.",
+  "whyItCounts": "Public-education coalition with a published platform (fully funded sustainable community schools, no school closings).",
+  "entries": [
+    {
+      "name": "Hilario Dominguez",
+      "office": "Chicago Board of Education President",
+      "stance": "support",
+      "quote": "Our Endorsed Candidates: Hilario Dominguez School Board President",
+      "verified": true
+    },
+    {
+      "name": "Ed Bannon",
+      "office": "Chicago Board of Education Member, Subdistrict 1A",
+      "stance": "support",
+      "quote": "Our Endorsed Candidates: Ed Bannon District 1A",
+      "verified": true
+    },
+    {
+      "name": "Claudia Peralta",
+      "office": "Chicago Board of Education Member, Subdistrict 1B",
+      "stance": "support",
+      "quote": "Our Endorsed Candidates: Claudia Peralta District 1B",
+      "verified": true
+    },
+    {
+      "name": "Ebony DeBerry",
+      "office": "Chicago Board of Education Member, Subdistrict 2A",
+      "stance": "support",
+      "quote": "Our Endorsed Candidates: Ebony DeBerry District 2A",
+      "verified": true
+    },
+    {
+      "name": "Debby Pope",
+      "office": "Chicago Board of Education Member, Subdistrict 2B",
+      "stance": "support",
+      "quote": "Our Endorsed Candidates: Debby Pope District 2B",
+      "verified": true
+    },
+    {
+      "name": "Norma Rios Sierra",
+      "office": "Chicago Board of Education Member, Subdistrict 3A",
+      "stance": "support",
+      "quote": "Our Endorsed Candidates: Norma Rios Sierra District 3A",
+      "verified": true
+    },
+    {
+      "name": "Jason Dónes",
+      "office": "Chicago Board of Education Member, Subdistrict 3B",
+      "stance": "support",
+      "quote": "Our Endorsed Candidates: Jason Dónes District 3B",
+      "verified": true
+    },
+    {
+      "name": "Karen Zaccor",
+      "office": "Chicago Board of Education Member, Subdistrict 4A",
+      "stance": "support",
+      "quote": "Our Endorsed Candidates: Karen Zaccor District 4A",
+      "verified": true
+    },
+    {
+      "name": "Aaron \"Jitu\" Brown",
+      "office": "Chicago Board of Education Member, Subdistrict 5A",
+      "stance": "support",
+      "quote": "Our Endorsed Candidates: Aaron \"Jitu\" Brown District 5A",
+      "verified": true
+    },
+    {
+      "name": "Michilla \"Kyla\" Blaise",
+      "office": "Chicago Board of Education Member, Subdistrict 5B",
+      "stance": "support",
+      "quote": "Our Endorsed Candidates: Michilla \"Kyla\" Blaise District 5B",
+      "verified": true
+    },
+    {
+      "name": "Anusha Thotakura",
+      "office": "Chicago Board of Education Member, Subdistrict 6A",
+      "stance": "support",
+      "quote": "Our Endorsed Candidates: Anusha Thotakura District 6A",
+      "verified": true
+    },
+    {
+      "name": "Emma Lozano",
+      "office": "Chicago Board of Education Member, Subdistrict 7A",
+      "stance": "support",
+      "quote": "Our Endorsed Candidates: Emma Lozano District 7A",
+      "verified": true
+    },
+    {
+      "name": "Yesenia Lopez",
+      "office": "Chicago Board of Education Member, Subdistrict 7B",
+      "stance": "support",
+      "quote": "Our Endorsed Candidates: Yesenia Lopez District 7B",
+      "verified": true
+    },
+    {
+      "name": "Katherine Dunneback",
+      "office": "Chicago Board of Education Member, Subdistrict 9B",
+      "stance": "support",
+      "quote": "Our Endorsed Candidates: Katherine Dunneback District 9B",
+      "verified": true
+    },
+    {
+      "name": "Tameka Walton",
+      "office": "Chicago Board of Education Member, Subdistrict 10A",
+      "stance": "support",
+      "quote": "Our Endorsed Candidates: Tameka Walton (Write-in) District 10A",
+      "verified": true,
+      "verifyNote": "Page lists her as 'Tameka Walton (Write-in)'; she is a write-in and is not on the printed ballot."
+    },
+    {
+      "name": "Connie Anderson",
+      "office": "Chicago Board of Education Member, Subdistrict 10B",
+      "stance": "support",
+      "quote": "Our Endorsed Candidates: Connie Anderson District 10B",
+      "verified": true
+    }
+  ],
+  "verify": {
+    "general": "yes",
+    "checkedAt": "2026-10-17",
+    "fixes": [
+      {
+        "from": "Tameka Walton (Write-in)",
+        "to": "Tameka Walton",
+        "field": "name",
+        "reason": "'(Write-in)' is a label, not part of the name"
+      }
+    ],
+    "removed": [],
+    "note": "No date printed, but the page is for 'Chicago's First-Ever Fully Elected School Board' (president + A/B subdistrict seats, all on the Nov. 3, 2026 ballot), so entries are clearly current. All 16 found under 'Our Endorsed Candidates' with the matching district."
+  }
+}

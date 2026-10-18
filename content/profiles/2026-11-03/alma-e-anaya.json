@@ -61,20 +61,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Alma Anaya",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=34289",
-        "period": "April 1 to June 30, 2026",
-        "raised": 29000,
-        "cashOnHand": 89545.47,
-        "breakdown": [
-          { "kind": "small", "amount": 2850 },
-          { "kind": "large", "amount": 19150 },
-          { "kind": "transfer", "amount": 7000 }
-        ]
+        "period": "July 1 to September 30, 2026",
+        "raised": 200,
+        "cashOnHand": 79876.24,
+        "breakdown": [{ "kind": "other", "amount": 200 }]
       }
     ]
   },
@@ -89,19 +85,35 @@
       {
         "organization": "Chicago Federation of Labor",
         "kind": "union",
-        "cites": [7]
+        "cites": [13]
       },
       {
         "organization": "International Union of Operating Engineers Local 399",
         "kind": "union",
-        "cites": [8]
+        "cites": [7]
       },
       {
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
-        "cites": [9]
+        "cites": [8]
       },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [10] }
+      { "organization": "Personal PAC", "kind": "organization", "cites": [9] },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [12]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [12] }
     ]
   },
   "sources": [
@@ -155,14 +167,6 @@
     },
     {
       "id": 7,
-      "title": "MARCH 17, 2026 PRIMARY ELECTION ENDORSED CANDIDATES",
-      "publisher": "Chicago Federation of Labor",
-      "url": "https://chicagolabor.org/wp-content/uploads/P2026_PrimaryEndorsementList_COOK-v4.pdf",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 8,
       "title": "2026 LOCAL 399 ILLINOIS PRIMARY ELECTION ENDORSEMENTS",
       "publisher": "IUOE Local 399",
       "url": "http://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
@@ -175,7 +179,7 @@
       "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
-      "id": 9
+      "id": 8
     },
     {
       "title": "Personal PAC 2026 General Election Endorsements",
@@ -183,13 +187,45 @@
       "url": "https://personalpac.org/elections/",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
       "id": 10
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 13
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:22:34.750Z",
-    "version": 6
+    "version": 8
   }
 }

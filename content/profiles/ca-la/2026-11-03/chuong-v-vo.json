@@ -49,20 +49,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Chuong Vo for Congress",
         "url": "https://www.fec.gov/data/committee/C00922427/?cycle=2026",
-        "period": "January 1, 2025 to June 30, 2026",
-        "raised": 495762.84,
-        "cashOnHand": 74875.85,
+        "period": "January 1, 2025 to September 30, 2026",
+        "raised": 843991.76,
+        "cashOnHand": 295807.17,
         "breakdown": [
-          { "kind": "small", "amount": 134680.23 },
-          { "kind": "large", "amount": 334082.61 },
-          { "kind": "pac", "amount": 17000 },
-          { "kind": "loan", "amount": 10000 }
+          { "kind": "small", "amount": 224465.05 },
+          { "kind": "large", "amount": 568567.19 },
+          { "kind": "pac", "amount": 39999 },
+          { "kind": "loan", "amount": 10000 },
+          { "kind": "other", "amount": 960.52 }
         ]
       }
     ]
@@ -181,6 +182,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.854Z",
-    "version": 4
+    "version": 5
   }
 }

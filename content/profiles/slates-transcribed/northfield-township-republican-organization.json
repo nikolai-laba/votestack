@@ -1,0 +1,161 @@
+{
+  "slug": "northfield-township-republican-organization",
+  "endorser": "Northfield Township Republican Organization",
+  "kind": "organization",
+  "title": "Your 2026 Republican Ticket / Republican Sample Ballot, General Election",
+  "publisher": "Northfield Township Republican Organization",
+  "url": "https://www.northfieldgop.org/sample_ballot",
+  "generalEvidence": "PDF: \"Republican Sample Ballot General Election Tuesday, November 3, 2026 Northfield Township\"",
+  "whyItCounts": "Township Republican Party organization (party club) with a stated platform (lower taxes, public safety, school choice).",
+  "note": "List is in the PDF linked from the page: https://assets.nationbuilder.com/northcookgop/pages/225/attachments/original/1791317546/web_ballot.pdf . The ballot is Northfield Township-specific (only its districts). Sheriff pick is the Libertarian candidate. Retention: only one judge listed, \"Vote Yes to retain\"; no \"No\" positions.",
+  "entries": [
+    {
+      "name": "Don Tracy",
+      "office": "U.S. Senator",
+      "stance": "support",
+      "quote": "1 Don Tracy Republican",
+      "verified": true
+    },
+    {
+      "name": "Darren Bailey",
+      "office": "Illinois Governor and Lieutenant Governor",
+      "stance": "support",
+      "quote": "4 Darren Bailey & Aaron B. Del Mar Republican",
+      "verified": true
+    },
+    {
+      "name": "Aaron B. Del Mar",
+      "office": "Illinois Governor and Lieutenant Governor",
+      "stance": "support",
+      "quote": "4 Darren Bailey & Aaron B. Del Mar Republican",
+      "verified": true
+    },
+    {
+      "name": "Robert W. Fioretti",
+      "office": "Illinois Attorney General",
+      "stance": "support",
+      "quote": "7 Robert W. Fioretti Republican",
+      "verified": true
+    },
+    {
+      "name": "Diane M. Harris",
+      "office": "Illinois Secretary of State",
+      "stance": "support",
+      "quote": "9 Diane M. Harris Republican",
+      "verified": true
+    },
+    {
+      "name": "Bryan Drew",
+      "office": "Illinois Comptroller",
+      "stance": "support",
+      "quote": "11 Bryan Drew Republican",
+      "verified": true
+    },
+    {
+      "name": "Max Solomon",
+      "office": "Illinois Treasurer",
+      "stance": "support",
+      "quote": "13 Max Solomon Republican",
+      "verified": true
+    },
+    {
+      "name": "Tommy Hanson",
+      "office": "U.S. Representative, 5th District",
+      "stance": "support",
+      "quote": "21 Tommy Hanson Republican",
+      "verified": true
+    },
+    {
+      "name": "John Elleson",
+      "office": "U.S. Representative, 9th District",
+      "stance": "support",
+      "quote": "21 John Elleson Republican",
+      "verified": true
+    },
+    {
+      "name": "Carl Lambrecht",
+      "office": "U.S. Representative, 10th District",
+      "stance": "support",
+      "quote": "21 Carl Lambrecht Republican",
+      "verified": true
+    },
+    {
+      "name": "Tom Lally",
+      "office": "State Senator, 9th District",
+      "stance": "support",
+      "quote": "31 Tom Lally Republican",
+      "verified": true
+    },
+    {
+      "name": "Kate McGrath",
+      "office": "State Senator, 29th District",
+      "stance": "support",
+      "quote": "31 Kate McGrath Republican",
+      "verified": true
+    },
+    {
+      "name": "James \"Jim\" Geldermann",
+      "office": "State Representative, 17th District",
+      "stance": "support",
+      "quote": "41 James \"Jim\" Geldermann Republican",
+      "verified": true
+    },
+    {
+      "name": "Joseph Johnson",
+      "office": "State Representative, 55th District",
+      "stance": "support",
+      "quote": "41 Joseph Johnson Republican",
+      "verified": true
+    },
+    {
+      "name": "Daniel T. Behr",
+      "office": "State Representative, 57th District",
+      "stance": "support",
+      "quote": "41 Daniel T. Behr Republican",
+      "verified": true
+    },
+    {
+      "name": "Michelle Pennington",
+      "office": "Metropolitan Water Reclamation District Commissioner",
+      "stance": "support",
+      "quote": "51 Michelle Pennington Republican",
+      "verified": true
+    },
+    {
+      "name": "Timothy E. Rueckert",
+      "office": "Metropolitan Water Reclamation District Commissioner",
+      "stance": "support",
+      "quote": "52 Timothy E. Rueckert Republican",
+      "verified": true
+    },
+    {
+      "name": "Jill B. Shestokas",
+      "office": "Metropolitan Water Reclamation District Commissioner",
+      "stance": "support",
+      "quote": "53 Jill B. Shestokas Republican",
+      "verified": true
+    },
+    {
+      "name": "Brad Sandefur",
+      "office": "Cook County Sheriff",
+      "stance": "support",
+      "quote": "66 Brad Sandefur Libertarian",
+      "verified": true
+    },
+    {
+      "name": "James Pieczonka",
+      "office": "Circuit Court Judge, Cook County",
+      "stance": "support",
+      "quote": "Judicial Retention Vote Yes to retain: 255 James Pieczonka",
+      "verified": true,
+      "nameOnBallot": "James P. Pieczonka"
+    }
+  ],
+  "verify": {
+    "general": "yes",
+    "checkedAt": "2026-10-17",
+    "fixes": [],
+    "removed": [],
+    "note": "Page is script-light; the list is in the linked image-only PDF (web_ballot.pdf), read from rendered images: 'Republican Sample Ballot, General Election, Tuesday, November 3, 2026, Northfield Township'. All 20 match (Sandefur is the Libertarian sheriff candidate; Pieczonka under 'Vote Yes to retain')."
+  }
+}

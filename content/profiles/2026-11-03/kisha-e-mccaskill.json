@@ -47,7 +47,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
@@ -165,13 +165,13 @@
       {
         "organization": "Equality Illinois",
         "kind": "organization",
-        "cites": [7]
+        "cites": [14]
       },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [8] },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [7] },
       {
         "organization": "Chicago Federation of Labor",
         "kind": "union",
-        "cites": [9]
+        "cites": [13]
       },
       { "organization": "AFSCME", "kind": "union", "cites": [5] },
       {
@@ -182,7 +182,7 @@
       {
         "organization": "International Union of Operating Engineers Local 399",
         "kind": "union",
-        "cites": [10]
+        "cites": [8]
       },
       {
         "organization": "Chicago Firefighters Union Local 2",
@@ -197,8 +197,20 @@
       {
         "organization": "Tinley Park Progress",
         "kind": "editorial_board",
+        "cites": [9]
+      },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [10] },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
         "cites": [11]
-      }
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [12]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [12] }
     ]
   },
   "sources": [
@@ -252,14 +264,6 @@
     },
     {
       "id": 7,
-      "title": "2026 Primary Election – Equality Illinois",
-      "publisher": "Equality Illinois",
-      "url": "https://equalityillinois.us/2026-primary-election/",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 8,
       "title": "Endorsements and Election Information",
       "publisher": "Personal PAC",
       "url": "https://personalpac.org/elections/",
@@ -267,15 +271,7 @@
       "viewedAt": "2026-10-07"
     },
     {
-      "id": 9,
-      "title": "MARCH 17, 2026 PRIMARY ELECTION ENDORSED CANDIDATES",
-      "publisher": "Chicago Federation of Labor",
-      "url": "https://chicagolabor.org/wp-content/uploads/Updated-P2026_PrimaryEndorsementList_updated-v6.pdf",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 10,
+      "id": 8,
       "title": "2026 Primary Election Endorsements",
       "publisher": "IUOE Local 399",
       "url": "http://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
@@ -283,18 +279,58 @@
       "viewedAt": "2026-10-07"
     },
     {
-      "id": 11,
+      "id": 9,
       "title": "Tinley Park Progress Endorses Dr. Kisha McCaskill for Cook County Commissioner",
       "publisher": "My Taylor Media",
       "url": "https://mytaylormedia.com/2026/03/tinley-park-progress-endorses-dr-kisha-mccaskill-for-cook-county-commissioner/",
       "kind": "news",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:21:46.283Z",
-    "version": 6
+    "version": 8
   }
 }

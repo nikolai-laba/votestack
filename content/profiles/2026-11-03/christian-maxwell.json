@@ -68,18 +68,18 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Christian Maxwell for Congress",
         "url": "https://www.fec.gov/data/committee/C00904227/?cycle=2026",
-        "period": "July 1, 2025 to June 30, 2026",
-        "raised": 63315.86,
-        "cashOnHand": 33832.37,
+        "period": "July 1, 2025 to September 30, 2026",
+        "raised": 88080.16,
+        "cashOnHand": 55571.22,
         "breakdown": [
           { "kind": "small", "amount": 33449.94 },
-          { "kind": "large", "amount": 29865.92 }
+          { "kind": "large", "amount": 54630.22 }
         ]
       }
     ]
@@ -140,6 +140,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T16:59:29.616Z",
-    "version": 7
+    "version": 8
   }
 }

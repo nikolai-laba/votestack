@@ -39,7 +39,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -55,7 +55,7 @@
           { "kind": "pac", "amount": 267501.96 },
           { "kind": "other", "amount": 72862.44 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 180100, "count": 52 }
+        "largeSince": { "since": "2026-09-19", "total": 217200, "count": 62 }
       }
     ]
   },
@@ -259,7 +259,22 @@
       },
       { "organization": "Knock LA", "kind": "organization", "cites": [13] },
       { "organization": "LA Forward", "kind": "organization", "cites": [14] },
-      { "organization": "SEIU Local 721", "kind": "union", "cites": [15] }
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [15] },
+      {
+        "organization": "Santa Monicans for Renters' Rights",
+        "kind": "organization",
+        "cites": [16]
+      },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [17]
+      },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [18]
+      }
     ]
   },
   "sources": [
@@ -382,12 +397,36 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 15
+    },
+    {
+      "title": "SMRR Supported Candidates and Measures for the November 3, 2026 Election in Santa Monica",
+      "publisher": "Santa Monicans for Renters' Rights",
+      "url": "https://www.smrr.org/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "Sierra Club Political Endorsements (2026)",
+      "publisher": "Sierra Club Angeles Chapter Political Committee",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "November 2026 Stonewall Democratic Club Endorsements",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.746Z",
-    "version": 4
+    "version": 5
   }
 }

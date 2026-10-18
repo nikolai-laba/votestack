@@ -42,20 +42,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Skala for Illinois",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41006",
-        "period": "April 1 to June 30, 2026",
-        "raised": 1008.2,
-        "cashOnHand": 18065.7,
+        "period": "July 1 to September 30, 2026",
+        "raised": 7804.71,
+        "cashOnHand": 21245.73,
         "breakdown": [
-          { "kind": "small", "amount": 508.2 },
-          { "kind": "large", "amount": 500 }
+          { "kind": "small", "amount": 1385.33 },
+          { "kind": "large", "amount": 1419.38 },
+          { "kind": "transfer", "amount": 5000 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 12003.69, "count": 4 }
+        "largeSince": { "since": "2026-09-30", "total": 5000, "count": 1 }
       }
     ]
   },
@@ -76,6 +77,11 @@
         "organization": "Illinois Family Action",
         "kind": "organization",
         "cites": [6]
+      },
+      {
+        "organization": "Chicago Tribune Editorial Board",
+        "kind": "editorial_board",
+        "cites": [7]
       }
     ]
   },
@@ -126,13 +132,21 @@
       "publisher": "Illinois Family Action",
       "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
+    },
+    {
+      "title": "Tribune Editorial Board endorsements for the 2026 Illinois general election",
+      "publisher": "Chicago Tribune (syndicated on Yahoo News, Oct. 11, 2026)",
+      "url": "https://www.yahoo.com/news/politics/articles/tribune-editorial-board-endorsements-2026-111600003.html",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 7
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:48:14.812Z",
-    "version": 4
+    "version": 5
   }
 }

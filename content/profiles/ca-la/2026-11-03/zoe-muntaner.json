@@ -35,12 +35,13 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [],
     "filingsAt": {
       "name": "City of Santa Monica",
       "url": "https://netfile.com/public/CSM/campaign"
-    }
+    },
+    "noCommittee": { "filedWith": "City of Santa Monica" }
   },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
@@ -73,6 +74,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:39:39.223Z",
-    "version": 3
+    "version": 4
   }
 }

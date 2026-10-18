@@ -39,7 +39,24 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-07", "items": [] },
+  "money": {
+    "asOf": "2026-10-17",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Zimmers for Illinois",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41277",
+        "period": "July 13 to September 30, 2026",
+        "raised": 15200,
+        "cashOnHand": 15071.55,
+        "breakdown": [
+          { "kind": "large", "amount": 200 },
+          { "kind": "candidate", "amount": 15000 }
+        ],
+        "fromCandidate": 15000
+      }
+    ]
+  },
   "endorsements": { "asOf": "2026-10-07", "items": [] },
   "sources": [
     {
@@ -55,6 +72,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:57:09.472Z",
-    "version": 3
+    "version": 4
   }
 }

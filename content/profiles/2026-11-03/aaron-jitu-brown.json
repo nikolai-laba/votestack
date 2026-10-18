@@ -41,20 +41,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Jitu Brown",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39853",
-        "period": "April 1 to June 30, 2026",
-        "raised": 4300,
-        "cashOnHand": 4891.47,
+        "period": "July 1 to September 30, 2026",
+        "raised": 9514,
+        "cashOnHand": 13300.46,
         "breakdown": [
-          { "kind": "small", "amount": 2000 },
-          { "kind": "large", "amount": 2300 }
-        ],
-        "largeSince": { "since": "2026-06-30", "total": 3000, "count": 3 }
+          { "kind": "small", "amount": 1764 },
+          { "kind": "large", "amount": 7750 }
+        ]
       }
     ]
   },
@@ -76,6 +75,11 @@
         "organization": "Chicago Federation of Labor",
         "kind": "union",
         "cites": [8]
+      },
+      {
+        "organization": "Independent Voters of Illinois-Independent Precinct Organization (IVI-IPO)",
+        "kind": "organization",
+        "cites": [9]
       }
     ]
   },
@@ -143,12 +147,20 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 8
+    },
+    {
+      "title": "General Election Endorsements!",
+      "publisher": "IVI-IPO",
+      "url": "https://www.iviipo.org/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 9
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:45:06.957Z",
-    "version": 4
+    "version": 5
   }
 }

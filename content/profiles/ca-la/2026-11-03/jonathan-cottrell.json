@@ -56,7 +56,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -73,7 +73,7 @@
           { "kind": "loan", "amount": 45000 },
           { "kind": "other", "amount": 2800 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 39000, "count": 10 }
+        "largeSince": { "since": "2026-09-19", "total": 40000, "count": 11 }
       }
     ]
   },
@@ -256,6 +256,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.650Z",
-    "version": 2
+    "version": 3
   }
 }

@@ -52,7 +52,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -116,7 +116,12 @@
         "kind": "organization",
         "cites": [9]
       },
-      { "organization": "LA Forward", "kind": "organization", "cites": [10] }
+      { "organization": "LA Forward", "kind": "organization", "cites": [10] },
+      {
+        "organization": "National Women's Political Caucus San Gabriel Valley",
+        "kind": "organization",
+        "cites": [11]
+      }
     ]
   },
   "sources": [
@@ -190,7 +195,7 @@
       "publisher": "Sierra Club Angeles Chapter",
       "url": "https://www.sierraclub.org/angeles/endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-15"
+      "viewedAt": "2026-10-17"
     },
     {
       "title": "November 2026 LA Progressive Voter Guide",
@@ -199,12 +204,20 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 10
+    },
+    {
+      "title": "Endorsed Candidates: November 2026 Candidates",
+      "publisher": "NWPC San Gabriel Valley",
+      "url": "https://nwpcsgv.org/endorsed-candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 11
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.272Z",
-    "version": 3
+    "version": 4
   }
 }

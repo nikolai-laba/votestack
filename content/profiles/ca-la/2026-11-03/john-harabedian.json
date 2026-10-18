@@ -48,7 +48,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -63,7 +63,7 @@
           { "kind": "pac", "amount": 29800 },
           { "kind": "other", "amount": 78600 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 51700, "count": 12 }
+        "largeSince": { "since": "2026-09-19", "total": 66100, "count": 17 }
       }
     ]
   },
@@ -83,82 +83,88 @@
       {
         "organization": "Armenian National Committee of America – Western Region",
         "kind": "organization",
-        "cites": [8]
+        "cites": [27]
       },
       {
         "organization": "Sierra Club Angeles Chapter",
         "kind": "organization",
-        "cites": [9]
+        "cites": [8]
       },
       {
         "organization": "Sierra Club San Gorgonio Chapter",
         "kind": "organization",
-        "cites": [10]
+        "cites": [9]
       },
       {
         "organization": "Planned Parenthood Advocates of Pasadena & San Gabriel Valley",
         "kind": "organization",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "California State University Employees Union (CSUEU)",
         "kind": "union",
-        "cites": [12]
+        "cites": [11]
       },
       {
         "organization": "California Council for Affordable Housing",
         "kind": "organization",
-        "cites": [13]
+        "cites": [12]
       },
       {
         "organization": "YIMBY Los Angeles",
         "kind": "organization",
-        "cites": [14]
+        "cites": [13]
       },
       {
         "organization": "High Desert Progressive Democrats",
         "kind": "organization",
-        "cites": [15]
+        "cites": [14]
       },
-      { "organization": "ACT", "kind": "organization", "cites": [16] },
+      { "organization": "ACT", "kind": "organization", "cites": [15] },
       {
         "organization": "Pasadena Arroyo Democratic Club",
         "kind": "organization",
-        "cites": [16]
+        "cites": [15]
       },
       {
         "organization": "Equality California",
         "kind": "organization",
-        "cites": [17]
+        "cites": [16]
       },
       {
         "organization": "California Environmental Voters",
         "kind": "organization",
-        "cites": [18]
+        "cites": [17]
       },
       {
         "organization": "California Federation of Teachers",
         "kind": "union",
-        "cites": [19]
+        "cites": [18]
       },
       {
         "organization": "California Teachers Association",
         "kind": "union",
-        "cites": [20]
+        "cites": [19]
       },
       {
         "organization": "Democrats for Israel – Los Angeles",
         "kind": "organization",
-        "cites": [21]
+        "cites": [20]
       },
-      { "organization": "Knock LA", "kind": "organization", "cites": [22] },
-      { "organization": "LA Forward", "kind": "organization", "cites": [23] },
+      { "organization": "Knock LA", "kind": "organization", "cites": [21] },
+      { "organization": "LA Forward", "kind": "organization", "cites": [22] },
       {
         "organization": "Los Angeles County Federation of Labor",
         "kind": "union",
-        "cites": [24]
+        "cites": [23]
       },
-      { "organization": "SEIU Local 721", "kind": "union", "cites": [25] }
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [24] },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [25]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [26] }
     ]
   },
   "sources": [
@@ -220,22 +226,14 @@
     },
     {
       "id": 8,
-      "title": "ANCA-Western Region Announces 2026 Primary Endorsements",
-      "publisher": "Armenian National Committee of America – Western Region",
-      "url": "https://ancawr.org/press-release/anca-western-region-announces-2026-primary-endorsements-2/",
-      "kind": "endorser",
-      "viewedAt": "2026-10-14"
-    },
-    {
-      "id": 9,
       "title": "Sierra Club Political Endorsements (2026)",
       "publisher": "Sierra Club Angeles Chapter",
       "url": "https://www.sierraclub.org/angeles/endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-14"
+      "viewedAt": "2026-10-17"
     },
     {
-      "id": 10,
+      "id": 9,
       "title": "2026 June Election San Gorgonio Chapter Endorsements",
       "publisher": "Sierra Club San Gorgonio Chapter",
       "url": "https://www.sierraclub.org/san-gorgonio/2026-june-election-san-gorgonio-chapter-endorsements",
@@ -243,7 +241,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "Voter Guide | Planned Parenthood Advocacy Project Los Angeles County",
       "publisher": "Planned Parenthood Advocacy Project Los Angeles County",
       "url": "https://www.plannedparenthoodaction.org/planned-parenthood-advocacy-project-los-angeles-county/voter-guide-ppapx",
@@ -251,7 +249,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 12,
+      "id": 11,
       "title": "2026 Endorsements",
       "publisher": "California State University Employees Union (CSUEU)",
       "url": "https://csueu.org/news?details=2026-endorsements",
@@ -259,7 +257,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 13,
+      "id": 12,
       "title": "CCAH Releases 2026 Voter Guide and Endorsements",
       "publisher": "California Council for Affordable Housing",
       "url": "https://californiacouncil.org/news/ccah-releases-2026-voter-guide-and-endorsements",
@@ -267,7 +265,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 14,
+      "id": 13,
       "title": "Primary Endorsements June 2026",
       "publisher": "YIMBY Los Angeles",
       "url": "https://yimby.la/voter-guide/june-2026/",
@@ -275,7 +273,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 15,
+      "id": 14,
       "title": "Endorsements | High Desert Progress",
       "publisher": "High Desert Progressive Democrats",
       "url": "https://www.hdprogressivedemocrats.org/endorsements",
@@ -283,7 +281,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 16,
+      "id": 15,
       "title": "ACT, Pasadena Arroyo Democratic Club Endorse Pasadena Council Incumbents, Back Becerra for Governor",
       "publisher": "Pasadena Now",
       "url": "https://pasadenanow.com/main/act-pasadena-arroyo-democratic-club-endorse-pasadena-council-incumbents-back-becerra-for-governor",
@@ -291,7 +289,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 17,
+      "id": 16,
       "title": "Equality California Election Center",
       "publisher": "Equality California",
       "url": "https://www.eqca.org/elections/",
@@ -304,7 +302,7 @@
       "url": "https://envirovoters.org/2026-endorsements/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 18
+      "id": 17
     },
     {
       "title": "CFT Endorsements, General Election 2026 (Tuesday, November 3)",
@@ -312,7 +310,7 @@
       "url": "https://www.cft.org/2026-midterm-elections-hub",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 19
+      "id": 18
     },
     {
       "title": "2026 Candidate Recommendations",
@@ -320,7 +318,7 @@
       "url": "https://www.cta.org/our-advocacy/election-2026",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 20
+      "id": 19
     },
     {
       "title": "November 2026 General Election Endorsements",
@@ -328,7 +326,7 @@
       "url": "https://dfi-la.org/endorse",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 21
+      "id": 20
     },
     {
       "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
@@ -336,7 +334,7 @@
       "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 22
+      "id": 21
     },
     {
       "title": "November 2026 LA Progressive Voter Guide",
@@ -344,7 +342,7 @@
       "url": "https://laforwardguide.org/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 23
+      "id": 22
     },
     {
       "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
@@ -352,7 +350,7 @@
       "url": "https://thelafed.org/resource/lalaborvoterguide/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 24
+      "id": 23
     },
     {
       "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
@@ -360,13 +358,37 @@
       "url": "https://seiu721.org/2026election/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
+      "id": 24
+    },
+    {
+      "title": "California Teamsters Endorsements",
+      "publisher": "Teamsters Joint Council 42",
+      "url": "https://www.teamstersjc42.com/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
       "id": 25
+    },
+    {
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 26
+    },
+    {
+      "title": "ANCA Western Region 2026 General Election Endorsements",
+      "publisher": "ANCA Western Region",
+      "url": "https://ancawr.org/elect26/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 27
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.673Z",
-    "version": 4
+    "version": 6
   }
 }

@@ -64,7 +64,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -81,7 +81,7 @@
           { "kind": "party", "amount": 9060.58 },
           { "kind": "other", "amount": 11789.9 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 97074.5, "count": 19 }
+        "largeSince": { "since": "2026-09-19", "total": 114174.5, "count": 23 }
       }
     ]
   },
@@ -313,7 +313,18 @@
         "organization": "United Teachers Los Angeles",
         "kind": "union",
         "cites": [22]
-      }
+      },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [23]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [24]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [25] }
     ]
   },
   "sources": [
@@ -492,12 +503,36 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 22
+    },
+    {
+      "title": "November 2026 Stonewall Democratic Club Endorsements",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 23
+    },
+    {
+      "title": "California Teamsters Endorsements",
+      "publisher": "Teamsters Joint Council 42",
+      "url": "https://www.teamstersjc42.com/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 24
+    },
+    {
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 25
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.815Z",
-    "version": 6
+    "version": 7
   }
 }

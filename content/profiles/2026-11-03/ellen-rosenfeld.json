@@ -55,21 +55,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Ellen for Education",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39858",
-        "period": "April 1 to June 30, 2026",
-        "raised": 77333,
-        "cashOnHand": 81445.35,
+        "period": "July 1 to September 30, 2026",
+        "raised": 7100,
+        "cashOnHand": 78019.55,
         "breakdown": [
-          { "kind": "small", "amount": 2875 },
-          { "kind": "large", "amount": 63458 },
-          { "kind": "transfer", "amount": 11000 }
+          { "kind": "small", "amount": 100 },
+          { "kind": "large", "amount": 2000 },
+          { "kind": "transfer", "amount": 5000 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 8396.32, "count": 4 }
+        "largeSince": { "since": "2026-09-30", "total": 3000, "count": 1 }
       }
     ]
   },
@@ -103,7 +103,12 @@
         "kind": "union",
         "cites": [10]
       },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [11] }
+      { "organization": "Personal PAC", "kind": "organization", "cites": [11] },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [12]
+      }
     ]
   },
   "sources": [
@@ -169,7 +174,7 @@
       "publisher": "Common Ground Collective",
       "url": "https://cgcollective.org/endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 9,
@@ -194,12 +199,20 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 11
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 12
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:44:55.196Z",
-    "version": 4
+    "version": 5
   }
 }

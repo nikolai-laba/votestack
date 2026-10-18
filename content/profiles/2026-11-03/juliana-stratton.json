@@ -71,21 +71,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Juliana for Illinois",
         "url": "https://www.fec.gov/data/committee/C00903252/?cycle=2026",
-        "period": "April 24, 2025 to June 30, 2026",
-        "raised": 5906598.55,
-        "cashOnHand": 1107958.01,
+        "period": "April 24, 2025 to September 30, 2026",
+        "raised": 7089488.11,
+        "cashOnHand": 1645967.22,
         "breakdown": [
-          { "kind": "small", "amount": 1182892.35 },
-          { "kind": "large", "amount": 3677813.2 },
-          { "kind": "pac", "amount": 426633.99 },
-          { "kind": "transfer", "amount": 541000 },
-          { "kind": "other", "amount": 78259.01 }
+          { "kind": "small", "amount": 1331959.95 },
+          { "kind": "large", "amount": 3952273.57 },
+          { "kind": "pac", "amount": 578133.99 },
+          { "kind": "transfer", "amount": 1072500 },
+          { "kind": "other", "amount": 154620.6 }
         ]
       }
     ]
@@ -301,7 +301,29 @@
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
         "cites": [19]
-      }
+      },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [20] },
+      {
+        "organization": "Cook County Democratic Party",
+        "kind": "party",
+        "cites": [21]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [22]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [23]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [24]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [24] }
     ]
   },
   "sources": [
@@ -456,12 +478,52 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 19
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 20
+    },
+    {
+      "title": "2026 Endorsed Candidates Guide (November 2026 sample ballot)",
+      "publisher": "Cook County Democratic Party",
+      "url": "https://www.cookcountydems.com/wp-content/uploads/2026/10/CCDP_1200x1200_BallotPost_093026.pdf",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 21
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 22
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 23
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 24
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T21:01:51.068Z",
-    "version": 4
+    "version": 5
   }
 }

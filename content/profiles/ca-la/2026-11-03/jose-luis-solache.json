@@ -58,7 +58,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -73,7 +73,7 @@
           { "kind": "pac", "amount": 66550 },
           { "kind": "other", "amount": 62200 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 102000, "count": 30 }
+        "largeSince": { "since": "2026-09-19", "total": 109400, "count": 32 }
       }
     ]
   },
@@ -118,7 +118,18 @@
         "kind": "organization",
         "cites": [16]
       },
-      { "organization": "SEIU Local 721", "kind": "union", "cites": [17] }
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [17] },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [18]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [19]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [20] }
     ]
   },
   "sources": [
@@ -257,12 +268,36 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 17
+    },
+    {
+      "title": "November 2026 Stonewall Democratic Club Endorsements",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "California Teamsters Endorsements",
+      "publisher": "Teamsters Joint Council 42",
+      "url": "https://www.teamstersjc42.com/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 20
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.718Z",
-    "version": 4
+    "version": 5
   }
 }

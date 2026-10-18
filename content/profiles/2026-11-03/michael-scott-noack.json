@@ -34,7 +34,11 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-07", "items": [] },
+  "money": {
+    "asOf": "2026-10-17",
+    "items": [],
+    "noCommittee": { "filedWith": "Federal Election Commission" }
+  },
   "endorsements": {
     "asOf": "2026-10-07",
     "items": [
@@ -75,6 +79,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:01:08.616Z",
-    "version": 6
+    "version": 7
   }
 }

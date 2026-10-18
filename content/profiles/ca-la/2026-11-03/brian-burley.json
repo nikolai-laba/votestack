@@ -67,18 +67,18 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Brian Burley for Congress",
         "url": "https://www.fec.gov/data/committee/C00700187/?cycle=2026",
-        "period": "January 1, 2025 to June 30, 2026",
-        "raised": 231370.76,
-        "cashOnHand": 5508.52,
+        "period": "January 1, 2025 to September 30, 2026",
+        "raised": 249676.54,
+        "cashOnHand": 5298.76,
         "breakdown": [
-          { "kind": "small", "amount": 22655.6 },
-          { "kind": "large", "amount": 22201.26 },
+          { "kind": "small", "amount": 28369.38 },
+          { "kind": "large", "amount": 34793.26 },
           { "kind": "candidate", "amount": 186000 },
           { "kind": "other", "amount": 513.9 }
         ],
@@ -207,6 +207,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.839Z",
-    "version": 4
+    "version": 5
   }
 }

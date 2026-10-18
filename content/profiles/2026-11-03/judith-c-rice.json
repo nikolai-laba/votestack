@@ -40,15 +40,15 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Citizens for Judge Judith C. Rice",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40812",
-        "period": "April 1 to June 30, 2026",
+        "period": "July 1 to September 30, 2026",
         "raised": 0,
-        "cashOnHand": 530.26,
+        "cashOnHand": 476.26,
         "breakdown": []
       }
     ]
@@ -71,6 +71,11 @@
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
         "cites": [10]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [11]
       },
       {
         "organization": "Chicago Bar Association",
@@ -231,12 +236,20 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 10
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 11
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:39:38.183Z",
-    "version": 4
+    "version": 6
   }
 }

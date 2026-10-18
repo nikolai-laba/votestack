@@ -53,19 +53,17 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Aaron Ortiz",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=34288",
-        "period": "April 1 to June 30, 2026",
-        "raised": 10500,
-        "cashOnHand": 159230.64,
-        "breakdown": [
-          { "kind": "large", "amount": 500 },
-          { "kind": "transfer", "amount": 10000 }
-        ]
+        "period": "July 1 to September 30, 2026",
+        "raised": 0,
+        "cashOnHand": 116230.81,
+        "breakdown": [],
+        "largeSince": { "since": "2026-09-30", "total": 2000, "count": 2 }
       }
     ]
   },
@@ -170,7 +168,18 @@
         "cites": [4]
       },
       { "organization": "14th Ward Democrats", "kind": "party", "cites": [4] },
-      { "organization": "22nd Ward IPO", "kind": "organization", "cites": [4] }
+      { "organization": "22nd Ward IPO", "kind": "organization", "cites": [4] },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [9]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [10] }
     ]
   },
   "sources": [
@@ -229,12 +238,36 @@
       "url": "https://www.ccctu.org/post/early-endorsements-for-the-march-17-2026-primary-election",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Planned Parenthood Illinois Action (press release, published by Windy City Times)",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 8
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 10
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:43:33.971Z",
-    "version": 5
+    "version": 6
   }
 }

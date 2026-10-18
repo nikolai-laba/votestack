@@ -43,21 +43,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Ted Mason",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=25562",
-        "period": "April 1 to June 30, 2026",
-        "raised": 26385,
-        "cashOnHand": 76653.19,
+        "period": "July 1 to September 30, 2026",
+        "raised": 49472,
+        "cashOnHand": 89946.54,
         "breakdown": [
-          { "kind": "small", "amount": 2935 },
-          { "kind": "large", "amount": 18950 },
-          { "kind": "transfer", "amount": 4500 }
+          { "kind": "small", "amount": 2913 },
+          { "kind": "large", "amount": 8250 },
+          { "kind": "transfer", "amount": 38301 },
+          { "kind": "other", "amount": 8 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 90501, "count": 19 }
+        "largeSince": { "since": "2026-09-30", "total": 20000, "count": 1 }
       }
     ]
   },
@@ -221,7 +222,24 @@
         "kind": "union",
         "cites": [13]
       },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [14] }
+      { "organization": "Personal PAC", "kind": "organization", "cites": [14] },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [15] },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [16]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [17]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [18]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [18] }
     ]
   },
   "sources": [
@@ -336,12 +354,44 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 14
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:17:24.446Z",
-    "version": 4
+    "version": 5
   }
 }

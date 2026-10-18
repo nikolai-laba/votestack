@@ -58,21 +58,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Citizens for Darby Hills",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40496",
-        "period": "April 1 to June 30, 2026",
-        "raised": 322576.21,
-        "cashOnHand": 641141.77,
+        "period": "July 1 to September 30, 2026",
+        "raised": 450979.85,
+        "cashOnHand": 418507.14,
         "breakdown": [
-          { "kind": "small", "amount": 415 },
-          { "kind": "large", "amount": 318161.21 },
-          { "kind": "transfer", "amount": 4000 }
+          { "kind": "small", "amount": 1652.37 },
+          { "kind": "large", "amount": 126227.48 },
+          { "kind": "transfer", "amount": 323100 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 576289.15, "count": 80 }
+        "largeSince": { "since": "2026-09-30", "total": 46739.23, "count": 5 }
       }
     ]
   },
@@ -88,6 +88,11 @@
         "organization": "NFIB Illinois PAC",
         "kind": "organization",
         "cites": [8]
+      },
+      {
+        "organization": "Chicago Tribune Editorial Board",
+        "kind": "editorial_board",
+        "cites": [9]
       }
     ]
   },
@@ -155,12 +160,20 @@
       "url": "https://www.nfib.com/news/news/nfib-illinois-pac-announces-2026-legislative-endorsements/",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Tribune Editorial Board endorsements for the 2026 Illinois general election",
+      "publisher": "Chicago Tribune (syndicated on Yahoo News, Oct. 11, 2026)",
+      "url": "https://www.yahoo.com/news/politics/articles/tribune-editorial-board-endorsements-2026-111600003.html",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 9
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:51:56.731Z",
-    "version": 3
+    "version": 4
   }
 }

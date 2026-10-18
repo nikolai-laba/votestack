@@ -48,7 +48,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [],
     "filingsAt": {
       "name": "City of Inglewood",
@@ -59,7 +59,8 @@
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
-      { "organization": "LA Forward", "kind": "organization", "cites": [5] }
+      { "organization": "LA Forward", "kind": "organization", "cites": [5] },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [6] }
     ]
   },
   "sources": [
@@ -102,12 +103,20 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 5
+    },
+    {
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 6
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.431Z",
-    "version": 2
+    "version": 3
   }
 }

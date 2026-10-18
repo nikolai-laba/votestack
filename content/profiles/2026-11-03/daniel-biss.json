@@ -82,21 +82,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Biss for Congress",
         "url": "https://www.fec.gov/data/committee/C00905307/?cycle=2026",
-        "period": "April 1, 2025 to June 30, 2026",
-        "raised": 2946674.84,
-        "cashOnHand": 262129.88,
+        "period": "April 1, 2025 to September 30, 2026",
+        "raised": 3380216.72,
+        "cashOnHand": 568445.98,
         "breakdown": [
-          { "kind": "small", "amount": 147063.63 },
-          { "kind": "large", "amount": 2586704.78 },
-          { "kind": "pac", "amount": 205683.59 },
+          { "kind": "small", "amount": 159550.37 },
+          { "kind": "large", "amount": 2919444.92 },
+          { "kind": "pac", "amount": 293621.09 },
           { "kind": "candidate", "amount": 3205 },
-          { "kind": "other", "amount": 4017.84 }
+          { "kind": "other", "amount": 4395.34 }
         ],
         "fromCandidate": 3205
       }
@@ -232,7 +232,11 @@
         "kind": "union",
         "cites": [15]
       },
-      { "organization": "SEIU State Council", "kind": "union", "cites": [8] },
+      {
+        "organization": "SEIU State Council",
+        "kind": "union",
+        "cites": [8, 22]
+      },
       { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [8] },
       {
         "organization": "Illinois Federation of Teachers",
@@ -268,7 +272,24 @@
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
         "cites": [17]
-      }
+      },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [18] },
+      {
+        "organization": "Daily Herald Editorial Board",
+        "kind": "editorial_board",
+        "cites": [19]
+      },
+      {
+        "organization": "Independent Voters of Illinois-Independent Precinct Organization (IVI-IPO)",
+        "kind": "organization",
+        "cites": [20]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [21]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [22] }
     ]
   },
   "sources": [
@@ -407,12 +428,52 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 17
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "Daily Herald endorsements, Nov. 3, 2026 general election (published Oct. 13-16, 2026)",
+      "publisher": "Daily Herald (Arlington Heights)",
+      "url": "https://www.dailyherald.com/opinion/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "General Election Endorsements!",
+      "publisher": "IVI-IPO",
+      "url": "https://www.iviipo.org/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 20
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 21
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 22
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:37:45.353Z",
-    "version": 5
+    "version": 7
   }
 }

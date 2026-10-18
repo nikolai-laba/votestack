@@ -58,7 +58,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -73,7 +73,7 @@
           { "kind": "pac", "amount": 48200 },
           { "kind": "other", "amount": 69400 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 150805.11, "count": 45 }
+        "largeSince": { "since": "2026-09-19", "total": 161805.11, "count": 51 }
       }
     ]
   },
@@ -93,78 +93,89 @@
       {
         "organization": "California Federation of Teachers",
         "kind": "union",
-        "cites": [9]
+        "cites": [26]
       },
       {
         "organization": "National Union of Healthcare Workers",
         "kind": "union",
-        "cites": [10]
+        "cites": [9]
       },
-      { "organization": "SEIU Local 1000", "kind": "union", "cites": [11] },
+      { "organization": "SEIU Local 1000", "kind": "union", "cites": [10] },
       {
         "organization": "California Association of Highway Patrolmen",
         "kind": "union",
-        "cites": [12]
+        "cites": [11]
       },
-      { "organization": "Cal Fire Local 2881", "kind": "union", "cites": [12] },
+      { "organization": "Cal Fire Local 2881", "kind": "union", "cites": [11] },
       {
         "organization": "Professional Engineers in California Government",
         "kind": "union",
-        "cites": [12]
+        "cites": [11]
       },
-      { "organization": "Sierra Club", "kind": "organization", "cites": [12] },
+      { "organization": "Sierra Club", "kind": "organization", "cites": [11] },
       {
         "organization": "California YIMBY",
         "kind": "organization",
-        "cites": [13]
+        "cites": [12]
       },
       {
         "organization": "California Council for Affordable Housing",
         "kind": "organization",
-        "cites": [14]
+        "cites": [13]
       },
       {
         "organization": "California State Retirees",
         "kind": "organization",
-        "cites": [15]
+        "cites": [14]
       },
       {
         "organization": "Planned Parenthood Advocacy Project Los Angeles County Action Fund",
         "kind": "organization",
-        "cites": [16]
+        "cites": [15]
       },
       {
         "organization": "Stonewall Young Democrats",
         "kind": "party",
-        "cites": [12]
+        "cites": [11]
       },
       {
         "organization": "High Desert Progressive Democrats",
         "kind": "organization",
-        "cites": [17]
+        "cites": [16]
       },
       {
         "organization": "Equality California",
         "kind": "organization",
-        "cites": [18]
+        "cites": [17]
       },
       {
         "organization": "California Teachers Association",
         "kind": "union",
-        "cites": [19]
+        "cites": [18]
       },
       {
         "organization": "Democrats for Israel – Los Angeles",
         "kind": "organization",
-        "cites": [20]
+        "cites": [19]
       },
-      { "organization": "LA Forward", "kind": "organization", "cites": [21] },
+      { "organization": "LA Forward", "kind": "organization", "cites": [20] },
       {
         "organization": "Los Angeles County Federation of Labor",
         "kind": "union",
-        "cites": [22]
+        "cites": [21]
       },
-      { "organization": "SEIU Local 721", "kind": "union", "cites": [23] }
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [22] },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [23]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [24]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [25] }
     ]
   },
   "sources": [
@@ -234,14 +245,6 @@
     },
     {
       "id": 9,
-      "title": "General Election 2026 • Tuesday, November 3",
-      "publisher": "California Federation of Teachers COPE",
-      "url": "https://utla.net/app/uploads/2026/08/cft_endorsements-primary-election_4.27.2026_1.pdf",
-      "kind": "endorser",
-      "viewedAt": "2026-10-14"
-    },
-    {
-      "id": 10,
       "title": "Political Action – NUHW",
       "publisher": "National Union of Healthcare Workers",
       "url": "https://home.nuhw.org/political-action/",
@@ -249,7 +252,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "2026 Elections - SEIU Local 1000",
       "publisher": "SEIU Local 1000",
       "url": "https://www.seiu1000.org/2026elections/",
@@ -257,7 +260,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 12,
+      "id": 11,
       "title": "Endorsements - Juan Carrillo for State Assembly",
       "publisher": "Juan Carrillo for Assembly 2026",
       "url": "https://votejuancarrillo.com/endorsements/",
@@ -265,7 +268,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 13,
+      "id": 12,
       "title": "Endorsements - California YIMBY",
       "publisher": "California YIMBY",
       "url": "https://cayimby.org/endorsements/",
@@ -273,7 +276,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 14,
+      "id": 13,
       "title": "2026 Voter Guide - California Council for Affordable Housing",
       "publisher": "California Council for Affordable Housing",
       "url": "https://californiacouncil.org/2026-voters-guide",
@@ -281,7 +284,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 15,
+      "id": 14,
       "title": "The June Primary Is Two Weeks Away—CSR Endorses These Candidates",
       "publisher": "California State Retirees",
       "url": "https://calretirees.org/Member-Resources/News/the-june-primary-is-two-weeks-awaycsr-endorses-these-candidates",
@@ -289,7 +292,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 16,
+      "id": 15,
       "title": "Voter Guide | Planned Parenthood Advocacy Project Los Angeles County",
       "publisher": "Planned Parenthood Advocacy Project Los Angeles County Action Fund",
       "url": "https://www.plannedparenthoodaction.org/planned-parenthood-advocacy-project-los-angeles-county/voter-guide-ppapx",
@@ -297,7 +300,7 @@
       "viewedAt": "2026-10-15"
     },
     {
-      "id": 17,
+      "id": 16,
       "title": "Endorsements | High Desert Progress",
       "publisher": "High Desert Progressive Democrats",
       "url": "https://www.hdprogressivedemocrats.org/endorsements",
@@ -305,7 +308,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 18,
+      "id": 17,
       "title": "Equality California Election Center",
       "publisher": "Equality California",
       "url": "https://www.eqca.org/elections/",
@@ -318,7 +321,7 @@
       "url": "https://www.cta.org/our-advocacy/election-2026",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 19
+      "id": 18
     },
     {
       "title": "November 2026 General Election Endorsements",
@@ -326,7 +329,7 @@
       "url": "https://dfi-la.org/endorse",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 20
+      "id": 19
     },
     {
       "title": "November 2026 LA Progressive Voter Guide",
@@ -334,7 +337,7 @@
       "url": "https://laforwardguide.org/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 21
+      "id": 20
     },
     {
       "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
@@ -342,7 +345,7 @@
       "url": "https://thelafed.org/resource/lalaborvoterguide/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 22
+      "id": 21
     },
     {
       "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
@@ -350,13 +353,45 @@
       "url": "https://seiu721.org/2026election/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
+      "id": 22
+    },
+    {
+      "title": "Sierra Club Political Endorsements (2026)",
+      "publisher": "Sierra Club Angeles Chapter Political Committee",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
       "id": 23
+    },
+    {
+      "title": "California Teamsters Endorsements",
+      "publisher": "Teamsters Joint Council 42",
+      "url": "https://www.teamstersjc42.com/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 24
+    },
+    {
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 25
+    },
+    {
+      "title": "CFT Endorsements, General Election 2026 (Tuesday, November 3)",
+      "publisher": "California Federation of Teachers",
+      "url": "https://www.cft.org/2026-midterm-elections-hub",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 26
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.665Z",
-    "version": 4
+    "version": 6
   }
 }

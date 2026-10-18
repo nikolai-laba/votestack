@@ -35,7 +35,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -49,7 +49,7 @@
           { "kind": "large", "amount": 499 },
           { "kind": "pac", "amount": 500 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 133125, "count": 9 }
+        "largeSince": { "since": "2026-09-19", "total": 159988, "count": 10 }
       }
     ]
   },
@@ -249,7 +249,7 @@
       "publisher": "UNITE HERE Local 11",
       "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
       "kind": "endorser",
-      "viewedAt": "2026-10-14"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 6,
@@ -257,7 +257,7 @@
       "publisher": "Stonewall Democratic Club",
       "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
       "kind": "endorser",
-      "viewedAt": "2026-10-14"
+      "viewedAt": "2026-10-17"
     },
     {
       "title": "November 2026 LA Progressive Voter Guide",
@@ -272,6 +272,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:36.937Z",
-    "version": 4
+    "version": 5
   }
 }

@@ -65,20 +65,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Hilda Solis for Congress",
         "url": "https://www.fec.gov/data/committee/C00917542/?cycle=2026",
-        "period": "July 1, 2025 to June 30, 2026",
-        "raised": 1049534.17,
-        "cashOnHand": 154502.78,
+        "period": "July 1, 2025 to September 30, 2026",
+        "raised": 1417048.13,
+        "cashOnHand": 288831.53,
         "breakdown": [
-          { "kind": "small", "amount": 22179.99 },
-          { "kind": "large", "amount": 836105.18 },
-          { "kind": "pac", "amount": 124249 },
-          { "kind": "other", "amount": 67000 }
+          { "kind": "small", "amount": 46079.44 },
+          { "kind": "large", "amount": 1121377.76 },
+          { "kind": "pac", "amount": 175749 },
+          { "kind": "other", "amount": 73841.93 }
         ]
       }
     ]
@@ -294,7 +294,22 @@
         "cites": [22]
       },
       { "organization": "Knock LA", "kind": "organization", "cites": [23] },
-      { "organization": "SEIU Local 721", "kind": "union", "cites": [24] }
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [24] },
+      {
+        "organization": "Armenian National Committee of America, Western Region",
+        "kind": "organization",
+        "cites": [25]
+      },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [26]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [27]
+      }
     ]
   },
   "sources": [
@@ -456,7 +471,7 @@
       "publisher": "Sierra Club Angeles Chapter",
       "url": "https://www.sierraclub.org/angeles/endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-14"
+      "viewedAt": "2026-10-17"
     },
     {
       "title": "2026 Candidate Recommendations",
@@ -489,12 +504,36 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 24
+    },
+    {
+      "title": "ANCA Western Region 2026 General Election Endorsements",
+      "publisher": "ANCA Western Region",
+      "url": "https://ancawr.org/elect26/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 25
+    },
+    {
+      "title": "November 2026 Stonewall Democratic Club Endorsements",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 26
+    },
+    {
+      "title": "California Teamsters Endorsements",
+      "publisher": "Teamsters Joint Council 42",
+      "url": "https://www.teamstersjc42.com/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 27
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.829Z",
-    "version": 4
+    "version": 5
   }
 }

@@ -47,7 +47,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -63,7 +63,7 @@
           { "kind": "pac", "amount": 258998.08 },
           { "kind": "other", "amount": 30227.46 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 347358.76, "count": 72 }
+        "largeSince": { "since": "2026-09-19", "total": 365332.13, "count": 78 }
       }
     ]
   },
@@ -146,7 +146,18 @@
         "kind": "union",
         "cites": [20]
       },
-      { "organization": "SEIU Local 721", "kind": "union", "cites": [21] }
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [21] },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [22]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [23]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [24] }
     ]
   },
   "sources": [
@@ -196,7 +207,7 @@
       "publisher": "Sierra Club Angeles Chapter",
       "url": "https://www.sierraclub.org/angeles/endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-14"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 7,
@@ -317,12 +328,36 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 21
+    },
+    {
+      "title": "November 2026 Stonewall Democratic Club Endorsements",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 22
+    },
+    {
+      "title": "California Teamsters Endorsements",
+      "publisher": "Teamsters Joint Council 42",
+      "url": "https://www.teamstersjc42.com/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 23
+    },
+    {
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 24
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.675Z",
-    "version": 4
+    "version": 5
   }
 }

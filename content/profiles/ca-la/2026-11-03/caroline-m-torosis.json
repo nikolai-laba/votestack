@@ -53,7 +53,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -259,7 +259,18 @@
         "organization": "Los Angeles County Federation of Labor",
         "kind": "union",
         "cites": [17]
-      }
+      },
+      {
+        "organization": "Santa Monicans for Renters' Rights",
+        "kind": "organization",
+        "cites": [18]
+      },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [19]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [20] }
     ]
   },
   "sources": [
@@ -398,12 +409,36 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 17
+    },
+    {
+      "title": "SMRR Supported Candidates and Measures for the November 3, 2026 Election in Santa Monica",
+      "publisher": "Santa Monicans for Renters' Rights",
+      "url": "https://www.smrr.org/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "Sierra Club Political Endorsements (2026)",
+      "publisher": "Sierra Club Angeles Chapter Political Committee",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 20
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.908Z",
-    "version": 4
+    "version": 5
   }
 }

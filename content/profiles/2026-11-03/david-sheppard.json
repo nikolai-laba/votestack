@@ -49,7 +49,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
@@ -69,6 +69,11 @@
         "organization": "Illinois Family Action",
         "kind": "organization",
         "cites": [5]
+      },
+      {
+        "organization": "Chicago Tribune Editorial Board",
+        "kind": "editorial_board",
+        "cites": [6]
       }
     ]
   },
@@ -112,12 +117,20 @@
       "url": "https://illinoisfamilyaction.org/2026/09/ifas-2026-general-election-endorsements-2/",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Tribune Editorial Board endorsements for the 2026 Illinois general election",
+      "publisher": "Chicago Tribune (syndicated on Yahoo News, Oct. 11, 2026)",
+      "url": "https://www.yahoo.com/news/politics/articles/tribune-editorial-board-endorsements-2026-111600003.html",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 6
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:05:47.382Z",
-    "version": 4
+    "version": 5
   }
 }

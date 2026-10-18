@@ -54,7 +54,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -71,7 +71,7 @@
           { "kind": "party", "amount": 142779.14 },
           { "kind": "other", "amount": 12000 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 406646.37, "count": 62 }
+        "largeSince": { "since": "2026-09-19", "total": 465280.09, "count": 73 }
       }
     ]
   },
@@ -114,7 +114,7 @@
       {
         "organization": "California Federation of Teachers",
         "kind": "union",
-        "cites": [10]
+        "cites": [30]
       },
       {
         "organization": "California Professional Firefighters",
@@ -127,11 +127,11 @@
         "cites": [8]
       },
       { "organization": "SEIU California", "kind": "union", "cites": [8] },
-      { "organization": "SEIU Local 1000", "kind": "union", "cites": [11] },
+      { "organization": "SEIU Local 1000", "kind": "union", "cites": [10] },
       {
         "organization": "National Union of Healthcare Workers",
         "kind": "union",
-        "cites": [12]
+        "cites": [11]
       },
       { "organization": "AFSCME California", "kind": "union", "cites": [8] },
       {
@@ -153,17 +153,17 @@
       {
         "organization": "Everytown for Gun Safety Action Fund",
         "kind": "organization",
-        "cites": [13]
+        "cites": [12]
       },
       {
         "organization": "California Environmental Justice Alliance Action",
         "kind": "organization",
-        "cites": [14]
+        "cites": [13]
       },
       {
         "organization": "California YIMBY",
         "kind": "organization",
-        "cites": [15]
+        "cites": [14]
       },
       { "organization": "Sierra Club", "kind": "organization", "cites": [8] },
       {
@@ -184,7 +184,7 @@
       {
         "organization": "California State Retirees",
         "kind": "organization",
-        "cites": [16]
+        "cites": [15]
       },
       {
         "organization": "CHIRLA Action Fund",
@@ -199,7 +199,7 @@
       {
         "organization": "Planned Parenthood Advocacy Project Los Angeles County Action Fund",
         "kind": "organization",
-        "cites": [17]
+        "cites": [16]
       },
       {
         "organization": "Los Angeles Police Protective League",
@@ -232,17 +232,17 @@
       {
         "organization": "YIMBY Los Angeles",
         "kind": "organization",
-        "cites": [18]
+        "cites": [17]
       },
       {
         "organization": "Santa Clarita Valley Chamber of Commerce",
         "kind": "organization",
-        "cites": [19]
+        "cites": [18]
       },
       {
         "organization": "Santa Clarita Valley Democrats",
         "kind": "party",
-        "cites": [20]
+        "cites": [19]
       },
       {
         "organization": "California Women's List",
@@ -252,26 +252,37 @@
       {
         "organization": "California Environmental Voters",
         "kind": "organization",
-        "cites": [21]
+        "cites": [20]
       },
       {
         "organization": "California Teachers Association",
         "kind": "union",
-        "cites": [22]
+        "cites": [21]
       },
       {
         "organization": "Democrats for Israel – Los Angeles",
         "kind": "organization",
-        "cites": [23]
+        "cites": [22]
       },
-      { "organization": "Knock LA", "kind": "organization", "cites": [24] },
-      { "organization": "LA Forward", "kind": "organization", "cites": [25] },
+      { "organization": "Knock LA", "kind": "organization", "cites": [23] },
+      { "organization": "LA Forward", "kind": "organization", "cites": [24] },
       {
         "organization": "Los Angeles County Federation of Labor",
         "kind": "union",
-        "cites": [26]
+        "cites": [25]
       },
-      { "organization": "SEIU Local 721", "kind": "union", "cites": [27] }
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [26] },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [27]
+      },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [28]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [29] }
     ]
   },
   "sources": [
@@ -349,14 +360,6 @@
     },
     {
       "id": 10,
-      "title": "General Election 2026 • Tuesday, November 3",
-      "publisher": "California Federation of Teachers COPE",
-      "url": "https://utla.net/app/uploads/2026/08/cft_endorsements-primary-election_4.27.2026_1.pdf",
-      "kind": "endorser",
-      "viewedAt": "2026-10-14"
-    },
-    {
-      "id": 11,
       "title": "2026 Elections - SEIU Local 1000",
       "publisher": "SEIU Local 1000",
       "url": "https://www.seiu1000.org/2026elections/",
@@ -364,7 +367,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 12,
+      "id": 11,
       "title": "Political Action – NUHW",
       "publisher": "National Union of Healthcare Workers",
       "url": "https://home.nuhw.org/political-action/",
@@ -372,7 +375,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 13,
+      "id": 12,
       "title": "Everytown for Gun Safety Action Fund Announces New Round of Moms Demand Action Volunteer Endorsements, Backing 66 Candidates Across 20 States",
       "publisher": "Everytown for Gun Safety Action Fund",
       "url": "https://www.everytown.org/press/everytown-for-gun-safety-action-fund-announces-new-round-of-moms-demand-action-volunteer-endorsements-backing-66-candidates-across-20-states/",
@@ -380,7 +383,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 14,
+      "id": 13,
       "title": "2026 California General Election Environmental Justice Candidates",
       "publisher": "California Environmental Justice Alliance Action",
       "url": "https://ceja-action.org/2026/09/17/2026-california-general-election-environmental-justice-candidates/",
@@ -388,7 +391,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 15,
+      "id": 14,
       "title": "Endorsements - California YIMBY",
       "publisher": "California YIMBY",
       "url": "https://cayimby.org/endorsements/",
@@ -396,7 +399,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 16,
+      "id": 15,
       "title": "The June Primary Is Two Weeks Away—CSR Endorses These Candidates",
       "publisher": "California State Retirees",
       "url": "https://calretirees.org/Member-Resources/News/the-june-primary-is-two-weeks-awaycsr-endorses-these-candidates",
@@ -404,7 +407,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 17,
+      "id": 16,
       "title": "Voter Guide | Planned Parenthood Advocacy Project Los Angeles County",
       "publisher": "Planned Parenthood Advocacy Project Los Angeles County Action Fund",
       "url": "https://www.plannedparenthoodaction.org/planned-parenthood-advocacy-project-los-angeles-county/voter-guide-ppapx",
@@ -412,7 +415,7 @@
       "viewedAt": "2026-10-15"
     },
     {
-      "id": 18,
+      "id": 17,
       "title": "November General Election Endorsements",
       "publisher": "YIMBY Los Angeles",
       "url": "https://yimby.la/voter-guide/november-general-election-endorsements/",
@@ -420,7 +423,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 19,
+      "id": 18,
       "title": "SCV Chamber Announces Candidate Endorsements for November 2026 Election",
       "publisher": "Santa Clarita Valley Chamber of Commerce",
       "url": "https://www.scvchamber.com/articles/scv-chamber-announces-candidate-endorsements-for-november-2026-election-1",
@@ -428,7 +431,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 20,
+      "id": 19,
       "title": "November 2026 Candidate Endorsements | Santa Clarita Valley Democrats",
       "publisher": "Santa Clarita Valley Democrats",
       "url": "https://www.santaclaritavalleydemocrats.com/endorsements",
@@ -441,7 +444,7 @@
       "url": "https://envirovoters.org/2026-endorsements/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 21
+      "id": 20
     },
     {
       "title": "2026 Candidate Recommendations",
@@ -449,7 +452,7 @@
       "url": "https://www.cta.org/our-advocacy/election-2026",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 22
+      "id": 21
     },
     {
       "title": "November 2026 General Election Endorsements",
@@ -457,7 +460,7 @@
       "url": "https://dfi-la.org/endorse",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 23
+      "id": 22
     },
     {
       "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
@@ -465,7 +468,7 @@
       "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 24
+      "id": 23
     },
     {
       "title": "November 2026 LA Progressive Voter Guide",
@@ -473,7 +476,7 @@
       "url": "https://laforwardguide.org/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 25
+      "id": 24
     },
     {
       "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
@@ -481,7 +484,7 @@
       "url": "https://thelafed.org/resource/lalaborvoterguide/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 26
+      "id": 25
     },
     {
       "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
@@ -489,13 +492,45 @@
       "url": "https://seiu721.org/2026election/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
+      "id": 26
+    },
+    {
+      "title": "Sierra Club Political Endorsements (2026)",
+      "publisher": "Sierra Club Angeles Chapter Political Committee",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
       "id": 27
+    },
+    {
+      "title": "November 2026 Stonewall Democratic Club Endorsements",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 28
+    },
+    {
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 29
+    },
+    {
+      "title": "CFT Endorsements, General Election 2026 (Tuesday, November 3)",
+      "publisher": "California Federation of Teachers",
+      "url": "https://www.cft.org/2026-midterm-elections-hub",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 30
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.667Z",
-    "version": 4
+    "version": 6
   }
 }

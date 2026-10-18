@@ -46,17 +46,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Michelle N Pierre",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39783",
-        "period": "April 1 to June 30, 2026",
-        "raised": 0,
-        "cashOnHand": 1427.23,
-        "breakdown": [],
-        "largeSince": { "since": "2026-06-30", "total": 52839.9, "count": 18 }
+        "period": "July 1 to September 30, 2026",
+        "raised": 56926.7,
+        "cashOnHand": 40733.53,
+        "breakdown": [
+          { "kind": "small", "amount": 2776.7 },
+          { "kind": "large", "amount": 44150 },
+          { "kind": "transfer", "amount": 10000 }
+        ],
+        "largeSince": { "since": "2026-09-30", "total": 5000, "count": 1 }
       }
     ]
   },
@@ -73,6 +77,16 @@
         "organization": "Common Ground Collective",
         "kind": "organization",
         "cites": [5]
+      },
+      {
+        "organization": "Fraternal Order of Police Lodge 7",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Illinois Policy PAC",
+        "kind": "organization",
+        "cites": [8]
       }
     ]
   },
@@ -124,12 +138,28 @@
       "url": "https://personalpac.org/elections/",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Chicago Fraternal Order of Police Lodge 7 Endorsed Candidates, 2026 General Election",
+      "publisher": "Chicago Fraternal Order of Police Lodge 7",
+      "url": "https://www.chicagofop.org/latest-news/2026-endorsed-candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 7
+    },
+    {
+      "title": "Who is running for Chicago school board in 2026? (table: \"Illinois Policy PAC endorsed\")",
+      "publisher": "Illinois Policy / Illinois Policy PAC",
+      "url": "https://www.illinoispolicy.org/chicago-school-board-election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 8
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:41:37.314Z",
-    "version": 2
+    "version": 3
   }
 }

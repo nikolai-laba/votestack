@@ -41,20 +41,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Linda for Illinois",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41041",
-        "period": "April 1 to June 30, 2026",
-        "raised": 4392.01,
-        "cashOnHand": 4300.31,
-        "breakdown": [
-          { "kind": "small", "amount": 1531.76 },
-          { "kind": "large", "amount": 2610.25 },
-          { "kind": "transfer", "amount": 250 }
-        ]
+        "period": "July 1 to September 30, 2026",
+        "raised": 290,
+        "cashOnHand": 4490.31,
+        "breakdown": [{ "kind": "small", "amount": 290 }]
       }
     ]
   },
@@ -103,6 +99,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:50:17.613Z",
-    "version": 2
+    "version": 3
   }
 }

@@ -21,17 +21,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Citizens for Marcus C Evans Jr",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=24362",
-        "period": "April 1 to June 30, 2026",
-        "raised": 0,
-        "cashOnHand": 882040.79,
-        "breakdown": [],
-        "largeSince": { "since": "2026-06-30", "total": 451320.27, "count": 77 }
+        "period": "July 1 to September 30, 2026",
+        "raised": 466925.25,
+        "cashOnHand": 923947.38,
+        "breakdown": [
+          { "kind": "small", "amount": 100 },
+          { "kind": "large", "amount": 101625.25 },
+          { "kind": "transfer", "amount": 365200 }
+        ]
       }
     ]
   },
@@ -49,7 +52,28 @@
         "kind": "union",
         "cites": [5]
       },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [6] }
+      { "organization": "Personal PAC", "kind": "organization", "cites": [6] },
+      {
+        "organization": "Fraternal Order of Police Lodge 7",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [10]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [10] }
     ]
   },
   "sources": [
@@ -100,12 +124,44 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 6
+    },
+    {
+      "title": "Chicago Fraternal Order of Police Lodge 7 Endorsed Candidates, 2026 General Election",
+      "publisher": "Chicago Fraternal Order of Police Lodge 7",
+      "url": "https://www.chicagofop.org/latest-news/2026-endorsed-candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 7
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 8
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 10
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:45:21.800Z",
-    "version": 6
+    "version": 7
   }
 }

@@ -48,7 +48,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -129,7 +129,12 @@
         "kind": "organization",
         "cites": [4]
       },
-      { "organization": "Knock LA", "kind": "organization", "cites": [10] }
+      { "organization": "Knock LA", "kind": "organization", "cites": [10] },
+      {
+        "organization": "Los Angeles League of Conservation Voters",
+        "kind": "organization",
+        "cites": [11]
+      }
     ]
   },
   "sources": [
@@ -212,12 +217,20 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 10
+    },
+    {
+      "title": "Current Endorsements: Endorsements in the Year 2026",
+      "publisher": "Los Angeles League of Conservation Voters (LALCV)",
+      "url": "https://lalcv.org/current-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 11
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.323Z",
-    "version": 2
+    "version": 3
   }
 }

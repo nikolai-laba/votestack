@@ -54,22 +54,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Martin McLaughlin For State Representative",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=35707",
-        "period": "April 1 to June 30, 2026",
-        "raised": 33663.86,
-        "cashOnHand": 193212.61,
+        "period": "July 1 to September 30, 2026",
+        "raised": 65419.52,
+        "cashOnHand": 229704.36,
         "breakdown": [
-          { "kind": "small", "amount": 775 },
-          { "kind": "large", "amount": 26275 },
-          { "kind": "transfer", "amount": 6518.86 },
-          { "kind": "other", "amount": 95 }
+          { "kind": "small", "amount": 2346.67 },
+          { "kind": "large", "amount": 30775 },
+          { "kind": "transfer", "amount": 32297.85 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 310236.04, "count": 31 }
+        "largeSince": { "since": "2026-09-30", "total": 162182.32, "count": 7 }
       }
     ]
   },
@@ -80,6 +79,16 @@
         "organization": "National Federation of Independent Business Illinois PAC",
         "kind": "organization",
         "cites": [6]
+      },
+      {
+        "organization": "Daily Herald Editorial Board",
+        "kind": "editorial_board",
+        "cites": [7]
+      },
+      {
+        "organization": "Illinois Family Action",
+        "kind": "organization",
+        "cites": [8]
       }
     ]
   },
@@ -131,12 +140,28 @@
       "url": "https://www.nfib.com/content/press-release/elections/nfib-illinois-pac-announces-2026-legislative-endorsements/",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Daily Herald endorsements, Nov. 3, 2026 general election (published Oct. 13-16, 2026)",
+      "publisher": "Daily Herald (Arlington Heights)",
+      "url": "https://www.dailyherald.com/opinion/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 7
+    },
+    {
+      "title": "2026 General Election Endorsements",
+      "publisher": "Illinois Family Action (IFA-PAC)",
+      "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 8
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:47:07.034Z",
-    "version": 7
+    "version": 8
   }
 }

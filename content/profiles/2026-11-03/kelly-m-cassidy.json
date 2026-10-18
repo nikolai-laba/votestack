@@ -39,7 +39,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
@@ -77,6 +77,21 @@
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
         "cites": [13]
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [14]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [15]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [8]
       }
     ]
   },
@@ -135,7 +150,7 @@
       "publisher": "SEIU Healthcare",
       "url": "https://seiuhcilin.org/resources/election-information/",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 8,
@@ -143,7 +158,7 @@
       "publisher": "SEIU Local 73",
       "url": "https://seiu73.org/election-2026/",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 9,
@@ -151,7 +166,7 @@
       "publisher": "Windy City Times",
       "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
       "kind": "news",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 10,
@@ -184,12 +199,28 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 13
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:54:48.585Z",
-    "version": 6
+    "version": 8
   }
 }

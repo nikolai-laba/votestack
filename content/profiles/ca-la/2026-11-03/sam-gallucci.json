@@ -53,21 +53,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Gallucci for Congress 2026",
         "url": "https://www.fec.gov/data/committee/C00900613/?cycle=2026",
-        "period": "January 1, 2025 to June 30, 2026",
-        "raised": 377077.94,
-        "cashOnHand": 33680.61,
+        "period": "January 1, 2025 to September 30, 2026",
+        "raised": 489412.24,
+        "cashOnHand": 28754.14,
         "breakdown": [
-          { "kind": "small", "amount": 9620.08 },
-          { "kind": "large", "amount": 134937.41 },
-          { "kind": "candidate", "amount": 232520.45 }
+          { "kind": "small", "amount": 14557.53 },
+          { "kind": "large", "amount": 206359.08 },
+          { "kind": "pac", "amount": 6000 },
+          { "kind": "candidate", "amount": 262495.63 }
         ],
-        "fromCandidate": 232520.45
+        "fromCandidate": 262495.63
       }
     ]
   },
@@ -137,6 +138,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.775Z",
-    "version": 4
+    "version": 5
   }
 }

@@ -57,22 +57,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Citizens for Carina",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40126",
-        "period": "April 1 to June 30, 2026",
-        "raised": 90868.88,
-        "cashOnHand": 67808.68,
+        "period": "July 1 to September 30, 2026",
+        "raised": 141800,
+        "cashOnHand": 159548.48,
         "breakdown": [
-          { "kind": "small", "amount": 3562 },
-          { "kind": "large", "amount": 8300 },
-          { "kind": "transfer", "amount": 78975 },
-          { "kind": "other", "amount": 31.88 }
+          { "kind": "small", "amount": 3450 },
+          { "kind": "large", "amount": 9750 },
+          { "kind": "transfer", "amount": 128600 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 287655.08, "count": 34 }
+        "largeSince": { "since": "2026-09-30", "total": 307686, "count": 12 }
       }
     ]
   },
@@ -188,7 +187,29 @@
         "kind": "organization",
         "cites": [18]
       },
-      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [19] }
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [19] },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [20] },
+      {
+        "organization": "Chicago Tribune Editorial Board",
+        "kind": "editorial_board",
+        "cites": [21]
+      },
+      {
+        "organization": "Daily Herald Editorial Board",
+        "kind": "editorial_board",
+        "cites": [22]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [23]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [24]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [12] }
     ]
   },
   "sources": [
@@ -286,7 +307,7 @@
       "publisher": "SEIU Local 73",
       "url": "https://seiu73.org/election-2026/",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 13,
@@ -318,7 +339,7 @@
       "publisher": "Windy City Times",
       "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
       "kind": "news",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 17,
@@ -343,12 +364,52 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 19
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 20
+    },
+    {
+      "title": "Tribune Editorial Board endorsements for the 2026 Illinois general election",
+      "publisher": "Chicago Tribune (syndicated on Yahoo News, Oct. 11, 2026)",
+      "url": "https://www.yahoo.com/news/politics/articles/tribune-editorial-board-endorsements-2026-111600003.html",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 21
+    },
+    {
+      "title": "Daily Herald endorsements, Nov. 3, 2026 general election (published Oct. 13-16, 2026)",
+      "publisher": "Daily Herald (Arlington Heights)",
+      "url": "https://www.dailyherald.com/opinion/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 22
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 23
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 24
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:52:50.845Z",
-    "version": 2
+    "version": 3
   }
 }

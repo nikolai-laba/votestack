@@ -41,7 +41,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -237,7 +237,18 @@
         "cites": [10]
       },
       { "organization": "Knock LA", "kind": "organization", "cites": [11] },
-      { "organization": "LA Forward", "kind": "organization", "cites": [12] }
+      { "organization": "LA Forward", "kind": "organization", "cites": [12] },
+      {
+        "organization": "Los Angeles League of Conservation Voters",
+        "kind": "organization",
+        "cites": [13]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [14]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [15] }
     ]
   },
   "sources": [
@@ -295,7 +306,7 @@
       "publisher": "Stonewall Democratic Club",
       "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
       "kind": "endorser",
-      "viewedAt": "2026-10-15"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 8,
@@ -319,7 +330,7 @@
       "publisher": "Sierra Club Angeles Chapter",
       "url": "https://www.sierraclub.org/angeles/endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-15"
+      "viewedAt": "2026-10-17"
     },
     {
       "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
@@ -336,12 +347,36 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 12
+    },
+    {
+      "title": "Current Endorsements: Endorsements in the Year 2026",
+      "publisher": "Los Angeles League of Conservation Voters (LALCV)",
+      "url": "https://lalcv.org/current-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "California Teamsters Endorsements",
+      "publisher": "Teamsters Joint Council 42",
+      "url": "https://www.teamstersjc42.com/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.645Z",
-    "version": 2
+    "version": 3
   }
 }

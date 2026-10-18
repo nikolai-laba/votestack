@@ -41,12 +41,13 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [],
     "filingsAt": {
       "name": "City of Monrovia",
       "url": "https://netfile.com/public/MON/campaign"
-    }
+    },
+    "noCommittee": { "filedWith": "City of Monrovia" }
   },
   "endorsements": {
     "asOf": "2026-10-15",
@@ -112,7 +113,12 @@
         "kind": "party",
         "cites": [3]
       },
-      { "organization": "LA Forward", "kind": "organization", "cites": [5] }
+      { "organization": "LA Forward", "kind": "organization", "cites": [5] },
+      {
+        "organization": "National Women's Political Caucus San Gabriel Valley",
+        "kind": "organization",
+        "cites": [6]
+      }
     ]
   },
   "sources": [
@@ -155,12 +161,20 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 5
+    },
+    {
+      "title": "Endorsed Candidates: November 2026 Candidates",
+      "publisher": "NWPC San Gabriel Valley",
+      "url": "https://nwpcsgv.org/endorsed-candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 6
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.760Z",
-    "version": 3
+    "version": 4
   }
 }

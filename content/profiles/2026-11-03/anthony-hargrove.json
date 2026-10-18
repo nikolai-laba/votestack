@@ -44,17 +44,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Neighbors for Anthony Hargrove",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39831",
-        "period": "April 1 to June 30, 2026",
-        "raised": 0,
-        "cashOnHand": 799.76,
-        "breakdown": [],
-        "largeSince": { "since": "2026-06-30", "total": 44764.25, "count": 11 }
+        "period": "July 1 to September 30, 2026",
+        "raised": 43935,
+        "cashOnHand": 26953.4,
+        "breakdown": [
+          { "kind": "large", "amount": 29600 },
+          { "kind": "loan", "amount": 12950 },
+          { "kind": "other", "amount": 1385 }
+        ],
+        "largeSince": { "since": "2026-09-30", "total": 17300, "count": 4 }
       }
     ]
   },
@@ -81,6 +85,21 @@
         "organization": "Chicago Tribune Editorial Board",
         "kind": "editorial_board",
         "cites": [4]
+      },
+      {
+        "organization": "Fraternal Order of Police Lodge 7",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "Illinois Policy PAC",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [10]
       }
     ]
   },
@@ -139,13 +158,37 @@
       "publisher": "Common Ground Collective",
       "url": "https://cgcollective.org/endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
+    },
+    {
+      "title": "Chicago Fraternal Order of Police Lodge 7 Endorsed Candidates, 2026 General Election",
+      "publisher": "Chicago Fraternal Order of Police Lodge 7",
+      "url": "https://www.chicagofop.org/latest-news/2026-endorsed-candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 8
+    },
+    {
+      "title": "Who is running for Chicago school board in 2026? (table: \"Illinois Policy PAC endorsed\")",
+      "publisher": "Illinois Policy / Illinois Policy PAC",
+      "url": "https://www.illinoispolicy.org/chicago-school-board-election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 10
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:45:39.559Z",
-    "version": 2
+    "version": 3
   }
 }

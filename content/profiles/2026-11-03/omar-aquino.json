@@ -54,20 +54,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Omar Aquino",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=25909",
-        "period": "April 1 to June 30, 2026",
-        "raised": 12000,
-        "cashOnHand": 114223.94,
+        "period": "July 1 to September 30, 2026",
+        "raised": 164900,
+        "cashOnHand": 200291.4,
         "breakdown": [
-          { "kind": "large", "amount": 2000 },
-          { "kind": "transfer", "amount": 10000 }
-        ],
-        "largeSince": { "since": "2026-06-30", "total": 147250, "count": 57 }
+          { "kind": "small", "amount": 50 },
+          { "kind": "large", "amount": 117250 },
+          { "kind": "transfer", "amount": 47600 }
+        ]
       }
     ]
   },
@@ -89,18 +89,39 @@
       {
         "organization": "Planned Parenthood Illinois Action",
         "kind": "organization",
-        "cites": [10]
+        "cites": [16]
       },
       {
         "organization": "Illinois NOW PAC",
         "kind": "organization",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
         "cites": [12]
-      }
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [13]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [14]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [15]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [15] }
     ]
   },
   "sources": [
@@ -178,14 +199,6 @@
     },
     {
       "id": 10,
-      "title": "Planned Parenthood boards announce 2026 primary endorsements",
-      "publisher": "Windy City Times",
-      "url": "https://windycitytimes.com/2026/02/04/planned-parenthood-boards-announce-2026-primary-endorsements/",
-      "kind": "news",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 11,
       "title": "IL NOW PAC Primary Endorsements 3/17/26",
       "publisher": "Illinois NOW",
       "url": "https://ilnow.org/uncategorized/il-now-pac-primary-endorsements-3-17-26/",
@@ -198,13 +211,53 @@
       "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
       "id": 12
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Planned Parenthood Illinois Action (press release, published by Windy City Times)",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:26:26.433Z",
-    "version": 6
+    "version": 8
   }
 }

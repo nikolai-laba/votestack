@@ -99,25 +99,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "JB for Governor",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=32762",
-        "period": "April 1 to June 30, 2026",
-        "raised": 17795.22,
-        "cashOnHand": 3141017.88,
+        "period": "July 1 to September 30, 2026",
+        "raised": 65048259.49,
+        "cashOnHand": 44417830.63,
         "breakdown": [
-          { "kind": "small", "amount": 681.25 },
-          { "kind": "other", "amount": 17113.97 }
+          { "kind": "large", "amount": 65000000 },
+          { "kind": "other", "amount": 48259.49 }
         ],
-        "largeSince": {
-          "since": "2026-06-30",
-          "total": 65750783.98,
-          "count": 3,
-          "fromCandidate": 65000000
-        }
+        "largeSince": { "since": "2026-09-30", "total": 409111.47, "count": 2 }
       }
     ]
   },
@@ -136,7 +131,7 @@
         "kind": "union",
         "cites": [14]
       },
-      { "organization": "SEIU Healthcare", "kind": "union", "cites": [14] },
+      { "organization": "SEIU Healthcare", "kind": "union", "cites": [14, 22] },
       {
         "organization": "Illinois Education Association",
         "kind": "union",
@@ -199,7 +194,8 @@
         "cites": [14]
       },
       { "organization": "New Trier Democrats", "kind": "party", "cites": [14] },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [21] }
+      { "organization": "Personal PAC", "kind": "organization", "cites": [21] },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [23] }
     ]
   },
   "sources": [
@@ -345,7 +341,7 @@
       "publisher": "Windy City Times",
       "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
       "kind": "news",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 19,
@@ -370,12 +366,28 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 21
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 22
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 23
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:59:53.828Z",
-    "version": 3
+    "version": 5
   }
 }

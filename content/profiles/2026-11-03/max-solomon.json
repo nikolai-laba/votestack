@@ -58,20 +58,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Max Solomon",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=25411",
-        "period": "April 1 to June 30, 2026",
-        "raised": 2850,
-        "cashOnHand": 7167.33,
+        "period": "July 1 to September 30, 2026",
+        "raised": 3500,
+        "cashOnHand": 4917.33,
         "breakdown": [
-          { "kind": "small", "amount": 100 },
-          { "kind": "large", "amount": 250 },
-          { "kind": "loan", "amount": 2000 },
-          { "kind": "other", "amount": 500 }
+          { "kind": "small", "amount": 400 },
+          { "kind": "large", "amount": 600 },
+          { "kind": "loan", "amount": 2500 }
         ]
       }
     ]
@@ -89,7 +88,22 @@
         "kind": "organization",
         "cites": [7]
       },
-      { "organization": "Winnebago County GOP", "kind": "party", "cites": [1] }
+      { "organization": "Winnebago County GOP", "kind": "party", "cites": [1] },
+      {
+        "organization": "Northfield Township Republican Organization",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Republicans of Wheeling Township",
+        "kind": "organization",
+        "cites": [9]
+      },
+      {
+        "organization": "Schaumburg Township Republican Organization",
+        "kind": "organization",
+        "cites": [10]
+      }
     ]
   },
   "sources": [
@@ -148,12 +162,36 @@
       "url": "https://ivoterguide.com/candidate/29367/race/29586/election/1443",
       "kind": "reference",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Your 2026 Republican Ticket / Republican Sample Ballot, General Election",
+      "publisher": "Northfield Township Republican Organization",
+      "url": "https://www.northfieldgop.org/sample_ballot",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 8
+    },
+    {
+      "title": "2026 Republican Sample Ballot (General Election)",
+      "publisher": "Republicans of Wheeling Township",
+      "url": "https://rowtgop.org/sample-ballot/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "Schaumburg Township Republicans Official Sample Ballot (November 2026)",
+      "publisher": "Schaumburg Township Republican Organization",
+      "url": "https://www.stgop.org/sample_ballot_republican_candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 10
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T21:02:58.485Z",
-    "version": 2
+    "version": 3
   }
 }

@@ -61,20 +61,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Brad Stephens for State Representative",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=35553",
-        "period": "April 1 to June 30, 2026",
-        "raised": 183500,
-        "cashOnHand": 167148.28,
+        "period": "July 1 to September 30, 2026",
+        "raised": 103640,
+        "cashOnHand": 121861.69,
         "breakdown": [
-          { "kind": "large", "amount": 151900 },
-          { "kind": "transfer", "amount": 31600 }
+          { "kind": "small", "amount": 150 },
+          { "kind": "large", "amount": 72450 },
+          { "kind": "transfer", "amount": 29750 },
+          { "kind": "other", "amount": 1290 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 96850, "count": 42 }
+        "largeSince": { "since": "2026-09-30", "total": 1000, "count": 1 }
       }
     ]
   },
@@ -96,6 +98,11 @@
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
         "cites": [11]
+      },
+      {
+        "organization": "Fraternal Order of Police Lodge 7",
+        "kind": "union",
+        "cites": [12]
       }
     ]
   },
@@ -187,12 +194,20 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 11
+    },
+    {
+      "title": "Chicago Fraternal Order of Police Lodge 7 Endorsed Candidates, 2026 General Election",
+      "publisher": "Chicago Fraternal Order of Police Lodge 7",
+      "url": "https://www.chicagofop.org/latest-news/2026-endorsed-candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 12
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:58:18.808Z",
-    "version": 6
+    "version": 7
   }
 }

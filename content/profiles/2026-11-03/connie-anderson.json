@@ -60,7 +60,23 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-07", "items": [] },
+  "money": {
+    "asOf": "2026-10-17",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Connie",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41251",
+        "period": "July 3 to September 30, 2026",
+        "raised": 3100,
+        "cashOnHand": 572.04,
+        "breakdown": [
+          { "kind": "small", "amount": 1000 },
+          { "kind": "large", "amount": 2100 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-07",
     "items": [
@@ -69,7 +85,12 @@
         "kind": "union",
         "cites": [5]
       },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [7] }
+      { "organization": "Personal PAC", "kind": "organization", "cites": [7] },
+      {
+        "organization": "Our Schools Chicago",
+        "kind": "organization",
+        "cites": [8]
+      }
     ]
   },
   "sources": [
@@ -128,12 +149,20 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 7
+    },
+    {
+      "title": "Our Endorsed Candidates",
+      "publisher": "Our Schools Chicago (publicschoolchampions.com)",
+      "url": "https://publicschoolchampions.com/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 8
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:39:45.972Z",
-    "version": 4
+    "version": 5
   }
 }

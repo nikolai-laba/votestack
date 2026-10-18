@@ -54,21 +54,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Community for Claudia",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41087",
-        "period": "April 1 to June 30, 2026",
-        "raised": 7380,
-        "cashOnHand": 17602,
+        "period": "July 1 to September 30, 2026",
+        "raised": 46250,
+        "cashOnHand": 28879.71,
         "breakdown": [
-          { "kind": "small", "amount": 2740 },
-          { "kind": "large", "amount": 3390 },
-          { "kind": "transfer", "amount": 1250 }
+          { "kind": "small", "amount": 2790 },
+          { "kind": "large", "amount": 3310 },
+          { "kind": "transfer", "amount": 40150 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 48000, "count": 13 }
+        "largeSince": { "since": "2026-09-30", "total": 52606.57, "count": 13 }
       }
     ]
   },
@@ -97,6 +97,16 @@
         "party": "Democratic",
         "organization": "Ald. Anthony Joel Quezada",
         "cites": [11]
+      },
+      {
+        "organization": "Independent Voters of Illinois-Independent Precinct Organization (IVI-IPO)",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "Our Schools Chicago",
+        "kind": "organization",
+        "cites": [13]
       }
     ]
   },
@@ -163,7 +173,7 @@
       "publisher": "SEIU Healthcare",
       "url": "https://seiuhcilin.org/resources/election-information/",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 9,
@@ -188,12 +198,28 @@
       "kind": "reference",
       "viewedAt": "2026-10-07",
       "id": 11
+    },
+    {
+      "title": "General Election Endorsements!",
+      "publisher": "IVI-IPO",
+      "url": "https://www.iviipo.org/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "Our Endorsed Candidates",
+      "publisher": "Our Schools Chicago (publicschoolchampions.com)",
+      "url": "https://publicschoolchampions.com/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 13
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:41:18.245Z",
-    "version": 5
+    "version": 7
   }
 }

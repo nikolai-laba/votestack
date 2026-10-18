@@ -43,20 +43,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends for Eva Dina Delgado",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=35786",
-        "period": "April 1 to June 30, 2026",
-        "raised": 42675,
-        "cashOnHand": 445839.94,
+        "period": "July 1 to September 30, 2026",
+        "raised": 171550,
+        "cashOnHand": 578925.19,
         "breakdown": [
-          { "kind": "large", "amount": 28875 },
-          { "kind": "transfer", "amount": 13800 }
+          { "kind": "large", "amount": 87650 },
+          { "kind": "transfer", "amount": 83900 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 160500, "count": 81 }
+        "largeSince": { "since": "2026-09-30", "total": 4500, "count": 3 }
       }
     ]
   },
@@ -83,23 +83,39 @@
       {
         "organization": "Chicago Federation of Labor",
         "kind": "union",
-        "cites": [11]
+        "cites": [16]
       },
       {
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
-        "cites": [12]
+        "cites": [17]
       },
       {
         "organization": "International Union of Operating Engineers Local 399",
         "kind": "union",
-        "cites": [13]
+        "cites": [11]
       },
       {
         "organization": "International Brotherhood of Electrical Workers Local 134",
         "kind": "union",
+        "cites": [12]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [13]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
         "cites": [14]
-      }
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [15]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [15] }
     ]
   },
   "sources": [
@@ -185,22 +201,6 @@
     },
     {
       "id": 11,
-      "title": "MARCH 17, 2026 PRIMARY ELECTION",
-      "publisher": "Chicago Federation of Labor",
-      "url": "https://chicagolabor.org/wp-content/uploads/Updated-P2026_PrimaryEndorsementList_updated-v6.pdf",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 12,
-      "title": "IUOE LOCAL 150 DISTRICT 1 ENDORSEMENTS",
-      "publisher": "International Union of Operating Engineers Local 150",
-      "url": "https://local150.org/wp-content/uploads/2026/02/2026-IL-Primary-Mailer-District-1_V6_1-PG.pdf",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 13,
       "title": "2026 LOCAL 399 ILLINOIS PRIMARY ELECTION ENDORSEMENTS",
       "publisher": "International Union of Operating Engineers Local 399",
       "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
@@ -208,18 +208,58 @@
       "viewedAt": "2026-10-07"
     },
     {
-      "id": 14,
+      "id": 12,
       "title": "March 17, 2026 Primary Election Local 134 Endorsed Candidates",
       "publisher": "IBEW Local 134",
       "url": "https://www.lu134.org/2026%20Primary%20Election%20Endorsements(3).pdf",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 17
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:02:41.561Z",
-    "version": 5
+    "version": 7
   }
 }

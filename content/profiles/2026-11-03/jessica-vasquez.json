@@ -61,21 +61,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Jessica Vasquez",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40662",
-        "period": "April 1 to June 30, 2026",
-        "raised": 4010,
-        "cashOnHand": 50068.25,
+        "period": "July 1 to September 30, 2026",
+        "raised": 3340,
+        "cashOnHand": 39223.72,
         "breakdown": [
-          { "kind": "small", "amount": 1510 },
-          { "kind": "large", "amount": 500 },
+          { "kind": "small", "amount": 640 },
+          { "kind": "large", "amount": 700 },
           { "kind": "transfer", "amount": 2000 }
-        ],
-        "largeSince": { "since": "2026-06-30", "total": 2000, "count": 1 }
+        ]
       }
     ]
   },
@@ -95,34 +94,51 @@
       {
         "organization": "Chicago Federation of Labor",
         "kind": "union",
-        "cites": [9]
+        "cites": [19]
       },
       {
         "organization": "Run for Something",
         "kind": "organization",
-        "cites": [10]
+        "cites": [9]
       },
       {
         "organization": "Citizen Action/Illinois",
         "kind": "organization",
-        "cites": [11]
+        "cites": [10]
       },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [12] },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [11] },
       {
         "organization": "Better Streets Chicago Action Fund",
         "kind": "organization",
-        "cites": [13]
+        "cites": [12]
       },
       {
         "organization": "Chicago Growth Project",
         "kind": "organization",
-        "cites": [14]
+        "cites": [13]
       },
       {
         "organization": "33rd Ward Working Families",
         "kind": "organization",
-        "cites": [15]
-      }
+        "cites": [14]
+      },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [15] },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [16]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [17]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [18]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [18] }
     ]
   },
   "sources": [
@@ -192,14 +208,6 @@
     },
     {
       "id": 9,
-      "title": "march 17, 2026 primary election - endorsed candidates",
-      "publisher": "Chicago Federation of Labor",
-      "url": "https://chicagolabor.org/wp-content/uploads/P2026_PrimaryEndorsementList_COOK-v4.pdf",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 10,
       "title": "Jessica Vásquez",
       "publisher": "Run for Something",
       "url": "https://directory.runforsomething.net/candidate/33a9fd7f914cd8e914edf8da12262864/vasquez-jessica/",
@@ -207,7 +215,7 @@
       "viewedAt": "2026-10-07"
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "Spring 2026 Endorsements — Citizen Action/Illinois",
       "publisher": "Citizen Action/Illinois",
       "url": "https://citizenaction-il.org/spring26endorsements",
@@ -215,7 +223,7 @@
       "viewedAt": "2026-10-07"
     },
     {
-      "id": 12,
+      "id": 11,
       "title": "Endorsements and Election Information - Personal PAC",
       "publisher": "Personal PAC",
       "url": "https://personalpac.org/elections/",
@@ -223,7 +231,7 @@
       "viewedAt": "2026-10-07"
     },
     {
-      "id": 13,
+      "id": 12,
       "title": "2026 Endorsements — Better Streets Chicago Action Fund",
       "publisher": "Better Streets Chicago Action Fund",
       "url": "https://www.bscactionfund.org/2026-midterms/endorsements",
@@ -231,7 +239,7 @@
       "viewedAt": "2026-10-07"
     },
     {
-      "id": 14,
+      "id": 13,
       "title": "Endorsements - Chicago Growth Project",
       "publisher": "Chicago Growth Project",
       "url": "https://www.chicagogrowthproject.org/endorsements",
@@ -239,18 +247,58 @@
       "viewedAt": "2026-10-07"
     },
     {
-      "id": 15,
+      "id": 14,
       "title": "2026 Primary Endorsements",
       "publisher": "33rd Ward Working Families",
       "url": "https://www.workingfamilies33.org/2026-primary-endorsements",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 19
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:22:50.813Z",
-    "version": 5
+    "version": 7
   }
 }

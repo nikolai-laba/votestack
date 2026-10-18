@@ -53,21 +53,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Ann M Williams",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=22331",
-        "period": "April 1 to June 30, 2026",
-        "raised": 9201.82,
-        "cashOnHand": 318305.16,
+        "period": "July 1 to September 30, 2026",
+        "raised": 87200,
+        "cashOnHand": 380554.57,
         "breakdown": [
-          { "kind": "large", "amount": 7500 },
-          { "kind": "transfer", "amount": 500 },
-          { "kind": "other", "amount": 1201.82 }
+          { "kind": "small", "amount": 1100 },
+          { "kind": "large", "amount": 56500 },
+          { "kind": "transfer", "amount": 27600 },
+          { "kind": "other", "amount": 2000 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 136133.08, "count": 62 }
+        "largeSince": { "since": "2026-09-30", "total": 65633.08, "count": 23 }
       }
     ]
   },
@@ -90,7 +91,28 @@
         "kind": "union",
         "cites": [9]
       },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [10] }
+      { "organization": "Personal PAC", "kind": "organization", "cites": [10] },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [12]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [13]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [14]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [14] }
     ]
   },
   "sources": [
@@ -173,12 +195,44 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 10
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:53:19.556Z",
-    "version": 7
+    "version": 8
   }
 }

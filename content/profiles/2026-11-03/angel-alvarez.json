@@ -58,16 +58,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Angel For CPS",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41178",
-        "period": "April 1 to June 30, 2026",
-        "raised": 1000,
-        "cashOnHand": 1000,
-        "breakdown": [{ "kind": "large", "amount": 1000 }]
+        "period": "July 1 to September 30, 2026",
+        "raised": 0,
+        "cashOnHand": 1500,
+        "breakdown": []
       }
     ]
   },
@@ -102,6 +102,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:44:10.737Z",
-    "version": 3
+    "version": 4
   }
 }

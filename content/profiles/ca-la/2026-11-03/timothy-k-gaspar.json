@@ -26,7 +26,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -102,7 +102,7 @@
       {
         "organization": "Los Angeles Daily News editorial board (Southern California News Group)",
         "kind": "editorial_board",
-        "cites": [6]
+        "cites": [6, 10]
       },
       {
         "organization": "Los Angeles Police Protective League",
@@ -197,6 +197,11 @@
         "organization": "Republican Party of Los Angeles County",
         "kind": "party",
         "cites": [8]
+      },
+      {
+        "organization": "Democrats for Israel – Los Angeles",
+        "kind": "organization",
+        "cites": [9]
       }
     ]
   },
@@ -264,12 +269,28 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 8
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Democrats for Israel – Los Angeles",
+      "url": "https://dfi-la.org/endorse",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "Southern California News Group endorsements for the Nov. 3, 2026 general election",
+      "publisher": "Southern California News Group (San Gabriel Valley Tribune, Daily News, Daily Breeze, Press-Telegram, Pasadena Star-News, Whittier Daily News)",
+      "url": "https://www.sgvtribune.com/2026/10/01/southern-california-news-groups-endorsements-for-nov-3-general-election/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 10
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.450Z",
-    "version": 6
+    "version": 8
   }
 }

@@ -54,22 +54,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Nicole for Illinois",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39529",
-        "period": "April 1 to June 30, 2026",
-        "raised": 26574.88,
-        "cashOnHand": 78916.37,
+        "period": "July 1 to September 30, 2026",
+        "raised": 40459.4,
+        "cashOnHand": 99565.44,
         "breakdown": [
-          { "kind": "small", "amount": 593.08 },
-          { "kind": "large", "amount": 8220.5 },
-          { "kind": "transfer", "amount": 17500 },
-          { "kind": "other", "amount": 261.3 }
+          { "kind": "small", "amount": 50 },
+          { "kind": "large", "amount": 4750 },
+          { "kind": "transfer", "amount": 35450 },
+          { "kind": "other", "amount": 209.4 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 36000, "count": 13 }
+        "largeSince": { "since": "2026-09-30", "total": 1000, "count": 1 }
       }
     ]
   },
@@ -175,6 +175,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:21:33.577Z",
-    "version": 6
+    "version": 7
   }
 }

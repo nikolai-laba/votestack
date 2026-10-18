@@ -35,7 +35,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -96,6 +96,18 @@
         "organization": "Former State Sen. Richard Polanco",
         "kind": "elected_official",
         "cites": [4]
+      },
+      {
+        "organization": "Assemblymember Mike Fong",
+        "kind": "elected_official",
+        "cites": [4],
+        "party": "Democratic"
+      },
+      {
+        "organization": "Assemblymember Jessica Caloza",
+        "kind": "elected_official",
+        "cites": [4],
+        "party": "Democratic"
       },
       {
         "organization": "Assemblymember Nick Schultz",
@@ -232,6 +244,11 @@
         "organization": "Democrats for Israel",
         "kind": "organization",
         "cites": [4]
+      },
+      {
+        "organization": "Democrats for Israel – Los Angeles",
+        "kind": "organization",
+        "cites": [6]
       }
     ]
   },
@@ -274,13 +291,21 @@
       "publisher": "Stonewall Democratic Club",
       "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
       "kind": "endorser",
-      "viewedAt": "2026-10-14"
+      "viewedAt": "2026-10-17"
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Democrats for Israel – Los Angeles",
+      "url": "https://dfi-la.org/endorse",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 6
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T21:48:36.976Z",
-    "version": 5
+    "generatedAt": "2026-10-18T03:18:00.282Z",
+    "version": 6
   }
 }

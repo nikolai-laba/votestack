@@ -34,12 +34,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
-    "items": [],
-    "filingsAt": {
-      "name": "City of Palmdale",
-      "url": "https://netfile.com/public/CPD/campaign/filingsByFiler/217404976-Anain%20Robles%20Palmdale%20City%20Council%20District%203%202026"
-    }
+    "asOf": "2026-10-17",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Palmdale",
+        "committee": "Anain Robles Palmdale City Council District 3 2026",
+        "url": "https://netfile.com/public/CPD/campaign/filingsByFiler/217404976-Anain%20Robles%20Palmdale%20City%20Council%20District%203%202026",
+        "period": "January 1 to September 19, 2026",
+        "raised": 0,
+        "cashOnHand": 0,
+        "fromScan": "ai"
+      }
+    ]
   },
   "endorsements": {
     "asOf": "2026-10-15",
@@ -98,6 +105,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.522Z",
-    "version": 2
+    "version": 3
   }
 }

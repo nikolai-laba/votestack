@@ -30,7 +30,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -62,6 +62,12 @@
       },
       {
         "organization": "State Sen. Lena Gonzalez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [1]
+      },
+      {
+        "organization": "Assemblymember Tina McKinnor",
         "kind": "elected_official",
         "party": "Democratic",
         "cites": [1]
@@ -168,7 +174,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T15:48:49.443Z",
-    "version": 2
+    "generatedAt": "2026-10-18T03:18:00.326Z",
+    "version": 3
   }
 }

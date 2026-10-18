@@ -48,21 +48,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Jason Dones",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39820",
-        "period": "April 1 to June 30, 2026",
-        "raised": 11061,
-        "cashOnHand": 13430.1,
+        "period": "July 1 to September 30, 2026",
+        "raised": 23491.32,
+        "cashOnHand": 22147.66,
         "breakdown": [
-          { "kind": "small", "amount": 3781 },
-          { "kind": "large", "amount": 3780 },
-          { "kind": "transfer", "amount": 3500 }
+          { "kind": "small", "amount": 2641.32 },
+          { "kind": "large", "amount": 4850 },
+          { "kind": "transfer", "amount": 16000 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 59265.86, "count": 11 }
+        "largeSince": { "since": "2026-09-30", "total": 47140.86, "count": 6 }
       }
     ]
   },
@@ -128,6 +128,16 @@
         "organization": "United Neighbors of the 26th Ward",
         "kind": "organization",
         "cites": [5]
+      },
+      {
+        "organization": "Independent Voters of Illinois-Independent Precinct Organization (IVI-IPO)",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Our Schools Chicago",
+        "kind": "organization",
+        "cites": [8]
       }
     ]
   },
@@ -179,12 +189,28 @@
       "url": "https://www.politico.com/newsletters/illinois-playbook/2026/09/28/trump-keeps-it-brief-at-medinah-01094547",
       "kind": "news",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "General Election Endorsements!",
+      "publisher": "IVI-IPO",
+      "url": "https://www.iviipo.org/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 7
+    },
+    {
+      "title": "Our Endorsed Candidates",
+      "publisher": "Our Schools Chicago (publicschoolchampions.com)",
+      "url": "https://publicschoolchampions.com/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 8
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:43:41.373Z",
-    "version": 3
+    "version": 4
   }
 }

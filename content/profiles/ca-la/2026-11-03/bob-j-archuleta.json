@@ -50,7 +50,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -65,7 +65,7 @@
           { "kind": "pac", "amount": 45500 },
           { "kind": "other", "amount": 25300 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 54250, "count": 13 }
+        "largeSince": { "since": "2026-09-19", "total": 57150, "count": 14 }
       }
     ]
   },
@@ -117,7 +117,17 @@
         "kind": "union",
         "cites": [13]
       },
-      { "organization": "SEIU Local 721", "kind": "union", "cites": [14] }
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [14] },
+      {
+        "organization": "Armenian National Committee of America, Western Region",
+        "kind": "organization",
+        "cites": [15]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [16]
+      }
     ]
   },
   "sources": [
@@ -232,12 +242,28 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 14
+    },
+    {
+      "title": "ANCA Western Region 2026 General Election Endorsements",
+      "publisher": "ANCA Western Region",
+      "url": "https://ancawr.org/elect26/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "California Teamsters Endorsements",
+      "publisher": "Teamsters Joint Council 42",
+      "url": "https://www.teamstersjc42.com/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.760Z",
-    "version": 4
+    "version": 5
   }
 }

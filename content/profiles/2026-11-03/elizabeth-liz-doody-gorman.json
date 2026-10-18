@@ -49,21 +49,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Liz for the 17th",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=22716",
-        "period": "April 1 to June 30, 2026",
-        "raised": 17350,
-        "cashOnHand": 93637.96,
+        "period": "July 1 to September 30, 2026",
+        "raised": 70160.12,
+        "cashOnHand": 150545.14,
         "breakdown": [
-          { "kind": "small", "amount": 1750 },
-          { "kind": "large", "amount": 14950 },
-          { "kind": "transfer", "amount": 650 }
+          { "kind": "small", "amount": 600 },
+          { "kind": "large", "amount": 14868 },
+          { "kind": "transfer", "amount": 4692.12 },
+          { "kind": "loan", "amount": 50000 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 21500, "count": 13 }
+        "largeSince": { "since": "2026-09-30", "total": 7000, "count": 3 }
       }
     ]
   },
@@ -79,6 +80,11 @@
         "organization": "Chicago Flips Red PAC",
         "kind": "organization",
         "cites": [6]
+      },
+      {
+        "organization": "Schaumburg Township Republican Organization",
+        "kind": "organization",
+        "cites": [7]
       }
     ]
   },
@@ -130,12 +136,20 @@
       "url": "https://chicagoflipsredpac.com/candidates",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Schaumburg Township Republicans Official Sample Ballot (November 2026)",
+      "publisher": "Schaumburg Township Republican Organization",
+      "url": "https://www.stgop.org/sample_ballot_republican_candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 7
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:18:11.948Z",
-    "version": 3
+    "version": 4
   }
 }

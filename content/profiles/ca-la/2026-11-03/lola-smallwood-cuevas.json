@@ -58,7 +58,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -74,7 +74,7 @@
           { "kind": "pac", "amount": 54478.65 },
           { "kind": "other", "amount": 63976.37 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 37200, "count": 14 }
+        "largeSince": { "since": "2026-09-19", "total": 43100, "count": 15 }
       }
     ]
   },
@@ -321,7 +321,17 @@
         "kind": "organization",
         "cites": [19]
       },
-      { "organization": "SEIU Local 721", "kind": "union", "cites": [20] }
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [20] },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [21]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [22]
+      }
     ]
   },
   "sources": [
@@ -403,7 +413,7 @@
       "publisher": "Sierra Club Angeles Chapter",
       "url": "https://www.sierraclub.org/angeles/endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-14"
+      "viewedAt": "2026-10-17"
     },
     {
       "title": "Who We're Endorsing in California's 2026 Election",
@@ -484,12 +494,28 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 20
+    },
+    {
+      "title": "November 2026 Stonewall Democratic Club Endorsements",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 21
+    },
+    {
+      "title": "California Teamsters Endorsements",
+      "publisher": "Teamsters Joint Council 42",
+      "url": "https://www.teamstersjc42.com/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 22
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.756Z",
-    "version": 6
+    "version": 7
   }
 }

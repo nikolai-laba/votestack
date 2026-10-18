@@ -63,20 +63,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Ebony DeBerry for School Board",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39821",
-        "period": "April 1 to June 30, 2026",
-        "raised": 2740.5,
-        "cashOnHand": 3799.56,
+        "period": "July 1 to September 30, 2026",
+        "raised": 4462.5,
+        "cashOnHand": 5889.71,
         "breakdown": [
-          { "kind": "small", "amount": 1751 },
-          { "kind": "large", "amount": 989.5 }
-        ],
-        "largeSince": { "since": "2026-06-30", "total": 2000, "count": 1 }
+          { "kind": "small", "amount": 787.5 },
+          { "kind": "large", "amount": 3675 }
+        ]
       }
     ]
   },
@@ -139,6 +138,11 @@
         "organization": "39th Ward Neighbors United",
         "kind": "organization",
         "cites": [6]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [11]
       }
     ]
   },
@@ -222,12 +226,20 @@
       "url": "https://www.wbez.org/education/chicago-school-board/2026/09/21/key-education-endorsements-for-cps-school-board-candidates",
       "kind": "news",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 11
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:41:50.168Z",
-    "version": 3
+    "version": 4
   }
 }

@@ -56,7 +56,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -204,6 +204,16 @@
         "organization": "Avance Democratic Club",
         "kind": "organization",
         "cites": [10]
+      },
+      {
+        "organization": "Los Angeles League of Conservation Voters",
+        "kind": "organization",
+        "cites": [15]
+      },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [16]
       }
     ]
   },
@@ -319,12 +329,28 @@
       "url": "https://www.streetsforall.org/2026",
       "kind": "endorser",
       "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "Current Endorsements: Endorsements in the Year 2026",
+      "publisher": "Los Angeles League of Conservation Voters (LALCV)",
+      "url": "https://lalcv.org/current-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "Sierra Club Political Endorsements (2026)",
+      "publisher": "Sierra Club Angeles Chapter Political Committee",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.314Z",
-    "version": 3
+    "version": 4
   }
 }

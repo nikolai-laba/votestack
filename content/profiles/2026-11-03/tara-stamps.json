@@ -53,22 +53,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Tara Stamps",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=35146",
-        "period": "April 1 to June 30, 2026",
-        "raised": 35988.25,
-        "cashOnHand": 35159.55,
+        "period": "July 1 to September 30, 2026",
+        "raised": 10458,
+        "cashOnHand": 19957.98,
         "breakdown": [
-          { "kind": "small", "amount": 5766 },
-          { "kind": "large", "amount": 17715 },
-          { "kind": "transfer", "amount": 12500 },
-          { "kind": "other", "amount": 7.25 }
-        ],
-        "largeSince": { "since": "2026-06-30", "total": 7500, "count": 2 }
+          { "kind": "small", "amount": 2458 },
+          { "kind": "large", "amount": 400 },
+          { "kind": "transfer", "amount": 7600 }
+        ]
       }
     ]
   },
@@ -85,7 +83,7 @@
         "kind": "union",
         "cites": [7]
       },
-      { "organization": "SEIU Healthcare", "kind": "union", "cites": [7] },
+      { "organization": "SEIU Healthcare", "kind": "union", "cites": [7, 15] },
       {
         "organization": "Chicago Federation of Labor",
         "kind": "union",
@@ -117,7 +115,13 @@
         "kind": "editorial_board",
         "cites": [7]
       },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [13] }
+      { "organization": "Personal PAC", "kind": "organization", "cites": [13] },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [14]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [16] }
     ]
   },
   "sources": [
@@ -224,12 +228,36 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 13
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:13:37.178Z",
-    "version": 5
+    "version": 7
   }
 }

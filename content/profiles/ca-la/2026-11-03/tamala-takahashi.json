@@ -47,7 +47,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -77,6 +77,16 @@
         "organization": "Sierra Club Angeles Chapter",
         "kind": "organization",
         "cites": [7]
+      },
+      {
+        "organization": "Los Angeles League of Conservation Voters",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [9]
       }
     ]
   },
@@ -135,13 +145,29 @@
       "publisher": "Sierra Club Angeles Chapter",
       "url": "https://www.sierraclub.org/angeles/endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-15"
+      "viewedAt": "2026-10-17"
+    },
+    {
+      "title": "Current Endorsements: Endorsements in the Year 2026",
+      "publisher": "Los Angeles League of Conservation Voters (LALCV)",
+      "url": "https://lalcv.org/current-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 8
+    },
+    {
+      "title": "November 2026 Stonewall Democratic Club Endorsements",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 9
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.522Z",
-    "version": 3
+    "version": 4
   }
 }

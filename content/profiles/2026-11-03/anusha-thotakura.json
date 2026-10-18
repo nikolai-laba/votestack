@@ -51,21 +51,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Neighbors for Anusha",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39855",
-        "period": "April 1 to June 30, 2026",
-        "raised": 9760,
-        "cashOnHand": 9066.36,
+        "period": "July 1 to September 30, 2026",
+        "raised": 6829,
+        "cashOnHand": 13184.65,
         "breakdown": [
-          { "kind": "small", "amount": 3260 },
-          { "kind": "large", "amount": 3000 },
-          { "kind": "transfer", "amount": 3500 }
+          { "kind": "large", "amount": 1900 },
+          { "kind": "transfer", "amount": 3000 },
+          { "kind": "other", "amount": 1929 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 27267.3, "count": 7 }
+        "largeSince": { "since": "2026-09-30", "total": 20807.3, "count": 3 }
       }
     ]
   },
@@ -87,6 +87,11 @@
         "organization": "Our Schools Chicago",
         "kind": "organization",
         "cites": [8]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [9]
       }
     ]
   },
@@ -154,12 +159,20 @@
       "url": "https://chicago.suntimes.com/education/2026/09/21/key-education-endorsements-for-cps-school-board-candidates",
       "kind": "news",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 9
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:46:47.682Z",
-    "version": 4
+    "version": 5
   }
 }

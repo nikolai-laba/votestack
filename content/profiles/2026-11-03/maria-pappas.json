@@ -80,15 +80,15 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Committee to Elect Maria Pappas",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=6051",
-        "period": "April 1 to June 30, 2026",
+        "period": "July 1 to September 30, 2026",
         "raised": 0,
-        "cashOnHand": 278134.55,
+        "cashOnHand": 226302.83,
         "breakdown": []
       }
     ]
@@ -202,6 +202,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:42:04.654Z",
-    "version": 5
+    "version": 6
   }
 }

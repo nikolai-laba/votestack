@@ -37,16 +37,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Juan Ponce De Leon For Judge",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40746",
-        "period": "April 1 to June 30, 2026",
-        "raised": 1000,
-        "cashOnHand": 32361.04,
-        "breakdown": [{ "kind": "large", "amount": 1000 }]
+        "period": "July 1 to September 30, 2026",
+        "raised": 0,
+        "cashOnHand": 31399.04,
+        "breakdown": []
       }
     ]
   },
@@ -244,6 +244,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:29:15.823Z",
-    "version": 5
+    "version": 6
   }
 }

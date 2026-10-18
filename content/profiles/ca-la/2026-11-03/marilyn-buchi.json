@@ -43,12 +43,13 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [],
     "filingsAt": {
       "name": "Orange County Registrar of Voters",
       "url": "https://netfile.com/public/COC/campaign"
-    }
+    },
+    "noCommittee": { "filedWith": "Orange County Registrar of Voters" }
   },
   "endorsements": { "asOf": "2026-10-14", "items": [] },
   "sources": [
@@ -97,6 +98,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.115Z",
-    "version": 3
+    "version": 4
   }
 }

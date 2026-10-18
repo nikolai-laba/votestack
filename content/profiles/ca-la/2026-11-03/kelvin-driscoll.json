@@ -48,7 +48,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -205,7 +205,12 @@
       },
       { "organization": "ArtPAC", "kind": "organization", "cites": [3] },
       { "organization": "Deflock SCV", "kind": "organization", "cites": [3] },
-      { "organization": "LA Forward", "kind": "organization", "cites": [10] }
+      { "organization": "LA Forward", "kind": "organization", "cites": [10] },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [11]
+      }
     ]
   },
   "sources": [
@@ -279,7 +284,7 @@
       "publisher": "Stonewall Democratic Club",
       "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
       "kind": "endorser",
-      "viewedAt": "2026-10-15"
+      "viewedAt": "2026-10-17"
     },
     {
       "title": "November 2026 LA Progressive Voter Guide",
@@ -288,12 +293,20 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 10
+    },
+    {
+      "title": "Sierra Club Political Endorsements (2026)",
+      "publisher": "Sierra Club Angeles Chapter Political Committee",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 11
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.576Z",
-    "version": 2
+    "version": 3
   }
 }

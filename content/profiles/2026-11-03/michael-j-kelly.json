@@ -45,20 +45,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Mike Kelly",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=37053",
-        "period": "April 1 to June 30, 2026",
-        "raised": 20287.92,
-        "cashOnHand": 62512.25,
+        "period": "July 1 to September 30, 2026",
+        "raised": 97893.06,
+        "cashOnHand": 89585.52,
         "breakdown": [
-          { "kind": "transfer", "amount": 19800 },
-          { "kind": "other", "amount": 487.92 }
+          { "kind": "small", "amount": 2750 },
+          { "kind": "large", "amount": 4550 },
+          { "kind": "transfer", "amount": 90465.15 },
+          { "kind": "other", "amount": 127.91 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 82500, "count": 38 }
+        "largeSince": { "since": "2026-09-30", "total": 25841.71, "count": 18 }
       }
     ]
   },
@@ -83,6 +85,21 @@
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
         "cites": [10]
+      },
+      {
+        "organization": "Fraternal Order of Police Lodge 7",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [12]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [7]
       }
     ]
   },
@@ -117,7 +134,7 @@
       "publisher": "Windy City Times",
       "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
       "kind": "news",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 5,
@@ -133,7 +150,7 @@
       "publisher": "SEIU Healthcare",
       "url": "https://seiuhcilin.org/resources/election-information/",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 7,
@@ -141,7 +158,7 @@
       "publisher": "SEIU Local 73",
       "url": "https://seiu73.org/election-2026/",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "title": "November 3, 2026 General Election Endorsed Candidates",
@@ -166,12 +183,28 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 10
+    },
+    {
+      "title": "Chicago Fraternal Order of Police Lodge 7 Endorsed Candidates, 2026 General Election",
+      "publisher": "Chicago Fraternal Order of Police Lodge 7",
+      "url": "https://www.chicagofop.org/latest-news/2026-endorsed-candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 12
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:43:41.975Z",
-    "version": 5
+    "version": 7
   }
 }

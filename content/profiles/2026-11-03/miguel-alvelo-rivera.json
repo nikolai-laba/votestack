@@ -48,19 +48,18 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Miguel Para el Pueblo",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40930",
-        "period": "April 1 to June 30, 2026",
-        "raised": 4655,
-        "cashOnHand": 21603.25,
+        "period": "July 1 to September 30, 2026",
+        "raised": 990,
+        "cashOnHand": 22502.17,
         "breakdown": [
-          { "kind": "small", "amount": 1165 },
-          { "kind": "large", "amount": 490 },
-          { "kind": "transfer", "amount": 3000 }
+          { "kind": "small", "amount": 750 },
+          { "kind": "large", "amount": 240 }
         ]
       }
     ]
@@ -224,6 +223,26 @@
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
         "cites": [15]
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [16]
+      },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [17]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [18]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [6]
       }
     ]
   },
@@ -274,7 +293,7 @@
       "publisher": "SEIU Local 73",
       "url": "https://seiu73.org/election-2026/",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 7,
@@ -347,12 +366,36 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 15
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Planned Parenthood Illinois Action (press release, published by Windy City Times)",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:08:13.260Z",
-    "version": 5
+    "version": 6
   }
 }

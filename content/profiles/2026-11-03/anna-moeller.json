@@ -54,21 +54,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends for Anna Moeller",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=25879",
-        "period": "April 1 to June 30, 2026",
-        "raised": 1300,
-        "cashOnHand": 62751.78,
+        "period": "July 1 to September 30, 2026",
+        "raised": 66524.6,
+        "cashOnHand": 108057.72,
         "breakdown": [
-          { "kind": "small", "amount": 200 },
-          { "kind": "large", "amount": 1000 },
-          { "kind": "transfer", "amount": 100 }
-        ],
-        "largeSince": { "since": "2026-06-30", "total": 56300, "count": 23 }
+          { "kind": "small", "amount": 500 },
+          { "kind": "large", "amount": 18300 },
+          { "kind": "transfer", "amount": 47700 },
+          { "kind": "other", "amount": 24.6 }
+        ]
       }
     ]
   },
@@ -112,6 +112,21 @@
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
         "cites": [14]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [15]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [16]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [10]
       }
     ]
   },
@@ -186,7 +201,7 @@
       "publisher": "Windy City Times",
       "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
       "kind": "news",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 10,
@@ -194,7 +209,7 @@
       "publisher": "SEIU Local 73",
       "url": "https://seiu73.org/election-2026/",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 11,
@@ -227,12 +242,28 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 14
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:08:20.887Z",
-    "version": 7
+    "version": 8
   }
 }

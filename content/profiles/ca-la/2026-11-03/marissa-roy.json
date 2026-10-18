@@ -48,7 +48,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -273,7 +273,17 @@
         "kind": "organization",
         "cites": [20]
       },
-      { "organization": "Knock LA", "kind": "organization", "cites": [21] }
+      { "organization": "Knock LA", "kind": "organization", "cites": [21] },
+      {
+        "organization": "Los Angeles League of Conservation Voters",
+        "kind": "organization",
+        "cites": [22]
+      },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [23]
+      }
     ]
   },
   "sources": [
@@ -435,7 +445,7 @@
       "publisher": "Sierra Club Angeles Chapter",
       "url": "https://www.sierraclub.org/angeles/endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-14"
+      "viewedAt": "2026-10-17"
     },
     {
       "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
@@ -444,12 +454,28 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 21
+    },
+    {
+      "title": "Current Endorsements: Endorsements in the Year 2026",
+      "publisher": "Los Angeles League of Conservation Voters (LALCV)",
+      "url": "https://lalcv.org/current-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 22
+    },
+    {
+      "title": "November 2026 Stonewall Democratic Club Endorsements",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 23
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.458Z",
-    "version": 5
+    "version": 6
   }
 }

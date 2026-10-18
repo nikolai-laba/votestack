@@ -59,21 +59,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Samantha Mota for Congress",
         "url": "https://www.fec.gov/data/committee/C00908947/?cycle=2026",
-        "period": "June 5, 2024 to September 30, 2026",
-        "raised": 11408.93,
-        "cashOnHand": 208.29,
+        "period": "June 5, 2024 to October 14, 2026",
+        "raised": 12578.93,
+        "cashOnHand": 328.29,
         "breakdown": [
-          { "kind": "small", "amount": 3665.39 },
+          { "kind": "small", "amount": 3785.39 },
           { "kind": "large", "amount": 1636 },
-          { "kind": "candidate", "amount": 6107.54 }
+          { "kind": "candidate", "amount": 7157.54 }
         ],
-        "fromCandidate": 6107.54
+        "fromCandidate": 7157.54
       }
     ]
   },
@@ -129,6 +129,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.823Z",
-    "version": 4
+    "version": 5
   }
 }

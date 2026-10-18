@@ -48,21 +48,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "All in With Lilian",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=37119",
-        "period": "April 1 to June 30, 2026",
-        "raised": 21998,
-        "cashOnHand": 72213.38,
+        "period": "July 1 to September 30, 2026",
+        "raised": 8441,
+        "cashOnHand": 58969.02,
         "breakdown": [
-          { "kind": "small", "amount": 448 },
-          { "kind": "large", "amount": 1850 },
-          { "kind": "transfer", "amount": 19700 }
-        ],
-        "largeSince": { "since": "2026-06-30", "total": 7500, "count": 3 }
+          { "kind": "small", "amount": 441 },
+          { "kind": "large", "amount": 3000 },
+          { "kind": "transfer", "amount": 5000 }
+        ]
       }
     ]
   },
@@ -87,36 +86,47 @@
       {
         "organization": "Equality Illinois",
         "kind": "organization",
-        "cites": [9]
+        "cites": [18]
       },
       {
         "organization": "Citizen Action/Illinois",
         "kind": "organization",
-        "cites": [10]
+        "cites": [9]
       },
-      { "organization": "Giffords PAC", "kind": "organization", "cites": [11] },
+      { "organization": "Giffords PAC", "kind": "organization", "cites": [10] },
       {
         "organization": "Gun Violence Prevention PAC",
         "kind": "organization",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "Better Streets Chicago Action Fund",
         "kind": "organization",
-        "cites": [12]
+        "cites": [11]
       },
       {
         "organization": "Chicago Federation of Labor",
         "kind": "union",
-        "cites": [13]
+        "cites": [12]
       },
-      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [14] },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [13] },
       {
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
-        "cites": [15]
+        "cites": [14]
       },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [16] }
+      { "organization": "Personal PAC", "kind": "organization", "cites": [15] },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [16]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [17]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [17] }
     ]
   },
   "sources": [
@@ -182,18 +192,10 @@
       "publisher": "Windy City Times",
       "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
       "kind": "news",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 9,
-      "title": "Equality Illinois makes 72 pro-equality, pro-family endorsements for 2026 primary election",
-      "publisher": "Windy City Times",
-      "url": "https://windycitytimes.com/2026/01/15/equality-illinois-makes-72-pro-equality-pro-family-endorsements-for-2026-primary-election/",
-      "kind": "news",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 10,
       "title": "Endorsements — Citizen Action/Illinois",
       "publisher": "Citizen Action/Illinois",
       "url": "https://citizenaction-il.org/endorsements",
@@ -201,7 +203,7 @@
       "viewedAt": "2026-10-07"
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "Candidates for Illinois Legislature | GIFFORDS",
       "publisher": "Giffords",
       "url": "https://giffords.org/candidates/illinois-joint-endorsements-3/",
@@ -209,7 +211,7 @@
       "viewedAt": "2026-10-07"
     },
     {
-      "id": 12,
+      "id": 11,
       "title": "2026 Endorsements — Better Streets Chicago Action Fund",
       "publisher": "Better Streets Chicago Action Fund",
       "url": "https://www.bscactionfund.org/2026-midterms/endorsements",
@@ -222,7 +224,7 @@
       "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
-      "id": 13
+      "id": 12
     },
     {
       "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
@@ -230,7 +232,7 @@
       "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
-      "id": 14
+      "id": 13
     },
     {
       "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
@@ -238,7 +240,7 @@
       "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
-      "id": 15
+      "id": 14
     },
     {
       "title": "Personal PAC 2026 General Election Endorsements",
@@ -246,13 +248,37 @@
       "url": "https://personalpac.org/elections/",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
       "id": 16
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:08:02.428Z",
-    "version": 7
+    "version": 9
   }
 }

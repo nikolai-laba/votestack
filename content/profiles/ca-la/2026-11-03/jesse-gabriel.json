@@ -54,7 +54,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -69,7 +69,7 @@
           { "kind": "pac", "amount": 69850 },
           { "kind": "other", "amount": 53100 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 119174.15, "count": 27 }
+        "largeSince": { "since": "2026-09-19", "total": 128974.15, "count": 31 }
       }
     ]
   },
@@ -96,60 +96,65 @@
       {
         "organization": "Armenian National Committee of America - Western Region",
         "kind": "organization",
-        "cites": [12]
+        "cites": [25]
       },
       {
         "organization": "California Council for Affordable Housing",
         "kind": "organization",
-        "cites": [13]
+        "cites": [12]
       },
       {
         "organization": "YIMBY Los Angeles",
         "kind": "organization",
-        "cites": [14]
+        "cites": [13]
       },
       {
         "organization": "Indivisible Ventura",
         "kind": "organization",
-        "cites": [15]
+        "cites": [14]
       },
       {
         "organization": "Equality California",
         "kind": "organization",
-        "cites": [16]
+        "cites": [15]
       },
       {
         "organization": "Sierra Club Angeles Chapter",
         "kind": "organization",
-        "cites": [17]
+        "cites": [16]
       },
       {
         "organization": "California Environmental Voters",
         "kind": "organization",
-        "cites": [18]
+        "cites": [17]
       },
       {
         "organization": "California Federation of Teachers",
         "kind": "union",
-        "cites": [19]
+        "cites": [18]
       },
       {
         "organization": "Democrats for Israel – Los Angeles",
         "kind": "organization",
-        "cites": [20]
+        "cites": [19]
       },
-      { "organization": "LA Forward", "kind": "organization", "cites": [21] },
+      { "organization": "LA Forward", "kind": "organization", "cites": [20] },
       {
         "organization": "Los Angeles County Federation of Labor",
         "kind": "union",
-        "cites": [22]
+        "cites": [21]
       },
       {
         "organization": "Planned Parenthood Advocacy Project Los Angeles County",
         "kind": "organization",
-        "cites": [23]
+        "cites": [22]
       },
-      { "organization": "SEIU Local 721", "kind": "union", "cites": [24] }
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [23] },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [24]
+      }
     ]
   },
   "sources": [
@@ -231,7 +236,7 @@
       "publisher": "UNITE HERE Local 11",
       "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
       "kind": "endorser",
-      "viewedAt": "2026-10-14"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 11,
@@ -243,14 +248,6 @@
     },
     {
       "id": 12,
-      "title": "ANCA-Western Region Announces 2026 Primary Endorsements",
-      "publisher": "Armenian National Committee of America - Western Region",
-      "url": "https://ancawr.org/press-release/anca-western-region-announces-2026-primary-endorsements-2/",
-      "kind": "endorser",
-      "viewedAt": "2026-10-14"
-    },
-    {
-      "id": 13,
       "title": "CCAH Releases 2026 Voter Guide and Endorsements",
       "publisher": "California Council for Affordable Housing",
       "url": "https://californiacouncil.org/news/ccah-releases-2026-voter-guide-and-endorsements",
@@ -258,7 +255,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 14,
+      "id": 13,
       "title": "November General Election Endorsements",
       "publisher": "YIMBY Los Angeles",
       "url": "https://yimby.la/voter-guide/november-general-election-endorsements/",
@@ -266,7 +263,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 15,
+      "id": 14,
       "title": "STATE: 46th Assembly District – 2026 Primary Election",
       "publisher": "Indivisible Ventura",
       "url": "https://indivisibleventura.org/state-46th-assembly-district-2026-primary-election/",
@@ -274,7 +271,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 16,
+      "id": 15,
       "title": "Equality California Election Center",
       "publisher": "Equality California",
       "url": "https://www.eqca.org/elections/",
@@ -282,12 +279,12 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 17,
+      "id": 16,
       "title": "Endorsements",
       "publisher": "Sierra Club Angeles Chapter",
       "url": "https://www.sierraclub.org/angeles/endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-14"
+      "viewedAt": "2026-10-17"
     },
     {
       "title": "Who We're Endorsing in California's 2026 Election",
@@ -295,7 +292,7 @@
       "url": "https://envirovoters.org/2026-endorsements/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 18
+      "id": 17
     },
     {
       "title": "CFT Endorsements, General Election 2026 (Tuesday, November 3)",
@@ -303,7 +300,7 @@
       "url": "https://www.cft.org/2026-midterm-elections-hub",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 19
+      "id": 18
     },
     {
       "title": "November 2026 General Election Endorsements",
@@ -311,7 +308,7 @@
       "url": "https://dfi-la.org/endorse",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 20
+      "id": 19
     },
     {
       "title": "November 2026 LA Progressive Voter Guide",
@@ -319,7 +316,7 @@
       "url": "https://laforwardguide.org/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 21
+      "id": 20
     },
     {
       "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
@@ -327,7 +324,7 @@
       "url": "https://thelafed.org/resource/lalaborvoterguide/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 22
+      "id": 21
     },
     {
       "title": "Voter Guide, November 3, 2026",
@@ -335,7 +332,7 @@
       "url": "https://www.plannedparenthoodaction.org/planned-parenthood-advocacy-project-los-angeles-county/voter-guide-ppapx",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 23
+      "id": 22
     },
     {
       "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
@@ -343,13 +340,29 @@
       "url": "https://seiu721.org/2026election/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
+      "id": 23
+    },
+    {
+      "title": "California Teamsters Endorsements",
+      "publisher": "Teamsters Joint Council 42",
+      "url": "https://www.teamstersjc42.com/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
       "id": 24
+    },
+    {
+      "title": "ANCA Western Region 2026 General Election Endorsements",
+      "publisher": "ANCA Western Region",
+      "url": "https://ancawr.org/elect26/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 25
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.685Z",
-    "version": 4
+    "version": 6
   }
 }

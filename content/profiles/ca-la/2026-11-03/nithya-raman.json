@@ -78,7 +78,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -276,7 +276,12 @@
         "kind": "organization",
         "cites": [11]
       },
-      { "organization": "Knock LA", "kind": "organization", "cites": [19] }
+      { "organization": "Knock LA", "kind": "organization", "cites": [19] },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [20]
+      }
     ]
   },
   "sources": [
@@ -431,12 +436,20 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 19
+    },
+    {
+      "title": "Sierra Club Political Endorsements (2026)",
+      "publisher": "Sierra Club Angeles Chapter Political Committee",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 20
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.461Z",
-    "version": 7
+    "version": 8
   }
 }

@@ -16,7 +16,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -117,7 +117,7 @@
       {
         "organization": "Los Angeles Daily News editorial board (Southern California News Group)",
         "kind": "editorial_board",
-        "cites": [6]
+        "cites": [6, 16]
       },
       {
         "organization": "Colorado Boulevard editorial board",
@@ -305,7 +305,7 @@
       "publisher": "Stonewall Democratic Club",
       "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
       "kind": "endorser",
-      "viewedAt": "2026-10-14"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 10,
@@ -313,7 +313,7 @@
       "publisher": "UNITE HERE Local 11",
       "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
       "kind": "endorser",
-      "viewedAt": "2026-10-14"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 11,
@@ -354,12 +354,20 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 15
+    },
+    {
+      "title": "Southern California News Group endorsements for the Nov. 3, 2026 general election",
+      "publisher": "Southern California News Group (San Gabriel Valley Tribune, Daily News, Daily Breeze, Press-Telegram, Pasadena Star-News, Whittier Daily News)",
+      "url": "https://www.sgvtribune.com/2026/10/01/southern-california-news-groups-endorsements-for-nov-3-general-election/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.257Z",
-    "version": 4
+    "version": 7
   }
 }

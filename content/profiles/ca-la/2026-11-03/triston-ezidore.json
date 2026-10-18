@@ -49,7 +49,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -263,7 +263,12 @@
         "kind": "organization",
         "cites": [13]
       },
-      { "organization": "LA Forward", "kind": "organization", "cites": [14] }
+      { "organization": "LA Forward", "kind": "organization", "cites": [14] },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [15]
+      }
     ]
   },
   "sources": [
@@ -345,7 +350,7 @@
       "publisher": "Stonewall Democratic Club",
       "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
       "kind": "endorser",
-      "viewedAt": "2026-10-15"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 11,
@@ -378,12 +383,20 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 14
+    },
+    {
+      "title": "Sierra Club Political Endorsements (2026)",
+      "publisher": "Sierra Club Angeles Chapter Political Committee",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.074Z",
-    "version": 4
+    "version": 5
   }
 }

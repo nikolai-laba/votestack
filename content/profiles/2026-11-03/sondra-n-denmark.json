@@ -33,7 +33,11 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-07", "items": [] },
+  "money": {
+    "asOf": "2026-10-17",
+    "items": [],
+    "noCommittee": { "filedWith": "Illinois State Board of Elections" }
+  },
   "endorsements": {
     "asOf": "2026-10-07",
     "items": [
@@ -41,6 +45,11 @@
         "organization": "Chicago Federation of Labor",
         "kind": "union",
         "cites": [4]
+      },
+      {
+        "organization": "Cook County Democratic Party",
+        "kind": "party",
+        "cites": [8]
       },
       {
         "organization": "Chicago Bar Association",
@@ -132,12 +141,20 @@
       "kind": "bar",
       "viewedAt": "2026-10-06",
       "id": 7
+    },
+    {
+      "title": "2026 Endorsed Candidates Guide (November 2026 sample ballot)",
+      "publisher": "Cook County Democratic Party",
+      "url": "https://www.cookcountydems.com/wp-content/uploads/2026/10/CCDP_1200x1200_BallotPost_093026.pdf",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 8
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T21:24:17.830Z",
-    "version": 2
+    "version": 4
   }
 }

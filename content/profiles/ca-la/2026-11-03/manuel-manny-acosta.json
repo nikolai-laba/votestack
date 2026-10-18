@@ -40,12 +40,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
-    "items": [],
-    "filingsAt": {
-      "name": "City of South El Monte",
-      "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=24948&dbid=0&repo=r-fe8f1ab6"
-    }
+    "asOf": "2026-10-17",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of South El Monte",
+        "committee": "Manny Acosta for South El Monte Council 2026",
+        "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=24948&dbid=0&repo=r-fe8f1ab6",
+        "period": "July 1 to September 19, 2026",
+        "raised": 812,
+        "cashOnHand": 21325.92,
+        "fromScan": "ai"
+      }
+    ]
   },
   "endorsements": {
     "asOf": "2026-10-14",
@@ -54,6 +61,11 @@
         "organization": "Los Angeles County Federation of Labor",
         "kind": "union",
         "cites": [5]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [6]
       }
     ]
   },
@@ -97,12 +109,20 @@
       "url": "https://thelafed.org/resource/lalaborvoterguide/",
       "kind": "endorser",
       "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "California Teamsters Endorsements",
+      "publisher": "Teamsters Joint Council 42",
+      "url": "https://www.teamstersjc42.com/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 6
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.937Z",
-    "version": 7
+    "version": 8
   }
 }

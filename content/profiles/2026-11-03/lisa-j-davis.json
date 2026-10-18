@@ -49,20 +49,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Lisa J Davis",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39621",
-        "period": "April 1 to June 30, 2026",
-        "raised": 677,
-        "cashOnHand": 63360.53,
+        "period": "July 1 to September 30, 2026",
+        "raised": 33235.9,
+        "cashOnHand": 81089.18,
         "breakdown": [
-          { "kind": "transfer", "amount": 250 },
-          { "kind": "other", "amount": 427 }
-        ],
-        "largeSince": { "since": "2026-06-30", "total": 25150, "count": 16 }
+          { "kind": "small", "amount": 550 },
+          { "kind": "large", "amount": 8450 },
+          { "kind": "transfer", "amount": 23350 },
+          { "kind": "other", "amount": 885.9 }
+        ]
       }
     ]
   },
@@ -77,20 +78,36 @@
       {
         "organization": "Equality Illinois",
         "kind": "organization",
-        "cites": [6]
+        "cites": [13]
       },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [7] },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [6] },
       {
         "organization": "Chicago Federation of Labor",
         "kind": "union",
-        "cites": [8]
+        "cites": [7]
       },
       {
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
-        "cites": [9]
+        "cites": [8]
       },
-      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [10] }
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [9] },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [12]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [12] }
     ]
   },
   "sources": [
@@ -136,14 +153,6 @@
     },
     {
       "id": 6,
-      "title": "2026 Primary Election",
-      "publisher": "Equality Illinois",
-      "url": "https://www.equalityillinois.us/2026-primary-election/",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 7,
       "title": "Endorsements and Election Information",
       "publisher": "Personal PAC",
       "url": "https://personalpac.org/elections/",
@@ -156,7 +165,7 @@
       "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
-      "id": 8
+      "id": 7
     },
     {
       "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
@@ -164,7 +173,7 @@
       "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
-      "id": 9
+      "id": 8
     },
     {
       "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
@@ -172,13 +181,45 @@
       "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
       "id": 10
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 13
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:03:47.947Z",
-    "version": 8
+    "version": 10
   }
 }

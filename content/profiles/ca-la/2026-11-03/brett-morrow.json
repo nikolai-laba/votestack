@@ -16,7 +16,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -31,7 +31,7 @@
           { "kind": "large", "amount": 12425 },
           { "kind": "pac", "amount": 1500 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 2200, "count": 2 }
+        "largeSince": { "since": "2026-09-19", "total": 3200, "count": 3 }
       }
     ]
   },
@@ -196,7 +196,17 @@
         "cites": [7]
       },
       { "organization": "LA Forward", "kind": "organization", "cites": [12] },
-      { "organization": "Knock LA", "kind": "organization", "cites": [13] }
+      { "organization": "Knock LA", "kind": "organization", "cites": [13] },
+      {
+        "organization": "Santa Monicans for Renters' Rights",
+        "kind": "organization",
+        "cites": [14]
+      },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [15]
+      }
     ]
   },
   "sources": [
@@ -303,12 +313,28 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 13
+    },
+    {
+      "title": "SMRR Supported Candidates and Measures for the November 3, 2026 Election in Santa Monica",
+      "publisher": "Santa Monicans for Renters' Rights",
+      "url": "https://www.smrr.org/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "Sierra Club Political Endorsements (2026)",
+      "publisher": "Sierra Club Angeles Chapter Political Committee",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:39:39.206Z",
-    "version": 4
+    "version": 5
   }
 }

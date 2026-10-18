@@ -57,20 +57,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Stanley Moore",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=20715",
-        "period": "April 1 to June 30, 2026",
-        "raised": 3275.87,
-        "cashOnHand": 1989.11,
+        "period": "July 1 to September 30, 2026",
+        "raised": 25325,
+        "cashOnHand": 586.21,
         "breakdown": [
-          { "kind": "small", "amount": 325.87 },
-          { "kind": "large", "amount": 2950 }
-        ],
-        "largeSince": { "since": "2026-06-30", "total": 16600, "count": 10 }
+          { "kind": "small", "amount": 475 },
+          { "kind": "large", "amount": 18500 },
+          { "kind": "transfer", "amount": 6350 }
+        ]
       }
     ]
   },
@@ -82,7 +82,7 @@
         "kind": "union",
         "cites": [8]
       },
-      { "organization": "SEIU Healthcare", "kind": "union", "cites": [8] },
+      { "organization": "SEIU Healthcare", "kind": "union", "cites": [8, 13] },
       {
         "organization": "Chicago Federation of Labor",
         "kind": "union",
@@ -103,7 +103,8 @@
         "organization": "Citizen Action/Illinois",
         "kind": "organization",
         "cites": [12]
-      }
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [14] }
     ]
   },
   "sources": [
@@ -202,12 +203,28 @@
       "url": "https://citizenaction-il.org/endorsements",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:21:13.001Z",
-    "version": 5
+    "version": 7
   }
 }

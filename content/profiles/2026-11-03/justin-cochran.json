@@ -57,22 +57,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Cochran for Illinois",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40957",
-        "period": "April 1 to June 30, 2026",
-        "raised": 7231.1,
-        "cashOnHand": 7859.14,
+        "period": "July 1 to September 30, 2026",
+        "raised": 59071.02,
+        "cashOnHand": 39039.62,
         "breakdown": [
-          { "kind": "small", "amount": 144.75 },
-          { "kind": "large", "amount": 500 },
-          { "kind": "transfer", "amount": 4500 },
-          { "kind": "other", "amount": 2086.35 }
+          { "kind": "small", "amount": 289.5 },
+          { "kind": "large", "amount": 3250 },
+          { "kind": "transfer", "amount": 54150 },
+          { "kind": "other", "amount": 1381.52 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 290262.75, "count": 29 }
+        "largeSince": { "since": "2026-09-30", "total": 99522.19, "count": 13 }
       }
     ]
   },
@@ -89,25 +89,46 @@
       {
         "organization": "Chicago Federation of Labor",
         "kind": "union",
-        "cites": [8]
+        "cites": [18]
       },
       {
         "organization": "Citizen Action/Illinois",
         "kind": "organization",
-        "cites": [9]
+        "cites": [8]
       },
       {
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
-        "cites": [10]
+        "cites": [9]
       },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [11] },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [10] },
       {
         "organization": "Planned Parenthood Illinois Action",
         "kind": "organization",
-        "cites": [12]
+        "cites": [11]
       },
-      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [13] }
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [12] },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [13] },
+      {
+        "organization": "Daily Herald Editorial Board",
+        "kind": "editorial_board",
+        "cites": [14]
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [15]
+      },
+      {
+        "organization": "Fraternal Order of Police Lodge 7",
+        "kind": "union",
+        "cites": [16]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [17]
+      }
     ]
   },
   "sources": [
@@ -169,14 +190,6 @@
     },
     {
       "id": 8,
-      "title": "MARCH 17, 2026 PRIMARY ELECTION ENDORSED CANDIDATES",
-      "publisher": "Chicago Federation of Labor",
-      "url": "https://chicagolabor.org/wp-content/uploads/P2026_PrimaryEndorsementList_updated-v5.pdf",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 9,
       "title": "Endorsements — Citizen Action/Illinois",
       "publisher": "Citizen Action/Illinois",
       "url": "https://citizenaction-il.org/endorsements",
@@ -184,7 +197,7 @@
       "viewedAt": "2026-10-07"
     },
     {
-      "id": 10,
+      "id": 9,
       "title": "ILLINOIS ENDORSEMENTS",
       "publisher": "International Union of Operating Engineers Local 150",
       "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
@@ -192,7 +205,7 @@
       "viewedAt": "2026-10-07"
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "Endorsements and Election Information",
       "publisher": "Personal PAC",
       "url": "https://personalpac.org/elections/",
@@ -200,12 +213,12 @@
       "viewedAt": "2026-10-07"
     },
     {
-      "id": 12,
+      "id": 11,
       "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
       "publisher": "Windy City Times",
       "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
       "kind": "news",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
@@ -213,13 +226,61 @@
       "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
       "id": 13
+    },
+    {
+      "title": "Daily Herald endorsements, Nov. 3, 2026 general election (published Oct. 13-16, 2026)",
+      "publisher": "Daily Herald (Arlington Heights)",
+      "url": "https://www.dailyherald.com/opinion/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "Chicago Fraternal Order of Police Lodge 7 Endorsed Candidates, 2026 General Election",
+      "publisher": "Chicago Fraternal Order of Police Lodge 7",
+      "url": "https://www.chicagofop.org/latest-news/2026-endorsed-candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 18
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:15:17.218Z",
-    "version": 6
+    "version": 8
   }
 }

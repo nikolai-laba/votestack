@@ -30,18 +30,9 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
-    "items": [
-      {
-        "source": "ISBE",
-        "committee": "Friends to Elect Natalia",
-        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40731",
-        "period": "April 1 to June 30, 2026",
-        "raised": 0,
-        "cashOnHand": 116.74,
-        "breakdown": []
-      }
-    ]
+    "asOf": "2026-10-17",
+    "items": [],
+    "noCommittee": { "filedWith": "Illinois State Board of Elections" }
   },
   "endorsements": {
     "asOf": "2026-10-07",
@@ -135,6 +126,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:28:11.743Z",
-    "version": 4
+    "version": 5
   }
 }

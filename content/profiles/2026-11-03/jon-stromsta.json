@@ -34,16 +34,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends for Jon Stromsta",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40843",
-        "period": "April 1 to June 30, 2026",
-        "raised": 450,
-        "cashOnHand": 757.72,
-        "breakdown": [{ "kind": "large", "amount": 450 }]
+        "period": "July 1 to September 30, 2026",
+        "raised": 0,
+        "cashOnHand": 0,
+        "breakdown": []
       }
     ]
   },
@@ -53,38 +53,38 @@
       {
         "organization": "Chicago Federation of Labor",
         "kind": "union",
-        "cites": [2]
+        "cites": [10]
       },
       {
         "organization": "Communications Workers of America",
         "kind": "union",
-        "cites": [3]
+        "cites": [2]
       },
       {
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
-        "cites": [4]
+        "cites": [3]
       },
       {
         "organization": "International Union of Operating Engineers Local 399",
         "kind": "union",
-        "cites": [5]
+        "cites": [4]
       },
-      { "organization": "47th Ward Democrats", "kind": "party", "cites": [6] },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [10] },
+      { "organization": "47th Ward Democrats", "kind": "party", "cites": [5] },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [9] },
       {
         "organization": "Chicago Bar Association",
         "kind": "bar_evaluation",
         "context": "election",
         "rating": "Qualified",
-        "cites": [7]
+        "cites": [6]
       },
       {
         "organization": "Chicago Council of Lawyers",
         "kind": "bar_evaluation",
         "context": "election",
         "rating": "Qualified",
-        "cites": [8]
+        "cites": [7]
       },
       {
         "organization": "Illinois State Bar Association",
@@ -105,7 +105,7 @@
           ],
           "notEvaluated": 0
         },
-        "cites": [9]
+        "cites": [8]
       }
     ]
   },
@@ -120,14 +120,6 @@
     },
     {
       "id": 2,
-      "title": "March 17, 2026 Primary Election Endorsed Candidates",
-      "publisher": "Chicago Federation of Labor",
-      "url": "https://chicagolabor.org/wp-content/uploads/P2026_PrimaryEndorsementList_COOK-v4.pdf",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 3,
       "title": "2026 Illinois | CWA Endorsed Candidates",
       "publisher": "Communications Workers of America",
       "url": "https://cwa-union.org/candidates-il",
@@ -135,7 +127,7 @@
       "viewedAt": "2026-10-07"
     },
     {
-      "id": 4,
+      "id": 3,
       "title": "ILLINOIS ENDORSEMENTS",
       "publisher": "IUOE Local 150",
       "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
@@ -143,7 +135,7 @@
       "viewedAt": "2026-10-07"
     },
     {
-      "id": 5,
+      "id": 4,
       "title": "2026 Primary Election Endorsements",
       "publisher": "IUOE Local 399",
       "url": "http://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
@@ -151,7 +143,7 @@
       "viewedAt": "2026-10-07"
     },
     {
-      "id": 6,
+      "id": 5,
       "title": "Endorsements - 47th Ward Democrats",
       "publisher": "47th Ward Democrats",
       "url": "https://47thward.com/endorsements/",
@@ -164,7 +156,7 @@
       "url": "https://www.chicagobar.org/CBA/JEC/Judicial_Voters_Guide.aspx",
       "kind": "bar",
       "viewedAt": "2026-10-06",
-      "id": 7
+      "id": 6
     },
     {
       "title": "Evaluation Report: Judges on the Ballot in the November 3, 2026 General Election",
@@ -172,7 +164,7 @@
       "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/CCL-Judicial-Evaluation-Report-for-Nov-3-2026-General-Election_Ballot-Order.pdf",
       "kind": "bar",
       "viewedAt": "2026-10-06",
-      "id": 8
+      "id": 7
     },
     {
       "title": "Alliance of Bar Associations for Judicial Screening, 2026 General Election ratings",
@@ -180,12 +172,20 @@
       "url": "https://www.voteforjudges.org/wp-content/uploads/2026/09/2026-Alliance-General-Ballot-Ratings-09252026.pdf",
       "kind": "bar",
       "viewedAt": "2026-10-06",
-      "id": 9
+      "id": 8
     },
     {
       "title": "Personal PAC 2026 General Election Endorsements",
       "publisher": "Personal PAC",
       "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 10
@@ -195,6 +195,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:30:22.178Z",
-    "version": 6
+    "version": 8
   }
 }

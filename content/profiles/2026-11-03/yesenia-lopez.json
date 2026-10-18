@@ -59,17 +59,17 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Yesenia Lopez",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39844",
-        "period": "April 1 to June 30, 2026",
-        "raised": 0,
-        "cashOnHand": 22126.44,
-        "breakdown": [],
-        "largeSince": { "since": "2026-06-30", "total": 15000, "count": 1 }
+        "period": "July 1 to September 30, 2026",
+        "raised": 15000,
+        "cashOnHand": 35626.44,
+        "breakdown": [{ "kind": "transfer", "amount": 15000 }],
+        "largeSince": { "since": "2026-09-30", "total": 3000, "count": 3 }
       }
     ]
   },
@@ -96,6 +96,16 @@
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
         "cites": [9]
+      },
+      {
+        "organization": "Our Schools Chicago",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [11]
       }
     ]
   },
@@ -171,12 +181,28 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 9
+    },
+    {
+      "title": "Our Endorsed Candidates",
+      "publisher": "Our Schools Chicago (publicschoolchampions.com)",
+      "url": "https://publicschoolchampions.com/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 11
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:48:19.606Z",
-    "version": 4
+    "version": 5
   }
 }

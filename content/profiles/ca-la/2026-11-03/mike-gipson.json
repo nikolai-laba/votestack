@@ -17,7 +17,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -33,7 +33,7 @@
           { "kind": "party", "amount": 9060.58 },
           { "kind": "other", "amount": 27500 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 88722.82, "count": 22 }
+        "largeSince": { "since": "2026-09-19", "total": 114626.12, "count": 33 }
       }
     ]
   },
@@ -43,7 +43,7 @@
       {
         "organization": "Los Angeles Daily News editorial board",
         "kind": "editorial_board",
-        "cites": [4]
+        "cites": [4, 17]
       },
       {
         "organization": "California Democratic Party",
@@ -251,7 +251,18 @@
         "kind": "union",
         "cites": [13]
       },
-      { "organization": "SEIU Local 721", "kind": "union", "cites": [14] }
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [14] },
+      {
+        "organization": "California Federation of Teachers",
+        "kind": "union",
+        "cites": [16]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [18]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [19] }
     ]
   },
   "sources": [
@@ -374,12 +385,44 @@
       "kind": "reference",
       "viewedAt": "2026-10-14",
       "id": 15
+    },
+    {
+      "title": "CFT Endorsements, General Election 2026 (Tuesday, November 3)",
+      "publisher": "California Federation of Teachers",
+      "url": "https://www.cft.org/2026-midterm-elections-hub",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "Southern California News Group endorsements for the Nov. 3, 2026 general election",
+      "publisher": "Southern California News Group (San Gabriel Valley Tribune, Daily News, Daily Breeze, Press-Telegram, Pasadena Star-News, Whittier Daily News)",
+      "url": "https://www.sgvtribune.com/2026/10/01/southern-california-news-groups-endorsements-for-nov-3-general-election/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "California Teamsters Endorsements",
+      "publisher": "Teamsters Joint Council 42",
+      "url": "https://www.teamstersjc42.com/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 19
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.762Z",
-    "version": 9
+    "version": 11
   }
 }

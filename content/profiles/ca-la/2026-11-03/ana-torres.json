@@ -27,7 +27,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -53,6 +53,11 @@
         "organization": "Los Angeles County Federation of Labor",
         "kind": "union",
         "cites": [3]
+      },
+      {
+        "organization": "National Women's Political Caucus San Gabriel Valley",
+        "kind": "organization",
+        "cites": [4]
       }
     ]
   },
@@ -80,12 +85,20 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 3
+    },
+    {
+      "title": "Endorsed Candidates: November 2026 Candidates",
+      "publisher": "NWPC San Gabriel Valley",
+      "url": "https://nwpcsgv.org/endorsed-candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 4
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.505Z",
-    "version": 2
+    "version": 3
   }
 }

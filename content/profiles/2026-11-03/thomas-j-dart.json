@@ -68,20 +68,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Dart",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=19319",
-        "period": "April 1 to June 30, 2026",
-        "raised": 52586.6,
-        "cashOnHand": 432647.53,
+        "period": "July 1 to September 30, 2026",
+        "raised": 22857.49,
+        "cashOnHand": 442016.25,
         "breakdown": [
-          { "kind": "small", "amount": 125 },
-          { "kind": "large", "amount": 52461.6 }
+          { "kind": "small", "amount": 1587.95 },
+          { "kind": "large", "amount": 20769.54 },
+          { "kind": "transfer", "amount": 500 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 12663.1, "count": 7 }
+        "largeSince": { "since": "2026-09-30", "total": 3032.7, "count": 3 }
       }
     ]
   },
@@ -99,7 +100,12 @@
         "cites": [9]
       },
       { "organization": "46th Ward Democrats", "kind": "party", "cites": [10] },
-      { "organization": "47th Ward Democrats", "kind": "party", "cites": [11] }
+      { "organization": "47th Ward Democrats", "kind": "party", "cites": [11] },
+      {
+        "organization": "Cook County Democratic Party",
+        "kind": "party",
+        "cites": [12]
+      }
     ]
   },
   "sources": [
@@ -190,12 +196,20 @@
       "url": "https://47thward.com/endorsements/",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "2026 Endorsed Candidates Guide (November 2026 sample ballot)",
+      "publisher": "Cook County Democratic Party",
+      "url": "https://www.cookcountydems.com/wp-content/uploads/2026/10/CCDP_1200x1200_BallotPost_093026.pdf",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 12
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:37:06.029Z",
-    "version": 4
+    "version": 5
   }
 }

@@ -76,22 +76,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Citizens for Giannoulias",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=19323",
-        "period": "April 1 to June 30, 2026",
-        "raised": 3649332.26,
-        "cashOnHand": 21849062.4,
+        "period": "July 1 to September 30, 2026",
+        "raised": 3066673.64,
+        "cashOnHand": 19152632.6,
         "breakdown": [
-          { "kind": "small", "amount": 363 },
-          { "kind": "large", "amount": 2760150 },
-          { "kind": "transfer", "amount": 773250 },
-          { "kind": "other", "amount": 115569.26 }
+          { "kind": "small", "amount": 4009.85 },
+          { "kind": "large", "amount": 2064354.01 },
+          { "kind": "transfer", "amount": 853200 },
+          { "kind": "other", "amount": 145109.78 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 2093985, "count": 90 }
+        "largeSince": { "since": "2026-09-30", "total": 66028.75, "count": 5 }
       }
     ]
   },
@@ -103,7 +103,7 @@
         "kind": "union",
         "cites": [9]
       },
-      { "organization": "SEIU Healthcare", "kind": "union", "cites": [9] },
+      { "organization": "SEIU Healthcare", "kind": "union", "cites": [9, 19] },
       {
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
@@ -126,7 +126,29 @@
         "cites": [11]
       },
       { "organization": "Personal PAC", "kind": "organization", "cites": [12] },
-      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [13] }
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [13] },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [14] },
+      {
+        "organization": "Chicago Tribune Editorial Board",
+        "kind": "editorial_board",
+        "cites": [15]
+      },
+      {
+        "organization": "Cook County Democratic Party",
+        "kind": "party",
+        "cites": [16]
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [17]
+      },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [18]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [20] }
     ]
   },
   "sources": [
@@ -233,12 +255,68 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 13
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "Tribune Editorial Board endorsements for the 2026 Illinois general election",
+      "publisher": "Chicago Tribune (syndicated on Yahoo News, Oct. 11, 2026)",
+      "url": "https://www.yahoo.com/news/politics/articles/tribune-editorial-board-endorsements-2026-111600003.html",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "2026 Endorsed Candidates Guide (November 2026 sample ballot)",
+      "publisher": "Cook County Democratic Party",
+      "url": "https://www.cookcountydems.com/wp-content/uploads/2026/10/CCDP_1200x1200_BallotPost_093026.pdf",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Planned Parenthood Illinois Action (press release, published by Windy City Times)",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 20
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T21:00:17.066Z",
-    "version": 5
+    "version": 7
   }
 }

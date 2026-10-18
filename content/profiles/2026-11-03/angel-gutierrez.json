@@ -49,21 +49,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends for Angel Gutierrez",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39873",
-        "period": "April 1 to June 30, 2026",
-        "raised": 36875,
-        "cashOnHand": 45932.03,
+        "period": "July 1 to September 30, 2026",
+        "raised": 10766.67,
+        "cashOnHand": 51509.66,
         "breakdown": [
-          { "kind": "small", "amount": 1875 },
-          { "kind": "large", "amount": 33500 },
-          { "kind": "transfer", "amount": 1500 }
-        ],
-        "largeSince": { "since": "2026-06-30", "total": 9500, "count": 2 }
+          { "kind": "small", "amount": 100 },
+          { "kind": "large", "amount": 1000 },
+          { "kind": "transfer", "amount": 9666.67 }
+        ]
       }
     ]
   },
@@ -100,7 +99,17 @@
         "kind": "union",
         "cites": [10]
       },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [11] }
+      { "organization": "Personal PAC", "kind": "organization", "cites": [11] },
+      {
+        "organization": "Fraternal Order of Police Lodge 7",
+        "kind": "union",
+        "cites": [12]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [13]
+      }
     ]
   },
   "sources": [
@@ -158,7 +167,7 @@
       "publisher": "Common Ground Collective",
       "url": "https://cgcollective.org/endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 8,
@@ -191,12 +200,28 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 11
+    },
+    {
+      "title": "Chicago Fraternal Order of Police Lodge 7 Endorsed Candidates, 2026 General Election",
+      "publisher": "Chicago Fraternal Order of Police Lodge 7",
+      "url": "https://www.chicagofop.org/latest-news/2026-endorsed-candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 13
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:48:29.885Z",
-    "version": 4
+    "version": 5
   }
 }

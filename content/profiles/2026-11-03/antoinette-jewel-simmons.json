@@ -34,13 +34,13 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Antoinette Jewel Simmons",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40934",
-        "period": "April 1 to June 30, 2026",
+        "period": "July 1 to September 30, 2026",
         "raised": 0,
         "cashOnHand": 0,
         "breakdown": []
@@ -70,6 +70,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-13T15:06:25.521Z",
-    "version": 4
+    "version": 5
   }
 }

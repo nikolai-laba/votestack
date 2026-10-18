@@ -35,7 +35,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -235,7 +235,7 @@
       "publisher": "Los Angeles League of Conservation Voters",
       "url": "https://lalcv.org/current-endorsements/",
       "kind": "endorser",
-      "viewedAt": "2026-10-15"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 6,
@@ -266,6 +266,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.731Z",
-    "version": 3
+    "version": 4
   }
 }

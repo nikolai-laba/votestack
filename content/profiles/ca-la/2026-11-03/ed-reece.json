@@ -45,12 +45,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
-    "items": [],
-    "filingsAt": {
-      "name": "City of Claremont",
-      "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=280046&dbid=0&repo=r-634094de"
-    }
+    "asOf": "2026-10-17",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Claremont",
+        "committee": "Ed Reece for Claremont City Council",
+        "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=280046&dbid=0&repo=r-634094de",
+        "period": "July 1 to September 19, 2026",
+        "raised": 4031.47,
+        "cashOnHand": 12608.56,
+        "fromScan": "ai"
+      }
+    ]
   },
   "endorsements": {
     "asOf": "2026-10-15",
@@ -118,6 +125,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.533Z",
-    "version": 3
+    "version": 4
   }
 }

@@ -1,0 +1,715 @@
+{
+  "slug": "unite-here-local-11",
+  "endorser": "UNITE HERE Local 11",
+  "kind": "union",
+  "title": "2026 California Voter Guide / Guía de votantes de California",
+  "publisher": "UNITE HERE Local 11",
+  "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+  "notes": "Orange, Riverside and San Bernardino county locals and the Fourth District Court of Appeal omitted; all U.S. House, Assembly and Senate entries kept (some are outside LA County). Where the page says 'X or Y' / 'Choose between one of the two', both are recorded as support. Retention judges listed 'YES'. Ballot measures omitted.",
+  "verify": {
+    "general": "yes",
+    "checkedAt": "2026-10-17",
+    "fixes": [],
+    "removed": [
+      "Either-or picks left out (8 entries): a choice between two isn't an endorsement of both."
+    ],
+    "note": "'2026 California Voter Guide', 'Election Day is November 3, 2026', last updated 10/16/26; all 140 entries confirmed (fetched with curl). Page misspellings kept as transcribed: 'Kurt Gonksa' and 'Sue Himmerlich' (ballot: Kurt Gonska, Sue Himmelrich), 'Ricardo Ortega-Martinez' (ballot: Ricardo Ortega, AVCCD Area 2). Either-or picks on the page: Santa Monica Council 'Brett Morrow or Doug Tressler', West Hollywood 'Jonathan Cottrell or Stephen Post', Superior Court Office 87 (Bayne or DeJute) and Office 131 (Ross or Tryfman) 'choose between one of the two'. Centinela Valley UHSD Trustee Area 5 (Estefany Castañeda) is on the page but no matching contest was found in content/contests/ca-la/2026-11-03.json. Measure positions and the 'Whittier School Board District 5' line (matches Whittier City SD Trustee Area 5 on the ballot) noted."
+  },
+  "note": "Transcribed from the page by a researcher. Hospitality workers' union (hotel, airport, stadium workers in Southern California); its membership's endorsements. General election: \"\"Election Day is November 3, 2026.\" / \"Las elecciones son el 3 de noviembre, 2026.\"\"",
+  "fetchedAt": "2026-10-17",
+  "entries": [
+    {
+      "name": "NITHYA RAMAN",
+      "office": "City of Los Angeles, Mayor",
+      "matchedKey": "nithya-raman"
+    },
+    {
+      "name": "Marissa Roy",
+      "office": "City of Los Angeles, City Attorney",
+      "matchedKey": "marissa-roy"
+    },
+    {
+      "name": "Robert Luna",
+      "office": "Los Angeles County, Sheriff",
+      "matchedKey": "robert-g-luna"
+    },
+    {
+      "name": "Steve Veres",
+      "office": "Los Angeles Community College District, Member of the Board of Trustees, Seat 2",
+      "matchedKey": "steven-f-veres"
+    },
+    {
+      "name": "Darryn Harris",
+      "office": "Los Angeles Community College District, Member of the Board of Trustees, Seat 4",
+      "matchedKey": "darryn-harris"
+    },
+    {
+      "name": "Randall Winston",
+      "office": "Los Angeles Community College District, Member of the Board of Trustees, Seat 6",
+      "matchedKey": "randall-winston"
+    },
+    {
+      "name": "Ricardo Ortega",
+      "office": "Antelope Valley Community College District, Governing Board Member, Trustee Area 2",
+      "matchedKey": "ricardo-ortega"
+    },
+    {
+      "name": "Dan Rocha",
+      "office": "City of Artesia, Member of the City Council",
+      "matchedKey": "dan-rocha"
+    },
+    {
+      "name": "Nikki Perez",
+      "office": "City of Burbank, Member of the City Council",
+      "matchedKey": "nikki-perez"
+    },
+    {
+      "name": "Mike Van Gorder",
+      "office": "City of Burbank, Member of the City Council",
+      "matchedKey": "mike-van-gorder"
+    },
+    {
+      "name": "Nolan Sutherland",
+      "office": "City of Burbank, Member of the City Council",
+      "matchedKey": null,
+      "status": "unmatched",
+      "note": "On the ballot for this office: Chris Yoosefi; David Phillip Donahue; Eddy Polon; Hovanes \"Hov\" Tonoyan; Jackie Waltman; Jonathan Ontiveros; Jt Parr; Mike Van Gorder; Nikki Perez; Nolan Southerland; Robbie Brody; Samantha Wick; Tamala Takahashi; Kimberley Clark; Krystle Palmer"
+    },
+    {
+      "name": "Estefany Castañeda",
+      "office": "Centinela Valley Union High School District, Governing Board Member, Trustee Area 5",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Cynthia Gonzalez",
+      "office": "City of Cudahy, Member of the City Council",
+      "matchedKey": "cynthia-gonzalez"
+    },
+    {
+      "name": "Cynthia Romo",
+      "office": "City of Cudahy, Member of the City Council",
+      "matchedKey": "cynthia-romo"
+    },
+    {
+      "name": "Jeannine Wisnoky-Stehlin",
+      "office": "City of Culver City, Member of the City Council",
+      "matchedKey": "jeannine-wisnosky-stehlin"
+    },
+    {
+      "name": "Jessica Ancona",
+      "office": "City of El Monte, Mayor",
+      "matchedKey": "jessica-ancona"
+    },
+    {
+      "name": "Alex Monteiro",
+      "office": "City of Hawthorne, Member of the City Council",
+      "matchedKey": "alexandre-alex-monteiro"
+    },
+    {
+      "name": "Gloria Gray",
+      "office": "City of Inglewood, Mayor",
+      "matchedKey": "gloria-d-gray"
+    },
+    {
+      "name": "Leonard Redway",
+      "office": "City of Inglewood, Member of the City Council, 1st District",
+      "matchedKey": "leonard-redway"
+    },
+    {
+      "name": "Subrina Miller",
+      "office": "City of Inglewood, Member of the City Council, 2nd District",
+      "matchedKey": "subrina-miller"
+    },
+    {
+      "name": "Yaritza A. Gonzalez",
+      "office": "Inglewood Unified School District, Governing Board Member",
+      "matchedKey": "yaritza-a-gonzalez"
+    },
+    {
+      "name": "Juan Muñoz-Guevara",
+      "office": "City of Lynwood, Member of the City Council",
+      "matchedKey": "juan-munoz-guevara"
+    },
+    {
+      "name": "Mishaun Watkins",
+      "office": "City of Lynwood, Member of the City Council",
+      "matchedKey": "mishaun-watkins"
+    },
+    {
+      "name": "Emiliano Arellano",
+      "office": "City of Lynwood, Member of the City Council",
+      "matchedKey": "emiliano-arellano"
+    },
+    {
+      "name": "Martina Rodriguez",
+      "office": "Lynwood Unified School District, Governing Board Member",
+      "matchedKey": "martina-rodriguez"
+    },
+    {
+      "name": "Eddie de la Riva",
+      "office": "City of Maywood, Member of the City Council",
+      "matchedKey": "eduardo-eddie-de-la-riva"
+    },
+    {
+      "name": "Mayra Aguiluz",
+      "office": "City of Maywood, Member of the City Council",
+      "matchedKey": "mayra-aguiluz"
+    },
+    {
+      "name": "Anthony Armendarez",
+      "office": "Norwalk-La Mirada Unified School District, Governing Board Member, Trustee Area 4",
+      "matchedKey": "anthony-armendarez"
+    },
+    {
+      "name": "Caroline Torosis",
+      "office": "City of Santa Monica, Member of the City Council",
+      "matchedKey": "caroline-m-torosis"
+    },
+    {
+      "name": "Danny Ivanov",
+      "office": "City of Santa Monica, Member of the City Council",
+      "matchedKey": "daniel-ivanov"
+    },
+    {
+      "name": "Kera Blades-Snell",
+      "office": "Santa Monica Community College District, Member, Board of Trustees",
+      "matchedKey": "kera-blades-snell"
+    },
+    {
+      "name": "Tom Peters",
+      "office": "Santa Monica Community College District, Member, Board of Trustees",
+      "matchedKey": "tom-peters"
+    },
+    {
+      "name": "Alicia Mignano",
+      "office": "Santa Monica-Malibu Unified School District, Governing Board Member",
+      "matchedKey": "alicia-mignano"
+    },
+    {
+      "name": "Laurie Lieberman",
+      "office": "Santa Monica-Malibu Unified School District, Governing Board Member",
+      "matchedKey": "laurie-lieberman"
+    },
+    {
+      "name": "Robbie Staenberg",
+      "office": "Santa Monica-Malibu Unified School District, Governing Board Member",
+      "matchedKey": "robbie-staenberg"
+    },
+    {
+      "name": "Heather Thomason",
+      "office": "City of Santa Monica, Member of the Rent Control Board",
+      "matchedKey": "heather-thomason"
+    },
+    {
+      "name": "Kurt Gonska",
+      "office": "City of Santa Monica, Member of the Rent Control Board",
+      "matchedKey": "kurt-gonska"
+    },
+    {
+      "name": "Sue Himmelrich",
+      "office": "City of Santa Monica, Member of the Rent Control Board",
+      "matchedKey": "sue-himmelrich"
+    },
+    {
+      "name": "Chelsea Byers",
+      "office": "City of West Hollywood, Member of the City Council",
+      "matchedKey": "chelsea-byers"
+    },
+    {
+      "name": "Helen Krieger",
+      "office": "City of West Hollywood, Member of the City Council",
+      "matchedKey": "helen-krieger"
+    },
+    {
+      "name": "Tonia Reyes Uranga",
+      "office": "Water Replenishment District of Southern California, Director, Division 3",
+      "matchedKey": "tonia-reyes-uranga"
+    },
+    {
+      "name": "Andrew Roble",
+      "office": "Whittier City School District, Governing Board Member, Trustee Area 5",
+      "matchedKey": "andrew-roble"
+    },
+    {
+      "name": "Raul Ruiz",
+      "office": "United States Representative, 25th District",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "George Whitesides",
+      "office": "United States Representative, 27th District",
+      "matchedKey": "george-whitesides"
+    },
+    {
+      "name": "Judy Chu",
+      "office": "United States Representative, 28th District",
+      "matchedKey": "judy-chu"
+    },
+    {
+      "name": "Luz Rivas",
+      "office": "United States Representative, 29th District",
+      "matchedKey": "luz-maria-rivas"
+    },
+    {
+      "name": "Laura Friedman",
+      "office": "United States Representative, 30th District",
+      "matchedKey": "laura-friedman"
+    },
+    {
+      "name": "Gil Cisneros",
+      "office": "United States Representative, 31st District",
+      "matchedKey": "gil-cisneros"
+    },
+    {
+      "name": "Brad Sherman",
+      "office": "United States Representative, 32nd District",
+      "matchedKey": "brad-sherman"
+    },
+    {
+      "name": "Pete Aguilar",
+      "office": "United States Representative, 33rd District",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Jimmy Gomez",
+      "office": "United States Representative, 34th District",
+      "matchedKey": "jimmy-gomez"
+    },
+    {
+      "name": "Norma Torres",
+      "office": "United States Representative, 35th District",
+      "matchedKey": "norma-j-torres"
+    },
+    {
+      "name": "Ted Lieu",
+      "office": "United States Representative, 36th District",
+      "matchedKey": "ted-w-lieu"
+    },
+    {
+      "name": "Sydney Kamlager-Dove",
+      "office": "United States Representative, 37th District",
+      "matchedKey": "sydney-kamlager-dove"
+    },
+    {
+      "name": "Hilda Solis",
+      "office": "United States Representative, 38th District",
+      "matchedKey": "hilda-solis"
+    },
+    {
+      "name": "Mark Takano",
+      "office": "United States Representative, 39th District",
+      "matchedKey": null,
+      "status": "unmatched",
+      "note": "On the ballot for this office: Juan Carrillo; Paul Andre Marsh"
+    },
+    {
+      "name": "Linda Sanchez",
+      "office": "United States Representative, 41st District",
+      "matchedKey": "linda-sanchez"
+    },
+    {
+      "name": "Robert Garcia",
+      "office": "United States Representative, 42nd District",
+      "matchedKey": "robert-garcia"
+    },
+    {
+      "name": "Maxine Waters",
+      "office": "United States Representative, 43rd District",
+      "matchedKey": "maxine-waters"
+    },
+    {
+      "name": "Nanette Barragan",
+      "office": "United States Representative, 44th District",
+      "matchedKey": "nanette-diaz-barragan"
+    },
+    {
+      "name": "Derek Tran",
+      "office": "United States Representative, 45th District",
+      "matchedKey": "derek-tran"
+    },
+    {
+      "name": "Lou Correa",
+      "office": "United States Representative, 46th District",
+      "matchedKey": null,
+      "status": "unmatched",
+      "note": "On the ballot for this office: Jesse Gabriel; Tracey Schroeder"
+    },
+    {
+      "name": "Dave Min",
+      "office": "United States Representative, 47th District",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Marni von Wilpert",
+      "office": "United States Representative, 48th District",
+      "matchedKey": null,
+      "status": "unmatched",
+      "note": "On the ballot for this office: Blanca Rubio; Dan T. Tran"
+    },
+    {
+      "name": "Mike Levin",
+      "office": "United States Representative, 49th District",
+      "matchedKey": null,
+      "status": "unmatched",
+      "note": "On the ballot for this office: Long David Liu; Mike Fong"
+    },
+    {
+      "name": "Xavier Becerra",
+      "office": "Governor",
+      "matchedKey": "xavier-becerra"
+    },
+    {
+      "name": "Fiona Ma",
+      "office": "Lieutenant Governor",
+      "matchedKey": "fiona-ma"
+    },
+    {
+      "name": "Shirley Weber",
+      "office": "Secretary of State",
+      "matchedKey": "shirley-n-weber"
+    },
+    {
+      "name": "Rob Bonta",
+      "office": "Attorney General",
+      "matchedKey": "rob-bonta"
+    },
+    {
+      "name": "Malia Cohen",
+      "office": "Controller",
+      "matchedKey": "malia-m-cohen"
+    },
+    {
+      "name": "Eleni Kounalakis",
+      "office": "Treasurer",
+      "matchedKey": "eleni-kounalakis"
+    },
+    {
+      "name": "Ben Allen",
+      "office": "Insurance Commissioner",
+      "matchedKey": "ben-allen"
+    },
+    {
+      "name": "Richard Barrera",
+      "office": "Superintendent of Public Instruction",
+      "matchedKey": "richard-barrera"
+    },
+    {
+      "name": "Nelson Esparza",
+      "office": "Member, State Board of Equalization, 1st District",
+      "matchedKey": null,
+      "status": "unmatched",
+      "note": "On the ballot for this office: Andres Ramos; Skyy D. Fisher; Francis Pollara; Geoff Baum; Anais Medina Diaz; David Stephen Siegrist; Darlene Trevino; Reza Rassool; Ben Berk; Sylvia P. Williams; Kathryn Dunn; Krista Carson Elhai; Brenda Smith; Lisa Michelle Dabbs; Oscar Mejia; Timothy M. Wiley; Wayne M. Kalliomaa; Matthew Matias; Regina Cuadra; Cheryl Shaw Williams; Joyce Randall; Blanca Nava; Karina Martinez; Bonnie J. Coronado; Jennifer R. Bagley; Eliana Tapia; Susana Ramirez; Nancy K. Smith; Ralph Velador; Felita Kealing; Kimberly Kenne; Christine Raquel Cruz-Arvayo; John Mendoza; Lisa C. Nashua; Agnes P. Gonzalez; Obie Obiacoro; Kevin Kim; Larry Grable; Natalie Epstein; Drew Mercy; Lynn Robert Barnes; Bill Cooper; Noah M. Ropp; Anthony J. Fidaleo; Deirdre Badal; Tim Zajic; Tommy G. Faavae; Amy J. Wong; Ron Sahu; Andrew N. Mendez; Mark A. Caro; Patricia \"Trish\" Gonzales; Aaron K. Drake; Wendi Morse; Ruben Torres; Steve Tye; Luz Yesenia Paez; Margaret E. Finlay; Michael Allawos; Teri Merrick; Keokia Childress; Leonard Redway; William Perez; Yolanda Davidson; Steven Frank Johnson; Thomas D. Allison; Georgina Tamayo; Kimberly Cobos Cawthorne; Rafael Santoya; Shazia Hoq; Thomas Wong"
+    },
+    {
+      "name": "Mike Gipson",
+      "office": "Member, State Board of Equalization, 3rd District",
+      "matchedKey": "mike-gipson"
+    },
+    {
+      "name": "Tom Umberg",
+      "office": "Member, State Board of Equalization, 4th District",
+      "matchedKey": null,
+      "status": "unmatched",
+      "note": "On the ballot for this office: Michael R. Adams; Nashon T. Mitchell; Juanita Doplemore; Peter K. Parker; Adam Bruno; Darryn Harris; Elaine Alaniz; Isidro J. Armenta; Jason R. Aula; Nancy Pearlman; Priscilla Umana; Jessica Gonyea; Michael E. Hammett; Gary C. Rodriguez; Simon Wright; Miguel Angel Hernandez Jr.; Thomas Baird; Florencio Briones; Jacqueline Yvette Castañon; Gino Kwok; Melissa C. Smith; Tran Bao Satter; Anthony Armendarez; Josue Alvarez; Alicia Linden Anderson; Yesenia Maria Cuarenta; Pawn Kongkosonkichkan; Roberta Perlman; Amy I. Chen; Laura Olhasso; Helen Grace Avila Olivares; Sheree Rae Butts; Jorgel Chavez; Samuel A. Peña; Sergio Joseph Calderon; Arleen Bocatija Rojas; John Hollaway; Anna Jacobsen; Aundre Johnson; Lawrence Mueller; Chia-Yu Teng; Lee Mao; Carrie Uva; Lissette Rivera; Martha Camacho Rodriguez; Karen K. Davis; Lindsey Morgan; Ralph Munoz IV; Graciela Ortiz; Valentin Amezquita; Timothy Hepburn; Danielle Romero; Rafael Gutierrez; Eric Ohlsen; Francisco Sanchez; Getro Elize; Mark Maldonado; Jeffrey Berman; Laurene Weste; Nick Somers; Peter Yahiayan; Valerie Bradford; Michael Cacciotti; Nevin Stanton-Trehan; Danny Roman; Ollie Cantos; Pauline Pezza"
+    },
+    {
+      "name": "Ida Obeso-Martinez",
+      "office": "Member of the State Assembly, 36th District",
+      "matchedKey": null,
+      "status": "unmatched",
+      "note": "On the ballot for this office: Houston Brignano; Ted W. Lieu; Chris Duncan; Tony Strickland"
+    },
+    {
+      "name": "Juan Carrillo",
+      "office": "Member of the State Assembly, 39th District",
+      "matchedKey": "juan-carrillo"
+    },
+    {
+      "name": "Pilar Schiavo",
+      "office": "Member of the State Assembly, 40th District",
+      "matchedKey": "pilar-schiavo"
+    },
+    {
+      "name": "John Harabedian",
+      "office": "Member of the State Assembly, 41st District",
+      "matchedKey": "john-harabedian"
+    },
+    {
+      "name": "Deborah Klein Lopez",
+      "office": "Member of the State Assembly, 42nd District",
+      "matchedKey": "deborah-klein-lopez"
+    },
+    {
+      "name": "Celeste Rodriguez",
+      "office": "Member of the State Assembly, 43rd District",
+      "matchedKey": "celeste-rodriguez"
+    },
+    {
+      "name": "Nick Schultz",
+      "office": "Member of the State Assembly, 44th District",
+      "matchedKey": "nicholas-nick-schultz"
+    },
+    {
+      "name": "James Ramos",
+      "office": "Member of the State Assembly, 45th District",
+      "matchedKey": null,
+      "status": "unmatched",
+      "note": "On the ballot for this office: Chuong V. Vo; Derek Tran"
+    },
+    {
+      "name": "Jesse Gabriel",
+      "office": "Member of the State Assembly, 46th District",
+      "matchedKey": "jesse-gabriel"
+    },
+    {
+      "name": "Leila Namvar",
+      "office": "Member of the State Assembly, 47th District",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Mike Fong",
+      "office": "Member of the State Assembly, 49th District",
+      "matchedKey": "mike-fong"
+    },
+    {
+      "name": "Robert Garcia",
+      "office": "Member of the State Assembly, 50th District",
+      "matchedKey": null,
+      "status": "unmatched",
+      "note": "Name fits Robert Garcia (U.S. Representative, 42nd District), but not the office"
+    },
+    {
+      "name": "Rick Chavez Zbur",
+      "office": "Member of the State Assembly, 51st District",
+      "matchedKey": "rick-chavez-zbur"
+    },
+    {
+      "name": "Jessica Caloza",
+      "office": "Member of the State Assembly, 52nd District",
+      "matchedKey": "jessica-caloza"
+    },
+    {
+      "name": "Michelle Rodriguez",
+      "office": "Member of the State Assembly, 53rd District",
+      "matchedKey": "michelle-rodriguez"
+    },
+    {
+      "name": "Mark Gonzalez",
+      "office": "Member of the State Assembly, 54th District",
+      "matchedKey": "mark-gonzalez"
+    },
+    {
+      "name": "Isaac Bryan",
+      "office": "Member of the State Assembly, 55th District",
+      "matchedKey": "isaac-g-bryan"
+    },
+    {
+      "name": "Lisa Calderon",
+      "office": "Member of the State Assembly, 56th District",
+      "matchedKey": "lisa-calderon"
+    },
+    {
+      "name": "Sade Elhawary",
+      "office": "Member of the State Assembly, 57th District",
+      "matchedKey": "sade-elhawary"
+    },
+    {
+      "name": "Clarissa Cervantes",
+      "office": "Member of the State Assembly, 58th District",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Corey Jackson",
+      "office": "Member of the State Assembly, 60th District",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Tina McKinnor",
+      "office": "Member of the State Assembly, 61st District",
+      "matchedKey": "tina-simone-mckinnor"
+    },
+    {
+      "name": "Jose Solache",
+      "office": "Member of the State Assembly, 62nd District",
+      "matchedKey": "jose-luis-solache"
+    },
+    {
+      "name": "Kevin Akin",
+      "office": "Member of the State Assembly, 63rd District",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Ayanna Davis",
+      "office": "Member of the State Assembly, 65th District",
+      "matchedKey": "ayanna-davis"
+    },
+    {
+      "name": "Josh Lowenthal",
+      "office": "Member of the State Assembly, 69th District",
+      "matchedKey": "josh-lowenthal"
+    },
+    {
+      "name": "Paula Swift",
+      "office": "Member of the State Assembly, 70th District",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "JJ Galvez",
+      "office": "Member of the State Assembly, 71st District",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "Chris Kluwe",
+      "office": "Member of the State Assembly, 72nd District",
+      "matchedKey": null,
+      "status": "outside"
+    },
+    {
+      "name": "John Erickson",
+      "office": "State Senator, 24th District",
+      "matchedKey": "john-m-erickson"
+    },
+    {
+      "name": "Lola Smallwood-Cuevas",
+      "office": "State Senator, 28th District",
+      "matchedKey": "lola-smallwood-cuevas"
+    },
+    {
+      "name": "Dr. Tiffanie Tate",
+      "office": "State Senator, 32nd District",
+      "matchedKey": null,
+      "status": "unmatched",
+      "note": "On the ballot for this office: Brad Sherman; Larry Thompson"
+    },
+    {
+      "name": "Avelino Valencia",
+      "office": "State Senator, 34th District",
+      "matchedKey": "avelino-valencia"
+    },
+    {
+      "name": "Chris Duncan",
+      "office": "State Senator, 36th District",
+      "matchedKey": "chris-duncan"
+    },
+    {
+      "name": "Joshua Groban",
+      "office": "Associate Justice, California Supreme Court (retention)",
+      "matchedKey": "joshua-groban"
+    },
+    {
+      "name": "Kelli M. Evans",
+      "office": "Associate Justice, California Supreme Court (retention)",
+      "matchedKey": "kelli-m-evans"
+    },
+    {
+      "name": "Michelle C. Kim",
+      "office": "Associate Justice, Court of Appeal, Second Appellate District (retention)",
+      "matchedKey": "michelle-c-kim"
+    },
+    {
+      "name": "Gregory J. Weingart",
+      "office": "Associate Justice, Court of Appeal, Second Appellate District (retention)",
+      "matchedKey": "gregory-j-weingart"
+    },
+    {
+      "name": "Anne Richardson",
+      "office": "Associate Justice, Court of Appeal, Second Appellate District (retention)",
+      "matchedKey": "anne-richardson"
+    },
+    {
+      "name": "Steve Goorvitch",
+      "office": "Associate Justice, Court of Appeal, Second Appellate District (retention)",
+      "matchedKey": "steve-goorvitch"
+    },
+    {
+      "name": "Rashida A. Adams",
+      "office": "Presiding Justice, Court of Appeal, Second Appellate District (retention)",
+      "matchedKey": "rashida-a-adams"
+    },
+    {
+      "name": "Mark Hanasono",
+      "office": "Associate Justice, Court of Appeal, Second Appellate District (retention)",
+      "matchedKey": "mark-hanasono"
+    },
+    {
+      "name": "Helen Zukin",
+      "office": "Presiding Justice, Court of Appeal, Second Appellate District (retention)",
+      "matchedKey": "helen-zukin"
+    },
+    {
+      "name": "Nicholas Daum",
+      "office": "Associate Justice, Court of Appeal, Second Appellate District (retention)",
+      "matchedKey": "nicholas-daum"
+    },
+    {
+      "name": "Audra M. Mori",
+      "office": "Associate Justice, Court of Appeal, Second Appellate District (retention)",
+      "matchedKey": "audra-m-mori"
+    },
+    {
+      "name": "Armen Tamzarian",
+      "office": "Associate Justice, Court of Appeal, Second Appellate District (retention)",
+      "matchedKey": "armen-tamzarian"
+    },
+    {
+      "name": "Brian M. Hoffstadt",
+      "office": "Presiding Justice, Court of Appeal, Second Appellate District (retention)",
+      "matchedKey": "brian-m-hoffstadt"
+    },
+    {
+      "name": "Tari L. Cody",
+      "office": "Presiding Justice, Court of Appeal, Second Appellate District (retention)",
+      "matchedKey": "tari-l-cody"
+    },
+    {
+      "name": "Kenneth R. Yegan",
+      "office": "Associate Justice, Court of Appeal, Second Appellate District (retention)",
+      "matchedKey": "kenneth-r-yegan"
+    },
+    {
+      "name": "Gonzalo C. Martinez",
+      "office": "Presiding Justice, Court of Appeal, Second Appellate District (retention)",
+      "matchedKey": "gonzalo-c-martinez"
+    },
+    {
+      "name": "Natalie Stone",
+      "office": "Associate Justice, Court of Appeal, Second Appellate District (retention)",
+      "matchedKey": "natalie-stone"
+    },
+    {
+      "name": "John Wiley",
+      "office": "Associate Justice, Court of Appeal, Second Appellate District (retention)",
+      "matchedKey": "john-wiley"
+    },
+    {
+      "name": "Matthew A. Scherb",
+      "office": "Associate Justice, Court of Appeal, Second Appellate District (retention)",
+      "matchedKey": "matthew-a-scherb"
+    },
+    {
+      "name": "Victor G. Viramontes",
+      "office": "Associate Justice, Court of Appeal, Second Appellate District (retention)",
+      "matchedKey": "victor-g-viramontes"
+    },
+    {
+      "name": "Maria Ghobadi",
+      "office": "Judge of the Superior Court, Office No. 64",
+      "matchedKey": "maria-ghobadi"
+    },
+    {
+      "name": "Justin Clayton",
+      "office": "Judge of the Superior Court, Office No. 65",
+      "matchedKey": "justin-allen-clayton"
+    }
+  ]
+}

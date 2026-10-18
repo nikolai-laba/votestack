@@ -34,7 +34,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -261,7 +261,8 @@
         "organization": "Los Angeles County Federation of Labor",
         "kind": "union",
         "cites": [10]
-      }
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [11] }
     ]
   },
   "sources": [
@@ -327,7 +328,7 @@
       "publisher": "Stonewall Democratic Club",
       "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
       "kind": "endorser",
-      "viewedAt": "2026-10-14"
+      "viewedAt": "2026-10-17"
     },
     {
       "title": "November 2026 LA Progressive Voter Guide",
@@ -344,12 +345,20 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 10
+    },
+    {
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 11
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.896Z",
-    "version": 4
+    "version": 5
   }
 }

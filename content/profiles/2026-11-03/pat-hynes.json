@@ -67,21 +67,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Hynes for Assessor",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=36733",
-        "period": "April 1 to June 30, 2026",
-        "raised": 122525,
-        "cashOnHand": 100723.25,
+        "period": "July 1 to September 30, 2026",
+        "raised": 82100,
+        "cashOnHand": 115253.14,
         "breakdown": [
-          { "kind": "small", "amount": 25 },
-          { "kind": "large", "amount": 120000 },
-          { "kind": "transfer", "amount": 2500 }
-        ],
-        "largeSince": { "since": "2026-06-30", "total": 81100, "count": 21 }
+          { "kind": "large", "amount": 53100 },
+          { "kind": "transfer", "amount": 29000 }
+        ]
       }
     ]
   },
@@ -91,156 +89,168 @@
       {
         "organization": "Cook County Democratic Party",
         "kind": "party",
-        "cites": [8]
+        "cites": [15]
       },
       {
         "organization": "Chicago Federation of Labor",
         "kind": "union",
-        "cites": [9]
+        "cites": [8]
       },
-      { "organization": "BOMA/Chicago", "kind": "organization", "cites": [10] },
+      { "organization": "BOMA/Chicago", "kind": "organization", "cites": [9] },
       {
         "organization": "Former Congressman Bobby Rush",
         "kind": "elected_official",
         "party": "Democratic",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "Illinois Attorney General Kwame Raoul",
         "kind": "elected_official",
         "party": "Democratic",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "Former Secretary of State Jesse White",
         "kind": "elected_official",
         "party": "Democratic",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "Illinois House Speaker Chris Welch",
         "kind": "elected_official",
         "party": "Democratic",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "State Senator Elgie Sims",
         "kind": "elected_official",
         "party": "Democratic",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "Cook County Board President Toni Preckwinkle",
         "kind": "elected_official",
         "party": "Democratic",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "Cook County Clerk Monica Gordon",
         "kind": "elected_official",
         "party": "Democratic",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "Cook County Commissioner John Daley",
         "kind": "elected_official",
         "party": "Democratic",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "Cook County Commissioner Josina Morita",
         "kind": "elected_official",
         "party": "Democratic",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "MWRD Commissioner Precious Brady-Davis",
         "kind": "elected_official",
         "party": "Democratic",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "MWRD Commissioner Theresa Flynn",
         "kind": "elected_official",
         "party": "Democratic",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "MWRD Commissioner Beth McElroy Kirkwood",
         "kind": "elected_official",
         "party": "Democratic",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "Chicago City Clerk Anna Valencia",
         "kind": "elected_official",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "Chicago Alderperson Brian Hopkins",
         "kind": "elected_official",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "Chicago Alderperson Michelle Harris",
         "kind": "elected_official",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "Chicago Alderperson Pete Chico",
         "kind": "elected_official",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "Chicago Alderperson Stephanie Coleman",
         "kind": "elected_official",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "Chicago Alderperson David Moore",
         "kind": "elected_official",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "Chicago Alderperson Derrick Curtis",
         "kind": "elected_official",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "Chicago Alderperson Matt O'Shea",
         "kind": "elected_official",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "Chicago Alderperson Walter \"Red\" Burnett",
         "kind": "elected_official",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "Chicago Alderperson Jason Erivin",
         "kind": "elected_official",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "Chicago Alderperson Ruth Cruz",
         "kind": "elected_official",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "Chicago Alderperson Felix Cardona",
         "kind": "elected_official",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "Chicago Alderperson Bill Conway",
         "kind": "elected_official",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
-        "cites": [12]
-      }
+        "cites": [11]
+      },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [12] },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [13]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [14]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [14] }
     ]
   },
   "sources": [
@@ -302,14 +312,6 @@
     },
     {
       "id": 8,
-      "title": "Two-term incumbent faces party's pick in Cook County assessor primary",
-      "publisher": "Daily Herald",
-      "url": "https://www.dailyherald.com/20260313/local-politics/two-term-incumbent-faces-partys-pick-in-cook-county-assessor-primary/",
-      "kind": "news",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 9,
       "title": "Chicago Real Estate Pros Favor Pat Hynes in Assessor Race",
       "publisher": "The Real Deal",
       "url": "https://therealdeal.com/chicago/2026/02/06/chicago-real-estate-pros-favor-pat-hynes-in-assessor-race/",
@@ -317,7 +319,7 @@
       "viewedAt": "2026-10-07"
     },
     {
-      "id": 10,
+      "id": 9,
       "title": "Assessor's Race - BOMA / CHICAGO",
       "publisher": "BOMA/Chicago",
       "url": "https://www.bomachicago.org/assessor/",
@@ -325,7 +327,7 @@
       "viewedAt": "2026-10-07"
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "Endorsements — Pat Hynes for Cook County Assessor",
       "publisher": "Pat Hynes for Cook County Assessor",
       "url": "https://www.assessorhynes.com/endorsements",
@@ -338,13 +340,45 @@
       "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
       "id": 12
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "2026 Endorsed Candidates Guide (November 2026 sample ballot)",
+      "publisher": "Cook County Democratic Party",
+      "url": "https://www.cookcountydems.com/wp-content/uploads/2026/10/CCDP_1200x1200_BallotPost_093026.pdf",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:33:31.353Z",
-    "version": 3
+    "version": 5
   }
 }

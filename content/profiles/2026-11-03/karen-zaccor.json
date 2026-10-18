@@ -33,20 +33,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Neighbors for Karen Zaccor for ERSB",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39866",
-        "period": "April 1 to June 30, 2026",
-        "raised": 5290,
-        "cashOnHand": 5627.43,
+        "period": "July 1 to September 30, 2026",
+        "raised": 28755,
+        "cashOnHand": 19250.49,
         "breakdown": [
-          { "kind": "small", "amount": 1990 },
-          { "kind": "large", "amount": 3300 }
+          { "kind": "small", "amount": 4948 },
+          { "kind": "large", "amount": 17905 },
+          { "kind": "transfer", "amount": 902 },
+          { "kind": "loan", "amount": 5000 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 31525.45, "count": 7 }
+        "largeSince": { "since": "2026-09-30", "total": 52154.15, "count": 2 }
       }
     ]
   },
@@ -104,6 +106,16 @@
         "organization": "44th Ward Action",
         "kind": "organization",
         "cites": [7]
+      },
+      {
+        "organization": "Independent Voters of Illinois-Independent Precinct Organization (IVI-IPO)",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "ONE People's Campaign",
+        "kind": "organization",
+        "cites": [13]
       }
     ]
   },
@@ -195,12 +207,28 @@
       "url": "https://www.wbez.org/education/chicago-school-board/2026/09/21/key-education-endorsements-for-cps-school-board-candidates",
       "kind": "news",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "General Election Endorsements!",
+      "publisher": "IVI-IPO",
+      "url": "https://www.iviipo.org/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "Our 2026 Chicago School Board Endorsements",
+      "publisher": "ONE People's Campaign",
+      "url": "https://onepeoplescampaign.org/2026/08/our-2026-chicago-school-board-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 13
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:44:44.570Z",
-    "version": 5
+    "version": 6
   }
 }

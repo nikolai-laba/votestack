@@ -61,7 +61,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -310,7 +310,18 @@
       },
       { "organization": "Knock LA", "kind": "organization", "cites": [14] },
       { "organization": "LA Forward", "kind": "organization", "cites": [15] },
-      { "organization": "SEIU Local 721", "kind": "union", "cites": [16] }
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [16] },
+      {
+        "organization": "Armenian National Committee of America, Western Region",
+        "kind": "organization",
+        "cites": [17]
+      },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [18]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [19] }
     ]
   },
   "sources": [
@@ -441,12 +452,36 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 16
+    },
+    {
+      "title": "ANCA Western Region 2026 General Election Endorsements",
+      "publisher": "ANCA Western Region",
+      "url": "https://ancawr.org/elect26/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "November 2026 Stonewall Democratic Club Endorsements",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 19
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.442Z",
-    "version": 7
+    "version": 8
   }
 }

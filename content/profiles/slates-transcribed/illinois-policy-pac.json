@@ -1,0 +1,61 @@
+{
+  "slug": "illinois-policy-pac",
+  "endorser": "Illinois Policy PAC",
+  "kind": "organization",
+  "title": "Who is running for Chicago school board in 2026? (table: \"Illinois Policy PAC endorsed\")",
+  "publisher": "Illinois Policy / Illinois Policy PAC",
+  "url": "https://www.illinoispolicy.org/chicago-school-board-election-2026/",
+  "generalEvidence": "Oct. 6, 2026: \"Here is where you can find which candidates are endorsed by the Chicago Teachers Union and which are endorsed by the Illinois Policy PAC ... Each subdistrict will be represented by one member elected in the 2026 general election ... Claim your vote for the Nov. 3 election.\" Table data: https://datawrapper.dwcdn.net/X0ux0/6/",
+  "whyItCounts": "Political action committee of a free-market policy group (lower taxes, pension reform, school choice).",
+  "entries": [
+    {
+      "name": "Margie B. Luczak",
+      "office": "Chicago Board of Education Member, Subdistrict 1A",
+      "stance": "support",
+      "quote": "Margie B. Luczak | 1a | Illinois Policy PAC endorsed: ✓",
+      "verified": true
+    },
+    {
+      "name": "Michelle N. Pierre",
+      "office": "Chicago Board of Education Member, Subdistrict 1B",
+      "stance": "support",
+      "quote": "Michelle N. Pierre | 1b | Illinois Policy PAC endorsed: ✓",
+      "verified": true
+    },
+    {
+      "name": "Hector Morales",
+      "office": "Chicago Board of Education Member, Subdistrict 2A",
+      "stance": "support",
+      "quote": "Hector Morales | 2a | Illinois Policy PAC endorsed: ✓",
+      "verified": true
+    },
+    {
+      "name": "LaPamela Williams",
+      "office": "Chicago Board of Education Member, Subdistrict 5A",
+      "stance": "support",
+      "quote": "LaPamela Williams | 5a | Illinois Policy PAC endorsed: ✓",
+      "verified": true
+    },
+    {
+      "name": "Anthony Hargrove",
+      "office": "Chicago Board of Education Member, Subdistrict 5B",
+      "stance": "support",
+      "quote": "Anthony Hargrove | 5b | Illinois Policy PAC endorsed: ✓",
+      "verified": true
+    },
+    {
+      "name": "Isaiah White",
+      "office": "Chicago Board of Education Member, Subdistrict 6A",
+      "stance": "support",
+      "quote": "Isaiah White | 6a | Illinois Policy PAC endorsed: ✓",
+      "verified": true
+    }
+  ],
+  "verify": {
+    "general": "yes",
+    "checkedAt": "2026-10-17",
+    "fixes": [],
+    "removed": [],
+    "note": "Article (Paid for by Illinois Policy PAC) refers to the Nov. 3 election; table is a Datawrapper embed, checked via https://datawrapper.dwcdn.net/X0ux0/6/dataset.csv. All 6 have a check in the 'Illinois Policy PAC endorsed' column for the stated subdistrict."
+  }
+}

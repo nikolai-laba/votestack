@@ -53,21 +53,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Maria for 52",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=34354",
-        "period": "April 1 to June 30, 2026",
-        "raised": 54002.26,
-        "cashOnHand": 86659.03,
+        "period": "July 1 to September 30, 2026",
+        "raised": 222891.54,
+        "cashOnHand": 223306.33,
         "breakdown": [
-          { "kind": "small", "amount": 6015.26 },
-          { "kind": "large", "amount": 45837 },
-          { "kind": "transfer", "amount": 2150 }
+          { "kind": "small", "amount": 9147.54 },
+          { "kind": "large", "amount": 205344 },
+          { "kind": "transfer", "amount": 8400 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 419943.72, "count": 50 }
+        "largeSince": { "since": "2026-09-30", "total": 94286.5, "count": 10 }
       }
     ]
   },
@@ -276,7 +276,29 @@
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
         "cites": [11]
-      }
+      },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [12] },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [13]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [14]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [15]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [16]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [16] }
     ]
   },
   "sources": [
@@ -326,7 +348,7 @@
       "publisher": "Windy City Times",
       "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
       "kind": "news",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 7,
@@ -367,12 +389,52 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 11
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:13:11.651Z",
-    "version": 6
+    "version": 7
   }
 }

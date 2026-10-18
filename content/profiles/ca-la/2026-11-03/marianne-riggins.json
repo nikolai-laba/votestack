@@ -47,12 +47,13 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [],
     "filingsAt": {
       "name": "City of Malibu",
       "url": "https://netfile.com/public/MBU/campaign"
-    }
+    },
+    "noCommittee": { "filedWith": "City of Malibu" }
   },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
@@ -109,6 +110,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.730Z",
-    "version": 3
+    "version": 4
   }
 }

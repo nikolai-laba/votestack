@@ -54,22 +54,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Daniel Didech Campaign Committee",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=34241",
-        "period": "April 1 to June 30, 2026",
-        "raised": 17251.71,
-        "cashOnHand": 189762.56,
+        "period": "July 1 to September 30, 2026",
+        "raised": 185579,
+        "cashOnHand": 126108.46,
         "breakdown": [
-          { "kind": "small", "amount": 26 },
-          { "kind": "large", "amount": 6250 },
-          { "kind": "transfer", "amount": 10600 },
-          { "kind": "other", "amount": 375.71 }
+          { "kind": "small", "amount": 429 },
+          { "kind": "large", "amount": 142300 },
+          { "kind": "transfer", "amount": 42850 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 185546.24, "count": 66 }
+        "largeSince": { "since": "2026-09-30", "total": 13814.76, "count": 8 }
       }
     ]
   },
@@ -107,7 +106,23 @@
         "kind": "union",
         "cites": [12]
       },
-      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [13] }
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [13] },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [14]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [15]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [16]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [16] }
     ]
   },
   "sources": [
@@ -157,7 +172,7 @@
       "publisher": "Illinois Federation of Teachers",
       "url": "https://www.ift-aft.org/vote",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 7,
@@ -214,12 +229,36 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 13
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:17:20.740Z",
-    "version": 6
+    "version": 7
   }
 }

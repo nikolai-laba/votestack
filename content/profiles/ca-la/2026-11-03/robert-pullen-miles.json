@@ -55,12 +55,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
-    "items": [],
-    "filingsAt": {
-      "name": "City of Lawndale",
-      "url": "https://www.lawndale.ca.gov/government/departments/city_clerk_s_office/election_information/campaign_finance"
-    }
+    "asOf": "2026-10-17",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Lawndale",
+        "committee": "Pullen-Miles for Mayor 2026",
+        "url": "https://www.lawndale.ca.gov/government/departments/city_clerk_s_office/election_information/campaign_finance",
+        "period": "July 1 to September 19, 2026",
+        "raised": 17997.98,
+        "cashOnHand": 26826.48,
+        "fromScan": "ai"
+      }
+    ]
   },
   "endorsements": {
     "asOf": "2026-10-14",
@@ -148,6 +155,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.685Z",
-    "version": 5
+    "version": 6
   }
 }

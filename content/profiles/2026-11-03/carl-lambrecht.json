@@ -52,7 +52,11 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-07", "items": [] },
+  "money": {
+    "asOf": "2026-10-17",
+    "items": [],
+    "noCommittee": { "filedWith": "Federal Election Commission" }
+  },
   "endorsements": {
     "asOf": "2026-10-07",
     "items": [
@@ -65,6 +69,11 @@
         "organization": "Northfield Township Republican Organization",
         "kind": "party",
         "cites": [6]
+      },
+      {
+        "organization": "Republicans of Wheeling Township",
+        "kind": "organization",
+        "cites": [7]
       }
     ]
   },
@@ -116,12 +125,20 @@
       "url": "https://www.northfieldgop.org/northfield_township_republicans_endorse_dabrowski_tracy_harris_brown",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "2026 Republican Sample Ballot (General Election)",
+      "publisher": "Republicans of Wheeling Township",
+      "url": "https://rowtgop.org/sample-ballot/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 7
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:36:19.694Z",
-    "version": 6
+    "version": 7
   }
 }

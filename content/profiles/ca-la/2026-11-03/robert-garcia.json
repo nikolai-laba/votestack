@@ -72,21 +72,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Robert Garcia for Congress",
         "url": "https://www.fec.gov/data/committee/C00797795/?cycle=2026",
-        "period": "January 1, 2025 to June 30, 2026",
-        "raised": 2615120.28,
-        "cashOnHand": 1381467.45,
+        "period": "January 1, 2025 to September 30, 2026",
+        "raised": 3317845.49,
+        "cashOnHand": 1598342.22,
         "breakdown": [
-          { "kind": "small", "amount": 1109602.44 },
-          { "kind": "large", "amount": 849009.47 },
-          { "kind": "pac", "amount": 625682.94 },
-          { "kind": "other", "amount": 30825.43 }
-        ]
+          { "kind": "small", "amount": 1434813.03 },
+          { "kind": "large", "amount": 1100489.93 },
+          { "kind": "pac", "amount": 764682.94 },
+          { "kind": "candidate", "amount": 38.4 },
+          { "kind": "other", "amount": 17821.19 }
+        ],
+        "fromCandidate": 38.4
       }
     ]
   },
@@ -311,7 +313,28 @@
         "organization": "Democrats for Israel – Los Angeles",
         "kind": "organization",
         "cites": [15]
-      }
+      },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [16]
+      },
+      {
+        "organization": "Southern California News Group Editorial Board",
+        "kind": "editorial_board",
+        "cites": [17]
+      },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [18]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [19]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [20] }
     ]
   },
   "sources": [
@@ -434,12 +457,52 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 15
+    },
+    {
+      "title": "Sierra Club Political Endorsements (2026)",
+      "publisher": "Sierra Club Angeles Chapter Political Committee",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "Southern California News Group endorsements for the Nov. 3, 2026 general election",
+      "publisher": "Southern California News Group (San Gabriel Valley Tribune, Daily News, Daily Breeze, Press-Telegram, Pasadena Star-News, Whittier Daily News)",
+      "url": "https://www.sgvtribune.com/2026/10/01/southern-california-news-groups-endorsements-for-nov-3-general-election/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "November 2026 Stonewall Democratic Club Endorsements",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "California Teamsters Endorsements",
+      "publisher": "Teamsters Joint Council 42",
+      "url": "https://www.teamstersjc42.com/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 20
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.840Z",
-    "version": 4
+    "version": 5
   }
 }

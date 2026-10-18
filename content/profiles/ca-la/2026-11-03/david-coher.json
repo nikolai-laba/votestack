@@ -34,7 +34,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -62,6 +62,11 @@
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
+      {
+        "organization": "Pasadena City Councilmember Tyron Hampton",
+        "kind": "elected_official",
+        "cites": [4]
+      },
       {
         "organization": "Former Pasadena City College Trustee Berlinda Brown",
         "kind": "elected_official",
@@ -116,7 +121,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T05:54:20.790Z",
-    "version": 2
+    "generatedAt": "2026-10-18T03:18:00.298Z",
+    "version": 3
   }
 }

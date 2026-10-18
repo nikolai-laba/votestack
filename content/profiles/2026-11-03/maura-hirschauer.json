@@ -32,22 +32,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Maura Hirschauer",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=35683",
-        "period": "April 1 to June 30, 2026",
-        "raised": 23390.43,
-        "cashOnHand": 215613.6,
+        "period": "July 1 to September 30, 2026",
+        "raised": 235969.29,
+        "cashOnHand": 367396.33,
         "breakdown": [
-          { "kind": "small", "amount": 85 },
-          { "kind": "large", "amount": 500 },
-          { "kind": "transfer", "amount": 22800 },
-          { "kind": "other", "amount": 5.43 }
+          { "kind": "small", "amount": 325 },
+          { "kind": "large", "amount": 56040 },
+          { "kind": "transfer", "amount": 179600 },
+          { "kind": "other", "amount": 4.29 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 405960.39, "count": 41 }
+        "largeSince": { "since": "2026-09-30", "total": 95788.3, "count": 10 }
       }
     ]
   },
@@ -75,7 +75,29 @@
         "kind": "union",
         "cites": [13]
       },
-      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [14] }
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [14] },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [15] },
+      {
+        "organization": "Daily Herald Editorial Board",
+        "kind": "editorial_board",
+        "cites": [16]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [17]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [18]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [19]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [19] }
     ]
   },
   "sources": [
@@ -165,7 +187,7 @@
       "publisher": "Windy City Times",
       "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
       "kind": "news",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 12,
@@ -190,12 +212,52 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 14
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "Daily Herald endorsements, Nov. 3, 2026 general election (published Oct. 13-16, 2026)",
+      "publisher": "Daily Herald (Arlington Heights)",
+      "url": "https://www.dailyherald.com/opinion/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 19
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:11:10.112Z",
-    "version": 6
+    "version": 7
   }
 }

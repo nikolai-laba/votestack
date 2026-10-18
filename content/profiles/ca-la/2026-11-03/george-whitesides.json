@@ -72,22 +72,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "George Whitesides for Congress",
         "url": "https://www.fec.gov/data/committee/C00834028/?cycle=2026",
-        "period": "January 1, 2025 to June 30, 2026",
-        "raised": 3963530.22,
-        "cashOnHand": 2554916.64,
+        "period": "January 1, 2025 to September 30, 2026",
+        "raised": 4439787.15,
+        "cashOnHand": 2268894.91,
         "breakdown": [
-          { "kind": "small", "amount": 359852.57 },
-          { "kind": "large", "amount": 2446148.24 },
-          { "kind": "pac", "amount": 629087.62 },
-          { "kind": "party", "amount": 6895.42 },
-          { "kind": "transfer", "amount": 437133.9 },
-          { "kind": "other", "amount": 84412.47 }
+          { "kind": "small", "amount": 408106.76 },
+          { "kind": "large", "amount": 2709710.93 },
+          { "kind": "pac", "amount": 736087.62 },
+          { "kind": "party", "amount": 6911.14 },
+          { "kind": "transfer", "amount": 482638.9 },
+          { "kind": "other", "amount": 96331.8 }
         ]
       }
     ]
@@ -299,7 +299,28 @@
         "kind": "union",
         "cites": [15]
       },
-      { "organization": "SEIU Local 721", "kind": "union", "cites": [16] }
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [16] },
+      {
+        "organization": "Armenian National Committee of America, Western Region",
+        "kind": "organization",
+        "cites": [17]
+      },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [18]
+      },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [19]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [20]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [21] }
     ]
   },
   "sources": [
@@ -430,12 +451,52 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 16
+    },
+    {
+      "title": "ANCA Western Region 2026 General Election Endorsements",
+      "publisher": "ANCA Western Region",
+      "url": "https://ancawr.org/elect26/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "Sierra Club Political Endorsements (2026)",
+      "publisher": "Sierra Club Angeles Chapter Political Committee",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "November 2026 Stonewall Democratic Club Endorsements",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "California Teamsters Endorsements",
+      "publisher": "Teamsters Joint Council 42",
+      "url": "https://www.teamstersjc42.com/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 20
+    },
+    {
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 21
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.775Z",
-    "version": 6
+    "version": 7
   }
 }

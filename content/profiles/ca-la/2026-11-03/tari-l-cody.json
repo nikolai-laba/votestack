@@ -29,7 +29,11 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-16", "items": [] },
+  "money": {
+    "asOf": "2026-10-17",
+    "items": [],
+    "noCommittee": { "filedWith": "California Secretary of State" }
+  },
   "endorsements": {
     "asOf": "2026-10-15",
     "items": [
@@ -74,7 +78,7 @@
       "publisher": "UNITE HERE Local 11",
       "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
       "kind": "endorser",
-      "viewedAt": "2026-10-15"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 4,
@@ -105,6 +109,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.857Z",
-    "version": 2
+    "version": 3
   }
 }

@@ -25,21 +25,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Robyn Gabel",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=22260",
-        "period": "April 1 to June 30, 2026",
-        "raised": 48600,
-        "cashOnHand": 356392.98,
+        "period": "July 1 to September 30, 2026",
+        "raised": 187770,
+        "cashOnHand": 397275.74,
         "breakdown": [
-          { "kind": "small", "amount": 1500 },
-          { "kind": "large", "amount": 23100 },
-          { "kind": "transfer", "amount": 24000 }
-        ],
-        "largeSince": { "since": "2026-06-30", "total": 175110.36, "count": 61 }
+          { "kind": "small", "amount": 200 },
+          { "kind": "large", "amount": 89570 },
+          { "kind": "transfer", "amount": 98000 }
+        ]
       }
     ]
   },
@@ -62,7 +61,29 @@
         "kind": "union",
         "cites": [9]
       },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [10] }
+      { "organization": "Personal PAC", "kind": "organization", "cites": [10] },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [11] },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [13]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [14]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [15]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [15] }
     ]
   },
   "sources": [
@@ -145,12 +166,52 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 10
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:44:26.208Z",
-    "version": 7
+    "version": 8
   }
 }

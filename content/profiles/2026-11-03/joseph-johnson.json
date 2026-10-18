@@ -49,7 +49,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
@@ -72,6 +72,11 @@
         "organization": "Northfield Township Republican Organization",
         "kind": "party",
         "cites": [4]
+      },
+      {
+        "organization": "Illinois Family Action",
+        "kind": "organization",
+        "cites": [5]
       }
     ]
   },
@@ -107,12 +112,20 @@
       "url": "https://www.northfieldgop.org/northfield_township_republicans_endorse_dabrowski_tracy_harris_brown",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "2026 General Election Endorsements",
+      "publisher": "Illinois Family Action (IFA-PAC)",
+      "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 5
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:15:08.065Z",
-    "version": 3
+    "version": 4
   }
 }

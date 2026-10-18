@@ -46,21 +46,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Jesus Ayala Jr for Chicago Students",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39789",
-        "period": "April 1 to June 30, 2026",
-        "raised": 2875,
-        "cashOnHand": 532.88,
+        "period": "July 1 to September 30, 2026",
+        "raised": 45324.28,
+        "cashOnHand": 41116.58,
         "breakdown": [
-          { "kind": "transfer", "amount": 1500 },
-          { "kind": "candidate", "amount": 1375 }
+          { "kind": "small", "amount": 910 },
+          { "kind": "large", "amount": 19220 },
+          { "kind": "transfer", "amount": 24500 },
+          { "kind": "candidate", "amount": 694.28 }
         ],
-        "fromCandidate": 1375,
-        "largeSince": { "since": "2026-06-30", "total": 45056.93, "count": 9 }
+        "fromCandidate": 694.28,
+        "largeSince": { "since": "2026-09-30", "total": 1000, "count": 1 }
       }
     ]
   },
@@ -87,6 +89,11 @@
         "organization": "Chicago Tribune Editorial Board",
         "kind": "editorial_board",
         "cites": [3]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [8]
       }
     ]
   },
@@ -146,12 +153,20 @@
       "url": "https://en.wikipedia.org/wiki/2026_Chicago_Board_of_Education_election",
       "kind": "reference",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 8
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:48:10.249Z",
-    "version": 2
+    "version": 3
   }
 }

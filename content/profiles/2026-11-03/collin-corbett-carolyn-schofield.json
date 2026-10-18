@@ -65,22 +65,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Collin for Illinois",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41172",
-        "period": "May 1 to June 30, 2026",
-        "raised": 558240.36,
-        "cashOnHand": 379163.41,
+        "period": "July 1 to September 30, 2026",
+        "raised": 41760.15,
+        "cashOnHand": 34797.02,
         "breakdown": [
-          { "kind": "small", "amount": 1417.67 },
-          { "kind": "large", "amount": 56822.69 },
-          { "kind": "candidate", "amount": 500000 }
+          { "kind": "small", "amount": 2657.38 },
+          { "kind": "large", "amount": 38602.77 },
+          { "kind": "transfer", "amount": 500 }
         ],
-        "fromCandidate": 500000,
-        "largeSince": { "since": "2026-06-30", "total": 28791.08, "count": 13 }
+        "largeSince": { "since": "2026-09-30", "total": 101000, "count": 3 }
       }
     ]
   },
@@ -139,6 +138,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:59:35.328Z",
-    "version": 2
+    "version": 3
   }
 }

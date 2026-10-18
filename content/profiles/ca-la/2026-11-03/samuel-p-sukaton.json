@@ -39,7 +39,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -81,7 +81,12 @@
         "cites": [6]
       },
       { "organization": "Knock LA", "kind": "organization", "cites": [7] },
-      { "organization": "LA Forward", "kind": "organization", "cites": [8] }
+      { "organization": "LA Forward", "kind": "organization", "cites": [8] },
+      {
+        "organization": "California Federation of Teachers",
+        "kind": "union",
+        "cites": [9]
+      }
     ]
   },
   "sources": [
@@ -148,12 +153,20 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 8
+    },
+    {
+      "title": "CFT Endorsements, General Election 2026 (Tuesday, November 3)",
+      "publisher": "California Federation of Teachers",
+      "url": "https://www.cft.org/2026-midterm-elections-hub",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 9
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.763Z",
-    "version": 6
+    "version": 7
   }
 }

@@ -64,22 +64,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Melissa Bean for Congress",
         "url": "https://www.fec.gov/data/committee/C00919183/?cycle=2026",
-        "period": "July 1, 2025 to June 30, 2026",
-        "raised": 2071075.5,
-        "cashOnHand": 144529.83,
+        "period": "July 1, 2025 to September 30, 2026",
+        "raised": 2421586.28,
+        "cashOnHand": 277513.65,
         "breakdown": [
-          { "kind": "small", "amount": 26412.3 },
-          { "kind": "large", "amount": 1424961.79 },
-          { "kind": "pac", "amount": 275750 },
+          { "kind": "small", "amount": 31039.6 },
+          { "kind": "large", "amount": 1588274.79 },
+          { "kind": "pac", "amount": 458250 },
           { "kind": "transfer", "amount": 11766.38 },
           { "kind": "candidate", "amount": 323000 },
-          { "kind": "other", "amount": 9185.03 }
+          { "kind": "other", "amount": 9255.51 }
         ],
         "fromCandidate": 323000
       }
@@ -132,6 +132,12 @@
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
         "cites": [12]
+      },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [13] },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [14]
       }
     ]
   },
@@ -231,12 +237,28 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 12
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:37:40.031Z",
-    "version": 5
+    "version": 6
   }
 }

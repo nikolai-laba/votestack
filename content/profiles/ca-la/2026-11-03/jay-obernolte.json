@@ -46,21 +46,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Jay Obernolte for Congress",
         "url": "https://www.fec.gov/data/committee/C00720078/?cycle=2026",
-        "period": "January 1, 2025 to June 30, 2026",
-        "raised": 1455867.71,
-        "cashOnHand": 1644221.69,
+        "period": "January 1, 2025 to September 30, 2026",
+        "raised": 1807268.45,
+        "cashOnHand": 1427735.61,
         "breakdown": [
-          { "kind": "small", "amount": 1363.12 },
-          { "kind": "large", "amount": 497396.71 },
-          { "kind": "pac", "amount": 863371.22 },
-          { "kind": "transfer", "amount": 60716.59 },
-          { "kind": "other", "amount": 33020.07 }
+          { "kind": "small", "amount": 1800.38 },
+          { "kind": "large", "amount": 613201.35 },
+          { "kind": "pac", "amount": 1065871.22 },
+          { "kind": "transfer", "amount": 86207.49 },
+          { "kind": "other", "amount": 40188.01 }
         ]
       }
     ]
@@ -217,6 +217,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.763Z",
-    "version": 4
+    "version": 5
   }
 }

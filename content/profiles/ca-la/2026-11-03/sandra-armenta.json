@@ -57,7 +57,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [],
     "filingsAt": {
       "name": "City of Rosemead",
@@ -83,7 +83,12 @@
         "kind": "union",
         "cites": [3]
       },
-      { "organization": "LA Forward", "kind": "organization", "cites": [6] }
+      { "organization": "LA Forward", "kind": "organization", "cites": [6] },
+      {
+        "organization": "National Women's Political Caucus San Gabriel Valley",
+        "kind": "organization",
+        "cites": [7]
+      }
     ]
   },
   "sources": [
@@ -134,12 +139,20 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 6
+    },
+    {
+      "title": "Endorsed Candidates: November 2026 Candidates",
+      "publisher": "NWPC San Gabriel Valley",
+      "url": "https://nwpcsgv.org/endorsed-candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 7
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.847Z",
-    "version": 3
+    "version": 4
   }
 }

@@ -50,7 +50,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -133,7 +133,17 @@
         "kind": "union",
         "cites": [22]
       },
-      { "organization": "SEIU Local 721", "kind": "union", "cites": [23] }
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [23] },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [24]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [25]
+      }
     ]
   },
   "sources": [
@@ -320,12 +330,28 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 23
+    },
+    {
+      "title": "November 2026 Stonewall Democratic Club Endorsements",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 24
+    },
+    {
+      "title": "California Teamsters Endorsements",
+      "publisher": "Teamsters Joint Council 42",
+      "url": "https://www.teamstersjc42.com/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 25
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.715Z",
-    "version": 4
+    "version": 5
   }
 }

@@ -77,19 +77,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Angela for Ca34",
         "url": "https://www.fec.gov/data/committee/C00901652/?cycle=2026",
-        "period": "April 1, 2025 to June 30, 2026",
-        "raised": 228724.03,
-        "cashOnHand": 44069.58,
+        "period": "April 1, 2025 to September 30, 2026",
+        "raised": 449953.97,
+        "cashOnHand": 147416.16,
         "breakdown": [
-          { "kind": "small", "amount": 107778.89 },
-          { "kind": "large", "amount": 113102.64 },
-          { "kind": "pac", "amount": 7725 },
+          { "kind": "small", "amount": 234283.02 },
+          { "kind": "large", "amount": 187328.45 },
+          { "kind": "pac", "amount": 28225 },
           { "kind": "other", "amount": 117.5 }
         ]
       }
@@ -311,6 +311,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.809Z",
-    "version": 5
+    "version": 6
   }
 }

@@ -41,18 +41,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Citizens for Parrilli",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41116",
-        "period": "April 1 to June 30, 2026",
-        "raised": 1084.7,
-        "cashOnHand": 7258.24,
+        "period": "July 1 to September 30, 2026",
+        "raised": 1223.7,
+        "cashOnHand": 7810.24,
         "breakdown": [
-          { "kind": "small", "amount": 125 },
-          { "kind": "large", "amount": 959.7 }
+          { "kind": "small", "amount": 420 },
+          { "kind": "large", "amount": 728.7 },
+          { "kind": "other", "amount": 75 }
         ]
       }
     ]
@@ -95,7 +96,7 @@
       "publisher": "Illinois Family Action",
       "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 4,
@@ -110,6 +111,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:09:37.083Z",
-    "version": 4
+    "version": 5
   }
 }

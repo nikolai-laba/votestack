@@ -31,16 +31,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Citizens for Robert Groebner",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40704",
-        "period": "April 1 to June 30, 2026",
-        "raised": 10.66,
-        "cashOnHand": 646.8,
-        "breakdown": [{ "kind": "other", "amount": 10.66 }]
+        "period": "July 1 to September 30, 2026",
+        "raised": 0.81,
+        "cashOnHand": 647.61,
+        "breakdown": [{ "kind": "other", "amount": 0.81 }]
       }
     ]
   },
@@ -191,6 +191,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:26:47.822Z",
-    "version": 5
+    "version": 6
   }
 }

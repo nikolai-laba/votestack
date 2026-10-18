@@ -1,0 +1,74 @@
+{
+  "slug": "ivi-ipo",
+  "endorser": "Independent Voters of Illinois-Independent Precinct Organization (IVI-IPO)",
+  "kind": "organization",
+  "title": "General Election Endorsements!",
+  "publisher": "IVI-IPO",
+  "url": "https://www.iviipo.org/",
+  "verify": {
+    "general": "yes",
+    "checkedAt": "2026-10-17",
+    "fixes": [],
+    "removed": [],
+    "note": "Homepage 'General Election Endorsements!' is undated, but it lists Chicago School Board President and A/B subdistrict seats, which are only on the Nov 3, 2026 general ballot. All 11 entries match (Biss and Brown are split across spans in the HTML: 'Daniel Bi ss', 'b rown'). Rosetta 'Rosie' Brown (IL House 111th) is on the page but not a Cook race, correctly omitted."
+  },
+  "note": "Transcribed from the page by a researcher. Independent political organization with published policy platforms (civil rights, labor, environment, election reform); endorses after questionnaires and interviews. General election: \"Homepage headed \"General Election Endorsements!\" (site copyright 2021-2026). The page does not print the year, but it lists Chicago School Board President and Board subdistrict seats, which are first on the ballot at the Nov. 3, 2026 general election, and Daniel Biss (Democratic nominee, US House 9th, after the March 17, 2026 primary).\"",
+  "fetchedAt": "2026-10-17",
+  "entries": [
+    {
+      "name": "Daniel Biss",
+      "office": "U.S. Representative, 9th District",
+      "matchedKey": "daniel-biss"
+    },
+    {
+      "name": "Demi Palecek",
+      "office": "State Representative, 13th District",
+      "matchedKey": "demerike-demi-palecek"
+    },
+    {
+      "name": "Maggie Trevor",
+      "office": "Cook County Commissioner, 9th District",
+      "matchedKey": "maggie-trevor"
+    },
+    {
+      "name": "Hilario Dominguez",
+      "office": "Chicago Board of Education President",
+      "matchedKey": "hilario-dominguez"
+    },
+    {
+      "name": "Ed Bannon",
+      "office": "Chicago Board of Education Member, Subdistrict 1A",
+      "matchedKey": "ed-bannon"
+    },
+    {
+      "name": "Claudia Peralta",
+      "office": "Chicago Board of Education Member, Subdistrict 1B",
+      "matchedKey": "claudia-peralta"
+    },
+    {
+      "name": "Debby Pope",
+      "office": "Chicago Board of Education Member, Subdistrict 2B",
+      "matchedKey": "deborah-debby-pope"
+    },
+    {
+      "name": "Jason Dones",
+      "office": "Chicago Board of Education Member, Subdistrict 3B",
+      "matchedKey": "jason-dones"
+    },
+    {
+      "name": "Karen Zaccor",
+      "office": "Chicago Board of Education Member, Subdistrict 4A",
+      "matchedKey": "karen-zaccor"
+    },
+    {
+      "name": "Aaron \"Jitu\" Brown",
+      "office": "Chicago Board of Education Member, Subdistrict 5A",
+      "matchedKey": "aaron-jitu-brown"
+    },
+    {
+      "name": "Emma Lozano",
+      "office": "Chicago Board of Education Member, Subdistrict 7A",
+      "matchedKey": "emma-lozano"
+    }
+  ]
+}

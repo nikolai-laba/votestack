@@ -45,7 +45,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -61,7 +61,7 @@
           { "kind": "pac", "amount": 132700 },
           { "kind": "party", "amount": 44240.25 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 663544.53, "count": 57 }
+        "largeSince": { "since": "2026-09-19", "total": 876970.61, "count": 63 }
       }
     ]
   },
@@ -286,7 +286,12 @@
         "kind": "union",
         "cites": [15]
       },
-      { "organization": "LA Forward", "kind": "organization", "cites": [16] }
+      { "organization": "LA Forward", "kind": "organization", "cites": [16] },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [17]
+      }
     ]
   },
   "sources": [
@@ -417,12 +422,20 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 16
+    },
+    {
+      "title": "Sierra Club Political Endorsements (2026)",
+      "publisher": "Sierra Club Angeles Chapter Political Committee",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 17
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.765Z",
-    "version": 4
+    "version": 5
   }
 }

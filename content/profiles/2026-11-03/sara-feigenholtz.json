@@ -58,22 +58,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Citizens for Sara Feigenholtz",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=9783",
-        "period": "April 1 to June 30, 2026",
-        "raised": 23559.24,
-        "cashOnHand": 740063.33,
+        "period": "July 1 to September 30, 2026",
+        "raised": 13314.41,
+        "cashOnHand": 729176.19,
         "breakdown": [
-          { "kind": "small", "amount": 364.2 },
-          { "kind": "large", "amount": 15750 },
-          { "kind": "transfer", "amount": 1500 },
-          { "kind": "other", "amount": 5945.04 }
+          { "kind": "small", "amount": 130 },
+          { "kind": "large", "amount": 3900 },
+          { "kind": "transfer", "amount": 3100 },
+          { "kind": "other", "amount": 6184.41 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 9000, "count": 7 }
+        "largeSince": { "since": "2026-09-30", "total": 3500, "count": 2 }
       }
     ]
   },
@@ -119,7 +119,23 @@
         "kind": "union",
         "cites": [14]
       },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [15] }
+      { "organization": "Personal PAC", "kind": "organization", "cites": [15] },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [16]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [17]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [18]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [18] }
     ]
   },
   "sources": [
@@ -242,12 +258,36 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 15
+    },
+    {
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Planned Parenthood Illinois Action (press release, published by Windy City Times)",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:55:49.666Z",
-    "version": 4
+    "version": 5
   }
 }

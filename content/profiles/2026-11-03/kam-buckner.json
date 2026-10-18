@@ -35,22 +35,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Kam Buckner",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=35126",
-        "period": "April 1 to June 30, 2026",
-        "raised": 25083.9,
-        "cashOnHand": 314097.85,
+        "period": "July 1 to September 30, 2026",
+        "raised": 172279.7,
+        "cashOnHand": 339053,
         "breakdown": [
-          { "kind": "small", "amount": 535 },
-          { "kind": "large", "amount": 7385 },
-          { "kind": "transfer", "amount": 16313 },
-          { "kind": "other", "amount": 850.9 }
+          { "kind": "small", "amount": 1070 },
+          { "kind": "large", "amount": 86420 },
+          { "kind": "transfer", "amount": 62850 },
+          { "kind": "other", "amount": 21939.7 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 137493.39, "count": 55 }
+        "largeSince": { "since": "2026-09-30", "total": 23500, "count": 9 }
       }
     ]
   },
@@ -83,7 +83,38 @@
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
         "cites": [13]
-      }
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [14]
+      },
+      {
+        "organization": "Fraternal Order of Police Lodge 7",
+        "kind": "union",
+        "cites": [15]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [16]
+      },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [17]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [18]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [19]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [19] }
     ]
   },
   "sources": [
@@ -190,12 +221,60 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 13
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "Chicago Fraternal Order of Police Lodge 7 Endorsed Candidates, 2026 General Election",
+      "publisher": "Chicago Fraternal Order of Police Lodge 7",
+      "url": "https://www.chicagofop.org/latest-news/2026-endorsed-candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Planned Parenthood Illinois Action (press release, published by Windy City Times)",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 19
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:00:54.057Z",
-    "version": 6
+    "version": 7
   }
 }

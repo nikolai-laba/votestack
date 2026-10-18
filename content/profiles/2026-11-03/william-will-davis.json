@@ -50,21 +50,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "William Davis for State Representative",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=16392",
-        "period": "April 1 to June 30, 2026",
-        "raised": 3237.48,
-        "cashOnHand": 64534.43,
+        "period": "July 1 to September 30, 2026",
+        "raised": 42000,
+        "cashOnHand": 73592.25,
         "breakdown": [
-          { "kind": "small", "amount": 150 },
-          { "kind": "large", "amount": 2087.48 },
-          { "kind": "transfer", "amount": 1000 }
-        ],
-        "largeSince": { "since": "2026-06-30", "total": 34200, "count": 16 }
+          { "kind": "small", "amount": 100 },
+          { "kind": "large", "amount": 34650 },
+          { "kind": "transfer", "amount": 7250 }
+        ]
       }
     ]
   },
@@ -87,6 +86,21 @@
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
         "cites": [9]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [12]
       }
     ]
   },
@@ -137,7 +151,7 @@
       "publisher": "SEIU Local 73",
       "url": "https://seiu73.org/election-2026/",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "title": "November 3, 2026 General Election Endorsed Candidates",
@@ -162,12 +176,36 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 9
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Planned Parenthood Illinois Action (press release, published by Windy City Times)",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 12
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:45:13.052Z",
-    "version": 5
+    "version": 6
   }
 }

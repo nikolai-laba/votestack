@@ -70,22 +70,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "People for Emanuel Chris Welch",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=19328",
-        "period": "April 1 to June 30, 2026",
-        "raised": 1842846.33,
-        "cashOnHand": 11440633.2,
+        "period": "July 1 to September 30, 2026",
+        "raised": 7574103.94,
+        "cashOnHand": 9644360.76,
         "breakdown": [
-          { "kind": "small", "amount": 4256.52 },
-          { "kind": "large", "amount": 487380 },
-          { "kind": "transfer", "amount": 1350565 },
-          { "kind": "other", "amount": 644.81 }
+          { "kind": "small", "amount": 100 },
+          { "kind": "large", "amount": 1360175 },
+          { "kind": "transfer", "amount": 6212465 },
+          { "kind": "other", "amount": 1363.94 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 7658971, "count": 253 }
+        "largeSince": { "since": "2026-09-30", "total": 851223, "count": 52 }
       }
     ]
   },
@@ -108,7 +108,33 @@
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
         "cites": [10]
-      }
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [12]
+      },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [13]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [14]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [15]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [15] }
     ]
   },
   "sources": [
@@ -191,12 +217,52 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 10
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Planned Parenthood Illinois Action (press release, published by Windy City Times)",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:18:56.649Z",
-    "version": 7
+    "version": 8
   }
 }

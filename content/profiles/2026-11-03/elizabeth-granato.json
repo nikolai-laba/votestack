@@ -52,21 +52,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Elizabeth Granato",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40741",
-        "period": "April 1 to June 30, 2026",
-        "raised": 36500.3,
-        "cashOnHand": 100444.39,
-        "breakdown": [
-          { "kind": "large", "amount": 5500 },
-          { "kind": "transfer", "amount": 31000 },
-          { "kind": "other", "amount": 0.3 }
-        ],
-        "largeSince": { "since": "2026-06-30", "total": 2000, "count": 1 }
+        "period": "July 1 to September 30, 2026",
+        "raised": 2000,
+        "cashOnHand": 85542.59,
+        "breakdown": [{ "kind": "transfer", "amount": 2000 }]
       }
     ]
   },
@@ -129,14 +124,14 @@
       {
         "organization": "Chicago Federation of Labor",
         "kind": "union",
-        "cites": [9]
+        "cites": [14]
       },
       {
         "organization": "Mid-America Carpenters Regional Council",
         "kind": "union",
-        "cites": [10]
+        "cites": [9]
       },
-      { "organization": "Teamsters Local 700", "kind": "union", "cites": [10] },
+      { "organization": "Teamsters Local 700", "kind": "union", "cites": [9] },
       {
         "organization": "Ironworkers District Council of Chicago and Vicinity",
         "kind": "union",
@@ -150,8 +145,20 @@
       {
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
-        "cites": [11]
-      }
+        "cites": [10]
+      },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [11] },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [12]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [13]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [13] }
     ]
   },
   "sources": [
@@ -221,14 +228,6 @@
     },
     {
       "id": 9,
-      "title": "march 17, 2026 primary election - endorsed candidates",
-      "publisher": "Chicago Federation of Labor",
-      "url": "https://chicagolabor.org/wp-content/uploads/P2026_PrimaryEndorsementList_COOK-v4.pdf",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 10,
       "title": "ICE targets Lincoln Park nannies",
       "publisher": "Politico",
       "url": "https://www.politico.com/newsletters/illinois-playbook/2025/10/27/ice-targets-lincoln-park-nannies-00623513",
@@ -241,13 +240,45 @@
       "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
       "id": 11
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 14
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:15:11.117Z",
-    "version": 4
+    "version": 6
   }
 }

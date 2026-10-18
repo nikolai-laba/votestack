@@ -16,7 +16,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [],
     "filingsAt": {
       "name": "Los Angeles County Registrar-Recorder/County Clerk",
@@ -45,6 +45,11 @@
         "organization": "Three Valleys Municipal Water District Director David De Jesus",
         "kind": "elected_official",
         "cites": [5]
+      },
+      {
+        "organization": "Los Angeles League of Conservation Voters",
+        "kind": "organization",
+        "cites": [3]
       }
     ]
   },
@@ -71,7 +76,7 @@
       "publisher": "LALCV",
       "url": "https://lalcv.org/current-endorsements/",
       "kind": "endorser",
-      "viewedAt": "2026-10-15"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 4,
@@ -102,6 +107,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T16:56:23.419Z",
-    "version": 3
+    "version": 4
   }
 }

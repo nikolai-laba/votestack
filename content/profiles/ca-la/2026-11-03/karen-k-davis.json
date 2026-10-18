@@ -53,7 +53,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -116,6 +116,11 @@
         "organization": "Glendora Forward",
         "kind": "organization",
         "cites": [5]
+      },
+      {
+        "organization": "National Women's Political Caucus San Gabriel Valley",
+        "kind": "organization",
+        "cites": [6]
       }
     ]
   },
@@ -159,12 +164,20 @@
       "url": "https://www.glendoraforward.org/blog/glendora-forward-local-endorsements",
       "kind": "endorser",
       "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "Endorsed Candidates: November 2026 Candidates",
+      "publisher": "NWPC San Gabriel Valley",
+      "url": "https://nwpcsgv.org/endorsed-candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 6
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.615Z",
-    "version": 3
+    "version": 4
   }
 }

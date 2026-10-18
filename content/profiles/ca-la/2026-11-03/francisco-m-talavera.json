@@ -30,12 +30,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
-    "items": [],
-    "filingsAt": {
-      "name": "City of Lawndale",
-      "url": "https://www.lawndale.ca.gov/government/departments/city_clerk_s_office/election_information/campaign_finance"
-    }
+    "asOf": "2026-10-17",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Lawndale",
+        "committee": "Talavera4LawndaleMayor2026",
+        "url": "https://www.lawndale.ca.gov/government/departments/city_clerk_s_office/election_information/campaign_finance",
+        "period": "January 1 to September 19, 2026",
+        "raised": 2051.91,
+        "cashOnHand": 100,
+        "fromScan": "ai"
+      }
+    ]
   },
   "endorsements": { "asOf": "2026-10-14", "items": [] },
   "sources": [
@@ -52,6 +59,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T14:05:39.755Z",
-    "version": 3
+    "version": 4
   }
 }

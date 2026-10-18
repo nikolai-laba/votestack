@@ -56,23 +56,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Liz Nicholson",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40500",
-        "period": "April 1 to June 30, 2026",
-        "raised": 30770,
-        "cashOnHand": 28668.44,
+        "period": "July 1 to September 30, 2026",
+        "raised": 9975,
+        "cashOnHand": 19263.93,
         "breakdown": [
-          { "kind": "small", "amount": 1370 },
-          { "kind": "large", "amount": 20600 },
-          { "kind": "transfer", "amount": 7300 },
-          { "kind": "candidate", "amount": 1500 }
-        ],
-        "fromCandidate": 1500,
-        "largeSince": { "since": "2026-06-30", "total": 7000, "count": 4 }
+          { "kind": "small", "amount": 675 },
+          { "kind": "large", "amount": 7800 },
+          { "kind": "transfer", "amount": 1500 }
+        ]
       }
     ]
   },
@@ -364,6 +361,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:13:23.502Z",
-    "version": 4
+    "version": 5
   }
 }

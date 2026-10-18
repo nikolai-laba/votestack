@@ -38,7 +38,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -119,6 +119,8 @@
         "cites": [3]
       },
       { "organization": "LA Forward", "kind": "organization", "cites": [8] },
+      { "organization": "Knock LA", "kind": "organization", "cites": [9] },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [10] },
       {
         "organization": "Los Angeles County Bar Association",
         "kind": "bar_evaluation",
@@ -192,12 +194,28 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 8
+    },
+    {
+      "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
+      "publisher": "Knock LA (Ground Game LA)",
+      "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 10
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.263Z",
-    "version": 4
+    "version": 6
   }
 }

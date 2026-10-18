@@ -49,20 +49,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Cam Davis 4 Us",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=34419",
-        "period": "April 1 to June 30, 2026",
-        "raised": 3000,
-        "cashOnHand": 11675.21,
-        "breakdown": [
-          { "kind": "small", "amount": 300 },
-          { "kind": "large", "amount": 200 },
-          { "kind": "transfer", "amount": 2500 }
-        ]
+        "period": "July 1 to September 30, 2026",
+        "raised": 0,
+        "cashOnHand": 10923.81,
+        "breakdown": []
       }
     ]
   },
@@ -84,7 +80,18 @@
         "organization": "Chicago Federation of Labor",
         "kind": "union",
         "cites": [8]
-      }
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [10]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [10] }
     ]
   },
   "sources": [
@@ -151,12 +158,28 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 8
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 10
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:52:29.758Z",
-    "version": 5
+    "version": 6
   }
 }

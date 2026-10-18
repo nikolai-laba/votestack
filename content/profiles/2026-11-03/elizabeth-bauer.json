@@ -47,19 +47,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Citizens for Elizabeth Bauer",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40884",
-        "period": "April 1 to June 30, 2026",
-        "raised": 2333,
-        "cashOnHand": 4523.57,
+        "period": "July 1 to September 30, 2026",
+        "raised": 22358.14,
+        "cashOnHand": 19022.7,
         "breakdown": [
-          { "kind": "small", "amount": 1383 },
-          { "kind": "large", "amount": 950 }
-        ]
+          { "kind": "small", "amount": 800 },
+          { "kind": "large", "amount": 550 },
+          { "kind": "transfer", "amount": 1008.14 },
+          { "kind": "candidate", "amount": 20000 }
+        ],
+        "fromCandidate": 20000
       }
     ]
   },
@@ -127,6 +130,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:13:48.005Z",
-    "version": 5
+    "version": 6
   }
 }

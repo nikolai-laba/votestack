@@ -49,7 +49,7 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-07", "items": [] },
+  "money": { "asOf": "2026-10-17", "items": [] },
   "endorsements": {
     "asOf": "2026-10-07",
     "items": [
@@ -104,13 +104,13 @@
       "publisher": "Common Ground Collective",
       "url": "https://cgcollective.org/endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:47:26.285Z",
-    "version": 2
+    "version": 3
   }
 }

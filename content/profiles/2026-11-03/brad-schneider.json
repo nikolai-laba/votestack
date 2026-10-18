@@ -70,21 +70,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Schneider for Congress",
         "url": "https://www.fec.gov/data/committee/C00495952/?cycle=2026",
-        "period": "January 1, 2025 to June 30, 2026",
-        "raised": 3006862.5,
-        "cashOnHand": 1699006.68,
+        "period": "January 1, 2025 to September 30, 2026",
+        "raised": 3575300.49,
+        "cashOnHand": 1675786.72,
         "breakdown": [
-          { "kind": "small", "amount": 96125.73 },
-          { "kind": "large", "amount": 1545703.67 },
-          { "kind": "pac", "amount": 1266238.74 },
-          { "kind": "transfer", "amount": 97800 },
-          { "kind": "other", "amount": 994.36 }
+          { "kind": "small", "amount": 108032.21 },
+          { "kind": "large", "amount": 1776775.14 },
+          { "kind": "pac", "amount": 1559898.74 },
+          { "kind": "transfer", "amount": 128600 },
+          { "kind": "other", "amount": 1994.4 }
         ]
       }
     ]
@@ -299,7 +299,19 @@
         "kind": "union",
         "cites": [14]
       },
-      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [15] }
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [15] },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [16] },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [17]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [18]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [18] }
     ]
   },
   "sources": [
@@ -422,12 +434,36 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 15
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T16:59:29.616Z",
-    "version": 11
+    "version": 12
   }
 }

@@ -58,7 +58,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -73,7 +73,7 @@
           { "kind": "pac", "amount": 68220.24 },
           { "kind": "other", "amount": 129900 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 93518.39, "count": 22 }
+        "largeSince": { "since": "2026-09-19", "total": 103018.39, "count": 26 }
       }
     ]
   },
@@ -93,22 +93,22 @@
       {
         "organization": "Armenian National Committee of America - Western Region",
         "kind": "organization",
-        "cites": [9]
+        "cites": [12]
       },
       {
         "organization": "Equality California",
         "kind": "organization",
-        "cites": [10]
+        "cites": [9]
       },
       {
         "organization": "Democrats for Israel – Los Angeles",
         "kind": "organization",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "Planned Parenthood Advocacy Project Los Angeles County",
         "kind": "organization",
-        "cites": [12]
+        "cites": [11]
       }
     ]
   },
@@ -179,14 +179,6 @@
     },
     {
       "id": 9,
-      "title": "ANCA-Western Region Announces 2026 Primary Endorsements",
-      "publisher": "Armenian National Committee of America - Western Region",
-      "url": "https://ancawr.org/press-release/anca-western-region-announces-2026-primary-endorsements-2/",
-      "kind": "endorser",
-      "viewedAt": "2026-10-14"
-    },
-    {
-      "id": 10,
       "title": "Equality California Election Center",
       "publisher": "Equality California",
       "url": "https://www.eqca.org/elections/",
@@ -199,13 +191,21 @@
       "url": "https://dfi-la.org/endorse",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 11
+      "id": 10
     },
     {
       "title": "Voter Guide, November 3, 2026",
       "publisher": "Planned Parenthood Advocacy Project Los Angeles County",
       "url": "https://www.plannedparenthoodaction.org/planned-parenthood-advocacy-project-los-angeles-county/voter-guide-ppapx",
       "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "ANCA Western Region 2026 General Election Endorsements",
+      "publisher": "ANCA Western Region",
+      "url": "https://ancawr.org/elect26/",
+      "viewedAt": "2026-10-17",
       "kind": "endorser",
       "id": 12
     }
@@ -214,6 +214,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.686Z",
-    "version": 4
+    "version": 6
   }
 }

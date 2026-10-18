@@ -36,7 +36,24 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-07", "items": [] },
+  "money": {
+    "asOf": "2026-10-17",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Citizens for Joseph Tracy",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41296",
+        "period": "July 1 to September 30, 2026",
+        "raised": 2599.54,
+        "cashOnHand": 445.02,
+        "breakdown": [
+          { "kind": "small", "amount": 291.4 },
+          { "kind": "large", "amount": 1400 },
+          { "kind": "transfer", "amount": 908.14 }
+        ]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-07",
     "items": [
@@ -77,6 +94,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:14:47.039Z",
-    "version": 2
+    "version": 3
   }
 }

@@ -60,8 +60,31 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-07", "items": [] },
-  "endorsements": { "asOf": "2026-10-07", "items": [] },
+  "money": {
+    "asOf": "2026-10-17",
+    "items": [],
+    "noCommittee": { "filedWith": "Federal Election Commission" }
+  },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Illinois Family Action",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Northfield Township Republican Organization",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "Republicans of Wheeling Township",
+        "kind": "organization",
+        "cites": [12]
+      }
+    ]
+  },
   "sources": [
     {
       "id": 1,
@@ -134,12 +157,36 @@
       "url": "https://www.chicagotribune.com/2026/09/25/daniel-biss-john-elleson-differ-debate/",
       "kind": "news",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "2026 General Election Endorsements",
+      "publisher": "Illinois Family Action (IFA-PAC)",
+      "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "Your 2026 Republican Ticket / Republican Sample Ballot, General Election",
+      "publisher": "Northfield Township Republican Organization",
+      "url": "https://www.northfieldgop.org/sample_ballot",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "2026 Republican Sample Ballot (General Election)",
+      "publisher": "Republicans of Wheeling Township",
+      "url": "https://rowtgop.org/sample-ballot/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 12
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:12:23.244Z",
-    "version": 6
+    "version": 7
   }
 }

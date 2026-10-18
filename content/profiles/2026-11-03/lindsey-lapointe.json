@@ -61,22 +61,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of LaPointe",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=35544",
-        "period": "April 1 to June 30, 2026",
-        "raised": 33180.95,
-        "cashOnHand": 194247.43,
+        "period": "July 1 to September 30, 2026",
+        "raised": 72330,
+        "cashOnHand": 210546.96,
         "breakdown": [
-          { "kind": "small", "amount": 4405 },
-          { "kind": "large", "amount": 8525 },
-          { "kind": "transfer", "amount": 14775 },
-          { "kind": "other", "amount": 5475.95 }
+          { "kind": "small", "amount": 2780 },
+          { "kind": "large", "amount": 39900 },
+          { "kind": "transfer", "amount": 29650 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 48800, "count": 24 }
+        "largeSince": { "since": "2026-09-30", "total": 3500, "count": 2 }
       }
     ]
   },
@@ -138,7 +137,11 @@
         "cites": [9]
       },
       { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [7] },
-      { "organization": "SEIU State Council", "kind": "union", "cites": [7] },
+      {
+        "organization": "SEIU State Council",
+        "kind": "union",
+        "cites": [7, 12]
+      },
       { "organization": "AFSCME Council 31", "kind": "union", "cites": [7] },
       {
         "organization": "Illinois Federation of Teachers",
@@ -177,7 +180,18 @@
       { "organization": "UFCW Local 881", "kind": "union", "cites": [7] },
       { "organization": "38th Ward Democrats", "kind": "party", "cites": [7] },
       { "organization": "39th Ward Democrats", "kind": "party", "cites": [7] },
-      { "kind": "organization", "organization": "Giffords PAC", "cites": [7] }
+      { "kind": "organization", "organization": "Giffords PAC", "cites": [7] },
+      {
+        "organization": "Chicago Tribune Editorial Board",
+        "kind": "editorial_board",
+        "cites": [10]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [11]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [12] }
     ]
   },
   "sources": [
@@ -252,12 +266,36 @@
       "url": "https://www.bscactionfund.org/2026-midterms/endorsements",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Tribune Editorial Board endorsements for the 2026 Illinois general election",
+      "publisher": "Chicago Tribune (syndicated on Yahoo News, Oct. 11, 2026)",
+      "url": "https://www.yahoo.com/news/politics/articles/tribune-editorial-board-endorsements-2026-111600003.html",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 12
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:57:18.148Z",
-    "version": 6
+    "version": 8
   }
 }

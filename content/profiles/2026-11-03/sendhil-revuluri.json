@@ -44,20 +44,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Sendhil Revuluri",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40912",
-        "period": "April 1 to June 30, 2026",
-        "raised": 42552,
-        "cashOnHand": 216486.48,
+        "period": "July 1 to September 30, 2026",
+        "raised": 462209,
+        "cashOnHand": 563926.65,
         "breakdown": [
-          { "kind": "small", "amount": 3225 },
-          { "kind": "large", "amount": 39327 }
-        ],
-        "largeSince": { "since": "2026-06-30", "total": 106500, "count": 23 }
+          { "kind": "small", "amount": 4010 },
+          { "kind": "large", "amount": 126199 },
+          { "kind": "loan", "amount": 332000 }
+        ]
       }
     ]
   },
@@ -136,6 +136,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:50:20.428Z",
-    "version": 3
+    "version": 4
   }
 }

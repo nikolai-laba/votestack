@@ -30,7 +30,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [],
     "filingsAt": {
       "name": "City of Inglewood",
@@ -46,7 +46,12 @@
         "kind": "organization",
         "cites": [3]
       },
-      { "organization": "LA Forward", "kind": "organization", "cites": [4] }
+      { "organization": "LA Forward", "kind": "organization", "cites": [4] },
+      {
+        "organization": "Democrats for Israel – Los Angeles",
+        "kind": "organization",
+        "cites": [6]
+      }
     ]
   },
   "sources": [
@@ -89,12 +94,20 @@
       "kind": "news",
       "viewedAt": "2026-10-15",
       "id": 5
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Democrats for Israel – Los Angeles",
+      "url": "https://dfi-la.org/endorse",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 6
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.433Z",
-    "version": 5
+    "version": 6
   }
 }

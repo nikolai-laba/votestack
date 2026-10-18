@@ -28,7 +28,20 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-07", "items": [] },
+  "money": {
+    "asOf": "2026-10-17",
+    "items": [
+      {
+        "source": "ISBE",
+        "committee": "Friends of Brittany Preston",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39894",
+        "period": "August 7 to September 30, 2026",
+        "raised": 500,
+        "cashOnHand": -6040.87,
+        "breakdown": [{ "kind": "transfer", "amount": 500 }]
+      }
+    ]
+  },
   "endorsements": {
     "asOf": "2026-10-07",
     "items": [
@@ -52,6 +65,11 @@
         "organization": "Common Ground Collective",
         "kind": "organization",
         "cites": [5]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [6]
       }
     ]
   },
@@ -94,13 +112,21 @@
       "publisher": "Common Ground Collective",
       "url": "https://cgcollective.org/endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 6
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:49:21.048Z",
-    "version": 2
+    "version": 3
   }
 }

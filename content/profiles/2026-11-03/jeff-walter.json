@@ -89,23 +89,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Walter for Congress",
         "url": "https://www.fec.gov/data/committee/C00906594/?cycle=2026",
-        "period": "June 1, 2025 to June 30, 2026",
-        "raised": 311438.92,
-        "cashOnHand": 22764.58,
+        "period": "June 1, 2025 to September 30, 2026",
+        "raised": 420243.48,
+        "cashOnHand": 13906.62,
         "breakdown": [
-          { "kind": "small", "amount": 56739.54 },
-          { "kind": "large", "amount": 84750.94 },
-          { "kind": "pac", "amount": 2354.1 },
-          { "kind": "candidate", "amount": 167591.79 },
-          { "kind": "other", "amount": 2.55 }
+          { "kind": "small", "amount": 97236.22 },
+          { "kind": "large", "amount": 114311.52 },
+          { "kind": "pac", "amount": 6154.1 },
+          { "kind": "candidate", "amount": 200621.79 },
+          { "kind": "other", "amount": 1919.85 }
         ],
-        "fromCandidate": 167591.79
+        "fromCandidate": 200621.79
       }
     ]
   },
@@ -348,6 +348,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T16:59:29.616Z",
-    "version": 7
+    "version": 8
   }
 }

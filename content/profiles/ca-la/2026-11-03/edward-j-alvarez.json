@@ -41,7 +41,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [],
     "filingsAt": {
       "name": "City of Azusa",
@@ -53,7 +53,12 @@
     "asOf": "2026-10-15",
     "items": [
       { "organization": "Teamsters Local 572", "kind": "union", "cites": [4] },
-      { "organization": "SEIU Local 721", "kind": "union", "cites": [5] }
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [5] },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [6]
+      }
     ]
   },
   "sources": [
@@ -96,12 +101,20 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 5
+    },
+    {
+      "title": "California Teamsters Endorsements",
+      "publisher": "Teamsters Joint Council 42",
+      "url": "https://www.teamstersjc42.com/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 6
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.483Z",
-    "version": 3
+    "version": 4
   }
 }

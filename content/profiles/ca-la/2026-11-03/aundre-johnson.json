@@ -44,12 +44,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
-    "items": [],
-    "filingsAt": {
-      "name": "City of Claremont",
-      "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=304233&dbid=0&repo=r-634094de"
-    }
+    "asOf": "2026-10-17",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Claremont",
+        "committee": "Johnson for Claremont City Council 2026",
+        "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=304233&dbid=0&repo=r-634094de",
+        "period": "July 1 to September 19, 2026",
+        "raised": 1295.68,
+        "cashOnHand": 4839.4,
+        "fromScan": "ai"
+      }
+    ]
   },
   "endorsements": {
     "asOf": "2026-10-15",
@@ -83,6 +90,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.340Z",
-    "version": 2
+    "version": 3
   }
 }

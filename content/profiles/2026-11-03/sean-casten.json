@@ -99,21 +99,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Casten for Congress",
         "url": "https://www.fec.gov/data/committee/C00648493/?cycle=2026",
-        "period": "January 1, 2025 to June 30, 2026",
-        "raised": 2108919.94,
-        "cashOnHand": 1285017.87,
+        "period": "January 1, 2025 to September 30, 2026",
+        "raised": 2471914.21,
+        "cashOnHand": 1240180.54,
         "breakdown": [
-          { "kind": "small", "amount": 188626.67 },
-          { "kind": "large", "amount": 1147664.45 },
-          { "kind": "pac", "amount": 724150 },
+          { "kind": "small", "amount": 205279.21 },
+          { "kind": "large", "amount": 1326533.01 },
+          { "kind": "pac", "amount": 881150 },
           { "kind": "party", "amount": 32.67 },
-          { "kind": "other", "amount": 48446.15 }
+          { "kind": "other", "amount": 58919.32 }
         ]
       }
     ]
@@ -225,7 +225,23 @@
         "organization": "Chicago Tribune Editorial Board",
         "kind": "editorial_board",
         "cites": [11]
-      }
+      },
+      {
+        "organization": "Daily Herald Editorial Board",
+        "kind": "editorial_board",
+        "cites": [12]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [13]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [14]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [14] }
     ]
   },
   "sources": [
@@ -316,12 +332,36 @@
       "url": "https://www.chicagotribune.com/2026/10/05/editorial-sean-casten-for-u-s-house-of-representatives-illinois-district-6/",
       "kind": "news",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Daily Herald endorsements, Nov. 3, 2026 general election (published Oct. 13-16, 2026)",
+      "publisher": "Daily Herald (Arlington Heights)",
+      "url": "https://www.dailyherald.com/opinion/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:09:31.381Z",
-    "version": 8
+    "version": 9
   }
 }

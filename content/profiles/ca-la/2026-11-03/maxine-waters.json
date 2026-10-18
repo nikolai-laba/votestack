@@ -62,19 +62,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Citizens for Waters",
         "url": "https://www.fec.gov/data/committee/C00167585/?cycle=2026",
-        "period": "January 1, 2025 to June 30, 2026",
-        "raised": 863682.82,
-        "cashOnHand": 269668.83,
+        "period": "January 1, 2025 to September 30, 2026",
+        "raised": 1038006.83,
+        "cashOnHand": 331539.91,
         "breakdown": [
-          { "kind": "small", "amount": 20298.57 },
-          { "kind": "large", "amount": 318358 },
-          { "kind": "pac", "amount": 400500 },
+          { "kind": "small", "amount": 36602.57 },
+          { "kind": "large", "amount": 364878 },
+          { "kind": "pac", "amount": 512000.01 },
           { "kind": "other", "amount": 124526.25 }
         ]
       }
@@ -128,7 +128,18 @@
         "organization": "Los Angeles County Federation of Labor",
         "kind": "union",
         "cites": [15]
-      }
+      },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [16]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [17]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [18] }
     ]
   },
   "sources": [
@@ -226,7 +237,7 @@
       "publisher": "Sierra Club Angeles Chapter",
       "url": "https://www.sierraclub.org/angeles/endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-14"
+      "viewedAt": "2026-10-17"
     },
     {
       "title": "CFT Endorsements, General Election 2026 (Tuesday, November 3)",
@@ -251,12 +262,36 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 15
+    },
+    {
+      "title": "November 2026 Stonewall Democratic Club Endorsements",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "California Teamsters Endorsements",
+      "publisher": "Teamsters Joint Council 42",
+      "url": "https://www.teamstersjc42.com/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.847Z",
-    "version": 4
+    "version": 5
   }
 }

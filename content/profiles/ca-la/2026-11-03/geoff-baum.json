@@ -34,7 +34,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -219,9 +219,19 @@
       },
       { "organization": "Sierra Club", "kind": "organization", "cites": [4] },
       {
+        "organization": "Los Angeles League of Conservation Voters",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
         "organization": "Los Angeles County Taxpayers Association",
         "kind": "organization",
         "cites": [4]
+      },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [8]
       }
     ]
   },
@@ -273,12 +283,28 @@
       "url": "https://pasadenanow.com/main/madison-endorses-geoff-baum-in-pcc-board-race",
       "kind": "news",
       "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 7,
+      "title": "LALCV Endorses Francis Pollara and Geoff Baum for Pasadena Area Community College District Board of Trustees, Area 1",
+      "publisher": "Los Angeles League of Conservation Voters",
+      "url": "https://lalcv.org/lalcv-endorses-francis-pollara-and-geoff-baum-for-pasadena-area-community-college-district-board-of-trustees-area-1/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Sierra Club Political Endorsements (2026)",
+      "publisher": "Sierra Club Angeles Chapter Political Committee",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 8
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T05:54:20.789Z",
-    "version": 2
+    "generatedAt": "2026-10-18T03:18:00.293Z",
+    "version": 3
   }
 }

@@ -48,12 +48,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
-    "items": [],
-    "filingsAt": {
-      "name": "City of Claremont",
-      "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=304995&dbid=0&repo=r-634094de"
-    }
+    "asOf": "2026-10-17",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Claremont",
+        "committee": "Anna Jacobsen for Claremont City Council 2026",
+        "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=304995&dbid=0&repo=r-634094de",
+        "period": "July 1 to September 19, 2026",
+        "raised": 2989,
+        "cashOnHand": 10815.41,
+        "fromScan": "ai"
+      }
+    ]
   },
   "endorsements": {
     "asOf": "2026-10-15",
@@ -105,7 +112,12 @@
         "kind": "organization",
         "cites": [8]
       },
-      { "organization": "LA Forward", "kind": "organization", "cites": [9] }
+      { "organization": "LA Forward", "kind": "organization", "cites": [9] },
+      {
+        "organization": "National Women's Political Caucus San Gabriel Valley",
+        "kind": "organization",
+        "cites": [10]
+      }
     ]
   },
   "sources": [
@@ -155,7 +167,7 @@
       "publisher": "Los Angeles League of Conservation Voters",
       "url": "https://lalcv.org/current-endorsements/",
       "kind": "endorser",
-      "viewedAt": "2026-10-15"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 7,
@@ -180,12 +192,20 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 9
+    },
+    {
+      "title": "Endorsed Candidates: November 2026 Candidates",
+      "publisher": "NWPC San Gabriel Valley",
+      "url": "https://nwpcsgv.org/endorsed-candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 10
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.339Z",
-    "version": 2
+    "version": 3
   }
 }

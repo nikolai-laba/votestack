@@ -36,7 +36,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -150,6 +150,11 @@
         "cites": [6]
       },
       {
+        "organization": "Pasadena City Councilmember Tyron Hampton",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
         "organization": "Pasadena City College Trustee Sandra Chen Lau",
         "kind": "elected_official",
         "cites": [1]
@@ -249,7 +254,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T21:48:36.995Z",
-    "version": 4
+    "generatedAt": "2026-10-18T03:18:00.301Z",
+    "version": 5
   }
 }

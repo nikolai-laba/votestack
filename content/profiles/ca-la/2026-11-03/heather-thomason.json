@@ -16,7 +16,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -30,8 +30,8 @@
         "fromCandidate": 1000,
         "largeSince": {
           "since": "2026-09-19",
-          "total": 10000,
-          "count": 7,
+          "total": 11200,
+          "count": 8,
           "fromCandidate": 3000
         }
       }
@@ -52,7 +52,12 @@
         "cites": [3]
       },
       { "organization": "Knock LA", "kind": "organization", "cites": [4] },
-      { "organization": "LA Forward", "kind": "organization", "cites": [5] }
+      { "organization": "LA Forward", "kind": "organization", "cites": [5] },
+      {
+        "organization": "Santa Monicans for Renters' Rights",
+        "kind": "organization",
+        "cites": [7]
+      }
     ]
   },
   "sources": [
@@ -70,7 +75,7 @@
       "publisher": "UNITE HERE Local 11",
       "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
       "kind": "endorser",
-      "viewedAt": "2026-10-15"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 3,
@@ -103,12 +108,20 @@
       "kind": "official",
       "viewedAt": "2026-10-15",
       "id": 6
+    },
+    {
+      "title": "SMRR Supported Candidates and Measures for the November 3, 2026 Election in Santa Monica",
+      "publisher": "Santa Monicans for Renters' Rights",
+      "url": "https://www.smrr.org/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 7
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:39:39.220Z",
-    "version": 3
+    "version": 4
   }
 }

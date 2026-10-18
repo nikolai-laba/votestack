@@ -34,13 +34,13 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Monica Somerville for Judge",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=37005",
-        "period": "April 1 to June 30, 2026",
+        "period": "July 1 to September 30, 2026",
         "raised": 0,
         "cashOnHand": 766.33,
         "breakdown": []
@@ -168,6 +168,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:29:56.552Z",
-    "version": 4
+    "version": 5
   }
 }

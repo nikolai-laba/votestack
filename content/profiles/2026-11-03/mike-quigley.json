@@ -83,20 +83,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Quigley for Congress",
         "url": "https://www.fec.gov/data/committee/C00457556/?cycle=2026",
-        "period": "January 1, 2025 to June 30, 2026",
-        "raised": 725694.88,
-        "cashOnHand": 1187817.91,
+        "period": "January 1, 2025 to September 30, 2026",
+        "raised": 995514.45,
+        "cashOnHand": 1130501.07,
         "breakdown": [
-          { "kind": "small", "amount": 7552.28 },
-          { "kind": "large", "amount": 237025 },
-          { "kind": "pac", "amount": 480607.55 },
-          { "kind": "other", "amount": 510.05 }
+          { "kind": "small", "amount": 7813.28 },
+          { "kind": "large", "amount": 256230 },
+          { "kind": "pac", "amount": 582765.88 },
+          { "kind": "other", "amount": 148705.29 }
         ]
       }
     ]
@@ -140,7 +140,28 @@
         "kind": "union",
         "cites": [17]
       },
-      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [18] }
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [18] },
+      {
+        "organization": "Chicago Tribune Editorial Board",
+        "kind": "editorial_board",
+        "cites": [19]
+      },
+      {
+        "organization": "Daily Herald Editorial Board",
+        "kind": "editorial_board",
+        "cites": [20]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [21]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [22]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [22] }
     ]
   },
   "sources": [
@@ -287,12 +308,44 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 18
+    },
+    {
+      "title": "Tribune Editorial Board endorsements for the 2026 Illinois general election",
+      "publisher": "Chicago Tribune (syndicated on Yahoo News, Oct. 11, 2026)",
+      "url": "https://www.yahoo.com/news/politics/articles/tribune-editorial-board-endorsements-2026-111600003.html",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "Daily Herald endorsements, Nov. 3, 2026 general election (published Oct. 13-16, 2026)",
+      "publisher": "Daily Herald (Arlington Heights)",
+      "url": "https://www.dailyherald.com/opinion/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 20
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 21
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 22
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:06:19.323Z",
-    "version": 10
+    "version": 11
   }
 }

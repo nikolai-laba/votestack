@@ -74,20 +74,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Norma Torres for Congress",
         "url": "https://www.fec.gov/data/committee/C00557652/?cycle=2026",
-        "period": "January 1, 2025 to June 30, 2026",
-        "raised": 769060.59,
-        "cashOnHand": 339247.17,
+        "period": "January 1, 2025 to September 30, 2026",
+        "raised": 884755.73,
+        "cashOnHand": 364185.83,
         "breakdown": [
-          { "kind": "small", "amount": 43080.08 },
-          { "kind": "large", "amount": 224981 },
-          { "kind": "pac", "amount": 498820 },
-          { "kind": "other", "amount": 2179.51 }
+          { "kind": "small", "amount": 53797.06 },
+          { "kind": "large", "amount": 260691 },
+          { "kind": "pac", "amount": 566820 },
+          { "kind": "other", "amount": 3447.67 }
         ]
       }
     ]
@@ -155,7 +155,13 @@
         "kind": "union",
         "cites": [16]
       },
-      { "organization": "SEIU Local 721", "kind": "union", "cites": [17] }
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [17] },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [18]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [19] }
     ]
   },
   "sources": [
@@ -294,12 +300,28 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 17
+    },
+    {
+      "title": "California Teamsters Endorsements",
+      "publisher": "Teamsters Joint Council 42",
+      "url": "https://www.teamstersjc42.com/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 19
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.818Z",
-    "version": 4
+    "version": 5
   }
 }

@@ -49,12 +49,13 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [],
     "filingsAt": {
       "name": "City of Monrovia",
       "url": "https://netfile.com/public/MON/campaign"
-    }
+    },
+    "noCommittee": { "filedWith": "City of Monrovia" }
   },
   "endorsements": { "asOf": "2026-10-14", "items": [] },
   "sources": [
@@ -95,6 +96,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.753Z",
-    "version": 4
+    "version": 5
   }
 }

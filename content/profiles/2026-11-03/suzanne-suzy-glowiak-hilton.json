@@ -47,17 +47,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Suzy Glowiak",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=25613",
-        "period": "April 1 to June 30, 2026",
-        "raised": 500,
-        "cashOnHand": 426265.18,
-        "breakdown": [{ "kind": "large", "amount": 500 }],
-        "largeSince": { "since": "2026-06-30", "total": 116102.07, "count": 33 }
+        "period": "July 1 to September 30, 2026",
+        "raised": 107175.8,
+        "cashOnHand": 364456.54,
+        "breakdown": [
+          { "kind": "small", "amount": 475 },
+          { "kind": "large", "amount": 13500 },
+          { "kind": "transfer", "amount": 93200 },
+          { "kind": "other", "amount": 0.8 }
+        ],
+        "largeSince": { "since": "2026-09-30", "total": 122570, "count": 5 }
       }
     ]
   },
@@ -93,24 +98,46 @@
       {
         "organization": "Equality Illinois",
         "kind": "organization",
-        "cites": [11]
+        "cites": [20]
       },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [12] },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [11] },
       {
         "organization": "Citizen Action/Illinois",
         "kind": "organization",
-        "cites": [13]
+        "cites": [12]
       },
       {
         "organization": "Chicago Federation of Labor",
         "kind": "union",
-        "cites": [14]
+        "cites": [13]
       },
       {
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
-        "cites": [15]
-      }
+        "cites": [14]
+      },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [15] },
+      {
+        "organization": "Chicago Tribune Editorial Board",
+        "kind": "editorial_board",
+        "cites": [16]
+      },
+      {
+        "organization": "Daily Herald Editorial Board",
+        "kind": "editorial_board",
+        "cites": [17]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [18]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [19]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [6] }
     ]
   },
   "sources": [
@@ -160,7 +187,7 @@
       "publisher": "SEIU Local 73",
       "url": "https://seiu73.org/election-2026/",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 7,
@@ -176,7 +203,7 @@
       "publisher": "Windy City Times",
       "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
       "kind": "news",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 9,
@@ -196,14 +223,6 @@
     },
     {
       "id": 11,
-      "title": "Equality Illinois makes 72 pro-equality, pro-family endorsements for 2026 primary election",
-      "publisher": "Windy City Times",
-      "url": "https://windycitytimes.com/2026/01/15/equality-illinois-makes-72-pro-equality-pro-family-endorsements-for-2026-primary-election/",
-      "kind": "news",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 12,
       "title": "Endorsements and Election Information - Personal PAC",
       "publisher": "Personal PAC",
       "url": "https://personalpac.org/elections/",
@@ -211,7 +230,7 @@
       "viewedAt": "2026-10-07"
     },
     {
-      "id": 13,
+      "id": 12,
       "title": "Endorsements — Citizen Action/Illinois",
       "publisher": "Citizen Action/Illinois",
       "url": "https://citizenaction-il.org/endorsements",
@@ -224,7 +243,7 @@
       "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
-      "id": 14
+      "id": 13
     },
     {
       "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
@@ -232,13 +251,61 @@
       "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
       "id": 15
+    },
+    {
+      "title": "Tribune Editorial Board endorsements for the 2026 Illinois general election",
+      "publisher": "Chicago Tribune (syndicated on Yahoo News, Oct. 11, 2026)",
+      "url": "https://www.yahoo.com/news/politics/articles/tribune-editorial-board-endorsements-2026-111600003.html",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "Daily Herald endorsements, Nov. 3, 2026 general election (published Oct. 13-16, 2026)",
+      "publisher": "Daily Herald (Arlington Heights)",
+      "url": "https://www.dailyherald.com/opinion/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 20
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:50:54.376Z",
-    "version": 3
+    "version": 5
   }
 }

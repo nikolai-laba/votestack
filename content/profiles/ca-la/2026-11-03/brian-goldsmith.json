@@ -54,7 +54,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -72,8 +72,8 @@
         ],
         "largeSince": {
           "since": "2026-09-19",
-          "total": 1833050,
-          "count": 86,
+          "total": 1862150,
+          "count": 95,
           "fromCandidate": 1600000
         }
       }
@@ -85,7 +85,7 @@
       {
         "organization": "Los Angeles Daily News editorial board",
         "kind": "editorial_board",
-        "cites": [7]
+        "cites": [7, 21]
       },
       {
         "organization": "Daily Breeze editorial board",
@@ -303,6 +303,11 @@
         "organization": "Republican Party of Los Angeles County",
         "kind": "party",
         "cites": [19]
+      },
+      {
+        "organization": "Armenian National Committee of America, Western Region",
+        "kind": "organization",
+        "cites": [20]
       }
     ]
   },
@@ -458,12 +463,28 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 19
+    },
+    {
+      "title": "ANCA Western Region 2026 General Election Endorsements",
+      "publisher": "ANCA Western Region",
+      "url": "https://ancawr.org/elect26/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 20
+    },
+    {
+      "title": "Southern California News Group endorsements for the Nov. 3, 2026 general election",
+      "publisher": "Southern California News Group (San Gabriel Valley Tribune, Daily News, Daily Breeze, Press-Telegram, Pasadena Star-News, Whittier Daily News)",
+      "url": "https://www.sgvtribune.com/2026/10/01/southern-california-news-groups-endorsements-for-nov-3-general-election/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 21
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.745Z",
-    "version": 4
+    "version": 6
   }
 }

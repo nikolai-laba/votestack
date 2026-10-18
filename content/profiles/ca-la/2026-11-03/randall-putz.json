@@ -43,7 +43,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -59,7 +59,7 @@
           { "kind": "pac", "amount": 18300 },
           { "kind": "other", "amount": 5000 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 4500, "count": 2 }
+        "largeSince": { "since": "2026-09-19", "total": 11400, "count": 4 }
       }
     ]
   },
@@ -209,7 +209,7 @@
       {
         "organization": "California Federation of Teachers",
         "kind": "union",
-        "cites": [8]
+        "cites": [17]
       },
       {
         "organization": "California School Employees Association",
@@ -221,7 +221,7 @@
         "kind": "organization",
         "cites": [6]
       },
-      { "organization": "SEIU Local 1000", "kind": "union", "cites": [9] },
+      { "organization": "SEIU Local 1000", "kind": "union", "cites": [8] },
       {
         "organization": "Communications Workers of America",
         "kind": "union",
@@ -240,12 +240,12 @@
       {
         "organization": "The Community Action Fund of Planned Parenthood of Orange and San Bernardino Counties",
         "kind": "organization",
-        "cites": [10]
+        "cites": [9]
       },
       {
         "organization": "Inland Empire United",
         "kind": "organization",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "San Bernardino County Professional Firefighters, Local 935",
@@ -271,21 +271,21 @@
       {
         "organization": "High Desert Progressive Democrats",
         "kind": "organization",
-        "cites": [12]
+        "cites": [11]
       },
       {
         "organization": "Mountain Bears Democratic Club",
         "kind": "organization",
-        "cites": [13]
+        "cites": [12]
       },
       {
         "organization": "California Teachers Association",
         "kind": "union",
-        "cites": [14]
+        "cites": [13]
       },
-      { "organization": "Knock LA", "kind": "organization", "cites": [15] },
-      { "organization": "LA Forward", "kind": "organization", "cites": [16] },
-      { "organization": "SEIU Local 721", "kind": "union", "cites": [17] }
+      { "organization": "Knock LA", "kind": "organization", "cites": [14] },
+      { "organization": "LA Forward", "kind": "organization", "cites": [15] },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [16] }
     ]
   },
   "sources": [
@@ -347,14 +347,6 @@
     },
     {
       "id": 8,
-      "title": "General Election 2026 • Tuesday, November 3",
-      "publisher": "California Federation of Teachers COPE",
-      "url": "https://utla.net/app/uploads/2026/08/cft_endorsements-primary-election_4.27.2026_1.pdf",
-      "kind": "endorser",
-      "viewedAt": "2026-10-14"
-    },
-    {
-      "id": 9,
       "title": "2026 Elections - SEIU Local 1000",
       "publisher": "SEIU Local 1000",
       "url": "https://www.seiu1000.org/2026elections/",
@@ -362,7 +354,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 10,
+      "id": 9,
       "title": "2026 Midterm Election Voter Guide | The Community Action Fund of Planned Parenthood of Orange and San Bernardino Counties",
       "publisher": "The Community Action Fund of Planned Parenthood of Orange and San Bernardino Counties",
       "url": "https://www.plannedparenthoodaction.org/community-action-fund-planned-parenthood-orange-and-san-bernardi/elections/2026-midterm-election-voter-guide",
@@ -370,7 +362,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "2026 Endorsements – Inland Empire United",
       "publisher": "Inland Empire United",
       "url": "https://ieunited.org/2026-endorsements/",
@@ -378,7 +370,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 12,
+      "id": 11,
       "title": "Endorsements | High Desert Progress",
       "publisher": "High Desert Progressive Democrats",
       "url": "https://www.hdprogressivedemocrats.org/endorsements",
@@ -386,7 +378,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 13,
+      "id": 12,
       "title": "Speakers – Mountain Bears Democratic Club",
       "publisher": "Mountain Bears Democratic Club",
       "url": "https://mountainbearsdemocrats.org/speakers/",
@@ -399,7 +391,7 @@
       "url": "https://www.cta.org/our-advocacy/election-2026",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 14
+      "id": 13
     },
     {
       "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
@@ -407,7 +399,7 @@
       "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 15
+      "id": 14
     },
     {
       "title": "November 2026 LA Progressive Voter Guide",
@@ -415,12 +407,20 @@
       "url": "https://laforwardguide.org/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 16
+      "id": 15
     },
     {
       "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
       "publisher": "SEIU Local 721",
       "url": "https://seiu721.org/2026election/",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "CFT Endorsements, General Election 2026 (Tuesday, November 3)",
+      "publisher": "California Federation of Teachers",
+      "url": "https://www.cft.org/2026-midterm-elections-hub",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 17
@@ -430,6 +430,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.662Z",
-    "version": 4
+    "version": 6
   }
 }

@@ -45,13 +45,13 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Citizens for David Mathis",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40810",
-        "period": "April 1 to June 30, 2026",
+        "period": "July 1 to September 30, 2026",
         "raised": 0,
         "cashOnHand": 438.53,
         "breakdown": []
@@ -75,6 +75,11 @@
         "organization": "Republicans of Wheeling Township",
         "kind": "party",
         "cites": [5]
+      },
+      {
+        "organization": "Schaumburg Township Republican Organization",
+        "kind": "organization",
+        "cites": [6]
       }
     ]
   },
@@ -118,12 +123,20 @@
       "url": "https://www.rowtgop.org/candidates/",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Schaumburg Township Republicans Official Sample Ballot (November 2026)",
+      "publisher": "Schaumburg Township Republican Organization",
+      "url": "https://www.stgop.org/sample_ballot_republican_candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 6
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:53:09.846Z",
-    "version": 2
+    "version": 3
   }
 }

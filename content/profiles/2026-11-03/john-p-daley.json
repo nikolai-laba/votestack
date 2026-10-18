@@ -43,16 +43,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Committee to Elect John P Daley",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=939",
-        "period": "April 1 to June 30, 2026",
-        "raised": 1000,
-        "cashOnHand": 7271.94,
-        "breakdown": [{ "kind": "large", "amount": 1000 }]
+        "period": "July 1 to September 30, 2026",
+        "raised": 0,
+        "cashOnHand": 4718.27,
+        "breakdown": []
       }
     ]
   },
@@ -79,7 +79,8 @@
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
         "cites": [8]
-      }
+      },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [9] }
     ]
   },
   "sources": [
@@ -146,12 +147,20 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 8
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 9
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:14:49.943Z",
-    "version": 6
+    "version": 7
   }
 }

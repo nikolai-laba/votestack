@@ -59,20 +59,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Rashid for Illinois",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=37289",
-        "period": "April 1 to June 30, 2026",
-        "raised": 56890.71,
-        "cashOnHand": 273888.87,
+        "period": "July 1 to September 30, 2026",
+        "raised": 47805.23,
+        "cashOnHand": 246051.48,
         "breakdown": [
-          { "kind": "small", "amount": 12840.71 },
-          { "kind": "large", "amount": 44050 }
+          { "kind": "small", "amount": 8172.23 },
+          { "kind": "large", "amount": 31633 },
+          { "kind": "transfer", "amount": 8000 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 27200, "count": 10 }
+        "largeSince": { "since": "2026-09-30", "total": 4500, "count": 2 }
       }
     ]
   },
@@ -82,25 +83,47 @@
       {
         "organization": "Equality Illinois",
         "kind": "organization",
-        "cites": [10]
+        "cites": [20]
       },
       {
         "organization": "Cook County College Teachers Union Local 1600",
         "kind": "union",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "Chicago Federation of Labor",
         "kind": "union",
-        "cites": [12]
+        "cites": [11]
       },
-      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [13] },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [12] },
       {
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
-        "cites": [14]
+        "cites": [13]
       },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [15] }
+      { "organization": "Personal PAC", "kind": "organization", "cites": [14] },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [15] },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [16]
+      },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [17]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [18]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [19]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [19] }
     ]
   },
   "sources": [
@@ -178,14 +201,6 @@
     },
     {
       "id": 10,
-      "title": "Equality Illinois makes 72 pro-equality, pro-family endorsements for 2026 primary election",
-      "publisher": "Windy City Times",
-      "url": "https://windycitytimes.com/2026/01/15/equality-illinois-makes-72-pro-equality-pro-family-endorsements-for-2026-primary-election/",
-      "kind": "news",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 11,
       "title": "Endorsements for the March 17, 2026 Primary Election - Ccctu",
       "publisher": "Cook County College Teachers Union",
       "url": "https://www.ccctu.org/post/early-endorsements-for-the-march-17-2026-primary-election",
@@ -198,7 +213,7 @@
       "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
-      "id": 12
+      "id": 11
     },
     {
       "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
@@ -206,7 +221,7 @@
       "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
-      "id": 13
+      "id": 12
     },
     {
       "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
@@ -214,7 +229,7 @@
       "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
-      "id": 14
+      "id": 13
     },
     {
       "title": "Personal PAC 2026 General Election Endorsements",
@@ -222,13 +237,61 @@
       "url": "https://personalpac.org/elections/",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
       "id": 15
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Planned Parenthood Illinois Action (press release, published by Windy City Times)",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 20
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:58:40.064Z",
-    "version": 8
+    "version": 10
   }
 }

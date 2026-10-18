@@ -45,26 +45,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends & Family of Nabeela Syed",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=37009",
-        "period": "April 1 to June 30, 2026",
-        "raised": 170664.85,
-        "cashOnHand": 280490.31,
+        "period": "July 1 to September 30, 2026",
+        "raised": 1224763.1,
+        "cashOnHand": 219295.58,
         "breakdown": [
-          { "kind": "small", "amount": 6461 },
-          { "kind": "large", "amount": 122664.33 },
-          { "kind": "transfer", "amount": 41500 },
-          { "kind": "other", "amount": 39.52 }
+          { "kind": "small", "amount": 10313 },
+          { "kind": "large", "amount": 43050 },
+          { "kind": "transfer", "amount": 1171400 },
+          { "kind": "other", "amount": 0.1 }
         ],
-        "largeSince": {
-          "since": "2026-06-30",
-          "total": 2043514.41,
-          "count": 62
-        }
+        "largeSince": { "since": "2026-09-30", "total": 1051582.4, "count": 16 }
       }
     ]
   },
@@ -117,7 +113,28 @@
         "kind": "union",
         "cites": [14]
       },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [15] }
+      { "organization": "Personal PAC", "kind": "organization", "cites": [15] },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [16] },
+      {
+        "organization": "Daily Herald Editorial Board",
+        "kind": "editorial_board",
+        "cites": [17]
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [18]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [19]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [20]
+      }
     ]
   },
   "sources": [
@@ -167,7 +184,7 @@
       "publisher": "Windy City Times",
       "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
       "kind": "news",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 7,
@@ -240,12 +257,52 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 15
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "Daily Herald endorsements, Nov. 3, 2026 general election (published Oct. 13-16, 2026)",
+      "publisher": "Daily Herald (Arlington Heights)",
+      "url": "https://www.dailyherald.com/opinion/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 20
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:51:59.781Z",
-    "version": 4
+    "version": 5
   }
 }

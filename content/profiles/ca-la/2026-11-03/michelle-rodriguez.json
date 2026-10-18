@@ -44,7 +44,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -58,7 +58,7 @@
           { "kind": "pac", "amount": 84265.35 },
           { "kind": "other", "amount": 68400 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 51200, "count": 18 }
+        "largeSince": { "since": "2026-09-19", "total": 54200, "count": 19 }
       }
     ]
   },
@@ -195,7 +195,8 @@
         "organization": "Democrats for Israel – Los Angeles",
         "kind": "organization",
         "cites": [12]
-      }
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [13] }
     ]
   },
   "sources": [
@@ -294,12 +295,20 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 12
+    },
+    {
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 13
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.702Z",
-    "version": 4
+    "version": 5
   }
 }

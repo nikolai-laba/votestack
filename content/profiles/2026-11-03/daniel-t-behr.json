@@ -35,17 +35,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Behr for 57",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39779",
-        "period": "April 1 to June 30, 2026",
-        "raised": 46.59,
-        "cashOnHand": 3148.27,
-        "breakdown": [{ "kind": "other", "amount": 46.59 }],
-        "largeSince": { "since": "2026-06-30", "total": 4300, "count": 3 }
+        "period": "July 1 to September 30, 2026",
+        "raised": 8242.51,
+        "cashOnHand": 5877.09,
+        "breakdown": [
+          { "kind": "small", "amount": 1705 },
+          { "kind": "large", "amount": 6525 },
+          { "kind": "other", "amount": 12.51 }
+        ],
+        "largeSince": { "since": "2026-09-30", "total": 1000, "count": 1 }
       }
     ]
   },
@@ -55,7 +59,7 @@
       {
         "organization": "Northfield Township Regular Republican Organization",
         "kind": "party",
-        "cites": [2]
+        "cites": [2, 4]
       },
       {
         "organization": "Republicans of Wheeling Township",
@@ -88,12 +92,20 @@
       "url": "https://www.rowtgop.org/candidates/",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Your 2026 Republican Ticket / Republican Sample Ballot, General Election",
+      "publisher": "Northfield Township Republican Organization",
+      "url": "https://www.northfieldgop.org/sample_ballot",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 4
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:16:54.374Z",
-    "version": 5
+    "version": 7
   }
 }

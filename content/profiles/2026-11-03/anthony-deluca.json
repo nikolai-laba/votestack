@@ -62,20 +62,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends for State Rep Anthony DeLuca",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=20309",
-        "period": "April 1 to June 30, 2026",
-        "raised": 73050,
-        "cashOnHand": 1164503.01,
+        "period": "July 1 to September 30, 2026",
+        "raised": 135051,
+        "cashOnHand": 1260992.19,
         "breakdown": [
-          { "kind": "large", "amount": 29750 },
-          { "kind": "transfer", "amount": 43300 }
-        ],
-        "largeSince": { "since": "2026-06-30", "total": 111113, "count": 67 }
+          { "kind": "small", "amount": 1275 },
+          { "kind": "large", "amount": 66351 },
+          { "kind": "transfer", "amount": 67425 }
+        ]
       }
     ]
   },
@@ -93,6 +93,22 @@
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
         "cites": [9]
+      },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [10] },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [12]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [6]
       }
     ]
   },
@@ -143,7 +159,7 @@
       "publisher": "SEIU Local 73",
       "url": "https://seiu73.org/election-2026/",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "title": "November 3, 2026 General Election Endorsed Candidates",
@@ -168,12 +184,36 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 9
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 12
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:21:32.440Z",
-    "version": 6
+    "version": 7
   }
 }

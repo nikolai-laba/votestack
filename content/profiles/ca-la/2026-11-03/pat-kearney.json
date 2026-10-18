@@ -17,12 +17,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
-    "items": [],
-    "filingsAt": {
-      "name": "City of Lawndale",
-      "url": "https://www.lawndale.ca.gov/government/departments/city_clerk_s_office/election_information/campaign_finance"
-    }
+    "asOf": "2026-10-17",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Lawndale",
+        "committee": "Kearney for City Council 2026",
+        "url": "https://www.lawndale.ca.gov/government/departments/city_clerk_s_office/election_information/campaign_finance",
+        "period": "July 1 to September 19, 2026",
+        "raised": 7250,
+        "cashOnHand": 8193.37,
+        "fromScan": "ai"
+      }
+    ]
   },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
   "sources": [
@@ -39,6 +46,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.687Z",
-    "version": 4
+    "version": 5
   }
 }

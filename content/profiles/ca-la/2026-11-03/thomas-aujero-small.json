@@ -56,7 +56,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -72,7 +72,7 @@
           { "kind": "pac", "amount": 1660 },
           { "kind": "other", "amount": 1660 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 8960, "count": 8 }
+        "largeSince": { "since": "2026-09-19", "total": 10120, "count": 9 }
       }
     ]
   },
@@ -262,7 +262,12 @@
         "kind": "organization",
         "cites": [12]
       },
-      { "organization": "Our Culver", "kind": "organization", "cites": [13] }
+      { "organization": "Our Culver", "kind": "organization", "cites": [13] },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [14]
+      }
     ]
   },
   "sources": [
@@ -369,12 +374,20 @@
       "url": "https://www.ourculver.org/blog/our-culver-endorses-freddy-puza-amp-thomas-small-for-culver-city-council",
       "kind": "endorser",
       "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "Sierra Club Political Endorsements (2026)",
+      "publisher": "Sierra Club Angeles Chapter Political Committee",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.360Z",
-    "version": 2
+    "version": 3
   }
 }

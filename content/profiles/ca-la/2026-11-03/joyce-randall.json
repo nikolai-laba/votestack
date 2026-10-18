@@ -43,7 +43,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -76,6 +76,16 @@
       },
       {
         "organization": "Former Los Angeles Unified School District Board Member Dr. George McKenna",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Inglewood Unified School District Trustee Margaret Evans",
+        "kind": "elected_official",
+        "cites": [3]
+      },
+      {
+        "organization": "Bishop Johnny Young, former Inglewood Unified School District Board Member",
         "kind": "elected_official",
         "cites": [3]
       },
@@ -154,7 +164,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T21:48:37.133Z",
-    "version": 4
+    "generatedAt": "2026-10-18T03:18:00.311Z",
+    "version": 5
   }
 }

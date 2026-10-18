@@ -34,20 +34,29 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Walls For Illinois",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=37348",
-        "period": "April 1 to June 30, 2026",
+        "period": "July 1 to September 30, 2026",
         "raised": 0,
-        "cashOnHand": -333.99,
+        "cashOnHand": -1133.99,
         "breakdown": []
       }
     ]
   },
-  "endorsements": { "asOf": "2026-10-07", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-07",
+    "items": [
+      {
+        "organization": "Illinois Family Action",
+        "kind": "organization",
+        "cites": [2]
+      }
+    ]
+  },
   "sources": [
     {
       "id": 1,
@@ -56,12 +65,20 @@
       "url": "https://www.wallsforillinois.com/",
       "kind": "candidate",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "2026 General Election Endorsements",
+      "publisher": "Illinois Family Action (IFA-PAC)",
+      "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 2
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:49:37.841Z",
-    "version": 5
+    "version": 6
   }
 }

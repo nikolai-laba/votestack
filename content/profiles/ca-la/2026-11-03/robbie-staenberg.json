@@ -42,7 +42,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -58,7 +58,7 @@
           { "kind": "candidate", "amount": 20 }
         ],
         "fromCandidate": 20,
-        "largeSince": { "since": "2026-09-19", "total": 11100, "count": 7 }
+        "largeSince": { "since": "2026-09-19", "total": 12100, "count": 8 }
       }
     ]
   },
@@ -242,6 +242,11 @@
         "organization": "Santa Monica-Malibu Classroom Teachers Association",
         "kind": "union",
         "cites": [11]
+      },
+      {
+        "organization": "Santa Monicans for Renters' Rights",
+        "kind": "organization",
+        "cites": [12]
       }
     ]
   },
@@ -316,7 +321,7 @@
       "publisher": "Stonewall Democratic Club",
       "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
       "kind": "endorser",
-      "viewedAt": "2026-10-14"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 10,
@@ -324,7 +329,7 @@
       "publisher": "UNITE HERE Local 11",
       "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
       "kind": "endorser",
-      "viewedAt": "2026-10-14"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 11,
@@ -333,12 +338,20 @@
       "url": "https://www.smmcta.com/political-action.html",
       "kind": "endorser",
       "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "SMRR Supported Candidates and Measures for the November 3, 2026 Election in Santa Monica",
+      "publisher": "Santa Monicans for Renters' Rights",
+      "url": "https://www.smrr.org/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 12
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.142Z",
-    "version": 3
+    "version": 4
   }
 }

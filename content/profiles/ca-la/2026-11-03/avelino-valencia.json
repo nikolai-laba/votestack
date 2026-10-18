@@ -39,7 +39,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -54,7 +54,7 @@
           { "kind": "pac", "amount": 99833.91 },
           { "kind": "other", "amount": 87900 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 109800, "count": 29 }
+        "largeSince": { "since": "2026-09-19", "total": 115700, "count": 30 }
       }
     ]
   },
@@ -121,7 +121,8 @@
         "organization": "California Teachers Association",
         "kind": "union",
         "cites": [16]
-      }
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [17] }
     ]
   },
   "sources": [
@@ -252,12 +253,20 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 16
+    },
+    {
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 17
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.762Z",
-    "version": 4
+    "version": 5
   }
 }

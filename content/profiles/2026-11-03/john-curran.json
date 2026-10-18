@@ -54,25 +54,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of John Curran",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=18949",
-        "period": "April 1 to June 30, 2026",
-        "raised": 73992.24,
-        "cashOnHand": 3059626.88,
+        "period": "July 1 to September 30, 2026",
+        "raised": 1538056.27,
+        "cashOnHand": 1525093.34,
         "breakdown": [
-          { "kind": "large", "amount": 13750 },
-          { "kind": "transfer", "amount": 44000 },
-          { "kind": "other", "amount": 16242.24 }
+          { "kind": "small", "amount": 1004.1 },
+          { "kind": "large", "amount": 254353.32 },
+          { "kind": "transfer", "amount": 1269450 },
+          { "kind": "other", "amount": 13248.85 }
         ],
-        "largeSince": {
-          "since": "2026-06-30",
-          "total": 1533303.01,
-          "count": 131
-        }
+        "largeSince": { "since": "2026-09-30", "total": 81750, "count": 22 }
       }
     ]
   },
@@ -179,6 +176,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:55:40.391Z",
-    "version": 4
+    "version": 5
   }
 }

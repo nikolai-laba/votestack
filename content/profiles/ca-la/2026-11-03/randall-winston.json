@@ -34,7 +34,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -50,7 +50,7 @@
           { "kind": "pac", "amount": 10900 },
           { "kind": "other", "amount": 1750 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 20401.11, "count": 16 }
+        "largeSince": { "since": "2026-09-19", "total": 24401.11, "count": 20 }
       }
     ]
   },
@@ -69,6 +69,12 @@
         "party": "Democratic"
       },
       {
+        "organization": "Assemblymember Mike Fong",
+        "kind": "elected_official",
+        "cites": [3],
+        "party": "Democratic"
+      },
+      {
         "organization": "Assemblymember John Harabedian",
         "kind": "elected_official",
         "cites": [3],
@@ -76,6 +82,12 @@
       },
       {
         "organization": "Assemblymember Rick Chavez Zbur",
+        "kind": "elected_official",
+        "cites": [3],
+        "party": "Democratic"
+      },
+      {
+        "organization": "Assemblymember Jessica Caloza",
         "kind": "elected_official",
         "cites": [3],
         "party": "Democratic"
@@ -227,7 +239,13 @@
         "kind": "organization",
         "cites": [9]
       },
-      { "organization": "LA Forward", "kind": "organization", "cites": [10] }
+      {
+        "organization": "Democrats for Israel – Los Angeles",
+        "kind": "organization",
+        "cites": [10]
+      },
+      { "organization": "LA Forward", "kind": "organization", "cites": [11] },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [12] }
     ]
   },
   "sources": [
@@ -304,18 +322,34 @@
       "id": 9
     },
     {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Democrats for Israel – Los Angeles",
+      "url": "https://dfi-la.org/endorse",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
       "title": "November 2026 LA Progressive Voter Guide",
       "publisher": "LA Forward Action Fund",
       "url": "https://laforwardguide.org/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 10
+      "id": 11
+    },
+    {
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 12
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:50.907Z",
-    "version": 4
+    "generatedAt": "2026-10-18T03:18:00.284Z",
+    "version": 5
   }
 }

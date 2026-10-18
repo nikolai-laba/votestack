@@ -44,22 +44,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Juan Ignacio Gonzalez for Chicago Schools",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41111",
-        "period": "April 1 to June 30, 2026",
-        "raised": 3725,
-        "cashOnHand": 1458.02,
+        "period": "July 1 to September 30, 2026",
+        "raised": 14850,
+        "cashOnHand": 5174.89,
         "breakdown": [
-          { "kind": "small", "amount": 75 },
-          { "kind": "large", "amount": 250 },
-          { "kind": "candidate", "amount": 3400 }
-        ],
-        "fromCandidate": 3400,
-        "largeSince": { "since": "2026-06-30", "total": 3854.25, "count": 3 }
+          { "kind": "small", "amount": 2200 },
+          { "kind": "large", "amount": 9900 },
+          { "kind": "loan", "amount": 2750 }
+        ]
       }
     ]
   },
@@ -81,6 +79,11 @@
         "organization": "The Urban Center",
         "kind": "organization",
         "cites": [4]
+      },
+      {
+        "organization": "Fraternal Order of Police Lodge 7",
+        "kind": "union",
+        "cites": [5]
       }
     ]
   },
@@ -116,12 +119,20 @@
       "url": "https://www.wbez.org/education/chicago-school-board/2026/09/21/key-education-endorsements-for-cps-school-board-candidates",
       "kind": "news",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Chicago Fraternal Order of Police Lodge 7 Endorsed Candidates, 2026 General Election",
+      "publisher": "Chicago Fraternal Order of Police Lodge 7",
+      "url": "https://www.chicagofop.org/latest-news/2026-endorsed-candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 5
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:48:47.289Z",
-    "version": 2
+    "version": 3
   }
 }

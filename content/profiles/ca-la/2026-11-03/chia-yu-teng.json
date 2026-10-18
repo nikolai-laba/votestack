@@ -43,12 +43,13 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [],
     "filingsAt": {
       "name": "City of Diamond Bar",
       "url": "https://netfile.com/public/CDB/campaign"
-    }
+    },
+    "noCommittee": { "filedWith": "City of Diamond Bar" }
   },
   "endorsements": {
     "asOf": "2026-10-15",
@@ -225,6 +226,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.578Z",
-    "version": 3
+    "version": 4
   }
 }

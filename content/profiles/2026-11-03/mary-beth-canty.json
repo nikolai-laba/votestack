@@ -32,22 +32,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Mary Beth Canty for Illinois",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=36915",
-        "period": "April 1 to June 30, 2026",
-        "raised": 16842.5,
-        "cashOnHand": 462621.32,
+        "period": "July 1 to September 30, 2026",
+        "raised": 126636,
+        "cashOnHand": 331945.74,
         "breakdown": [
-          { "kind": "small", "amount": 1008 },
-          { "kind": "large", "amount": 4537 },
-          { "kind": "transfer", "amount": 11125 },
-          { "kind": "other", "amount": 172.5 }
+          { "kind": "small", "amount": 3484 },
+          { "kind": "large", "amount": 44082 },
+          { "kind": "transfer", "amount": 79000 },
+          { "kind": "other", "amount": 70 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 167055.46, "count": 50 }
+        "largeSince": { "since": "2026-09-30", "total": 70045.49, "count": 15 }
       }
     ]
   },
@@ -57,35 +57,57 @@
       {
         "organization": "Equality Illinois",
         "kind": "organization",
-        "cites": [5]
+        "cites": [16]
       },
       {
         "organization": "Planned Parenthood Illinois Action",
         "kind": "organization",
-        "cites": [6]
+        "cites": [17]
       },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [7] },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [5] },
       {
         "organization": "Illinois National Organization for Women Political Action Committee",
         "kind": "organization",
-        "cites": [8]
+        "cites": [6]
       },
       {
         "organization": "Better Streets Chicago Action Fund",
         "kind": "organization",
-        "cites": [9]
+        "cites": [7]
       },
       {
         "organization": "Chicago Federation of Labor",
         "kind": "union",
-        "cites": [10]
+        "cites": [8]
       },
-      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [11] },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [9] },
       {
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
+        "cites": [10]
+      },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [11] },
+      {
+        "organization": "Daily Herald Editorial Board",
+        "kind": "editorial_board",
         "cites": [12]
-      }
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [13]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [14]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [15]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [15] }
     ]
   },
   "sources": [
@@ -123,22 +145,6 @@
     },
     {
       "id": 5,
-      "title": "Equality Illinois makes 72 pro-equality, pro-family endorsements for 2026 primary election",
-      "publisher": "Windy City Times",
-      "url": "https://windycitytimes.com/2026/01/15/equality-illinois-makes-72-pro-equality-pro-family-endorsements-for-2026-primary-election/",
-      "kind": "news",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 6,
-      "title": "Planned Parenthood boards announce 2026 primary endorsements",
-      "publisher": "Windy City Times",
-      "url": "https://windycitytimes.com/2026/02/04/planned-parenthood-boards-announce-2026-primary-endorsements/",
-      "kind": "news",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 7,
       "title": "Endorsements and Election Information",
       "publisher": "Personal PAC",
       "url": "https://personalpac.org/elections/",
@@ -146,7 +152,7 @@
       "viewedAt": "2026-10-07"
     },
     {
-      "id": 8,
+      "id": 6,
       "title": "IL NOW PAC Primary Endorsements 3/17/26",
       "publisher": "Illinois National Organization for Women Political Action Committee",
       "url": "https://ilnow.org/uncategorized/il-now-pac-primary-endorsements-3-17-26/",
@@ -154,7 +160,7 @@
       "viewedAt": "2026-10-07"
     },
     {
-      "id": 9,
+      "id": 7,
       "title": "2026 Endorsements",
       "publisher": "Better Streets Chicago Action Fund",
       "url": "https://www.bscactionfund.org/2026-midterms/endorsements",
@@ -167,7 +173,7 @@
       "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
-      "id": 10
+      "id": 8
     },
     {
       "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
@@ -175,7 +181,7 @@
       "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
-      "id": 11
+      "id": 9
     },
     {
       "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
@@ -183,13 +189,69 @@
       "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "Daily Herald endorsements, Nov. 3, 2026 general election (published Oct. 13-16, 2026)",
+      "publisher": "Daily Herald (Arlington Heights)",
+      "url": "https://www.dailyherald.com/opinion/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
       "id": 12
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Planned Parenthood Illinois Action (press release, published by Windy City Times)",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 17
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:14:55.512Z",
-    "version": 6
+    "version": 8
   }
 }

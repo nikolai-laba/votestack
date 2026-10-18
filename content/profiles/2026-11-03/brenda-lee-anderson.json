@@ -54,22 +54,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Community for Brenda Anderson",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41131",
-        "period": "April 1 to June 30, 2026",
-        "raised": 3118,
-        "cashOnHand": 1174.29,
+        "period": "July 1 to September 30, 2026",
+        "raised": 12155,
+        "cashOnHand": 8059.52,
         "breakdown": [
-          { "kind": "small", "amount": 763 },
-          { "kind": "transfer", "amount": 1500 },
-          { "kind": "candidate", "amount": 855 }
-        ],
-        "fromCandidate": 855,
-        "largeSince": { "since": "2026-06-30", "total": 3372, "count": 2 }
+          { "kind": "small", "amount": 2750 },
+          { "kind": "large", "amount": 9175 },
+          { "kind": "other", "amount": 230 }
+        ]
       }
     ]
   },
@@ -125,6 +123,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:46:50.199Z",
-    "version": 2
+    "version": 3
   }
 }

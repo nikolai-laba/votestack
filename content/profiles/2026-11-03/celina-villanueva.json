@@ -58,22 +58,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends for Celina Villanueva",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=34699",
-        "period": "April 1 to June 30, 2026",
-        "raised": 6359.9,
-        "cashOnHand": 79802.98,
+        "period": "July 1 to September 30, 2026",
+        "raised": 98902.67,
+        "cashOnHand": 128424.89,
         "breakdown": [
-          { "kind": "small", "amount": 14.19 },
-          { "kind": "large", "amount": 3200 },
-          { "kind": "transfer", "amount": 2500 },
-          { "kind": "other", "amount": 645.71 }
-        ],
-        "largeSince": { "since": "2026-06-30", "total": 84500, "count": 36 }
+          { "kind": "small", "amount": 1850 },
+          { "kind": "large", "amount": 25075 },
+          { "kind": "transfer", "amount": 70750 },
+          { "kind": "other", "amount": 1227.67 }
+        ]
       }
     ]
   },
@@ -136,7 +135,7 @@
       {
         "organization": "SEIU Healthcare Illinois Indiana",
         "kind": "union",
-        "cites": [10]
+        "cites": [10, 14]
       },
       {
         "organization": "SEIU Illinois State Council",
@@ -156,11 +155,12 @@
       {
         "organization": "Chicago Federation of Labor",
         "kind": "union",
-        "cites": [12]
+        "cites": [16]
       },
-      { "organization": "IUOE Local 399", "kind": "union", "cites": [13] },
-      { "organization": "IUOE Local 150", "kind": "union", "cites": [14] },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [15] }
+      { "organization": "IUOE Local 399", "kind": "union", "cites": [12] },
+      { "organization": "IUOE Local 150", "kind": "union", "cites": [17] },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [13] },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [15] }
     ]
   },
   "sources": [
@@ -226,7 +226,7 @@
       "publisher": "Windy City Times",
       "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
       "kind": "news",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 9,
@@ -254,25 +254,9 @@
     },
     {
       "id": 12,
-      "title": "MARCH 17, 2026 PRIMARY ELECTION ENDORSED CANDIDATES",
-      "publisher": "Chicago Federation of Labor",
-      "url": "https://chicagolabor.org/wp-content/uploads/P2026_PrimaryEndorsementList_updated-v5.pdf",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 13,
       "title": "2026 LOCAL 399 ILLINOIS PRIMARY ELECTION ENDORSEMENTS",
       "publisher": "IUOE Local 399",
       "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 14,
-      "title": "IUOE LOCAL 150 DISTRICT 1 ENDORSEMENTS",
-      "publisher": "IUOE Local 150",
-      "url": "https://local150.org/wp-content/uploads/2026/02/2026-IL-Primary-Mailer-District-1_V7.pdf",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
     },
@@ -282,13 +266,45 @@
       "url": "https://personalpac.org/elections/",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
       "id": 15
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 17
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:22:58.817Z",
-    "version": 7
+    "version": 10
   }
 }

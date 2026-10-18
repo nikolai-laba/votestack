@@ -68,19 +68,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Jennifer Davis for Congress",
         "url": "https://www.fec.gov/data/committee/C00919142/?cycle=2026",
-        "period": "July 1, 2025 to June 30, 2026",
-        "raised": 1476009.04,
-        "cashOnHand": 730400.66,
+        "period": "July 1, 2025 to September 30, 2026",
+        "raised": 1713426.25,
+        "cashOnHand": 444522.08,
         "breakdown": [
-          { "kind": "small", "amount": 30551.59 },
-          { "kind": "large", "amount": 431457.45 },
-          { "kind": "pac", "amount": 14000 },
+          { "kind": "small", "amount": 78829.13 },
+          { "kind": "large", "amount": 611847.12 },
+          { "kind": "pac", "amount": 22750 },
           { "kind": "candidate", "amount": 1000000 }
         ],
         "fromCandidate": 1000000
@@ -295,7 +295,12 @@
         "kind": "organization",
         "cites": [6]
       },
-      { "organization": "Elgin Township GOP", "kind": "party", "cites": [6] }
+      { "organization": "Elgin Township GOP", "kind": "party", "cites": [6] },
+      {
+        "organization": "Schaumburg Township Republican Organization",
+        "kind": "organization",
+        "cites": [8]
+      }
     ]
   },
   "sources": [
@@ -353,13 +358,21 @@
       "publisher": "Illinois Family Action",
       "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
+    },
+    {
+      "title": "Schaumburg Township Republicans Official Sample Ballot (November 2026)",
+      "publisher": "Schaumburg Township Republican Organization",
+      "url": "https://www.stgop.org/sample_ballot_republican_candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 8
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:10:37.271Z",
-    "version": 5
+    "version": 6
   }
 }

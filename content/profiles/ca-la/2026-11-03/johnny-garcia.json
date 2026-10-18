@@ -35,12 +35,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
-    "items": [],
-    "filingsAt": {
-      "name": "City of Pico Rivera",
-      "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=244966&dbid=0&repo=r-0aa0087e"
-    }
+    "asOf": "2026-10-17",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Pico Rivera",
+        "committee": "J Garcia for City Council 2026",
+        "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=320091&dbid=0&repo=r-0aa0087e",
+        "period": "January 1 to June 30, 2026",
+        "raised": 7241,
+        "cashOnHand": 11600.32,
+        "fromScan": "ai"
+      }
+    ]
   },
   "endorsements": {
     "asOf": "2026-10-15",
@@ -112,6 +119,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.818Z",
-    "version": 3
+    "version": 4
   }
 }

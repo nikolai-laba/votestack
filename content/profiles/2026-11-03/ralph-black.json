@@ -43,22 +43,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Citizens for Ralph Black",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40820",
-        "period": "April 1 to June 30, 2026",
-        "raised": 3849.05,
-        "cashOnHand": 3619.12,
+        "period": "July 1 to September 30, 2026",
+        "raised": 9304.26,
+        "cashOnHand": 5134.78,
         "breakdown": [
-          { "kind": "small", "amount": 228.08 },
-          { "kind": "large", "amount": 2580.76 },
-          { "kind": "candidate", "amount": 993.04 },
-          { "kind": "loan", "amount": 47.17 }
+          { "kind": "small", "amount": 1068.74 },
+          { "kind": "large", "amount": 2600.83 },
+          { "kind": "candidate", "amount": 5626.69 },
+          { "kind": "other", "amount": 8 }
         ],
-        "fromCandidate": 993.04
+        "fromCandidate": 5626.69
       }
     ]
   },
@@ -110,6 +110,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:09:22.267Z",
-    "version": 5
+    "version": 6
   }
 }

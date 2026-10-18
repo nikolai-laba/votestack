@@ -79,26 +79,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Bailey for Illinois",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=34092",
-        "period": "April 1 to June 30, 2026",
-        "raised": 1330786.81,
-        "cashOnHand": 127990.39,
+        "period": "July 1 to September 30, 2026",
+        "raised": 1244428.69,
+        "cashOnHand": 431787.79,
         "breakdown": [
-          { "kind": "small", "amount": 638120.84 },
-          { "kind": "large", "amount": 641341.47 },
-          { "kind": "transfer", "amount": 51299 },
-          { "kind": "other", "amount": 25.5 }
+          { "kind": "small", "amount": 511371.24 },
+          { "kind": "large", "amount": 633992.13 },
+          { "kind": "transfer", "amount": 43050 },
+          { "kind": "loan", "amount": 50000 },
+          { "kind": "other", "amount": 6015.32 }
         ],
-        "largeSince": {
-          "since": "2026-06-30",
-          "total": 343481.38,
-          "count": 163
-        }
+        "largeSince": { "since": "2026-09-30", "total": 21848.66, "count": 16 }
       }
     ]
   },
@@ -117,7 +114,27 @@
         "cites": [10]
       },
       { "organization": "Lake County GOP", "kind": "party", "cites": [11] },
-      { "organization": "Madison County GOP", "kind": "party", "cites": [11] }
+      { "organization": "Madison County GOP", "kind": "party", "cites": [11] },
+      {
+        "organization": "Illinois Family Action",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "Northfield Township Republican Organization",
+        "kind": "organization",
+        "cites": [13]
+      },
+      {
+        "organization": "Republicans of Wheeling Township",
+        "kind": "organization",
+        "cites": [14]
+      },
+      {
+        "organization": "Schaumburg Township Republican Organization",
+        "kind": "organization",
+        "cites": [15]
+      }
     ]
   },
   "sources": [
@@ -208,12 +225,44 @@
       "url": "https://lakeforestjournal.com/articles/bailey-seeks-governor-s-office-again-in-2026-race-muvn9o4n",
       "kind": "news",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "2026 General Election Endorsements",
+      "publisher": "Illinois Family Action (IFA-PAC)",
+      "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "Your 2026 Republican Ticket / Republican Sample Ballot, General Election",
+      "publisher": "Northfield Township Republican Organization",
+      "url": "https://www.northfieldgop.org/sample_ballot",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "2026 Republican Sample Ballot (General Election)",
+      "publisher": "Republicans of Wheeling Township",
+      "url": "https://rowtgop.org/sample-ballot/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "Schaumburg Township Republicans Official Sample Ballot (November 2026)",
+      "publisher": "Schaumburg Township Republican Organization",
+      "url": "https://www.stgop.org/sample_ballot_republican_candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:59:42.105Z",
-    "version": 3
+    "version": 4
   }
 }

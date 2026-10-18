@@ -41,21 +41,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Patricia Joan Murphy",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39778",
-        "period": "April 1 to June 30, 2026",
-        "raised": 8513,
-        "cashOnHand": 22521.54,
+        "period": "July 1 to September 30, 2026",
+        "raised": 20125,
+        "cashOnHand": 35595.65,
         "breakdown": [
-          { "kind": "small", "amount": 963 },
-          { "kind": "large", "amount": 4050 },
-          { "kind": "transfer", "amount": 3500 }
+          { "kind": "small", "amount": 2575 },
+          { "kind": "large", "amount": 7200 },
+          { "kind": "transfer", "amount": 10350 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 11500, "count": 8 }
+        "largeSince": { "since": "2026-09-30", "total": 1000, "count": 1 }
       }
     ]
   },
@@ -272,7 +272,18 @@
         "organization": "Teamsters Joint Council 25",
         "kind": "union",
         "cites": [5]
-      }
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [11]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [11] }
     ]
   },
   "sources": [
@@ -347,12 +358,28 @@
       "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 11
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:22:27.619Z",
-    "version": 5
+    "version": 6
   }
 }

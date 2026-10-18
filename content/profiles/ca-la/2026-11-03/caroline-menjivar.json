@@ -58,7 +58,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -74,7 +74,7 @@
           { "kind": "pac", "amount": 71850 },
           { "kind": "other", "amount": 46900 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 42800, "count": 11 }
+        "largeSince": { "since": "2026-09-19", "total": 61200, "count": 15 }
       }
     ]
   },
@@ -107,7 +107,7 @@
       {
         "organization": "California Federation of Teachers",
         "kind": "union",
-        "cites": [9]
+        "cites": [20]
       },
       {
         "organization": "California School Employees Association",
@@ -155,8 +155,8 @@
         "kind": "union",
         "cites": [7]
       },
-      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [10] },
-      { "organization": "Teamsters Local 572", "kind": "union", "cites": [11] },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [9] },
+      { "organization": "Teamsters Local 572", "kind": "union", "cites": [10] },
       {
         "organization": "CAL FIRE Firefighters Local 2881",
         "kind": "union",
@@ -213,7 +213,7 @@
       {
         "organization": "Planned Parenthood Advocacy Project Los Angeles County Action Fund",
         "kind": "organization",
-        "cites": [12]
+        "cites": [11]
       },
       {
         "organization": "Women's Political Committee Los Angeles",
@@ -258,21 +258,31 @@
       {
         "organization": "Equality California",
         "kind": "organization",
-        "cites": [13]
+        "cites": [12]
       },
       {
         "organization": "California Teachers Association",
         "kind": "union",
-        "cites": [14]
+        "cites": [13]
       },
       {
         "organization": "Democrats for Israel – Los Angeles",
         "kind": "organization",
-        "cites": [15]
+        "cites": [14]
       },
-      { "organization": "Knock LA", "kind": "organization", "cites": [16] },
-      { "organization": "LA Forward", "kind": "organization", "cites": [17] },
-      { "organization": "SEIU Local 721", "kind": "union", "cites": [18] }
+      { "organization": "Knock LA", "kind": "organization", "cites": [15] },
+      { "organization": "LA Forward", "kind": "organization", "cites": [16] },
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [17] },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [18]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [19]
+      }
     ]
   },
   "sources": [
@@ -342,14 +352,6 @@
     },
     {
       "id": 9,
-      "title": "General Election 2026 endorsements",
-      "publisher": "California Federation of Teachers COPE",
-      "url": "https://utla.net/app/uploads/2026/08/cft_endorsements-primary-election_4.27.2026_1.pdf",
-      "kind": "endorser",
-      "viewedAt": "2026-10-14"
-    },
-    {
-      "id": 10,
       "title": "2026 Official Voter Guide",
       "publisher": "UNITE HERE Local 11",
       "url": "https://www.unitehere11.org/wp-content/uploads/2026-UHL11-Voter-Guides.pdf",
@@ -357,7 +359,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "2026 Voter Guide",
       "publisher": "Teamsters Local 572",
       "url": "https://www.teamsters572.org/local-572-voter-guide/",
@@ -365,7 +367,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 12,
+      "id": 11,
       "title": "Voter Guide",
       "publisher": "Planned Parenthood Advocacy Project Los Angeles County",
       "url": "https://www.plannedparenthoodaction.org/planned-parenthood-advocacy-project-los-angeles-county/voter-guide-ppapx",
@@ -373,7 +375,7 @@
       "viewedAt": "2026-10-15"
     },
     {
-      "id": 13,
+      "id": 12,
       "title": "Equality California Election Center",
       "publisher": "Equality California",
       "url": "https://www.eqca.org/elections/",
@@ -386,7 +388,7 @@
       "url": "https://www.cta.org/our-advocacy/election-2026",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 14
+      "id": 13
     },
     {
       "title": "November 2026 General Election Endorsements",
@@ -394,7 +396,7 @@
       "url": "https://dfi-la.org/endorse",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 15
+      "id": 14
     },
     {
       "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
@@ -402,7 +404,7 @@
       "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 16
+      "id": 15
     },
     {
       "title": "November 2026 LA Progressive Voter Guide",
@@ -410,7 +412,7 @@
       "url": "https://laforwardguide.org/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 17
+      "id": 16
     },
     {
       "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
@@ -418,13 +420,37 @@
       "url": "https://seiu721.org/2026election/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "Sierra Club Political Endorsements (2026)",
+      "publisher": "Sierra Club Angeles Chapter Political Committee",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
       "id": 18
+    },
+    {
+      "title": "California Teamsters Endorsements",
+      "publisher": "Teamsters Joint Council 42",
+      "url": "https://www.teamstersjc42.com/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "CFT Endorsements, General Election 2026 (Tuesday, November 3)",
+      "publisher": "California Federation of Teachers",
+      "url": "https://www.cft.org/2026-midterm-elections-hub",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 20
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.738Z",
-    "version": 4
+    "version": 6
   }
 }

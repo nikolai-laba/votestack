@@ -80,7 +80,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
@@ -114,6 +114,21 @@
         "organization": "Northfield Township Republican Organization",
         "kind": "party",
         "cites": [9]
+      },
+      {
+        "organization": "Illinois Family Action",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Republicans of Wheeling Township",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "Schaumburg Township Republican Organization",
+        "kind": "organization",
+        "cites": [12]
       }
     ]
   },
@@ -189,12 +204,36 @@
       "url": "https://www.northfieldgop.org/northfield_township_republicans_endorse_dabrowski_tracy_harris_brown",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "2026 General Election Endorsements",
+      "publisher": "Illinois Family Action (IFA-PAC)",
+      "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "2026 Republican Sample Ballot (General Election)",
+      "publisher": "Republicans of Wheeling Township",
+      "url": "https://rowtgop.org/sample-ballot/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "Schaumburg Township Republicans Official Sample Ballot (November 2026)",
+      "publisher": "Schaumburg Township Republican Organization",
+      "url": "https://www.stgop.org/sample_ballot_republican_candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 12
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T21:01:17.181Z",
-    "version": 2
+    "version": 3
   }
 }

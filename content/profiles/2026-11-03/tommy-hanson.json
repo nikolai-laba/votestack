@@ -97,7 +97,11 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-07", "items": [] },
+  "money": {
+    "asOf": "2026-10-17",
+    "items": [],
+    "noCommittee": { "filedWith": "Federal Election Commission" }
+  },
   "endorsements": {
     "asOf": "2026-10-07",
     "items": [
@@ -105,6 +109,11 @@
         "organization": "Republicans of Wheeling Township",
         "kind": "party",
         "cites": [8]
+      },
+      {
+        "organization": "Northfield Township Republican Organization",
+        "kind": "organization",
+        "cites": [9]
       }
     ]
   },
@@ -172,12 +181,20 @@
       "url": "https://rowtgop.org/candidates/",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Your 2026 Republican Ticket / Republican Sample Ballot, General Election",
+      "publisher": "Northfield Township Republican Organization",
+      "url": "https://www.northfieldgop.org/sample_ballot",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 9
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:08:19.517Z",
-    "version": 8
+    "version": 9
   }
 }

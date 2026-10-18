@@ -43,21 +43,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Committee to Elect Michael Scott Jr",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40016",
-        "period": "April 1 to June 30, 2026",
-        "raised": 9055,
-        "cashOnHand": 6317.48,
-        "breakdown": [
-          { "kind": "small", "amount": 100 },
-          { "kind": "large", "amount": 6950 },
-          { "kind": "transfer", "amount": 2000 },
-          { "kind": "other", "amount": 5 }
-        ]
+        "period": "July 1 to September 30, 2026",
+        "raised": 0,
+        "cashOnHand": 3557.33,
+        "breakdown": []
       }
     ]
   },
@@ -79,11 +74,11 @@
         "kind": "union",
         "cites": [7]
       },
-      { "organization": "SEIU Healthcare", "kind": "union", "cites": [7] },
+      { "organization": "SEIU Healthcare", "kind": "union", "cites": [7, 9] },
       {
         "organization": "Chicago Federation of Labor",
         "kind": "union",
-        "cites": [8]
+        "cites": [11]
       },
       {
         "organization": "International Union of Operating Engineers Local 150",
@@ -93,9 +88,10 @@
       {
         "organization": "International Union of Operating Engineers Local 399",
         "kind": "union",
-        "cites": [9]
+        "cites": [8]
       },
-      { "organization": "Plumbers Local 130", "kind": "union", "cites": [7] }
+      { "organization": "Plumbers Local 130", "kind": "union", "cites": [7] },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [10] }
     ]
   },
   "sources": [
@@ -157,25 +153,41 @@
     },
     {
       "id": 8,
-      "title": "MARCH 17, 2026 PRIMARY ELECTION",
-      "publisher": "Chicago Federation of Labor",
-      "url": "https://chicagolabor.org/wp-content/uploads/Updated-P2026_PrimaryEndorsementList_updated-v6.pdf",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 9,
       "title": "2026 local 399 illinois - primary election endorsements",
       "publisher": "International Union of Operating Engineers Local 399",
       "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 9
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:20:37.693Z",
-    "version": 5
+    "version": 8
   }
 }

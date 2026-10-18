@@ -80,20 +80,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Chad Koppie for Congress",
         "url": "https://www.fec.gov/data/committee/C00911453/?cycle=2026",
-        "period": "July 10, 2025 to June 30, 2026",
-        "raised": 55450.56,
+        "period": "July 10, 2025 to September 30, 2026",
+        "raised": 58215.06,
         "cashOnHand": 42.2,
         "breakdown": [
-          { "kind": "candidate", "amount": 53154.01 },
-          { "kind": "other", "amount": 2296.55 }
+          { "kind": "candidate", "amount": 55876.51 },
+          { "kind": "other", "amount": 2338.55 }
         ],
-        "fromCandidate": 53154.01
+        "fromCandidate": 55876.51
       }
     ]
   },
@@ -182,6 +182,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:10:21.252Z",
-    "version": 6
+    "version": 7
   }
 }

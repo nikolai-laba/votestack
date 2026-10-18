@@ -43,20 +43,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Citizens for Daniel Lee",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39818",
-        "period": "April 1 to June 30, 2026",
-        "raised": 3985.78,
-        "cashOnHand": 2669.22,
+        "period": "July 1 to September 30, 2026",
+        "raised": 8557,
+        "cashOnHand": 1500.63,
         "breakdown": [
-          { "kind": "small", "amount": 785.78 },
-          { "kind": "large", "amount": 3200 }
-        ],
-        "largeSince": { "since": "2026-06-30", "total": 3000, "count": 3 }
+          { "kind": "small", "amount": 1372 },
+          { "kind": "large", "amount": 6185 },
+          { "kind": "transfer", "amount": 1000 }
+        ]
       }
     ]
   },
@@ -116,6 +116,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:17:09.196Z",
-    "version": 3
+    "version": 4
   }
 }

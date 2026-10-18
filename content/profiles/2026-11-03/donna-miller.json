@@ -86,20 +86,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Donna Miller for Congress",
         "url": "https://www.fec.gov/data/committee/C00911164/?cycle=2026",
-        "period": "July 1, 2025 to June 30, 2026",
-        "raised": 2452894.37,
-        "cashOnHand": 40545.74,
+        "period": "July 1, 2025 to September 30, 2026",
+        "raised": 2679838.58,
+        "cashOnHand": 101987.66,
         "breakdown": [
           { "kind": "small", "amount": 63262.95 },
-          { "kind": "large", "amount": 2252115.04 },
-          { "kind": "pac", "amount": 125750 },
-          { "kind": "transfer", "amount": 11766.38 }
+          { "kind": "large", "amount": 2402359.27 },
+          { "kind": "pac", "amount": 201250 },
+          { "kind": "party", "amount": 1000 },
+          { "kind": "transfer", "amount": 11766.38 },
+          { "kind": "other", "amount": 199.98 }
         ]
       }
     ]
@@ -276,6 +278,12 @@
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
         "cites": [14]
+      },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [15] },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [16]
       }
     ]
   },
@@ -391,12 +399,28 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 14
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:00:44.751Z",
-    "version": 8
+    "version": 9
   }
 }

@@ -58,20 +58,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Ellen Sherratt",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41076",
-        "period": "April 1 to June 30, 2026",
-        "raised": 29536,
-        "cashOnHand": 44724.65,
+        "period": "July 1 to September 30, 2026",
+        "raised": 128593.18,
+        "cashOnHand": 88249.75,
         "breakdown": [
-          { "kind": "small", "amount": 2456 },
-          { "kind": "large", "amount": 27080 }
+          { "kind": "small", "amount": 9045 },
+          { "kind": "large", "amount": 104548.18 },
+          { "kind": "transfer", "amount": 15000 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 96089.11, "count": 41 }
+        "largeSince": { "since": "2026-09-30", "total": 1000, "count": 1 }
       }
     ]
   },
@@ -176,7 +177,7 @@
       "publisher": "SEIU Healthcare",
       "url": "https://seiuhcilin.org/resources/election-information/",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 7,
@@ -208,7 +209,7 @@
       "publisher": "Common Ground Collective",
       "url": "https://cgcollective.org/endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 11,
@@ -231,6 +232,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:44:14.316Z",
-    "version": 3
+    "version": 5
   }
 }

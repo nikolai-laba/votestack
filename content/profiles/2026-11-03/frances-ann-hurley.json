@@ -50,22 +50,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Fran Hurley",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=23955",
-        "period": "April 1 to June 30, 2026",
-        "raised": 41937.58,
-        "cashOnHand": 185792.6,
+        "period": "July 1 to September 30, 2026",
+        "raised": 78232.79,
+        "cashOnHand": 211690.86,
         "breakdown": [
-          { "kind": "small", "amount": 100 },
-          { "kind": "large", "amount": 7000 },
-          { "kind": "transfer", "amount": 34750 },
-          { "kind": "other", "amount": 87.58 }
+          { "kind": "small", "amount": 748 },
+          { "kind": "large", "amount": 18800 },
+          { "kind": "transfer", "amount": 58400 },
+          { "kind": "other", "amount": 284.79 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 90702.02, "count": 35 }
+        "largeSince": { "since": "2026-09-30", "total": 103300.32, "count": 11 }
       }
     ]
   },
@@ -103,6 +103,22 @@
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
         "cites": [12]
+      },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [13] },
+      {
+        "organization": "Chicago Tribune Editorial Board",
+        "kind": "editorial_board",
+        "cites": [14]
+      },
+      {
+        "organization": "Fraternal Order of Police Lodge 7",
+        "kind": "union",
+        "cites": [15]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [16]
       }
     ]
   },
@@ -153,7 +169,7 @@
       "publisher": "Windy City Times",
       "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
       "kind": "news",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 7,
@@ -169,7 +185,7 @@
       "publisher": "Illinois Federation of Teachers",
       "url": "https://www.ift-aft.org/vote",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 9,
@@ -177,7 +193,7 @@
       "publisher": "SEIU Local 73",
       "url": "https://seiu73.org/election-2026/",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "title": "November 3, 2026 General Election Endorsed Candidates",
@@ -202,12 +218,44 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 12
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "Tribune Editorial Board endorsements for the 2026 Illinois general election",
+      "publisher": "Chicago Tribune (syndicated on Yahoo News, Oct. 11, 2026)",
+      "url": "https://www.yahoo.com/news/politics/articles/tribune-editorial-board-endorsements-2026-111600003.html",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "Chicago Fraternal Order of Police Lodge 7 Endorsed Candidates, 2026 General Election",
+      "publisher": "Chicago Fraternal Order of Police Lodge 7",
+      "url": "https://www.chicagofop.org/latest-news/2026-endorsed-candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:26:20.966Z",
-    "version": 5
+    "version": 6
   }
 }

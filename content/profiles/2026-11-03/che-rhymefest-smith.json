@@ -59,21 +59,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Citizens for Che \"Rhymefest\" Smith",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39788",
-        "period": "April 1 to June 30, 2026",
-        "raised": 57970,
-        "cashOnHand": 49454.37,
+        "period": "July 1 to September 30, 2026",
+        "raised": 12600,
+        "cashOnHand": 25247.6,
         "breakdown": [
-          { "kind": "small", "amount": 1525 },
-          { "kind": "large", "amount": 53545 },
-          { "kind": "transfer", "amount": 2900 }
+          { "kind": "small", "amount": 400 },
+          { "kind": "large", "amount": 700 },
+          { "kind": "transfer", "amount": 11500 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 11000, "count": 2 }
+        "largeSince": { "since": "2026-09-30", "total": 4000, "count": 1 }
       }
     ]
   },
@@ -105,6 +105,11 @@
         "organization": "Chicago Federation of Labor",
         "kind": "union",
         "cites": [12]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [13]
       }
     ]
   },
@@ -187,7 +192,7 @@
       "publisher": "Common Ground Collective",
       "url": "https://cgcollective.org/endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 11,
@@ -204,12 +209,20 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 12
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 13
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:39:43.522Z",
-    "version": 5
+    "version": 6
   }
 }

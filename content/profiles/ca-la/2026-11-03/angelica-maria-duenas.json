@@ -53,18 +53,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Angelica Duenas for US",
         "url": "https://www.fec.gov/data/committee/C00697391/?cycle=2026",
-        "period": "January 1, 2025 to June 30, 2026",
-        "raised": 37153.03,
-        "cashOnHand": 3349.48,
+        "period": "January 1, 2025 to September 30, 2026",
+        "raised": 93585.92,
+        "cashOnHand": 29098.52,
         "breakdown": [
-          { "kind": "small", "amount": 16269.03 },
-          { "kind": "large", "amount": 20884 }
+          { "kind": "small", "amount": 50289.92 },
+          { "kind": "large", "amount": 43197 },
+          { "kind": "pac", "amount": 99 }
         ]
       }
     ]
@@ -198,6 +199,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.789Z",
-    "version": 6
+    "version": 7
   }
 }

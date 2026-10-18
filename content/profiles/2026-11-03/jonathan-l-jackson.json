@@ -91,20 +91,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Jonathan Jackson for Congress",
         "url": "https://www.fec.gov/data/committee/C00802603/?cycle=2026",
-        "period": "January 1, 2025 to June 30, 2026",
-        "raised": 418349.64,
-        "cashOnHand": 47162.51,
+        "period": "January 1, 2025 to September 30, 2026",
+        "raised": 514698.04,
+        "cashOnHand": 32484.2,
         "breakdown": [
-          { "kind": "small", "amount": 10569.17 },
-          { "kind": "large", "amount": 258792 },
-          { "kind": "pac", "amount": 142500 },
-          { "kind": "other", "amount": 6488.47 }
+          { "kind": "small", "amount": 11665.17 },
+          { "kind": "large", "amount": 291996 },
+          { "kind": "pac", "amount": 191500 },
+          { "kind": "other", "amount": 19536.87 }
         ]
       }
     ]
@@ -142,7 +142,24 @@
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
         "cites": [17]
-      }
+      },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [18] },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [19]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [20]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [21]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [21] }
     ]
   },
   "sources": [
@@ -281,12 +298,44 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 17
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 20
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 21
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:36:19.694Z",
-    "version": 8
+    "version": 9
   }
 }

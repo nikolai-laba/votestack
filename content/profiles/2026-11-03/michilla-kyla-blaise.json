@@ -55,20 +55,17 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Committee to Elect Michilla Blaise",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=37001",
-        "period": "April 1 to June 30, 2026",
-        "raised": 10011,
-        "cashOnHand": 7028.57,
-        "breakdown": [
-          { "kind": "small", "amount": 3061 },
-          { "kind": "large", "amount": 6950 }
-        ],
-        "largeSince": { "since": "2026-06-30", "total": 35666.35, "count": 6 }
+        "period": "July 1 to September 30, 2026",
+        "raised": 1500,
+        "cashOnHand": 8469.32,
+        "breakdown": [{ "kind": "large", "amount": 1500 }],
+        "largeSince": { "since": "2026-09-30", "total": 20566.35, "count": 2 }
       }
     ]
   },
@@ -80,7 +77,12 @@
         "kind": "union",
         "cites": [4]
       },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [5] }
+      { "organization": "Personal PAC", "kind": "organization", "cites": [5] },
+      {
+        "organization": "Our Schools Chicago",
+        "kind": "organization",
+        "cites": [6]
+      }
     ]
   },
   "sources": [
@@ -123,12 +125,20 @@
       "url": "https://personalpac.org/elections/",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Our Endorsed Candidates",
+      "publisher": "Our Schools Chicago (publicschoolchampions.com)",
+      "url": "https://publicschoolchampions.com/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 6
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:46:24.050Z",
-    "version": 4
+    "version": 5
   }
 }

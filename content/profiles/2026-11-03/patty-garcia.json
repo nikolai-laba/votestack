@@ -58,20 +58,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Patty Garcia for Congress",
         "url": "https://www.fec.gov/data/committee/C00925495/?cycle=2026",
-        "period": "October 1, 2025 to June 30, 2026",
-        "raised": 358667.1,
-        "cashOnHand": 185499.02,
+        "period": "October 1, 2025 to September 30, 2026",
+        "raised": 481883.49,
+        "cashOnHand": 172569.74,
         "breakdown": [
-          { "kind": "small", "amount": 25299.59 },
-          { "kind": "large", "amount": 152610 },
-          { "kind": "pac", "amount": 172800 },
-          { "kind": "other", "amount": 7957.51 }
+          { "kind": "small", "amount": 31598.59 },
+          { "kind": "large", "amount": 198510 },
+          { "kind": "pac", "amount": 238100.01 },
+          { "kind": "other", "amount": 13674.89 }
         ]
       }
     ]
@@ -267,7 +267,14 @@
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
         "cites": [15]
-      }
+      },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [16] },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [17]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [18] }
     ]
   },
   "sources": [
@@ -390,12 +397,36 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 15
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:36:19.694Z",
-    "version": 7
+    "version": 8
   }
 }

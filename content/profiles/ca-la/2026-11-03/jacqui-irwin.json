@@ -79,20 +79,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Jacqui Irwin for Congress",
         "url": "https://www.fec.gov/data/committee/C00933630/?cycle=2026",
-        "period": "January 1 to June 30, 2026",
-        "raised": 822382.31,
-        "cashOnHand": 295478.48,
+        "period": "January 1 to September 30, 2026",
+        "raised": 1098000.11,
+        "cashOnHand": 447048.34,
         "breakdown": [
-          { "kind": "small", "amount": 17494 },
-          { "kind": "large", "amount": 634338.31 },
-          { "kind": "pac", "amount": 164050 },
-          { "kind": "other", "amount": 6500 }
+          { "kind": "small", "amount": 22139 },
+          { "kind": "large", "amount": 789373.31 },
+          { "kind": "pac", "amount": 274925.2 },
+          { "kind": "other", "amount": 11562.6 }
         ]
       }
     ]
@@ -466,6 +466,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.774Z",
-    "version": 4
+    "version": 5
   }
 }

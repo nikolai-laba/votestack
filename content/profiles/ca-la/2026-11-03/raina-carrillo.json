@@ -48,7 +48,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [],
     "filingsAt": {
       "name": "City of Inglewood",
@@ -56,7 +56,16 @@
       "onRequest": true
     }
   },
-  "endorsements": { "asOf": "2026-10-14", "items": [] },
+  "endorsements": {
+    "asOf": "2026-10-14",
+    "items": [
+      {
+        "organization": "Democrats for Israel – Los Angeles",
+        "kind": "organization",
+        "cites": [4]
+      }
+    ]
+  },
   "sources": [
     {
       "id": 1,
@@ -81,12 +90,20 @@
       "url": "https://www.dailynews.com/2026/10/05/raina-carrillo-inglewood-mayor-candidate-2026-election-questionnaire/",
       "kind": "news",
       "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Democrats for Israel – Los Angeles",
+      "url": "https://dfi-la.org/endorse",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 4
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T14:05:39.755Z",
-    "version": 3
+    "version": 4
   }
 }

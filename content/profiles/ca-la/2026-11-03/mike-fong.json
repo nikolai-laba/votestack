@@ -48,7 +48,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -64,7 +64,7 @@
           { "kind": "pac", "amount": 44700 },
           { "kind": "other", "amount": 44850 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 75920, "count": 30 }
+        "largeSince": { "since": "2026-09-19", "total": 102270, "count": 37 }
       }
     ]
   },
@@ -84,41 +84,57 @@
       {
         "organization": "California Federation of Teachers",
         "kind": "union",
-        "cites": [9]
+        "cites": [22]
       },
       {
         "organization": "Planned Parenthood Advocates Pasadena & San Gabriel Valley",
         "kind": "organization",
-        "cites": [10]
+        "cites": [9]
       },
       {
         "organization": "Equality California",
         "kind": "organization",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "California Environmental Voters",
         "kind": "organization",
-        "cites": [12]
+        "cites": [11]
       },
       {
         "organization": "California Teachers Association",
         "kind": "union",
-        "cites": [13]
+        "cites": [12]
       },
       {
         "organization": "Democrats for Israel – Los Angeles",
         "kind": "organization",
-        "cites": [14]
+        "cites": [13]
       },
-      { "organization": "Knock LA", "kind": "organization", "cites": [15] },
-      { "organization": "LA Forward", "kind": "organization", "cites": [16] },
+      { "organization": "Knock LA", "kind": "organization", "cites": [14] },
+      { "organization": "LA Forward", "kind": "organization", "cites": [15] },
       {
         "organization": "Los Angeles County Federation of Labor",
         "kind": "union",
-        "cites": [17]
+        "cites": [16]
       },
-      { "organization": "SEIU Local 721", "kind": "union", "cites": [18] }
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [17] },
+      {
+        "organization": "Armenian National Committee of America, Western Region",
+        "kind": "organization",
+        "cites": [18]
+      },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [19]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [20]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [21] }
     ]
   },
   "sources": [
@@ -188,14 +204,6 @@
     },
     {
       "id": 9,
-      "title": "CFT Endorsements: Primary Election 2026, Tuesday, June 2",
-      "publisher": "California Federation of Teachers",
-      "url": "https://www.cft.org/sites/main/files/file-attachments/cft_endorsements-primary-election_4.27.2026.pdf",
-      "kind": "endorser",
-      "viewedAt": "2026-10-14"
-    },
-    {
-      "id": 10,
       "title": "Pasadena-Based Planned Parenthood Advocates Endorses Harabedian, Fong for June Primary",
       "publisher": "Pasadena Now",
       "url": "https://pasadenanow.com/main/pasadena-based-planned-parenthood-advocates-endorses-harabedian-fong-for-june-primary",
@@ -203,7 +211,7 @@
       "viewedAt": "2026-10-14"
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "Equality California Election Center",
       "publisher": "Equality California",
       "url": "https://www.eqca.org/elections/",
@@ -216,7 +224,7 @@
       "url": "https://envirovoters.org/2026-endorsements/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 12
+      "id": 11
     },
     {
       "title": "2026 Candidate Recommendations",
@@ -224,7 +232,7 @@
       "url": "https://www.cta.org/our-advocacy/election-2026",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 13
+      "id": 12
     },
     {
       "title": "November 2026 General Election Endorsements",
@@ -232,7 +240,7 @@
       "url": "https://dfi-la.org/endorse",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 14
+      "id": 13
     },
     {
       "title": "The Knock LA Progressive Voter Guide for the November 2026 General Election",
@@ -240,7 +248,7 @@
       "url": "https://knock-la.com/knock-la-los-angeles-progressive-voter-guide-november-2026-general-election/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 15
+      "id": 14
     },
     {
       "title": "November 2026 LA Progressive Voter Guide",
@@ -248,7 +256,7 @@
       "url": "https://laforwardguide.org/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 16
+      "id": 15
     },
     {
       "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
@@ -256,7 +264,7 @@
       "url": "https://thelafed.org/resource/lalaborvoterguide/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 17
+      "id": 16
     },
     {
       "title": "SEIU 721 COPE Slate, November 3, 2026 General Election",
@@ -264,13 +272,53 @@
       "url": "https://seiu721.org/2026election/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "ANCA Western Region 2026 General Election Endorsements",
+      "publisher": "ANCA Western Region",
+      "url": "https://ancawr.org/elect26/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
       "id": 18
+    },
+    {
+      "title": "November 2026 Stonewall Democratic Club Endorsements",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "California Teamsters Endorsements",
+      "publisher": "Teamsters Joint Council 42",
+      "url": "https://www.teamstersjc42.com/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 20
+    },
+    {
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 21
+    },
+    {
+      "title": "CFT Endorsements, General Election 2026 (Tuesday, November 3)",
+      "publisher": "California Federation of Teachers",
+      "url": "https://www.cft.org/2026-midterm-elections-hub",
+      "viewedAt": "2026-10-15",
+      "kind": "endorser",
+      "id": 22
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.692Z",
-    "version": 4
+    "version": 6
   }
 }

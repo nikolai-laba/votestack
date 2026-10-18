@@ -67,16 +67,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Michael Murphy",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40838",
-        "period": "April 1 to June 30, 2026",
-        "raised": 154,
-        "cashOnHand": 476.36,
-        "breakdown": [{ "kind": "small", "amount": 154 }]
+        "period": "July 1 to September 30, 2026",
+        "raised": 20,
+        "cashOnHand": 495.08,
+        "breakdown": [{ "kind": "small", "amount": 20 }]
       }
     ]
   },
@@ -111,6 +111,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:33:34.015Z",
-    "version": 3
+    "version": 4
   }
 }

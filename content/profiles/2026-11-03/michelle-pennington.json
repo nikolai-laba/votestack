@@ -52,7 +52,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
@@ -63,10 +63,9 @@
         "cashOnHand": 6124.73,
         "breakdown": [
           { "kind": "small", "amount": 1297.04 },
-          { "kind": "large", "amount": 3155.3 },
-          { "kind": "candidate", "amount": 2500 }
+          { "kind": "large", "amount": 3655.3 },
+          { "kind": "loan", "amount": 2000 }
         ],
-        "fromCandidate": 2500,
         "largeSince": { "since": "2026-09-30", "total": 1000, "count": 1 }
       }
     ]
@@ -78,6 +77,21 @@
         "organization": "Cook County Republican Party",
         "kind": "party",
         "cites": [5]
+      },
+      {
+        "organization": "Northfield Township Republican Organization",
+        "kind": "organization",
+        "cites": [6]
+      },
+      {
+        "organization": "Republicans of Wheeling Township",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Schaumburg Township Republican Organization",
+        "kind": "organization",
+        "cites": [8]
       }
     ]
   },
@@ -121,12 +135,36 @@
       "url": "https://www.chicagogop.com/cook_gop_beats_back_democrat_objection_land_three_republicans_on_november_ballot",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Your 2026 Republican Ticket / Republican Sample Ballot, General Election",
+      "publisher": "Northfield Township Republican Organization",
+      "url": "https://www.northfieldgop.org/sample_ballot",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 6
+    },
+    {
+      "title": "2026 Republican Sample Ballot (General Election)",
+      "publisher": "Republicans of Wheeling Township",
+      "url": "https://rowtgop.org/sample-ballot/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 7
+    },
+    {
+      "title": "Schaumburg Township Republicans Official Sample Ballot (November 2026)",
+      "publisher": "Schaumburg Township Republican Organization",
+      "url": "https://www.stgop.org/sample_ballot_republican_candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 8
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:51:53.871Z",
-    "version": 2
+    "version": 3
   }
 }

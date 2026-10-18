@@ -34,7 +34,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -108,6 +108,11 @@
         "cites": [2]
       },
       {
+        "organization": "Long Beach City College Board of Trustees Vice President Dr. Ennette Morton",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
         "organization": "El Camino Community College Board of Trustees Vice President Trisha Murakawa",
         "kind": "elected_official",
         "cites": [2]
@@ -160,7 +165,7 @@
       "publisher": "Teamsters Joint Council 42",
       "url": "https://www.teamstersjc42.com/endorsements/",
       "kind": "endorser",
-      "viewedAt": "2026-10-14"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 5,
@@ -190,7 +195,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T05:54:20.770Z",
-    "version": 2
+    "generatedAt": "2026-10-18T03:18:00.271Z",
+    "version": 3
   }
 }

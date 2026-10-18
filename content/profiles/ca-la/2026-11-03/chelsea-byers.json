@@ -46,7 +46,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -62,7 +62,12 @@
           { "kind": "pac", "amount": 10000 },
           { "kind": "other", "amount": 2449 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 10000, "count": 10 }
+        "largeSince": {
+          "since": "2026-09-19",
+          "total": 11000,
+          "count": 11,
+          "fromCandidate": 1000
+        }
       }
     ]
   },
@@ -256,7 +261,13 @@
         "cites": [7]
       },
       { "organization": "Knock LA", "kind": "organization", "cites": [16] },
-      { "organization": "LA Forward", "kind": "organization", "cites": [17] }
+      { "organization": "LA Forward", "kind": "organization", "cites": [17] },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [18]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [19] }
     ]
   },
   "sources": [
@@ -362,7 +373,7 @@
       "publisher": "Stonewall Democratic Club",
       "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
       "kind": "endorser",
-      "viewedAt": "2026-10-15"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 14,
@@ -395,12 +406,28 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 17
+    },
+    {
+      "title": "Sierra Club Political Endorsements (2026)",
+      "publisher": "Sierra Club Angeles Chapter Political Committee",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 19
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.975Z",
-    "version": 3
+    "version": 4
   }
 }

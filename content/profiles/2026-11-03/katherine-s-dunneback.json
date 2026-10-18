@@ -47,21 +47,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Kate Dunneback",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41231",
-        "period": "June 18 to June 30, 2026",
-        "raised": 1200,
-        "cashOnHand": 1200,
+        "period": "July 1 to September 30, 2026",
+        "raised": 20151,
+        "cashOnHand": 15374.69,
         "breakdown": [
-          { "kind": "large", "amount": 200 },
-          { "kind": "candidate", "amount": 1000 }
+          { "kind": "small", "amount": 4401 },
+          { "kind": "large", "amount": 15750 }
         ],
-        "fromCandidate": 1000,
-        "largeSince": { "since": "2026-06-30", "total": 47733.23, "count": 9 }
+        "largeSince": { "since": "2026-09-30", "total": 10985, "count": 5 }
       }
     ]
   },
@@ -73,7 +72,12 @@
         "kind": "union",
         "cites": [3]
       },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [4] }
+      { "organization": "Personal PAC", "kind": "organization", "cites": [4] },
+      {
+        "organization": "Our Schools Chicago",
+        "kind": "organization",
+        "cites": [5]
+      }
     ]
   },
   "sources": [
@@ -108,12 +112,20 @@
       "url": "https://personalpac.org/elections/",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Our Endorsed Candidates",
+      "publisher": "Our Schools Chicago (publicschoolchampions.com)",
+      "url": "https://publicschoolchampions.com/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 5
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:49:26.917Z",
-    "version": 3
+    "version": 4
   }
 }

@@ -26,7 +26,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -68,6 +68,11 @@
         "organization": "Former Pasadena City College Trustee Linda Wah",
         "kind": "elected_official",
         "cites": [2]
+      },
+      {
+        "organization": "National Women's Political Caucus San Gabriel Valley",
+        "kind": "organization",
+        "cites": [3]
       }
     ]
   },
@@ -87,12 +92,20 @@
       "url": "https://www.thompsonforpcc.com/endorsements",
       "kind": "candidate",
       "viewedAt": "2026-10-14"
+    },
+    {
+      "title": "Endorsed Candidates: November 2026 Candidates",
+      "publisher": "NWPC San Gabriel Valley",
+      "url": "https://nwpcsgv.org/endorsed-candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 3
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T05:54:20.793Z",
-    "version": 2
+    "version": 3
   }
 }

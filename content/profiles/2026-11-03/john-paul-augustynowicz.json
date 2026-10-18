@@ -36,16 +36,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "JP for Illinois",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=34667",
-        "period": "April 1 to June 30, 2026",
-        "raised": 0,
-        "cashOnHand": 619.79,
-        "breakdown": []
+        "period": "July 1 to September 30, 2026",
+        "raised": 962.27,
+        "cashOnHand": 1260.36,
+        "breakdown": [
+          { "kind": "small", "amount": 462.27 },
+          { "kind": "large", "amount": 500 }
+        ]
       }
     ]
   },
@@ -61,6 +64,11 @@
         "organization": "Kane County Republicans",
         "kind": "party",
         "cites": [5]
+      },
+      {
+        "organization": "Illinois Family Action",
+        "kind": "organization",
+        "cites": [6]
       }
     ]
   },
@@ -104,12 +112,20 @@
       "url": "https://www.kanegop.org/candidates",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "2026 General Election Endorsements",
+      "publisher": "Illinois Family Action (IFA-PAC)",
+      "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 6
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:10:52.510Z",
-    "version": 3
+    "version": 4
   }
 }

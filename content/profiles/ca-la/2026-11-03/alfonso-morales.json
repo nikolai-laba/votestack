@@ -52,12 +52,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
-    "items": [],
-    "filingsAt": {
-      "name": "City of Lynwood",
-      "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=363520&dbid=0&repo=r-a1e5613e"
-    }
+    "asOf": "2026-10-17",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Lynwood",
+        "committee": "Alfonso Morales for Lynwood City Council 2026",
+        "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=363520&dbid=0&repo=r-a1e5613e",
+        "period": "July 1 to September 19, 2026",
+        "raised": 9033,
+        "cashOnHand": 5237.17,
+        "fromScan": "ai"
+      }
+    ]
   },
   "endorsements": {
     "asOf": "2026-10-15",
@@ -95,6 +102,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.468Z",
-    "version": 2
+    "version": 3
   }
 }

@@ -33,7 +33,11 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-07", "items": [] },
+  "money": {
+    "asOf": "2026-10-17",
+    "items": [],
+    "noCommittee": { "filedWith": "Illinois State Board of Elections" }
+  },
   "endorsements": {
     "asOf": "2026-10-07",
     "items": [
@@ -198,6 +202,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:35:10.386Z",
-    "version": 3
+    "version": 4
   }
 }

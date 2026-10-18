@@ -1,0 +1,49 @@
+{
+  "slug": "illinois-policy-pac",
+  "endorser": "Illinois Policy PAC",
+  "kind": "organization",
+  "title": "Who is running for Chicago school board in 2026? (table: \"Illinois Policy PAC endorsed\")",
+  "publisher": "Illinois Policy / Illinois Policy PAC",
+  "url": "https://www.illinoispolicy.org/chicago-school-board-election-2026/",
+  "verify": {
+    "general": "yes",
+    "checkedAt": "2026-10-17",
+    "fixes": [],
+    "removed": [],
+    "note": "Article (Paid for by Illinois Policy PAC) refers to the Nov. 3 election; table is a Datawrapper embed, checked via https://datawrapper.dwcdn.net/X0ux0/6/dataset.csv. All 6 have a check in the 'Illinois Policy PAC endorsed' column for the stated subdistrict."
+  },
+  "note": "Transcribed from the page by a researcher. Political action committee of a free-market policy group (lower taxes, pension reform, school choice). General election: \"Oct. 6, 2026: \"Here is where you can find which candidates are endorsed by the Chicago Teachers Union and which are endorsed by the Illinois Policy PAC ... Each subdistrict will be represented by one member elected in the 2026 general election ... Claim your vote for the Nov. 3 election.\" Table data: https://datawrapper.dwcdn.net/X0ux0/6/\"",
+  "fetchedAt": "2026-10-17",
+  "entries": [
+    {
+      "name": "Margie B. Luczak",
+      "office": "Chicago Board of Education Member, Subdistrict 1A",
+      "matchedKey": "margie-b-luczak"
+    },
+    {
+      "name": "Michelle N. Pierre",
+      "office": "Chicago Board of Education Member, Subdistrict 1B",
+      "matchedKey": "michelle-n-pierre"
+    },
+    {
+      "name": "Hector Morales",
+      "office": "Chicago Board of Education Member, Subdistrict 2A",
+      "matchedKey": "hector-morales"
+    },
+    {
+      "name": "LaPamela Williams",
+      "office": "Chicago Board of Education Member, Subdistrict 5A",
+      "matchedKey": "lapamela-williams"
+    },
+    {
+      "name": "Anthony Hargrove",
+      "office": "Chicago Board of Education Member, Subdistrict 5B",
+      "matchedKey": "anthony-hargrove"
+    },
+    {
+      "name": "Isaiah White",
+      "office": "Chicago Board of Education Member, Subdistrict 6A",
+      "matchedKey": "isaiah-white"
+    }
+  ]
+}

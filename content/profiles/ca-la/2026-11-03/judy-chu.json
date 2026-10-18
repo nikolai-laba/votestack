@@ -58,19 +58,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Judy Chu for Congress",
         "url": "https://www.fec.gov/data/committee/C00458125/?cycle=2026",
-        "period": "January 1, 2025 to June 30, 2026",
-        "raised": 930123.25,
-        "cashOnHand": 3674296.35,
+        "period": "January 1, 2025 to September 30, 2026",
+        "raised": 1288957.21,
+        "cashOnHand": 3732695.16,
         "breakdown": [
-          { "kind": "small", "amount": 37156.14 },
-          { "kind": "large", "amount": 513192.11 },
-          { "kind": "pac", "amount": 379775 }
+          { "kind": "small", "amount": 44267.1 },
+          { "kind": "large", "amount": 771027.11 },
+          { "kind": "pac", "amount": 473663 }
         ]
       }
     ]
@@ -307,7 +307,28 @@
         "kind": "union",
         "cites": [19]
       },
-      { "organization": "SEIU Local 721", "kind": "union", "cites": [20] }
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [20] },
+      {
+        "organization": "Armenian National Committee of America, Western Region",
+        "kind": "organization",
+        "cites": [21]
+      },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [22]
+      },
+      {
+        "organization": "Stonewall Democratic Club",
+        "kind": "organization",
+        "cites": [23]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [24]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [25] }
     ]
   },
   "sources": [
@@ -470,12 +491,52 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 20
+    },
+    {
+      "title": "ANCA Western Region 2026 General Election Endorsements",
+      "publisher": "ANCA Western Region",
+      "url": "https://ancawr.org/elect26/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 21
+    },
+    {
+      "title": "Sierra Club Political Endorsements (2026)",
+      "publisher": "Sierra Club Angeles Chapter Political Committee",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 22
+    },
+    {
+      "title": "November 2026 Stonewall Democratic Club Endorsements",
+      "publisher": "Stonewall Democratic Club",
+      "url": "https://www.stonewalldems.org/2026_stonewall_endorsed_candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 23
+    },
+    {
+      "title": "California Teamsters Endorsements",
+      "publisher": "Teamsters Joint Council 42",
+      "url": "https://www.teamstersjc42.com/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 24
+    },
+    {
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 25
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.787Z",
-    "version": 5
+    "version": 6
   }
 }

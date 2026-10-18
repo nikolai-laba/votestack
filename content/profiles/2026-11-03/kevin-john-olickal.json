@@ -47,20 +47,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Kevin Olickal",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=35758",
-        "period": "April 1 to June 30, 2026",
-        "raised": 4000,
-        "cashOnHand": 22100.1,
-        "breakdown": [
-          { "kind": "large", "amount": 3000 },
-          { "kind": "transfer", "amount": 1000 }
-        ],
-        "largeSince": { "since": "2026-06-30", "total": 9500, "count": 4 }
+        "period": "July 1 to September 30, 2026",
+        "raised": 9500,
+        "cashOnHand": 15737.23,
+        "breakdown": [{ "kind": "transfer", "amount": 9500 }]
       }
     ]
   },
@@ -68,19 +64,35 @@
     "asOf": "2026-10-07",
     "items": [
       { "organization": "Personal PAC", "kind": "organization", "cites": [8] },
-      { "organization": "IUOE Local 150", "kind": "union", "cites": [9] },
-      { "organization": "IUOE Local 399", "kind": "union", "cites": [10] },
+      { "organization": "IUOE Local 150", "kind": "union", "cites": [16] },
+      { "organization": "IUOE Local 399", "kind": "union", "cites": [9] },
       {
         "organization": "Cook County College Teachers Union",
         "kind": "union",
-        "cites": [11]
+        "cites": [10]
       },
       {
         "organization": "Chicago Federation of Labor",
         "kind": "union",
-        "cites": [12]
+        "cites": [11]
       },
-      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [13] }
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [12] },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [13]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [14]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [15]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [15] }
     ]
   },
   "sources": [
@@ -150,14 +162,6 @@
     },
     {
       "id": 9,
-      "title": "IUOE LOCAL 150 DISTRICT 1 ENDORSEMENTS",
-      "publisher": "IUOE Local 150",
-      "url": "https://local150.org/wp-content/uploads/2026/02/2026-IL-Primary-Mailer-District-1_V7.pdf",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 10,
       "title": "2026 LOCAL 399 ILLINOIS PRIMARY ELECTION ENDORSEMENTS",
       "publisher": "IUOE Local 399",
       "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
@@ -165,7 +169,7 @@
       "viewedAt": "2026-10-07"
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "Early Endorsements for the March 17, 2026 Primary Election",
       "publisher": "Cook County College Teachers Union",
       "url": "https://www.ccctu.org/post/early-endorsements-for-the-march-17-2026-primary-election",
@@ -178,7 +182,7 @@
       "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
-      "id": 12
+      "id": 11
     },
     {
       "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
@@ -186,13 +190,45 @@
       "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
       "id": 13
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 16
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:55:59.530Z",
-    "version": 8
+    "version": 10
   }
 }

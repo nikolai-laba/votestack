@@ -33,7 +33,11 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-16", "items": [] },
+  "money": {
+    "asOf": "2026-10-17",
+    "items": [],
+    "noCommittee": { "filedWith": "California Secretary of State" }
+  },
   "endorsements": {
     "asOf": "2026-10-14",
     "items": [
@@ -53,7 +57,31 @@
         "kind": "organization",
         "cites": [7]
       },
-      { "organization": "GrowSF", "kind": "organization", "cites": [8] }
+      { "organization": "GrowSF", "kind": "organization", "cites": [8] },
+      {
+        "organization": "Republican Party of Los Angeles County",
+        "kind": "party",
+        "stance": "oppose",
+        "cites": [9]
+      },
+      {
+        "organization": "San Francisco Republican Assembly",
+        "kind": "organization",
+        "stance": "oppose",
+        "cites": [10]
+      },
+      {
+        "organization": "Restore San Diego",
+        "kind": "organization",
+        "stance": "oppose",
+        "cites": [11]
+      },
+      {
+        "organization": "Tri-Valley Republicans",
+        "kind": "organization",
+        "stance": "oppose",
+        "cites": [12]
+      }
     ]
   },
   "sources": [
@@ -87,7 +115,7 @@
       "publisher": "UNITE HERE Local 11",
       "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
       "kind": "endorser",
-      "viewedAt": "2026-10-14"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 5,
@@ -120,12 +148,44 @@
       "url": "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/supreme-court-retention/",
       "kind": "endorser",
       "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 9,
+      "title": "LAGOP Endorsement Lookup",
+      "publisher": "Republican Party of Los Angeles County",
+      "url": "https://lagop-endorsement-lookup.vercel.app/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 10,
+      "title": "Endorsements",
+      "publisher": "San Francisco Republican Assembly",
+      "url": "https://sfragop.org/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 11,
+      "title": "Voter Guide San Diego County",
+      "publisher": "Restore San Diego PAC",
+      "url": "https://www.restoresandiego.org/new-voter-guide",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
+    },
+    {
+      "id": 12,
+      "title": "Primary 2026 — Tri-Valley Republicans",
+      "publisher": "Tri-Valley Republicans",
+      "url": "https://trivalleyrepublicans.org/primary-2026",
+      "kind": "endorser",
+      "viewedAt": "2026-10-14"
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:03:51.843Z",
-    "version": 4
+    "generatedAt": "2026-10-18T03:18:00.360Z",
+    "version": 5
   }
 }

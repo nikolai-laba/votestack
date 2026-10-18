@@ -34,7 +34,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -96,6 +96,11 @@
         "organization": "El Monte Councilmember Dr. Julia Ruedas",
         "kind": "elected_official",
         "cites": [5]
+      },
+      {
+        "organization": "National Women's Political Caucus San Gabriel Valley",
+        "kind": "organization",
+        "cites": [6]
       }
     ]
   },
@@ -139,12 +144,20 @@
       "url": "https://www.luzyeseniapaez.com/view-endorsements",
       "kind": "candidate",
       "viewedAt": "2026-10-15"
+    },
+    {
+      "title": "Endorsed Candidates: November 2026 Candidates",
+      "publisher": "NWPC San Gabriel Valley",
+      "url": "https://nwpcsgv.org/endorsed-candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 6
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T19:44:15.728Z",
-    "version": 3
+    "generatedAt": "2026-10-18T03:18:00.334Z",
+    "version": 4
   }
 }

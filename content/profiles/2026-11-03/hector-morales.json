@@ -65,7 +65,7 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-07", "items": [] },
+  "money": { "asOf": "2026-10-17", "items": [] },
   "endorsements": {
     "asOf": "2026-10-07",
     "items": [
@@ -83,6 +83,11 @@
         "organization": "The Urban Center",
         "kind": "organization",
         "cites": [5]
+      },
+      {
+        "organization": "Illinois Policy PAC",
+        "kind": "organization",
+        "cites": [6]
       }
     ]
   },
@@ -101,7 +106,7 @@
       "publisher": "Common Ground Collective",
       "url": "https://cgcollective.org/endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 3,
@@ -126,12 +131,20 @@
       "url": "https://www.wbez.org/education/chicago-school-board/2026/09/21/key-education-endorsements-for-cps-school-board-candidates",
       "kind": "news",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Who is running for Chicago school board in 2026? (table: \"Illinois Policy PAC endorsed\")",
+      "publisher": "Illinois Policy / Illinois Policy PAC",
+      "url": "https://www.illinoispolicy.org/chicago-school-board-election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 6
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:42:02.534Z",
-    "version": 2
+    "version": 3
   }
 }

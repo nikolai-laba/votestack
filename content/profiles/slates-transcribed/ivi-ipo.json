@@ -1,0 +1,96 @@
+{
+  "slug": "ivi-ipo",
+  "endorser": "Independent Voters of Illinois-Independent Precinct Organization (IVI-IPO)",
+  "kind": "organization",
+  "title": "General Election Endorsements!",
+  "publisher": "IVI-IPO",
+  "url": "https://www.iviipo.org/",
+  "generalEvidence": "Homepage headed \"General Election Endorsements!\" (site copyright 2021-2026). The page does not print the year, but it lists Chicago School Board President and Board subdistrict seats, which are first on the ballot at the Nov. 3, 2026 general election, and Daniel Biss (Democratic nominee, US House 9th, after the March 17, 2026 primary).",
+  "whyItCounts": "Independent political organization with published policy platforms (civil rights, labor, environment, election reform); endorses after questionnaires and interviews.",
+  "entries": [
+    {
+      "name": "Daniel Biss",
+      "office": "U.S. Representative, 9th District",
+      "stance": "support",
+      "quote": "US House - 9th Dist. - Daniel Biss",
+      "verified": true
+    },
+    {
+      "name": "Demi Palecek",
+      "office": "State Representative, 13th District",
+      "stance": "support",
+      "quote": "IL House - 13th Dist. - Demi Palecek",
+      "verified": true
+    },
+    {
+      "name": "Maggie Trevor",
+      "office": "Cook County Commissioner, 9th District",
+      "stance": "support",
+      "quote": "Commissioner - 9th Dist. - Maggie Trevor",
+      "verified": true
+    },
+    {
+      "name": "Hilario Dominguez",
+      "office": "Chicago Board of Education President",
+      "stance": "support",
+      "quote": "Board President - Hilario Dominguez",
+      "verified": true
+    },
+    {
+      "name": "Ed Bannon",
+      "office": "Chicago Board of Education Member, Subdistrict 1A",
+      "stance": "support",
+      "quote": "District 1A - Ed Bannon",
+      "verified": true
+    },
+    {
+      "name": "Claudia Peralta",
+      "office": "Chicago Board of Education Member, Subdistrict 1B",
+      "stance": "support",
+      "quote": "District 1B - Claudia Peralta",
+      "verified": true
+    },
+    {
+      "name": "Debby Pope",
+      "office": "Chicago Board of Education Member, Subdistrict 2B",
+      "stance": "support",
+      "quote": "District 2B - Debby Pope",
+      "verified": true
+    },
+    {
+      "name": "Jason Dones",
+      "office": "Chicago Board of Education Member, Subdistrict 3B",
+      "stance": "support",
+      "quote": "District 3B - Jason Dones",
+      "verified": true
+    },
+    {
+      "name": "Karen Zaccor",
+      "office": "Chicago Board of Education Member, Subdistrict 4A",
+      "stance": "support",
+      "quote": "District 4A - Karen Zaccor",
+      "verified": true
+    },
+    {
+      "name": "Aaron \"Jitu\" Brown",
+      "office": "Chicago Board of Education Member, Subdistrict 5A",
+      "stance": "support",
+      "quote": "District 5A - Aaron \"Jitu\" Brown",
+      "verified": true
+    },
+    {
+      "name": "Emma Lozano",
+      "office": "Chicago Board of Education Member, Subdistrict 7A",
+      "stance": "support",
+      "quote": "District 7A - Emma Lozano",
+      "verified": true
+    }
+  ],
+  "verify": {
+    "general": "yes",
+    "checkedAt": "2026-10-17",
+    "fixes": [],
+    "removed": [],
+    "note": "Homepage 'General Election Endorsements!' is undated, but it lists Chicago School Board President and A/B subdistrict seats, which are only on the Nov 3, 2026 general ballot. All 11 entries match (Biss and Brown are split across spans in the HTML: 'Daniel Bi ss', 'b rown'). Rosetta 'Rosie' Brown (IL House 111th) is on the page but not a Cook race, correctly omitted."
+  }
+}

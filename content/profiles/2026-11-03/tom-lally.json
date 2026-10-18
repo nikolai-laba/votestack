@@ -22,11 +22,16 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-07", "items": [] },
+  "money": { "asOf": "2026-10-17", "items": [] },
   "endorsements": {
     "asOf": "2026-10-07",
     "items": [
-      { "organization": "Niles Township GOP", "kind": "party", "cites": [2] }
+      { "organization": "Niles Township GOP", "kind": "party", "cites": [2] },
+      {
+        "organization": "Northfield Township Republican Organization",
+        "kind": "organization",
+        "cites": [3]
+      }
     ]
   },
   "sources": [
@@ -45,12 +50,20 @@
       "url": "https://www.ntgop.org/endorsements_2026_gop_primary",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "Your 2026 Republican Ticket / Republican Sample Ballot, General Election",
+      "publisher": "Northfield Township Republican Organization",
+      "url": "https://www.northfieldgop.org/sample_ballot",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 3
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:56:57.283Z",
-    "version": 3
+    "version": 4
   }
 }

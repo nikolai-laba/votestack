@@ -35,7 +35,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -171,6 +171,11 @@
         "organization": "Republican Party of Los Angeles County",
         "kind": "party",
         "cites": [7]
+      },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [8]
       }
     ]
   },
@@ -197,7 +202,7 @@
       "publisher": "Los Angeles League of Conservation Voters",
       "url": "https://lalcv.org/current-endorsements/",
       "kind": "endorser",
-      "viewedAt": "2026-10-15"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 4,
@@ -230,12 +235,20 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 7
+    },
+    {
+      "title": "Sierra Club Political Endorsements (2026)",
+      "publisher": "Sierra Club Angeles Chapter Political Committee",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 8
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.379Z",
-    "version": 4
+    "version": 5
   }
 }

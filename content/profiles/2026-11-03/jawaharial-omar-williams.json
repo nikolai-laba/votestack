@@ -43,20 +43,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Jawaharial Omarr Williams",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=35462",
-        "period": "April 1 to June 30, 2026",
-        "raised": 4913,
-        "cashOnHand": 247890.74,
+        "period": "July 1 to September 30, 2026",
+        "raised": 54418.75,
+        "cashOnHand": 297857.59,
         "breakdown": [
-          { "kind": "large", "amount": 200 },
-          { "kind": "transfer", "amount": 4713 }
-        ],
-        "largeSince": { "since": "2026-06-30", "total": 48218.75, "count": 31 }
+          { "kind": "large", "amount": 31000 },
+          { "kind": "transfer", "amount": 23418.75 }
+        ]
       }
     ]
   },
@@ -79,6 +78,21 @@
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
         "cites": [9]
+      },
+      {
+        "organization": "Fraternal Order of Police Lodge 7",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [6]
       }
     ]
   },
@@ -121,7 +135,7 @@
       "publisher": "SEIU Healthcare Illinois",
       "url": "https://seiuhcilin.org/resources/election-information/",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 6,
@@ -129,7 +143,7 @@
       "publisher": "SEIU Local 73",
       "url": "https://seiu73.org/election-2026/",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "title": "November 3, 2026 General Election Endorsed Candidates",
@@ -154,12 +168,28 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 9
+    },
+    {
+      "title": "Chicago Fraternal Order of Police Lodge 7 Endorsed Candidates, 2026 General Election",
+      "publisher": "Chicago Fraternal Order of Police Lodge 7",
+      "url": "https://www.chicagofop.org/latest-news/2026-endorsed-candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 11
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:53:02.742Z",
-    "version": 6
+    "version": 7
   }
 }

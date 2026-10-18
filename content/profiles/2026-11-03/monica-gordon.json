@@ -54,21 +54,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Monica Gordon",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=35763",
-        "period": "April 1 to June 30, 2026",
-        "raised": 41375,
-        "cashOnHand": 110446.65,
+        "period": "July 1 to September 30, 2026",
+        "raised": 32000,
+        "cashOnHand": 101843.83,
         "breakdown": [
-          { "kind": "small", "amount": 5775 },
-          { "kind": "large", "amount": 24450 },
-          { "kind": "transfer", "amount": 11150 }
+          { "kind": "small", "amount": 1550 },
+          { "kind": "large", "amount": 15600 },
+          { "kind": "transfer", "amount": 14850 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 27000, "count": 13 }
+        "largeSince": { "since": "2026-09-30", "total": 3500, "count": 2 }
       }
     ]
   },
@@ -83,12 +83,12 @@
       {
         "organization": "Chicago Federation of Labor",
         "kind": "union",
-        "cites": [11]
+        "cites": [13]
       },
       {
         "organization": "Chicago Teachers Union",
         "kind": "union",
-        "cites": [12]
+        "cites": [11]
       },
       {
         "organization": "International Union of Operating Engineers Locals 150 and 399",
@@ -115,7 +115,7 @@
       {
         "organization": "International Union of Operating Engineers Local 150",
         "kind": "union",
-        "cites": [13]
+        "cites": [12]
       }
     ]
   },
@@ -202,14 +202,6 @@
     },
     {
       "id": 11,
-      "title": "MARCH 17, 2026 PRIMARY ELECTION ENDORSED CANDIDATES",
-      "publisher": "Chicago Federation of Labor",
-      "url": "https://chicagolabor.org/wp-content/uploads/P2026_PrimaryEndorsementList_COOK-v4.pdf",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 12,
       "title": "2026 Primary Election - Chicago Teachers Union",
       "publisher": "Chicago Teachers Union",
       "url": "https://www.ctulocal1.org/movement/primary-election-2026/",
@@ -222,6 +214,14 @@
       "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
       "id": 13
     }
   ],
@@ -229,6 +229,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:34:26.943Z",
-    "version": 4
+    "version": 6
   }
 }

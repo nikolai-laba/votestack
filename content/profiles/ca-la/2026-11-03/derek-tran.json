@@ -88,15 +88,15 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Derek Tran for Congress",
         "url": "https://www.fec.gov/data/committee/C00851790/?cycle=2026",
-        "period": "January 1, 2025 to June 30, 2026",
-        "raised": 4981276.64,
-        "cashOnHand": 3257397.68
+        "period": "January 1, 2025 to September 30, 2026",
+        "raised": 5846183.13,
+        "cashOnHand": 3247642.6
       }
     ]
   },
@@ -306,7 +306,18 @@
         "kind": "union",
         "cites": [40]
       },
-      { "organization": "SEIU Local 721", "kind": "union", "cites": [41] }
+      { "organization": "SEIU Local 721", "kind": "union", "cites": [41] },
+      {
+        "organization": "Sierra Club Angeles Chapter",
+        "kind": "organization",
+        "cites": [42]
+      },
+      {
+        "organization": "Teamsters Joint Council 42",
+        "kind": "union",
+        "cites": [43]
+      },
+      { "organization": "UNITE HERE Local 11", "kind": "union", "cites": [44] }
     ]
   },
   "sources": [
@@ -637,12 +648,36 @@
       "viewedAt": "2026-10-15",
       "kind": "endorser",
       "id": 41
+    },
+    {
+      "title": "Sierra Club Political Endorsements (2026)",
+      "publisher": "Sierra Club Angeles Chapter Political Committee",
+      "url": "https://www.sierraclub.org/angeles/endorsements",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 42
+    },
+    {
+      "title": "California Teamsters Endorsements",
+      "publisher": "Teamsters Joint Council 42",
+      "url": "https://www.teamstersjc42.com/endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 43
+    },
+    {
+      "title": "2026 California Voter Guide / Guía de votantes de California",
+      "publisher": "UNITE HERE Local 11",
+      "url": "https://www.unitehere11.org/ca-voter-guide-nov-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 44
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.856Z",
-    "version": 4
+    "version": 5
   }
 }

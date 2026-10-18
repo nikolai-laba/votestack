@@ -43,20 +43,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Community for Carlos Rivas",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39786",
-        "period": "April 1 to June 30, 2026",
-        "raised": 36550,
-        "cashOnHand": 60027.42,
+        "period": "July 1 to September 30, 2026",
+        "raised": 51473.25,
+        "cashOnHand": 78145.57,
         "breakdown": [
-          { "kind": "small", "amount": 1000 },
-          { "kind": "large", "amount": 35550 }
+          { "kind": "small", "amount": 2936 },
+          { "kind": "large", "amount": 19525 },
+          { "kind": "transfer", "amount": 29000 },
+          { "kind": "other", "amount": 12.25 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 62370.24, "count": 16 }
+        "largeSince": { "since": "2026-09-30", "total": 22300, "count": 6 }
       }
     ]
   },
@@ -103,7 +105,12 @@
         "kind": "union",
         "cites": [7]
       },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [8] }
+      { "organization": "Personal PAC", "kind": "organization", "cites": [8] },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [9]
+      }
     ]
   },
   "sources": [
@@ -145,7 +152,7 @@
       "publisher": "Common Ground Collective",
       "url": "https://cgcollective.org/endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 6,
@@ -170,12 +177,20 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 8
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 9
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:43:40.110Z",
-    "version": 4
+    "version": 5
   }
 }

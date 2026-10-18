@@ -41,7 +41,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "CA",
@@ -118,6 +118,16 @@
       },
       {
         "organization": "West Hollywood City Councilmember John Erickson",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Duarte Mayor Tera Martin del Campo",
+        "kind": "elected_official",
+        "cites": [2]
+      },
+      {
+        "organization": "Duarte Councilmember Vinh Truong",
         "kind": "elected_official",
         "cites": [2]
       },
@@ -223,7 +233,7 @@
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-15T21:48:37.590Z",
-    "version": 4
+    "generatedAt": "2026-10-18T03:18:00.337Z",
+    "version": 5
   }
 }

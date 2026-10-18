@@ -63,25 +63,25 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "FEC",
         "committee": "Don Tracy for Illinois, NFP",
         "url": "https://www.fec.gov/data/committee/C00917120/?cycle=2026",
-        "period": "July 1, 2025 to June 30, 2026",
-        "raised": 2459889.83,
-        "cashOnHand": 1512423.84,
+        "period": "July 1, 2025 to September 30, 2026",
+        "raised": 4145964.36,
+        "cashOnHand": 1145405.83,
         "breakdown": [
-          { "kind": "small", "amount": 27050.37 },
-          { "kind": "large", "amount": 374869.75 },
-          { "kind": "pac", "amount": 11075 },
+          { "kind": "small", "amount": 67770.01 },
+          { "kind": "large", "amount": 503117.86 },
+          { "kind": "pac", "amount": 22175 },
           { "kind": "party", "amount": 1250 },
           { "kind": "transfer", "amount": 4205 },
-          { "kind": "candidate", "amount": 2000000 },
-          { "kind": "other", "amount": 41439.71 }
+          { "kind": "candidate", "amount": 3500000 },
+          { "kind": "other", "amount": 47446.49 }
         ],
-        "fromCandidate": 2000000
+        "fromCandidate": 3500000
       }
     ]
   },
@@ -125,6 +125,16 @@
         "organization": "Former Mayor Roger Claar",
         "kind": "elected_official",
         "cites": [8]
+      },
+      {
+        "organization": "Republicans of Wheeling Township",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Schaumburg Township Republican Organization",
+        "kind": "organization",
+        "cites": [11]
       }
     ]
   },
@@ -175,7 +185,7 @@
       "publisher": "Illinois Family Action",
       "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-17"
     },
     {
       "id": 7,
@@ -200,12 +210,28 @@
       "url": "https://www.myjournalcourier.com/news/article/don-tracy-visits-jacksonville-hopeful-republican-21367688.php",
       "kind": "news",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "2026 Republican Sample Ballot (General Election)",
+      "publisher": "Republicans of Wheeling Township",
+      "url": "https://rowtgop.org/sample-ballot/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 10
+    },
+    {
+      "title": "Schaumburg Township Republicans Official Sample Ballot (November 2026)",
+      "publisher": "Schaumburg Township Republican Organization",
+      "url": "https://www.stgop.org/sample_ballot_republican_candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 11
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T21:01:32.420Z",
-    "version": 4
+    "version": 5
   }
 }

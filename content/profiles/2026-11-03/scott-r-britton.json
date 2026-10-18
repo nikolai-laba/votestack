@@ -50,7 +50,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
@@ -62,7 +62,8 @@
         "breakdown": [
           { "kind": "large", "amount": 250 },
           { "kind": "transfer", "amount": 1750 }
-        ]
+        ],
+        "largeSince": { "since": "2026-09-30", "total": 4000, "count": 2 }
       }
     ]
   },
@@ -106,7 +107,12 @@
         "cites": [10]
       },
       { "organization": "Plumbers Local 130", "kind": "union", "cites": [8] },
-      { "organization": "SEIU Healthcare", "kind": "union", "cites": [8] }
+      { "organization": "SEIU Healthcare", "kind": "union", "cites": [8] },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [11]
+      }
     ]
   },
   "sources": [
@@ -189,12 +195,20 @@
       "url": "http://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 11
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:15:33.133Z",
-    "version": 4
+    "version": 5
   }
 }

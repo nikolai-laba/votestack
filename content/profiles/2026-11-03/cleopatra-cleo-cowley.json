@@ -44,16 +44,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Cleopatra Cowley",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=41040",
-        "period": "April 1 to June 30, 2026",
-        "raised": 377.25,
-        "cashOnHand": 25105.1,
-        "breakdown": [{ "kind": "other", "amount": 377.25 }]
+        "period": "July 1 to September 30, 2026",
+        "raised": 1000,
+        "cashOnHand": 13626.89,
+        "breakdown": [{ "kind": "large", "amount": 1000 }]
       }
     ]
   },
@@ -92,7 +92,22 @@
         "kind": "union",
         "cites": [10]
       },
-      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [11] }
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [11] },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [13]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [14]
+      }
     ]
   },
   "sources": [
@@ -183,12 +198,36 @@
       "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 11
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 13
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:04:47.894Z",
-    "version": 5
+    "version": 6
   }
 }

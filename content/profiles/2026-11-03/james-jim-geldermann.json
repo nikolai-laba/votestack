@@ -41,17 +41,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Jim4HD17 PAC",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39283",
-        "period": "April 1 to June 30, 2026",
-        "raised": 1500,
-        "cashOnHand": 3197.79,
-        "breakdown": [{ "kind": "large", "amount": 1500 }],
-        "largeSince": { "since": "2026-06-30", "total": 1000, "count": 1 }
+        "period": "July 1 to September 30, 2026",
+        "raised": 5250,
+        "cashOnHand": 1879.3,
+        "breakdown": [
+          { "kind": "large", "amount": 4250 },
+          { "kind": "candidate", "amount": 1000 }
+        ],
+        "fromCandidate": 1000
       }
     ]
   },
@@ -111,6 +114,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:56:04.863Z",
-    "version": 3
+    "version": 4
   }
 }

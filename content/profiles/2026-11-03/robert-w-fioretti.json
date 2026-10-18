@@ -76,21 +76,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-17",
     "items": [
       {
         "source": "ISBE",
         "committee": "Bob for Illinois",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40846",
-        "period": "April 1 to June 30, 2026",
-        "raised": 30820,
-        "cashOnHand": 28303.46,
+        "period": "July 1 to September 30, 2026",
+        "raised": 32357.54,
+        "cashOnHand": 20712.77,
         "breakdown": [
-          { "kind": "small", "amount": 1645 },
-          { "kind": "large", "amount": 27925 },
-          { "kind": "transfer", "amount": 1250 }
+          { "kind": "small", "amount": 4484.75 },
+          { "kind": "large", "amount": 19867.5 },
+          { "kind": "transfer", "amount": 7299.17 },
+          { "kind": "other", "amount": 706.12 }
         ],
-        "largeSince": { "since": "2026-06-30", "total": 25399.17, "count": 9 }
+        "largeSince": { "since": "2026-09-30", "total": 5000, "count": 3 }
       }
     ]
   },
@@ -124,6 +125,16 @@
         "organization": "Northside Republican Club",
         "kind": "party",
         "cites": [7]
+      },
+      {
+        "organization": "Republicans of Wheeling Township",
+        "kind": "organization",
+        "cites": [8]
+      },
+      {
+        "organization": "Schaumburg Township Republican Organization",
+        "kind": "organization",
+        "cites": [9]
       }
     ]
   },
@@ -183,12 +194,28 @@
       "url": "https://www.northsidegop.com/ted_dabrowski_for_governor",
       "kind": "endorser",
       "viewedAt": "2026-10-07"
+    },
+    {
+      "title": "2026 Republican Sample Ballot (General Election)",
+      "publisher": "Republicans of Wheeling Township",
+      "url": "https://rowtgop.org/sample-ballot/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 8
+    },
+    {
+      "title": "Schaumburg Township Republicans Official Sample Ballot (November 2026)",
+      "publisher": "Schaumburg Township Republican Organization",
+      "url": "https://www.stgop.org/sample_ballot_republican_candidates",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 9
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:57:13.274Z",
-    "version": 2
+    "version": 3
   }
 }

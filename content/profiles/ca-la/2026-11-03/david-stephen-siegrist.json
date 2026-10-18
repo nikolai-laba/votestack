@@ -16,11 +16,14 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-16",
+    "asOf": "2026-10-17",
     "items": [],
     "filingsAt": {
       "name": "Los Angeles County Registrar-Recorder/County Clerk",
       "url": "https://netfile.com/public/LACO/campaign"
+    },
+    "noCommittee": {
+      "filedWith": "Los Angeles County Registrar-Recorder/County Clerk"
     }
   },
   "endorsements": { "asOf": "2026-10-14", "items": [] },
@@ -46,6 +49,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T17:19:13.972Z",
-    "version": 7
+    "version": 8
   }
 }
