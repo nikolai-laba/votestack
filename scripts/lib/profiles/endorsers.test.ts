@@ -25,6 +25,24 @@ describe('endorserKey', () => {
     expect(sameEndorser('Illinois State AFL-CIO', 'Illinois AFL-CIO')).toBe(
       true,
     )
+    expect(
+      sameEndorser(
+        "LiUNA Laborers' District Council Chicago",
+        'Chicago Laborers’ District Council',
+      ),
+    ).toBe(true)
+    expect(
+      sameEndorser(
+        'Cook County College Teachers Union Local 1600',
+        'Cook County College Teachers Union',
+      ),
+    ).toBe(true)
+    expect(
+      sameEndorser(
+        'United Neighbors 35th Ward',
+        'United Neighbors of the 35th Ward (UN35)',
+      ),
+    ).toBe(true)
     expect(sameEndorser('The Sierra Club', 'sierra club')).toBe(true)
     expect(endorserKey('Planned Parenthood & Friends')).toBe(
       'planned parenthood and friends',

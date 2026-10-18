@@ -102,6 +102,31 @@ const ALIASES: [RegExp, string][] = [
     /^northfield township( regular)? republican organization$/,
     'northfield township republican organization',
   ],
+  [
+    /^(liuna )?(chicago laborers district council|laborers district council chicago)$/,
+    'chicago laborers district council',
+  ],
+  [
+    /^(ccctu|cook county college teachers union)( aft)?( local 1600)?$/,
+    'cook county college teachers union',
+  ],
+  [/^illinois nurses? association$/, 'illinois nurses association'],
+  [
+    /^(nfib|national federation of independent business) illinois( pac)?$/,
+    'nfib illinois pac',
+  ],
+  [
+    /^(democrats of northfield township|northfield township democrats|northfield dems)$/,
+    'democrats of northfield township',
+  ],
+  [
+    /^(democratic party of evanston|evanston dems|evanston democrats)$/,
+    'democratic party of evanston',
+  ],
+  [
+    /^united neighbors (of )?(the )?35th ward$/,
+    'united neighbors of the 35th ward',
+  ],
 ]
 
 /**
