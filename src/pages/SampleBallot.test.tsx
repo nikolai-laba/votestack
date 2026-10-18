@@ -189,11 +189,13 @@ describe('sample ballots', () => {
     expect(screen.queryByRole('button', { name: /^no on/i })).toBeNull()
     expect(screen.queryByText(/to make a list/i)).toBeNull()
 
-    // The address goes in the request body; the URL stays clean.
+    // The address goes in the request body; the URL stays clean. The
+    // sample flag lets the Worker count it apart from voters' lookups.
     const [url, init] = fetch.mock.calls[0] as unknown as [string, RequestInit]
     expect(url).toBe('/api/ballot')
     expect(JSON.parse(String(init.body))).toEqual({
       address: '1060 W Addison St, Chicago, IL 60613',
+      sample: true,
     })
     expect(router.state.location.pathname).toBe('/')
     expect(router.state.location.search).toBe('')

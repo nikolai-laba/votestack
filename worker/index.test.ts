@@ -160,6 +160,80 @@ describe('worker', () => {
     })
   })
 
+  describe('usage counts', () => {
+    const dataset = () => ({ writeDataPoint: vi.fn() })
+
+    it('counts a lookup by outcome and area, never with the address', async () => {
+      stubSupabase({ ...lookup, published_profile_keys: [] })
+      const usage = dataset()
+      await call(
+        '/api/ballot',
+        { ...configured(), USAGE: usage } as unknown as Env,
+        post({ address: '834 Lake St, Oak Park, IL 60301', sample: true }),
+      )
+      expect(usage.writeDataPoint).toHaveBeenCalledOnce()
+      const [p] = usage.writeDataPoint.mock.calls[0] as [
+        { blobs: string[]; indexes: string[] },
+      ]
+      expect(p.indexes).toEqual(['lookup'])
+      expect(p.blobs[0]).toBe('lookup')
+      expect(p.blobs[3]).toBe('1')
+      expect(JSON.stringify(usage.writeDataPoint.mock.calls)).not.toMatch(
+        /lake|60301|oak/i,
+      )
+    })
+
+    it('counts lookups that fail', async () => {
+      const usage = dataset()
+      await call(
+        '/api/ballot',
+        { ...configured(), USAGE: usage } as unknown as Env,
+        post({ address: 'x' }),
+      )
+      const [p] = usage.writeDataPoint.mock.calls[0] as [{ blobs: string[] }]
+      expect(p.blobs.slice(0, 2)).toEqual(['lookup', 'invalid'])
+    })
+
+    it('keeps only the events it knows, and answers 204', async () => {
+      const { env } = makeEnv()
+      const usage = dataset()
+      const response = await call(
+        '/api/event',
+        { ...env, USAGE: usage } as unknown as Env,
+        post({
+          events: [
+            { e: 'view', page: 'profile', from: 'ballot', key: 'jane-doe' },
+            { e: 'view', page: 'profile', from: 'ballot', address: '1 Main' },
+            { e: 'track', id: 'abc' },
+            'nonsense',
+          ],
+        }),
+      )
+      expect(response.status).toBe(204)
+      expect(usage.writeDataPoint).toHaveBeenCalledTimes(2)
+      expect(JSON.stringify(usage.writeDataPoint.mock.calls)).not.toMatch(
+        /main|abc/i,
+      )
+    })
+
+    it('only accepts POST with an events list', async () => {
+      const { env } = makeEnv()
+      expect((await call('/api/event', env)).status).toBe(405)
+      expect((await call('/api/event', env, post({}))).status).toBe(400)
+    })
+
+    it('limits batches per visitor', async () => {
+      const { env } = makeEnv()
+      const limit = vi.fn(async () => ({ success: false }))
+      const response = await call(
+        '/api/event',
+        { ...env, EVENT_LIMITER: { limit } } as unknown as Env,
+        post({ events: [] }),
+      )
+      expect(response.status).toBe(429)
+    })
+  })
+
   describe('/api/profile/:key', () => {
     it('serves published profiles and caches them publicly', async () => {
       stubSupabase({

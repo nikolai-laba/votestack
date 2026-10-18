@@ -15,13 +15,20 @@ export class BallotLookupError extends Error {
   }
 }
 
-export async function fetchBallot(address: string): Promise<Ballot> {
+/**
+ * Looks up a ballot. `sample` marks the app's sample ballots, so the
+ * Worker counts them apart from voters' own lookups.
+ */
+export async function fetchBallot(
+  address: string,
+  { sample = false } = {},
+): Promise<Ballot> {
   let res: Response
   try {
     res = await fetch('/api/ballot', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ address }),
+      body: JSON.stringify(sample ? { address, sample } : { address }),
       cache: 'no-store',
     })
   } catch {

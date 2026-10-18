@@ -52,3 +52,26 @@ namespace_id = "1003"
   [ratelimits.simple]
   limit = 30
   period = 60
+
+# Rate limit for usage counts (POST /api/event): 30 batches per minute per
+# visitor; the app sends one batch when a page is hidden or closed. Keyed
+# by a hash of the IP address, which is never stored.
+[[ratelimits]]
+name = "EVENT_LIMITER"
+namespace_id = "1004"
+
+  [ratelimits.simple]
+  limit = 30
+  period = 60
+
+# Anonymous usage counts (worker/events.ts, src/shared/metrics.ts): page,
+# level of government, area and yes/no labels only.
+[[analytics_engine_datasets]]
+binding = "USAGE"
+dataset = "votestack_usage"
+
+# Once a day, copy the last days' hourly usage totals to Supabase
+# (worker/rollup.ts); Analytics Engine keeps them for about three months.
+# Needs the CF_ACCOUNT_ID and CF_ANALYTICS_TOKEN secrets.
+[triggers]
+crons = ["15 9 * * *"]

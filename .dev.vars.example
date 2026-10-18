@@ -8,3 +8,8 @@ SUPABASE_SECRET_KEY=your_supabase_secret_key_here
 # Cloudflare Turnstile secret for error reports (POST /api/report). For local
 # testing, Cloudflare's always-pass test secret works with the test site key.
 TURNSTILE_SECRET_KEY=your_turnstile_secret_key_here
+# Daily usage rollup (worker/rollup.ts): the Cloudflare account ID and an API
+# token with only Account → Account Analytics → Read. Not needed to run the
+# site; without them the daily job fails and nothing else changes.
+CF_ACCOUNT_ID=your_cloudflare_account_id_here
+CF_ANALYTICS_TOKEN=your_analytics_read_token_here

@@ -20,14 +20,17 @@ export function BallotSessionProvider() {
   const [address, setAddress] = useState<string | null>(null)
   const [values, setValues] = useState<AddressValues>(EMPTY_ADDRESS)
   const lookup = useMutation({
-    mutationFn: fetchBallot,
+    mutationFn: (searched: string) => fetchBallot(searched),
     onSuccess: (data, searched) => {
       ballotStore.saveBallot(data)
       setAddress(searched)
     },
   })
   // Never saved: a sample stays in memory only.
-  const sampleLookup = useMutation({ mutationFn: fetchBallot })
+  const sampleLookup = useMutation({
+    mutationFn: (sampleAddress: string) =>
+      fetchBallot(sampleAddress, { sample: true }),
+  })
   const [sample, setSample] = useState<SampleBallot | null>(null)
 
   // Saved choices is about the voter's own ballot, so its "Show on ballot"
