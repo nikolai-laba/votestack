@@ -21,6 +21,15 @@ const post = (body: unknown): RequestInit => ({
   body: JSON.stringify(body),
 })
 
+const BROWSER =
+  'Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Mobile/15E148 Safari/604.1'
+
+/** A POST from a phone's browser, as the app sends events. */
+const fromBrowser = (body: unknown, agent = BROWSER): RequestInit => ({
+  ...post(body),
+  headers: { 'User-Agent': agent },
+})
+
 /** Answers Supabase RPCs by function name through the global fetch. */
 function stubSupabase(answers: Record<string, unknown>) {
   const fetch = vi.fn(async (url: string | URL | Request) => {
@@ -200,7 +209,7 @@ describe('worker', () => {
       const response = await call(
         '/api/event',
         { ...env, USAGE: usage } as unknown as Env,
-        post({
+        fromBrowser({
           events: [
             { e: 'view', page: 'profile', from: 'ballot', key: 'jane-doe' },
             { e: 'view', page: 'profile', from: 'ballot', address: '1 Main' },
@@ -219,7 +228,7 @@ describe('worker', () => {
     it('only accepts POST with an events list', async () => {
       const { env } = makeEnv()
       expect((await call('/api/event', env)).status).toBe(405)
-      expect((await call('/api/event', env, post({}))).status).toBe(400)
+      expect((await call('/api/event', env, fromBrowser({}))).status).toBe(400)
     })
 
     it('limits batches per visitor', async () => {
@@ -228,9 +237,28 @@ describe('worker', () => {
       const response = await call(
         '/api/event',
         { ...env, EVENT_LIMITER: { limit } } as unknown as Env,
-        post({ events: [] }),
+        fromBrowser({ events: [] }),
       )
       expect(response.status).toBe(429)
+    })
+
+    it('drops events from crawlers and agents that send no user agent', async () => {
+      const { env } = makeEnv()
+      const usage = dataset()
+      const events = {
+        events: [{ e: 'view', page: 'report', from: 'landing' }],
+      }
+      const googlebot =
+        'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Chrome/141.0.7390.122 Safari/537.36'
+      for (const init of [fromBrowser(events, googlebot), post(events)]) {
+        const response = await call(
+          '/api/event',
+          { ...env, USAGE: usage } as unknown as Env,
+          init,
+        )
+        expect(response.status).toBe(204)
+      }
+      expect(usage.writeDataPoint).not.toHaveBeenCalled()
     })
   })
 

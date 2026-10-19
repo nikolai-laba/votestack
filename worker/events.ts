@@ -6,6 +6,7 @@
 
 import {
   MAX_EVENTS,
+  isAutomatedAgent,
   lookupPoint,
   usagePoint,
   type LookupOutcome,
@@ -63,6 +64,18 @@ export async function eventResponse(
 ): Promise<Response> {
   if (request.method !== 'POST') {
     return json({ error: 'Use POST' }, 405, { Allow: 'POST' })
+  }
+  // Crawlers run the app too; their events are dropped unread, with the same
+  // answer, so nothing changes for them.
+  const cf = (request as { cf?: { verifiedBotCategory?: string } }).cf
+  if (
+    isAutomatedAgent(request.headers.get('User-Agent')) ||
+    cf?.verifiedBotCategory
+  ) {
+    return new Response(null, {
+      status: 204,
+      headers: { 'Cache-Control': 'no-store' },
+    })
   }
   const { success } = await deps.limiter.limit({
     key: await rateLimitKey('event', request),

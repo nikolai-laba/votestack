@@ -76,6 +76,19 @@ export interface UsagePoint {
   doubles: number[]
 }
 
+/**
+ * Crawlers, link previews and automated browsers, by their user agent. Search
+ * crawlers run the app's JavaScript, so without this one sweep of the site
+ * counts as hundreds of visits. Used only to decide whether to count; the
+ * user agent is never stored.
+ */
+const AUTOMATED_AGENT =
+  /\bbot\b|bot\/|bot[;)]|crawl|spider|slurp|headless|lighthouse|pagespeed|inspectiontool|googleother|mediapartners|bingpreview|facebookexternalhit|embedly|phantomjs|puppeteer|playwright|selenium|curl\/|wget\/|python-|httpclient|okhttp|go-http/i
+
+export function isAutomatedAgent(userAgent: string | null | undefined) {
+  return !userAgent || AUTOMATED_AGENT.test(userAgent)
+}
+
 /** Events in one POST /api/event; more are dropped. */
 export const MAX_EVENTS = 50
 

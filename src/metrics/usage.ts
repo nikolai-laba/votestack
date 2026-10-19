@@ -16,6 +16,7 @@ import type { Contest } from '../shared/ballot.ts'
 import {
   MAX_EVENTS,
   USAGE_LEVELS,
+  isAutomatedAgent,
   type UsageEvent,
   type UsageLevel,
   type UsagePage,
@@ -290,8 +291,13 @@ export type Usage = ReturnType<typeof createUsage>
  */
 export const usage = createUsage({
   storage: defaultStorage,
+  // Automated browsers (crawlers, test tools) send nothing; the Worker also
+  // drops crawlers that don't say they're automated here.
   send:
-    import.meta.env.MODE === 'test' || typeof navigator === 'undefined'
+    import.meta.env.MODE === 'test' ||
+    typeof navigator === 'undefined' ||
+    navigator.webdriver ||
+    isAutomatedAgent(navigator.userAgent)
       ? () => false
       : beacon,
   today: localToday,

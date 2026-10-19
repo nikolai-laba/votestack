@@ -7,7 +7,7 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ### Added
 
-- **Anonymous usage counts**, to learn what helps voters: pages opened, ballot lookups and their outcomes, devices that looked up a ballot each election, profiles opened per race, first picks and links out, as totals by page, level of government and county. Nothing counted includes an address, an IP address, the names picked or anything that tells one visitor from another. The About page's privacy section says what's counted.
+- **Anonymous usage counts**, to learn what helps voters: pages opened, ballot lookups and their outcomes, devices that looked up a ballot each election, profiles opened per race, first picks and links out, as totals by page, level of government and county. Nothing counted includes an address, an IP address, the names picked or anything that tells one visitor from another. The About page's privacy section says what's counted. Search engines' crawlers and other automated visitors aren't counted.
 - **More endorsements from groups' published lists**, in both areas: 33 more lists for Cook County (parties and township and ward organizations, unions, issue and business groups, and the Chicago Tribune and Daily Herald editorial boards) and 15 more for Los Angeles County (including the Sierra Club Angeles Chapter, Stonewall Democratic Club, Teamsters Joint Council 42, UNITE HERE Local 11, local Democratic clubs and The Signal), each checked against the group's own page or a news report of it.
 - For judges up for retention, a group's published recommendation to vote No is shown apart from the endorsements, with its own label.
 
