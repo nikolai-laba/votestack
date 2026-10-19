@@ -230,7 +230,12 @@ const template = await readFile(
 )
 // `<` is escaped so no value can close the script tag.
 const json = JSON.stringify(data).replace(/</g, '\\u003c')
-const html = template.replace('"__USAGE_DATA__"', () => json)
+// Either quote style, since formatters may change it.
+const placeholder = /(["'])__USAGE_DATA__\1/
+if (!placeholder.test(template)) {
+  throw new Error('The data placeholder is missing from usage-report.html')
+}
+const html = template.replace(placeholder, () => json)
 
 const out = resolve(values.out)
 await mkdir(dirname(out), { recursive: true })
