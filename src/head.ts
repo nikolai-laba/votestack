@@ -54,6 +54,7 @@ const SITE_STRUCTURED_DATA = {
       '@type': 'Organization',
       '@id': `${SITE_URL}/#organization`,
       name: SITE_NAME,
+      legalName: 'VoteStack, LLC',
       url: `${SITE_URL}/`,
       logo: `${SITE_URL}/brand/votestack-mark-512.png`,
       email: 'nikolai@votestack.org',
@@ -86,6 +87,13 @@ export const HOW_PROFILES_HEAD: PageHead = {
   description:
     'How VoteStack researches candidate profiles: the sources, the AI models, the checks every profile must pass, and their limits.',
   path: '/how-profiles-are-made',
+}
+
+export const SUPPORT_HEAD: PageHead = {
+  title: 'Support VoteStack | VoteStack',
+  description:
+    'VoteStack is free, with no ads. Pay what you think it is worth, see what the money pays for and which money VoteStack refuses.',
+  path: '/support',
 }
 
 export const NOTIFY_HEAD: PageHead = {

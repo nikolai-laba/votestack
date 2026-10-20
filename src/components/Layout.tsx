@@ -3,12 +3,14 @@ import { Link, NavLink, Outlet, useMatches } from 'react-router'
 import {
   ABOUT_PATH,
   SAVED_CHOICES_PATH,
+  SUPPORT_PATH,
   type RouteHandle,
 } from '../ballot/profileLinks.ts'
 import { useBallotStore } from '../picks/store.ts'
 import { pickCounts } from '../picks/summary.ts'
 import { useUsageViews } from '../metrics/listen.ts'
 import { useTheme } from '../theme/themePreference.ts'
+import { APP_VERSION } from '../version.ts'
 import { ChevronDownIcon, MoonIcon, SunIcon } from './icons.tsx'
 
 /**
@@ -122,6 +124,14 @@ export function Layout() {
               </Link>
             </li>
             <li>
+              <Link
+                to={SUPPORT_PATH}
+                className="inline-flex min-h-11 items-center"
+              >
+                Support VoteStack
+              </Link>
+            </li>
+            <li>
               <a
                 href="https://github.com/nikolai-laba/votestack"
                 target="_blank"
@@ -141,7 +151,8 @@ export function Layout() {
             </li>
           </ul>
           <p className="text-caption">
-            Open source under the Apache-2.0 license.
+            &copy; 2026 VoteStack, LLC. Open source under the Apache-2.0
+            license. Version {APP_VERSION}.
           </p>
         </div>
       </footer>

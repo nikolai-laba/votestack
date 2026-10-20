@@ -4,6 +4,7 @@ import {
   BALLOT_ORDER_ID,
   NOTIFY_PATH,
   SAVED_CHOICES_PATH,
+  SUPPORT_PATH,
   type BallotOutletContext,
 } from '../ballot/profileLinks.ts'
 import { BackLink } from '../components/profile/BackLink.tsx'
@@ -133,8 +134,16 @@ export default function AboutPage() {
           source for every fact. VoteStack is the tool I wanted.
         </p>
         <p>
-          VoteStack is paid for by its maintainer. It takes no money from
-          candidates, parties or campaigns.
+          VoteStack is published by VoteStack, LLC, a company I own. It&rsquo;s
+          a company, not a charity or a government agency.
+        </p>
+        <p>
+          VoteStack is paid for by me and by voters who choose to pay toward it.
+          It&rsquo;s free to use, with no ads. It takes no money from
+          candidates, parties, campaigns, political committees or governments,
+          and paying never changes what a profile says.{' '}
+          <Link to={SUPPORT_PATH}>Support VoteStack</Link> explains what the
+          money pays for.
         </p>
         <p>
           If you&rsquo;d like to get in touch regarding the project, please
@@ -161,7 +170,10 @@ export default function AboutPage() {
           </li>
           <li>We never feature, rank or recommend a candidate.</li>
           <li>Party is shown as text, never as a color.</li>
-          <li>We take no money from candidates, parties or campaigns.</li>
+          <li>
+            We take no money from candidates, parties, campaigns, political
+            committees or governments.
+          </li>
         </ul>
         <p>
           <Link to="/how-profiles-are-made">How we make profiles</Link> explains
@@ -310,11 +322,17 @@ export default function AboutPage() {
           visits without cookies.
         </p>
         <p>
-          If you sign up for an email when VoteStack covers your area, we save
-          your email address and ZIP code. We use them only for that email and
-          to count where people are asking from, and we never share them. To
-          have them deleted, email{' '}
+          If you sign up for an email when VoteStack covers your area, VoteStack
+          LLC saves your email address and ZIP code. We use them only for that
+          email and to count where people are asking from, and we never share
+          them. To have them deleted, email{' '}
           <a href="mailto:nikolai@votestack.org">nikolai@votestack.org</a>.
+        </p>
+        <p>
+          If you pay toward VoteStack, Stripe handles the payment and we never
+          see your card number. VoteStack, LLC gets your name, email address and
+          the amount, and uses them only for receipts and questions about your
+          payment. We never connect a payment to a ballot lookup.
         </p>
       </Section>
 

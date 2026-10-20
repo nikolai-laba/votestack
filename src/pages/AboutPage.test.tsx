@@ -62,8 +62,14 @@ describe('About page', () => {
       'I’m Nikolai Laba, a voter living in Oak Park (Cook County), IL',
     )
     expect(who).toHaveTextContent(
-      'It takes no money from candidates, parties or campaigns.',
+      'VoteStack is published by VoteStack, LLC, a company I own.',
     )
+    expect(who).toHaveTextContent(
+      'It takes no money from candidates, parties, campaigns, political committees or governments',
+    )
+    expect(
+      within(who).getByRole('link', { name: 'Support VoteStack' }),
+    ).toHaveAttribute('href', '/support')
     expect(
       within(who).getByRole('link', { name: 'Nikolai@VoteStack.org' }),
     ).toHaveAttribute('href', 'mailto:nikolai@votestack.org')

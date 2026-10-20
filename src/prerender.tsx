@@ -20,6 +20,7 @@ import {
   GET_STARTED_PATH,
   NOTIFY_PATH,
   SAVED_CHOICES_PATH,
+  SUPPORT_PATH,
   profilePath,
   reportPath,
 } from './ballot/profileLinks.ts'
@@ -32,6 +33,7 @@ import {
   NOTIFY_HEAD,
   SAVED_CHOICES_HEAD,
   SITE_URL,
+  SUPPORT_HEAD,
   headHtml,
   profileHead,
   raceAreaHead,
@@ -90,6 +92,12 @@ export const STATIC_PAGES: PrerenderPage[] = [
     file: 'how-profiles-are-made.html',
     head: HOW_PROFILES_HEAD,
     render: '/how-profiles-are-made',
+  },
+  {
+    path: SUPPORT_PATH,
+    file: 'support.html',
+    head: SUPPORT_HEAD,
+    render: SUPPORT_PATH,
   },
   {
     path: NOTIFY_PATH,

@@ -1,5 +1,6 @@
 // The site menu in the header: inline links on wide screens, a Menu button
 // on narrow ones (the CSS decides which shows; jsdom shows both).
+import { readFileSync } from 'node:fs'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { act, render, screen, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
@@ -63,9 +64,16 @@ describe('site menu', () => {
     ])
   })
 
-  it('links GitHub and Contact in the footer', () => {
+  it('links Support, GitHub and Contact in the footer', () => {
     renderAt('/')
     const footer = screen.getByRole('contentinfo')
+    expect(
+      within(footer).getByRole('link', { name: 'Support VoteStack' }),
+    ).toHaveAttribute('href', '/support')
+    expect(footer).toHaveTextContent('© 2026 VoteStack, LLC.')
+    expect(footer).toHaveTextContent(
+      `Version ${readFileSync('VERSION', 'utf8').trim()}.`,
+    )
     expect(
       within(footer).getByRole('link', { name: 'GitHub' }),
     ).toHaveAttribute('href', 'https://github.com/nikolai-laba/votestack')

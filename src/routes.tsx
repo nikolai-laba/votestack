@@ -17,6 +17,7 @@ import { LazyRacesPage } from './pages/LazyRacesPage.tsx'
 import { LazyReportPage } from './pages/LazyReportPage.tsx'
 import { NotFoundPage } from './pages/NotFoundPage.tsx'
 import { SavedChoicesPage } from './pages/SavedChoicesPage.tsx'
+import { SupportPage } from './pages/SupportPage.tsx'
 
 // A candidate's pages: beside a profile, the whole ballot list from 840px
 // (its race(s) at its top below that); beside its report form, just the race(s).
@@ -83,6 +84,10 @@ export const routes: RouteObject[] = [
               {
                 path: 'about',
                 element: <LazyAboutPage />,
+              },
+              {
+                path: 'support',
+                element: <SupportPage />,
               },
             ],
           },
