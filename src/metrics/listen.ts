@@ -11,6 +11,10 @@ import { usagePage } from '../shared/metrics.ts'
 import { usage, type Usage } from './usage.ts'
 
 export function startUsage(counter: Usage = usage) {
+  // ?count=off turns counting off in this browser, ?count=on back on.
+  const choice = new URLSearchParams(location.search).get('count')
+  if (choice === 'off' || choice === 'on') counter.setCounting(choice === 'on')
+
   // Picks already made when the page opened are never counted again.
   const baseline = ballotStore.getSnapshot().picks
   ballotStore.subscribe(() => {
@@ -67,6 +71,16 @@ export function useUsageViews(counter: Usage = usage) {
   }, [location.key, location.pathname, location.state, counter])
 }
 
+/** Counts a sample ballot being shown (in HomePage), once per device. */
+export function useSampleUsage(
+  sample: Pick<SavedBallot, 'election'> | undefined,
+  counter: Usage = usage,
+) {
+  useEffect(() => {
+    if (sample) counter.sample(sample)
+  }, [sample, counter])
+}
+
 /**
  * Counts the voter's own ballot being shown (never a sample) and profiles
  * opened beside it (in HomePage). `secsToBallot` is set for a lookup made
@@ -79,7 +93,9 @@ export function useBallotUsage(
   counter: Usage = usage,
 ) {
   useEffect(() => {
-    if (own) counter.voter(own, secsToBallot)
+    if (!own) return
+    counter.voter(own, secsToBallot)
+    counter.catchUp(own, ballotStore.getSnapshot().picks)
   }, [own, secsToBallot, counter])
   useEffect(() => {
     if (own && openKey) counter.open(own, openKey)

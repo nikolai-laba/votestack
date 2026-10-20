@@ -5,6 +5,11 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+### Changed
+
+- Usage counts now count the Support page on its own and how many devices see a sample ballot (and how many then look up their own). Time to the ballot leaves out sites left open for more than 30 minutes before a lookup. Counting can be turned off in one browser with `?count=off`.
+- The half-ballot usage count is replaced by two: devices that picked 75% of their ballot's candidate races (judges, retention and measures left out), and devices that researched their ballot (profiles opened in 3 races below federal, or two candidates compared in a race). A ballot already filled in or researched is counted the next time it's shown.
+
 ## [1.4.0] - 2026-10-19
 
 ### Added

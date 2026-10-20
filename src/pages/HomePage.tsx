@@ -29,7 +29,7 @@ import {
 } from '../components/BallotView.tsx'
 import { WarningIcon } from '../components/icons.tsx'
 import { BackLink } from '../components/profile/BackLink.tsx'
-import { useBallotUsage } from '../metrics/listen.ts'
+import { useBallotUsage, useSampleUsage } from '../metrics/listen.ts'
 import { usage } from '../metrics/usage.ts'
 import { SampleModeContext } from '../picks/sampleMode.ts'
 import { isRaceHandoffState } from '../races/data.ts'
@@ -112,8 +112,8 @@ export function HomePage() {
     (onProfile || !personKey || personRaces)
   const racePanel = beside && personRaces
 
-  // Anonymous counts (src/metrics/): the voter's own ballot, never a
-  // sample, and profiles opened while it's shown.
+  // Anonymous counts (src/metrics/): the voter's own ballot and profiles
+  // opened while it's shown; a sample is counted on its own.
   const secsToBallot = useMemo(
     () => (lookup.data ? usage.clock() : undefined),
     [lookup.data],
@@ -123,6 +123,7 @@ export function HomePage() {
     onProfile ? personKey : undefined,
     lookup.isSuccess ? secsToBallot : undefined,
   )
+  useSampleUsage(inSample ? sampleLookup.data : undefined)
   const listBeside = beside && (onProfile || !racePanel)
 
   // From /getstarted: focus the new ballot's heading, or the sample's.

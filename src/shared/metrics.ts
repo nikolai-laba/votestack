@@ -29,6 +29,7 @@ export const USAGE_PAGES = [
   'how',
   'about',
   'notify',
+  'support',
   'other',
 ] as const
 export type UsagePage = (typeof USAGE_PAGES)[number]
@@ -52,16 +53,49 @@ export type UsageEvent =
       secs?: number
       races?: Partial<Record<UsageLevel, number>>
     }
+  /**
+   * A sample ballot shown ('seen', once per device per election), and a
+   * device that saw one then looking up its own ballot ('own', once).
+   */
+  | { e: 'sample'; step: 'seen' | 'own'; region: string }
   /** A profile opened from the voter's own ballot: the first (nth 1) or a second candidate (nth 2) in one race. */
   | { e: 'open'; level: UsageLevel; nth: 1 | 2 }
   /** The first pick in a race; `informed` when a profile in that race was opened first. */
   | { e: 'pick'; level: UsageLevel; informed: boolean }
-  /** Half the ballot's races (judges left out) picked; `informed` when most of them had a profile opened. */
+  /**
+   * Half the ballot's races (judges left out) picked; `informed` when most
+   * of them had a profile opened. No longer sent (replaced by fill and learn
+   * on 2026-10-20); still accepted from pages opened before then.
+   */
   | { e: 'half'; region: string; informed: boolean }
+  /**
+   * A share of the ballot's candidate races picked, judges, retention and
+   * measures left out (FILL_MILESTONES), once each per device.
+   */
+  | { e: 'fill'; region: string; pct: FillMilestone }
+  /**
+   * A learning milestone, once each per device: `races` below federal with
+   * a profile opened, `compared` races with a second candidate opened (both
+   * at the counts in LEARN_MILESTONES), or `researched` (n 1) the first time
+   * either reaches RESEARCHED.
+   */
+  | { e: 'learn'; region: string; kind: LearnKind; n: number }
   /** A link out of the site (a source, an official page), counted by the page it was on. */
   | { e: 'out'; page: UsagePage }
   /** Seconds the site was on screen since the last count. */
   | { e: 'active'; secs: number; ballot: boolean }
+
+export const FILL_MILESTONES = [25, 50, 75, 100] as const
+export type FillMilestone = (typeof FILL_MILESTONES)[number]
+
+export type LearnKind = 'races' | 'compared' | 'researched'
+export const LEARN_MILESTONES: Record<LearnKind, readonly number[]> = {
+  races: [1, 3, 5, 10],
+  compared: [1, 3],
+  researched: [1],
+}
+/** "Researched their ballot": profiles opened in this many races below federal, or this many races compared. */
+export const RESEARCHED = { races: 3, compared: 1 } as const
 
 /** Counted by the Worker itself on each POST /api/ballot. */
 export type LookupOutcome =
@@ -96,6 +130,11 @@ const REGION = /^[a-z]{2}-[a-z-]{1,30}$/
 const KEY = /^[a-z0-9][a-z0-9/-]{0,119}$/
 /** Longest stretch one count may cover: a day. */
 const MAX_SECS = 86_400
+/**
+ * Longest time to the ballot that is counted as one: past this the site was
+ * most likely left open before the lookup, so the time isn't added.
+ */
+export const MAX_SECS_TO_BALLOT = 1_800
 const MAX_RACES = 1_000
 
 const isOneOf = <T extends string>(list: readonly T[], v: unknown): v is T =>
@@ -139,11 +178,25 @@ export function usagePoint(raw: unknown): UsagePoint | null {
         (level) =>
           bounded((races as Record<string, unknown>)[level], MAX_RACES) ?? 0,
       )
-      return point('voter', v.kind, region(v.region), '', [
-        bounded(v.secs) ?? 0,
+      // c says whether d1 holds a time: 'timed', 'restored' (the ballot was
+      // already on the device) or 'long' (over MAX_SECS_TO_BALLOT, left out).
+      const secs = bounded(v.secs)
+      const timing =
+        v.kind !== 'new'
+          ? ''
+          : secs === null
+            ? 'restored'
+            : secs > MAX_SECS_TO_BALLOT
+              ? 'long'
+              : 'timed'
+      return point('voter', v.kind, region(v.region), timing, [
+        timing === 'timed' ? (secs ?? 0) : 0,
         ...counts,
       ])
     }
+    case 'sample':
+      if (!isOneOf(['seen', 'own'] as const, v.step)) return null
+      return point('sample', v.step, region(v.region))
     case 'open':
       if (!isOneOf(USAGE_LEVELS, v.level) || (v.nth !== 1 && v.nth !== 2))
         return null
@@ -155,6 +208,15 @@ export function usagePoint(raw: unknown): UsagePoint | null {
     case 'half':
       if (typeof v.informed !== 'boolean') return null
       return point('half', region(v.region), v.informed ? '1' : '0')
+    case 'fill':
+      if (!(FILL_MILESTONES as readonly unknown[]).includes(v.pct)) return null
+      return point('fill', String(v.pct), region(v.region))
+    case 'learn': {
+      if (!isOneOf(['races', 'compared', 'researched'] as const, v.kind))
+        return null
+      if (!LEARN_MILESTONES[v.kind].includes(v.n as number)) return null
+      return point('learn', v.kind, region(v.region), String(v.n))
+    }
     case 'out':
       if (!isOneOf(USAGE_PAGES, v.page)) return null
       return point('out', v.page)
@@ -200,6 +262,7 @@ export function usagePage(pathname: string): {
     '/how-profiles-are-made': 'how',
     '/about': 'about',
     '/notify': 'notify',
+    '/support': 'support',
   }
   return { page: pages[path] ?? 'other' }
 }

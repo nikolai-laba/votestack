@@ -560,10 +560,10 @@
             <div id="learn-bars"></div>
           </div>
           <div class="card">
-            <h3>Picks made after opening a profile, by level</h3>
+            <h3>First picks by level, and how many came after a profile</h3>
             <p class="muted small">
-              Share of first picks in a race made after a profile in that race
-              was opened.
+              First picks in each race, split by whether a profile in that race
+              was opened first. Measures have no profiles.
             </p>
             <div id="pick-bars"></div>
           </div>
@@ -749,6 +749,7 @@
         'how',
         'about',
         'notify',
+        'support',
         'other',
       ]
       const PAGE_LABEL = {
@@ -761,6 +762,7 @@
         how: 'How we make profiles',
         about: 'About',
         notify: 'Notify sign-up',
+        support: 'Support',
         other: 'Other',
       }
       const SOURCES = ['landing', 'ballot', 'app']
@@ -913,6 +915,9 @@
         switch (r[E]) {
           case 'lookup':
           case 'voter':
+          case 'sample':
+          case 'fill':
+          case 'learn':
             return r[B]
           case 'half':
             return r[A]
@@ -925,7 +930,14 @@
             return null
         }
       }
-      const AREA_EVENTS = new Set(['lookup', 'voter', 'half'])
+      const AREA_EVENTS = new Set([
+        'lookup',
+        'voter',
+        'sample',
+        'fill',
+        'learn',
+        'half',
+      ])
 
       /**
        * Rows of one event in [start, end). The area filter applies to events
@@ -1196,7 +1208,23 @@
         const prevVoters = rowsOf('voter', prevStart, prevEnd)
         const prevNew = sumWhere(prevVoters, (r) => r[A] === 'new')
         const prevReturns = sumWhere(prevVoters, (r) => r[A] === 'return')
-        const secs = sum(newV, (r) => r[D1])
+        // Timed lookups only: 'timed' rows, and older rows (no label) whose
+        // average is a real time under 30 minutes. Restored ballots and
+        // sites left open before the lookup would skew it.
+        const timedRows = newV.filter((r) =>
+          r[C] === 'timed'
+            ? true
+            : r[C] === '' && r[D1] > 0 && r[D1] / r[N] <= 1800,
+        )
+        const secs = sum(timedRows, (r) => r[D1])
+        const timedCount = sum(timedRows)
+        const sampleRows = rowsOf('sample', start, end)
+        const sampleSeen = sumWhere(sampleRows, (r) => r[A] === 'seen')
+        const sampleOwn = sumWhere(sampleRows, (r) => r[A] === 'own')
+        const prevSampleSeen = sumWhere(
+          rowsOf('sample', prevStart, prevEnd),
+          (r) => r[A] === 'seen',
+        )
 
         const allNew = rowsOf('voter', start, end, false).filter(
           (r) => r[A] === 'new',
@@ -1208,9 +1236,17 @@
         const firstOpens = sumWhere(opens, (r) => r[B] === '1')
         const compared = sumWhere(opens, (r) => r[B] === '2')
         const picks = rowsOf('pick', start, end)
-        const informedPicks = sumWhere(picks, (r) => r[B] === '1')
-        const half = rowsOf('half', start, end)
-        const informedHalf = sumWhere(half, (r) => r[B] === '1')
+        // Federal races need the least research and measures have no
+        // profiles, so the headline leaves both out (the by-level chart
+        // below shows every level).
+        const headPicks = picks.filter(
+          (r) => r[A] !== 'federal' && r[A] !== 'measures',
+        )
+        const informedPicks = sumWhere(headPicks, (r) => r[B] === '1')
+        const fills = rowsOf('fill', start, end)
+        const filled = sumWhere(fills, (r) => r[A] === '75')
+        const learns = rowsOf('learn', start, end)
+        const researched = sumWhere(learns, (r) => r[A] === 'researched')
         const outs = sum(rowsOf('out', start, end))
         const active = rowsOf('active', start, end)
         const activeSecs = sum(active, (r) => r[D1])
@@ -1257,8 +1293,8 @@
           tile(
             'Task success',
             'Average time to the ballot',
-            newCount ? `${nf.format(secs / newCount)} s` : '–',
-            'Target under 60 s. Ballots restored on the device count as 0, so it reads low.',
+            timedCount ? `${nf.format(secs / timedCount)} s` : '–',
+            `Target under 60 s. ${num(timedCount)} timed lookups; ballots restored on the device and sites left open over 30 minutes first are left out.`,
           ),
           tile(
             'Adoption',
@@ -1266,6 +1302,13 @@
             num(newCount),
             `${num(samples)} sample-ballot lookups besides`,
             change(newCount, prevNew),
+          ),
+          tile(
+            'Adoption',
+            'Sample ballot visitors (devices)',
+            num(sampleSeen),
+            `${num(sampleOwn)} then looked up their own ballot`,
+            change(sampleSeen, prevSampleSeen),
           ),
           tile(
             'Retention',
@@ -1291,14 +1334,20 @@
           tile(
             'Learning',
             'First picks after opening a profile',
-            pct(informedPicks, sum(picks)),
-            `${num(informedPicks)} of ${num(sum(picks))} first picks`,
+            pct(informedPicks, sum(headPicks)),
+            `${num(informedPicks)} of ${num(sum(headPicks))} first picks below federal, measures left out`,
           ),
           tile(
             'Learning',
-            'Informed ballots',
-            pct(informedHalf, sum(half)),
-            `${num(informedHalf)} of ${num(sum(half))} voters who picked half their ballot had opened profiles in most of those races`,
+            'Filled most of their ballot',
+            pct(filled, newCount),
+            `${num(filled)} of ${num(newCount)} new voters picked 75% of candidate races (judges, retention and measures left out)`,
+          ),
+          tile(
+            'Learning',
+            'Researched their ballot',
+            pct(researched, newCount),
+            `${num(researched)} of ${num(newCount)} new voters opened profiles in 3 races below federal, or compared 2 candidates`,
           ),
           tile(
             'Learning',
@@ -1367,6 +1416,20 @@
           splits: { area: ['Area', (r) => r[B], AREA_LABEL] },
         },
         {
+          id: 'sampleVisitors',
+          label: 'Sample ballot visitors (devices)',
+          event: 'sample',
+          splits: {
+            step: [
+              'Step',
+              (r) => r[A],
+              { seen: 'Saw a sample', own: 'Then looked up their own' },
+              ['seen', 'own'],
+            ],
+            area: ['Area', (r) => r[B], AREA_LABEL],
+          },
+        },
+        {
           id: 'views',
           label: 'Page views',
           event: 'view',
@@ -1404,8 +1467,52 @@
           },
         },
         {
+          id: 'fill',
+          label: 'Voters filling their ballot',
+          event: 'fill',
+          splits: {
+            pct: [
+              'Share filled',
+              (r) => r[A],
+              { 25: '25%', 50: '50%', 75: '75%', 100: '100%' },
+              ['25', '50', '75', '100'],
+            ],
+            area: ['Area', (r) => r[B], AREA_LABEL],
+          },
+        },
+        {
+          id: 'learn',
+          label: 'Learning milestones',
+          event: 'learn',
+          splits: {
+            kind: [
+              'Milestone',
+              (r) => (r[A] === 'researched' ? 'researched' : `${r[A]}:${r[C]}`),
+              {
+                researched: 'Researched their ballot',
+                'races:1': '1 race below federal',
+                'races:3': '3 races below federal',
+                'races:5': '5 races below federal',
+                'races:10': '10 races below federal',
+                'compared:1': 'Compared in 1 race',
+                'compared:3': 'Compared in 3 races',
+              },
+              [
+                'researched',
+                'races:1',
+                'races:3',
+                'races:5',
+                'races:10',
+                'compared:1',
+                'compared:3',
+              ],
+            ],
+            area: ['Area', (r) => r[B], AREA_LABEL],
+          },
+        },
+        {
           id: 'half',
-          label: 'Voters who picked half their ballot',
+          label: 'Voters who picked half their ballot (until Oct 20)',
           event: 'half',
           splits: {
             informed: [
@@ -1848,11 +1955,39 @@
           tipFmt: (v) => pct(v, 1),
           empty: 'No ballots looked up in this period.',
         })
-        hbars($('pick-bars'), shareRows('informed', 'pk'), {
-          max: 1,
-          tipFmt: (v) => pct(v, 1),
-          empty: 'No picks in this period.',
-        })
+        // Where picks happen and how many came after a profile: counts by
+        // level, split into after a profile and without one.
+        hbars(
+          $('pick-bars'),
+          stats
+            .filter((x) => x.pk > 0)
+            .map((x) => ({
+              label:
+                x.level === 'measures' ? `${x.label} (no profiles)` : x.label,
+              segs: [
+                {
+                  key: 'after',
+                  label: 'After a profile',
+                  v: x.informed,
+                  color: blue,
+                },
+                {
+                  key: 'without',
+                  label: 'Without one',
+                  v: x.pk - x.informed,
+                  color: gray,
+                },
+              ],
+              value:
+                x.level === 'measures'
+                  ? num(x.pk)
+                  : `${num(x.informed)} of ${num(x.pk)} (${pct(x.informed, x.pk)})`,
+            })),
+          {
+            tipFmt: (v, total) => `${num(v)} (${pct(v, total)})`,
+            empty: 'No picks in this period.',
+          },
+        )
         const tot = stats.reduce(
           (t, x) => ({
             races: t.races + x.races,
@@ -1864,8 +1999,27 @@
           { races: 0, first: 0, compared: 0, pk: 0, informed: 0 },
         )
         const rows = stats.filter((x) => x.races || x.first || x.pk)
+        const below = stats
+          .filter((x) => x.level !== 'federal' && x.level !== 'measures')
+          .reduce(
+            (t, x) => ({
+              races: t.races + x.races,
+              first: t.first + x.first,
+              compared: t.compared + x.compared,
+              pk: t.pk + x.pk,
+              informed: t.informed + x.informed,
+            }),
+            { races: 0, first: 0, compared: 0, pk: 0, informed: 0 },
+          )
         if (rows.length)
-          rows.push({ label: 'All levels', ...tot, strong: true })
+          rows.push(
+            {
+              label: 'Below federal, measures left out',
+              ...below,
+              strong: true,
+            },
+            { label: 'All levels', ...tot, strong: true },
+          )
         table(
           $('learn-table'),
           [
@@ -2177,10 +2331,17 @@
           label: 'Voters (voter)',
           a: 'New or return',
           b: 'Area',
+          c: 'Time to ballot (timed, restored, long)',
           d: [
             'Seconds to ballot',
             ...LEVELS.map((l) => `${LEVEL_LABEL[l]} races`),
           ],
+        },
+        sample: {
+          label: 'Sample ballots (sample)',
+          a: 'Seen, or then their own',
+          b: 'Area',
+          d: [],
         },
         open: {
           label: 'Profiles opened (open)',
@@ -2194,8 +2355,21 @@
           b: 'After a profile (1/0)',
           d: [],
         },
+        fill: {
+          label: 'Ballot filled (fill)',
+          a: 'Share of candidate races picked',
+          b: 'Area',
+          d: [],
+        },
+        learn: {
+          label: 'Learning milestones (learn)',
+          a: 'Milestone (races, compared, researched)',
+          b: 'Area',
+          c: 'Count reached',
+          d: [],
+        },
         half: {
-          label: 'Half-ballot milestones (half)',
+          label: 'Half-ballot milestones (half, until Oct 20)',
           a: 'Area',
           b: 'Informed (1/0)',
           d: [],
@@ -2281,7 +2455,10 @@
           if (event === 'view' && g === 'a') return PAGE_LABEL[v] || v
           if (event === 'view' && g === 'b') return SOURCE_LABEL[v] || v
           if (event === 'lookup' && g === 'a') return OUTCOME_LABEL[v] || v
-          if (['lookup', 'voter'].includes(event) && g === 'b')
+          if (
+            ['lookup', 'voter', 'sample', 'fill', 'learn'].includes(event) &&
+            g === 'b'
+          )
             return AREA_LABEL[v] || v
           if (event === 'half' && g === 'a') return AREA_LABEL[v] || v
           if (['open', 'pick'].includes(event) && g === 'a')

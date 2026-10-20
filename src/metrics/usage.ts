@@ -8,13 +8,20 @@
 // and which races were counted as picked. It never leaves the device; the
 // Worker only receives the events built from it. Every storage call is
 // wrapped, so blocked storage means counts last for the page only.
+//
+// Counting can be turned off for one browser (a maintainer's own, say) with
+// ?count=off on any page, and back on with ?count=on (startUsage). The
+// choice is kept in that browser only, under OFF_KEY.
 
 import { sectionFor } from '../ballot/sections.ts'
 import { contestsWithPerson } from '../ballot/profileLinks.ts'
 import type { SavedBallot, Picks } from '../picks/store.ts'
 import type { Contest } from '../shared/ballot.ts'
 import {
+  FILL_MILESTONES,
+  LEARN_MILESTONES,
   MAX_EVENTS,
+  RESEARCHED,
   USAGE_LEVELS,
   isAutomatedAgent,
   type UsageEvent,
@@ -25,6 +32,10 @@ import {
 import { regionForElection } from '../shared/regions.ts'
 
 export const USAGE_KEY = 'votestack:usage:v1'
+/** Elections this device has seen a sample ballot for. */
+export const SAMPLE_KEY = 'votestack:usage:samples:v1'
+/** Present ('1') when counting is turned off in this browser. */
+export const OFF_KEY = 'votestack:usage:off'
 export const EVENT_URL = '/api/event'
 
 /** What the device remembers about one election. */
@@ -37,7 +48,8 @@ interface ElectionRecord {
   opened: Record<string, string[]>
   /** Contests already counted as picked. */
   picked: string[]
-  half?: boolean
+  /** Milestones already counted ('fill:75', 'races:3', 'researched:1'). */
+  reached: string[]
 }
 
 type DeviceRecord = Record<string, ElectionRecord>
@@ -93,13 +105,15 @@ const levelOf = (contest: Contest): UsageLevel => {
     : 'local'
 }
 
-/** Races that count toward "half the ballot": judges and retention left out. */
-const countsForHalf = (contest: Contest) => {
-  const level = levelOf(contest)
-  return level !== 'judges' && level !== 'retention'
-}
+/** Races that count toward filling the ballot: judges, retention and measures left out. */
+const countsForFill = (contest: Contest) =>
+  !['judges', 'retention', 'measures'].includes(levelOf(contest))
 
-const regionOf = (ballot: SavedBallot) =>
+/** Races whose profiles count toward "researched": below federal (measures have none). */
+const countsForResearch = (contest: Contest) =>
+  !['federal', 'measures'].includes(levelOf(contest))
+
+const regionOf = (ballot: Pick<SavedBallot, 'election'>) =>
   regionForElection(ballot.election.id)?.id ?? 'none'
 
 export function createUsage(deps: UsageDeps) {
@@ -144,7 +158,7 @@ export function createUsage(deps: UsageDeps) {
       last: String(r.last),
       opened: r.opened && typeof r.opened === 'object' ? r.opened : {},
       picked: Array.isArray(r.picked) ? r.picked : [],
-      half: r.half === true,
+      reached: Array.isArray(r.reached) ? r.reached : [],
     }
   }
 
@@ -152,12 +166,106 @@ export function createUsage(deps: UsageDeps) {
     write({ ...read(), [id]: r })
   }
 
+  function off(): boolean {
+    try {
+      return deps.storage()?.getItem(OFF_KEY) === '1'
+    } catch {
+      return false
+    }
+  }
+
+  /** Elections a sample was seen for on this device. */
+  function sampled(): string[] {
+    try {
+      const raw = deps.storage()?.getItem(SAMPLE_KEY)
+      const parsed: unknown = raw ? JSON.parse(raw) : []
+      return Array.isArray(parsed) ? parsed.map(String) : []
+    } catch {
+      return []
+    }
+  }
+
+  /**
+   * Counts each milestone passed that this device hasn't counted yet and
+   * returns the updated list; `emit` builds the event for one milestone.
+   */
+  function pass(
+    reached: string[],
+    name: string,
+    value: number,
+    marks: readonly number[],
+    emit: (mark: number) => UsageEvent,
+  ): string[] {
+    const next = [...reached]
+    for (const mark of marks) {
+      const tag = `${name}:${mark}`
+      if (value < mark || next.includes(tag)) continue
+      next.push(tag)
+      add(emit(mark))
+    }
+    return next
+  }
+
+  /** Fill milestones for the voter's current picks (FILL_MILESTONES). */
+  function fillMilestones(
+    ballot: SavedBallot,
+    now: Record<string, string[]>,
+    reached: string[],
+  ): string[] {
+    const fill = ballot.contests.filter(countsForFill)
+    const share = fill.length
+      ? (100 * fill.filter((c) => now[c.id]?.length).length) / fill.length
+      : 0
+    return pass(reached, 'fill', share, FILL_MILESTONES, (pct) => ({
+      e: 'fill',
+      region: regionOf(ballot),
+      pct: pct as (typeof FILL_MILESTONES)[number],
+    }))
+  }
+
+  /** Learning milestones for the profiles opened so far (LEARN_MILESTONES). */
+  function learnMilestones(
+    ballot: SavedBallot,
+    opened: Record<string, string[]>,
+    reached: string[],
+  ): string[] {
+    const region = regionOf(ballot)
+    const races = ballot.contests.filter(
+      (c) => countsForResearch(c) && opened[c.id]?.length,
+    ).length
+    const compared = ballot.contests.filter(
+      (c) => (opened[c.id]?.length ?? 0) >= 2,
+    ).length
+    let next = pass(reached, 'races', races, LEARN_MILESTONES.races, (n) => ({
+      e: 'learn',
+      region,
+      kind: 'races',
+      n,
+    }))
+    next = pass(next, 'compared', compared, LEARN_MILESTONES.compared, (n) => ({
+      e: 'learn',
+      region,
+      kind: 'compared',
+      n,
+    }))
+    const researched =
+      races >= RESEARCHED.races || compared >= RESEARCHED.compared ? 1 : 0
+    return pass(next, 'researched', researched, [1], () => ({
+      e: 'learn',
+      region,
+      kind: 'researched',
+      n: 1,
+    }))
+  }
+
   function add(event: UsageEvent) {
+    if (off()) return
     queue.push(event)
     if (queue.length >= MAX_EVENTS) flush()
   }
 
   function flush() {
+    if (off()) queue = []
     if (!queue.length) return
     const batch = queue.slice(0, MAX_EVENTS)
     if (deps.send(batch)) queue = queue.slice(batch.length)
@@ -168,6 +276,17 @@ export function createUsage(deps: UsageDeps) {
     flush,
     /** Events waiting to be sent (tests). */
     pending: () => [...queue],
+
+    /** Turns counting off (or back on) in this browser only. */
+    setCounting(on: boolean) {
+      try {
+        if (on) deps.storage()?.removeItem(OFF_KEY)
+        else deps.storage()?.setItem(OFF_KEY, '1')
+      } catch {
+        // Blocked storage: nothing to keep the choice in.
+      }
+      if (!on) queue = []
+    },
 
     view(page: UsagePage, from: ViewSource, key?: string) {
       add(key ? { e: 'view', page, from, key } : { e: 'view', page, from })
@@ -199,12 +318,50 @@ export function createUsage(deps: UsageDeps) {
           races,
           ...(secsToBallot === undefined ? {} : { secs: secsToBallot }),
         })
-        save(id, { first: today, last: today, opened: {}, picked: [] })
+        if (sampled().includes(id)) add({ e: 'sample', step: 'own', region })
+        save(id, {
+          first: today,
+          last: today,
+          opened: {},
+          picked: [],
+          reached: [],
+        })
         return
       }
       if (record.last !== today) {
         add({ e: 'voter', kind: 'return', region })
         save(id, { ...record, last: today })
+      }
+    },
+
+    /**
+     * The voter's own ballot is on screen: counts any fill or learning
+     * milestone its picks and opened profiles already meet, so a ballot
+     * filled before these counts began (or on an earlier visit) is counted
+     * once, on the day it's next shown. No pick events: those stay for picks
+     * made on this page.
+     */
+    catchUp(ballot: SavedBallot, picks: Picks) {
+      const id = ballot.election.id
+      const record = election(id)
+      if (!record) return
+      let reached = fillMilestones(ballot, picks[id] ?? {}, record.reached)
+      reached = learnMilestones(ballot, record.opened, reached)
+      if (reached.length !== record.reached.length)
+        save(id, { ...record, reached })
+    },
+
+    /** A sample ballot is on screen: counted once per device per election. */
+    sample(ballot: Pick<SavedBallot, 'election'>) {
+      const id = ballot.election.id
+      const seen = sampled()
+      if (seen.includes(id) || countedHere.has(`sample:${id}`)) return
+      countedHere.add(`sample:${id}`)
+      add({ e: 'sample', step: 'seen', region: regionOf(ballot) })
+      try {
+        deps.storage()?.setItem(SAMPLE_KEY, JSON.stringify([...seen, id]))
+      } catch {
+        // Blocked or full: counted once for this page only.
       }
     },
 
@@ -224,12 +381,13 @@ export function createUsage(deps: UsageDeps) {
           nth: keys.length === 0 ? 1 : 2,
         })
       }
-      save(id, { ...record, opened })
+      const reached = learnMilestones(ballot, opened, record.reached)
+      save(id, { ...record, opened, reached })
     },
 
     /**
-     * Picks changed: counts each race's first pick, then the moment half
-     * the ballot (judges left out) is picked. Races picked before
+     * Picks changed: counts each race's first pick, then each share of the
+     * ballot's candidate races picked (FILL_MILESTONES). Races picked before
      * `baseline` (the picks when the page opened) are never counted, so
      * picks made before counting began don't arrive all at once.
      */
@@ -252,23 +410,9 @@ export function createUsage(deps: UsageDeps) {
           informed: Boolean(record.opened[contest.id]?.length),
         })
       }
-      const half = ballot.contests.filter(countsForHalf)
-      const picked = half.filter((c) => now[c.id]?.length)
-      const reached = half.length > 0 && picked.length * 2 >= half.length
-      if (reached && !record.half) {
-        const informed = picked.filter((c) => record.opened[c.id]?.length)
-        add({
-          e: 'half',
-          region: regionOf(ballot),
-          informed: informed.length * 2 > picked.length,
-        })
-      }
-      if (changed || (reached && !record.half))
-        save(id, {
-          ...record,
-          picked: [...counted],
-          half: record.half || reached,
-        })
+      const reached = fillMilestones(ballot, now, record.reached)
+      if (changed || reached.length !== record.reached.length)
+        save(id, { ...record, picked: [...counted], reached })
     },
 
     out(page: UsagePage) {

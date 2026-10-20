@@ -44,9 +44,52 @@ describe('usage events', () => {
         races: { federal: 2, local: 9, judges: 1e9 },
       }),
     ).toEqual({
-      blobs: ['voter', 'new', 'il-cook', ''],
+      blobs: ['voter', 'new', 'il-cook', 'timed'],
       doubles: [42, 2, 0, 0, 1000, 9, 0, 0],
     })
+  })
+
+  it('leaves out a time to the ballot that is missing or too long', () => {
+    const at = (secs?: number) =>
+      usagePoint({ e: 'voter', kind: 'new', region: 'ca-la', secs })
+    expect(at()?.blobs[3]).toBe('restored')
+    expect(at(1800)?.blobs[3]).toBe('timed')
+    expect(at(12_402)).toEqual({
+      blobs: ['voter', 'new', 'ca-la', 'long'],
+      doubles: [0, 0, 0, 0, 0, 0, 0, 0],
+    })
+    expect(
+      usagePoint({ e: 'voter', kind: 'return', region: 'ca-la' })?.blobs[3],
+    ).toBe('')
+  })
+
+  it('counts fill and learning milestones, and refuses other values', () => {
+    expect(usagePoint({ e: 'fill', region: 'ca-la', pct: 75 })).toEqual({
+      blobs: ['fill', '75', 'ca-la', ''],
+      doubles: [],
+    })
+    expect(usagePoint({ e: 'fill', region: 'ca-la', pct: 60 })).toBe(null)
+    expect(
+      usagePoint({ e: 'learn', region: 'il-cook', kind: 'races', n: 3 }),
+    ).toEqual({ blobs: ['learn', 'races', 'il-cook', '3'], doubles: [] })
+    expect(
+      usagePoint({ e: 'learn', region: 'il-cook', kind: 'compared', n: 5 }),
+    ).toBe(null)
+    expect(
+      usagePoint({ e: 'learn', region: 'il-cook', kind: 'clicks', n: 1 }),
+    ).toBe(null)
+  })
+
+  it('counts sample ballots seen, and devices that then looked up their own', () => {
+    expect(
+      usagePoint({ e: 'sample', step: 'seen', region: 'il-cook' }),
+    ).toEqual({ blobs: ['sample', 'seen', 'il-cook', ''], doubles: [] })
+    expect(
+      usagePoint({ e: 'sample', step: 'own', region: 'x' })?.blobs,
+    ).toEqual(['sample', 'own', 'none', ''])
+    expect(usagePoint({ e: 'sample', step: 'maybe', region: 'il-cook' })).toBe(
+      null,
+    )
   })
 
   it('replaces an unknown area with none', () => {
@@ -74,6 +117,7 @@ describe('usage events', () => {
     })
     expect(usagePage('/races')).toEqual({ page: 'races' })
     expect(usagePage('/about/').page).toBe('about')
+    expect(usagePage('/support').page).toBe('support')
     expect(usagePage('/nope').page).toBe('other')
   })
 })
