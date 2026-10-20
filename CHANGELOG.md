@@ -5,6 +5,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+## [1.4.0] - 2026-10-19
+
 ### Added
 
 - **Anonymous usage counts**, to learn what helps voters: pages opened, ballot lookups and their outcomes, devices that looked up a ballot each election, profiles opened per race, first picks and links out, as totals by page, level of government and county. Nothing counted includes an address, an IP address, the names picked or anything that tells one visitor from another. The About page's privacy section says what's counted. Search engines' crawlers and other automated visitors aren't counted.
@@ -105,7 +107,8 @@ The first public release, for the November 3, 2026 general election in Chicago a
 
 VoteStack was developed privately before its first public release. 0.1.0 (2026-10-04) set up the web app, hosting on Cloudflare Workers, CI and secret scanning. 0.2.0 (2026-10-04) added the Cook County ballot lookup, the address form and the site's look.
 
-[Unreleased]: https://github.com/nikolai-laba/votestack/compare/v1.3.0...HEAD
+[Unreleased]: https://github.com/nikolai-laba/votestack/compare/v1.4.0...HEAD
+[1.4.0]: https://github.com/nikolai-laba/votestack/compare/v1.3.0...v1.4.0
 [1.3.0]: https://github.com/nikolai-laba/votestack/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/nikolai-laba/votestack/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/nikolai-laba/votestack/compare/v1.0.0...v1.1.0
