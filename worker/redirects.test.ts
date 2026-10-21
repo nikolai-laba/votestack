@@ -32,12 +32,17 @@ describe('the Worker', () => {
   const env = {
     ASSETS: { fetch: vi.fn(async () => new Response('asset')) },
   } as unknown as Env
+  const ctx = {
+    waitUntil: () => {},
+    passThroughOnException: () => {},
+  } as unknown as ExecutionContext
   const call = (path: string, method = 'GET') =>
     worker.fetch(
       new Request(`https://votestack.org${path}`, { method }) as Parameters<
         typeof worker.fetch
       >[0],
       env,
+      ctx,
     )
 
   it('redirects permanently to the page’s own address, keeping the query', async () => {

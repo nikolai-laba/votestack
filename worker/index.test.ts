@@ -11,9 +11,25 @@ function makeEnv() {
   return { env, assetsFetch }
 }
 
+/** A mock ExecutionContext whose waitUntil-ed promises can be awaited. */
+function makeCtx() {
+  const pending: Promise<unknown>[] = []
+  const ctx = {
+    waitUntil: (p: Promise<unknown>) => {
+      pending.push(p.catch(() => undefined))
+    },
+    passThroughOnException: () => {},
+  } as unknown as ExecutionContext
+  return { ctx, flush: () => Promise.all(pending) }
+}
+
 function call(path: string, env: Env, init?: RequestInit) {
   const request = new Request(`https://votestack.org${path}`, init)
-  return worker.fetch(request as Parameters<typeof worker.fetch>[0], env)
+  return worker.fetch(
+    request as Parameters<typeof worker.fetch>[0],
+    env,
+    makeCtx().ctx,
+  )
 }
 
 const post = (body: unknown): RequestInit => ({
@@ -166,6 +182,157 @@ describe('worker', () => {
       const body = (await response.json()) as Ballot
       expect(body.precinct?.name).toBe('Oak Park 22')
       expect(body).not.toHaveProperty('publishedProfiles')
+    })
+  })
+
+  describe('expansion signals on not_found', () => {
+    const rpcCalls = (fetch: ReturnType<typeof vi.fn>) =>
+      fetch.mock.calls
+        .map(([url, init]) => {
+          const fn = String(url).split('/rpc/')[1]
+          const args = JSON.parse(String((init as RequestInit)?.body ?? '{}'))
+          return { fn, args }
+        })
+        .filter((c) => c.fn === 'record_expansion_lookup')
+
+    const notFound = {
+      street_points: [],
+      record_expansion_lookup: true,
+    }
+
+    it("records a signal with covered=false for a ZIP outside VoteStack's regions", async () => {
+      const fetch = stubSupabase(notFound)
+      const { ctx, flush } = makeCtx()
+      const request = new Request('https://votestack.org/api/ballot', {
+        method: 'POST',
+        headers: { 'User-Agent': BROWSER },
+        body: JSON.stringify({ address: '100 N 1st Ave, Tucson, AZ 85701' }),
+      })
+      const response = await worker.fetch(
+        request as Parameters<typeof worker.fetch>[0],
+        configured(),
+        ctx,
+      )
+      expect(response.status).toBe(404)
+      await flush()
+      expect(rpcCalls(fetch)).toEqual([
+        {
+          fn: 'record_expansion_lookup',
+          args: { p_zip: '85701', p_covered: false },
+        },
+      ])
+    })
+
+    it('records covered=true for a ZIP inside a VoteStack region (coverage gap)', async () => {
+      const fetch = stubSupabase(notFound)
+      const { ctx, flush } = makeCtx()
+      const request = new Request('https://votestack.org/api/ballot', {
+        method: 'POST',
+        headers: { 'User-Agent': BROWSER },
+        body: JSON.stringify({ address: '1 Nowhere Ln, Chicago, IL 60601' }),
+      })
+      await worker.fetch(
+        request as Parameters<typeof worker.fetch>[0],
+        configured(),
+        ctx,
+      )
+      await flush()
+      expect(rpcCalls(fetch)).toEqual([
+        {
+          fn: 'record_expansion_lookup',
+          args: { p_zip: '60601', p_covered: true },
+        },
+      ])
+    })
+
+    it('skips the signal for crawlers, so the data stays clean', async () => {
+      const fetch = stubSupabase(notFound)
+      const { ctx, flush } = makeCtx()
+      const googlebot =
+        'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Chrome/141.0.7390.122 Safari/537.36'
+      const request = new Request('https://votestack.org/api/ballot', {
+        method: 'POST',
+        headers: { 'User-Agent': googlebot },
+        body: JSON.stringify({ address: '100 N 1st Ave, Tucson, AZ 85701' }),
+      })
+      const response = await worker.fetch(
+        request as Parameters<typeof worker.fetch>[0],
+        configured(),
+        ctx,
+      )
+      expect(response.status).toBe(404)
+      await flush()
+      expect(rpcCalls(fetch)).toEqual([])
+    })
+
+    it('skips the signal when the address has no ZIP code', async () => {
+      const fetch = stubSupabase(notFound)
+      const { ctx, flush } = makeCtx()
+      const request = new Request('https://votestack.org/api/ballot', {
+        method: 'POST',
+        headers: { 'User-Agent': BROWSER },
+        body: JSON.stringify({ address: '834 Lake St, Oak Park' }),
+      })
+      await worker.fetch(
+        request as Parameters<typeof worker.fetch>[0],
+        configured(),
+        ctx,
+      )
+      await flush()
+      expect(rpcCalls(fetch)).toEqual([])
+    })
+
+    it('does not record on success, invalid or rate-limited lookups', async () => {
+      // Success: not_found path isn't hit.
+      const fetchOk = stubSupabase({ ...lookup, published_profile_keys: [] })
+      const okCtx = makeCtx()
+      await worker.fetch(
+        new Request('https://votestack.org/api/ballot', {
+          method: 'POST',
+          headers: { 'User-Agent': BROWSER },
+          body: JSON.stringify({ address: '834 Lake St, Oak Park, IL 60301' }),
+        }) as Parameters<typeof worker.fetch>[0],
+        configured(),
+        okCtx.ctx,
+      )
+      await okCtx.flush()
+      expect(rpcCalls(fetchOk)).toEqual([])
+      vi.unstubAllGlobals()
+
+      // Invalid (too short): never reaches the lookup.
+      const fetchBad = stubSupabase({ record_expansion_lookup: true })
+      const badCtx = makeCtx()
+      await worker.fetch(
+        new Request('https://votestack.org/api/ballot', {
+          method: 'POST',
+          headers: { 'User-Agent': BROWSER },
+          body: JSON.stringify({ address: 'x' }),
+        }) as Parameters<typeof worker.fetch>[0],
+        configured(),
+        badCtx.ctx,
+      )
+      await badCtx.flush()
+      expect(rpcCalls(fetchBad)).toEqual([])
+    })
+
+    it('never puts the address in the recorded signal', async () => {
+      const fetch = stubSupabase(notFound)
+      const { ctx, flush } = makeCtx()
+      await worker.fetch(
+        new Request('https://votestack.org/api/ballot', {
+          method: 'POST',
+          headers: { 'User-Agent': BROWSER },
+          body: JSON.stringify({
+            address: '47 Elm Rd, Phoenix, AZ 85001',
+          }),
+        }) as Parameters<typeof worker.fetch>[0],
+        configured(),
+        ctx,
+      )
+      await flush()
+      const call = rpcCalls(fetch).at(0)
+      expect(call).toBeDefined()
+      expect(JSON.stringify(call)).not.toMatch(/elm|phoenix|az/i)
     })
   })
 

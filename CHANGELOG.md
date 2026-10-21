@@ -5,6 +5,10 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+### Added
+
+- When a ballot lookup can't find a voter's address, the 5-digit ZIP code is kept (and whether it falls inside a county VoteStack already covers), so we can see where to go next. Only the ZIP code is kept: no street address, email address or IP address.
+
 ### Changed
 
 - Usage counts now count the Support page on its own and how many devices see a sample ballot (and how many then look up their own). Time to the ballot leaves out sites left open for more than 30 minutes before a lookup. Counting can be turned off in one browser with `?count=off`.
