@@ -227,8 +227,13 @@ describe('POST /api/notify through the Worker', () => {
       ...extra,
     }) as unknown as Env
 
+  const ctx = {
+    waitUntil: () => {},
+    passThroughOnException: () => {},
+  } as unknown as ExecutionContext
+
   const send = (e: Env) =>
-    worker.fetch(post(valid) as Parameters<typeof worker.fetch>[0], e)
+    worker.fetch(post(valid) as Parameters<typeof worker.fetch>[0], e, ctx)
 
   it('uses the NOTIFY_LIMITER binding when it exists', async () => {
     const { fetch } = fakeServices()

@@ -12,6 +12,7 @@ import {
   eventResponse,
   type EventsEnv,
 } from './events.ts'
+import { recordExpansionLookup } from './expansion.ts'
 import { json, memoryLimiter, rateLimitKey } from './guard.ts'
 import { notifyResponse, type NotifyEnv } from './notify.ts'
 import { profileResponse, publishedProfileKeys } from './profile.ts'
@@ -66,7 +67,11 @@ function supabaseConfig(env: Env): SupabaseConfig | null {
  * its outcome and area only (worker/events.ts); `"sample": true` marks the
  * app's sample ballots, counted apart from voters' own lookups.
  */
-async function ballot(request: Request, env: Env): Promise<Response> {
+async function ballot(
+  request: Request,
+  env: Env,
+  ctx: ExecutionContext,
+): Promise<Response> {
   const started = Date.now()
   let sample = false
   const count = (outcome: LookupOutcome, region?: string) =>
@@ -115,6 +120,9 @@ async function ballot(request: Request, env: Env): Promise<Response> {
     const result = await provider.getBallot({ address })
     if (!result) {
       count('not_found')
+      // Expansion signal: the ZIP of a lookup we couldn't match. Fire-and-
+      // forget so the voter sees the 404 right away; errors are swallowed.
+      ctx.waitUntil(recordExpansionLookup(config, request, address))
       return Response.json(
         { error: `We could not find that address in ${coveredAreas()}` },
         { status: 404, headers: PRIVATE },
@@ -145,14 +153,14 @@ async function ballot(request: Request, env: Env): Promise<Response> {
 }
 
 export default {
-  async fetch(request, env) {
+  async fetch(request, env, ctx) {
     const { pathname } = new URL(request.url)
 
     if (pathname === '/api/health') {
       return Response.json({ status: 'ok' })
     }
     if (pathname === '/api/ballot') {
-      return ballot(request, env)
+      return ballot(request, env, ctx)
     }
     if (pathname === '/api/report') {
       fallbackLimiter ??= memoryLimiter()
