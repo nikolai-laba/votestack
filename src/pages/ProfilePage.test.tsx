@@ -457,14 +457,10 @@ describe('candidate profiles', () => {
     expect(
       screen.getByRole('link', { name: 'Explore your full ballot' }),
     ).toHaveAttribute('href', '/getstarted')
-    expect(
-      screen.queryByRole('link', { name: 'Find your ballot' }),
-    ).toBeNull()
+    expect(screen.queryByRole('link', { name: 'Find your ballot' })).toBeNull()
     // No ballot in memory: no election block from the home page and no
     // "Back to your full ballot" link.
-    expect(
-      screen.queryByRole('region', { name: 'On your ballot' }),
-    ).toBeNull()
+    expect(screen.queryByRole('region', { name: 'On your ballot' })).toBeNull()
     expect(
       screen.queryByRole('link', { name: 'Back to your full ballot' }),
     ).toBeNull()

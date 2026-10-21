@@ -99,35 +99,35 @@ export default function ProfilePage() {
 
         {query.isError &&
           (notFound ? (
-          <section className="space-y-3">
-            <h1
-              id={HEADING_ID}
-              tabIndex={-1}
-              className="text-title focus:outline-none lg:text-title-lg"
-            >
-              No profile yet
-            </h1>
-            <p>There is no published profile for this candidate yet.</p>
-          </section>
-        ) : (
-          <section className="space-y-3">
-            <h1
-              id={HEADING_ID}
-              tabIndex={-1}
-              className="text-title focus:outline-none lg:text-title-lg"
-            >
-              Couldn&rsquo;t load this profile
-            </h1>
-            <p>Check your connection and try again.</p>
-            <button
-              type="button"
-              onClick={() => query.refetch()}
-              className="min-h-11 rounded-md border-2 border-field px-4 font-semibold text-text"
-            >
-              Try again
-            </button>
-          </section>
-        ))}
+            <section className="space-y-3">
+              <h1
+                id={HEADING_ID}
+                tabIndex={-1}
+                className="text-title focus:outline-none lg:text-title-lg"
+              >
+                No profile yet
+              </h1>
+              <p>There is no published profile for this candidate yet.</p>
+            </section>
+          ) : (
+            <section className="space-y-3">
+              <h1
+                id={HEADING_ID}
+                tabIndex={-1}
+                className="text-title focus:outline-none lg:text-title-lg"
+              >
+                Couldn&rsquo;t load this profile
+              </h1>
+              <p>Check your connection and try again.</p>
+              <button
+                type="button"
+                onClick={() => query.refetch()}
+                className="min-h-11 rounded-md border-2 border-field px-4 font-semibold text-text"
+              >
+                Try again
+              </button>
+            </section>
+          ))}
 
         {profile && (
           <ProfileArticle

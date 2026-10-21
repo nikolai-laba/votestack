@@ -67,7 +67,9 @@ function HeaderLogo({ swapToBack }: { swapToBack: boolean }) {
         aria-hidden={!swapToBack || undefined}
         tabIndex={swapToBack ? undefined : -1}
         className={`${common} font-semibold lg:hidden ${
-          swapToBack ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'
+          swapToBack
+            ? 'translate-x-0 opacity-100'
+            : 'translate-x-full opacity-0'
         }`}
       >
         <span aria-hidden="true" className="pe-2">
