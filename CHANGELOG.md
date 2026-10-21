@@ -5,14 +5,20 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+## [1.4.1] - 2026-10-21
+
 ### Added
 
 - When a ballot lookup can't find a voter's address, the 5-digit ZIP code is kept (and whether it falls inside a county VoteStack already covers), so we can see where to go next. Only the ZIP code is kept: no street address, email address or IP address.
 
 ### Changed
 
-- Usage counts now count the Support page on its own and how many devices see a sample ballot (and how many then look up their own). Time to the ballot leaves out sites left open for more than 30 minutes before a lookup. Counting can be turned off in one browser with `?count=off`.
+- Usage counts now count the Support page on its own and how many devices see a sample ballot (and how many then look up their own). Time to the ballot leaves out sites left open for more than 30 minutes before a lookup.
 - The half-ballot usage count is replaced by two: devices that picked 75% of their ballot's candidate races (judges, retention and measures left out), and devices that researched their ballot (profiles opened in 3 races below federal, or two candidates compared in a race). A ballot already filled in or researched is counted the next time it's shown.
+
+### Security
+
+- Updated Vite from 8.3.2 to 8.3.5 to patch three vulnerabilities in its `launch-editor` dev-server dependency (CVE-2026-112942, CVE-2026-112943, CVE-2026-112944). Vite only runs on developer machines, so visitors to the site aren't affected.
 
 ## [1.4.0] - 2026-10-19
 
