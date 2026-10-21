@@ -64,12 +64,16 @@ describe('site menu', () => {
     ])
   })
 
-  it('links Support, GitHub and Contact in the footer', () => {
+  it('links Support, Press, GitHub and Contact in the footer', () => {
     renderAt('/')
     const footer = screen.getByRole('contentinfo')
     expect(
       within(footer).getByRole('link', { name: 'Support VoteStack' }),
     ).toHaveAttribute('href', '/support')
+    expect(within(footer).getByRole('link', { name: 'Press' })).toHaveAttribute(
+      'href',
+      '/press',
+    )
     expect(footer).toHaveTextContent('© 2026 VoteStack, LLC.')
     expect(footer).toHaveTextContent(
       `Version ${readFileSync('VERSION', 'utf8').trim()}.`,

@@ -19,6 +19,7 @@ import {
   ABOUT_PATH,
   GET_STARTED_PATH,
   NOTIFY_PATH,
+  PRESS_PATH,
   SAVED_CHOICES_PATH,
   SUPPORT_PATH,
   profilePath,
@@ -31,6 +32,7 @@ import {
   HOW_PROFILES_HEAD,
   NOT_FOUND_HEAD,
   NOTIFY_HEAD,
+  PRESS_HEAD,
   SAVED_CHOICES_HEAD,
   SITE_URL,
   SUPPORT_HEAD,
@@ -98,6 +100,12 @@ export const STATIC_PAGES: PrerenderPage[] = [
     file: 'support.html',
     head: SUPPORT_HEAD,
     render: SUPPORT_PATH,
+  },
+  {
+    path: PRESS_PATH,
+    file: 'press.html',
+    head: PRESS_HEAD,
+    render: PRESS_PATH,
   },
   {
     path: NOTIFY_PATH,

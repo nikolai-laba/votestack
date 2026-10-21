@@ -16,6 +16,7 @@ import { LazyProfilePage } from './pages/LazyProfilePage.tsx'
 import { LazyRacesPage } from './pages/LazyRacesPage.tsx'
 import { LazyReportPage } from './pages/LazyReportPage.tsx'
 import { NotFoundPage } from './pages/NotFoundPage.tsx'
+import { PressPage } from './pages/PressPage.tsx'
 import { SavedChoicesPage } from './pages/SavedChoicesPage.tsx'
 import { SupportPage } from './pages/SupportPage.tsx'
 
@@ -88,6 +89,10 @@ export const routes: RouteObject[] = [
               {
                 path: 'support',
                 element: <SupportPage />,
+              },
+              {
+                path: 'press',
+                element: <PressPage />,
               },
             ],
           },

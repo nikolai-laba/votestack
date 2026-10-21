@@ -96,6 +96,13 @@ export const SUPPORT_HEAD: PageHead = {
   path: '/support',
 }
 
+export const PRESS_HEAD: PageHead = {
+  title: 'Press & media | VoteStack',
+  description:
+    'Press kit for VoteStack: fact sheet, reporter FAQ, ready-to-use blurbs, logos and contact for interviews.',
+  path: '/press',
+}
+
 export const NOTIFY_HEAD: PageHead = {
   title: 'Get an email when VoteStack covers your area | VoteStack',
   description: `VoteStack covers ${coveredNames()} for now. Leave your email and ZIP code to hear when it reaches your area.`,

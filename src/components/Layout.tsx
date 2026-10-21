@@ -2,6 +2,7 @@ import { useRef, useState, type KeyboardEvent } from 'react'
 import { Link, NavLink, Outlet, useMatches } from 'react-router'
 import {
   ABOUT_PATH,
+  PRESS_PATH,
   SAVED_CHOICES_PATH,
   SUPPORT_PATH,
   type RouteHandle,
@@ -129,6 +130,14 @@ export function Layout() {
                 className="inline-flex min-h-11 items-center"
               >
                 Support VoteStack
+              </Link>
+            </li>
+            <li>
+              <Link
+                to={PRESS_PATH}
+                className="inline-flex min-h-11 items-center"
+              >
+                Press
               </Link>
             </li>
             <li>

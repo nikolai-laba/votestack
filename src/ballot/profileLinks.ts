@@ -15,6 +15,7 @@ export const ABOUT_PATH = '/about'
 export const NOTIFY_PATH = '/notify'
 /** How to pay toward VoteStack (SupportPage), linked from the footer and About. */
 export const SUPPORT_PATH = '/support'
+export const PRESS_PATH = '/press'
 /** The About page's ballot order explainer, linked from the site footer. */
 export const BALLOT_ORDER_ID = 'ballot-order'
 
