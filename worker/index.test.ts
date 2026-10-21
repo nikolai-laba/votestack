@@ -216,7 +216,10 @@ describe('worker', () => {
       expect(response.status).toBe(404)
       await flush()
       expect(rpcCalls(fetch)).toEqual([
-        { fn: 'record_expansion_lookup', args: { p_zip: '85701', p_covered: false } },
+        {
+          fn: 'record_expansion_lookup',
+          args: { p_zip: '85701', p_covered: false },
+        },
       ])
     })
 
@@ -235,7 +238,10 @@ describe('worker', () => {
       )
       await flush()
       expect(rpcCalls(fetch)).toEqual([
-        { fn: 'record_expansion_lookup', args: { p_zip: '60601', p_covered: true } },
+        {
+          fn: 'record_expansion_lookup',
+          args: { p_zip: '60601', p_covered: true },
+        },
       ])
     })
 
