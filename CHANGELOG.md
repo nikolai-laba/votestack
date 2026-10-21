@@ -5,6 +5,12 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+## [1.4.2] - 2026-10-21
+
+### Security
+
+- Updated Vitest from 4.1.11 to 4.1.12 to patch two vulnerabilities in its `@vitest/mocker` dev-server dependency (CVE-2026-112949, CVE-2026-112950). Vitest only runs test suites on developer machines, so visitors to the site aren't affected.
+
 ## [1.4.1] - 2026-10-21
 
 ### Added
