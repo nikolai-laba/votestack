@@ -202,7 +202,7 @@ export function HomePage() {
   // profile link) it's empty and hidden on every screen. Beside a report
   // form, the race panel stands in for it.
   const paneLg =
-    'lg:sticky lg:top-4 lg:max-h-[calc(100dvh-2rem)] lg:overflow-x-hidden lg:overflow-y-auto lg:px-2 lg:pb-2'
+    'lg:sticky lg:top-16 lg:max-h-[calc(100dvh-5rem)] lg:overflow-x-hidden lg:overflow-y-auto lg:px-2 lg:pb-2'
   const paneClass = `max-lg:hidden ${paneLg}`
   const listClass = listBeside ? paneClass : ''
   // Beside a profile the profile holds the page's h1.

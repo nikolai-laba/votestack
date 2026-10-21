@@ -201,17 +201,18 @@ describe('candidate profiles', () => {
       name: 'Jane Doe',
     })
     expect(name).toHaveFocus()
-    expect(
-      screen.getByText(
-        /^AI wrote this from the sources listed below\. A second AI checked each sentence against its source, and software checked the links and dates\. A person didn’t review it, so every sentence links to its source for you to check\. Updated Tuesday, October 6, 2026\.$/,
-      ),
-    ).toBeInTheDocument()
+    // The disclosure sits in one paragraph: body prose, then two inline
+    // links and an italicized update date separated by middle dots. Keeps
+    // the box short on mobile.
     expect(
       screen.getByRole('link', { name: 'How we make profiles' }),
     ).toHaveAttribute('href', '/how-profiles-are-made')
     expect(
       screen.getByRole('link', { name: 'Report an error' }),
     ).toHaveAttribute('href', '/candidates/jane-doe/report')
+    expect(screen.getByText('Updated Tuesday, October 6, 2026.')).toHaveClass(
+      'italic',
+    )
 
     // Sections in a fixed order, then the sources.
     const article = screen.getByRole('article', { name: 'Jane Doe' })
@@ -451,13 +452,19 @@ describe('candidate profiles', () => {
     expect(
       await screen.findByRole('heading', { level: 1, name: 'Jane Doe' }),
     ).toBeInTheDocument()
+    // Search arrivals get the top strip and the mid-article pivot in place
+    // of the "Find your ballot" link that only ballot visitors see.
     expect(
-      screen.getByRole('link', { name: 'Find your ballot' }),
+      screen.getByRole('link', { name: 'Explore your full ballot' }),
     ).toHaveAttribute('href', '/getstarted')
-    expect(screen.queryByRole('textbox')).toBeNull()
-    // No ballot in memory: no election block and no race card, on any screen.
-    expect(screen.queryByRole('region', { name: 'On your ballot' })).toBeNull()
-    expect(screen.queryByText('Election day')).toBeNull()
+    expect(
+      screen.queryByRole('link', { name: 'Find your ballot' }),
+    ).toBeNull()
+    // No ballot in memory: no election block from the home page and no
+    // "Back to your full ballot" link.
+    expect(
+      screen.queryByRole('region', { name: 'On your ballot' }),
+    ).toBeNull()
     expect(
       screen.queryByRole('link', { name: 'Back to your full ballot' }),
     ).toBeNull()
