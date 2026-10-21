@@ -119,6 +119,11 @@ export function PressPage() {
             {CANDIDATES_COVERED.toLocaleString('en-US')} across the counties
             VoteStack covers, including judges and small local offices.
           </FactRow>
+          <FactRow label="Coverage launched">
+            Chicago and suburban Cook County, Illinois (338 candidates) on
+            October 11, 2026; Los Angeles County, California (838 candidates) on
+            October 17, 2026.
+          </FactRow>
           <FactRow label="Each profile">
             Overview, campaign money (official filings), endorsements (bar
             association ratings for judges), and numbered sources with the date
@@ -246,6 +251,24 @@ export function PressPage() {
             isn&rsquo;t saved, logged or added to the page link. The names you
             pick under Saved choices stay on your device. Sign-ups for new areas
             store only an email address and ZIP code.
+          </p>
+        </Question>
+        <Question question="How does Los Angeles County coverage differ from Cook County?">
+          <p>
+            Methodology is identical. Los Angeles County has 838 candidates
+            profiled across every race on the ballot; Cook County has 338. Cook
+            includes a judicial-retention block (voters say yes or no to keep
+            sitting judges); Los Angeles doesn&rsquo;t have that structure.
+            Everything else (ballot data sourced from the election authorities,
+            per-sentence citations, bar association ratings for judges, campaign
+            money from official filings) works the same way in both counties.
+          </p>
+        </Question>
+        <Question question="Is a Spanish version available?">
+          <p>
+            Not yet. VoteStack is English-only through the November 3, 2026
+            election. Spanish support is in development and will be a priority
+            for upcoming elections.
           </p>
         </Question>
         <Question question="What&rsquo;s next?">
