@@ -15,6 +15,11 @@ export function startUsage(counter: Usage = usage) {
   const choice = new URLSearchParams(location.search).get('count')
   if (choice === 'off' || choice === 'on') counter.setCounting(choice === 'on')
 
+  // Report pages are kept out of search results, so a visit that starts on
+  // one is almost always a scraper (one swept every report page from
+  // residential proxies with a plain Chrome user agent): none of it is counted.
+  if (usagePage(location.pathname).page === 'report') counter.skipPage()
+
   // Picks already made when the page opened are never counted again.
   const baseline = ballotStore.getSnapshot().picks
   ballotStore.subscribe(() => {
