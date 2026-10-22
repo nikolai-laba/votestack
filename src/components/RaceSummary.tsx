@@ -9,7 +9,8 @@ import type { FocusAddressState } from '../ballot/session.ts'
 import { longDate } from '../format.ts'
 import { publishedFor, raceContest, racesFor, useRaces } from '../races/data.ts'
 import type { Ballot } from '../shared/ballot.ts'
-import type { CandidateProfile } from '../shared/profile.ts'
+import { profileKey, type CandidateProfile } from '../shared/profile.ts'
+import { COOK, regionForElection } from '../shared/regions.ts'
 import {
   ballotsText,
   raceName,
@@ -20,6 +21,7 @@ import {
 } from '../shared/races.ts'
 import { AddressForm } from './AddressForm.tsx'
 import { RaceCard } from './BallotView.tsx'
+import type { Opponent } from './profile/ProfileHeader.tsx'
 
 // The parts of a race page that a profile opened without a ballot shares:
 // the facts about the race, its card, and the way to the voter's own ballot.
@@ -67,27 +69,37 @@ export function RaceCardFor({
  * The way from a race to the voter's own ballot. With a ballot already
  * looked up, says whether this race is on it; otherwise the address form,
  * which opens the ballot at this race.
+ *
+ * On a profile opened from search, the region's name (e.g. "Cook County")
+ * leads the heading, so the ask is specific to the voter's area and the
+ * fairness rule (every candidate written the same way) is on the page.
  */
 export function YourBallot({
   race,
   ballot,
   headingId,
+  electionId,
 }: {
   race: Race
   ballot?: Ballot
   headingId: string
+  /** Pulls the region name for the heading; falls back to Cook County. */
+  electionId?: string
 }) {
   // Chosen when the page opens: a lookup from the form below opens the
   // ballot itself, so the form stays until then.
   const [lookedUp] = useState(ballot !== undefined)
   const onBallot = ballot?.contests.find((c) => race.contestIds.includes(c.id))
+  const region = (electionId && regionForElection(electionId)) || COOK
   return (
     <section
       aria-labelledby={headingId}
       className="space-y-4 rounded-md border border-line bg-surface p-4"
     >
       <h2 id={headingId} className="text-section">
-        Is this race on your ballot?
+        {lookedUp && ballot
+          ? 'Is this race on your ballot?'
+          : `Your ${region.name} ballot`}
       </h2>
       {lookedUp && ballot ? (
         onBallot ? (
@@ -118,8 +130,9 @@ export function YourBallot({
       ) : (
         <>
           <p className="max-w-[65ch]">
-            Enter your address to see every race on your ballot. If this race is
-            on it, your ballot opens there.
+            Every candidate on the {region.name} ballot has a VoteStack profile.
+            We write them all the same way. Enter your address to see your
+            ballot. If this race is on it, your ballot opens there.
           </p>
           <AddressForm
             race={{ contestIds: race.contestIds, title: raceName(race) }}
@@ -134,6 +147,11 @@ export function YourBallot({
  * Under a profile opened without this person on the voter's ballot (most
  * often from a search): the race(s) they're in, with everyone in it, and
  * the way to the voter's own ballot.
+ *
+ * Rendered once per page. ProfilePage places it in a grid cell: below the
+ * article on mobile (where only the address form shows: the opponents list
+ * duplicates the "Also running" chip under the header) and beside the
+ * article on `lg+`, where the whole thing reads as a sticky sidebar.
  */
 export function ProfileRaces({
   profile,
@@ -148,25 +166,51 @@ export function ProfileRaces({
   if (races.length === 0) return null
   const published = publishedFor(query.data, races[0].list)
   return (
-    <div className="space-y-6 border-t border-line pt-6">
-      {races.map(({ race, list }) => (
-        <section
-          key={race.path}
-          aria-labelledby={`race-${race.path}`}
-          className="space-y-3"
-        >
-          <h2 id={`race-${race.path}`} className="text-section">
-            On the ballot: <Link to={racePath(race)}>{raceName(race)}</Link>
-          </h2>
-          <RaceFacts race={race} list={list} />
-          <RaceCardFor race={race} list={list} published={published} />
-        </section>
-      ))}
+    <div className="space-y-6">
+      {/* Opponents card: desktop sidebar only. The mobile header's chip
+          already lists them, so a second copy at the end of the article is
+          noise. */}
+      <div className="hidden space-y-6 lg:block">
+        {races.map(({ race, list }) => (
+          <section
+            key={race.path}
+            aria-labelledby={`race-${race.path}`}
+            className="space-y-3"
+          >
+            <h2 id={`race-${race.path}`} className="text-section">
+              On the ballot: <Link to={racePath(race)}>{raceName(race)}</Link>
+            </h2>
+            <RaceCardFor race={race} list={list} published={published} />
+          </section>
+        ))}
+      </div>
       <YourBallot
         race={races[0].race}
         ballot={ballot}
         headingId="your-ballot"
+        electionId={profile.electionId}
       />
     </div>
   )
+}
+
+/**
+ * The other candidates in this person's first candidate race, in official
+ * ballot order, with "published" set when VoteStack has a profile for them.
+ * Returns `undefined` while races load (so the chip stays out until names
+ * are confirmed) and `[]` when the person is in no candidate race.
+ */
+export function useOpponents(
+  profile: CandidateProfile,
+): Opponent[] | undefined {
+  const query = useRaces()
+  if (!query.data) return undefined
+  const races = racesFor(query.data, profile.electionId, profile.contestIds)
+  const first = races.find(({ race }) => race.kind === 'candidate')
+  if (!first) return []
+  const published = publishedFor(query.data, first.list)
+  return (first.race.candidates ?? [])
+    .map((c) => ({ name: c.name, key: profileKey(c.name) }))
+    .filter((o) => o.key !== profile.key)
+    .map((o) => ({ ...o, published: published.has(o.key) }))
 }

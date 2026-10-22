@@ -68,6 +68,9 @@ describe('site menu', () => {
     renderAt('/')
     const footer = screen.getByRole('contentinfo')
     expect(
+      within(footer).getByRole('link', { name: 'Email updates' }),
+    ).toHaveAttribute('href', '/notify')
+    expect(
       within(footer).getByRole('link', { name: 'Support VoteStack' }),
     ).toHaveAttribute('href', '/support')
     expect(within(footer).getByRole('link', { name: 'Press' })).toHaveAttribute(
@@ -76,7 +79,7 @@ describe('site menu', () => {
     )
     expect(footer).toHaveTextContent('© 2026 VoteStack, LLC.')
     expect(footer).toHaveTextContent(
-      `Version ${readFileSync('VERSION', 'utf8').trim()}.`,
+      `Version ${JSON.parse(readFileSync('package.json', 'utf8')).version}.`,
     )
     expect(
       within(footer).getByRole('link', { name: 'GitHub' }),

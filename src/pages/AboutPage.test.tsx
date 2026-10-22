@@ -148,4 +148,26 @@ describe('About page', () => {
     expect(lintTone(text)).toEqual([])
     expect(text).not.toMatch(/[—·]/)
   })
+
+  it('links to email updates without a form, and describes them under Your privacy', async () => {
+    renderAt('/about')
+    await title()
+    expect(
+      screen.queryByRole('region', {
+        name: 'Hear from VoteStack before your next election',
+      }),
+    ).toBeNull()
+    expect(
+      screen.getByRole('link', {
+        name: 'get an email when VoteStack covers your area',
+      }),
+    ).toHaveAttribute('href', '/notify')
+    expect(
+      screen.getByText(
+        /We use those to notify you when VoteStack is ready for your next election and to share big VoteStack news\./,
+      ),
+    ).toBeInTheDocument()
+    expect(screen.queryByText(/sign-up banner/)).toBeNull()
+    expect(screen.queryByText(/count where people are asking from/)).toBeNull()
+  })
 })

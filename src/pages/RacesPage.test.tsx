@@ -359,9 +359,41 @@ describe('a profile opened without a ballot', () => {
       within(race).getByRole('link', { name: 'State Senator, 5th District' }),
     ).toHaveAttribute('href', SENATE)
     expect(within(race).getByText('Rick Roe')).toBeInTheDocument()
+    // Headline is specific to the voter's area (fairness rule in VOICE.md 3.3).
     expect(
-      screen.getByRole('heading', { name: 'Is this race on your ballot?' }),
+      screen.getByRole('heading', { name: 'Your Cook County ballot' }),
     ).toBeInTheDocument()
     expect(screen.getByLabelText(/street address/i)).toBeInTheDocument()
+    // Top strip above the article and the mid-article pivot both link to
+    // the address form on /getstarted.
+    expect(
+      screen.getByRole('link', { name: 'Explore your full ballot' }),
+    ).toHaveAttribute('href', '/getstarted')
+    expect(
+      screen.getByRole('link', { name: 'See every race' }),
+    ).toHaveAttribute('href', '/getstarted')
+  })
+
+  it('ends a race page with the email sign-up', async () => {
+    renderAt(SENATE)
+    await screen.findByRole('heading', {
+      level: 1,
+      name: 'State Senator, 5th District',
+    })
+    expect(
+      screen.getByRole('region', {
+        name: 'Hear from VoteStack before your next election',
+      }),
+    ).not.toHaveTextContent(/votes (again|next)/)
+  })
+
+  it('keeps the sign-up off the list of races', async () => {
+    renderAt('/races/il/cook-county/2026-11-03')
+    await screen.findByRole('heading', { level: 1 })
+    expect(
+      screen.queryByRole('region', {
+        name: 'Hear from VoteStack before your next election',
+      }),
+    ).toBeNull()
   })
 })

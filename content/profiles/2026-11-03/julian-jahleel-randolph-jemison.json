@@ -10,14 +10,46 @@
   ],
   "kind": "candidate",
   "tier": "mid",
-  "overview": { "asOf": "2026-10-13", "items": [] },
+  "overview": {
+    "asOf": "2026-10-21",
+    "items": [
+      {
+        "text": "Jemison has said his concern is whether the government uses existing revenue effectively and whether new taxes are necessary, and he is not automatically opposed to all taxes and fees.",
+        "cites": [1],
+        "sentences": [
+          {
+            "text": "Jemison has said his concern is whether the government uses existing revenue effectively and whether new taxes are necessary, and he is not automatically opposed to all taxes and fees.",
+            "cites": [1]
+          }
+        ]
+      }
+    ]
+  },
   "money": { "asOf": "2026-10-17", "items": [] },
-  "endorsements": { "asOf": "2026-10-13", "items": [] },
-  "sources": [],
+  "endorsements": {
+    "asOf": "2026-10-21",
+    "items": [
+      {
+        "organization": "Chicago Tribune Editorial Board",
+        "kind": "editorial_board",
+        "cites": [1]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Editorial: Julian-Jahleel Randolph Jemison for Illinois 78th House District",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/10/14/editorial-julian-jahleel-randolph-jemison-illinois-78th-house-district/",
+      "kind": "news",
+      "viewedAt": "2026-10-21"
+    }
+  ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-13T15:09:22.048Z",
-    "version": 5
+    "generatedAt": "2026-10-22T04:31:36.664Z",
+    "version": 6
   }
 }

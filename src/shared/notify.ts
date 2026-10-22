@@ -1,18 +1,40 @@
-// "Tell me when VoteStack reaches my area" sign-ups. The form
-// (src/pages/NotifyPage) and the Worker (worker/notify.ts) validate with the
-// same rules, and the database (supabase/migrations/*_expansion_signups.sql)
-// checks them again. A sign-up is an email address and a ZIP code, nothing
-// else.
+// Sign-ups for VoteStack's email list: an email address, a ZIP code and where
+// on the site the form was. The forms (src/components/signup) and the Worker
+// (worker/notify.ts) validate with the same rules, and the database
+// (supabase/migrations/*_expansion_signups.sql, *_email_updates.sql) checks
+// them again.
 
 /** The longest address the email standards allow. */
 export const EMAIL_MAX = 254
 
 export type SignupField = 'email' | 'zip'
 
-export interface ExpansionSignup {
+/** Where on the site a sign-up form is. */
+export const SIGNUP_SOURCES = [
+  'profile',
+  'race',
+  'ballot',
+  'saved',
+  'about',
+  /** The sign-up page, reached from the banner. */
+  'banner',
+  /** The sign-up page, reached any other way. */
+  'page',
+] as const
+
+export type SignupSource = (typeof SIGNUP_SOURCES)[number]
+
+export interface Signup {
   email: string
   zip: string
+  source: SignupSource
 }
+
+/** One of SIGNUP_SOURCES, or null for anything else. */
+export const signupSource = (value: unknown): SignupSource | null =>
+  (SIGNUP_SOURCES as readonly unknown[]).includes(value)
+    ? (value as SignupSource)
+    : null
 
 export const SIGNUP_ERRORS = {
   emailEmpty: 'Enter your email address.',

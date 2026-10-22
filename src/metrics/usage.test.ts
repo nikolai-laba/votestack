@@ -273,6 +273,17 @@ describe('usage counts', () => {
     expect(sent).toEqual([[{ e: 'view', page: 'support', from: 'app' }]])
   })
 
+  it('counts nothing for the rest of a page skipped, without turning counting off', () => {
+    const { usage, storage, sent } = setup()
+    usage.view('report', 'landing', 'ann-lee')
+    usage.skipPage()
+    usage.view('profile', 'app', 'ann-lee')
+    usage.active(30, false)
+    usage.flush()
+    expect(sent).toEqual([])
+    expect(storage.getItem(OFF_KEY)).toBeNull()
+  })
+
   it('sends the queue in one batch and empties it', () => {
     const { usage, sent } = setup()
     usage.view('ballot', 'landing')
@@ -286,5 +297,15 @@ describe('usage counts', () => {
       ],
     ])
     expect(usage.pending()).toEqual([])
+  })
+
+  it('counts the sign-up banner shown and closed as they happen', () => {
+    const { usage } = setup()
+    usage.banner('shown')
+    usage.banner('closed')
+    expect(usage.pending()).toEqual([
+      { e: 'banner', act: 'shown' },
+      { e: 'banner', act: 'closed' },
+    ])
   })
 })

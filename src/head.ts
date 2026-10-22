@@ -4,7 +4,7 @@
 // both say the same thing. Every candidate gets the same template.
 
 import { useEffect } from 'react'
-import { coveredFullNames, coveredNames } from './ballot/coverage.ts'
+import { coveredFullNames } from './ballot/coverage.ts'
 import { CURRENT_ELECTION } from './shared/cook.ts'
 import type { CandidateProfile } from './shared/profile.ts'
 import { COOK, regionForElection, type Region } from './shared/regions.ts'
@@ -104,8 +104,9 @@ export const PRESS_HEAD: PageHead = {
 }
 
 export const NOTIFY_HEAD: PageHead = {
-  title: 'Get an email when VoteStack covers your area | VoteStack',
-  description: `VoteStack covers ${coveredNames()} for now. Leave your email and ZIP code to hear when it reaches your area.`,
+  title: 'Email updates | VoteStack',
+  description:
+    'Get an email a few times a year about new elections and areas VoteStack covers. Leave your email address and ZIP code.',
   path: '/notify',
 }
 

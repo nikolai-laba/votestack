@@ -117,6 +117,10 @@ describe('Report an error', () => {
     expect(document.title).toBe(
       'Report an error in Jane Doe’s profile | VoteStack',
     )
+    // Never a GET: a report's text doesn't belong in a page address.
+    expect(
+      screen.getByRole('button', { name: 'Send report' }).closest('form'),
+    ).toHaveAttribute('method', 'post')
   })
 
   it('sends the report and thanks the reader', async () => {

@@ -9,6 +9,7 @@ import {
 import { LEVEL_TITLES } from '../ballot/sections.ts'
 import { measureWordsFor } from '../shared/regions.ts'
 import { ProfileSkeleton } from '../components/profile/ProfileSkeleton.tsx'
+import { SignupBlock } from '../components/signup/SignupBlock.tsx'
 import {
   RaceCardFor,
   RaceFacts,
@@ -266,10 +267,16 @@ function RacePage({
         <RaceFacts race={race} list={list} />
       </header>
       <RaceCardFor race={race} list={list} published={published} />
-      <YourBallot race={race} ballot={ballot} headingId="your-ballot" />
+      <YourBallot
+        race={race}
+        ballot={ballot}
+        headingId="your-ballot"
+        electionId={list.electionId}
+      />
       <p className="text-small text-muted">
         <Link to={ABOUT_PATH}>Where the race lists come from</Link>
       </p>
+      <SignupBlock source="race" />
     </article>
   )
 }

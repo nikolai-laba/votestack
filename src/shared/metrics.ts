@@ -84,6 +84,8 @@ export type UsageEvent =
   | { e: 'out'; page: UsagePage }
   /** Seconds the site was on screen since the last count. */
   | { e: 'active'; secs: number; ballot: boolean }
+  /** The email sign-up banner: shown (once per visit) or closed. */
+  | { e: 'banner'; act: 'shown' | 'closed' }
 
 export const FILL_MILESTONES = [25, 50, 75, 100] as const
 export type FillMilestone = (typeof FILL_MILESTONES)[number]
@@ -225,6 +227,9 @@ export function usagePoint(raw: unknown): UsagePoint | null {
       if (secs === null || typeof v.ballot !== 'boolean') return null
       return point('active', v.ballot ? '1' : '0', '', '', [secs])
     }
+    case 'banner':
+      if (!isOneOf(['shown', 'closed'] as const, v.act)) return null
+      return point('banner', v.act)
     default:
       return null
   }

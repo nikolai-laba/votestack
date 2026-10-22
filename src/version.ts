@@ -1,5 +1,5 @@
-// The app version, written in at build time from the VERSION file
-// (vite.config.ts), so a release only changes VERSION and the footer follows.
+// The app version, written in at build time from package.json's version
+// (vite.config.ts), so the footer follows each release's version bump.
 
 declare const __APP_VERSION__: string
 

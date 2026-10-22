@@ -50,7 +50,10 @@ const post = (body: unknown, ip = '203.0.113.7') =>
 describe('notifyResponse', () => {
   it('verifies the token, stores the sign-up and answers 201', async () => {
     const { fetch, calls } = fakeServices()
-    const res = await notifyResponse(post(valid), deps(fetch))
+    const res = await notifyResponse(
+      post({ ...valid, source: 'profile' }),
+      deps(fetch),
+    )
 
     expect(res.status).toBe(201)
     expect(await res.json()).toEqual({ ok: true })
@@ -60,8 +63,8 @@ describe('notifyResponse', () => {
       body: { secret: 'secret', response: 'token-123' },
     })
     expect(calls[1]).toEqual({
-      url: 'https://db.example/rest/v1/rpc/submit_expansion_signup',
-      body: { p_email: 'pat@example.com', p_zip: '53703' },
+      url: 'https://db.example/rest/v1/rpc/submit_signup',
+      body: { p_email: 'pat@example.com', p_zip: '53703', p_source: 'profile' },
     })
   })
 
@@ -75,7 +78,17 @@ describe('notifyResponse', () => {
     expect(calls[1].body).toEqual({
       p_email: 'pat@example.com',
       p_zip: '53703',
+      p_source: null,
     })
+  })
+
+  it('stores an unknown or missing source as null, never refusing the sign-up', async () => {
+    for (const source of [undefined, 'footer', 7]) {
+      const { fetch, calls } = fakeServices()
+      const res = await notifyResponse(post({ ...valid, source }), deps(fetch))
+      expect(res.status).toBe(201)
+      expect(calls[1].body.p_source).toBeNull()
+    }
   })
 
   it('never sends the IP address anywhere', async () => {

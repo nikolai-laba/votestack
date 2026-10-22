@@ -1,6 +1,6 @@
 // Builds a private usage report: one HTML file, opened locally, with the
 // anonymous usage counts (Supabase usage_hourly, see src/shared/metrics.ts),
-// plus totals of error reports and expansion sign-ups. Filters, charts and
+// plus totals of error reports and email sign-ups. Filters, charts and
 // tables run in the page itself, from the data written into it.
 //
 // The report holds counts only: never an email address, a report's text or
@@ -160,9 +160,15 @@ const reports = await readAll<{
   section: string
   election_id: string
 }>('profile_reports', 'select=created_at,status,section,election_id')
-const signups = await readAll<{ created_at: string; zip: string }>(
+const signups = await readAll<{
+  created_at: string
+  zip: string
+  scope: string
+  source: string | null
+  updates_consented_at: string | null
+}>(
   'expansion_signups',
-  'select=created_at,zip',
+  'select=created_at,zip,scope,source,updates_consented_at',
 )
 
 // Names for candidate and race pages, from the committed race lists.
@@ -219,7 +225,14 @@ const data = {
     r.section,
     r.election_id,
   ]),
-  signups: signups.map((s) => [s.created_at, s.zip]),
+  // Email list sign-ups are dated by when they joined the list. Their ZIP
+  // codes are for the emails only, so only the area-only sign-ups (whose
+  // sign-up said ZIP codes are counted) are counted by ZIP.
+  signups: signups.map((s) =>
+    s.scope === 'updates'
+      ? [s.updates_consented_at ?? s.created_at, null, s.scope, s.source]
+      : [s.created_at, s.zip, s.scope, s.source],
+  ),
   candidates,
   races,
 }

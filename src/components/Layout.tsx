@@ -1,7 +1,8 @@
-import { useRef, useState, type KeyboardEvent } from 'react'
+import { useEffect, useRef, useState, type KeyboardEvent } from 'react'
 import { Link, NavLink, Outlet, useMatches } from 'react-router'
 import {
   ABOUT_PATH,
+  NOTIFY_PATH,
   PRESS_PATH,
   SAVED_CHOICES_PATH,
   SUPPORT_PATH,
@@ -13,6 +14,74 @@ import { useUsageViews } from '../metrics/listen.ts'
 import { useTheme } from '../theme/themePreference.ts'
 import { APP_VERSION } from '../version.ts'
 import { ChevronDownIcon, MoonIcon, SunIcon } from './icons.tsx'
+import { SignupBanner } from './signup/SignupBanner.tsx'
+
+/**
+ * True once the window has been scrolled more than `threshold` pixels from
+ * the top. Rechecks on every scroll; initial value is read from
+ * `window.scrollY` so a refresh partway down the page is handled too.
+ */
+function useScrolledPast(threshold: number): boolean {
+  const [past, setPast] = useState(() =>
+    typeof window === 'undefined' ? false : window.scrollY > threshold,
+  )
+  useEffect(() => {
+    const onScroll = () => setPast(window.scrollY > threshold)
+    onScroll()
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [threshold])
+  return past
+}
+
+/**
+ * The header's left slot. Normally the logo; on mobile, once the voter has
+ * scrolled past the hero of a profile they opened from their ballot, slides
+ * out and a "Back to your ballot" link takes its place in the same slot.
+ * On `lg+` the back swap never happens — the site menu (with "My ballot")
+ * stays visible in the sticky header, so there's no need.
+ */
+function HeaderLogo({ swapToBack }: { swapToBack: boolean }) {
+  // Both children sit in the same grid cell, with `overflow-hidden` so the
+  // slide-out clips at the slot's edges. A cross-fade over the slide keeps
+  // the overlap in the middle of the transition clean. Transitions all
+  // changing properties so Tailwind 4's `translate` property is covered too.
+  const common =
+    'col-start-1 row-start-1 inline-flex min-h-11 items-center no-underline motion-safe:transition-all motion-safe:duration-300 motion-safe:ease-out'
+  return (
+    <div className="relative grid overflow-hidden">
+      <Link
+        to="/"
+        aria-label="VoteStack home"
+        aria-hidden={swapToBack || undefined}
+        tabIndex={swapToBack ? -1 : undefined}
+        className={`${common} ${
+          swapToBack
+            ? 'opacity-0 max-lg:-translate-x-full lg:translate-x-0 lg:opacity-100'
+            : 'translate-x-0 opacity-100'
+        }`}
+      >
+        <Wordmark />
+      </Link>
+      <Link
+        to="/"
+        aria-label="Back to your ballot"
+        aria-hidden={!swapToBack || undefined}
+        tabIndex={swapToBack ? undefined : -1}
+        className={`${common} font-semibold lg:hidden ${
+          swapToBack
+            ? 'translate-x-0 opacity-100'
+            : 'translate-x-full opacity-0'
+        }`}
+      >
+        <span aria-hidden="true" className="pe-2">
+          ←
+        </span>
+        Back to your ballot
+      </Link>
+    </div>
+  )
+}
 
 /**
  * The VoteStack logo (mark and wordmark), in the version for the site's
@@ -39,29 +108,35 @@ function Wordmark() {
 export function Layout() {
   // List-detail pages (a profile beside the ballot) get up to 1200px on wide
   // screens; everything else stays at reading width.
-  const detail = useMatches().some((m) => (m.handle as RouteHandle)?.detail)
+  const matches = useMatches()
+  const detail = matches.some((m) => (m.handle as RouteHandle)?.detail)
+  const onProfile = matches.some(
+    (m) => (m.handle as RouteHandle)?.profile === true,
+  )
   const width = detail ? 'max-w-3xl lg:max-w-[75rem]' : 'max-w-3xl'
+  const hasBallot = useBallotStore().ballot !== null
+  // On mobile, once the voter is reading a profile they opened from their
+  // ballot, scrolling past the hero turns the logo into a "Back to your
+  // ballot" link in the sticky header. Desktop keeps the full nav bar visible
+  // instead (SiteMenu's "My ballot" is always there), so no swap is needed.
+  const scrolledPast = useScrolledPast(24)
+  const showBackInHeader = scrolledPast && onProfile && hasBallot
   useUsageViews()
   return (
     <div className="flex min-h-dvh flex-col bg-bg text-text">
       {/* First stop for keyboard users: past the header to the page itself. */}
       <a
         href="#main"
-        className="sr-only rounded-md bg-surface px-4 text-label font-semibold focus:not-sr-only focus:absolute focus:start-4 focus:top-2 focus:z-10 focus:inline-flex focus:min-h-11 focus:items-center"
+        className="sr-only rounded-md bg-surface px-4 text-label font-semibold focus:not-sr-only focus:absolute focus:start-4 focus:top-2 focus:z-20 focus:inline-flex focus:min-h-11 focus:items-center"
       >
         Skip to main content
       </a>
-      <header className="border-b border-line bg-surface">
+      <SignupBanner width={width} />
+      <header className="sticky top-0 z-10 border-b border-line bg-surface">
         <div
           className={`mx-auto flex ${width} flex-wrap items-center justify-between gap-x-6 px-4 py-3`}
         >
-          <Link
-            to="/"
-            aria-label="VoteStack home"
-            className="inline-flex min-h-11 items-center no-underline"
-          >
-            <Wordmark />
-          </Link>
+          <HeaderLogo swapToBack={showBackInHeader} />
           <SiteMenu />
         </div>
       </header>
@@ -122,6 +197,14 @@ export function Layout() {
                 className="inline-flex min-h-11 items-center"
               >
                 About VoteStack
+              </Link>
+            </li>
+            <li>
+              <Link
+                to={NOTIFY_PATH}
+                className="inline-flex min-h-11 items-center"
+              >
+                Email updates
               </Link>
             </li>
             <li>

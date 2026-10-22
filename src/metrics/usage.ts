@@ -123,6 +123,8 @@ export function createUsage(deps: UsageDeps) {
   let storageWorks = true
   /** Elections already counted on this page, so a re-render never counts twice. */
   const countedHere = new Set<string>()
+  /** True once this page load is left out of the counts (skipPage). */
+  let skipped = false
 
   function read(): DeviceRecord {
     const storage = storageWorks ? deps.storage() : null
@@ -259,7 +261,7 @@ export function createUsage(deps: UsageDeps) {
   }
 
   function add(event: UsageEvent) {
-    if (off()) return
+    if (skipped || off()) return
     queue.push(event)
     if (queue.length >= MAX_EVENTS) flush()
   }
@@ -286,6 +288,12 @@ export function createUsage(deps: UsageDeps) {
         // Blocked storage: nothing to keep the choice in.
       }
       if (!on) queue = []
+    },
+
+    /** Counts nothing more from this page load; nothing is kept in the browser. */
+    skipPage() {
+      skipped = true
+      queue = []
     },
 
     view(page: UsagePage, from: ViewSource, key?: string) {
@@ -421,6 +429,10 @@ export function createUsage(deps: UsageDeps) {
 
     active(secs: number, hasBallot: boolean) {
       if (secs >= 1) add({ e: 'active', secs, ballot: hasBallot })
+    },
+
+    banner(act: 'shown' | 'closed') {
+      add({ e: 'banner', act })
     },
 
     clock: deps.clock,

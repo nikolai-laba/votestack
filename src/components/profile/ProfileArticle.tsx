@@ -1,9 +1,11 @@
+import { Link } from 'react-router'
+import { GET_STARTED_PATH } from '../../ballot/profileLinks.ts'
 import type { CandidateProfile } from '../../shared/profile.ts'
 import { Disclosure } from './Disclosure.tsx'
 import { Endorsements } from './Endorsements.tsx'
 import { MoneySection } from './MoneySection.tsx'
 import { Overview } from './Overview.tsx'
-import { ProfileHeader } from './ProfileHeader.tsx'
+import { ProfileHeader, type Opponent } from './ProfileHeader.tsx'
 import { SampleNotice } from './SampleNotice.tsx'
 import { SourcesList } from './SourcesList.tsx'
 
@@ -11,13 +13,22 @@ import { SourcesList } from './SourcesList.tsx'
  * A loaded profile: every part in the same order for every person. Shared
  * by the profile page and the dev-only preview, so previews look exactly
  * like what voters see.
+ *
+ * `opponents` and `midPivot` are only passed for search arrivals (no ballot
+ * in memory): the chip under the header and the one-line nudge between
+ * endorsements and sources carry the search visitor from this one profile
+ * toward their whole ballot.
  */
 export function ProfileArticle({
   profile,
   headingId,
+  opponents,
+  midPivot = false,
 }: {
   profile: CandidateProfile
   headingId: string
+  opponents?: Opponent[]
+  midPivot?: boolean
 }) {
   return (
     <article aria-labelledby={headingId} className="space-y-8">
@@ -29,7 +40,11 @@ export function ProfileArticle({
             headingId={headingId}
           />
         )}
-        <ProfileHeader profile={profile} headingId={headingId} />
+        <ProfileHeader
+          profile={profile}
+          headingId={headingId}
+          opponents={opponents}
+        />
         <Disclosure
           updated={profile.meta.generatedAt}
           profileKey={profile.key}
@@ -42,6 +57,15 @@ export function ProfileArticle({
         kind={profile.kind}
         sources={profile.sources}
       />
+      {midPivot && (
+        <p className="border-t border-line pt-6 text-small">
+          Done reading about {profile.name}?{' '}
+          <Link to={GET_STARTED_PATH} className="font-semibold">
+            See every race
+          </Link>{' '}
+          on your November 3 ballot, written the same way.
+        </p>
+      )}
       <SourcesList sources={profile.sources} />
     </article>
   )
