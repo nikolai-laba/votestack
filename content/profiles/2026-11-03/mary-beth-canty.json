@@ -9,25 +9,55 @@
   "tier": "mid",
   "incumbent": true,
   "overview": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-21",
     "items": [
       {
-        "text": "Mary Beth Canty has represented the 54th District in the Illinois House since 2023. She is an attorney and previously served on the Arlington Heights Village Board and the Regional Transportation Authority Board.",
-        "cites": [1, 2],
+        "text": "Mary Beth Canty is an attorney who previously served as an Arlington Heights village trustee and an RTA board member. She has represented the 54th District since 2023. Her campaign says she passed legislation establishing full-day kindergarten and requiring posted pay ranges. She sponsored a bill creating the Department of Early Childhood to consolidate services. Canty sponsored legislation establishing a $20 million grant program for grocers in food deserts.",
+        "cites": [1, 2, 3, 4],
         "sentences": [
           {
-            "text": "Mary Beth Canty has represented the 54th District in the Illinois House since 2023.",
+            "text": "Mary Beth Canty is an attorney who previously served as an Arlington Heights village trustee and an RTA board member.",
             "cites": [1]
           },
           {
-            "text": "She is an attorney and previously served on the Arlington Heights Village Board and the Regional Transportation Authority Board.",
+            "text": "She has represented the 54th District since 2023.",
             "cites": [2]
+          },
+          {
+            "text": "Her campaign says she passed legislation establishing full-day kindergarten and requiring posted pay ranges.",
+            "cites": [1]
+          },
+          {
+            "text": "She sponsored a bill creating the Department of Early Childhood to consolidate services.",
+            "cites": [3]
+          },
+          {
+            "text": "Canty sponsored legislation establishing a $20 million grant program for grocers in food deserts.",
+            "cites": [4]
           }
         ]
       },
       {
-        "text": "In the legislature, she sponsored bills that became law regarding full-day kindergarten and equal pay scales. She also sponsored the Reproductive Health Privacy Act, which restricts sharing abortion-related medical records with out-of-state entities. In 2023, Canty sponsored a proposal for a $20 million state grocery initiative to provide grants to grocery stores in food deserts.",
-        "cites": [1, 3, 4]
+        "text": "She sponsored the Reproductive Health Records Privacy Act to prevent sharing abortion patients' medical records without consent. She sponsored a law banning artificial intelligence in teacher evaluations. She voted to include grooming in the legal definition of an abused child. She sponsored legislation allowing human composting as a burial option.",
+        "cites": [5, 6, 7, 8],
+        "sentences": [
+          {
+            "text": "She sponsored the Reproductive Health Records Privacy Act to prevent sharing abortion patients' medical records without consent.",
+            "cites": [5]
+          },
+          {
+            "text": "She sponsored a law banning artificial intelligence in teacher evaluations.",
+            "cites": [6]
+          },
+          {
+            "text": "She voted to include grooming in the legal definition of an abused child.",
+            "cites": [7]
+          },
+          {
+            "text": "She sponsored legislation allowing human composting as a burial option.",
+            "cites": [8]
+          }
+        ]
       }
     ]
   },
@@ -52,169 +82,164 @@
     ]
   },
   "endorsements": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-21",
     "items": [
       {
-        "organization": "Equality Illinois",
+        "organization": "National Association of Social Workers, Illinois Chapter",
         "kind": "organization",
-        "cites": [16]
+        "cites": [9]
       },
       {
-        "organization": "Planned Parenthood Illinois Action",
-        "kind": "organization",
-        "cites": [17]
-      },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [5] },
-      {
-        "organization": "Illinois National Organization for Women Political Action Committee",
-        "kind": "organization",
-        "cites": [6]
-      },
-      {
-        "organization": "Better Streets Chicago Action Fund",
-        "kind": "organization",
-        "cites": [7]
-      },
-      {
-        "organization": "Chicago Federation of Labor",
-        "kind": "union",
-        "cites": [8]
-      },
-      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [9] },
-      {
-        "organization": "International Union of Operating Engineers Local 150",
-        "kind": "union",
+        "organization": "Daily Herald Editorial Board",
+        "kind": "editorial_board",
         "cites": [10]
       },
       { "organization": "AFSCME Council 31", "kind": "union", "cites": [11] },
       {
-        "organization": "Daily Herald Editorial Board",
-        "kind": "editorial_board",
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
         "cites": [12]
       },
       {
-        "organization": "Illinois Federation of Teachers",
+        "organization": "Chicago Laborers' District Council",
         "kind": "union",
         "cites": [13]
       },
       {
-        "organization": "SEIU Healthcare Illinois",
+        "organization": "Cook County College Teachers Union Local 1600",
         "kind": "union",
         "cites": [14]
       },
       {
-        "organization": "SEIU Illinois State Council",
-        "kind": "union",
+        "organization": "Equality Illinois",
+        "kind": "organization",
         "cites": [15]
-      },
-      { "organization": "SEIU Local 73", "kind": "union", "cites": [15] },
-      {
-        "organization": "Chicago Laborers' District Council",
-        "kind": "union",
-        "cites": [18]
-      },
-      {
-        "organization": "Cook County College Teachers Union Local 1600",
-        "kind": "union",
-        "cites": [19]
       },
       {
         "organization": "Greater Palatine Area Democrats (GPAD)",
         "kind": "organization",
-        "cites": [20]
+        "cites": [16]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [17] },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [18]
       },
       {
         "organization": "Illinois Nurses Association",
         "kind": "union",
-        "cites": [21]
+        "cites": [19]
       },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [20]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [21] },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [22]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [23]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [24]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [24] },
       {
         "organization": "Wheeling Township Democratic Organization",
         "kind": "organization",
-        "cites": [22]
+        "cites": [25]
       }
     ]
   },
   "sources": [
     {
       "id": 1,
-      "title": "Mary Beth Canty (D) - Illinois General Assembly - Member",
-      "publisher": "Illinois General Assembly",
-      "url": "https://www.ilga.gov/House/Members/Details/3233?Primary=True",
-      "kind": "official",
-      "viewedAt": "2026-10-07"
+      "title": "Meet Mary Beth",
+      "publisher": "Mary Beth Canty State Representative website",
+      "url": "https://www.repmbc.com/meetmbc",
+      "kind": "candidate",
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 2,
-      "title": "State Rep. Mary Beth Canty",
-      "publisher": "State Rep. Mary Beth Canty",
-      "url": "https://www.repmbc.com/",
-      "kind": "candidate",
-      "viewedAt": "2026-10-07"
+      "title": "Mary Beth Canty (D) - Illinois General Assembly - Member",
+      "publisher": "ILGA.gov",
+      "url": "https://www.ilga.gov/House/Members/Details/3233?Primary=True",
+      "kind": "official",
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 3,
+      "title": "House gives OK to new state agency focused on early childhood programs",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/house-gives-ok-to-new-state-agency-focused-on-early-childhood-programs/",
+      "kind": "news",
+      "viewedAt": "2026-10-21"
+    },
+    {
+      "id": 4,
+      "title": "State to put $20 million toward grants for grocers, research into food insecurity",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/state-to-put-20-million-toward-grants-for-grocers-research-into-food-insecurity/",
+      "kind": "news",
+      "viewedAt": "2026-10-21"
+    },
+    {
+      "id": 5,
       "title": "Lawmakers pass bill to shield abortion information from digital medical records",
       "publisher": "Capitol News Illinois",
       "url": "https://capitolnewsillinois.com/news/lawmakers-pass-bill-to-shield-abortion-information-from-digital-medical-records/",
       "kind": "news",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 4,
-      "title": "As many Illinoisans struggle with food access, lawmakers consider state grants for grocers",
-      "publisher": "The Times Weekly",
-      "url": "https://thetimesweekly.com/2023/05/as-many-illinoisans-struggle-with-food-access-lawmakers-consider-state-grants-for-grocers/",
-      "kind": "news",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 5,
-      "title": "Endorsements and Election Information",
-      "publisher": "Personal PAC",
-      "url": "https://personalpac.org/elections/",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 6,
-      "title": "IL NOW PAC Primary Endorsements 3/17/26",
-      "publisher": "Illinois National Organization for Women Political Action Committee",
-      "url": "https://ilnow.org/uncategorized/il-now-pac-primary-endorsements-3-17-26/",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "title": "Pritzker signs 31 new laws, including ban on AI teacher evaluations",
+      "publisher": "Daily Herald",
+      "url": "https://www.dailyherald.com/20260713/illinois-state-politics/pritzker-signs-31-new-laws-including-ban-on-ai-teacher-evaluations/",
+      "kind": "news",
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 7,
-      "title": "2026 Endorsements",
-      "publisher": "Better Streets Chicago Action Fund",
-      "url": "https://www.bscactionfund.org/2026-midterms/endorsements",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "title": "Rep. Mary Beth Canty supports HB4534 to include grooming as child abuse",
+      "publisher": "North Cook News",
+      "url": "https://northcooknews.com/rep-mary-beth-canty-supports-hb4534-to-include-grooming-as-child-abuse",
+      "kind": "news",
+      "viewedAt": "2026-10-21"
     },
     {
-      "title": "November 3, 2026 General Election Endorsed Candidates",
-      "publisher": "Chicago Federation of Labor",
-      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
-      "viewedAt": "2026-10-07",
-      "kind": "endorser",
-      "id": 8
+      "id": 8,
+      "title": "School cell phone ban, human composting bills among hundreds advancing in Springfield",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/school-cell-phone-ban-human-composting-bills-among-hundreds-advancing-in-springfield/",
+      "kind": "news",
+      "viewedAt": "2026-10-21"
     },
     {
-      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
-      "publisher": "Illinois AFL-CIO",
-      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
-      "viewedAt": "2026-10-07",
+      "id": 9,
+      "title": "NASW-IL Announces Endorsements for 2026 Illinois General Election",
+      "publisher": "National Association of Social Workers, Illinois Chapter",
+      "url": "https://www.naswil.org/post/nasw-il-announces-endorsements-for-2026-illinois-general-election",
       "kind": "endorser",
-      "id": 9
+      "viewedAt": "2026-10-21"
     },
     {
-      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
-      "publisher": "IUOE Local 150",
-      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
-      "viewedAt": "2026-10-07",
-      "kind": "endorser",
-      "id": 10
+      "id": 10,
+      "title": "Endorsement: Santa Maria for Illinois Senate Dist. 27, Grasse for Illinois House Dist. 53, Canty for Illinois House Dist. 54",
+      "publisher": "Daily Herald",
+      "url": "https://www.dailyherald.com/20261013/endorsements/endorsement-santa-maria-for-illinois-senate-dist-27-grasse-for-illinois-house-dist-53-canty-for/",
+      "kind": "news",
+      "viewedAt": "2026-10-21"
     },
     {
       "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
@@ -225,52 +250,12 @@
       "id": 11
     },
     {
-      "title": "Daily Herald endorsements, Nov. 3, 2026 general election (published Oct. 13-16, 2026)",
-      "publisher": "Daily Herald (Arlington Heights)",
-      "url": "https://www.dailyherald.com/opinion/endorsements/",
-      "viewedAt": "2026-10-17",
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 12
-    },
-    {
-      "title": "2026 voter information: IFT Endorsements",
-      "publisher": "Illinois Federation of Teachers",
-      "url": "https://www.ift-aft.org/vote",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 13
-    },
-    {
-      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
-      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
-      "url": "https://seiuhcilin.org/resources/election-information/",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 14
-    },
-    {
-      "title": "Election 2026: 2026 Endorsements",
-      "publisher": "SEIU Local 73",
-      "url": "https://seiu73.org/election-2026/",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 15
-    },
-    {
-      "title": "2026 General midterm Election endorsements",
-      "publisher": "Equality Illinois",
-      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 16
-    },
-    {
-      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
-      "publisher": "Planned Parenthood Illinois Action (press release, published by Windy City Times)",
-      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 17
     },
     {
       "title": "Chicago Laborers’ District Council Endorsements for the November 2026 General Election",
@@ -278,7 +263,7 @@
       "url": "https://www.liunachicago.org/content/documents/cldc_2026_endorsement_template.pdf",
       "viewedAt": "2026-10-18",
       "kind": "endorser",
-      "id": 18
+      "id": 13
     },
     {
       "title": "November 2026 General Election Endorsements",
@@ -286,7 +271,15 @@
       "url": "https://www.ccctu.org/post/november-2026-general-election-endorsements",
       "viewedAt": "2026-10-18",
       "kind": "endorser",
-      "id": 19
+      "id": 14
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
     },
     {
       "title": "2026 November General Election Candidates",
@@ -294,7 +287,23 @@
       "url": "https://www.gpadems.org/2026-general-election-candidates",
       "viewedAt": "2026-10-18",
       "kind": "endorser",
-      "id": 20
+      "id": 16
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
     },
     {
       "title": "Illinois Nurses Association General Election Endorsements",
@@ -302,7 +311,47 @@
       "url": "https://illinoisnurses.com/wp-content/uploads/2026/07/INA-General-Election-Endorsements.pdf",
       "viewedAt": "2026-10-18",
       "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 20
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
       "id": 21
+    },
+    {
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Planned Parenthood Illinois Action (press release, published by Windy City Times)",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 22
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 23
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 24
     },
     {
       "title": "Endorsements from Your Local Democratic Party (Nov 3 ballot)",
@@ -310,13 +359,13 @@
       "url": "https://www.wheelingdems.com/election-resources.html",
       "viewedAt": "2026-10-18",
       "kind": "endorser",
-      "id": 22
+      "id": 25
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
-    "promptVersion": "f006-4",
-    "generatedAt": "2026-10-07T18:14:55.512Z",
-    "version": 9
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-22T04:58:05.532Z",
+    "version": 11
   }
 }
