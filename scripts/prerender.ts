@@ -149,8 +149,15 @@ const sitemap = pages
   }))
 await writeFile(join(DIST, 'sitemap.xml'), sitemapXml(ssr.SITE_URL, sitemap))
 await writeFile(join(DIST, 'robots.txt'), robotsTxt(ssr.SITE_URL))
-// Earlier address of Saved choices.
-await writeFile(join(DIST, '_redirects'), '/my-ballot /saved-choices 301\n')
+// Earlier addresses: Saved choices, and a race whose name was misread.
+await writeFile(
+  join(DIST, '_redirects'),
+  [
+    '/my-ballot /saved-choices 301',
+    '/races/ca/culver-city/2026-11-03/city-of-city-of-culver-member-of-the-city-council /races/ca/culver-city/2026-11-03/city-of-culver-city-member-of-the-city-council 301',
+    '',
+  ].join('\n'),
+)
 
 // Neither belongs on the site.
 await rm(SSR_DIR, { recursive: true, force: true })
