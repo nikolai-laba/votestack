@@ -43,6 +43,27 @@ export function CheckIcon({
   )
 }
 
+export function InfoIcon({
+  className = 'size-4 shrink-0',
+}: {
+  className?: string
+}) {
+  return (
+    <svg
+      aria-hidden="true"
+      viewBox="0 0 20 20"
+      fill="currentColor"
+      className={className}
+    >
+      <path
+        fillRule="evenodd"
+        d="M10 1.75a8.25 8.25 0 1 0 0 16.5 8.25 8.25 0 0 0 0-16.5Zm0 1.6a6.65 6.65 0 1 1 0 13.3 6.65 6.65 0 0 1 0-13.3Zm0 2.15a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm-.9 3.9a.9.9 0 1 1 1.8 0v4.2a.9.9 0 1 1-1.8 0v-4.2Z"
+        clipRule="evenodd"
+      />
+    </svg>
+  )
+}
+
 export function ChevronDownIcon({
   className = 'size-5 shrink-0',
 }: {
