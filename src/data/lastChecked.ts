@@ -6,4 +6,4 @@
 // when it falls behind.
 
 /** ISO date (YYYY-MM-DD). */
-export const LAST_CHECKED = '2026-10-13'
+export const LAST_CHECKED = '2026-10-22'
