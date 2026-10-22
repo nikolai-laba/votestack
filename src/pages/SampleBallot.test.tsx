@@ -353,4 +353,15 @@ describe('sample ballots', () => {
     expect(screen.queryByText(/sample ballot for the area/i)).toBeNull()
     expect(screen.getByText('Trustee, Village of Oak Park')).toBeInTheDocument()
   })
+
+  it('leaves the sign-up off a sample ballot', async () => {
+    mockApi()
+    renderAt()
+    await openWrigley()
+    expect(
+      screen.queryByRole('region', {
+        name: 'Hear from VoteStack before your next election',
+      }),
+    ).toBeNull()
+  })
 })

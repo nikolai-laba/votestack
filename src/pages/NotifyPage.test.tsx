@@ -6,6 +6,7 @@ import { RouterProvider, createMemoryRouter } from 'react-router'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import type { TurnstileHandle } from '../components/report/Turnstile.tsx'
 import { routes } from '../routes.tsx'
+import { signupStore } from '../signup/device.ts'
 
 // The real widget loads Cloudflare's script; this stand-in hands out a token
 // when its button is pressed and counts resets.
@@ -55,8 +56,10 @@ function stubApi(
   return sent
 }
 
-function renderPage() {
-  const router = createMemoryRouter(routes, { initialEntries: ['/notify'] })
+function renderPage(state?: unknown) {
+  const router = createMemoryRouter(routes, {
+    initialEntries: [{ pathname: '/notify', state }],
+  })
   render(
     <QueryClientProvider
       client={
@@ -72,7 +75,7 @@ function renderPage() {
 const heading = () =>
   screen.findByRole('heading', {
     level: 1,
-    name: 'Get an email when VoteStack covers your area',
+    name: 'Hear from VoteStack before your next election',
   })
 
 beforeEach(() => {
@@ -94,21 +97,35 @@ async function fillIn(
   await user.type(screen.getByRole('textbox', { name: 'ZIP code' }), zip)
 }
 
-describe('Get an email when VoteStack covers your area', () => {
+describe('the email sign-up page', () => {
   it('starts at the title and says what the page is for', async () => {
     stubApi()
     renderPage()
     expect(await heading()).toHaveFocus()
-    expect(document.title).toBe(
-      'Get an email when VoteStack covers your area | VoteStack',
-    )
+    expect(document.title).toBe('Email updates | VoteStack')
     expect(
       screen.getByRole('link', { name: 'Find your ballot' }),
     ).toHaveAttribute('href', '/getstarted')
     expect(
-      screen.getByText(/We save only your email address and ZIP code/),
+      screen.getByText(
+        'We’ll email you a few times a year about new elections and areas VoteStack covers, and big changes to the site.',
+      ),
+    ).toBeVisible()
+    expect(
+      screen.getByText(
+        /Right now, VoteStack covers Cook County, Illinois, and Los Angeles County, California\. If you live somewhere else, we’ll tell you when VoteStack reaches your area\./,
+      ),
+    ).toBeVisible()
+    expect(
+      screen.getByText(
+        /We save your email address and ZIP code, use them only for these emails, and never share them\./,
+      ),
     ).toBeInTheDocument()
-    expect(actions).toHaveBeenCalledWith('notify')
+    expect(
+      screen.getByRole('link', { name: 'nikolai@votestack.org' }),
+    ).toHaveAttribute('href', 'mailto:nikolai@votestack.org')
+    // The spam check loads once someone starts filling in the form.
+    expect(actions).not.toHaveBeenCalled()
   })
 
   it('sends the email and 5-digit ZIP code, then thanks the visitor', async () => {
@@ -120,10 +137,15 @@ describe('Get an email when VoteStack covers your area', () => {
     await user.click(screen.getByRole('button', { name: 'Pass check' }))
     await user.click(screen.getByRole('button', { name: 'Sign up' }))
 
-    const done = await screen.findByText('Thanks. You’re signed up.')
+    const done = await screen.findByText('Thanks, you’re on the list.')
     expect(done.closest('[role=status]')).toHaveFocus()
     expect(sent).toEqual([
-      { email: 'pat@example.com', zip: '53703', turnstileToken: 'tok-1' },
+      {
+        email: 'pat@example.com',
+        zip: '53703',
+        source: 'page',
+        turnstileToken: 'tok-1',
+      },
     ])
     expect(screen.queryByRole('textbox')).toBeNull()
   })
@@ -197,7 +219,7 @@ describe('Get an email when VoteStack covers your area', () => {
 
     await user.click(screen.getByRole('button', { name: 'Pass check' }))
     await user.click(screen.getByRole('button', { name: 'Sign up' }))
-    expect(await screen.findByText('Thanks. You’re signed up.')).toBeVisible()
+    expect(await screen.findByText('Thanks, you’re on the list.')).toBeVisible()
     expect(sent).toHaveLength(2)
   })
 
@@ -226,5 +248,49 @@ describe('Get an email when VoteStack covers your area', () => {
     expect(screen.getByText('Sign-up isn’t available yet.')).toBeVisible()
     expect(screen.queryByRole('textbox')).toBeNull()
     expect(screen.queryByRole('button', { name: 'Sign up' })).toBeNull()
+  })
+
+  it('records the banner as the source when the visitor came from it', async () => {
+    const sent = stubApi()
+    const user = userEvent.setup()
+    renderPage({ from: 'banner' })
+    await heading()
+    await fillIn(user)
+    await user.click(screen.getByRole('button', { name: 'Pass check' }))
+    await user.click(screen.getByRole('button', { name: 'Sign up' }))
+    await screen.findByText('Thanks, you’re on the list.')
+    expect(sent).toEqual([expect.objectContaining({ source: 'banner' })])
+  })
+
+  it('keeps the form on a device that already signed up', async () => {
+    signupStore.markSignedUp()
+    stubApi()
+    renderPage()
+    await heading()
+    expect(screen.getByRole('textbox', { name: 'Email address' })).toBeVisible()
+  })
+
+  it('fills in the ZIP code typed in this visit’s address form', async () => {
+    stubApi()
+    const user = userEvent.setup()
+    render(
+      <QueryClientProvider client={new QueryClient()}>
+        <RouterProvider
+          router={createMemoryRouter(routes, {
+            initialEntries: ['/getstarted'],
+          })}
+        />
+      </QueryClientProvider>,
+    )
+    await user.type(await screen.findByLabelText(/zip/i), '80910-1234')
+    await user.click(
+      screen.getByRole('link', {
+        name: 'Get an email when VoteStack covers your area',
+      }),
+    )
+    await heading()
+    expect(screen.getByRole('textbox', { name: 'ZIP code' })).toHaveValue(
+      '80910',
+    )
   })
 })

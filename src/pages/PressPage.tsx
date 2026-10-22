@@ -168,8 +168,8 @@ export function PressPage() {
             Nikolai Laba, Oak Park, Illinois.{' '}
             <a href="mailto:nikolai@votestack.org">nikolai@votestack.org</a>
           </FactRow>
-          <FactRow label="New areas">
-            Voters can sign up for new areas at{' '}
+          <FactRow label="Email updates">
+            Voters can sign up for email about new elections and areas at{' '}
             <Link to="/notify">votestack.org/notify</Link>.
           </FactRow>
         </dl>

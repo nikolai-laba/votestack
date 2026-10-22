@@ -27,6 +27,7 @@ import {
   type MeasureWords,
 } from '../shared/regions.ts'
 import { BallotOrderToggle } from './BallotOrderToggle.tsx'
+import { SignupBlock } from './signup/SignupBlock.tsx'
 import { ChevronDownIcon, WarningIcon } from './icons.tsx'
 import {
   PickBox,
@@ -83,119 +84,128 @@ export function BallotView({
   const sample = useSampleMode()
 
   return (
-    <article aria-labelledby={BALLOT_HEADING_ID} className="space-y-6">
-      <header className="space-y-2">
-        {/* Focused when the ballot arrives, so it isn't an interactive target. */}
-        <Title
-          id={BALLOT_HEADING_ID}
-          tabIndex={-1}
-          className={`focus:outline-none ${titleElsewhere ? 'text-title' : 'text-title lg:text-title-lg'}`}
-        >
-          {ballot.election.name}
-        </Title>
-        <ElectionDetails ballot={ballot} />
-      </header>
+    <>
+      <article aria-labelledby={BALLOT_HEADING_ID} className="space-y-6">
+        <header className="space-y-2">
+          {/* Focused when the ballot arrives, so it isn't an interactive target. */}
+          <Title
+            id={BALLOT_HEADING_ID}
+            tabIndex={-1}
+            className={`focus:outline-none ${titleElsewhere ? 'text-title' : 'text-title lg:text-title-lg'}`}
+          >
+            {ballot.election.name}
+          </Title>
+          <ElectionDetails ballot={ballot} />
+        </header>
 
-      <p className="text-section font-heading font-semibold">
-        {sample
-          ? `This ballot has ${raceCountText(ballot.contests, words)}.`
-          : `You have ${raceCountText(ballot.contests, words)} on your ballot.`}
-      </p>
+        <p className="text-section font-heading font-semibold">
+          {sample
+            ? `This ballot has ${raceCountText(ballot.contests, words)}.`
+            : `You have ${raceCountText(ballot.contests, words)} on your ballot.`}
+        </p>
 
-      <CoverageNotice coverage={ballot.coverage} />
+        <CoverageNotice coverage={ballot.coverage} />
 
-      {ballot.contests.length > 0 && !sample && (
-        <div className="space-y-3">
-          <p className="max-w-[65ch]">
-            To make a list to take with you, check the box next to a name or
-            choose Yes or No. Your picks are saved only on this device.
-          </p>
-          <PickNotices />
+        {ballot.contests.length > 0 && !sample && (
+          <div className="space-y-3">
+            <p className="max-w-[65ch]">
+              To make a list to take with you, check the box next to a name or
+              choose Yes or No. Your picks are saved only on this device.
+            </p>
+            <PickNotices />
+          </div>
+        )}
+
+        <BallotOrderToggle contests={ballot.contests} />
+
+        {sections.length > 1 && (
+          <nav
+            aria-label="Ballot sections"
+            className="-mx-4 overflow-x-auto px-4"
+          >
+            <ul className="flex gap-2 pb-1">
+              {sections.map((s) => (
+                <li key={s.id} className="flex min-h-11 shrink-0 items-center">
+                  <a
+                    href={`#section-${s.id}`}
+                    aria-current={current === s.id ? 'true' : undefined}
+                    className={`inline-flex min-h-10 items-center rounded-full border px-4 text-small font-semibold no-underline transition-colors duration-150 ${
+                      current === s.id
+                        ? // Forced colours drop the fill, so underline instead.
+                          'border-transparent bg-highlight text-on-highlight forced-colors:underline'
+                        : 'border-field bg-surface text-text'
+                    }`}
+                  >
+                    {s.title}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        )}
+
+        {sections.map((section) =>
+          section.contests.every((c) => c.kind === 'retention') ? (
+            <RetentionPanel
+              key={section.id}
+              section={section}
+              published={published}
+              picks={picks}
+            />
+          ) : (
+            <section
+              key={section.id}
+              id={`section-${section.id}`}
+              aria-labelledby={`section-${section.id}-heading`}
+              className="scroll-mt-4 space-y-4"
+            >
+              <h2 id={`section-${section.id}-heading`} className="text-section">
+                {section.title}
+              </h2>
+              {section.groups ? (
+                section.groups.map((group) => {
+                  const headingId = `section-${section.id}-${group.id}-heading`
+                  return (
+                    <section
+                      key={group.id}
+                      aria-labelledby={headingId}
+                      className="space-y-4"
+                    >
+                      <h3 id={headingId} className="text-race">
+                        {group.title}
+                      </h3>
+                      <ContestList
+                        contests={group.contests}
+                        published={published}
+                        picks={picks}
+                        headingLevel={4}
+                      />
+                    </section>
+                  )
+                })
+              ) : (
+                <ContestList
+                  contests={section.contests}
+                  published={published}
+                  picks={picks}
+                />
+              )}
+            </section>
+          ),
+        )}
+
+        {ballot.contests.length === 0 && (
+          <p>No races found for this address yet.</p>
+        )}
+      </article>
+      {/* After the voter's own ballot, not a sample's, and not the list
+        beside a profile (the profile has its own). */}
+      {!sample && !titleElsewhere && (
+        <div className="mt-10">
+          <SignupBlock source="ballot" />
         </div>
       )}
-
-      <BallotOrderToggle contests={ballot.contests} />
-
-      {sections.length > 1 && (
-        <nav
-          aria-label="Ballot sections"
-          className="-mx-4 overflow-x-auto px-4"
-        >
-          <ul className="flex gap-2 pb-1">
-            {sections.map((s) => (
-              <li key={s.id} className="flex min-h-11 shrink-0 items-center">
-                <a
-                  href={`#section-${s.id}`}
-                  aria-current={current === s.id ? 'true' : undefined}
-                  className={`inline-flex min-h-10 items-center rounded-full border px-4 text-small font-semibold no-underline transition-colors duration-150 ${
-                    current === s.id
-                      ? // Forced colours drop the fill, so underline instead.
-                        'border-transparent bg-highlight text-on-highlight forced-colors:underline'
-                      : 'border-field bg-surface text-text'
-                  }`}
-                >
-                  {s.title}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </nav>
-      )}
-
-      {sections.map((section) =>
-        section.contests.every((c) => c.kind === 'retention') ? (
-          <RetentionPanel
-            key={section.id}
-            section={section}
-            published={published}
-            picks={picks}
-          />
-        ) : (
-          <section
-            key={section.id}
-            id={`section-${section.id}`}
-            aria-labelledby={`section-${section.id}-heading`}
-            className="scroll-mt-4 space-y-4"
-          >
-            <h2 id={`section-${section.id}-heading`} className="text-section">
-              {section.title}
-            </h2>
-            {section.groups ? (
-              section.groups.map((group) => {
-                const headingId = `section-${section.id}-${group.id}-heading`
-                return (
-                  <section
-                    key={group.id}
-                    aria-labelledby={headingId}
-                    className="space-y-4"
-                  >
-                    <h3 id={headingId} className="text-race">
-                      {group.title}
-                    </h3>
-                    <ContestList
-                      contests={group.contests}
-                      published={published}
-                      picks={picks}
-                      headingLevel={4}
-                    />
-                  </section>
-                )
-              })
-            ) : (
-              <ContestList
-                contests={section.contests}
-                published={published}
-                picks={picks}
-              />
-            )}
-          </section>
-        ),
-      )}
-
-      {ballot.contests.length === 0 && (
-        <p>No races found for this address yet.</p>
-      )}
-    </article>
+    </>
   )
 }
 

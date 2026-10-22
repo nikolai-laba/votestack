@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, type KeyboardEvent } from 'react'
 import { Link, NavLink, Outlet, useMatches } from 'react-router'
 import {
   ABOUT_PATH,
+  NOTIFY_PATH,
   PRESS_PATH,
   SAVED_CHOICES_PATH,
   SUPPORT_PATH,
@@ -13,6 +14,7 @@ import { useUsageViews } from '../metrics/listen.ts'
 import { useTheme } from '../theme/themePreference.ts'
 import { APP_VERSION } from '../version.ts'
 import { ChevronDownIcon, MoonIcon, SunIcon } from './icons.tsx'
+import { SignupBanner } from './signup/SignupBanner.tsx'
 
 /**
  * True once the window has been scrolled more than `threshold` pixels from
@@ -129,6 +131,7 @@ export function Layout() {
       >
         Skip to main content
       </a>
+      <SignupBanner width={width} />
       <header className="sticky top-0 z-10 border-b border-line bg-surface">
         <div
           className={`mx-auto flex ${width} flex-wrap items-center justify-between gap-x-6 px-4 py-3`}
@@ -194,6 +197,14 @@ export function Layout() {
                 className="inline-flex min-h-11 items-center"
               >
                 About VoteStack
+              </Link>
+            </li>
+            <li>
+              <Link
+                to={NOTIFY_PATH}
+                className="inline-flex min-h-11 items-center"
+              >
+                Email updates
               </Link>
             </li>
             <li>

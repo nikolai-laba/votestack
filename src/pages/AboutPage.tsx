@@ -322,10 +322,11 @@ export default function AboutPage() {
           visits without cookies.
         </p>
         <p>
-          If you sign up for an email when VoteStack covers your area, VoteStack
-          LLC saves your email address and ZIP code. We use them only for that
-          email and to count where people are asking from, and we never share
-          them. To have them deleted, email{' '}
+          If you sign up for VoteStack emails, VoteStack, LLC saves your email
+          address and ZIP code. We use those to notify you when VoteStack is
+          ready for your next election and to share big VoteStack news. We never
+          share or sell them. Every email will have a link to leave the list. To
+          have your sign-up deleted now, email{' '}
           <a href="mailto:nikolai@votestack.org">nikolai@votestack.org</a>.
         </p>
         <p>

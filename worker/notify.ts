@@ -1,13 +1,14 @@
-// "Tell me when VoteStack reaches my area": POST /api/notify.
+// Sign-ups for VoteStack's email list: POST /api/notify.
 //
 // Order of checks: configuration, rate limit, body, Turnstile, then the
-// database. Only the email address and ZIP code are stored. The IP address is
-// used only, hashed, as the rate-limit key, and the email address is never
-// logged or put in an error.
+// database. Only the email address, the ZIP code and where on the site the
+// form was are stored. The IP address is used only, hashed, as the
+// rate-limit key, and the email address is never logged or put in an error.
 
 import {
   normalizeEmail,
   normalizeZip,
+  signupSource,
   validateEmail,
   validateZip,
   type SignupField,
@@ -98,9 +99,11 @@ export async function notifyResponse(
   try {
     // The same answer whether the address is new or already signed up, so
     // the form never reveals who has signed up.
-    await rpc<boolean>(deps.supabase, 'submit_expansion_signup', {
+    await rpc<boolean>(deps.supabase, 'submit_signup', {
       p_email: normalizeEmail(body.email as string),
       p_zip: normalizeZip(body.zip as string),
+      // An unknown place is stored as null rather than refusing the sign-up.
+      p_source: signupSource(body.source),
     })
   } catch {
     // No details: the error could echo the email address.

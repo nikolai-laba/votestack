@@ -1,5 +1,5 @@
 import { readFileSync } from 'node:fs'
-import { describe, expect, it } from 'vitest'
+import { afterEach, describe, expect, it, vi } from 'vitest'
 import { checkTemplate } from '../scripts/lib/prerender.ts'
 import {
   candidatePages,
@@ -108,6 +108,8 @@ function routePaths(list = routes, parent = ''): string[] {
 }
 
 describe('prerender', () => {
+  afterEach(() => vi.unstubAllEnvs())
+
   it('builds a file for every route, so none of them gets a 404 status', () => {
     const built = new Set([
       ...STATIC_PAGES.map((p) => p.path),
@@ -123,12 +125,19 @@ describe('prerender', () => {
   })
 
   it('renders a live profile with the app’s own components', async () => {
+    vi.stubEnv('VITE_TURNSTILE_SITE_KEY', 'site-key')
     const [page, report] = candidatePages(profile, true)
     expect(page.file).toBe('candidates/jane-doe.html')
     const html = await renderPage(page)
     expect(html).toContain('>Jane Doe</h1>')
     expect(html).toContain('Jane Doe is a state senator.')
     expect(html).toContain('Senate roster')
+    // The email sign-up is part of the page; the banner (device only) isn't.
+    expect(html).toContain('Hear from VoteStack before your next election')
+    expect(html).not.toContain('Email sign-up')
+    // Before the app runs, the form can't be sent: no email in a page URL.
+    expect(html).toMatch(/<form[^>]*method="post"/)
+    expect(html).toMatch(/<button[^>]*disabled=""[^>]*>Sign up<\/button>/)
     // The report form is left to the browser.
     expect(report.render).toBeUndefined()
     expect(await renderPage(report)).toBe('')
@@ -155,6 +164,11 @@ describe('prerender', () => {
     const html = await renderPage(real)
     expect(html).toContain('Races in Cook County, Illinois')
     expect(html).toContain('href="/races/il/2026-11-03/united-states-senator"')
+    // A race page ends with the email sign-up; the area list doesn't.
+    expect(html).not.toContain('Hear from VoteStack before your next election')
+    expect(await renderPage(pages[2])).toContain(
+      'Hear from VoteStack before your next election',
+    )
   })
 
   it('builds every area’s races, promising profiles only where they exist', () => {
@@ -175,7 +189,13 @@ describe('prerender', () => {
 
   it('renders the address form for the home page', async () => {
     const home = STATIC_PAGES.find((p) => p.path === '/')!
-    expect(await renderPage(home)).toContain('What&#x27;s on your ballot?')
+    const html = await renderPage(home)
+    expect(html).toContain('What&#x27;s on your ballot?')
+    // Before the app runs, the address can't be sent, and never in the URL.
+    expect(html).toMatch(/<form[^>]*method="post"/)
+    expect(html).toMatch(
+      /<button[^>]*disabled=""[^>]*>Find my ballot<\/button>/,
+    )
   })
 
   it('finds its markers in index.html', () => {

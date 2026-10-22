@@ -11,6 +11,7 @@ type InputProps = Pick<
 
 export function TextField({
   id,
+  name = id,
   label,
   value,
   error,
@@ -21,8 +22,10 @@ export function TextField({
   type = 'text',
   ...input
 }: InputProps & {
-  /** Also the input's name. */
+  /** Also the input's name, unless `name` is given. */
   id: string
+  /** For a form that may appear more than once on a page (unique ids, same names). */
+  name?: string
   label: string
   value: string
   error?: string
@@ -42,7 +45,7 @@ export function TextField({
       <input
         ref={inputRef}
         id={id}
-        name={id}
+        name={name}
         type={type}
         {...input}
         value={value}

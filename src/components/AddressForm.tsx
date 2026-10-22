@@ -11,6 +11,7 @@ import {
 import type { RaceHandoffState } from '../races/data.ts'
 import { REGIONS, coveredAreas } from '../shared/regions.ts'
 import { BALLOT_HEADING_ID } from './BallotView.tsx'
+import { useAppRunning } from './appRunning.ts'
 import { WarningIcon } from './icons.tsx'
 import { TextField } from './TextField.tsx'
 
@@ -74,6 +75,7 @@ export function AddressForm({
   samplesBelow?: boolean
 }) {
   const { lookup, values, setValues, lookUp } = useBallotSession()
+  const running = useAppRunning()
   const navigate = useNavigate()
   const location = useLocation()
   const [errors, setErrors] = useState<Partial<Record<Field, string>>>({})
@@ -153,7 +155,14 @@ export function AddressForm({
   )
 
   return (
-    <form onSubmit={handleSubmit} noValidate className="space-y-5">
+    // POST, so an address sent before the app runs never goes in the page
+    // address (the button stays disabled until then anyway).
+    <form
+      method="post"
+      onSubmit={handleSubmit}
+      noValidate
+      className="space-y-5"
+    >
       <fieldset className="space-y-4">
         <legend className="text-label font-semibold">
           Registered voting address
@@ -168,7 +177,7 @@ export function AddressForm({
       <div className="space-y-3">
         <button
           type="submit"
-          disabled={lookup.isPending}
+          disabled={!running || lookup.isPending}
           className="h-13 w-full rounded-md bg-primary px-6 text-label font-semibold text-on-primary transition-opacity duration-150 disabled:opacity-60 md:w-auto"
         >
           Find my ballot

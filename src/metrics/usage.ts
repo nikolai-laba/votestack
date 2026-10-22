@@ -431,6 +431,10 @@ export function createUsage(deps: UsageDeps) {
       if (secs >= 1) add({ e: 'active', secs, ballot: hasBallot })
     },
 
+    banner(act: 'shown' | 'closed') {
+      add({ e: 'banner', act })
+    },
+
     clock: deps.clock,
   }
 }

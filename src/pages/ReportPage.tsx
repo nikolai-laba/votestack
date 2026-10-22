@@ -254,7 +254,13 @@ function ReportForm({
   const left = REPORT_MESSAGE_MAX - used
 
   return (
-    <form onSubmit={handleSubmit} noValidate className="space-y-6">
+    // POST: a report's text never goes in a page address.
+    <form
+      method="post"
+      onSubmit={handleSubmit}
+      noValidate
+      className="space-y-6"
+    >
       <p>
         Tell us what is wrong or missing. We check every report against the
         profile&rsquo;s sources and official records.
