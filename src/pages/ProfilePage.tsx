@@ -12,6 +12,7 @@ import { ProfileArticle } from '../components/profile/ProfileArticle.tsx'
 import { sampleNoticeId } from '../components/profile/ids.ts'
 import { ProfileSkeleton } from '../components/profile/ProfileSkeleton.tsx'
 import { ProfileRaces, useOpponents } from '../components/RaceSummary.tsx'
+import { SignupBlock } from '../components/signup/SignupBlock.tsx'
 import { MISSING_PROFILE_HEAD, profileHead, useDocumentHead } from '../head.ts'
 import type { CandidateProfile } from '../shared/profile.ts'
 import { COOK, regionForElection } from '../shared/regions.ts'
@@ -152,6 +153,11 @@ export default function ProfilePage() {
             <ProfileRaces profile={profile} ballot={ballot} />
           </div>
         )}
+        {profile && (
+          <div className="mt-10">
+            <SignupBlock source="profile" />
+          </div>
+        )}
       </>
     )
 
@@ -171,6 +177,11 @@ export default function ProfilePage() {
           <ProfileRaces profile={profile} ballot={ballot} />
         </aside>
         {article}
+        {/* Last on phones, after the race card (both order-last); under the
+            article on wide screens. */}
+        <div className="order-last mt-10 lg:order-none lg:col-start-2">
+          <SignupBlock source="profile" />
+        </div>
       </div>
     </div>
   )

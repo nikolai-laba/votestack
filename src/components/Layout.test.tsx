@@ -68,6 +68,9 @@ describe('site menu', () => {
     renderAt('/')
     const footer = screen.getByRole('contentinfo')
     expect(
+      within(footer).getByRole('link', { name: 'Email updates' }),
+    ).toHaveAttribute('href', '/notify')
+    expect(
       within(footer).getByRole('link', { name: 'Support VoteStack' }),
     ).toHaveAttribute('href', '/support')
     expect(within(footer).getByRole('link', { name: 'Press' })).toHaveAttribute(

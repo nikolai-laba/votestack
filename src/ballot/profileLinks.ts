@@ -11,7 +11,7 @@ export const reportPath = (key: string) => `/candidates/${key}/report`
 export const GET_STARTED_PATH = '/getstarted'
 export const SAVED_CHOICES_PATH = '/saved-choices'
 export const ABOUT_PATH = '/about'
-/** The "tell me when VoteStack reaches my area" sign-up (NotifyPage). */
+/** The email list's sign-up page (NotifyPage). */
 export const NOTIFY_PATH = '/notify'
 /** How to pay toward VoteStack (SupportPage), linked from the footer and About. */
 export const SUPPORT_PATH = '/support'
@@ -29,6 +29,15 @@ export interface RaceLinkState {
 
 export function isRaceLinkState(value: unknown): value is RaceLinkState {
   return typeof (value as Partial<RaceLinkState> | null)?.focusId === 'string'
+}
+
+/** Router state on the sign-up banner's link to the sign-up page. */
+export interface SignupLinkState {
+  from: 'banner'
+}
+
+export function isSignupLinkState(value: unknown): value is SignupLinkState {
+  return (value as Partial<SignupLinkState> | null)?.from === 'banner'
 }
 
 /** Router state on a link from a ballot row to a profile. */

@@ -3,6 +3,7 @@ import { cleanup, render, screen, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { RouterProvider, createMemoryRouter, type Location } from 'react-router'
 import { afterEach, describe, expect, it, vi } from 'vitest'
+import { ballotStore } from '../picks/store.ts'
 import { routes } from '../routes.tsx'
 import type { Ballot } from '../shared/ballot.ts'
 import type { CandidateProfile } from '../shared/profile.ts'
@@ -593,5 +594,76 @@ describe('candidate profiles', () => {
     expect(document.title).toBe(
       'Jane Doe, 2026 candidate for Governor and Lieutenant Governor, Illinois | VoteStack',
     )
+  })
+
+  it('ends with the email sign-up', async () => {
+    mockApi()
+    renderAt('/candidates/jane-doe')
+    await screen.findByRole('heading', { level: 1, name: 'Jane Doe' })
+    const signup = screen.getByRole('region', {
+      name: 'Hear from VoteStack before your next election',
+    })
+    // The block names no election dates.
+    expect(signup).not.toHaveTextContent(/votes (again|next)/)
+  })
+
+  it('leaves the sign-up off the ballot list beside a profile', async () => {
+    mockApi()
+    renderAt('/')
+    await lookUp()
+    await userEvent.click(screen.getByRole('link', { name: /^Jane Doe/ }))
+    await screen.findByRole('heading', { level: 1, name: 'Jane Doe' })
+    expect(
+      screen.getAllByRole('region', {
+        name: 'Hear from VoteStack before your next election',
+      }),
+    ).toHaveLength(1)
+    const list = screen.getByRole('article', {
+      name: 'Illinois General Election',
+    })
+    expect(
+      within(list.parentElement as HTMLElement).queryByRole('region', {
+        name: 'Hear from VoteStack before your next election',
+      }),
+    ).toBeNull()
+  })
+
+  it('ends a search arrival’s page with the sign-up, after the race card on phones too', async () => {
+    mockApi()
+    renderAt('/candidates/jane-doe')
+    await screen.findByRole('heading', { level: 1, name: 'Jane Doe' })
+    const aside = screen.getByRole('complementary', {
+      name: 'This race and your ballot',
+    })
+    const signup = screen.getByRole('region', {
+      name: 'Hear from VoteStack before your next election',
+    })
+    expect(
+      aside.compareDocumentPosition(signup) & Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy()
+    // The race card goes last on phones (order-last); the sign-up follows it
+    // there, and sits under the article on wide screens.
+    expect(signup.parentElement).toHaveClass('order-last', 'lg:col-start-2')
+  })
+
+  it('ends with the sign-up after the race card when the race isn’t on the voter’s ballot', async () => {
+    mockApi()
+    // A saved ballot with only the judge on it: Jane Doe's race isn't there,
+    // so her race card goes under the profile.
+    ballotStore.saveBallot({
+      ...ballot,
+      contests: ballot.contests.filter((c) => c.id !== 'gov'),
+    })
+    renderAt('/candidates/jane-doe')
+    const article = await screen.findByRole('article', { name: 'Jane Doe' })
+    const signup = screen.getByRole('region', {
+      name: 'Hear from VoteStack before your next election',
+    })
+    // Out of the profile's text column, so it follows the race card.
+    const column = article.closest('div.max-w-\\[65ch\\]') as HTMLElement
+    expect(column).not.toContainElement(signup)
+    expect(
+      column.compareDocumentPosition(signup) & Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy()
   })
 })

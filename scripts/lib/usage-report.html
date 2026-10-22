@@ -633,7 +633,12 @@
         </div>
         <div class="grid two">
           <div class="card table-wrap">
-            <h3>"Tell me when you reach my area" sign-ups by ZIP</h3>
+            <h3>Email sign-ups</h3>
+            <div id="signup-source-table"></div>
+            <p id="banner-line" class="muted small"></p>
+            <p class="muted small">
+              By ZIP code: area-only sign-ups, which agreed to be counted
+            </p>
             <div id="signup-table"></div>
           </div>
           <div class="card table-wrap">
@@ -761,7 +766,7 @@
         races: 'Race list and pages',
         how: 'How we make profiles',
         about: 'About',
-        notify: 'Notify sign-up',
+        notify: 'Email sign-up page',
         support: 'Support',
         other: 'Other',
       }
@@ -1373,7 +1378,7 @@
           ),
           tile(
             'Demand',
-            'Expansion sign-ups',
+            'Email sign-ups',
             num(signups),
             'All areas',
             change(signups, DATA.signups.filter((r) => inPrev(r[0])).length),
@@ -2243,8 +2248,44 @@
           const t = Date.parse(iso) / 1000
           return t >= start && t < end
         }
+        // Rows from before the email list (scope 'area') agreed only to hear
+        // when VoteStack reaches their area.
+        const SIGNUP_SOURCE = {
+          profile: 'End of a profile',
+          race: 'End of a race page',
+          ballot: 'End of the ballot',
+          saved: 'End of Saved choices',
+          about: 'About',
+          banner: 'Sign-up page, from the banner',
+          page: 'Sign-up page',
+        }
+        const bySource = new Map()
+        for (const [, , scope, source] of DATA.signups.filter((r) =>
+          inRange(r[0]),
+        )) {
+          const name =
+            scope === 'area'
+              ? 'Area only (before Oct 22)'
+              : SIGNUP_SOURCE[source] || 'Unknown'
+          bySource.set(name, (bySource.get(name) || 0) + 1)
+        }
+        table(
+          $('signup-source-table'),
+          [
+            { label: 'Where they signed up', get: (r) => r.name },
+            { label: 'Sign-ups', num: true, get: (r) => r.n },
+          ],
+          [...bySource].map(([name, n]) => ({ name, n })),
+          { sortBy: 1, empty: 'No sign-ups in this period.' },
+        )
+        const banner = rowsOf('banner', start, end, false)
+        $('banner-line').textContent =
+          `Banner: ${num(sumWhere(banner, (r) => r[A] === 'shown'))} shown, ${num(sumWhere(banner, (r) => r[A] === 'closed'))} closed.`
+
         const zips = new Map()
-        for (const [at, zip] of DATA.signups.filter((r) => inRange(r[0]))) {
+        for (const [at, zip] of DATA.signups.filter(
+          (r) => r[1] && inRange(r[0]),
+        )) {
           const o = zips.get(zip) || { zip, n: 0, last: '' }
           o.n++
           if (at > o.last) o.last = at
@@ -2375,6 +2416,11 @@
           d: [],
         },
         out: { label: 'Links out (out)', a: 'Page', d: [] },
+        banner: {
+          label: 'Sign-up banner (banner)',
+          a: 'Shown or closed',
+          d: [],
+        },
         active: {
           label: 'Time on screen (active)',
           a: 'Ballot on device (1/0)',

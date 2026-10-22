@@ -3,6 +3,8 @@ import {
   normalizeEmail,
   normalizeZip,
   SIGNUP_ERRORS,
+  SIGNUP_SOURCES,
+  signupSource,
   validateEmail,
   validateZip,
 } from './notify.ts'
@@ -36,5 +38,13 @@ describe('sign-up validation', () => {
     for (const zip of ['6030', '603011', '60301-12', 'ABCDE', '', 60301])
       expect(validateZip(zip)).toBe(SIGNUP_ERRORS.zip)
     expect(normalizeZip('6030')).toBeNull()
+  })
+})
+
+describe('sign-up sources', () => {
+  it('accepts each place a sign-up form appears, and nothing else', () => {
+    for (const s of SIGNUP_SOURCES) expect(signupSource(s)).toBe(s)
+    for (const v of ['', 'Profile', 'footer', 42, null, undefined])
+      expect(signupSource(v)).toBeNull()
   })
 })

@@ -5,9 +5,21 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+## [1.5.0] - 2026-10-22
+
 ### Added
 
 - On profile pages, a small info button on the "PACs and other committees" row of the campaign money breakdown opens a short note: these figures cover direct contributions to the candidate's own campaign, not independent spending by Super PACs (which can be much larger).
+- An email list for anyone who wants to hear from VoteStack before their next election, a few times a year: a short sign-up at the end of candidate profiles, race pages, your ballot and Saved choices, and a one-line banner above the menu for people who looked up a ballot. Closing the banner hides it for the visit; it stops after three closes or a sign-up. Each sign-up keeps the email address, the ZIP code and which page it came from, and nothing is sent yet.
+
+### Changed
+
+- The sign-up page at /notify is now for everyone, not only people outside the areas VoteStack covers. People who signed up there before still get only the email when VoteStack reaches their area.
+- Usage counts now count the sign-up banner being shown (once per visit) and closed.
+
+### Fixed
+
+- On a slow connection, pressing Enter in the address form before the page finished loading could put the address in the page link. The address and email forms now wait until the page is ready, and never send what you type in a link.
 
 ## [1.4.2] - 2026-10-21
 

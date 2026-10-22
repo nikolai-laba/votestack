@@ -19,6 +19,7 @@ import {
 } from '../picks/summary.ts'
 import type { Contest } from '../shared/ballot.ts'
 import { COOK, regionForElection } from '../shared/regions.ts'
+import { SignupBlock } from '../components/signup/SignupBlock.tsx'
 import { SAVED_CHOICES_HEAD, useDocumentHead } from '../head.ts'
 
 // Saved choices: the voter's picks in ballot order, to fill in a mail
@@ -139,6 +140,8 @@ export function SavedChoicesPage() {
         </p>
         <ClearPicks picks={picks} />
       </div>
+
+      <SignupBlock source="saved" />
     </div>
   )
 }

@@ -122,6 +122,21 @@ describe('usage events', () => {
   })
 })
 
+describe('sign-up banner events', () => {
+  it('counts the sign-up banner shown and closed, nothing else', () => {
+    expect(usagePoint({ e: 'banner', act: 'shown' })).toEqual({
+      blobs: ['banner', 'shown', '', ''],
+      doubles: [],
+    })
+    expect(usagePoint({ e: 'banner', act: 'closed' })).toEqual({
+      blobs: ['banner', 'closed', '', ''],
+      doubles: [],
+    })
+    expect(usagePoint({ e: 'banner', act: 'opened' })).toBeNull()
+    expect(usagePoint({ e: 'banner' })).toBeNull()
+  })
+})
+
 describe('isAutomatedAgent', () => {
   it('flags crawlers, previews and automated browsers', () => {
     for (const agent of [

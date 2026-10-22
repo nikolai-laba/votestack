@@ -10,6 +10,9 @@ import { USAGE_KEY } from '../metrics/usage.ts'
 import { ballotStore, STORAGE_KEY } from '../picks/store.ts'
 import { routes } from '../routes.tsx'
 import type { Ballot, Contest } from '../shared/ballot.ts'
+
+/** The email sign-up's heading, last on the page. */
+const SIGNUP = 'Hear from VoteStack before your next election'
 import type { CandidateProfile } from '../shared/profile.ts'
 
 const IL = 'ocd-division/country:us/state:il'
@@ -410,6 +413,7 @@ describe('Saved choices', () => {
       'County and regional',
       'Judicial retention',
       'Referenda and questions',
+      SIGNUP,
     ])
     const race = (title: string) =>
       within(page).getByRole('heading', { level: 3, name: title })
@@ -683,11 +687,11 @@ describe('paper ballot order', () => {
     })
     expect(within(group).getAllByRole('radio')).toHaveLength(2)
     expect(radio('By level of government')).toBeChecked()
-    expect(h2s(savedPage())).toEqual(LEVELS)
+    expect(h2s(savedPage())).toEqual([...LEVELS, SIGNUP])
 
     await userEvent.click(radio('Paper ballot order'))
     expect(radio('Paper ballot order')).toBeChecked()
-    expect(h2s(savedPage())).toEqual(PARTS)
+    expect(h2s(savedPage())).toEqual([...PARTS, SIGNUP])
     expect(
       within(savedPage())
         .getAllByRole('heading', { level: 3 })
@@ -710,13 +714,13 @@ describe('paper ballot order', () => {
     orderStore.reload()
     renderAt('/saved-choices')
     expect(radio('Paper ballot order')).toBeChecked()
-    expect(h2s(savedPage())).toEqual(PARTS)
+    expect(h2s(savedPage())).toEqual([...PARTS, SIGNUP])
 
     // Arrow keys move between the two options, as in any radio group.
     radio('Paper ballot order').focus()
     await userEvent.keyboard('{ArrowLeft}')
     expect(radio('By level of government')).toBeChecked()
-    expect(h2s(savedPage())).toEqual(LEVELS)
+    expect(h2s(savedPage())).toEqual([...LEVELS, SIGNUP])
     expect(localStorage.getItem(ORDER_KEY)).toBe('level')
   })
 
@@ -781,7 +785,7 @@ describe('paper ballot order', () => {
     orderStore.set('paper')
     renderAt('/saved-choices')
     expect(screen.queryByRole('radio')).toBeNull()
-    expect(h2s(savedPage())).toEqual(LEVELS)
+    expect(h2s(savedPage())).toEqual([...LEVELS, SIGNUP])
   })
 })
 
@@ -864,5 +868,19 @@ describe('measures from more than one level', () => {
       'Proposition 2: Rainy Day Fund',
       'Los Angeles City General Municipal Election - Measure TE',
     ])
+  })
+
+  it('ends with the email sign-up', async () => {
+    seed({ gov: ['jane-doe'] })
+    renderAt('/saved-choices')
+    const signup = screen.getByRole('region', { name: SIGNUP })
+    // The block names no election dates.
+    expect(signup).not.toHaveTextContent(/votes (again|next)/)
+    // Last on the page, after clearing picks.
+    expect(
+      screen
+        .getByRole('button', { name: 'Clear my picks' })
+        .compareDocumentPosition(signup) & Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy()
   })
 })

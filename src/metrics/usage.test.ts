@@ -298,4 +298,14 @@ describe('usage counts', () => {
     ])
     expect(usage.pending()).toEqual([])
   })
+
+  it('counts the sign-up banner shown and closed as they happen', () => {
+    const { usage } = setup()
+    usage.banner('shown')
+    usage.banner('closed')
+    expect(usage.pending()).toEqual([
+      { e: 'banner', act: 'shown' },
+      { e: 'banner', act: 'closed' },
+    ])
+  })
 })

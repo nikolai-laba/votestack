@@ -40,8 +40,8 @@ export const routes: RouteObject[] = [
             element: <GetStartedPage />,
           },
           {
-            // "Tell me when VoteStack reaches my area", for visitors
-            // outside the area it covers. No ballot beside it.
+            // The email list's sign-up page, for anyone (in the areas
+            // VoteStack covers or elsewhere). No ballot beside it.
             path: NOTIFY_PATH,
             element: <LazyNotifyPage />,
           },

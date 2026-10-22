@@ -93,7 +93,10 @@ async function lookUp(street: string, city = 'Oak Park', zip = '60301') {
   await userEvent.click(screen.getByRole('button', { name: /find my ballot/i }))
 }
 
-afterEach(() => vi.unstubAllGlobals())
+afterEach(() => {
+  vi.unstubAllGlobals()
+  vi.unstubAllEnvs()
+})
 
 describe('HomePage', () => {
   it('shows the address form and disclaimers', () => {
@@ -108,6 +111,15 @@ describe('HomePage', () => {
       screen.getAllByText(/independent, nonpartisan, open source/i),
     ).toHaveLength(2)
     expect(screen.getByText(/www\.cityofchicago\.org/)).toBeInTheDocument()
+  })
+
+  it('never sends the address form through the page address', () => {
+    renderAt('/')
+    const button = screen.getByRole('button', { name: /find my ballot/i })
+    // Sent before the app runs, a GET would put the address in the URL.
+    expect(button.closest('form')).toHaveAttribute('method', 'post')
+    // Once the app runs, the button works.
+    expect(button).toBeEnabled()
   })
 
   it('sends the address in the body only, never the URL', async () => {
@@ -559,5 +571,27 @@ describe('HomePage', () => {
     expect(
       screen.getByRole('heading', { name: /page not found/i }),
     ).toBeInTheDocument()
+  })
+
+  it('ends the voter’s own ballot with the email sign-up', async () => {
+    vi.stubEnv('VITE_TURNSTILE_SITE_KEY', 'site-key')
+    mockApi(200, ballot)
+    renderAt('/')
+    await lookUp('834 Lake St')
+    const results = await screen.findByRole('article')
+    const signup = screen.getByRole('region', {
+      name: 'Hear from VoteStack before your next election',
+    })
+    // The block names no election dates.
+    expect(signup).not.toHaveTextContent(/votes (again|next)/)
+    // After the ballot, not part of it.
+    expect(results).not.toContainElement(signup)
+    expect(
+      results.compareDocumentPosition(signup) &
+        Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy()
+    expect(screen.getByRole('textbox', { name: 'ZIP code' })).toHaveValue(
+      '60301',
+    )
   })
 })

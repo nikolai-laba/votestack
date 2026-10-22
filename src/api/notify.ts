@@ -1,7 +1,7 @@
 // Client for the Worker's POST /api/notify. A sign-up carries only an email
-// address and a ZIP code.
+// address, a ZIP code and where on the site the form was.
 
-import type { ExpansionSignup, SignupField } from '../shared/notify.ts'
+import type { Signup, SignupField } from '../shared/notify.ts'
 
 export type SignupErrorKind =
   'invalid' | 'verification' | 'rate_limited' | 'unavailable'
@@ -22,7 +22,7 @@ export class SignupSendError extends Error {
 }
 
 export async function sendSignup(
-  signup: ExpansionSignup & { turnstileToken: string },
+  signup: Signup & { turnstileToken: string },
 ): Promise<void> {
   let res: Response
   try {
