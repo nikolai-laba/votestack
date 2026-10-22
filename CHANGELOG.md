@@ -5,6 +5,10 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+### Added
+
+- On profile pages, a small info button on the "PACs and other committees" row of the campaign money breakdown opens a short note: these figures cover direct contributions to the candidate's own campaign, not independent spending by Super PACs (which can be much larger).
+
 ## [1.4.2] - 2026-10-21
 
 ### Security

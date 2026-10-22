@@ -3,9 +3,21 @@ import {
   MONEY_SOURCE_LABELS,
   showsMoneyShares,
   type MoneySectionData,
+  type MoneySourceKind,
   type MoneySummary,
 } from '../../shared/profile.ts'
+import { InfoHint } from '../InfoHint.tsx'
 import { ProfileSection } from './ProfileSection.tsx'
+
+/**
+ * The breakdown kind, per source, that holds PAC and other political-committee
+ * money and gets the Super PAC explanation hover.
+ */
+const PAC_HINT_KIND: Record<MoneySummary['source'], MoneySourceKind> = {
+  ISBE: 'transfer',
+  FEC: 'pac',
+  CA: 'pac',
+}
 
 const SOURCE_NAMES: Record<MoneySummary['source'], string> = {
   ISBE: 'Illinois State Board of Elections',
@@ -178,6 +190,17 @@ function Breakdown({ summary }: { summary: MoneySummary }) {
             <tr key={row.kind}>
               <th scope="row" className="py-1 pe-4 text-start font-normal">
                 {labels[row.kind] ?? row.kind}
+                {row.kind === PAC_HINT_KIND[summary.source] && (
+                  <InfoHint
+                    className="ms-1"
+                    label={`About ${labels[row.kind] ?? row.kind}`}
+                  >
+                    This covers direct contributions to the candidate&rsquo;s
+                    own campaign. Separate groups called Super PACs can also
+                    spend for or against a candidate on their own, often in much
+                    larger sums. That spending is not shown here.
+                  </InfoHint>
+                )}
               </th>
               <td className="py-1 text-end whitespace-nowrap tabular-nums">
                 {money(row.amount)}

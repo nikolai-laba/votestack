@@ -1,4 +1,5 @@
 import { render, screen, within } from '@testing-library/react'
+import userEvent from '@testing-library/user-event'
 import { describe, expect, it } from 'vitest'
 import type { MoneySummary } from '../../shared/profile.ts'
 import { MoneySection } from './MoneySection.tsx'
@@ -207,6 +208,59 @@ describe('MoneySection', () => {
       }),
     ).toHaveAttribute('href', 'https://netfile.com/public/MBU/campaign')
     expect(screen.queryByText(/Not found in public sources/)).toBeNull()
+  })
+
+  it('explains that the PAC row covers direct contributions, not Super PAC spending', async () => {
+    renderMoney(summary)
+    const pacRow = within(breakdownTable())
+      .getByRole('rowheader', {
+        name: /PACs, parties and other campaign committees/,
+      })
+      .closest('tr')!
+    const info = within(pacRow).getByRole('button', { name: /^About / })
+    await userEvent.click(info)
+    const tip = screen.getByRole('tooltip')
+    expect(tip).toHaveTextContent(/Super PACs/)
+    expect(tip).toHaveTextContent(/direct contributions/)
+    expect(tip).toHaveTextContent(/not shown here/)
+  })
+
+  it('puts the info button on the FEC PAC row, not on party or transfer rows', () => {
+    renderMoney({
+      ...summary,
+      source: 'FEC',
+      raised: 1000000,
+      breakdown: [
+        { kind: 'pac', amount: 200000 },
+        { kind: 'party', amount: 50000 },
+        { kind: 'transfer', amount: 50000 },
+      ],
+      largeSince: undefined,
+    })
+    const pacRow = within(breakdownTable())
+      .getByRole('rowheader', { name: 'PACs and other committees' })
+      .closest('tr')!
+    expect(
+      within(pacRow).getByRole('button', { name: /^About / }),
+    ).toBeInTheDocument()
+    const partyRow = within(breakdownTable())
+      .getByRole('rowheader', { name: 'Party committees' })
+      .closest('tr')!
+    expect(within(partyRow).queryByRole('button')).toBeNull()
+    const transferRow = within(breakdownTable())
+      .getByRole('rowheader', {
+        name: 'Transfers from other campaign committees',
+      })
+      .closest('tr')!
+    expect(within(transferRow).queryByRole('button')).toBeNull()
+  })
+
+  it('does not add the info button to non-PAC rows on ISBE', () => {
+    renderMoney(summary)
+    const smallRow = within(breakdownTable())
+      .getByRole('rowheader', { name: 'Small gifts ($150 or less)' })
+      .closest('tr')!
+    expect(within(smallRow).queryByRole('button')).toBeNull()
   })
 
   it('says when no committee is on file, instead of “not found”', () => {
