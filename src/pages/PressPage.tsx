@@ -125,9 +125,9 @@ export function PressPage() {
             October 17, 2026.
           </FactRow>
           <FactRow label="Each profile">
-            Overview, campaign money (official filings), endorsements (bar
-            association ratings for judges), and numbered sources with the date
-            read.
+            Overview, endorsements (bar association ratings for judges),
+            campaign money where official filings are available, and numbered
+            sources with the date read.
           </FactRow>
           <FactRow label="AI models">
             DeepSeek V4 Pro drafts each profile from public sources. Google
@@ -296,9 +296,9 @@ export function PressPage() {
           Local races (judges, school board, state legislature) often come with
           little for a careful voter to go on. VoteStack is a free site that
           gives every candidate on your Chicago, suburban Cook County, or Los
-          Angeles County ballot a short, sourced profile: their record, campaign
-          money and endorsements. Enter your address for Tuesday, November 3.
-          votestack.org
+          Angeles County ballot a short, sourced profile: their record,
+          endorsements and, where filings are available, campaign money. Enter
+          your address for Tuesday, November 3. votestack.org
         </Blurb>
         <h3 className="text-label font-semibold">100 words</h3>
         <Blurb>
@@ -306,12 +306,12 @@ export function PressPage() {
           below the top of the ballot are where even careful voters often find
           little to go on. VoteStack is a free site that gives every candidate
           on your Chicago, suburban Cook County, or Los Angeles County ballot a
-          short, sourced profile: their record, campaign money and endorsements,
-          with bar association ratings for judges. AI drafts each profile from
-          public sources and a second AI checks every sentence against its
-          source, so you can click through and read it yourself. VoteStack takes
-          no money from candidates, parties or campaigns. For Tuesday, November
-          3. votestack.org
+          short, sourced profile: their record and endorsements, with bar
+          association ratings for judges and campaign money where filings are
+          available. AI drafts each profile from public sources and a second AI
+          checks every sentence against its source, so you can click through and
+          read it yourself. VoteStack takes no money from candidates, parties or
+          campaigns. For Tuesday, November 3. votestack.org
         </Blurb>
         <h3 className="text-label font-semibold">Social post</h3>
         <Blurb>
