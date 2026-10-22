@@ -7,10 +7,12 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  // The app version from VERSION (the one source of truth), shown in the
-  // footer (src/version.ts).
+  // The release version from package.json (bumped and tagged v<version> on
+  // each release), shown in the footer (src/version.ts).
   define: {
-    __APP_VERSION__: JSON.stringify(readFileSync('VERSION', 'utf8').trim()),
+    __APP_VERSION__: JSON.stringify(
+      JSON.parse(readFileSync('package.json', 'utf8')).version,
+    ),
   },
   // The prerender step (scripts/prerender.ts) reads which chunks each page
   // needs from the manifest, then deletes it.
