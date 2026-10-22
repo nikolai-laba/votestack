@@ -12,49 +12,49 @@
   "tier": "mid",
   "incumbent": true,
   "overview": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-21",
     "items": [
       {
-        "text": "Jessica Vásquez was appointed 8th District Cook County Commissioner in May 2025. She previously was chief of staff to 35th Ward Alderman Carlos Ramirez-Rosa and worked at the Illinois Coalition for Immigrant and Refugee Rights. Her campaign says she helped manage $1.5 million for playgrounds, ballfields, and pedestrian safety through a participatory budgeting process.",
-        "cites": [1, 2, 3],
+        "text": "Jessica Vasquez was appointed Cook County commissioner for the 8th District in May 2025. She previously served as chief of staff to Alderman Carlos Ramirez-Rosa. Her campaign says she helped secure the 100-unit affordable Lucy Gonzalez Parsons Apartments. She also worked with the Illinois Coalition for Immigrant and Refugee Rights.",
+        "cites": [1, 2],
         "sentences": [
           {
-            "text": "Jessica Vásquez was appointed 8th District Cook County Commissioner in May 2025.",
+            "text": "Jessica Vasquez was appointed Cook County commissioner for the 8th District in May 2025.",
             "cites": [1]
           },
           {
-            "text": "She previously was chief of staff to 35th Ward Alderman Carlos Ramirez-Rosa and worked at the Illinois Coalition for Immigrant and Refugee Rights.",
-            "cites": [2]
+            "text": "She previously served as chief of staff to Alderman Carlos Ramirez-Rosa.",
+            "cites": [1]
           },
           {
-            "text": "Her campaign says she helped manage $1.5 million for playgrounds, ballfields, and pedestrian safety through a participatory budgeting process.",
-            "cites": [3]
+            "text": "Her campaign says she helped secure the 100-unit affordable Lucy Gonzalez Parsons Apartments.",
+            "cites": [1]
+          },
+          {
+            "text": "She also worked with the Illinois Coalition for Immigrant and Refugee Rights.",
+            "cites": [2]
           }
         ]
       },
       {
-        "text": "Her priorities include property tax relief, protecting healthcare access, and expanding county resources. Her campaign says she supported a county program offering up to $25,000 in down payment assistance. She co-introduced a resolution requiring county offices to report interactions with immigration officials. She has criticized the county’s property tax computer system for delayed bills. She does not support county funding for a new Bears stadium.",
+        "text": "As commissioner, she supports protecting Cook County Health and adding a dental clinic at the Belmont Cragin Health Center. She advocates for making county revenue less reliant on property taxes. She co-sponsored an amendment to block county contractors from selling personal data to U.S. Immigration and Customs Enforcement. She voted against funding for a license plate reading system expansion.",
         "cites": [3, 4, 5, 6],
         "sentences": [
           {
-            "text": "Her priorities include property tax relief, protecting healthcare access, and expanding county resources.",
+            "text": "As commissioner, she supports protecting Cook County Health and adding a dental clinic at the Belmont Cragin Health Center.",
             "cites": [3]
           },
           {
-            "text": "Her campaign says she supported a county program offering up to $25,000 in down payment assistance.",
+            "text": "She advocates for making county revenue less reliant on property taxes.",
             "cites": [4]
           },
           {
-            "text": "She co-introduced a resolution requiring county offices to report interactions with immigration officials.",
+            "text": "She co-sponsored an amendment to block county contractors from selling personal data to U.S. Immigration and Customs Enforcement.",
             "cites": [5]
           },
           {
-            "text": "She has criticized the county’s property tax computer system for delayed bills.",
+            "text": "She voted against funding for a license plate reading system expansion.",
             "cites": [6]
-          },
-          {
-            "text": "She does not support county funding for a new Bears stadium.",
-            "cites": [5]
           }
         ]
       }
@@ -79,91 +79,233 @@
     ]
   },
   "endorsements": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-21",
     "items": [
       {
-        "organization": "International Union of Operating Engineers Local 150",
-        "kind": "union",
+        "organization": "Chicago Tribune Editorial Board",
+        "kind": "editorial_board",
+        "cites": [4]
+      },
+      {
+        "organization": "Congresswoman Delia Ramirez",
+        "kind": "elected_official",
+        "party": "Democratic",
         "cites": [7]
       },
       {
-        "organization": "International Union of Operating Engineers Local 399",
-        "kind": "union",
-        "cites": [8]
+        "organization": "Cook County Board President Toni Preckwinkle",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Senator Graciela Guzman",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Senator Omar Aquino",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Senator Robert Martwick",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Representative Will Guzzardi",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Representative Lilian Jimenez",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "State Representative Lindsey LaPointe",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "County Commissioner, 1st District Tara Stamps",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "County Commissioner, 7th District Alma Anaya",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "County Commissioner, 13th District Josina Morita",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "MWRD Commissioner Eira Corral Sepúlveda",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "35th Ward Alderperson Anthony Quezada",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "33rd Ward Alderperson Rossana Rodriguez-Sanchez",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "30th Ward Alderperson Ruth Cruz",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "26th Ward Alderperson Jessie Fuentes",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "1st Ward Alderperson Daniel La Spata",
+        "kind": "elected_official",
+        "cites": [7]
       },
       {
         "organization": "Chicago Federation of Labor",
         "kind": "union",
-        "cites": [19]
-      },
-      {
-        "organization": "Run for Something",
-        "kind": "organization",
-        "cites": [9]
-      },
-      {
-        "organization": "Citizen Action/Illinois",
-        "kind": "organization",
-        "cites": [10]
-      },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [11] },
-      {
-        "organization": "Better Streets Chicago Action Fund",
-        "kind": "organization",
-        "cites": [12]
-      },
-      {
-        "organization": "Chicago Growth Project",
-        "kind": "organization",
-        "cites": [13]
-      },
-      {
-        "organization": "33rd Ward Working Families",
-        "kind": "organization",
-        "cites": [14]
-      },
-      { "organization": "AFSCME Council 31", "kind": "union", "cites": [15] },
-      {
-        "organization": "Equality Illinois",
-        "kind": "organization",
-        "cites": [16]
-      },
-      {
-        "organization": "SEIU Healthcare Illinois",
-        "kind": "union",
-        "cites": [17]
+        "cites": [7]
       },
       {
         "organization": "SEIU Illinois State Council",
         "kind": "union",
-        "cites": [18]
+        "cites": [7]
       },
-      { "organization": "SEIU Local 73", "kind": "union", "cites": [18] },
       {
-        "organization": "Chicago Laborers' District Council",
+        "organization": "Chicago Teachers Union",
         "kind": "union",
-        "cites": [20]
+        "cites": [7]
+      },
+      { "organization": "AFSCME", "kind": "union", "cites": [7] },
+      { "organization": "Sierra Club", "kind": "organization", "cites": [7] },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [7] },
+      {
+        "organization": "Citizen Action Illinois",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Run for Something",
+        "kind": "organization",
+        "cites": [7]
       },
       {
         "organization": "Illinois Nurses Association",
         "kind": "union",
-        "cites": [21]
+        "cites": [7]
       },
+      {
+        "organization": "Chicago and Midwest Joint Board of Workers United",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Cook County College Teachers Union",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Mid-America Carpenters Regional Council PAC",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Teamsters Volunteers in Politics",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "I.B.E.W. LOCAL #134", "kind": "union", "cites": [7] },
+      {
+        "organization": "Iron Workers Local 63",
+        "kind": "union",
+        "cites": [7]
+      },
+      { "organization": "Sign Painters DC #14", "kind": "union", "cites": [7] },
+      {
+        "organization": "Chicagoland Operators PAC (Local 150)",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "The People's Lobby",
+        "kind": "organization",
+        "cites": [7]
+      },
+      { "organization": "mijente", "kind": "organization", "cites": [7] },
+      {
+        "organization": "Better Streets Chicago Action Fund",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Latino Leadership Council",
+        "kind": "organization",
+        "cites": [7]
+      },
+      {
+        "organization": "Cook County Latino Democrats",
+        "kind": "organization",
+        "cites": [7]
+      },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [8] },
+      {
+        "organization": "Chicago Laborers' District Council",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [11]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [12]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [13] },
       {
         "organization": "United Neighbors of the 35th Ward (UN35)",
         "kind": "organization",
-        "cites": [22]
+        "cites": [14]
       }
     ]
   },
   "sources": [
     {
       "id": 1,
-      "title": "Jessica Vasquez appointed as Cook County 8th District commissioner",
-      "publisher": "ABC7 Chicago",
-      "url": "https://abc7chicago.com/post/jessica-vasquez-appointed-replace-anthony-joel-quezada-cook-county-8th-district-commissioner-chicago-city-council-move/16323647/",
-      "kind": "news",
-      "viewedAt": "2026-10-07"
+      "title": "Our Staff — Commissionervasquez.org",
+      "publisher": "commissionervasquez.org",
+      "url": "https://www.commissionervasquez.org/our-staff",
+      "kind": "candidate",
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 2,
@@ -171,103 +313,47 @@
       "publisher": "WTTW",
       "url": "https://news.wttw.com/2025/05/05/jessica-vasquez-picked-fill-vacant-8th-district-cook-county-board-seat",
       "kind": "news",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 3,
-      "title": "Meet Jessica",
-      "publisher": "Vasquez for Cook County campaign",
-      "url": "https://www.vasquezforcookcounty.org/about",
+      "title": "Jessica Vásquez For Cook County Commissioner",
+      "publisher": "vasquezforcookcounty.org",
+      "url": "https://www.vasquezforcookcounty.org/",
       "kind": "candidate",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 4,
-      "title": "Jessica Vásquez For Cook County Commissioner",
-      "publisher": "Vasquez for Cook County campaign",
-      "url": "https://www.vasquezforcookcounty.org/",
-      "kind": "candidate",
-      "viewedAt": "2026-10-07"
+      "title": "Editorial: Jessica Vasquez for Cook County Board 8th District",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/10/15/editorial-jessica-vasquez-cook-county-board-8th-district/",
+      "kind": "news",
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 5,
-      "title": "Jessica In The News",
-      "publisher": "Vasquez for Cook County campaign",
-      "url": "https://www.vasquezforcookcounty.org/news",
-      "kind": "candidate",
-      "viewedAt": "2026-10-07"
+      "title": "Cook County commissioner seeks more data protection from ICE: ‘Our duty to protect it'",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/10/21/cook-county-commisioner-data-ice/",
+      "kind": "news",
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 6,
-      "title": "Editorial: Jessica Vásquez for Cook County Board 8th District Democratic primary",
-      "publisher": "Chicago Tribune",
-      "url": "https://www.chicagotribune.com/2026/02/18/editorial-jessica-vasquez-cook-county-board-8th-district-democratic-primary/",
+      "title": "Cook County proposes banning data sales to ICE",
+      "publisher": "Big Country News Connection",
+      "url": "https://www.bigcountrynewsconnection.com/cook-county-proposes-banning-data-sales-to-ice/",
       "kind": "news",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 7,
-      "title": "ILLINOIS ENDORSEMENTS",
-      "publisher": "International Union of Operating Engineers Local 150",
-      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 8,
-      "title": "2026 local 399 illinois - primary election endorsements",
-      "publisher": "International Union of Operating Engineers Local 399",
-      "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 9,
-      "title": "Jessica Vásquez",
-      "publisher": "Run for Something",
-      "url": "https://directory.runforsomething.net/candidate/33a9fd7f914cd8e914edf8da12262864/vasquez-jessica/",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 10,
-      "title": "Spring 2026 Endorsements — Citizen Action/Illinois",
-      "publisher": "Citizen Action/Illinois",
-      "url": "https://citizenaction-il.org/spring26endorsements",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 11,
-      "title": "Endorsements and Election Information - Personal PAC",
-      "publisher": "Personal PAC",
-      "url": "https://personalpac.org/elections/",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 12,
-      "title": "2026 Endorsements — Better Streets Chicago Action Fund",
-      "publisher": "Better Streets Chicago Action Fund",
-      "url": "https://www.bscactionfund.org/2026-midterms/endorsements",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 13,
-      "title": "Endorsements - Chicago Growth Project",
-      "publisher": "Chicago Growth Project",
-      "url": "https://www.chicagogrowthproject.org/endorsements",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 14,
-      "title": "2026 Primary Endorsements",
-      "publisher": "33rd Ward Working Families",
-      "url": "https://www.workingfamilies33.org/2026-primary-endorsements",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "title": "ENDORSEMENTS — Jessica Vásquez For Cook County Commissioner",
+      "publisher": "Jessica Vásquez For Cook County Commissioner",
+      "url": "https://www.vasquezforcookcounty.org/endorsements",
+      "kind": "candidate",
+      "viewedAt": "2026-10-21"
     },
     {
       "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
@@ -275,39 +361,7 @@
       "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
       "viewedAt": "2026-10-17",
       "kind": "endorser",
-      "id": 15
-    },
-    {
-      "title": "2026 General midterm Election endorsements",
-      "publisher": "Equality Illinois",
-      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 16
-    },
-    {
-      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
-      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
-      "url": "https://seiuhcilin.org/resources/election-information/",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 17
-    },
-    {
-      "title": "Election 2026: 2026 Endorsements",
-      "publisher": "SEIU Local 73",
-      "url": "https://seiu73.org/election-2026/",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 18
-    },
-    {
-      "title": "November 3, 2026 General Election Endorsed Candidates",
-      "publisher": "Chicago Federation of Labor",
-      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
-      "viewedAt": "2026-10-07",
-      "kind": "endorser",
-      "id": 19
+      "id": 8
     },
     {
       "title": "Chicago Laborers’ District Council Endorsements for the November 2026 General Election",
@@ -315,15 +369,39 @@
       "url": "https://www.liunachicago.org/content/documents/cldc_2026_endorsement_template.pdf",
       "viewedAt": "2026-10-18",
       "kind": "endorser",
-      "id": 20
+      "id": 9
     },
     {
-      "title": "Illinois Nurses Association General Election Endorsements",
-      "publisher": "Illinois Nurses Association (INA-PAC)",
-      "url": "https://illinoisnurses.com/wp-content/uploads/2026/07/INA-General-Election-Endorsements.pdf",
-      "viewedAt": "2026-10-18",
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
       "kind": "endorser",
-      "id": 21
+      "id": 10
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 11
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 12
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 13
     },
     {
       "title": "35th Ward Progressive Voter Guide: 2026 Illinois General Election",
@@ -331,13 +409,13 @@
       "url": "https://www.un35.org/elections/",
       "viewedAt": "2026-10-18",
       "kind": "endorser",
-      "id": 22
+      "id": 14
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
-    "promptVersion": "f006-4",
-    "generatedAt": "2026-10-07T17:22:50.813Z",
-    "version": 8
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-22T04:42:22.787Z",
+    "version": 9
   }
 }

@@ -8,51 +8,53 @@
   "kind": "candidate",
   "tier": "mid",
   "overview": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-21",
     "items": [
       {
-        "text": "Patrick Hanley is a small business owner and president of the New Trier Democrats. He chairs the Winnetka Environmental and Forestry Commission. He co-founded Operation Swing State. His campaign says the group mobilized over 10,000 volunteers in 2024 to canvass in Michigan and Wisconsin. His campaign says he previously worked in the U.S. Senate and the Justice Department.",
-        "cites": [1, 2, 3],
+        "text": "Patrick Hanley is a small business owner and president of the New Trier Democrats. He co-founded Operation Swing State, which mobilized volunteers to knock on doors in Michigan and Wisconsin in 2024. He chaired the Environmental and Forest Commission and worked for U.S. senators and the Department of Justice.",
+        "cites": [1, 2],
         "sentences": [
           {
             "text": "Patrick Hanley is a small business owner and president of the New Trier Democrats.",
             "cites": [1]
           },
           {
-            "text": "He chairs the Winnetka Environmental and Forestry Commission.",
+            "text": "He co-founded Operation Swing State, which mobilized volunteers to knock on doors in Michigan and Wisconsin in 2024.",
             "cites": [2]
           },
-          { "text": "He co-founded Operation Swing State.", "cites": [3] },
           {
-            "text": "His campaign says the group mobilized over 10,000 volunteers in 2024 to canvass in Michigan and Wisconsin.",
-            "cites": [3]
-          },
-          {
-            "text": "His campaign says he previously worked in the U.S. Senate and the Justice Department.",
-            "cites": [3]
+            "text": "He chaired the Environmental and Forest Commission and worked for U.S. senators and the Department of Justice.",
+            "cites": [2]
           }
         ]
       },
       {
-        "text": "He supports a progressive income tax. He supports a progressive property tax. He wants to increase housing statewide. He wants to explore ranked choice voting. He opposes public funding for a Chicago Bears stadium. He wants Illinois to limit federal immigration enforcement using 10th Amendment authority. He supports reproductive rights. He opposed a 30-year coal-power purchasing agreement.",
-        "cites": [4, 5, 6, 3, 7],
+        "text": "He supports a progressive income tax but opposes a surcharge on incomes over $1 million. He wants to ease zoning for accessory dwelling units and backs community land trusts. He supports Illinois's 100% clean energy goal for 2050. He wants to protect Medicaid expansion and cover mental health services. He would peg child-care assistance eligibility to local living costs. He backs the RIFL Act for gun violence prevention.",
+        "cites": [3, 4, 5],
         "sentences": [
-          { "text": "He supports a progressive income tax.", "cites": [4] },
-          { "text": "He supports a progressive property tax.", "cites": [5] },
-          { "text": "He wants to increase housing statewide.", "cites": [5] },
-          { "text": "He wants to explore ranked choice voting.", "cites": [6] },
           {
-            "text": "He opposes public funding for a Chicago Bears stadium.",
+            "text": "He supports a progressive income tax but opposes a surcharge on incomes over $1 million.",
+            "cites": [3]
+          },
+          {
+            "text": "He wants to ease zoning for accessory dwelling units and backs community land trusts.",
+            "cites": [4]
+          },
+          {
+            "text": "He supports Illinois's 100% clean energy goal for 2050.",
+            "cites": [4]
+          },
+          {
+            "text": "He wants to protect Medicaid expansion and cover mental health services.",
+            "cites": [4]
+          },
+          {
+            "text": "He would peg child-care assistance eligibility to local living costs.",
             "cites": [5]
           },
           {
-            "text": "He wants Illinois to limit federal immigration enforcement using 10th Amendment authority.",
-            "cites": [3]
-          },
-          { "text": "He supports reproductive rights.", "cites": [4] },
-          {
-            "text": "He opposed a 30-year coal-power purchasing agreement.",
-            "cites": [7]
+            "text": "He backs the RIFL Act for gun violence prevention.",
+            "cites": [5]
           }
         ]
       }
@@ -77,284 +79,213 @@
     ]
   },
   "endorsements": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-21",
     "items": [
       {
         "organization": "U.S. Rep. Jan Schakowsky",
         "kind": "elected_official",
-        "party": "Democratic",
-        "cites": [2]
+        "cites": [6]
+      },
+      {
+        "organization": "State Sen. Adriane Johnson",
+        "kind": "elected_official",
+        "cites": [6]
       },
       {
         "organization": "State Sen. Laura Murphy",
         "kind": "elected_official",
-        "party": "Democratic",
-        "cites": [8]
+        "cites": [6]
       },
       {
         "organization": "State Sen. Julie Morrison",
         "kind": "elected_official",
-        "party": "Democratic",
-        "cites": [8]
+        "cites": [6]
       },
       {
-        "organization": "Former Cook County Clerk David Orr",
+        "organization": "State Sen. Rachel Ventura",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "State Sen. Mark Walker",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Former State Sen. Melinda Bush",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Former State Sen. Heather Steans",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Former State Sen. Carol Ronen",
+        "kind": "elected_official",
+        "cites": [6]
+      },
+      {
+        "organization": "Former State Rep. Lauren Beth Gash",
         "kind": "elected_official",
         "party": "Democratic",
-        "cites": [9]
+        "cites": [6]
       },
-      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [10] },
-      {
-        "organization": "Illinois Federation of Teachers",
-        "kind": "union",
-        "cites": [11]
-      },
-      { "organization": "Sierra Club", "kind": "organization", "cites": [12] },
       {
         "organization": "Planned Parenthood Illinois Action",
         "kind": "organization",
-        "cites": [13]
+        "cites": [6]
       },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [14] },
+      { "organization": "Sierra Club", "kind": "organization", "cites": [6] },
+      { "organization": "G-PAC", "kind": "organization", "cites": [6] },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [6] },
       {
         "organization": "Run for Something",
         "kind": "organization",
-        "cites": [15]
+        "cites": [6]
       },
       {
         "organization": "Abundant Housing Illinois",
         "kind": "organization",
-        "cites": [16]
+        "cites": [6]
       },
       {
-        "organization": "Better Streets Chicago Action Fund",
+        "organization": "United Hellenic Voters of America",
         "kind": "organization",
-        "cites": [17]
+        "cites": [6]
       },
       {
-        "organization": "New Trier Township Democrats",
-        "kind": "party",
-        "cites": [18]
-      },
-      {
-        "organization": "Northfield Township Democrats",
-        "kind": "party",
-        "cites": [9, 29]
-      },
-      {
-        "organization": "Chicago Federation of Labor",
-        "kind": "union",
-        "cites": [19]
-      },
-      {
-        "organization": "International Union of Operating Engineers Local 150",
-        "kind": "union",
-        "cites": [20]
-      },
-      { "organization": "AFSCME Council 31", "kind": "union", "cites": [21] },
-      {
-        "organization": "Chicago Tribune Editorial Board",
-        "kind": "editorial_board",
-        "cites": [22]
-      },
-      {
-        "organization": "Equality Illinois",
+        "organization": "College Democrats of Illinois",
         "kind": "organization",
-        "cites": [23]
+        "cites": [6]
       },
       {
-        "organization": "SEIU Healthcare Illinois",
-        "kind": "union",
-        "cites": [24]
-      },
-      {
-        "organization": "SEIU Illinois State Council",
-        "kind": "union",
-        "cites": [25]
-      },
-      { "organization": "SEIU Local 73", "kind": "union", "cites": [25] },
-      {
-        "organization": "Chicago Laborers' District Council",
-        "kind": "union",
-        "cites": [26]
-      },
-      {
-        "organization": "Cook County College Teachers Union Local 1600",
-        "kind": "union",
-        "cites": [27]
-      },
-      {
-        "organization": "Democratic Party of Evanston",
+        "organization": "Indivisible Skokie Morton Grove Lincolnwood",
         "kind": "organization",
-        "cites": [28]
+        "cites": [6]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [6]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [6] },
+      { "organization": "SEIU State Council", "kind": "union", "cites": [6] },
+      {
+        "organization": "Illinois Education Association",
+        "kind": "union",
+        "cites": [4]
       },
       {
         "organization": "Illinois Nurses Association",
         "kind": "union",
-        "cites": [30]
-      }
+        "cites": [4]
+      },
+      { "organization": "IUOE Local 150", "kind": "union", "cites": [4] },
+      { "organization": "IBEW Local 134", "kind": "union", "cites": [4] },
+      {
+        "organization": "Evanston Firefighters Association Local 742",
+        "kind": "union",
+        "cites": [6]
+      },
+      {
+        "organization": "Northfield Township Democrats",
+        "kind": "party",
+        "cites": [6]
+      },
+      {
+        "organization": "New Trier Township Democrats",
+        "kind": "party",
+        "cites": [6]
+      },
+      {
+        "organization": "Chicago Tribune Editorial Board",
+        "kind": "editorial_board",
+        "cites": [3]
+      },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [7] },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "Chicago Laborers' District Council",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Cook County College Teachers Union Local 1600",
+        "kind": "union",
+        "cites": [10]
+      },
+      {
+        "organization": "Democratic Party of Evanston",
+        "kind": "organization",
+        "cites": [11]
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [12]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [13]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [14] }
     ]
   },
   "sources": [
     {
       "id": 1,
-      "title": "Candidate profile: Patrick Hanley",
-      "publisher": "Evanston RoundTable",
-      "url": "https://evanstonroundtable.com/govpack_profiles/candidate-profile-patrick-hanley/",
+      "title": "Patrick Hanley, Democratic candidate for Illinois Senate 9th District - Chicago Sun-Times",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/candidate-questionnaires/patrick-hanley-illinois-senate-primary-9th-district",
       "kind": "news",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 2,
-      "title": "New Trier Dems' Hanley announces bid for state senate",
-      "publisher": "The Record North Shore",
-      "url": "https://www.therecordnorthshore.org/2025/05/09/schakowsky-endorsement-in-tow-new-trier-dems-hanley-announces-bid-for-state-senate/",
+      "title": "Hanley tops Ruttenberg in 9th District State Senate race",
+      "publisher": "Evanston RoundTable",
+      "url": "https://evanstonroundtable.com/2026/03/18/hanley-tops-ruttenberg-in-9th-district-state-senate-race/",
       "kind": "news",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 3,
-      "title": "Ruttenberg and Hanley make primary ballot for state Senate",
-      "publisher": "The Daily Northwestern",
-      "url": "https://dailynorthwestern.com/2025/11/04/city/filing-deadline-closes-ruttenberg-and-hanley-to-meet-in-march-matchup-for-state-senate/",
+      "title": "Editorial: Patrick Hanley for Illinois 9th Senate District",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/10/08/editorial-patrick-hanley-illinois-9th-senate-district/",
       "kind": "news",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 4,
-      "title": "Editorial: Patrick Hanley for Illinois 9th Senate District Democratic primary",
-      "publisher": "Chicago Tribune",
-      "url": "https://www.chicagotribune.com/2026/02/12/editorial-patrick-hanley-illinois-9th-senate-district-democratic-primary/",
+      "title": "Hanley seeks District 9 state Senate seat as Democrat | North Shore Weekly",
+      "publisher": "North Shore Weekly",
+      "url": "https://northshoreweekly.com/articles/hanley-seeks-district-9-state-senate-seat-as-democrat-mv14tozk",
       "kind": "news",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 5,
-      "title": "State Senate hopefuls face off in Glenview",
-      "publisher": "Evanston Now",
-      "url": "https://evanstonnow.com/state-senate-hopefuls-face-off-in-glenview/",
-      "kind": "news",
-      "viewedAt": "2026-10-07"
+      "title": "CANDIDATE QUESTIONNAIRES",
+      "publisher": "Jewish United Fund",
+      "url": "https://www.juf.org/wp-content/uploads/2026/02/IL_Senate_9.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 6,
-      "title": "Patrick Hanley declares win in state Senate Democratic ...",
-      "publisher": "Chicago Tribune",
-      "url": "https://www.chicagotribune.com/2026/03/20/patrick-hanley-win-state-senate-primary/",
-      "kind": "news",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 7,
-      "title": "Hanley for Illinois",
+      "title": "Endorsements! — Hanley for Illinois",
       "publisher": "Hanley for Illinois",
-      "url": "https://www.hanleyforillinois.com",
+      "url": "https://www.hanleyforillinois.com/endorsements",
       "kind": "candidate",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 8,
-      "title": "Winnetka environmentalist Patrick Hanley hopes to bring sustainability, grassroots vision to state senate",
-      "publisher": "The Daily Northwestern",
-      "url": "https://dailynorthwestern.com/2025/05/19/city/winnetka-environmentalist-patrick-hanley-hopes-to-bring-sustainability-grassroots-vision-to-state-senate/",
-      "kind": "news",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 9,
-      "title": "Press — Hanley for Illinois",
-      "publisher": "Hanley for Illinois",
-      "url": "https://www.hanleyforillinois.com/news",
-      "kind": "candidate",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 10,
-      "title": "Biss gets coveted AFL-CIO endorsement",
-      "publisher": "Evanston Now",
-      "url": "https://evanstonnow.com/biss-gets-coveted-afl-cio-endorsement/",
-      "kind": "news",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 11,
-      "title": "Illinois Federation of Teachers Announces Slate of Endorsements for 2026 Primaries",
-      "publisher": "Illinois Federation of Teachers",
-      "url": "https://www.ift-aft.org/post/illinois-federation-of-teachers-announces-slate-of-endorsements-for-2026-primaries",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 12,
-      "title": "Sierra Club Endorses Patrick Hanley",
-      "publisher": "Hanley for Illinois",
-      "url": "https://www.hanleyforillinois.com/news/press-release-sierra-club-endorses-patrick-hanley",
-      "kind": "candidate",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 13,
-      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
-      "publisher": "Windy City Times",
-      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
-      "kind": "news",
-      "viewedAt": "2026-10-17"
-    },
-    {
-      "id": 14,
-      "title": "Endorsements and Election Information",
-      "publisher": "Personal PAC",
-      "url": "https://personalpac.org/elections/",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 15,
-      "title": "Patrick Hanley",
-      "publisher": "Run for Something",
-      "url": "https://runforsomething.net/candidates/patrick-hanley/",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 16,
-      "title": "Patrick Hanley",
-      "publisher": "Abundant Housing Illinois",
-      "url": "https://abundanthousingillinois.org/endorsements/patrick-hanley/",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 17,
-      "title": "2026 Endorsements",
-      "publisher": "Better Streets Chicago Action Fund",
-      "url": "https://www.bscactionfund.org/2026-midterms/endorsements",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 18,
-      "title": "New Trier Dems call mailer 'dirty politics'",
-      "publisher": "Evanston Now",
-      "url": "https://evanstonnow.com/new-trier-dems-call-mailer-dirty-politics/",
-      "kind": "news",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "title": "November 3, 2026 General Election Endorsed Candidates",
-      "publisher": "Chicago Federation of Labor",
-      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
-      "viewedAt": "2026-10-07",
-      "kind": "endorser",
-      "id": 19
-    },
-    {
-      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
-      "publisher": "IUOE Local 150",
-      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
-      "viewedAt": "2026-10-07",
-      "kind": "endorser",
-      "id": 20
+      "viewedAt": "2026-10-21"
     },
     {
       "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
@@ -362,39 +293,15 @@
       "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
       "viewedAt": "2026-10-17",
       "kind": "endorser",
-      "id": 21
+      "id": 7
     },
     {
-      "title": "Tribune Editorial Board endorsements for the 2026 Illinois general election",
-      "publisher": "Chicago Tribune (syndicated on Yahoo News, Oct. 11, 2026)",
-      "url": "https://www.yahoo.com/news/politics/articles/tribune-editorial-board-endorsements-2026-111600003.html",
-      "viewedAt": "2026-10-17",
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
       "kind": "endorser",
-      "id": 22
-    },
-    {
-      "title": "2026 General midterm Election endorsements",
-      "publisher": "Equality Illinois",
-      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 23
-    },
-    {
-      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
-      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
-      "url": "https://seiuhcilin.org/resources/election-information/",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 24
-    },
-    {
-      "title": "Election 2026: 2026 Endorsements",
-      "publisher": "SEIU Local 73",
-      "url": "https://seiu73.org/election-2026/",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 25
+      "id": 8
     },
     {
       "title": "Chicago Laborers’ District Council Endorsements for the November 2026 General Election",
@@ -402,7 +309,7 @@
       "url": "https://www.liunachicago.org/content/documents/cldc_2026_endorsement_template.pdf",
       "viewedAt": "2026-10-18",
       "kind": "endorser",
-      "id": 26
+      "id": 9
     },
     {
       "title": "November 2026 General Election Endorsements",
@@ -410,7 +317,7 @@
       "url": "https://www.ccctu.org/post/november-2026-general-election-endorsements",
       "viewedAt": "2026-10-18",
       "kind": "endorser",
-      "id": 27
+      "id": 10
     },
     {
       "title": "Recommended Candidates (sample ballot, Nov. 3, 2026)",
@@ -418,29 +325,37 @@
       "url": "https://www.evanstondems.com/election-resources.html#recommended-candidates",
       "viewedAt": "2026-10-18",
       "kind": "endorser",
-      "id": 28
+      "id": 11
     },
     {
-      "title": "Candidates 2026",
-      "publisher": "Democrats of Northfield Township",
-      "url": "https://www.northfielddems.org/candidates-2026",
-      "viewedAt": "2026-10-18",
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
       "kind": "endorser",
-      "id": 29
+      "id": 12
     },
     {
-      "title": "Illinois Nurses Association General Election Endorsements",
-      "publisher": "Illinois Nurses Association (INA-PAC)",
-      "url": "https://illinoisnurses.com/wp-content/uploads/2026/07/INA-General-Election-Endorsements.pdf",
-      "viewedAt": "2026-10-18",
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
       "kind": "endorser",
-      "id": 30
+      "id": 13
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-07T20:56:33.129Z",
-    "version": 5
+    "generatedAt": "2026-10-22T05:03:28.337Z",
+    "version": 7
   }
 }

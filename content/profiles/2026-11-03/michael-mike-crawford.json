@@ -12,46 +12,47 @@
   "tier": "mid",
   "incumbent": true,
   "overview": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-21",
     "items": [
       {
-        "text": "Michael Crawford has served as State Representative for the 31st District since January 2025. He previously worked as an educator and administrator at The Chicago School, City Colleges of Chicago and Chicago State University.",
-        "cites": [1],
+        "text": "Michael \"Mike\" Crawford was elected to the Illinois House in 2024. He is a postsecondary educator who has worked at The Chicago School, City Colleges of Chicago, and Northern Illinois University. His campaign says his priorities include expanding homeownership, equitable school funding, and small business development. He called for increased state funding for higher education.",
+        "cites": [1, 2, 3],
         "sentences": [
           {
-            "text": "Michael Crawford has served as State Representative for the 31st District since January 2025.",
+            "text": "Michael \"Mike\" Crawford was elected to the Illinois House in 2024.",
             "cites": [1]
           },
           {
-            "text": "He previously worked as an educator and administrator at The Chicago School, City Colleges of Chicago and Chicago State University.",
+            "text": "He is a postsecondary educator who has worked at The Chicago School, City Colleges of Chicago, and Northern Illinois University.",
+            "cites": [2]
+          },
+          {
+            "text": "His campaign says his priorities include expanding homeownership, equitable school funding, and small business development.",
             "cites": [1]
+          },
+          {
+            "text": "He called for increased state funding for higher education.",
+            "cites": [3]
           }
         ]
       },
       {
-        "text": "He sponsored 2025 laws addressing student teacher salaries and special education parental notice. According to his campaign, he sponsored a 2026 law creating apprenticeship pathways in barbering and cosmetology. He supported a 2025 transit plan to add a new Green Line station in Englewood. He also supported 2026 legislation expanding energy efficiency programs. In 2025, he voted for legislation concerning reproductive health medication, parental leave and criminal justice.",
-        "cites": [1, 2, 3, 4, 5],
+        "text": "He sponsored a 2026 law creating apprenticeship paths in barbering and cosmetology. He co-sponsored a bill requiring health insurance to cover heart scans for adults 40 and older. Laws he sponsored address special education parental notice, child welfare disclosure, and student teacher salaries. He sponsored a 2025 transit reform law.",
+        "cites": [4, 5, 6, 7],
         "sentences": [
           {
-            "text": "He sponsored 2025 laws addressing student teacher salaries and special education parental notice.",
-            "cites": [1]
-          },
-          {
-            "text": "According to his campaign, he sponsored a 2026 law creating apprenticeship pathways in barbering and cosmetology.",
-            "cites": [2]
-          },
-          {
-            "text": "He supported a 2025 transit plan to add a new Green Line station in Englewood.",
-            "cites": [3]
-          },
-          {
-            "text": "He also supported 2026 legislation expanding energy efficiency programs.",
+            "text": "He sponsored a 2026 law creating apprenticeship paths in barbering and cosmetology.",
             "cites": [4]
           },
           {
-            "text": "In 2025, he voted for legislation concerning reproductive health medication, parental leave and criminal justice.",
+            "text": "He co-sponsored a bill requiring health insurance to cover heart scans for adults 40 and older.",
             "cites": [5]
-          }
+          },
+          {
+            "text": "Laws he sponsored address special education parental notice, child welfare disclosure, and student teacher salaries.",
+            "cites": [6]
+          },
+          { "text": "He sponsored a 2025 transit reform law.", "cites": [7] }
         ]
       }
     ]
@@ -77,132 +78,146 @@
     ]
   },
   "endorsements": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-21",
     "items": [
-      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [6] },
+      {
+        "organization": "Chicago Teachers Union",
+        "kind": "union",
+        "cites": [8]
+      },
+      {
+        "organization": "Sierra Club Illinois",
+        "kind": "organization",
+        "cites": [9]
+      },
       {
         "organization": "Citizen Action/Illinois",
         "kind": "organization",
-        "cites": [7]
-      },
-      {
-        "organization": "Better Streets Chicago Action Fund",
-        "kind": "organization",
-        "cites": [8]
+        "cites": [10]
       },
       {
         "organization": "Chicago Federation of Labor",
         "kind": "union",
-        "cites": [9]
+        "cites": [11]
       },
-      {
-        "organization": "International Union of Operating Engineers Local 150",
-        "kind": "union",
-        "cites": [10]
-      },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [11] },
-      {
-        "organization": "Equality Illinois",
-        "kind": "organization",
-        "cites": [12]
-      },
-      {
-        "organization": "Illinois Federation of Teachers",
-        "kind": "union",
-        "cites": [13]
-      },
-      {
-        "organization": "SEIU Healthcare Illinois",
-        "kind": "union",
-        "cites": [14]
-      },
-      {
-        "organization": "SEIU Illinois State Council",
-        "kind": "union",
-        "cites": [15]
-      },
-      { "organization": "SEIU Local 73", "kind": "union", "cites": [15] },
       {
         "organization": "Chicago Laborers' District Council",
         "kind": "union",
-        "cites": [16]
+        "cites": [12]
       },
       {
         "organization": "Cook County College Teachers Union Local 1600",
         "kind": "union",
-        "cites": [17]
+        "cites": [13]
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [14]
+      },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [15]
       },
       {
         "organization": "Illinois Nurses Association",
         "kind": "union",
+        "cites": [16]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [17]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
         "cites": [18]
-      }
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [18] }
     ]
   },
   "sources": [
     {
       "id": 1,
+      "title": "About Mike | Support Local Progress Today — State ...",
+      "publisher": "State Representative Mike Crawford campaign",
+      "url": "https://www.staterepmikecrawford.com/aboutmike",
+      "kind": "candidate",
+      "viewedAt": "2026-10-21"
+    },
+    {
+      "id": 2,
+      "title": "» Michael Crawford",
+      "publisher": "Illinois House Democratic Caucus",
+      "url": "https://ilhousedems.com/project/michael-crawford/",
+      "kind": "official",
+      "viewedAt": "2026-10-21"
+    },
+    {
+      "id": 3,
+      "title": "Crawford Calls for Well Funded Higher Education Amid Trump’s Threats to Undermine Illinois Schools",
+      "publisher": "Illinois House Democratic Caucus",
+      "url": "https://ilhousedems.com/2025/03/06/crawford-calls-for-well-funded-higher-education-amid-trumps-threats-to-undermine-illinois-schools/",
+      "kind": "official",
+      "viewedAt": "2026-10-21"
+    },
+    {
+      "id": 4,
+      "title": "Illinois State Representative Michael “Mike” Crawford",
+      "publisher": "State Representative Mike Crawford campaign",
+      "url": "https://www.staterepmikecrawford.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-21"
+    },
+    {
+      "id": 5,
+      "title": "Crawford-Backed Measure to Expand Preventive Heart Screenings ...",
+      "publisher": "Illinois House Democratic Caucus",
+      "url": "https://ilhousedems.com/2026/04/15/crawford-backed-measure-to-expand-preventive-heart-screenings-passes-house/",
+      "kind": "official",
+      "viewedAt": "2026-10-21"
+    },
+    {
+      "id": 6,
       "title": "Michael Crawford (D) - Illinois General Assembly - Member",
       "publisher": "Illinois General Assembly",
       "url": "https://www.ilga.gov/house/members/details/3452",
       "kind": "official",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 2,
-      "title": "Illinois State Representative Michael “Mike” Crawford",
-      "publisher": "State Rep. Mike Crawford campaign",
-      "url": "https://www.staterepmikecrawford.com/",
-      "kind": "candidate",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 3,
-      "title": "Crawford Backs Measure Fully Funding and Reforming Public Transit",
-      "publisher": "Illinois House Democratic Caucus",
-      "url": "https://ilhousedems.com/2025/11/07/crawford-backs-measure-fully-funding-and-reforming-public-transit/",
-      "kind": "candidate",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 4,
-      "title": "Crawford-Backed Legislation to Address Rising Energy Costs Signed Into Law",
-      "publisher": "Illinois House Democratic Caucus",
-      "url": "https://ilhousedems.com/2026/01/08/crawford-backed-legislation-to-address-rising-energy-costs-signed-into-law/",
-      "kind": "candidate",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 5,
-      "title": "Crawford Named Legislative Champion with 100% rating on Citizen Action/Illinois’ 2025 Legislative Scorecard",
-      "publisher": "Illinois House Democratic Caucus",
-      "url": "https://ilhousedems.com/2025/07/02/crawford-named-legislative-champion-with-100-rating-on-citizen-action-illinoiss-2025-legislative-scorecard/",
-      "kind": "candidate",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 6,
-      "title": "Illinois AFL-CIO 2026 Primary Election Endorsements",
-      "publisher": "Illinois AFL-CIO",
-      "url": "https://www.ilaflcio.org/wp-content/uploads/2025/12/IL-AFL-CIO-endorsements-120925.pdf",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 7,
+      "title": "Michael Crawford - Illinois House Democratic Caucus",
+      "publisher": "Illinois House Democratic Caucus",
+      "url": "https://ilhousedems.com/project/michael-crawford/page/3/?et_blog",
+      "kind": "official",
+      "viewedAt": "2026-10-21"
+    },
+    {
+      "id": 8,
+      "title": "Endorsements",
+      "publisher": "Chicago Teachers Union",
+      "url": "https://www.ctulocal1.org/pac/endorsements/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-21"
+    },
+    {
+      "id": 9,
+      "title": "2026 Endorsements",
+      "publisher": "Sierra Club Illinois",
+      "url": "https://www.sierraclub.org/illinois/2026-endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-21"
+    },
+    {
+      "id": 10,
       "title": "Endorsements — Citizen Action/Illinois",
       "publisher": "Citizen Action/Illinois",
       "url": "https://citizenaction-il.org/endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 8,
-      "title": "2026 Endorsements — Better Streets Chicago Action Fund",
-      "publisher": "Better Streets Chicago Action Fund",
-      "url": "https://www.bscactionfund.org/2026-midterms/endorsements",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
     },
     {
       "title": "November 3, 2026 General Election Endorsed Candidates",
@@ -210,55 +225,7 @@
       "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
-      "id": 9
-    },
-    {
-      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
-      "publisher": "IUOE Local 150",
-      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
-      "viewedAt": "2026-10-07",
-      "kind": "endorser",
-      "id": 10
-    },
-    {
-      "title": "Personal PAC 2026 General Election Endorsements",
-      "publisher": "Personal PAC",
-      "url": "https://personalpac.org/elections/",
-      "viewedAt": "2026-10-07",
-      "kind": "endorser",
       "id": 11
-    },
-    {
-      "title": "2026 General midterm Election endorsements",
-      "publisher": "Equality Illinois",
-      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 12
-    },
-    {
-      "title": "2026 voter information: IFT Endorsements",
-      "publisher": "Illinois Federation of Teachers",
-      "url": "https://www.ift-aft.org/vote",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 13
-    },
-    {
-      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
-      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
-      "url": "https://seiuhcilin.org/resources/election-information/",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 14
-    },
-    {
-      "title": "Election 2026: 2026 Endorsements",
-      "publisher": "SEIU Local 73",
-      "url": "https://seiu73.org/election-2026/",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 15
     },
     {
       "title": "Chicago Laborers’ District Council Endorsements for the November 2026 General Election",
@@ -266,7 +233,7 @@
       "url": "https://www.liunachicago.org/content/documents/cldc_2026_endorsement_template.pdf",
       "viewedAt": "2026-10-18",
       "kind": "endorser",
-      "id": 16
+      "id": 12
     },
     {
       "title": "November 2026 General Election Endorsements",
@@ -274,7 +241,23 @@
       "url": "https://www.ccctu.org/post/november-2026-general-election-endorsements",
       "viewedAt": "2026-10-18",
       "kind": "endorser",
-      "id": 17
+      "id": 13
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 15
     },
     {
       "title": "Illinois Nurses Association General Election Endorsements",
@@ -282,13 +265,29 @@
       "url": "https://illinoisnurses.com/wp-content/uploads/2026/07/INA-General-Election-Endorsements.pdf",
       "viewedAt": "2026-10-18",
       "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
       "id": 18
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
-    "promptVersion": "f006-4",
-    "generatedAt": "2026-10-07T18:03:09.145Z",
-    "version": 9
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-22T04:47:35.894Z",
+    "version": 11
   }
 }
