@@ -12,25 +12,39 @@
   "tier": "mid",
   "incumbent": true,
   "overview": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-21",
     "items": [
       {
-        "text": "Kam Buckner, a Democratic State Representative for Chicago's 26th District since 2019, is Speaker Pro Tempore. He was a vice president at Outfront Media and executive director of World Sport Chicago, a youth development nonprofit.",
+        "text": "Kam Buckner is the 26th District state representative and Speaker Pro Tempore, serving since 2019. He was previously executive director of World Sport Chicago, manager of neighborhood and government relations for the Chicago Cubs, and an aide to U.S. Senator Richard J. Durbin and New Orleans Mayor Mitch Landrieu.",
         "cites": [1],
         "sentences": [
           {
-            "text": "Kam Buckner, a Democratic State Representative for Chicago's 26th District since 2019, is Speaker Pro Tempore.",
+            "text": "Kam Buckner is the 26th District state representative and Speaker Pro Tempore, serving since 2019.",
             "cites": [1]
           },
           {
-            "text": "He was a vice president at Outfront Media and executive director of World Sport Chicago, a youth development nonprofit.",
+            "text": "He was previously executive director of World Sport Chicago, manager of neighborhood and government relations for the Chicago Cubs, and an aide to U.S. Senator Richard J. Durbin and New Orleans Mayor Mitch Landrieu.",
             "cites": [1]
           }
         ]
       },
       {
-        "text": "In 2026, laws he backed regulating consumer fees and expanding opportunities for people with records became law. A criminal justice reform bill he sponsored was signed in 2025. He sponsored gun control and collegiate athlete compensation legislation, and helped negotiate the state's clean energy package. He co-sponsored a bill requiring companies to disclose algorithmic pricing and let consumers opt out. He chiefly sponsored a megaprojects bill to convince the Chicago Bears to build an Arlington Heights stadium. He is a top House budget negotiator.",
-        "cites": [2, 3, 4, 5, 6, 1]
+        "text": "He has sponsored the Affordable Communities Act and measures on accessory dwelling units, Medicaid safety-net hospitals, and hospital worker staffing and safety. He sponsors the Municipal Home Rule Charter Act, which would let Chicago voters elect commissioners to draft a charter for final approval in 2030. He was the chief sponsor of a megaprojects measure passed by the House that allows developers to negotiate payments in lieu of taxes.",
+        "cites": [2, 3, 4],
+        "sentences": [
+          {
+            "text": "He has sponsored the Affordable Communities Act and measures on accessory dwelling units, Medicaid safety-net hospitals, and hospital worker staffing and safety.",
+            "cites": [2]
+          },
+          {
+            "text": "He sponsors the Municipal Home Rule Charter Act, which would let Chicago voters elect commissioners to draft a charter for final approval in 2030.",
+            "cites": [3]
+          },
+          {
+            "text": "He was the chief sponsor of a megaprojects measure passed by the House that allows developers to negotiate payments in lieu of taxes.",
+            "cites": [4]
+          }
+        ]
       }
     ]
   },
@@ -55,34 +69,44 @@
     ]
   },
   "endorsements": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-21",
     "items": [
-      { "organization": "Personal PAC", "kind": "organization", "cites": [7] },
+      { "organization": "Giffords PAC", "kind": "organization", "cites": [5] },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [6] },
       {
-        "organization": "Citizen Action/Illinois",
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Planned Parenthood Illinois Action",
         "kind": "organization",
         "cites": [8]
       },
       {
-        "organization": "Cook County College Teachers Union",
-        "kind": "union",
-        "cites": [20]
-      },
-      {
-        "organization": "Better Streets Chicago Action Fund",
+        "organization": "Citizen Action/Illinois",
         "kind": "organization",
         "cites": [9]
+      },
+      {
+        "organization": "Gun Violence Prevention PAC (G-PAC)",
+        "kind": "organization",
+        "cites": [5]
+      },
+      {
+        "organization": "Cook County College Teachers Union",
+        "kind": "union",
+        "cites": [12]
       },
       {
         "organization": "Chicago Federation of Labor",
         "kind": "union",
         "cites": [10]
       },
-      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [11] },
       {
-        "organization": "International Union of Operating Engineers Local 150",
+        "organization": "Chicago Laborers' District Council",
         "kind": "union",
-        "cites": [12]
+        "cites": [11]
       },
       {
         "organization": "Equality Illinois",
@@ -95,13 +119,13 @@
         "cites": [14]
       },
       {
-        "organization": "Illinois Federation of Teachers",
+        "organization": "Illinois Nurses Association",
         "kind": "union",
         "cites": [15]
       },
       {
-        "organization": "Planned Parenthood Illinois Action",
-        "kind": "organization",
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
         "cites": [16]
       },
       {
@@ -114,91 +138,81 @@
         "kind": "union",
         "cites": [18]
       },
-      { "organization": "SEIU Local 73", "kind": "union", "cites": [18] },
-      {
-        "organization": "Chicago Laborers' District Council",
-        "kind": "union",
-        "cites": [19]
-      },
-      {
-        "organization": "Illinois Nurses Association",
-        "kind": "union",
-        "cites": [21]
-      }
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [18] }
     ]
   },
   "sources": [
     {
       "id": 1,
-      "title": "Kam Buckner (D) - 104th General Assembly (2025-2026) - ILGA.gov",
+      "title": "Kam Buckner (D) - 104th General Assembly",
       "publisher": "Illinois General Assembly",
       "url": "https://www.ilga.gov/House/Members/Details/3366",
       "kind": "official",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 2,
-      "title": "Kambium Buckner - Illinois House Democratic Caucus",
-      "publisher": "Illinois House Democratic Caucus",
-      "url": "https://ilhousedems.com/project/kambium-buckner/",
-      "kind": "news",
-      "viewedAt": "2026-10-07"
+      "title": "Illinois General Assembly - Member",
+      "publisher": "Illinois General Assembly",
+      "url": "https://my.ilga.gov/Senate/Members/Details/3366?Primary=True",
+      "kind": "official",
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 3,
-      "title": "Kam Buckner - Wikipedia",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Kam_Buckner",
-      "kind": "reference",
-      "viewedAt": "2026-10-07"
+      "title": "Lawmakers weigh Chicago voter-guided Chicago charter",
+      "publisher": "The Center Square",
+      "url": "https://www.yahoo.com/news/politics/articles/lawmakers-weigh-chicago-voter-guided-200000772.html?fr=sycsrp_catchall",
+      "kind": "news",
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 4,
-      "title": "Illinois legislators introduce bills to regulate pricing based on personal data",
-      "publisher": "Capitol News Illinois",
-      "url": "https://capitolnewsillinois.com/news/illinois-legislators-introduce-bills-to-regulate-pricing-based-on-personal-data/",
+      "title": "Illinois House Approves Megaprojects Bill, but the Bears Want Changes",
+      "publisher": "WTTW",
+      "url": "https://news.wttw.com/2026/04/23/illinois-house-approves-megaprojects-bill-bears-want-changes",
       "kind": "news",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 5,
-      "title": "Illinois House approves megaprojects bill, but the Bears want changes",
-      "publisher": "Capitol News Illinois",
-      "url": "https://capitolnewsillinois.com/news/illinois-house-approves-megaprojects-bill-but-the-bears-want-changes/",
-      "kind": "news",
-      "viewedAt": "2026-10-07"
+      "title": "Candidates for Illinois Legislature",
+      "publisher": "Giffords",
+      "url": "https://giffords.org/candidates/illinois-joint-endorsements-3/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 6,
-      "title": "Pritzker to present 8th budget as Illinois faces federal funding uncertainty",
-      "publisher": "Capitol News Illinois",
-      "url": "https://capitolnewsillinois.com/news/pritzker-to-present-8th-budget-as-illinois-faces-federal-funding-uncertainty/",
+      "title": "Illinois AFL-CIO 2026 general election endorsements",
+      "publisher": "The Labor Tribune",
+      "url": "https://labortribune.com/illinois-afl-cio-2026-general-election-endorsements/",
       "kind": "news",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 7,
-      "title": "Endorsements and Election Information",
-      "publisher": "Personal PAC",
-      "url": "https://personalpac.org/elections/",
+      "title": "Illinois Federation of Teachers Announces Slate of Endorsements for 2026 Primaries",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/post/illinois-federation-of-teachers-announces-slate-of-endorsements-for-2026-primaries",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 8,
-      "title": "Endorsements — Citizen Action/Illinois",
-      "publisher": "Citizen Action/Illinois",
-      "url": "https://citizenaction-il.org/endorsements",
+      "title": "Planned Parenthood Illinois Action Board Announces 2026 Election Endorsements",
+      "publisher": "Planned Parenthood Illinois Action",
+      "url": "https://www.plannedparenthoodaction.org/planned-parenthood-illinois-action/press-room/planned-parenthood-illinois-action-board-announces-2026-election-endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 9,
-      "title": "2026 Endorsements — Better Streets Chicago Action Fund",
-      "publisher": "Better Streets Chicago Action Fund",
-      "url": "https://www.bscactionfund.org/2026-midterms/endorsements",
+      "title": "Endorsements",
+      "publisher": "Citizen Action/Illinois",
+      "url": "https://citizenaction-il.org/endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
     },
     {
       "title": "November 3, 2026 General Election Endorsed Candidates",
@@ -209,18 +223,18 @@
       "id": 10
     },
     {
-      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
-      "publisher": "Illinois AFL-CIO",
-      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
-      "viewedAt": "2026-10-07",
+      "title": "Chicago Laborers’ District Council Endorsements for the November 2026 General Election",
+      "publisher": "Chicago Laborers' District Council (LIUNA)",
+      "url": "https://www.liunachicago.org/content/documents/cldc_2026_endorsement_template.pdf",
+      "viewedAt": "2026-10-18",
       "kind": "endorser",
       "id": 11
     },
     {
-      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
-      "publisher": "IUOE Local 150",
-      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
-      "viewedAt": "2026-10-07",
+      "title": "November 2026 General Election Endorsements",
+      "publisher": "Cook County College Teachers Union (CCCTU), Local 1600",
+      "url": "https://www.ccctu.org/post/november-2026-general-election-endorsements",
+      "viewedAt": "2026-10-18",
       "kind": "endorser",
       "id": 12
     },
@@ -241,18 +255,18 @@
       "id": 14
     },
     {
-      "title": "2026 voter information: IFT Endorsements",
-      "publisher": "Illinois Federation of Teachers",
-      "url": "https://www.ift-aft.org/vote",
-      "viewedAt": "2026-10-17",
+      "title": "Illinois Nurses Association General Election Endorsements",
+      "publisher": "Illinois Nurses Association (INA-PAC)",
+      "url": "https://illinoisnurses.com/wp-content/uploads/2026/07/INA-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-18",
       "kind": "endorser",
       "id": 15
     },
     {
-      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
-      "publisher": "Planned Parenthood Illinois Action (press release, published by Windy City Times)",
-      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
-      "viewedAt": "2026-10-17",
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
       "kind": "endorser",
       "id": 16
     },
@@ -271,36 +285,12 @@
       "viewedAt": "2026-10-17",
       "kind": "endorser",
       "id": 18
-    },
-    {
-      "title": "Chicago Laborers’ District Council Endorsements for the November 2026 General Election",
-      "publisher": "Chicago Laborers' District Council (LIUNA)",
-      "url": "https://www.liunachicago.org/content/documents/cldc_2026_endorsement_template.pdf",
-      "viewedAt": "2026-10-18",
-      "kind": "endorser",
-      "id": 19
-    },
-    {
-      "title": "November 2026 General Election Endorsements",
-      "publisher": "Cook County College Teachers Union (CCCTU), Local 1600",
-      "url": "https://www.ccctu.org/post/november-2026-general-election-endorsements",
-      "viewedAt": "2026-10-18",
-      "kind": "endorser",
-      "id": 20
-    },
-    {
-      "title": "Illinois Nurses Association General Election Endorsements",
-      "publisher": "Illinois Nurses Association (INA-PAC)",
-      "url": "https://illinoisnurses.com/wp-content/uploads/2026/07/INA-General-Election-Endorsements.pdf",
-      "viewedAt": "2026-10-18",
-      "kind": "endorser",
-      "id": 21
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
-    "promptVersion": "f006-4",
-    "generatedAt": "2026-10-07T18:00:54.057Z",
-    "version": 9
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-22T04:46:41.718Z",
+    "version": 11
   }
 }

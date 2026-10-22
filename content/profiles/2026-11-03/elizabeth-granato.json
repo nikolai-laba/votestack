@@ -11,41 +11,49 @@
   "kind": "candidate",
   "tier": "mid",
   "overview": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-21",
     "items": [
       {
-        "text": "Elizabeth Granato is the bureau chief of the Cook County Bureau of Asset Management. Her campaign says she has 15 years of experience in infrastructure, operations, and community development. She serves on the Planned Parenthood of Illinois Action Board and previously served on the North River Expanded Mental Health Services Program and Governing Commission.",
-        "cites": [1],
+        "text": "Elizabeth Granato became Bureau Chief of the Cook County Bureau of Asset Management in 2022. She has about 15 years of public service experience involving procurement and budgets. She serves on the Planned Parenthood of Illinois Action Board.",
+        "cites": [1, 2, 3],
         "sentences": [
           {
-            "text": "Elizabeth Granato is the bureau chief of the Cook County Bureau of Asset Management.",
+            "text": "Elizabeth Granato became Bureau Chief of the Cook County Bureau of Asset Management in 2022.",
             "cites": [1]
           },
           {
-            "text": "Her campaign says she has 15 years of experience in infrastructure, operations, and community development.",
-            "cites": [1]
+            "text": "She has about 15 years of public service experience involving procurement and budgets.",
+            "cites": [2]
           },
           {
-            "text": "She serves on the Planned Parenthood of Illinois Action Board and previously served on the North River Expanded Mental Health Services Program and Governing Commission.",
-            "cites": [1]
+            "text": "She serves on the Planned Parenthood of Illinois Action Board.",
+            "cites": [3]
           }
         ]
       },
       {
-        "text": "Her campaign says she wants to protect health care access and prevent large corporations from shifting their tax burden to the middle class. She has voiced concern about the cost of living and water safety, and called for government assistance for working families. As bureau chief, she reviewed proposals to move county employees into county-owned buildings with updated ADA access and technology readiness.",
-        "cites": [2, 3, 4],
+        "text": "She wants to protect Medicaid coverage from pending federal cuts. Her campaign focuses on preventing large corporations from shifting taxes to the middle class. She opposes Tyler Technologies over the county's property-tax computer upgrade. Her bureau led the $30.5 million Build Up Cook program. It is also the lead agency for the Oak Forest campus demolition.",
+        "cites": [4, 2, 5, 6],
         "sentences": [
           {
-            "text": "Her campaign says she wants to protect health care access and prevent large corporations from shifting their tax burden to the middle class.",
+            "text": "She wants to protect Medicaid coverage from pending federal cuts.",
+            "cites": [4]
+          },
+          {
+            "text": "Her campaign focuses on preventing large corporations from shifting taxes to the middle class.",
             "cites": [2]
           },
           {
-            "text": "She has voiced concern about the cost of living and water safety, and called for government assistance for working families.",
-            "cites": [3]
+            "text": "She opposes Tyler Technologies over the county's property-tax computer upgrade.",
+            "cites": [4]
           },
           {
-            "text": "As bureau chief, she reviewed proposals to move county employees into county-owned buildings with updated ADA access and technology readiness.",
-            "cites": [4]
+            "text": "Her bureau led the $30.5 million Build Up Cook program.",
+            "cites": [5]
+          },
+          {
+            "text": "It is also the lead agency for the Oak Forest campus demolition.",
+            "cites": [6]
           }
         ]
       }
@@ -66,99 +74,129 @@
     ]
   },
   "endorsements": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-21",
     "items": [
       {
-        "organization": "U.S. Rep. Chuy García",
+        "organization": "U.S. Rep. Jesús \"Chuy\" García",
         "kind": "elected_official",
         "party": "Democratic",
-        "cites": [5]
+        "cites": [7]
       },
       {
         "organization": "U.S. Rep. Raja Krishnamoorthi",
         "kind": "elected_official",
         "party": "Democratic",
-        "cites": [5]
+        "cites": [7]
       },
       {
         "organization": "U.S. Rep. Mike Quigley",
         "kind": "elected_official",
         "party": "Democratic",
-        "cites": [5]
+        "cites": [7]
       },
       {
         "organization": "U.S. Rep. Delia Ramirez",
         "kind": "elected_official",
         "party": "Democratic",
-        "cites": [5]
+        "cites": [7]
       },
       {
         "organization": "U.S. Rep. Jan Schakowsky",
         "kind": "elected_official",
         "party": "Democratic",
-        "cites": [5]
+        "cites": [7]
       },
       {
         "organization": "State Sen. Omar Aquino",
         "kind": "elected_official",
         "party": "Democratic",
-        "cites": [5]
+        "cites": [7]
       },
       {
         "organization": "State Sen. Ram Villivalam",
         "kind": "elected_official",
         "party": "Democratic",
-        "cites": [2]
-      },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [6] },
-      {
-        "organization": "Citizen Action/Illinois",
-        "kind": "organization",
         "cites": [7]
       },
       {
-        "organization": "Better Streets Chicago Action Fund",
-        "kind": "organization",
+        "organization": "Cook County Commissioner Scott Britton",
+        "kind": "elected_official",
+        "party": "Democratic",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Alderman Daniel La Spata",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "Chicago Alderman Scott Waguespack",
+        "kind": "elected_official",
+        "cites": [7]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [19]
+      },
+      {
+        "organization": "Mid-America Carpenters Regional Council",
+        "kind": "union",
         "cites": [8]
       },
+      { "organization": "Teamsters Local 700", "kind": "union", "cites": [8] },
+      {
+        "organization": "Ironworkers District Council of Chicago & Vicinity",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Bricklayers & Allied Craftworkers ADC 1 Illinois",
+        "kind": "union",
+        "cites": [9]
+      },
+      {
+        "organization": "Amalgamated Transit Union Local 241",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Brotherhood of Locomotive Engineers and Trainmen Illinois State Legislative Board",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Brotherhood of Maintenance of Way Employes",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Brotherhood of Railroad Signalmen",
+        "kind": "union",
+        "cites": [7]
+      },
+      {
+        "organization": "Sierra Club Illinois",
+        "kind": "organization",
+        "cites": [10]
+      },
+      {
+        "organization": "Citizen Action/Illinois",
+        "kind": "organization",
+        "cites": [11]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [12] },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [7]
+      },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [13] },
       {
         "organization": "Chicago Federation of Labor",
         "kind": "union",
         "cites": [14]
       },
-      {
-        "organization": "Mid-America Carpenters Regional Council",
-        "kind": "union",
-        "cites": [9]
-      },
-      { "organization": "Teamsters Local 700", "kind": "union", "cites": [9] },
-      {
-        "organization": "Ironworkers District Council of Chicago and Vicinity",
-        "kind": "union",
-        "cites": [2]
-      },
-      {
-        "organization": "Bricklayers & Allied Craftworkers ADC 1 Illinois",
-        "kind": "union",
-        "cites": [2]
-      },
-      {
-        "organization": "International Union of Operating Engineers Local 150",
-        "kind": "union",
-        "cites": [10]
-      },
-      { "organization": "AFSCME Council 31", "kind": "union", "cites": [11] },
-      {
-        "organization": "SEIU Healthcare Illinois",
-        "kind": "union",
-        "cites": [12]
-      },
-      {
-        "organization": "SEIU Illinois State Council",
-        "kind": "union",
-        "cites": [13]
-      },
-      { "organization": "SEIU Local 73", "kind": "union", "cites": [13] },
       {
         "organization": "Chicago Laborers' District Council",
         "kind": "union",
@@ -168,110 +206,121 @@
         "organization": "Illinois Nurses Association",
         "kind": "union",
         "cites": [16]
-      }
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [17]
+      },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [18]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [19] }
     ]
   },
   "sources": [
     {
       "id": 1,
-      "title": "Elizabeth for Cook County's 12th District",
-      "publisher": "Elizabeth Granato campaign",
-      "url": "https://www.elizabethforcookcounty.com/",
-      "kind": "candidate",
-      "viewedAt": "2026-10-07"
+      "title": "Board of Commissioners of Cook County - File #: 22-6147",
+      "publisher": "Cook County Board of Commissioners (Legistar)",
+      "url": "https://cook-county.legistar.com/LegislationDetail.aspx?ID=5892056&GUID=E9632D07-26DC-4530-AC33-A4CB56EFD9DA&Options=&Search=",
+      "kind": "official",
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 2,
-      "title": "Pritzker on Dems: ‘We've lost our way'",
-      "publisher": "Politico",
-      "url": "https://www.politico.com/newsletters/illinois-playbook/2025/07/22/pritzker-on-dems-weve-lost-our-way-00466724",
-      "kind": "news",
-      "viewedAt": "2026-10-07"
+      "title": "Elizabeth Granato, candidate for Cook County Commissioner ...",
+      "publisher": "waldgrave.com",
+      "url": "https://www.waldgrave.com/directdemocracy/app/election-candidate/2026-general--cook-commissioner-12--elizabeth-granato",
+      "kind": "reference",
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 3,
-      "title": "Two incumbents fall, appointees hold on in Cook County Board races",
-      "publisher": "Chicago Tribune",
-      "url": "https://www.chicagotribune.com/2026/03/18/cook-county-board-election-primary-results/",
-      "kind": "news",
-      "viewedAt": "2026-10-07"
+      "title": "Elizabeth for Cook County's 12th District",
+      "publisher": "Elizabeth for Cook County's 12th District",
+      "url": "https://www.elizabethforcookcounty.com/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 4,
-      "title": "Blog Posts",
-      "publisher": "League of Women Voters of Cook County",
-      "url": "https://www.lwvcookcounty.org/cook-county-board-observer-reports/previous/2",
-      "kind": "reference",
-      "viewedAt": "2026-10-07"
+      "title": "Editorial: Xiaoli \"Alice\" Hu for Cook County Board 12th District",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/10/15/editorial-xiaoli-alice-hu-cook-county-board-12th-district/",
+      "kind": "news",
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 5,
+      "title": "Cook County Board of Commissioners Approves Build Up ...",
+      "publisher": "Cook County Government",
+      "url": "https://www.cookcountyil.gov/news/cook-county-board-commissioners-approves-build-cook-intergovernmental-agreements",
+      "kind": "official",
+      "viewedAt": "2026-10-21"
+    },
+    {
+      "id": 6,
+      "title": "[PDF] Demolition at Oak Forest Campus - Cook County",
+      "publisher": "Cook County Government",
+      "url": "https://www.cookcountyil.gov/sites/g/files/ywwepo161/files/documents/2025-02/Oak%20Forest%20Community%20Presentation%20February%202025.pdf",
+      "kind": "official",
+      "viewedAt": "2026-10-21"
+    },
+    {
+      "id": 7,
       "title": "2026 Cook County Board of Commissioners election",
       "publisher": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/2026_Cook_County_Board_of_Commissioners_election",
       "kind": "reference",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 6,
-      "title": "Endorsements and Election Information",
-      "publisher": "Personal PAC",
-      "url": "https://personalpac.org/elections/",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 7,
-      "title": "Endorsements",
-      "publisher": "Citizen Action/Illinois",
-      "url": "https://citizenaction-il.org/endorsements",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 8,
-      "title": "2026 Endorsements",
-      "publisher": "Better Streets Chicago Action Fund",
-      "url": "https://www.bscactionfund.org/2026-midterms/endorsements",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 9,
       "title": "ICE targets Lincoln Park nannies",
       "publisher": "Politico",
       "url": "https://www.politico.com/newsletters/illinois-playbook/2025/10/27/ice-targets-lincoln-park-nannies-00623513",
       "kind": "news",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
     },
     {
-      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
-      "publisher": "IUOE Local 150",
-      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
-      "viewedAt": "2026-10-07",
+      "id": 9,
+      "title": "Isabel’s morning briefing",
+      "publisher": "Capitol Fax",
+      "url": "https://capitolfax.com/2025/07/22/isabel%E2%80%99s-morning-briefing-556/",
+      "kind": "news",
+      "viewedAt": "2026-10-21"
+    },
+    {
+      "id": 10,
+      "title": "Endorsements",
+      "publisher": "Sierra Club Illinois",
+      "url": "https://www.sierraclub.org/illinois/endorsements",
       "kind": "endorser",
-      "id": 10
+      "viewedAt": "2026-10-21"
+    },
+    {
+      "id": 11,
+      "title": "Endorsements",
+      "publisher": "Citizen Action/Illinois",
+      "url": "https://citizenaction-il.org/endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-21"
+    },
+    {
+      "id": 12,
+      "title": "Endorsements and Election Info",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-21"
     },
     {
       "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
       "publisher": "AFSCME Council 31",
       "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 11
-    },
-    {
-      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
-      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
-      "url": "https://seiuhcilin.org/resources/election-information/",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 12
-    },
-    {
-      "title": "Election 2026: 2026 Endorsements",
-      "publisher": "SEIU Local 73",
-      "url": "https://seiu73.org/election-2026/",
       "viewedAt": "2026-10-17",
       "kind": "endorser",
       "id": 13
@@ -299,12 +348,36 @@
       "viewedAt": "2026-10-18",
       "kind": "endorser",
       "id": 16
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 19
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
-    "promptVersion": "f006-4",
-    "generatedAt": "2026-10-07T17:15:11.117Z",
-    "version": 7
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-22T04:42:22.787Z",
+    "version": 9
   }
 }

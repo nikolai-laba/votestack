@@ -9,48 +9,40 @@
   "tier": "mid",
   "incumbent": true,
   "overview": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-21",
     "items": [
       {
-        "text": "Sara Feigenholtz has served in the Illinois General Assembly since 1995, moving to the Senate in 2020. She is a founding member and vice president of the Kennedy Forum, which works for mental health parity.",
-        "cites": [1, 2],
+        "text": "Sara Feigenholtz has represented the 6th District in the Illinois Senate since 2020, after serving in the Illinois House from 1995 to 2020. She chairs the Senate Special Committee on Tourism. Her campaign says she is a founding member and vice president of the Kennedy Forum, a mental health parity group.",
+        "cites": [1, 2, 3],
         "sentences": [
           {
-            "text": "Sara Feigenholtz has served in the Illinois General Assembly since 1995, moving to the Senate in 2020.",
+            "text": "Sara Feigenholtz has represented the 6th District in the Illinois Senate since 2020, after serving in the Illinois House from 1995 to 2020.",
             "cites": [1]
           },
           {
-            "text": "She is a founding member and vice president of the Kennedy Forum, which works for mental health parity.",
+            "text": "She chairs the Senate Special Committee on Tourism.",
             "cites": [2]
+          },
+          {
+            "text": "Her campaign says she is a founding member and vice president of the Kennedy Forum, a mental health parity group.",
+            "cites": [3]
           }
         ]
       },
       {
-        "text": "Her campaign says she led efforts to expand Medicaid to 800,000 uninsured Illinois residents. She authored House Bill 40, protecting state abortion rights before Roe v. Wade was overturned. She supported a law allowing adult adoptees access to their original birth certificates. Her campaign states she authored a law requiring insurance to cover contraception and cancer screenings. In 2025, she sponsored a bill for student mental health screenings starting in third grade. She also sponsored the 2023 Electric Vehicle Charging Act.",
-        "cites": [2, 3, 4, 5],
+        "text": "In the House, she sponsored House Bill 40, which protected abortion access and expanded insurance coverage for abortion to state employees and Medicaid recipients. She sponsored the 2013 Medicaid expansion and a 2025 law allowing mental health screening for youth. She sponsored a 2019 bill making clergy mandatory reporters.",
+        "cites": [4, 5],
         "sentences": [
           {
-            "text": "Her campaign says she led efforts to expand Medicaid to 800,000 uninsured Illinois residents.",
-            "cites": [2]
-          },
-          {
-            "text": "She authored House Bill 40, protecting state abortion rights before Roe v. Wade was overturned.",
-            "cites": [3]
-          },
-          {
-            "text": "She supported a law allowing adult adoptees access to their original birth certificates.",
-            "cites": [3]
-          },
-          {
-            "text": "Her campaign states she authored a law requiring insurance to cover contraception and cancer screenings.",
-            "cites": [2]
-          },
-          {
-            "text": "In 2025, she sponsored a bill for student mental health screenings starting in third grade.",
+            "text": "In the House, she sponsored House Bill 40, which protected abortion access and expanded insurance coverage for abortion to state employees and Medicaid recipients.",
             "cites": [4]
           },
           {
-            "text": "She also sponsored the 2023 Electric Vehicle Charging Act.",
+            "text": "She sponsored the 2013 Medicaid expansion and a 2025 law allowing mental health screening for youth.",
+            "cites": [4]
+          },
+          {
+            "text": "She sponsored a 2019 bill making clergy mandatory reporters.",
             "cites": [5]
           }
         ]
@@ -78,151 +70,149 @@
     ]
   },
   "endorsements": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-21",
     "items": [
       {
-        "organization": "U.S. Rep. Jan Schakowsky",
+        "organization": "MWRD Commissioner Precious Brady-Davis",
         "kind": "elected_official",
         "party": "Democratic",
         "cites": [6]
       },
       {
-        "organization": "Illinois Secretary of State Alexi Giannoulias",
-        "kind": "elected_official",
-        "party": "Democratic",
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
         "cites": [7]
+      },
+      {
+        "organization": "Illinois National Organization for Women Political Action Committee",
+        "kind": "organization",
+        "cites": [8]
       },
       {
         "organization": "Illinois Federation of Teachers",
         "kind": "union",
-        "cites": [8]
-      },
-      { "organization": "AFSCME Council 31", "kind": "union", "cites": [9] },
-      {
-        "organization": "Equality Illinois",
-        "kind": "organization",
-        "cites": [10]
+        "cites": [9]
       },
       {
-        "organization": "Cook County College Teachers Union",
+        "organization": "International Union of Operating Engineers Local 399",
         "kind": "union",
-        "cites": [19]
+        "cites": [10]
       },
       {
         "organization": "Chicago Federation of Labor",
         "kind": "union",
         "cites": [11]
       },
-      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [12] },
       {
-        "organization": "International Union of Operating Engineers Local 150",
+        "organization": "Chicago Laborers' District Council",
+        "kind": "union",
+        "cites": [12]
+      },
+      {
+        "organization": "Cook County College Teachers Union Local 1600",
         "kind": "union",
         "cites": [13]
       },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [14] },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [14] },
       {
-        "organization": "Planned Parenthood Illinois Action",
-        "kind": "organization",
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
         "cites": [15]
       },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [16] },
       {
         "organization": "SEIU Healthcare Illinois",
         "kind": "union",
-        "cites": [16]
+        "cites": [17]
       },
       {
         "organization": "SEIU Illinois State Council",
         "kind": "union",
-        "cites": [17]
-      },
-      { "organization": "SEIU Local 73", "kind": "union", "cites": [17] },
-      {
-        "organization": "Chicago Laborers' District Council",
-        "kind": "union",
         "cites": [18]
-      }
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [18] }
     ]
   },
   "sources": [
     {
       "id": 1,
-      "title": "Sara Feigenholtz (D) - 104th General Assembly",
-      "publisher": "Illinois General Assembly",
-      "url": "https://www.ilga.gov/House/Members/Details/3376",
-      "kind": "official",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 2,
-      "title": "About Sara",
-      "publisher": "Senator Sara",
-      "url": "https://www.senatorsara.com/about-sara/",
-      "kind": "candidate",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 3,
-      "title": "Awards | TWLIL",
-      "publisher": "Women's Bar Association of Illinois",
-      "url": "https://wbaillinois.org/awards/twlil/",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 4,
-      "title": "Sara Feigenholtz - Wikipedia",
-      "publisher": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Sara_Feigenholtz",
-      "kind": "reference",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 5,
       "title": "Sara Feigenholtz (D) - Illinois General Assembly - Member",
       "publisher": "Illinois General Assembly",
       "url": "https://www.ilga.gov/House/Members/Details/3168?GAID=17",
       "kind": "official",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
+    },
+    {
+      "id": 2,
+      "title": "Emil Jones, III (D) - Illinois General Assembly",
+      "publisher": "Illinois General Assembly",
+      "url": "https://my.ilga.gov/Senate/Members/Details/3276",
+      "kind": "official",
+      "viewedAt": "2026-10-21"
+    },
+    {
+      "id": 3,
+      "title": "Biography - Senator Sara",
+      "publisher": "Senator Sara Feigenholtz campaign",
+      "url": "https://www.senatorsara.com/about-sara/",
+      "kind": "candidate",
+      "viewedAt": "2026-10-21"
+    },
+    {
+      "id": 4,
+      "title": "Sara Feigenholtz",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sara_Feigenholtz",
+      "kind": "reference",
+      "viewedAt": "2026-10-21"
+    },
+    {
+      "id": 5,
+      "title": "Bill expanding clergy reporting mandate clears Illinois House",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/bill-expanding-clergy-reporting-mandate-clears-illinois-house/",
+      "kind": "news",
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 6,
-      "title": "Daily Archives: August 4, 2025 - Sara Feigenholtz",
-      "publisher": "Sara Feigenholtz Campaign",
-      "url": "https://www.sarafeigenholtz.com/2025/08/04/",
+      "title": "Sara Feigenholtz – Sara Feigenholtz – Illinois 6th Senate District",
+      "publisher": "sarafeigenholtz.com",
+      "url": "https://www.sarafeigenholtz.com/",
       "kind": "candidate",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 7,
-      "title": "September 2025 - Sara Feigenholtz",
-      "publisher": "Sara Feigenholtz Campaign",
-      "url": "https://www.sarafeigenholtz.com/2025/09/",
-      "kind": "candidate",
-      "viewedAt": "2026-10-07"
+      "title": "Planned Parenthood Illinois Action Board Announces 2026 Election Endorsements",
+      "publisher": "Planned Parenthood Illinois Action",
+      "url": "https://www.plannedparenthoodaction.org/planned-parenthood-illinois-action/press-room/planned-parenthood-illinois-action-board-announces-2026-election-endorsements",
+      "kind": "endorser",
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 8,
+      "title": "IL NOW PAC Primary Endorsements 3/17/26",
+      "publisher": "Illinois National Organization for Women",
+      "url": "https://ilnow.org/uncategorized/il-now-pac-primary-endorsements-3-17-26/",
+      "kind": "endorser",
+      "viewedAt": "2026-10-21"
+    },
+    {
+      "id": 9,
       "title": "Illinois Federation of Teachers Announces Slate of Endorsements for 2026 Primaries",
       "publisher": "Illinois Federation of Teachers",
       "url": "https://www.ift-aft.org/post/illinois-federation-of-teachers-announces-slate-of-endorsements-for-2026-primaries",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 9,
-      "title": "AFSCME PEOPLE Endorsements: March 17 Primary Election",
-      "publisher": "AFSCME Council 31",
-      "url": "https://afscme31.org/news/afscme-people-endorsements-march-17-primary-election",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 10,
-      "title": "January 6, 2026 – Sara Feigenholtz",
-      "publisher": "Sara Feigenholtz Campaign",
-      "url": "https://www.sarafeigenholtz.com/2026/01/06/",
-      "kind": "candidate",
-      "viewedAt": "2026-10-07"
+      "title": "2026 LOCAL 399 ILLINOIS PRIMARY ELECTION ENDORSEMENTS",
+      "publisher": "International Union of Operating Engineers Local 399",
+      "url": "https://www.iuoe399.org/media/filer_public/51/71/517191a2-0567-497b-995a-4c0069f72130/2026_lu399_endorsement_list.pdf",
+      "kind": "endorser",
+      "viewedAt": "2026-10-21"
     },
     {
       "title": "November 3, 2026 General Election Endorsed Candidates",
@@ -233,60 +223,12 @@
       "id": 11
     },
     {
-      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
-      "publisher": "Illinois AFL-CIO",
-      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
-      "viewedAt": "2026-10-07",
-      "kind": "endorser",
-      "id": 12
-    },
-    {
-      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
-      "publisher": "IUOE Local 150",
-      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
-      "viewedAt": "2026-10-07",
-      "kind": "endorser",
-      "id": 13
-    },
-    {
-      "title": "Personal PAC 2026 General Election Endorsements",
-      "publisher": "Personal PAC",
-      "url": "https://personalpac.org/elections/",
-      "viewedAt": "2026-10-07",
-      "kind": "endorser",
-      "id": 14
-    },
-    {
-      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
-      "publisher": "Planned Parenthood Illinois Action (press release, published by Windy City Times)",
-      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 15
-    },
-    {
-      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
-      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
-      "url": "https://seiuhcilin.org/resources/election-information/",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 16
-    },
-    {
-      "title": "Election 2026: 2026 Endorsements",
-      "publisher": "SEIU Local 73",
-      "url": "https://seiu73.org/election-2026/",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 17
-    },
-    {
       "title": "Chicago Laborers’ District Council Endorsements for the November 2026 General Election",
       "publisher": "Chicago Laborers' District Council (LIUNA)",
       "url": "https://www.liunachicago.org/content/documents/cldc_2026_endorsement_template.pdf",
       "viewedAt": "2026-10-18",
       "kind": "endorser",
-      "id": 18
+      "id": 12
     },
     {
       "title": "November 2026 General Election Endorsements",
@@ -294,13 +236,53 @@
       "url": "https://www.ccctu.org/post/november-2026-general-election-endorsements",
       "viewedAt": "2026-10-18",
       "kind": "endorser",
-      "id": 19
+      "id": 13
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 17
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 18
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
-    "generatedAt": "2026-10-07T20:55:49.666Z",
-    "version": 7
+    "generatedAt": "2026-10-22T05:01:10.614Z",
+    "version": 9
   }
 }

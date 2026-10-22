@@ -12,36 +12,50 @@
   "tier": "mid",
   "incumbent": true,
   "overview": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-21",
     "items": [
       {
-        "text": "Lilian Jimenez is an attorney who has focused on labor and immigration policy. She was first elected to the Illinois House in November 2022. She chairs the House Housing Committee. Her campaign says she was chief sponsor of the Safe Schools Act to protect K-12 students from immigration enforcement, and sponsored HB 1312, which allows residents to sue federal agents for constitutional violations. Her campaign says she supports taxing corporations and the wealthy to invest in healthcare, housing and education. It also says she wants to stabilize property taxes so longtime residents can remain in their neighborhoods. She passed a resolution honoring Arise Chicago for its workers' rights advocacy and a bill changing the will depository process.",
-        "cites": [1, 2, 3, 4, 5],
+        "text": "Lilian Jimenez has represented the 4th District since December 2022. She chairs the House Housing Committee. She is an attorney who led the Illinois Department of Labor's Fair Labor Standards Division and was chief of staff for Cook County Commissioner Jesus \"Chuy\" Garcia.",
+        "cites": [1, 2, 3],
         "sentences": [
           {
-            "text": "Lilian Jimenez is an attorney who has focused on labor and immigration policy.",
+            "text": "Lilian Jimenez has represented the 4th District since December 2022.",
+            "cites": [1]
+          },
+          { "text": "She chairs the House Housing Committee.", "cites": [2] },
+          {
+            "text": "She is an attorney who led the Illinois Department of Labor's Fair Labor Standards Division and was chief of staff for Cook County Commissioner Jesus \"Chuy\" Garcia.",
+            "cites": [3]
+          }
+        ]
+      },
+      {
+        "text": "Her campaign says she supports taxing corporations and wealthy individuals. She told the Chicago Sun-Times she opposes property tax breaks for large private developments like stadiums. She sponsored a bill prohibiting algorithm-based rent pricing. She backed a bill requiring fair store return policies. Her campaign says she sponsored the Safe Schools Act to protect K-12 students from immigration enforcement. She worked to connect families with attorneys to enforce a state law banning certain courthouse immigration arrests.",
+        "cites": [4, 5, 1, 6, 7],
+        "sentences": [
+          {
+            "text": "Her campaign says she supports taxing corporations and wealthy individuals.",
+            "cites": [4]
+          },
+          {
+            "text": "She told the Chicago Sun-Times she opposes property tax breaks for large private developments like stadiums.",
+            "cites": [5]
+          },
+          {
+            "text": "She sponsored a bill prohibiting algorithm-based rent pricing.",
             "cites": [1]
           },
           {
-            "text": "She was first elected to the Illinois House in November 2022.",
-            "cites": [2]
+            "text": "She backed a bill requiring fair store return policies.",
+            "cites": [6]
           },
-          { "text": "She chairs the House Housing Committee.", "cites": [3] },
           {
-            "text": "Her campaign says she was chief sponsor of the Safe Schools Act to protect K-12 students from immigration enforcement, and sponsored HB 1312, which allows residents to sue federal agents for constitutional violations.",
+            "text": "Her campaign says she sponsored the Safe Schools Act to protect K-12 students from immigration enforcement.",
             "cites": [4]
           },
           {
-            "text": "Her campaign says she supports taxing corporations and the wealthy to invest in healthcare, housing and education.",
-            "cites": [4]
-          },
-          {
-            "text": "It also says she wants to stabilize property taxes so longtime residents can remain in their neighborhoods.",
-            "cites": [4]
-          },
-          {
-            "text": "She passed a resolution honoring Arise Chicago for its workers' rights advocacy and a bill changing the will depository process.",
-            "cites": [5]
+            "text": "She worked to connect families with attorneys to enforce a state law banning certain courthouse immigration arrests.",
+            "cites": [7]
           }
         ]
       }
@@ -66,86 +80,81 @@
     ]
   },
   "endorsements": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-21",
     "items": [
-      {
-        "organization": "Illinois Federation of Teachers",
-        "kind": "union",
-        "cites": [6]
-      },
       {
         "organization": "Chicago Teachers Union",
         "kind": "union",
-        "cites": [7]
-      },
-      {
-        "organization": "Planned Parenthood Illinois Action",
-        "kind": "organization",
         "cites": [8]
       },
       {
-        "organization": "Equality Illinois",
-        "kind": "organization",
-        "cites": [18]
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [9]
       },
       {
         "organization": "Citizen Action/Illinois",
         "kind": "organization",
-        "cites": [9]
-      },
-      { "organization": "Giffords PAC", "kind": "organization", "cites": [10] },
-      {
-        "organization": "Gun Violence Prevention PAC",
-        "kind": "organization",
         "cites": [10]
       },
+      { "organization": "GIFFORDS PAC", "kind": "organization", "cites": [11] },
       {
-        "organization": "Better Streets Chicago Action Fund",
+        "organization": "Gun Violence Prevention PAC (G-PAC)",
         "kind": "organization",
         "cites": [11]
       },
       {
-        "organization": "Chicago Federation of Labor",
-        "kind": "union",
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
         "cites": [12]
       },
-      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [13] },
       {
-        "organization": "International Union of Operating Engineers Local 150",
+        "organization": "Chicago Federation of Labor",
         "kind": "union",
-        "cites": [14]
+        "cites": [13]
       },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [15] },
-      {
-        "organization": "SEIU Healthcare Illinois",
-        "kind": "union",
-        "cites": [16]
-      },
-      {
-        "organization": "SEIU Illinois State Council",
-        "kind": "union",
-        "cites": [17]
-      },
-      { "organization": "SEIU Local 73", "kind": "union", "cites": [17] },
       {
         "organization": "Chicago Laborers' District Council",
         "kind": "union",
-        "cites": [19]
+        "cites": [14]
       },
       {
         "organization": "Cook County College Teachers Union Local 1600",
         "kind": "union",
-        "cites": [20]
+        "cites": [15]
       },
       {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [16]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [17] },
+      {
         "organization": "Illinois Nurses Association",
+        "kind": "union",
+        "cites": [18]
+      },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [19]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [20] },
+      {
+        "organization": "SEIU Healthcare Illinois",
         "kind": "union",
         "cites": [21]
       },
       {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [22]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [22] },
+      {
         "organization": "United Neighbors of the 35th Ward (UN35)",
         "kind": "organization",
-        "cites": [22]
+        "cites": [23]
       }
     ]
   },
@@ -156,23 +165,23 @@
       "publisher": "Illinois General Assembly",
       "url": "https://www.ilga.gov/house/members/details/3417",
       "kind": "official",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 2,
-      "title": "About Lilian | Representative Lilia",
-      "publisher": "Lilian Jimenez campaign",
-      "url": "https://www.replilianjimenez.com/about-lilian",
-      "kind": "candidate",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 3,
       "title": "Jiménez to Serve as Chair of Housing Committee",
       "publisher": "Illinois House Democratic Caucus",
       "url": "https://ilhousedems.com/2025/01/24/jimenez-to-serve-as-chair-of-housing-committee/",
       "kind": "news",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
+    },
+    {
+      "id": 3,
+      "title": "About Lilian",
+      "publisher": "Lilian Jimenez campaign",
+      "url": "https://www.replilianjimenez.com/about-lilian",
+      "kind": "candidate",
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 4,
@@ -180,63 +189,71 @@
       "publisher": "Lilian Jimenez campaign",
       "url": "https://www.lilianforstaterep.com/",
       "kind": "candidate",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 5,
-      "title": "Rep. Lilian Jimenez",
-      "publisher": "Illinois House Democratic Caucus",
-      "url": "https://ilhousedems.com/project/lilian-jimenez/",
+      "title": "Lilian Jimenez, Democratic candidate for Illinois House 4th District",
+      "publisher": "Chicago Sun-Times",
+      "url": "https://chicago.suntimes.com/elections/2026/candidate-questionnaires/lilian-jimenez-illinois-house-primary-4th-district",
       "kind": "news",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 6,
-      "title": "Illinois Federation of Teachers Announces Slate of Endorsements for 2026 Primaries",
-      "publisher": "Illinois Federation of Teachers",
-      "url": "https://www.ift-aft.org/post/illinois-federation-of-teachers-announces-slate-of-endorsements-for-2026-primaries",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "title": "Jiménez-Backed Consumer Protection Measure on Unfair Store Return Policies Passes House",
+      "publisher": "Illinois House Democratic Caucus",
+      "url": "https://ilhousedems.com/2026/04/21/jimenez-backed-consumer-protection-measure-on-unfair-store-return-policies-passes-house/",
+      "kind": "news",
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 7,
+      "title": "Illinois lawmakers seek families hurt by courthouse immigration arrests as more states weigh right-to-sue laws",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/07/30/courthouse-immigration-families/",
+      "kind": "news",
+      "viewedAt": "2026-10-21"
+    },
+    {
+      "id": 8,
       "title": "2026 Primary Election - Chicago Teachers Union",
       "publisher": "Chicago Teachers Union",
       "url": "https://www.ctulocal1.org/movement/primary-election-2026/",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 8,
-      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
-      "publisher": "Windy City Times",
-      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
-      "kind": "news",
-      "viewedAt": "2026-10-17"
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 9,
+      "title": "Illinois Federation of Teachers Announces Slate of Endorsements for 2026 Primaries",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/post/illinois-federation-of-teachers-announces-slate-of-endorsements-for-2026-primaries",
+      "kind": "endorser",
+      "viewedAt": "2026-10-21"
+    },
+    {
+      "id": 10,
       "title": "Endorsements — Citizen Action/Illinois",
       "publisher": "Citizen Action/Illinois",
       "url": "https://citizenaction-il.org/endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 10,
-      "title": "Candidates for Illinois Legislature | GIFFORDS",
-      "publisher": "Giffords",
-      "url": "https://giffords.org/candidates/illinois-joint-endorsements-3/",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 11,
-      "title": "2026 Endorsements — Better Streets Chicago Action Fund",
-      "publisher": "Better Streets Chicago Action Fund",
-      "url": "https://www.bscactionfund.org/2026-midterms/endorsements",
+      "title": "Candidates for Illinois Legislature - Giffords Law Center",
+      "publisher": "Giffords",
+      "url": "https://giffords.org/candidates/illinois-joint-endorsements-3/",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
+    },
+    {
+      "id": 12,
+      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
+      "publisher": "Windy City Times",
+      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
+      "kind": "news",
+      "viewedAt": "2026-10-21"
     },
     {
       "title": "November 3, 2026 General Election Endorsed Candidates",
@@ -244,55 +261,7 @@
       "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
       "viewedAt": "2026-10-07",
       "kind": "endorser",
-      "id": 12
-    },
-    {
-      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
-      "publisher": "Illinois AFL-CIO",
-      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
-      "viewedAt": "2026-10-07",
-      "kind": "endorser",
       "id": 13
-    },
-    {
-      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
-      "publisher": "IUOE Local 150",
-      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
-      "viewedAt": "2026-10-07",
-      "kind": "endorser",
-      "id": 14
-    },
-    {
-      "title": "Personal PAC 2026 General Election Endorsements",
-      "publisher": "Personal PAC",
-      "url": "https://personalpac.org/elections/",
-      "viewedAt": "2026-10-07",
-      "kind": "endorser",
-      "id": 15
-    },
-    {
-      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
-      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
-      "url": "https://seiuhcilin.org/resources/election-information/",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 16
-    },
-    {
-      "title": "Election 2026: 2026 Endorsements",
-      "publisher": "SEIU Local 73",
-      "url": "https://seiu73.org/election-2026/",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 17
-    },
-    {
-      "title": "2026 General midterm Election endorsements",
-      "publisher": "Equality Illinois",
-      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 18
     },
     {
       "title": "Chicago Laborers’ District Council Endorsements for the November 2026 General Election",
@@ -300,7 +269,7 @@
       "url": "https://www.liunachicago.org/content/documents/cldc_2026_endorsement_template.pdf",
       "viewedAt": "2026-10-18",
       "kind": "endorser",
-      "id": 19
+      "id": 14
     },
     {
       "title": "November 2026 General Election Endorsements",
@@ -308,7 +277,23 @@
       "url": "https://www.ccctu.org/post/november-2026-general-election-endorsements",
       "viewedAt": "2026-10-18",
       "kind": "endorser",
-      "id": 20
+      "id": 15
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 17
     },
     {
       "title": "Illinois Nurses Association General Election Endorsements",
@@ -316,7 +301,39 @@
       "url": "https://illinoisnurses.com/wp-content/uploads/2026/07/INA-General-Election-Endorsements.pdf",
       "viewedAt": "2026-10-18",
       "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 20
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
       "id": 21
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 22
     },
     {
       "title": "35th Ward Progressive Voter Guide: 2026 Illinois General Election",
@@ -324,13 +341,13 @@
       "url": "https://www.un35.org/elections/",
       "viewedAt": "2026-10-18",
       "kind": "endorser",
-      "id": 22
+      "id": 23
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
-    "promptVersion": "f006-4",
-    "generatedAt": "2026-10-07T18:08:02.428Z",
-    "version": 10
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-22T04:51:29.632Z",
+    "version": 12
   }
 }

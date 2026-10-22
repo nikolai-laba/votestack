@@ -12,42 +12,39 @@
   "tier": "mid",
   "incumbent": true,
   "overview": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-21",
     "items": [
       {
-        "text": "Will Guzzardi has represented the 39th District since 2015, serving as an Assistant Majority Leader, co-chair of the House Progressive Caucus, and chair of the Economic Opportunity and Equity committee. He previously worked as a journalist. His campaign says he passed the 2019 law raising Illinois's minimum wage to $15 per hour by 2025. He sponsored laws protecting freelance workers, expanding overdose prevention testing, and holding employers liable for gender violence.",
-        "cites": [1, 2, 3, 4],
+        "text": "Will Guzzardi has represented the 39th District in the Illinois House since January 2015. He is an Assistant Majority Leader, Democratic Caucus co-budgeteer, Illinois House Progressive Caucus co-chair, and Economic Opportunity and Equity committee chair. Before taking office, he was a Huffington Post Chicago editor and a University of Chicago admissions writer. His campaign says he passed 2019 legislation raising the state's minimum wage to $15 by 2025. He was the House sponsor of a bill limiting out-of-pocket insulin costs to $100 for state-regulated plans. In 2021, he introduced a bill to repeal the state rent-control ban so municipalities could cap rents. He sponsored a 2025 Prisoner Review Board reform to give victims more participation.",
+        "cites": [1, 2, 3, 4, 5],
         "sentences": [
           {
-            "text": "Will Guzzardi has represented the 39th District since 2015, serving as an Assistant Majority Leader, co-chair of the House Progressive Caucus, and chair of the Economic Opportunity and Equity committee.",
+            "text": "Will Guzzardi has represented the 39th District in the Illinois House since January 2015.",
             "cites": [1]
           },
-          { "text": "He previously worked as a journalist.", "cites": [2] },
           {
-            "text": "His campaign says he passed the 2019 law raising Illinois's minimum wage to $15 per hour by 2025.",
+            "text": "He is an Assistant Majority Leader, Democratic Caucus co-budgeteer, Illinois House Progressive Caucus co-chair, and Economic Opportunity and Equity committee chair.",
+            "cites": [2]
+          },
+          {
+            "text": "Before taking office, he was a Huffington Post Chicago editor and a University of Chicago admissions writer.",
+            "cites": [2]
+          },
+          {
+            "text": "His campaign says he passed 2019 legislation raising the state's minimum wage to $15 by 2025.",
+            "cites": [2]
+          },
+          {
+            "text": "He was the House sponsor of a bill limiting out-of-pocket insulin costs to $100 for state-regulated plans.",
             "cites": [3]
           },
           {
-            "text": "He sponsored laws protecting freelance workers, expanding overdose prevention testing, and holding employers liable for gender violence.",
+            "text": "In 2021, he introduced a bill to repeal the state rent-control ban so municipalities could cap rents.",
             "cites": [4]
-          }
-        ]
-      },
-      {
-        "text": "In 2019, he pushed to repeal the state’s ban on rent control to let cities cap rents. He proposed requiring the University of Illinois and state pension funds to divest from fossil fuels. He sponsored a bill to increase transparency and victim participation at the Prisoner Review Board.",
-        "cites": [5, 1, 6],
-        "sentences": [
+          },
           {
-            "text": "In 2019, he pushed to repeal the state’s ban on rent control to let cities cap rents.",
+            "text": "He sponsored a 2025 Prisoner Review Board reform to give victims more participation.",
             "cites": [5]
-          },
-          {
-            "text": "He proposed requiring the University of Illinois and state pension funds to divest from fossil fuels.",
-            "cites": [1]
-          },
-          {
-            "text": "He sponsored a bill to increase transparency and victim participation at the Prisoner Review Board.",
-            "cites": [6]
           }
         ]
       }
@@ -72,91 +69,77 @@
     ]
   },
   "endorsements": {
-    "asOf": "2026-10-07",
+    "asOf": "2026-10-21",
     "items": [
+      {
+        "organization": "Chicago Tribune Editorial Board",
+        "kind": "editorial_board",
+        "cites": [6]
+      },
+      {
+        "organization": "Planned Parenthood Illinois Action",
+        "kind": "organization",
+        "cites": [7]
+      },
+      { "organization": "NASW-IL PAC", "kind": "organization", "cites": [8] },
       {
         "organization": "Chicago Teachers Union",
         "kind": "union",
-        "cites": [7]
-      },
-      {
-        "organization": "Better Streets Chicago Action Fund",
-        "kind": "organization",
-        "cites": [8]
-      },
-      {
-        "organization": "Equality Illinois",
-        "kind": "organization",
-        "cites": [21]
-      },
-      {
-        "organization": "National Association of Social Workers, Illinois Chapter",
-        "kind": "organization",
         "cites": [9]
       },
-      {
-        "organization": "Sierra Club Illinois",
-        "kind": "organization",
-        "cites": [10]
-      },
+      { "organization": "AFSCME Council 31", "kind": "union", "cites": [10] },
       {
         "organization": "Chicago Federation of Labor",
         "kind": "union",
         "cites": [11]
       },
-      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [12] },
-      {
-        "organization": "International Union of Operating Engineers Local 150",
-        "kind": "union",
-        "cites": [13]
-      },
-      { "organization": "Personal PAC", "kind": "organization", "cites": [14] },
-      { "organization": "AFSCME Council 31", "kind": "union", "cites": [15] },
-      {
-        "organization": "Chicago Tribune Editorial Board",
-        "kind": "editorial_board",
-        "cites": [16]
-      },
-      {
-        "organization": "Illinois Federation of Teachers",
-        "kind": "union",
-        "cites": [17]
-      },
-      {
-        "organization": "Planned Parenthood Illinois Action",
-        "kind": "organization",
-        "cites": [18]
-      },
-      {
-        "organization": "SEIU Healthcare Illinois",
-        "kind": "union",
-        "cites": [19]
-      },
-      {
-        "organization": "SEIU Illinois State Council",
-        "kind": "union",
-        "cites": [20]
-      },
-      { "organization": "SEIU Local 73", "kind": "union", "cites": [20] },
       {
         "organization": "Chicago Laborers' District Council",
         "kind": "union",
-        "cites": [22]
+        "cites": [12]
       },
       {
         "organization": "Cook County College Teachers Union Local 1600",
         "kind": "union",
-        "cites": [23]
+        "cites": [13]
+      },
+      {
+        "organization": "Equality Illinois",
+        "kind": "organization",
+        "cites": [14]
+      },
+      { "organization": "Illinois AFL-CIO", "kind": "union", "cites": [15] },
+      {
+        "organization": "Illinois Federation of Teachers",
+        "kind": "union",
+        "cites": [16]
       },
       {
         "organization": "Illinois Nurses Association",
         "kind": "union",
-        "cites": [24]
+        "cites": [17]
       },
+      {
+        "organization": "International Union of Operating Engineers Local 150",
+        "kind": "union",
+        "cites": [18]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [19] },
+      {
+        "organization": "SEIU Healthcare Illinois",
+        "kind": "union",
+        "cites": [20]
+      },
+      {
+        "organization": "SEIU Illinois State Council",
+        "kind": "union",
+        "cites": [21]
+      },
+      { "organization": "SEIU Local 73", "kind": "union", "cites": [21] },
       {
         "organization": "United Neighbors of the 35th Ward (UN35)",
         "kind": "organization",
-        "cites": [25]
+        "cites": [22]
       }
     ]
   },
@@ -167,79 +150,79 @@
       "publisher": "Illinois General Assembly",
       "url": "https://www.ilga.gov/House/members/details/3311",
       "kind": "official",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 2,
-      "title": "Rep. Will Guzzardi",
-      "publisher": "Illinois House Democratic Caucus",
-      "url": "https://ilhousedems.com/project/rep-will-guzzardi/",
-      "kind": "official",
-      "viewedAt": "2026-10-07"
+      "title": "Meet Will — State Rep. Will Guzzardi",
+      "publisher": "State Rep. Will Guzzardi campaign",
+      "url": "https://www.repguzzardi.com/meet-will",
+      "kind": "candidate",
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 3,
-      "title": "Meet Will — State Rep. Will Guzzardi",
-      "publisher": "State Rep. Will Guzzardi",
-      "url": "https://www.repguzzardi.com/meet-will",
-      "kind": "candidate",
-      "viewedAt": "2026-10-07"
+      "title": "Governor says he'll sign insulin price cap approved by legislature",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/governor-says-hell-sign-insulin-price-cap-approved-by-legislature/",
+      "kind": "news",
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 4,
-      "title": "Will Guzzardi (D) - 104th General Assembly",
-      "publisher": "Illinois General Assembly",
-      "url": "https://ilga.gov/House/Members/Details/3091",
-      "kind": "official",
-      "viewedAt": "2026-10-07"
+      "title": "Lawmaker advances bill to repeal state ban on rent control",
+      "publisher": "Capitol News Illinois",
+      "url": "https://capitolnewsillinois.com/news/lawmaker-advances-bill-to-repeal-state-ban-on-rent-control/",
+      "kind": "news",
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 5,
-      "title": "Chicago lawmaker wants to enable cities to set limits on rents",
-      "publisher": "Capitol News Illinois",
-      "url": "https://capitolnewsillinois.com/news/chicago-lawmaker-wants-to-enable-cities-to-set-limits-on-rents/",
-      "kind": "news",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 6,
-      "title": "Prisoner Review Board reform, changes to police hiring ...",
+      "title": "Prisoner Review Board reform, changes to police hiring clear General Assembly",
       "publisher": "Capitol News Illinois",
       "url": "https://capitolnewsillinois.com/news/prisoner-review-board-reform-changes-to-police-hiring-clear-general-assembly/",
       "kind": "news",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
+    },
+    {
+      "id": 6,
+      "title": "Editorial: Will Guzzardi for Illinois 39th House District",
+      "publisher": "Chicago Tribune",
+      "url": "https://www.chicagotribune.com/2026/10/11/editorial-will-guzzardi-for-illinois-39th-house-district/",
+      "kind": "news",
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 7,
-      "title": "2026 Primary Election",
-      "publisher": "Chicago Teachers Union",
-      "url": "https://www.ctulocal1.org/movement/primary-election-2026/",
+      "title": "Planned Parenthood Illinois Action Board Announces 2026 Election Endorsements",
+      "publisher": "Planned Parenthood Illinois Action",
+      "url": "https://www.plannedparenthoodaction.org/planned-parenthood-illinois-action/press-room/planned-parenthood-illinois-action-board-announces-2026-election-endorsements",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
     },
     {
       "id": 8,
-      "title": "2026 Midterm Endorsements",
-      "publisher": "Better Streets Chicago Action Fund",
-      "url": "https://www.bscactionfund.org/2026-midterms/endorsements",
-      "kind": "endorser",
-      "viewedAt": "2026-10-07"
-    },
-    {
-      "id": 9,
       "title": "NASW-IL Announces Endorsements for 2026 Illinois General Election",
       "publisher": "National Association of Social Workers, Illinois Chapter",
       "url": "https://www.naswil.org/post/nasw-il-announces-endorsements-for-2026-illinois-general-election",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
     },
     {
-      "id": 10,
-      "title": "2026 Endorsements",
-      "publisher": "Sierra Club Illinois",
-      "url": "https://www.sierraclub.org/illinois/2026-endorsements",
+      "id": 9,
+      "title": "2026 Primary Election - Chicago Teachers Union",
+      "publisher": "Chicago Teachers Union",
+      "url": "https://www.ctulocal1.org/movement/primary-election-2026/",
       "kind": "endorser",
-      "viewedAt": "2026-10-07"
+      "viewedAt": "2026-10-21"
+    },
+    {
+      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
+      "publisher": "AFSCME Council 31",
+      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 10
     },
     {
       "title": "November 3, 2026 General Election Endorsed Candidates",
@@ -250,92 +233,12 @@
       "id": 11
     },
     {
-      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
-      "publisher": "Illinois AFL-CIO",
-      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
-      "viewedAt": "2026-10-07",
-      "kind": "endorser",
-      "id": 12
-    },
-    {
-      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
-      "publisher": "IUOE Local 150",
-      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
-      "viewedAt": "2026-10-07",
-      "kind": "endorser",
-      "id": 13
-    },
-    {
-      "title": "Personal PAC 2026 General Election Endorsements",
-      "publisher": "Personal PAC",
-      "url": "https://personalpac.org/elections/",
-      "viewedAt": "2026-10-07",
-      "kind": "endorser",
-      "id": 14
-    },
-    {
-      "title": "AFSCME Illinois PEOPLE Recommendations: 2026 General Election",
-      "publisher": "AFSCME Council 31",
-      "url": "https://www.afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 15
-    },
-    {
-      "title": "Tribune Editorial Board endorsements for the 2026 Illinois general election",
-      "publisher": "Chicago Tribune (syndicated on Yahoo News, Oct. 11, 2026)",
-      "url": "https://www.yahoo.com/news/politics/articles/tribune-editorial-board-endorsements-2026-111600003.html",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 16
-    },
-    {
-      "title": "2026 voter information: IFT Endorsements",
-      "publisher": "Illinois Federation of Teachers",
-      "url": "https://www.ift-aft.org/vote",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 17
-    },
-    {
-      "title": "Planned Parenthood Illinois Action board unveils 2026 general election endorsements",
-      "publisher": "Planned Parenthood Illinois Action (press release, published by Windy City Times)",
-      "url": "https://windycitytimes.com/2026/09/08/planned-parenthood-illinois-action-board-unveils-2026-general-election-endorsements/",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 18
-    },
-    {
-      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
-      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
-      "url": "https://seiuhcilin.org/resources/election-information/",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 19
-    },
-    {
-      "title": "Election 2026: 2026 Endorsements",
-      "publisher": "SEIU Local 73",
-      "url": "https://seiu73.org/election-2026/",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 20
-    },
-    {
-      "title": "2026 General midterm Election endorsements",
-      "publisher": "Equality Illinois",
-      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
-      "viewedAt": "2026-10-17",
-      "kind": "endorser",
-      "id": 21
-    },
-    {
       "title": "Chicago Laborers’ District Council Endorsements for the November 2026 General Election",
       "publisher": "Chicago Laborers' District Council (LIUNA)",
       "url": "https://www.liunachicago.org/content/documents/cldc_2026_endorsement_template.pdf",
       "viewedAt": "2026-10-18",
       "kind": "endorser",
-      "id": 22
+      "id": 12
     },
     {
       "title": "November 2026 General Election Endorsements",
@@ -343,7 +246,31 @@
       "url": "https://www.ccctu.org/post/november-2026-general-election-endorsements",
       "viewedAt": "2026-10-18",
       "kind": "endorser",
-      "id": 23
+      "id": 13
+    },
+    {
+      "title": "2026 General midterm Election endorsements",
+      "publisher": "Equality Illinois",
+      "url": "https://www.equalityillinois.us/2026-midterm-election-endorsements/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 14
+    },
+    {
+      "title": "Illinois AFL-CIO Announces Endorsements for 2026 General Election",
+      "publisher": "Illinois AFL-CIO",
+      "url": "https://www.ilaflcio.org/release-general-endorsements-072026/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 15
+    },
+    {
+      "title": "2026 voter information: IFT Endorsements",
+      "publisher": "Illinois Federation of Teachers",
+      "url": "https://www.ift-aft.org/vote",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 16
     },
     {
       "title": "Illinois Nurses Association General Election Endorsements",
@@ -351,7 +278,39 @@
       "url": "https://illinoisnurses.com/wp-content/uploads/2026/07/INA-General-Election-Endorsements.pdf",
       "viewedAt": "2026-10-18",
       "kind": "endorser",
-      "id": 24
+      "id": 17
+    },
+    {
+      "title": "IUOE Local 150 Illinois Endorsements, General Election, November 3, 2026 (Cook County)",
+      "publisher": "IUOE Local 150",
+      "url": "https://local150.org/wp-content/uploads/2026/08/2026-IL-GE_D1_Cook-County_83126.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 18
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 19
+    },
+    {
+      "title": "Election Center: IL Endorsements (SEIU Healthcare Respalda a)",
+      "publisher": "SEIU Healthcare Illinois Indiana Missouri Kansas",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 20
+    },
+    {
+      "title": "Election 2026: 2026 Endorsements",
+      "publisher": "SEIU Local 73",
+      "url": "https://seiu73.org/election-2026/",
+      "viewedAt": "2026-10-17",
+      "kind": "endorser",
+      "id": 21
     },
     {
       "title": "35th Ward Progressive Voter Guide: 2026 Illinois General Election",
@@ -359,13 +318,13 @@
       "url": "https://www.un35.org/elections/",
       "viewedAt": "2026-10-18",
       "kind": "endorser",
-      "id": 25
+      "id": 22
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
-    "promptVersion": "f006-4",
-    "generatedAt": "2026-10-07T18:07:50.183Z",
-    "version": 10
+    "promptVersion": "f006-5",
+    "generatedAt": "2026-10-22T04:51:25.767Z",
+    "version": 12
   }
 }
