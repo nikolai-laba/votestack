@@ -3,7 +3,7 @@
 // screen, and sending the queue when the page is hidden or closed. Page
 // views and ballots are counted by useUsageViews and useBallotUsage.
 
-import { useEffect, useRef } from 'react'
+import { useEffect, useLayoutEffect, useRef } from 'react'
 import { useLocation } from 'react-router'
 import { isProfileLinkState } from '../ballot/profileLinks.ts'
 import { ballotStore, type SavedBallot } from '../picks/store.ts'
@@ -59,11 +59,28 @@ export function startUsage(counter: Usage = usage) {
   window.addEventListener('pagehide', hide)
 }
 
+/** Locations that send the visitor straight on (useRedirectUncounted). */
+const redirecting = new Set<string>()
+
+/**
+ * For a page about to send the visitor elsewhere (`/` without a ballot goes
+ * to /getstarted): it isn't counted, and the page it leads to is counted in
+ * its place, as the first page opened when this one was. Layout effects run
+ * before useUsageViews' effect, so the mark is always in place in time.
+ */
+export function useRedirectUncounted(redirects: boolean) {
+  const { key } = useLocation()
+  useLayoutEffect(() => {
+    if (redirects) redirecting.add(key)
+  }, [redirects, key])
+}
+
 /** Counts each page shown (in Layout, around every route). */
 export function useUsageViews(counter: Usage = usage) {
   const location = useLocation()
   const first = useRef(true)
   useEffect(() => {
+    if (redirecting.delete(location.key)) return
     const { page, key } = usagePage(location.pathname)
     const from = first.current
       ? 'landing'

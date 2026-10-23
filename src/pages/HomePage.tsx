@@ -29,7 +29,11 @@ import {
 } from '../components/BallotView.tsx'
 import { WarningIcon } from '../components/icons.tsx'
 import { BackLink } from '../components/profile/BackLink.tsx'
-import { useBallotUsage, useSampleUsage } from '../metrics/listen.ts'
+import {
+  useBallotUsage,
+  useRedirectUncounted,
+  useSampleUsage,
+} from '../metrics/listen.ts'
 import { usage } from '../metrics/usage.ts'
 import { SampleModeContext } from '../picks/sampleMode.ts'
 import { isRaceHandoffState } from '../races/data.ts'
@@ -124,6 +128,10 @@ export function HomePage() {
     lookup.isSuccess ? secsToBallot : undefined,
   )
   useSampleUsage(inSample ? sampleLookup.data : undefined)
+  // `/` with no ballot to show goes to /getstarted (below), which is counted
+  // in its place.
+  const toGetStarted = !detailOpen && !inSample && !own
+  useRedirectUncounted(toGetStarted)
   const listBeside = beside && (onProfile || !racePanel)
 
   // From /getstarted: focus the new ballot's heading, or the sample's.
@@ -210,8 +218,7 @@ export function HomePage() {
 
   // No ballot to show at / itself: new visitors start at the address form.
   // (A child route, like a shared profile link, still opens without one.)
-  if (!detailOpen && !inSample && !own)
-    return <Navigate to={GET_STARTED_PATH} replace />
+  if (toGetStarted) return <Navigate to={GET_STARTED_PATH} replace />
 
   return (
     <SampleModeContext.Provider value={inSample}>
