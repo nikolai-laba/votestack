@@ -12,7 +12,7 @@ export interface Opponent {
 
 /**
  * Name, party (with "incumbent" when an official list confirms it) and office
- * as text. No photo or portrait slot, so every candidate is shown the same way.
+ * as text, or a nonpartisan note when the ballot shows no party. No photo or portrait slot, so every candidate is shown the same way.
  *
  * When opened without a ballot (a search arrival) and the person is in a
  * candidate race with others, a compact "Also running" chip under the office
@@ -46,6 +46,18 @@ export function ProfileHeader({
       </h1>
       {detail && <p className="text-muted">{detail}</p>}
       <p>{profile.office}</p>
+      {/* Every profile without a party is for an office with no party on
+          the ballot (judges, school boards, most California local seats).
+          Searches ask their party, so the header answers. */}
+      {!profile.party && (
+        <p className="text-small text-muted">
+          Nonpartisan office: no party appears on the ballot. Check{' '}
+          <a href="#endorsements-heading" className="text-text">
+            endorsements
+          </a>{' '}
+          to see which parties or groups endorse or oppose this candidate.
+        </p>
+      )}
       {showChip && opponents && (
         <p className="pt-1 text-small text-muted lg:hidden">
           Also running:{' '}

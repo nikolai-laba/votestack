@@ -556,6 +556,29 @@ describe('candidate profiles', () => {
     expect(judgeHeader).not.toHaveTextContent(/incumbent/i)
   })
 
+  it('says a profile without a party is for a nonpartisan office', async () => {
+    mockApi()
+    renderAt('/candidates/john-roe')
+    const header = (
+      await screen.findByRole('heading', { level: 1, name: 'John Roe' })
+    ).closest('header') as HTMLElement
+    expect(header).toHaveTextContent(
+      'Nonpartisan office: no party appears on the ballot. Check endorsements to see which parties or groups endorse or oppose this candidate.',
+    )
+    expect(
+      within(header).getByRole('link', { name: 'endorsements' }),
+    ).toHaveAttribute('href', '#endorsements-heading')
+    expect(document.getElementById('endorsements-heading')).not.toBeNull()
+    cleanup()
+
+    mockApi()
+    renderAt('/candidates/jane-doe')
+    const partyHeader = (
+      await screen.findByRole('heading', { level: 1 })
+    ).closest('header') as HTMLElement
+    expect(partyHeader).not.toHaveTextContent(/nonpartisan/i)
+  })
+
   it('shows no incumbent label without a confirming source', async () => {
     mockApi()
     renderAt('/candidates/jane-doe')

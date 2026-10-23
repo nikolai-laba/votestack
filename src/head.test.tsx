@@ -58,18 +58,73 @@ describe('profileHead', () => {
     })
   })
 
-  it('says a judge is up for retention, without a party', () => {
+  it('leads a judge’s title with “judge” and the court, and says there’s no party', () => {
     const judge = {
       ...profile,
       party: undefined,
       kind: 'retention' as const,
       office: 'Circuit Court Judge, Cook County',
     }
-    expect(profileHead(judge).description).toMatch(
-      /^Jane Doe is up for retention as Circuit Court Judge, Cook County on/,
+    expect(profileHead(judge)).toEqual({
+      title:
+        'Jane Doe, judge up for retention in 2026 (Cook County Circuit Court) | VoteStack',
+      description:
+        'Jane Doe, judge up for retention on November 3, 2026. No party on the ballot: see which parties and groups endorse or oppose this judge, with sources.',
+      path: '/candidates/jane-doe',
+    })
+  })
+
+  it('names California’s courts for Los Angeles County judges', () => {
+    const la = {
+      ...profile,
+      electionId: LOS_ANGELES.election.id,
+      party: undefined,
+    }
+    expect(
+      profileHead({
+        ...la,
+        kind: 'retention',
+        office:
+          'Associate Justice, Court of Appeal, Second District, Division Eight',
+      }).title,
+    ).toBe(
+      'Jane Doe, judge up for retention in 2026 (Court of Appeal) | VoteStack',
     )
-    expect(profileHead(judge).title).toBe(
-      'Jane Doe, up for retention as Circuit Court Judge, Cook County, 2026 | VoteStack',
+    expect(
+      profileHead({
+        ...la,
+        kind: 'retention',
+        office: 'Associate Justice of the Supreme Court',
+      }).title,
+    ).toBe(
+      'Jane Doe, judge up for retention in 2026 (California Supreme Court) | VoteStack',
+    )
+    const candidate = profileHead({
+      ...la,
+      kind: 'judicial_candidate',
+      office: 'Superior Court Judge, Los Angeles County (Office No. 39)',
+    })
+    expect(candidate.title).toBe(
+      'Jane Doe, candidate for judge in 2026 (Los Angeles County Superior Court) | VoteStack',
+    )
+    expect(candidate.description).toBe(
+      'Jane Doe, candidate for judge on November 3, 2026. No party on the ballot: see which parties and groups endorse or oppose this candidate, with sources.',
+    )
+    // Short enough that Google shows all of it.
+    expect(candidate.description!.length).toBeLessThanOrEqual(160)
+  })
+
+  it('keeps the party in a judge candidate’s description when the ballot shows one', () => {
+    const head = profileHead({
+      ...profile,
+      kind: 'judicial_candidate',
+      office: 'Circuit Court Judge, 3rd Subcircuit (Vacancy of Sherlock)',
+    })
+    expect(head.title).toBe(
+      'Jane Doe, candidate for judge in 2026 (Cook County Circuit Court) | VoteStack',
+    )
+    expect(head.description).toMatch(
+      /^Jane Doe \(Democratic\) is running for Circuit Court Judge, 3rd Subcircuit \(Vacancy of Sherlock\) on the November 3, 2026 ballot in Cook County, Illinois\./,
     )
   })
 

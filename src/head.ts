@@ -143,12 +143,56 @@ export function profileOffice(office: string, region: Region = COOK): string {
     : `${short}, ${region.name}`
 }
 
+/**
+ * The court a judge sits on, in the words people search for: "Court of
+ * Appeal", "Cook County Circuit Court". Undefined for any other office.
+ */
+export function courtName(
+  office: string,
+  region: Region = COOK,
+): string | undefined {
+  if (/Supreme Court/.test(office)) return `${region.stateName} Supreme Court`
+  if (/Court of Appeal\b/.test(office)) return 'Court of Appeal'
+  if (/Appellate Court/.test(office))
+    return `${region.stateName} Appellate Court`
+  if (/Circuit Court/.test(office)) return `${region.name} Circuit Court`
+  if (/Superior Court/.test(office)) return `${region.name} Superior Court`
+  return undefined
+}
+
 /** The same title and description for every candidate, filled from the ballot. */
 export function profileHead(profile: CandidateProfile): PageHead {
   if (profile.sample) {
     return {
       title: `Sample profile of ${profile.name} | VoteStack`,
       noindex: true,
+    }
+  }
+  // Judges lead with "judge" and their court, the words people search for.
+  // Most have no party on the ballot, and searches ask which party they
+  // belong to, so the description answers that instead.
+  const judgeRegion = regionForElection(profile.electionId) ?? COOK
+  const court =
+    profile.kind === 'candidate'
+      ? undefined
+      : courtName(profile.office, judgeRegion)
+  if (court) {
+    const year = judgeRegion.election.date.slice(0, 4)
+    const role =
+      profile.kind === 'retention'
+        ? 'judge up for retention'
+        : 'candidate for judge'
+    const who = profile.kind === 'retention' ? 'this judge' : 'this candidate'
+    const running =
+      profile.kind === 'retention'
+        ? `is up for retention as ${profile.office}`
+        : `is running for ${profile.office}`
+    return {
+      title: `${profile.name}, ${role} in ${year} (${court}) | VoteStack`,
+      description: profile.party
+        ? `${profile.name} (${profile.party}) ${running} on the ${ELECTION_DAY} ballot in ${judgeRegion.fullName}. Background, campaign money and endorsements, with a source for every fact.`
+        : `${profile.name}, ${role} on ${ELECTION_DAY}. No party on the ballot: see which parties and groups endorse or oppose ${who}, with sources.`,
+      path: `/candidates/${profile.key}`,
     }
   }
   const running =

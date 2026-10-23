@@ -5,6 +5,13 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+## [1.5.1] - 2026-10-23
+
+### Changed
+
+- Profiles for offices with no party on the ballot (judges, school boards, most California local seats) now say so under the office, with a link to the endorsements, which show the parties and groups that endorse or oppose the candidate.
+- Judges' profile titles in search results start with "judge" and their court ("John Wiley, judge up for retention in 2026 (Court of Appeal)"), and a judge with no party on the ballot gets a shorter search description that says so. State appeals courts are no longer labelled with a county.
+
 ## [1.5.0] - 2026-10-22
 
 ### Added
