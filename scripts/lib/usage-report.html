@@ -2578,7 +2578,7 @@
             })
           : 'nothing yet'
         $('freshness').textContent =
-          `Built ${new Date(DATA.generatedAt).toLocaleString('en-US', { timeZone: state.tz, dateStyle: 'medium', timeStyle: 'short' })}. Rolled-up counts through ${rolled}; newer hours: ${DATA.liveNote}.`
+          `Built ${new Date(DATA.generatedAt).toLocaleString('en-US', { timeZone: state.tz, dateStyle: 'medium', timeStyle: 'short' })}. Rolled-up counts through ${rolled}; newer hours: ${DATA.liveNote}.${DATA.excludedNote ? ` Left out: ${DATA.excludedNote}.` : ''}`
         $('generated').textContent =
           `${ROWS.length} hourly rows, ${DATA.reports.length} error reports, ${DATA.signups.length} sign-ups in this file.`
       }

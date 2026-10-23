@@ -20,6 +20,7 @@ import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises'
 import { dirname, join, resolve } from 'node:path'
 import { parseArgs } from 'node:util'
 import { profileKey } from '../src/shared/profile.ts'
+import { excludeScraper, type Row } from './lib/usage-exclusions.ts'
 
 const { values } = parseArgs({
   options: {
@@ -71,12 +72,6 @@ interface HourRow {
   d7: number
   d8: number
 }
-
-/**
- * One count as written into the page:
- * [hour (Unix seconds), event, a, b, c, n, d1…d8, live (1 = not rolled up yet)].
- */
-type Row = [number, string, string, string, string, number, ...number[]]
 
 const hourRows = await readAll<HourRow>(
   'usage_hourly',
@@ -214,11 +209,18 @@ for (const file of contestFiles) {
   }
 }
 
+// The scraper's counts from before the app stopped counting it.
+const excluded = excludeScraper(rows)
+const excludedNote = excluded.dropped.views
+  ? `${excluded.dropped.views} scraper visits to report pages and an estimated ${excluded.dropped.active} of their time counts left out (Oct 18–22, 2026)`
+  : ''
+
 const data = {
   generatedAt: new Date().toISOString(),
   rolledUpTo,
   liveNote,
-  rows,
+  excludedNote,
+  rows: excluded.rows,
   reports: reports.map((r) => [
     r.created_at,
     r.status,
