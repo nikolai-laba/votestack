@@ -1,3 +1,4 @@
+import { readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
 import {
   areaBallotsText,
@@ -148,5 +149,28 @@ describe('race addresses', () => {
         judge: 'Lewis Nixon',
       }),
     ).toBe('Retention of Lewis Nixon, Judge, Circuit Court')
+  })
+})
+
+describe('party labels in the published races', () => {
+  // Profiles without a party say "no party appears on the ballot"
+  // (ProfileHeader), which holds only while no race mixes candidates with
+  // a party and candidates without one.
+  it('gives every candidate in a race a party, or none of them', () => {
+    const files = [
+      'content/contests/2026-11-03.json',
+      'content/contests/ca-la/2026-11-03.json',
+    ]
+    for (const file of files) {
+      const races = JSON.parse(readFileSync(file, 'utf8')).races as {
+        path: string
+        candidates?: { name: string; party?: string }[]
+      }[]
+      for (const race of races) {
+        const withParty = (race.candidates ?? []).filter((c) => c.party)
+        if (withParty.length === 0) continue
+        expect(withParty, race.path).toEqual(race.candidates)
+      }
+    }
   })
 })

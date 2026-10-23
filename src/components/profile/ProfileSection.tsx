@@ -20,7 +20,8 @@ export function ProfileSection({
 }) {
   return (
     <section aria-labelledby={`${id}-heading`} className="space-y-3">
-      <h2 id={`${id}-heading`} className="text-section">
+      {/* Clear of the sticky site header when a link jumps here. */}
+      <h2 id={`${id}-heading`} className="scroll-mt-24 text-section">
         {title}
       </h2>
       {empty ? (
