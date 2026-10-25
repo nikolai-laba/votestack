@@ -21,6 +21,13 @@ import { dirname, join, resolve } from 'node:path'
 import { parseArgs } from 'node:util'
 import { profileKey } from '../src/shared/profile.ts'
 import { excludeScraper, type Row } from './lib/usage-exclusions.ts'
+import {
+  coverage,
+  fillTemplate,
+  measuresScript,
+  parseReleases,
+  readCosts,
+} from './lib/usage-report-build.ts'
 
 const { values } = parseArgs({
   options: {
@@ -239,23 +246,30 @@ const data = {
   races,
 }
 
-const template = await readFile(
-  new URL('./lib/usage-report.html', import.meta.url),
-  'utf8',
-)
-// `<` is escaped so no value can close the script tag.
-const json = JSON.stringify(data).replace(/</g, '\\u003c')
-// Either quote style, since formatters may change it.
-const placeholder = /(["'])__USAGE_DATA__\1/
-if (!placeholder.test(template)) {
-  throw new Error('The data placeholder is missing from usage-report.html')
+const read = (name: string) =>
+  readFile(new URL(`./lib/${name}`, import.meta.url), 'utf8')
+const html = fillTemplate(await read('usage-report.html'), data)
+
+// The v2 page: the same data plus releases, coverage and running costs, with
+// the measures module inlined so its filters work in the page.
+const dataV2 = {
+  ...data,
+  releases: parseReleases(await readFile('CHANGELOG.md', 'utf8')),
+  coverage: coverage(contestFiles),
+  costs: await readCosts(resolve('.private/usage-costs.json')),
 }
-const html = template.replace(placeholder, () => json)
+const htmlV2 = fillTemplate(
+  await read('usage-report-v2.html'),
+  dataV2,
+  measuresScript(await read('usage-measures.ts')),
+)
 
 const out = resolve(values.out)
+const outV2 = join(dirname(out), 'report-v2.html')
 await mkdir(dirname(out), { recursive: true })
 await writeFile(out, html)
+await writeFile(outV2, htmlV2)
 console.log(
-  `Wrote ${out}\n  ${hourRows.length} rolled-up rows, live hours: ${liveNote}\n  ${reports.length} error reports, ${signups.length} sign-ups`,
+  `Wrote ${out} and ${outV2}\n  ${hourRows.length} rolled-up rows, live hours: ${liveNote}\n  ${reports.length} error reports, ${signups.length} sign-ups`,
 )
 if (values.open) execFile('open', [out])
