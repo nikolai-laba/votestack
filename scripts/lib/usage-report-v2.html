@@ -682,19 +682,177 @@
         </div>
       </section>
 
-      <!-- Sections 5 to 8 are still to come; their containers are kept here. -->
-      <section
-        id="h-depth"
-        aria-label="How deep do voters go?"
-        hidden
-      ></section>
-      <section
-        id="h-funders"
-        aria-label="Outcomes, for funders"
-        hidden
-      ></section>
-      <section id="h-guard" aria-label="Demand and guardrails" hidden></section>
-      <section id="h-explore" aria-label="Explore the counts" hidden></section>
+      <section id="h-depth" aria-labelledby="h-depth-title">
+        <div class="section-head">
+          <h2 id="h-depth-title">How deep do voters go?</h2>
+          <span class="badge" id="learn-badge" hidden
+            >All areas: opens and picks aren't split by area</span
+          >
+        </div>
+        <div class="grid tiles" id="depth-tiles"></div>
+        <div class="grid two" style="margin-top: 12px">
+          <div class="card">
+            <h3>Races with a profile opened, by level</h3>
+            <p class="muted small">
+              First profile opened in a race, out of all races on new voters'
+              ballots. Local races matter most.
+            </p>
+            <div id="learn-bars"></div>
+          </div>
+          <div class="card">
+            <h3>First picks by level, and how many came after a profile</h3>
+            <p class="muted small">
+              First picks in each race, split by whether a profile in that race
+              was opened first. Measures have no profiles.
+            </p>
+            <div id="pick-bars"></div>
+          </div>
+          <div class="card">
+            <h3>How much of their ballot they filled</h3>
+            <p class="muted small">
+              New voters who picked at least this share of candidate races
+              (judges, retention and measures left out).
+            </p>
+            <div id="fill-bars"></div>
+          </div>
+        </div>
+        <div
+          class="card table-wrap"
+          id="learn-table"
+          style="margin-top: 12px"
+        ></div>
+        <div class="card" style="margin-top: 12px">
+          <div class="card-head">
+            <h3>Page views by how visitors got there</h3>
+            <span class="badge" id="pages-badge" hidden
+              >Page totals are all areas; the lists below follow the area
+              filter</span
+            >
+          </div>
+          <div id="page-bars"></div>
+          <ul class="legend" id="page-legend"></ul>
+        </div>
+        <div class="card" style="margin-top: 12px">
+          <div class="controls">
+            <h3 style="margin: 0; flex: 1 1 auto">
+              Most viewed candidate profiles
+            </h3>
+            <label class="field"
+              >Find
+              <input type="search" id="p-search" placeholder="Name or race"
+            /></label>
+          </div>
+          <div class="table-wrap" id="profile-table"></div>
+        </div>
+        <div class="card" style="margin-top: 12px">
+          <h3>Most viewed race pages</h3>
+          <div class="table-wrap" id="race-table"></div>
+        </div>
+      </section>
+
+      <section id="h-funders" aria-labelledby="h-funders-title">
+        <div class="section-head">
+          <h2 id="h-funders-title">Outcomes, for funders</h2>
+          <span class="muted small"
+            >Informed voters count the whole election. Everything else follows
+            the dates above.</span
+          >
+        </div>
+        <div class="grid tiles" id="funder-tiles"></div>
+        <div
+          class="grid tiles"
+          id="coverage-tiles"
+          style="margin-top: 12px"
+        ></div>
+        <div id="cost-tiles" style="margin-top: 12px"></div>
+        <div class="card" style="margin-top: 12px">
+          <h3>What this doesn't measure</h3>
+          <ul id="not-measured">
+            <li>
+              People rather than devices: one person on a phone and a laptop
+              counts twice, and a shared device counts once.
+            </li>
+            <li>
+              What voters do after the visit, such as how they mark their ballot
+              or who they talk to.
+            </li>
+            <li>Turnout: whether the voters we reach go on to vote.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="h-guard" aria-labelledby="h-guard-title">
+        <div class="section-head">
+          <h2 id="h-guard-title">Demand and guardrails</h2>
+          <span class="muted small">Not split by area.</span>
+        </div>
+        <div class="grid two">
+          <div class="card table-wrap">
+            <h3>Email sign-ups</h3>
+            <div id="signup-source-table"></div>
+            <p id="banner-line" class="muted small"></p>
+            <p class="muted small">
+              By ZIP code: area-only sign-ups, which agreed to be counted
+            </p>
+            <div id="signup-table"></div>
+          </div>
+          <div class="card table-wrap">
+            <h3>Error reports on profiles</h3>
+            <div id="report-table"></div>
+            <h3 style="margin-top: 16px">Links out, by page</h3>
+            <div id="out-table"></div>
+          </div>
+        </div>
+        <div class="card" style="margin-top: 12px">
+          <div class="controls">
+            <h3 style="margin: 0">When people come</h3>
+            <label class="field"
+              >Measure
+              <select id="heat-metric">
+                <option value="views">Page views</option>
+                <option value="lookups">Ballot lookups (voters)</option>
+                <option value="voters">New voters</option>
+              </select>
+            </label>
+            <span class="muted small" id="heat-note"></span>
+          </div>
+          <div id="heat"></div>
+        </div>
+        <div class="card table-wrap" style="margin-top: 12px">
+          <h3>Data health</h3>
+          <p class="muted small">
+            Batches the Worker turned away, and hours the counts may be short.
+          </p>
+          <div id="health-detail"></div>
+          <p class="muted small" id="health-excluded"></p>
+        </div>
+      </section>
+
+      <section id="h-explore" aria-labelledby="h-explore-title">
+        <div class="section-head">
+          <h2 id="h-explore-title">Explore the counts</h2>
+          <span class="muted small"
+            >Any event, grouped any way. Follows the dates and area above.</span
+          >
+        </div>
+        <div class="card">
+          <div class="controls">
+            <label class="field"
+              >Event
+              <select id="x-event"></select
+            ></label>
+            <div
+              class="checks"
+              id="x-groups"
+              role="group"
+              aria-label="Group by"
+            ></div>
+            <button type="button" id="x-csv">Download CSV</button>
+          </div>
+          <p class="muted small" id="x-help"></p>
+          <div class="table-wrap" id="x-table"></div>
+        </div>
+      </section>
 
       <footer>
         <p>
@@ -849,6 +1007,32 @@
           form: 'Address form on a race page',
         }
 
+        const LEVELS = [
+          'federal',
+          'state',
+          'county',
+          'judges',
+          'local',
+          'retention',
+          'measures',
+        ]
+        const LEVEL_LABEL = {
+          federal: 'Federal',
+          state: 'State',
+          county: 'County',
+          judges: 'Judges',
+          local: 'Local',
+          retention: 'Judicial retention',
+          measures: 'Measures',
+        }
+        // How a page view got there, as v1 calls its sources.
+        const VIEW_SOURCES = ['landing', 'ballot', 'app']
+        const VIEW_SOURCE_LABEL = {
+          landing: 'First page of the visit',
+          ballot: 'From a ballot or race list',
+          app: 'Other link in the app',
+        }
+
         // What each stand-in is, for the estimate tag's hover text.
         const NOTE = {
           informed:
@@ -920,6 +1104,9 @@
           Math.abs(v) < 10 && v % 1 ? nf1.format(v) : nf.format(v)
         const pct = (n, d) => (d > 0 ? `${nf1.format((100 * n) / d)}%` : '–')
         const share = (v) => (v == null ? '–' : `${nf1.format(100 * v)}%`)
+        /** A share as a number, or null with nothing to divide by (v1's share). */
+        const ratioOf = (n, d) => (d > 0 ? n / d : null)
+        const usd = (v) => (v == null ? '–' : `$${v.toFixed(2)}`)
 
         let partsCache = new Map()
         let tzCached = ''
@@ -2154,6 +2341,975 @@
           )
         }
 
+        // ---- Learning ----------------------------------------------------
+        function renderLearning() {
+          const { start, end } = period()
+          $('learn-badge').hidden = state.area === 'all'
+          const allNew = rowsOf('voter', start, end, false).filter(
+            (r) => r[A] === 'new',
+          )
+          const opens = rowsOf('open', start, end)
+          const picks = rowsOf('pick', start, end)
+          const stats = LEVELS.map((lv, i) => {
+            const races = sum(allNew, (r) => r[D1 + 1 + i])
+            const lo = opens.filter((r) => r[A] === lv)
+            const lp = picks.filter((r) => r[A] === lv)
+            const first = sumWhere(lo, (r) => r[B] === '1')
+            const compared = sumWhere(lo, (r) => r[B] === '2')
+            const pk = sum(lp)
+            const informed = sumWhere(lp, (r) => r[B] === '1')
+            return {
+              level: lv,
+              label: LEVEL_LABEL[lv],
+              races,
+              first,
+              compared,
+              pk,
+              informed,
+              strong: lv === 'local',
+            }
+          })
+          const blue = cssVar('--s1'),
+            gray = cssVar('--other')
+          const shareRows = (key, of) =>
+            stats
+              .filter((x) => x[of] > 0)
+              .map((x) => ({
+                label: x.label,
+                segs: [
+                  {
+                    key: 'v',
+                    label: 'Share',
+                    v: Math.min(1, x[key] / x[of]),
+                    color: blue,
+                  },
+                ],
+                value: pct(x[key], x[of]),
+              }))
+          hbars($('learn-bars'), shareRows('first', 'races'), {
+            max: 1,
+            tipFmt: (v) => pct(v, 1),
+            empty: 'No ballots looked up in this period.',
+          })
+          // Where picks happen and how many came after a profile: counts by
+          // level, split into after a profile and without one.
+          hbars(
+            $('pick-bars'),
+            stats
+              .filter((x) => x.pk > 0)
+              .map((x) => ({
+                label:
+                  x.level === 'measures' ? `${x.label} (no profiles)` : x.label,
+                segs: [
+                  {
+                    key: 'after',
+                    label: 'After a profile',
+                    v: x.informed,
+                    color: blue,
+                  },
+                  {
+                    key: 'without',
+                    label: 'Without one',
+                    v: x.pk - x.informed,
+                    color: gray,
+                  },
+                ],
+                value:
+                  x.level === 'measures'
+                    ? num(x.pk)
+                    : `${num(x.informed)} of ${num(x.pk)} (${pct(x.informed, x.pk)})`,
+              })),
+            {
+              tipFmt: (v, total) => `${num(v)} (${pct(v, total)})`,
+              empty: 'No picks in this period.',
+            },
+          )
+          const tot = stats.reduce(
+            (t, x) => ({
+              races: t.races + x.races,
+              first: t.first + x.first,
+              compared: t.compared + x.compared,
+              pk: t.pk + x.pk,
+              informed: t.informed + x.informed,
+            }),
+            { races: 0, first: 0, compared: 0, pk: 0, informed: 0 },
+          )
+          const rows = stats.filter((x) => x.races || x.first || x.pk)
+          const below = stats
+            .filter((x) => x.level !== 'federal' && x.level !== 'measures')
+            .reduce(
+              (t, x) => ({
+                races: t.races + x.races,
+                first: t.first + x.first,
+                compared: t.compared + x.compared,
+                pk: t.pk + x.pk,
+                informed: t.informed + x.informed,
+              }),
+              { races: 0, first: 0, compared: 0, pk: 0, informed: 0 },
+            )
+          if (rows.length)
+            rows.push(
+              {
+                label: 'Below federal, measures left out',
+                ...below,
+                strong: true,
+              },
+              { label: 'All levels', ...tot, strong: true },
+            )
+          table(
+            $('learn-table'),
+            [
+              { label: 'Level', get: (r) => r.label },
+              { label: 'Races on ballots', num: true, get: (r) => r.races },
+              { label: 'Profile opened', num: true, get: (r) => r.first },
+              {
+                label: 'Share opened',
+                num: true,
+                get: (r) => ratioOf(r.first, r.races),
+                fmt: (v) => (v == null ? '–' : pct(v, 1)),
+              },
+              { label: 'Compared', num: true, get: (r) => r.compared },
+              {
+                label: 'Share compared',
+                num: true,
+                get: (r) => ratioOf(r.compared, r.first),
+                fmt: (v) => (v == null ? '–' : pct(v, 1)),
+              },
+              { label: 'First picks', num: true, get: (r) => r.pk },
+              {
+                label: 'After a profile',
+                num: true,
+                get: (r) => ratioOf(r.informed, r.pk),
+                fmt: (v) => (v == null ? '–' : pct(v, 1)),
+              },
+            ],
+            rows,
+            { empty: 'No ballots looked up in this period.' },
+          )
+        }
+
+        // ---- Pages and profiles ------------------------------------------
+        function renderPages() {
+          const { start, end } = period()
+          const views = rowsOf('view', start, end)
+          $('pages-badge').hidden = state.area === 'all'
+          const series = VIEW_SOURCES.map((x, i) => ({
+            key: x,
+            label: VIEW_SOURCE_LABEL[x],
+            color: cssVar(SERIES[i]),
+          }))
+          const pageRows = PAGES.map((p) => {
+            const pr = views.filter((r) => r[A] === p)
+            return {
+              label: PAGE_LABEL[p],
+              segs: series.map((sr) => ({
+                ...sr,
+                v: sumWhere(pr, (r) => r[B] === sr.key),
+              })),
+            }
+          })
+            .filter((r) => r.segs.some((x) => x.v > 0))
+            .sort(
+              (x, y) =>
+                y.segs.reduce((t, s0) => t + s0.v, 0) -
+                x.segs.reduce((t, s0) => t + s0.v, 0),
+            )
+          hbars($('page-bars'), pageRows, {
+            tipFmt: (v, t) => `${num(v)} (${pct(v, t)})`,
+            empty: 'No page views in this period.',
+          })
+          legend($('page-legend'), series)
+
+          const inArea = (r) =>
+            state.area === 'all' || rowArea(r) === state.area
+          const byKey = (page) => {
+            const m = new Map()
+            for (const r of views) {
+              if (r[A] !== page || !r[C] || !inArea(r)) continue
+              const o = m.get(r[C]) || {
+                key: r[C],
+                landing: 0,
+                ballot: 0,
+                app: 0,
+                total: 0,
+              }
+              o[r[B]] = (o[r[B]] || 0) + r[N]
+              o.total += r[N]
+              m.set(r[C], o)
+            }
+            return [...m.values()]
+          }
+          const q = $('p-search').value.trim().toLowerCase()
+          const profiles = byKey('profile')
+            .map((o) => {
+              const c = DATA.candidates[o.key]
+              return {
+                ...o,
+                name: c?.[0] || o.key,
+                race: c?.[1] || '',
+                area: AREA_LABEL[c?.[2]] || '',
+              }
+            })
+            .filter(
+              (o) =>
+                !q ||
+                o.name.toLowerCase().includes(q) ||
+                o.race.toLowerCase().includes(q),
+            )
+          const srcCols = [
+            { label: 'First page', num: true, get: (r) => r.landing },
+            { label: 'From a ballot', num: true, get: (r) => r.ballot },
+            { label: 'Other in app', num: true, get: (r) => r.app },
+            { label: 'Total', num: true, get: (r) => r.total },
+          ]
+          table(
+            $('profile-table'),
+            [
+              { label: 'Candidate', get: (r) => r.name },
+              { label: 'Race', get: (r) => r.race },
+              ...(state.area === 'all'
+                ? [{ label: 'Area', get: (r) => r.area }]
+                : []),
+              ...srcCols,
+            ],
+            profiles,
+            {
+              sortBy: state.area === 'all' ? 6 : 5,
+              limit: 25,
+              empty: q
+                ? 'No profile views match.'
+                : 'No profile views in this period.',
+            },
+          )
+          const racesV = byKey('races').map((o) => ({
+            ...o,
+            title: DATA.races[o.key]?.[0] || o.key,
+            level: LEVEL_LABEL[DATA.races[o.key]?.[1]] || '',
+          }))
+          table(
+            $('race-table'),
+            [
+              { label: 'Race', get: (r) => r.title },
+              { label: 'Level', get: (r) => r.level },
+              ...srcCols,
+            ],
+            racesV,
+            {
+              sortBy: 5,
+              limit: 15,
+              empty: 'No race page views in this period.',
+            },
+          )
+        }
+
+        // ---- When people come --------------------------------------------
+        function renderHeat() {
+          const { start, end } = period()
+          const metric = $('heat-metric').value
+          const rows =
+            metric === 'views'
+              ? rowsOf('view', start, end)
+              : metric === 'lookups'
+                ? rowsOf('lookup', start, end).filter((r) => r[C] === '0')
+                : rowsOf('voter', start, end).filter((r) => r[A] === 'new')
+          const days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+          const cells = days.map(() => Array(24).fill(0))
+          for (const r of rows) {
+            const p = parts(r[H])
+            cells[days.indexOf(p.weekday)][p.hour] += r[N]
+          }
+          const max = Math.max(...cells.flat())
+          $('heat-note').textContent =
+            `Totals by weekday and hour, ${state.tz === 'UTC' ? 'UTC' : state.tz === 'America/Chicago' ? 'Chicago time' : 'Los Angeles time'}.${metric === 'views' && state.area !== 'all' ? ' Page views are all areas.' : ''}`
+          if (!max)
+            return $('heat').replaceChildren(
+              h('p', { class: 'empty' }, 'Nothing counted in this period.'),
+            )
+          const steps = ['--q1', '--q2', '--q3', '--q4', '--q5'].map(cssVar)
+          const color = (v) =>
+            v <= 0
+              ? cssVar('--band')
+              : steps[Math.min(4, Math.floor((v / max) * 5 - 1e-9))]
+          const grid = h(
+            'div',
+            {
+              class: 'heat',
+              role: 'img',
+              'aria-label': 'Weekday by hour totals',
+            },
+            h('span'),
+          )
+          for (let hr = 0; hr < 24; hr++)
+            grid.append(
+              h('span', { class: 'hl' }, hr % 3 === 0 ? hourLabel(hr) : ''),
+            )
+          days.forEach((d, i) => {
+            grid.append(h('span', { class: 'hl', style: 'text-align:left' }, d))
+            for (let hr = 0; hr < 24; hr++) {
+              const v = cells[i][hr]
+              grid.append(
+                h('span', {
+                  class: 'cell',
+                  style: `background:${color(v)}`,
+                  onpointermove: (ev) =>
+                    showTip(ev, `${d}, ${hourLabel(hr)}`, [
+                      [
+                        null,
+                        $('heat-metric').selectedOptions[0].textContent,
+                        num(v),
+                      ],
+                    ]),
+                  onpointerleave: hideTip,
+                }),
+              )
+            }
+          })
+          const scale = h(
+            'div',
+            { class: 'scale' },
+            h('span', {}, '0'),
+            h('span', {
+              class: 'cell',
+              style: `background:${cssVar('--band')}`,
+            }),
+            ...steps.map((c) =>
+              h('span', { class: 'cell', style: `background:${c}` }),
+            ),
+            h('span', {}, num(max)),
+          )
+          $('heat').replaceChildren(grid, scale)
+        }
+
+        // ---- Demand and guardrails ---------------------------------------
+        function renderGuardrails() {
+          const { start, end } = period()
+          const inRange = (iso) => {
+            const t = Date.parse(iso) / 1000
+            return t >= start && t < end
+          }
+          // Rows from before the email list (scope 'area') agreed only to hear
+          // when VoteStack reaches their area.
+          const SIGNUP_SOURCE = {
+            profile: 'End of a profile',
+            race: 'End of a race page',
+            ballot: 'End of the ballot',
+            saved: 'End of Saved choices',
+            about: 'About',
+            banner: 'Sign-up page, from the banner',
+            page: 'Sign-up page',
+          }
+          const bySource = new Map()
+          for (const [, , scope, source] of DATA.signups.filter((r) =>
+            inRange(r[0]),
+          )) {
+            const name =
+              scope === 'area'
+                ? 'Area only (before Oct 22)'
+                : SIGNUP_SOURCE[source] || 'Unknown'
+            bySource.set(name, (bySource.get(name) || 0) + 1)
+          }
+          table(
+            $('signup-source-table'),
+            [
+              { label: 'Where they signed up', get: (r) => r.name },
+              { label: 'Sign-ups', num: true, get: (r) => r.n },
+            ],
+            [...bySource].map(([name, n]) => ({ name, n })),
+            { sortBy: 1, empty: 'No sign-ups in this period.' },
+          )
+          const banner = rowsOf('banner', start, end, false)
+          $('banner-line').textContent =
+            `Banner: ${num(sumWhere(banner, (r) => r[A] === 'shown'))} shown, ${num(sumWhere(banner, (r) => r[A] === 'closed'))} closed.`
+
+          const zips = new Map()
+          for (const [at, zip] of DATA.signups.filter(
+            (r) => r[1] && inRange(r[0]),
+          )) {
+            const o = zips.get(zip) || { zip, n: 0, last: '' }
+            o.n++
+            if (at > o.last) o.last = at
+            zips.set(zip, o)
+          }
+          table(
+            $('signup-table'),
+            [
+              { label: 'ZIP', get: (r) => r.zip },
+              { label: 'Sign-ups', num: true, get: (r) => r.n },
+              {
+                label: 'Latest',
+                get: (r) => r.last,
+                fmt: (v) =>
+                  parts(Math.floor(Date.parse(v) / 3600000) * 3600).day,
+              },
+            ],
+            [...zips.values()],
+            { sortBy: 1, limit: 15, empty: 'No sign-ups in this period.' },
+          )
+
+          const rep = new Map()
+          for (const [at, status, section] of DATA.reports.filter((r) =>
+            inRange(r[0]),
+          )) {
+            const o = rep.get(section) || {
+              section,
+              new: 0,
+              fixed: 0,
+              other: 0,
+              total: 0,
+            }
+            if (status === 'new') o.new++
+            else if (status === 'fixed') o.fixed++
+            else o.other++
+            o.total++
+            rep.set(section, o)
+          }
+          table(
+            $('report-table'),
+            [
+              { label: 'Section', get: (r) => r.section },
+              { label: 'Open', num: true, get: (r) => r.new },
+              { label: 'Fixed', num: true, get: (r) => r.fixed },
+              {
+                label: 'Rejected or duplicate',
+                num: true,
+                get: (r) => r.other,
+              },
+              { label: 'Total', num: true, get: (r) => r.total },
+            ],
+            [...rep.values()],
+            { sortBy: 4, empty: 'No error reports in this period.' },
+          )
+
+          const outs = rowsOf('out', start, end)
+          const byPage = PAGES.map((p) => ({
+            page: PAGE_LABEL[p],
+            n: sumWhere(outs, (r) => r[A] === p),
+          })).filter((r) => r.n > 0)
+          table(
+            $('out-table'),
+            [
+              { label: 'Page', get: (r) => r.page },
+              { label: 'Links out', num: true, get: (r) => r.n },
+            ],
+            byPage,
+            { sortBy: 1, empty: 'No links out in this period.' },
+          )
+        }
+
+        // ---- Explorer ----------------------------------------------------
+        const EXPLORE = {
+          view: {
+            label: 'Page views (view)',
+            a: 'Page',
+            b: 'How they got there',
+            c: 'Candidate or race',
+            d: [],
+          },
+          lookup: {
+            label: 'Ballot lookups (lookup)',
+            a: 'Outcome',
+            b: 'Area',
+            c: 'Sample ballot (1) or voter (0)',
+            d: ['Total ms'],
+          },
+          voter: {
+            label: 'Voters (voter)',
+            a: 'New or return',
+            b: 'Area',
+            c: 'Time to ballot (timed, restored, long)',
+            d: [
+              'Seconds to ballot',
+              ...LEVELS.map((l) => `${LEVEL_LABEL[l]} races`),
+            ],
+          },
+          sample: {
+            label: 'Sample ballots (sample)',
+            a: 'Seen, or then their own',
+            b: 'Area',
+            d: [],
+          },
+          open: {
+            label: 'Profiles opened (open)',
+            a: 'Level',
+            b: 'First (1) or comparing (2)',
+            d: [],
+          },
+          pick: {
+            label: 'First picks (pick)',
+            a: 'Level',
+            b: 'After a profile (1/0)',
+            d: [],
+          },
+          fill: {
+            label: 'Ballot filled (fill)',
+            a: 'Share of candidate races picked',
+            b: 'Area',
+            d: [],
+          },
+          learn: {
+            label: 'Learning milestones (learn)',
+            a: 'Milestone (races, compared, researched)',
+            b: 'Area',
+            c: 'Count reached',
+            d: [],
+          },
+          half: {
+            label: 'Half-ballot milestones (half, until Oct 20)',
+            a: 'Area',
+            b: 'Informed (1/0)',
+            d: [],
+          },
+          out: { label: 'Links out (out)', a: 'Page', d: [] },
+          banner: {
+            label: 'Sign-up banner (banner)',
+            a: 'Shown or closed',
+            d: [],
+          },
+          active: {
+            label: 'Time on screen (active)',
+            a: 'Ballot on device (1/0)',
+            d: ['Seconds'],
+          },
+          // The new counts.
+          visit: {
+            label: 'Visit steps (visit)',
+            a: 'First page',
+            b: 'Source',
+            c: 'Step',
+            d: [],
+          },
+          device: {
+            label: 'Devices (device)',
+            a: 'Period',
+            b: 'New or back',
+            d: [],
+          },
+          read: {
+            label: 'Profile reading (read)',
+            a: 'Path',
+            b: 'Kind',
+            c: 'Mark reached',
+            d: [],
+          },
+          informed: {
+            label: 'Newly informed (informed)',
+            a: 'Week or election',
+            b: 'Path',
+            c: 'One profile or compared',
+            d: [],
+          },
+          cta: {
+            label: 'Links to the ballot (cta)',
+            a: 'Link',
+            b: 'Page',
+            d: [],
+          },
+          origin: {
+            label: 'Ballots by first arrival (origin)',
+            a: 'First page',
+            b: 'Source',
+            c: 'Same visit or later',
+            d: [],
+          },
+          dropped: {
+            label: 'Batches turned away (dropped)',
+            a: 'Reason',
+            d: ['Events turned away'],
+          },
+        }
+        for (const [k, v] of Object.entries(EXPLORE))
+          $('x-event').append(h('option', { value: k }, v.label))
+        let lastExplore = []
+
+        function fillGroups() {
+          const ev = EXPLORE[$('x-event').value]
+          const opts = [
+            ['day', 'Day'],
+            ['hourOfDay', 'Hour of day'],
+            ['weekday', 'Weekday'],
+            ...['a', 'b', 'c'].filter((k) => ev[k]).map((k) => [k, ev[k]]),
+          ]
+          $('x-groups').replaceChildren(
+            h('span', { class: 'muted' }, 'Group by:'),
+            ...opts.map(([k, label], i) =>
+              h(
+                'label',
+                {},
+                h('input', {
+                  type: 'checkbox',
+                  value: k,
+                  checked: i === 3,
+                  onchange: renderExplore,
+                }),
+                label,
+              ),
+            ),
+          )
+          $('x-help').textContent =
+            AREA_EVENTS.has($('x-event').value) || state.area === 'all'
+              ? ''
+              : "This event isn't split by area, so it shows all areas."
+        }
+        function renderExplore() {
+          const event = $('x-event').value
+          const ev = EXPLORE[event]
+          const { start, end } = period()
+          const groups = [
+            ...$('x-groups').querySelectorAll('input:checked'),
+          ].map((x) => x.value)
+          const rows = rowsOf(event, start, end)
+          const m = new Map()
+          for (const r of rows) {
+            const p = parts(r[H])
+            const vals = groups.map((g) =>
+              g === 'day'
+                ? p.day
+                : g === 'hourOfDay'
+                  ? p.hour
+                  : g === 'weekday'
+                    ? p.weekday
+                    : r[{ a: A, b: B, c: C }[g]],
+            )
+            const k = JSON.stringify(vals)
+            const o = m.get(k) || { vals, n: 0, d: ev.d.map(() => 0) }
+            o.n += r[N]
+            ev.d.forEach((_, i) => (o.d[i] += r[D1 + i]))
+            m.set(k, o)
+          }
+          const label = {
+            day: 'Day',
+            hourOfDay: 'Hour of day',
+            weekday: 'Weekday',
+            a: ev.a,
+            b: ev.b,
+            c: ev.c,
+          }
+          const pretty = (g, v) => {
+            if (g === 'hourOfDay') return hourLabel(v)
+            if (g === 'c' && event === 'view')
+              return DATA.candidates[v]?.[0] || DATA.races[v]?.[0] || v
+            if (event === 'view' && g === 'a') return PAGE_LABEL[v] || v
+            if (event === 'view' && g === 'b') return VIEW_SOURCE_LABEL[v] || v
+            if (event === 'lookup' && g === 'a') return OUTCOME_LABEL[v] || v
+            if (
+              ['lookup', 'voter', 'sample', 'fill', 'learn'].includes(event) &&
+              g === 'b'
+            )
+              return AREA_LABEL[v] || v
+            if (event === 'half' && g === 'a') return AREA_LABEL[v] || v
+            if (['open', 'pick'].includes(event) && g === 'a')
+              return LEVEL_LABEL[v] || v
+            return v === '' ? '(none)' : v
+          }
+          lastExplore = {
+            cols: [...groups.map((g) => label[g]), 'Count', ...ev.d],
+            rows: [...m.values()].map((o) => [...o.vals, o.n, ...o.d]),
+          }
+          table(
+            $('x-table'),
+            [
+              ...groups.map((g, i) => ({
+                label: label[g],
+                get: (o) =>
+                  g === 'hourOfDay' ? o.vals[i] : pretty(g, o.vals[i]),
+                fmt: g === 'hourOfDay' ? (v) => hourLabel(v) : null,
+              })),
+              { label: 'Count', num: true, get: (o) => o.n },
+              ...ev.d.map((d, i) => ({
+                label: d,
+                num: true,
+                get: (o) => o.d[i],
+              })),
+            ],
+            [...m.values()],
+            {
+              sortBy: groups.length,
+              limit: 100,
+              empty: 'Nothing counted in this period.',
+            },
+          )
+        }
+        $('x-csv').addEventListener('click', () => {
+          const esc = (v) =>
+            /[",\n]/.test(String(v))
+              ? `"${String(v).replace(/"/g, '""')}"`
+              : String(v)
+          const text = [lastExplore.cols, ...lastExplore.rows]
+            .map((r) => r.map(esc).join(','))
+            .join('\n')
+          const a = h('a', {
+            href: URL.createObjectURL(new Blob([text], { type: 'text/csv' })),
+            download: `votestack-${$('x-event').value}.csv`,
+          })
+          document.body.append(a)
+          a.click()
+          a.remove()
+        })
+
+        // ---- 5. How deep do voters go? (tiles) -------------------------
+        function renderDepth() {
+          const { start, end } = period()
+          const newV = rowsOf('voter', start, end).filter((r) => r[A] === 'new')
+          const newCount = sum(newV)
+          const allNew = rowsOf('voter', start, end, false).filter(
+            (r) => r[A] === 'new',
+          )
+          const racesTotal = sum(allNew, (r) =>
+            LEVELS.reduce((t, _, i) => t + r[D1 + 1 + i], 0),
+          )
+          const opens = rowsOf('open', start, end)
+          const firstOpens = sumWhere(opens, (r) => r[B] === '1')
+          const compared = sumWhere(opens, (r) => r[B] === '2')
+          // Federal races need the least research and measures have no
+          // profiles, so the headline leaves both out (the by-level chart
+          // below shows every level).
+          const headPicks = rowsOf('pick', start, end).filter(
+            (r) => r[A] !== 'federal' && r[A] !== 'measures',
+          )
+          const informedPicks = sumWhere(headPicks, (r) => r[B] === '1')
+          const fills = rowsOf('fill', start, end)
+          const filled = sumWhere(fills, (r) => r[A] === '75')
+          const researched = sumWhere(
+            rowsOf('learn', start, end),
+            (r) => r[A] === 'researched',
+          )
+          const active = rowsOf('active', start, end)
+          const activeSecs = sum(active, (r) => r[D1])
+          const ballotSecs = sumWhere(
+            active,
+            (r) => r[A] === '1',
+            (r) => r[D1],
+          )
+          const voterVisits =
+            newCount +
+            sumWhere(rowsOf('voter', start, end), (r) => r[A] === 'return')
+          fill(
+            $('depth-tiles'),
+            tile(
+              'Learning',
+              'Races with a profile opened',
+              pct(firstOpens, racesTotal),
+              `${num(firstOpens)} of ${num(racesTotal)} races on new voters' ballots${state.area !== 'all' ? ', all areas' : ''}`,
+            ),
+            tile(
+              'Learning',
+              'Opened races where they compared',
+              pct(compared, firstOpens),
+              `${num(compared)} races with a second candidate opened`,
+            ),
+            tile(
+              'Learning',
+              'First picks after opening a profile',
+              pct(informedPicks, sum(headPicks)),
+              `${num(informedPicks)} of ${num(sum(headPicks))} first picks below federal, measures left out`,
+            ),
+            tile(
+              'Learning',
+              'Filled most of their ballot',
+              pct(filled, newCount),
+              `${num(filled)} of ${num(newCount)} new voters picked 75% of candidate races`,
+            ),
+            tile(
+              'Learning',
+              'Researched their ballot',
+              pct(researched, newCount),
+              `${num(researched)} of ${num(newCount)} new voters opened profiles in 3 races below federal, or compared 2 candidates`,
+            ),
+            tile(
+              'Context',
+              'Time on screen',
+              `${nf.format(activeSecs / 60)} min`,
+              voterVisits
+                ? `${nf1.format(ballotSecs / 60 / voterVisits)} min with a ballot per voter visit. Context only, not a goal.`
+                : 'Context only, not a goal.',
+            ),
+          )
+          const blue = cssVar('--s1')
+          hbars(
+            $('fill-bars'),
+            newCount
+              ? ['25', '50', '75', '100'].map((at) => {
+                  const n = sumWhere(fills, (r) => r[A] === at)
+                  return {
+                    label: `${at}% of races`,
+                    segs: [
+                      {
+                        key: 'v',
+                        label: 'Share',
+                        v: Math.min(1, n / newCount),
+                        color: blue,
+                      },
+                    ],
+                    value: `${num(n)} (${pct(n, newCount)})`,
+                  }
+                })
+              : [],
+            {
+              max: 1,
+              tipFmt: (v) => pct(v, 1),
+              empty: 'No ballots looked up in this period.',
+            },
+          )
+        }
+
+        // ---- 6. Outcomes, for funders ----------------------------------
+        function renderFunders() {
+          const r = range()
+          const all = range('election')
+          const star = northStar(ROWS, all)
+          const picked = northStar(ROWS, r)
+          const read = profilesRead(ROWS, r)
+          const looked = sumWhere(
+            rowsOf('voter', r.start, r.end),
+            (x) => x[A] === 'new',
+          )
+          // Researched ballots on every path: the ladders' researched step,
+          // which before the new counts is the ballot path's learn milestone.
+          const ladders = PATHS.map((p) => ladder(ROWS, r, p))
+          const researched = {
+            value: sum(ladders, (l) => l.value.all?.researched ?? 0),
+            estimate: ladders.some((l) => l.estimate),
+            allAreas: true,
+            countedFrom: ladders[0].countedFrom,
+          }
+          const picks = {
+            value: informedPicksShare(ROWS, r),
+            estimate: false,
+            allAreas: true,
+            countedFrom: null,
+          }
+          fill(
+            $('funder-tiles'),
+            tile(
+              'Outcome',
+              'Informed voters this election',
+              num(star.value.total),
+              byPathText(star.value.byPath),
+              null,
+              tags(star, all, NOTE.informed),
+              'funder-informed',
+            ),
+            tile(
+              'Outcome',
+              'Profiles read',
+              num(read.value.total),
+              byPathText(read.value.byPath),
+              null,
+              tags(read, r, NOTE.read),
+            ),
+            tile(
+              'Outcome',
+              'Ballots looked up',
+              num(looked),
+              'New ballots on a device. Sample ballots are left out.',
+            ),
+            tile(
+              'Outcome',
+              'Researched ballots',
+              num(researched.value),
+              'Profiles opened in 3 races below federal, or 2 candidates compared',
+              null,
+              tags(researched, r, NOTE.ladder),
+            ),
+            tile(
+              'Outcome',
+              'Informed picks',
+              share(picks.value),
+              'First picks made after opening a profile in that race',
+              null,
+              tags(picks, r, '', { history: true }),
+            ),
+          )
+          const cov = DATA.coverage || {}
+          fill(
+            $('coverage-tiles'),
+            tile(
+              'Coverage',
+              'Candidates covered',
+              num(cov.candidates ?? 0),
+              'Candidates in the race lists today',
+            ),
+            tile('Coverage', 'Races covered', num(cov.races ?? 0)),
+            tile('Coverage', 'Areas covered', num(cov.areas ?? 0)),
+          )
+          const cost = costPer(DATA.costs, r, {
+            informed: picked.value.total,
+            researched: researched.value,
+          })
+          if (!cost)
+            return fill(
+              $('cost-tiles'),
+              h(
+                'p',
+                { class: 'muted small' },
+                'Add running costs to .private/usage-costs.json to see this',
+              ),
+            )
+          fill(
+            $('cost-tiles'),
+            h(
+              'div',
+              { class: 'grid tiles' },
+              tile(
+                'Cost',
+                'Running costs',
+                usd(cost.usd),
+                'For the dates picked, each month prorated',
+              ),
+              tile(
+                'Cost',
+                'Cost per informed voter',
+                usd(cost.perInformed),
+                `Over ${num(picked.value.total)} voters newly informed in the dates picked`,
+                null,
+                tags(picked, r, NOTE.informed),
+                'cost-informed',
+              ),
+              tile(
+                'Cost',
+                'Cost per researched ballot',
+                usd(cost.perResearched),
+                `Over ${num(researched.value)} researched ballots in the dates picked`,
+                null,
+                tags(researched, r, NOTE.ladder),
+                'cost-researched',
+              ),
+            ),
+          )
+        }
+
+        // ---- 7. Data health in detail ----------------------------------
+        function renderHealth() {
+          const health = dataHealth(ROWS, range())
+          const counting = launchedAt(ROWS, 'dropped') != null
+          const drop = (n) => (counting ? n : null)
+          table(
+            $('health-detail'),
+            [
+              { label: 'What', get: (x) => x.what },
+              {
+                label: 'In the dates picked',
+                num: true,
+                get: (x) => x.n,
+                fmt: (v) => (v == null ? 'Not counted yet' : num(v)),
+              },
+            ],
+            [
+              { what: 'Automated batches dropped', n: drop(health.bot) },
+              {
+                what: 'Batches with events turned away',
+                n: drop(health.invalid),
+              },
+              { what: 'Rate limited batches', n: drop(health.limited) },
+              { what: 'Hours with no counts at all', n: health.missingHours },
+              { what: 'Hours not rolled up yet', n: health.liveHours },
+            ],
+          )
+          $('health-excluded').textContent = DATA.excludedNote
+            ? `Left out: ${DATA.excludedNote}.`
+            : ''
+        }
+
         // ---- Wiring ----------------------------------------------------
         function renderHeader() {
           const { start, end } = period()
@@ -2190,6 +3346,14 @@
           renderPeople()
           renderSources()
           renderPaths()
+          renderDepth()
+          renderLearning()
+          renderPages()
+          renderFunders()
+          renderGuardrails()
+          renderHeat()
+          renderHealth()
+          renderExplore()
         }
 
         const STORE = 'votestack:usage-report:v2'
@@ -2239,6 +3403,7 @@
         $('f-area').addEventListener('change', (e) => {
           state.area = e.target.value
           remember()
+          fillGroups()
           renderAll()
         })
         $('f-tz').addEventListener('change', (e) => {
@@ -2247,6 +3412,12 @@
           renderAll()
         })
         $('l-split').addEventListener('change', renderPaths)
+        $('p-search').addEventListener('input', renderPages)
+        $('heat-metric').addEventListener('change', renderHeat)
+        $('x-event').addEventListener('change', () => {
+          fillGroups()
+          renderExplore()
+        })
         window
           .matchMedia?.('(prefers-color-scheme: dark)')
           .addEventListener('change', renderAll)
@@ -2256,6 +3427,7 @@
           resizeTimer = setTimeout(renderAll, 150)
         })
 
+        fillGroups()
         renderAll()
       })()
     </script>

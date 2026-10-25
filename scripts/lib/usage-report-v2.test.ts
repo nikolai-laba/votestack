@@ -1,6 +1,6 @@
 // A smoke test for the v2 report page: fills the template with a hand-built
 // fixture holding rows of every event, before and after the new counts
-// began, runs it in a browser-like window and checks the first four sections.
+// began, runs it in a browser-like window and checks each section.
 
 import { readFile } from 'node:fs/promises'
 // @ts-expect-error jsdom ships no types, and @types/jsdom would be a new dependency.
@@ -134,7 +134,7 @@ const DATA = {
     { version: '1.5.0', date: '2026-09-01', note: 'Before the range.' },
   ],
   coverage: { candidates: 120, races: 40, areas: 2 },
-  costs: null,
+  costs: { monthly: [{ name: 'Hosting', usd: 31, from: '2026-10' }] },
 }
 
 // The scripts are type-checked without the DOM library, and jsdom ships no
@@ -145,6 +145,10 @@ type PageWindow = {
 }
 type EventTarget = { dispatchEvent(ev: unknown): boolean }
 type Select = { value: string } & EventTarget
+type Section = {
+  hidden: boolean
+  querySelectorAll(sel: string): { length: number }
+}
 type Styled = { style: { width: string } }
 
 async function load(data: object = DATA) {
@@ -274,5 +278,77 @@ describe('the v2 report page', () => {
     expect(marker).toBeTruthy()
     expect(text(marker!)).toContain('1.5.1')
     expect(chart!.querySelector('[data-release="1.5.0"]')).toBeNull()
+  })
+
+  it('renders sections 5 to 8 without errors', async () => {
+    const { doc, errors } = await load()
+    expect(errors).toEqual([])
+    for (const id of ['h-depth', 'h-funders', 'h-guard', 'h-explore']) {
+      const section = doc.getElementById(id) as Section | null
+      expect(section, id).not.toBeNull()
+      expect(section!.hidden, id).toBe(false)
+      expect(
+        section!.querySelectorAll('.tile .value, .hbars, table, .heat').length,
+        id,
+      ).toBeGreaterThan(0)
+    }
+  })
+
+  it('shows funders the outcomes, coverage and cost per informed voter', async () => {
+    const { doc } = await load()
+    const funders = text(doc.getElementById('h-funders'))
+    for (const label of [
+      'Informed voters this election',
+      'Profiles read',
+      'Ballots looked up',
+      'Researched ballots',
+      'Informed picks',
+      'Candidates covered',
+    ])
+      expect(funders).toContain(label)
+    expect(funders).toContain('120')
+    // $31 for October, 7 of its 31 days picked, over 9 informed voters.
+    const cost = doc.getElementById('cost-informed')
+    expect(text(cost)).toContain('Cost per informed voter')
+    expect(text(cost?.querySelector('.value'))).toBe('$0.78')
+    expect(text(doc.getElementById('funder-informed'))).toContain('estimate')
+  })
+
+  it('asks for running costs when there are none', async () => {
+    const { doc, errors } = await load({ ...DATA, costs: null })
+    expect(errors).toEqual([])
+    expect(text(doc.getElementById('h-funders'))).toContain(
+      'Add running costs to .private/usage-costs.json to see this',
+    )
+    expect(doc.getElementById('cost-informed')).toBeNull()
+  })
+
+  it('says what the counts do not measure', async () => {
+    const { doc } = await load()
+    const list = text(doc.getElementById('not-measured'))
+    expect(list).toMatch(/people rather than devices/i)
+    expect(list).toMatch(/what voters do after the visit/i)
+    expect(list).toMatch(/turnout/i)
+  })
+
+  it('shows data health in detail beside the guardrails', async () => {
+    const { doc } = await load()
+    const guard = text(doc.getElementById('h-guard'))
+    expect(guard).toContain('Email sign-ups')
+    expect(guard).toContain('Error reports on profiles')
+    expect(guard).toContain('When people come')
+    const health = text(doc.getElementById('health-detail'))
+    expect(health).toContain('Automated')
+    expect(health).toContain('Rate limited')
+    expect(health).toContain('Hours not rolled up yet')
+  })
+
+  it('explores any event, grouped any way', async () => {
+    const { dom, doc, errors } = await load()
+    const event = doc.getElementById('x-event') as Select
+    event.value = 'visit'
+    event.dispatchEvent(new dom.window.Event('change'))
+    expect(text(doc.getElementById('x-table'))).toContain('Count')
+    expect(errors).toEqual([])
   })
 })
