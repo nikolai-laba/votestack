@@ -45,9 +45,11 @@ describe('devices', () => {
   })
 
   it('counts nothing more on a second call in one instance', () => {
-    const { devices, sent } = setup()
+    const { devices, sent, clock } = setup()
     devices.counted(visit)
     sent.length = 0
+    // even if the page stays open past midnight, this load counts once
+    clock.day = '2026-10-20'
     devices.counted(visit)
     expect(sent).toEqual([])
   })
@@ -95,6 +97,18 @@ describe('devices', () => {
     later.sent.length = 0
     later.make().origin(2)
     expect(later.sent).toEqual([
+      { e: 'origin', entry: 'profile', source: 'search', when: 'later' },
+    ])
+  })
+
+  it('never changes the first arrival afterward', () => {
+    const { devices, sent, clock, make } = setup()
+    devices.counted(visit)
+    clock.day = '2026-10-21'
+    make().counted({ started: 7, entry: 'ballot', source: 'direct' })
+    sent.length = 0
+    make().origin(7)
+    expect(sent).toEqual([
       { e: 'origin', entry: 'profile', source: 'search', when: 'later' },
     ])
   })

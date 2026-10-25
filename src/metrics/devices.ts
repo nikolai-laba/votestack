@@ -55,14 +55,6 @@ export interface Devices {
   origin: (visitStarted: number) => void
 }
 
-function defaultStorage(): Storage | null {
-  try {
-    return typeof window === 'undefined' ? null : window.localStorage
-  } catch {
-    return null
-  }
-}
-
 const isNote = (v: unknown): v is SeenNote => {
   const o = v as SeenNote | null
   return (
@@ -79,14 +71,7 @@ const isNote = (v: unknown): v is SeenNote => {
   )
 }
 
-export function createDevices(
-  deps: DeviceDeps = {
-    storage: defaultStorage,
-    today: () => '',
-    add: () => {},
-    hadOlderNotes: () => false,
-  },
-): Devices {
+export function createDevices(deps: DeviceDeps): Devices {
   // Copy kept in memory, used whenever storage can't be read or written.
   let memory: SeenNote | null = null
   let done = false
