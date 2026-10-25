@@ -9,11 +9,15 @@ function setup(opts: { storage?: Storage | null; day?: string } = {}) {
     opts.storage === undefined ? new MemoryStorage() : opts.storage
   const sent: UsageEvent[] = []
   const steps: VisitStep[] = []
-  const clock = { day: opts.day ?? '2026-10-19' }
+  const clock = {
+    day: opts.day ?? '2026-10-19',
+    visit: 1 as number | undefined,
+  }
   const make = () =>
     createReading({
       storage: () => storage,
       today: () => clock.day,
+      visit: () => clock.visit,
       add: (e) => sent.push(e),
       path: () => 'ballot',
       step: (s) => steps.push(s),
@@ -227,6 +231,20 @@ describe('reading', () => {
     make().progress(cand('a'), 25, false, [['a']])
     expect(sent).toEqual([])
     expect(steps).toEqual(['informed'])
+  })
+
+  it('marks the informed step once per profile while the visit lasts', () => {
+    const { reading, steps, clock } = setup()
+    const p = cand('a')
+    for (let secs = 25; secs < 30; secs++)
+      reading.progress(p, secs, false, [['a']])
+    expect(steps).toEqual(['read', 'informed'])
+    reading.progress(cand('b'), 25, false, [['b']])
+    expect(steps).toEqual(['read', 'informed', 'read', 'informed'])
+    clock.visit = 2
+    reading.progress(p, 31, false, [['a']])
+    reading.progress(p, 32, false, [['a']])
+    expect(steps).toEqual(['read', 'informed', 'read', 'informed', 'informed'])
   })
 
   it('remembers across instances through storage', () => {

@@ -37,6 +37,8 @@ export interface ReadingDeps {
   storage: () => Storage | null
   /** Local YYYY-MM-DD. */
   today: () => string
+  /** When the current visit started, or undefined when there is none. */
+  visit: () => number | undefined
   add: (e: UsageEvent) => void
   path: () => VisitPath
   step: (s: VisitStep) => void
@@ -75,6 +77,9 @@ const isNote = (v: unknown): v is ReadsNote => {
 export function createReading(deps: ReadingDeps): Reading {
   // Copy kept in memory, used whenever storage can't be read or written.
   let memory: ReadsNote | null = null
+  // Profiles already marked informed in this visit, as "visit start:key":
+  // the step is marked once, not on every second the profile stays open.
+  const stepped = new Set<string>()
 
   function load(): ReadsNote {
     try {
@@ -155,7 +160,11 @@ export function createReading(deps: ReadingDeps): Reading {
 
       const kindOfRace = races ? informedKind(note, races) : null
       if (kindOfRace) {
-        deps.step('informed')
+        const once = `${deps.visit()}:${profile.key}`
+        if (!stepped.has(once)) {
+          stepped.add(once)
+          deps.step('informed')
+        }
         const week = mondayOf(deps.today())
         const path = deps.path()
         if (note.election !== USAGE_ELECTION) {

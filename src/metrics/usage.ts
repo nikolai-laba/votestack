@@ -346,6 +346,7 @@ export function createUsage(deps: UsageDeps) {
   const reading = createReading({
     storage: deps.storage,
     today: deps.today,
+    visit: () => visits.current()?.started,
     add,
     path: () => visits.current()?.path ?? 'other',
     step,
