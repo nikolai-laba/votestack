@@ -1,0 +1,228 @@
+// A smoke test for the v2 report page: fills the template with a hand-built
+// fixture holding rows of every event, before and after the new counts
+// began, runs it in a browser-like window and checks the first four sections.
+
+import { readFile } from 'node:fs/promises'
+// @ts-expect-error jsdom ships no types, and @types/jsdom would be a new dependency.
+import { JSDOM, VirtualConsole } from 'jsdom'
+import { describe, expect, it } from 'vitest'
+import { fillTemplate, measuresScript } from './usage-report-build.ts'
+
+const read = (path: string) => readFile(new URL(path, import.meta.url), 'utf8')
+const at = (iso: string) => Date.parse(iso) / 1000
+const HOUR = 3600
+
+type Row = (string | number)[]
+/** One stored row: [hour, event, a, b, c, n, d1..d8, live]. */
+const row = (
+  hour: number,
+  event: string,
+  a = '',
+  b = '',
+  c = '',
+  n = 1,
+  d1 = 0,
+  live = 0,
+): Row => [hour, event, a, b, c, n, d1, 0, 0, 0, 0, 0, 0, 0, live]
+
+const NOW = '2026-10-25T18:00:00Z'
+// History on Oct 21; the new counts from Oct 24 15:00 UTC.
+const PRE = at('2026-10-21T15:00:00Z')
+const LAUNCH = at('2026-10-24T15:00:00Z')
+const LATER = at('2026-10-25T12:00:00Z')
+
+const history: Row[] = [
+  row(PRE, 'view', 'ballot', 'landing', '', 5),
+  row(PRE, 'view', 'profile', 'landing', 'jane-doe', 3),
+  row(PRE, 'view', 'races', 'landing', 'il/cook/mayor', 1),
+  row(PRE, 'view', 'start', 'app', '', 2),
+  row(PRE, 'voter', 'new', 'il-cook', 'timed', 2, 30),
+  row(PRE, 'voter', 'new', 'ca-la', 'restored', 1),
+  row(PRE, 'voter', 'return', 'ca-la', '', 1),
+  row(PRE, 'sample', 'seen', 'ca-la'),
+  row(PRE, 'open', 'local', '1', '', 2),
+  row(PRE, 'open', 'local', '2'),
+  row(PRE, 'pick', 'local', '1'),
+  row(PRE, 'pick', 'local', '0'),
+  row(PRE, 'half', 'il-cook', '1'),
+  row(PRE, 'fill', '50', 'il-cook'),
+  // Three ballot-path devices compared two profiles: the North Star stand-in.
+  row(PRE, 'learn', 'compared', 'il-cook', '1', 3),
+  row(PRE, 'learn', 'researched', 'il-cook', '1'),
+  row(PRE, 'learn', 'races', 'ca-la', '1'),
+  row(PRE, 'lookup', 'ok', 'il-cook', '0', 2, 900),
+  row(PRE, 'lookup', 'not_found', 'ca-la', '0', 1, 400),
+  row(PRE, 'lookup', 'ok', 'ca-la', '1', 1, 300),
+  row(PRE, 'out', 'profile'),
+  row(PRE, 'active', '1', '', '', 1, 60),
+  row(PRE, 'banner', 'shown'),
+]
+
+const counted: Row[] = [
+  row(LAUNCH, 'view', 'ballot', 'landing', '', 4),
+  row(LAUNCH, 'voter', 'new', 'ca-la', 'timed', 1, 20),
+  row(LAUNCH, 'lookup', 'ok', 'ca-la', '0', 1, 700),
+  row(LAUNCH, 'lookup', 'gaps', 'il-cook', '0', 1, 800),
+  row(LAUNCH, 'open', 'county', '1'),
+  row(LAUNCH, 'pick', 'county', '1'),
+  row(LAUNCH, 'learn', 'compared', 'ca-la', '1'),
+  ...(
+    [
+      ['arrived', 4],
+      ['browsed', 2],
+      ['form', 3],
+      ['asked', 2],
+      ['lookup', 2],
+      ['returned', 1],
+      ['informed', 1],
+      ['researched', 1],
+      ['picked', 1],
+    ] as const
+  ).map(([step, n]) => row(LAUNCH, 'visit', 'ballot', 'direct', step, n)),
+  ...(
+    [
+      ['arrived', 6],
+      ['read', 4],
+      ['informed', 2],
+      ['form', 2],
+      ['asked', 1],
+      ['lookup', 1],
+    ] as const
+  ).map(([step, n]) => row(LATER, 'visit', 'profile', 'search', step, n)),
+  row(LATER, 'visit', 'races', 'social', 'arrived', 2),
+  row(LATER, 'visit', 'about', 'ai', 'arrived'),
+  ...['day', 'week', 'month', 'election'].flatMap((period) => [
+    row(LAUNCH, 'device', period, 'new', '', 5),
+    row(LAUNCH, 'device', period, 'back', '', 3),
+  ]),
+  ...['10', '20', '30', '60', 'sources', 'read'].map((mark) =>
+    row(LATER, 'read', 'reader', 'candidate', mark, 2),
+  ),
+  row(LAUNCH, 'read', 'ballot', 'judicial', 'read'),
+  // Six newly informed devices from launch: 2 + 4, plus 3 from history = 9.
+  row(LAUNCH, 'informed', 'election', 'ballot', 'compared', 2),
+  row(LATER, 'informed', 'election', 'reader', 'single', 4),
+  row(LATER, 'informed', 'week', 'reader', 'single', 5),
+  row(LATER, 'cta', 'top', 'profile', '', 2),
+  row(LATER, 'cta', 'form', 'races'),
+  row(LATER, 'origin', 'profile', 'search', 'same'),
+  row(LATER, 'origin', 'unknown', 'unknown', 'later'),
+  row(LAUNCH, 'dropped', 'bot', '', '', 2),
+  row(LAUNCH, 'dropped', 'invalid', '', '', 1, 3),
+  row(LAUNCH, 'dropped', 'limited'),
+  row(LATER + HOUR, 'view', 'profile', 'landing', 'jane-doe', 1, 0, 1),
+]
+
+const DATA = {
+  generatedAt: NOW,
+  rolledUpTo: LATER,
+  liveNote: '1 rows read from Analytics Engine',
+  excludedNote: '',
+  rows: [...history, ...counted],
+  reports: [['2026-10-22T10:00:00Z', 'open', 'bio', 'il-2026-11']],
+  signups: [['2026-10-22T10:00:00Z', '60601', 'area', 'banner']],
+  candidates: { 'jane-doe': ['Jane Doe', 'Mayor', 'il-cook'] },
+  races: { 'il/cook/mayor': ['Mayor', 'local', 'il-cook'] },
+  releases: [
+    {
+      version: '1.5.1',
+      date: '2026-10-23',
+      note: 'Profiles for offices with one candidate.',
+    },
+    { version: '1.5.0', date: '2026-09-01', note: 'Before the range.' },
+  ],
+  coverage: { candidates: 120, races: 40, areas: 2 },
+  costs: null,
+}
+
+// The scripts are type-checked without the DOM library, and jsdom ships no
+// types, so the few window types used here are spelled out.
+type ErrorEvent = { error?: Error; message: string }
+type PageWindow = {
+  addEventListener(type: 'error', listener: (ev: ErrorEvent) => void): void
+}
+type EventTarget = { dispatchEvent(ev: unknown): boolean }
+
+async function load() {
+  const html = fillTemplate(
+    await read('./usage-report-v2.html'),
+    DATA,
+    measuresScript(await read('./usage-measures.ts')),
+  )
+  const errors: string[] = []
+  const virtualConsole = new VirtualConsole()
+  virtualConsole.on('error', (...args: unknown[]) =>
+    errors.push(args.join(' ')),
+  )
+  virtualConsole.on('jsdomError', (err: Error) =>
+    errors.push(String(err.stack ?? err)),
+  )
+  const dom = new JSDOM(html, {
+    runScripts: 'dangerously',
+    url: 'http://localhost/',
+    virtualConsole,
+    beforeParse(window: PageWindow) {
+      window.addEventListener('error', (ev: ErrorEvent) =>
+        errors.push(String(ev.error?.stack ?? ev.message)),
+      )
+    },
+  })
+  return { dom, doc: dom.window.document, errors }
+}
+
+const text = (el: { textContent: string | null } | null | undefined) =>
+  el?.textContent ?? ''
+
+describe('the v2 report page', () => {
+  it('renders the first four sections without errors', async () => {
+    const { doc, errors } = await load()
+    expect(errors).toEqual([])
+    for (const id of ['h-week', 'h-people', 'h-sources', 'h-paths']) {
+      const section = doc.getElementById(id)
+      expect(section, id).not.toBeNull()
+      expect(
+        section!.querySelectorAll('.tile .value, .chart svg, .hbars').length,
+        id,
+      ).toBeGreaterThan(0)
+    }
+    for (const id of ['h-depth', 'h-funders', 'h-guard', 'h-explore'])
+      expect(doc.getElementById(id), id).not.toBeNull()
+  })
+
+  it('shows the North Star total, tagged as an estimate', async () => {
+    const { doc } = await load()
+    const star = doc.getElementById('north-star')
+    expect(text(star?.querySelector('.value') ?? null)).toBe('9')
+    expect(text(star)).toContain('Informed voters this election')
+    expect(text(star)).toContain('estimate')
+    expect(text(doc.getElementById('h-week'))).toContain(
+      'Newly informed per week',
+    )
+  })
+
+  it('tags estimates and always tags readers without a ballot', async () => {
+    const { doc } = await load()
+    expect(text(doc.getElementById('profiles-read'))).toContain('estimate')
+    expect(text(doc.getElementById('readers-without'))).toContain('estimate')
+    expect(text(doc.getElementById('reader-ladder'))).toContain('arrivals only')
+  })
+
+  it('marks visits as all areas once an area is picked', async () => {
+    const { dom, doc, errors } = await load()
+    expect(text(doc.getElementById('visits-tile'))).not.toContain('all areas')
+    const area = doc.getElementById('f-area') as { value: string } & EventTarget
+    area.value = 'ca-la'
+    area.dispatchEvent(new dom.window.Event('change'))
+    expect(text(doc.getElementById('visits-tile'))).toContain('all areas')
+    expect(errors).toEqual([])
+  })
+
+  it('draws a release marker on the weekly trend chart', async () => {
+    const { doc } = await load()
+    const chart = doc.getElementById('informed-chart')
+    const marker = chart?.querySelector('[data-release="1.5.1"]')
+    expect(marker).toBeTruthy()
+    expect(text(marker!)).toContain('1.5.1')
+    expect(chart!.querySelector('[data-release="1.5.0"]')).toBeNull()
+  })
+})

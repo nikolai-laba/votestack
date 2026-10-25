@@ -1,16 +1,2256 @@
 <!doctype html>
+<!--
+  The private usage report's v2 page, organized by question. scripts/usage-report.ts
+  replaces the data placeholder with the counts and the measures placeholder
+  with scripts/lib/usage-measures.ts as plain JavaScript, and writes the
+  result to data/build/usage/report-v2.html. Everything else happens here,
+  offline: no scripts, fonts or requests from anywhere else. The styles and
+  chart helpers are copied from v1 (usage-report.html), which stays as it is.
+-->
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
     <title>VoteStack usage v2</title>
+    <style>
+      :root {
+        --bg: #f5f6f1;
+        --surface: #ffffff;
+        --text: #17241c;
+        --muted: #4b5850;
+        --line: #d9ded6;
+        --field: #6b7a70;
+        --primary: #1e5135;
+        --band: #e8ede3;
+        --warn-bg: #fbefd2;
+        --warn-fg: #5c3d0a;
+        --grid: #e6e9e3;
+        --axis: #c3c9c0;
+        --s1: #2a78d6;
+        --s2: #eb6834;
+        --s3: #1baf7a;
+        --s4: #eda100;
+        --s5: #e87ba4;
+        --s6: #008300;
+        --s7: #6250d6;
+        --s8: #e34948;
+        --other: #9aa39d;
+        --q1: #cde2fb;
+        --q2: #9ec5f4;
+        --q3: #5598e7;
+        --q4: #256abf;
+        --q5: #104281;
+        color-scheme: light;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root:where(:not([data-theme='light'])) {
+          --bg: #121c16;
+          --surface: #17241c;
+          --text: #e6ece4;
+          --muted: #a7b4ab;
+          --line: #2c3a31;
+          --field: #7f8f84;
+          --primary: #a9d6b8;
+          --band: #1d2b22;
+          --warn-bg: #3a2c10;
+          --warn-fg: #f3d9a4;
+          --grid: #24332a;
+          --axis: #3a4a40;
+          --s1: #3987e5;
+          --s2: #d95926;
+          --s3: #199e70;
+          --s4: #c98500;
+          --s5: #d55181;
+          --s6: #008300;
+          --s7: #9085e9;
+          --s8: #e66767;
+          --other: #6b7a70;
+          --q1: #184f95;
+          --q2: #1c5cab;
+          --q3: #2a78d6;
+          --q4: #5598e7;
+          --q5: #9ec5f4;
+          color-scheme: dark;
+        }
+      }
+      :root[data-theme='dark'] {
+        --bg: #121c16;
+        --surface: #17241c;
+        --text: #e6ece4;
+        --muted: #a7b4ab;
+        --line: #2c3a31;
+        --field: #7f8f84;
+        --primary: #a9d6b8;
+        --band: #1d2b22;
+        --warn-bg: #3a2c10;
+        --warn-fg: #f3d9a4;
+        --grid: #24332a;
+        --axis: #3a4a40;
+        --s1: #3987e5;
+        --s2: #d95926;
+        --s3: #199e70;
+        --s4: #c98500;
+        --s5: #d55181;
+        --s6: #008300;
+        --s7: #9085e9;
+        --s8: #e66767;
+        --other: #6b7a70;
+        --q1: #184f95;
+        --q2: #1c5cab;
+        --q3: #2a78d6;
+        --q4: #5598e7;
+        --q5: #9ec5f4;
+        color-scheme: dark;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      [hidden] {
+        display: none !important;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font:
+          15px/1.45 system-ui,
+          -apple-system,
+          'Segoe UI',
+          sans-serif;
+      }
+      main {
+        max-width: 1180px;
+        margin: 0 auto;
+        padding: 20px 16px 64px;
+      }
+      h1 {
+        font-size: 24px;
+        margin: 0 0 2px;
+      }
+      h2 {
+        font-size: 18px;
+        margin: 0;
+      }
+      h3 {
+        font-size: 15px;
+        margin: 0 0 8px;
+      }
+      p {
+        margin: 0 0 8px;
+      }
+      .muted {
+        color: var(--muted);
+      }
+      .small {
+        font-size: 13px;
+      }
+      .filters {
+        position: sticky;
+        top: 0;
+        z-index: 5;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px 16px;
+        align-items: end;
+        background: var(--bg);
+        padding: 12px 0;
+        margin-bottom: 8px;
+        border-bottom: 1px solid var(--line);
+      }
+      label.field {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        font-size: 13px;
+        color: var(--muted);
+      }
+      select,
+      input,
+      button {
+        font: inherit;
+        color: var(--text);
+        background: var(--surface);
+        border: 1px solid var(--field);
+        border-radius: 6px;
+        padding: 6px 8px;
+        min-height: 36px;
+      }
+      button {
+        cursor: pointer;
+      }
+      button.link {
+        border: 0;
+        background: none;
+        padding: 0;
+        min-height: 0;
+        color: var(--primary);
+        text-decoration: underline;
+      }
+      :focus-visible {
+        outline: 3px solid var(--primary);
+        outline-offset: 2px;
+      }
+      section {
+        margin-top: 28px;
+      }
+      .section-head {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px 12px;
+        align-items: baseline;
+        margin-bottom: 10px;
+      }
+      .badge {
+        font-size: 12px;
+        color: var(--warn-fg);
+        background: var(--warn-bg);
+        border-radius: 4px;
+        padding: 1px 6px;
+      }
+      .card {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        padding: 16px;
+      }
+      .grid {
+        display: grid;
+        gap: 12px;
+      }
+      .tiles {
+        grid-template-columns: repeat(auto-fill, minmax(min(210px, 100%), 1fr));
+      }
+      .two {
+        grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr));
+      }
+      .tile .group {
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        color: var(--muted);
+      }
+      .tile .value {
+        font-size: 30px;
+        font-weight: 650;
+        line-height: 1.15;
+        margin: 4px 0 2px;
+      }
+      .tile .label {
+        font-weight: 600;
+      }
+      .tile .sub {
+        font-size: 13px;
+        color: var(--muted);
+      }
+      .controls {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 14px;
+        align-items: end;
+        margin-bottom: 12px;
+      }
+      .chart {
+        position: relative;
+        width: 100%;
+      }
+      .chart svg {
+        display: block;
+        width: 100%;
+        overflow: visible;
+      }
+      .legend {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px 14px;
+        font-size: 13px;
+        margin: 8px 0 0;
+        padding: 0;
+        list-style: none;
+      }
+      .legend li {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .swatch {
+        width: 12px;
+        height: 12px;
+        border-radius: 3px;
+        flex: none;
+      }
+      .tooltip {
+        position: fixed;
+        z-index: 20;
+        pointer-events: none;
+        background: var(--surface);
+        color: var(--text);
+        border: 1px solid var(--field);
+        border-radius: 8px;
+        padding: 8px 10px;
+        font-size: 13px;
+        box-shadow: 0 4px 16px rgb(0 0 0 / 0.12);
+        max-width: 280px;
+        display: none;
+      }
+      .tooltip .tt-title {
+        color: var(--muted);
+        margin-bottom: 4px;
+      }
+      .tooltip .tt-row {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .tooltip .tt-key {
+        width: 12px;
+        height: 2px;
+        flex: none;
+      }
+      .tooltip strong {
+        min-width: 3ch;
+        font-variant-numeric: tabular-nums;
+      }
+      .hbars {
+        display: grid;
+        grid-template-columns: minmax(90px, max-content) 1fr minmax(
+            48px,
+            max-content
+          );
+        gap: 6px 10px;
+        align-items: center;
+        font-size: 14px;
+      }
+      .hbar-track {
+        display: flex;
+        height: 16px;
+        gap: 2px;
+      }
+      .hbar-seg {
+        height: 100%;
+        min-width: 2px;
+      }
+      .hbar-seg:first-child {
+        border-radius: 0;
+      }
+      .hbar-seg:last-child {
+        border-radius: 0 4px 4px 0;
+      }
+      .hbar-value {
+        text-align: right;
+        font-variant-numeric: tabular-nums;
+      }
+      .table-wrap {
+        overflow-x: auto;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 14px;
+      }
+      th,
+      td {
+        text-align: left;
+        padding: 6px 8px;
+        border-bottom: 1px solid var(--line);
+        vertical-align: top;
+      }
+      th {
+        font-size: 13px;
+        color: var(--muted);
+        font-weight: 600;
+        white-space: nowrap;
+      }
+      th.sortable {
+        cursor: pointer;
+      }
+      td.num,
+      th.num {
+        text-align: right;
+        font-variant-numeric: tabular-nums;
+      }
+      tr.strong td {
+        font-weight: 650;
+      }
+      .heat {
+        display: grid;
+        grid-template-columns: 40px repeat(24, minmax(10px, 1fr));
+        gap: 2px;
+        font-size: 11px;
+      }
+      .heat .cell {
+        aspect-ratio: 1;
+        border-radius: 3px;
+        min-height: 10px;
+      }
+      .heat .hl {
+        color: var(--muted);
+        text-align: center;
+      }
+      .scale {
+        display: flex;
+        gap: 2px;
+        align-items: center;
+        font-size: 12px;
+        color: var(--muted);
+        margin-top: 8px;
+      }
+      .scale span.cell {
+        width: 18px;
+        height: 12px;
+        border-radius: 3px;
+      }
+      .empty {
+        color: var(--muted);
+        padding: 24px 0;
+        text-align: center;
+      }
+      .checks {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px 14px;
+        font-size: 14px;
+      }
+      .checks label {
+        display: flex;
+        gap: 6px;
+        align-items: center;
+      }
+      .checks input {
+        min-height: 0;
+      }
+      footer {
+        margin-top: 40px;
+        font-size: 13px;
+        color: var(--muted);
+      }
+      footer code {
+        font-size: 12px;
+      }
+      @media (max-width: 560px) {
+        .two {
+          grid-template-columns: 1fr;
+        }
+        .tile .value {
+          font-size: 26px;
+        }
+      }
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+        margin-top: 6px;
+      }
+      .tags .badge {
+        cursor: help;
+      }
+      .card-head {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px 10px;
+        align-items: baseline;
+        margin-bottom: 8px;
+      }
+      .card-head h3 {
+        margin: 0;
+      }
+      .card-head .tags {
+        margin-top: 0;
+      }
+      .health {
+        margin-top: 12px;
+      }
+      .stack > * + * {
+        margin-top: 12px;
+      }
+    </style>
   </head>
   <body>
-    <p>The full v2 page comes later.</p>
+    <main>
+      <header>
+        <h1>VoteStack usage</h1>
+        <p class="muted small" id="freshness"></p>
+      </header>
+
+      <div
+        class="filters"
+        role="group"
+        aria-label="Filters for the whole report"
+      >
+        <label class="field"
+          >Dates
+          <select id="f-range">
+            <option value="1">Last 24 hours</option>
+            <option value="7" selected>Last 7 days</option>
+            <option value="30">Last 30 days</option>
+            <option value="all">Everything so far</option>
+            <option value="custom">Choose dates…</option>
+          </select>
+        </label>
+        <label class="field" id="f-from-wrap" hidden
+          >From <input type="date" id="f-from"
+        /></label>
+        <label class="field" id="f-to-wrap" hidden
+          >To <input type="date" id="f-to"
+        /></label>
+        <label class="field"
+          >Area
+          <select id="f-area">
+            <option value="all">All areas</option>
+            <option value="il-cook">Cook County</option>
+            <option value="ca-la">Los Angeles County</option>
+          </select>
+        </label>
+        <label class="field"
+          >Time zone
+          <select id="f-tz">
+            <option value="America/Chicago">Chicago</option>
+            <option value="America/Los_Angeles">Los Angeles</option>
+            <option value="UTC">UTC</option>
+          </select>
+        </label>
+        <p class="muted small" id="range-text" style="margin: 0 0 8px"></p>
+      </div>
+
+      <section id="h-week" aria-labelledby="h-week-title">
+        <div class="section-head">
+          <h2 id="h-week-title">This week</h2>
+          <span class="muted small"
+            >The North Star counts the whole election. Everything else follows
+            the dates above.</span
+          >
+        </div>
+        <div class="grid tiles" id="week-tiles"></div>
+        <div class="card" style="margin-top: 12px">
+          <div class="card-head">
+            <h3>Newly informed per week</h3>
+            <div id="informed-tags"></div>
+          </div>
+          <p class="muted small">
+            Devices informed on a race for the first time this election, by the
+            path of that visit. The weeks add up to the North Star.
+          </p>
+          <div class="chart" id="informed-chart"></div>
+          <ul class="legend" id="informed-legend"></ul>
+        </div>
+        <p class="muted small health" id="health"></p>
+      </section>
+
+      <section id="h-people" aria-labelledby="h-people-title">
+        <div class="section-head">
+          <h2 id="h-people-title">How many people?</h2>
+          <span class="muted small"
+            >Devices, not people: one person on a phone and a laptop counts
+            twice.</span
+          >
+        </div>
+        <div class="grid tiles" id="people-tiles"></div>
+        <div class="grid two" style="margin-top: 12px">
+          <div class="card">
+            <div class="card-head">
+              <h3>Devices per day</h3>
+              <div id="devices-tags"></div>
+            </div>
+            <div class="chart" id="devices-chart"></div>
+            <ul class="legend" id="devices-legend"></ul>
+          </div>
+          <div class="card">
+            <div class="card-head">
+              <h3>Visits per day</h3>
+              <div id="visits-day-tags"></div>
+            </div>
+            <div class="chart" id="visits-chart"></div>
+            <ul class="legend" id="visits-legend"></ul>
+          </div>
+          <div class="card">
+            <h3>Devices with a ballot per day</h3>
+            <p class="muted small">New and returning ballots.</p>
+            <div class="chart" id="ballot-devices-chart"></div>
+          </div>
+          <div class="card table-wrap">
+            <h3>Devices by week and month</h3>
+            <div id="devices-table"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="h-sources" aria-labelledby="h-sources-title">
+        <div class="section-head">
+          <h2 id="h-sources-title">Where do visits come from?</h2>
+          <span class="muted small"
+            >Sources are site types only, worked out in the browser.</span
+          >
+        </div>
+        <div class="stack">
+          <div class="card">
+            <div class="card-head">
+              <h3>Visits by source</h3>
+              <div id="source-tags"></div>
+            </div>
+            <div class="grid two">
+              <div id="source-bars"></div>
+              <div class="table-wrap" id="source-table"></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-head">
+              <h3>Visits by path</h3>
+              <div id="path-tags"></div>
+            </div>
+            <div class="grid two">
+              <div id="path-bars"></div>
+              <div class="table-wrap" id="path-table"></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-head">
+              <h3>Visits by first page</h3>
+              <div id="entry-tags"></div>
+            </div>
+            <div class="grid two">
+              <div id="entry-bars"></div>
+              <div class="table-wrap" id="entry-table"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="h-paths" aria-labelledby="h-paths-title">
+        <div class="section-head">
+          <h2 id="h-paths-title">The two paths</h2>
+          <span class="muted small"
+            >Reader path: visits that start on a profile or race page. Ballot
+            path: visits that start on Home or Get started.</span
+          >
+        </div>
+        <div class="controls">
+          <label class="field"
+            >Steps
+            <select id="l-split">
+              <option value="">All visits</option>
+              <option value="entry">By first page</option>
+              <option value="source">By source</option>
+            </select>
+          </label>
+        </div>
+        <div class="grid two">
+          <div class="card" id="reader-ladder">
+            <div class="card-head">
+              <h3>Reader path</h3>
+              <div id="reader-tags"></div>
+            </div>
+            <p class="muted small" id="reader-note"></p>
+            <div class="table-wrap" id="reader-steps"></div>
+          </div>
+          <div class="card" id="ballot-ladder">
+            <div class="card-head">
+              <h3>Ballot path</h3>
+              <div id="ballot-tags"></div>
+            </div>
+            <p class="muted small" id="ballot-note"></p>
+            <div class="table-wrap" id="ballot-steps"></div>
+          </div>
+        </div>
+        <div class="grid tiles" id="path-tiles" style="margin-top: 12px"></div>
+        <div class="grid two" style="margin-top: 12px">
+          <div class="card">
+            <div class="card-head">
+              <h3>Which link moved readers</h3>
+              <div id="cta-tags"></div>
+            </div>
+            <p class="muted small">Clicks per 100 reader-path visits.</p>
+            <div id="cta-bars"></div>
+          </div>
+          <div class="card table-wrap">
+            <div class="card-head">
+              <h3>Ballots by first arrival</h3>
+              <div id="origin-tags"></div>
+            </div>
+            <p class="muted small">
+              How the device first came to VoteStack, and whether the ballot was
+              looked up in that visit or a later one.
+            </p>
+            <div id="origin-table"></div>
+          </div>
+          <div class="card">
+            <h3>Lookup outcomes by area</h3>
+            <div id="lookup-bars"></div>
+            <ul class="legend" id="lookup-legend"></ul>
+          </div>
+          <div class="card table-wrap" id="lookup-table"></div>
+        </div>
+      </section>
+
+      <!-- Sections 5 to 8 are still to come; their containers are kept here. -->
+      <section
+        id="h-depth"
+        aria-label="How deep do voters go?"
+        hidden
+      ></section>
+      <section
+        id="h-funders"
+        aria-label="Outcomes, for funders"
+        hidden
+      ></section>
+      <section id="h-guard" aria-label="Demand and guardrails" hidden></section>
+      <section id="h-explore" aria-label="Explore the counts" hidden></section>
+
+      <footer>
+        <p>
+          All counts are anonymous totals by the hour: no addresses, IP
+          addresses, picks or identifiers. Counts can be fractional where
+          Analytics Engine sampled. Hours the daily rollup hasn't copied yet
+          appear only when this report was built with the Analytics Engine keys.
+        </p>
+        <p>
+          A tag of <span class="badge">estimate</span> means some of the number
+          comes from older counts that stand in for the new ones; hover it to
+          see what. <span class="badge">counted from</span> gives the day the
+          new counts began.
+        </p>
+        <p>Refresh: <code>npm run usage:report</code> in the code repo.</p>
+        <p id="generated"></p>
+      </footer>
+    </main>
+    <div class="tooltip" id="tooltip" role="status" aria-live="polite"></div>
+
     <script>
       const DATA = '__USAGE_DATA__'
     </script>
     <script>
       '__USAGE_MEASURES__'
+    </script>
+    <script>
+      // The page itself. It runs inside a function so its helpers, copied
+      // from v1, don't clash with the measures' globals of the same name.
+      ;(function () {
+        // ---- Setup -----------------------------------------------------
+        const SERIES = [
+          '--s1',
+          '--s2',
+          '--s3',
+          '--s4',
+          '--s5',
+          '--s6',
+          '--s7',
+          '--s8',
+        ]
+        const AREA_LABEL = {
+          'il-cook': 'Cook County',
+          'ca-la': 'Los Angeles County',
+          none: 'Not found',
+        }
+        const OUTCOMES = [
+          'ok',
+          'gaps',
+          'not_found',
+          'invalid',
+          'rate_limited',
+          'error',
+        ]
+        const OUTCOME_LABEL = {
+          ok: 'Ballot found',
+          gaps: 'Found, possible gaps',
+          not_found: 'Address not found',
+          invalid: 'Not a usable address',
+          rate_limited: 'Rate limited',
+          error: 'Error',
+        }
+        const PAGES = [
+          'ballot',
+          'start',
+          'profile',
+          'races',
+          'report',
+          'saved',
+          'how',
+          'about',
+          'notify',
+          'support',
+          'other',
+        ]
+        const PAGE_LABEL = {
+          ballot: 'Ballot (home)',
+          start: 'Get started',
+          profile: 'Candidate profile',
+          report: 'Report an error',
+          saved: 'Saved choices',
+          races: 'Race list and pages',
+          how: 'How we make profiles',
+          about: 'About',
+          notify: 'Email sign-up page',
+          support: 'Support',
+          other: 'Other',
+          unknown: 'Before counting began',
+        }
+        const PATHS = ['ballot', 'reader', 'other']
+        const PATH_LABEL = {
+          ballot: 'Ballot path',
+          reader: 'Reader path',
+          other: 'Other pages',
+        }
+        const VISIT_SOURCES = [
+          'search',
+          'ai',
+          'social',
+          'email',
+          'other',
+          'direct',
+        ]
+        const VISIT_SOURCE_LABEL = {
+          search: 'Search',
+          ai: 'AI assistants',
+          social: 'Social',
+          email: 'Email',
+          other: 'Other sites',
+          direct: 'Direct',
+          unknown: 'Before counting began',
+        }
+        const STEP_LABEL = {
+          arrived: 'Arrived',
+          browsed: 'Saw a second page',
+          read: 'Read a profile',
+          informed: 'Informed on a race',
+          form: 'Saw the address form',
+          asked: 'Asked for a ballot',
+          lookup: 'Got their ballot',
+          returned: 'Came back to their ballot',
+          researched: 'Researched the ballot',
+          picked: 'Made a pick',
+        }
+        const LADDER_STEPS = {
+          reader: [
+            'arrived',
+            'read',
+            'informed',
+            'form',
+            'asked',
+            'lookup',
+            'researched',
+            'picked',
+          ],
+          ballot: [
+            'arrived',
+            'form',
+            'asked',
+            'lookup',
+            'returned',
+            'informed',
+            'researched',
+            'picked',
+          ],
+        }
+        const CTA_LABEL = {
+          top: 'Top strip on a profile',
+          mid: 'See every race, mid-profile',
+          back: 'Back to Get started',
+          race: 'On the ballot, to the race page',
+          form: 'Address form on a race page',
+        }
+
+        // What each stand-in is, for the estimate tag's hover text.
+        const NOTE = {
+          informed:
+            'Before the new counts: ballot-path devices that opened two profiles in a race. Opened, not read.',
+          read: 'Before the new counts: profiles opened from a ballot, first and second in each race. Opened, not read.',
+          visits:
+            'Before the new counts: the first page of each visit, the same definition.',
+          ladder:
+            'Before the new counts: arrivals from first pages, and on the ballot path, ballots looked up and researched ballots.',
+          activation:
+            'Before the new counts: researched ballots over new ballots.',
+          without:
+            'Steps are counted one at a time, so this takes visits that reached the form to have read first.',
+        }
+
+        // Row fields: [hour, event, a, b, c, n, d1..d8, live]
+        const H = 0,
+          E = 1,
+          A = 2,
+          B = 3,
+          C = 4,
+          N = 5,
+          D1 = 6
+        const ROWS = DATA.rows
+        const NOW = Date.parse(DATA.generatedAt) / 1000
+        const FIRST = ROWS.length
+          ? Math.min(...ROWS.map((r) => r[H]))
+          : NOW - 86400
+
+        const $ = (id) => document.getElementById(id)
+        function h(tag, attrs, ...kids) {
+          const el = document.createElement(tag)
+          for (const [k, v] of Object.entries(attrs || {})) {
+            if (v == null || v === false) continue
+            if (k === 'class') el.className = v
+            else if (k === 'style') el.style.cssText = v
+            else if (k.startsWith('on')) el.addEventListener(k.slice(2), v)
+            else el.setAttribute(k, v === true ? '' : v)
+          }
+          for (const kid of kids.flat()) {
+            if (kid == null || kid === false) continue
+            el.append(
+              kid instanceof Node ? kid : document.createTextNode(String(kid)),
+            )
+          }
+          return el
+        }
+        const svgNS = 'http://www.w3.org/2000/svg'
+        function s(tag, attrs) {
+          const el = document.createElementNS(svgNS, tag)
+          for (const [k, v] of Object.entries(attrs || {}))
+            el.setAttribute(k, v)
+          return el
+        }
+        const cssVar = (name) =>
+          getComputedStyle(document.documentElement)
+            .getPropertyValue(name)
+            .trim()
+        /** Replaces an element's contents, skipping empty parts. */
+        const fill = (el, ...kids) =>
+          el.replaceChildren(...kids.flat().filter((k) => k != null))
+
+        // ---- Formatting ------------------------------------------------
+        const nf = new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 })
+        const nf1 = new Intl.NumberFormat('en-US', {
+          maximumFractionDigits: 1,
+        })
+        const num = (v) =>
+          Math.abs(v) < 10 && v % 1 ? nf1.format(v) : nf.format(v)
+        const pct = (n, d) => (d > 0 ? `${nf1.format((100 * n) / d)}%` : '–')
+        const share = (v) => (v == null ? '–' : `${nf1.format(100 * v)}%`)
+
+        let partsCache = new Map()
+        let tzCached = ''
+        /** Calendar parts of an hour in the chosen time zone. */
+        function parts(ts) {
+          const tz = state.tz
+          if (tz !== tzCached) {
+            partsCache = new Map()
+            tzCached = tz
+          }
+          let p = partsCache.get(ts)
+          if (!p) {
+            const f = new Intl.DateTimeFormat('en-CA', {
+              timeZone: tz,
+              year: 'numeric',
+              month: '2-digit',
+              day: '2-digit',
+              hour: '2-digit',
+              hourCycle: 'h23',
+              weekday: 'short',
+            })
+            const o = {}
+            for (const x of f.formatToParts(new Date(ts * 1000)))
+              o[x.type] = x.value
+            p = {
+              day: `${o.year}-${o.month}-${o.day}`,
+              hour: Number(o.hour) % 24,
+              weekday: o.weekday,
+            }
+            partsCache.set(ts, p)
+          }
+          return p
+        }
+        const shortDate = (day) =>
+          new Date(`${day}T12:00:00Z`).toLocaleDateString('en-US', {
+            month: 'short',
+            day: 'numeric',
+            timeZone: 'UTC',
+          })
+        const hourLabel = (hr) =>
+          hr === 0
+            ? '12a'
+            : hr < 12
+              ? `${hr}a`
+              : hr === 12
+                ? '12p'
+                : `${hr - 12}p`
+        function weekOf(day) {
+          const d = new Date(`${day}T12:00:00Z`)
+          d.setUTCDate(d.getUTCDate() - ((d.getUTCDay() + 6) % 7))
+          return d.toISOString().slice(0, 10)
+        }
+        function addDay(day) {
+          const d = new Date(`${day}T12:00:00Z`)
+          d.setUTCDate(d.getUTCDate() + 1)
+          return d.toISOString().slice(0, 10)
+        }
+        /** The day of a moment, as a short date in the chosen time zone. */
+        const dateOf = (ts) =>
+          shortDate(parts(Math.floor(ts / 3600) * 3600).day)
+
+        // ---- State and filtering ---------------------------------------
+        const state = {
+          range: '7',
+          from: '',
+          to: '',
+          area: 'all',
+          tz: 'America/Chicago',
+        }
+
+        /** The selected period as [start, end) in Unix seconds, and the one before it. */
+        function period() {
+          let start, end
+          if (state.range === 'custom' && state.from && state.to) {
+            start = zonedMidnight(state.from)
+            end = zonedMidnight(state.to) + 86400
+          } else if (state.range === 'all' || state.range === 'custom') {
+            start = FIRST
+            end = NOW + 1
+          } else {
+            end = NOW + 1
+            start = end - Number(state.range) * 86400
+          }
+          return {
+            start,
+            end,
+            prevStart: start - (end - start),
+            prevEnd: start,
+          }
+        }
+        /** Unix seconds of midnight on a calendar day in the chosen time zone. */
+        function zonedMidnight(day) {
+          let guess = Date.parse(`${day}T00:00:00Z`) / 1000
+          for (let i = 0; i < 2; i++) {
+            const p = parts(Math.floor(guess / 3600) * 3600)
+            const shown =
+              Date.parse(`${p.day}T${String(p.hour).padStart(2, '0')}:00:00Z`) /
+              1000
+            guess -= shown - Date.parse(`${day}T00:00:00Z`) / 1000
+          }
+          return guess
+        }
+        /** A range for the measures: the dates picked, the period before them, or the whole election so far. */
+        function range(which = 'picked') {
+          const p = period()
+          const [start, end] =
+            which === 'before'
+              ? [p.prevStart, p.prevEnd]
+              : which === 'election'
+                ? [FIRST, NOW + 1]
+                : [p.start, p.end]
+          return { start, end, area: state.area, tz: state.tz }
+        }
+
+        /** The area a row belongs to, or null when the event isn't split by area. */
+        function rowArea(r) {
+          switch (r[E]) {
+            case 'lookup':
+            case 'voter':
+            case 'sample':
+            case 'fill':
+            case 'learn':
+              return r[B]
+            case 'half':
+              return r[A]
+            case 'view':
+              if (r[A] === 'profile' || r[A] === 'report')
+                return DATA.candidates[r[C]]?.[2] ?? null
+              if (r[A] === 'races' && r[C]) return DATA.races[r[C]]?.[2] ?? null
+              return null
+            default:
+              return null
+          }
+        }
+        const AREA_EVENTS = new Set([
+          'lookup',
+          'voter',
+          'sample',
+          'fill',
+          'learn',
+          'half',
+        ])
+
+        /**
+         * Rows of one event in [start, end). The area filter applies to events
+         * split by area; `useArea: false` keeps every area (for measures that
+         * mix events that are split with ones that aren't).
+         */
+        function rowsOf(event, start, end, useArea = true) {
+          return ROWS.filter(
+            (r) =>
+              r[E] === event &&
+              r[H] >= start &&
+              r[H] < end &&
+              (!useArea ||
+                state.area === 'all' ||
+                !AREA_EVENTS.has(event) ||
+                rowArea(r) === state.area),
+          )
+        }
+        const sum = (rows, f = (r) => r[N]) =>
+          rows.reduce((t, r) => t + f(r), 0)
+        const sumWhere = (rows, pred, f) => sum(rows.filter(pred), f)
+
+        // ---- Tags ------------------------------------------------------
+        /**
+         * The tags on a measured value: "estimate" when some of it comes from
+         * a stand-in (hover for which), "all areas" when an area is picked
+         * but the counts carry none, and when the new counts began if that
+         * is after the start of the range. `history` marks measures that
+         * have no new counts at all, so only the first two apply.
+         */
+        function tags(m, r, note, { history = false } = {}) {
+          const out = []
+          if (m.estimate)
+            out.push(
+              h(
+                'span',
+                { class: 'badge', title: note || 'Partly from older counts' },
+                'estimate',
+              ),
+            )
+          if (m.allAreas && state.area !== 'all')
+            out.push(
+              h(
+                'span',
+                {
+                  class: 'badge',
+                  title:
+                    'These counts are not split by area, so this covers every area',
+                },
+                'all areas',
+              ),
+            )
+          if (!history) {
+            if (m.countedFrom == null)
+              out.push(
+                h(
+                  'span',
+                  {
+                    class: 'badge',
+                    title: 'The app has not sent these counts yet',
+                  },
+                  'not counted yet',
+                ),
+              )
+            else if (m.countedFrom > r.start)
+              out.push(
+                h(
+                  'span',
+                  {
+                    class: 'badge',
+                    title: 'The new counts began partway through the dates',
+                  },
+                  `counted from ${dateOf(m.countedFrom)}`,
+                ),
+              )
+          }
+          return out.length ? h('div', { class: 'tags' }, out) : null
+        }
+
+        // ---- Tooltip ---------------------------------------------------
+        const tip = $('tooltip')
+        function showTip(ev, title, lines) {
+          tip.replaceChildren(
+            h('div', { class: 'tt-title' }, title),
+            ...lines.map(([color, label, value]) =>
+              h(
+                'div',
+                { class: 'tt-row' },
+                color
+                  ? h('span', {
+                      class: 'tt-key',
+                      style: `background:${color}`,
+                    })
+                  : null,
+                h('strong', {}, value),
+                h('span', { class: 'muted' }, label),
+              ),
+            ),
+          )
+          tip.style.display = 'block'
+          const pad = 14
+          const w = tip.offsetWidth,
+            hgt = tip.offsetHeight
+          let x = ev.clientX + pad,
+            y = ev.clientY + pad
+          if (x + w > innerWidth - 8) x = ev.clientX - w - pad
+          if (y + hgt > innerHeight - 8) y = ev.clientY - hgt - pad
+          tip.style.left = `${Math.max(8, x)}px`
+          tip.style.top = `${Math.max(8, y)}px`
+        }
+        const hideTip = () => (tip.style.display = 'none')
+        addEventListener('scroll', hideTip, { passive: true })
+
+        // ---- Tables ----------------------------------------------------
+        /**
+         * A sortable table. cols: [{label, get, num?, fmt?}]. Clicking a header
+         * sorts by it; `limit` shows the top rows with a button for the rest.
+         */
+        function table(
+          container,
+          cols,
+          rows,
+          {
+            sortBy = null,
+            desc = true,
+            limit = 0,
+            empty = 'Nothing in this period.',
+          } = {},
+        ) {
+          let key = sortBy,
+            down = desc,
+            showAll = false
+          function draw() {
+            if (!rows.length)
+              return container.replaceChildren(
+                h('p', { class: 'empty' }, empty),
+              )
+            const sorted =
+              key == null
+                ? rows
+                : [...rows].sort((x, y) => {
+                    const a = cols[key].get(x),
+                      b = cols[key].get(y)
+                    const c =
+                      typeof a === 'number' || typeof b === 'number'
+                        ? (a ?? -1) - (b ?? -1)
+                        : String(a).localeCompare(String(b))
+                    return down ? -c : c
+                  })
+            const shown = limit && !showAll ? sorted.slice(0, limit) : sorted
+            const head = h(
+              'tr',
+              {},
+              cols.map((c, i) =>
+                h(
+                  'th',
+                  {
+                    class: `${c.num ? 'num ' : ''}sortable`,
+                    scope: 'col',
+                    'aria-sort':
+                      key === i ? (down ? 'descending' : 'ascending') : null,
+                  },
+                  h(
+                    'button',
+                    {
+                      type: 'button',
+                      class: 'link',
+                      style:
+                        'color:inherit;text-decoration:none;font-weight:600',
+                      onclick: () => {
+                        if (key === i) down = !down
+                        else {
+                          key = i
+                          down = !!c.num
+                        }
+                        draw()
+                      },
+                    },
+                    c.label,
+                    key === i ? (down ? ' ↓' : ' ↑') : '',
+                  ),
+                ),
+              ),
+            )
+            const body = shown.map((r) =>
+              h(
+                'tr',
+                { class: r.strong ? 'strong' : null },
+                cols.map((c) => {
+                  const v = c.get(r)
+                  return h(
+                    'td',
+                    { class: c.num ? 'num' : null },
+                    c.fmt ? c.fmt(v, r) : v == null ? '–' : c.num ? num(v) : v,
+                  )
+                }),
+              ),
+            )
+            const more =
+              limit && sorted.length > limit
+                ? h(
+                    'p',
+                    { class: 'small', style: 'margin-top:8px' },
+                    h(
+                      'button',
+                      {
+                        type: 'button',
+                        class: 'link',
+                        onclick: () => {
+                          showAll = !showAll
+                          draw()
+                        },
+                      },
+                      showAll ? 'Show fewer' : `Show all ${sorted.length}`,
+                    ),
+                  )
+                : null
+            container.replaceChildren(
+              ...[
+                h('table', {}, h('thead', {}, head), h('tbody', {}, body)),
+                more,
+              ].filter(Boolean),
+            )
+          }
+          draw()
+        }
+
+        // ---- Horizontal bars (HTML) ------------------------------------
+        /**
+         * rows: [{label, segs: [{key, label, v, color}], value}], drawn against
+         * `max` (the largest row total by default). `fmt` formats the total.
+         */
+        function hbars(
+          container,
+          rows,
+          { max, fmt = num, tipFmt = num, empty } = {},
+        ) {
+          if (!rows.length)
+            return container.replaceChildren(
+              h('p', { class: 'empty' }, empty || 'Nothing in this period.'),
+            )
+          const top =
+            max ??
+            Math.max(
+              ...rows.map((r) => r.segs.reduce((t, x) => t + x.v, 0)),
+              1e-9,
+            )
+          const grid = h('div', { class: 'hbars' })
+          for (const row of rows) {
+            const total = row.segs.reduce((t, x) => t + x.v, 0)
+            const track = h('div', {
+              class: 'hbar-track',
+              style: `width:${Math.max(0, (100 * total) / top)}%`,
+            })
+            for (const seg of row.segs) {
+              if (seg.v <= 0) continue
+              track.append(
+                h('div', {
+                  class: 'hbar-seg',
+                  style: `flex:${seg.v} 1 0;background:${seg.color}`,
+                  onpointermove: (ev) =>
+                    showTip(
+                      ev,
+                      row.label,
+                      row.segs
+                        .filter((x) => x.v > 0)
+                        .map((x) => [x.color, x.label, tipFmt(x.v, total)]),
+                    ),
+                  onpointerleave: hideTip,
+                }),
+              )
+            }
+            grid.append(
+              h('div', {}, row.label),
+              h('div', {}, track),
+              h('div', { class: 'hbar-value' }, row.value ?? fmt(total)),
+            )
+          }
+          container.replaceChildren(grid)
+        }
+        function legend(ul, series) {
+          ul.replaceChildren(
+            ...series.map((x) =>
+              h(
+                'li',
+                {},
+                h('span', {
+                  class: 'swatch',
+                  style: `background:${x.color}`,
+                }),
+                x.label,
+              ),
+            ),
+          )
+        }
+
+        // ---- Tiles -----------------------------------------------------
+        function tile(group, label, value, sub, delta, tagged, id) {
+          return h(
+            'div',
+            { class: 'card tile', id },
+            h('div', { class: 'group' }, group),
+            h('div', { class: 'value' }, value),
+            h('div', { class: 'label' }, label),
+            sub ? h('div', { class: 'sub' }, sub) : null,
+            delta ? h('div', { class: 'sub' }, delta) : null,
+            tagged,
+          )
+        }
+        function change(now, before) {
+          if (!before && !now) return null
+          if (!before) return 'New this period'
+          const d = (100 * (now - before)) / before
+          return `${d >= 0 ? '▲' : '▼'} ${nf.format(Math.abs(d))}% (${num(before)} before)`
+        }
+
+        // ---- Time charts -----------------------------------------------
+        /** The buckets (hours, days or weeks) of the period, in order. */
+        function buckets(start, end, size) {
+          const out = [],
+            seen = new Set()
+          for (let t = Math.floor(start / 3600) * 3600; t < end; t += 3600) {
+            const p = parts(t)
+            const key =
+              size === 'hour'
+                ? String(t)
+                : size === 'day'
+                  ? p.day
+                  : weekOf(p.day)
+            if (seen.has(key)) continue
+            seen.add(key)
+            const label =
+              size === 'hour'
+                ? `${shortDate(p.day)}, ${hourLabel(p.hour)}`
+                : size === 'day'
+                  ? shortDate(p.day)
+                  : `Week of ${shortDate(key)}`
+            out.push({
+              key,
+              label,
+              tick:
+                size === 'hour'
+                  ? p.hour === 0
+                    ? shortDate(p.day)
+                    : hourLabel(p.hour)
+                  : shortDate(key),
+              hour: p.hour,
+            })
+          }
+          return out
+        }
+
+        /**
+         * Stacked columns with a shared y axis; hovering a column lists every
+         * series. With `size` ('day' or 'week'), each release in the range
+         * gets a thin line and its version, with its note on hover.
+         */
+        function stackedBars(container, bs, series, grid, { size } = {}) {
+          const W = Math.max(container.clientWidth, 280),
+            Ht = 240
+          const m = { l: 44, r: 8, t: 16, b: 26 }
+          const iw = W - m.l - m.r,
+            ih = Ht - m.t - m.b
+          const totals = bs.map((b) =>
+            [...grid.get(b.key).values()].reduce((t, v) => t + v, 0),
+          )
+          const maxV = Math.max(...totals, 0)
+          if (!maxV)
+            return container.replaceChildren(
+              h('p', { class: 'empty' }, 'Nothing counted in this period.'),
+            )
+          const tickStep = niceStep(maxV / 4)
+          const top = Math.ceil(maxV / tickStep) * tickStep
+          const y = (v) => m.t + ih - (v / top) * ih
+          const svg = s('svg', {
+            viewBox: `0 0 ${W} ${Ht}`,
+            height: Ht,
+            role: 'img',
+            'aria-label': 'Chart; hover a column for its values',
+          })
+          for (let v = 0; v <= top + 1e-9; v += tickStep) {
+            svg.append(
+              s('line', {
+                x1: m.l,
+                x2: W - m.r,
+                y1: y(v),
+                y2: y(v),
+                stroke: cssVar(v === 0 ? '--axis' : '--grid'),
+                'stroke-width': 1,
+              }),
+            )
+            const t = s('text', {
+              x: m.l - 6,
+              y: y(v) + 4,
+              'text-anchor': 'end',
+              'font-size': 11,
+              fill: cssVar('--muted'),
+            })
+            t.textContent = num(v)
+            svg.append(t)
+          }
+          const step = iw / bs.length
+          const gap = step >= 6 ? 2 : step >= 3 ? 1 : 0
+          const bw = Math.max(1, step - gap)
+          const every = Math.max(1, Math.ceil(70 / step))
+          bs.forEach((b, i) => {
+            const x = m.l + i * step + gap / 2
+            let acc = 0
+            const present = series.filter(
+              (sr) => (grid.get(b.key).get(sr.key) || 0) > 0,
+            )
+            present.forEach((sr, j) => {
+              const v = grid.get(b.key).get(sr.key)
+              const y0 = y(acc),
+                y1 = y(acc + v)
+              acc += v
+              const isTop = j === present.length - 1
+              let hgt = y0 - y1 - (j > 0 ? 2 : 0)
+              if (hgt < 1) hgt = 1
+              const r = isTop ? Math.min(4, bw / 2, hgt) : 0
+              svg.append(
+                s('path', {
+                  d: roundedTop(x, y0 - (j > 0 ? 2 : 0) - hgt, bw, hgt, r),
+                  fill: sr.color,
+                }),
+              )
+            })
+            if (i % every === 0) {
+              const t = s('text', {
+                x: x + bw / 2,
+                y: Ht - 8,
+                'text-anchor': 'middle',
+                'font-size': 11,
+                fill: cssVar('--muted'),
+              })
+              t.textContent = b.tick
+              svg.append(t)
+            }
+            const hit = s('rect', {
+              x: m.l + i * step,
+              y: m.t,
+              width: Math.max(step, 1),
+              height: ih,
+              fill: 'transparent',
+            })
+            hit.addEventListener('pointermove', (ev) => {
+              const lines = series
+                .map((sr) => [
+                  sr.color,
+                  sr.label,
+                  num(grid.get(b.key).get(sr.key) || 0),
+                ])
+                .reverse()
+              if (series.length > 1)
+                lines.unshift([null, 'Total', num(totals[i])])
+              showTip(ev, b.label, lines)
+              hl.setAttribute('x', m.l + i * step)
+              hl.setAttribute('width', Math.max(step, 1))
+              hl.style.display = ''
+            })
+            hit.addEventListener('pointerleave', () => {
+              hideTip()
+              hl.style.display = 'none'
+            })
+            svg.append(hit)
+          })
+          if (size) {
+            for (const rel of DATA.releases || []) {
+              if (!rel.date) continue
+              const i = bs.findIndex(
+                (b) =>
+                  b.key === (size === 'week' ? weekOf(rel.date) : rel.date),
+              )
+              if (i < 0) continue
+              // Within a week, the line sits at the release's day.
+              const into =
+                size === 'week'
+                  ? ((new Date(`${rel.date}T12:00:00Z`).getUTCDay() + 6) % 7) /
+                    7
+                  : 0
+              const x = m.l + (i + into) * step
+              const mark = s('g', { 'data-release': rel.version })
+              const label = s('text', {
+                x: x + 3,
+                y: m.t - 4,
+                'font-size': 11,
+                fill: cssVar('--muted'),
+              })
+              label.textContent = rel.version
+              const hit = s('rect', {
+                x: x - 4,
+                y: m.t - 14,
+                width: 8,
+                height: ih + 14,
+                fill: 'transparent',
+              })
+              hit.addEventListener('pointermove', (ev) =>
+                showTip(ev, `${rel.version}, ${shortDate(rel.date)}`, [
+                  [null, rel.note, ''],
+                ]),
+              )
+              hit.addEventListener('pointerleave', hideTip)
+              mark.append(
+                s('line', {
+                  x1: x,
+                  x2: x,
+                  y1: m.t - 14,
+                  y2: m.t + ih,
+                  stroke: cssVar('--muted'),
+                  'stroke-width': 1,
+                  'stroke-dasharray': '3 3',
+                }),
+                label,
+                hit,
+              )
+              svg.append(mark)
+            }
+          }
+          const hl = s('rect', {
+            y: m.t,
+            height: ih,
+            fill: cssVar('--text'),
+            opacity: 0.06,
+            'pointer-events': 'none',
+          })
+          hl.style.display = 'none'
+          svg.append(hl)
+          container.replaceChildren(svg)
+        }
+        function roundedTop(x, yTop, w, hgt, r) {
+          return `M${x},${yTop + hgt}V${yTop + r}Q${x},${yTop} ${x + r},${yTop}H${x + w - r}Q${x + w},${yTop} ${x + w},${yTop + r}V${yTop + hgt}Z`
+        }
+        function niceStep(raw) {
+          if (raw <= 0) return 1
+          const p = 10 ** Math.floor(Math.log10(raw))
+          const f = raw / p
+          const step = (f <= 1 ? 1 : f <= 2 ? 2 : f <= 5 ? 5 : 10) * p
+          return Math.max(step, raw < 1 ? step : 1)
+        }
+
+        /**
+         * A time chart from values keyed by bucket: `values` maps a bucket key
+         * to {seriesKey: n}. Buckets in `estimated` say so on hover.
+         */
+        function timeChart(id, size, series, values, estimated = new Set()) {
+          const { start, end } = period()
+          const bs = buckets(start, end, size)
+          for (const b of bs) if (estimated.has(b.key)) b.label += ', estimate'
+          const grid = new Map(
+            bs.map((b) => [
+              b.key,
+              new Map(Object.entries(values[b.key] || {})),
+            ]),
+          )
+          stackedBars($(id), bs, series, grid, { size })
+        }
+        const seriesOf = (keys, labels) =>
+          keys.map((key, i) => ({
+            key,
+            label: labels[key],
+            color: cssVar(SERIES[i]),
+          }))
+        const byPathText = (p) =>
+          `Ballot path ${num(p.ballot)}, reader path ${num(p.reader)}, other ${num(p.other)}`
+
+        // ---- 1. This week ----------------------------------------------
+        function renderWeek() {
+          const r = range()
+          const all = range('election')
+          const star = northStar(ROWS, all)
+          const picked = northStar(ROWS, r)
+          const read = profilesRead(ROWS, r)
+          const readBefore = profilesRead(ROWS, range('before'))
+          const input = inputs(ROWS, r)
+          const act = activation(ROWS, r)
+          const perBallot = input.profilesPerBallot
+          fill(
+            $('week-tiles'),
+            tile(
+              'North Star',
+              'Informed voters this election',
+              num(star.value.total),
+              byPathText(star.value.byPath),
+              `${num(picked.value.total)} newly informed in the dates picked`,
+              tags(star, all, NOTE.informed),
+              'north-star',
+            ),
+            tile(
+              'Learning',
+              'Profiles read',
+              num(read.value.total),
+              byPathText(read.value.byPath),
+              change(read.value.total, readBefore.value.total),
+              tags(read, r, NOTE.read),
+              'profiles-read',
+            ),
+            tile(
+              'Input',
+              'Search visits that reach the address form',
+              share(input.searchToForm.value),
+              null,
+              null,
+              tags(input.searchToForm, r),
+            ),
+            tile(
+              'Input',
+              'Lookups that find a ballot',
+              share(input.lookupSuccess),
+              "Voters' own lookups, not sample ballots",
+            ),
+            tile(
+              'Input',
+              'Profiles opened per new ballot',
+              perBallot.value == null ? '–' : nf1.format(perBallot.value),
+              null,
+              null,
+              tags(perBallot, r, '', { history: true }),
+            ),
+            tile(
+              'Activation',
+              'New ballots that become informed',
+              share(act.value),
+              'Ballot-path visits that got a ballot and went on to be informed',
+              null,
+              tags(act, r, NOTE.activation),
+            ),
+          )
+
+          const weeks = {}
+          for (const w of picked.value.perWeek)
+            weeks[w.week] = {
+              ballot: w.ballot,
+              reader: w.reader,
+              other: w.other,
+            }
+          const series = seriesOf(PATHS, PATH_LABEL)
+          timeChart(
+            'informed-chart',
+            'week',
+            series,
+            weeks,
+            new Set(
+              picked.value.perWeek.filter((w) => w.estimate).map((w) => w.week),
+            ),
+          )
+          legend($('informed-legend'), series)
+          fill($('informed-tags'), tags(picked, r, NOTE.informed))
+
+          const health = dataHealth(ROWS, r)
+          const dropped =
+            launchedAt(ROWS, 'dropped') == null
+              ? 'Dropped batches not counted yet.'
+              : `Batches dropped: ${num(health.bot)} automated, ${num(health.invalid)} with events turned away, ${num(health.limited)} rate limited.`
+          $('health').textContent =
+            `Data health: ${dropped} ${num(health.missingHours)} hours with no counts at all, ${num(health.liveHours)} not rolled up yet.` +
+            (DATA.excludedNote ? ` Left out: ${DATA.excludedNote}.` : '')
+        }
+
+        // ---- 2. How many people? ---------------------------------------
+        function renderPeople() {
+          const r = range()
+          const u = uniques(ROWS, r)
+          const v = visits(ROWS, r)
+          const vBefore = visits(ROWS, range('before'))
+          const ballots = ballotDevicesPerDay(ROWS, r)
+          const el = u.value.election
+          const avg = ballots.length
+            ? ballots.reduce((t, d) => t + d.n, 0) / ballots.length
+            : null
+          fill(
+            $('people-tiles'),
+            tile(
+              'People',
+              'Devices this election',
+              u.countedFrom == null ? '–' : num(el.new + el.back),
+              `First counted in the dates picked: ${num(el.new)} new, ${num(el.back)} from before`,
+              null,
+              tags(u, r),
+            ),
+            tile(
+              'People',
+              'Stickiness',
+              share(u.value.stickiness),
+              'An average day, out of everyone that month',
+              null,
+              tags(u, r),
+            ),
+            tile(
+              'Visits',
+              'Visits',
+              num(v.value.total),
+              byPathText(v.value.byPath),
+              change(v.value.total, vBefore.value.total),
+              tags(v, r, NOTE.visits),
+              'visits-tile',
+            ),
+            tile(
+              'Ballots',
+              'Devices with a ballot, an average day',
+              avg == null ? '–' : nf1.format(avg),
+              'New and returning ballots',
+            ),
+          )
+
+          const kinds = seriesOf(['new', 'back'], {
+            new: 'New',
+            back: 'From before',
+          })
+          const perDay = {}
+          for (const d of u.value.day)
+            perDay[d.day] = { new: d.new, back: d.back }
+          timeChart('devices-chart', 'day', kinds, perDay)
+          legend($('devices-legend'), kinds)
+          fill($('devices-tags'), tags(u, r))
+
+          // Visits per day: the visits measure for each day of the range.
+          const { start, end } = period()
+          const days = {}
+          const estimated = new Set()
+          for (const b of buckets(start, end, 'day')) {
+            const day = {
+              ...r,
+              start: Math.max(start, zonedMidnight(b.key)),
+              end: Math.min(end, zonedMidnight(addDay(b.key))),
+            }
+            const m = visits(ROWS, day)
+            days[b.key] = m.value.byPath
+            if (m.estimate) estimated.add(b.key)
+          }
+          const paths = seriesOf(PATHS, PATH_LABEL)
+          timeChart('visits-chart', 'day', paths, days, estimated)
+          legend($('visits-legend'), paths)
+          fill($('visits-day-tags'), tags(v, r, NOTE.visits))
+
+          const ballotDays = {}
+          for (const d of ballots) ballotDays[d.day] = { n: d.n }
+          timeChart(
+            'ballot-devices-chart',
+            'day',
+            seriesOf(['n'], { n: 'Devices with a ballot' }),
+            ballotDays,
+          )
+
+          table(
+            $('devices-table'),
+            [
+              { label: 'Period', get: (x) => x.label },
+              { label: 'New', num: true, get: (x) => x.new },
+              { label: 'From before', num: true, get: (x) => x.back },
+              { label: 'Total', num: true, get: (x) => x.new + x.back },
+            ],
+            [
+              ...u.value.week.map((w) => ({
+                label: `Week of ${shortDate(w.week)}`,
+                ...w,
+              })),
+              ...u.value.month.map((m) => ({
+                label: new Date(`${m.month}-15T12:00:00Z`).toLocaleDateString(
+                  'en-US',
+                  { month: 'long', year: 'numeric', timeZone: 'UTC' },
+                ),
+                ...m,
+              })),
+            ],
+            {
+              empty:
+                u.countedFrom == null
+                  ? 'Not counted yet.'
+                  : 'Nothing in this period.',
+            },
+          )
+        }
+
+        // ---- 3. Where do visits come from? -----------------------------
+        /**
+         * Counted visits (from the new counts only) by a key, with how many
+         * became informed and how many reached a ballot (looked one up or came
+         * back to one). `keyOf` turns a ladder group into the key.
+         */
+        function outcomesBy(r, split, keyOf) {
+          const out = {}
+          for (const path of PATHS) {
+            const groups = ladder(ROWS, r, path, split).value
+            for (const [group, st] of Object.entries(groups)) {
+              const key = keyOf(group, path)
+              const o = (out[key] ??= { arrived: 0, informed: 0, ballot: 0 })
+              o.arrived += st.arrived
+              o.informed += st.informed
+              o.ballot += st.lookup + st.returned
+            }
+          }
+          return out
+        }
+        function renderBreakdown(prefix, keys, labels, measured, outcomes) {
+          const color = cssVar(SERIES[0])
+          const counts = measured || {}
+          const shown = keys.filter((k) => counts[k] || outcomes[k]?.arrived)
+          hbars(
+            $(`${prefix}-bars`),
+            shown.map((k) => ({
+              label: labels[k] || k,
+              segs: [{ key: k, label: 'Visits', v: counts[k] || 0, color }],
+            })),
+            {
+              empty: measured
+                ? 'No visits in this period.'
+                : 'Not counted yet.',
+            },
+          )
+          table(
+            $(`${prefix}-table`),
+            [
+              { label: labels.title, get: (x) => labels[x.key] || x.key },
+              { label: 'Counted visits', num: true, get: (x) => x.arrived },
+              {
+                label: 'Became informed',
+                num: true,
+                get: (x) => (x.arrived ? x.informed / x.arrived : null),
+                fmt: share,
+              },
+              {
+                label: 'Reached a ballot',
+                num: true,
+                get: (x) => (x.arrived ? x.ballot / x.arrived : null),
+                fmt: share,
+              },
+            ],
+            shown
+              .filter((k) => outcomes[k]?.arrived)
+              .map((k) => ({ key: k, ...outcomes[k] })),
+            { empty: 'No visits counted yet.' },
+          )
+        }
+        function renderSources() {
+          const r = range()
+          const v = visits(ROWS, r)
+          const counted = ladder(ROWS, r, 'reader', 'source')
+          const bySource = outcomesBy(r, 'source', (g) => g)
+          const byEntry = outcomesBy(r, 'entry', (g) => g)
+          const byPath = outcomesBy(r, 'entry', (g, path) => path)
+          const extra = (counts) =>
+            Object.keys(counts).sort((x, y) => counts[y] - counts[x])
+          renderBreakdown(
+            'source',
+            [...new Set([...VISIT_SOURCES, ...extra(v.value.bySource || {})])],
+            { ...VISIT_SOURCE_LABEL, title: 'Source' },
+            v.value.bySource,
+            bySource,
+          )
+          renderBreakdown(
+            'path',
+            PATHS,
+            { ...PATH_LABEL, title: 'Path' },
+            v.value.byPath,
+            byPath,
+          )
+          renderBreakdown(
+            'entry',
+            [...new Set([...PAGES, ...extra(v.value.byEntry)])],
+            { ...PAGE_LABEL, title: 'First page' },
+            v.value.byEntry,
+            byEntry,
+          )
+          // Sources begin with the new counts; paths and pages have history.
+          fill($('source-tags'), tags(counted, r))
+          fill($('path-tags'), tags(v, r, NOTE.visits))
+          fill($('entry-tags'), tags(v, r, NOTE.visits))
+        }
+
+        // ---- 4. The two paths ------------------------------------------
+        function renderLadder(path, r, split) {
+          const m = ladder(ROWS, r, path, split || undefined)
+          const steps = LADDER_STEPS[path]
+          const color = cssVar(path === 'reader' ? SERIES[0] : SERIES[1])
+          const note = $(`${path}-note`)
+          const has =
+            path === 'reader'
+              ? 'arrivals only'
+              : 'arrivals, ballots looked up and researched ballots only'
+          if (split)
+            note.textContent =
+              m.countedFrom == null
+                ? 'Not counted yet. Splits use the new counts only.'
+                : 'Splits use the new counts only.'
+          else if (m.countedFrom == null)
+            note.textContent = `Not counted yet, so this ladder has ${has}, from older counts.`
+          else if (m.estimate)
+            note.textContent = `Before ${dateOf(m.countedFrom)} this ladder has ${has}.`
+          else note.textContent = ''
+          fill($(`${path}-tags`), tags(m, r, NOTE.ladder))
+
+          if (!split) {
+            const all = m.value.all
+            hbars(
+              $(`${path}-steps`),
+              steps.map((step) => ({
+                label: STEP_LABEL[step],
+                segs: [{ key: step, label: 'Visits', v: all[step], color }],
+                value: `${num(all[step])} (${pct(all[step], all.arrived)})`,
+              })),
+              { max: Math.max(all.arrived, 1e-9) },
+            )
+            return
+          }
+          const labels = split === 'entry' ? PAGE_LABEL : VISIT_SOURCE_LABEL
+          table(
+            $(`${path}-steps`),
+            [
+              {
+                label: split === 'entry' ? 'First page' : 'Source',
+                get: (x) => labels[x.key] || x.key,
+              },
+              ...steps.map((step) => ({
+                label: STEP_LABEL[step],
+                num: true,
+                get: (x) => x[step],
+              })),
+            ],
+            Object.entries(m.value).map(([key, st]) => ({ key, ...st })),
+            { sortBy: 1, empty: 'No visits counted yet.' },
+          )
+        }
+        function renderPaths() {
+          const r = range()
+          const split = $('l-split').value
+          renderLadder('reader', r, split)
+          renderLadder('ballot', r, split)
+
+          // Informed readers come from the new counts only.
+          const readers = ladder(ROWS, r, 'reader', 'entry')
+          const totals = Object.values(readers.value).reduce(
+            (t, st) => ({
+              arrived: t.arrived + st.arrived,
+              informed: t.informed + st.informed,
+            }),
+            { arrived: 0, informed: 0 },
+          )
+          const without = readersWithoutBallot(ROWS, r)
+          fill(
+            $('path-tiles'),
+            tile(
+              'Reader path',
+              'Informed readers',
+              num(totals.informed),
+              `${pct(totals.informed, totals.arrived)} of reader-path visits`,
+              null,
+              tags(readers, r),
+              'informed-readers',
+            ),
+            tile(
+              'Reader path',
+              'Readers who left without a ballot',
+              num(without.value.read + without.value.notRead),
+              `${num(without.value.read)} read a profile, ${num(without.value.notRead)} did not`,
+              null,
+              tags(without, r, NOTE.without),
+              'readers-without',
+            ),
+          )
+
+          const cta = ctaRates(ROWS, r)
+          const color = cssVar(SERIES[0])
+          fill($('cta-tags'), tags(cta, r))
+          hbars(
+            $('cta-bars'),
+            cta.countedFrom == null
+              ? []
+              : Object.keys(CTA_LABEL).map((link) => ({
+                  label: CTA_LABEL[link],
+                  segs: [
+                    { key: link, label: 'Per 100', v: cta.value[link], color },
+                  ],
+                  value: nf1.format(cta.value[link]),
+                })),
+            {
+              tipFmt: (v) => nf1.format(v),
+              empty: 'Not counted yet.',
+            },
+          )
+
+          const found = origins(ROWS, r)
+          fill($('origin-tags'), tags(found, r))
+          table(
+            $('origin-table'),
+            [
+              {
+                label: 'First page',
+                get: (x) => PAGE_LABEL[x.entry] || x.entry,
+              },
+              {
+                label: 'Source',
+                get: (x) => VISIT_SOURCE_LABEL[x.source] || x.source,
+              },
+              { label: 'Same visit', num: true, get: (x) => x.same },
+              { label: 'Later visit', num: true, get: (x) => x.later },
+            ],
+            found.value,
+            {
+              empty:
+                found.countedFrom == null
+                  ? 'Not counted yet.'
+                  : 'No ballots looked up in this period.',
+            },
+          )
+          renderLookups()
+        }
+
+        function renderLookups() {
+          const { start, end } = period()
+          const rows = rowsOf('lookup', start, end)
+          const voter = rows.filter((r) => r[C] === '0')
+          const areas = [...new Set(voter.map((r) => r[B]))].sort((x, y) =>
+            (AREA_LABEL[x] || x).localeCompare(AREA_LABEL[y] || y),
+          )
+          const series = OUTCOMES.map((o, i) => ({
+            key: o,
+            label: OUTCOME_LABEL[o],
+            color: cssVar(SERIES[i]),
+          }))
+          hbars(
+            $('lookup-bars'),
+            areas.map((a) => {
+              const ar = voter.filter((r) => r[B] === a)
+              return {
+                label: AREA_LABEL[a] || a,
+                segs: series.map((sr) => ({
+                  ...sr,
+                  v: sumWhere(ar, (r) => r[A] === sr.key),
+                })),
+              }
+            }),
+            {
+              tipFmt: (v, t) => `${num(v)} (${pct(v, t)})`,
+              empty: 'No lookups in this period.',
+            },
+          )
+          legend($('lookup-legend'), series)
+
+          const groups = []
+          for (const o of OUTCOMES) {
+            const or = voter.filter((r) => r[A] === o)
+            if (!or.length) continue
+            groups.push({
+              label: OUTCOME_LABEL[o],
+              n: sum(or),
+              ms: sum(or, (r) => r[D1]) / sum(or),
+            })
+          }
+          const total = sum(voter)
+          groups.push({
+            label: 'All voter lookups',
+            n: total,
+            ms: total ? sum(voter, (r) => r[D1]) / total : null,
+            strong: true,
+          })
+          const samples = rows.filter((r) => r[C] === '1')
+          if (samples.length)
+            groups.push({
+              label: 'Sample ballots (not counted above)',
+              n: sum(samples),
+              ms: sum(samples, (r) => r[D1]) / sum(samples),
+            })
+          table(
+            $('lookup-table'),
+            [
+              { label: 'Outcome', get: (r) => r.label },
+              { label: 'Lookups', num: true, get: (r) => r.n },
+              {
+                label: 'Share',
+                num: true,
+                get: (r) =>
+                  r.strong || r.label.startsWith('Sample') ? null : r.n / total,
+                fmt: (v) => (v == null ? '' : pct(v, 1)),
+              },
+              {
+                label: 'Avg time',
+                num: true,
+                get: (r) => r.ms,
+                fmt: (v) => (v == null ? '–' : `${nf.format(v)} ms`),
+              },
+            ],
+            total ? groups : [],
+            { empty: 'No lookups in this period.' },
+          )
+        }
+
+        // ---- Wiring ----------------------------------------------------
+        function renderHeader() {
+          const { start, end } = period()
+          const fmt = (t) =>
+            new Date(t * 1000).toLocaleString('en-US', {
+              timeZone: state.tz,
+              month: 'short',
+              day: 'numeric',
+              hour: 'numeric',
+            })
+          $('range-text').textContent =
+            `${fmt(start)} to ${fmt(Math.min(end, NOW))}`
+          const rolled = DATA.rolledUpTo
+            ? new Date((DATA.rolledUpTo + 3600) * 1000).toLocaleString(
+                'en-US',
+                {
+                  timeZone: state.tz,
+                  month: 'short',
+                  day: 'numeric',
+                  hour: 'numeric',
+                  minute: '2-digit',
+                },
+              )
+            : 'nothing yet'
+          $('freshness').textContent =
+            `Built ${new Date(DATA.generatedAt).toLocaleString('en-US', { timeZone: state.tz, dateStyle: 'medium', timeStyle: 'short' })}. Rolled-up counts through ${rolled}; newer hours: ${DATA.liveNote}.${DATA.excludedNote ? ` Left out: ${DATA.excludedNote}.` : ''}`
+          $('generated').textContent =
+            `${ROWS.length} hourly rows, ${DATA.reports.length} error reports, ${DATA.signups.length} sign-ups in this file.`
+        }
+        function renderAll() {
+          hideTip()
+          renderHeader()
+          renderWeek()
+          renderPeople()
+          renderSources()
+          renderPaths()
+        }
+
+        const STORE = 'votestack:usage-report:v2'
+        try {
+          const saved = JSON.parse(localStorage.getItem(STORE) || '{}')
+          for (const k of ['range', 'area', 'tz'])
+            if (saved[k]) state[k] = saved[k]
+          if (state.range === 'custom') state.range = '7'
+        } catch {}
+        const remember = () => {
+          try {
+            localStorage.setItem(
+              STORE,
+              JSON.stringify({
+                range: state.range,
+                area: state.area,
+                tz: state.tz,
+              }),
+            )
+          } catch {}
+        }
+
+        $('f-range').value = state.range
+        $('f-area').value = state.area
+        $('f-tz').value = state.tz
+        $('f-to').value = parts(Math.floor(NOW / 3600) * 3600).day
+        $('f-from').value = parts(
+          Math.floor((NOW - 6 * 86400) / 3600) * 3600,
+        ).day
+        $('f-range').addEventListener('change', (e) => {
+          state.range = e.target.value
+          const custom = state.range === 'custom'
+          $('f-from-wrap').hidden = $('f-to-wrap').hidden = !custom
+          if (custom) {
+            state.from = $('f-from').value
+            state.to = $('f-to').value
+          }
+          remember()
+          renderAll()
+        })
+        for (const id of ['f-from', 'f-to'])
+          $(id).addEventListener('change', () => {
+            state.from = $('f-from').value
+            state.to = $('f-to').value
+            renderAll()
+          })
+        $('f-area').addEventListener('change', (e) => {
+          state.area = e.target.value
+          remember()
+          renderAll()
+        })
+        $('f-tz').addEventListener('change', (e) => {
+          state.tz = e.target.value
+          remember()
+          renderAll()
+        })
+        $('l-split').addEventListener('change', renderPaths)
+        window
+          .matchMedia?.('(prefers-color-scheme: dark)')
+          .addEventListener('change', renderAll)
+        let resizeTimer
+        addEventListener('resize', () => {
+          clearTimeout(resizeTimer)
+          resizeTimer = setTimeout(renderAll, 150)
+        })
+
+        renderAll()
+      })()
     </script>
   </body>
 </html>
