@@ -6,6 +6,7 @@ import {
   modulePreloads,
   publishedCandidates,
   robotsTxt,
+  profileLastmod,
   sitemapXml,
 } from './prerender.ts'
 import { contentHash } from './profiles/content.ts'
@@ -108,5 +109,46 @@ describe('modulePreloads', () => {
 
   it('stops when the page is missing from the build', () => {
     expect(() => modulePreloads(manifest, 'src/pages/Nope.tsx')).toThrow()
+  })
+})
+
+describe('profileLastmod', () => {
+  const at = (generatedAt: string, extra: Partial<CandidateProfile> = {}) =>
+    ({
+      key: 'a',
+      kind: 'candidate',
+      party: 'Democratic',
+      meta: { generatedAt },
+      ...extra,
+    }) as CandidateProfile
+  const changes = [
+    { date: '2026-10-23', appliesTo: (p: CandidateProfile) => !p.party },
+  ]
+
+  it('is the research date when no template change applies', () => {
+    expect(profileLastmod(at('2026-10-18T20:00:00Z'), changes)).toBe(
+      '2026-10-18',
+    )
+  })
+
+  it('moves to a later template change that changed the page', () => {
+    expect(
+      profileLastmod(at('2026-10-18T20:00:00Z', { party: undefined }), changes),
+    ).toBe('2026-10-23')
+  })
+
+  it('keeps research newer than the template change', () => {
+    expect(
+      profileLastmod(at('2026-10-25T08:00:00Z', { party: undefined }), changes),
+    ).toBe('2026-10-25')
+  })
+
+  it('dates judges and profiles without a party to the 1.5.1 change', () => {
+    const old = '2026-10-14T00:00:00Z'
+    expect(profileLastmod(at(old, { party: undefined }))).toBe('2026-10-23')
+    expect(profileLastmod(at(old, { kind: 'judicial_candidate' }))).toBe(
+      '2026-10-23',
+    )
+    expect(profileLastmod(at(old))).toBe('2026-10-14')
   })
 })

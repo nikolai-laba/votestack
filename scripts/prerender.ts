@@ -24,6 +24,7 @@ import {
   checkTemplate,
   fillTemplate,
   modulePreloads,
+  profileLastmod,
   publishedCandidates,
   robotsTxt,
   sitemapXml,
@@ -141,11 +142,15 @@ for (const page of pages) {
 }
 
 const indexed = new Map(candidates.map((c) => [c.profile.key, c.profile]))
+const profileLastmodFor = (path: string) => {
+  const profile = indexed.get(path.replace('/candidates/', ''))
+  return profile && profileLastmod(profile)
+}
 const sitemap = pages
   .filter((p) => !p.head.noindex && p.path !== '/getstarted')
   .map((p) => ({
     path: p.path,
-    lastmod: indexed.get(p.path.replace('/candidates/', ''))?.meta.generatedAt,
+    lastmod: profileLastmodFor(p.path),
   }))
 await writeFile(join(DIST, 'sitemap.xml'), sitemapXml(ssr.SITE_URL, sitemap))
 await writeFile(join(DIST, 'robots.txt'), robotsTxt(ssr.SITE_URL))

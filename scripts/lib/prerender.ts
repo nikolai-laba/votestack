@@ -86,6 +86,38 @@ export function robotsTxt(siteUrl: string): string {
 const escapeXml = (s: string) =>
   s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
 
+/**
+ * Changes to the profile template that changed what some profile pages show,
+ * so their sitemap date moves even though the profile itself didn't. Add one
+ * only for a change to a page's main content or links (Google's test for a
+ * significant update), never for styling, or Google stops trusting the dates.
+ */
+export const PROFILE_PAGE_CHANGES: {
+  date: string
+  appliesTo: (profile: CandidateProfile) => boolean
+}[] = [
+  {
+    // 1.5.1: the "Nonpartisan office" line on profiles without a party, and
+    // judges' titles naming the court.
+    date: '2026-10-23',
+    appliesTo: (p) => !p.party || p.kind !== 'candidate',
+  },
+]
+
+/** A profile page's sitemap date: its last research or a later template change. */
+export function profileLastmod(
+  profile: CandidateProfile,
+  changes = PROFILE_PAGE_CHANGES,
+): string {
+  return changes
+    .filter((c) => c.appliesTo(profile))
+    .map((c) => c.date)
+    .reduce(
+      (latest, date) => (date > latest ? date : latest),
+      profile.meta.generatedAt.slice(0, 10),
+    )
+}
+
 /** A sitemap of the given pages; `lastmod` is a date or timestamp. */
 export function sitemapXml(
   siteUrl: string,
