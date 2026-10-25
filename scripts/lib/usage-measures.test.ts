@@ -304,7 +304,8 @@ describe('readersWithoutBallot', () => {
     ]
     const m = readersWithoutBallot(rows, WEEK)
     expect(m.value).toEqual({ read: 4, notRead: 4 })
-    expect(m.estimate).toBe(false)
+    // Worked out from separate step totals, so always an estimate.
+    expect(m.estimate).toBe(true)
     expect(m.countedFrom).toBe(LAUNCH)
     expect(m.allAreas).toBe(true)
   })
@@ -378,6 +379,25 @@ describe('uniques', () => {
     expect(m.allAreas).toBe(true)
     expect(uniques([], WEEK).value.stickiness).toBeNull()
   })
+
+  it('takes stickiness over the whole month when the range starts mid-month', () => {
+    // One device first seen Oct 1 comes back Oct 16; another is first seen Oct 16.
+    const oct1 = at('2026-10-01T12:00:00Z')
+    const oct16 = at('2026-10-16T12:00:00Z')
+    const rows = [
+      row(oct1, 'device', 'day', 'new'),
+      row(oct1, 'device', 'month', 'new'),
+      row(oct16, 'device', 'day', 'back'),
+      row(oct16, 'device', 'day', 'new'),
+      row(oct16, 'device', 'month', 'new'),
+    ]
+    const r = range('2026-10-15T00:00:00Z', '2026-10-17T00:00:00Z')
+    // (0 + 2) / 2 days, over the 2 devices seen in October.
+    expect(uniques(rows, r).value.stickiness).toBeCloseTo(0.5)
+    // The range's last month (November) has no month counts yet.
+    const intoNov = range('2026-10-15T00:00:00Z', '2026-11-02T00:00:00Z')
+    expect(uniques(rows, intoNov).value.stickiness).toBeNull()
+  })
 })
 
 describe('ballotDevicesPerDay', () => {
@@ -413,11 +433,27 @@ describe('inputs', () => {
     expect(v.searchToForm.estimate).toBe(false)
     expect(v.searchToForm.countedFrom).toBe(LAUNCH)
     expect(v.lookupSuccess).toBe(0.8)
-    expect(v.profilesPerBallot).toBe(2.5)
+    expect(v.profilesPerBallot).toEqual({
+      value: 2.5,
+      estimate: false,
+      allAreas: false,
+      countedFrom: null,
+    })
     const none = inputs([], WEEK)
     expect(none.searchToForm.value).toBeNull()
     expect(none.lookupSuccess).toBeNull()
-    expect(none.profilesPerBallot).toBeNull()
+    expect(none.profilesPerBallot.value).toBeNull()
+  })
+
+  it('counts profiles per ballot across all areas, since opens have no area', () => {
+    const rows = [
+      row(H, 'voter', 'new', 'il-cook', 'timed', 3),
+      row(H, 'voter', 'new', 'ca-la', 'timed', 1),
+      row(H, 'open', 'county', '1', '', 10),
+    ]
+    const v = inputs(rows, { ...WEEK, area: 'ca-la' })
+    expect(v.profilesPerBallot.value).toBe(2.5)
+    expect(v.profilesPerBallot.allAreas).toBe(true)
   })
 })
 

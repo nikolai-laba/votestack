@@ -168,6 +168,12 @@ function zonedMidnight(day: string, tz: string): number {
   return guess
 }
 
+/** Unix seconds of the start and end of a month (YYYY-MM) in a time zone. */
+function monthBounds(month: string, tz: string): [number, number] {
+  const next = addDays(`${month}-28`, 4).slice(0, 7)
+  return [zonedMidnight(`${month}-01`, tz), zonedMidnight(`${next}-01`, tz)]
+}
+
 /** Every calendar day the range touches, in its time zone. */
 function daysIn(r: Range): string[] {
   if (r.end <= r.start) return []
@@ -550,7 +556,7 @@ export function ladder(
  * Reader-path visits that never reach the address form, split by whether
  * they read a profile. Steps are counted per visit, not together, so this
  * takes visits that reached the form to have read first where the counts
- * allow it.
+ * allow it, and is always an estimate.
  */
 export function readersWithoutBallot(
   rows: Row[],
@@ -563,7 +569,7 @@ export function readersWithoutBallot(
   const read = Math.min(noForm, Math.max(0, at('read') - at('form')))
   return {
     value: { read, notRead: noForm - read },
-    estimate: false,
+    estimate: true,
     allAreas: true,
     countedFrom: s.launched,
   }
@@ -629,8 +635,11 @@ export function origins(
 
 /**
  * Unique devices per day, week, month and election, new and back, and
- * stickiness: average daily devices over the range's days in its latest
- * month (from launch), over that month's devices.
+ * stickiness for the range's last calendar month: average daily devices
+ * over that month's days in the range (from launch), over the devices seen
+ * in the whole month. A device's month count is sent on its first visit in
+ * the month, which can come before the range starts, so the month count is
+ * never clipped to the range.
  */
 export function uniques(
   rows: Row[],
@@ -671,17 +680,21 @@ export function uniques(
     [...m].sort(([x], [y]) => (x < y ? -1 : 1))
 
   let stickiness: number | null = null
-  const months = list(groups.month)
-  if (months.length && s.launched !== null) {
-    const [month, g] = months[months.length - 1]
+  if (s.counted) {
+    const month = dayOf(r.end - 1, r.tz).slice(0, 7)
+    const [start, end] = monthBounds(month, r.tz)
+    const monthly = sum(
+      pick(rows, r, 'device', start, end, (x) => x[A] === 'month'),
+    )
     const from = dayOf(s.cut, r.tz)
     const days = daysIn(r).filter((d) => d.startsWith(month) && d >= from)
     const daily = days.reduce((t, d) => {
       const x = groups.day.get(d)
       return t + (x ? x.new + x.back : 0)
     }, 0)
-    if (days.length) stickiness = ratio(daily / days.length, g.new + g.back)
+    if (days.length) stickiness = ratio(daily / days.length, monthly)
   }
+  const months = list(groups.month)
   return {
     value: {
       day: list(groups.day).map(([day, g]) => ({ day, ...g })),
@@ -714,7 +727,8 @@ export function ballotDevicesPerDay(
 /**
  * The inputs to the North Star: the share of search visits that reach the
  * address form, the share of real (non-sample) lookups that find a ballot,
- * and profiles opened per new ballot.
+ * and profiles opened per new ballot. Opens carry no area, so profiles per
+ * ballot is always worked out over every area.
  */
 export function inputs(
   rows: Row[],
@@ -722,13 +736,14 @@ export function inputs(
 ): {
   searchToForm: Measured<number | null>
   lookupSuccess: number | null
-  profilesPerBallot: number | null
+  profilesPerBallot: Measured<number | null>
 } {
   const { s, rows: search } = counted(rows, r, 'visit')
   const step = (name: VisitStep) =>
     sum(search.filter((row) => row[B] === 'search' && row[C] === name))
   const lookups = pick(rows, r, 'lookup', r.start, r.end, (x) => x[C] === '0')
   const found = sum(lookups.filter((x) => x[A] === 'ok' || x[A] === 'gaps'))
+  const every: Range = { ...r, area: 'all' }
   return {
     searchToForm: {
       value: ratio(step('form'), step('arrived')),
@@ -737,10 +752,15 @@ export function inputs(
       countedFrom: s.launched,
     },
     lookupSuccess: ratio(found, sum(lookups)),
-    profilesPerBallot: ratio(
-      sum(pick(rows, r, 'open', r.start, r.end)),
-      sum(pick(rows, r, 'voter', r.start, r.end, (x) => x[A] === 'new')),
-    ),
+    profilesPerBallot: {
+      value: ratio(
+        sum(pick(rows, every, 'open', r.start, r.end)),
+        sum(pick(rows, every, 'voter', r.start, r.end, (x) => x[A] === 'new')),
+      ),
+      estimate: false,
+      allAreas: r.area !== 'all',
+      countedFrom: null,
+    },
   }
 }
 
@@ -758,6 +778,8 @@ export function activation(rows: Row[], r: Range): Measured<number | null> {
   const informed =
     sum(pick(rows, r, 'learn', r.start, s.cut, (x) => x[A] === 'researched')) +
     sum(ballotVisits.filter((x) => x[C] === 'informed'))
+  // Every new ballot before launch, restored ones included, unlike the
+  // ladder's history lookups, which take only timed ones.
   const looked =
     sum(pick(rows, r, 'voter', r.start, s.cut, (x) => x[A] === 'new')) +
     sum(ballotVisits.filter((x) => x[C] === 'lookup'))
@@ -793,11 +815,7 @@ export function costPer(
   const months = [...new Set(daysIn(r).map((d) => d.slice(0, 7)))]
   let usd = 0
   for (const month of months) {
-    const start = zonedMidnight(`${month}-01`, r.tz)
-    const end = zonedMidnight(
-      addDays(`${month}-28`, 4).slice(0, 7) + '-01',
-      r.tz,
-    )
+    const [start, end] = monthBounds(month, r.tz)
     const share =
       Math.max(0, Math.min(end, r.end) - Math.max(start, r.start)) /
       (end - start)
