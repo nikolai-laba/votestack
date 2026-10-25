@@ -292,6 +292,18 @@ describe('ladder', () => {
     const byEntry = ladder(rows, WEEK, 'ballot', 'entry')
     expect(Object.keys(byEntry.value).sort()).toEqual(['ballot', 'start'])
   })
+
+  it('counts other-path visits from the new counts only', () => {
+    const rows = [
+      row(H, 'view', 'about', 'landing', '', 8),
+      row(LAUNCH, 'visit', 'about', 'ai', 'arrived', 3),
+      row(LAUNCH, 'visit', 'how', 'search', 'informed', 1),
+    ]
+    const other = ladder(rows, WEEK, 'other')
+    expect(other.value.all).toMatchObject({ arrived: 3, informed: 1 })
+    expect(other.estimate).toBe(false)
+    expect(ladder(rows, WEEK, 'other', 'source').value.ai.arrived).toBe(3)
+  })
 })
 
 describe('readersWithoutBallot', () => {

@@ -528,7 +528,8 @@
           </div>
           <p class="muted small">
             Devices informed on a race for the first time this election, by the
-            path of that visit. The weeks add up to the North Star.
+            path of that visit. The weeks add up to the count for the dates
+            picked.
           </p>
           <div class="chart" id="informed-chart"></div>
           <ul class="legend" id="informed-legend"></ul>
@@ -1723,6 +1724,7 @@
         function renderPeople() {
           const r = range()
           const u = uniques(ROWS, r)
+          const election = uniques(ROWS, range('election')).value.election
           const v = visits(ROWS, r)
           const vBefore = visits(ROWS, range('before'))
           const ballots = ballotDevicesPerDay(ROWS, r)
@@ -1735,10 +1737,11 @@
             tile(
               'People',
               'Devices this election',
-              u.countedFrom == null ? '–' : num(el.new + el.back),
+              u.countedFrom == null ? '–' : num(election.new + election.back),
               `First counted in the dates picked: ${num(el.new)} new, ${num(el.back)} from before`,
               null,
-              tags(u, r),
+              tags(u, range('election')),
+              'devices-tile',
             ),
             tile(
               'People',
@@ -1954,14 +1957,18 @@
 
           if (!split) {
             const all = m.value.all
+            // Steps are counted one at a time, and history has only some of
+            // them, so a later step can outnumber arrivals. Bars and shares
+            // are out of the largest step so none passes 100%.
+            const top = Math.max(...steps.map((step) => all[step]))
             hbars(
               $(`${path}-steps`),
               steps.map((step) => ({
                 label: STEP_LABEL[step],
                 segs: [{ key: step, label: 'Visits', v: all[step], color }],
-                value: `${num(all[step])} (${pct(all[step], all.arrived)})`,
+                value: `${num(all[step])} (${pct(all[step], top)})`,
               })),
-              { max: Math.max(all.arrived, 1e-9) },
+              { max: Math.max(top, 1e-9) },
             )
             return
           }

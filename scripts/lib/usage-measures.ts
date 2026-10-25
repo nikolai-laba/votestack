@@ -493,18 +493,19 @@ export function visits(
  * source. Before launch, overall only: arrivals are first pages opened on
  * that path, and on the ballot path lookups are timed new ballots and
  * researched is `learn/researched` (neither is known by path, so the reader
- * path has none from history). Splits use the new counts only.
+ * path has none from history). The other path has no history at all, and
+ * splits use the new counts only.
  */
 export function ladder(
   rows: Row[],
   r: Range,
-  path: 'reader' | 'ballot',
+  path: VisitPath,
   split?: 'entry' | 'source',
 ): Measured<Record<string, Record<VisitStep, number>>> {
   const s = splitAt(rows, r, 'visit')
   const value: Record<string, Record<VisitStep, number>> = {}
   const group = (key: string) => (value[key] ??= steps())
-  const history = !split && s.history
+  const history = !split && s.history && path !== 'other'
   if (history) {
     const all = group('all')
     for (const row of pick(

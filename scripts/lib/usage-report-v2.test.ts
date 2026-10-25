@@ -49,6 +49,8 @@ const history: Row[] = [
   // Three ballot-path devices compared two profiles: the North Star stand-in.
   row(PRE, 'learn', 'compared', 'il-cook', '1', 3),
   row(PRE, 'learn', 'researched', 'il-cook', '1'),
+  // More researched ballots than ballot-path arrivals, from history.
+  row(PRE, 'learn', 'researched', 'ca-la', '1', 12),
   row(PRE, 'learn', 'races', 'ca-la', '1'),
   row(PRE, 'lookup', 'ok', 'il-cook', '0', 2, 900),
   row(PRE, 'lookup', 'not_found', 'ca-la', '0', 1, 400),
@@ -142,11 +144,13 @@ type PageWindow = {
   addEventListener(type: 'error', listener: (ev: ErrorEvent) => void): void
 }
 type EventTarget = { dispatchEvent(ev: unknown): boolean }
+type Select = { value: string } & EventTarget
+type Styled = { style: { width: string } }
 
-async function load() {
+async function load(data: object = DATA) {
   const html = fillTemplate(
     await read('./usage-report-v2.html'),
-    DATA,
+    data,
     measuresScript(await read('./usage-measures.ts')),
   )
   const errors: string[] = []
@@ -170,8 +174,9 @@ async function load() {
   return { dom, doc: dom.window.document, errors }
 }
 
+/** An element's text with runs of white space made single spaces. */
 const text = (el: { textContent: string | null } | null | undefined) =>
-  el?.textContent ?? ''
+  (el?.textContent ?? '').replace(/\s+/g, ' ')
 
 describe('the v2 report page', () => {
   it('renders the first four sections without errors', async () => {
@@ -198,6 +203,51 @@ describe('the v2 report page', () => {
     expect(text(doc.getElementById('h-week'))).toContain(
       'Newly informed per week',
     )
+    expect(text(doc.getElementById('h-week'))).toContain(
+      'The weeks add up to the count for the dates picked.',
+    )
+  })
+
+  it('counts devices over the whole election, whatever dates are picked', async () => {
+    const { dom, doc, errors } = await load()
+    // The device rows are from Oct 24 15:00 UTC, before the last 24 hours.
+    const dates = doc.getElementById('f-range') as Select
+    dates.value = '1'
+    dates.dispatchEvent(new dom.window.Event('change'))
+    const devices = doc.getElementById('devices-tile')
+    expect(text(devices?.querySelector('.value'))).toBe('8')
+    expect(text(devices)).toContain('0 new, 0 from before')
+    expect(errors).toEqual([])
+  })
+
+  it('tags when the new counts began, and when they have not', async () => {
+    const { doc } = await load()
+    const visits = text(doc.getElementById('visits-tile'))
+    expect(visits).toContain('estimate')
+    expect(visits).toContain('counted from Oct 24')
+
+    // Before launch: history rows only.
+    const before = await load({ ...DATA, rows: history })
+    expect(before.errors).toEqual([])
+    expect(text(before.doc.getElementById('h-paths'))).toContain(
+      'not counted yet',
+    )
+    expect(text(before.doc.getElementById('reader-note'))).toContain(
+      'arrivals only',
+    )
+  })
+
+  it('keeps the ladder bars within 100%', async () => {
+    const { doc } = await load()
+    const widths = [...doc.querySelectorAll('#ballot-steps .hbar-track')].map(
+      (el) => parseFloat((el as unknown as Styled).style.width),
+    )
+    expect(Math.max(...widths)).toBeLessThanOrEqual(100)
+    const shares = [
+      ...text(doc.getElementById('ballot-steps')).matchAll(/\(([\d.]+)%\)/g),
+    ].map((x) => Number(x[1]))
+    expect(shares.length).toBeGreaterThan(0)
+    expect(Math.max(...shares)).toBeLessThanOrEqual(100)
   })
 
   it('tags estimates and always tags readers without a ballot', async () => {
