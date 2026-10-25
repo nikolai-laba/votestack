@@ -154,8 +154,17 @@ export function createUsage(deps: UsageDeps) {
   const countedHere = new Set<string>()
   /** True once this page load is left out of the counts (skipPage). */
   let skipped = false
-  /** True once the device has been counted on this page load. */
-  let deviceCounted = false
+  /** True once a view has been counted on this page load. */
+  let viewed = false
+  /** Whether older notes existed when this page load first looked. */
+  let older: boolean | undefined
+  /**
+   * Steps and the origin asked for before the first counted view: the app
+   * shows the ballot before it reports the page view, and a visit only
+   * exists once that view is counted.
+   */
+  let heldSteps: VisitStep[] = []
+  let heldOrigin = false
 
   function read(): DeviceRecord {
     const storage = storageWorks ? deps.storage() : null
@@ -294,14 +303,19 @@ export function createUsage(deps: UsageDeps) {
 
   /** True when VoteStack kept a note on this device before the seen note. */
   function hadOlderNotes(): boolean {
-    try {
-      const storage = deps.storage()
-      return [USAGE_KEY, SAMPLE_KEY, STORAGE_KEY].some(
-        (key) => storage?.getItem(key) != null,
-      )
-    } catch {
-      return false
-    }
+    // Looked at once, before this page load writes any note of its own: the
+    // ballot is shown (and noted) before the first view is counted.
+    older ??= (() => {
+      try {
+        const storage = deps.storage()
+        return [USAGE_KEY, SAMPLE_KEY, STORAGE_KEY].some(
+          (key) => storage?.getItem(key) != null,
+        )
+      } catch {
+        return false
+      }
+    })()
+    return older
   }
 
   const visits = createVisits({
@@ -325,7 +339,8 @@ export function createUsage(deps: UsageDeps) {
   /** Marks a step in this visit, unless this page or browser isn't counted. */
   function step(s: VisitStep) {
     if (quiet()) return
-    visits.step(s)
+    if (viewed) visits.step(s)
+    else heldSteps.push(s)
   }
 
   const reading = createReading({
@@ -341,14 +356,17 @@ export function createUsage(deps: UsageDeps) {
    * 'researched' when this device already reached that milestone earlier.
    */
   function ballotShown(kind: VisitStep | null, record?: ElectionRecord) {
-    if (quiet()) return
-    if (kind) visits.step(kind)
-    if (record?.reached.includes('researched:1')) visits.step('researched')
+    if (kind) step(kind)
+    if (record?.reached.includes('researched:1')) step('researched')
   }
 
   /** Credits the device's first lookup to how its first visit began. */
   function credit() {
     if (quiet()) return
+    if (!viewed) {
+      heldOrigin = true
+      return
+    }
     const visit = visits.current()
     if (visit) devices.origin(visit.started)
   }
@@ -391,13 +409,24 @@ export function createUsage(deps: UsageDeps) {
 
     view(page: UsagePage, from: ViewSource, key?: string) {
       add(key ? { e: 'view', page, from, key } : { e: 'view', page, from })
-      if (quiet()) return
+      if (quiet()) {
+        heldSteps = []
+        heldOrigin = false
+        return
+      }
       visits.shown(page)
-      // The device is counted once per page load, on the first counted view.
-      if (deviceCounted) return
-      deviceCounted = true
+      // The device is counted once per page load (devices.ts keeps to that).
       const visit = visits.current()
       if (visit) devices.counted(visit)
+      viewed = true
+      // What the ballot asked for before this first view, in order.
+      const held = heldSteps
+      heldSteps = []
+      for (const s of held) visits.step(s)
+      if (heldOrigin) {
+        heldOrigin = false
+        credit()
+      }
     },
 
     /** A step this visit has reached (VisitStep), counted once per visit. */
@@ -430,6 +459,7 @@ export function createUsage(deps: UsageDeps) {
      * `secsToBallot` is given for a lookup made on this page.
      */
     voter(ballot: SavedBallot, secsToBallot?: number) {
+      if (!quiet()) hadOlderNotes()
       const id = ballot.election.id
       const record = election(id)
       // Already counted on this page (and the device still has its record).
@@ -490,6 +520,7 @@ export function createUsage(deps: UsageDeps) {
 
     /** A sample ballot is on screen: counted once per device per election. */
     sample(ballot: Pick<SavedBallot, 'election'>) {
+      if (!quiet()) hadOlderNotes()
       const id = ballot.election.id
       const seen = sampled()
       if (seen.includes(id) || countedHere.has(`sample:${id}`)) return

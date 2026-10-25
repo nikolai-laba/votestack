@@ -468,6 +468,61 @@ describe('visits, devices and reading in the counter', () => {
     ])
   })
 
+  it('keeps the steps of a ballot shown before the first view', () => {
+    const { usage, storage } = setup()
+    usage.voter(ballot)
+    usage.open(ballot, 'cy-day')
+    usage.open(ballot, 'di-fox')
+    // A new tab on a later day: the ballot is shown before the page view.
+    const back = createUsage({
+      storage: () => storage,
+      session: () => new MemoryStorage(),
+      now: () => 5,
+      referrer: () => '',
+      host: () => 'votestack.org',
+      send: () => true,
+      today: () => '2026-10-25',
+      clock: () => 0,
+    })
+    back.voter(ballot)
+    back.catchUp(ballot, {})
+    expect(steps(back.pending())).toEqual([])
+    back.view('ballot', 'landing')
+    expect(steps(back.pending())).toEqual(['arrived', 'returned', 'researched'])
+  })
+
+  it('keeps the origin of a restored ballot shown before the first view', () => {
+    const { usage } = setup()
+    usage.voter(ballot)
+    usage.view('ballot', 'landing')
+    const origins = usage.pending().filter((e) => e.e === 'origin')
+    expect(origins).toEqual([
+      { e: 'origin', entry: 'ballot', source: 'direct', when: 'same' },
+    ])
+    expect(steps(usage.pending())).toEqual(['arrived', 'returned'])
+  })
+
+  it('counts a fresh device as new when its lookup is shown before the first view', () => {
+    const { usage } = setup()
+    usage.voter(ballot, 30)
+    usage.view('start', 'landing')
+    expect(usage.pending().filter((e) => e.e === 'device')[0]).toEqual({
+      e: 'device',
+      period: 'day',
+      seen: 'new',
+    })
+    expect(steps(usage.pending())).toEqual(['arrived', 'lookup'])
+  })
+
+  it('drops steps held for a page that is skipped', () => {
+    const { usage, session } = setup()
+    usage.voter(ballot)
+    usage.skipPage()
+    usage.view('ballot', 'landing')
+    expect(usage.pending()).toEqual([])
+    expect(session.getItem(VISIT_KEY)).toBeNull()
+  })
+
   it('treats a device with a saved ballot as back', () => {
     for (const key of [STORAGE_KEY, USAGE_KEY, SAMPLE_KEY]) {
       const { usage, storage } = setup()
