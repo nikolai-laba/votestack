@@ -14,11 +14,17 @@ class FakeObserver {
   }
   observe() {}
   disconnect() {}
-  show() {
+  report(isIntersecting: boolean) {
     this.callback(
-      [{ isIntersecting: true } as IntersectionObserverEntry],
+      [{ isIntersecting } as IntersectionObserverEntry],
       this as unknown as IntersectionObserver,
     )
+  }
+  show() {
+    this.report(true)
+  }
+  hide() {
+    this.report(false)
   }
 }
 
@@ -83,6 +89,27 @@ describe('useProfileReading', () => {
     expect(last().sourcesSeen).toBe(false)
     act(() => FakeObserver.all[0].show())
     expect(last()).toEqual({ key: 'a', secs: 3, sourcesSeen: true })
+  })
+
+  it('reports Sources as out of view once scrolled away', () => {
+    const { hook, last } = setup()
+    act(() => hook.result.current(document.createElement('section')))
+    act(() => vi.advanceTimersByTime(2_000))
+    act(() => FakeObserver.all[0].show())
+    expect(last()).toEqual({ key: 'a', secs: 2, sourcesSeen: true })
+    act(() => vi.advanceTimersByTime(3_000))
+    act(() => FakeObserver.all[0].hide())
+    act(() => vi.advanceTimersByTime(5_000))
+    expect(last()).toEqual({ key: 'a', secs: 10, sourcesSeen: false })
+  })
+
+  it('reports Sources still in view as the seconds go on', () => {
+    const { hook, last } = setup()
+    act(() => hook.result.current(document.createElement('section')))
+    act(() => vi.advanceTimersByTime(2_000))
+    act(() => FakeObserver.all[0].show())
+    act(() => vi.advanceTimersByTime(8_000))
+    expect(last()).toEqual({ key: 'a', secs: 10, sourcesSeen: true })
   })
 
   it('time on one profile never counts toward the next', () => {

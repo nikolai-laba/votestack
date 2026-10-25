@@ -49,14 +49,41 @@ describe('reading', () => {
     expect(marks(sent)).toEqual(['10', '20', '30', '60', 'read'])
   })
 
-  it('counts a read at Sources only after 10 seconds', () => {
+  it('counts no read for Sources in view only before 10 seconds', () => {
     const { reading, sent } = setup()
     const p = cand('a')
-    reading.progress(p, 5, true, undefined)
+    reading.progress(p, 2, true, undefined)
     expect(marks(sent)).toEqual(['sources'])
     sent.length = 0
+    reading.progress(p, 5, false, undefined)
+    reading.progress(p, 10, false, undefined)
+    reading.progress(p, 19, false, undefined)
+    expect(marks(sent)).toEqual(['10'])
+    sent.length = 0
+    reading.progress(p, 20, false, undefined)
+    expect(marks(sent)).toEqual(['20', 'read'])
+  })
+
+  it('counts a read at 10 seconds for Sources still in view then', () => {
+    const { reading, sent } = setup()
+    const p = cand('a')
+    reading.progress(p, 2, true, undefined)
+    expect(marks(sent)).toEqual(['sources'])
+    sent.length = 0
+    reading.progress(p, 9, true, undefined)
+    expect(marks(sent)).toEqual([])
     reading.progress(p, 10, true, undefined)
     expect(marks(sent)).toEqual(['10', 'read'])
+  })
+
+  it('counts a read when Sources come into view after 10 seconds', () => {
+    const { reading, sent } = setup()
+    const p = cand('a')
+    reading.progress(p, 10, false, undefined)
+    expect(marks(sent)).toEqual(['10'])
+    sent.length = 0
+    reading.progress(p, 12, true, undefined)
+    expect(marks(sent)).toEqual(['sources', 'read'])
   })
 
   it('sends judicial candidates as judicial', () => {

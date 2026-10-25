@@ -44,13 +44,15 @@ export interface ReadingDeps {
 
 export interface Reading {
   /**
-   * Call as a profile's visible time grows. `races` lists, for each race the
-   * profile belongs to, every candidate's profile key (this one included).
+   * Call as a profile's visible time grows, and when its Sources list comes
+   * into view. `sourcesInView` is whether that list is in view right now.
+   * `races` lists, for each race the profile belongs to, every candidate's
+   * profile key (this one included).
    */
   progress: (
     profile: ReadProfile,
     secs: number,
-    sourcesSeen: boolean,
+    sourcesInView: boolean,
     races: string[][] | undefined,
   ) => void
 }
@@ -114,7 +116,7 @@ export function createReading(deps: ReadingDeps): Reading {
   }
 
   return {
-    progress(profile, secs, sourcesSeen, races) {
+    progress(profile, secs, sourcesInView, races) {
       const note = load()
       let changed = false
       const old = note.profiles[profile.key] ?? []
@@ -130,10 +132,11 @@ export function createReading(deps: ReadingDeps): Reading {
       for (const t of READ_MARKS) {
         if (secs >= t) send(String(t) as ReadMark)
       }
-      if (sourcesSeen) send('sources')
+      // Sources count toward a read only while in view at 10 seconds or later.
+      if (sourcesInView) send('sources')
       if (
         secs >= READ_RULE.secs ||
-        (sourcesSeen && secs >= READ_RULE.sourcesAfter)
+        (sourcesInView && secs >= READ_RULE.sourcesAfter)
       )
         send('read')
 

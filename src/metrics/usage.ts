@@ -439,18 +439,19 @@ export function createUsage(deps: UsageDeps) {
     },
 
     /**
-     * A profile's visible time grew. `races` lists every candidate's profile
-     * key for each race the profile belongs to (the app sends 'judicial_candidate'
-     * for judges; reading.ts renames it).
+     * A profile's visible time grew, or its Sources list came into view.
+     * `sourcesInView` is whether that list is in view now. `races` lists
+     * every candidate's profile key for each race the profile belongs to (the
+     * app sends 'judicial_candidate' for judges; reading.ts renames it).
      */
     reading(
       profile: ReadProfile,
       secs: number,
-      sourcesSeen: boolean,
+      sourcesInView: boolean,
       races: string[][] | undefined,
     ) {
       if (quiet()) return
-      reading.progress(profile, secs, sourcesSeen, races)
+      reading.progress(profile, secs, sourcesInView, races)
     },
 
     /**
