@@ -130,6 +130,28 @@ describe('reading', () => {
     expect(informed(sent)).toEqual(['week:single:ballot'])
   })
 
+  it('does not inform on a time mark or Sources alone', () => {
+    const { reading, sent, steps } = setup()
+    const p = cand('a')
+    reading.progress(p, 12, false, [[p.key]])
+    reading.progress(cand('s'), 5, true, [['s']])
+    expect(informed(sent)).toEqual([])
+    expect(steps).not.toContain('informed')
+  })
+
+  it('needs a finished read, not a started one, in a contested race', () => {
+    const { reading, sent } = setup()
+    const races = [['a', 'b']]
+    reading.progress(cand('a'), 25, false, races)
+    reading.progress(cand('b'), 12, false, races)
+    expect(informed(sent)).toEqual([])
+    reading.progress(cand('b'), 25, false, races)
+    expect(informed(sent)).toEqual([
+      'election:compared:ballot',
+      'week:compared:ballot',
+    ])
+  })
+
   it('informed is checked again when races arrive later', () => {
     const { reading, sent } = setup()
     const p = cand('a')

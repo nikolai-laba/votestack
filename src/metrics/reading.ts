@@ -96,8 +96,9 @@ export function createReading(deps: ReadingDeps): Reading {
     }
   }
 
+  // Only a profile that met the read rule counts toward informed.
   const has = (note: ReadsNote, key: string) =>
-    (note.profiles[key]?.length ?? 0) > 0
+    note.profiles[key]?.includes('read') ?? false
 
   /** The kind of the first informed race, or null when none is. */
   function informedKind(
@@ -115,6 +116,7 @@ export function createReading(deps: ReadingDeps): Reading {
   return {
     progress(profile, secs, sourcesSeen, races) {
       const note = load()
+      let changed = false
       const old = note.profiles[profile.key] ?? []
       const sent = [...old]
       const kind =
@@ -137,6 +139,7 @@ export function createReading(deps: ReadingDeps): Reading {
 
       if (sent.length > old.length) {
         // Reading moves a profile to the recent end, and the oldest goes first.
+        changed = true
         note.profiles[profile.key] = sent
         note.order = [
           ...note.order.filter((k) => k !== profile.key),
@@ -153,6 +156,7 @@ export function createReading(deps: ReadingDeps): Reading {
         const week = mondayOf(deps.today())
         const path = deps.path()
         if (note.election !== USAGE_ELECTION) {
+          changed = true
           note.election = USAGE_ELECTION
           deps.add({
             e: 'informed',
@@ -162,11 +166,12 @@ export function createReading(deps: ReadingDeps): Reading {
           })
         }
         if (note.week !== week) {
+          changed = true
           note.week = week
           deps.add({ e: 'informed', period: 'week', path, kind: kindOfRace })
         }
       }
-      save(note)
+      if (changed) save(note)
     },
   }
 }
