@@ -170,4 +170,14 @@ describe('About page', () => {
     expect(screen.queryByText(/sign-up banner/)).toBeNull()
     expect(screen.queryByText(/count where people are asking from/)).toBeNull()
   })
+
+  it('says what the usage counts keep, under Your privacy', async () => {
+    renderAt('/about')
+    await title()
+    const privacy = document.getElementById('privacy')!
+    expect(privacy).toHaveTextContent('the kind of site a visit came from')
+    expect(privacy).toHaveTextContent(
+      'counted once a day, week, month and election',
+    )
+  })
 })
