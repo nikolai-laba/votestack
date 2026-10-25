@@ -3,6 +3,8 @@ import {
   GET_STARTED_PATH,
   isProfileLinkState,
 } from '../../ballot/profileLinks.ts'
+import { usage } from '../../metrics/usage.ts'
+import { usagePage } from '../../shared/metrics.ts'
 
 /**
  * Names where it goes: "Back to your full ballot", or, with
@@ -16,7 +18,11 @@ export function BackLink({ hasBallot }: { hasBallot: boolean }) {
 
   if (!hasBallot) {
     return (
-      <Link to={GET_STARTED_PATH} className={className}>
+      <Link
+        to={GET_STARTED_PATH}
+        className={className}
+        onClick={() => usage.cta('back', usagePage(location.pathname).page)}
+      >
         Find your ballot
       </Link>
     )

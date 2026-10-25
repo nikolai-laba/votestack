@@ -1,5 +1,6 @@
 import { Link } from 'react-router'
 import { GET_STARTED_PATH } from '../../ballot/profileLinks.ts'
+import { usage } from '../../metrics/usage.ts'
 import type { CandidateProfile } from '../../shared/profile.ts'
 import { Disclosure } from './Disclosure.tsx'
 import { Endorsements } from './Endorsements.tsx'
@@ -17,18 +18,21 @@ import { SourcesList } from './SourcesList.tsx'
  * `opponents` and `midPivot` are only passed for search arrivals (no ballot
  * in memory): the chip under the header and the one-line nudge between
  * endorsements and sources carry the search visitor from this one profile
- * toward their whole ballot.
+ * toward their whole ballot. `sourcesRef` is given the element around the
+ * Sources list, so the reading counts know when it comes into view.
  */
 export function ProfileArticle({
   profile,
   headingId,
   opponents,
   midPivot = false,
+  sourcesRef,
 }: {
   profile: CandidateProfile
   headingId: string
   opponents?: Opponent[]
   midPivot?: boolean
+  sourcesRef?: (el: HTMLElement | null) => void
 }) {
   return (
     <article aria-labelledby={headingId} className="space-y-8">
@@ -60,13 +64,19 @@ export function ProfileArticle({
       {midPivot && (
         <p className="border-t border-line pt-6 text-small">
           Done reading about {profile.name}?{' '}
-          <Link to={GET_STARTED_PATH} className="font-semibold">
+          <Link
+            to={GET_STARTED_PATH}
+            className="font-semibold"
+            onClick={() => usage.cta('mid', 'profile')}
+          >
             See every race
           </Link>{' '}
           on your November 3 ballot, written the same way.
         </p>
       )}
-      <SourcesList sources={profile.sources} />
+      <div ref={sourcesRef}>
+        <SourcesList sources={profile.sources} />
+      </div>
     </article>
   )
 }

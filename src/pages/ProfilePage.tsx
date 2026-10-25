@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query'
-import { useEffect, useRef } from 'react'
+import { useEffect, useMemo, useRef } from 'react'
 import { Link, useOutletContext, useParams } from 'react-router'
 import { fetchProfile, ProfileLoadError } from '../api/profile.ts'
 import {
@@ -14,7 +14,9 @@ import { ProfileSkeleton } from '../components/profile/ProfileSkeleton.tsx'
 import { ProfileRaces, useOpponents } from '../components/RaceSummary.tsx'
 import { SignupBlock } from '../components/signup/SignupBlock.tsx'
 import { MISSING_PROFILE_HEAD, profileHead, useDocumentHead } from '../head.ts'
-import type { CandidateProfile } from '../shared/profile.ts'
+import { usage } from '../metrics/usage.ts'
+import { useProfileReading } from '../metrics/useReading.ts'
+import { profileKey, type CandidateProfile } from '../shared/profile.ts'
 import { COOK, regionForElection } from '../shared/regions.ts'
 
 // A candidate profile, under the election's name and date, with the
@@ -58,8 +60,11 @@ export default function ProfilePage() {
   // With a ballot, "Back to your full ballot" is first in the ballot list
   // beside the profile from 840px, and below that in the race panel at the
   // profile's top (with the pick boxes), when the person is on the ballot.
-  const panelAbove =
-    ballot !== undefined && contestsWithPerson(ballot.contests, key).length > 0
+  const onBallot = useMemo(
+    () => (ballot ? contestsWithPerson(ballot.contests, key) : []),
+    [ballot, key],
+  )
+  const panelAbove = onBallot.length > 0
 
   const notFound =
     query.error instanceof ProfileLoadError && query.error.kind === 'not_found'
@@ -73,9 +78,28 @@ export default function ProfilePage() {
   // and mid-article pivot are for; everyone else gets the layout unchanged.
   const fromSearch =
     ballot === undefined && Boolean(profile) && !profile?.sample
+  // The race list is also what tells a read profile's races apart, so it's
+  // looked up whenever the ballot doesn't list this person.
   const opponents = useOpponents(
-    profile && fromSearch ? profile : EMPTY_PROFILE,
+    profile && !panelAbove ? profile : EMPTY_PROFILE,
   )
+
+  // Every candidate in each race this person is in, for the reading counts:
+  // from the voter's ballot when it lists them, otherwise from the race list
+  // (undefined while it loads).
+  const races = useMemo(() => {
+    if (!profile) return undefined
+    if (panelAbove)
+      return onBallot.map((c) =>
+        c.kind === 'candidate'
+          ? c.candidates.map((p) => profileKey(p.name))
+          : c.kind === 'retention'
+            ? [profileKey(c.judge)]
+            : [],
+      )
+    return opponents && [[profile.key, ...opponents.map((o) => o.key)]]
+  }, [profile, panelAbove, onBallot, opponents])
+  const sourcesRef = useProfileReading(profile, races)
 
   const article = (
     <div className="max-w-[65ch] min-w-0">
@@ -136,6 +160,7 @@ export default function ProfilePage() {
             headingId={HEADING_ID}
             opponents={fromSearch ? opponents : undefined}
             midPivot={fromSearch}
+            sourcesRef={sourcesRef}
           />
         )}
       </div>
@@ -205,7 +230,11 @@ function TopStrip({ profile }: { profile: CandidateProfile }) {
     <div className="rounded-md border border-line bg-surface px-4 py-3 text-small">
       VoteStack has a profile for every candidate on the {region.name} ballot,
       written the same way.{' '}
-      <Link to={GET_STARTED_PATH} className="font-semibold">
+      <Link
+        to={GET_STARTED_PATH}
+        className="font-semibold"
+        onClick={() => usage.cta('top', 'profile')}
+      >
         Explore your full ballot
       </Link>
       .
