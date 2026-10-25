@@ -386,7 +386,8 @@ describe('worker', () => {
         }),
       )
       expect(response.status).toBe(204)
-      expect(usage.writeDataPoint).toHaveBeenCalledTimes(2)
+      // Two views pass, plus one count of the 2 events rejected.
+      expect(usage.writeDataPoint).toHaveBeenCalledTimes(3)
       expect(JSON.stringify(usage.writeDataPoint.mock.calls)).not.toMatch(
         /main|abc/i,
       )
@@ -425,7 +426,13 @@ describe('worker', () => {
         )
         expect(response.status).toBe(204)
       }
-      expect(usage.writeDataPoint).not.toHaveBeenCalled()
+      // Only the drops are counted, one per batch; no event is kept.
+      expect(
+        usage.writeDataPoint.mock.calls.map(([p]) => p.blobs.slice(0, 2)),
+      ).toEqual([
+        ['dropped', 'bot'],
+        ['dropped', 'bot'],
+      ])
     })
   })
 
