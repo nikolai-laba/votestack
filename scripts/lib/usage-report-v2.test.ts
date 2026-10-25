@@ -312,6 +312,13 @@ describe('the v2 report page', () => {
     expect(text(cost)).toContain('Cost per informed voter')
     expect(text(cost?.querySelector('.value'))).toBe('$0.78')
     expect(text(doc.getElementById('funder-informed'))).toContain('estimate')
+    // Researched ballots are learn/researched rows, one per device: 1 + 12.
+    const researched = doc.getElementById('funder-researched')
+    expect(text(researched?.querySelector('.value'))).toBe('13')
+    expect(text(researched)).not.toContain('estimate')
+    expect(
+      text(doc.getElementById('cost-researched')?.querySelector('.value')),
+    ).toBe('$0.54')
   })
 
   it('asks for running costs when there are none', async () => {

@@ -3163,15 +3163,12 @@
             rowsOf('voter', r.start, r.end),
             (x) => x[A] === 'new',
           )
-          // Researched ballots on every path: the ladders' researched step,
-          // which before the new counts is the ballot path's learn milestone.
-          const ladders = PATHS.map((p) => ladder(ROWS, r, p))
-          const researched = {
-            value: sum(ladders, (l) => l.value.all?.researched ?? 0),
-            estimate: ladders.some((l) => l.estimate),
-            allAreas: true,
-            countedFrom: ladders[0].countedFrom,
-          }
+          // Researched ballots, one per device: the learn milestone, which
+          // the app still sends, filtered by area like section 5's figure.
+          const researched = sumWhere(
+            rowsOf('learn', r.start, r.end),
+            (x) => x[A] === 'researched',
+          )
           const picks = {
             value: informedPicksShare(ROWS, r),
             estimate: false,
@@ -3206,10 +3203,11 @@
             tile(
               'Outcome',
               'Researched ballots',
-              num(researched.value),
+              num(researched),
               'Profiles opened in 3 races below federal, or 2 candidates compared',
               null,
-              tags(researched, r, NOTE.ladder),
+              null,
+              'funder-researched',
             ),
             tile(
               'Outcome',
@@ -3234,7 +3232,7 @@
           )
           const cost = costPer(DATA.costs, r, {
             informed: picked.value.total,
-            researched: researched.value,
+            researched,
           })
           if (!cost)
             return fill(
@@ -3269,9 +3267,9 @@
                 'Cost',
                 'Cost per researched ballot',
                 usd(cost.perResearched),
-                `Over ${num(researched.value)} researched ballots in the dates picked`,
+                `Over ${num(researched)} researched ballots in the dates picked`,
                 null,
-                tags(researched, r, NOTE.ladder),
+                null,
                 'cost-researched',
               ),
             ),
