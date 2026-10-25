@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, type FormEvent } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router'
 import { BallotLookupError } from '../api/ballot.ts'
 import { NOTIFY_PATH } from '../ballot/profileLinks.ts'
+import { usage } from '../metrics/usage.ts'
 import {
   isFocusAddressState,
   useBallotSession,
@@ -9,6 +10,7 @@ import {
   type FocusHeadingState,
 } from '../ballot/session.ts'
 import type { RaceHandoffState } from '../races/data.ts'
+import { usagePage } from '../shared/metrics.ts'
 import { REGIONS, coveredAreas } from '../shared/regions.ts'
 import { BALLOT_HEADING_ID } from './BallotView.tsx'
 import { useAppRunning } from './appRunning.ts'
@@ -84,6 +86,23 @@ export function AddressForm({
   // on its heading (or the race), or focus goes back to the street field on
   // an error.
   const awaitingResult = useRef(false)
+  const formRef = useRef<HTMLFormElement>(null)
+
+  // Counted as seen once at least half of the form is on screen.
+  useEffect(() => {
+    const form = formRef.current
+    if (!form || typeof IntersectionObserver === 'undefined') return
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (!entries.some((e) => e.isIntersecting)) return
+        usage.step('form')
+        observer.disconnect()
+      },
+      { threshold: 0.5 },
+    )
+    observer.observe(form)
+    return () => observer.disconnect()
+  }, [])
 
   // From "Search a new address": straight to the street field.
   useEffect(() => {
@@ -133,6 +152,8 @@ export function AddressForm({
       inputs.current[firstInvalid]?.focus()
       return
     }
+    usage.step('asked')
+    if (race) usage.cta('form', usagePage(location.pathname).page)
     awaitingResult.current = true
     lookUp(fullAddress(current))
   }
@@ -158,6 +179,7 @@ export function AddressForm({
     // POST, so an address sent before the app runs never goes in the page
     // address (the button stays disabled until then anyway).
     <form
+      ref={formRef}
       method="post"
       onSubmit={handleSubmit}
       noValidate

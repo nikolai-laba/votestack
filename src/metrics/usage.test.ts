@@ -5,7 +5,11 @@ import type { Contest } from '../shared/ballot.ts'
 import { USAGE_LEVELS, type UsageEvent } from '../shared/metrics.ts'
 import { COOK } from '../shared/regions.ts'
 import { MemoryStorage } from '../test/memoryStorage.ts'
-import { OFF_KEY, USAGE_KEY, createUsage } from './usage.ts'
+import { STORAGE_KEY } from '../picks/store.ts'
+import { SEEN_KEY } from './devices.ts'
+import { READS_KEY } from './reading.ts'
+import { OFF_KEY, SAMPLE_KEY, USAGE_KEY, createUsage } from './usage.ts'
+import { VISIT_KEY } from './visits.ts'
 
 const E = COOK.election.id
 
@@ -51,9 +55,14 @@ const ballot: SavedBallot = {
 function setup(day = '2026-10-20') {
   const sent: UsageEvent[][] = []
   const storage = new MemoryStorage()
+  const session = new MemoryStorage()
   let today = day
   const usage = createUsage({
     storage: () => storage,
+    session: () => session,
+    now: () => 1_000_000,
+    referrer: () => '',
+    host: () => 'votestack.org',
     send: (events) => {
       sent.push(events)
       return true
@@ -64,6 +73,7 @@ function setup(day = '2026-10-20') {
   return {
     usage,
     storage,
+    session,
     sent,
     setDay: (d: string) => (today = d),
   }
@@ -270,7 +280,12 @@ describe('usage counts', () => {
     usage.setCounting(true)
     usage.view('support', 'app')
     usage.flush()
-    expect(sent).toEqual([[{ e: 'view', page: 'support', from: 'app' }]])
+    expect(sent).toEqual([
+      [
+        { e: 'view', page: 'support', from: 'app' },
+        { e: 'visit', entry: 'ballot', source: 'direct', step: 'browsed' },
+      ],
+    ])
   })
 
   it('counts nothing for the rest of a page skipped, without turning counting off', () => {
@@ -290,11 +305,15 @@ describe('usage counts', () => {
     usage.out('profile')
     usage.active(0.4, true)
     usage.flush()
-    expect(sent).toEqual([
-      [
-        { e: 'view', page: 'ballot', from: 'landing' },
-        { e: 'out', page: 'profile' },
-      ],
+    expect(sent).toHaveLength(1)
+    expect(sent[0].map((e) => e.e)).toEqual([
+      'view',
+      'visit',
+      'device',
+      'device',
+      'device',
+      'device',
+      'out',
     ])
     expect(usage.pending()).toEqual([])
   })
@@ -307,5 +326,215 @@ describe('usage counts', () => {
       { e: 'banner', act: 'shown' },
       { e: 'banner', act: 'closed' },
     ])
+  })
+})
+
+describe('visits, devices and reading in the counter', () => {
+  const kinds = (events: UsageEvent[]) => events.map((e) => e.e)
+  const steps = (events: UsageEvent[]) =>
+    events.flatMap((e) => (e.e === 'visit' ? [e.step] : []))
+
+  it('starts a visit and counts the device on the first page', () => {
+    const { usage } = setup()
+    usage.view('profile', 'landing', 'x')
+    expect(usage.pending()).toEqual([
+      { e: 'view', page: 'profile', from: 'landing', key: 'x' },
+      { e: 'visit', entry: 'profile', source: 'direct', step: 'arrived' },
+      { e: 'device', period: 'day', seen: 'new' },
+      { e: 'device', period: 'week', seen: 'new' },
+      { e: 'device', period: 'month', seen: 'new' },
+      { e: 'device', period: 'election', seen: 'new' },
+    ])
+    usage.view('about', 'app')
+    expect(steps(usage.pending())).toEqual(['arrived', 'browsed'])
+    expect(kinds(usage.pending()).filter((e) => e === 'device')).toHaveLength(4)
+  })
+
+  it('counts nothing new when counting is off or the page is skipped', () => {
+    const v2 = [VISIT_KEY, SEEN_KEY, READS_KEY]
+    const off = setup()
+    off.usage.setCounting(false)
+    off.usage.view('profile', 'landing', 'x')
+    off.usage.step('picked')
+    off.usage.cta('top', 'profile')
+    off.usage.reading({ key: 'x', kind: 'candidate' }, 70, true, [['x']])
+    off.usage.voter(ballot, 5)
+    expect(off.usage.pending()).toEqual([])
+    for (const k of v2) {
+      expect(off.session.getItem(k)).toBeNull()
+      expect(off.storage.getItem(k)).toBeNull()
+    }
+
+    const skip = setup()
+    skip.usage.skipPage()
+    skip.usage.view('profile', 'landing', 'x')
+    skip.usage.step('picked')
+    skip.usage.cta('top', 'profile')
+    skip.usage.reading({ key: 'x', kind: 'candidate' }, 70, true, [['x']])
+    expect(skip.usage.pending()).toEqual([])
+    for (const k of v2) {
+      expect(skip.session.getItem(k)).toBeNull()
+      expect(skip.storage.getItem(k)).toBeNull()
+    }
+  })
+
+  it('counts a lookup and its origin', () => {
+    const { usage } = setup()
+    usage.view('start', 'landing')
+    usage.voter(ballot, 30)
+    const rest = usage.pending().slice(6)
+    expect(rest.filter((e) => e.e !== 'voter')).toEqual([
+      { e: 'visit', entry: 'start', source: 'direct', step: 'lookup' },
+      { e: 'origin', entry: 'start', source: 'direct', when: 'same' },
+    ])
+  })
+
+  it('counts a returning ballot', () => {
+    const { usage, storage } = setup()
+    usage.voter(ballot, 30)
+    usage.view('ballot', 'landing')
+    const again = createUsage({
+      storage: () => storage,
+      session: () => new MemoryStorage(),
+      now: () => 5,
+      referrer: () => '',
+      host: () => 'votestack.org',
+      send: () => true,
+      today: () => '2026-10-21',
+      clock: () => 0,
+    })
+    again.view('ballot', 'landing')
+    again.voter(ballot)
+    expect(steps(again.pending())).toEqual(['arrived', 'returned'])
+    expect(kinds(again.pending())).not.toContain('origin')
+  })
+
+  it('counts a ballot restored from before counting as returned', () => {
+    const { usage } = setup()
+    usage.view('ballot', 'landing')
+    usage.voter(ballot)
+    expect(steps(usage.pending())).toEqual(['arrived', 'returned'])
+    expect(kinds(usage.pending())).toContain('origin')
+  })
+
+  it('counts researched and picked steps', () => {
+    const { usage } = setup()
+    usage.view('ballot', 'landing')
+    usage.voter(ballot, 5)
+    usage.open(ballot, 'cy-day')
+    usage.open(ballot, 'di-fox')
+    expect(steps(usage.pending())).not.toContain('picked')
+    expect(steps(usage.pending())).toContain('researched')
+    usage.picks(ballot, { [E]: { mayor: ['cy-day'] } }, {})
+    expect(steps(usage.pending())).toContain('picked')
+  })
+
+  it('counts researched on catchUp for an already researched ballot', () => {
+    const { usage, storage } = setup()
+    usage.voter(ballot)
+    usage.open(ballot, 'cy-day')
+    usage.open(ballot, 'di-fox')
+    const back = createUsage({
+      storage: () => storage,
+      session: () => new MemoryStorage(),
+      now: () => 5,
+      referrer: () => '',
+      host: () => 'votestack.org',
+      send: () => true,
+      today: () => '2026-10-25',
+      clock: () => 0,
+    })
+    back.view('ballot', 'landing')
+    back.catchUp(ballot, {})
+    expect(steps(back.pending())).toContain('researched')
+  })
+
+  it("hands reading to the reading module with the visit's path", () => {
+    const { usage } = setup()
+    usage.view('profile', 'landing', 'ann-lee')
+    usage.reading({ key: 'ann-lee', kind: 'candidate' }, 21, false, [
+      ['ann-lee'],
+    ])
+    const reads = usage.pending().filter((e) => e.e === 'read')
+    expect(reads.length).toBeGreaterThan(0)
+    for (const r of reads) expect(r).toMatchObject({ path: 'reader' })
+  })
+
+  it('counts a link click', () => {
+    const { usage } = setup()
+    usage.cta('top', 'profile')
+    expect(usage.pending()).toEqual([
+      { e: 'cta', link: 'top', page: 'profile' },
+    ])
+  })
+
+  it('keeps the steps of a ballot shown before the first view', () => {
+    const { usage, storage } = setup()
+    usage.voter(ballot)
+    usage.open(ballot, 'cy-day')
+    usage.open(ballot, 'di-fox')
+    // A new tab on a later day: the ballot is shown before the page view.
+    const back = createUsage({
+      storage: () => storage,
+      session: () => new MemoryStorage(),
+      now: () => 5,
+      referrer: () => '',
+      host: () => 'votestack.org',
+      send: () => true,
+      today: () => '2026-10-25',
+      clock: () => 0,
+    })
+    back.voter(ballot)
+    back.catchUp(ballot, {})
+    expect(steps(back.pending())).toEqual([])
+    back.view('ballot', 'landing')
+    expect(steps(back.pending())).toEqual(['arrived', 'returned', 'researched'])
+  })
+
+  it('keeps the origin of a restored ballot shown before the first view', () => {
+    const { usage } = setup()
+    usage.voter(ballot)
+    usage.view('ballot', 'landing')
+    const origins = usage.pending().filter((e) => e.e === 'origin')
+    expect(origins).toEqual([
+      { e: 'origin', entry: 'ballot', source: 'direct', when: 'same' },
+    ])
+    expect(steps(usage.pending())).toEqual(['arrived', 'returned'])
+  })
+
+  it('counts a fresh device as new when its lookup is shown before the first view', () => {
+    const { usage } = setup()
+    usage.voter(ballot, 30)
+    usage.view('start', 'landing')
+    expect(usage.pending().filter((e) => e.e === 'device')[0]).toEqual({
+      e: 'device',
+      period: 'day',
+      seen: 'new',
+    })
+    expect(steps(usage.pending())).toEqual(['arrived', 'lookup'])
+  })
+
+  it('drops steps held for a page that is skipped', () => {
+    const { usage, session } = setup()
+    usage.voter(ballot)
+    usage.skipPage()
+    usage.view('ballot', 'landing')
+    expect(usage.pending()).toEqual([])
+    expect(session.getItem(VISIT_KEY)).toBeNull()
+  })
+
+  it('treats a device with a saved ballot as back', () => {
+    for (const key of [STORAGE_KEY, USAGE_KEY, SAMPLE_KEY]) {
+      const { usage, storage } = setup()
+      storage.setItem(key, '{}')
+      usage.view('ballot', 'landing')
+      expect(usage.pending().filter((e) => e.e === 'device')).toEqual(
+        ['day', 'week', 'month', 'election'].map((period) => ({
+          e: 'device',
+          period,
+          seen: 'back',
+        })),
+      )
+    }
   })
 })

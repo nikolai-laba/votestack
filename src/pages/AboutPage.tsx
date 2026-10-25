@@ -313,13 +313,16 @@ export default function AboutPage() {
         </p>
         <p>
           To learn what helps voters, we count how VoteStack is used: which
-          pages are opened, how many ballots are looked up, how many races get a
-          pick and how long the site is open. We keep only totals, by page,
-          level of government and county. We never count your address, your IP
-          address or the names you pick, and nothing tells one visitor apart
-          from another. Your device keeps a short note so it&rsquo;s counted
-          once per election. Cloudflare, which hosts VoteStack, also counts
-          visits without cookies.
+          pages are opened and read, how many ballots are looked up, how many
+          races get a pick and how long the site is open. We keep only totals,
+          by page, level of government and county, and by the kind of site a
+          visit came from (a search engine, for example) and how far the visit
+          got. We never count your address, your IP address, the names you pick
+          or the page you came from, and nothing tells one visitor apart from
+          another. Your device keeps a short note that never leaves it, so
+          it&rsquo;s counted once a day, week, month and election, and so we
+          know how a visit first found VoteStack. Cloudflare, which hosts
+          VoteStack, also counts visits without cookies.
         </p>
         <p>
           If you sign up for VoteStack emails, VoteStack, LLC saves your email

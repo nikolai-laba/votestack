@@ -1,9 +1,13 @@
 import { describe, expect, it } from 'vitest'
 import {
+  droppedPoint,
   isAutomatedAgent,
   lookupPoint,
+  mondayOf,
+  pathOf,
   usagePage,
   usagePoint,
+  visitSource,
 } from './metrics.ts'
 
 describe('usage events', () => {
@@ -167,5 +171,116 @@ describe('isAutomatedAgent', () => {
     ]) {
       expect(isAutomatedAgent(agent)).toBe(false)
     }
+  })
+})
+
+describe('v2 events', () => {
+  it('labels a visit step', () => {
+    expect(
+      usagePoint({
+        e: 'visit',
+        entry: 'profile',
+        source: 'search',
+        step: 'read',
+      }),
+    ).toEqual({ blobs: ['visit', 'profile', 'search', 'read'], doubles: [] })
+  })
+
+  it('labels device, read, informed, cta and origin', () => {
+    expect(
+      usagePoint({ e: 'device', period: 'week', seen: 'new' })?.blobs,
+    ).toEqual(['device', 'week', 'new', ''])
+    expect(
+      usagePoint({
+        e: 'read',
+        path: 'reader',
+        kind: 'retention',
+        mark: 'sources',
+      })?.blobs,
+    ).toEqual(['read', 'reader', 'retention', 'sources'])
+    expect(
+      usagePoint({
+        e: 'informed',
+        period: 'election',
+        path: 'ballot',
+        kind: 'compared',
+      })?.blobs,
+    ).toEqual(['informed', 'election', 'ballot', 'compared'])
+    expect(
+      usagePoint({ e: 'cta', link: 'top', page: 'profile' })?.blobs,
+    ).toEqual(['cta', 'top', 'profile', ''])
+    expect(
+      usagePoint({
+        e: 'origin',
+        entry: 'unknown',
+        source: 'unknown',
+        when: 'later',
+      })?.blobs,
+    ).toEqual(['origin', 'unknown', 'unknown', 'later'])
+  })
+
+  it('refuses unknown v2 values', () => {
+    const visit = {
+      e: 'visit',
+      entry: 'profile',
+      source: 'search',
+      step: 'read',
+    }
+    expect(usagePoint({ ...visit, step: 'scrolled' })).toBeNull()
+    expect(usagePoint({ ...visit, source: 'google' })).toBeNull()
+    expect(usagePoint({ e: 'device', period: 'year', seen: 'new' })).toBeNull()
+    expect(usagePoint({ e: 'device', period: 'day', seen: 'old' })).toBeNull()
+    const read = { e: 'read', path: 'reader', kind: 'candidate', mark: '10' }
+    expect(usagePoint({ ...read, mark: '45' })).toBeNull()
+    expect(usagePoint({ ...read, kind: 'judicial_candidate' })).toBeNull()
+    expect(usagePoint({ e: 'cta', link: 'footer', page: 'profile' })).toBeNull()
+    expect(
+      usagePoint({
+        e: 'origin',
+        entry: 'ballot',
+        source: 'search',
+        when: 'soon',
+      }),
+    ).toBeNull()
+  })
+
+  it('sorts referrers into categories', () => {
+    const host = 'votestack.org'
+    const cases: [string, string][] = [
+      ['https://www.google.com/', 'search'],
+      ['https://gemini.google.com/app', 'ai'],
+      ['https://mail.google.com/', 'email'],
+      ['https://l.facebook.com/x', 'social'],
+      ['https://news.example.org/a', 'other'],
+      ['', 'direct'],
+      ['https://votestack.org/races', 'direct'],
+      ['not a url', 'direct'],
+      ['https://www.bing.com/search?q=x', 'search'],
+      ['https://chatgpt.com/', 'ai'],
+    ]
+    for (const [referrer, source] of cases)
+      expect(visitSource(referrer, host)).toBe(source)
+  })
+
+  it('maps pages to paths', () => {
+    expect(pathOf('profile')).toBe('reader')
+    expect(pathOf('races')).toBe('reader')
+    expect(pathOf('ballot')).toBe('ballot')
+    expect(pathOf('start')).toBe('ballot')
+    expect(pathOf('about')).toBe('other')
+  })
+
+  it('finds the Monday of a week', () => {
+    expect(mondayOf('2026-10-25')).toBe('2026-10-19')
+    expect(mondayOf('2026-10-26')).toBe('2026-10-26')
+    expect(mondayOf('2026-11-01')).toBe('2026-10-26')
+  })
+
+  it('counts dropped batches', () => {
+    expect(droppedPoint('bot')).toEqual({
+      blobs: ['dropped', 'bot', '', ''],
+      doubles: [],
+    })
+    expect(droppedPoint('invalid', 3).doubles).toEqual([3])
   })
 })

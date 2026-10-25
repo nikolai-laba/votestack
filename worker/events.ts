@@ -6,6 +6,7 @@
 
 import {
   MAX_EVENTS,
+  droppedPoint,
   isAutomatedAgent,
   lookupPoint,
   usagePoint,
@@ -72,6 +73,7 @@ export async function eventResponse(
     isAutomatedAgent(request.headers.get('User-Agent')) ||
     cf?.verifiedBotCategory
   ) {
+    write(deps.dataset, droppedPoint('bot'))
     return new Response(null, {
       status: 204,
       headers: { 'Cache-Control': 'no-store' },
@@ -81,6 +83,7 @@ export async function eventResponse(
     key: await rateLimitKey('event', request),
   })
   if (!success) {
+    write(deps.dataset, droppedPoint('limited'))
     return json({ error: 'Too many events' }, 429, {
       'Retry-After': String(FORM_PERIOD_SECONDS),
     })
@@ -90,10 +93,13 @@ export async function eventResponse(
   if (!body || !Array.isArray(body.events)) {
     return json({ error: 'Send {"events": [...]}' }, 400)
   }
+  let rejected = 0
   for (const raw of body.events.slice(0, MAX_EVENTS)) {
     const p = usagePoint(raw)
     if (p) write(deps.dataset, p)
+    else rejected++
   }
+  if (rejected > 0) write(deps.dataset, droppedPoint('invalid', rejected))
   return new Response(null, {
     status: 204,
     headers: { 'Cache-Control': 'no-store' },

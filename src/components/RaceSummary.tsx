@@ -7,6 +7,7 @@ import {
 } from '../ballot/profileLinks.ts'
 import type { FocusAddressState } from '../ballot/session.ts'
 import { longDate } from '../format.ts'
+import { usage } from '../metrics/usage.ts'
 import { publishedFor, raceContest, racesFor, useRaces } from '../races/data.ts'
 import type { Ballot } from '../shared/ballot.ts'
 import { profileKey, type CandidateProfile } from '../shared/profile.ts'
@@ -178,7 +179,13 @@ export function ProfileRaces({
             className="space-y-3"
           >
             <h2 id={`race-${race.path}`} className="text-section">
-              On the ballot: <Link to={racePath(race)}>{raceName(race)}</Link>
+              On the ballot:{' '}
+              <Link
+                to={racePath(race)}
+                onClick={() => usage.cta('race', 'profile')}
+              >
+                {raceName(race)}
+              </Link>
             </h2>
             <RaceCardFor race={race} list={list} published={published} />
           </section>
