@@ -6,6 +6,7 @@
 
 import { useQuery } from '@tanstack/react-query'
 import type { CandidateContest, RetentionContest } from '../shared/ballot.ts'
+import { profileKey } from '../shared/profile.ts'
 import { REGIONS, regionForElection } from '../shared/regions.ts'
 import type { Race, RaceList } from '../shared/races.ts'
 
@@ -95,6 +96,30 @@ export function racesFor(
         .filter((r) => r.contestIds.some((id) => contestIds.includes(id)))
         .map((race) => ({ race, list })),
     )
+}
+
+/**
+ * Every candidate's profile key in each race a profile's person is in, from
+ * the race list, the person's own first: a retention judge is a race of one. Undefined when the list
+ * has none of the person's races, so a gap in the list never counts as a
+ * race with one candidate.
+ */
+export function raceKeysFor(
+  data: Pick<RaceData, 'lists'>,
+  profile: { key: string; electionId: string; contestIds: string[] },
+): string[][] | undefined {
+  const races = racesFor(data, profile.electionId, profile.contestIds)
+  if (races.length === 0) return undefined
+  return races.map(({ race }) =>
+    race.kind === 'retention'
+      ? [profile.key]
+      : [
+          profile.key,
+          ...(race.candidates ?? [])
+            .map((c) => profileKey(c.name))
+            .filter((k) => k !== profile.key),
+        ],
+  )
 }
 
 /** A race in the ballot's shape, so it can use the ballot's race card. */

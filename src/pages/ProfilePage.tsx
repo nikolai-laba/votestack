@@ -15,6 +15,7 @@ import { ProfileRaces, useOpponents } from '../components/RaceSummary.tsx'
 import { SignupBlock } from '../components/signup/SignupBlock.tsx'
 import { MISSING_PROFILE_HEAD, profileHead, useDocumentHead } from '../head.ts'
 import { usage } from '../metrics/usage.ts'
+import { raceKeysFor, useRaces } from '../races/data.ts'
 import { useProfileReading } from '../metrics/useReading.ts'
 import { profileKey, type CandidateProfile } from '../shared/profile.ts'
 import { COOK, regionForElection } from '../shared/regions.ts'
@@ -78,15 +79,16 @@ export default function ProfilePage() {
   // and mid-article pivot are for; everyone else gets the layout unchanged.
   const fromSearch =
     ballot === undefined && Boolean(profile) && !profile?.sample
-  // The race list is also what tells a read profile's races apart, so it's
-  // looked up whenever the ballot doesn't list this person.
   const opponents = useOpponents(
     profile && !panelAbove ? profile : EMPTY_PROFILE,
   )
+  // The race list is also what tells a read profile's races apart when the
+  // ballot doesn't list this person.
+  const raceData = useRaces().data
 
   // Every candidate in each race this person is in, for the reading counts:
   // from the voter's ballot when it lists them, otherwise from the race list
-  // (undefined while it loads).
+  // (undefined while it loads, or when it doesn't have this person).
   const races = useMemo(() => {
     if (!profile) return undefined
     if (panelAbove)
@@ -97,8 +99,8 @@ export default function ProfilePage() {
             ? [profileKey(c.judge)]
             : [],
       )
-    return opponents && [[profile.key, ...opponents.map((o) => o.key)]]
-  }, [profile, panelAbove, onBallot, opponents])
+    return raceData && raceKeysFor(raceData, profile)
+  }, [profile, panelAbove, onBallot, raceData])
   const sourcesRef = useProfileReading(profile, races)
 
   const article = (
