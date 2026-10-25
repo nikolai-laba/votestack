@@ -47,10 +47,11 @@ describe('parseReleases', () => {
     const releases = parseReleases(
       await readFile(join(process.cwd(), 'CHANGELOG.md'), 'utf8'),
     )
-    expect(releases[0]).toMatchObject({ version: '1.5.1', date: '2026-10-23' })
-    expect(releases[0].note.startsWith('Profiles for offices')).toBe(true)
+    const r151 = releases.find((r) => r.version === '1.5.1')
+    expect(r151).toMatchObject({ version: '1.5.1', date: '2026-10-23' })
+    expect(r151?.note.startsWith('Profiles for offices')).toBe(true)
     expect(releases.some((r) => r.version === 'Unreleased')).toBe(false)
-    expect(releases[1].version).toBe('1.5.0')
+    expect(releases[releases.indexOf(r151!) + 1].version).toBe('1.5.0')
   })
 })
 

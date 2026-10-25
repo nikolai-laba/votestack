@@ -5,6 +5,16 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+## [1.5.2] - 2026-10-25
+
+### Added
+
+- A second local usage report (report-v2.html), organized by question, written alongside the existing one. Internal tooling, not visible on the site.
+
+### Changed
+
+- Usage counts now also count, as totals only, how a visit found VoteStack (the kind of site), how far it got, profiles read (20 seconds on screen, or reaching Sources after 10), voters informed on a race, and each browser once a day, week, month and election. The About page says so. The Worker also counts the batches it drops.
+
 ## [1.5.1] - 2026-10-23
 
 ### Changed
