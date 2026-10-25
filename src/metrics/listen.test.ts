@@ -9,6 +9,7 @@ function setup(path: string) {
   const sent: UsageEvent[][] = []
   const counter = createUsage({
     storage: () => new MemoryStorage(),
+    session: () => new MemoryStorage(),
     send: (events) => {
       sent.push(events)
       return true
@@ -33,8 +34,14 @@ describe('startUsage', () => {
   })
 
   it('counts a visit that starts anywhere else', () => {
-    expect(setup('/candidates/ann-lee')).toEqual([
-      [{ e: 'view', page: 'profile', from: 'landing', key: 'ann-lee' }],
-    ])
+    // The view comes first; the visit and device events follow it.
+    const batches = setup('/candidates/ann-lee')
+    expect(batches).toHaveLength(1)
+    expect(batches[0][0]).toEqual({
+      e: 'view',
+      page: 'profile',
+      from: 'landing',
+      key: 'ann-lee',
+    })
   })
 })

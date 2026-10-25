@@ -9,13 +9,22 @@
 // Worker only receives the events built from it. Every storage call is
 // wrapped, so blocked storage means counts last for the page only.
 //
+// Three more small notes keep the visit and device counts honest, none with
+// an identifier and none ever sent as anything but counts. The visit note
+// lives in sessionStorage and ends with the tab (visits.ts). The seen note,
+// in localStorage, says which day, week, month and election this device was
+// counted in (devices.ts). The reads note, also in localStorage, lists the
+// profiles it has read, by public key (reading.ts). Each module has its own
+// key and is built here, sending its events through the same gate as the
+// rest, so counting off or a skipped page keeps all of them quiet.
+//
 // Counting can be turned off for one browser (a maintainer's own, say) with
 // ?count=off on any page, and back on with ?count=on (startUsage). The
 // choice is kept in that browser only, under OFF_KEY.
 
 import { sectionFor } from '../ballot/sections.ts'
 import { contestsWithPerson } from '../ballot/profileLinks.ts'
-import type { SavedBallot, Picks } from '../picks/store.ts'
+import { STORAGE_KEY, type SavedBallot, type Picks } from '../picks/store.ts'
 import type { Contest } from '../shared/ballot.ts'
 import {
   FILL_MILESTONES,
@@ -24,12 +33,17 @@ import {
   RESEARCHED,
   USAGE_LEVELS,
   isAutomatedAgent,
+  type CtaLink,
   type UsageEvent,
   type UsageLevel,
   type UsagePage,
   type ViewSource,
+  type VisitStep,
 } from '../shared/metrics.ts'
 import { regionForElection } from '../shared/regions.ts'
+import { createDevices } from './devices.ts'
+import { createReading, type ReadProfile } from './reading.ts'
+import { createVisits } from './visits.ts'
 
 export const USAGE_KEY = 'votestack:usage:v1'
 /** Elections this device has seen a sample ballot for. */
@@ -62,6 +76,13 @@ export interface UsageDeps {
   today: () => string
   /** Seconds since the page opened. */
   clock: () => number
+  /** This tab's session storage (the visit note). */
+  session?: () => Storage | null
+  /** Milliseconds, like Date.now(). */
+  now?: () => number
+  referrer?: () => string
+  /** The site's bare hostname, no port. */
+  host?: () => string
 }
 
 function localToday(): string {
@@ -73,6 +94,14 @@ function localToday(): string {
 function defaultStorage(): Storage | null {
   try {
     return typeof window === 'undefined' ? null : window.localStorage
+  } catch {
+    return null
+  }
+}
+
+function defaultSession(): Storage | null {
+  try {
+    return typeof window === 'undefined' ? null : window.sessionStorage
   } catch {
     return null
   }
@@ -125,6 +154,8 @@ export function createUsage(deps: UsageDeps) {
   const countedHere = new Set<string>()
   /** True once this page load is left out of the counts (skipPage). */
   let skipped = false
+  /** True once the device has been counted on this page load. */
+  let deviceCounted = false
 
   function read(): DeviceRecord {
     const storage = storageWorks ? deps.storage() : null
@@ -252,12 +283,74 @@ export function createUsage(deps: UsageDeps) {
     }))
     const researched =
       races >= RESEARCHED.races || compared >= RESEARCHED.compared ? 1 : 0
-    return pass(next, 'researched', researched, [1], () => ({
-      e: 'learn',
-      region,
-      kind: 'researched',
-      n: 1,
-    }))
+    return pass(next, 'researched', researched, [1], () => {
+      step('researched')
+      return { e: 'learn', region, kind: 'researched', n: 1 }
+    })
+  }
+
+  /** True when this page load, or this browser, is left out of the counts. */
+  const quiet = () => skipped || off()
+
+  /** True when VoteStack kept a note on this device before the seen note. */
+  function hadOlderNotes(): boolean {
+    try {
+      const storage = deps.storage()
+      return [USAGE_KEY, SAMPLE_KEY, STORAGE_KEY].some(
+        (key) => storage?.getItem(key) != null,
+      )
+    } catch {
+      return false
+    }
+  }
+
+  const visits = createVisits({
+    session: deps.session ?? defaultSession,
+    now: deps.now ?? Date.now,
+    referrer:
+      deps.referrer ??
+      (() => (typeof document === 'undefined' ? '' : document.referrer)),
+    host:
+      deps.host ??
+      (() => (typeof location === 'undefined' ? '' : location.hostname)),
+    add,
+  })
+  const devices = createDevices({
+    storage: deps.storage,
+    today: deps.today,
+    add,
+    hadOlderNotes,
+  })
+
+  /** Marks a step in this visit, unless this page or browser isn't counted. */
+  function step(s: VisitStep) {
+    if (quiet()) return
+    visits.step(s)
+  }
+
+  const reading = createReading({
+    storage: deps.storage,
+    today: deps.today,
+    add,
+    path: () => visits.current()?.path ?? 'other',
+    step,
+  })
+
+  /**
+   * Steps for the voter's own ballot on screen: `kind` if given, and
+   * 'researched' when this device already reached that milestone earlier.
+   */
+  function ballotShown(kind: VisitStep | null, record?: ElectionRecord) {
+    if (quiet()) return
+    if (kind) visits.step(kind)
+    if (record?.reached.includes('researched:1')) visits.step('researched')
+  }
+
+  /** Credits the device's first lookup to how its first visit began. */
+  function credit() {
+    if (quiet()) return
+    const visit = visits.current()
+    if (visit) devices.origin(visit.started)
   }
 
   function add(event: UsageEvent) {
@@ -298,6 +391,37 @@ export function createUsage(deps: UsageDeps) {
 
     view(page: UsagePage, from: ViewSource, key?: string) {
       add(key ? { e: 'view', page, from, key } : { e: 'view', page, from })
+      if (quiet()) return
+      visits.shown(page)
+      // The device is counted once per page load, on the first counted view.
+      if (deviceCounted) return
+      deviceCounted = true
+      const visit = visits.current()
+      if (visit) devices.counted(visit)
+    },
+
+    /** A step this visit has reached (VisitStep), counted once per visit. */
+    step,
+
+    /** A click on one of the app's links to the ballot lookup. */
+    cta(link: CtaLink, page: UsagePage) {
+      if (quiet()) return
+      add({ e: 'cta', link, page })
+    },
+
+    /**
+     * A profile's visible time grew. `races` lists every candidate's profile
+     * key for each race the profile belongs to (the app sends 'judicial_candidate'
+     * for judges; reading.ts renames it).
+     */
+    reading(
+      profile: ReadProfile,
+      secs: number,
+      sourcesSeen: boolean,
+      races: string[][] | undefined,
+    ) {
+      if (quiet()) return
+      reading.progress(profile, secs, sourcesSeen, races)
     },
 
     /**
@@ -314,6 +438,9 @@ export function createUsage(deps: UsageDeps) {
       const today = deps.today()
       const region = regionOf(ballot)
       if (!record) {
+        // A lookup made on this page, or a ballot restored from before counting.
+        ballotShown(secsToBallot === undefined ? 'returned' : 'lookup', record)
+        credit()
         const races: Partial<Record<UsageLevel, number>> = {}
         for (const c of ballot.contests) {
           const level = levelOf(c)
@@ -336,6 +463,7 @@ export function createUsage(deps: UsageDeps) {
         })
         return
       }
+      ballotShown('returned', record)
       if (record.last !== today) {
         add({ e: 'voter', kind: 'return', region })
         save(id, { ...record, last: today })
@@ -353,6 +481,7 @@ export function createUsage(deps: UsageDeps) {
       const id = ballot.election.id
       const record = election(id)
       if (!record) return
+      ballotShown(null, record)
       let reached = fillMilestones(ballot, picks[id] ?? {}, record.reached)
       reached = learnMilestones(ballot, record.opened, reached)
       if (reached.length !== record.reached.length)
@@ -417,6 +546,7 @@ export function createUsage(deps: UsageDeps) {
           level: levelOf(contest),
           informed: Boolean(record.opened[contest.id]?.length),
         })
+        step('picked')
       }
       const reached = fillMilestones(ballot, now, record.reached)
       if (changed || reached.length !== record.reached.length)
