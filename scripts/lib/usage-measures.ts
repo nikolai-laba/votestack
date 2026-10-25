@@ -765,7 +765,12 @@ export function inputs(
   }
 }
 
-/** New ballots that become informed: ballot-path visits reaching informed over those reaching lookup; before launch, researched ballots over new ballots. */
+/**
+ * Ballots shown that become informed: ballot-path visits reaching informed
+ * over those that showed a ballot (reaching lookup or returned); before
+ * launch, researched ballots over new ballots. Steps are counted one at a
+ * time, so a visit reaching both lookup and returned counts twice below.
+ */
 export function activation(rows: Row[], r: Range): Measured<number | null> {
   const s = splitAt(rows, r, 'visit')
   const ballotVisits = pick(
@@ -783,7 +788,7 @@ export function activation(rows: Row[], r: Range): Measured<number | null> {
   // ladder's history lookups, which take only timed ones.
   const looked =
     sum(pick(rows, r, 'voter', r.start, s.cut, (x) => x[A] === 'new')) +
-    sum(ballotVisits.filter((x) => x[C] === 'lookup'))
+    sum(ballotVisits.filter((x) => x[C] === 'lookup' || x[C] === 'returned'))
   return {
     value: ratio(informed, looked),
     estimate: s.history,

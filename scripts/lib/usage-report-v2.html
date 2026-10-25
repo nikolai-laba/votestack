@@ -1036,7 +1036,7 @@
         // What each stand-in is, for the estimate tag's hover text.
         const NOTE = {
           informed:
-            'Before the new counts: ballot-path devices that opened two profiles in a race. Opened, not read.',
+            'Before the new counts: ballot-path devices that opened two profiles in a race. Opened, not read. A device counted this way may be counted again once the new counts begin.',
           read: 'Before the new counts: profiles opened from a ballot, first and second in each race. Opened, not read.',
           visits:
             'Before the new counts: the first page of each visit, the same definition.',
@@ -1869,11 +1869,13 @@
             ),
             tile(
               'Activation',
-              'New ballots that become informed',
-              share(act.value),
-              'Ballot-path visits that got a ballot and went on to be informed',
+              'Ballots that become informed',
+              // Shown at most 100%: the stand-in and the steps can overshoot.
+              share(act.value == null ? null : Math.min(1, act.value)),
+              'Ballot-path visits that showed a ballot and went on to be informed',
               null,
               tags(act, r, NOTE.activation),
+              'activation-tile',
             ),
           )
 

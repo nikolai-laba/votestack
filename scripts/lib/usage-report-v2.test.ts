@@ -254,6 +254,24 @@ describe('the v2 report page', () => {
     expect(Math.max(...shares)).toBeLessThanOrEqual(100)
   })
 
+  it('shows activation within 100%, as ballots shown that became informed', async () => {
+    const { doc } = await load()
+    const tile = doc.getElementById('activation-tile')
+    const value = parseFloat(text(tile?.querySelector('.value')))
+    expect(value).toBeGreaterThan(0)
+    expect(value).toBeLessThanOrEqual(100)
+    expect(text(tile)).toContain(
+      'Ballot-path visits that showed a ballot and went on to be informed',
+    )
+  })
+
+  it('says devices from the North Star stand-in may be counted again', async () => {
+    const { doc } = await load()
+    expect(doc.getElementById('north-star')?.innerHTML).toContain(
+      'counted again',
+    )
+  })
+
   it('tags estimates and always tags readers without a ballot', async () => {
     const { doc } = await load()
     expect(text(doc.getElementById('profiles-read'))).toContain('estimate')

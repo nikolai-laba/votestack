@@ -470,17 +470,19 @@ describe('inputs', () => {
 })
 
 describe('activation', () => {
-  it('divides informed by lookups on the ballot path, history before launch', () => {
+  it('divides informed by ballots shown on the ballot path, history before launch', () => {
     const rows = [
       row(H, 'voter', 'new', 'il-cook', 'timed', 6),
       row(H, 'learn', 'researched', 'il-cook', '1', 2),
       row(LAUNCH, 'visit', 'ballot', 'direct', 'lookup', 4),
-      row(LAUNCH, 'visit', 'start', 'direct', 'informed', 3),
+      row(LAUNCH, 'visit', 'start', 'direct', 'returned', 2),
+      row(LAUNCH, 'visit', 'start', 'direct', 'informed', 4),
       row(LAUNCH, 'visit', 'profile', 'search', 'lookup', 50),
+      row(LAUNCH, 'visit', 'profile', 'search', 'returned', 50),
       row(LAUNCH, 'voter', 'new', 'il-cook', 'timed', 4), // after launch: not the stand-in
     ]
     const m = activation(rows, WEEK)
-    expect(m.value).toBe(0.5) // (2 + 3) / (6 + 4)
+    expect(m.value).toBe(0.5) // (2 + 4) / (6 + 4 + 2)
     expect(m.estimate).toBe(true)
     expect(m.countedFrom).toBe(LAUNCH)
   })
