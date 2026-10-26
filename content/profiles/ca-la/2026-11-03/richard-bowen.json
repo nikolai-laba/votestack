@@ -34,7 +34,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [],
     "filingsAt": {
       "name": "City of La Verne",
@@ -59,11 +59,11 @@
   "sources": [
     {
       "id": 1,
-      "title": "Forum 1 of 2: Hear From La Verne's District 1 and 3 Council Candidates in Their Own Words",
+      "title": "Local Elections: La Verne Council Candidates Talk Budget, Housing and Infrastructure at Chamber Forum",
       "publisher": "La Verne Daily News",
-      "url": "https://www.lavernedaily.org/forum-1-of-2-hear-from-la-vernes-district-1-and-3-council-candidates-in-their-own-words/",
+      "url": "https://www.lavernedaily.org/local-elections-la-verne-council-candidates-talk-budget-housing-and-infrastructure-at-chamber-forum/",
       "kind": "news",
-      "viewedAt": "2026-10-15"
+      "viewedAt": "2026-10-26"
     },
     {
       "id": 2,
@@ -102,6 +102,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:39:39.179Z",
-    "version": 4
+    "version": 6
   }
 }

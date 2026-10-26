@@ -59,21 +59,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Blanca Pacheco for Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1476868",
-        "period": "July 1 to September 19, 2026",
-        "raised": 164100,
-        "cashOnHand": 1223892.23,
+        "period": "September 20 to October 17, 2026",
+        "raised": 105798.08,
+        "cashOnHand": 1054999.93,
         "breakdown": [
-          { "kind": "pac", "amount": 91000 },
-          { "kind": "other", "amount": 73100 }
+          { "kind": "large", "amount": 500 },
+          { "kind": "pac", "amount": 66098.08 },
+          { "kind": "other", "amount": 39200 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 91400, "count": 26 }
+        "largeSince": { "since": "2026-10-17", "total": 37000, "count": 12 }
       }
     ]
   },
@@ -278,6 +279,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.721Z",
-    "version": 5
+    "version": 6
   }
 }

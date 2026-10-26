@@ -68,18 +68,18 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Friends of Whitfield Harrington",
         "url": "https://www.fec.gov/data/committee/C00931428/?cycle=2026",
-        "period": "January 1 to September 30, 2026",
-        "raised": 137949.62,
-        "cashOnHand": 22299.09,
+        "period": "January 1 to October 14, 2026",
+        "raised": 143381.62,
+        "cashOnHand": 19484.15,
         "breakdown": [
-          { "kind": "small", "amount": 23861.22 },
-          { "kind": "large", "amount": 37339 },
+          { "kind": "small", "amount": 24926.22 },
+          { "kind": "large", "amount": 41706 },
           { "kind": "candidate", "amount": 76749.4 }
         ],
         "fromCandidate": 76749.4
@@ -133,6 +133,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T21:02:46.665Z",
-    "version": 3
+    "version": 4
   }
 }

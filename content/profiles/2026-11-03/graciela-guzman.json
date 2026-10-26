@@ -21,7 +21,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "ISBE",
@@ -251,7 +251,13 @@
         "organization": "United Neighbors of the 35th Ward (UN35)",
         "kind": "organization",
         "cites": [22]
-      }
+      },
+      {
+        "organization": "Chicago Federation of Labor",
+        "kind": "union",
+        "cites": [23]
+      },
+      { "organization": "Personal PAC", "kind": "organization", "cites": [24] }
     ]
   },
   "sources": [
@@ -430,12 +436,28 @@
       "viewedAt": "2026-10-18",
       "kind": "endorser",
       "id": 22
+    },
+    {
+      "title": "November 3, 2026 General Election Endorsed Candidates",
+      "publisher": "Chicago Federation of Labor",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 23
+    },
+    {
+      "title": "Personal PAC 2026 General Election Endorsements",
+      "publisher": "Personal PAC",
+      "url": "https://personalpac.org/elections/",
+      "viewedAt": "2026-10-07",
+      "kind": "endorser",
+      "id": 24
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-22T05:14:30.550Z",
-    "version": 12
+    "version": 13
   }
 }

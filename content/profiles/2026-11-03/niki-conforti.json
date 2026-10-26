@@ -62,18 +62,18 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Conforti for Congress",
         "url": "https://www.fec.gov/data/committee/C00844308/?cycle=2026",
-        "period": "January 1, 2025 to September 30, 2026",
-        "raised": 346267.77,
-        "cashOnHand": 17955.88,
+        "period": "January 1, 2025 to October 14, 2026",
+        "raised": 348452.74,
+        "cashOnHand": 7638.59,
         "breakdown": [
-          { "kind": "small", "amount": 202856.53 },
-          { "kind": "large", "amount": 137660.47 },
+          { "kind": "small", "amount": 203495.18 },
+          { "kind": "large", "amount": 139206.79 },
           { "kind": "pac", "amount": 5700 },
           { "kind": "other", "amount": 50.77 }
         ]
@@ -212,6 +212,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:09:11.666Z",
-    "version": 8
+    "version": 9
   }
 }

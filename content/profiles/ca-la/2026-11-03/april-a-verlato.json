@@ -56,17 +56,17 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Verlato for Congress",
         "url": "https://www.fec.gov/data/committee/C00858845/?cycle=2026",
-        "period": "January 1, 2025 to September 30, 2026",
-        "raised": 450,
-        "cashOnHand": 405.19,
+        "period": "January 1, 2025 to October 14, 2026",
+        "raised": 700,
+        "cashOnHand": 655.19,
         "breakdown": [
-          { "kind": "small", "amount": 250 },
+          { "kind": "small", "amount": 500 },
           { "kind": "large", "amount": 200 }
         ]
       }
@@ -164,6 +164,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.787Z",
-    "version": 5
+    "version": 6
   }
 }

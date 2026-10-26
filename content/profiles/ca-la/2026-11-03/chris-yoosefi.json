@@ -65,16 +65,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "City of Burbank",
         "committee": "Yoosefi for Burbank City Council 2026",
         "url": "https://efile.burbankca.gov/public/search/campaign/filings/287835f4-4bbb-4de2-b3c2-bcdc34f1407a?type=committee",
-        "period": "January 1 to September 19, 2026",
-        "raised": 3885,
-        "cashOnHand": 845.79
+        "period": "September 20 to October 17, 2026",
+        "raised": 300,
+        "cashOnHand": 1115.79
       }
     ]
   },
@@ -109,6 +109,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.504Z",
-    "version": 3
+    "version": 4
   }
 }

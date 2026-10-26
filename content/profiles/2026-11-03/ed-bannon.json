@@ -55,7 +55,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "ISBE",
@@ -67,9 +67,10 @@
         "breakdown": [
           { "kind": "small", "amount": 1425 },
           { "kind": "transfer", "amount": 4000 },
-          { "kind": "loan", "amount": 25000 }
+          { "kind": "candidate", "amount": 25000 }
         ],
-        "largeSince": { "since": "2026-09-30", "total": 16473.14, "count": 2 }
+        "fromCandidate": 25000,
+        "largeSince": { "since": "2026-09-30", "total": 52455.43, "count": 11 }
       }
     ]
   },
@@ -203,6 +204,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:39:54.794Z",
-    "version": 6
+    "version": 7
   }
 }

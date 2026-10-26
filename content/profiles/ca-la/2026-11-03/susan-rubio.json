@@ -46,22 +46,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Susan Rubio for Senate 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1456613",
-        "period": "July 1 to September 19, 2026",
-        "raised": 114350,
-        "cashOnHand": 578100.1,
+        "period": "September 20 to October 17, 2026",
+        "raised": 125350,
+        "cashOnHand": 649581.97,
         "breakdown": [
-          { "kind": "large", "amount": 300 },
-          { "kind": "pac", "amount": 57650 },
-          { "kind": "other", "amount": 56400 }
+          { "kind": "large", "amount": 8500 },
+          { "kind": "pac", "amount": 70400 },
+          { "kind": "other", "amount": 46450 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 112450, "count": 25 }
+        "largeSince": { "since": "2026-10-17", "total": 12300, "count": 4 }
       }
     ]
   },
@@ -403,6 +403,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.743Z",
-    "version": 6
+    "version": 7
   }
 }

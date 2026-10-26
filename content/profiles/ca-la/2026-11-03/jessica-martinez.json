@@ -35,20 +35,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Jessica Martinez for 56th Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1479619",
-        "period": "July 1 to September 19, 2026",
-        "raised": 4685.35,
-        "cashOnHand": 919.94,
+        "period": "September 20 to October 17, 2026",
+        "raised": 3053.68,
+        "cashOnHand": 2679.69,
         "breakdown": [
-          { "kind": "small", "amount": 425 },
-          { "kind": "large", "amount": 4140.35 },
-          { "kind": "pac", "amount": 120 }
+          { "kind": "small", "amount": 1189 },
+          { "kind": "large", "amount": 1864.68 }
         ]
       }
     ]
@@ -140,6 +139,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.711Z",
-    "version": 5
+    "version": 6
   }
 }

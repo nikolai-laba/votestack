@@ -50,22 +50,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Bob Archuleta for Senate 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1456585",
-        "period": "July 1 to September 19, 2026",
-        "raised": 71913.77,
-        "cashOnHand": 186424.42,
+        "period": "September 20 to October 17, 2026",
+        "raised": 57150,
+        "cashOnHand": 216325.42,
         "breakdown": [
-          { "kind": "large", "amount": 1113.77 },
-          { "kind": "pac", "amount": 45500 },
-          { "kind": "other", "amount": 25300 }
+          { "kind": "large", "amount": 1000 },
+          { "kind": "pac", "amount": 43400 },
+          { "kind": "other", "amount": 12750 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 57150, "count": 14 }
+        "largeSince": { "since": "2026-10-17", "total": 25700, "count": 4 }
       }
     ]
   },
@@ -264,6 +264,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.760Z",
-    "version": 5
+    "version": 6
   }
 }

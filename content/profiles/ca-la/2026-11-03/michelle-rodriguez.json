@@ -44,21 +44,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Michelle Rodriguez for Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477034",
-        "period": "July 1 to September 19, 2026",
-        "raised": 152665.35,
-        "cashOnHand": 139335.39,
+        "period": "September 20 to October 17, 2026",
+        "raised": 65017.44,
+        "cashOnHand": 137356.14,
         "breakdown": [
-          { "kind": "pac", "amount": 84265.35 },
-          { "kind": "other", "amount": 68400 }
+          { "kind": "pac", "amount": 46200 },
+          { "kind": "other", "amount": 18817.44 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 54200, "count": 19 }
+        "largeSince": { "since": "2026-10-17", "total": 8000, "count": 4 }
       }
     ]
   },
@@ -309,6 +309,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.702Z",
-    "version": 5
+    "version": 6
   }
 }

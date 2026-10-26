@@ -88,15 +88,15 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Derek Tran for Congress",
         "url": "https://www.fec.gov/data/committee/C00851790/?cycle=2026",
-        "period": "January 1, 2025 to September 30, 2026",
-        "raised": 5846183.13,
-        "cashOnHand": 3247642.6
+        "period": "January 1, 2025 to October 14, 2026",
+        "raised": 5988192.12,
+        "cashOnHand": 2682392.26
       }
     ]
   },
@@ -678,6 +678,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.856Z",
-    "version": 5
+    "version": 6
   }
 }

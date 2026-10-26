@@ -86,19 +86,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Donna Miller for Congress",
         "url": "https://www.fec.gov/data/committee/C00911164/?cycle=2026",
-        "period": "July 1, 2025 to September 30, 2026",
-        "raised": 2679838.58,
-        "cashOnHand": 101987.66,
+        "period": "July 1, 2025 to October 14, 2026",
+        "raised": 2700312.85,
+        "cashOnHand": 92406.74,
         "breakdown": [
-          { "kind": "small", "amount": 63262.95 },
-          { "kind": "large", "amount": 2402359.27 },
-          { "kind": "pac", "amount": 201250 },
+          { "kind": "small", "amount": 66405.45 },
+          { "kind": "large", "amount": 2415891.04 },
+          { "kind": "pac", "amount": 205050 },
           { "kind": "party", "amount": 1000 },
           { "kind": "transfer", "amount": 11766.38 },
           { "kind": "other", "amount": 199.98 }
@@ -447,6 +447,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:00:44.751Z",
-    "version": 10
+    "version": 11
   }
 }

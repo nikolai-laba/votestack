@@ -64,18 +64,18 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Angel Oakley for Congress",
         "url": "https://www.fec.gov/data/committee/C00880161/?cycle=2026",
-        "period": "August 1, 2025 to September 30, 2026",
-        "raised": 10729.52,
-        "cashOnHand": 977.6,
+        "period": "August 1, 2025 to October 14, 2026",
+        "raised": 18442.93,
+        "cashOnHand": 4060.72,
         "breakdown": [
-          { "kind": "small", "amount": 2729.52 },
-          { "kind": "large", "amount": 8000 }
+          { "kind": "small", "amount": 5474.52 },
+          { "kind": "large", "amount": 12968.41 }
         ]
       }
     ]
@@ -196,6 +196,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:01:26.017Z",
-    "version": 11
+    "version": 12
   }
 }

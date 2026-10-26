@@ -58,17 +58,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Mark Gonzalez for Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477312",
-        "period": "July 1 to September 19, 2026",
-        "raised": 157425,
-        "cashOnHand": 707746.64,
-        "largeSince": { "since": "2026-09-19", "total": 103350, "count": 29 }
+        "period": "September 20 to October 17, 2026",
+        "raised": 128900,
+        "cashOnHand": 673956.05,
+        "breakdown": [
+          { "kind": "large", "amount": 2150 },
+          { "kind": "pac", "amount": 70550 },
+          { "kind": "other", "amount": 56200 }
+        ],
+        "largeSince": { "since": "2026-10-17", "total": 24200, "count": 6 }
       }
     ]
   },
@@ -322,11 +327,11 @@
     },
     {
       "id": 9,
-      "title": "November General Election Endorsements",
-      "publisher": "YIMBY Los Angeles",
-      "url": "https://yimby.la/voter-guide/november-general-election-endorsements/",
+      "title": "November 2026 California general",
+      "publisher": "YIMBY Action",
+      "url": "https://yimbyaction.org/endorsements/november-2026-california-general",
       "kind": "endorser",
-      "viewedAt": "2026-10-14"
+      "viewedAt": "2026-10-26"
     },
     {
       "id": 10,
@@ -453,6 +458,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.708Z",
-    "version": 5
+    "version": 7
   }
 }

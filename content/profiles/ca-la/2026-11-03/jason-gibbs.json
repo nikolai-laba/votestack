@@ -75,19 +75,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Jason Gibbs for Congress",
         "url": "https://www.fec.gov/data/committee/C00909887/?cycle=2026",
-        "period": "January 1, 2025 to September 30, 2026",
-        "raised": 401798.88,
-        "cashOnHand": 167850.4,
+        "period": "January 1, 2025 to October 14, 2026",
+        "raised": 413837.88,
+        "cashOnHand": 60498.54,
         "breakdown": [
-          { "kind": "small", "amount": 6558.5 },
-          { "kind": "large", "amount": 380512.44 },
-          { "kind": "pac", "amount": 12000 },
+          { "kind": "small", "amount": 7097.5 },
+          { "kind": "large", "amount": 389512.44 },
+          { "kind": "pac", "amount": 14500 },
           { "kind": "transfer", "amount": 2727.94 }
         ]
       }
@@ -219,6 +219,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.779Z",
-    "version": 8
+    "version": 9
   }
 }

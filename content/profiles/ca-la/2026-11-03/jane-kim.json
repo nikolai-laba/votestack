@@ -71,24 +71,25 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Jane Kim for Insurance Commissioner 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1485530",
-        "period": "July 1 to September 19, 2026",
-        "raised": 362857.88,
-        "cashOnHand": 345280.77,
+        "period": "September 20 to October 17, 2026",
+        "raised": 171588.63,
+        "cashOnHand": 426320.75,
         "breakdown": [
-          { "kind": "small", "amount": 4683.25 },
-          { "kind": "large", "amount": 168648.74 },
-          { "kind": "pac", "amount": 168850 },
-          { "kind": "party", "amount": 100 },
-          { "kind": "other", "amount": 20575.89 }
+          { "kind": "small", "amount": 5455.86 },
+          { "kind": "large", "amount": 91172.77 },
+          { "kind": "pac", "amount": 74400 },
+          { "kind": "candidate", "amount": 10 },
+          { "kind": "other", "amount": 550 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 118300, "count": 43 }
+        "fromCandidate": 10,
+        "largeSince": { "since": "2026-10-17", "total": 19600, "count": 5 }
       }
     ]
   },
@@ -487,6 +488,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.792Z",
-    "version": 8
+    "version": 9
   }
 }

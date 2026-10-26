@@ -17,23 +17,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Gipson for Board of Equalization 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1471779",
-        "period": "July 1 to September 19, 2026",
-        "raised": 129260.58,
-        "cashOnHand": 51737.85,
+        "period": "September 20 to October 17, 2026",
+        "raised": 127326.12,
+        "cashOnHand": 96598.46,
         "breakdown": [
-          { "kind": "large", "amount": 3600 },
-          { "kind": "pac", "amount": 89100 },
-          { "kind": "party", "amount": 9060.58 },
-          { "kind": "other", "amount": 27500 }
+          { "kind": "large", "amount": 15800 },
+          { "kind": "pac", "amount": 60000 },
+          { "kind": "party", "amount": 1926.12 },
+          { "kind": "other", "amount": 49600 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 114626.12, "count": 33 }
+        "largeSince": { "since": "2026-10-17", "total": 56100, "count": 14 }
       }
     ]
   },
@@ -436,6 +436,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.762Z",
-    "version": 12
+    "version": 13
   }
 }

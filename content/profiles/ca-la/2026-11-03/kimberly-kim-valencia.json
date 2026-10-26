@@ -35,17 +35,17 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "City of South El Monte",
-        "committee": "Kimberly Valencia",
+        "committee": "Kimberly \"Kim\" Valencia for South El Monte Council 2026",
         "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=54873&dbid=0&repo=r-fe8f1ab6",
-        "period": "July 1 to September 19, 2026",
-        "raised": 11705,
-        "cashOnHand": 14743.45,
-        "fromScan": "ocr"
+        "period": "September 20 to October 17, 2026",
+        "raised": 350,
+        "cashOnHand": 5527.86,
+        "fromScan": "ai"
       }
     ]
   },
@@ -102,6 +102,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T14:05:39.777Z",
-    "version": 6
+    "version": 7
   }
 }

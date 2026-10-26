@@ -47,7 +47,7 @@
       }
     ]
   },
-  "money": { "asOf": "2026-10-17", "items": [] },
+  "money": { "asOf": "2026-10-26", "items": [] },
   "endorsements": {
     "asOf": "2026-10-07",
     "items": [
@@ -140,6 +140,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:52:02.543Z",
-    "version": 4
+    "version": 5
   }
 }

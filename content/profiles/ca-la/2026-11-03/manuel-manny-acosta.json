@@ -40,16 +40,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "City of South El Monte",
         "committee": "Manny Acosta for South El Monte Council 2026",
         "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=24948&dbid=0&repo=r-fe8f1ab6",
-        "period": "July 1 to September 19, 2026",
-        "raised": 812,
-        "cashOnHand": 21325.92,
+        "period": "September 20 to October 17, 2026",
+        "raised": 2450,
+        "cashOnHand": 16581.83,
         "fromScan": "ai"
       }
     ]
@@ -123,6 +123,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.937Z",
-    "version": 8
+    "version": 9
   }
 }

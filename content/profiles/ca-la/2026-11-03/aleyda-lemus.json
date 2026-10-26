@@ -22,16 +22,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "City of Maywood",
         "committee": "Lemus for City Council 2026",
         "url": "https://www.cityofmaywood.com/523/Campaign-Disclosure-Statements",
-        "period": "January 1 to September 19, 2026",
-        "raised": 3416.08,
-        "cashOnHand": 1158.94,
+        "period": "September 20 to October 17, 2026",
+        "raised": 1190,
+        "cashOnHand": 1315.29,
         "fromScan": "ocr"
       }
     ]
@@ -51,6 +51,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.486Z",
-    "version": 3
+    "version": 4
   }
 }

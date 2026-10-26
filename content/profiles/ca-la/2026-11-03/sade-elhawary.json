@@ -50,22 +50,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Sade Elhawary for Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1476905",
-        "period": "July 1 to September 19, 2026",
-        "raised": 93728.64,
-        "cashOnHand": 99743.55,
+        "period": "September 20 to October 17, 2026",
+        "raised": 122886.36,
+        "cashOnHand": 208700.16,
         "breakdown": [
-          { "kind": "large", "amount": 150 },
-          { "kind": "pac", "amount": 45478.64 },
-          { "kind": "other", "amount": 48100 }
+          { "kind": "small", "amount": 715 },
+          { "kind": "large", "amount": 27800 },
+          { "kind": "pac", "amount": 79571.36 },
+          { "kind": "other", "amount": 14800 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 88721.36, "count": 27 }
+        "largeSince": { "since": "2026-10-17", "total": 20200, "count": 3 }
       }
     ]
   },
@@ -253,11 +254,11 @@
     },
     {
       "id": 14,
-      "title": "November General Election Endorsements",
-      "publisher": "YIMBY Los Angeles",
-      "url": "https://yimby.la/voter-guide/november-general-election-endorsements/",
+      "title": "November 2026 California general",
+      "publisher": "YIMBY Action",
+      "url": "https://yimbyaction.org/endorsements/november-2026-california-general",
       "kind": "endorser",
-      "viewedAt": "2026-10-14"
+      "viewedAt": "2026-10-26"
     },
     {
       "id": 15,
@@ -352,6 +353,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.715Z",
-    "version": 5
+    "version": 7
   }
 }

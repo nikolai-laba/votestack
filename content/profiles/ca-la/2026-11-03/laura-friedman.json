@@ -100,19 +100,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Laura Friedman for Congress",
         "url": "https://www.fec.gov/data/committee/C00831321/?cycle=2026",
-        "period": "January 1, 2025 to September 30, 2026",
-        "raised": 941800.57,
-        "cashOnHand": 487967.6,
+        "period": "January 1, 2025 to October 14, 2026",
+        "raised": 994570.57,
+        "cashOnHand": 520548.06,
         "breakdown": [
-          { "kind": "small", "amount": 61253.22 },
-          { "kind": "large", "amount": 539633.84 },
-          { "kind": "pac", "amount": 335050 },
+          { "kind": "small", "amount": 62268.22 },
+          { "kind": "large", "amount": 572388.84 },
+          { "kind": "pac", "amount": 354050 },
           { "kind": "other", "amount": 5863.51 }
         ]
       }
@@ -596,6 +596,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.795Z",
-    "version": 5
+    "version": 6
   }
 }

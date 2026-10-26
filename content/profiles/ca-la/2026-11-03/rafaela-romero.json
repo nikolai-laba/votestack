@@ -27,17 +27,18 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Rafaela Romero for State Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1490749",
-        "period": "July 1 to September 19, 2026",
-        "raised": 3101.96,
-        "cashOnHand": 1365.22,
-        "breakdown": [{ "kind": "pac", "amount": 3101.96 }]
+        "period": "September 20 to October 17, 2026",
+        "raised": 177.6,
+        "cashOnHand": 1350.22,
+        "breakdown": [{ "kind": "candidate", "amount": 177.6 }],
+        "fromCandidate": 177.6
       }
     ]
   },
@@ -107,6 +108,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.704Z",
-    "version": 5
+    "version": 6
   }
 }

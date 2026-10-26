@@ -31,22 +31,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Liu for Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1485173",
-        "period": "July 1 to September 19, 2026",
-        "raised": 1760,
-        "cashOnHand": 4352.19,
+        "period": "September 20 to October 17, 2026",
+        "raised": 18695.37,
+        "cashOnHand": 2628.84,
         "breakdown": [
-          { "kind": "small", "amount": 510 },
-          { "kind": "large", "amount": 250 },
-          { "kind": "pac", "amount": 1000 }
+          { "kind": "small", "amount": 400.41 },
+          { "kind": "large", "amount": 4744.49 },
+          { "kind": "pac", "amount": 7389.74 },
+          { "kind": "other", "amount": 6160.73 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 15131.72, "count": 4 }
+        "largeSince": { "since": "2026-10-17", "total": 6900, "count": 2 }
       }
     ]
   },
@@ -284,6 +285,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.692Z",
-    "version": 5
+    "version": 6
   }
 }

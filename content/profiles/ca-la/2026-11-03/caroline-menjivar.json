@@ -58,23 +58,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Menjivar for Senate 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1456738",
-        "period": "July 1 to September 19, 2026",
-        "raised": 136305,
-        "cashOnHand": 383975.73,
+        "period": "September 20 to October 17, 2026",
+        "raised": 61450,
+        "cashOnHand": 345234.72,
         "breakdown": [
-          { "kind": "small", "amount": 10 },
-          { "kind": "large", "amount": 17545 },
-          { "kind": "pac", "amount": 71850 },
-          { "kind": "other", "amount": 46900 }
+          { "kind": "large", "amount": 6150 },
+          { "kind": "pac", "amount": 42100 },
+          { "kind": "other", "amount": 13200 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 61200, "count": 15 }
+        "largeSince": { "since": "2026-10-17", "total": 23200, "count": 5 }
       }
     ]
   },
@@ -451,6 +450,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.738Z",
-    "version": 6
+    "version": 7
   }
 }

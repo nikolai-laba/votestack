@@ -68,18 +68,18 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Jennifer Davis for Congress",
         "url": "https://www.fec.gov/data/committee/C00919142/?cycle=2026",
-        "period": "July 1, 2025 to September 30, 2026",
-        "raised": 1713426.25,
-        "cashOnHand": 444522.08,
+        "period": "July 1, 2025 to October 14, 2026",
+        "raised": 1782174.57,
+        "cashOnHand": 279746.97,
         "breakdown": [
-          { "kind": "small", "amount": 78829.13 },
-          { "kind": "large", "amount": 611847.12 },
+          { "kind": "small", "amount": 80598.71 },
+          { "kind": "large", "amount": 678825.86 },
           { "kind": "pac", "amount": 22750 },
           { "kind": "candidate", "amount": 1000000 }
         ],
@@ -373,6 +373,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:10:37.271Z",
-    "version": 6
+    "version": 7
   }
 }

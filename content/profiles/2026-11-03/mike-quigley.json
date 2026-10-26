@@ -83,18 +83,18 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Quigley for Congress",
         "url": "https://www.fec.gov/data/committee/C00457556/?cycle=2026",
-        "period": "January 1, 2025 to September 30, 2026",
-        "raised": 995514.45,
-        "cashOnHand": 1130501.07,
+        "period": "January 1, 2025 to October 14, 2026",
+        "raised": 998074.45,
+        "cashOnHand": 1102663.88,
         "breakdown": [
-          { "kind": "small", "amount": 7813.28 },
-          { "kind": "large", "amount": 256230 },
+          { "kind": "small", "amount": 7823.28 },
+          { "kind": "large", "amount": 258780 },
           { "kind": "pac", "amount": 582765.88 },
           { "kind": "other", "amount": 148705.29 }
         ]
@@ -411,6 +411,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:06:19.323Z",
-    "version": 12
+    "version": 13
   }
 }

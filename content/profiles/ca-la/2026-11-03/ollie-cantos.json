@@ -62,16 +62,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "City of West Covina",
         "committee": "Ollie Cantos For West Covina City Council",
         "url": "https://westcovina.gov/186/Campaign-Disclosure-Reports-Public-Offic",
-        "period": "July 1 to September 19, 2026",
-        "raised": 7955,
-        "cashOnHand": 36401.77,
+        "period": "September 20 to October 17, 2026",
+        "raised": 957,
+        "cashOnHand": 28248.47,
         "fromScan": "ai"
       }
     ]
@@ -156,6 +156,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.969Z",
-    "version": 4
+    "version": 5
   }
 }

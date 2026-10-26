@@ -8,17 +8,17 @@
   "tier": "mid",
   "overview": { "asOf": "2026-10-15", "items": [] },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "City of Maywood",
-        "committee": "Rodriguez for City Council 2025",
+        "committee": "Rodriguez for City Council 2026",
         "url": "https://www.cityofmaywood.com/523/Campaign-Disclosure-Statements",
-        "period": "January 1 to September 19, 2026",
-        "raised": 1833.5,
-        "cashOnHand": 1749.92,
-        "fromScan": "ocr"
+        "period": "September 20 to October 17, 2026",
+        "raised": 540,
+        "cashOnHand": 1268.82,
+        "fromScan": "ai"
       }
     ]
   },
@@ -28,6 +28,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.486Z",
-    "version": 3
+    "version": 4
   }
 }

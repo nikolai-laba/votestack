@@ -38,29 +38,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Donna Tryfman for Judge 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1487797",
-        "period": "July 1 to September 19, 2026",
-        "raised": 6800,
-        "cashOnHand": 999.6,
+        "period": "September 20 to October 17, 2026",
+        "raised": 16050,
+        "cashOnHand": 8570.24,
         "breakdown": [
           { "kind": "small", "amount": 50 },
-          { "kind": "large", "amount": 1500 },
-          { "kind": "pac", "amount": 250 },
-          { "kind": "candidate", "amount": 5000 }
+          { "kind": "candidate", "amount": 15000 },
+          { "kind": "other", "amount": 1000 }
         ],
-        "fromCandidate": 5000,
-        "largeSince": {
-          "since": "2026-09-19",
-          "total": 16000,
-          "count": 2,
-          "fromCandidate": 15000
-        }
+        "fromCandidate": 15000
       }
     ]
   },
@@ -334,6 +327,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.450Z",
-    "version": 8
+    "version": 9
   }
 }

@@ -38,20 +38,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Clayton for Judge 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1489455",
-        "period": "July 1 to September 19, 2026",
-        "raised": 1380.83,
-        "cashOnHand": 2393.75,
+        "period": "September 20 to October 17, 2026",
+        "raised": 1082.69,
+        "cashOnHand": 2144.27,
         "breakdown": [
-          { "kind": "small", "amount": 101.5 },
-          { "kind": "large", "amount": 979.33 },
-          { "kind": "pac", "amount": 300 }
+          { "kind": "small", "amount": 104.24 },
+          { "kind": "large", "amount": 978.45 }
         ]
       }
     ]
@@ -216,6 +215,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.263Z",
-    "version": 7
+    "version": 8
   }
 }

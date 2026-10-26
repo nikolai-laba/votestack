@@ -83,23 +83,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Gloria Romero For Lt. Governor 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1486862",
-        "period": "July 1 to September 19, 2026",
-        "raised": 53564,
-        "cashOnHand": 39052.84,
+        "period": "September 20 to October 17, 2026",
+        "raised": 43407.5,
+        "cashOnHand": 60333.14,
         "breakdown": [
-          { "kind": "small", "amount": 2241 },
-          { "kind": "large", "amount": 38654 },
-          { "kind": "pac", "amount": 11919 },
-          { "kind": "other", "amount": 750 }
-        ],
-        "largeSince": { "since": "2026-09-19", "total": 29500, "count": 7 }
+          { "kind": "small", "amount": 1974.5 },
+          { "kind": "large", "amount": 20833 },
+          { "kind": "pac", "amount": 1100 },
+          { "kind": "party", "amount": 17000 },
+          { "kind": "other", "amount": 2500 }
+        ]
       }
     ]
   },
@@ -264,6 +264,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.796Z",
-    "version": 5
+    "version": 6
   }
 }

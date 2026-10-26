@@ -58,23 +58,24 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Shirley Weber for Secretary of State 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1456658",
-        "period": "July 1 to September 19, 2026",
-        "raised": 59369.96,
-        "cashOnHand": 995408.12,
+        "period": "September 20 to October 17, 2026",
+        "raised": 40703.86,
+        "cashOnHand": 943421.83,
         "breakdown": [
-          { "kind": "small", "amount": 181 },
-          { "kind": "large", "amount": 560 },
-          { "kind": "pac", "amount": 49047.5 },
-          { "kind": "party", "amount": 9581.46 }
+          { "kind": "small", "amount": 653.75 },
+          { "kind": "large", "amount": 15607 },
+          { "kind": "pac", "amount": 9000 },
+          { "kind": "party", "amount": 15203.11 },
+          { "kind": "other", "amount": 240 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 26958.89, "count": 39 }
+        "largeSince": { "since": "2026-10-17", "total": 20845.75, "count": 4 }
       }
     ]
   },
@@ -502,6 +503,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.812Z",
-    "version": 6
+    "version": 7
   }
 }

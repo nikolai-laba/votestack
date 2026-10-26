@@ -52,21 +52,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Sydney Kamlager-Dove for Congress",
         "url": "https://www.fec.gov/data/committee/C00795823/?cycle=2026",
-        "period": "January 1, 2025 to September 30, 2026",
-        "raised": 1589294.29,
-        "cashOnHand": 189865.7,
+        "period": "January 1, 2025 to October 14, 2026",
+        "raised": 1644249.01,
+        "cashOnHand": 184759.92,
         "breakdown": [
-          { "kind": "small", "amount": 654644.3 },
-          { "kind": "large", "amount": 454683.24 },
-          { "kind": "pac", "amount": 476842.46 },
+          { "kind": "small", "amount": 687395.36 },
+          { "kind": "large", "amount": 465193.36 },
+          { "kind": "pac", "amount": 488534.16 },
           { "kind": "party", "amount": 1392.15 },
-          { "kind": "other", "amount": 1732.14 }
+          { "kind": "other", "amount": 1733.98 }
         ]
       }
     ]
@@ -393,6 +393,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.828Z",
-    "version": 7
+    "version": 8
   }
 }

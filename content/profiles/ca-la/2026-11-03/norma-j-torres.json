@@ -74,19 +74,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Norma Torres for Congress",
         "url": "https://www.fec.gov/data/committee/C00557652/?cycle=2026",
-        "period": "January 1, 2025 to September 30, 2026",
-        "raised": 884755.73,
-        "cashOnHand": 364185.83,
+        "period": "January 1, 2025 to October 14, 2026",
+        "raised": 922924.14,
+        "cashOnHand": 244896.64,
         "breakdown": [
-          { "kind": "small", "amount": 53797.06 },
-          { "kind": "large", "amount": 260691 },
-          { "kind": "pac", "amount": 566820 },
+          { "kind": "small", "amount": 58900.47 },
+          { "kind": "large", "amount": 279256 },
+          { "kind": "pac", "amount": 581320 },
           { "kind": "other", "amount": 3447.67 }
         ]
       }
@@ -322,6 +322,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.818Z",
-    "version": 5
+    "version": 6
   }
 }

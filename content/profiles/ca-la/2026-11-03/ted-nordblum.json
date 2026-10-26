@@ -31,25 +31,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Nordblum for State Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477458",
-        "period": "July 1 to September 19, 2026",
-        "raised": 92784.43,
-        "cashOnHand": 63387.22,
+        "period": "September 20 to October 17, 2026",
+        "raised": 36002,
+        "cashOnHand": 34693.77,
         "breakdown": [
-          { "kind": "small", "amount": 417 },
-          { "kind": "large", "amount": 74202 },
-          { "kind": "pac", "amount": 15165.43 },
-          { "kind": "candidate", "amount": 550 },
-          { "kind": "other", "amount": 2450 }
+          { "kind": "small", "amount": 582 },
+          { "kind": "large", "amount": 17520 },
+          { "kind": "pac", "amount": 14300 },
+          { "kind": "other", "amount": 3600 }
         ],
-        "fromCandidate": 550,
-        "largeSince": { "since": "2026-09-19", "total": 28250, "count": 9 }
+        "largeSince": { "since": "2026-10-17", "total": 4500, "count": 2 }
       }
     ]
   },
@@ -295,6 +293,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.675Z",
-    "version": 6
+    "version": 7
   }
 }

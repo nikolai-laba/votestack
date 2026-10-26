@@ -53,16 +53,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "City of Burbank",
         "committee": "Nikki Perez For City Council 2026",
         "url": "https://efile.burbankca.gov/public/search/campaign/filings/0a982402-0f8e-449a-981e-715c85c07830?type=committee",
-        "period": "July 1 to September 19, 2026",
-        "raised": 23616,
-        "cashOnHand": 14783.15
+        "period": "September 20 to October 17, 2026",
+        "raised": 18390,
+        "cashOnHand": 13547.19
       }
     ]
   },
@@ -395,6 +395,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.517Z",
-    "version": 4
+    "version": 5
   }
 }

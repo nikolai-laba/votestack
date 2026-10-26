@@ -68,20 +68,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Barragan for Congress",
         "url": "https://www.fec.gov/data/committee/C00577353/?cycle=2026",
-        "period": "January 1, 2025 to September 30, 2026",
-        "raised": 1007594.79,
-        "cashOnHand": 1113151.01,
+        "period": "January 1, 2025 to October 14, 2026",
+        "raised": 1021920.79,
+        "cashOnHand": 1083798.24,
         "breakdown": [
-          { "kind": "small", "amount": 4398.19 },
-          { "kind": "large", "amount": 208899.02 },
-          { "kind": "pac", "amount": 785250 },
-          { "kind": "other", "amount": 9047.58 }
+          { "kind": "small", "amount": 4440.19 },
+          { "kind": "large", "amount": 208949.02 },
+          { "kind": "pac", "amount": 799250 },
+          { "kind": "other", "amount": 9281.58 }
         ]
       }
     ]
@@ -332,6 +332,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.851Z",
-    "version": 5
+    "version": 6
   }
 }

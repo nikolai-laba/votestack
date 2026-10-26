@@ -35,24 +35,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Rickey Hayes for Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1488877",
-        "period": "July 1 to September 19, 2026",
-        "raised": 47099.45,
-        "cashOnHand": 32924.8,
+        "period": "September 20 to October 17, 2026",
+        "raised": 12950,
+        "cashOnHand": 19524.43,
         "breakdown": [
-          { "kind": "small", "amount": 489 },
-          { "kind": "large", "amount": 8755.45 },
-          { "kind": "pac", "amount": 27855 },
-          { "kind": "party", "amount": 9500 },
-          { "kind": "other", "amount": 500 }
+          { "kind": "small", "amount": 150 },
+          { "kind": "large", "amount": 6400 },
+          { "kind": "other", "amount": 6400 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 11900, "count": 3 }
+        "largeSince": { "since": "2026-10-17", "total": 1000, "count": 1 }
       }
     ]
   },
@@ -138,6 +136,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.670Z",
-    "version": 5
+    "version": 6
   }
 }

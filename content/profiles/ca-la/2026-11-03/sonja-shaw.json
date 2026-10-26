@@ -62,23 +62,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Shaw for Superintendent of Public Instruction 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1479719",
-        "period": "July 1 to September 19, 2026",
-        "raised": 114622.15,
-        "cashOnHand": 190009.98,
+        "period": "September 20 to October 17, 2026",
+        "raised": 62038.78,
+        "cashOnHand": 125599.54,
         "breakdown": [
-          { "kind": "small", "amount": 9492.1 },
-          { "kind": "large", "amount": 73765.05 },
-          { "kind": "pac", "amount": 18415 },
-          { "kind": "other", "amount": 12950 }
+          { "kind": "small", "amount": 5829.71 },
+          { "kind": "large", "amount": 36809.07 },
+          { "kind": "party", "amount": 9500 },
+          { "kind": "other", "amount": 9900 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 38100, "count": 8 }
+        "largeSince": { "since": "2026-10-17", "total": 2777, "count": 2 }
       }
     ]
   },
@@ -418,6 +418,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.817Z",
-    "version": 7
+    "version": 8
   }
 }

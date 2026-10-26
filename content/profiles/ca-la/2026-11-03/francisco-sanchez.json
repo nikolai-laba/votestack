@@ -6,21 +6,7 @@
   "contestIds": ["la-4348-cc10496"],
   "kind": "candidate",
   "tier": "mid",
-  "overview": {
-    "asOf": "2026-10-15",
-    "items": [
-      {
-        "text": "Francisco Sanchez is a community volunteer running for the Palmdale City Council District 4 seat.",
-        "cites": [1],
-        "sentences": [
-          {
-            "text": "Francisco Sanchez is a community volunteer running for the Palmdale City Council District 4 seat.",
-            "cites": [1]
-          }
-        ]
-      }
-    ]
-  },
+  "overview": { "asOf": "2026-10-15", "items": [] },
   "money": {
     "asOf": "2026-10-17",
     "items": [
@@ -36,20 +22,11 @@
     ]
   },
   "endorsements": { "asOf": "2026-10-15", "items": [] },
-  "sources": [
-    {
-      "id": 1,
-      "title": "Palmdale City Council Candidates for 2026",
-      "publisher": "Antelope Valley News",
-      "url": "https://www.antelopevalleynews.com/post/palmdale-city-council-candidates-for-2026",
-      "kind": "news",
-      "viewedAt": "2026-10-15"
-    }
-  ],
+  "sources": [],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.527Z",
-    "version": 3
+    "version": 4
   }
 }

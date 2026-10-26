@@ -69,22 +69,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "United with Delia for Congress",
         "url": "https://www.fec.gov/data/committee/C00796672/?cycle=2026",
-        "period": "January 1, 2025 to September 30, 2026",
-        "raised": 1603319.81,
-        "cashOnHand": 927412.22,
+        "period": "January 1, 2025 to October 14, 2026",
+        "raised": 1626337.17,
+        "cashOnHand": 913892.2,
         "breakdown": [
-          { "kind": "small", "amount": 172883.31 },
-          { "kind": "large", "amount": 925828.96 },
-          { "kind": "pac", "amount": 416846.85 },
+          { "kind": "small", "amount": 177752.87 },
+          { "kind": "large", "amount": 934430.96 },
+          { "kind": "pac", "amount": 426346.85 },
           { "kind": "party", "amount": 500 },
           { "kind": "transfer", "amount": 81350 },
-          { "kind": "other", "amount": 5910.69 }
+          { "kind": "other", "amount": 5956.49 }
         ]
       }
     ]
@@ -328,6 +328,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:36:19.694Z",
-    "version": 10
+    "version": 11
   }
 }

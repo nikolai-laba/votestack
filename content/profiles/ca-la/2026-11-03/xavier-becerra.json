@@ -65,27 +65,27 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Becerra for Governor 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1480025",
-        "period": "July 1 to September 19, 2026",
-        "raised": 12606128.01,
-        "cashOnHand": 7609499.29,
+        "period": "September 20 to October 17, 2026",
+        "raised": 6210526.49,
+        "cashOnHand": 7102436.8,
         "breakdown": [
-          { "kind": "small", "amount": 37541.07 },
-          { "kind": "large", "amount": 6329195.21 },
-          { "kind": "pac", "amount": 2138364.24 },
-          { "kind": "party", "amount": 58933.79 },
-          { "kind": "other", "amount": 4042093.7 }
+          { "kind": "small", "amount": 12908.61 },
+          { "kind": "large", "amount": 2306326.28 },
+          { "kind": "pac", "amount": 1038521.18 },
+          { "kind": "party", "amount": 937148.64 },
+          { "kind": "other", "amount": 1915621.78 }
         ],
         "largeSince": {
-          "since": "2026-09-19",
-          "total": 5637553.3,
-          "count": 503
+          "since": "2026-10-17",
+          "total": 1282256.51,
+          "count": 113
         }
       }
     ]
@@ -584,6 +584,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.784Z",
-    "version": 6
+    "version": 7
   }
 }

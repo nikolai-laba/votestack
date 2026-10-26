@@ -49,18 +49,18 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Cristian Morales for Congress",
         "url": "https://www.fec.gov/data/committee/C00944405/?cycle=2026",
-        "period": "January 1 to September 30, 2026",
-        "raised": 13995,
-        "cashOnHand": 330.74,
+        "period": "January 1 to October 14, 2026",
+        "raised": 14995,
+        "cashOnHand": 538.74,
         "breakdown": [
-          { "kind": "large", "amount": 1750 },
-          { "kind": "loan", "amount": 12245 }
+          { "kind": "large", "amount": 2250 },
+          { "kind": "loan", "amount": 12745 }
         ]
       }
     ]
@@ -173,6 +173,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.842Z",
-    "version": 5
+    "version": 6
   }
 }

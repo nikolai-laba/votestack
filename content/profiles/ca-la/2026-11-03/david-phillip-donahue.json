@@ -38,17 +38,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "City of Burbank",
         "committee": "David Donahue for Burbank City Council 2026",
         "url": "https://efile.burbankca.gov/public/search/campaign/filings/68008592-0e99-4d91-8fb4-1fd1f935aab1?type=committee",
-        "period": "July 1 to September 19, 2026",
-        "raised": 33073,
-        "cashOnHand": 12355.67,
-        "largeSince": { "since": "2026-09-19", "total": 10000, "count": 1 }
+        "period": "September 20 to October 17, 2026",
+        "raised": 26639,
+        "cashOnHand": 24598.67
       }
     ]
   },
@@ -195,6 +194,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.314Z",
-    "version": 4
+    "version": 5
   }
 }

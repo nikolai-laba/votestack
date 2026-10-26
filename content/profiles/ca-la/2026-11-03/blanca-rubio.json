@@ -58,22 +58,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Blanca Rubio for Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477068",
-        "period": "July 1 to September 19, 2026",
-        "raised": 199120.24,
-        "cashOnHand": 244282.42,
+        "period": "September 20 to October 17, 2026",
+        "raised": 112418.39,
+        "cashOnHand": 254503.7,
         "breakdown": [
-          { "kind": "large", "amount": 1000 },
-          { "kind": "pac", "amount": 68220.24 },
-          { "kind": "other", "amount": 129900 }
+          { "kind": "pac", "amount": 42600 },
+          { "kind": "other", "amount": 69818.39 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 103018.39, "count": 26 }
+        "largeSince": { "since": "2026-10-17", "total": 40500, "count": 10 }
       }
     ]
   },
@@ -214,6 +213,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.686Z",
-    "version": 6
+    "version": 7
   }
 }

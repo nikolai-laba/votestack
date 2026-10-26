@@ -48,16 +48,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "City of Burbank",
         "committee": "Brody for City Council 2026",
         "url": "https://efile.burbankca.gov/public/search/campaign/filings/ff0fa727-6762-497c-a225-10af78550ace?type=committee",
-        "period": "January 1 to September 19, 2026",
-        "raised": 6663.98,
-        "cashOnHand": 4504
+        "period": "September 20 to October 17, 2026",
+        "raised": 2173.45,
+        "cashOnHand": 5153.16
       }
     ]
   },
@@ -100,6 +100,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.323Z",
-    "version": 3
+    "version": 4
   }
 }

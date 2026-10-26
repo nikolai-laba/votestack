@@ -53,23 +53,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Herb Morgan For State Controller 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1480103",
-        "period": "July 1 to September 19, 2026",
-        "raised": 163829,
-        "cashOnHand": 139486.39,
+        "period": "September 20 to October 17, 2026",
+        "raised": 89387.6,
+        "cashOnHand": 118367.64,
         "breakdown": [
-          { "kind": "small", "amount": 6033.97 },
-          { "kind": "large", "amount": 140080.03 },
-          { "kind": "pac", "amount": 6915 },
-          { "kind": "other", "amount": 10800 }
+          { "kind": "small", "amount": 3453.04 },
+          { "kind": "large", "amount": 77409.56 },
+          { "kind": "pac", "amount": 8275 },
+          { "kind": "other", "amount": 250 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 49015.94, "count": 19 }
+        "largeSince": { "since": "2026-10-17", "total": 6500, "count": 5 }
       }
     ]
   },
@@ -471,6 +471,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.774Z",
-    "version": 6
+    "version": 7
   }
 }

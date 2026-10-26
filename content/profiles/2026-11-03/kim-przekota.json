@@ -20,15 +20,15 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "ISBE",
         "committee": "Kim Przekota for Judge",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=39493",
-        "period": "April 1 to June 30, 2026",
+        "period": "July 1 to September 30, 2026",
         "raised": 0,
-        "cashOnHand": 18605.75,
+        "cashOnHand": 17460.75,
         "breakdown": []
       }
     ]
@@ -204,6 +204,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:26:15.981Z",
-    "version": 10
+    "version": 11
   }
 }

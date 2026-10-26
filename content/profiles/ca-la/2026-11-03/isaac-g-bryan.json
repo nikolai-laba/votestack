@@ -54,24 +54,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Bryan for Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477262",
-        "period": "July 1 to September 19, 2026",
-        "raised": 83265,
-        "cashOnHand": 570663.17,
+        "period": "September 20 to October 17, 2026",
+        "raised": 100558,
+        "cashOnHand": 603287.71,
         "breakdown": [
-          { "kind": "small", "amount": 165 },
-          { "kind": "large", "amount": 18700 },
-          { "kind": "pac", "amount": 35500 },
-          { "kind": "party", "amount": 5000 },
-          { "kind": "other", "amount": 23900 }
+          { "kind": "small", "amount": 308 },
+          { "kind": "large", "amount": 11150 },
+          { "kind": "pac", "amount": 58400 },
+          { "kind": "other", "amount": 30700 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 97500, "count": 28 }
+        "largeSince": { "since": "2026-10-17", "total": 1000, "count": 1 }
       }
     ]
   },
@@ -516,6 +515,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.709Z",
-    "version": 8
+    "version": 9
   }
 }

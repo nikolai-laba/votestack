@@ -64,20 +64,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Melissa Bean for Congress",
         "url": "https://www.fec.gov/data/committee/C00919183/?cycle=2026",
-        "period": "July 1, 2025 to September 30, 2026",
-        "raised": 2421586.28,
-        "cashOnHand": 277513.65,
+        "period": "July 1, 2025 to October 14, 2026",
+        "raised": 2457207.28,
+        "cashOnHand": 301713.53,
         "breakdown": [
-          { "kind": "small", "amount": 31039.6 },
-          { "kind": "large", "amount": 1588274.79 },
-          { "kind": "pac", "amount": 458250 },
-          { "kind": "transfer", "amount": 11766.38 },
+          { "kind": "small", "amount": 31910.6 },
+          { "kind": "large", "amount": 1601024.79 },
+          { "kind": "pac", "amount": 478250 },
+          { "kind": "transfer", "amount": 13766.38 },
           { "kind": "candidate", "amount": 323000 },
           { "kind": "other", "amount": 9255.51 }
         ],
@@ -298,6 +298,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:37:40.031Z",
-    "version": 7
+    "version": 8
   }
 }

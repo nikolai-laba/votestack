@@ -63,25 +63,25 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Don Tracy for Illinois, NFP",
         "url": "https://www.fec.gov/data/committee/C00917120/?cycle=2026",
-        "period": "July 1, 2025 to September 30, 2026",
-        "raised": 4145964.36,
-        "cashOnHand": 1145405.83,
+        "period": "July 1, 2025 to October 14, 2026",
+        "raised": 4914363.45,
+        "cashOnHand": 483017.38,
         "breakdown": [
-          { "kind": "small", "amount": 67770.01 },
-          { "kind": "large", "amount": 503117.86 },
+          { "kind": "small", "amount": 69583.01 },
+          { "kind": "large", "amount": 519703.95 },
           { "kind": "pac", "amount": 22175 },
           { "kind": "party", "amount": 1250 },
           { "kind": "transfer", "amount": 4205 },
-          { "kind": "candidate", "amount": 3500000 },
+          { "kind": "candidate", "amount": 4250000 },
           { "kind": "other", "amount": 47446.49 }
         ],
-        "fromCandidate": 3500000
+        "fromCandidate": 4250000
       }
     ]
   },
@@ -245,6 +245,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T21:01:32.420Z",
-    "version": 6
+    "version": 7
   }
 }

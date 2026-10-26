@@ -45,23 +45,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Morales for Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1484996",
-        "period": "July 1 to September 19, 2026",
-        "raised": 19899,
-        "cashOnHand": 14804.08,
+        "period": "September 20 to October 17, 2026",
+        "raised": 5650,
+        "cashOnHand": 4875.26,
         "breakdown": [
-          { "kind": "small", "amount": 299 },
-          { "kind": "large", "amount": 14100 },
-          { "kind": "pac", "amount": 5000 },
-          { "kind": "other", "amount": 500 }
+          { "kind": "large", "amount": 4150 },
+          { "kind": "other", "amount": 1500 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 1000, "count": 1 }
+        "largeSince": { "since": "2026-10-17", "total": 1000, "count": 1 }
       }
     ]
   },
@@ -180,6 +178,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T14:05:39.845Z",
-    "version": 4
+    "version": 5
   }
 }

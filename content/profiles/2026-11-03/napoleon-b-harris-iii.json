@@ -57,7 +57,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "ISBE",
@@ -67,7 +67,7 @@
         "raised": 30400,
         "cashOnHand": 352908.56,
         "breakdown": [{ "kind": "large", "amount": 30400 }],
-        "largeSince": { "since": "2026-09-30", "total": 4500, "count": 4 }
+        "largeSince": { "since": "2026-09-30", "total": 20500, "count": 11 }
       }
     ]
   },
@@ -244,6 +244,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:49:27.692Z",
-    "version": 7
+    "version": 8
   }
 }

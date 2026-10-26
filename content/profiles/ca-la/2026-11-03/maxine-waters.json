@@ -62,19 +62,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Citizens for Waters",
         "url": "https://www.fec.gov/data/committee/C00167585/?cycle=2026",
-        "period": "January 1, 2025 to September 30, 2026",
-        "raised": 1038006.83,
-        "cashOnHand": 331539.91,
+        "period": "January 1, 2025 to October 14, 2026",
+        "raised": 1107267.34,
+        "cashOnHand": 104671.36,
         "breakdown": [
-          { "kind": "small", "amount": 36602.57 },
-          { "kind": "large", "amount": 364878 },
-          { "kind": "pac", "amount": 512000.01 },
+          { "kind": "small", "amount": 37163.08 },
+          { "kind": "large", "amount": 404078 },
+          { "kind": "pac", "amount": 541500.01 },
           { "kind": "other", "amount": 124526.25 }
         ]
       }
@@ -292,6 +292,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.847Z",
-    "version": 5
+    "version": 6
   }
 }

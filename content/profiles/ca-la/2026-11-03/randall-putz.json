@@ -43,23 +43,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Putz for Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1480258",
-        "period": "July 1 to September 19, 2026",
-        "raised": 52036.15,
-        "cashOnHand": 11309.44,
+        "period": "September 20 to October 17, 2026",
+        "raised": 15247.7,
+        "cashOnHand": 12324.13,
         "breakdown": [
-          { "kind": "small", "amount": 740.88 },
-          { "kind": "large", "amount": 27995.27 },
-          { "kind": "pac", "amount": 18300 },
-          { "kind": "other", "amount": 5000 }
+          { "kind": "small", "amount": 1073.6 },
+          { "kind": "large", "amount": 3524.1 },
+          { "kind": "pac", "amount": 10650 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 11400, "count": 4 }
+        "largeSince": { "since": "2026-10-17", "total": 1000, "count": 1 }
       }
     ]
   },
@@ -430,6 +429,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.662Z",
-    "version": 6
+    "version": 7
   }
 }

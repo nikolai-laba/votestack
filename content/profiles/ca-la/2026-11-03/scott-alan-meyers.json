@@ -53,23 +53,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Scott Meyers for Congress Ca30",
         "url": "https://www.fec.gov/data/committee/C00937912/?cycle=2026",
-        "period": "January 1 to September 30, 2026",
-        "raised": 117719.35,
-        "cashOnHand": 30000.47,
+        "period": "January 1 to October 14, 2026",
+        "raised": 122819.35,
+        "cashOnHand": 5241.6,
         "breakdown": [
-          { "kind": "small", "amount": 2009.32 },
+          { "kind": "small", "amount": 2109.32 },
           { "kind": "large", "amount": 17052.09 },
           { "kind": "pac", "amount": 350 },
-          { "kind": "candidate", "amount": 93800 },
+          { "kind": "candidate", "amount": 98800 },
           { "kind": "other", "amount": 4507.94 }
         ],
-        "fromCandidate": 93800
+        "fromCandidate": 98800
       }
     ]
   },
@@ -139,6 +139,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.797Z",
-    "version": 5
+    "version": 6
   }
 }

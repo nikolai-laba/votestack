@@ -54,21 +54,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Lisa Calderon for Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477264",
-        "period": "July 1 to September 19, 2026",
-        "raised": 124800,
-        "cashOnHand": 218917.77,
+        "period": "September 20 to October 17, 2026",
+        "raised": 91700,
+        "cashOnHand": 191556.78,
         "breakdown": [
-          { "kind": "pac", "amount": 66800 },
-          { "kind": "other", "amount": 58000 }
+          { "kind": "pac", "amount": 64800 },
+          { "kind": "other", "amount": 26900 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 82900, "count": 22 }
+        "largeSince": { "since": "2026-10-17", "total": 19700, "count": 6 }
       }
     ]
   },
@@ -289,6 +289,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.712Z",
-    "version": 5
+    "version": 6
   }
 }

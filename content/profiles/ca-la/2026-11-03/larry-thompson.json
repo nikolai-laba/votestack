@@ -65,21 +65,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Larry Thompson for Congress",
         "url": "https://www.fec.gov/data/committee/C00907626/?cycle=2026",
-        "period": "January 13, 2025 to September 30, 2026",
-        "raised": 52881.34,
-        "cashOnHand": 955.09,
+        "period": "January 13, 2025 to October 14, 2026",
+        "raised": 66331.34,
+        "cashOnHand": 7145.89,
         "breakdown": [
-          { "kind": "small", "amount": 1379 },
-          { "kind": "large", "amount": 7550 },
-          { "kind": "candidate", "amount": 43952.34 }
+          { "kind": "small", "amount": 1579 },
+          { "kind": "large", "amount": 8800 },
+          { "kind": "candidate", "amount": 55952.34 }
         ],
-        "fromCandidate": 43952.34
+        "fromCandidate": 55952.34
       }
     ]
   },
@@ -286,6 +286,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.808Z",
-    "version": 5
+    "version": 6
   }
 }

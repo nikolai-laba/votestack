@@ -39,23 +39,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Rhonda Shader for Senate 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1460521",
-        "period": "July 1 to September 19, 2026",
-        "raised": 27803,
-        "cashOnHand": 23221.15,
+        "period": "September 20 to October 17, 2026",
+        "raised": 14152,
+        "cashOnHand": 11454.7,
         "breakdown": [
-          { "kind": "small", "amount": 357 },
-          { "kind": "large", "amount": 12446 },
-          { "kind": "pac", "amount": 9500 },
-          { "kind": "other", "amount": 5500 }
-        ],
-        "largeSince": { "since": "2026-09-19", "total": 7900, "count": 4 }
+          { "kind": "small", "amount": 200 },
+          { "kind": "large", "amount": 10052 },
+          { "kind": "pac", "amount": 3900 }
+        ]
       }
     ]
   },
@@ -406,6 +404,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.764Z",
-    "version": 5
+    "version": 6
   }
 }

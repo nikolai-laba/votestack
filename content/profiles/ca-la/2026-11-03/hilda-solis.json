@@ -65,19 +65,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Hilda Solis for Congress",
         "url": "https://www.fec.gov/data/committee/C00917542/?cycle=2026",
-        "period": "July 1, 2025 to September 30, 2026",
-        "raised": 1417048.13,
-        "cashOnHand": 288831.53,
+        "period": "July 1, 2025 to October 14, 2026",
+        "raised": 1482148.13,
+        "cashOnHand": 284506.89,
         "breakdown": [
-          { "kind": "small", "amount": 46079.44 },
-          { "kind": "large", "amount": 1121377.76 },
-          { "kind": "pac", "amount": 175749 },
+          { "kind": "small", "amount": 47054.44 },
+          { "kind": "large", "amount": 1142002.76 },
+          { "kind": "pac", "amount": 219249 },
           { "kind": "other", "amount": 73841.93 }
         ]
       }
@@ -534,6 +534,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.829Z",
-    "version": 5
+    "version": 6
   }
 }

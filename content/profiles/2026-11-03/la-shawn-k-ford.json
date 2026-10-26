@@ -52,19 +52,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "La Shawn K Ford for Congress",
         "url": "https://www.fec.gov/data/committee/C00905893/?cycle=2026",
-        "period": "April 1, 2025 to September 30, 2026",
-        "raised": 816412.56,
-        "cashOnHand": 102272.04,
+        "period": "April 1, 2025 to October 14, 2026",
+        "raised": 819320.56,
+        "cashOnHand": 93472.06,
         "breakdown": [
-          { "kind": "small", "amount": 38328.34 },
-          { "kind": "large", "amount": 472462 },
-          { "kind": "pac", "amount": 121250 },
+          { "kind": "small", "amount": 38391.34 },
+          { "kind": "large", "amount": 473307 },
+          { "kind": "pac", "amount": 123250 },
           { "kind": "candidate", "amount": 175000 },
           { "kind": "other", "amount": 9372.22 }
         ],
@@ -436,6 +436,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:10:25.895Z",
-    "version": 8
+    "version": 9
   }
 }

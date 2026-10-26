@@ -80,21 +80,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Sherman for Congress",
         "url": "https://www.fec.gov/data/committee/C00308742/?cycle=2026",
-        "period": "January 1, 2025 to September 30, 2026",
-        "raised": 2841425.26,
-        "cashOnHand": 2647138.83,
+        "period": "January 1, 2025 to October 14, 2026",
+        "raised": 2899860.15,
+        "cashOnHand": 2673243.15,
         "breakdown": [
-          { "kind": "small", "amount": 12195.82 },
-          { "kind": "large", "amount": 1498034.76 },
-          { "kind": "pac", "amount": 828424 },
+          { "kind": "small", "amount": 12830.71 },
+          { "kind": "large", "amount": 1504834.76 },
+          { "kind": "pac", "amount": 859424 },
           { "kind": "transfer", "amount": 48283.11 },
-          { "kind": "other", "amount": 454487.57 }
+          { "kind": "other", "amount": 474487.57 }
         ]
       }
     ]
@@ -504,6 +504,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.804Z",
-    "version": 5
+    "version": 6
   }
 }

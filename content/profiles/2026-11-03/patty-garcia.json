@@ -58,19 +58,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Patty Garcia for Congress",
         "url": "https://www.fec.gov/data/committee/C00925495/?cycle=2026",
-        "period": "October 1, 2025 to September 30, 2026",
-        "raised": 481883.49,
-        "cashOnHand": 172569.74,
+        "period": "October 1, 2025 to October 14, 2026",
+        "raised": 526691.49,
+        "cashOnHand": 156711.17,
         "breakdown": [
-          { "kind": "small", "amount": 31598.59 },
-          { "kind": "large", "amount": 198510 },
-          { "kind": "pac", "amount": 238100.01 },
+          { "kind": "small", "amount": 33300.59 },
+          { "kind": "large", "amount": 213090 },
+          { "kind": "pac", "amount": 266626.01 },
           { "kind": "other", "amount": 13674.89 }
         ]
       }
@@ -453,6 +453,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:36:19.694Z",
-    "version": 9
+    "version": 10
   }
 }

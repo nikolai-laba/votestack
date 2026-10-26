@@ -21,18 +21,18 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Eric Ching for Congress",
         "url": "https://www.fec.gov/data/committee/C00776930/?cycle=2026",
-        "period": "January 1, 2025 to September 30, 2026",
-        "raised": 96569.8,
-        "cashOnHand": 14302.41,
+        "period": "January 1, 2025 to October 14, 2026",
+        "raised": 97169.8,
+        "cashOnHand": 10375.02,
         "breakdown": [
-          { "kind": "small", "amount": 6586.47 },
-          { "kind": "large", "amount": 89733.33 },
+          { "kind": "small", "amount": 6686.47 },
+          { "kind": "large", "amount": 90233.33 },
           { "kind": "other", "amount": 250 }
         ]
       }
@@ -112,6 +112,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.799Z",
-    "version": 6
+    "version": 7
   }
 }
