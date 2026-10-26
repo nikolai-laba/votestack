@@ -58,22 +58,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Friends of Solache for Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477768",
-        "period": "July 1 to September 19, 2026",
-        "raised": 130250,
-        "cashOnHand": 370354.43,
+        "period": "September 20 to October 17, 2026",
+        "raised": 97675,
+        "cashOnHand": 368833.65,
         "breakdown": [
-          { "kind": "large", "amount": 1500 },
-          { "kind": "pac", "amount": 66550 },
-          { "kind": "other", "amount": 62200 }
+          { "kind": "small", "amount": 75 },
+          { "kind": "large", "amount": 11800 },
+          { "kind": "pac", "amount": 70800 },
+          { "kind": "other", "amount": 15000 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 109400, "count": 32 }
+        "largeSince": { "since": "2026-10-17", "total": 3400, "count": 2 }
       }
     ]
   },
@@ -298,6 +299,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.718Z",
-    "version": 5
+    "version": 6
   }
 }

@@ -9,6 +9,10 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 - `npm run usage:report -- --open` now opens the v2 usage report (report-v2.html), and every run prints its file link. Both reports are still written. Internal tooling, not visible on the site.
 
+### Fixed
+
+- Cook County campaign money keeps showing a candidate's latest quarterly report with figures while a newer one is filed but not yet in the state's data files. Before, the candidate's money disappeared until the new figures arrived.
+
 ## [1.5.2] - 2026-10-25
 
 ### Added

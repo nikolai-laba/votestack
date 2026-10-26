@@ -47,21 +47,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Martinez for State Senate 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1488744",
-        "period": "July 1 to September 19, 2026",
-        "raised": 14520.62,
-        "cashOnHand": 21946,
+        "period": "September 20 to October 17, 2026",
+        "raised": 13180,
+        "cashOnHand": 30808.16,
         "breakdown": [
-          { "kind": "small", "amount": 1736 },
-          { "kind": "large", "amount": 12784.62 }
+          { "kind": "small", "amount": 1379 },
+          { "kind": "large", "amount": 10301 },
+          { "kind": "pac", "amount": 1000 },
+          { "kind": "other", "amount": 500 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 5551, "count": 4 }
+        "largeSince": { "since": "2026-10-17", "total": 1000, "count": 1 }
       }
     ]
   },
@@ -131,6 +133,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.757Z",
-    "version": 5
+    "version": 6
   }
 }

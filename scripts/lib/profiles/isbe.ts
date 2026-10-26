@@ -377,12 +377,12 @@ export async function loadReports(
   return out
 }
 
-/** The latest quarterly report that covers a period ending on or before `today`. */
-export function latestQuarterly(
+/** Quarterly reports for periods ending on or before `today`, latest first. */
+export function quarterliesOf(
   reports: IsbeReport[],
   committeeId: string,
   today: string,
-): IsbeReport | undefined {
+): IsbeReport[] {
   return reports
     .filter(
       (r) =>
@@ -393,7 +393,34 @@ export function latestQuarterly(
     )
     .sort(
       (a, b) => b.end.localeCompare(a.end) || b.filed.localeCompare(a.filed),
-    )[0]
+    )
+}
+
+/** The latest quarterly report that covers a period ending on or before `today`. */
+export function latestQuarterly(
+  reports: IsbeReport[],
+  committeeId: string,
+  today: string,
+): IsbeReport | undefined {
+  return quarterliesOf(reports, committeeId, today)[0]
+}
+
+/**
+ * The quarterly to show: the latest one whose totals are in the D-2 file. A
+ * report can be listed in FiledDocs days before its totals arrive (paper
+ * filings are keyed in later); until then the one before it still stands, and
+ * the newer one is returned as `pending`.
+ */
+export function shownQuarterly(
+  reports: IsbeReport[],
+  committeeId: string,
+  today: string,
+  hasTotals: (reportId: string) => boolean,
+): { quarterly?: IsbeReport; pending?: IsbeReport } {
+  const all = quarterliesOf(reports, committeeId, today)
+  const quarterly = all.find((r) => hasTotals(r.id))
+  const pending = all[0] && all[0] !== quarterly ? all[0] : undefined
+  return { ...(quarterly && { quarterly }), ...(pending && { pending }) }
 }
 
 export async function loadTotals(

@@ -65,19 +65,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Luz Rivas for Congress",
         "url": "https://www.fec.gov/data/committee/C00857417/?cycle=2026",
-        "period": "January 1, 2025 to September 30, 2026",
-        "raised": 858501.05,
-        "cashOnHand": 359811.73,
+        "period": "January 1, 2025 to October 14, 2026",
+        "raised": 1032475.21,
+        "cashOnHand": 296150.2,
         "breakdown": [
-          { "kind": "small", "amount": 15065.09 },
-          { "kind": "large", "amount": 394751.87 },
-          { "kind": "pac", "amount": 446789.68 },
+          { "kind": "small", "amount": 16724.98 },
+          { "kind": "large", "amount": 559066.14 },
+          { "kind": "pac", "amount": 454789.68 },
           { "kind": "other", "amount": 1894.41 }
         ]
       }
@@ -494,6 +494,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.789Z",
-    "version": 8
+    "version": 9
   }
 }

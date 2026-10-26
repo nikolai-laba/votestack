@@ -31,7 +31,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "ISBE",
@@ -92,6 +92,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:40:00.845Z",
-    "version": 6
+    "version": 7
   }
 }

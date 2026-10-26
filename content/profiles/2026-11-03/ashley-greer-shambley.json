@@ -43,21 +43,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Ashley Greer Shambley for Judge",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40608",
-        "period": "April 1 to June 30, 2026",
-        "raised": 9306.4,
-        "cashOnHand": 344.95,
+        "period": "July 1 to September 30, 2026",
+        "raised": 7087.26,
+        "cashOnHand": 28,
         "breakdown": [
-          { "kind": "small", "amount": 840 },
-          { "kind": "large", "amount": 1450 },
-          { "kind": "candidate", "amount": 7016.4 }
+          { "kind": "candidate", "amount": 7000 },
+          { "kind": "other", "amount": 87.26 }
         ],
-        "fromCandidate": 7016.4
+        "fromCandidate": 7000
       }
     ]
   },
@@ -211,6 +210,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:25:02.446Z",
-    "version": 9
+    "version": 10
   }
 }

@@ -76,19 +76,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Bill Foster for Congress",
         "url": "https://www.fec.gov/data/committee/C00435099/?cycle=2026",
-        "period": "January 1, 2025 to September 30, 2026",
-        "raised": 2535531.9,
-        "cashOnHand": 2617546.93,
+        "period": "January 1, 2025 to October 14, 2026",
+        "raised": 2588027.45,
+        "cashOnHand": 2629689.37,
         "breakdown": [
-          { "kind": "small", "amount": 149493.92 },
-          { "kind": "large", "amount": 1285850.21 },
-          { "kind": "pac", "amount": 985500 },
+          { "kind": "small", "amount": 151738.92 },
+          { "kind": "large", "amount": 1331100.76 },
+          { "kind": "pac", "amount": 990500 },
           { "kind": "transfer", "amount": 8334.45 },
           { "kind": "other", "amount": 106353.32 }
         ]
@@ -312,6 +312,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:36:19.694Z",
-    "version": 12
+    "version": 13
   }
 }

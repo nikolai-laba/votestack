@@ -91,19 +91,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Jonathan Jackson for Congress",
         "url": "https://www.fec.gov/data/committee/C00802603/?cycle=2026",
-        "period": "January 1, 2025 to September 30, 2026",
-        "raised": 514698.04,
-        "cashOnHand": 32484.2,
+        "period": "January 1, 2025 to October 14, 2026",
+        "raised": 539051.41,
+        "cashOnHand": 40069.83,
         "breakdown": [
-          { "kind": "small", "amount": 11665.17 },
-          { "kind": "large", "amount": 291996 },
-          { "kind": "pac", "amount": 191500 },
+          { "kind": "small", "amount": 12665.17 },
+          { "kind": "large", "amount": 306777 },
+          { "kind": "pac", "amount": 200072.37 },
           { "kind": "other", "amount": 19536.87 }
         ]
       }
@@ -375,6 +375,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:36:19.694Z",
-    "version": 10
+    "version": 11
   }
 }

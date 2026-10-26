@@ -53,27 +53,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Mike Netter For California State Senate 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1488396",
-        "period": "July 1 to September 19, 2026",
-        "raised": 5447.76,
-        "cashOnHand": 7384.44,
+        "period": "September 20 to October 17, 2026",
+        "raised": 5915,
+        "cashOnHand": 1320.29,
         "breakdown": [
-          { "kind": "small", "amount": 532.76 },
-          { "kind": "large", "amount": 4825 },
-          { "kind": "pac", "amount": 90 }
+          { "kind": "small", "amount": 265 },
+          { "kind": "large", "amount": 1150 },
+          { "kind": "pac", "amount": 3000 },
+          { "kind": "candidate", "amount": 1500 }
         ],
-        "largeSince": {
-          "since": "2026-09-19",
-          "total": 4500,
-          "count": 4,
-          "fromCandidate": 1500
-        }
+        "fromCandidate": 1500
       }
     ]
   },
@@ -271,6 +267,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.741Z",
-    "version": 5
+    "version": 6
   }
 }

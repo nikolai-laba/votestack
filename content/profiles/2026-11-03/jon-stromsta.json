@@ -34,18 +34,9 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
-    "items": [
-      {
-        "source": "ISBE",
-        "committee": "Friends for Jon Stromsta",
-        "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40843",
-        "period": "July 1 to September 30, 2026",
-        "raised": 0,
-        "cashOnHand": 0,
-        "breakdown": []
-      }
-    ]
+    "asOf": "2026-10-26",
+    "items": [],
+    "noCommittee": { "filedWith": "Illinois State Board of Elections" }
   },
   "endorsements": {
     "asOf": "2026-10-07",
@@ -208,6 +199,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:30:22.178Z",
-    "version": 10
+    "version": 11
   }
 }

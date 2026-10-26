@@ -49,16 +49,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "City of Claremont",
         "committee": "Jennifer Stark for Claremont City Council 2026",
         "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=306310&dbid=0&repo=r-634094de",
-        "period": "July 1 to September 19, 2026",
-        "raised": 9097,
-        "cashOnHand": 4050.93,
+        "period": "September 20 to October 17, 2026",
+        "raised": 1446,
+        "cashOnHand": 1963.44,
         "fromScan": "ai"
       }
     ]
@@ -133,6 +133,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.535Z",
-    "version": 4
+    "version": 5
   }
 }

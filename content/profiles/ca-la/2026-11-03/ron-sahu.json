@@ -52,17 +52,17 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "City of Alhambra",
         "committee": "Sahu for City Council 2026",
         "url": "https://www.alhambraca.gov/DocumentCenter/Index/29",
-        "period": "July 1 to September 19, 2026",
-        "raised": 21254,
-        "cashOnHand": 54952.2,
-        "fromScan": "ai"
+        "period": "September 20 to October 17, 2026",
+        "raised": 1050,
+        "cashOnHand": 19519.65,
+        "fromScan": "ocr"
       }
     ]
   },
@@ -143,6 +143,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.466Z",
-    "version": 3
+    "version": 4
   }
 }

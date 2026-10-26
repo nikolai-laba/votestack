@@ -71,21 +71,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Juliana for Illinois",
         "url": "https://www.fec.gov/data/committee/C00903252/?cycle=2026",
-        "period": "April 24, 2025 to September 30, 2026",
-        "raised": 7089488.11,
-        "cashOnHand": 1645967.22,
+        "period": "April 24, 2025 to October 14, 2026",
+        "raised": 7230576.52,
+        "cashOnHand": 1541584.8,
         "breakdown": [
-          { "kind": "small", "amount": 1331959.95 },
-          { "kind": "large", "amount": 3952273.57 },
-          { "kind": "pac", "amount": 578133.99 },
+          { "kind": "small", "amount": 1363177.86 },
+          { "kind": "large", "amount": 4009848.99 },
+          { "kind": "pac", "amount": 598233.99 },
           { "kind": "transfer", "amount": 1072500 },
-          { "kind": "other", "amount": 154620.6 }
+          { "kind": "other", "amount": 186815.68 }
         ]
       }
     ]
@@ -628,6 +628,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T21:01:51.068Z",
-    "version": 6
+    "version": 7
   }
 }

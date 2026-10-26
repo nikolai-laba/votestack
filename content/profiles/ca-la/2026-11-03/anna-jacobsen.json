@@ -48,16 +48,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "City of Claremont",
         "committee": "Anna Jacobsen for Claremont City Council 2026",
         "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=304995&dbid=0&repo=r-634094de",
-        "period": "July 1 to September 19, 2026",
-        "raised": 2989,
-        "cashOnHand": 10815.41,
+        "period": "September 20 to October 17, 2026",
+        "raised": 1037,
+        "cashOnHand": 6278.17,
         "fromScan": "ai"
       }
     ]
@@ -206,6 +206,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.339Z",
-    "version": 3
+    "version": 4
   }
 }

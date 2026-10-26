@@ -60,13 +60,13 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "Los Angeles City Ethics Commission",
         "committee": "Jose Ugarte for City Council 2026-General",
-        "url": "https://ethics.lacity.org/view/?document_id=146830",
+        "url": "https://ethics.lacity.org/view/?document_id=148436",
         "period": "July 1 to September 19, 2026",
         "raised": 120301,
         "cashOnHand": 134009.48,
@@ -357,11 +357,11 @@
     },
     {
       "id": 9,
-      "title": "November General Election Endorsements",
+      "title": "November 2026 California general",
       "publisher": "YIMBY Action",
-      "url": "https://yimby.la/voter-guide/november-general-election-endorsements/",
+      "url": "https://yimbyaction.org/endorsements/november-2026-california-general",
       "kind": "endorser",
-      "viewedAt": "2026-10-14"
+      "viewedAt": "2026-10-26"
     },
     {
       "title": "ANCA Western Region 2026 General Election Endorsements",
@@ -376,6 +376,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.451Z",
-    "version": 7
+    "version": 9
   }
 }

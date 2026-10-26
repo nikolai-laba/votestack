@@ -55,7 +55,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
@@ -66,7 +66,7 @@
         "raised": 12795,
         "cashOnHand": 57426.27,
         "fromScan": "ocr",
-        "largeSince": { "since": "2026-09-19", "total": 4500, "count": 3 }
+        "largeSince": { "since": "2026-09-19", "total": 5500, "count": 4 }
       }
     ]
   },
@@ -344,6 +344,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.788Z",
-    "version": 4
+    "version": 5
   }
 }

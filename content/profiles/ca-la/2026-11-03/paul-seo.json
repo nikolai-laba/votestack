@@ -39,23 +39,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Paul Seo for Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477831",
-        "period": "July 1 to September 19, 2026",
-        "raised": 271786.76,
-        "cashOnHand": 129038.76,
+        "period": "September 20 to October 17, 2026",
+        "raised": 245101.92,
+        "cashOnHand": 84681.34,
         "breakdown": [
-          { "kind": "small", "amount": 159 },
-          { "kind": "large", "amount": 68448.84 },
-          { "kind": "pac", "amount": 143578.92 },
-          { "kind": "other", "amount": 59600 }
+          { "kind": "small", "amount": 1452 },
+          { "kind": "large", "amount": 72398 },
+          { "kind": "pac", "amount": 132551.92 },
+          { "kind": "other", "amount": 38700 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 190700, "count": 54 }
+        "largeSince": { "since": "2026-10-17", "total": 29200, "count": 10 }
       }
     ]
   },
@@ -430,6 +430,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.726Z",
-    "version": 7
+    "version": 8
   }
 }

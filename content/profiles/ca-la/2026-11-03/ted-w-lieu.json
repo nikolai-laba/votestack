@@ -84,19 +84,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Ted Lieu for Congress",
         "url": "https://www.fec.gov/data/committee/C00556506/?cycle=2026",
-        "period": "January 1, 2025 to September 30, 2026",
-        "raised": 2154247.64,
-        "cashOnHand": 1209352.98,
+        "period": "January 1, 2025 to October 14, 2026",
+        "raised": 2218447.53,
+        "cashOnHand": 1181424.01,
         "breakdown": [
-          { "kind": "small", "amount": 44578.38 },
-          { "kind": "large", "amount": 1045031.68 },
-          { "kind": "pac", "amount": 704229.17 },
+          { "kind": "small", "amount": 45248.27 },
+          { "kind": "large", "amount": 1078061.68 },
+          { "kind": "pac", "amount": 734729.17 },
           { "kind": "transfer", "amount": 337303.8 },
           { "kind": "other", "amount": 23104.61 }
         ]
@@ -374,6 +374,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.822Z",
-    "version": 6
+    "version": 7
   }
 }

@@ -35,23 +35,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Ayanna Davis for Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1478609",
-        "period": "July 1 to September 19, 2026",
-        "raised": 221144.76,
-        "cashOnHand": 203741.17,
+        "period": "September 20 to October 17, 2026",
+        "raised": 131389.92,
+        "cashOnHand": 196135.95,
         "breakdown": [
-          { "kind": "small", "amount": 494.76 },
-          { "kind": "large", "amount": 24650 },
-          { "kind": "pac", "amount": 154000 },
-          { "kind": "other", "amount": 42000 }
+          { "kind": "large", "amount": 19500 },
+          { "kind": "pac", "amount": 89300 },
+          { "kind": "other", "amount": 22589.92 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 126000, "count": 32 }
+        "largeSince": { "since": "2026-10-17", "total": 32851.92, "count": 10 }
       }
     ]
   },
@@ -506,6 +505,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.723Z",
-    "version": 5
+    "version": 6
   }
 }

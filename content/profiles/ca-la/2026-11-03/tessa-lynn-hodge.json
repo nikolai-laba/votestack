@@ -49,18 +49,18 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Tessa Lynn Hodge for Congress",
         "url": "https://www.fec.gov/data/committee/C00899138/?cycle=2026",
-        "period": "January 1, 2025 to September 30, 2026",
-        "raised": 122527.27,
-        "cashOnHand": 17465.69,
+        "period": "January 1, 2025 to October 14, 2026",
+        "raised": 126771.66,
+        "cashOnHand": 12434.33,
         "breakdown": [
-          { "kind": "small", "amount": 45972.69 },
-          { "kind": "large", "amount": 67328.58 },
+          { "kind": "small", "amount": 47245.29 },
+          { "kind": "large", "amount": 70300.37 },
           { "kind": "candidate", "amount": 9080.4 },
           { "kind": "other", "amount": 145.6 }
         ],
@@ -267,6 +267,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.763Z",
-    "version": 5
+    "version": 6
   }
 }

@@ -54,27 +54,29 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Brian Goldsmith for State Senate 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1480404",
-        "period": "July 1 to September 19, 2026",
-        "raised": 481973,
-        "cashOnHand": 182330.82,
+        "period": "September 20 to October 17, 2026",
+        "raised": 1923510.25,
+        "cashOnHand": 231580.94,
         "breakdown": [
-          { "kind": "small", "amount": 685 },
-          { "kind": "large", "amount": 424188 },
-          { "kind": "pac", "amount": 43700 },
-          { "kind": "other", "amount": 13400 }
+          { "kind": "small", "amount": 357.25 },
+          { "kind": "large", "amount": 242903 },
+          { "kind": "pac", "amount": 67850 },
+          { "kind": "candidate", "amount": 1600000 },
+          { "kind": "other", "amount": 12400 }
         ],
+        "fromCandidate": 1600000,
         "largeSince": {
-          "since": "2026-09-19",
-          "total": 1862150,
-          "count": 95,
-          "fromCandidate": 1600000
+          "since": "2026-10-17",
+          "total": 580200,
+          "count": 28,
+          "fromCandidate": 500000
         }
       }
     ]
@@ -498,6 +500,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.745Z",
-    "version": 7
+    "version": 8
   }
 }

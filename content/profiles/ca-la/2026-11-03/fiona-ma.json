@@ -58,24 +58,24 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Fiona Ma for Lieutenant Governor 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1457360",
-        "period": "July 1 to September 19, 2026",
-        "raised": 276504.97,
-        "cashOnHand": 1524860.26,
+        "period": "September 20 to October 17, 2026",
+        "raised": 357106.16,
+        "cashOnHand": 957546.19,
         "breakdown": [
-          { "kind": "small", "amount": 460.2 },
-          { "kind": "large", "amount": 100545 },
-          { "kind": "pac", "amount": 121497.19 },
-          { "kind": "party", "amount": 9852.58 },
-          { "kind": "other", "amount": 44150 }
+          { "kind": "small", "amount": 294 },
+          { "kind": "large", "amount": 112674.59 },
+          { "kind": "pac", "amount": 69995 },
+          { "kind": "party", "amount": 11059.57 },
+          { "kind": "other", "amount": 163083 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 229169.5, "count": 62 }
+        "largeSince": { "since": "2026-10-17", "total": 96801, "count": 27 }
       }
     ]
   },
@@ -593,6 +593,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.793Z",
-    "version": 6
+    "version": 7
   }
 }

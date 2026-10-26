@@ -59,7 +59,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "ISBE",
@@ -73,7 +73,8 @@
           { "kind": "large", "amount": 79550 },
           { "kind": "transfer", "amount": 59500 },
           { "kind": "other", "amount": 1150.68 }
-        ]
+        ],
+        "largeSince": { "since": "2026-09-30", "total": 55500, "count": 24 }
       }
     ]
   },
@@ -319,6 +320,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T18:17:17.332Z",
-    "version": 10
+    "version": 11
   }
 }

@@ -27,17 +27,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Marsh for Assembly 2026; Paul",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1483979",
-        "period": "July 1 to September 19, 2026",
-        "raised": 100,
-        "cashOnHand": 1542.49,
-        "breakdown": [{ "kind": "large", "amount": 100 }]
+        "period": "September 20 to October 17, 2026",
+        "raised": 0,
+        "cashOnHand": 1527.49
       }
     ]
   },
@@ -86,6 +85,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.666Z",
-    "version": 5
+    "version": 6
   }
 }

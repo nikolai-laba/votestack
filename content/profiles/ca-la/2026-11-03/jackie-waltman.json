@@ -52,16 +52,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "City of Burbank",
         "committee": "Jackie Waltman for Burbank City Council 2026",
         "url": "https://efile.burbankca.gov/public/search/campaign/filings/241a60cd-3740-4ed7-9488-ba356b657d66?type=committee",
-        "period": "August 17 to September 23, 2026",
-        "raised": 22550,
-        "cashOnHand": 13805.26
+        "period": "September 20 to October 17, 2026",
+        "raised": 1720,
+        "cashOnHand": 7794.38
       }
     ]
   },
@@ -112,6 +112,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.318Z",
-    "version": 3
+    "version": 4
   }
 }

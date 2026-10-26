@@ -53,23 +53,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Rascon for State Senate 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1481478",
-        "period": "July 1 to September 19, 2026",
-        "raised": 63506.08,
-        "cashOnHand": 136815.59,
+        "period": "September 20 to October 17, 2026",
+        "raised": 105174.55,
+        "cashOnHand": 229240.97,
         "breakdown": [
-          { "kind": "small", "amount": 1762.11 },
-          { "kind": "large", "amount": 38242.01 },
-          { "kind": "pac", "amount": 17601.96 },
-          { "kind": "other", "amount": 5900 }
+          { "kind": "small", "amount": 739.32 },
+          { "kind": "large", "amount": 29635.23 },
+          { "kind": "pac", "amount": 73800 },
+          { "kind": "other", "amount": 1000 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 77097.43, "count": 21 }
+        "largeSince": { "since": "2026-10-17", "total": 2047.43, "count": 2 }
       }
     ]
   },
@@ -379,6 +379,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.751Z",
-    "version": 5
+    "version": 6
   }
 }

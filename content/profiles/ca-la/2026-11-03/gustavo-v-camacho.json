@@ -45,17 +45,17 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "City of Pico Rivera",
         "committee": "Camacho for City Council 2026",
-        "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=244966&dbid=0&repo=r-0aa0087e",
-        "period": "July 1 to December 31, 2025",
-        "raised": 17250,
-        "cashOnHand": 11104.64,
-        "fromScan": "ocr"
+        "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=320091&dbid=0&repo=r-0aa0087e",
+        "period": "January 1 to June 30, 2026",
+        "raised": 1000,
+        "cashOnHand": 8985.04,
+        "fromScan": "ai"
       }
     ]
   },
@@ -164,6 +164,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.816Z",
-    "version": 4
+    "version": 5
   }
 }

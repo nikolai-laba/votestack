@@ -34,22 +34,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "City of Burbank",
         "committee": "Hovanes Tonoyan for Burbank City Council 2026",
         "url": "https://efile.burbankca.gov/public/search/campaign/filings/487f8e3a-6196-4577-8052-d1c02531dcce?type=committee",
-        "period": "July 1 to September 19, 2026",
-        "raised": 4700,
-        "cashOnHand": 1672.73,
-        "largeSince": {
-          "since": "2026-09-19",
-          "total": 21000,
-          "count": 1,
-          "fromCandidate": 21000
-        }
+        "period": "September 20 to October 17, 2026",
+        "raised": 21008,
+        "cashOnHand": 13270.03
       }
     ]
   },
@@ -84,6 +78,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T15:48:49.505Z",
-    "version": 3
+    "version": 4
   }
 }

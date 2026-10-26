@@ -72,21 +72,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "George Whitesides for Congress",
         "url": "https://www.fec.gov/data/committee/C00834028/?cycle=2026",
-        "period": "January 1, 2025 to September 30, 2026",
-        "raised": 4439787.15,
-        "cashOnHand": 2268894.91,
+        "period": "January 1, 2025 to October 14, 2026",
+        "raised": 4512697.32,
+        "cashOnHand": 2173658.08,
         "breakdown": [
-          { "kind": "small", "amount": 408106.76 },
-          { "kind": "large", "amount": 2709710.93 },
-          { "kind": "pac", "amount": 736087.62 },
+          { "kind": "small", "amount": 415253.12 },
+          { "kind": "large", "amount": 2753960.74 },
+          { "kind": "pac", "amount": 750587.62 },
           { "kind": "party", "amount": 6911.14 },
-          { "kind": "transfer", "amount": 482638.9 },
+          { "kind": "transfer", "amount": 489652.9 },
           { "kind": "other", "amount": 96331.8 }
         ]
       }
@@ -497,6 +497,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.775Z",
-    "version": 7
+    "version": 8
   }
 }

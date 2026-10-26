@@ -16,6 +16,7 @@ import {
   matchIsbeCandidates,
   otherCommitteesFor,
   readTsv,
+  shownQuarterly,
   type IsbeCandidate,
   type IsbeCommittee,
   type IsbeReport,
@@ -249,6 +250,32 @@ describe('latestQuarterly and a1sAfter', () => {
   it('picks the latest quarter that has ended', () => {
     expect(latestQuarterly(reports, '12', '2026-10-06')?.id).toBe('q2')
     expect(latestQuarterly(reports, '99', '2026-10-06')).toBeUndefined()
+  })
+
+  it('shows the latest quarter whose figures are in the files', () => {
+    const q3 = report(
+      'q3',
+      'Quarterly',
+      '2026-07-01',
+      '2026-09-30',
+      '2026-10-19',
+    )
+    const withQ3 = [...reports, q3]
+    const has =
+      (...ids: string[]) =>
+      (id: string) =>
+        ids.includes(id)
+    expect(
+      shownQuarterly(withQ3, '12', '2026-10-26', has('q1', 'q2', 'q3')),
+    ).toEqual({ quarterly: q3 })
+    // Q3 is listed but its totals haven't arrived: Q2 still stands.
+    expect(shownQuarterly(withQ3, '12', '2026-10-26', has('q1', 'q2'))).toEqual(
+      { quarterly: reports[1], pending: q3 },
+    )
+    expect(shownQuarterly(withQ3, '12', '2026-10-26', has())).toEqual({
+      pending: q3,
+    })
+    expect(shownQuarterly(withQ3, '99', '2026-10-26', has('q3'))).toEqual({})
   })
 
   it('finds A-1s for later quarters', () => {

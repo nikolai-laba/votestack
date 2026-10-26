@@ -56,16 +56,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "City of Burbank",
         "committee": "Polon For Burbank City Council 2026",
         "url": "https://efile.burbankca.gov/public/search/campaign/filings/1d6a785f-d861-48e3-aa13-ea7e5fb30956?type=committee",
-        "period": "July 1 to September 19, 2026",
-        "raised": 9206,
-        "cashOnHand": 15700.02
+        "period": "September 20 to October 17, 2026",
+        "raised": 3975,
+        "cashOnHand": 7089.92
       }
     ]
   },
@@ -351,6 +351,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.314Z",
-    "version": 4
+    "version": 5
   }
 }

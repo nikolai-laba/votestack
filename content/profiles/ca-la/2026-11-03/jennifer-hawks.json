@@ -61,24 +61,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Jennifer Hawks for CA State Treasurer 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1488439",
-        "period": "July 1 to September 19, 2026",
-        "raised": 37255.21,
-        "cashOnHand": 22919.56,
+        "period": "September 20 to October 17, 2026",
+        "raised": 25944,
+        "cashOnHand": 31148.56,
         "breakdown": [
-          { "kind": "small", "amount": 1052.72 },
-          { "kind": "large", "amount": 21187.49 },
-          { "kind": "pac", "amount": 5015 },
-          { "kind": "candidate", "amount": 10000 }
-        ],
-        "fromCandidate": 10000,
-        "largeSince": { "since": "2026-09-19", "total": 18300, "count": 6 }
+          { "kind": "small", "amount": 744 },
+          { "kind": "large", "amount": 11700 },
+          { "kind": "pac", "amount": 1000 },
+          { "kind": "party", "amount": 12000 },
+          { "kind": "other", "amount": 500 }
+        ]
       }
     ]
   },
@@ -283,6 +282,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.828Z",
-    "version": 5
+    "version": 6
   }
 }

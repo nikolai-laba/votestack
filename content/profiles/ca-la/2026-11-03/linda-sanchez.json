@@ -66,19 +66,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Stand with Sanchez",
         "url": "https://www.fec.gov/data/committee/C00384057/?cycle=2026",
-        "period": "January 1, 2025 to September 30, 2026",
-        "raised": 1885203.35,
-        "cashOnHand": 462488.02,
+        "period": "January 1, 2025 to October 14, 2026",
+        "raised": 1898187.85,
+        "cashOnHand": 420799.23,
         "breakdown": [
-          { "kind": "small", "amount": 31327.94 },
-          { "kind": "large", "amount": 414879.46 },
-          { "kind": "pac", "amount": 1419176.38 },
+          { "kind": "small", "amount": 31782.44 },
+          { "kind": "large", "amount": 417909.46 },
+          { "kind": "pac", "amount": 1428676.38 },
           { "kind": "party", "amount": 32.68 },
           { "kind": "transfer", "amount": 11526.51 },
           { "kind": "other", "amount": 8260.38 }
@@ -563,6 +563,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.830Z",
-    "version": 5
+    "version": 6
   }
 }

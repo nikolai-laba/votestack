@@ -47,23 +47,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Cisneros for Congress",
         "url": "https://www.fec.gov/data/committee/C00850420/?cycle=2026",
-        "period": "January 1, 2025 to September 30, 2026",
-        "raised": 829946.35,
-        "cashOnHand": 229689.78,
+        "period": "January 1, 2025 to October 14, 2026",
+        "raised": 853124.16,
+        "cashOnHand": 212818.2,
         "breakdown": [
-          { "kind": "small", "amount": 36208.86 },
-          { "kind": "large", "amount": 241771 },
-          { "kind": "pac", "amount": 537088.93 },
-          { "kind": "candidate", "amount": 6616.31 },
+          { "kind": "small", "amount": 36593.75 },
+          { "kind": "large", "amount": 246986 },
+          { "kind": "pac", "amount": 552088.93 },
+          { "kind": "candidate", "amount": 9194.23 },
           { "kind": "other", "amount": 8261.25 }
         ],
-        "fromCandidate": 6616.31
+        "fromCandidate": 9194.23
       }
     ]
   },
@@ -353,6 +353,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.800Z",
-    "version": 6
+    "version": 7
   }
 }

@@ -16,22 +16,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Maria Ghobadi for Judge 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1488221",
-        "period": "July 1 to September 19, 2026",
-        "raised": 30325,
-        "cashOnHand": 10175.85,
+        "period": "September 20 to October 17, 2026",
+        "raised": 14149,
+        "cashOnHand": 11444.68,
         "breakdown": [
-          { "kind": "small", "amount": 200 },
-          { "kind": "large", "amount": 26775 },
-          { "kind": "other", "amount": 3350 }
-        ],
-        "largeSince": { "since": "2026-09-19", "total": 7000, "count": 4 }
+          { "kind": "large", "amount": 10049 },
+          { "kind": "pac", "amount": 4000 },
+          { "kind": "other", "amount": 100 }
+        ]
       }
     ]
   },
@@ -381,6 +380,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.257Z",
-    "version": 9
+    "version": 10
   }
 }

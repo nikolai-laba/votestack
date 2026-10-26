@@ -34,15 +34,15 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "ISBE",
         "committee": "Friends of Judge John Carroll",
         "url": "https://www.elections.il.gov/CampaignDisclosure/CommitteeDetail.aspx?ID=40775",
-        "period": "April 1 to June 30, 2026",
+        "period": "July 1 to September 30, 2026",
         "raised": 0,
-        "cashOnHand": 2981.54,
+        "cashOnHand": 1991.54,
         "breakdown": []
       }
     ]
@@ -160,6 +160,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:30:27.104Z",
-    "version": 6
+    "version": 7
   }
 }

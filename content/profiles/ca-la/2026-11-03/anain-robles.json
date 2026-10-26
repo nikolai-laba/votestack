@@ -10,8 +10,8 @@
     "asOf": "2026-10-15",
     "items": [
       {
-        "text": "Anain Robles is a small business owner running for Palmdale City Council District 3. In a 2026 questionnaire, he proposed balanced housing, prudent budgeting, clearer public communication, and partnerships to keep young residents in the Antelope Valley. He advocates for making budgets, contracts, major expenditures, and upcoming decisions available in clear language and easily accessible online. His platform emphasizes local business and family stability.",
-        "cites": [1, 2, 3],
+        "text": "Anain Robles is a small business owner running for Palmdale City Council District 3. In a 2026 questionnaire, he proposed balanced housing, prudent budgeting, clearer public communication, and partnerships to keep young residents in the Antelope Valley. He advocates for making budgets, contracts, major expenditures, and upcoming decisions available in clear language and easily accessible online.",
+        "cites": [1, 2],
         "sentences": [
           {
             "text": "Anain Robles is a small business owner running for Palmdale City Council District 3.",
@@ -24,10 +24,6 @@
           {
             "text": "He advocates for making budgets, contracts, major expenditures, and upcoming decisions available in clear language and easily accessible online.",
             "cites": [2]
-          },
-          {
-            "text": "His platform emphasizes local business and family stability.",
-            "cites": [3]
           }
         ]
       }
@@ -54,9 +50,9 @@
       {
         "organization": "Los Angeles County Democratic Party",
         "kind": "party",
-        "cites": [4]
+        "cites": [3]
       },
-      { "organization": "LA Forward", "kind": "organization", "cites": [5] }
+      { "organization": "LA Forward", "kind": "organization", "cites": [4] }
     ]
   },
   "sources": [
@@ -78,14 +74,6 @@
     },
     {
       "id": 3,
-      "title": "Palmdale City Council Candidates for 2026",
-      "publisher": "Antelope Valley News",
-      "url": "https://www.antelopevalleynews.com/post/palmdale-city-council-candidates-for-2026",
-      "kind": "news",
-      "viewedAt": "2026-10-15"
-    },
-    {
-      "id": 4,
       "title": "Endorsed Candidates - Los Angeles County Democratic Party",
       "publisher": "Los Angeles County Democratic Party",
       "url": "https://www.lacdp.org/candidates",
@@ -98,13 +86,13 @@
       "url": "https://laforwardguide.org/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 5
+      "id": 4
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.522Z",
-    "version": 3
+    "version": 4
   }
 }

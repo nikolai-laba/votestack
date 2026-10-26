@@ -34,21 +34,26 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "David Ross for Judge 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1485476",
-        "period": "July 1 to September 19, 2026",
-        "raised": 7365,
-        "cashOnHand": 36183.86,
+        "period": "September 20 to October 17, 2026",
+        "raised": 4006,
+        "cashOnHand": 16201.72,
         "breakdown": [
-          { "kind": "small", "amount": 460 },
-          { "kind": "large", "amount": 6705 },
-          { "kind": "pac", "amount": 200 }
-        ]
+          { "kind": "small", "amount": 256 },
+          { "kind": "large", "amount": 3750 }
+        ],
+        "largeSince": {
+          "since": "2026-10-17",
+          "total": 15000,
+          "count": 1,
+          "fromCandidate": 15000
+        }
       }
     ]
   },
@@ -335,6 +340,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.255Z",
-    "version": 7
+    "version": 8
   }
 }

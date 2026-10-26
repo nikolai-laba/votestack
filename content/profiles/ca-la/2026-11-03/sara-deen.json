@@ -53,28 +53,25 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Sara Deen for Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1478003",
-        "period": "July 1 to September 19, 2026",
-        "raised": 223273,
-        "cashOnHand": 184414.37,
+        "period": "September 20 to October 17, 2026",
+        "raised": 292648.87,
+        "cashOnHand": 157579.02,
         "breakdown": [
-          { "kind": "small", "amount": 1446 },
-          { "kind": "large", "amount": 127277 },
-          { "kind": "pac", "amount": 94050 },
-          { "kind": "other", "amount": 500 }
+          { "kind": "small", "amount": 1114 },
+          { "kind": "large", "amount": 149469 },
+          { "kind": "pac", "amount": 37565.87 },
+          { "kind": "candidate", "amount": 100000 },
+          { "kind": "other", "amount": 4500 }
         ],
-        "largeSince": {
-          "since": "2026-09-19",
-          "total": 248350,
-          "count": 72,
-          "fromCandidate": 100000
-        }
+        "fromCandidate": 100000,
+        "largeSince": { "since": "2026-10-17", "total": 52100, "count": 23 }
       }
     ]
   },
@@ -387,6 +384,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.728Z",
-    "version": 7
+    "version": 8
   }
 }

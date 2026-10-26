@@ -41,16 +41,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "City of Maywood",
         "committee": "Mayra Aguiluz For Maywood City Council 2026",
         "url": "https://www.cityofmaywood.com/523/Campaign-Disclosure-Statements",
-        "period": "July 1 to September 19, 2026",
-        "raised": 1560,
-        "cashOnHand": 1211.99,
+        "period": "September 20 to October 17, 2026",
+        "raised": 3224,
+        "cashOnHand": 4085.99,
         "fromScan": "ai"
       }
     ]
@@ -147,6 +147,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.747Z",
-    "version": 4
+    "version": 5
   }
 }

@@ -34,18 +34,18 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Houston Brignano for Congress",
         "url": "https://www.fec.gov/data/committee/C00925842/?cycle=2026",
-        "period": "July 1, 2025 to September 30, 2026",
-        "raised": 11621.69,
-        "cashOnHand": 912.39,
+        "period": "November 14, 2025 to October 14, 2026",
+        "raised": 7020.37,
+        "cashOnHand": 1219.09,
         "breakdown": [
-          { "kind": "small", "amount": 1870.42 },
-          { "kind": "large", "amount": 9751.27 }
+          { "kind": "small", "amount": 1330.36 },
+          { "kind": "large", "amount": 5690.01 }
         ]
       }
     ]
@@ -168,6 +168,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.820Z",
-    "version": 5
+    "version": 6
   }
 }

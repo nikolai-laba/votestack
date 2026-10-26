@@ -40,23 +40,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Caloza for Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1476900",
-        "period": "July 1 to September 19, 2026",
-        "raised": 135065,
-        "cashOnHand": 751084.48,
+        "period": "September 20 to October 17, 2026",
+        "raised": 104425,
+        "cashOnHand": 650340.82,
         "breakdown": [
-          { "kind": "small", "amount": 15 },
-          { "kind": "large", "amount": 11800 },
-          { "kind": "pac", "amount": 69750 },
-          { "kind": "other", "amount": 53500 }
+          { "kind": "small", "amount": 25 },
+          { "kind": "large", "amount": 18000 },
+          { "kind": "pac", "amount": 60000 },
+          { "kind": "other", "amount": 26400 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 78850, "count": 32 }
+        "largeSince": { "since": "2026-10-17", "total": 28200, "count": 9 }
       }
     ]
   },
@@ -403,11 +403,11 @@
     },
     {
       "id": 11,
-      "title": "November General Election Endorsements",
-      "publisher": "YIMBY Los Angeles",
-      "url": "https://yimby.la/voter-guide/november-general-election-endorsements/",
+      "title": "November 2026 California general",
+      "publisher": "YIMBY Action",
+      "url": "https://yimbyaction.org/endorsements/november-2026-california-general",
       "kind": "endorser",
-      "viewedAt": "2026-10-14"
+      "viewedAt": "2026-10-26"
     },
     {
       "id": 12,
@@ -518,6 +518,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.701Z",
-    "version": 5
+    "version": 7
   }
 }

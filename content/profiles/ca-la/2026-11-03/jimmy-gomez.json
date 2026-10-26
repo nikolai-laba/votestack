@@ -66,19 +66,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Jimmy Gomez for Congress",
         "url": "https://www.fec.gov/data/committee/C00629659/?cycle=2026",
-        "period": "January 1, 2025 to September 30, 2026",
-        "raised": 1311086.1,
-        "cashOnHand": 705363.98,
+        "period": "January 1, 2025 to October 14, 2026",
+        "raised": 1336235.14,
+        "cashOnHand": 628394.77,
         "breakdown": [
-          { "kind": "small", "amount": 12742.02 },
-          { "kind": "large", "amount": 733777.82 },
-          { "kind": "pac", "amount": 561111.6 },
+          { "kind": "small", "amount": 12816.06 },
+          { "kind": "large", "amount": 754352.82 },
+          { "kind": "pac", "amount": 565611.6 },
           { "kind": "party", "amount": 32.68 },
           { "kind": "transfer", "amount": 1093.64 },
           { "kind": "other", "amount": 2328.34 }
@@ -466,6 +466,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:50.811Z",
-    "version": 5
+    "version": 6
   }
 }

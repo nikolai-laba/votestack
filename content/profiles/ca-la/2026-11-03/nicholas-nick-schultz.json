@@ -36,23 +36,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Nick Schultz for Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477852",
-        "period": "July 1 to September 19, 2026",
-        "raised": 94682,
-        "cashOnHand": 322343.66,
+        "period": "September 20 to October 17, 2026",
+        "raised": 108177,
+        "cashOnHand": 405609.97,
         "breakdown": [
-          { "kind": "small", "amount": 467 },
-          { "kind": "large", "amount": 7515 },
-          { "kind": "pac", "amount": 40100 },
-          { "kind": "other", "amount": 46600 }
+          { "kind": "small", "amount": 242 },
+          { "kind": "large", "amount": 11835 },
+          { "kind": "pac", "amount": 81600 },
+          { "kind": "other", "amount": 14500 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 91200, "count": 27 }
+        "largeSince": { "since": "2026-10-17", "total": 11500, "count": 4 }
       }
     ]
   },
@@ -485,6 +485,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.681Z",
-    "version": 6
+    "version": 7
   }
 }

@@ -39,24 +39,20 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Raul Ortiz for Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1479626",
-        "period": "July 1 to September 19, 2026",
-        "raised": 6143.22,
-        "cashOnHand": 2630.13,
+        "period": "September 20 to October 17, 2026",
+        "raised": 9122,
+        "cashOnHand": 3279.08,
         "breakdown": [
-          { "kind": "small", "amount": 1663 },
-          { "kind": "large", "amount": 3780.22 },
-          { "kind": "pac", "amount": 620 },
-          { "kind": "candidate", "amount": 80 }
-        ],
-        "fromCandidate": 80,
-        "largeSince": { "since": "2026-09-19", "total": 2240, "count": 3 }
+          { "kind": "small", "amount": 1193 },
+          { "kind": "large", "amount": 7929 }
+        ]
       }
     ]
   },
@@ -160,6 +156,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.722Z",
-    "version": 5
+    "version": 6
   }
 }

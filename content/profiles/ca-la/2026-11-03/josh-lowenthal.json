@@ -44,23 +44,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Josh Lowenthal for Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477066",
-        "period": "July 1 to September 19, 2026",
-        "raised": 151774,
-        "cashOnHand": 839536.01,
+        "period": "September 20 to October 17, 2026",
+        "raised": 104200,
+        "cashOnHand": 867169.24,
         "breakdown": [
-          { "kind": "small", "amount": 249 },
-          { "kind": "large", "amount": 21500 },
-          { "kind": "pac", "amount": 100325 },
-          { "kind": "other", "amount": 29700 }
+          { "kind": "large", "amount": 18300 },
+          { "kind": "pac", "amount": 64100 },
+          { "kind": "other", "amount": 21800 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 99050, "count": 26 }
+        "largeSince": { "since": "2026-10-17", "total": 7500, "count": 4 }
       }
     ]
   },
@@ -303,6 +302,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.736Z",
-    "version": 5
+    "version": 6
   }
 }

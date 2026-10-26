@@ -67,24 +67,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Gates for Attorney General 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1486227",
-        "period": "July 1 to September 19, 2026",
-        "raised": 498726.43,
-        "cashOnHand": 336369.24,
+        "period": "September 20 to October 17, 2026",
+        "raised": 360028.57,
+        "cashOnHand": 539362.53,
         "breakdown": [
-          { "kind": "small", "amount": 14349.9 },
-          { "kind": "large", "amount": 411411.36 },
-          { "kind": "pac", "amount": 27715 },
-          { "kind": "party", "amount": 1000 },
-          { "kind": "other", "amount": 44250.17 }
+          { "kind": "small", "amount": 37301.93 },
+          { "kind": "large", "amount": 284526.64 },
+          { "kind": "pac", "amount": 15450 },
+          { "kind": "other", "amount": 22750 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 180400, "count": 85 }
+        "largeSince": { "since": "2026-10-17", "total": 34638, "count": 15 }
       }
     ]
   },
@@ -431,6 +430,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.768Z",
-    "version": 5
+    "version": 6
   }
 }

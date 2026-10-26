@@ -82,19 +82,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Biss for Congress",
         "url": "https://www.fec.gov/data/committee/C00905307/?cycle=2026",
-        "period": "April 1, 2025 to September 30, 2026",
-        "raised": 3380216.72,
-        "cashOnHand": 568445.98,
+        "period": "April 1, 2025 to October 14, 2026",
+        "raised": 3446462.65,
+        "cashOnHand": 608882.79,
         "breakdown": [
-          { "kind": "small", "amount": 159550.37 },
-          { "kind": "large", "amount": 2919444.92 },
-          { "kind": "pac", "amount": 293621.09 },
+          { "kind": "small", "amount": 161951.3 },
+          { "kind": "large", "amount": 2969789.92 },
+          { "kind": "pac", "amount": 307121.09 },
           { "kind": "candidate", "amount": 3205 },
           { "kind": "other", "amount": 4395.34 }
         ],
@@ -534,6 +534,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-07T20:37:45.353Z",
-    "version": 9
+    "version": 10
   }
 }

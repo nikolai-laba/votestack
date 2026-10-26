@@ -79,28 +79,24 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Ben Allen for Insurance Commissioner 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1483889",
-        "period": "July 1 to September 19, 2026",
-        "raised": 717546.57,
-        "cashOnHand": 698620.95,
+        "period": "September 20 to October 17, 2026",
+        "raised": 710829.31,
+        "cashOnHand": 682605.74,
         "breakdown": [
-          { "kind": "small", "amount": 1701.66 },
-          { "kind": "large", "amount": 481879 },
-          { "kind": "pac", "amount": 123605.33 },
-          { "kind": "party", "amount": 9060.58 },
-          { "kind": "other", "amount": 101300 }
+          { "kind": "small", "amount": 2215.82 },
+          { "kind": "large", "amount": 400353.79 },
+          { "kind": "pac", "amount": 141868.75 },
+          { "kind": "party", "amount": 11059.57 },
+          { "kind": "other", "amount": 155331.38 }
         ],
-        "largeSince": {
-          "since": "2026-09-19",
-          "total": 573110.33,
-          "count": 174
-        }
+        "largeSince": { "since": "2026-10-17", "total": 131150, "count": 35 }
       }
     ]
   },
@@ -533,6 +529,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T14:05:39.901Z",
-    "version": 7
+    "version": 8
   }
 }

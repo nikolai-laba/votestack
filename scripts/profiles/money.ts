@@ -41,6 +41,8 @@ import {
   loadTotals,
   matchIsbeCandidates,
   otherCommitteesFor,
+  quarterliesOf,
+  shownQuarterly,
   type IsbeCommittee,
   type IsbeReport,
 } from '../lib/profiles/isbe.ts'
@@ -280,22 +282,37 @@ for (const [key, committees] of committeesByKey) {
   chosen.set(key, { ...withReport[0], others: committees.length - 1 })
 }
 
+const totals = await loadTotals(
+  ISBE_DIR,
+  new Set(
+    [...chosen.values()].flatMap((c) =>
+      quarterliesOf(reports, c.committee.id, today).map((r) => r.id),
+    ),
+  ),
+)
+// The latest quarterly with totals; a newer one still being keyed in waits.
+const shown = new Map(
+  [...chosen].map(([key, c]) => [
+    key,
+    shownQuarterly(reports, c.committee.id, today, (id) => totals.has(id)),
+  ]),
+)
 const quarterlyIds = new Set(
-  [...chosen.values()].flatMap((c) => (c.quarterly ? [c.quarterly.id] : [])),
+  [...shown.values()].flatMap((s) => (s.quarterly ? [s.quarterly.id] : [])),
 )
 const a1Ids = new Set<string>()
 // Each report's candidate, to find money they gave or lent their own committee.
 const candidateOf = new Map<string, ParsedName>()
 for (const [key, c] of chosen) {
-  if (!c.quarterly) continue
+  const quarterly = shown.get(key)!.quarterly
+  if (!quarterly) continue
   const ballot = people.get(key)!.ballot
-  candidateOf.set(c.quarterly.id, ballot)
-  for (const r of a1sAfter(reports, c.committee.id, c.quarterly.end)) {
+  candidateOf.set(quarterly.id, ballot)
+  for (const r of a1sAfter(reports, c.committee.id, quarterly.end)) {
     a1Ids.add(r.id)
     candidateOf.set(r.id, ballot)
   }
 }
-const totals = await loadTotals(ISBE_DIR, quarterlyIds)
 console.log(`Reading receipts for ${quarterlyIds.size + a1Ids.size} reports…`)
 const receipts = await loadReceipts(
   ISBE_DIR,
@@ -303,7 +320,8 @@ const receipts = await loadReceipts(
   candidateOf,
 )
 
-for (const [key, { committee, quarterly, others }] of chosen) {
+for (const [key, { committee, others }] of chosen) {
+  const { quarterly, pending } = shown.get(key)!
   const notes: string[] = []
   if (byNameOnly.has(key))
     notes.push(
@@ -328,7 +346,11 @@ for (const [key, { committee, quarterly, others }] of chosen) {
           matchedCommittee: committee.id,
         }
       : { summaries: [], matchedCommittee: committee.id }
-  if (!quarterly || !t)
+  if (pending)
+    notes.unshift(
+      `${committee.name} filed a quarterly report for ${pending.start} to ${pending.end} on ${pending.filed}, but ISBE's data files don't have its figures yet${quarterly ? '; showing the one before it' : ''}.`,
+    )
+  else if (!quarterly || !t)
     notes.unshift(`${committee.name} has not filed a quarterly report yet.`)
   // Large contributions reported since the quarter ended. Without a
   // quarterly there's no summary to add them to.

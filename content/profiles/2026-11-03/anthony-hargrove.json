@@ -44,7 +44,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "ISBE",
@@ -55,10 +55,11 @@
         "cashOnHand": 26953.4,
         "breakdown": [
           { "kind": "large", "amount": 29600 },
-          { "kind": "loan", "amount": 12950 },
+          { "kind": "candidate", "amount": 12950 },
           { "kind": "other", "amount": 1385 }
         ],
-        "largeSince": { "since": "2026-09-30", "total": 17300, "count": 4 }
+        "fromCandidate": 12950,
+        "largeSince": { "since": "2026-09-30", "total": 40100, "count": 10 }
       }
     ]
   },
@@ -202,6 +203,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T17:45:39.559Z",
-    "version": 4
+    "version": 5
   }
 }

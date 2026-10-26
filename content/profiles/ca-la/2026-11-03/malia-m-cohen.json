@@ -66,24 +66,24 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Malia Cohen for Controller 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1456350",
-        "period": "July 1 to September 19, 2026",
-        "raised": 169112.13,
-        "cashOnHand": 1623100.7,
+        "period": "September 20 to October 17, 2026",
+        "raised": 183065.28,
+        "cashOnHand": 1740935.66,
         "breakdown": [
-          { "kind": "small", "amount": 228.1 },
-          { "kind": "large", "amount": 64260.03 },
-          { "kind": "pac", "amount": 81549.3 },
-          { "kind": "party", "amount": 9581.46 },
-          { "kind": "other", "amount": 13493.24 }
+          { "kind": "small", "amount": 45.43 },
+          { "kind": "large", "amount": 28016.74 },
+          { "kind": "pac", "amount": 124300 },
+          { "kind": "party", "amount": 15203.11 },
+          { "kind": "other", "amount": 15500 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 130155.2, "count": 70 }
+        "largeSince": { "since": "2026-10-17", "total": 29997.59, "count": 11 }
       }
     ]
   },
@@ -552,6 +552,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.779Z",
-    "version": 6
+    "version": 7
   }
 }

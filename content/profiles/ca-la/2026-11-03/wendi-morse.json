@@ -50,16 +50,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "City of Bellflower",
         "committee": "Wendi Morse for Council 2026",
         "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=356850&dbid=0&repo=r-ac13a437",
-        "period": "July 1 to September 19, 2026",
-        "raised": 11750,
-        "cashOnHand": 12010.69,
+        "period": "September 20 to October 17, 2026",
+        "raised": 9850,
+        "cashOnHand": 5426.83,
         "fromScan": "ai"
       }
     ]
@@ -103,6 +103,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.497Z",
-    "version": 4
+    "version": 5
   }
 }

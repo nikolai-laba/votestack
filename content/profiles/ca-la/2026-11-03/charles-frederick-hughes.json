@@ -17,23 +17,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Charles Hughes for Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1478005",
-        "period": "July 1 to September 19, 2026",
-        "raised": 112125.48,
-        "cashOnHand": 90856.29,
+        "period": "September 20 to October 17, 2026",
+        "raised": 58600,
+        "cashOnHand": 136817.79,
         "breakdown": [
-          { "kind": "small", "amount": 266 },
-          { "kind": "large", "amount": 12154.48 },
-          { "kind": "pac", "amount": 74855 },
-          { "kind": "other", "amount": 24850 }
+          { "kind": "large", "amount": 600 },
+          { "kind": "pac", "amount": 49500 },
+          { "kind": "other", "amount": 8500 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 55000, "count": 20 }
+        "largeSince": { "since": "2026-10-17", "total": 28600, "count": 6 }
       }
     ]
   },
@@ -363,6 +362,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.659Z",
-    "version": 5
+    "version": 6
   }
 }

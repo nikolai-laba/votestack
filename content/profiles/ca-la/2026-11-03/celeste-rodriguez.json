@@ -58,23 +58,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Celeste Rodriguez for Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477040",
-        "period": "July 1 to September 19, 2026",
-        "raised": 40410,
-        "cashOnHand": 284278.58,
+        "period": "September 20 to October 17, 2026",
+        "raised": 54915,
+        "cashOnHand": 279589.56,
         "breakdown": [
-          { "kind": "small", "amount": 10 },
-          { "kind": "large", "amount": 2750 },
-          { "kind": "pac", "amount": 29650 },
-          { "kind": "other", "amount": 8000 }
+          { "kind": "small", "amount": 390 },
+          { "kind": "large", "amount": 6625 },
+          { "kind": "pac", "amount": 44400 },
+          { "kind": "other", "amount": 3500 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 53300, "count": 11 }
+        "largeSince": { "since": "2026-10-17", "total": 19300, "count": 5 }
       }
     ]
   },
@@ -525,6 +525,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.678Z",
-    "version": 5
+    "version": 6
   }
 }

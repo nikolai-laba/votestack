@@ -38,17 +38,17 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "City of West Covina",
-        "committee": "Danny Roman for West Covina City Council 2026",
+        "committee": "Danny J. Roman",
         "url": "https://westcovina.gov/186/Campaign-Disclosure-Reports-Public-Offic",
-        "period": "January 1 to September 19, 2026",
-        "raised": 20000,
-        "cashOnHand": 17321.21,
-        "fromScan": "ai"
+        "period": "September 20 to October 17, 2026",
+        "raised": 5200,
+        "cashOnHand": 16561.22,
+        "fromScan": "ocr"
       }
     ]
   },
@@ -75,6 +75,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.638Z",
-    "version": 3
+    "version": 4
   }
 }

@@ -47,23 +47,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Deborah Klein Lopez for Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477694",
-        "period": "July 1 to September 19, 2026",
-        "raised": 392872.1,
-        "cashOnHand": 575954.93,
+        "period": "September 20 to October 17, 2026",
+        "raised": 399095.65,
+        "cashOnHand": 601830.76,
         "breakdown": [
-          { "kind": "small", "amount": 280 },
-          { "kind": "large", "amount": 103366.56 },
-          { "kind": "pac", "amount": 258998.08 },
-          { "kind": "other", "amount": 30227.46 }
+          { "kind": "small", "amount": 235 },
+          { "kind": "large", "amount": 47459.18 },
+          { "kind": "pac", "amount": 325125.65 },
+          { "kind": "other", "amount": 26275.82 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 365332.13, "count": 78 }
+        "largeSince": { "since": "2026-10-17", "total": 44893.99, "count": 10 }
       }
     ]
   },
@@ -358,6 +358,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.675Z",
-    "version": 5
+    "version": 6
   }
 }

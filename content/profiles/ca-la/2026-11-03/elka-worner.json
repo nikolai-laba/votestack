@@ -24,8 +24,8 @@
         ]
       },
       {
-        "text": "She supports the half-cent sales tax on the November ballot after opposing the 2024 measure, but says the city must tighten its belt. At a forum, she said the city should recruit businesses and supported streamlining permitting. She said the city needs a long-term plan to protect services and repair aging infrastructure. She proposed multi-year budgeting, reviewing programs for results, and pursuing shared services and grants. She wants to repave neglected streets, manage e-bikes, and explore sharing facilities with Redondo Beach.",
-        "cites": [3, 4, 1, 5],
+        "text": "She supports the half-cent sales tax on the November ballot after opposing the 2024 measure, but says the city must tighten its belt. At a forum, she said the city should recruit businesses and supported streamlining permitting. She said the city needs a long-term plan to protect services and repair aging infrastructure. She proposed multi-year budgeting, reviewing programs for results, and pursuing shared services and grants.",
+        "cites": [3, 4, 1],
         "sentences": [
           {
             "text": "She supports the half-cent sales tax on the November ballot after opposing the 2024 measure, but says the city must tighten its belt.",
@@ -42,10 +42,6 @@
           {
             "text": "She proposed multi-year budgeting, reviewing programs for results, and pursuing shared services and grants.",
             "cites": [1]
-          },
-          {
-            "text": "She wants to repave neglected streets, manage e-bikes, and explore sharing facilities with Redondo Beach.",
-            "cites": [5]
           }
         ]
       }
@@ -78,48 +74,48 @@
       {
         "organization": "National Women's Political Caucus South Bay",
         "kind": "organization",
-        "cites": [6]
+        "cites": [5]
       },
-      { "organization": "ArtPAC", "kind": "organization", "cites": [6] },
+      { "organization": "ArtPAC", "kind": "organization", "cites": [5] },
       {
         "organization": "Manhattan Beach Mayor Joe Franklin",
         "kind": "elected_official",
-        "cites": [6]
+        "cites": [5]
       },
       {
         "organization": "Manhattan Beach Councilmember Steve Charelian",
         "kind": "elected_official",
-        "cites": [6]
+        "cites": [5]
       },
       {
         "organization": "Former Manhattan Beach Mayor Bob Holmes",
         "kind": "elected_official",
-        "cites": [6]
+        "cites": [5]
       },
       {
         "organization": "Former Hermosa Beach Mayor Sam Edgerton",
         "kind": "elected_official",
-        "cites": [6]
+        "cites": [5]
       },
       {
         "organization": "Former Hermosa Beach Mayor Carolyn Petty",
         "kind": "elected_official",
-        "cites": [6]
+        "cites": [5]
       },
       {
         "organization": "Former Hermosa Beach Mayor JR Reviczky",
         "kind": "elected_official",
-        "cites": [6]
+        "cites": [5]
       },
       {
         "organization": "Reform California",
         "kind": "organization",
-        "cites": [7]
+        "cites": [6]
       },
       {
         "organization": "Republican Party of Los Angeles County",
         "kind": "party",
-        "cites": [8]
+        "cites": [7]
       }
     ]
   },
@@ -158,14 +154,6 @@
     },
     {
       "id": 5,
-      "title": "🌱 Patch AM: What would Elka Worner change first at Hermosa Beach City Hall?",
-      "publisher": "Patch",
-      "url": "https://patch.com/california/hermosabeach/patch-am-what-would-elka-worner-change-first-hermosa-beach-c-nodx-20261010",
-      "kind": "news",
-      "viewedAt": "2026-10-15"
-    },
-    {
-      "id": 6,
       "title": "View Endorsements - elkaforhermosa.com",
       "publisher": "Elka Worner for Hermosa Beach City Council 2026",
       "url": "https://www.elkaforhermosa.com/view-endorsements",
@@ -178,7 +166,7 @@
       "url": "https://www.reformcalifornia.org/voter-guides/los-angeles",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 7
+      "id": 6
     },
     {
       "title": "LAGOP Endorsement Lookup, November 3, 2026 General Election",
@@ -186,13 +174,13 @@
       "url": "https://lagop-endorsement-lookup.vercel.app/",
       "viewedAt": "2026-10-15",
       "kind": "endorser",
-      "id": 8
+      "id": 7
     }
   ],
   "meta": {
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.410Z",
-    "version": 3
+    "version": 4
   }
 }

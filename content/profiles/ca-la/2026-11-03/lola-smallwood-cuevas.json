@@ -58,23 +58,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Lola Smallwood-Cuevas for Senate 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1456867",
-        "period": "July 1 to September 19, 2026",
-        "raised": 130474.69,
-        "cashOnHand": 381981.06,
+        "period": "September 20 to October 17, 2026",
+        "raised": 44789.64,
+        "cashOnHand": 383861.91,
         "breakdown": [
-          { "kind": "small", "amount": 275.85 },
-          { "kind": "large", "amount": 11743.82 },
-          { "kind": "pac", "amount": 54478.65 },
-          { "kind": "other", "amount": 63976.37 }
+          { "kind": "small", "amount": 52.12 },
+          { "kind": "large", "amount": 7537.52 },
+          { "kind": "pac", "amount": 31200 },
+          { "kind": "other", "amount": 6000 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 43100, "count": 15 }
+        "largeSince": { "since": "2026-10-17", "total": 38200, "count": 8 }
       }
     ]
   },
@@ -529,6 +529,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.756Z",
-    "version": 8
+    "version": 9
   }
 }

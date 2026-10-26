@@ -35,7 +35,7 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
@@ -54,8 +54,8 @@
         ],
         "largeSince": {
           "since": "2026-09-19",
-          "total": 3670.18,
-          "count": 2,
+          "total": 5690.18,
+          "count": 3,
           "fromCandidate": 2000
         }
       }
@@ -250,6 +250,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.257Z",
-    "version": 7
+    "version": 8
   }
 }

@@ -48,23 +48,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Mike Fong For Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477447",
-        "period": "July 1 to September 19, 2026",
-        "raised": 140869,
-        "cashOnHand": 1518364.29,
+        "period": "September 20 to October 17, 2026",
+        "raised": 137755,
+        "cashOnHand": 1590251.65,
         "breakdown": [
-          { "kind": "small", "amount": 60 },
-          { "kind": "large", "amount": 51259 },
-          { "kind": "pac", "amount": 44700 },
-          { "kind": "other", "amount": 44850 }
+          { "kind": "large", "amount": 44155 },
+          { "kind": "pac", "amount": 53200 },
+          { "kind": "other", "amount": 40400 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 102270, "count": 37 }
+        "largeSince": { "since": "2026-10-17", "total": 37375, "count": 12 }
       }
     ]
   },
@@ -319,6 +318,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.692Z",
-    "version": 6
+    "version": 7
   }
 }

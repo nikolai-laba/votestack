@@ -76,24 +76,24 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Rob Bonta for CA Attorney General 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1456428",
-        "period": "July 1 to September 19, 2026",
-        "raised": 383097.81,
-        "cashOnHand": 6341151.04,
+        "period": "September 20 to October 17, 2026",
+        "raised": 338581.25,
+        "cashOnHand": 6237054.31,
         "breakdown": [
-          { "kind": "small", "amount": 42190.34 },
-          { "kind": "large", "amount": 216496.89 },
-          { "kind": "pac", "amount": 73950 },
-          { "kind": "party", "amount": 9060.58 },
-          { "kind": "other", "amount": 41400 }
+          { "kind": "small", "amount": 12898.25 },
+          { "kind": "large", "amount": 171277.04 },
+          { "kind": "pac", "amount": 114800 },
+          { "kind": "party", "amount": 11355.96 },
+          { "kind": "other", "amount": 28250 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 273521.37, "count": 61 }
+        "largeSince": { "since": "2026-10-17", "total": 64389.36, "count": 25 }
       }
     ]
   },
@@ -591,6 +591,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.770Z",
-    "version": 6
+    "version": 7
   }
 }

@@ -30,22 +30,21 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Bayne for Judge 2026; Elect",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1488166",
-        "period": "July 1 to September 19, 2026",
-        "raised": 7095.6,
-        "cashOnHand": 9017.96,
+        "period": "September 20 to October 17, 2026",
+        "raised": 550.69,
+        "cashOnHand": 6830.8,
         "breakdown": [
-          { "kind": "large", "amount": 5300 },
-          { "kind": "candidate", "amount": 795.6 },
-          { "kind": "other", "amount": 1000 }
+          { "kind": "large", "amount": 100 },
+          { "kind": "candidate", "amount": 450.69 }
         ],
-        "fromCandidate": 795.6
+        "fromCandidate": 450.69
       }
     ]
   },
@@ -185,6 +184,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.264Z",
-    "version": 7
+    "version": 8
   }
 }

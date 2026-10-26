@@ -70,19 +70,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "FEC",
         "committee": "Schneider for Congress",
         "url": "https://www.fec.gov/data/committee/C00495952/?cycle=2026",
-        "period": "January 1, 2025 to September 30, 2026",
-        "raised": 3575300.49,
-        "cashOnHand": 1675786.72,
+        "period": "January 1, 2025 to October 14, 2026",
+        "raised": 3657881.54,
+        "cashOnHand": 1707158.21,
         "breakdown": [
-          { "kind": "small", "amount": 108032.21 },
-          { "kind": "large", "amount": 1776775.14 },
-          { "kind": "pac", "amount": 1559898.74 },
+          { "kind": "small", "amount": 110182.78 },
+          { "kind": "large", "amount": 1815483.14 },
+          { "kind": "pac", "amount": 1601621.22 },
           { "kind": "transfer", "amount": 128600 },
           { "kind": "other", "amount": 1994.4 }
         ]
@@ -516,6 +516,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-4",
     "generatedAt": "2026-10-07T16:59:29.616Z",
-    "version": 13
+    "version": 14
   }
 }

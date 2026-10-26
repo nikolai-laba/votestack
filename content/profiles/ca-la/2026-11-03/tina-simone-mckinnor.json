@@ -54,22 +54,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Tina McKinnor for Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1476547",
-        "period": "July 1 to September 19, 2026",
-        "raised": 107328.64,
-        "cashOnHand": 142301.7,
+        "period": "September 20 to October 17, 2026",
+        "raised": 106821.36,
+        "cashOnHand": 172689.62,
         "breakdown": [
-          { "kind": "large", "amount": 14550 },
-          { "kind": "pac", "amount": 45978.64 },
-          { "kind": "other", "amount": 46800 }
+          { "kind": "small", "amount": 100 },
+          { "kind": "large", "amount": 2400 },
+          { "kind": "pac", "amount": 62721.36 },
+          { "kind": "other", "amount": 41600 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 94421.36, "count": 24 }
+        "largeSince": { "since": "2026-10-17", "total": 46400, "count": 10 }
       }
     ]
   },
@@ -347,6 +348,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.718Z",
-    "version": 5
+    "version": 6
   }
 }

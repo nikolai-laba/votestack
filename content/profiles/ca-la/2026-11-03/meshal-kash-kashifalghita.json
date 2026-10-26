@@ -49,16 +49,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "City of La Verne",
         "committee": "Meshal 'KASH' Kashifalghita for City Council 2026",
         "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=160343&dbid=0&repo=r-1fb4295f",
-        "period": "July 1 to September 19, 2026",
-        "raised": 4850,
-        "cashOnHand": 2889.02,
+        "period": "September 20 to October 17, 2026",
+        "raised": 600,
+        "cashOnHand": 890.46,
         "fromScan": "ocr"
       }
     ]
@@ -160,11 +160,11 @@
     },
     {
       "id": 4,
-      "title": "Forum 1 of 2: Hear From La Verne's District 1 and 3 Council Candidates in Their Own Words",
+      "title": "Local Elections: La Verne Council Candidates Talk Budget, Housing and Infrastructure at Chamber Forum",
       "publisher": "La Verne Daily News",
-      "url": "https://www.lavernedaily.org/forum-1-of-2-hear-from-la-vernes-district-1-and-3-council-candidates-in-their-own-words/",
+      "url": "https://www.lavernedaily.org/local-elections-la-verne-council-candidates-talk-budget-housing-and-infrastructure-at-chamber-forum/",
       "kind": "news",
-      "viewedAt": "2026-10-15"
+      "viewedAt": "2026-10-26"
     },
     {
       "title": "2026 Midterm Election: LA County Federation of Labor Endorsements (Official Voter Guide)",
@@ -179,6 +179,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.679Z",
-    "version": 4
+    "version": 6
   }
 }

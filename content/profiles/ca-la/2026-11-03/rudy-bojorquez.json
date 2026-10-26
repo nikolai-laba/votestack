@@ -42,16 +42,16 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "City of South El Monte",
-        "committee": "south el monte action committee to re-elect rudy bojorquez to city council 2026",
+        "committee": "SEM Action Committee to Re-Elect Rudy Bojorquez 2026",
         "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=24955&dbid=0&repo=r-fe8f1ab6",
-        "period": "July 1 to September 19, 2026",
-        "raised": 18724,
-        "cashOnHand": 24023.15,
+        "period": "September 20 to October 17, 2026",
+        "raised": 4829,
+        "cashOnHand": 13339.13,
         "fromScan": "ai"
       }
     ]
@@ -335,6 +335,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T21:48:37.939Z",
-    "version": 8
+    "version": 9
   }
 }

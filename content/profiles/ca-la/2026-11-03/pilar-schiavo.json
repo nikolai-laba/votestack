@@ -54,24 +54,24 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Pilar Schiavo for Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477036",
-        "period": "July 1 to September 19, 2026",
-        "raised": 219790.14,
-        "cashOnHand": 995342.89,
+        "period": "September 20 to October 17, 2026",
+        "raised": 496432.09,
+        "cashOnHand": 904761.29,
         "breakdown": [
-          { "kind": "small", "amount": 311 },
-          { "kind": "large", "amount": 600 },
-          { "kind": "pac", "amount": 64100 },
-          { "kind": "party", "amount": 142779.14 },
-          { "kind": "other", "amount": 12000 }
+          { "kind": "small", "amount": 783 },
+          { "kind": "large", "amount": 3325 },
+          { "kind": "pac", "amount": 146400 },
+          { "kind": "party", "amount": 324524.09 },
+          { "kind": "other", "amount": 21400 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 465280.09, "count": 73 }
+        "largeSince": { "since": "2026-10-17", "total": 170900.24, "count": 23 }
       }
     ]
   },
@@ -416,11 +416,11 @@
     },
     {
       "id": 17,
-      "title": "November General Election Endorsements",
-      "publisher": "YIMBY Los Angeles",
-      "url": "https://yimby.la/voter-guide/november-general-election-endorsements/",
+      "title": "November 2026 California general",
+      "publisher": "YIMBY Action",
+      "url": "https://yimbyaction.org/endorsements/november-2026-california-general",
       "kind": "endorser",
-      "viewedAt": "2026-10-14"
+      "viewedAt": "2026-10-26"
     },
     {
       "id": 18,
@@ -531,6 +531,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.667Z",
-    "version": 6
+    "version": 8
   }
 }

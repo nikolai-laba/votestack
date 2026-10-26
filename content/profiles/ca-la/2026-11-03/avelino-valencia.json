@@ -39,22 +39,22 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Avelino Valencia for Senate 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1477383",
-        "period": "July 1 to September 19, 2026",
-        "raised": 188818.91,
-        "cashOnHand": 536904.6,
+        "period": "September 20 to October 17, 2026",
+        "raised": 122155,
+        "cashOnHand": 542141.48,
         "breakdown": [
-          { "kind": "large", "amount": 1085 },
-          { "kind": "pac", "amount": 99833.91 },
-          { "kind": "other", "amount": 87900 }
+          { "kind": "large", "amount": 5 },
+          { "kind": "pac", "amount": 90350 },
+          { "kind": "other", "amount": 31800 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 115700, "count": 30 }
+        "largeSince": { "since": "2026-10-17", "total": 35600, "count": 13 }
       }
     ]
   },
@@ -267,6 +267,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.762Z",
-    "version": 5
+    "version": 6
   }
 }

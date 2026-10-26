@@ -48,24 +48,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Tony Strickland for Senate 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1467958",
-        "period": "July 1 to September 19, 2026",
-        "raised": 352209,
-        "cashOnHand": 1023036.58,
+        "period": "September 20 to October 17, 2026",
+        "raised": 262989,
+        "cashOnHand": 319533.75,
         "breakdown": [
-          { "kind": "small", "amount": 125 },
-          { "kind": "large", "amount": 113774 },
-          { "kind": "pac", "amount": 107660 },
-          { "kind": "party", "amount": 50000 },
-          { "kind": "other", "amount": 80650 }
+          { "kind": "small", "amount": 239 },
+          { "kind": "large", "amount": 149250 },
+          { "kind": "pac", "amount": 49300 },
+          { "kind": "other", "amount": 64200 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 204500, "count": 92 }
+        "largeSince": { "since": "2026-10-17", "total": 134600, "count": 27 }
       }
     ]
   },
@@ -400,6 +399,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.767Z",
-    "version": 5
+    "version": 6
   }
 }

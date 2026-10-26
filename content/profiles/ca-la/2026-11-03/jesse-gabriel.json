@@ -54,22 +54,23 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Jesse Gabriel for Assembly 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1476845",
-        "period": "July 1 to September 19, 2026",
-        "raised": 132350,
-        "cashOnHand": 3194407.35,
+        "period": "September 20 to October 17, 2026",
+        "raised": 149235.15,
+        "cashOnHand": 3224783.61,
         "breakdown": [
-          { "kind": "large", "amount": 9400 },
-          { "kind": "pac", "amount": 69850 },
-          { "kind": "other", "amount": 53100 }
+          { "kind": "small", "amount": 61 },
+          { "kind": "large", "amount": 56474.15 },
+          { "kind": "pac", "amount": 70100 },
+          { "kind": "other", "amount": 22600 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 128974.15, "count": 31 }
+        "largeSince": { "since": "2026-10-17", "total": 17800, "count": 5 }
       }
     ]
   },
@@ -256,11 +257,11 @@
     },
     {
       "id": 13,
-      "title": "November General Election Endorsements",
-      "publisher": "YIMBY Los Angeles",
-      "url": "https://yimby.la/voter-guide/november-general-election-endorsements/",
+      "title": "November 2026 California general",
+      "publisher": "YIMBY Action",
+      "url": "https://yimbyaction.org/endorsements/november-2026-california-general",
       "kind": "endorser",
-      "viewedAt": "2026-10-14"
+      "viewedAt": "2026-10-26"
     },
     {
       "id": 14,
@@ -363,6 +364,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.685Z",
-    "version": 6
+    "version": 8
   }
 }

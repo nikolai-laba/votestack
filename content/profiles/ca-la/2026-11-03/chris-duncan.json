@@ -45,23 +45,24 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
+    "asOf": "2026-10-26",
     "items": [
       {
         "source": "CA",
         "filedWith": "California Secretary of State",
         "committee": "Chris Duncan for Senate 2026",
         "url": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1485389",
-        "period": "July 1 to September 19, 2026",
-        "raised": 239313.14,
-        "cashOnHand": 142246.35,
+        "period": "September 20 to October 17, 2026",
+        "raised": 998054.11,
+        "cashOnHand": 146403.22,
         "breakdown": [
-          { "kind": "small", "amount": 2315.39 },
-          { "kind": "large", "amount": 60057.5 },
-          { "kind": "pac", "amount": 132700 },
-          { "kind": "party", "amount": 44240.25 }
+          { "kind": "small", "amount": 1049 },
+          { "kind": "large", "amount": 17164.11 },
+          { "kind": "pac", "amount": 55256.58 },
+          { "kind": "party", "amount": 922584.42 },
+          { "kind": "other", "amount": 2000 }
         ],
-        "largeSince": { "since": "2026-09-19", "total": 876970.61, "count": 63 }
+        "largeSince": { "since": "2026-10-17", "total": 16166.7, "count": 7 }
       }
     ]
   },
@@ -436,6 +437,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.765Z",
-    "version": 5
+    "version": 6
   }
 }

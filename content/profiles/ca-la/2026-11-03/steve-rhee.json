@@ -49,12 +49,19 @@
     ]
   },
   "money": {
-    "asOf": "2026-10-17",
-    "items": [],
-    "filingsAt": {
-      "name": "City of Arcadia",
-      "url": "https://laserfiche.arcadiaca.gov/WebLink/Browse.aspx?id=881631&dbid=0&repo=CityofArcadia"
-    }
+    "asOf": "2026-10-26",
+    "items": [
+      {
+        "source": "CA",
+        "filedWith": "City of Arcadia",
+        "committee": "Rhee for City Council 2026 District 5",
+        "url": "https://laserfiche.arcadiaca.gov/WebLink/Browse.aspx?id=883755&dbid=0&repo=CityofArcadia",
+        "period": "August 31 to September 30, 2026",
+        "raised": 98896.88,
+        "cashOnHand": 73623.09,
+        "fromScan": "ai"
+      }
+    ]
   },
   "endorsements": {
     "asOf": "2026-10-15",
@@ -104,6 +111,6 @@
     "model": "deepseek-gemini",
     "promptVersion": "f006-5",
     "generatedAt": "2026-10-15T19:03:51.289Z",
-    "version": 3
+    "version": 4
   }
 }
