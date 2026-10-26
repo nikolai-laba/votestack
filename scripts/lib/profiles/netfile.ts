@@ -1,23 +1,34 @@
 // NetFile's public campaign portal (netfile.com/public/{agency}/campaign),
 // where Los Angeles County's Registrar-Recorder/County Clerk and a number of
-// cities publish their candidates' campaign statements. Everything here is
-// what the portal itself loads with no sign-in or challenge: the election's
-// seats with each candidate's committee (as the filing officer linked them),
-// each committee's list of filings, and each filing's PDF. The bulk exports
-// behind the portal's bot check are never requested; a challenged request
-// stops the run as a NetFileWall.
+// cities publish their candidates' campaign statements. From the portal's
+// own API: the election's seats with each candidate's committee (as the
+// filing officer linked them) and each committee's list of filings. Since
+// October 2026 that API answers only browsers that pass a bot check, which we
+// never try to get past: once it refuses, the lists saved from it stand in.
+// Filings since then come from NetFile's documented public API (Connect2),
+// which NetFile offers for automated republishing: each agency's filing feed
+// (the last 15 days), each filing's record, and each filing's PDF. A
+// challenged request there stops the run as a NetFileWall.
 //
-// Downloads are cached under data/raw/money/netfile/ (filing PDFs never
-// change, so they're kept; lists are refreshed after maxAgeHours) and made
-// one at a time with a pause between them.
+// Downloads are cached under data/raw/money/netfile/ (filing PDFs and
+// records never change, so they're kept; lists are refreshed after
+// maxAgeHours) and made one at a time with a pause between them.
 
-import { mkdir, readFile, rename, stat, writeFile } from 'node:fs/promises'
+import {
+  mkdir,
+  readdir,
+  readFile,
+  rename,
+  stat,
+  writeFile,
+} from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { RAW } from '../data.ts'
 import { namesMatch, splitCommaName, type ParsedName } from './names.ts'
 
 export const NETFILE_DIR = join(RAW, 'money', 'netfile')
 const API = 'https://netfile.com/api/public/sites/api/'
+const CONNECT2 = 'https://netfile.com/Connect2/api/public/'
 const USER_AGENT = 'VoteStack data import (votestack.org)'
 const PAUSE_MS = 400
 
@@ -136,18 +147,25 @@ export interface NfFiling {
   periodStart: string | null
   periodEnd: string | null
   canDownload?: boolean
+  /** Known only from the filing feed: its filing date and amendment status come from its record. */
+  fromFeed?: boolean
 }
 
 /** A request the portal answered with a bot check, login or block: a wall we don't get past. */
 export class NetFileWall extends Error {}
 
+/** Why the portal's API refused this run, once it has; its saved lists stand in from then on. */
+let portalWall: string | undefined
+
 let lastRequest = 0
 
-async function politeFetch(url: string): Promise<Response> {
+async function politeFetch(url: string, accept?: string): Promise<Response> {
   const wait = lastRequest + PAUSE_MS - Date.now()
   if (wait > 0) await new Promise((r) => setTimeout(r, wait))
   lastRequest = Date.now()
-  const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } })
+  const res = await fetch(url, {
+    headers: { 'User-Agent': USER_AGENT, ...(accept && { Accept: accept }) },
+  })
   const challenged =
     res.headers.get('cf-mitigated') === 'challenge' ||
     res.status === 401 ||
@@ -171,7 +189,19 @@ async function save(path: string, data: Uint8Array | string) {
   await rename(`${path}.partial`, path)
 }
 
-/** A JSON endpoint, cached at `cache`. */
+async function saveJson(url: string, path: string) {
+  // Connect2 answers with an HTML page unless asked for JSON.
+  const res = await politeFetch(url, 'application/json')
+  const text = await res.text()
+  if (!/^\s*[[{]/.test(text)) throw new NetFileWall(`Not JSON from ${url}`)
+  await save(path, text)
+}
+
+/**
+ * A portal API endpoint, cached at `cache`. Once the portal refuses, the
+ * copy saved earlier stands in, however old, and the portal isn't asked
+ * again this run.
+ */
 async function getJson<T>(
   endpoint: string,
   cache: string,
@@ -179,12 +209,32 @@ async function getJson<T>(
 ): Promise<T> {
   const path = join(NETFILE_DIR, cache)
   if (!(await fresh(path, maxAgeHours))) {
-    const res = await politeFetch(API + endpoint)
-    const text = await res.text()
-    if (!/^\s*[[{]/.test(text))
-      throw new NetFileWall(`Not JSON from ${API + endpoint}`)
-    await save(path, text)
+    try {
+      if (portalWall) throw new NetFileWall(portalWall)
+      await saveJson(API + endpoint, path)
+    } catch (e) {
+      if (!(e instanceof NetFileWall)) throw e
+      if (!portalWall) {
+        portalWall = e.message
+        console.warn(
+          `NetFile's portal refused (${e.message}); using the lists saved from it before, with later filings from NetFile's public filing feed`,
+        )
+      }
+      if (!(await fresh(path, Infinity))) throw e
+    }
   }
+  return JSON.parse(await readFile(path, 'utf8')) as T
+}
+
+/** A Connect2 API endpoint, cached at `cache`. */
+async function connect2Json<T>(
+  endpoint: string,
+  cache: string,
+  maxAgeHours: number,
+): Promise<T> {
+  const path = join(NETFILE_DIR, cache)
+  if (!(await fresh(path, maxAgeHours)))
+    await saveJson(CONNECT2 + endpoint, path)
   return JSON.parse(await readFile(path, 'utf8')) as T
 }
 
@@ -226,9 +276,13 @@ export async function seatsOf(
         ),
       )
     } catch (e) {
-      // The portal answers 500 for some seats with no candidates.
-      if (e instanceof NetFileWall || !/^500 /.test((e as Error).message))
-        throw e
+      // The portal answers 500 for some seats with no candidates, so those
+      // have no saved list to use once it refuses.
+      const none =
+        e instanceof NetFileWall
+          ? portalWall !== undefined
+          : /^500 /.test((e as Error).message)
+      if (!none) throw e
       console.warn(`NetFile ${aid}: no candidate list for seat ${s.caption}`)
       seats.push({ id: s.id, caption: s.caption, candidates: [] })
     }
@@ -250,8 +304,35 @@ export async function filingsOf(
   return filings
 }
 
-/** Every campaign filing an agency received in a date range, for finding committees no seat lists. */
+/**
+ * Every campaign filing an agency received in a date range, for finding
+ * committees no seat lists. Once the portal refuses, the latest range saved
+ * from it with the same start stands in.
+ */
 export async function filingsBetween(
+  aid: string,
+  start: string,
+  end: string,
+  maxAgeHours: number,
+): Promise<NfFiling[]> {
+  try {
+    return await filingsByDate(aid, start, end, maxAgeHours)
+  } catch (e) {
+    if (!(e instanceof NetFileWall)) throw e
+    const saved = (await readdir(join(NETFILE_DIR, aid)).catch(() => []))
+      .map((n) =>
+        n.match(/^byDate-(\d{4}-\d\d-\d\d)-(\d{4}-\d\d-\d\d)-1\.json$/),
+      )
+      .filter((m) => m?.[1] === start)
+      .map((m) => m![2])
+      .sort()
+      .at(-1)
+    if (!saved || saved === end) throw e
+    return filingsByDate(aid, start, saved, Infinity)
+  }
+}
+
+async function filingsByDate(
   aid: string,
   start: string,
   end: string,
@@ -274,17 +355,154 @@ export async function filingsBetween(
   return out
 }
 
-/** The committee (filer) ID behind one filing. */
+/**
+ * The committee (filer) ID behind one filing, or undefined when the portal
+ * has refused and never said.
+ */
 export async function filerIdOf(
   aid: string,
   filingId: string,
 ): Promise<string | undefined> {
-  const r = await getJson<{ filerId?: string }>(
-    `Filings/byId/${filingId}?agencyCode=${aid}`,
-    `${aid}/filing/${filingId}.json`,
-    Infinity,
-  )
-  return r.filerId
+  try {
+    const r = await getJson<{ filerId?: string }>(
+      `Filings/byId/${filingId}?agencyCode=${aid}`,
+      `${aid}/filing/${filingId}.json`,
+      Infinity,
+    )
+    return r.filerId
+  } catch (e) {
+    if (e instanceof NetFileWall && portalWall) return undefined
+    throw e
+  }
+}
+
+// ---------------------------------------------------------------- the feed
+
+/** "10/26/2026" → "2026-10-26". */
+const mdy = (s: string | undefined) => {
+  const m = s?.trim().match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/)
+  return m ? `${m[3]}-${m[1].padStart(2, '0')}-${m[2].padStart(2, '0')}` : null
+}
+
+const XML_ENTITIES: Record<string, string> = {
+  amp: '&',
+  lt: '<',
+  gt: '>',
+  quot: '"',
+  apos: "'",
+}
+
+const xmlText = (s: string) =>
+  s
+    .replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (all, e: string) =>
+      e[0] === '#'
+        ? String.fromCodePoint(
+            e[1] === 'x' || e[1] === 'X'
+              ? parseInt(e.slice(2), 16)
+              : Number(e.slice(1)),
+          )
+        : (XML_ENTITIES[e] ?? all),
+    )
+    .trim()
+
+/**
+ * The filings in a Connect2 filing feed, newest first: each one's committee
+ * and form, with its period ("FPPC Form 460 (9/20/2026 - 10/17/2026)") or
+ * filing date ("FPPC Form 497 (10/26/2026)") as the feed gives it.
+ */
+export function parseFilingFeed(xml: string): NfFiling[] {
+  const out: NfFiling[] = []
+  for (const [, item] of xml.matchAll(/<item>([\s\S]*?)<\/item>/g)) {
+    const tag = (name: string) =>
+      xmlText(
+        item.match(new RegExp(`<${name}>([\\s\\S]*?)</${name}>`))?.[1] ?? '',
+      )
+    const id = tag('link').match(/\/image\/(\d+)$/)?.[1]
+    if (!id) continue
+    const [, form, dates] =
+      tag('description').match(/^(.*?)\s*(?:\(([^)]*)\))?$/) ?? []
+    const [from, to] = (dates ?? '').split(' - ')
+    out.push({
+      id,
+      formName: form,
+      filerName: tag('title'),
+      filingDate: to ? '' : (mdy(from) ?? ''),
+      periodStart: to ? mdy(from) : null,
+      periodEnd: to ? mdy(to) : null,
+      fromFeed: true,
+    })
+  }
+  return out
+}
+
+/** The parts of a filing's Connect2 record that the feed leaves out. */
+export interface NfFilingInfo {
+  amends: string | null
+  amendmentSequenceNumber: number
+  dateStart: string | null
+  dateEnd: string | null
+  filingDate: string
+  externalImageSize: number
+  internalImageSize: number
+}
+
+/** A feed filing completed from its record, named as the portal names an amendment. */
+export function fromFilingInfo(f: NfFiling, info: NfFilingInfo): NfFiling {
+  const amended = !!info.amends || info.amendmentSequenceNumber > 0
+  return {
+    id: f.id,
+    formName: amended ? `${f.formName} (Amendment)` : f.formName,
+    filerName: f.filerName,
+    filingDate: info.filingDate,
+    periodStart: info.dateStart,
+    periodEnd: info.dateEnd,
+    canDownload: info.externalImageSize > 0 || info.internalImageSize > 0,
+  }
+}
+
+/** The feed's filings by the same committees (by name) that aren't listed from the portal yet. */
+export function feedFilingsFor(
+  filings: NfFiling[],
+  feed: NfFiling[],
+): NfFiling[] {
+  const names = new Set(filings.map((f) => f.filerName))
+  const listed = new Set(filings.filter((f) => !f.fromFeed).map((f) => f.id))
+  return feed.filter((f) => names.has(f.filerName) && !listed.has(f.id))
+}
+
+/** An agency's filings over the last 15 days (at most 1,000), from its Connect2 filing feed. */
+export async function filingFeed(
+  aid: string,
+  maxAgeHours: number,
+): Promise<NfFiling[]> {
+  const path = join(NETFILE_DIR, aid, 'feed.xml')
+  if (!(await fresh(path, maxAgeHours))) {
+    const url = `${CONNECT2}list/filing/rss/${aid}?Application=Campaign`
+    const text = await (await politeFetch(url)).text()
+    if (!/<rss[\s>]/.test(text))
+      throw new NetFileWall(`Not a filing feed from ${url}`)
+    await save(path, text)
+  }
+  return parseFilingFeed(await readFile(path, 'utf8'))
+}
+
+/** A committee's filings, with the feed's later ones completed from their records. */
+export async function withFeedFilings(
+  aid: string,
+  filings: NfFiling[],
+  feed: NfFiling[],
+): Promise<NfFiling[]> {
+  const added: NfFiling[] = []
+  for (const f of feedFilingsFor(filings, feed)) {
+    const info = await connect2Json<NfFilingInfo>(
+      `filing/info/${f.id}`,
+      `${aid}/info/${f.id}.json`,
+      Infinity,
+    )
+    added.push(fromFilingInfo(f, info))
+  }
+  const ids = new Set(added.map((f) => f.id))
+  return [...filings.filter((f) => !ids.has(f.id)), ...added]
 }
 
 /**
@@ -301,11 +519,9 @@ export async function filingPdf(
   if (await fresh(path, Infinity)) return path
   let res: Response
   try {
-    res = await politeFetch(
-      `${API}CampaignDocuments/download/${filingId}?aid=${aid}&name=x&date=x&form=x`,
-    )
+    res = await politeFetch(`${CONNECT2}image/${filingId}`)
   } catch (e) {
-    if (e instanceof NetFileWall || !/^5\d\d /.test((e as Error).message))
+    if (e instanceof NetFileWall || !/^(404|5\d\d) /.test((e as Error).message))
       throw e
     console.warn(`NetFile ${aid}: no PDF for filing ${filingId}`)
     return null
