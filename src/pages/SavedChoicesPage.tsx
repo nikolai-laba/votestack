@@ -174,7 +174,7 @@ function PickedList({
 /**
  * One race: its title as a quiet label, then what the voter picked in bold
  * `primary`, so the picks are what the eye finds first. Every pick looks the
- * same.
+ * same, except that a No answer is marked in red (see `Answer`).
  */
 function PickedRace({
   contest,
@@ -266,9 +266,11 @@ function Answer({ choice }: { choice?: string }) {
         Yes
       </strong>
     )
+  // No gets the same marker in coral red, so a voter can scan a long list of
+  // judges for their No votes; the word itself still says which answer it is.
   if (choice === 'no')
     return (
-      <strong className="inline-block rounded-sm bg-pick px-1.5 text-race font-bold text-on-pick forced-colors:bg-[Mark] forced-colors:text-[MarkText]">
+      <strong className="inline-block rounded-sm bg-pick-no px-1.5 text-race font-bold text-on-pick-no forced-colors:bg-[Mark] forced-colors:text-[MarkText]">
         No
       </strong>
     )

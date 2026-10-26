@@ -58,6 +58,9 @@
   /* A picked name on Saved choices: a marker-style lime background. */
   --pick: #62d846;
   --on-pick: #17241c;
+  /* A No answer there: the same marker in coral red, so No votes stand out. */
+  --pick-no: #ff7b72;
+  --on-pick-no: #17241c;
   /* The selected option in a set of choices (Order of races). */
   --selected: #62d846;
   --on-selected: #17241c;
@@ -90,6 +93,8 @@
   --on-highlight: #17241c;
   --pick: #62d846;
   --on-pick: #17241c;
+  --pick-no: #ff7b72;
+  --on-pick-no: #17241c;
   --selected: #24402a;
   --on-selected: #e6ece4;
   --selected-line: #62d846;
@@ -118,6 +123,8 @@
     --on-highlight: #17241c;
     --pick: #62d846;
     --on-pick: #17241c;
+    --pick-no: #ff7b72;
+    --on-pick-no: #17241c;
     --selected: #24402a;
     --on-selected: #e6ece4;
     --selected-line: #62d846;
@@ -156,6 +163,8 @@
   --color-on-highlight: var(--on-highlight);
   --color-pick: var(--pick);
   --color-on-pick: var(--on-pick);
+  --color-pick-no: var(--pick-no);
+  --color-on-pick-no: var(--on-pick-no);
   --color-band: var(--band);
   --color-warn-bg: var(--warn-bg);
   --color-warn-fg: var(--warn-fg);
