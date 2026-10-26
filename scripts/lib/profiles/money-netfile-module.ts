@@ -5,7 +5,8 @@
 // person's committee comes from the filing officer's own seat list for the
 // election, or else from a committee named after them that filed this year;
 // the summary is the committee's latest Form 460, read from its PDF, with
-// the Form 497 late contributions filed since.
+// the Form 497 late contributions filed since. Filings the portal's lists
+// don't have yet come from the agency's public filing feed.
 
 import type { MoneySummary } from '../../../src/shared/profile.ts'
 import { form460Summary, lateSince, type LateContribution } from './form460.ts'
@@ -24,6 +25,7 @@ import {
   filerIdOf,
   filerPage,
   filersNamedFor,
+  filingFeed,
   filingPdf,
   filingsBetween,
   filingsOf,
@@ -32,6 +34,7 @@ import {
   matchSeatCandidates,
   NetFileWall,
   seatsOf,
+  withFeedFilings,
   type Agency,
   type NfFiling,
   type NfSeat,
@@ -100,6 +103,7 @@ export function netfileModule(
         const { aid } = agency
         let seats: NfSeat[] = []
         let yearFilings: NfFiling[] | undefined
+        let feed: NfFiling[] = []
         for (const p of group) {
           if (wall) {
             miss(p, `NetFile stopped answering: ${wall}`, 'wall')
@@ -121,8 +125,18 @@ export function netfileModule(
                 ctx.today,
                 ctx.maxAgeHours,
               )
+              // Without the feed, the portal's lists alone (as saved) still stand.
+              feed = await filingFeed(aid, ctx.maxAgeHours).catch((e) => {
+                if (!(e instanceof NetFileWall)) throw e
+                console.warn(
+                  `NetFile ${aid}: no filing feed (${e.message}); later filings are left out`,
+                )
+                return []
+              })
+              const listed = new Set(yearFilings.map((f) => f.id))
+              yearFilings.push(...feed.filter((f) => !listed.has(f.id)))
             }
-            const entry = await collectOne(p, agency, seats, yearFilings!)
+            const entry = await collectOne(p, agency, seats, yearFilings!, feed)
             if ('reason' in entry) {
               miss(p, entry.reason, 'unmatched')
               continue
@@ -162,6 +176,7 @@ export function netfileModule(
         agency: Agency,
         seats: NfSeat[],
         yearFilings: NfFiling[],
+        feed: NfFiling[],
       ): Promise<
         | { reason: string }
         | { entry: MoneyEntry; outcome: NetFileOutcome; committeeKey?: string }
@@ -181,8 +196,11 @@ export function netfileModule(
         const official = matches[0]
           ? candidateName(matches[0].candidate.fullName)
           : undefined
+        // A committee's filings as the portal listed them, plus the feed's.
+        const allFilings = async (id: string) =>
+          withFeedFilings(aid, await filingsOf(aid, id, ctx.maxAgeHours), feed)
         if (filerId) {
-          filings = await filingsOf(aid, filerId, ctx.maxAgeHours)
+          filings = await allFilings(filerId)
           // The seat sometimes links the candidate's own filer (Form 470s
           // and 501s) while a committee named for them files the 460s.
           if (!filings.some((f) => /\b460\b/.test(f.formName))) {
@@ -199,7 +217,11 @@ export function netfileModule(
               const id = await filerIdOf(aid, theirs[0].id)
               if (id) {
                 filerId = id
-                filings = await filingsOf(aid, id, ctx.maxAgeHours)
+                filings = await allFilings(id)
+              } else {
+                // A committee new since the portal refused: its own filings.
+                filerId = undefined
+                filings = await withFeedFilings(aid, theirs, feed)
               }
             }
           }
@@ -235,8 +257,8 @@ export function netfileModule(
           const named = yearFilings.filter((f) => f.filerName === names[0])
           filerId = await filerIdOf(aid, named[0].id)
           filings = filerId
-            ? await filingsOf(aid, filerId, ctx.maxAgeHours)
-            : named
+            ? await allFilings(filerId)
+            : await withFeedFilings(aid, named, feed)
         }
         const committee = filings[0]?.filerName ?? ''
         const url = filerId ? filerPage(aid, filerId, committee) : atAgency.url

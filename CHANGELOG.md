@@ -5,6 +5,10 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+### Fixed
+
+- Los Angeles County campaign money from NetFile updates again. NetFile's portal now answers only browsers that pass a bot check, which the import never tries to get past. It now uses the portal's lists as last saved and adds later filings from NetFile's documented public API (Connect2): each agency's filing feed, each filing's record and its PDF.
+
 ### Changed
 
 - `npm run usage:report -- --open` now opens the v2 usage report (report-v2.html), and every run prints its file link. Both reports are still written. Internal tooling, not visible on the site.
