@@ -446,7 +446,7 @@ describe('Saved choices', () => {
       'STRONG',
     )
     expect(within(race('Transit question')).getByText('No')).toHaveClass(
-      'bg-pick',
+      'bg-pick-no',
     )
     const judges = within(page).getByRole('region', {
       name: 'Judicial retention',
@@ -460,6 +460,25 @@ describe('Saved choices', () => {
     expect(
       screen.queryByRole('link', { name: /print|download|share|export/i }),
     ).toBeNull()
+  })
+
+  it('marks No answers in red and Yes answers in lime, for a quick scan', () => {
+    seed({ m: ['no'], r1: ['yes'], r2: ['no'] })
+    renderAt('/saved-choices')
+
+    // A red marker behind dark text (pick-no / on-pick-no), the same shape
+    // and weight as the lime one; the word still says which answer it is.
+    const noes = screen.getAllByText('No', { selector: 'strong' })
+    expect(noes).toHaveLength(2)
+    for (const no of noes) {
+      expect(no).toHaveClass('font-bold', 'bg-pick-no', 'text-on-pick-no')
+      expect(no).not.toHaveClass('bg-pick')
+    }
+    expect(screen.getByText('Yes', { selector: 'strong' })).toHaveClass(
+      'font-bold',
+      'bg-pick',
+      'text-on-pick',
+    )
   })
 
   it('goes back to a race on the ballot, opening the judges list', async () => {

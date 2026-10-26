@@ -84,8 +84,9 @@ const PAIRS: [string, string, number][] = [
   ['on-selected', 'selected', 4.5],
   ['selected-line', 'selected', 3],
   ['selected-line', 'bg', 3],
-  // A picked name on Saved choices.
+  // A picked name on Saved choices, and a No answer there.
   ['on-pick', 'pick', 4.5],
+  ['on-pick-no', 'pick-no', 4.5],
   ['warn-fg', 'warn-bg', 4.5],
   ['danger', 'bg', 4.5],
   ['danger', 'surface', 4.5],

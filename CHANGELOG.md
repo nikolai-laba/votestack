@@ -5,16 +5,14 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
-### Fixed
-
-- Los Angeles County campaign money from NetFile updates again. NetFile's portal now answers only browsers that pass a bot check, which the import never tries to get past. It now uses the portal's lists as last saved and adds later filings from NetFile's documented public API (Connect2): each agency's filing feed, each filing's record and its PDF.
-
 ### Changed
 
+- On Saved choices, a No answer for a judge up for retention or a referendum now has a coral-red marker instead of the lime one, so No votes are easy to spot in a long list of judges. Yes answers and picked names keep the lime marker.
 - `npm run usage:report -- --open` now opens the v2 usage report (report-v2.html), and every run prints its file link. Both reports are still written. Internal tooling, not visible on the site.
 
 ### Fixed
 
+- Los Angeles County campaign money from NetFile updates again. NetFile's portal now answers only browsers that pass a bot check, which the import never tries to get past. It now uses the portal's lists as last saved and adds later filings from NetFile's documented public API (Connect2): each agency's filing feed, each filing's record and its PDF.
 - Cook County campaign money keeps showing a candidate's latest quarterly report with figures while a newer one is filed but not yet in the state's data files. Before, the candidate's money disappeared until the new figures arrived.
 
 ## [1.5.2] - 2026-10-25
