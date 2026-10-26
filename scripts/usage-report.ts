@@ -14,10 +14,12 @@
 // from Analytics Engine.
 //
 // Run: npm run usage:report [-- --open] [-- --out <file>]
+// --open shows report-v2.html; report.html (v1) is written beside it.
 
 import { execFile } from 'node:child_process'
 import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises'
 import { dirname, join, resolve } from 'node:path'
+import { pathToFileURL } from 'node:url'
 import { parseArgs } from 'node:util'
 import { profileKey } from '../src/shared/profile.ts'
 import { excludeScraper, type Row } from './lib/usage-exclusions.ts'
@@ -270,6 +272,6 @@ await mkdir(dirname(out), { recursive: true })
 await writeFile(out, html)
 await writeFile(outV2, htmlV2)
 console.log(
-  `Wrote ${out} and ${outV2}\n  ${hourRows.length} rolled-up rows, live hours: ${liveNote}\n  ${reports.length} error reports, ${signups.length} sign-ups`,
+  `Wrote ${out} and ${outV2}\n  Open: ${pathToFileURL(outV2).href}\n  ${hourRows.length} rolled-up rows, live hours: ${liveNote}\n  ${reports.length} error reports, ${signups.length} sign-ups`,
 )
-if (values.open) execFile('open', [out])
+if (values.open) execFile('open', [outV2])

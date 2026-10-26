@@ -5,6 +5,10 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+### Changed
+
+- `npm run usage:report -- --open` now opens the v2 usage report (report-v2.html), and every run prints its file link. Both reports are still written. Internal tooling, not visible on the site.
+
 ## [1.5.2] - 2026-10-25
 
 ### Added
