@@ -3,7 +3,7 @@
 // restores the site as it was before the election.
 
 /** Whether voting in the November 3, 2026 election has ended. */
-export const AFTER_ELECTION: boolean = false
+export const AFTER_ELECTION: boolean = true
 
 /**
  * Where the notice's words are served from. The build writes this file only

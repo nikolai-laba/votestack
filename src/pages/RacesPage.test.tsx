@@ -9,6 +9,16 @@ import type { Ballot } from '../shared/ballot.ts'
 import type { CandidateProfile } from '../shared/profile.ts'
 import type { RaceList } from '../shared/races.ts'
 
+// Race pages end with the sign-up block only before an election, so these
+// tests keep the after-election mode off.
+const mode = vi.hoisted(() => ({ on: false }))
+vi.mock('../shared/afterElection.ts', async (original) => ({
+  ...(await original<typeof import('../shared/afterElection.ts')>()),
+  get AFTER_ELECTION() {
+    return mode.on
+  },
+}))
+
 const IL = 'ocd-division/country:us/state:il'
 const list: RaceList = {
   electionId: 'il-2026-11-03-general',

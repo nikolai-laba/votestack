@@ -5,8 +5,15 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+### Added
+
+- After the election, a thank-you notice under the header offers email updates and a way to support VoteStack.
+
 ### Changed
 
+- Race pages, profiles, the ballot and Saved choices say voting has ended and link to official results.
+- The email sign-up thank-you says we'll email before your next election.
+- The sign-up block at the end of pages is off while the notice is up.
 - On Saved choices, a No answer for a judge up for retention or a referendum now has a coral-red marker instead of the lime one, so No votes are easy to spot in a long list of judges. Yes answers and picked names keep the lime marker.
 - `npm run usage:report -- --open` now opens the v2 usage report (report-v2.html), and every run prints its file link. Both reports are still written. Internal tooling, not visible on the site.
 
