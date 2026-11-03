@@ -649,6 +649,15 @@ describe('HomePage', () => {
       )
     })
 
+    it('leaves no blank space after the ballot where the sign-up block was', async () => {
+      mode.on = true
+      mockApi(200, ballot)
+      renderAt('/')
+      await lookUp('834 Lake St')
+      await screen.findByRole('article')
+      expect(document.querySelectorAll('.mt-10:empty')).toHaveLength(0)
+    })
+
     it('says nothing about it before the election is over', async () => {
       mockApi(200, ballot)
       renderAt('/')

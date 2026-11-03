@@ -68,8 +68,11 @@ export function AfterElectionNotice({ width }: { width: string }) {
   function close() {
     noticeVisit.close()
     usage.notice('closed')
-    // The notice is gone: continue from the start of the header.
-    document.querySelector<HTMLElement>('header a')?.focus()
+    // The notice is gone: continue from the start of the header, skipping the
+    // logo link while the header has swapped it for "Back to your ballot".
+    document
+      .querySelector<HTMLElement>('header a:not([aria-hidden="true"])')
+      ?.focus()
   }
 
   return (

@@ -700,6 +700,24 @@ describe('candidate profiles', () => {
     ).toBeNull()
   })
 
+  it('leaves no blank space where the sign-up block was once voting has ended', async () => {
+    mode.on = true
+    mockApi()
+    renderAt('/')
+    await lookUp()
+    await userEvent.click(screen.getByRole('link', { name: /^Jane Doe/ }))
+    await screen.findByRole('heading', { level: 1, name: 'Jane Doe' })
+    expect(document.querySelectorAll('.mt-10:empty')).toHaveLength(0)
+  })
+
+  it('leaves no blank space under a search arrival’s page once voting has ended', async () => {
+    mode.on = true
+    mockApi()
+    renderAt('/candidates/jane-doe')
+    await screen.findByRole('heading', { level: 1, name: 'Jane Doe' })
+    expect(document.querySelectorAll('.mt-10:empty')).toHaveLength(0)
+  })
+
   it('ends a search arrival’s page with the sign-up, after the race card on phones too', async () => {
     mockApi()
     renderAt('/candidates/jane-doe')

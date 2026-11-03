@@ -20,6 +20,7 @@ import { longDate, webUrl } from '../format.ts'
 import { SampleModeContext, useSampleMode } from '../picks/sampleMode.ts'
 import { useBallotStore, type Picks } from '../picks/store.ts'
 import { choicesFor, swapText } from '../picks/summary.ts'
+import { AFTER_ELECTION } from '../shared/afterElection.ts'
 import { partyLine, profileKey } from '../shared/profile.ts'
 import { areaOfBallot, resultsOffices } from '../shared/results.ts'
 import {
@@ -207,7 +208,7 @@ export function BallotView({
       </article>
       {/* After the voter's own ballot, not a sample's, and not the list
         beside a profile (the profile has its own). */}
-      {!sample && !titleElsewhere && (
+      {!sample && !titleElsewhere && !AFTER_ELECTION && (
         <div className="mt-10">
           <SignupBlock source="ballot" />
         </div>

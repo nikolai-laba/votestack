@@ -291,6 +291,28 @@ describe('the after-election thank-you notice', () => {
     }
   })
 
+  it('Close moves focus to the first header link that isn’t hidden', async () => {
+    const user = userEvent.setup()
+    renderAt('/press')
+    await findFull()
+    // As on a phone, scrolled down a profile opened from a saved ballot: the
+    // header hides the logo link and shows "Back to your ballot" instead.
+    const header = screen.getByRole('banner')
+    const logo = header.querySelector<HTMLElement>(
+      'a[aria-label="VoteStack home"]',
+    )!
+    const back = header.querySelector<HTMLElement>(
+      'a[aria-label="Back to your ballot"]',
+    )!
+    logo.setAttribute('aria-hidden', 'true')
+    logo.tabIndex = -1
+    back.removeAttribute('aria-hidden')
+    back.tabIndex = 0
+    await user.click(closeButton())
+    expect(notice()).toBeNull()
+    expect(back).toHaveFocus()
+  })
+
   it('signed-up devices get the thanks and support without the form', async () => {
     localStorage.setItem(SIGNUP_KEY, JSON.stringify({ signedUp: true }))
     act(() => signupStore.reload())

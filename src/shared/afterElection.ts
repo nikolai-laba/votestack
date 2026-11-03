@@ -27,7 +27,11 @@ export interface NoticeWords {
     fine: string
     linkLabel: string
   }
-  /** The one-line form the notice shrinks to once it is closed. */
+  /**
+   * The one line that later pages of a visit show in place of the full
+   * notice; its button opens the notice in place. Closing hides the notice
+   * entirely.
+   */
   line: { text: string; open: string; openSignedUp: string }
 }
 

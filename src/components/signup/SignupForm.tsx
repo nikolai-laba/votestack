@@ -16,11 +16,11 @@ import { Turnstile, type TurnstileHandle } from '../report/Turnstile.tsx'
 import { TextField } from '../TextField.tsx'
 
 // The email sign-up form: an email address and a ZIP code, checked by
-// Cloudflare Turnstile. Used by the sign-up page and the block at the end of
-// pages, so it may appear more than once on a page: field ids come from
-// useId. Turnstile's script loads only once someone starts filling in the
-// form. Without a Turnstile site key it says sign-up isn't available instead
-// of showing a form that can't work.
+// Cloudflare Turnstile. Used by the sign-up page, the block at the end of
+// pages and the after-election notice, so it may appear more than once on a
+// page: field ids come from useId. Turnstile's script loads only once
+// someone starts filling in the form. Without a Turnstile site key it says
+// sign-up isn't available instead of showing a form that can't work.
 
 type Values = Record<SignupField, string>
 type Errors = Partial<Record<SignupField, string>>

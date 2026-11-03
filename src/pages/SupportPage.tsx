@@ -14,9 +14,11 @@ import {
 } from '../shared/support.ts'
 
 // How to pay toward VoteStack, what the money pays for and which money we
-// refuse. Linked from the footer and the About page only: never from the
-// ballot, race or profile pages, and never as a banner or prompt. Payments
-// happen on Stripe's own pages, so this site never handles card details.
+// refuse. Linked from the footer and the About page. After an election the
+// thank-you notice under the header also links here and offers the payment
+// link; otherwise it is never linked from the ballot, race or profile pages,
+// and never as a banner or prompt. Payments happen on Stripe's own pages, so
+// this site never handles card details.
 // VoteStack, LLC isn't a charity, so the copy says "pay" and "support", never
 // "donate", and says plainly that payments aren't tax-deductible.
 

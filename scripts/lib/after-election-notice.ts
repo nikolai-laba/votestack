@@ -23,7 +23,7 @@ export function afterElectionNotice(): NoticeWords {
       'Voting in the 2026 U.S. midterms has ended, and election offices are counting the ballots. Each race page links to the official results.',
     signup: {
       heading: 'Hear from us before your next election',
-      body: 'If you found VoteStack helpful or are interested in knowing when it’s available for your ballot, sign up below. We email a few times a year. Chicago votes again on Tuesday, February 23, 2027, and the rest of Cook County on Tuesday, April 6, 2027. Most of LA County votes next in March 2028.',
+      body: 'If you found VoteStack helpful or are interested in knowing when it’s available for your ballot, sign up below. We email a few times a year.',
     },
     support: {
       heading: 'Help fund voter education',

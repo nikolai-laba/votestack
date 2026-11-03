@@ -18,10 +18,10 @@ describe('afterElectionNotice', () => {
     )
   })
 
-  it('has the sign-up words with the next election dates', () => {
+  it('has the sign-up words', () => {
     expect(words.signup).toEqual({
       heading: 'Hear from us before your next election',
-      body: 'If you found VoteStack helpful or are interested in knowing when it’s available for your ballot, sign up below. We email a few times a year. Chicago votes again on Tuesday, February 23, 2027, and the rest of Cook County on Tuesday, April 6, 2027. Most of LA County votes next in March 2028.',
+      body: 'If you found VoteStack helpful or are interested in knowing when it’s available for your ballot, sign up below. We email a few times a year.',
     })
   })
 
@@ -38,14 +38,14 @@ describe('afterElectionNotice', () => {
     })
   })
 
-  it('rounds the spend to the nearest $10 and the count to thousands', () => {
+  it('formats the count with a thousands separator and rounds the spend to the nearest $10', () => {
     expect(AI_SPENT_SO_FAR).toBe(400.37)
     expect(CANDIDATES_COVERED).toBe(1176)
     expect(words.support.body).toContain('1,176 candidate profiles')
     expect(words.support.body).toContain('about $400 to research')
   })
 
-  it('has the line that replaces the notice once it is closed', () => {
+  it('has the line that later pages of a visit show', () => {
     expect(words.line).toEqual({
       text: 'Voting has ended. Thank you for using VoteStack.',
       open: 'Sign up or support',
