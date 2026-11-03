@@ -52,6 +52,17 @@ describe('Support page', () => {
     ).toBeTruthy()
   })
 
+  it('gives the pay buttons the neon highlight fill', async () => {
+    renderAt('/support')
+    await title()
+    const link = screen.getByRole('link', { name: 'Help support VoteStack' })
+    expect(link).toHaveClass(
+      'border-highlight',
+      'bg-highlight',
+      'text-on-highlight',
+    )
+  })
+
   it('shows the costs, with the candidate count from the published lists', async () => {
     const dir = 'content/profiles/published'
     const lists = readdirSync(dir, { recursive: true, encoding: 'utf8' })

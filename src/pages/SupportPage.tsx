@@ -5,6 +5,7 @@ import {
   NOTIFY_PATH,
   type BallotOutletContext,
 } from '../ballot/profileLinks.ts'
+import { HIGHLIGHT_BUTTON_CLASS } from '../components/buttonStyles.ts'
 import { BackLink } from '../components/profile/BackLink.tsx'
 import { SUPPORT_HEAD, useDocumentHead } from '../head.ts'
 import {
@@ -66,16 +67,13 @@ function List({ children }: { children: ReactNode }) {
 
 /**
  * A link to a Stripe payment page, styled as a button: the highlight fill
- * with on-highlight text, the same in both modes. The only button with the
- * highlight fill; keep it that way. The border keeps its edge
- * in forced-colors mode, where fills are dropped.
+ * with on-highlight text, the same in both modes. The highlight fill is for
+ * the most important calls to action, and paying is one of them
+ * (buttonStyles.ts).
  */
 function PayLink({ href, children }: { href: string; children: ReactNode }) {
   return (
-    <a
-      href={href}
-      className="inline-flex min-h-13 items-center rounded-md border-2 border-highlight bg-highlight px-6 text-label font-semibold text-on-highlight no-underline"
-    >
+    <a href={href} className={HIGHLIGHT_BUTTON_CLASS}>
       {children}
     </a>
   )

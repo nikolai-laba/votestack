@@ -212,6 +212,33 @@ describe('the after-election thank-you notice', () => {
     expect(noticeEvents()).toEqual([{ e: 'notice', act: 'full' }])
   })
 
+  it('gives Sign up and Pay what you want the neon fill, and the line a standard button', async () => {
+    const user = userEvent.setup()
+    const { router } = renderAt('/press')
+    await findFull()
+    const aside = within(notice()!)
+    const signUp = aside.getByRole('button', { name: 'Sign up' })
+    const pay = aside.getByRole('link', { name: 'Pay what you want' })
+    for (const control of [signUp, pay]) {
+      expect(control).toHaveClass(
+        'border-highlight',
+        'bg-highlight',
+        'text-on-highlight',
+      )
+      expect(control).toHaveClass('w-full', 'md:w-auto')
+    }
+
+    await act(() => router.navigate('/about'))
+    const open = within(notice()!).getByRole('button', {
+      name: 'Sign up or support',
+    })
+    expect(open).not.toHaveClass('bg-highlight')
+    await user.click(open)
+    expect(
+      within(notice()!).getByRole('button', { name: 'Sign up' }),
+    ).toHaveClass('bg-highlight')
+  })
+
   it('stays full on that first page after the visit records it', async () => {
     renderAt('/press')
     await findFull()

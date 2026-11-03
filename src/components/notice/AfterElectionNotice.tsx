@@ -9,6 +9,7 @@ import { useNoticeWords } from '../../notice/words.ts'
 import type { NoticeWords } from '../../shared/afterElection.ts'
 import { normalizeZip } from '../../shared/notify.ts'
 import { useSignupDevice } from '../../signup/device.ts'
+import { HIGHLIGHT_BUTTON_CLASS } from '../buttonStyles.ts'
 import { SignupForm } from '../signup/SignupForm.tsx'
 
 // The thank-you notice under the site header once voting has ended: the
@@ -132,7 +133,7 @@ function FullNotice({
         <a
           href={support.payUrl}
           onClick={() => usage.notice('pay')}
-          className={SECONDARY_CLASS}
+          className={`${HIGHLIGHT_BUTTON_CLASS} w-full md:w-auto`}
         >
           {support.payLabel}
         </a>
@@ -160,6 +161,7 @@ function NoticeSignup({ words }: { words: NoticeWords['signup'] }) {
       <p>{words.body}</p>
       <SignupForm
         source="notice"
+        emphasis="highlight"
         initialZip={normalizeZip(typedZip) ?? ''}
         // Committed at once: marking the device as signed up re-renders
         // this part straight after, and it must already know it was used.

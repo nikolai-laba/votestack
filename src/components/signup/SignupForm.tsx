@@ -46,6 +46,7 @@ export function SignupForm({
   initialZip = '',
   onSignedUp,
   deletionNote = false,
+  emphasis = 'primary',
 }: {
   /** Where on the site the form is, sent with the sign-up. */
   source: SignupSource
@@ -55,6 +56,8 @@ export function SignupForm({
   onSignedUp?: () => void
   /** Adds how to have a sign-up deleted (the sign-up page). */
   deletionNote?: boolean
+  /** The Sign up button's fill: the muted primary, or the neon highlight. */
+  emphasis?: 'primary' | 'highlight'
 }) {
   const siteKey: string | undefined = import.meta.env.VITE_TURNSTILE_SITE_KEY
   const id = useId()
@@ -247,7 +250,11 @@ export function SignupForm({
       <button
         type="submit"
         disabled={!running || send.isPending}
-        className="h-13 w-full rounded-md bg-primary px-6 text-label font-semibold text-on-primary transition-opacity duration-150 disabled:opacity-60 md:w-auto"
+        className={`h-13 w-full rounded-md px-6 text-label font-semibold transition-opacity duration-150 disabled:opacity-60 md:w-auto ${
+          emphasis === 'highlight'
+            ? 'border-2 border-highlight bg-highlight text-on-highlight'
+            : 'bg-primary text-on-primary'
+        }`}
       >
         Sign up
       </button>
