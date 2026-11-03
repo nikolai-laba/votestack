@@ -92,10 +92,11 @@ export const COOK: Region = {
   precinctDistricts: cook.precinctDistricts,
 }
 
-const LA_REGISTRAR: cook.Authority = {
+export const LA_REGISTRAR: cook.Authority = {
   id: ocd.LOS_ANGELES_COUNTY,
   name: 'Los Angeles County Registrar-Recorder/County Clerk',
   sampleBallotUrl: 'https://isb.lavote.gov/',
+  resultsUrl: 'https://results.lavote.gov/',
 }
 
 export const LOS_ANGELES: Region = {

@@ -6,6 +6,16 @@ import { afterEach, describe, expect, it, vi } from 'vitest'
 import { ballotStore } from '../picks/store.ts'
 import { routes } from '../routes.tsx'
 import type { Ballot, Contest } from '../shared/ballot.ts'
+import { CHICAGO } from '../shared/ocd.ts'
+
+// Switches the site to its after-election wording for the tests that say so.
+const mode = vi.hoisted(() => ({ on: false }))
+vi.mock('../shared/afterElection.ts', async (original) => ({
+  ...(await original<typeof import('../shared/afterElection.ts')>()),
+  get AFTER_ELECTION() {
+    return mode.on
+  },
+}))
 
 function renderAt(path: string) {
   const router = createMemoryRouter(routes, { initialEntries: [path] })
@@ -96,6 +106,7 @@ async function lookUp(street: string, city = 'Oak Park', zip = '60301') {
 afterEach(() => {
   vi.unstubAllGlobals()
   vi.unstubAllEnvs()
+  mode.on = false
 })
 
 describe('HomePage', () => {
@@ -593,5 +604,67 @@ describe('HomePage', () => {
     expect(screen.getByRole('textbox', { name: 'ZIP code' })).toHaveValue(
       '60301',
     )
+  })
+  describe('after the election', () => {
+    const chicagoBallot: Ballot = {
+      ...ballot,
+      precinct: {
+        id: 'chicago:01001',
+        name: 'Ward 1, Precinct 1',
+        districtIds: [],
+      },
+      contests: contests.map((c) => ({ ...c, authorityId: CHICAGO })),
+    }
+
+    it('links the Chicago Board’s results on a Chicago ballot', async () => {
+      mode.on = true
+      mockApi(200, chicagoBallot)
+      renderAt('/')
+      await lookUp('1 N State St', 'Chicago', '60602')
+      const results = await screen.findByRole('article')
+
+      const line = within(results).getByText(/^Voting ended on/)
+      expect(line).toHaveTextContent(
+        'Voting ended on Tuesday, November 3, 2026. See official results from the Chicago Board of Election Commissioners.',
+      )
+      expect(
+        within(line).getByRole('link', {
+          name: 'Chicago Board of Election Commissioners',
+        }),
+      ).toHaveAttribute(
+        'href',
+        'https://chicagoelections.gov/elections/results',
+      )
+    })
+
+    it('links the County Clerk’s results on a suburban ballot', async () => {
+      mode.on = true
+      mockApi(200, ballot)
+      renderAt('/')
+      await lookUp('834 Lake St')
+      const results = await screen.findByRole('article')
+
+      expect(within(results).getByText(/^Voting ended on/)).toHaveTextContent(
+        'Voting ended on Tuesday, November 3, 2026. See official results from the Cook County Clerk.',
+      )
+    })
+
+    it('says nothing about it before the election is over', async () => {
+      mockApi(200, ballot)
+      renderAt('/')
+      await lookUp('834 Lake St')
+      await screen.findByRole('article')
+      expect(screen.queryByText(/Voting ended/)).toBeNull()
+    })
+
+    it('says on Get started that voting has ended', () => {
+      mode.on = true
+      renderAt('/getstarted')
+      expect(
+        screen.getByText(
+          'Voting in the 2026 U.S. midterms has ended. You can still look up what was on your ballot.',
+        ),
+      ).toBeInTheDocument()
+    })
   })
 })

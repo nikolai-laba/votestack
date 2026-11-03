@@ -19,7 +19,9 @@ import {
 } from '../picks/summary.ts'
 import type { Contest } from '../shared/ballot.ts'
 import { COOK, regionForElection } from '../shared/regions.ts'
+import { areaOfBallot, resultsOffices } from '../shared/results.ts'
 import { SignupBlock } from '../components/signup/SignupBlock.tsx'
+import { VotingEndedLine } from '../components/VotingEndedLine.tsx'
 import { SAVED_CHOICES_HEAD, useDocumentHead } from '../head.ts'
 
 // Saved choices: the voter's picks in ballot order, to fill in a mail
@@ -78,6 +80,7 @@ export function SavedChoicesPage() {
   // so the warning is for Illinois ballots (and any ballot whose state isn't
   // known).
   const illinois = region?.state !== 'CA'
+  const area = areaOfBallot(ballot, region ?? COOK)
 
   return (
     <div className="max-w-[65ch] space-y-8">
@@ -86,6 +89,7 @@ export function SavedChoicesPage() {
         <p className="text-muted">
           {ballot.election.name}, {longDate(ballot.election.date)}
         </p>
+        <VotingEndedLine offices={resultsOffices(area ? [area] : [])} />
         <p>You picked in {pickCountText(pickCounts(ballot, picks), words)}.</p>
       </header>
 

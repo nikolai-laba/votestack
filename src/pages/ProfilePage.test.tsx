@@ -8,6 +8,15 @@ import { routes } from '../routes.tsx'
 import type { Ballot } from '../shared/ballot.ts'
 import type { CandidateProfile } from '../shared/profile.ts'
 
+// Switches the site to its after-election wording for the tests that say so.
+const mode = vi.hoisted(() => ({ on: false }))
+vi.mock('../shared/afterElection.ts', async (original) => ({
+  ...(await original<typeof import('../shared/afterElection.ts')>()),
+  get AFTER_ELECTION() {
+    return mode.on
+  },
+}))
+
 const IL = 'ocd-division/country:us/state:il'
 const base = {
   electionId: 'il-2026-11-03-general',
@@ -183,7 +192,10 @@ async function lookUp() {
   await screen.findByText('Illinois General Election')
 }
 
-afterEach(() => vi.unstubAllGlobals())
+afterEach(() => {
+  vi.unstubAllGlobals()
+  mode.on = false
+})
 
 /** At a profile's top below 840px: the candidate's race(s) only. */
 const panel = () => screen.getByRole('region', { name: 'On your ballot' })
@@ -648,6 +660,43 @@ describe('candidate profiles', () => {
       within(list.parentElement as HTMLElement).queryByRole('region', {
         name: 'Hear from VoteStack before your next election',
       }),
+    ).toBeNull()
+  })
+
+  it('says voting ended once on a profile, not again in the list beside it', async () => {
+    mode.on = true
+    // A profile of someone in a suburban Cook race, so it has a line of its own.
+    const suburban = { ...profile, contestIds: ['cook-clerk:120100'] }
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(async (url: string) =>
+        url === '/api/ballot'
+          ? Response.json(ballot)
+          : url === '/api/profile/jane-doe'
+            ? Response.json(suburban)
+            : Response.json({ error: 'Not found' }, { status: 404 }),
+      ),
+    )
+    renderAt('/')
+    await lookUp()
+    // On the ballot itself the line is under the election's facts.
+    expect(screen.getAllByText(/^Voting ended on/)).toHaveLength(1)
+
+    await userEvent.click(screen.getByRole('link', { name: /^Jane Doe/ }))
+    await screen.findByRole('heading', { level: 1, name: 'Jane Doe' })
+    // The list is still on the page (beside the profile from 840px), but
+    // the line is the profile's, once.
+    const lines = screen.getAllByText(
+      /^Voting ended on Tuesday, November 3, 2026\./,
+    )
+    expect(lines).toHaveLength(1)
+    expect(screen.getByRole('article', { name: 'Jane Doe' })).toContainElement(
+      lines[0],
+    )
+    expect(
+      within(
+        screen.getByRole('article', { name: 'Illinois General Election' }),
+      ).queryByText(/Voting ended/),
     ).toBeNull()
   })
 
