@@ -79,8 +79,10 @@ export function publishedCandidates(
   return { entries, missing, stale }
 }
 
+// /notice/ holds site notices that aren't page content, so crawlers are kept
+// from fetching or rendering them.
 export function robotsTxt(siteUrl: string): string {
-  return `User-agent: *\nAllow: /\n\nSitemap: ${siteUrl}/sitemap.xml\n`
+  return `User-agent: *\nAllow: /\nDisallow: /notice/\n\nSitemap: ${siteUrl}/sitemap.xml\n`
 }
 
 const escapeXml = (s: string) =>

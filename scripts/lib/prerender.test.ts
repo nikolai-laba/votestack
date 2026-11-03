@@ -71,9 +71,9 @@ describe('publishedCandidates', () => {
 })
 
 describe('robots and sitemap', () => {
-  it('allows everything and points to the sitemap', () => {
+  it('allows everything but /notice/ and points to the sitemap', () => {
     expect(robotsTxt('https://votestack.org')).toBe(
-      'User-agent: *\nAllow: /\n\nSitemap: https://votestack.org/sitemap.xml\n',
+      'User-agent: *\nAllow: /\nDisallow: /notice/\n\nSitemap: https://votestack.org/sitemap.xml\n',
     )
   })
 
