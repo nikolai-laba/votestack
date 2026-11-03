@@ -1,6 +1,7 @@
 import { useContext, useId, useState } from 'react'
 import { flushSync } from 'react-dom'
 import { BallotSessionContext } from '../../ballot/session.ts'
+import { AFTER_ELECTION } from '../../shared/afterElection.ts'
 import { normalizeZip, type SignupSource } from '../../shared/notify.ts'
 import { useSignupDevice } from '../../signup/device.ts'
 import { SIGNUP_HEADING, SIGNUP_PROMISE } from './copy.ts'
@@ -8,13 +9,18 @@ import { SignupForm } from './SignupForm.tsx'
 
 // The email sign-up at the end of a page (a profile, a race, the ballot,
 // Saved choices). A device that has signed up doesn't see it; the block someone just used
-// keeps its thank-you while the rest of the page's blocks go away.
+// keeps its thank-you while the rest of the page's blocks go away. After the
+// election it isn't shown at all: the thank-you notice under the header is
+// the one sign-up then.
 
-export function SignupBlock({
-  source,
-}: {
-  source: Exclude<SignupSource, 'banner' | 'page' | 'notice'>
-}) {
+type BlockSource = Exclude<SignupSource, 'banner' | 'page' | 'notice'>
+
+export function SignupBlock({ source }: { source: BlockSource }) {
+  if (AFTER_ELECTION) return null
+  return <SignupBlockBody source={source} />
+}
+
+function SignupBlockBody({ source }: { source: BlockSource }) {
   const device = useSignupDevice()
   const [usedHere, setUsedHere] = useState(false)
   const typedZip = useContext(BallotSessionContext)?.values.zip ?? ''

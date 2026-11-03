@@ -270,6 +270,23 @@ describe('prerender', () => {
       expect(await renderPage(getStarted)).toContain(GET_STARTED_LINE)
     })
 
+    it('leaves out the end-of-page sign-up and the thank-you notice', async () => {
+      mode.on = true
+      vi.stubEnv('VITE_TURNSTILE_SITE_KEY', 'site-key')
+      const live = candidatePages(profile, true)[0]
+      const races = racePages(raceData)
+      for (const page of [live, races[2]])
+        expect(await renderPage(page)).not.toContain(
+          'Hear from VoteStack before your next election',
+        )
+      // The notice's words come from a file the app loads, never the HTML.
+      for (const page of [...STATIC_PAGES, live, ...races]) {
+        const html = await renderPage(page)
+        expect(html).not.toContain('Help fund voter education')
+        expect(html).not.toContain('Thank you notice')
+      }
+    })
+
     it('says none of it while the switch is off', async () => {
       const pages = racePages(raceData)
       for (const page of [

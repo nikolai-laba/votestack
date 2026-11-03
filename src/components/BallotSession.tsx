@@ -14,7 +14,8 @@ import { ballotStore } from '../picks/store.ts'
 
 /**
  * Holds this session's lookup and sample in memory (src/ballot/session.ts)
- * for the get-started page and the ballot, which are its child routes.
+ * for the layout and every page in it (its child routes), so the get-started
+ * page and the ballot share it.
  */
 export function BallotSessionProvider() {
   const [address, setAddress] = useState<string | null>(null)

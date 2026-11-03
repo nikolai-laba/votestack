@@ -150,7 +150,7 @@ export function SignupForm({
         className="space-y-2 rounded-sm border border-line bg-surface p-4"
       >
         <p className="font-semibold">Thanks, you&rsquo;re on the list.</p>
-        <p>We&rsquo;ll send the first email after the November 3 election.</p>
+        <p>We&rsquo;ll email you before your next election.</p>
       </div>
     )
   }

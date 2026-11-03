@@ -2,6 +2,7 @@ import '@testing-library/jest-dom/vitest'
 import { cleanup } from '@testing-library/react'
 import { afterEach } from 'vitest'
 import { orderStore } from '../ballot/orderPreference.ts'
+import { noticeVisit } from '../notice/visit.ts'
 import { ballotStore } from '../picks/store.ts'
 import { signupStore } from '../signup/device.ts'
 import { themeStore } from '../theme/themePreference.ts'
@@ -21,12 +22,13 @@ if (typeof window !== 'undefined') {
   orderStore.reload()
   themeStore.reload()
   signupStore.reload()
+  noticeVisit.reload()
 }
 
 afterEach(() => {
   cleanup()
-  // Each test starts with no saved ballot, picks, theme or sign-up, as a new
-  // visit. (Node-environment tests have no window.)
+  // Each test starts with no saved ballot, picks, theme, sign-up or notice
+  // notes, as a new visit. (Node-environment tests have no window.)
   if (typeof window === 'undefined') return
   window.localStorage.clear()
   window.sessionStorage.clear()
@@ -34,4 +36,5 @@ afterEach(() => {
   orderStore.reload()
   themeStore.reload()
   signupStore.reload()
+  noticeVisit.reload()
 })

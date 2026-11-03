@@ -175,9 +175,7 @@ describe('SignupBlock', () => {
 
     expect(await screen.findByText('Thanks, you’re on the list.')).toBeVisible()
     expect(
-      screen.getByText(
-        'We’ll send the first email after the November 3 election.',
-      ),
+      screen.getByText('We’ll email you before your next election.'),
     ).toBeVisible()
     expect(sent).toEqual([
       {
