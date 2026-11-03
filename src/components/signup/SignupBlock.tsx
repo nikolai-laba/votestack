@@ -13,7 +13,7 @@ import { SignupForm } from './SignupForm.tsx'
 export function SignupBlock({
   source,
 }: {
-  source: Exclude<SignupSource, 'banner' | 'page'>
+  source: Exclude<SignupSource, 'banner' | 'page' | 'notice'>
 }) {
   const device = useSignupDevice()
   const [usedHere, setUsedHere] = useState(false)

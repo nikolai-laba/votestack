@@ -327,6 +327,16 @@ describe('usage counts', () => {
       { e: 'banner', act: 'closed' },
     ])
   })
+
+  it('counts the after-election notice as it is shown and used', () => {
+    const { usage } = setup()
+    usage.notice('full')
+    usage.notice('pay')
+    expect(usage.pending()).toEqual([
+      { e: 'notice', act: 'full' },
+      { e: 'notice', act: 'pay' },
+    ])
+  })
 })
 
 describe('visits, devices and reading in the counter', () => {

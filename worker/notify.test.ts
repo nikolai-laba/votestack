@@ -68,6 +68,20 @@ describe('notifyResponse', () => {
     })
   })
 
+  it('stores a sign-up from the after-election notice', async () => {
+    const { fetch, calls } = fakeServices()
+    const res = await notifyResponse(
+      post({ ...valid, source: 'notice' }),
+      deps(fetch),
+    )
+
+    expect(res.status).toBe(201)
+    expect(calls[1]).toEqual({
+      url: 'https://db.example/rest/v1/rpc/submit_signup',
+      body: { p_email: 'pat@example.com', p_zip: '53703', p_source: 'notice' },
+    })
+  })
+
   it('stores only the 5-digit ZIP code and a trimmed address', async () => {
     const { fetch, calls } = fakeServices()
     const res = await notifyResponse(

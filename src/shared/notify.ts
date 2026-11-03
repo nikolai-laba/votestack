@@ -20,6 +20,8 @@ export const SIGNUP_SOURCES = [
   'banner',
   /** The sign-up page, reached any other way. */
   'page',
+  /** The after-election notice under the header. */
+  'notice',
 ] as const
 
 export type SignupSource = (typeof SIGNUP_SOURCES)[number]

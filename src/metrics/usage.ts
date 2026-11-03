@@ -34,6 +34,7 @@ import {
   USAGE_LEVELS,
   isAutomatedAgent,
   type CtaLink,
+  type NoticeAct,
   type UsageEvent,
   type UsageLevel,
   type UsagePage,
@@ -596,6 +597,10 @@ export function createUsage(deps: UsageDeps) {
 
     banner(act: 'shown' | 'closed') {
       add({ e: 'banner', act })
+    },
+
+    notice(act: NoticeAct) {
+      add({ e: 'notice', act })
     },
 
     clock: deps.clock,
