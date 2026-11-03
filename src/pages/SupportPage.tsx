@@ -7,6 +7,11 @@ import {
 } from '../ballot/profileLinks.ts'
 import { BackLink } from '../components/profile/BackLink.tsx'
 import { SUPPORT_HEAD, useDocumentHead } from '../head.ts'
+import {
+  AI_SPENT_SO_FAR,
+  CANDIDATES_COVERED,
+  PAY_ONCE_URL,
+} from '../shared/support.ts'
 
 // How to pay toward VoteStack, what the money pays for and which money we
 // refuse. Linked from the footer and the About page only: never from the
@@ -14,9 +19,6 @@ import { SUPPORT_HEAD, useDocumentHead } from '../head.ts'
 // happen on Stripe's own pages, so this site never handles card details.
 // VoteStack, LLC isn't a charity, so the copy says "pay" and "support", never
 // "donate", and says plainly that payments aren't tax-deductible.
-
-/** Stripe Payment Link where the payer picks the amount (one-time only). */
-const PAY_ONCE_URL = 'https://buy.stripe.com/3cIeVd0otdaX6Ph7Pt9EI00'
 
 /**
  * Stripe Payment Links for monthly payments, one fixed amount each (Stripe
@@ -34,16 +36,6 @@ const MONTHLY: { dollars: number; url: string }[] = [
  * email through Google Workspace ($8.40).
  */
 const HOSTING_PER_MONTH = 33.4
-
-/** AI spent on candidate profiles so far, in dollars, across every area. */
-const AI_SPENT_SO_FAR = 400.37
-
-/**
- * Candidates with published profiles in every area (the profile lists in
- * content/profiles/published/). A test checks it against those lists, so
- * update it, and AI_SPENT_SO_FAR, when an area is added or republished.
- */
-export const CANDIDATES_COVERED = 1176
 
 const HEADING_ID = 'support-heading'
 

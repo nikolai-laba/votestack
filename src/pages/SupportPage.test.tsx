@@ -6,7 +6,7 @@ import { join } from 'node:path'
 import { describe, expect, it } from 'vitest'
 import { lintTone } from '../../scripts/lib/profiles/checks.ts'
 import { routes } from '../routes.tsx'
-import { CANDIDATES_COVERED } from './SupportPage.tsx'
+import { CANDIDATES_COVERED } from '../shared/support.ts'
 
 function renderAt(path: string) {
   render(

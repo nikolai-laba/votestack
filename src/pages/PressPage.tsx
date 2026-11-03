@@ -2,8 +2,8 @@ import { useEffect, type ReactNode } from 'react'
 import { Link, useOutletContext } from 'react-router'
 import { ABOUT_PATH, type BallotOutletContext } from '../ballot/profileLinks.ts'
 import { BackLink } from '../components/profile/BackLink.tsx'
-import { CANDIDATES_COVERED } from './SupportPage.tsx'
 import { PRESS_HEAD, useDocumentHead } from '../head.ts'
+import { CANDIDATES_COVERED } from '../shared/support.ts'
 
 // A public press kit: a fact sheet, reporter FAQ, ready-to-paste blurbs,
 // logos and contact for interviews. Mirrors the private media-kit.md
