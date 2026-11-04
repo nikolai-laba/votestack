@@ -1,7 +1,7 @@
 {
   "version": 1,
   "electionId": "il-2026-11-03-general",
-  "checkedAt": "2026-11-04T21:49:15.350Z",
+  "checkedAt": "2026-11-04T22:08:48.555Z",
   "results": [
     {
       "contestIds": ["chicago-boe:attorney-general", "cook-clerk:130040"],
@@ -1861,14 +1861,15 @@
     },
     {
       "contestIds": [
-        "chicago-boe:ref:cook-county:the-cook-county-millionaire-amendment-for-property-tax-relief-and-education"
+        "chicago-boe:ref:cook-county:the-cook-county-millionaire-amendment-for-property-tax-relief-and-education",
+        "cook-clerk:ref:03-CCTY-000:cook-county-millionaire-tax-amendment"
       ],
       "kind": "measure",
       "status": "counting",
       "threshold": 0.5,
       "choices": [
-        { "name": "Yes", "votes": 498311 },
-        { "name": "No", "votes": 125075 }
+        { "name": "Yes", "votes": 1000044 },
+        { "name": "No", "votes": 324183 }
       ],
       "certifyBy": "2026-11-24",
       "scope": "within",
@@ -1879,9 +1880,16 @@
           "retrievedAt": "2026-11-04T21:48:50.097Z",
           "official": true,
           "asOf": "2026-11-04T18:58:58.000Z"
+        },
+        {
+          "name": "Cook County Clerk",
+          "url": "https://www.cookcountyclerkil.gov/elections/results-and-election-data/election-results",
+          "retrievedAt": "2026-11-04T21:48:50.097Z",
+          "official": true,
+          "asOf": "2026-11-04T20:30:00.000Z"
         }
       ],
-      "changedAt": "2026-11-04T21:48:52.074Z"
+      "changedAt": "2026-11-04T22:08:48.555Z"
     },
     {
       "contestIds": [
@@ -7397,30 +7405,6 @@
     },
     {
       "contestIds": [
-        "cook-clerk:ref:03-CCTY-000:cook-county-millionaire-tax-amendment"
-      ],
-      "kind": "measure",
-      "status": "counting",
-      "threshold": 0.5,
-      "choices": [
-        { "name": "Yes", "votes": 501733 },
-        { "name": "No", "votes": 199108 }
-      ],
-      "certifyBy": "2026-11-24",
-      "scope": "within",
-      "sources": [
-        {
-          "name": "Cook County Clerk",
-          "url": "https://www.cookcountyclerkil.gov/elections/results-and-election-data/election-results",
-          "retrievedAt": "2026-11-04T21:48:50.097Z",
-          "official": true,
-          "asOf": "2026-11-04T20:30:00.000Z"
-        }
-      ],
-      "changedAt": "2026-11-04T21:48:52.074Z"
-    },
-    {
-      "contestIds": [
         "cook-clerk:ref:04-0050-000:school-district-23-increase-limiting-rate"
       ],
       "kind": "measure",
@@ -7509,13 +7493,24 @@
         "cook-clerk:ref:04-0840-000:school-district-128-increase-limiting-rate"
       ],
       "kind": "measure",
-      "status": "no_count",
+      "status": "counting",
       "threshold": 0.5,
-      "choices": [],
-      "certifyBy": "2026-12-04",
-      "scope": "beyond",
-      "sources": [],
-      "changedAt": "2026-11-04T21:48:52.074Z"
+      "choices": [
+        { "name": "Yes", "votes": 1921 },
+        { "name": "No", "votes": 1916 }
+      ],
+      "certifyBy": "2026-11-24",
+      "scope": "within",
+      "sources": [
+        {
+          "name": "Cook County Clerk",
+          "url": "https://www.cookcountyclerkil.gov/elections/results-and-election-data/election-results",
+          "retrievedAt": "2026-11-04T21:48:50.097Z",
+          "official": true,
+          "asOf": "2026-11-04T20:30:00.000Z"
+        }
+      ],
+      "changedAt": "2026-11-04T22:08:48.555Z"
     },
     {
       "contestIds": [

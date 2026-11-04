@@ -1590,7 +1590,8 @@
     },
     {
       "contestIds": [
-        "chicago-boe:ref:cook-county:the-cook-county-millionaire-amendment-for-property-tax-relief-and-education"
+        "chicago-boe:ref:cook-county:the-cook-county-millionaire-amendment-for-property-tax-relief-and-education",
+        "cook-clerk:ref:03-CCTY-000:cook-county-millionaire-tax-amendment"
       ],
       "kind": "measure",
       "scope": "within",
@@ -1600,6 +1601,10 @@
         {
           "source": "chicago",
           "title": "The Cook County Millionaire Amendment for Property Tax Relief"
+        },
+        {
+          "source": "cook",
+          "title": "Cook County, Millionaire Tax Amendment"
         }
       ],
       "names": {
@@ -6441,26 +6446,6 @@
     },
     {
       "contestIds": [
-        "cook-clerk:ref:03-CCTY-000:cook-county-millionaire-tax-amendment"
-      ],
-      "kind": "measure",
-      "scope": "within",
-      "certifyBy": "2026-11-24",
-      "threshold": 0.5,
-      "official": [
-        {
-          "source": "cook",
-          "title": "Cook County, Millionaire Tax Amendment"
-        }
-      ],
-      "names": {
-        "Yes": "Yes",
-        "No": "No"
-      },
-      "ballotOrder": ["Yes", "No"]
-    },
-    {
-      "contestIds": [
         "cook-clerk:ref:04-0050-000:school-district-23-increase-limiting-rate"
       ],
       "kind": "measure",
@@ -6544,8 +6529,8 @@
         "cook-clerk:ref:04-0840-000:school-district-128-increase-limiting-rate"
       ],
       "kind": "measure",
-      "scope": "beyond",
-      "certifyBy": "2026-12-04",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
       "threshold": 0.5,
       "official": [
         {
