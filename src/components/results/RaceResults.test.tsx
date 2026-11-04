@@ -358,6 +358,55 @@ describe('a race still being counted', () => {
     )
   })
 
+  it('tints both rows tied for the last seat, labeled "Tied"', () => {
+    const tied: RaceResult = {
+      ...calledTreasurer,
+      status: 'counting',
+      winners: undefined,
+      call: undefined,
+      choices: [
+        { name: 'Sam Moore', votes: 5000 },
+        { name: 'Alex Rivera', votes: 5000 },
+        { name: 'Jordan Lee', votes: 120 },
+      ],
+    }
+    const { container } = renderWithResults(
+      card(treasurer),
+      resultsData({ [IL_ELECTION]: [tied] }),
+    )
+    for (const name of ['Sam Moore', 'Alex Rivera']) {
+      expect(rowOf(name)).toHaveAttribute('data-fill', 'lead')
+      expect(within(rowOf(name)).getByText('Tied')).toBeInTheDocument()
+    }
+    expect(rowOf('Jordan Lee')).not.toHaveAttribute('data-fill')
+    expect(container.querySelectorAll('li[data-fill]')).toHaveLength(2)
+  })
+
+  it('tints an unopposed candidate, with 100%', () => {
+    const solo: CandidateContest = {
+      ...treasurer,
+      candidates: [treasurer.candidates[1]],
+    }
+    renderWithResults(
+      card(solo),
+      resultsData({
+        [IL_ELECTION]: [
+          {
+            ...calledTreasurer,
+            status: 'counting',
+            winners: undefined,
+            call: undefined,
+            choices: [{ name: 'Alex Rivera', votes: 88310 }],
+          },
+        ],
+      }),
+    )
+    const row = rowOf('Alex Rivera')
+    expect(row).toHaveAttribute('data-fill', 'lead')
+    expect(within(row).getByText('Unopposed')).toBeInTheDocument()
+    expect(within(row).getByText('100%')).toBeInTheDocument()
+  })
+
   it('says when a race is too close to call, with shares and no fill', () => {
     const tooClose: RaceResult = {
       ...calledTreasurer,
@@ -398,7 +447,7 @@ describe("AP's count for an Illinois race that crosses county lines", () => {
       resultsData({ [IL_ELECTION]: [apCalled] }),
     )
     expect(caption(container)).toBe(
-      'AP called this race on Tuesday, November 3, 2026, at 8:02 p.m. CT. Count from AP as of Wednesday, November 4, 2026, 3:21 a.m. CT; AP estimates 81% of votes counted. Official statewide results by Friday, December 4, 2026.',
+      'AP called this race on Tuesday, November 3, 2026, at 8:02 p.m. CT. Count from AP as of Wednesday, November 4, 2026, 3:21 a.m. CT; AP estimates 81% of votes counted. Official results by Friday, December 4, 2026.',
     )
   })
 
@@ -507,6 +556,63 @@ describe('a judge up for retention', () => {
     )
   })
 
+  it('fills the No row of a judge not retained', () => {
+    renderWithResults(
+      card(judge),
+      resultsData({
+        [IL_ELECTION]: [
+          {
+            ...certifiedJudge,
+            choices: [
+              { name: 'Yes', votes: 5500 },
+              { name: 'No', votes: 4500 },
+            ],
+            winners: ['No'],
+          },
+        ],
+      }),
+    )
+    const no = screen.getByText('No').closest('li')!
+    expect(no).toHaveAttribute('data-fill', 'win')
+    expect(
+      within(no).getByText('Not retained').querySelector('svg'),
+    ).toBeTruthy()
+    const yes = screen.getByText('Yes').closest('li')!
+    expect(yes).not.toHaveAttribute('data-fill')
+    expect(within(yes).getByText('55.0%')).toBeInTheDocument()
+  })
+
+  it('leaves out the office list when no office is named', () => {
+    const { container } = renderWithResults(
+      card(judge),
+      resultsData({ [IL_ELECTION]: [{ ...certifiedJudge, sources: [] }] }),
+    )
+    expect(caption(container)).toBe(
+      'Official results, certified Tuesday, November 24, 2026.',
+    )
+  })
+
+  it('leaves out the voting instruction once results show', () => {
+    renderWithResults(
+      card(judge),
+      resultsData({ [IL_ELECTION]: [certifiedJudge] }),
+    )
+    expect(
+      screen.queryByText('Vote yes or no on keeping this judge in office.'),
+    ).toBeNull()
+  })
+
+  it('keeps the voting instruction for an election without results', () => {
+    const later = { ...judge, electionId: 'il-2027-02-23-municipal' }
+    renderWithResults(
+      card(later),
+      resultsData({ [IL_ELECTION]: [certifiedJudge] }),
+    )
+    expect(
+      screen.getByText('Vote yes or no on keeping this judge in office.'),
+    ).toBeInTheDocument()
+  })
+
   it('shows the result on the race page card too', () => {
     renderWithResults(
       card(judge),
@@ -531,10 +637,55 @@ describe('a judge up for retention', () => {
     )
     expect(screen.queryByRole('button', { name: /^Yes on/ })).toBeNull()
     expect(caption(container)).toMatch(/^Official results, certified/)
+    expect(
+      screen.queryByText('Vote yes or no on keeping each judge in office.'),
+    ).toBeNull()
+    // The list's first judge sits right under the panel's top line: one
+    // border, not two.
+    const list = container.querySelector('details ul')!
+    expect(list).not.toHaveClass('border-t')
+  })
+
+  it('keeps the list’s voting instruction for an election without results', () => {
+    const LATER = 'il-2027-02-23-municipal'
+    renderWithResults(
+      <BallotView
+        ballot={ballotOf([{ ...judge, electionId: LATER }], LATER)}
+      />,
+      resultsData({ [IL_ELECTION]: [certifiedJudge] }),
+    )
+    expect(
+      screen.getByText('Vote yes or no on keeping each judge in office.'),
+    ).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: /^Yes on/ })).toBeInTheDocument()
   })
 })
 
 describe('a measure', () => {
+  it('fills the Yes row of a measure that passed', () => {
+    renderWithResults(
+      <BallotView ballot={ballotOf([measureQ], CA_ELECTION)} />,
+      resultsData({
+        [CA_ELECTION]: [
+          {
+            ...certifiedMeasure,
+            choices: [
+              { name: 'Yes', votes: 70000 },
+              { name: 'No', votes: 30000 },
+            ],
+            winners: ['Yes'],
+          },
+        ],
+      }),
+    )
+    const yes = screen.getByText('Yes').closest('li')!
+    expect(yes).toHaveAttribute('data-fill', 'win')
+    expect(within(yes).getByText('Passed').querySelector('svg')).toBeTruthy()
+    expect(screen.getByText('No').closest('li')).not.toHaveAttribute(
+      'data-fill',
+    )
+  })
+
   it('replaces the Yes and No buttons with result rows', () => {
     const { container } = renderWithResults(
       <BallotView ballot={ballotOf([measureQ], CA_ELECTION)} />,
@@ -567,10 +718,10 @@ describe('picks', () => {
       resultsData({ [IL_ELECTION]: [calledTreasurer] }),
     )
     expect(screen.queryByRole('checkbox')).toBeNull()
-    expect(within(rowOf('Sam Moore')).getByText('Your pick')).toHaveClass(
-      'bg-highlight',
-      'text-on-highlight',
-    )
+    const tag = within(rowOf('Sam Moore')).getByText('Your pick')
+    expect(tag).toHaveClass('bg-highlight', 'text-on-highlight')
+    // An en space before it (not a margin), so a wrapped tag starts flush.
+    expect(tag.previousSibling?.textContent).toBe('\u2002')
     expect(screen.getAllByText('Your pick')).toHaveLength(1)
   })
 
@@ -676,10 +827,52 @@ describe('without a result', () => {
     const rows = within(container.querySelector('ul.divide-y')!).getAllByRole(
       'listitem',
     )
-    for (const li of rows)
-      expect(li.querySelector('[data-results-placeholder]')).toHaveAttribute(
-        'aria-hidden',
-        'true',
-      )
+    for (const li of rows) {
+      const column = li.querySelector('[data-results-placeholder]')!
+      expect(column).toHaveAttribute('aria-hidden', 'true')
+      // Label, share and votes: the lines a labeled row uses, so no row
+      // grows when the results arrive.
+      expect(
+        [...column.children].map(
+          (line) => line.className.match(/h-[\d.]+/)?.[0],
+        ),
+      ).toEqual(['h-5.5', 'h-6.5', 'h-4.5'])
+    }
+    // The caption's space: four caption lines, as a called race's caption
+    // takes at 375 px.
+    const captionSpace = container.querySelector(
+      'div[data-results-placeholder]',
+    )!
+    expect(captionSpace).toHaveAttribute('aria-hidden', 'true')
+    expect(
+      [...captionSpace.children].map(
+        (line) => line.className.match(/h-[\d.]+/)?.[0],
+      ),
+    ).toEqual(['h-4.5', 'h-4.5', 'h-4.5', 'h-4.5'])
+  })
+
+  it('reserves a judge’s threshold line and both rows while results load', () => {
+    const { container } = render(
+      <MemoryRouter>
+        <PersonRaces
+          ballot={ballotOf([judge])}
+          personKey={profileKey('Pat Quinn')}
+        />
+      </MemoryRouter>,
+    )
+    expect(screen.queryAllByRole('button')).toHaveLength(0)
+    expect(
+      container.querySelectorAll('span[data-results-placeholder]'),
+    ).toHaveLength(2)
+    expect(
+      container.querySelectorAll('div[data-results-placeholder]'),
+    ).toHaveLength(1)
+    // The band keeps the threshold's line.
+    expect(
+      container.querySelectorAll('p[data-results-placeholder]'),
+    ).toHaveLength(1)
+    expect(
+      screen.queryByText('Vote yes or no on keeping this judge in office.'),
+    ).toBeNull()
   })
 })

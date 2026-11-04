@@ -20,7 +20,11 @@ export function ColumnHeader({ text }: { text: ResultView['header'] | null }) {
 /** The threshold line in a band ("Needs 60% yes to stay."); null keeps its line while the results load. */
 export function ThresholdNote({ text }: { text: string | null }) {
   return text === null ? (
-    <p aria-hidden="true" className="flex h-5.5 items-center">
+    <p
+      aria-hidden="true"
+      data-results-placeholder=""
+      className="flex h-5.5 items-center"
+    >
       <span className="h-3 w-40 rounded-sm bg-line" />
     </p>
   ) : (

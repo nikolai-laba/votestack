@@ -29,7 +29,12 @@ export function ResultColumn({
   return (
     <div className="box-content w-28 shrink-0 self-center py-2 pe-4 text-end tabular-nums">
       {pending ? (
+        // The label, share and votes lines of a labeled row, on every row,
+        // so no row grows when the results arrive.
         <span aria-hidden="true" data-results-placeholder="" className="block">
+          <span className="flex h-5.5 items-center justify-end">
+            <span className="h-3 w-12 rounded-sm bg-band" />
+          </span>
           <span className="flex h-6.5 items-center justify-end">
             <span className="h-4 w-14 rounded-sm bg-band" />
           </span>

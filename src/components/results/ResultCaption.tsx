@@ -100,7 +100,7 @@ export function ResultCaption({
         ),
         count(!call),
         ap
-          ? `Official statewide results by ${longDate(result.certifyBy)}.`
+          ? `Official results by ${longDate(result.certifyBy)}.`
           : `Certified by ${longDate(result.certifyBy)}.`,
       ]
       break
@@ -110,16 +110,22 @@ export function ResultCaption({
     case 'too_close':
       parts = ['Too close to call.', count(true)]
       break
-    case 'certified':
+    case 'certified': {
+      // The office list only when an office is named; never "by ." alone.
+      const certified = result.certified
+        ? `, certified ${longDate(result.certified.on)}`
+        : ''
       parts = [
-        <>
-          {result.certified
-            ? `Official results, certified ${longDate(result.certified.on)}, by `
-            : 'Official results, by '}
-          <Offices sources={offices} />.
-        </>,
+        offices.length > 0 ? (
+          <>
+            Official results{certified}, by <Offices sources={offices} />.
+          </>
+        ) : (
+          `Official results${certified}.`
+        ),
       ]
       break
+    }
     case 'no_count':
       parts =
         result.scope === 'beyond'
@@ -158,13 +164,17 @@ export function ContestResultCaption({
   const checkedAt = useElectionCheckedAt(contest.electionId)
   if (!result)
     return (
-      <div aria-hidden="true" className={CAPTION_CLASS}>
-        <span className="flex h-4.5 items-center">
-          <span className="h-3 w-full rounded-sm bg-band" />
-        </span>
-        <span className="flex h-4.5 items-center">
-          <span className="h-3 w-2/3 rounded-sm bg-band" />
-        </span>
+      // Four caption lines: a called race's caption at 375 px.
+      <div
+        aria-hidden="true"
+        data-results-placeholder=""
+        className={CAPTION_CLASS}
+      >
+        {['w-full', 'w-full', 'w-full', 'w-1/2'].map((width, i) => (
+          <span key={i} className="flex h-4.5 items-center">
+            <span className={`h-3 rounded-sm bg-band ${width}`} />
+          </span>
+        ))}
       </div>
     )
   return (

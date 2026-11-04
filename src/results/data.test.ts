@@ -33,6 +33,35 @@ describe('committed results files', () => {
     }
   })
 
+  // A race card finds each row's result by name: a name that differs from
+  // the race list's would leave that row without its share, silently.
+  it('names each race’s choices as its race list does, in ballot order', () => {
+    let checked = 0
+    for (const file of resultFiles)
+      for (const result of file.results) {
+        if (result.status === 'no_count') continue
+        for (const list of raceLists.filter(
+          (l) => l.electionId === file.electionId,
+        ))
+          for (const race of list.races) {
+            if (!race.contestIds.some((id) => result.contestIds.includes(id)))
+              continue
+            const expected =
+              race.kind === 'retention'
+                ? ['Yes', 'No']
+                : [...(race.candidates ?? [])]
+                    .sort((a, b) => (a.ballotOrder ?? 0) - (b.ballotOrder ?? 0))
+                    .map((c) => c.name)
+            expect(
+              result.choices.map((c) => c.name),
+              `${file.electionId} ${race.path}`,
+            ).toEqual(expected)
+            checked++
+          }
+      }
+    expect(checked).toBeGreaterThan(0)
+  })
+
   it('has a result for every race of an election with a results file', () => {
     for (const list of raceLists) {
       const file = resultFiles.find((f) => f.electionId === list.electionId)

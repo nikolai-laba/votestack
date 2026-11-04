@@ -421,9 +421,12 @@ function RetentionCard({
         columnHeader={columnHeaderOf(results)}
         note={thresholdNoteOf(results, 'retention')}
       />
-      <p className="max-w-[65ch] border-b border-line px-4 py-3 text-small">
-        Vote yes or no on keeping this judge in office.
-      </p>
+      {/* Once results show, there's nothing left to vote on. */}
+      {!results.shown && (
+        <p className="max-w-[65ch] border-b border-line px-4 py-3 text-small">
+          Vote yes or no on keeping this judge in office.
+        </p>
+      )}
       <RetentionRow
         judge={judge}
         published={published}
@@ -748,6 +751,8 @@ function RetentionPanel({
   const judges = section.contests.filter(
     (c): c is RetentionContest => c.kind === 'retention',
   )
+  // Once the election has results, there's nothing left to vote on.
+  const hasResults = useElectionHasResults(judges[0]?.electionId ?? '')
   return (
     <section
       id={`section-${section.id}`}
@@ -772,10 +777,14 @@ function RetentionPanel({
           </span>
         </summary>
         <div className="border-t border-line">
-          <p className="max-w-[65ch] px-4 py-3 text-small">
-            Vote yes or no on keeping each judge in office.
-          </p>
-          <ul className="divide-y divide-line border-t border-line">
+          {!hasResults && (
+            <p className="max-w-[65ch] px-4 py-3 text-small">
+              Vote yes or no on keeping each judge in office.
+            </p>
+          )}
+          <ul
+            className={`divide-y divide-line ${hasResults ? '' : 'border-t border-line'}`.trim()}
+          >
             {judges.map((judge) => (
               <li key={judge.id}>
                 <RetentionRow
