@@ -3,7 +3,7 @@ import { readdirSync, readFileSync, statSync } from 'node:fs'
 import { join } from 'node:path'
 import { parseResultsFile } from '../shared/raceResults.ts'
 import type { RaceList } from '../shared/races.ts'
-import { hasResults, loadResults, resultFor } from './data.ts'
+import { hasResults, hasResultsFile, loadResults, resultFor } from './data.ts'
 
 const jsonFiles = (dir: string): string[] =>
   readdirSync(dir).flatMap((name) => {
@@ -65,5 +65,17 @@ describe('loadResults', () => {
   it('behaves as no results while undefined', () => {
     expect(hasResults(undefined, 'il-2026-11-03-general')).toBe(false)
     expect(resultFor(undefined, 'il-2026-11-03-general', 'x')).toBeUndefined()
+  })
+})
+
+describe('hasResultsFile', () => {
+  it('answers synchronously from the committed files', () => {
+    expect(hasResultsFile('il-2026-11-03-general')).toBe(true)
+    expect(hasResultsFile('ca-2026-11-03-general')).toBe(true)
+    expect(hasResultsFile('il-2027-02-23-municipal')).toBe(false)
+  })
+
+  it('matches every committed file', () => {
+    for (const f of resultFiles) expect(hasResultsFile(f.electionId)).toBe(true)
   })
 })
