@@ -1,0 +1,274 @@
+{
+  "version": 1,
+  "reader": "a",
+  "checkedAt": "2026-11-04T21:47:54.784Z",
+  "counts": [
+    {
+      "contestIds": ["chicago-boe:attorney-general", "cook-clerk:130040"],
+      "url": "https://apnews.com/projects/elections-2026/illinois-attorney-general-results/",
+      "asOf": "2026-11-04T15:43:00-06:00",
+      "counted": 0.91,
+      "choices": [
+        {
+          "name": "Robert W. Fioretti",
+          "votes": 1507695
+        },
+        {
+          "name": "Kwame Raoul",
+          "votes": 2392262
+        }
+      ]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:governor-lieutenant-governor",
+        "cook-clerk:130030"
+      ],
+      "url": "https://apnews.com/projects/elections-2026/illinois-governor-results/",
+      "asOf": "2026-11-04T15:43:00-06:00",
+      "counted": 0.91,
+      "choices": [
+        {
+          "name": "Darren Bailey & Aaron B. Del Mar",
+          "votes": 1445559
+        },
+        {
+          "name": "JB Pritzker & Christian Mitchell",
+          "votes": 2345862
+        },
+        {
+          "name": "Collin Corbett & Carolyn Schofield",
+          "votes": 131198
+        }
+      ]
+    },
+    {
+      "contestIds": ["chicago-boe:secretary-of-state", "cook-clerk:130050"],
+      "url": "https://apnews.com/projects/elections-2026/illinois-secretary-of-state-results/",
+      "asOf": "2026-11-04T15:43:00-06:00",
+      "counted": 0.91,
+      "choices": [
+        {
+          "name": "Diane M. Harris",
+          "votes": 1382825
+        },
+        {
+          "name": "Alexi Giannoulias",
+          "votes": 2514870
+        }
+      ]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:u-s-representative-1st-district",
+        "cook-clerk:140100"
+      ],
+      "url": "https://apnews.com/projects/elections-2026/illinois-us-house-results/",
+      "asOf": "2026-11-04T14:32:00-06:00",
+      "counted": 0.82,
+      "choices": [
+        {
+          "name": "Christian Maxwell",
+          "votes": 64739
+        },
+        {
+          "name": "Jonathan L. Jackson",
+          "votes": 153398
+        }
+      ]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:u-s-representative-2nd-district",
+        "cook-clerk:140200"
+      ],
+      "url": "https://apnews.com/projects/elections-2026/illinois-us-house-results/",
+      "asOf": "2026-11-04T14:32:00-06:00",
+      "counted": 0.85,
+      "choices": [
+        {
+          "name": "Michael Scott Noack",
+          "votes": 56756
+        },
+        {
+          "name": "Donna Miller",
+          "votes": 151587
+        }
+      ]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:u-s-representative-3rd-district",
+        "cook-clerk:140300"
+      ],
+      "url": "https://apnews.com/projects/elections-2026/illinois-us-house-results/",
+      "asOf": "2026-11-04T14:32:00-06:00",
+      "counted": 0.81,
+      "choices": [
+        {
+          "name": "Angel Oakley",
+          "votes": 43679
+        },
+        {
+          "name": "Delia Ramirez",
+          "votes": 137104
+        }
+      ]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:u-s-representative-4th-district",
+        "cook-clerk:140400"
+      ],
+      "url": "https://apnews.com/projects/elections-2026/illinois-us-house-results/",
+      "asOf": "2026-11-04T14:32:00-06:00",
+      "counted": 0.82,
+      "choices": [
+        {
+          "name": "Lupe Castillo",
+          "votes": 24681
+        },
+        {
+          "name": "Patty Garcia",
+          "votes": 107643
+        },
+        {
+          "name": "Ed Hershey",
+          "votes": 5327
+        },
+        {
+          "name": "Chris Getty",
+          "votes": 14129
+        }
+      ]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:u-s-representative-5th-district",
+        "cook-clerk:140500"
+      ],
+      "url": "https://apnews.com/projects/elections-2026/illinois-us-house-results/",
+      "asOf": "2026-11-04T14:32:00-06:00",
+      "counted": 0.92,
+      "choices": [
+        {
+          "name": "Tommy Hanson",
+          "votes": 59162
+        },
+        {
+          "name": "Mike Quigley",
+          "votes": 182716
+        }
+      ]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:u-s-representative-6th-district",
+        "cook-clerk:140600"
+      ],
+      "url": "https://apnews.com/projects/elections-2026/illinois-us-house-results/",
+      "asOf": "2026-11-04T14:32:00-06:00",
+      "counted": 0.92,
+      "choices": [
+        {
+          "name": "Niki Conforti",
+          "votes": 94840
+        },
+        {
+          "name": "Sean Casten",
+          "votes": 158082
+        }
+      ]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:u-s-representative-8th-district",
+        "cook-clerk:140800"
+      ],
+      "url": "https://apnews.com/projects/elections-2026/illinois-us-house-results/",
+      "asOf": "2026-11-04T14:32:00-06:00",
+      "counted": 0.76,
+      "choices": [
+        {
+          "name": "Jennifer Davis",
+          "votes": 63262
+        },
+        {
+          "name": "Melissa L. Bean",
+          "votes": 116575
+        }
+      ]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:u-s-representative-9th-district",
+        "cook-clerk:140900"
+      ],
+      "url": "https://apnews.com/projects/elections-2026/illinois-us-house-results/",
+      "asOf": "2026-11-04T14:32:00-06:00",
+      "counted": 0.94,
+      "choices": [
+        {
+          "name": "John Elleson",
+          "votes": 58628
+        },
+        {
+          "name": "Daniel Biss",
+          "votes": 184004
+        }
+      ]
+    },
+    {
+      "contestIds": ["chicago-boe:united-states-senator", "cook-clerk:120100"],
+      "url": "https://apnews.com/projects/elections-2026/illinois-us-senate-results/",
+      "asOf": "2026-11-04T15:43:00-06:00",
+      "counted": 0.93,
+      "choices": [
+        {
+          "name": "Don Tracy",
+          "votes": 1494000
+        },
+        {
+          "name": "Juliana Stratton",
+          "votes": 2429072
+        },
+        {
+          "name": "Whitfield Harrington Jr",
+          "votes": 62808
+        }
+      ]
+    },
+    {
+      "contestIds": ["cook-clerk:141000"],
+      "url": "https://apnews.com/projects/elections-2026/illinois-us-house-results/",
+      "asOf": "2026-11-04T14:32:00-06:00",
+      "counted": 0.96,
+      "choices": [
+        {
+          "name": "Carl Lambrecht",
+          "votes": 69583
+        },
+        {
+          "name": "Brad Schneider",
+          "votes": 160849
+        }
+      ]
+    },
+    {
+      "contestIds": ["cook-clerk:141100"],
+      "url": "https://apnews.com/projects/elections-2026/illinois-us-house-results/",
+      "asOf": "2026-11-04T15:40:00-06:00",
+      "counted": 0.83,
+      "choices": [
+        {
+          "name": "Jeff Walter",
+          "votes": 79669
+        },
+        {
+          "name": "Bill Foster",
+          "votes": 150391
+        }
+      ]
+    }
+  ]
+}
