@@ -5,6 +5,10 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+### Added
+
+- Race results: who was elected, retained or passed, with leaders and counts while ballots are counted, on the ballot, race pages, race lists, Saved choices and profiles.
+
 ## [1.6.0] - 2026-11-04
 
 ### Added
