@@ -10,6 +10,8 @@ import { OFFICIAL_URLS } from './types.ts'
 
 const fixture = (name: string) =>
   readFileSync(resolve('scripts/lib/results/fixtures', name), 'utf8')
+const fixtureBytes = (name: string) =>
+  readFileSync(resolve('scripts/lib/results/fixtures', name))
 const RETRIEVED = '2026-11-04T12:00:00.000Z'
 
 describe('zonedToIso', () => {
@@ -30,7 +32,7 @@ describe('zonedToIso', () => {
 
 describe('readChicago', () => {
   const file = readChicago(
-    fixture('chicago-summary.txt'),
+    fixtureBytes('chicago-summary.txt'),
     'Wed, 04 Nov 2026 09:20:55 GMT',
     RETRIEVED,
   )
@@ -57,14 +59,71 @@ describe('readChicago', () => {
     expect(j?.choices[0].votes).toBe(414026)
   })
 
+  const votes = (title: string, name: string) =>
+    file.contests
+      .find((c) => c.title === title)
+      ?.choices.find((c) => c.name === name)?.votes
+
+  it('keeps long contest titles whole', () => {
+    expect(
+      votes(
+        'Judge, 11th Subcircuit (Vacancy of McLean Meyerson)',
+        'Jarrett Knox',
+      ),
+    ).toBe(25132)
+  })
+
+  it('keeps long candidate names whole', () => {
+    expect(
+      votes(
+        'Governor & Lieutenant Governor, Illinois',
+        'Darren Bailey & Aaron B. Del Mar',
+      ),
+    ).toBe(75889)
+  })
+
+  it('spells accented names exactly and keeps later fields aligned', () => {
+    expect(
+      votes(
+        'Commissioner, Water Reclamation Dist',
+        'Eira Lizeth Corral Sepúlveda',
+      ),
+    ).toBe(426594)
+  })
+
+  it('keeps one-precinct questions as separate contests', () => {
+    for (const precinct of ['W07 P14', 'W10 P02']) {
+      const c = file.contests.filter(
+        (x) =>
+          x.title ===
+          `Govt support for quantum facility at South Works ${precinct}`,
+      )
+      expect(c).toHaveLength(1)
+      expect(c[0].choices.map((x) => x.name)).toEqual(['Yes', 'No'])
+    }
+  })
+
+  it('throws on invalid UTF-8 in a field', () => {
+    const bytes = Buffer.from(fixtureBytes('chicago-summary.txt'))
+    const at = bytes.indexOf('Sep\xc3\xbalveda', 0, 'latin1')
+    expect(at).toBeGreaterThan(0)
+    bytes[at + 3] = 0xff
+    bytes[at + 4] = 0xff
+    expect(() =>
+      readChicago(bytes, 'Wed, 04 Nov 2026 09:20:55 GMT', RETRIEVED),
+    ).toThrow(/^chicago: /)
+  })
+
   it('throws when there are no contest lines', () => {
     expect(() =>
-      readChicago('', 'Wed, 04 Nov 2026 09:20:55 GMT', RETRIEVED),
+      readChicago(new Uint8Array(), 'Wed, 04 Nov 2026 09:20:55 GMT', RETRIEVED),
     ).toThrow(/^chicago: /)
   })
 
   it('throws on a votes field that is not digits', () => {
-    const bad = fixture('chicago-summary.txt').replace('0080483', '00x0483')
+    const bad = Buffer.from(
+      fixture('chicago-summary.txt').replace('0080483', '00x0483'),
+    )
     expect(() =>
       readChicago(bad, 'Wed, 04 Nov 2026 09:20:55 GMT', RETRIEVED),
     ).toThrow(/^chicago: /)

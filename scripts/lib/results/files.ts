@@ -57,6 +57,11 @@ export async function readText(path: string): Promise<string> {
   return readFile(path, 'utf8')
 }
 
+export async function readBytes(path: string): Promise<Uint8Array> {
+  if (!existsSync(path)) throw new Error(`missing ${rel(path)}`)
+  return readFile(path)
+}
+
 export async function readJsonFile(path: string): Promise<unknown> {
   const text = await readText(path)
   try {
@@ -107,13 +112,13 @@ export async function readOfficial(
   )
   const files: OfficialFile[] = []
   if (sources.has('chicago')) {
-    const text = await readText(path('chicago-summary.txt'))
+    const bytes = await readBytes(path('chicago-summary.txt'))
     const lastModified = (
       await readText(path('chicago-summary.last-modified.txt'))
     ).trim()
     files.push(
       from(path('chicago-summary.txt'), () =>
-        readChicago(text, lastModified, retrievedAt),
+        readChicago(bytes, lastModified, retrievedAt),
       ),
     )
   }
