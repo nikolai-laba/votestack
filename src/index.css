@@ -55,6 +55,10 @@
   --link: #1d7a45;
   --highlight: #62d846;
   --on-highlight: #17241c;
+  /* Race results: a winning row is a solid fill, a leading row a pale tint. */
+  --result-win: #1e5135;
+  --on-result-win: #ffffff;
+  --result-lead: #e6f0e9;
   /* A picked name on Saved choices: a marker-style lime background. */
   --pick: #62d846;
   --on-pick: #17241c;
@@ -91,6 +95,9 @@
   --link: #a9d6b8;
   --highlight: #62d846;
   --on-highlight: #17241c;
+  --result-win: #a9d6b8;
+  --on-result-win: #17241c;
+  --result-lead: #24402a;
   --pick: #62d846;
   --on-pick: #17241c;
   --pick-no: #ff7b72;
@@ -121,6 +128,9 @@
     --link: #a9d6b8;
     --highlight: #62d846;
     --on-highlight: #17241c;
+    --result-win: #a9d6b8;
+    --on-result-win: #17241c;
+    --result-lead: #24402a;
     --pick: #62d846;
     --on-pick: #17241c;
     --pick-no: #ff7b72;
@@ -161,6 +171,9 @@
   --color-selected-line: var(--selected-line);
   --color-highlight: var(--highlight);
   --color-on-highlight: var(--on-highlight);
+  --color-result-win: var(--result-win);
+  --color-on-result-win: var(--on-result-win);
+  --color-result-lead: var(--result-lead);
   --color-pick: var(--pick);
   --color-on-pick: var(--on-pick);
   --color-pick-no: var(--pick-no);
@@ -218,5 +231,28 @@
       transition-duration: 0.01ms !important;
       scroll-behavior: auto !important;
     }
+  }
+}
+
+/* Race results. A winning row is a solid fill with its own text, link and
+   focus colours; a leading row is a pale tint behind the usual text. */
+[data-fill='win'] {
+  background: var(--result-win);
+  --text: var(--on-result-win);
+  --muted: var(--on-result-win);
+  --link: var(--on-result-win);
+  --focus: var(--on-result-win);
+  color: var(--text);
+}
+[data-fill='lead'] {
+  background: var(--result-lead);
+}
+@media (forced-colors: active) {
+  [data-fill='win'] {
+    background: Highlight;
+    color: HighlightText;
+  }
+  [data-fill='win'] a {
+    color: HighlightText;
   }
 }

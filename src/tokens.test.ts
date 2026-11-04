@@ -87,6 +87,11 @@ const PAIRS: [string, string, number][] = [
   // A picked name on Saved choices, and a No answer there.
   ['on-pick', 'pick', 4.5],
   ['on-pick-no', 'pick-no', 4.5],
+  // Race results: a winning row (solid fill) and a leading row (pale tint).
+  ['on-result-win', 'result-win', 4.5],
+  ['text', 'result-lead', 4.5],
+  ['muted', 'result-lead', 4.5],
+  ['link', 'result-lead', 4.5],
   ['warn-fg', 'warn-bg', 4.5],
   ['danger', 'bg', 4.5],
   ['danger', 'surface', 4.5],

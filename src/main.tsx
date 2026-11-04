@@ -13,6 +13,7 @@ import { RACES_QUERY_KEY, loadRaces } from './races/data.ts'
 import { routes } from './routes.tsx'
 // Self-hosted fonts: no third-party font requests.
 import '@fontsource-variable/atkinson-hyperlegible-next'
+import '@fontsource-variable/atkinson-hyperlegible-next/wght-italic.css'
 import '@fontsource-variable/literata/wght.css'
 import './index.css'
 
