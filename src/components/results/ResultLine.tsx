@@ -12,7 +12,8 @@ const andList = (items: string[]) =>
     ? `${items.slice(0, -1).join(', ')} and ${items.at(-1)}`
     : (items[0] ?? '')
 
-const DECIDED = new Set<ResultLabel>([
+/** Labels for a decided race: these get a check icon as well as the word. */
+export const DECIDED = new Set<ResultLabel>([
   'Elected',
   'Won',
   'Retained',
@@ -74,10 +75,10 @@ export function ResultLine({ result }: { result?: RaceResult }) {
     return <span className="block min-h-5.5 text-small text-muted">{text}</span>
   const decided = DECIDED.has(label)
   return (
-    <span className="block min-h-5.5 text-small">
+    <span className="block min-h-5.5 text-small text-text">
       <span
         data-fill={decided ? 'win' : 'lead'}
-        className="me-1.5 inline-flex items-center gap-1 rounded-sm px-1.5 font-bold"
+        className={`me-1.5 inline-flex items-center gap-1 rounded-sm px-1.5 font-bold ${decided ? '' : 'text-text'}`}
       >
         {decided && <CheckIcon />}
         {label}

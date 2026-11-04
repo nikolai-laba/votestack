@@ -1,15 +1,6 @@
-import type { ChoiceView, ResultLabel } from '../../shared/raceResults.ts'
+import type { ChoiceView } from '../../shared/raceResults.ts'
+import { DECIDED } from './ResultLine.tsx'
 import { CheckIcon } from '../icons.tsx'
-
-/** Labels for a decided race: these get a check icon as well as the word. */
-const DECIDED = new Set<ResultLabel>([
-  'Elected',
-  'Won',
-  'Retained',
-  'Not retained',
-  'Passed',
-  'Failed',
-])
 
 /** "873,455" */
 const votesText = (votes: number) => votes.toLocaleString('en-US')

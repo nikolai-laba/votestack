@@ -159,7 +159,6 @@ const sample: CandidateProfile = {
   },
 }
 
-/** Answers the Worker's API: the ballot, and Jane Doe's and John Roe's profiles. */
 /**
  * A ballot in an election with no results file: the "Voting ended" line
  * stays there (an election with results shows "Results as of…" instead).
@@ -171,6 +170,7 @@ const withoutResults = (b: Ballot): Ballot => ({
   contests: b.contests.map((c) => ({ ...c, electionId: NO_RESULTS })),
 })
 
+/** Answers the Worker's API: the ballot, and Jane Doe's and John Roe's profiles. */
 function mockApi() {
   const fetch = vi.fn(async (url: string) => {
     if (url === '/api/ballot') return Response.json(ballot)

@@ -473,6 +473,40 @@ describe('results on the race lists', () => {
     expect(row('Lewis Nixon').querySelector('[data-fill="win"]')).toBeTruthy()
   })
 
+  it('colors the result text with tokens, not the race link’s color', async () => {
+    const leading: RaceResult = {
+      ...senate,
+      status: 'counting',
+      winners: undefined,
+    }
+    renderAt(AREA, loaded(leading, nixon))
+    await screen.findByRole('heading', { level: 1 })
+    const lead = row('State Senator, 5th District')
+    const tag = lead.querySelector('[data-fill="lead"]')!
+    expect(tag).toHaveClass('text-text')
+    expect(tag.parentElement).toHaveClass('text-text')
+    expect(tag.parentElement).not.toHaveClass('text-link')
+    // A decided tag takes its colors from the fill, not from the link.
+    const won = row('Lewis Nixon').querySelector('[data-fill="win"]')!
+    expect(won).not.toHaveClass('text-text')
+    expect(won.parentElement).toHaveClass('text-text')
+  })
+
+  it('keeps "No candidates filed" for a race with no candidates', async () => {
+    const empty: RaceList = {
+      ...list,
+      races: [{ ...list.races[0], candidates: [] }],
+    }
+    renderAt(AREA, loaded(senate), { ...data, lists: [empty] })
+    await screen.findByRole('heading', { level: 1 })
+    expect(row('State Senator, 5th District')).toHaveTextContent(
+      'No candidates filed',
+    )
+    expect(
+      row('State Senator, 5th District').querySelector('[data-fill]'),
+    ).toBeNull()
+  })
+
   it('reads a vote-for-more-than-one race as a list of names with no shares', async () => {
     const council: RaceList = {
       ...list,

@@ -244,6 +244,24 @@ describe('prerender', () => {
       }
     })
 
+    it('keeps the offices’ results links on the area list for an election with results', async () => {
+      mode.on = true
+      // Built from the committed races. The area list shows when the results
+      // are from once they load, with no "See official results from the…"
+      // line naming offices; the offices' pages are linked from each race's
+      // caption, so the list holds its space and names none.
+      const [, il, , la] = racePages({
+        ...raceData,
+        lists: [raceList, laList],
+      })
+      for (const page of [il, la]) {
+        const html = await renderPage(page)
+        expect(html).not.toContain('See official results from the')
+        expect(html).not.toContain('chicagoelections.gov/elections/results')
+        expect(html).toContain('data-results-placeholder')
+      }
+    })
+
     it('names only the office whose ballot lists the race', async () => {
       mode.on = true
       const chicago = await renderPage(
