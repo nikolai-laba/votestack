@@ -126,6 +126,16 @@ export function profileLastmod(
     )
 }
 
+/** The latest of the dates and timestamps given, ignoring missing ones. */
+export function latestDate(
+  ...dates: (string | undefined)[]
+): string | undefined {
+  return dates.reduce<string | undefined>(
+    (latest, d) => (d && (!latest || d > latest) ? d : latest),
+    undefined,
+  )
+}
+
 /** A sitemap of the given pages; `lastmod` is a date or timestamp. */
 export function sitemapXml(
   siteUrl: string,
