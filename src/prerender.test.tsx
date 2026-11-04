@@ -221,9 +221,19 @@ describe('prerender', () => {
     const endedLine = (html: string) =>
       html.match(/<p[^>]*>(Voting ended.*?)<\/p>/s)?.[1].replace(/<[^>]+>/g, '')
 
+    // An election with no results file: its profiles keep the line.
+    const later = { ...profile, electionId: 'il-2027-02-23-municipal' }
+
+    it('holds the result block’s space, not "Voting ended", on a profile in an election with results', async () => {
+      mode.on = true
+      const html = await renderPage(candidatePages(profile, true)[0])
+      expect(html).not.toContain('Voting ended')
+      expect(html).toContain('data-results-placeholder')
+    })
+
     it('says voting ended on profiles', async () => {
       mode.on = true
-      const live = await renderPage(candidatePages(profile, true)[0])
+      const live = await renderPage(candidatePages(later, true)[0])
       expect(live).toContain(ENDED)
       // The profile's contests are on both Cook ballots.
       expect(endedLine(live)).toBe(
@@ -265,13 +275,13 @@ describe('prerender', () => {
     it('names only the office whose ballot lists the race', async () => {
       mode.on = true
       const chicago = await renderPage(
-        candidatePages({ ...profile, contestIds: ['chicago-boe:x'] }, true)[0],
+        candidatePages({ ...later, contestIds: ['chicago-boe:x'] }, true)[0],
       )
       expect(endedLine(chicago)).toBe(
         `${ENDED} Chicago Board of Election Commissioners.`,
       )
       const clerk = await renderPage(
-        candidatePages({ ...profile, contestIds: ['cook-clerk:1'] }, true)[0],
+        candidatePages({ ...later, contestIds: ['cook-clerk:1'] }, true)[0],
       )
       expect(endedLine(clerk)).toBe(`${ENDED} Cook County Clerk.`)
     })

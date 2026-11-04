@@ -45,6 +45,7 @@ export function ResultCaption({
   region,
   checkedAt,
   officialUrl,
+  className = CAPTION_CLASS,
 }: {
   result: RaceResult
   region: Region
@@ -52,6 +53,8 @@ export function ResultCaption({
   checkedAt?: string
   /** The official results page, for a race with no count. */
   officialUrl?: string
+  /** Replaces the card caption's border and padding, for use inside another block. */
+  className?: string
 }) {
   const when = (iso: string) =>
     longDateTime(iso, region.timeZone, region.zoneLabel)
@@ -139,7 +142,7 @@ export function ResultCaption({
   }
   const shown = parts.filter(Boolean)
   return (
-    <p className={CAPTION_CLASS}>
+    <p className={className}>
       {shown.map((part, i) => (
         <Fragment key={i}>
           {i > 0 && ' '}

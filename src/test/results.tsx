@@ -5,6 +5,7 @@ import { render } from '@testing-library/react'
 import type { ReactNode } from 'react'
 import { MemoryRouter } from 'react-router'
 import { ResultsProvider } from '../results/context.tsx'
+import { RACES_QUERY_KEY, type RaceData } from '../races/data.ts'
 import { RESULTS_QUERY_KEY, type ResultsData } from '../results/data.ts'
 import type { RaceResult } from '../shared/raceResults.ts'
 
@@ -24,9 +25,14 @@ export function resultsData(
 }
 
 /** Renders inside the results provider (and a router), with the data loaded. */
-export function renderWithResults(ui: ReactNode, data: ResultsData) {
+export function renderWithResults(
+  ui: ReactNode,
+  data: ResultsData | undefined,
+  races?: RaceData,
+) {
   const client = new QueryClient()
-  client.setQueryData(RESULTS_QUERY_KEY, data)
+  if (data) client.setQueryData(RESULTS_QUERY_KEY, data)
+  if (races) client.setQueryData(RACES_QUERY_KEY, races)
   return render(
     <QueryClientProvider client={client}>
       <ResultsProvider>

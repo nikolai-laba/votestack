@@ -37,6 +37,24 @@ export function useContestResult(
   return resultFor(useContext(ResultsContext).data, electionId, contestId)
 }
 
+/**
+ * For each group of contest IDs (one race, listed on one or more ballots),
+ * the first result the election has for any of them.
+ */
+export function useGroupResults(
+  electionId: string,
+  groups: string[][],
+): (RaceResult | undefined)[] {
+  const { data } = useContext(ResultsContext)
+  return groups.map((ids) => {
+    for (const id of ids) {
+      const result = resultFor(data, electionId, id)
+      if (result) return result
+    }
+    return undefined
+  })
+}
+
 /** Synchronous: true from the first paint for an election with a results file. */
 export function useElectionHasResults(electionId: string): boolean {
   return hasResultsFile(electionId)
