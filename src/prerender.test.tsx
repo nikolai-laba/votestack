@@ -12,6 +12,15 @@ import type { RaceData } from './races/data.ts'
 import type { CandidateProfile } from './shared/profile.ts'
 import type { RaceList } from './shared/races.ts'
 
+// Switches the site to its after-election wording for the tests that say so.
+const mode = vi.hoisted(() => ({ on: false }))
+vi.mock('./shared/afterElection.ts', async (original) => ({
+  ...(await original<typeof import('./shared/afterElection.ts')>()),
+  get AFTER_ELECTION() {
+    return mode.on
+  },
+}))
+
 const raceList: RaceList = {
   electionId: 'il-2026-11-03-general',
   electionName: 'General Election',
@@ -68,7 +77,7 @@ const profile: CandidateProfile = {
   name: 'Jane Doe',
   party: 'Democratic',
   office: 'State Senator, 5th District',
-  contestIds: ['s5'],
+  contestIds: ['chicago-boe:state-senator-5th-district', 'cook-clerk:170502'],
   kind: 'candidate',
   tier: 'mid',
   overview: {
@@ -108,7 +117,10 @@ function routePaths(list = routes, parent = ''): string[] {
 }
 
 describe('prerender', () => {
-  afterEach(() => vi.unstubAllEnvs())
+  afterEach(() => {
+    vi.unstubAllEnvs()
+    mode.on = false
+  })
 
   it('builds a file for every route, so none of them gets a 404 status', () => {
     const built = new Set([
@@ -196,6 +208,98 @@ describe('prerender', () => {
     expect(html).toMatch(
       /<button[^>]*disabled=""[^>]*>Find my ballot<\/button>/,
     )
+  })
+
+  describe('after the election', () => {
+    const ENDED =
+      'Voting ended on Tuesday, November 3, 2026. See official results from the'
+    const GET_STARTED_LINE =
+      'Voting in the 2026 U.S. midterms has ended. You can still look up what was on your ballot.'
+    const getStarted = STATIC_PAGES.find((p) => p.path === '/getstarted')!
+
+    /** The text of the page's "Voting ended" paragraph, links flattened. */
+    const endedLine = (html: string) =>
+      html.match(/<p[^>]*>(Voting ended.*?)<\/p>/s)?.[1].replace(/<[^>]+>/g, '')
+
+    it('says voting ended on profiles, race pages and the area list', async () => {
+      mode.on = true
+      const live = await renderPage(candidatePages(profile, true)[0])
+      expect(live).toContain(ENDED)
+      // The profile's contests are on both Cook ballots.
+      expect(endedLine(live)).toBe(
+        `${ENDED} Chicago Board of Election Commissioners (Chicago) and the Cook County Clerk (suburban Cook County).`,
+      )
+
+      const pages = racePages(raceData)
+      const area = await renderPage(pages[1])
+      expect(area).toContain(ENDED)
+      expect(endedLine(area)).toContain(
+        'Chicago Board of Election Commissioners (Chicago) and the Cook County Clerk (suburban Cook County)',
+      )
+      // Links to the offices' own results pages.
+      expect(area).toContain(
+        'href="https://chicagoelections.gov/elections/results"',
+      )
+      expect(await renderPage(pages[2])).toContain(ENDED)
+    })
+
+    it('names only the office whose ballot lists the race', async () => {
+      mode.on = true
+      const chicago = await renderPage(
+        candidatePages({ ...profile, contestIds: ['chicago-boe:x'] }, true)[0],
+      )
+      expect(endedLine(chicago)).toBe(
+        `${ENDED} Chicago Board of Election Commissioners.`,
+      )
+      const clerk = await renderPage(
+        candidatePages({ ...profile, contestIds: ['cook-clerk:1'] }, true)[0],
+      )
+      expect(endedLine(clerk)).toBe(`${ENDED} Cook County Clerk.`)
+
+      const [, , , laArea] = racePages({
+        ...raceData,
+        lists: [raceList, laList],
+      })
+      expect(endedLine(await renderPage(laArea))).toBe(
+        `${ENDED} Los Angeles County Registrar-Recorder/County Clerk.`,
+      )
+    })
+
+    it('says on Get started that voting has ended and the lookup still works', async () => {
+      mode.on = true
+      expect(await renderPage(getStarted)).toContain(GET_STARTED_LINE)
+    })
+
+    it('leaves out the end-of-page sign-up and the thank-you notice', async () => {
+      mode.on = true
+      vi.stubEnv('VITE_TURNSTILE_SITE_KEY', 'site-key')
+      const live = candidatePages(profile, true)[0]
+      const races = racePages(raceData)
+      for (const page of [live, races[2]])
+        expect(await renderPage(page)).not.toContain(
+          'Hear from VoteStack before your next election',
+        )
+      // The notice's words come from a file the app loads, never the HTML.
+      for (const page of [...STATIC_PAGES, live, ...races]) {
+        const html = await renderPage(page)
+        expect(html).not.toContain('Help fund voter education')
+        expect(html).not.toContain('Thank you notice')
+      }
+    })
+
+    it('says none of it while the switch is off', async () => {
+      const pages = racePages(raceData)
+      for (const page of [
+        candidatePages(profile, true)[0],
+        pages[1],
+        pages[2],
+        getStarted,
+      ]) {
+        const html = await renderPage(page)
+        expect(html).not.toContain('Voting ended')
+        expect(html).not.toContain('has ended')
+      }
+    })
   })
 
   it('finds its markers in index.html', () => {

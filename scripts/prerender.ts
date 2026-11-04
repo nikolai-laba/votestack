@@ -1,7 +1,8 @@
 // Writes the site's pages as HTML files after `vite build`: each page's
 // head, the content of public pages (rendered by the app's own components,
 // src/prerender.tsx, built with `vite build --ssr` into dist-ssr/), plus
-// robots.txt, sitemap.xml and the 404 page. Cloudflare serves /about from
+// robots.txt, sitemap.xml and the 404 page, and, while the after-election
+// switch is on, the notice's words file. Cloudflare serves /about from
 // about.html and /candidates/{key} from candidates/{key}.html, and any
 // address without a file gets 404.html with a 404 status.
 //
@@ -19,6 +20,8 @@ import type { RaceList } from '../src/shared/races.ts'
 import { ROOT, readJson } from './lib/data.ts'
 import { profilesDirFor, readProfiles } from './lib/profiles/content.ts'
 import { REGIONS } from '../src/shared/regions.ts'
+import { AFTER_ELECTION } from '../src/shared/afterElection.ts'
+import { afterElectionNotice } from './lib/after-election-notice.ts'
 import {
   publishedListFor,
   checkTemplate,
@@ -154,6 +157,15 @@ const sitemap = pages
   }))
 await writeFile(join(DIST, 'sitemap.xml'), sitemapXml(ssr.SITE_URL, sitemap))
 await writeFile(join(DIST, 'robots.txt'), robotsTxt(ssr.SITE_URL))
+// The after-election notice's words: a file the app fetches, kept out of its
+// code and pages. Written only while the after-election switch is on.
+if (AFTER_ELECTION) {
+  await mkdir(join(DIST, 'notice'), { recursive: true })
+  await writeFile(
+    join(DIST, 'notice', 'after-election.json'),
+    JSON.stringify(afterElectionNotice()),
+  )
+}
 // Earlier addresses: Saved choices, and a race whose name was misread.
 await writeFile(
   join(DIST, '_redirects'),

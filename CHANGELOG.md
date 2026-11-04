@@ -5,8 +5,17 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+## [1.6.0] - 2026-11-04
+
+### Added
+
+- After the election, a thank-you notice under the header offers email updates and a way to support VoteStack.
+
 ### Changed
 
+- Race pages, profiles, the ballot and Saved choices say voting has ended and link to official results.
+- The email sign-up thank-you says we'll email before your next election.
+- The sign-up block at the end of pages is off while the notice is up.
 - On Saved choices, a No answer for a judge up for retention or a referendum now has a coral-red marker instead of the lime one, so No votes are easy to spot in a long list of judges. Yes answers and picked names keep the lime marker.
 - `npm run usage:report -- --open` now opens the v2 usage report (report-v2.html), and every run prints its file link. Both reports are still written. Internal tooling, not visible on the site.
 
@@ -171,7 +180,8 @@ The first public release, for the November 3, 2026 general election in Chicago a
 
 VoteStack was developed privately before its first public release. 0.1.0 (2026-10-04) set up the web app, hosting on Cloudflare Workers, CI and secret scanning. 0.2.0 (2026-10-04) added the Cook County ballot lookup, the address form and the site's look.
 
-[Unreleased]: https://github.com/nikolai-laba/votestack/compare/v1.4.0...HEAD
+[Unreleased]: https://github.com/nikolai-laba/votestack/compare/v1.6.0...HEAD
+[1.6.0]: https://github.com/nikolai-laba/votestack/compare/v1.5.0...v1.6.0
 [1.4.0]: https://github.com/nikolai-laba/votestack/compare/v1.3.0...v1.4.0
 [1.3.0]: https://github.com/nikolai-laba/votestack/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/nikolai-laba/votestack/compare/v1.1.0...v1.2.0

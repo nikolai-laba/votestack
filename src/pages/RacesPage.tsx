@@ -9,6 +9,7 @@ import {
 import { LEVEL_TITLES } from '../ballot/sections.ts'
 import { measureWordsFor } from '../shared/regions.ts'
 import { ProfileSkeleton } from '../components/profile/ProfileSkeleton.tsx'
+import { VotingEndedLine } from '../components/VotingEndedLine.tsx'
 import { SignupBlock } from '../components/signup/SignupBlock.tsx'
 import {
   RaceCardFor,
@@ -33,6 +34,7 @@ import {
   type Race,
   type RaceList,
 } from '../shared/races.ts'
+import { resultsOffices } from '../shared/results.ts'
 import { NotFoundPage } from './NotFoundPage.tsx'
 
 // The race pages, for visitors without a ballot (most come from a search):
@@ -160,6 +162,9 @@ function RaceArea({
         <p className="text-small">
           {list.electionName}, {longDate(list.date)}
         </p>
+        <VotingEndedLine
+          offices={resultsOffices(list.races.flatMap((r) => r.ballots))}
+        />
         <p>
           This list has every race and every judge up for retention on any
           ballot in {areaBallotsText(list)}. Your own ballot has only some of
@@ -266,6 +271,7 @@ function RacePage({
         <Heading>{raceName(race)}</Heading>
         <RaceFacts race={race} list={list} />
       </header>
+      <VotingEndedLine offices={resultsOffices(race.ballots)} />
       <RaceCardFor race={race} list={list} published={published} />
       <YourBallot
         race={race}

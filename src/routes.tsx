@@ -26,12 +26,13 @@ const candidate: RouteHandle = { detail: true, racePanel: true }
 
 export const routes: RouteObject[] = [
   {
-    element: <Layout />,
+    // This session's lookup and sample, in memory above every page so going
+    // between the address form and the ballot keeps both, and the layout's
+    // thank-you notice can fill in the ZIP code typed in the lookup.
+    element: <BallotSessionProvider />,
     children: [
       {
-        // This session's lookup and sample, in memory above the address form
-        // and the ballot so going between them keeps both.
-        element: <BallotSessionProvider />,
+        element: <Layout />,
         children: [
           {
             // New visitors land here (/ redirects when there's no ballot),
@@ -96,9 +97,9 @@ export const routes: RouteObject[] = [
               },
             ],
           },
+          { path: '*', element: <NotFoundPage /> },
         ],
       },
-      { path: '*', element: <NotFoundPage /> },
     ],
   },
 ]

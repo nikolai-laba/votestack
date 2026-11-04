@@ -25,20 +25,25 @@ export interface Authority {
   name: string
   /** Where voters can check their official sample ballot. */
   sampleBallotUrl: string
+  /** Where the authority publishes official election results. */
+  resultsUrl: string
 }
 
-const CHICAGO_BOARD: Authority = {
+export const CHICAGO_BOARD: Authority = {
   id: ocd.CHICAGO,
   name: 'Chicago Board of Election Commissioners',
   sampleBallotUrl:
     'https://www.chicagoelections.gov/voting/your-voter-information',
+  resultsUrl: 'https://chicagoelections.gov/elections/results',
 }
 
-const COOK_CLERK: Authority = {
+export const COOK_CLERK: Authority = {
   id: ocd.COOK_COUNTY,
   name: 'Cook County Clerk',
   sampleBallotUrl:
     'https://www.cookcountyclerkil.gov/elections/your-voter-information',
+  resultsUrl:
+    'https://www.cookcountyclerkil.gov/elections/results-and-election-data/election-results',
 }
 
 /** Chicago precinct IDs look like `chicago:WWPPP`; suburban ones `cook:NNNNNNN`. */

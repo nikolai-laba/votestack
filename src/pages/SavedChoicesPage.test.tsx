@@ -13,7 +13,17 @@ import type { Ballot, Contest } from '../shared/ballot.ts'
 
 /** The email sign-up's heading, last on the page. */
 const SIGNUP = 'Hear from VoteStack before your next election'
+import { CHICAGO } from '../shared/ocd.ts'
 import type { CandidateProfile } from '../shared/profile.ts'
+
+// Switches the site to its after-election wording for the tests that say so.
+const mode = vi.hoisted(() => ({ on: false }))
+vi.mock('../shared/afterElection.ts', async (original) => ({
+  ...(await original<typeof import('../shared/afterElection.ts')>()),
+  get AFTER_ELECTION() {
+    return mode.on
+  },
+}))
 
 const IL = 'ocd-division/country:us/state:il'
 const base = {
@@ -196,7 +206,10 @@ function seed(picks: Record<string, string[]>, saved: Ballot = ballot) {
   ballotStore.reload()
 }
 
-afterEach(() => vi.unstubAllGlobals())
+afterEach(() => {
+  vi.unstubAllGlobals()
+  mode.on = false
+})
 
 describe('picks on the ballot', () => {
   it('picks with a checkbox beside each name and swaps past the vote-for limit', async () => {
@@ -526,6 +539,66 @@ describe('Saved choices', () => {
       await screen.findByText('Your picks were cleared from this device.'),
     ).toBeInTheDocument()
     expect(screen.getAllByText('No pick').length).toBeGreaterThan(0)
+  })
+
+  describe('after the election', () => {
+    /** The line under Saved choices' title (the hidden ballot has its own). */
+    const header = () =>
+      within(
+        screen
+          .getByRole('heading', { level: 1, name: 'Saved choices' })
+          .closest('header')!,
+      )
+
+    it('links the Chicago Board’s results, though no precinct is saved', () => {
+      mode.on = true
+      seed(
+        { gov: ['jane-doe'] },
+        {
+          ...ballot,
+          contests: contests.map((c) => ({ ...c, authorityId: CHICAGO })),
+        },
+      )
+      renderAt('/saved-choices')
+
+      const line = header().getByText(/^Voting ended on/)
+      expect(line).toHaveTextContent(
+        'Voting ended on Tuesday, November 3, 2026. See official results from the Chicago Board of Election Commissioners.',
+      )
+      expect(
+        within(line).getByRole('link', {
+          name: 'Chicago Board of Election Commissioners',
+        }),
+      ).toHaveAttribute(
+        'href',
+        'https://chicagoelections.gov/elections/results',
+      )
+    })
+
+    it('links the County Clerk’s results for a suburban ballot', async () => {
+      mode.on = true
+      mockApi()
+      renderAt('/')
+      await lookUp()
+      await userEvent.click(savedLink('Saved choices'))
+
+      expect(header().getByText(/^Voting ended on/)).toHaveTextContent(
+        'Voting ended on Tuesday, November 3, 2026. See official results from the Cook County Clerk.',
+      )
+    })
+
+    it('says nothing about it before the election is over', () => {
+      seed({ gov: ['jane-doe'] })
+      renderAt('/saved-choices')
+      expect(header().queryByText(/Voting ended/)).toBeNull()
+      expect(screen.queryByText(/Voting ended/)).toBeNull()
+    })
+
+    it('has no line where there is no saved ballot', () => {
+      mode.on = true
+      renderAt('/saved-choices')
+      expect(screen.queryByText(/Voting ended/)).toBeNull()
+    })
   })
 
   it('says when there is no saved ballot', () => {

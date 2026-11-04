@@ -9,6 +9,16 @@ import { routes } from '../../routes.tsx'
 import type { Ballot } from '../../shared/ballot.ts'
 import { CLOSED_KEY, SIGNUP_KEY, signupStore } from '../../signup/device.ts'
 
+// The banner belongs to the time before an election, so these tests keep
+// the after-election mode off.
+const mode = vi.hoisted(() => ({ on: false }))
+vi.mock('../../shared/afterElection.ts', async (original) => ({
+  ...(await original<typeof import('../../shared/afterElection.ts')>()),
+  get AFTER_ELECTION() {
+    return mode.on
+  },
+}))
+
 const IL = 'ocd-division/country:us/state:il'
 const ballot: Ballot = {
   election: {

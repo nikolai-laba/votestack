@@ -87,6 +87,8 @@ export type UsageEvent =
   | { e: 'active'; secs: number; ballot: boolean }
   /** The email sign-up banner: shown (once per visit) or closed. */
   | { e: 'banner'; act: 'shown' | 'closed' }
+  /** The after-election notice under the header (see NOTICE_ACTS). */
+  | { e: 'notice'; act: NoticeAct }
   /** A step a visit has reached, once each per visit (see VisitStep). */
   | { e: 'visit'; entry: UsagePage; source: VisitSource; step: VisitStep }
   /** A device seen in a day, week, month or election: 'new' the first time in that period, 'back' if it was seen in an earlier one. */
@@ -312,6 +314,14 @@ const CTA_LINKS = ['top', 'mid', 'back', 'race', 'form'] as const
 const READ_KINDS = ['candidate', 'judicial', 'retention'] as const
 const READ_MARK_LABELS = ['10', '20', '30', '60', 'sources', 'read'] as const
 
+/**
+ * What is counted about the after-election notice: the full notice or its
+ * one-line version shown (once per visit each), the line expanded, the notice
+ * closed, and a click on its pay button.
+ */
+export const NOTICE_ACTS = ['full', 'line', 'opened', 'closed', 'pay'] as const
+export type NoticeAct = (typeof NOTICE_ACTS)[number]
+
 const isOneOf = <T extends string>(list: readonly T[], v: unknown): v is T =>
   typeof v === 'string' && (list as readonly string[]).includes(v)
 
@@ -403,6 +413,9 @@ export function usagePoint(raw: unknown): UsagePoint | null {
     case 'banner':
       if (!isOneOf(['shown', 'closed'] as const, v.act)) return null
       return point('banner', v.act)
+    case 'notice':
+      if (!isOneOf(NOTICE_ACTS, v.act)) return null
+      return point('notice', v.act)
     case 'visit':
       if (!isOneOf(USAGE_PAGES, v.entry)) return null
       if (!isOneOf(VISIT_SOURCES, v.source)) return null

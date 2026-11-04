@@ -11,6 +11,16 @@ import { signupStore } from '../../signup/device.ts'
 import type { TurnstileHandle } from '../report/Turnstile.tsx'
 import { SignupBlock } from './SignupBlock.tsx'
 
+// The block belongs to the time before an election, so these tests keep
+// the after-election mode off.
+const mode = vi.hoisted(() => ({ on: false }))
+vi.mock('../../shared/afterElection.ts', async (original) => ({
+  ...(await original<typeof import('../../shared/afterElection.ts')>()),
+  get AFTER_ELECTION() {
+    return mode.on
+  },
+}))
+
 // The real widget loads Cloudflare's script; this stand-in hands out a token
 // when its button is pressed.
 const actions = vi.fn()
@@ -175,9 +185,7 @@ describe('SignupBlock', () => {
 
     expect(await screen.findByText('Thanks, you’re on the list.')).toBeVisible()
     expect(
-      screen.getByText(
-        'We’ll send the first email after the November 3 election.',
-      ),
+      screen.getByText('We’ll email you before your next election.'),
     ).toBeVisible()
     expect(sent).toEqual([
       {

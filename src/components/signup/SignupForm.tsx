@@ -16,11 +16,11 @@ import { Turnstile, type TurnstileHandle } from '../report/Turnstile.tsx'
 import { TextField } from '../TextField.tsx'
 
 // The email sign-up form: an email address and a ZIP code, checked by
-// Cloudflare Turnstile. Used by the sign-up page and the block at the end of
-// pages, so it may appear more than once on a page: field ids come from
-// useId. Turnstile's script loads only once someone starts filling in the
-// form. Without a Turnstile site key it says sign-up isn't available instead
-// of showing a form that can't work.
+// Cloudflare Turnstile. Used by the sign-up page, the block at the end of
+// pages and the after-election notice, so it may appear more than once on a
+// page: field ids come from useId. Turnstile's script loads only once
+// someone starts filling in the form. Without a Turnstile site key it says
+// sign-up isn't available instead of showing a form that can't work.
 
 type Values = Record<SignupField, string>
 type Errors = Partial<Record<SignupField, string>>
@@ -46,6 +46,7 @@ export function SignupForm({
   initialZip = '',
   onSignedUp,
   deletionNote = false,
+  emphasis = 'primary',
 }: {
   /** Where on the site the form is, sent with the sign-up. */
   source: SignupSource
@@ -55,6 +56,8 @@ export function SignupForm({
   onSignedUp?: () => void
   /** Adds how to have a sign-up deleted (the sign-up page). */
   deletionNote?: boolean
+  /** The Sign up button's fill: the muted primary, or the neon highlight. */
+  emphasis?: 'primary' | 'highlight'
 }) {
   const siteKey: string | undefined = import.meta.env.VITE_TURNSTILE_SITE_KEY
   const id = useId()
@@ -150,7 +153,7 @@ export function SignupForm({
         className="space-y-2 rounded-sm border border-line bg-surface p-4"
       >
         <p className="font-semibold">Thanks, you&rsquo;re on the list.</p>
-        <p>We&rsquo;ll send the first email after the November 3 election.</p>
+        <p>We&rsquo;ll email you before your next election.</p>
       </div>
     )
   }
@@ -247,7 +250,11 @@ export function SignupForm({
       <button
         type="submit"
         disabled={!running || send.isPending}
-        className="h-13 w-full rounded-md bg-primary px-6 text-label font-semibold text-on-primary transition-opacity duration-150 disabled:opacity-60 md:w-auto"
+        className={`h-13 w-full rounded-md px-6 text-label font-semibold transition-opacity duration-150 disabled:opacity-60 md:w-auto ${
+          emphasis === 'highlight'
+            ? 'border-2 border-highlight bg-highlight text-on-highlight'
+            : 'bg-primary text-on-primary'
+        }`}
       >
         Sign up
       </button>

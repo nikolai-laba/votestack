@@ -2,6 +2,8 @@ import { Link } from 'react-router'
 import { GET_STARTED_PATH } from '../../ballot/profileLinks.ts'
 import { usage } from '../../metrics/usage.ts'
 import type { CandidateProfile } from '../../shared/profile.ts'
+import { ballotAreasOfContests, resultsOffices } from '../../shared/results.ts'
+import { VotingEndedLine } from '../VotingEndedLine.tsx'
 import { Disclosure } from './Disclosure.tsx'
 import { Endorsements } from './Endorsements.tsx'
 import { MoneySection } from './MoneySection.tsx'
@@ -52,6 +54,9 @@ export function ProfileArticle({
         <Disclosure
           updated={profile.meta.generatedAt}
           profileKey={profile.key}
+        />
+        <VotingEndedLine
+          offices={resultsOffices(ballotAreasOfContests(profile.contestIds))}
         />
       </div>
       <Overview section={profile.overview} />

@@ -17,6 +17,7 @@ import { MISSING_PROFILE_HEAD, profileHead, useDocumentHead } from '../head.ts'
 import { usage } from '../metrics/usage.ts'
 import { raceKeysFor, useRaces } from '../races/data.ts'
 import { useProfileReading } from '../metrics/useReading.ts'
+import { AFTER_ELECTION } from '../shared/afterElection.ts'
 import { profileKey, type CandidateProfile } from '../shared/profile.ts'
 import { COOK, regionForElection } from '../shared/regions.ts'
 
@@ -180,7 +181,7 @@ export default function ProfilePage() {
             <ProfileRaces profile={profile} ballot={ballot} />
           </div>
         )}
-        {profile && (
+        {profile && !AFTER_ELECTION && (
           <div className="mt-10">
             <SignupBlock source="profile" />
           </div>
@@ -206,9 +207,11 @@ export default function ProfilePage() {
         {article}
         {/* Last on phones, after the race card (both order-last); under the
             article on wide screens. */}
-        <div className="order-last mt-10 lg:order-none lg:col-start-2">
-          <SignupBlock source="profile" />
-        </div>
+        {!AFTER_ELECTION && (
+          <div className="order-last mt-10 lg:order-none lg:col-start-2">
+            <SignupBlock source="profile" />
+          </div>
+        )}
       </div>
     </div>
   )

@@ -44,6 +44,7 @@ describe('sign-up validation', () => {
 describe('sign-up sources', () => {
   it('accepts each place a sign-up form appears, and nothing else', () => {
     for (const s of SIGNUP_SOURCES) expect(signupSource(s)).toBe(s)
+    expect(signupSource('notice')).toBe('notice')
     for (const v of ['', 'Profile', 'footer', 42, null, undefined])
       expect(signupSource(v)).toBeNull()
   })

@@ -5,18 +5,23 @@ import {
   NOTIFY_PATH,
   type BallotOutletContext,
 } from '../ballot/profileLinks.ts'
+import { HIGHLIGHT_BUTTON_CLASS } from '../components/buttonStyles.ts'
 import { BackLink } from '../components/profile/BackLink.tsx'
 import { SUPPORT_HEAD, useDocumentHead } from '../head.ts'
+import {
+  AI_SPENT_SO_FAR,
+  CANDIDATES_COVERED,
+  PAY_ONCE_URL,
+} from '../shared/support.ts'
 
 // How to pay toward VoteStack, what the money pays for and which money we
-// refuse. Linked from the footer and the About page only: never from the
-// ballot, race or profile pages, and never as a banner or prompt. Payments
-// happen on Stripe's own pages, so this site never handles card details.
+// refuse. Linked from the footer and the About page. After an election the
+// thank-you notice under the header also links here and offers the payment
+// link; otherwise it is never linked from the ballot, race or profile pages,
+// and never as a banner or prompt. Payments happen on Stripe's own pages, so
+// this site never handles card details.
 // VoteStack, LLC isn't a charity, so the copy says "pay" and "support", never
 // "donate", and says plainly that payments aren't tax-deductible.
-
-/** Stripe Payment Link where the payer picks the amount (one-time only). */
-const PAY_ONCE_URL = 'https://buy.stripe.com/3cIeVd0otdaX6Ph7Pt9EI00'
 
 /**
  * Stripe Payment Links for monthly payments, one fixed amount each (Stripe
@@ -34,16 +39,6 @@ const MONTHLY: { dollars: number; url: string }[] = [
  * email through Google Workspace ($8.40).
  */
 const HOSTING_PER_MONTH = 33.4
-
-/** AI spent on candidate profiles so far, in dollars, across every area. */
-const AI_SPENT_SO_FAR = 400.37
-
-/**
- * Candidates with published profiles in every area (the profile lists in
- * content/profiles/published/). A test checks it against those lists, so
- * update it, and AI_SPENT_SO_FAR, when an area is added or republished.
- */
-export const CANDIDATES_COVERED = 1176
 
 const HEADING_ID = 'support-heading'
 
@@ -72,16 +67,13 @@ function List({ children }: { children: ReactNode }) {
 
 /**
  * A link to a Stripe payment page, styled as a button: the highlight fill
- * with on-highlight text, the same in both modes. The only button with the
- * highlight fill; keep it that way. The border keeps its edge
- * in forced-colors mode, where fills are dropped.
+ * with on-highlight text, the same in both modes. The highlight fill is for
+ * the most important calls to action, and paying is one of them
+ * (buttonStyles.ts).
  */
 function PayLink({ href, children }: { href: string; children: ReactNode }) {
   return (
-    <a
-      href={href}
-      className="inline-flex min-h-13 items-center rounded-md border-2 border-highlight bg-highlight px-6 text-label font-semibold text-on-highlight no-underline"
-    >
+    <a href={href} className={HIGHLIGHT_BUTTON_CLASS}>
       {children}
     </a>
   )

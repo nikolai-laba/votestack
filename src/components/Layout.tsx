@@ -11,9 +11,11 @@ import {
 import { useBallotStore } from '../picks/store.ts'
 import { pickCounts } from '../picks/summary.ts'
 import { useUsageViews } from '../metrics/listen.ts'
+import { AFTER_ELECTION } from '../shared/afterElection.ts'
 import { useTheme } from '../theme/themePreference.ts'
 import { APP_VERSION } from '../version.ts'
 import { ChevronDownIcon, MoonIcon, SunIcon } from './icons.tsx'
+import { AfterElectionNotice } from './notice/AfterElectionNotice.tsx'
 import { SignupBanner } from './signup/SignupBanner.tsx'
 
 /**
@@ -131,7 +133,9 @@ export function Layout() {
       >
         Skip to main content
       </a>
-      <SignupBanner width={width} />
+      {/* After the election, the thank-you notice under the header takes
+          the sign-up banner's place. */}
+      {!AFTER_ELECTION && <SignupBanner width={width} />}
       <header className="sticky top-0 z-10 border-b border-line bg-surface">
         <div
           className={`mx-auto flex ${width} flex-wrap items-center justify-between gap-x-6 px-4 py-3`}
@@ -140,6 +144,7 @@ export function Layout() {
           <SiteMenu />
         </div>
       </header>
+      {AFTER_ELECTION && <AfterElectionNotice width={width} />}
 
       {/* tabIndex -1 lets the skip link move focus here in every browser. */}
       <main

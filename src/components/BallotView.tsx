@@ -20,7 +20,9 @@ import { longDate, webUrl } from '../format.ts'
 import { SampleModeContext, useSampleMode } from '../picks/sampleMode.ts'
 import { useBallotStore, type Picks } from '../picks/store.ts'
 import { choicesFor, swapText } from '../picks/summary.ts'
+import { AFTER_ELECTION } from '../shared/afterElection.ts'
 import { partyLine, profileKey } from '../shared/profile.ts'
+import { areaOfBallot, resultsOffices } from '../shared/results.ts'
 import {
   COOK,
   regionForElection,
@@ -36,6 +38,7 @@ import {
   YesNo,
 } from './picks/PickControls.tsx'
 import { BackLink } from './profile/BackLink.tsx'
+import { VotingEndedLine } from './VotingEndedLine.tsx'
 
 const plural = (n: number, one: string, many: string) =>
   `${n} ${n === 1 ? one : many}`
@@ -75,6 +78,7 @@ export function BallotView({
   const [order] = useBallotOrder()
   const region = regionForElection(ballot.election.id) ?? COOK
   const words = region.measureWords
+  const area = areaOfBallot(ballot, region)
   const sections = sectionsFor(ballot.contests, order, region)
   const current = useCurrentSection(sections)
   const published = new Set(ballot.publishedProfiles ?? [])
@@ -96,6 +100,10 @@ export function BallotView({
             {ballot.election.name}
           </Title>
           <ElectionDetails ballot={ballot} />
+          {/* Beside a profile the profile has its own; a sample has none. */}
+          {(!titleElsewhere || sample) && (
+            <VotingEndedLine offices={resultsOffices(area ? [area] : [])} />
+          )}
         </header>
 
         <p className="text-section font-heading font-semibold">
@@ -200,7 +208,7 @@ export function BallotView({
       </article>
       {/* After the voter's own ballot, not a sample's, and not the list
         beside a profile (the profile has its own). */}
-      {!sample && !titleElsewhere && (
+      {!sample && !titleElsewhere && !AFTER_ELECTION && (
         <div className="mt-10">
           <SignupBlock source="ballot" />
         </div>

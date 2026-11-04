@@ -10,6 +10,7 @@ import {
 import { AddressForm } from '../components/AddressForm.tsx'
 import { coveredFullNames } from '../ballot/coverage.ts'
 import { raceAreaPath } from '../races/paths.ts'
+import { AFTER_ELECTION } from '../shared/afterElection.ts'
 import { REGIONS, coveredAreas } from '../shared/regions.ts'
 
 // /getstarted: what VoteStack is, the address form and the sample ballots.
@@ -47,6 +48,12 @@ export function GetStartedPage() {
         <h1 className="text-title lg:text-title-lg">
           What&apos;s on your ballot?
         </h1>
+        {AFTER_ELECTION && (
+          <p className="max-w-[65ch]">
+            Voting in the 2026 U.S. midterms has ended. You can still look up
+            what was on your ballot.
+          </p>
+        )}
         <p className="max-w-[65ch]">
           VoteStack shows you every race on your ballot with a profile for each
           candidate. It covers {coveredFullNames()}.

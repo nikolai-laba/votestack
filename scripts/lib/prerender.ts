@@ -104,6 +104,12 @@ export const PROFILE_PAGE_CHANGES: {
     date: '2026-10-23',
     appliesTo: (p) => !p.party || p.kind !== 'candidate',
   },
+  {
+    // 1.6.0: every profile says voting has ended and links to the official
+    // results.
+    date: '2026-11-04',
+    appliesTo: () => true,
+  },
 ]
 
 /** A profile page's sitemap date: its last research or a later template change. */

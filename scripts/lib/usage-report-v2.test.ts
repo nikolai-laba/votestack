@@ -109,6 +109,11 @@ const counted: Row[] = [
   row(LATER, 'cta', 'form', 'races'),
   row(LATER, 'origin', 'profile', 'search', 'same'),
   row(LATER, 'origin', 'unknown', 'unknown', 'later'),
+  row(LATER, 'notice', 'full', '', '', 4),
+  row(LATER, 'notice', 'line', '', '', 2),
+  row(LATER, 'notice', 'opened', '', '', 1),
+  row(LATER, 'notice', 'closed', '', '', 1),
+  row(LATER, 'notice', 'pay', '', '', 1),
   row(LAUNCH, 'dropped', 'bot', '', '', 2),
   row(LAUNCH, 'dropped', 'invalid', '', '', 1, 3),
   row(LAUNCH, 'dropped', 'limited'),
@@ -122,7 +127,10 @@ const DATA = {
   excludedNote: '',
   rows: [...history, ...counted],
   reports: [['2026-10-22T10:00:00Z', 'open', 'bio', 'il-2026-11']],
-  signups: [['2026-10-22T10:00:00Z', '60601', 'area', 'banner']],
+  signups: [
+    ['2026-10-22T10:00:00Z', '60601', 'area', 'banner'],
+    ['2026-10-25T12:00:00Z', '60601', 'updates', 'notice'],
+  ],
   candidates: { 'jane-doe': ['Jane Doe', 'Mayor', 'il-cook'] },
   races: { 'il/cook/mayor': ['Mayor', 'local', 'il-cook'] },
   releases: [
@@ -366,6 +374,16 @@ describe('the v2 report page', () => {
     expect(health).toContain('Automated')
     expect(health).toContain('Rate limited')
     expect(health).toContain('Hours not rolled up yet')
+  })
+
+  it('counts the after-election notice and the sign-ups that came from it', async () => {
+    const { doc, errors } = await load()
+    expect(errors).toEqual([])
+    expect(text(doc.getElementById('notice-line'))).toBe(
+      'After-election notice: 4 full, 2 one line, 1 opened, 1 closed, 1 pay clicks.',
+    )
+    const sources = text(doc.getElementById('signup-source-table'))
+    expect(sources).toMatch(/After-election notice\s*1(?!\d)/)
   })
 
   it('explores any event, grouped any way', async () => {

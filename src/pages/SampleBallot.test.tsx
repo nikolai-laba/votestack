@@ -7,6 +7,15 @@ import { ballotStore, STORAGE_KEY } from '../picks/store.ts'
 import { routes } from '../routes.tsx'
 import type { Ballot, Contest } from '../shared/ballot.ts'
 
+// Switches the site to its after-election wording for the tests that say so.
+const mode = vi.hoisted(() => ({ on: false }))
+vi.mock('../shared/afterElection.ts', async (original) => ({
+  ...(await original<typeof import('../shared/afterElection.ts')>()),
+  get AFTER_ELECTION() {
+    return mode.on
+  },
+}))
+
 const IL = 'ocd-division/country:us/state:il'
 const base = {
   electionId: 'il-2026-11-03-general',
@@ -75,7 +84,7 @@ const own: Ballot = {
 const wrigley: Ballot = {
   election,
   precinct: {
-    id: 'chicago:44-13',
+    id: 'chicago:44013',
     name: 'Ward 44 Precinct 13',
     districtIds: [],
   },
@@ -146,7 +155,10 @@ async function openWrigley() {
   await screen.findByText('Committeeperson, Ward 44')
 }
 
-afterEach(() => vi.unstubAllGlobals())
+afterEach(() => {
+  vi.unstubAllGlobals()
+  mode.on = false
+})
 
 describe('sample ballots', () => {
   it('offers three sample ballots under the privacy note', () => {
@@ -199,6 +211,19 @@ describe('sample ballots', () => {
     })
     expect(router.state.location.pathname).toBe('/')
     expect(router.state.location.search).toBe('')
+  })
+
+  it('says voting ended once on a sample ballot, naming its office', async () => {
+    mode.on = true
+    mockApi()
+    renderAt()
+    await openWrigley()
+
+    const lines = screen.getAllByText(/^Voting ended on/)
+    expect(lines).toHaveLength(1)
+    expect(lines[0]).toHaveTextContent(
+      'Voting ended on Tuesday, November 3, 2026. See official results from the Chicago Board of Election Commissioners.',
+    )
   })
 
   it('writes nothing to the device', async () => {

@@ -4,6 +4,7 @@ import {
   checkTemplate,
   fillTemplate,
   modulePreloads,
+  PROFILE_PAGE_CHANGES,
   publishedCandidates,
   robotsTxt,
   profileLastmod,
@@ -145,10 +146,24 @@ describe('profileLastmod', () => {
 
   it('dates judges and profiles without a party to the 1.5.1 change', () => {
     const old = '2026-10-14T00:00:00Z'
-    expect(profileLastmod(at(old, { party: undefined }))).toBe('2026-10-23')
-    expect(profileLastmod(at(old, { kind: 'judicial_candidate' }))).toBe(
+    const changes = PROFILE_PAGE_CHANGES.filter((c) => c.date === '2026-10-23')
+    expect(changes).toHaveLength(1)
+    expect(profileLastmod(at(old, { party: undefined }), changes)).toBe(
       '2026-10-23',
     )
-    expect(profileLastmod(at(old))).toBe('2026-10-14')
+    expect(
+      profileLastmod(at(old, { kind: 'judicial_candidate' }), changes),
+    ).toBe('2026-10-23')
+    expect(profileLastmod(at(old), changes)).toBe('2026-10-14')
+  })
+
+  it('dates every profile to the voting-ended change, unless researched later', () => {
+    const old = '2026-10-14T00:00:00Z'
+    expect(profileLastmod(at(old))).toBe('2026-11-04')
+    expect(profileLastmod(at(old, { party: undefined }))).toBe('2026-11-04')
+    expect(profileLastmod(at(old, { kind: 'judicial_candidate' }))).toBe(
+      '2026-11-04',
+    )
+    expect(profileLastmod(at('2026-11-10T08:00:00Z'))).toBe('2026-11-10')
   })
 })

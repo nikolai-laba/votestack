@@ -4,6 +4,7 @@ import {
   isAutomatedAgent,
   lookupPoint,
   mondayOf,
+  NOTICE_ACTS,
   pathOf,
   usagePage,
   usagePoint,
@@ -138,6 +139,18 @@ describe('sign-up banner events', () => {
     })
     expect(usagePoint({ e: 'banner', act: 'opened' })).toBeNull()
     expect(usagePoint({ e: 'banner' })).toBeNull()
+  })
+})
+
+describe('after-election notice events', () => {
+  it('counts each way the notice is seen or used, nothing else', () => {
+    for (const act of NOTICE_ACTS)
+      expect(usagePoint({ e: 'notice', act })).toEqual({
+        blobs: ['notice', act, '', ''],
+        doubles: [],
+      })
+    expect(usagePoint({ e: 'notice', act: 'shown' })).toBeNull()
+    expect(usagePoint({ e: 'notice' })).toBeNull()
   })
 })
 
