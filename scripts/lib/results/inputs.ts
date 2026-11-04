@@ -126,12 +126,13 @@ function ids(fail: Fail, v: unknown, path: string): string[] {
   return items
 }
 
+/** A real calendar date: "2026-13-24" fails, and so does "2026-02-30", which Date would roll over. */
 function isoDate(fail: Fail, v: unknown, path: string): string {
   const s = str(fail, v, path)
-  if (
-    !/^\d{4}-\d{2}-\d{2}$/.test(s) ||
-    new Date(`${s}T00:00:00Z`).toISOString().slice(0, 10) !== s
-  ) {
+  const time = /^\d{4}-\d{2}-\d{2}$/.test(s)
+    ? Date.parse(`${s}T00:00:00Z`)
+    : Number.NaN
+  if (Number.isNaN(time) || new Date(time).toISOString().slice(0, 10) !== s) {
     fail(path, 'must be a date like 2026-11-24')
   }
   return s
@@ -316,6 +317,12 @@ export function parseApCalls(raw: unknown): ApCallsFile {
     if (status === 'called' && winners.length === 0) {
       fail(`${p}.winners`, 'must name the winners of a called race')
     }
+    if (status !== 'called' && winners.length > 0) {
+      fail(`${p}.winners`, `must be empty for a ${status} call`)
+    }
+    winners.forEach((w, j) => {
+      if (winners.indexOf(w) !== j) fail(`${p}.winners`, `repeats "${w}"`)
+    })
     timestamp(fail, call.at, `${p}.at`)
     str(fail, call.url, `${p}.url`)
   })

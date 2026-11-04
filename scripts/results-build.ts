@@ -9,14 +9,14 @@
 // Run: npm run results:build
 
 import { existsSync, readdirSync } from 'node:fs'
-import { mkdir, readFile, writeFile } from 'node:fs/promises'
-import { dirname, join, relative } from 'node:path'
-import { format } from 'prettier'
+import { readFile } from 'node:fs/promises'
+import { join, relative } from 'node:path'
 import type { Election } from '../src/shared/ballot.ts'
 import { parseResultsFile } from '../src/shared/raceResults.ts'
 import type { ResultsFile } from '../src/shared/raceResults.ts'
 import { COOK, LOS_ANGELES } from '../src/shared/regions.ts'
 import { ROOT } from './lib/data.ts'
+import { writeFormattedJson } from './lib/profiles/content.ts'
 import { buildResults } from './lib/results/build.ts'
 import type { BuildInputs } from './lib/results/build.ts'
 import { caSosPaths, readCaSos } from './lib/results/ca-sos.ts'
@@ -222,11 +222,7 @@ async function buildArea(area: Area, now: string): Promise<void> {
   // What is about to be written must read back as a results file.
   parseResultsFile(JSON.parse(JSON.stringify(results)))
 
-  await mkdir(dirname(area.out), { recursive: true })
-  await writeFile(
-    area.out,
-    await format(JSON.stringify(results), { parser: 'json' }),
-  )
+  await writeFormattedJson(area.out, results)
   const tally = new Map<string, number>()
   for (const r of results.results) {
     tally.set(r.status, (tally.get(r.status) ?? 0) + 1)

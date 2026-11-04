@@ -7,14 +7,16 @@
 //   crosses county lines takes AP's district-wide count, only when reads a
 //   and b agree exactly; otherwise it has none. Any other race adds its
 //   official contests per our name (Chicago plus the Clerk for countywide
-//   races), or takes only the Secretary of State's when it lists one. Official
-//   names with no match are write-ins and are left out.
+//   races), or takes only the Secretary of State's when it lists one.
+//   Fails closed: every name in a used count must be matched (or be a
+//   write-in row, which is left out), and every ballot-order name must be in
+//   it, or the build throws.
 // - Status. No count: no_count. Certified by every office whose count it
 //   uses (the Secretary of State for an LA race across the county line):
-//   certified, winners from the count. Illinois races across county lines are
-//   never certified here (no reader yet for the State Board's canvass). Else
-//   AP's call: called with AP's winners, or too_close; withdrawn or no call:
-//   counting.
+//   certified, winners from the count (never anyone with 0 votes). Illinois
+//   races across county lines are never certified here (no reader yet for the
+//   State Board's canvass). Else AP's call: called with AP's winners (checked
+//   against the race), or too_close; withdrawn or no call: counting.
 
 import type { IsoDate } from '../../../src/shared/ballot.ts'
 import { passes } from '../../../src/shared/raceResults.ts'
@@ -69,6 +71,13 @@ const SOURCE_ORDER: OfficialSource[] = ['chicago', 'cook', 'la', 'ca-sos']
 
 const iso = (time: string) => new Date(time).toISOString()
 
+/** Rows dropped without a match ("Write-in", "Write-In: Lee Chen", "Write-ins"). */
+const WRITE_IN = /write-?in/i
+
+/** Where an area's kept input lives, for error messages. */
+const inputFile = (area: MatchFile['area'], name: string) =>
+  `content/results-inputs/${area}/${name}.json`
+
 const later = (a: string, b: string) => (Date.parse(b) > Date.parse(a) ? b : a)
 
 interface Count {
@@ -111,19 +120,42 @@ function findContest(
   return hits[0]
 }
 
-function officialCount(entry: MatchEntry, used: Used[]): Count {
-  const id = entry.contestIds[0]
+/**
+ * Adds the used contests per our name. Fails closed: every official name must
+ * be matched in `names` or be a write-in, and every ballot-order name must be
+ * in every contest, so a renamed or missed candidate stops the build instead
+ * of losing votes.
+ */
+function officialCount(
+  area: MatchFile['area'],
+  entry: MatchEntry,
+  used: Used[],
+): Count {
+  const where = `${inputFile(area, 'match')}: ${entry.contestIds[0]}`
   const totals = new Map<string, number>()
-  for (const { contest } of used) {
+  for (const { source, contest } of used) {
+    const what = `${source} contest "${contest.title}"`
+    const reached = new Set<string>()
     for (const c of contest.choices) {
-      if (!Object.hasOwn(entry.names, c.name)) continue // a write-in
+      if (!Object.hasOwn(entry.names, c.name)) {
+        if (WRITE_IN.test(c.name)) continue
+        throw new Error(
+          `${where}: ${what} has "${c.name}", which has no entry in names and isn't a write-in`,
+        )
+      }
       const ours = entry.names[c.name]
       if (!entry.ballotOrder.includes(ours)) {
         throw new Error(
-          `${id}: "${c.name}" maps to "${ours}", not in ballotOrder`,
+          `${where}: ${what} has "${c.name}", which maps to "${ours}", not in ballotOrder`,
         )
       }
+      reached.add(ours)
       totals.set(ours, (totals.get(ours) ?? 0) + c.votes)
+    }
+    for (const name of entry.ballotOrder) {
+      if (!reached.has(name)) {
+        throw new Error(`${where}: ${what} has no choice for "${name}"`)
+      }
     }
   }
   const files = [...new Set(used.map((u) => u.file))].sort(
@@ -186,6 +218,7 @@ function apReads(apCounts: BuildInputs['apCounts']): ApReads | undefined {
 }
 
 function apCount(
+  area: MatchFile['area'],
   entry: MatchEntry,
   reads: ApReads | undefined,
 ): Count | undefined {
@@ -194,11 +227,18 @@ function apCount(
   const a = reads.byRace.a.get(key)
   const b = reads.byRace.b.get(key)
   if (!a || !b || !sameCount(a, b)) return undefined
+  // AP's reads use our names. Fails closed like the official counts.
+  const where = `${inputFile(area, 'match')}: ${entry.contestIds[0]}: AP count`
   for (const c of a.choices) {
-    if (!entry.ballotOrder.includes(c.name)) {
+    if (!entry.ballotOrder.includes(c.name) && !WRITE_IN.test(c.name)) {
       throw new Error(
-        `${entry.contestIds[0]}: AP counts name "${c.name}", who is not in ballotOrder`,
+        `${where} has "${c.name}", which is not in ballotOrder and isn't a write-in`,
       )
+    }
+  }
+  for (const name of entry.ballotOrder) {
+    if (!a.choices.some((c) => c.name === name)) {
+      throw new Error(`${where} has no choice for "${name}"`)
     }
   }
   return {
@@ -228,7 +268,10 @@ function countWinners(entry: MatchEntry, choices: ResultChoice[]): string[] {
     const sorted = [...choices].sort((x, y) => y.votes - x.votes)
     const last = sorted[Math.min(entry.voteFor, sorted.length) - 1]
     if (!last) return []
-    return choices.filter((c) => c.votes >= last.votes).map((c) => c.name)
+    // No one wins with 0 votes (as no one leads with 0, in resultView).
+    return choices
+      .filter((c) => c.votes > 0 && c.votes >= last.votes)
+      .map((c) => c.name)
   }
   if (entry.threshold === undefined) throw new Error(`${id}: no threshold`)
   const total = choices.reduce((sum, c) => sum + c.votes, 0)
@@ -236,6 +279,43 @@ function countWinners(entry: MatchEntry, choices: ResultChoice[]): string[] {
   return passes(total === 0 ? 0 : yes / total, entry.threshold)
     ? ['Yes']
     : ['No']
+}
+
+/** AP's winners must fit the race: Yes or No for judges and measures; our names, once each, within the seats. */
+function checkCall(area: MatchFile['area'], entry: MatchEntry, call: ApCall) {
+  const { winners, status } = call
+  const bad = (why: string) =>
+    new Error(
+      `${inputFile(area, 'ap-calls')}: ${entry.contestIds[0]}: AP's winners ${JSON.stringify(winners)} ${why}`,
+    )
+  if (status !== 'called') {
+    if (winners.length > 0) {
+      throw bad(`are listed, but a ${status} call has no winners`)
+    }
+    return
+  }
+  if (entry.kind !== 'candidate') {
+    if (winners.length !== 1 || (winners[0] !== 'Yes' && winners[0] !== 'No')) {
+      throw bad('must be ["Yes"] or ["No"]')
+    }
+    return
+  }
+  if (winners.length === 0) {
+    throw bad('are empty, but a called race needs its winners')
+  }
+  winners.forEach((w, i) => {
+    if (winners.indexOf(w) !== i) throw bad(`names "${w}" twice`)
+    if (!entry.ballotOrder.includes(w)) {
+      throw bad(`include "${w}", who is not in ballotOrder`)
+    }
+  })
+  const seats = entry.voteFor
+  if (seats === undefined) throw bad("need the race's voteFor")
+  if (winners.length > seats) {
+    throw bad(
+      `are ${winners.length} winners for ${seats} seat${seats === 1 ? '' : 's'}`,
+    )
+  }
 }
 
 const sameWinners = (a: string[] = [], b: string[] = []) =>
@@ -260,7 +340,8 @@ export function buildResults(inputs: BuildInputs): ResultsFile {
   const calls = new Map<string, ApCall>()
   for (const c of inputs.apCalls.calls) {
     const key = raceKey(c.contestIds)
-    if (!entries.has(key)) {
+    const entry = entries.get(key)
+    if (!entry) {
       throw new Error(
         `AP calls: no race in the match file has contest IDs ${c.contestIds.join(', ')}`,
       )
@@ -268,6 +349,7 @@ export function buildResults(inputs: BuildInputs): ResultsFile {
     if (calls.has(key)) {
       throw new Error(`AP calls: ${c.contestIds.join(', ')} is called twice`)
     }
+    checkCall(match.area, entry, c)
     calls.set(key, c)
   }
 
@@ -336,10 +418,10 @@ export function buildResults(inputs: BuildInputs): ResultsFile {
     let count: Count | undefined
     if (entry.noOfficialCount) count = undefined
     else if (illinois && entry.scope === 'beyond') {
-      count = apCount(entry, reads)
+      count = apCount(match.area, entry, reads)
     } else {
       const sos = listed.filter((u) => u.source === 'ca-sos')
-      count = officialCount(entry, sos.length > 0 ? sos : listed)
+      count = officialCount(match.area, entry, sos.length > 0 ? sos : listed)
     }
 
     let status: RaceResult['status']

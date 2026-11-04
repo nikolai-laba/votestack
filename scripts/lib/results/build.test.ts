@@ -130,7 +130,7 @@ const cookFile = official('cook', COOK_AS_OF, [
     choices: [
       { name: 'Alex Rivera', votes: 300 },
       { name: 'Kim Park', votes: 700 },
-      { name: 'Write-In: Lee Chen', votes: 2 },
+      { name: 'Write-In', votes: 2 },
     ],
   },
   {
@@ -294,25 +294,96 @@ describe('buildResults: counts', () => {
     ])
   })
 
-  it('leaves write-ins (official names with no match) out of the choices', () => {
+  it('drops "Write-in" and "Write-In" rows without error', () => {
     const r = resultFor(buildResults(cookInputs()), clerk)
     expect(r.choices.map((c) => c.name)).toEqual(['Kim Park', 'Alex Rivera'])
     expect(r.choices.reduce((sum, c) => sum + c.votes, 0)).toBe(2800)
   })
 
-  it('lists choices in ballot order, with 0 votes for a name no source counts', () => {
-    const order = {
+  it('throws on an official name that is neither matched nor a write-in', () => {
+    const renamed = official('chicago', CHICAGO_AS_OF, [
+      {
+        title: 'Clerk of the Circuit Court',
+        choices: [
+          { name: 'ALEX RIVERA', votes: 1000 },
+          { name: 'KIM J. PARK', votes: 800 },
+        ],
+      },
+    ])
+    expect(() =>
+      buildResults(
+        cookInputs({
+          match: cookMatch([clerk]),
+          official: [renamed, cookFile],
+        }),
+      ),
+    ).toThrow(
+      /^content\/results-inputs\/cook\/match\.json: chicago-boe:clerk-of-the-circuit-court: chicago contest "Clerk of the Circuit Court" has "KIM J\. PARK"/,
+    )
+  })
+
+  it('throws when a ballot-order name is missing from one of the contests it sums', () => {
+    const three: MatchEntry = {
       ...clerk,
-      ballotOrder: ['Alex Rivera', 'Sam Ortiz', 'Kim Park'],
+      names: { ...clerk.names, 'SAM ORTIZ': 'Sam Ortiz' },
+      ballotOrder: ['Kim Park', 'Alex Rivera', 'Sam Ortiz'],
     }
+    const withSam = official('chicago', CHICAGO_AS_OF, [
+      {
+        ...chicagoFile.contests[0],
+        choices: [
+          ...chicagoFile.contests[0].choices,
+          { name: 'SAM ORTIZ', votes: 0 },
+        ],
+      },
+    ])
+    expect(() =>
+      buildResults(
+        cookInputs({
+          match: cookMatch([three]),
+          official: [withSam, cookFile],
+        }),
+      ),
+    ).toThrow(
+      /^content\/results-inputs\/cook\/match\.json: chicago-boe:clerk-of-the-circuit-court: cook contest "Clerk of the Circuit Court" has no choice for "Sam Ortiz"/,
+    )
+  })
+
+  it('lists choices in ballot order, with a 0 a contest reports kept', () => {
+    const order: MatchEntry = {
+      ...clerk,
+      ballotOrder: ['Alex Rivera', 'Kim Park'],
+    }
+    const zero = official('cook', COOK_AS_OF, [
+      {
+        ...cookFile.contests[0],
+        choices: [
+          { name: 'Alex Rivera', votes: 0 },
+          { name: 'Kim Park', votes: 0 },
+        ],
+      },
+    ])
+    const chicagoOnly = official('chicago', CHICAGO_AS_OF, [
+      {
+        ...chicagoFile.contests[0],
+        choices: [
+          { name: 'ALEX RIVERA', votes: 0 },
+          { name: 'KIM PARK', votes: 800 },
+        ],
+      },
+    ])
     const r = resultFor(
-      buildResults(cookInputs({ match: cookMatch([order]) })),
+      buildResults(
+        cookInputs({
+          match: cookMatch([order]),
+          official: [chicagoOnly, zero],
+        }),
+      ),
       clerk,
     )
     expect(r.choices).toEqual([
-      { name: 'Alex Rivera', votes: 1300 },
-      { name: 'Sam Ortiz', votes: 0 },
-      { name: 'Kim Park', votes: 1500 },
+      { name: 'Alex Rivera', votes: 0 },
+      { name: 'Kim Park', votes: 800 },
     ])
   })
 
@@ -367,10 +438,14 @@ describe('buildResults: counts', () => {
   })
 
   it("takes AP's count for an Illinois race beyond Cook when reads a and b agree", () => {
+    const withWriteIns: ApCount = {
+      ...senateCount,
+      choices: [...senateCount.choices, { name: 'Write-ins', votes: 900 }],
+    }
     const r = resultFor(
       buildResults(
         cookInputs({
-          apCounts: [read('a', [senateCount]), read('b', [senateCount])],
+          apCounts: [read('a', [withWriteIns]), read('b', [withWriteIns])],
         }),
       ),
       senate,
@@ -615,6 +690,44 @@ describe('buildResults: status', () => {
     expect(r.winners).toEqual(['Kim Park', 'Alex Rivera', 'Sam Ortiz'])
   })
 
+  it('never names a candidate with 0 votes a certified winner', () => {
+    const board: MatchEntry = {
+      ...clerk,
+      ballotOrder: ['Kim Park', 'Alex Rivera', 'Sam Ortiz', 'Jo Lee'],
+      names: {
+        'Kim Park': 'Kim Park',
+        'Alex Rivera': 'Alex Rivera',
+        'Sam Ortiz': 'Sam Ortiz',
+        'Jo Lee': 'Jo Lee',
+      },
+      official: [{ source: 'cook', title: 'Board' }],
+      voteFor: 3,
+    }
+    const file = official('cook', COOK_AS_OF, [
+      {
+        title: 'Board',
+        choices: [
+          { name: 'Kim Park', votes: 100 },
+          { name: 'Alex Rivera', votes: 50 },
+          { name: 'Sam Ortiz', votes: 0 },
+          { name: 'Jo Lee', votes: 0 },
+        ],
+      },
+    ])
+    const r = resultFor(
+      buildResults(
+        cookInputs({
+          match: cookMatch([board]),
+          official: [file],
+          certifications: certs([COOK_CERT]),
+        }),
+      ),
+      board,
+    )
+    expect(r.status).toBe('certified')
+    expect(r.winners).toEqual(['Kim Park', 'Alex Rivera'])
+  })
+
   it("certifies an LA race across the county line only on the Secretary of State's certification", () => {
     const withLa = buildResults(laInputs({ certifications: certs([LA_CERT]) }))
     expect(resultFor(withLa, council).status).toBe('certified')
@@ -684,7 +797,9 @@ describe('buildResults: status', () => {
   it('puts a race back to counting when AP withdraws its call', () => {
     const r = resultFor(
       buildResults(
-        cookInputs({ apCalls: calls([call(clerk, { status: 'withdrawn' })]) }),
+        cookInputs({
+          apCalls: calls([call(clerk, { status: 'withdrawn', winners: [] })]),
+        }),
       ),
       clerk,
     )
@@ -835,7 +950,9 @@ describe('buildResults: inputs it refuses', () => {
     ])
     expect(() =>
       buildResults(cookInputs({ official: [chicagoFile, twice] })),
-    ).toThrow(/Clerk of the Circuit Court/)
+    ).toThrow(
+      /^chicago-boe:clerk-of-the-circuit-court: 2 cook contests are titled "Clerk of the Circuit Court"$/,
+    )
   })
 
   it('throws when an LA contest marked county-only feeds a race marked within', () => {
@@ -888,7 +1005,9 @@ describe('buildResults: inputs it refuses', () => {
           apCounts: [read('a', [clerkCount]), read('b', [clerkCount])],
         }),
       ),
-    ).toThrow(/chicago-boe:clerk-of-the-circuit-court/)
+    ).toThrow(
+      /^AP counts \(reader a\): chicago-boe:clerk-of-the-circuit-court doesn't take AP's count/,
+    )
   })
 
   it('throws on an agreed AP count with a name that is not on our ballot', () => {
@@ -903,7 +1022,67 @@ describe('buildResults: inputs it refuses', () => {
       buildResults(
         cookInputs({ apCounts: [read('a', [typo]), read('b', [typo])] }),
       ),
-    ).toThrow(/Kim Parks/)
+    ).toThrow(
+      /^content\/results-inputs\/cook\/match\.json: chicago-boe:united-states-senator: AP count has "Kim Parks"/,
+    )
+  })
+
+  it('throws on an agreed AP count missing a ballot-order name', () => {
+    const short: ApCount = {
+      ...senateCount,
+      choices: [{ name: 'Alex Rivera', votes: 2000000 }],
+    }
+    expect(() =>
+      buildResults(
+        cookInputs({ apCounts: [read('a', [short]), read('b', [short])] }),
+      ),
+    ).toThrow(
+      /^content\/results-inputs\/cook\/match\.json: chicago-boe:united-states-senator: AP count has no choice for "Kim Park"/,
+    )
+  })
+
+  it("throws on AP call winners that don't fit the race", () => {
+    const measure: MatchEntry = { ...judge, kind: 'measure', threshold: 0.5 }
+    const two: MatchEntry = { ...clerk, voteFor: 2 }
+    const cases: [MatchEntry, Partial<ApCall>, RegExp][] = [
+      [judge, { winners: ['YES'] }, /\["YES"\] must be \["Yes"\] or \["No"\]/],
+      [measure, { winners: ['Yes', 'No'] }, /must be \["Yes"\] or \["No"\]/],
+      [clerk, { winners: [] }, /a called race needs its winners/],
+      [two, { winners: ['Kim Park', 'Kim Park'] }, /names "Kim Park" twice/],
+      [
+        clerk,
+        { winners: ['Kim Parks'] },
+        /include "Kim Parks", who is not in ballotOrder/,
+      ],
+      [clerk, { winners: ['Kim Park', 'Alex Rivera'] }, /2 winners for 1 seat/],
+      [clerk, { status: 'too_close' }, /a too_close call has no winners/],
+      [clerk, { status: 'withdrawn' }, /a withdrawn call has no winners/],
+    ]
+    for (const [entry, over, message] of cases) {
+      const go = () =>
+        buildResults(
+          cookInputs({
+            match: cookMatch([entry]),
+            apCalls: calls([call(entry, over)]),
+          }),
+        )
+      expect(go).toThrow(/^content\/results-inputs\/cook\/ap-calls\.json: /)
+      expect(go).toThrow(new RegExp(`${entry.contestIds[0]}: AP's winners`))
+      expect(go).toThrow(message)
+    }
+    const yes = buildResults(
+      cookInputs({
+        match: cookMatch([judge, two]),
+        apCalls: calls([
+          call(judge, { winners: ['No'] }),
+          call(two, { winners: ['Kim Park', 'Alex Rivera'] }),
+        ]),
+      }),
+    )
+    expect(yes.results.map((r) => r.winners)).toEqual([
+      ['Kim Park', 'Alex Rivera'],
+      ['No'],
+    ])
   })
 
   it('throws when the previous results file is for another election', () => {
@@ -948,6 +1127,11 @@ describe('parseMatchFile', () => {
     expect(bad({ ...judge, certifyBy: 'November 24' })).toThrow(
       /contests\[1\]\.certifyBy/,
     )
+    for (const impossible of ['2026-13-24', '2026-02-30']) {
+      expect(bad({ ...judge, certifyBy: impossible })).toThrow(
+        /^Match file: contests\[1\]\.certifyBy must be a date like 2026-11-24$/,
+      )
+    }
     expect(
       bad({ ...judge, official: [{ source: 'ca-sos', title: 'x' }] }),
     ).toThrow(/contests\[1\]\.official\[0\]\.source/)
@@ -1025,6 +1209,15 @@ describe('parseApCalls', () => {
       /^AP calls file: calls\[1\]\.status/,
     )
     expect(bad({ ...call(clerk), winners: [] })).toThrow(/calls\[1\]\.winners/)
+    expect(bad({ ...call(clerk), status: 'too_close' })).toThrow(
+      /^AP calls file: calls\[1\]\.winners must be empty for a too_close call/,
+    )
+    expect(bad({ ...call(clerk), status: 'withdrawn' })).toThrow(
+      /^AP calls file: calls\[1\]\.winners must be empty for a withdrawn call/,
+    )
+    expect(bad({ ...call(clerk), winners: ['Kim Park', 'Kim Park'] })).toThrow(
+      /^AP calls file: calls\[1\]\.winners repeats "Kim Park"/,
+    )
     expect(bad({ ...call(clerk), at: '2026-11-03T21:41:00' })).toThrow(
       /calls\[1\]\.at/,
     )
@@ -1085,6 +1278,9 @@ describe('parseCertifications', () => {
     )
     expect(bad({ ...COOK_CERT, on: '11/24/2026' })).toThrow(
       /certifications\[1\]\.on/,
+    )
+    expect(bad({ ...COOK_CERT, on: '2026-13-24' })).toThrow(
+      /^Certifications file: certifications\[1\]\.on must be a date/,
     )
     expect(bad(CHICAGO_CERT)).toThrow(/certifications\[1\]\.source.*chicago/)
   })
