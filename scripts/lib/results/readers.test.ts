@@ -2,6 +2,7 @@ import { readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { describe, expect, it } from 'vitest'
 import { readChicago } from './chicago.ts'
+import { CA_SOS_BASE, caSosPaths, readCaSos } from './ca-sos.ts'
 import { readCook } from './cook.ts'
 import { readLa } from './la.ts'
 import { zonedToIso } from './time.ts'
@@ -133,5 +134,123 @@ describe('readLa', () => {
 
   it('throws on a file without contests', () => {
     expect(() => readLa({}, RETRIEVED)).toThrow(/^la: /)
+  })
+})
+
+describe('readCaSos', () => {
+  const read = (name: string, path: string) =>
+    readCaSos(JSON.parse(fixture(name)), path, RETRIEVED)
+
+  it('reads a candidate file as one contest', () => {
+    const file = read('ca-sos-us-rep-23.json', 'us-rep/district/23')
+    expect(file.source).toBe('ca-sos')
+    expect(file.url).toBe(CA_SOS_BASE + 'us-rep/district/23')
+    expect(file.retrievedAt).toBe(RETRIEVED)
+    expect(file.asOf).toBe('2026-11-04T16:08:00.000Z')
+    expect(file.contests).toHaveLength(1)
+    expect(file.contests[0].title).toBe('us-rep/district/23')
+    expect(file.contests[0].choices).toEqual([
+      { name: 'Tessa Lynn Hodge', votes: 63681 },
+      { name: 'Jay Obernolte', votes: 67169 },
+    ])
+  })
+
+  it('reads ballot measures keyed by number', () => {
+    const file = read('ca-sos-ballot-measures.json', 'ballot-measures')
+    const c = file.contests.find((x) => x.title === 'ballot-measures#01')
+    expect(c?.choices).toEqual([
+      { name: 'YES', votes: 4506588 },
+      { name: 'NO', votes: 3084042 },
+    ])
+    expect(file.contests).toHaveLength(2)
+  })
+
+  it('reads Supreme Court retention keyed by justice', () => {
+    const file = read('ca-sos-supreme-court.json', 'supreme-court')
+    const c = file.contests.find(
+      (x) => x.title === 'supreme-court#Kelli M. Evans',
+    )
+    expect(c?.choices).toEqual([
+      { name: 'YES', votes: 4380187 },
+      { name: 'NO', votes: 1752274 },
+    ])
+  })
+
+  it('reads one contest per appellate justice', () => {
+    const file = read(
+      'ca-sos-courts-of-appeal-2.json',
+      'courts-of-appeal/district/2',
+    )
+    expect(file.contests.map((c) => c.title)).toEqual([
+      'courts-of-appeal/district/2#Michelle C. Kim',
+      'courts-of-appeal/district/2#Gregory J. Weingart',
+    ])
+    expect(file.contests[0].choices[0]).toEqual({
+      name: 'YES',
+      votes: 1384767,
+    })
+  })
+
+  it('converts Pacific a.m. and p.m. times, including 12 o’clock', () => {
+    const at = (time: string) =>
+      readCaSos(
+        {
+          ...JSON.parse(fixture('ca-sos-us-rep-23.json')),
+          ReportingTime: time,
+        },
+        'us-rep/district/23',
+        RETRIEVED,
+      ).asOf
+    expect(at('November 4, 2026, 4:30 p.m.')).toBe('2026-11-05T00:30:00.000Z')
+    expect(at('November 4, 2026, 12:05 a.m.')).toBe('2026-11-04T08:05:00.000Z')
+    expect(at('November 4, 2026, 12:05 p.m.')).toBe('2026-11-04T20:05:00.000Z')
+    expect(at('November 4, 2026, 3 p.m.')).toBe('2026-11-04T23:00:00.000Z')
+  })
+
+  it('throws on an unparseable time, a missing array and bad votes', () => {
+    const base = JSON.parse(fixture('ca-sos-us-rep-23.json'))
+    const go = (json: unknown) => () =>
+      readCaSos(json, 'us-rep/district/23', RETRIEVED)
+    expect(go({ ...base, ReportingTime: 'yesterday' })).toThrow(/^ca-sos: /)
+    expect(go({ ...base, candidates: undefined })).toThrow(/^ca-sos: /)
+    expect(go({ ...base, candidates: [] })).toThrow(/^ca-sos: /)
+    expect(go({ ...base, candidates: [{ Name: 'A', Votes: 'n/a' }] })).toThrow(
+      /^ca-sos: /,
+    )
+    expect(() =>
+      readCaSos(
+        { ReportingTime: base.ReportingTime, 'supreme-court': 5 },
+        'supreme-court',
+        RETRIEVED,
+      ),
+    ).toThrow(/^ca-sos: /)
+  })
+})
+
+describe('caSosPaths', () => {
+  it('returns distinct sorted API paths for ca-sos entries only', () => {
+    const match = {
+      contests: [
+        {
+          official: [
+            { source: 'la', title: 'x#1' },
+            { source: 'ca-sos', title: 'us-rep/district/23' },
+            { source: 'ca-sos', title: 'supreme-court#Kelli M. Evans' },
+          ],
+        },
+        {
+          official: [
+            { source: 'ca-sos', title: 'supreme-court#Joshua Groban' },
+            { source: 'ca-sos', title: 'us-rep/district/23' },
+            { source: 'ca-sos', title: 'courts-of-appeal/district/2#A' },
+          ],
+        },
+      ],
+    }
+    expect(caSosPaths(match)).toEqual([
+      'courts-of-appeal/district/2',
+      'supreme-court',
+      'us-rep/district/23',
+    ])
   })
 })
