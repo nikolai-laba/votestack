@@ -15,9 +15,28 @@ const DECIDED = new Set<ResultLabel>([
 const votesText = (votes: number) => votes.toLocaleString('en-US')
 
 /**
- * A row's result at its end, the same fixed width on every row: the label
- * (Won, Leading and so on), the share and the votes. Empty for a choice with
- * no count; a reserved block of the same size while the results load.
+ * The column's three lines: the label, the share and the votes. Every row
+ * keeps all three, labeled or not, loaded or loading, so every row in a card
+ * is the same size and none changes size when the results arrive.
+ */
+const LINE = {
+  label: 'flex min-h-5.5 items-center justify-end gap-1 text-small font-bold',
+  share: 'block min-h-6.5 text-race font-bold',
+  votes: 'block min-h-4.5 text-caption text-muted',
+}
+
+/** A loading line's grey bar. */
+const Bar = ({ className }: { className: string }) => (
+  <span
+    className={`inline-block rounded-sm bg-band align-middle ${className}`}
+  />
+)
+
+/**
+ * A row's result at its end, the same fixed width and the same three lines
+ * on every row: the label (Won, Leading and so on; an empty line on a row
+ * without one), the share and the votes. Empty lines for a choice with no
+ * count; grey bars in the same lines while the results load.
  */
 export function ResultColumn({
   choice,
@@ -28,42 +47,46 @@ export function ResultColumn({
 }) {
   return (
     <div className="box-content w-28 shrink-0 self-center py-2 pe-4 text-end tabular-nums">
-      {pending ? (
-        // The label, share and votes lines of a labeled row, on every row,
-        // so no row grows when the results arrive.
-        <span aria-hidden="true" data-results-placeholder="" className="block">
-          <span className="flex h-5.5 items-center justify-end">
-            <span className="h-3 w-12 rounded-sm bg-band" />
+      {pending || !choice ? (
+        <span
+          aria-hidden="true"
+          data-results-placeholder={pending ? '' : undefined}
+          className="block"
+        >
+          <span data-line="label" className={LINE.label}>
+            {pending && <Bar className="h-3 w-12" />}
           </span>
-          <span className="flex h-6.5 items-center justify-end">
-            <span className="h-4 w-14 rounded-sm bg-band" />
+          <span data-line="share" className={LINE.share}>
+            {pending && <Bar className="h-4 w-14" />}
           </span>
-          <span className="flex h-4.5 items-center justify-end">
-            <span className="h-3 w-16 rounded-sm bg-band" />
+          <span data-line="votes" className={LINE.votes}>
+            {pending && <Bar className="h-3 w-16" />}
           </span>
         </span>
       ) : (
-        choice && (
-          <>
+        <>
+          <span
+            data-line="label"
+            aria-hidden={choice.label ? undefined : 'true'}
+            className={LINE.label}
+          >
             {choice.label && (
               <>
-                <span className="flex items-center justify-end gap-1 text-small font-bold">
-                  {DECIDED.has(choice.label) && <CheckIcon />}
-                  {choice.label}
-                </span>
-                <span className="sr-only">, </span>
+                {DECIDED.has(choice.label) && <CheckIcon />}
+                {choice.label}
               </>
             )}
-            <span className="block text-race font-bold">
-              {choice.shareText}
-            </span>
-            <span className="sr-only">, </span>
-            <span className="block text-caption text-muted">
-              {votesText(choice.votes)}
-            </span>
-            <span className="sr-only"> votes</span>
-          </>
-        )
+          </span>
+          {choice.label && <span className="sr-only">, </span>}
+          <span data-line="share" className={LINE.share}>
+            {choice.shareText}
+          </span>
+          <span className="sr-only">, </span>
+          <span data-line="votes" className={LINE.votes}>
+            {votesText(choice.votes)}
+          </span>
+          <span className="sr-only"> votes</span>
+        </>
       )}
     </div>
   )

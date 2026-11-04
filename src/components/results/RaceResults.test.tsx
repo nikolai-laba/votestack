@@ -263,6 +263,23 @@ const ballotOf = (contests: Contest[], electionId = IL_ELECTION): Ballot => ({
 })
 
 const rowOf = (name: string) => screen.getByText(name).closest('li')!
+/**
+ * A row's results column, line by line: each line's role and the height it
+ * keeps. Every row of a card with a column has the same lines, loaded or
+ * loading, so no row changes size.
+ */
+const columnLines = (row: Element) =>
+  [...row.querySelector('.tabular-nums')!.querySelectorAll('[data-line]')].map(
+    (line) => [
+      line.getAttribute('data-line'),
+      line.className.match(/min-h-[\d.]+/)?.[0],
+    ],
+  )
+const THREE_LINES = [
+  ['label', 'min-h-5.5'],
+  ['share', 'min-h-6.5'],
+  ['votes', 'min-h-4.5'],
+]
 const caption = (container: HTMLElement) =>
   container.querySelector('p.italic')?.textContent
 
@@ -292,6 +309,23 @@ describe('a called race', () => {
 
     expect(screen.getByText('Share of votes')).toBeInTheDocument()
     expect(screen.queryByRole('checkbox')).toBeNull()
+  })
+
+  it('keeps a row without a label the same height as a labeled row', () => {
+    renderWithResults(
+      card(treasurer),
+      resultsData({ [IL_ELECTION]: [calledTreasurer] }),
+    )
+    for (const name of ['Alex Rivera', 'Sam Moore', 'Jordan Lee'])
+      expect(columnLines(rowOf(name))).toEqual(THREE_LINES)
+    // The unlabeled row's label line is empty space, hidden from screen
+    // readers.
+    const empty = rowOf('Sam Moore').querySelector('[data-line="label"]')!
+    expect(empty).toBeEmptyDOMElement()
+    expect(empty).toHaveAttribute('aria-hidden', 'true')
+    expect(
+      rowOf('Alex Rivera').querySelector('[data-line="label"]'),
+    ).not.toHaveAttribute('aria-hidden')
   })
 
   it('ends with the call, the count and the certification date, in italics', () => {
@@ -830,13 +864,9 @@ describe('without a result', () => {
     for (const li of rows) {
       const column = li.querySelector('[data-results-placeholder]')!
       expect(column).toHaveAttribute('aria-hidden', 'true')
-      // Label, share and votes: the lines a labeled row uses, so no row
-      // grows when the results arrive.
-      expect(
-        [...column.children].map(
-          (line) => line.className.match(/h-[\d.]+/)?.[0],
-        ),
-      ).toEqual(['h-5.5', 'h-6.5', 'h-4.5'])
+      // Label, share and votes: the same lines as every loaded row, so no
+      // row changes size when the results arrive.
+      expect(columnLines(li)).toEqual(THREE_LINES)
     }
     // The caption's space: four caption lines, as a called race's caption
     // takes at 375 px.
