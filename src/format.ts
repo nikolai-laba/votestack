@@ -28,6 +28,11 @@ export function longDate(iso: string): string {
   })
 }
 
+/** "Tuesday, November 3, 2026": the date of a moment in the given time zone. */
+export function longDateIn(iso: string, timeZone: string): string {
+  return new Date(iso).toLocaleDateString('en-US', { ...LONG_DATE, timeZone })
+}
+
 /**
  * "Wednesday, November 4, 2026, 2:12 a.m. CT": a moment in the given time
  * zone, with the zone's short name. A whole hour drops its ":00".

@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it } from 'vitest'
-import { longDate, longDateTime, webUrl } from './format.ts'
+import { longDate, longDateIn, longDateTime, webUrl } from './format.ts'
 
 const zone = process.env.TZ
 
@@ -46,5 +46,22 @@ describe('longDateTime', () => {
     expect(
       longDateTime('2026-11-06T00:00:00Z', 'America/Los_Angeles', 'PT'),
     ).toBe('Thursday, November 5, 2026, 4 p.m. PT')
+  })
+})
+
+describe('longDateIn', () => {
+  it("shows the instant's date in the zone given", () => {
+    expect(longDateIn('2026-11-04T03:41:00Z', 'America/Chicago')).toBe(
+      'Tuesday, November 3, 2026',
+    )
+  })
+
+  it('uses the previous local day for a late-evening UTC instant', () => {
+    expect(longDateIn('2026-11-04T07:59:00Z', 'America/Los_Angeles')).toBe(
+      'Tuesday, November 3, 2026',
+    )
+    expect(longDateIn('2026-11-04T08:00:00Z', 'America/Los_Angeles')).toBe(
+      'Wednesday, November 4, 2026',
+    )
   })
 })

@@ -165,6 +165,33 @@ describe('the profile result block', () => {
     )
   })
 
+  it("names the winner on everyone else's profile once certified", () => {
+    const certified: RaceResult = {
+      ...base,
+      status: 'certified',
+      certified: { on: '2026-11-24', url: 'https://example.org/c' },
+    }
+    const { unmount } = show(profileOf('Sam Moore'), certified)
+    expect(block()).toHaveTextContent(
+      'Alex Rivera was elected (certified Tuesday, November 24, 2026).',
+    )
+    unmount()
+    show(profileOf('Jordan Lee'), {
+      ...certified,
+      voteFor: 2,
+      winners: ['Alex Rivera', 'Sam Moore'],
+    })
+    expect(block()).toHaveTextContent(
+      'Alex Rivera and Sam Moore were elected (certified Tuesday, November 24, 2026).',
+    )
+  })
+
+  it('never writes a won line without a name', () => {
+    show(profileOf('Sam Moore'), { ...base, winners: [] })
+    expect(block()).not.toHaveTextContent(/\bwon\b/)
+    expect(block()).toHaveTextContent(/AP called this race on/)
+  })
+
   it('shows a leader and a trailing candidate while counting', () => {
     const counting: RaceResult = {
       ...base,

@@ -1,5 +1,5 @@
 import { Link } from 'react-router'
-import { longDateTime } from '../../format.ts'
+import { longDate, longDateIn } from '../../format.ts'
 import { useRaces, racesFor } from '../../races/data.ts'
 import {
   useGroupResults,
@@ -117,23 +117,26 @@ function Caption({
   const region = resultRegion(electionId)
   const { outcome, winners } = personOutcome(result, name)
   const decided = result.status === 'called' || result.status === 'certified'
-  if (decided && outcome === 'not_elected') {
-    const day = (iso: string) =>
-      longDateTime(iso, region.timeZone, region.zoneLabel).replace(
-        /, \d{1,2}(:\d{2})? [ap]\.m\. \w+$/,
-        '',
+  // Never a sentence without a name: with no winners, the race's own line.
+  if (decided && outcome === 'not_elected' && winners.length > 0) {
+    const names = andList(winners)
+    if (result.status === 'certified' && result.certified)
+      return (
+        <p className="text-caption text-muted italic">
+          {names} {winners.length > 1 ? 'were' : 'was'} elected (certified{' '}
+          {longDate(result.certified.on)}).
+        </p>
       )
-    const basis =
-      result.status === 'certified' && result.certified
-        ? `certified ${day(`${result.certified.on}T12:00:00Z`)}`
-        : result.call
-          ? `AP call, ${day(result.call.at)}`
-          : undefined
-    return (
-      <p className="text-caption text-muted italic">
-        {andList(winners)} won{basis ? ` (${basis})` : ''}.
-      </p>
-    )
+    if (result.status === 'called')
+      return (
+        <p className="text-caption text-muted italic">
+          {names} won
+          {result.call
+            ? ` (AP call, ${longDateIn(result.call.at, region.timeZone)})`
+            : ''}
+          .
+        </p>
+      )
   }
   return (
     <ResultCaption
@@ -157,6 +160,8 @@ function RaceBlock({
   result: RaceResult
 }) {
   const { outcome } = personOutcome(result, profile.name)
+  // Retained counts as a win for the judge's own profile: it is their winning
+  // outcome, and the race card fills the Yes row for Retained too.
   const win =
     outcome === 'won' || outcome === 'elected' || outcome === 'retained'
   return (
