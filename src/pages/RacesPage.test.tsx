@@ -170,7 +170,8 @@ afterEach(() => vi.unstubAllGlobals())
 
 describe('race pages', () => {
   it('shows a race with everyone in it, in ballot order, without pick boxes', async () => {
-    renderAt(SENATE)
+    // Results loaded and empty: the page keeps its Election Day head.
+    renderAt(SENATE, resultsData({}, '2026-11-04T08:00:00Z'))
     const h1 = await screen.findByRole('heading', {
       level: 1,
       name: 'State Senator, 5th District',
@@ -471,6 +472,20 @@ describe('results on the race lists', () => {
     )
     expect(row('Lewis Nixon')).toHaveTextContent('Retained 71.4% yes')
     expect(row('Lewis Nixon').querySelector('[data-fill="win"]')).toBeTruthy()
+  })
+
+  it('puts the results in the head of a race page and an area list', async () => {
+    renderAt(SENATE, loaded(senate, nixon))
+    await screen.findByRole('heading', { level: 1 })
+    expect(document.title).toBe(
+      'State Senator, 5th District (Illinois): 2026 results | VoteStack',
+    )
+    cleanup()
+    renderAt(AREA, loaded(senate, nixon))
+    await screen.findByRole('heading', { level: 1 })
+    expect(document.title).toBe(
+      'Races in Cook County, Illinois, 2026: results | VoteStack',
+    )
   })
 
   it('colors the result text with tokens, not the race link’s color', async () => {

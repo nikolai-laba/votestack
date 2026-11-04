@@ -40,6 +40,7 @@ import {
   type Race,
   type RaceList,
 } from '../shared/races.ts'
+import { useGroupResults } from '../results/context.tsx'
 import { resultsOffices } from '../shared/results.ts'
 import { NotFoundPage } from './NotFoundPage.tsx'
 
@@ -155,7 +156,12 @@ function RaceArea({
   list: RaceList
   withProfiles: boolean
 }) {
-  useDocumentHead(raceAreaHead(list, withProfiles))
+  // Results in the head once any of the list's races has one.
+  const listResults = useGroupResults(
+    list.electionId,
+    list.races.map((r) => r.contestIds),
+  )
+  useDocumentHead(raceAreaHead(list, withProfiles, listResults.some(Boolean)))
   useFocusHeading(list.areaPath)
   const sections = RACE_LEVELS.map((level) => ({
     level,
@@ -274,7 +280,8 @@ function RacePage({
     electionId: list.electionId,
     id: race.contestIds[0],
   })
-  useDocumentHead(raceHead(race, published.size > 0))
+  const [raceResult] = useGroupResults(list.electionId, [race.contestIds])
+  useDocumentHead(raceHead(race, published.size > 0, raceResult))
   useFocusHeading(race.path)
   return (
     <article className="max-w-[65ch] space-y-6">

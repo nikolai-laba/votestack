@@ -4,13 +4,8 @@ import {
   type RaceResult,
   type ResultLabel,
 } from '../../shared/raceResults.ts'
+import { andList } from '../../format.ts'
 import { CheckIcon } from '../icons.tsx'
-
-/** "A, B and C" */
-const andList = (items: string[]) =>
-  items.length > 1
-    ? `${items.slice(0, -1).join(', ')} and ${items.at(-1)}`
-    : (items[0] ?? '')
 
 /** Labels for a decided race: these get a check icon as well as the word. */
 export const DECIDED = new Set<ResultLabel>([

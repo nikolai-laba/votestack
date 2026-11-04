@@ -1,5 +1,5 @@
 import { Link } from 'react-router'
-import { longDate, longDateIn } from '../../format.ts'
+import { andList, longDate, longDateIn } from '../../format.ts'
 import { useRaces, racesFor } from '../../races/data.ts'
 import {
   useGroupResults,
@@ -60,12 +60,6 @@ export function useProfileResults(profile: CandidateProfile): ProfileResults {
 /** "66.0%", or "under 0.1%" in a sentence. */
 const inSentence = (text: string) =>
   text.replace(/^(Under|Over)/, (w) => w.toLowerCase())
-
-/** "Alex Rivera", "Alex Rivera and Sam Moore" */
-const andList = (items: string[]) =>
-  items.length > 1
-    ? `${items.slice(0, -1).join(', ')} and ${items.at(-1)}`
-    : (items[0] ?? '')
 
 const needed = (threshold: number) =>
   threshold === 0.5 ? 'majority' : `${Math.round(threshold * 1000) / 10}%`

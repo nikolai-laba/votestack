@@ -8,6 +8,7 @@ import {
   type BallotOutletContext,
 } from '../ballot/profileLinks.ts'
 import { BackLink } from '../components/profile/BackLink.tsx'
+import { useProfileResults } from '../components/profile/ProfileResult.tsx'
 import { ProfileArticle } from '../components/profile/ProfileArticle.tsx'
 import { sampleNoticeId } from '../components/profile/ids.ts'
 import { ProfileSkeleton } from '../components/profile/ProfileSkeleton.tsx'
@@ -71,8 +72,15 @@ export default function ProfilePage() {
   const notFound =
     query.error instanceof ProfileLoadError && query.error.kind === 'not_found'
 
+  // The first race with a result sets the head; until results load it is
+  // today's.
+  const { entries: resultEntries } = useProfileResults(profile ?? EMPTY_PROFILE)
   useDocumentHead(
-    profile ? profileHead(profile) : notFound ? MISSING_PROFILE_HEAD : null,
+    profile
+      ? profileHead(profile, resultEntries[0]?.result)
+      : notFound
+        ? MISSING_PROFILE_HEAD
+        : null,
   )
 
   // A search arrival: no ballot in memory, and the profile isn't a sample.

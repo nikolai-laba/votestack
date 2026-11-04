@@ -84,3 +84,10 @@ export function percent(share: number): string {
 export function webUrl(url: string | undefined): string | undefined {
   return url && /^https?:\/\//i.test(url) ? url : undefined
 }
+
+/** "A, B and C" */
+export function andList(items: string[]): string {
+  return items.length > 1
+    ? `${items.slice(0, -1).join(', ')} and ${items.at(-1)}`
+    : (items[0] ?? '')
+}
