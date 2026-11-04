@@ -228,10 +228,20 @@ export function checkResults(
     }
   }
 
+  // Pair each previous race with the new results that share any contest ID. A
+  // race regrouped on purpose (merged or split) is warned about, not compared.
   for (const [key, before] of previous) {
-    if (!results.has(key)) {
+    if (results.has(key)) continue
+    const paired = file.results.filter((r) =>
+      r.contestIds.some((id) => before.contestIds.includes(id)),
+    )
+    if (paired.length === 0) {
       failures.push(
         `${before.contestIds[0]}: the race was in the previous file but is missing now`,
+      )
+    } else {
+      warnings.push(
+        `${before.contestIds[0]}: regrouped: was [${before.contestIds.join(', ')}], now ${paired.map((r) => `[${r.contestIds.join(', ')}]`).join(' and ')}`,
       )
     }
   }

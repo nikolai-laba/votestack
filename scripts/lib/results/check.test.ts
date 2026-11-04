@@ -538,4 +538,63 @@ describe('checkResults', () => {
       run(f, { match: m, apCounts: reads([apCount()], [apCount()]) }).failures,
     ).toEqual([])
   })
+
+  describe('regrouped races', () => {
+    const first = clerk({ contestIds: ['a:1'] })
+    const second = clerk({ contestIds: ['b:2'] })
+    const entry = (ids: string[]): MatchEntry => ({
+      ...clerkEntry,
+      contestIds: ids,
+    })
+
+    it('warns, not fails, when two previous races merge into one result', () => {
+      const merged = clerk({ contestIds: ['a:1', 'b:2'] })
+      const { failures, warnings } = run(file(merged, judge()), {
+        previous: file(first, second, judge()),
+        match: match(entry(['a:1', 'b:2']), judgeEntry),
+      })
+      expect(failures).toEqual([])
+      expect(warnings).toHaveLength(2)
+      expect(warnings[0]).toContain('regrouped: was [a:1], now [a:1, b:2]')
+      expect(warnings[1]).toContain('regrouped: was [b:2], now [a:1, b:2]')
+    })
+
+    it('skips the votes comparison for a regrouped pair', () => {
+      const merged = clerk({
+        contestIds: ['a:1', 'b:2'],
+        choices: [
+          { name: 'Kim Park', votes: 1 },
+          { name: 'Alex Rivera', votes: 1 },
+        ],
+      })
+      const { failures } = run(file(merged, judge()), {
+        previous: file(first, judge()),
+        match: match(entry(['a:1', 'b:2']), judgeEntry),
+      })
+      expect(failures).toEqual([])
+    })
+
+    it('still fails a previous race whose contest IDs vanish entirely', () => {
+      const { failures } = run(file(clerk(), judge()), {
+        previous: file(first, clerk(), judge()),
+      })
+      expect(failures).toHaveLength(1)
+      expect(failures[0]).toContain('a:1')
+      expect(failures[0]).toContain('missing now')
+    })
+
+    it('still fails an unchanged race with lower votes', () => {
+      const previous = file(
+        clerk({
+          choices: [
+            { name: 'Kim Park', votes: 61 },
+            { name: 'Alex Rivera', votes: 40 },
+          ],
+        }),
+        judge(),
+      )
+      const { failures } = run(file(clerk(), judge()), { previous })
+      expect(failures).toHaveLength(1)
+    })
+  })
 })
