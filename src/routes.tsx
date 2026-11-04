@@ -7,6 +7,7 @@ import {
 } from './ballot/profileLinks.ts'
 import { BallotSessionProvider } from './components/BallotSession.tsx'
 import { Layout } from './components/Layout.tsx'
+import { ResultsProvider } from './results/context.tsx'
 import { GetStartedPage } from './pages/GetStartedPage.tsx'
 import { HomePage } from './pages/HomePage.tsx'
 import { LazyAboutPage } from './pages/LazyAboutPage.tsx'
@@ -32,7 +33,11 @@ export const routes: RouteObject[] = [
     element: <BallotSessionProvider />,
     children: [
       {
-        element: <Layout />,
+        element: (
+          <ResultsProvider>
+            <Layout />
+          </ResultsProvider>
+        ),
         children: [
           {
             // New visitors land here (/ redirects when there's no ballot),
