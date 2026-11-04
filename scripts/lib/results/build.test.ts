@@ -531,6 +531,23 @@ describe('buildResults: counts', () => {
     expect(r.winners).toBeUndefined()
   })
 
+  it('builds a candidate race nobody filed for as no_count with no choices', () => {
+    const empty: MatchEntry = {
+      ...clerk,
+      official: [],
+      names: {},
+      ballotOrder: [],
+      noOfficialCount: 'No candidates filed.',
+    }
+    const r = resultFor(
+      buildResults(cookInputs({ match: cookMatch([empty]) })),
+      empty,
+    )
+    expect(r.status).toBe('no_count')
+    expect(r.choices).toEqual([])
+    expect(r.winners).toBeUndefined()
+  })
+
   it('shows no count for a race marked with no official count', () => {
     const none: MatchEntry = {
       ...clerk,
@@ -1171,6 +1188,28 @@ describe('parseMatchFile', () => {
       bad({ ...judge, official: [], noOfficialCount: 'Not counted.' }),
     ).not.toThrow()
     expect(bad({ ...senate, official: [] })).not.toThrow()
+  })
+
+  it('allows an empty ballotOrder only for a candidate race with noOfficialCount', () => {
+    const none = {
+      ...clerk,
+      contestIds: ['cook-clerk:999999'],
+      official: [],
+      names: {},
+      ballotOrder: [],
+      noOfficialCount: 'No candidates filed.',
+    }
+    expect(bad(none)).not.toThrow()
+    expect(bad({ ...none, noOfficialCount: undefined })).toThrow(/ballotOrder/)
+    expect(
+      bad({
+        ...judge,
+        official: [],
+        names: {},
+        ballotOrder: [],
+        noOfficialCount: 'x',
+      }),
+    ).toThrow(/ballotOrder/)
   })
 
   it("needs the Secretary of State's count for an LA race that crosses the county line", () => {

@@ -109,30 +109,28 @@ export function checkResults(
       continue
     }
 
-    if (
-      result.kind === 'candidate' &&
-      !(Number.isInteger(result.voteFor) && (result.voteFor as number) >= 1)
-    ) {
-      fail('the result has no voteFor of 1 or more')
+    // The match entry is the authority: the result must say the same.
+    for (const field of [
+      'kind',
+      'scope',
+      'voteFor',
+      'threshold',
+      'certifyBy',
+    ] as const) {
+      if (result[field] !== entry[field]) {
+        fail(
+          `the result's ${field} (${JSON.stringify(result[field])}) differs from the match entry's (${JSON.stringify(entry[field])})`,
+        )
+      }
     }
     if (
-      result.kind !== 'candidate' &&
-      !(
-        typeof result.threshold === 'number' &&
-        result.threshold > 0 &&
-        result.threshold <= 1
-      )
-    ) {
-      fail(`the ${result.kind} result has no threshold above 0 and at most 1`)
-    }
-    if (
-      result.kind !== 'candidate' &&
+      entry.kind !== 'candidate' &&
       result.status !== 'no_count' &&
       (result.choices.length !== 2 ||
         result.choices[0].name !== 'Yes' ||
         result.choices[1].name !== 'No')
     ) {
-      fail(`the ${result.kind} result's choices must be exactly Yes, then No`)
+      fail(`the ${entry.kind} result's choices must be exactly Yes, then No`)
     }
 
     for (const c of result.choices) {
@@ -148,9 +146,9 @@ export function checkResults(
     ) {
       fail(`the ${result.status} result has no winners`)
     }
-    const seats = result.voteFor ?? entry.voteFor
+    const seats = entry.voteFor
     if (
-      result.kind === 'candidate' &&
+      entry.kind === 'candidate' &&
       seats !== undefined &&
       winners.length > seats
     ) {
@@ -160,6 +158,12 @@ export function checkResults(
     }
     for (const w of winners) {
       if (WRITE_IN.test(w)) fail(`the write-in "${w}" is recorded as a winner`)
+      else if (
+        result.status === 'certified' &&
+        !result.choices.some((c) => c.name === w)
+      ) {
+        fail(`the certified winner "${w}" is not among the choices`)
+      }
     }
 
     if (result.status === 'certified' && !result.certified) {
@@ -168,7 +172,7 @@ export function checkResults(
 
     // A called winner must lead in the counts shown, and in AP's reads.
     if (
-      result.kind === 'candidate' &&
+      entry.kind === 'candidate' &&
       result.call &&
       seats !== undefined &&
       seats >= 1
@@ -192,7 +196,9 @@ export function checkResults(
     if (before) {
       for (const old of before.choices) {
         const now = result.choices.find((c) => c.name === old.name)
-        if (now && now.votes < old.votes) {
+        if (!now) {
+          fail(`"${old.name}" was in the previous file but is missing now`)
+        } else if (now.votes < old.votes) {
           fail(
             `"${old.name}" has ${now.votes} votes, fewer than the ${old.votes} in the previous file`,
           )
@@ -200,7 +206,11 @@ export function checkResults(
       }
       for (const old of before.sources) {
         const now = result.sources.find((s) => s.name === old.name)
-        if (now && time(now.asOf) < time(old.asOf)) {
+        if (!now) {
+          fail(
+            `the ${old.name} source was in the previous file but is missing now`,
+          )
+        } else if (time(now.asOf) < time(old.asOf)) {
           fail(
             `the ${old.name} source is as of ${now.asOf}, earlier than ${old.asOf} in the previous file`,
           )
@@ -213,6 +223,29 @@ export function checkResults(
       if (time(ctx.now) - newest > STALE_AFTER) {
         warnings.push(
           `${id}: still counting, but its newest source is from ${new Date(newest).toISOString()}, more than 3 days ago`,
+        )
+      }
+    }
+  }
+
+  for (const [key, before] of previous) {
+    if (!results.has(key)) {
+      failures.push(
+        `${before.contestIds[0]}: the race was in the previous file but is missing now`,
+      )
+    }
+  }
+
+  // Every Cook race beyond the county that takes AP's count needs it in both reads.
+  if (ctx.match.area === 'cook') {
+    for (const entry of ctx.match.contests) {
+      if (entry.scope !== 'beyond' || !entry.apUrl || entry.noOfficialCount) {
+        continue
+      }
+      const slot = apByRace.get(raceKey(entry.contestIds))
+      if (!slot?.a || !slot.b) {
+        failures.push(
+          `${entry.contestIds[0]}: AP's count is missing from reader ${!slot?.a ? 'a' : 'b'}${!slot?.a && !slot?.b ? ' and b' : ''}`,
         )
       }
     }

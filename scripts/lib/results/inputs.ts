@@ -221,7 +221,14 @@ function parseEntry(
     seen.add(key)
   })
 
-  const order = ids(fail, e.ballotOrder, `${path}.ballotOrder`)
+  // Only a candidate race with a stated reason for no count may have no
+  // choices at all ("No candidates filed.").
+  const nobody =
+    kind === 'candidate' &&
+    e.noOfficialCount !== undefined &&
+    Array.isArray(e.ballotOrder) &&
+    e.ballotOrder.length === 0
+  const order = nobody ? [] : ids(fail, e.ballotOrder, `${path}.ballotOrder`)
   if (
     kind !== 'candidate' &&
     (order.length !== 2 || order[0] !== 'Yes' || order[1] !== 'No')

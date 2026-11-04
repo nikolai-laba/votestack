@@ -41,6 +41,7 @@ export function readCook(html: string, retrievedAt: string): OfficialFile {
     if (!h5) continue
     const header = text(h5[1]).match(/^(.*?)\s+-\s+Vote For\s+(\d+)$/)
     if (!header) throw fail(`unexpected contest header: "${text(h5[1])}"`)
+    let sawRows = false
     const choices: { name: string; votes: number }[] = []
     const rows = table.match(/<tr[^>]*>[\s\S]*?<\/tr>/g) ?? []
     for (const row of rows) {
@@ -54,12 +55,18 @@ export function readCook(html: string, retrievedAt: string): OfficialFile {
       )
       const votesCell = cells[nameIdx + 1]
       if (!votesCell) throw fail(`no votes cell in "${header[1]}"`)
+      sawRows = true
+      const label = text(name[1])
+      if (label === 'No Candidate' && text(votesCell) === '') continue
       choices.push({
         name: text(name[1]).replace(/\s*\([^()]*\)$/, ''),
         votes: parseVotes('cook', text(votesCell)),
       })
     }
-    if (choices.length === 0) throw fail(`no candidates in "${header[1]}"`)
+    // A contest nobody filed for has one "No Candidate" row with empty cells.
+    if (choices.length === 0 && !sawRows) {
+      throw fail(`no candidates in "${header[1]}"`)
+    }
     contests.push({ title: header[1], choices, voteFor: Number(header[2]) })
   }
   if (contests.length === 0) throw fail('no contests found')

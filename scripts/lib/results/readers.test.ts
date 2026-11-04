@@ -98,6 +98,25 @@ describe('readCook', () => {
     ])
   })
 
+  it('reads a contest with only a "No Candidate" row as having no choices', () => {
+    const c = file.contests.find(
+      (x) => x.title === 'Trustee, La Grange Highlands Sanitary District, 2Yr',
+    )
+    expect(c).toEqual({
+      title: 'Trustee, La Grange Highlands Sanitary District, 2Yr',
+      choices: [],
+      voteFor: 1,
+    })
+  })
+
+  it('still throws on any other empty votes cell', () => {
+    const html = fixture('cook-results.html').replace(
+      />\s*No Candidate\s*</,
+      '>Someone Else<',
+    )
+    expect(() => readCook(html, RETRIEVED)).toThrow(/votes field/)
+  })
+
   it('throws when no contests are found', () => {
     expect(() => readCook('<html></html>', RETRIEVED)).toThrow(/^cook: /)
   })

@@ -24,19 +24,29 @@ import type { Area } from './lib/results/files.ts'
 import { parseApCounts, parseMatchFile } from './lib/results/inputs.ts'
 import type { ApCountsFile } from './lib/results/inputs.ts'
 
-/** The file as committed at HEAD, or undefined when it isn't there yet. */
+/** The file as committed at HEAD, or undefined when HEAD has no such file (the first run). Any other git failure throws. */
 function committed(path: string): ResultsFile | undefined {
-  let text: string
-  try {
-    text = execFileSync('git', ['show', `HEAD:${rel(path)}`], {
+  const name = rel(path)
+  const git = (...args: string[]) =>
+    execFileSync('git', args, {
       cwd: ROOT,
       encoding: 'utf8',
-      stdio: ['ignore', 'pipe', 'ignore'],
+      stdio: ['ignore', 'pipe', 'pipe'],
     })
-  } catch {
-    return undefined
+  let text: string
+  try {
+    // ls-tree prints nothing for a path that isn't in HEAD and fails on a real git error.
+    if (git('ls-tree', '--name-only', 'HEAD', '--', name).trim() === '') {
+      return undefined
+    }
+    text = git('show', `HEAD:${name}`)
+  } catch (err) {
+    const stderr = (err as { stderr?: string }).stderr?.trim()
+    throw new Error(
+      `git could not read ${name} at HEAD: ${stderr || (err as Error).message}`,
+    )
   }
-  return from(`HEAD:${rel(path)}`, () => parseResultsFile(JSON.parse(text)))
+  return from(`HEAD:${name}`, () => parseResultsFile(JSON.parse(text)))
 }
 
 /** Checks one area; returns its failure count, or null when it has no match file yet. */

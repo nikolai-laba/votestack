@@ -425,4 +425,117 @@ describe('checkResults', () => {
     )
     expect(run(recent).warnings).toEqual([])
   })
+
+  it('accepts a candidate race nobody filed for', () => {
+    const empty: MatchEntry = {
+      ...clerkEntry,
+      official: [],
+      names: {},
+      ballotOrder: [],
+      noOfficialCount: 'No candidates filed.',
+    }
+    const r = clerk({ status: 'no_count', choices: [], sources: [] })
+    expect(run(file(r, judge()), { match: match(empty, judgeEntry) })).toEqual({
+      failures: [],
+      warnings: [],
+    })
+  })
+
+  it.each([
+    ['voteFor', { voteFor: 2 }],
+    ['threshold', { threshold: 0.5 }],
+    ['kind', { kind: 'measure' as const }],
+    ['scope', { scope: 'beyond' as const }],
+    ['certifyBy', { certifyBy: '2026-12-31' }],
+  ])('fails a result whose %s differs from its match entry', (field, over) => {
+    const target = field === 'threshold' || field === 'kind' ? judge : clerk
+    const other = target === judge ? clerk : judge
+    const { failures } = run(file(target(over as Partial<RaceResult>), other()))
+    const mine = failures.filter((f) => f.includes(field))
+    expect(mine.length).toBeGreaterThan(0)
+    expect(mine[0]).toContain(target().contestIds[0])
+  })
+
+  it("uses the match entry's voteFor, not the result's, for the winner count", () => {
+    const { failures } = run(
+      file(
+        clerk({
+          voteFor: 2,
+          status: 'called',
+          winners: ['Kim Park', 'Alex Rivera'],
+        }),
+        judge(),
+      ),
+    )
+    expect(failures.join('\n')).toContain('2 winners for 1 seat')
+  })
+
+  it('fails a choice of the previous result missing from the new one', () => {
+    const previous = file(
+      clerk({
+        choices: [
+          { name: 'Kim Park', votes: 50 },
+          { name: 'Alex Rivera', votes: 30 },
+        ],
+      }),
+      judge(),
+    )
+    const now = clerk({ choices: [{ name: 'Kim Park', votes: 60 }] })
+    const { failures } = run(file(now, judge()), { previous })
+    expect(failures).toHaveLength(1)
+    expect(failures[0]).toContain('chicago-boe:clerk')
+    expect(failures[0]).toContain('Alex Rivera')
+  })
+
+  it('fails a race of the previous file missing from the new one', () => {
+    const previous = file(clerk(), judge())
+    const { failures } = run(file(clerk()), {
+      previous,
+      match: match(clerkEntry),
+    })
+    expect(failures).toHaveLength(1)
+    expect(failures[0]).toContain('cook-clerk:150100')
+    expect(failures[0]).toContain('previous')
+  })
+
+  it('fails a source of the previous result missing from the new one', () => {
+    const previous = file(clerk(), judge())
+    const { failures } = run(file(clerk({ sources: [] }), judge()), {
+      previous,
+    })
+    expect(failures).toHaveLength(1)
+    expect(failures[0]).toContain('chicago-boe:clerk')
+    expect(failures[0]).toContain('Cook County Clerk')
+  })
+
+  it('fails a certified winner who is not in the choices', () => {
+    const { failures } = run(
+      file(
+        clerk({
+          status: 'certified',
+          winners: ['Lee Chen'],
+          certified: { on: '2026-11-17', url: 'https://x/c' },
+        }),
+        judge(),
+      ),
+    )
+    expect(failures.join('\n')).toContain('chicago-boe:clerk')
+    expect(failures.join('\n')).toContain('Lee Chen')
+  })
+
+  it('fails a Cook race beyond the county with no count in both AP reads', () => {
+    const f = file(clerk(), judge(), senate())
+    const m = match(clerkEntry, judgeEntry, senateEntry)
+    for (const apCounts of [
+      [],
+      reads([], [apCount()]),
+      reads([apCount()], []),
+    ]) {
+      const { failures } = run(f, { match: m, apCounts })
+      expect(failures.join('\n')).toContain('il-senate')
+    }
+    expect(
+      run(f, { match: m, apCounts: reads([apCount()], [apCount()]) }).failures,
+    ).toEqual([])
+  })
 })
