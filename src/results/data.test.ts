@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { readdirSync, readFileSync, statSync } from 'node:fs'
 import { join } from 'node:path'
 import { parseResultsFile } from '../shared/raceResults.ts'
+import { regionForElection } from '../shared/regions.ts'
 import type { RaceList } from '../shared/races.ts'
 import { hasResults, hasResultsFile, loadResults, resultFor } from './data.ts'
 
@@ -16,9 +17,8 @@ const jsonFiles = (dir: string): string[] =>
   })
 const read = (path: string): unknown => JSON.parse(readFileSync(path, 'utf8'))
 
-const resultFiles = jsonFiles('content/results').map((p) =>
-  parseResultsFile(read(p)),
-)
+const resultPaths = jsonFiles('content/results')
+const resultFiles = resultPaths.map((p) => parseResultsFile(read(p)))
 const raceLists = jsonFiles('content/contests').map((p) => read(p) as RaceList)
 
 describe('committed results files', () => {
@@ -77,5 +77,24 @@ describe('hasResultsFile', () => {
 
   it('matches every committed file', () => {
     for (const f of resultFiles) expect(hasResultsFile(f.electionId)).toBe(true)
+  })
+})
+
+describe('results file names', () => {
+  it('are the election ID of the file, flat in content/results/', () => {
+    for (const path of resultPaths) {
+      const file = parseResultsFile(read(path))
+      expect(path, file.electionId).toBe(
+        join('content', 'results', `${file.electionId}.json`),
+      )
+    }
+  })
+
+  it('finds a 2026 file without asking which election is current', () => {
+    // il-2026-11-03-general is no region's current election (Cook's is a
+    // later one once it changes); the file is found by its name alone.
+    expect(hasResultsFile('il-2026-11-03-general')).toBe(true)
+    expect(regionForElection('il-2027-02-23-municipal')).toBeUndefined()
+    expect(hasResultsFile('il-2027-02-23-municipal')).toBe(false)
   })
 })

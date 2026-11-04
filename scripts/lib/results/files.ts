@@ -25,18 +25,12 @@ export const AREAS: Area[] = [
   {
     id: 'cook',
     election: COOK.election,
-    out: join(ROOT, 'content', 'results', `${COOK.election.date}.json`),
+    out: join(ROOT, 'content', 'results', `${COOK.election.id}.json`),
   },
   {
     id: 'ca-la',
     election: LOS_ANGELES.election,
-    out: join(
-      ROOT,
-      'content',
-      'results',
-      'ca-la',
-      `${LOS_ANGELES.election.date}.json`,
-    ),
+    out: join(ROOT, 'content', 'results', `${LOS_ANGELES.election.id}.json`),
   },
 ]
 

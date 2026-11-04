@@ -1,5 +1,5 @@
-// Writes the committed results files, content/results/2026-11-03.json (Cook)
-// and content/results/ca-la/2026-11-03.json (LA), from the newest official
+// Writes the committed results files, content/results/{election ID}.json (Cook
+// and LA, e.g. il-2026-11-03-general.json), from the newest official
 // downloads in data/raw/results/ (npm run results:fetch) and the kept inputs
 // in content/results-inputs/{area}/: match.json, ap-calls.json,
 // ap-counts-a.json and ap-counts-b.json (both or neither) and
