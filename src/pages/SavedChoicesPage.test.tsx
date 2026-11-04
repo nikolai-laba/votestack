@@ -8,6 +8,7 @@ import { afterEach, describe, expect, it, vi } from 'vitest'
 import { ORDER_KEY, orderStore } from '../ballot/orderPreference.ts'
 import { USAGE_KEY } from '../metrics/usage.ts'
 import { ballotStore, STORAGE_KEY } from '../picks/store.ts'
+import { RESULTS_QUERY_KEY, type ResultsData } from '../results/data.ts'
 import { routes } from '../routes.tsx'
 import type { Ballot, Contest } from '../shared/ballot.ts'
 
@@ -15,6 +16,8 @@ import type { Ballot, Contest } from '../shared/ballot.ts'
 const SIGNUP = 'Hear from VoteStack before your next election'
 import { CHICAGO } from '../shared/ocd.ts'
 import type { CandidateProfile } from '../shared/profile.ts'
+import type { RaceResult } from '../shared/raceResults.ts'
+import { resultsData } from '../test/results.tsx'
 
 // Switches the site to its after-election wording for the tests that say so.
 const mode = vi.hoisted(() => ({ on: false }))
@@ -171,10 +174,12 @@ function mockApi(answer: Ballot = ballot) {
   return fetch
 }
 
-function renderAt(path: string) {
+function renderAt(path: string, results?: ResultsData) {
   const router = createMemoryRouter(routes, { initialEntries: [path] })
+  const client = new QueryClient()
+  if (results) client.setQueryData(RESULTS_QUERY_KEY, results)
   render(
-    <QueryClientProvider client={new QueryClient()}>
+    <QueryClientProvider client={client}>
       <RouterProvider router={router} />
     </QueryClientProvider>,
   )
@@ -567,8 +572,11 @@ describe('Saved choices', () => {
       seed(
         { gov: ['jane-doe'] },
         {
-          ...ballot,
-          contests: contests.map((c) => ({ ...c, authorityId: CHICAGO })),
+          ...laterBallot,
+          contests: laterBallot.contests.map((c) => ({
+            ...c,
+            authorityId: CHICAGO,
+          })),
         },
       )
       renderAt('/saved-choices')
@@ -589,7 +597,7 @@ describe('Saved choices', () => {
 
     it('links the County Clerk’s results for a suburban ballot', async () => {
       mode.on = true
-      mockApi()
+      mockApi(laterBallot)
       renderAt('/')
       await lookUp()
       await userEvent.click(savedLink('Saved choices'))
@@ -989,5 +997,89 @@ describe('measures from more than one level', () => {
         .getByRole('button', { name: 'Clear my picks' })
         .compareDocumentPosition(signup) & Node.DOCUMENT_POSITION_FOLLOWING,
     ).toBeTruthy()
+  })
+})
+
+describe('results on Saved choices', () => {
+  const CHECKED_AT = '2026-11-06T01:30:00.000Z'
+  const base: Pick<
+    RaceResult,
+    'scope' | 'certifyBy' | 'sources' | 'changedAt'
+  > = {
+    scope: 'within',
+    certifyBy: '2026-11-24',
+    sources: [],
+    changedAt: CHECKED_AT,
+  }
+  const governor: RaceResult = {
+    ...base,
+    contestIds: ['gov'],
+    kind: 'candidate',
+    status: 'called',
+    voteFor: 1,
+    choices: [
+      { name: 'Jane Doe', votes: 400 },
+      { name: 'Richard Roe', votes: 600 },
+    ],
+    winners: ['Richard Roe'],
+  }
+  const transit: RaceResult = {
+    ...base,
+    contestIds: ['m'],
+    kind: 'measure',
+    status: 'called',
+    threshold: 0.5,
+    choices: [
+      { name: 'Yes', votes: 612 },
+      { name: 'No', votes: 388 },
+    ],
+    winners: ['Yes'],
+  }
+  const loaded = (...results: RaceResult[]) =>
+    resultsData({ 'il-2026-11-03-general': results }, CHECKED_AT)
+  /** The line under Saved choices' title (the hidden ballot has its own). */
+  const header = () =>
+    within(
+      screen
+        .getByRole('heading', { level: 1, name: 'Saved choices' })
+        .closest('header')!,
+    )
+  const race = (title: string) =>
+    screen.getByRole('heading', { level: 3, name: title })
+      .parentElement as HTMLElement
+
+  it('adds each race’s result under the pick and keeps the pick’s markers', () => {
+    seed({ gov: ['jane-doe'], m: ['no'] })
+    renderAt('/saved-choices', loaded(governor, transit))
+
+    expect(
+      header().getByText(
+        'Results as of Thursday, November 5, 2026, 7:30 p.m. CT. Counts are unofficial until certified.',
+      ),
+    ).toBeInTheDocument()
+    expect(race(GOV)).toHaveTextContent('Won Richard Roe, 60.0%')
+    // The voter's own pick keeps its lime marker, though it didn't win.
+    expect(within(race(GOV)).getByText('Jane Doe')).toHaveClass('bg-pick')
+    expect(race('Transit question')).toHaveTextContent('Passed 61.2% yes')
+    expect(within(race('Transit question')).getByText('No')).toHaveClass(
+      'bg-pick-no',
+    )
+    // No tally of picks against results, anywhere.
+    expect(document.body.textContent).not.toMatch(/of your picks/)
+  })
+
+  it('keeps the line’s space, with no text, while the results load', () => {
+    seed({ gov: ['jane-doe'] })
+    renderAt('/saved-choices')
+    expect(header().queryByText(/Results as of|Voting ended/)).toBeNull()
+    expect(
+      race(GOV).querySelector('[data-results-placeholder]'),
+    ).toHaveAttribute('aria-hidden', 'true')
+  })
+
+  it('adds no result line to a race with no result', () => {
+    seed({ gov: ['jane-doe'] })
+    renderAt('/saved-choices', loaded(transit))
+    expect(race(GOV)).not.toHaveTextContent(/Won|Leading|Not called yet/)
   })
 })

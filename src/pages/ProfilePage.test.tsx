@@ -160,6 +160,17 @@ const sample: CandidateProfile = {
 }
 
 /** Answers the Worker's API: the ballot, and Jane Doe's and John Roe's profiles. */
+/**
+ * A ballot in an election with no results file: the "Voting ended" line
+ * stays there (an election with results shows "Results as of…" instead).
+ */
+const NO_RESULTS = 'il-2027-02-23-municipal'
+const withoutResults = (b: Ballot): Ballot => ({
+  ...b,
+  election: { ...b.election, id: NO_RESULTS, date: '2027-02-23' },
+  contests: b.contests.map((c) => ({ ...c, electionId: NO_RESULTS })),
+})
+
 function mockApi() {
   const fetch = vi.fn(async (url: string) => {
     if (url === '/api/ballot') return Response.json(ballot)
@@ -671,9 +682,9 @@ describe('candidate profiles', () => {
       'fetch',
       vi.fn(async (url: string) =>
         url === '/api/ballot'
-          ? Response.json(ballot)
+          ? Response.json(withoutResults(ballot))
           : url === '/api/profile/jane-doe'
-            ? Response.json(suburban)
+            ? Response.json({ ...suburban, electionId: NO_RESULTS })
             : Response.json({ error: 'Not found' }, { status: 404 }),
       ),
     )

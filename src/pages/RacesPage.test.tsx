@@ -1,13 +1,16 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-import { render, screen, within } from '@testing-library/react'
+import { cleanup, render, screen, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { RouterProvider, createMemoryRouter } from 'react-router'
 import { afterEach, describe, expect, it, vi } from 'vitest'
 import { RACES_QUERY_KEY, type RaceData } from '../races/data.ts'
+import { RESULTS_QUERY_KEY, type ResultsData } from '../results/data.ts'
 import { routes } from '../routes.tsx'
 import type { Ballot } from '../shared/ballot.ts'
 import type { CandidateProfile } from '../shared/profile.ts'
 import type { RaceList } from '../shared/races.ts'
+import type { RaceResult } from '../shared/raceResults.ts'
+import { resultsData } from '../test/results.tsx'
 
 // Race pages end with the sign-up block only before an election, so these
 // tests keep the after-election mode off.
@@ -97,9 +100,14 @@ const data: RaceData = {
 
 const SENATE = '/races/il/2026-11-03/state-senator-5th-district'
 
-function renderAt(path: string) {
+function renderAt(
+  path: string,
+  results?: ResultsData,
+  raceData: RaceData = data,
+) {
   const client = new QueryClient()
-  client.setQueryData(RACES_QUERY_KEY, data)
+  client.setQueryData(RACES_QUERY_KEY, raceData)
+  if (results) client.setQueryData(RESULTS_QUERY_KEY, results)
   const router = createMemoryRouter(routes, { initialEntries: [path] })
   render(
     <QueryClientProvider client={client}>
@@ -405,5 +413,162 @@ describe('a profile opened without a ballot', () => {
         name: 'Hear from VoteStack before your next election',
       }),
     ).toBeNull()
+  })
+})
+
+describe('results on the race lists', () => {
+  const CHECKED_AT = '2026-11-06T01:30:00.000Z'
+  const base: Pick<
+    RaceResult,
+    'scope' | 'certifyBy' | 'sources' | 'changedAt'
+  > = {
+    scope: 'within',
+    certifyBy: '2026-11-24',
+    sources: [],
+    changedAt: CHECKED_AT,
+  }
+  const senate: RaceResult = {
+    ...base,
+    contestIds: ['cook-clerk:170502'],
+    kind: 'candidate',
+    status: 'called',
+    voteFor: 1,
+    choices: [
+      { name: 'Jane Doe', votes: 660 },
+      { name: 'Rick Roe', votes: 340 },
+    ],
+    winners: ['Jane Doe'],
+  }
+  const nixon: RaceResult = {
+    ...base,
+    contestIds: ['cook-clerk:r-nixon'],
+    kind: 'retention',
+    status: 'called',
+    threshold: 0.6,
+    choices: [
+      { name: 'Yes', votes: 714 },
+      { name: 'No', votes: 286 },
+    ],
+    winners: ['Yes'],
+  }
+  const loaded = (...results: RaceResult[]) =>
+    resultsData({ 'il-2026-11-03-general': results }, CHECKED_AT)
+  const AREA = '/races/il/cook-county/2026-11-03'
+  const row = (name: string) =>
+    screen.getByRole('link', { name: new RegExp(`^${name}`) })
+
+  it('puts the results time in place of "Voting ended" and a result under each race', async () => {
+    renderAt(AREA, loaded(senate, nixon))
+    await screen.findByRole('heading', { level: 1 })
+    expect(
+      screen.getByText(
+        'Results as of Thursday, November 5, 2026, 7:30 p.m. CT. Counts are unofficial until certified.',
+      ),
+    ).toBeInTheDocument()
+    expect(screen.queryByText(/Voting ended/)).toBeNull()
+    expect(row('State Senator, 5th District')).toHaveTextContent(
+      'Won Jane Doe, 66.0%',
+    )
+    expect(row('Lewis Nixon')).toHaveTextContent('Retained 71.4% yes')
+    expect(row('Lewis Nixon').querySelector('[data-fill="win"]')).toBeTruthy()
+  })
+
+  it('reads a vote-for-more-than-one race as a list of names with no shares', async () => {
+    const council: RaceList = {
+      ...list,
+      races: [
+        {
+          level: 'local',
+          path: 'il/cook-county/2026-11-03/board',
+          kind: 'candidate',
+          title: 'Board of Review',
+          office: 'Board of Review',
+          districtId: `${IL}/county:cook`,
+          contestIds: ['cook-clerk:board'],
+          ballots: ['suburban-cook'],
+          voteFor: 3,
+          candidates: ['A', 'B', 'C', 'D'].map((n, i) => ({
+            name: `Person ${n}`,
+            ballotOrder: i + 1,
+          })),
+        },
+      ],
+    }
+    const board: RaceResult = {
+      ...base,
+      contestIds: ['cook-clerk:board'],
+      kind: 'candidate',
+      status: 'counting',
+      voteFor: 3,
+      choices: [
+        { name: 'Person A', votes: 400 },
+        { name: 'Person B', votes: 300 },
+        { name: 'Person C', votes: 200 },
+        { name: 'Person D', votes: 100 },
+      ],
+    }
+    renderAt(AREA, loaded(board), { ...data, lists: [council] })
+    await screen.findByRole('heading', { level: 1 })
+    expect(row('Board of Review')).toHaveTextContent(
+      'Leading Person A, Person B and Person C',
+    )
+    expect(row('Board of Review')).not.toHaveTextContent('%')
+  })
+
+  it('says a race is not called yet without a tag', async () => {
+    renderAt(
+      AREA,
+      loaded({
+        ...senate,
+        status: 'counting',
+        winners: undefined,
+        choices: [
+          { name: 'Jane Doe', votes: 0 },
+          { name: 'Rick Roe', votes: 0 },
+        ],
+      }),
+    )
+    await screen.findByRole('heading', { level: 1 })
+    const line = row('State Senator, 5th District')
+    expect(line).toHaveTextContent('Not called yet')
+    expect(line.querySelector('[data-fill]')).toBeNull()
+  })
+
+  it('keeps today’s detail for a race the results leave out', async () => {
+    renderAt(AREA, loaded(senate))
+    await screen.findByRole('heading', { level: 1 })
+    expect(row('Lewis Nixon')).toHaveTextContent('Judge, Circuit Court')
+  })
+
+  it('keeps the line’s space, with no text, while the results load', async () => {
+    renderAt(AREA)
+    await screen.findByRole('heading', { level: 1 })
+    expect(screen.queryByText(/Results as of/)).toBeNull()
+    expect(screen.queryByText(/Voting ended/)).toBeNull()
+    expect(
+      document.querySelectorAll('[data-results-placeholder]').length,
+    ).toBeGreaterThanOrEqual(3)
+    expect(row('State Senator, 5th District')).not.toHaveTextContent(
+      /candidates|Jane Doe/,
+    )
+  })
+
+  it('leaves the race page’s card to say who counted, and keeps "Voting ended" for a race with no result', async () => {
+    mode.on = true
+    try {
+      renderAt(SENATE, loaded(senate))
+      await screen.findByRole('heading', { level: 1 })
+      expect(screen.queryByText(/Voting ended/)).toBeNull()
+      cleanup()
+
+      renderAt(
+        '/races/il/cook-county/2026-11-03/retention-lewis-nixon',
+        loaded(senate),
+      )
+      await screen.findByRole('heading', { level: 1 })
+      expect(screen.getByText(/^Voting ended on/)).toBeInTheDocument()
+    } finally {
+      mode.on = false
+    }
   })
 })

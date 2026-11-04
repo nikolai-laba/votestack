@@ -221,7 +221,7 @@ describe('prerender', () => {
     const endedLine = (html: string) =>
       html.match(/<p[^>]*>(Voting ended.*?)<\/p>/s)?.[1].replace(/<[^>]+>/g, '')
 
-    it('says voting ended on profiles, race pages and the area list', async () => {
+    it('says voting ended on profiles', async () => {
       mode.on = true
       const live = await renderPage(candidatePages(profile, true)[0])
       expect(live).toContain(ENDED)
@@ -230,17 +230,18 @@ describe('prerender', () => {
         `${ENDED} Chicago Board of Election Commissioners (Chicago) and the Cook County Clerk (suburban Cook County).`,
       )
 
+      // The area list and race pages are built from the committed races,
+      // whose election has results: they hold the results' space instead.
+    })
+
+    it('holds the results’ space, not "Voting ended", for an election with results', async () => {
+      mode.on = true
       const pages = racePages(raceData)
-      const area = await renderPage(pages[1])
-      expect(area).toContain(ENDED)
-      expect(endedLine(area)).toContain(
-        'Chicago Board of Election Commissioners (Chicago) and the Cook County Clerk (suburban Cook County)',
-      )
-      // Links to the offices' own results pages.
-      expect(area).toContain(
-        'href="https://chicagoelections.gov/elections/results"',
-      )
-      expect(await renderPage(pages[2])).toContain(ENDED)
+      for (const page of [pages[1], pages[2]]) {
+        const html = await renderPage(page)
+        expect(html).not.toContain('Voting ended')
+        expect(html).toContain('data-results-placeholder')
+      }
     })
 
     it('names only the office whose ballot lists the race', async () => {
@@ -255,14 +256,6 @@ describe('prerender', () => {
         candidatePages({ ...profile, contestIds: ['cook-clerk:1'] }, true)[0],
       )
       expect(endedLine(clerk)).toBe(`${ENDED} Cook County Clerk.`)
-
-      const [, , , laArea] = racePages({
-        ...raceData,
-        lists: [raceList, laList],
-      })
-      expect(endedLine(await renderPage(laArea))).toBe(
-        `${ENDED} Los Angeles County Registrar-Recorder/County Clerk.`,
-      )
     })
 
     it('says on Get started that voting has ended and the lookup still works', async () => {

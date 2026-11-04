@@ -281,7 +281,7 @@ const THREE_LINES = [
   ['votes', 'min-h-4.5'],
 ]
 const caption = (container: HTMLElement) =>
-  container.querySelector('p.italic')?.textContent
+  container.querySelector('p.italic.border-t')?.textContent
 
 describe('a called race', () => {
   it('fills the winner, keeps ballot order and shows no pick boxes', () => {
@@ -805,6 +805,30 @@ describe('picks', () => {
   })
 })
 
+describe('the ballot header', () => {
+  it('says when the results are from, in place of "Voting ended"', () => {
+    renderWithResults(
+      <BallotView ballot={ballotOf([treasurer])} />,
+      resultsData({ [IL_ELECTION]: [calledTreasurer] }),
+    )
+    expect(
+      screen.getByText(
+        'Results as of Thursday, November 5, 2026, 7:30 p.m. CT. Counts are unofficial until certified.',
+      ),
+    ).toBeInTheDocument()
+    expect(screen.queryByText(/Voting ended/)).toBeNull()
+  })
+
+  it('keeps the line’s space, with no text, while the results load', () => {
+    render(
+      <MemoryRouter>
+        <BallotView ballot={ballotOf([treasurer])} />
+      </MemoryRouter>,
+    )
+    expect(screen.queryByText(/Results as of|Voting ended/)).toBeNull()
+  })
+})
+
 describe('without a result', () => {
   it('renders an election without results exactly as before', () => {
     // A later election reusing a 2026 contest ID.
@@ -871,7 +895,7 @@ describe('without a result', () => {
     // The caption's space: four caption lines, as a called race's caption
     // takes at 375 px.
     const captionSpace = container.querySelector(
-      'div[data-results-placeholder]',
+      'div.border-t[data-results-placeholder]',
     )!
     expect(captionSpace).toHaveAttribute('aria-hidden', 'true')
     expect(

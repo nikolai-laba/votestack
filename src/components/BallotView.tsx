@@ -53,11 +53,12 @@ import {
   hasColumn,
   pickedSide,
   thresholdNoteOf,
+  resultRegion,
   useRaceResults,
 } from './results/useRaceResults.ts'
 import { YesNoResult } from './results/YesNoResult.tsx'
 import { YourPickTag } from './results/YourPickTag.tsx'
-import { VotingEndedLine } from './VotingEndedLine.tsx'
+import { ElectionEndedLine } from './results/ResultsAsOf.tsx'
 
 const plural = (n: number, one: string, many: string) =>
   `${n} ${n === 1 ? one : many}`
@@ -123,7 +124,11 @@ export function BallotView({
           <ElectionDetails ballot={ballot} />
           {/* Beside a profile the profile has its own; a sample has none. */}
           {(!titleElsewhere || sample) && (
-            <VotingEndedLine offices={resultsOffices(area ? [area] : [])} />
+            <ElectionEndedLine
+              electionId={ballot.election.id}
+              region={resultRegion(ballot.election.id)}
+              offices={resultsOffices(area ? [area] : [])}
+            />
           )}
         </header>
 

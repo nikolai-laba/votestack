@@ -109,6 +109,17 @@ afterEach(() => {
   mode.on = false
 })
 
+/**
+ * A ballot in an election with no results file: the "Voting ended" line
+ * stays there (an election with results shows "Results as of…" instead).
+ */
+const NO_RESULTS = 'il-2027-02-23-municipal'
+const withoutResults = (b: Ballot): Ballot => ({
+  ...b,
+  election: { ...b.election, id: NO_RESULTS, date: '2027-02-23' },
+  contests: b.contests.map((c) => ({ ...c, electionId: NO_RESULTS })),
+})
+
 describe('HomePage', () => {
   it('shows the address form and disclaimers', () => {
     renderAt('/')
@@ -618,7 +629,7 @@ describe('HomePage', () => {
 
     it('links the Chicago Board’s results on a Chicago ballot', async () => {
       mode.on = true
-      mockApi(200, chicagoBallot)
+      mockApi(200, withoutResults(chicagoBallot))
       renderAt('/')
       await lookUp('1 N State St', 'Chicago', '60602')
       const results = await screen.findByRole('article')
@@ -639,7 +650,7 @@ describe('HomePage', () => {
 
     it('links the County Clerk’s results on a suburban ballot', async () => {
       mode.on = true
-      mockApi(200, ballot)
+      mockApi(200, withoutResults(ballot))
       renderAt('/')
       await lookUp('834 Lake St')
       const results = await screen.findByRole('article')

@@ -21,7 +21,12 @@ import type { Contest } from '../shared/ballot.ts'
 import { COOK, regionForElection } from '../shared/regions.ts'
 import { areaOfBallot, resultsOffices } from '../shared/results.ts'
 import { SignupBlock } from '../components/signup/SignupBlock.tsx'
-import { VotingEndedLine } from '../components/VotingEndedLine.tsx'
+import { ResultLine } from '../components/results/ResultLine.tsx'
+import { ElectionEndedLine } from '../components/results/ResultsAsOf.tsx'
+import {
+  resultRegion,
+  useRaceResults,
+} from '../components/results/useRaceResults.ts'
 import { SAVED_CHOICES_HEAD, useDocumentHead } from '../head.ts'
 
 // Saved choices: the voter's picks in ballot order, to fill in a mail
@@ -89,7 +94,11 @@ export function SavedChoicesPage() {
         <p className="text-muted">
           {ballot.election.name}, {longDate(ballot.election.date)}
         </p>
-        <VotingEndedLine offices={resultsOffices(area ? [area] : [])} />
+        <ElectionEndedLine
+          electionId={ballot.election.id}
+          region={resultRegion(ballot.election.id)}
+          offices={resultsOffices(area ? [area] : [])}
+        />
         <p>You picked in {pickCountText(pickCounts(ballot, picks), words)}.</p>
       </header>
 
@@ -190,6 +199,7 @@ function PickedRace({
   headingLevel: 3 | 4
 }) {
   const Heading = headingLevel === 4 ? 'h4' : 'h3'
+  const results = useRaceResults(contest)
   let label: ReactNode
   let choice: ReactNode
 
@@ -254,6 +264,7 @@ function PickedRace({
       <div className="min-w-0 flex-[1_1_14rem] space-y-1">
         {label}
         {choice}
+        {results.shown && <ResultLine result={results.result} />}
       </div>
       <ShowOnBallot
         contestId={contest.id}
