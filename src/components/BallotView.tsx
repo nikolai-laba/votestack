@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, type ReactNode } from 'react'
 import { Link, useMatch } from 'react-router'
 import {
   contestsWithPerson,
@@ -20,8 +20,10 @@ import { longDate, webUrl } from '../format.ts'
 import { SampleModeContext, useSampleMode } from '../picks/sampleMode.ts'
 import { useBallotStore, type Picks } from '../picks/store.ts'
 import { choicesFor, swapText } from '../picks/summary.ts'
+import { useElectionHasResults } from '../results/context.tsx'
 import { AFTER_ELECTION } from '../shared/afterElection.ts'
 import { partyLine, profileKey } from '../shared/profile.ts'
+import type { ResultView } from '../shared/raceResults.ts'
 import { areaOfBallot, resultsOffices } from '../shared/results.ts'
 import {
   COOK,
@@ -38,6 +40,23 @@ import {
   YesNo,
 } from './picks/PickControls.tsx'
 import { BackLink } from './profile/BackLink.tsx'
+import {
+  ColumnHeader,
+  ResultsSubhead,
+  ThresholdNote,
+} from './results/ColumnHeader.tsx'
+import { ContestResultCaption } from './results/ResultCaption.tsx'
+import { ResultColumn } from './results/ResultColumn.tsx'
+import {
+  columnHeaderOf,
+  fillOf,
+  hasColumn,
+  pickedSide,
+  thresholdNoteOf,
+  useRaceResults,
+} from './results/useRaceResults.ts'
+import { YesNoResult } from './results/YesNoResult.tsx'
+import { YourPickTag } from './results/YourPickTag.tsx'
 import { VotingEndedLine } from './VotingEndedLine.tsx'
 
 const plural = (n: number, one: string, many: string) =>
@@ -86,6 +105,8 @@ export function BallotView({
   const { picks } = useBallotStore()
   // A sample ballot (HomePage) can't be picked on.
   const sample = useSampleMode()
+  // Nor can an election with results: picks show as read-only tags.
+  const hasResults = useElectionHasResults(ballot.election.id)
 
   return (
     <>
@@ -114,7 +135,7 @@ export function BallotView({
 
         <CoverageNotice coverage={ballot.coverage} />
 
-        {ballot.contests.length > 0 && !sample && (
+        {ballot.contests.length > 0 && !sample && !hasResults && (
           <div className="space-y-3">
             <p className="max-w-[65ch]">
               To make a list to take with you, check the box next to a name or
@@ -392,9 +413,14 @@ function RetentionCard({
   idPrefix?: string
   fromBallot?: boolean
 }) {
+  const results = useRaceResults(judge)
   return (
     <div className="overflow-hidden rounded-md border border-line bg-surface">
-      <ContestBand title="Judicial retention" />
+      <ContestBand
+        title="Judicial retention"
+        columnHeader={columnHeaderOf(results)}
+        note={thresholdNoteOf(results, 'retention')}
+      />
       <p className="max-w-[65ch] border-b border-line px-4 py-3 text-small">
         Vote yes or no on keeping this judge in office.
       </p>
@@ -404,6 +430,7 @@ function RetentionCard({
         picks={picks}
         idPrefix={idPrefix}
         fromBallot={fromBallot}
+        inCard
       />
     </div>
   )
@@ -477,6 +504,8 @@ function ContestBand({
   voteFor,
   anchorId,
   headingLevel = 3,
+  columnHeader,
+  note,
 }: {
   title: string
   voteFor?: number
@@ -484,8 +513,17 @@ function ContestBand({
   anchorId?: string
   /** 4 under a group's own heading (measures by level). */
   headingLevel?: HeadingLevel
+  /** With results: the results column's header (null while they load). */
+  columnHeader?: ResultView['header'] | null
+  /** With results: the threshold for judges and measures (null while they load). */
+  note?: string | null
 }) {
   const Heading = headingLevel === 4 ? 'h4' : 'h3'
+  const voteLine = voteFor !== undefined && (
+    <p className="text-small">
+      {voteFor === 1 ? 'Vote for 1' : `Vote for up to ${voteFor}`}
+    </p>
+  )
   return (
     <div className="border-b-2 border-text bg-band px-4 py-3">
       <Heading
@@ -496,10 +534,18 @@ function ContestBand({
       >
         {title}
       </Heading>
-      {voteFor !== undefined && (
-        <p className="text-small">
-          {voteFor === 1 ? 'Vote for 1' : `Vote for up to ${voteFor}`}
-        </p>
+      {columnHeader === undefined && note === undefined ? (
+        voteLine
+      ) : (
+        // The title keeps the band's full width; the results column's header
+        // sits at the end of the line under it, above the column.
+        <div className="flex items-end gap-3">
+          <div className="min-w-0 flex-1">
+            {voteLine}
+            {note !== undefined && <ThresholdNote text={note} />}
+          </div>
+          {columnHeader !== undefined && <ColumnHeader text={columnHeader} />}
+        </div>
       )}
     </div>
   )
@@ -528,6 +574,10 @@ function CandidateRace({
   const sample = useSampleMode()
   // A pick in a full race replaces the earliest one; screen readers hear it.
   const [swapped, setSwapped] = useState<string>()
+  // With results, rows keep ballot order and gain a results column; picks
+  // become read-only tags. A race with no candidates shows no results.
+  const results = useRaceResults(contest)
+  const withResults = results.shown && candidates.length > 0
   return (
     <div className="overflow-hidden rounded-md border border-line bg-surface">
       <ContestBand
@@ -535,50 +585,73 @@ function CandidateRace({
         voteFor={contest.voteFor}
         anchorId={idPrefix ? undefined : raceAnchorId(contest.id)}
         headingLevel={headingLevel}
+        columnHeader={withResults ? columnHeaderOf(results) : undefined}
       />
       {candidates.length > 0 && <SwapAnnouncement text={swapped} />}
       {candidates.length > 0 ? (
         <ul className="divide-y divide-line">
           {/* Every candidate gets the same row and the same pick box: never
-              feature, colour or reorder one. */}
-          {candidates.map((candidate) => (
-            <li key={candidate.name} className="flex">
-              {!sample && (
-                <PickBox
-                  contest={contest}
-                  name={candidate.name}
-                  picked={chosen.includes(profileKey(candidate.name))}
-                  onResult={(result) =>
-                    setSwapped(
-                      result.kind === 'picked' && result.replaced
-                        ? swapText(
-                            contest,
-                            profileKey(candidate.name),
-                            result.replaced,
-                          )
-                        : undefined,
-                    )
-                  }
-                />
-              )}
-              <div className="min-w-0 flex-1">
-                <CandidateRow
-                  name={candidate.name}
-                  detail={partyLine(candidate.party, candidate.incumbent)}
-                  designation={candidate.designation}
-                  rowId={`row-${contest.id}-${profileKey(candidate.name)}`}
-                  idPrefix={idPrefix}
-                  published={published}
-                  fromBallot={fromBallot}
-                />
-              </div>
-            </li>
-          ))}
+              feature, colour or reorder one. Results fill every winner the
+              same way and tint every leader the same way. */}
+          {candidates.map((candidate) => {
+            const choice = results.view?.choices.find(
+              (c) => c.name === candidate.name,
+            )
+            const picked = chosen.includes(profileKey(candidate.name))
+            return (
+              <li
+                key={candidate.name}
+                data-fill={fillOf(choice)}
+                className="flex"
+              >
+                {!sample && !results.shown && (
+                  <PickBox
+                    contest={contest}
+                    name={candidate.name}
+                    picked={picked}
+                    onResult={(result) =>
+                      setSwapped(
+                        result.kind === 'picked' && result.replaced
+                          ? swapText(
+                              contest,
+                              profileKey(candidate.name),
+                              result.replaced,
+                            )
+                          : undefined,
+                      )
+                    }
+                  />
+                )}
+                <div className="min-w-0 flex-1">
+                  <CandidateRow
+                    name={candidate.name}
+                    detail={partyLine(candidate.party, candidate.incumbent)}
+                    designation={candidate.designation}
+                    rowId={`row-${contest.id}-${profileKey(candidate.name)}`}
+                    idPrefix={idPrefix}
+                    published={published}
+                    fromBallot={fromBallot}
+                    after={
+                      !sample && results.shown && picked ? (
+                        <YourPickTag />
+                      ) : undefined
+                    }
+                  />
+                </div>
+                {hasColumn(results) && (
+                  <ResultColumn choice={choice} pending={results.pending} />
+                )}
+              </li>
+            )
+          })}
         </ul>
       ) : (
         <p className="px-4 py-3 text-muted">
           No candidates filed for this race.
         </p>
+      )}
+      {withResults && (
+        <ContestResultCaption contest={contest} result={results.result} />
       )}
     </div>
   )
@@ -614,12 +687,16 @@ function Measure({
   headingLevel?: HeadingLevel
 }) {
   const sample = useSampleMode()
+  const results = useRaceResults(contest)
+  const choice = choicesFor(picks, contest)[0]
   return (
     <div className="overflow-hidden rounded-md border border-line bg-surface">
       <ContestBand
         title={contest.title}
         anchorId={raceAnchorId(contest.id)}
         headingLevel={headingLevel}
+        columnHeader={columnHeaderOf(results)}
+        note={thresholdNoteOf(results, 'measure')}
       />
       <div className="max-w-[65ch] space-y-1 px-4 py-3">
         <p className="text-small font-semibold text-muted">
@@ -640,14 +717,20 @@ function Measure({
           </p>
         )}
       </div>
-      {!sample && (
-        <div className="px-4 pb-3">
-          <YesNo
-            contest={contest}
-            subject={contest.title}
-            choice={choicesFor(picks, contest)[0]}
+      {results.shown ? (
+        <>
+          <YesNoResult
+            result={results.result}
+            picked={sample ? undefined : pickedSide(choice)}
           />
-        </div>
+          <ContestResultCaption contest={contest} result={results.result} />
+        </>
+      ) : (
+        !sample && (
+          <div className="px-4 pb-3">
+            <YesNo contest={contest} subject={contest.title} choice={choice} />
+          </div>
+        )
       )}
     </div>
   )
@@ -716,14 +799,47 @@ function RetentionRow({
   picks,
   idPrefix = '',
   fromBallot = true,
+  inCard = false,
 }: {
   judge: RetentionContest
   published: Set<string>
   picks: Picks
   idPrefix?: string
   fromBallot?: boolean
+  /** In a card of its own, whose band holds the threshold and column header. */
+  inCard?: boolean
 }) {
   const sample = useSampleMode()
+  const results = useRaceResults(judge)
+  if (results.shown)
+    return (
+      <div
+        // Focused by "Show on ballot"; the race panel's copy isn't a target.
+        id={idPrefix ? undefined : raceAnchorId(judge.id)}
+        tabIndex={idPrefix ? undefined : -1}
+        className="scroll-mt-4 focus-visible:-outline-offset-4"
+      >
+        <CandidateRow
+          name={judge.judge}
+          detail={judge.office}
+          rowId={`row-${judge.id}`}
+          idPrefix={idPrefix}
+          published={published}
+          fromBallot={fromBallot}
+        />
+        {!inCard && (
+          <ResultsSubhead
+            note={thresholdNoteOf(results, 'retention')}
+            header={columnHeaderOf(results)}
+          />
+        )}
+        <YesNoResult
+          result={results.result}
+          picked={sample ? undefined : pickedSide(choicesFor(picks, judge)[0])}
+        />
+        <ContestResultCaption contest={judge} result={results.result} />
+      </div>
+    )
   return (
     <div
       // Focused by "Show on ballot"; the race panel's copy isn't a target.
@@ -768,6 +884,7 @@ function CandidateRow({
   idPrefix = '',
   published,
   fromBallot = true,
+  after,
 }: {
   name: string
   /** Party (and "incumbent", see partyLine) for candidates, office for judges. */
@@ -781,6 +898,8 @@ function CandidateRow({
   published: Set<string>
   /** False on a race page: its profile links don't lead back to a ballot row. */
   fromBallot?: boolean
+  /** After the name: the voter's own pick, once the election has results. */
+  after?: ReactNode
 }) {
   const key = profileKey(name)
   const open = useMatch('/candidates/:key')
@@ -790,7 +909,14 @@ function CandidateRow({
   // Profile") in screen readers that join block text without a pause.
   const text = (
     <span className="min-w-0">
-      <span className="block text-label font-semibold">{name}</span>
+      {after ? (
+        <span className="block text-label font-semibold">
+          <span>{name}</span>
+          {after}
+        </span>
+      ) : (
+        <span className="block text-label font-semibold">{name}</span>
+      )}
       {detail && (
         <span className="block text-small text-muted">
           <span className="sr-only">, </span>

@@ -117,6 +117,18 @@ const ballot: Ballot = {
   publishedProfiles: ['jane-doe', 'john-roe'],
 }
 
+/**
+ * The same ballot in an election with no results file. Once an election has
+ * results its ballot shows them in place of pick boxes (and leaves out the
+ * picking notes), so tests of picking itself use this one.
+ */
+const LATER = 'il-2027-02-23-municipal'
+const laterBallot: Ballot = {
+  ...ballot,
+  election: { ...ballot.election, id: LATER, date: '2027-02-23' },
+  contests: contests.map((c) => ({ ...c, electionId: LATER })),
+}
+
 const profile = {
   key: 'jane-doe',
   electionId: 'il-2026-11-03-general',
@@ -624,8 +636,8 @@ describe('the old My ballot address', () => {
 
 describe('the saved ballot', () => {
   it('opens on a return visit without the address', async () => {
-    const fetch = mockApi()
-    seed({ gov: ['jane-doe'] })
+    const fetch = mockApi(laterBallot)
+    seed({ gov: ['jane-doe'] }, laterBallot)
     renderAt('/')
 
     expect(screen.queryByLabelText(/street address/i)).toBeNull()
@@ -678,10 +690,13 @@ describe('the saved ballot', () => {
       voteFor: 1,
       candidates: [{ name: 'Old Pick' }],
     }
-    mockApi()
+    mockApi(laterBallot)
     seed(
       { gov: ['jane-doe'], 'ward-42': ['old-pick'] },
-      { ...ballot, contests: [...contests, old] },
+      {
+        ...laterBallot,
+        contests: [...laterBallot.contests, { ...old, electionId: LATER }],
+      },
     )
     renderAt('/')
     await userEvent.click(
@@ -699,7 +714,7 @@ describe('the saved ballot', () => {
       screen.getByRole('button', { name: 'Remove that pick' }),
     )
     expect(ballotStore.getSnapshot().picks).toEqual({
-      'il-2026-11-03-general': { gov: ['jane-doe'] },
+      [LATER]: { gov: ['jane-doe'] },
     })
     expect(screen.queryByText(/isn’t on this ballot/)).toBeNull()
     // One ballot only: the new one.
@@ -718,7 +733,7 @@ describe('the saved ballot', () => {
     })
     try {
       ballotStore.reload()
-      mockApi()
+      mockApi(laterBallot)
       renderAt('/')
       await lookUp()
       expect(

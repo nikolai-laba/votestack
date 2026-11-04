@@ -242,10 +242,13 @@
   --muted: var(--on-result-win);
   --link: var(--on-result-win);
   --focus: var(--on-result-win);
+  /* A profile link's hover background (bg-bg) stays the fill, so its text stays readable. */
+  --bg: var(--result-win);
   color: var(--text);
 }
 [data-fill='lead'] {
   background: var(--result-lead);
+  --bg: var(--result-lead);
 }
 @media (forced-colors: active) {
   [data-fill='win'] {
