@@ -1,0 +1,85 @@
+{
+  "Election": {
+    "ID": 4348,
+    "Date": "2026-11-03T00:00:00-08:00",
+    "Title": "General Election",
+    "ContestGroups": [
+      {
+        "Name": "Appellate Court Justices",
+        "Contests": [
+          {
+            "Title": "For Associate Justice, Court of Appeal, Second District, Division Eight - JOHN WILEY",
+            "Type": "Judicial",
+            "AdditionalText": "Los Angeles County Results Only",
+            "MeasureText": "",
+            "MeasurePassRate": "",
+            "VoteFor": "",
+            "Candidates": [
+              {
+                "Name": "YES",
+                "Party": "Non Partisan",
+                "Votes": 1070142
+              },
+              {
+                "Name": "NO",
+                "Party": "Non Partisan",
+                "Votes": 475603
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Attorney General",
+        "Contests": [
+          {
+            "Title": "ATTORNEY GENERAL",
+            "Type": "Candidate",
+            "AdditionalText": "Los Angeles County Results Only",
+            "MeasureText": "",
+            "MeasurePassRate": "",
+            "VoteFor": "",
+            "Candidates": [
+              {
+                "Name": "MICHAEL E. GATES",
+                "Party": "Republican",
+                "Votes": 596517
+              },
+              {
+                "Name": "ROB BONTA",
+                "Party": "Democratic",
+                "Votes": 1468685
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Cities",
+        "Contests": [
+          {
+            "Title": "CITY OF ALHAMBRA SPECIAL MUNICIPAL ELECTION - MEASURE DB",
+            "Type": "Measure",
+            "AdditionalText": "",
+            "MeasureText": "Data Centers Prohibited. Shall an ordinance be adopted affirming the Council adopted ban on \"Data Centers\" by amending the Alhambra Municipal Code to again define \"Data Centers\" and prohibit them in all zones of the City? Supporters: Jeffrey K. Maloney; Adele Andrade-Stadler; Ross Maza; Noya Wong; Katherine Lee Opponents: None submitted.",
+            "MeasurePassRate": "Majority of votes cast",
+            "VoteFor": "",
+            "Candidates": [
+              {
+                "Name": "YES",
+                "Party": "Non Partisan",
+                "Votes": 12496
+              },
+              {
+                "Name": "NO",
+                "Party": "Non Partisan",
+                "Votes": 2772
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Timestamp": "2026-11-04T03:11:55.89"
+}
