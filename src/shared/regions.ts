@@ -32,6 +32,10 @@ export interface Region {
   /** Two-letter state code, upper case. */
   state: string
   stateName: string
+  /** IANA time zone the region's election offices keep, e.g. `America/Chicago`. */
+  timeZone: string
+  /** Short zone name shown next to times: `CT` or `PT`. */
+  zoneLabel: 'CT' | 'PT'
   /**
    * Words that already place an office inside the region ("Chicago Board
    * of Education Member"), so a page title doesn't add the region's name.
@@ -66,6 +70,8 @@ export interface Region {
 
 export const COOK: Region = {
   id: 'il-cook',
+  timeZone: 'America/Chicago',
+  zoneLabel: 'CT',
   name: 'Cook County',
   fullName: 'Cook County, Illinois',
   state: 'IL',
@@ -101,6 +107,8 @@ export const LA_REGISTRAR: cook.Authority = {
 
 export const LOS_ANGELES: Region = {
   id: 'ca-la',
+  timeZone: 'America/Los_Angeles',
+  zoneLabel: 'PT',
   name: 'Los Angeles County',
   fullName: 'Los Angeles County, California',
   state: 'CA',

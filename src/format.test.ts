@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it } from 'vitest'
-import { longDate, webUrl } from './format.ts'
+import { longDate, longDateTime, webUrl } from './format.ts'
 
 const zone = process.env.TZ
 
@@ -32,5 +32,19 @@ describe('webUrl', () => {
     expect(webUrl('data:text/html,hi')).toBeUndefined()
     expect(webUrl(' https://x')).toBeUndefined()
     expect(webUrl(undefined)).toBeUndefined()
+  })
+})
+
+describe('longDateTime', () => {
+  it('shows minutes in the zone given', () => {
+    expect(longDateTime('2026-11-04T08:12:00Z', 'America/Chicago', 'CT')).toBe(
+      'Wednesday, November 4, 2026, 2:12 a.m. CT',
+    )
+  })
+
+  it('drops :00 on the hour', () => {
+    expect(
+      longDateTime('2026-11-06T00:00:00Z', 'America/Los_Angeles', 'PT'),
+    ).toBe('Thursday, November 5, 2026, 4 p.m. PT')
   })
 })

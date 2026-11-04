@@ -28,6 +28,30 @@ export function longDate(iso: string): string {
   })
 }
 
+/**
+ * "Wednesday, November 4, 2026, 2:12 a.m. CT": a moment in the given time
+ * zone, with the zone's short name. A whole hour drops its ":00".
+ */
+export function longDateTime(
+  iso: string,
+  timeZone: string,
+  zoneLabel: string,
+): string {
+  const parts = new Intl.DateTimeFormat('en-US', {
+    ...LONG_DATE,
+    hour: 'numeric',
+    minute: '2-digit',
+    hour12: true,
+    timeZone,
+  }).formatToParts(new Date(iso))
+  const get = (type: string) => parts.find((p) => p.type === type)?.value ?? ''
+  const minute = get('minute') === '00' ? '' : `:${get('minute')}`
+  const period = get('dayPeriod').toLowerCase().startsWith('a')
+    ? 'a.m.'
+    : 'p.m.'
+  return `${get('weekday')}, ${get('month')} ${get('day')}, ${get('year')}, ${get('hour')}${minute} ${period} ${zoneLabel}`
+}
+
 const USD = new Intl.NumberFormat('en-US', {
   style: 'currency',
   currency: 'USD',
