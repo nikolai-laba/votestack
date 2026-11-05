@@ -277,6 +277,41 @@ describe('the profile result block', () => {
     )
   })
 
+  it('shows a judge by the Yes share and the share needed while counting', () => {
+    const judge = profileOf('Pat Quinn', {
+      kind: 'retention',
+      contestIds: ['j1'],
+    })
+    const jr = race({
+      kind: 'retention',
+      contestIds: ['j1'],
+      judge: 'Pat Quinn',
+      candidates: undefined,
+    })
+    const counting = (yes: number, threshold = 0.6): RaceResult => ({
+      ...retention,
+      status: 'counting',
+      threshold,
+      winners: undefined,
+      choices: [
+        { name: 'Yes', votes: yes },
+        { name: 'No', votes: 1000 - yes },
+      ],
+    })
+    const seen = (result: RaceResult) => {
+      const { unmount } = show(judge, result, [jr])
+      const text = block().querySelector('p')!.textContent
+      unmount()
+      return text
+    }
+    expect(seen(counting(762))).toBe('Leading, with 76.2% yes (60% needed)')
+    expect(seen(counting(550))).toBe('55.0% yes so far (60% needed)')
+    expect(seen(counting(520, 0.5))).toBe(
+      'Leading, with 52.0% yes (majority needed)',
+    )
+    expect(seen(counting(480, 0.5))).toBe('48.0% yes so far (majority needed)')
+  })
+
   it('says a California justice needed a majority', () => {
     show(
       profileOf('Pat Quinn', { kind: 'retention', contestIds: ['j1'] }),

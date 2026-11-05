@@ -62,14 +62,24 @@ export function useProfileResults(profile: CandidateProfile): ProfileResults {
 const inSentence = (text: string) =>
   text.replace(/^(Under|Over)/, (w) => w.toLowerCase())
 
-const needed = (threshold: number) =>
-  threshold === 0.5 ? 'majority' : `${Math.round(threshold * 1000) / 10}%`
+/** "(60% needed)", "(majority needed)": judges need 60% in Illinois, a majority in California. */
+const needed = (threshold: number | undefined) =>
+  threshold === undefined
+    ? ''
+    : ` (${threshold === 0.5 ? 'majority' : `${Math.round(threshold * 1000) / 10}%`} needed)`
 
 /** The block's first line, by the person's outcome. */
 function headline(result: RaceResult, name: string): string {
   const { outcome, share } = personOutcome(result, name)
   const pct =
     share === undefined ? '' : inSentence(shareText(share, result.threshold))
+  // A judge's count is the Yes share against the share needed.
+  if (result.kind !== 'candidate') {
+    if (outcome === 'leading')
+      return `Leading, with ${pct} yes${needed(result.threshold)}`
+    if (outcome === 'trailing')
+      return `${pct} yes so far${needed(result.threshold)}`
+  }
   switch (outcome) {
     case 'won':
       return `Won, with ${pct} of the vote`
@@ -86,11 +96,7 @@ function headline(result: RaceResult, name: string): string {
     case 'retained':
       return `Retained, with ${pct} yes`
     case 'not_retained':
-      return `Not retained, with ${pct} yes${
-        result.threshold === undefined
-          ? ''
-          : ` (${needed(result.threshold)} needed)`
-      }`
+      return `Not retained, with ${pct} yes${needed(result.threshold)}`
     case 'uncalled':
       return result.status === 'too_close'
         ? 'Too close to call'
