@@ -1,7 +1,7 @@
 {
   "version": 1,
   "reader": "a",
-  "checkedAt": "2026-11-05T00:47:12.150Z",
+  "checkedAt": "2026-11-04T20:10:44-06:00",
   "counts": [
     {
       "contestIds": ["chicago-boe:attorney-general", "cook-clerk:130040"],
@@ -10,12 +10,12 @@
       "counted": 0.91,
       "choices": [
         {
-          "name": "Robert W. Fioretti",
-          "votes": 1515342
-        },
-        {
           "name": "Kwame Raoul",
           "votes": 2394132
+        },
+        {
+          "name": "Robert W. Fioretti",
+          "votes": 1515342
         }
       ]
     },
@@ -29,12 +29,12 @@
       "counted": 0.91,
       "choices": [
         {
-          "name": "Darren Bailey & Aaron B. Del Mar",
-          "votes": 1453571
-        },
-        {
           "name": "JB Pritzker & Christian Mitchell",
           "votes": 2347428
+        },
+        {
+          "name": "Darren Bailey & Aaron B. Del Mar",
+          "votes": 1453571
         },
         {
           "name": "Collin Corbett & Carolyn Schofield",
@@ -49,12 +49,32 @@
       "counted": 0.91,
       "choices": [
         {
-          "name": "Diane M. Harris",
-          "votes": 1390238
-        },
-        {
           "name": "Alexi Giannoulias",
           "votes": 2517070
+        },
+        {
+          "name": "Diane M. Harris",
+          "votes": 1390238
+        }
+      ]
+    },
+    {
+      "contestIds": ["chicago-boe:united-states-senator", "cook-clerk:120100"],
+      "url": "https://apnews.com/projects/elections-2026/illinois-us-senate-results/",
+      "asOf": "2026-11-04T18:21:00-06:00",
+      "counted": 0.93,
+      "choices": [
+        {
+          "name": "Juliana Stratton",
+          "votes": 2431012
+        },
+        {
+          "name": "Don Tracy",
+          "votes": 1501458
+        },
+        {
+          "name": "Whitfield Harrington Jr",
+          "votes": 62967
         }
       ]
     },
@@ -68,12 +88,12 @@
       "counted": 0.82,
       "choices": [
         {
-          "name": "Christian Maxwell",
-          "votes": 64739
-        },
-        {
           "name": "Jonathan L. Jackson",
           "votes": 153398
+        },
+        {
+          "name": "Christian Maxwell",
+          "votes": 64739
         }
       ]
     },
@@ -87,12 +107,12 @@
       "counted": 0.85,
       "choices": [
         {
-          "name": "Michael Scott Noack",
-          "votes": 56756
-        },
-        {
           "name": "Donna Miller",
           "votes": 151587
+        },
+        {
+          "name": "Michael Scott Noack",
+          "votes": 56756
         }
       ]
     },
@@ -106,12 +126,12 @@
       "counted": 0.81,
       "choices": [
         {
-          "name": "Angel Oakley",
-          "votes": 43679
-        },
-        {
           "name": "Delia Ramirez",
           "votes": 137104
+        },
+        {
+          "name": "Angel Oakley",
+          "votes": 43679
         }
       ]
     },
@@ -125,20 +145,20 @@
       "counted": 0.82,
       "choices": [
         {
-          "name": "Lupe Castillo",
-          "votes": 24681
-        },
-        {
           "name": "Patty Garcia",
           "votes": 107643
         },
         {
-          "name": "Ed Hershey",
-          "votes": 5327
+          "name": "Lupe Castillo",
+          "votes": 24681
         },
         {
           "name": "Chris Getty",
           "votes": 14129
+        },
+        {
+          "name": "Ed Hershey",
+          "votes": 5327
         }
       ]
     },
@@ -152,12 +172,12 @@
       "counted": 0.92,
       "choices": [
         {
-          "name": "Tommy Hanson",
-          "votes": 59162
-        },
-        {
           "name": "Mike Quigley",
           "votes": 182716
+        },
+        {
+          "name": "Tommy Hanson",
+          "votes": 59162
         }
       ]
     },
@@ -171,12 +191,12 @@
       "counted": 0.92,
       "choices": [
         {
-          "name": "Niki Conforti",
-          "votes": 94840
-        },
-        {
           "name": "Sean Casten",
           "votes": 158082
+        },
+        {
+          "name": "Niki Conforti",
+          "votes": 94840
         }
       ]
     },
@@ -190,12 +210,12 @@
       "counted": 0.76,
       "choices": [
         {
-          "name": "Jennifer Davis",
-          "votes": 63262
-        },
-        {
           "name": "Melissa L. Bean",
           "votes": 116575
+        },
+        {
+          "name": "Jennifer Davis",
+          "votes": 63262
         }
       ]
     },
@@ -209,32 +229,12 @@
       "counted": 0.94,
       "choices": [
         {
-          "name": "John Elleson",
-          "votes": 58628
-        },
-        {
           "name": "Daniel Biss",
           "votes": 184004
-        }
-      ]
-    },
-    {
-      "contestIds": ["chicago-boe:united-states-senator", "cook-clerk:120100"],
-      "url": "https://apnews.com/projects/elections-2026/illinois-us-senate-results/",
-      "asOf": "2026-11-04T18:21:00-06:00",
-      "counted": 0.93,
-      "choices": [
-        {
-          "name": "Don Tracy",
-          "votes": 1501458
         },
         {
-          "name": "Juliana Stratton",
-          "votes": 2431012
-        },
-        {
-          "name": "Whitfield Harrington Jr",
-          "votes": 62967
+          "name": "John Elleson",
+          "votes": 58628
         }
       ]
     },
@@ -245,12 +245,12 @@
       "counted": 0.96,
       "choices": [
         {
-          "name": "Carl Lambrecht",
-          "votes": 69583
-        },
-        {
           "name": "Brad Schneider",
           "votes": 160849
+        },
+        {
+          "name": "Carl Lambrecht",
+          "votes": 69583
         }
       ]
     },
@@ -261,12 +261,12 @@
       "counted": 0.83,
       "choices": [
         {
-          "name": "Jeff Walter",
-          "votes": 79669
-        },
-        {
           "name": "Bill Foster",
           "votes": 150391
+        },
+        {
+          "name": "Jeff Walter",
+          "votes": 79669
         }
       ]
     }
