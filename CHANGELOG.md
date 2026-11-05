@@ -5,9 +5,18 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+## [1.7.0] - 2026-11-04
+
 ### Added
 
 - Race results: who was elected, retained or passed, with leaders and counts while ballots are counted, on the ballot, race pages, race lists, Saved choices and profiles.
+- Each result names its source and time: the election office's count, AP's race call, or the certified results.
+
+### Changed
+
+- After an election, its race pages, race lists and candidate profiles have titles and search descriptions that lead with the result. Candidate profiles keep everything else as it was on Election Day.
+- For an election with results, the ballot shows results in place of pick boxes and Yes/No buttons. Your saved picks show as "Your pick", and Saved choices adds each race's result.
+- Where results are in, "Results as of …" replaces the line saying voting has ended.
 
 ## [1.6.0] - 2026-11-04
 
