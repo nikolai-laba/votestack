@@ -142,7 +142,14 @@ export function passes(yesShare: number, threshold: number): boolean {
   return threshold === 0.5 ? yesShare > 0.5 : yesShare >= threshold
 }
 
-/** "59.96%": a share as shown to voters. See the rules in the design spec. */
+/**
+ * "59.96%": a share as shown to voters, to one decimal ("66.0%"). Exactly all
+ * is "100%" and nothing is "0.0%"; a share that would round to 0.0% or
+ * 100.0% without being so reads "Under 0.1%" or "Over 99.9%". Just under a
+ * threshold, where one decimal would round up to it, the share keeps two
+ * decimals, cut rather than rounded ("59.96%" for a 60% threshold), so it
+ * never reads as meeting a threshold it misses.
+ */
 export function shareText(share: number, threshold?: number): string {
   if (share >= 1) return '100%'
   if (share <= 0) return '0.0%'
@@ -203,11 +210,14 @@ function leadingLabels(
     })
     return labels
   }
-  if (choices.length === 1) {
-    labels[0] = 'Unopposed'
+  const seats = result.voteFor ?? 1
+  // No more candidates than seats: every one of them is unopposed.
+  if (choices.length <= seats) {
+    choices.forEach((_, i) => {
+      labels[i] = 'Unopposed'
+    })
     return labels
   }
-  const seats = result.voteFor ?? 1
   const sorted = [...choices].sort((a, b) => b.votes - a.votes)
   const cutoff = sorted[Math.min(seats, sorted.length) - 1].votes
   if (cutoff === 0) {

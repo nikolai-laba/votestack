@@ -122,6 +122,25 @@ describe('resultView', () => {
     })
   })
 
+  it('marks every candidate Unopposed when there are no more candidates than seats', () => {
+    const v = resultView(
+      race({
+        status: 'counting',
+        voteFor: 2,
+        winners: undefined,
+        choices: [
+          { name: 'A', votes: 300 },
+          { name: 'B', votes: 200 },
+        ],
+      }),
+    )
+    expect(v.choices.map((c) => [c.label, c.fill])).toEqual([
+      ['Unopposed', 'lead'],
+      ['Unopposed', 'lead'],
+    ])
+    expect(v.leaders).toEqual(['A', 'B'])
+  })
+
   it('retains a judge above the threshold', () => {
     const v = resultView(
       race({
