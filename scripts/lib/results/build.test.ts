@@ -972,6 +972,99 @@ describe('buildResults: inputs it refuses', () => {
     )
   })
 
+  it('throws when write-ins reach the votes of the last named candidate in a winning place', () => {
+    // Kim Park leads with 1,500 (800 + 700); Chicago's 5 write-ins and the
+    // Clerk's add up, since one write-in candidate can be on both ballots.
+    const withWriteIns = (votes: number) =>
+      official('cook', COOK_AS_OF, [
+        {
+          ...cookFile.contests[0],
+          choices: [
+            { name: 'Alex Rivera', votes: 300 },
+            { name: 'Kim Park', votes: 700 },
+            { name: 'Write-In', votes },
+          ],
+        },
+      ])
+    const build = (votes: number) => () =>
+      buildResults(
+        cookInputs({
+          match: cookMatch([clerk]),
+          official: [chicagoFile, withWriteIns(votes)],
+        }),
+      )
+    expect(build(1495)).toThrow(
+      /^content\/results-inputs\/cook\/match\.json: chicago-boe:clerk-of-the-circuit-court: write-ins have 1500 votes, at least Kim Park's 1500 in the last winning place; a write-in may have won/,
+    )
+    expect(build(1494)).not.toThrow()
+  })
+
+  it('throws on any write-in votes when fewer candidates are named than there are seats', () => {
+    const board: MatchEntry = {
+      ...clerk,
+      official: [{ source: 'cook', title: 'Board' }],
+      voteFor: 3,
+    }
+    const file = (writeIns: number) =>
+      official('cook', COOK_AS_OF, [
+        {
+          title: 'Board',
+          choices: [
+            { name: 'Kim Park', votes: 300 },
+            { name: 'Alex Rivera', votes: 500 },
+            { name: 'Write-in', votes: writeIns },
+          ],
+        },
+      ])
+    const build = (writeIns: number) => () =>
+      buildResults(
+        cookInputs({ match: cookMatch([board]), official: [file(writeIns)] }),
+      )
+    expect(build(1)).toThrow(
+      /chicago-boe:clerk-of-the-circuit-court: write-ins have 1 vote, with 2 candidates named for 3 seats; a write-in may have won/,
+    )
+    expect(build(0)).not.toThrow()
+  })
+
+  it("throws when write-ins in AP's agreed count reach the leader's votes", () => {
+    const leaderWriteIns: ApCount = {
+      ...senateCount,
+      choices: [...senateCount.choices, { name: 'Write-ins', votes: 2000000 }],
+    }
+    expect(() =>
+      buildResults(
+        cookInputs({
+          apCounts: [read('a', [leaderWriteIns]), read('b', [leaderWriteIns])],
+        }),
+      ),
+    ).toThrow(
+      /chicago-boe:united-states-senator: AP count: write-ins have 2000000 votes, at least Alex Rivera's 2000000/,
+    )
+  })
+
+  it('throws when an official contest lists the same name twice', () => {
+    for (const name of ['KIM PARK', 'Write-in']) {
+      const twice = official('chicago', CHICAGO_AS_OF, [
+        {
+          ...chicagoFile.contests[0],
+          choices: [...chicagoFile.contests[0].choices, { name, votes: 1 }],
+        },
+      ])
+      expect(() =>
+        buildResults(
+          cookInputs({
+            match: cookMatch([clerk]),
+            official: [twice, cookFile],
+          }),
+        ),
+      ).toThrow(
+        new RegExp(
+          `^content/results-inputs/cook/match\\.json: chicago-boe:clerk-of-the-circuit-court: chicago contest "Clerk of the Circuit Court" lists "${name}" twice$`,
+        ),
+      )
+    }
+  })
+
   it('throws when an LA contest marked county-only feeds a race marked within', () => {
     const wrong: MatchEntry = {
       ...council,

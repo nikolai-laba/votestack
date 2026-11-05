@@ -9,8 +9,9 @@
 //   official contests per our name (Chicago plus the Clerk for countywide
 //   races), or takes only the Secretary of State's when it lists one.
 //   Fails closed: every name in a used count must be matched (or be a
-//   write-in row, which is left out), and every ballot-order name must be in
-//   it, or the build throws.
+//   write-in row, which is left out), no name may be listed twice in one
+//   contest, every ballot-order name must be in it, and write-ins must stay
+//   short of a winning place, or the build throws.
 // - Status. No count: no_count. Certified by every office whose count it
 //   uses (the Secretary of State for an LA race across the county line):
 //   certified, winners from the count (never anyone with 0 votes). Illinois
@@ -120,11 +121,41 @@ function findContest(
   return hits[0]
 }
 
+const votesText = (n: number) => `${n} vote${n === 1 ? '' : 's'}`
+
+/**
+ * Fails closed on a write-in who may have won. Write-ins are left out of the
+ * count, so a race whose write-ins reach the votes of the last candidate in a
+ * winning place, or have any votes when fewer candidates are named than there
+ * are seats, stops the build for a person to look at the official results.
+ * `writeIns` is the most any one write-in candidate can have.
+ */
+function checkWriteIns(
+  where: string,
+  entry: MatchEntry,
+  choices: ResultChoice[],
+  writeIns: number,
+) {
+  if (entry.kind !== 'candidate' || writeIns === 0) return
+  const seats = entry.voteFor ?? 1
+  if (choices.length < seats) {
+    throw new Error(
+      `${where}: write-ins have ${votesText(writeIns)}, with ${choices.length} candidate${choices.length === 1 ? '' : 's'} named for ${seats} seats; a write-in may have won`,
+    )
+  }
+  const last = [...choices].sort((a, b) => b.votes - a.votes)[seats - 1]
+  if (writeIns >= last.votes) {
+    throw new Error(
+      `${where}: write-ins have ${votesText(writeIns)}, at least ${last.name}'s ${last.votes} in the last winning place; a write-in may have won`,
+    )
+  }
+}
+
 /**
  * Adds the used contests per our name. Fails closed: every official name must
- * be matched in `names` or be a write-in, and every ballot-order name must be
- * in every contest, so a renamed or missed candidate stops the build instead
- * of losing votes.
+ * be matched in `names` or be a write-in, no name may be listed twice in a
+ * contest, and every ballot-order name must be in every contest, so a renamed
+ * or missed candidate stops the build instead of losing votes.
  */
 function officialCount(
   area: MatchFile['area'],
@@ -133,12 +164,24 @@ function officialCount(
 ): Count {
   const where = `${inputFile(area, 'match')}: ${entry.contestIds[0]}`
   const totals = new Map<string, number>()
+  // The largest write-in row of each contest, added up: one write-in
+  // candidate can be on both Chicago's and the Clerk's ballots.
+  let writeIns = 0
   for (const { source, contest } of used) {
     const what = `${source} contest "${contest.title}"`
     const reached = new Set<string>()
+    const listed = new Set<string>()
+    let largestWriteIn = 0
     for (const c of contest.choices) {
+      if (listed.has(c.name)) {
+        throw new Error(`${where}: ${what} lists "${c.name}" twice`)
+      }
+      listed.add(c.name)
       if (!Object.hasOwn(entry.names, c.name)) {
-        if (WRITE_IN.test(c.name)) continue
+        if (WRITE_IN.test(c.name)) {
+          largestWriteIn = Math.max(largestWriteIn, c.votes)
+          continue
+        }
         throw new Error(
           `${where}: ${what} has "${c.name}", which has no entry in names and isn't a write-in`,
         )
@@ -157,15 +200,18 @@ function officialCount(
         throw new Error(`${where}: ${what} has no choice for "${name}"`)
       }
     }
+    writeIns += largestWriteIn
   }
+  const choices = entry.ballotOrder.map((name) => ({
+    name,
+    votes: totals.get(name) ?? 0,
+  }))
+  checkWriteIns(where, entry, choices, writeIns)
   const files = [...new Set(used.map((u) => u.file))].sort(
     (a, b) => SOURCE_ORDER.indexOf(a.source) - SOURCE_ORDER.indexOf(b.source),
   )
   return {
-    choices: entry.ballotOrder.map((name) => ({
-      name,
-      votes: totals.get(name) ?? 0,
-    })),
+    choices,
     sources: files.map((f) => ({
       name: OFFICES[f.source].name,
       url: OFFICES[f.source].url,
@@ -241,11 +287,17 @@ function apCount(
       throw new Error(`${where} has no choice for "${name}"`)
     }
   }
+  const choices = entry.ballotOrder.map((name) => ({
+    name,
+    votes: a.choices.find((c) => c.name === name)?.votes ?? 0,
+  }))
+  const writeIns = Math.max(
+    0,
+    ...a.choices.filter((c) => WRITE_IN.test(c.name)).map((c) => c.votes),
+  )
+  checkWriteIns(where, entry, choices, writeIns)
   return {
-    choices: entry.ballotOrder.map((name) => ({
-      name,
-      votes: a.choices.find((c) => c.name === name)?.votes ?? 0,
-    })),
+    choices,
     sources: [
       {
         name: 'AP',
