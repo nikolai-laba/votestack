@@ -103,6 +103,31 @@ describe('readChicago', () => {
     }
   })
 
+  it('throws, rather than merging them, when two contests share a title', () => {
+    // A copy of the first Senate line under another contest number (bytes 1 to 5).
+    const text = fixture('chicago-summary.txt')
+    const senate = text.split('\r\n').find((l) => l.includes('Don Tracy'))!
+    const other = `2${'00999'}${senate.slice(6)}`
+    expect(() =>
+      readChicago(
+        Buffer.from(`${text}${other}\r\n`),
+        'Wed, 04 Nov 2026 09:20:55 GMT',
+        RETRIEVED,
+      ),
+    ).toThrow(
+      /^chicago: contests 00001 and 00999 are both titled "Senator, U\.S\."$/,
+    )
+    // The same contest's lines, wherever they are, still make one contest.
+    const again = readChicago(
+      Buffer.from(`${text}${senate.replace('Don Tracy', 'Dan Tracy')}\r\n`),
+      'Wed, 04 Nov 2026 09:20:55 GMT',
+      RETRIEVED,
+    )
+    expect(
+      again.contests.filter((c) => c.title === 'Senator, U.S.'),
+    ).toHaveLength(1)
+  })
+
   it('throws on invalid UTF-8 in a field', () => {
     const bytes = Buffer.from(fixtureBytes('chicago-summary.txt'))
     const at = bytes.indexOf('Sep\xc3\xbalveda', 0, 'latin1')

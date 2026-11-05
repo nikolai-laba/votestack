@@ -10,7 +10,9 @@ const TWO = 0x32 // '2': the record type of a candidate line
 /**
  * Reads Chicago's SummaryExport.txt (type-2 lines are candidates). The file is
  * fixed-width by BYTES, so fields are cut from the bytes, then decoded: a
- * multi-byte letter must not shift the fields after it.
+ * multi-byte letter must not shift the fields after it. Bytes 1 to 5 are the
+ * contest's number: two contests with the same title stop the read, since
+ * merging them would add up two races' votes.
  */
 export function readChicago(
   bytes: Uint8Array,
@@ -30,6 +32,7 @@ export function readChicago(
     }
   }
   const byTitle = new Map<string, OfficialContest>()
+  const numberOf = new Map<string, string>()
   let start = 0
   while (start < bytes.length) {
     let end = bytes.indexOf(NL, start)
@@ -44,6 +47,12 @@ export function readChicago(
     const name = field(line, 107, 157)
     if (!title || !name) throw fail('a candidate line has no title or name')
     const votes = parseVotes('chicago', field(line, 16, 23))
+    const number = field(line, 1, 6)
+    const seen = numberOf.get(title)
+    if (seen !== undefined && seen !== number) {
+      throw fail(`contests ${seen} and ${number} are both titled "${title}"`)
+    }
+    numberOf.set(title, number)
     let contest = byTitle.get(title)
     if (!contest) {
       contest = { title, choices: [] }
