@@ -2,6 +2,7 @@
 // access and no clock (`now` is an input). Each failure names the race's first
 // contest ID, so the message points at the race to look at.
 
+import { passes } from '../../../src/shared/raceResults.ts'
 import type { ResultsFile } from '../../../src/shared/raceResults.ts'
 import { raceKey } from './inputs.ts'
 import type { ApCount, ApCountsFile, MatchEntry, MatchFile } from './inputs.ts'
@@ -189,6 +190,25 @@ export function checkResults(
             break
           }
         }
+      }
+    }
+
+    // A called judge or measure must be on the side its count is on.
+    if (
+      entry.kind !== 'candidate' &&
+      result.status === 'called' &&
+      winners.length > 0 &&
+      typeof entry.threshold === 'number'
+    ) {
+      const total = result.choices.reduce((sum, c) => sum + c.votes, 0)
+      const yes = result.choices.find((c) => c.name === 'Yes')?.votes ?? 0
+      if (
+        total > 0 &&
+        passes(yes / total, entry.threshold) !== (winners[0] === 'Yes')
+      ) {
+        fail(
+          `AP's call "${winners[0]}" disagrees with the count: ${((yes / total) * 100).toFixed(2)}% yes, with ${entry.threshold} needed`,
+        )
       }
     }
 

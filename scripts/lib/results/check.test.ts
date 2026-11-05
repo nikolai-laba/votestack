@@ -242,6 +242,75 @@ describe('checkResults', () => {
     expect(failures.join('\n')).toContain('not leading')
   })
 
+  it("fails AP's call on a judge or measure when the count says the other side", () => {
+    const call = { by: 'AP' as const, at: NOW, url: 'https://apnews.com/x' }
+    const short = [
+      { name: 'Yes', votes: 55 },
+      { name: 'No', votes: 45 },
+    ]
+    // 70% yes meets the 60% needed, so a call of No disagrees.
+    const no = run(
+      file(clerk(), judge({ status: 'called', winners: ['No'], call })),
+    ).failures
+    expect(no).toHaveLength(1)
+    expect(no[0]).toMatch(/^cook-clerk:150100: AP's call "No" disagrees/)
+    // 55% yes falls short of 60%, so a call of Yes disagrees.
+    const yes = run(
+      file(
+        clerk(),
+        judge({ status: 'called', winners: ['Yes'], call, choices: short }),
+      ),
+    ).failures
+    expect(yes).toHaveLength(1)
+    expect(yes[0]).toMatch(/^cook-clerk:150100: AP's call "Yes" disagrees/)
+    // A majority needs more than half: an even count does not pass.
+    const measureEntry: MatchEntry = {
+      ...judgeEntry,
+      contestIds: ['cook-clerk:160100'],
+      kind: 'measure',
+      threshold: 0.5,
+    }
+    const measure = judge({
+      contestIds: ['cook-clerk:160100'],
+      kind: 'measure',
+      threshold: 0.5,
+      status: 'called',
+      winners: ['Yes'],
+      call,
+      choices: [
+        { name: 'Yes', votes: 50 },
+        { name: 'No', votes: 50 },
+      ],
+    })
+    const even = run(file(clerk(), judge(), measure), {
+      match: match(clerkEntry, judgeEntry, measureEntry),
+    }).failures
+    expect(even).toHaveLength(1)
+    expect(even[0]).toMatch(/^cook-clerk:160100: AP's call "Yes" disagrees/)
+  })
+
+  it("passes AP's call on a judge or measure that agrees with the count, or has no votes to check", () => {
+    const call = { by: 'AP' as const, at: NOW, url: 'https://apnews.com/x' }
+    const short = [
+      { name: 'Yes', votes: 55 },
+      { name: 'No', votes: 45 },
+    ]
+    for (const result of [
+      judge({ status: 'called', winners: ['Yes'], call }),
+      judge({ status: 'called', winners: ['No'], call, choices: short }),
+      judge({
+        status: 'called',
+        winners: ['No'],
+        call,
+        choices: [
+          { name: 'Yes', votes: 0 },
+          { name: 'No', votes: 0 },
+        ],
+      }),
+    ])
+      expect(run(file(clerk(), result)).failures).toEqual([])
+  })
+
   it('fails any choice with fewer votes than the previous file', () => {
     const previous = file(
       clerk({
