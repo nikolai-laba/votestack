@@ -62,6 +62,20 @@ describe('committed results files', () => {
     expect(checked).toBeGreaterThan(0)
   })
 
+  it('gives every judge and measure a threshold ballots use, exactly', () => {
+    const allowed = [0.5, 0.55, 0.6, 2 / 3]
+    let checked = 0
+    for (const file of resultFiles)
+      for (const result of file.results) {
+        if (result.threshold === undefined) continue
+        expect(allowed, `${file.electionId} ${result.contestIds[0]}`).toContain(
+          result.threshold,
+        )
+        checked++
+      }
+    expect(checked).toBeGreaterThan(0)
+  })
+
   it('has a result for every race of an election with a results file', () => {
     for (const list of raceLists) {
       const file = resultFiles.find((f) => f.electionId === list.electionId)

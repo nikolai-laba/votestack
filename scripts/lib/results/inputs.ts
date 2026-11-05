@@ -230,14 +230,18 @@ const AREA_SOURCES: Record<MatchFile['area'], readonly OfficialSource[]> = {
   'ca-la': ['la', 'ca-sos'],
 }
 
+/** The yes shares a ballot question or judge can need. */
+const THRESHOLDS = [0.5, 0.55, 0.6, 2 / 3]
+
+/** Checks one match entry; returns it with a two-thirds threshold made exact. */
 function parseEntry(
   fail: Fail,
   raw: unknown,
   path: string,
   area: MatchFile['area'],
-) {
+): MatchEntry {
   const e = object(fail, raw, path)
-  ids(fail, e.contestIds, `${path}.contestIds`)
+  const id = ids(fail, e.contestIds, `${path}.contestIds`)[0]
   const kind = oneOf(fail, e.kind, `${path}.kind`, KINDS)
   const scope = oneOf(fail, e.scope, `${path}.scope`, SCOPES)
 
@@ -280,6 +284,7 @@ function parseEntry(
       fail(`${path}.voteFor`, 'must be a whole number of seats, 1 or more')
     }
   }
+  let threshold = e.threshold
   if (kind !== 'candidate' || e.threshold !== undefined) {
     const t = e.threshold
     if (typeof t !== 'number' || !(t > 0 && t <= 1)) {
@@ -288,13 +293,26 @@ function parseEntry(
         'must be the yes share needed, above 0 and at most 1',
       )
     }
+    // Two-thirds has no exact decimal, so a file may round it (0.666667);
+    // the rules need it exact, or exactly two-thirds yes would fall short.
+    const exact = Math.abs(t - 2 / 3) < 1e-4 ? 2 / 3 : t
+    if (!THRESHOLDS.includes(exact)) {
+      fail(
+        `${path}.threshold`,
+        `of ${id} is ${t}; it must be 0.5, 0.55, 0.6 or two-thirds`,
+      )
+    }
+    threshold = exact
   }
+  const entry = (threshold === e.threshold
+    ? e
+    : { ...e, threshold }) as unknown as MatchEntry
   isoDate(fail, e.certifyBy, `${path}.certifyBy`)
   if (e.apUrl !== undefined) link(fail, e.apUrl, `${path}.apUrl`)
 
   if (e.noOfficialCount !== undefined) {
     str(fail, e.noOfficialCount, `${path}.noOfficialCount`)
-    return
+    return entry
   }
   // Without a reason for having none, a race the offices count whole needs
   // their count, and an LA race across the county line needs the state's.
@@ -311,9 +329,10 @@ function parseEntry(
       'must include a ca-sos contest for a race that crosses the county line, or set noOfficialCount',
     )
   }
+  return entry
 }
 
-/** Checks a parsed match.json. */
+/** Checks a parsed match.json; returns it with two-thirds thresholds made exact. */
 export function parseMatchFile(raw: unknown): MatchFile {
   const fail = failer('Match file')
   const file = object(fail, raw, 'file')
@@ -322,9 +341,9 @@ export function parseMatchFile(raw: unknown): MatchFile {
   const area = oneOf(fail, file.area, 'area', ['cook', 'ca-la'] as const)
   const contests = list(fail, file.contests, 'contests')
   const owner = new Map<string, number>()
-  contests.forEach((c, i) => {
-    parseEntry(fail, c, `contests[${i}]`, area)
-    for (const id of (c as MatchEntry).contestIds) {
+  const entries = contests.map((c, i) => {
+    const entry = parseEntry(fail, c, `contests[${i}]`, area)
+    for (const id of entry.contestIds) {
       const first = owner.get(id)
       if (first !== undefined) {
         fail(
@@ -334,8 +353,9 @@ export function parseMatchFile(raw: unknown): MatchFile {
       }
       owner.set(id, i)
     }
+    return entry
   })
-  return raw as MatchFile
+  return { ...file, contests: entries } as unknown as MatchFile
 }
 
 const CALL_STATUSES = ['called', 'too_close', 'withdrawn'] as const

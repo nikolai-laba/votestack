@@ -177,6 +177,24 @@ describe('resultView', () => {
     expect(v.outcome).toBe('Failed')
   })
 
+  it('leads Yes at exactly two-thirds yes for a two-thirds measure', () => {
+    const v = resultView(
+      race({
+        kind: 'measure',
+        status: 'counting',
+        threshold: 2 / 3,
+        winners: undefined,
+        choices: yesNo(2000, 1000),
+      }),
+    )
+    expect(v.choices[0]).toMatchObject({
+      label: 'Leading',
+      fill: 'lead',
+      shareText: '66.7%',
+    })
+    expect(v.choices[1].label).toBeUndefined()
+  })
+
   it('shows shares but no labels when too close to call', () => {
     const v = resultView(race({ status: 'too_close', winners: undefined }))
     expect(v.header).toBe('Too close to call')
@@ -232,6 +250,8 @@ describe('passes', () => {
   it('meets other thresholds exactly', () => {
     expect(passes(0.6, 0.6)).toBe(true)
     expect(passes(2 / 3, 2 / 3)).toBe(true)
+    expect(passes(2000 / 3000, 2 / 3)).toBe(true)
+    expect(passes(1999 / 3000, 2 / 3)).toBe(false)
   })
 })
 

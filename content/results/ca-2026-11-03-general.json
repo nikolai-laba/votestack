@@ -1,7 +1,7 @@
 {
   "version": 1,
   "electionId": "ca-2026-11-03-general",
-  "checkedAt": "2026-11-04T22:08:48.555Z",
+  "checkedAt": "2026-11-05T00:25:54.441Z",
   "results": [
     {
       "contestIds": ["la-4348-bmc10419"],
@@ -591,7 +591,7 @@
       "contestIds": ["la-4348-bmc10882"],
       "kind": "measure",
       "status": "counting",
-      "threshold": 0.666667,
+      "threshold": 0.6666666666666666,
       "choices": [
         { "name": "Yes", "votes": 6394 },
         { "name": "No", "votes": 1725 }
@@ -1229,7 +1229,7 @@
       "contestIds": ["la-4348-bmc10934"],
       "kind": "measure",
       "status": "counting",
-      "threshold": 0.666667,
+      "threshold": 0.6666666666666666,
       "choices": [
         { "name": "Yes", "votes": 5887 },
         { "name": "No", "votes": 1620 }
@@ -1537,7 +1537,7 @@
       "contestIds": ["la-4348-bmc10949"],
       "kind": "measure",
       "status": "counting",
-      "threshold": 0.666667,
+      "threshold": 0.6666666666666666,
       "choices": [
         { "name": "Yes", "votes": 2914 },
         { "name": "No", "votes": 1174 }
@@ -1625,7 +1625,7 @@
       "contestIds": ["la-4348-bmc10953"],
       "kind": "measure",
       "status": "counting",
-      "threshold": 0.666667,
+      "threshold": 0.6666666666666666,
       "choices": [
         { "name": "Yes", "votes": 3723 },
         { "name": "No", "votes": 1821 }
@@ -1647,7 +1647,7 @@
       "contestIds": ["la-4348-bmc10954"],
       "kind": "measure",
       "status": "counting",
-      "threshold": 0.666667,
+      "threshold": 0.6666666666666666,
       "choices": [
         { "name": "Yes", "votes": 24996 },
         { "name": "No", "votes": 13279 }
@@ -1801,7 +1801,7 @@
       "contestIds": ["la-4348-bmc10961"],
       "kind": "measure",
       "status": "no_count",
-      "threshold": 0.666667,
+      "threshold": 0.6666666666666666,
       "choices": [],
       "certifyBy": "2026-12-11",
       "scope": "beyond",

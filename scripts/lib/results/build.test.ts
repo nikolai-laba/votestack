@@ -1,5 +1,10 @@
 import { describe, expect, it } from 'vitest'
-import { parseResultsFile } from '../../../src/shared/raceResults.ts'
+import {
+  parseResultsFile,
+  passes,
+  resultView,
+  thresholdText,
+} from '../../../src/shared/raceResults.ts'
 import type {
   RaceResult,
   ResultsFile,
@@ -1267,6 +1272,69 @@ describe('parseMatchFile', () => {
     expect(bad({ ...senate, ballotOrder: ['Kim Park', 'Kim Park'] })).toThrow(
       /contests\[1\]\.ballotOrder/,
     )
+  })
+
+  it('reads a two-thirds threshold written to six places as exactly two-thirds', () => {
+    // As a match file may write it: two-thirds rounded to six places.
+    const bond: MatchEntry = { ...judge, kind: 'measure', threshold: 0.666667 }
+    const parsed = parseMatchFile(roundTrip(cookMatch([clerk, bond])))
+    const threshold = parsed.contests[1].threshold!
+    expect(threshold).toBe(2 / 3)
+    expect(thresholdText('measure', threshold)).toBe(
+      'Needs two-thirds yes to pass.',
+    )
+    // 2,000 yes to 1,000 no is exactly two-thirds, which passes.
+    expect(passes(2000 / 3000, threshold)).toBe(true)
+    const counting = resultView({
+      contestIds: bond.contestIds,
+      kind: 'measure',
+      status: 'counting',
+      threshold,
+      choices: [
+        { name: 'Yes', votes: 2000 },
+        { name: 'No', votes: 1000 },
+      ],
+      certifyBy: bond.certifyBy,
+      scope: 'within',
+      sources: [],
+      changedAt: NOW,
+    })
+    expect(counting.choices[0].label).toBe('Leading')
+    const file = official('chicago', CHICAGO_AS_OF, [
+      {
+        title: 'Pat Morgan',
+        choices: [
+          { name: 'Yes', votes: 2000 },
+          { name: 'No', votes: 1000 },
+        ],
+      },
+    ])
+    const only = { ...parsed.contests[1], official: [bond.official[0]] }
+    const r = resultFor(
+      buildResults(
+        cookInputs({
+          match: cookMatch([only]),
+          official: [file],
+          certifications: certs([CHICAGO_CERT]),
+        }),
+      ),
+      only,
+    )
+    expect(r.threshold).toBe(2 / 3)
+    expect(r.winners).toEqual(['Yes'])
+  })
+
+  it('accepts only a majority, 55%, 60% or two-thirds, naming the race', () => {
+    for (const threshold of [0.5, 0.55, 0.6, 2 / 3, 0.66667]) {
+      expect(bad({ ...judge, threshold })).not.toThrow()
+    }
+    for (const threshold of [0.7, 0.65, 0.666, 1]) {
+      expect(bad({ ...judge, threshold })).toThrow(
+        new RegExp(
+          `^Match file: contests\\[1\\]\\.threshold of chicago-boe:retain-pat-morgan is ${threshold}; it must be 0\\.5, 0\\.55, 0\\.6 or two-thirds$`,
+        ),
+      )
+    }
   })
 
   it('rejects a contest ID matched in two entries', () => {
