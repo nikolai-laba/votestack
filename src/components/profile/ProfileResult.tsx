@@ -14,9 +14,10 @@ import {
 } from '../../shared/raceResults.ts'
 import { racePath, type Race } from '../../shared/races.ts'
 import type { CandidateProfile } from '../../shared/profile.ts'
+import { resultRegion } from '../../shared/regions.ts'
 import { CheckIcon } from '../icons.tsx'
 import { ResultCaption } from '../results/ResultCaption.tsx'
-import { officialResultsUrl, resultRegion } from '../results/useRaceResults.ts'
+import { officialResultsUrl } from '../results/useRaceResults.ts'
 
 const WRITTEN_FOR =
   "This profile was written for the Tuesday, November 3, 2026 election. It isn't updated after the election, except for the result."

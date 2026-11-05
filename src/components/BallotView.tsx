@@ -28,6 +28,7 @@ import { areaOfBallot, resultsOffices } from '../shared/results.ts'
 import {
   COOK,
   regionForElection,
+  resultRegion,
   type MeasureWords,
 } from '../shared/regions.ts'
 import { BallotOrderToggle } from './BallotOrderToggle.tsx'
@@ -53,7 +54,6 @@ import {
   hasColumn,
   pickedSide,
   thresholdNoteOf,
-  resultRegion,
   useRaceResults,
 } from './results/useRaceResults.ts'
 import { YesNoResult } from './results/YesNoResult.tsx'

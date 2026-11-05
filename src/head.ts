@@ -14,7 +14,12 @@ import {
   shareText,
   type RaceResult,
 } from './shared/raceResults.ts'
-import { COOK, regionForElection, type Region } from './shared/regions.ts'
+import {
+  COOK,
+  electionDate,
+  resultRegion,
+  type Region,
+} from './shared/regions.ts'
 import {
   RACES_PATH,
   placeName,
@@ -74,9 +79,6 @@ const SITE_STRUCTURED_DATA = {
 const ELECTION_DAY = new Date(
   `${CURRENT_ELECTION.date}T12:00:00Z`,
 ).toLocaleDateString('en-US', { dateStyle: 'long', timeZone: 'UTC' })
-
-/** "Tuesday, November 3, 2026", as the result descriptions give it. */
-const ELECTION_DAY_LONG = longDate(CURRENT_ELECTION.date)
 
 /** "66.0%", or "under 0.1%" inside a sentence. */
 const inSentence = (text: string) =>
@@ -197,7 +199,9 @@ function profileResultSentence(
   profile: CandidateProfile,
   result: RaceResult,
 ): string {
-  const region = regionForElection(profile.electionId) ?? COOK
+  const region = resultRegion(profile.electionId)
+  // "Tuesday, November 3, 2026": the day of the profile's own election.
+  const day = longDate(electionDate(profile.electionId))
   const office =
     profile.kind === 'candidate' || !courtName(profile.office, region)
       ? profileOffice(profile.office, region)
@@ -213,12 +217,12 @@ function profileResultSentence(
   if (result.kind !== 'candidate' || profile.kind === 'retention') {
     const decided = outcome === 'retained' || outcome === 'not_retained'
     sentence = decided
-      ? `${profile.name} was ${outcome === 'retained' ? 'retained' : 'not retained'} as ${profile.office} on ${ELECTION_DAY_LONG}, with ${pct} yes${neededText(result.threshold)}.`
-      : `${profile.name} was up for retention as ${profile.office} on ${ELECTION_DAY_LONG}. ${NOT_CALLED}`
+      ? `${profile.name} was ${outcome === 'retained' ? 'retained' : 'not retained'} as ${profile.office} on ${day}, with ${pct} yes${neededText(result.threshold)}.`
+      : `${profile.name} was up for retention as ${profile.office} on ${day}. ${NOT_CALLED}`
   } else if (outcome === 'won') {
-    sentence = `${lead} won the race for ${office}, on ${ELECTION_DAY_LONG}, with ${pct} of the vote, as called by AP.`
+    sentence = `${lead} won the race for ${office}, on ${day}, with ${pct} of the vote, as called by AP.`
   } else if (outcome === 'elected') {
-    sentence = `${lead} was elected ${office}, on ${ELECTION_DAY_LONG}, with ${pct} of the vote.`
+    sentence = `${lead} was elected ${office}, on ${day}, with ${pct} of the vote.`
   } else if (outcome === 'not_elected') {
     const verdict =
       winners.length === 0
@@ -226,9 +230,9 @@ function profileResultSentence(
         : result.status === 'certified'
           ? ` ${andList(winners)} ${winners.length > 1 ? 'were' : 'was'} elected.`
           : ` ${andList(winners)} won.`
-    sentence = `${lead} ran for ${office}, on ${ELECTION_DAY_LONG}, and received ${pct} of the vote.${verdict}`
+    sentence = `${lead} ran for ${office}, on ${day}, and received ${pct} of the vote.${verdict}`
   } else {
-    sentence = `${lead} ran for ${office}, on ${ELECTION_DAY_LONG}. ${NOT_CALLED}`
+    sentence = `${lead} ran for ${office}, on ${day}. ${NOT_CALLED}`
   }
   return sentence + suffix
 }
@@ -244,16 +248,15 @@ export function profileHead(
       noindex: true,
     }
   }
+  // The profile's own election, current or past.
+  const region = resultRegion(profile.electionId)
+  const year = electionDate(profile.electionId).slice(0, 4)
   // Judges lead with "judge" and their court, the words people search for.
   // Most have no party on the ballot, and searches ask which party they
   // belong to, so the description answers that instead.
-  const judgeRegion = regionForElection(profile.electionId) ?? COOK
   const court =
-    profile.kind === 'candidate'
-      ? undefined
-      : courtName(profile.office, judgeRegion)
+    profile.kind === 'candidate' ? undefined : courtName(profile.office, region)
   if (court) {
-    const year = judgeRegion.election.date.slice(0, 4)
     const role =
       profile.kind === 'retention'
         ? 'judge up for retention'
@@ -272,7 +275,7 @@ export function profileHead(
     return {
       title: `${profile.name}, ${role} in ${year} (${court}) | VoteStack`,
       description: profile.party
-        ? `${profile.name} (${profile.party}) ${running} on the ${ELECTION_DAY} ballot in ${judgeRegion.fullName}. Background, campaign money and endorsements, with a source for every fact.`
+        ? `${profile.name} (${profile.party}) ${running} on the ${ELECTION_DAY} ballot in ${region.fullName}. Background, campaign money and endorsements, with a source for every fact.`
         : `${profile.name}, ${role} on ${ELECTION_DAY}. No party on the ballot: see which parties and groups endorse or oppose ${who}, with sources.`,
       path: `/candidates/${profile.key}`,
     }
@@ -282,8 +285,6 @@ export function profileHead(
       ? `is up for retention as ${profile.office}`
       : `is running for ${profile.office}`
   const party = profile.party ? ` (${profile.party})` : ''
-  const region = regionForElection(profile.electionId) ?? COOK
-  const year = region.election.date.slice(0, 4)
   const office = profileOffice(profile.office, region)
   if (result)
     return {
@@ -323,7 +324,7 @@ export function raceAreaHead(
   if (withResults)
     return {
       title: `Races in ${list.area}, ${list.date.slice(0, 4)}: results | VoteStack`,
-      description: `Results for all ${list.races.length} races and judges up for retention on the ${ELECTION_DAY_LONG} ballot in ${list.area}, as they're called and certified${profiles}.`,
+      description: `Results for all ${list.races.length} races and judges up for retention on the ${longDate(list.date)} ballot in ${list.area}, as they're called and certified${profiles}.`,
       path: `${RACES_PATH}/${list.areaPath}`,
     }
   return {
@@ -369,7 +370,9 @@ export function raceHead(
   const place = placeName(race.districtId)
   const state = stateName(race.districtId)
   const where = place === state ? place : `${place}, ${state}`
-  const year = race.path.match(/\/(\d{4})-\d\d-\d\d\//)?.[1] ?? ''
+  // The race's own election day, from its address ("…/2026-11-03/…").
+  const date = race.path.match(/\/(\d{4}-\d\d-\d\d)\//)?.[1]
+  const year = date?.slice(0, 4) ?? ''
   if (result) {
     const title = `${race.kind === 'retention' ? raceName(race) : race.title} (${place}): ${year} results | VoteStack`
     const profiles = withProfiles
@@ -383,7 +386,7 @@ export function raceHead(
         : race.title
     return {
       title,
-      description: `Results for ${what} on the ${ELECTION_DAY_LONG} ballot in ${where}: ${raceResultSentence(race, result)}${profiles}`,
+      description: `Results for ${what} on the ${date ? longDate(date) : ELECTION_DAY} ballot in ${where}: ${raceResultSentence(race, result)}${profiles}`,
       path: racePath(race),
     }
   }

@@ -2,7 +2,7 @@
 // boundaries and contests in the lookup tables (tagged with its `id`), its own
 // election, and its own rules for which authority runs a precinct's ballot.
 
-import type { Election, OcdId } from './ballot.ts'
+import type { Election, IsoDate, OcdId } from './ballot.ts'
 import * as cook from './cook.ts'
 import * as ocd from './ocd.ts'
 
@@ -180,6 +180,33 @@ export function regionsFor(
 
 export const regionForElection = (electionId: string, regions = REGIONS) =>
   regions.find((r) => r.election.id === electionId)
+
+/**
+ * The region an election belongs to, current or past: whose clock its
+ * results' times are given in and whose names its pages use. A past election
+ * is no longer its region's current one, so the state its ID starts with
+ * decides then ("il-2026-11-03-general" is Cook County's).
+ */
+export function resultRegion(electionId: string, regions = REGIONS): Region {
+  return (
+    regionForElection(electionId, regions) ??
+    regions.find((r) => electionId.startsWith(`${r.state.toLowerCase()}-`)) ??
+    COOK
+  )
+}
+
+/**
+ * An election's day, current or past: its region's record while it's the
+ * current election, and the date its ID carries after that
+ * ("il-2026-11-03-general" is 2026-11-03).
+ */
+export function electionDate(electionId: string, regions = REGIONS): IsoDate {
+  return (
+    regionForElection(electionId, regions)?.election.date ??
+    electionId.match(/\d{4}-\d{2}-\d{2}/)?.[0] ??
+    resultRegion(electionId, regions).election.date
+  )
+}
 
 /** The measure wording for an election's region; Cook County's when unknown. */
 export const measureWordsFor = (electionId: string, regions = REGIONS) =>

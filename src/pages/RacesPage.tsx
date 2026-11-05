@@ -7,15 +7,12 @@ import {
   type BallotOutletContext,
 } from '../ballot/profileLinks.ts'
 import { LEVEL_TITLES } from '../ballot/sections.ts'
-import { measureWordsFor } from '../shared/regions.ts'
+import { measureWordsFor, resultRegion } from '../shared/regions.ts'
 import { ProfileSkeleton } from '../components/profile/ProfileSkeleton.tsx'
 import { VotingEndedLine } from '../components/VotingEndedLine.tsx'
 import { ResultLine } from '../components/results/ResultLine.tsx'
 import { ElectionEndedLine } from '../components/results/ResultsAsOf.tsx'
-import {
-  resultRegion,
-  useRaceResults,
-} from '../components/results/useRaceResults.ts'
+import { useRaceResults } from '../components/results/useRaceResults.ts'
 import { SignupBlock } from '../components/signup/SignupBlock.tsx'
 import {
   RaceCardFor,

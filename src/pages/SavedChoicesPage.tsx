@@ -18,15 +18,12 @@ import {
   pickedCandidates,
 } from '../picks/summary.ts'
 import type { Contest } from '../shared/ballot.ts'
-import { COOK, regionForElection } from '../shared/regions.ts'
+import { COOK, regionForElection, resultRegion } from '../shared/regions.ts'
 import { areaOfBallot, resultsOffices } from '../shared/results.ts'
 import { SignupBlock } from '../components/signup/SignupBlock.tsx'
 import { ResultLine } from '../components/results/ResultLine.tsx'
 import { ElectionEndedLine } from '../components/results/ResultsAsOf.tsx'
-import {
-  resultRegion,
-  useRaceResults,
-} from '../components/results/useRaceResults.ts'
+import { useRaceResults } from '../components/results/useRaceResults.ts'
 import { SAVED_CHOICES_HEAD, useDocumentHead } from '../head.ts'
 
 // Saved choices: the voter's picks in ballot order, to fill in a mail

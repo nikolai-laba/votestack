@@ -14,12 +14,6 @@ import {
   type RaceResult,
   type ResultView,
 } from '../../shared/raceResults.ts'
-import {
-  COOK,
-  REGIONS,
-  regionForElection,
-  type Region,
-} from '../../shared/regions.ts'
 import { ballotAreasOfContests, resultsOffices } from '../../shared/results.ts'
 
 export interface RaceResults {
@@ -86,18 +80,6 @@ export function thresholdNoteOf(
 /** A saved Yes or No pick, as its row's word. */
 export const pickedSide = (choice?: string): 'Yes' | 'No' | undefined =>
   choice === 'yes' ? 'Yes' : choice === 'no' ? 'No' : undefined
-
-/**
- * The region whose clock a result's times are given in. A past election is
- * no longer its region's current one, so its ID's state decides then.
- */
-export function resultRegion(electionId: string): Region {
-  return (
-    regionForElection(electionId) ??
-    REGIONS.find((r) => electionId.startsWith(`${r.state.toLowerCase()}-`)) ??
-    COOK
-  )
-}
 
 /**
  * The results page of the office that runs the ballot listing this contest,

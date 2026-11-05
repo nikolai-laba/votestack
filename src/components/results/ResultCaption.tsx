@@ -2,8 +2,8 @@ import { Fragment, type ReactNode } from 'react'
 import { longDate, longDateTime, webUrl } from '../../format.ts'
 import { useElectionCheckedAt } from '../../results/context.tsx'
 import type { RaceResult, ResultSource } from '../../shared/raceResults.ts'
-import type { Region } from '../../shared/regions.ts'
-import { officialResultsUrl, resultRegion } from './useRaceResults.ts'
+import { resultRegion, type Region } from '../../shared/regions.ts'
+import { officialResultsUrl } from './useRaceResults.ts'
 
 const CAPTION_CLASS =
   'border-t border-line px-4 py-2 text-caption text-muted italic'

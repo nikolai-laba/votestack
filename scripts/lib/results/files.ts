@@ -5,8 +5,7 @@
 import { existsSync, readdirSync } from 'node:fs'
 import { readFile } from 'node:fs/promises'
 import { join, relative } from 'node:path'
-import type { Election } from '../../../src/shared/ballot.ts'
-import { COOK, LOS_ANGELES } from '../../../src/shared/regions.ts'
+import type { IsoDate } from '../../../src/shared/ballot.ts'
 import { ROOT } from '../data.ts'
 import { caSosPaths, readCaSos } from './ca-sos.ts'
 import { readChicago } from './chicago.ts'
@@ -17,21 +16,24 @@ import type { OfficialFile } from './types.ts'
 
 export interface Area {
   id: MatchFile['area']
-  election: Election
+  /**
+   * The election this area's results are for, named outright: never the
+   * region's current election, which moves on while results passes for
+   * the last one still run.
+   */
+  election: { id: string; date: IsoDate }
   out: string
 }
 
+const area = (id: Area['id'], electionId: string, date: IsoDate): Area => ({
+  id,
+  election: { id: electionId, date },
+  out: join(ROOT, 'content', 'results', `${electionId}.json`),
+})
+
 export const AREAS: Area[] = [
-  {
-    id: 'cook',
-    election: COOK.election,
-    out: join(ROOT, 'content', 'results', `${COOK.election.id}.json`),
-  },
-  {
-    id: 'ca-la',
-    election: LOS_ANGELES.election,
-    out: join(ROOT, 'content', 'results', `${LOS_ANGELES.election.id}.json`),
-  },
+  area('cook', 'il-2026-11-03-general', '2026-11-03'),
+  area('ca-la', 'ca-2026-11-03-general', '2026-11-03'),
 ]
 
 export const INPUTS = [
