@@ -334,7 +334,7 @@ describe('a called race', () => {
       resultsData({ [IL_ELECTION]: [calledTreasurer] }),
     )
     expect(caption(container)).toBe(
-      'AP called this race on Tuesday, November 3, 2026, at 9:41 p.m. CT. Unofficial count as of Wednesday, November 4, 2026, 2:12 a.m. CT, from the Chicago Board of Election Commissioners and the Cook County Clerk. Certified by Tuesday, November 24, 2026.',
+      'AP called this race on Tuesday, November 3, 2026, at 9:41 p.m. CT. Unofficial count as of Wednesday, November 4, 2026, 1:30 a.m. CT, from the Chicago Board of Election Commissioners and the Cook County Clerk. Certified by Tuesday, November 24, 2026.',
     )
     expect(container.querySelector('p.italic')).toHaveClass(
       'text-caption',
@@ -364,6 +364,33 @@ describe('a called race', () => {
     expect(caption(container)).toBe(
       'Official results, certified Tuesday, November 24, 2026, by the Chicago Board of Election Commissioners and the Cook County Clerk.',
     )
+  })
+})
+
+describe('a count from several offices', () => {
+  it('is as of the oldest office’s count, in whatever order they come', () => {
+    // Chicago's count is as of 2:12 a.m. CT and the Clerk's as of 1:30 a.m.:
+    // the sum is only as recent as the Clerk's part of it.
+    const counting = (sources: ResultSource[]): RaceResult => ({
+      ...calledTreasurer,
+      status: 'counting',
+      winners: undefined,
+      call: undefined,
+      sources,
+    })
+    for (const sources of [
+      [CHICAGO_BOARD, COOK_CLERK],
+      [COOK_CLERK, CHICAGO_BOARD],
+    ]) {
+      const { container, unmount } = renderWithResults(
+        card(treasurer),
+        resultsData({ [IL_ELECTION]: [counting(sources)] }),
+      )
+      expect(caption(container)).toContain(
+        'Unofficial count as of Wednesday, November 4, 2026, 1:30 a.m. CT, from the ',
+      )
+      unmount()
+    }
   })
 })
 
@@ -460,7 +487,7 @@ describe('a race still being counted', () => {
     expect(container.querySelectorAll('li[data-fill]')).toHaveLength(0)
     expect(within(rowOf('Alex Rivera')).getByText('66.0%')).toBeTruthy()
     expect(caption(container)).toBe(
-      'Too close to call. Unofficial count as of Wednesday, November 4, 2026, 2:12 a.m. CT, from the Chicago Board of Election Commissioners and the Cook County Clerk.',
+      'Too close to call. Unofficial count as of Wednesday, November 4, 2026, 1:30 a.m. CT, from the Chicago Board of Election Commissioners and the Cook County Clerk.',
     )
   })
 })

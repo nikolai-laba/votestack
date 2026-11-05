@@ -30,9 +30,10 @@ function Offices({ sources }: { sources: ResultSource[] }) {
   ))
 }
 
-const newest = (sources: ResultSource[]) =>
-  sources.reduce((latest, s) =>
-    Date.parse(s.asOf) > Date.parse(latest.asOf) ? s : latest,
+/** A count added up from several offices is only as recent as its oldest part. */
+const oldest = (sources: ResultSource[]) =>
+  sources.reduce((earliest, s) =>
+    Date.parse(s.asOf) < Date.parse(earliest.asOf) ? s : earliest,
   ).asOf
 
 /**
@@ -82,7 +83,7 @@ export function ResultCaption({
     if (offices.length === 0) return null
     return (
       <>
-        Unofficial count as of {when(newest(offices))}, from{' '}
+        Unofficial count as of {when(oldest(offices))}, from{' '}
         <Offices sources={offices} />.
       </>
     )
