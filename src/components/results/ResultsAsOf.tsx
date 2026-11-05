@@ -1,5 +1,6 @@
 import { longDateTime } from '../../format.ts'
 import {
+  useElectionAllCertified,
   useElectionCheckedAt,
   useElectionHasResults,
   useElectionResultsPending,
@@ -12,7 +13,8 @@ const CLASS = 'max-w-[65ch] text-caption text-muted italic'
 
 /**
  * "Results as of Thursday, November 5, 2026, 7:30 p.m. CT. Counts are
- * unofficial until certified." Its space is kept while the results load.
+ * unofficial until certified." (the second sentence until every result is
+ * certified). Its space is kept while the results load.
  */
 export function ResultsAsOf({
   electionId,
@@ -22,6 +24,7 @@ export function ResultsAsOf({
   region: Region
 }) {
   const checkedAt = useElectionCheckedAt(electionId)
+  const allCertified = useElectionAllCertified(electionId)
   if (!checkedAt)
     return (
       <div aria-hidden="true" data-results-placeholder="" className={CLASS}>
@@ -34,7 +37,7 @@ export function ResultsAsOf({
     )
   return (
     <p className={CLASS}>
-      {`Results as of ${longDateTime(checkedAt, region.timeZone, region.zoneLabel)}. Counts are unofficial until certified.`}
+      {`Results as of ${longDateTime(checkedAt, region.timeZone, region.zoneLabel)}.${allCertified ? '' : ' Counts are unofficial until certified.'}`}
     </p>
   )
 }

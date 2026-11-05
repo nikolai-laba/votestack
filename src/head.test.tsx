@@ -294,6 +294,32 @@ describe('profileHead with a result', () => {
     })
   })
 
+  it('puts a comma before the day only to close the office’s own last part', () => {
+    const sheriff = { ...alex, office: 'Cook County Sheriff' }
+    expect(profileHead(sheriff, treasurer()).description).toBe(
+      `Alex Rivera (Democratic) won the race for Cook County Sheriff on ${DAY}, with 66.0% of the vote, as called by AP.${SUFFIX}`,
+    )
+    const certifiedSheriff = treasurer({ status: 'certified', certified })
+    expect(profileHead(sheriff, certifiedSheriff).description).toContain(
+      `was elected Cook County Sheriff on ${DAY}, with`,
+    )
+    expect(
+      profileHead({ ...sheriff, name: 'Sam Moore' }, treasurer()).description,
+    ).toContain(`ran for Cook County Sheriff on ${DAY}, and received`)
+    expect(
+      profileHead(sheriff, treasurer({ status: 'counting', winners: [] }))
+        .description,
+    ).toContain(`ran for Cook County Sheriff on ${DAY}. The race`)
+    // An office that names its district keeps the comma that closes it.
+    const commissioner = {
+      ...alex,
+      office: 'Cook County Commissioner, 13th District',
+    }
+    expect(profileHead(commissioner, treasurer()).description).toContain(
+      `won the race for Cook County Commissioner, 13th District, on ${DAY}, with`,
+    )
+  })
+
   it('says elected, without “as called”, once certified', () => {
     const head = profileHead(
       alex,

@@ -211,6 +211,9 @@ function profileResultSentence(
     share === undefined ? '' : inSentence(shareText(share, result.threshold))
   const party = profile.party ? ` (${profile.party})` : ''
   const lead = `${profile.name}${party}`
+  // "for Cook County Sheriff on Tuesday…", but "for Treasurer, Illinois, on
+  // Tuesday…": a comma before the day only closes the office's own last part.
+  const on = `${office.includes(',') ? ',' : ''} on ${day}`
   const suffix =
     ' Background, campaign money and endorsements, with a source for every fact.'
   let sentence: string
@@ -220,9 +223,9 @@ function profileResultSentence(
       ? `${profile.name} was ${outcome === 'retained' ? 'retained' : 'not retained'} as ${profile.office} on ${day}, with ${pct} yes${neededText(result.threshold)}.`
       : `${profile.name} was up for retention as ${profile.office} on ${day}. ${NOT_CALLED}`
   } else if (outcome === 'won') {
-    sentence = `${lead} won the race for ${office}, on ${day}, with ${pct} of the vote, as called by AP.`
+    sentence = `${lead} won the race for ${office}${on}, with ${pct} of the vote, as called by AP.`
   } else if (outcome === 'elected') {
-    sentence = `${lead} was elected ${office}, on ${day}, with ${pct} of the vote.`
+    sentence = `${lead} was elected ${office}${on}, with ${pct} of the vote.`
   } else if (outcome === 'not_elected') {
     const verdict =
       winners.length === 0
@@ -230,9 +233,9 @@ function profileResultSentence(
         : result.status === 'certified'
           ? ` ${andList(winners)} ${winners.length > 1 ? 'were' : 'was'} elected.`
           : ` ${andList(winners)} won.`
-    sentence = `${lead} ran for ${office}, on ${day}, and received ${pct} of the vote.${verdict}`
+    sentence = `${lead} ran for ${office}${on}, and received ${pct} of the vote.${verdict}`
   } else {
-    sentence = `${lead} ran for ${office}, on ${day}. ${NOT_CALLED}`
+    sentence = `${lead} ran for ${office}${on}. ${NOT_CALLED}`
   }
   return sentence + suffix
 }

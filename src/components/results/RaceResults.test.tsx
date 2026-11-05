@@ -846,6 +846,37 @@ describe('the ballot header', () => {
     expect(screen.queryByText(/Voting ended/)).toBeNull()
   })
 
+  it('leaves out "unofficial" once every result of the election is certified', () => {
+    const certifiedTreasurer: RaceResult = {
+      ...calledTreasurer,
+      status: 'certified',
+      call: undefined,
+      certified: { on: '2026-11-24', url: 'https://chicagoelections.gov/c' },
+    }
+    const { unmount } = renderWithResults(
+      <BallotView ballot={ballotOf([treasurer, judge])} />,
+      resultsData({ [IL_ELECTION]: [certifiedTreasurer, certifiedJudge] }),
+    )
+    expect(
+      screen.getByText(
+        'Results as of Thursday, November 5, 2026, 7:30 p.m. CT.',
+      ),
+    ).toBeInTheDocument()
+    expect(screen.queryByText(/unofficial/)).toBeNull()
+    unmount()
+
+    // One race not yet certified keeps it.
+    renderWithResults(
+      <BallotView ballot={ballotOf([treasurer, judge])} />,
+      resultsData({ [IL_ELECTION]: [calledTreasurer, certifiedJudge] }),
+    )
+    expect(
+      screen.getByText(
+        'Results as of Thursday, November 5, 2026, 7:30 p.m. CT. Counts are unofficial until certified.',
+      ),
+    ).toBeInTheDocument()
+  })
+
   it('keeps the line’s space, with no text, while the results load', () => {
     render(
       <MemoryRouter>

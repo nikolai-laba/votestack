@@ -69,3 +69,12 @@ export function useElectionResultsPending(electionId: string): boolean {
 export function useElectionCheckedAt(electionId: string): string | undefined {
   return useContext(ResultsContext).data?.byElection[electionId]?.checkedAt
 }
+
+/** True once every result of the election is certified; false while its data loads. */
+export function useElectionAllCertified(electionId: string): boolean {
+  const results = useContext(ResultsContext).data?.byElection[electionId]
+  if (!results || results.byContest.size === 0) return false
+  for (const result of results.byContest.values())
+    if (result.status !== 'certified') return false
+  return true
+}
