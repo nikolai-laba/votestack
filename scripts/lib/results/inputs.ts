@@ -155,6 +155,38 @@ function timestamp(fail: Fail, v: unknown, path: string): string {
   return s
 }
 
+/** The sites a kept link may point to: AP's, and the election offices' own. */
+const LINK_HOSTS = [
+  { host: 'apnews.com', subdomains: false },
+  { host: 'chicagoelections.gov', subdomains: true },
+  { host: 'cookcountyclerkil.gov', subdomains: true },
+  { host: 'lavote.gov', subdomains: true },
+  { host: 'sos.ca.gov', subdomains: true },
+  { host: 'elections.il.gov', subdomains: false },
+]
+
+/** A link voters follow from a result: AP's page or an election office's. */
+function link(fail: Fail, v: unknown, path: string): string {
+  const s = str(fail, v, path)
+  let host = ''
+  try {
+    host = new URL(s).hostname
+  } catch {
+    // Not a URL: no host, so it fails below.
+  }
+  if (
+    !LINK_HOSTS.some(
+      (h) => host === h.host || (h.subdomains && host.endsWith(`.${h.host}`)),
+    )
+  ) {
+    fail(
+      path,
+      `must link to AP or an election office (apnews.com, chicagoelections.gov, cookcountyclerkil.gov, lavote.gov, sos.ca.gov or elections.il.gov), not "${s}"`,
+    )
+  }
+  return s
+}
+
 function votes(fail: Fail, v: unknown, path: string): number {
   if (!Number.isInteger(v) || (v as number) < 0) {
     fail(path, 'must be a non-negative integer')
@@ -258,7 +290,7 @@ function parseEntry(
     }
   }
   isoDate(fail, e.certifyBy, `${path}.certifyBy`)
-  if (e.apUrl !== undefined) str(fail, e.apUrl, `${path}.apUrl`)
+  if (e.apUrl !== undefined) link(fail, e.apUrl, `${path}.apUrl`)
 
   if (e.noOfficialCount !== undefined) {
     str(fail, e.noOfficialCount, `${path}.noOfficialCount`)
@@ -331,7 +363,7 @@ export function parseApCalls(raw: unknown): ApCallsFile {
       if (winners.indexOf(w) !== j) fail(`${p}.winners`, `repeats "${w}"`)
     })
     timestamp(fail, call.at, `${p}.at`)
-    str(fail, call.url, `${p}.url`)
+    link(fail, call.url, `${p}.url`)
   })
   noRepeatedRaces(fail, calls, (i) => `calls[${i}]`)
   return raw as ApCallsFile
@@ -387,7 +419,7 @@ export function parseCertifications(raw: unknown): CertificationsFile {
     }
     seen.set(source, i)
     isoDate(fail, cert.on, `${p}.on`)
-    str(fail, cert.url, `${p}.url`)
+    link(fail, cert.url, `${p}.url`)
     if (cert.confirmedWinners !== true) {
       fail(
         `${p}.confirmedWinners`,

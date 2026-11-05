@@ -1305,6 +1305,14 @@ describe('parseMatchFile', () => {
     ).toThrow(/ballotOrder/)
   })
 
+  it("accepts AP's page only on apnews.com", () => {
+    expect(
+      bad({ ...senate, apUrl: 'https://apnews.com.example.org/senate' }),
+    ).toThrow(
+      /^Match file: contests\[1\]\.apUrl must link to AP or an election office/,
+    )
+  })
+
   it("needs the Secretary of State's count for an LA race that crosses the county line", () => {
     const laClerk = { ...council, contestIds: ['la-4348-cc10001'] }
     const go = (contest: Record<string, unknown>) => () =>
@@ -1355,6 +1363,23 @@ describe('parseApCalls', () => {
     )
     expect(bad({ ...call(clerk), url: '' })).toThrow(/calls\[1\]\.url/)
     expect(bad(call(judge))).toThrow(/calls\[1\]\.contestIds/)
+  })
+
+  it('accepts call links only on known hosts', () => {
+    const at = (url: string) => () =>
+      parseApCalls({ ...good, calls: [call(clerk, { url })] })
+    for (const url of [
+      'https://example.org/call',
+      'https://www.apnews.com/x',
+      'https://notapnews.com/x',
+      'javascript:alert(1)',
+      'not a link',
+    ]) {
+      expect(at(url)).toThrow(
+        /^AP calls file: calls\[0\]\.url must link to AP or an election office/,
+      )
+    }
+    expect(at('https://apnews.com/projects/elections-2026/')).not.toThrow()
   })
 })
 
@@ -1415,5 +1440,29 @@ describe('parseCertifications', () => {
       /^Certifications file: certifications\[1\]\.on must be a date/,
     )
     expect(bad(CHICAGO_CERT)).toThrow(/certifications\[1\]\.source.*chicago/)
+  })
+
+  it("accepts certification links only on the offices' own sites", () => {
+    const at = (url: string) => () =>
+      parseCertifications(certs([{ ...COOK_CERT, url }]))
+    for (const url of [
+      'https://cookcountyclerkil.gov.example.org/certified.pdf',
+      'https://evil-lavote.gov/sov.pdf',
+      'https://elections.il.gov.example.org/canvass.pdf',
+    ]) {
+      expect(at(url)).toThrow(
+        /^Certifications file: certifications\[0\]\.url must link to AP or an election office/,
+      )
+    }
+    for (const url of [
+      'https://chicagoelections.gov/proclamation.pdf',
+      'https://app.chicagoelections.gov/proclamation.pdf',
+      'https://www.cookcountyclerkil.gov/certified-summary.pdf',
+      'https://www.lavote.gov/sov.pdf',
+      'https://www.sos.ca.gov/sov.pdf',
+      'https://elections.il.gov/canvass.pdf',
+    ]) {
+      expect(at(url)).not.toThrow()
+    }
   })
 })
