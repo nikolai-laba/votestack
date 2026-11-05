@@ -213,6 +213,27 @@ describe('the profile result block', () => {
     expect(block()).toHaveTextContent('48.6% of the unofficial count so far')
   })
 
+  it('says Tied, not Leading, for a candidate tied at the last seat', () => {
+    const tied: RaceResult = {
+      ...base,
+      status: 'counting',
+      voteFor: 1,
+      winners: undefined,
+      call: undefined,
+      choices: [
+        { name: 'Alex Rivera', votes: 450 },
+        { name: 'Sam Moore', votes: 450 },
+        { name: 'Jordan Lee', votes: 100 },
+      ],
+    }
+    show(profileOf('Sam Moore'), tied)
+    expect(block()).toHaveTextContent(
+      'Tied, with 45.0% of the unofficial count',
+    )
+    expect(block()).not.toHaveTextContent(/Leading/)
+    expect(block()).not.toHaveAttribute('data-fill')
+  })
+
   it('says a race is not called when it has no count', () => {
     show(profileOf('Alex Rivera'), {
       ...base,

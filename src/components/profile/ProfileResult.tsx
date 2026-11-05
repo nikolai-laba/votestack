@@ -79,6 +79,8 @@ function headline(result: RaceResult, name: string): string {
       return `Not elected, with ${pct} of the vote`
     case 'leading':
       return `Leading, with ${pct} of the unofficial count`
+    case 'tied':
+      return `Tied, with ${pct} of the unofficial count`
     case 'trailing':
       return `${pct} of the unofficial count so far`
     case 'retained':

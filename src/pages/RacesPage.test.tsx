@@ -564,6 +564,67 @@ describe('results on the race lists', () => {
     expect(row('Board of Review')).not.toHaveTextContent('%')
   })
 
+  it('tags the leaders, then the candidates tied for the last seat', async () => {
+    const council: RaceList = {
+      ...list,
+      races: [
+        {
+          level: 'local',
+          path: 'il/cook-county/2026-11-03/board',
+          kind: 'candidate',
+          title: 'Board of Review',
+          office: 'Board of Review',
+          districtId: `${IL}/county:cook`,
+          contestIds: ['cook-clerk:board'],
+          ballots: ['suburban-cook'],
+          voteFor: 2,
+          candidates: ['A', 'B', 'C', 'D'].map((n, i) => ({
+            name: `Person ${n}`,
+            ballotOrder: i + 1,
+          })),
+        },
+      ],
+    }
+    const tied = (votes: number[], voteFor: number): RaceResult => ({
+      ...base,
+      contestIds: ['cook-clerk:board'],
+      kind: 'candidate',
+      status: 'counting',
+      voteFor,
+      choices: ['A', 'B', 'C', 'D'].map((n, i) => ({
+        name: `Person ${n}`,
+        votes: votes[i],
+      })),
+    })
+    renderAt(AREA, loaded(tied([300, 400, 200, 300], 2)), {
+      ...data,
+      lists: [council],
+    })
+    await screen.findByRole('heading', { level: 1 })
+    const line = row('Board of Review')
+    expect(line).toHaveTextContent(
+      'Leading Person B; Tied Person A and Person D',
+    )
+    expect(
+      [...line.querySelectorAll('[data-fill="lead"]')].map(
+        (t) => t.textContent,
+      ),
+    ).toEqual(['Leading', 'Tied'])
+    expect(line).not.toHaveTextContent('%')
+    cleanup()
+
+    // A tie for a single seat: one tag, no leader.
+    renderAt(AREA, loaded(tied([300, 300, 200, 100], 1)), {
+      ...data,
+      lists: [{ ...council, races: [{ ...council.races[0], voteFor: 1 }] }],
+    })
+    await screen.findByRole('heading', { level: 1 })
+    expect(row('Board of Review')).toHaveTextContent(
+      'Tied Person A and Person B',
+    )
+    expect(row('Board of Review')).not.toHaveTextContent('Leading')
+  })
+
   it('says a race is not called yet without a tag', async () => {
     renderAt(
       AREA,

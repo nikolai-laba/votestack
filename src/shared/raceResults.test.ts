@@ -307,6 +307,23 @@ describe('personOutcome', () => {
     expect(personOutcome(r, 'Alex Rivera').outcome).toBe('leading')
     expect(personOutcome(r, 'Sam Moore').outcome).toBe('trailing')
   })
+  it('reports a candidate tied at the last seat as tied, not leading', () => {
+    const r = race({
+      status: 'counting',
+      voteFor: 2,
+      winners: undefined,
+      choices: [
+        { name: 'A', votes: 40 },
+        { name: 'B', votes: 30 },
+        { name: 'C', votes: 30 },
+        { name: 'D', votes: 10 },
+      ],
+    })
+    expect(personOutcome(r, 'A').outcome).toBe('leading')
+    expect(personOutcome(r, 'B').outcome).toBe('tied')
+    expect(personOutcome(r, 'C').outcome).toBe('tied')
+    expect(personOutcome(r, 'D').outcome).toBe('trailing')
+  })
   it('reports a retained judge', () => {
     const r = race({
       kind: 'retention',

@@ -296,6 +296,7 @@ export interface PersonOutcome {
     | 'elected'
     | 'not_elected'
     | 'leading'
+    | 'tied'
     | 'trailing'
     | 'retained'
     | 'not_retained'
@@ -341,7 +342,12 @@ export function personOutcome(result: RaceResult, name: string): PersonOutcome {
   }
   if (view.status === 'counting') {
     return {
-      outcome: view.leaders.includes(name) ? 'leading' : 'trailing',
+      outcome:
+        choice.label === 'Tied'
+          ? 'tied'
+          : view.leaders.includes(name)
+            ? 'leading'
+            : 'trailing',
       share,
       winners,
     }
