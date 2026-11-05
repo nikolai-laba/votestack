@@ -10,9 +10,11 @@ import { LazyProfilePage } from './pages/LazyProfilePage.tsx'
 import { LazyRacesPage } from './pages/LazyRacesPage.tsx'
 import { readPrerenderData, type PrerenderData } from './prerenderData.ts'
 import { RACES_QUERY_KEY, loadRaces } from './races/data.ts'
+import { RESULTS_QUERY_KEY, loadResults } from './results/data.ts'
 import { routes } from './routes.tsx'
 // Self-hosted fonts: no third-party font requests.
 import '@fontsource-variable/atkinson-hyperlegible-next'
+import '@fontsource-variable/atkinson-hyperlegible-next/wght-italic.css'
 import '@fontsource-variable/literata/wght.css'
 import './index.css'
 
@@ -24,11 +26,17 @@ const router = createBrowserRouter(routes)
 // with, so the app's first render matches it instead of flashing a skeleton.
 const preloadRaces = () =>
   loadRaces().then((data) => queryClient.setQueryData(RACES_QUERY_KEY, data))
+const preloadResults = () =>
+  loadResults().then((data) =>
+    queryClient.setQueryData(RESULTS_QUERY_KEY, data),
+  )
 const PRELOAD: Record<PrerenderData['page'], () => Promise<unknown>> = {
-  profile: () => Promise.all([LazyProfilePage.preload(), preloadRaces()]),
+  profile: () =>
+    Promise.all([LazyProfilePage.preload(), preloadRaces(), preloadResults()]),
   about: LazyAboutPage.preload,
   notify: LazyNotifyPage.preload,
-  races: () => Promise.all([LazyRacesPage.preload(), preloadRaces()]),
+  races: () =>
+    Promise.all([LazyRacesPage.preload(), preloadRaces(), preloadResults()]),
 }
 const prerendered = readPrerenderData()
 if (prerendered?.profile) {

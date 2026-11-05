@@ -1,0 +1,6788 @@
+{
+  "version": 1,
+  "electionId": "il-2026-11-03-general",
+  "area": "cook",
+  "contests": [
+    {
+      "contestIds": ["chicago-boe:attorney-general", "cook-clerk:130040"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Attorney General, State of Illinois"
+        },
+        {
+          "source": "cook",
+          "title": "Attorney General, State of Illinois"
+        }
+      ],
+      "names": {
+        "Robert W. Fioretti": "Robert W. Fioretti",
+        "Kwame Raoul": "Kwame Raoul"
+      },
+      "ballotOrder": ["Robert W. Fioretti", "Kwame Raoul"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04",
+      "apUrl": "https://apnews.com/projects/elections-2026/illinois-attorney-general-results/"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:board-of-review-1st-district",
+        "cook-clerk:230100"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Board of Review, 1st District"
+        },
+        {
+          "source": "cook",
+          "title": "Board of Review, 1st District"
+        }
+      ],
+      "names": {
+        "George A. Cardenas": "George A. Cardenas"
+      },
+      "ballotOrder": ["George A. Cardenas"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:board-of-review-2nd-district",
+        "cook-clerk:230200"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Board of Review, 2nd District"
+        },
+        {
+          "source": "cook",
+          "title": "Board of Review, 2nd District"
+        }
+      ],
+      "names": {
+        "Elizabeth \"Liz\" Nicholson": "Elizabeth \"Liz\" Nicholson"
+      },
+      "ballotOrder": ["Elizabeth \"Liz\" Nicholson"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": ["chicago-boe:comptroller", "cook-clerk:130060"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Comptroller, State of Illinois"
+        },
+        {
+          "source": "cook",
+          "title": "Comptroller, State of Illinois"
+        }
+      ],
+      "names": {
+        "Bryan Drew": "Bryan Drew",
+        "Margaret Croke": "Margaret Croke"
+      },
+      "ballotOrder": ["Bryan Drew", "Margaret Croke"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": ["chicago-boe:county-assessor", "cook-clerk:210500"],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Assessor, Cook County"
+        },
+        {
+          "source": "cook",
+          "title": "Assessor, Cook County"
+        }
+      ],
+      "names": {
+        "Pat Hynes": "Pat Hynes",
+        "Nico Tsatsoulis": "Nico Tsatsoulis"
+      },
+      "ballotOrder": ["Pat Hynes", "Nico Tsatsoulis"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": ["chicago-boe:county-clerk", "cook-clerk:210200"],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Clerk, Cook County"
+        },
+        {
+          "source": "cook",
+          "title": "Clerk, Cook County"
+        }
+      ],
+      "names": {
+        "Monica Gordon": "Monica Gordon"
+      },
+      "ballotOrder": ["Monica Gordon"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:county-commissioner-10th-district",
+        "cook-clerk:221000"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Commissioner, County Board 10th District"
+        },
+        {
+          "source": "cook",
+          "title": "Commissioner, County Board 10th District"
+        }
+      ],
+      "names": {
+        "Drake Warren": "Drake Warren"
+      },
+      "ballotOrder": ["Drake Warren"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:county-commissioner-11th-district",
+        "cook-clerk:221100"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Commissioner, County Board 11th District"
+        },
+        {
+          "source": "cook",
+          "title": "Commissioner, County Board 11th District"
+        }
+      ],
+      "names": {
+        "Charles Spizzirri": "Charles Spizzirri",
+        "John P. Daley": "John P. Daley"
+      },
+      "ballotOrder": ["Charles Spizzirri", "John P. Daley"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:county-commissioner-12th-district",
+        "cook-clerk:221200"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Commissioner, County Board 12th District"
+        }
+      ],
+      "names": {
+        "Xiaoli \"Alice\" Hu": "Xiaoli \"Alice\" Hu",
+        "Elizabeth Granato": "Elizabeth Granato"
+      },
+      "ballotOrder": ["Xiaoli \"Alice\" Hu", "Elizabeth Granato"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:county-commissioner-13th-district",
+        "cook-clerk:221300"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Commissioner, County Board 13th District"
+        },
+        {
+          "source": "cook",
+          "title": "Commissioner, County Board 13th District"
+        }
+      ],
+      "names": {
+        "Aasi Siddique": "Aasi Siddique",
+        "Josina Morita": "Josina Morita"
+      },
+      "ballotOrder": ["Aasi Siddique", "Josina Morita"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:county-commissioner-16th-district",
+        "cook-clerk:221600"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Commissioner, County Board 16th District"
+        },
+        {
+          "source": "cook",
+          "title": "Commissioner, County Board 16th District"
+        }
+      ],
+      "names": {
+        "Miranda E. Hernandez": "Miranda E. Hernandez"
+      },
+      "ballotOrder": ["Miranda E. Hernandez"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:county-commissioner-1st-district",
+        "cook-clerk:220100"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Commissioner, County Board 1st District"
+        },
+        {
+          "source": "cook",
+          "title": "Commissioner, County Board 1st District"
+        }
+      ],
+      "names": {
+        "Tara Stamps": "Tara Stamps"
+      },
+      "ballotOrder": ["Tara Stamps"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:county-commissioner-2nd-district",
+        "cook-clerk:220200"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Commissioner, County Board 2nd District"
+        }
+      ],
+      "names": {
+        "Michael Scott, Jr.": "Michael Scott, Jr."
+      },
+      "ballotOrder": ["Michael Scott, Jr."],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:county-commissioner-3rd-district",
+        "cook-clerk:220300"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Commissioner, County Board 3rd District"
+        }
+      ],
+      "names": {
+        "Bill Lowry": "Bill Lowry"
+      },
+      "ballotOrder": ["Bill Lowry"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:county-commissioner-4th-district",
+        "cook-clerk:220400"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Commissioner, County Board 4th District"
+        },
+        {
+          "source": "cook",
+          "title": "Commissioner, County Board 4th District"
+        }
+      ],
+      "names": {
+        "Stanley S. Moore": "Stanley S. Moore"
+      },
+      "ballotOrder": ["Stanley S. Moore"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:county-commissioner-5th-district",
+        "cook-clerk:220500"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Commissioner, County Board 5th District"
+        },
+        {
+          "source": "cook",
+          "title": "Commissioner, County Board 5th District"
+        }
+      ],
+      "names": {
+        "Richard Nolan": "Richard Nolan",
+        "Kisha E. McCaskill": "Kisha E. McCaskill"
+      },
+      "ballotOrder": ["Richard Nolan", "Kisha E. McCaskill"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:county-commissioner-7th-district",
+        "cook-clerk:220700"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Commissioner, County Board 7th District"
+        }
+      ],
+      "names": {
+        "Alma E. Anaya": "Alma E. Anaya"
+      },
+      "ballotOrder": ["Alma E. Anaya"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:county-commissioner-8th-district",
+        "cook-clerk:220800"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Commissioner, County Board 8th District"
+        }
+      ],
+      "names": {
+        "Ramona Bonilla-Anaiel": "Ramona Bonilla-Anaiel",
+        "Jessica Vasquez": "Jessica Vasquez"
+      },
+      "ballotOrder": ["Ramona Bonilla-Anaiel", "Jessica Vasquez"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:county-commissioner-9th-district",
+        "cook-clerk:220900"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Commissioner, County Board 9th District"
+        },
+        {
+          "source": "cook",
+          "title": "Commissioner, County Board 9th District"
+        }
+      ],
+      "names": {
+        "Jon Luers": "Jon Luers",
+        "Maggie Trevor": "Maggie Trevor"
+      },
+      "ballotOrder": ["Jon Luers", "Maggie Trevor"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": ["chicago-boe:county-sheriff", "cook-clerk:210300"],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Sheriff, Cook County"
+        },
+        {
+          "source": "cook",
+          "title": "Sheriff, Cook County"
+        }
+      ],
+      "names": {
+        "Thomas J. Dart": "Thomas J. Dart",
+        "Brad Sandefur": "Brad Sandefur"
+      },
+      "ballotOrder": ["Thomas J. Dart", "Brad Sandefur"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": ["chicago-boe:county-treasurer", "cook-clerk:210400"],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Treasurer, Cook County"
+        },
+        {
+          "source": "cook",
+          "title": "Treasurer, Cook County"
+        }
+      ],
+      "names": {
+        "Maria Pappas": "Maria Pappas"
+      },
+      "ballotOrder": ["Maria Pappas"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:governor-lieutenant-governor",
+        "cook-clerk:130030"
+      ],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Governor & Lieutenant Governor, Illinois"
+        },
+        {
+          "source": "cook",
+          "title": "Governor & Lieutenant Governor, Illinois"
+        }
+      ],
+      "names": {
+        "Darren Bailey & Aaron B. Del Mar": "Darren Bailey & Aaron B. Del Mar",
+        "JB Pritzker & Christian Mitchell": "JB Pritzker & Christian Mitchell",
+        "Collin Corbett & Carolyn Schofield": "Collin Corbett & Carolyn Schofield"
+      },
+      "ballotOrder": [
+        "Darren Bailey & Aaron B. Del Mar",
+        "JB Pritzker & Christian Mitchell",
+        "Collin Corbett & Carolyn Schofield"
+      ],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04",
+      "apUrl": "https://apnews.com/projects/elections-2026/illinois-governor-results/"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:judge-11th-subcircuit-vacancy-of-mclean-meyerson",
+        "cook-clerk:341110:vacancy-of-mclean-meyerson"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Judge, 11th Subcircuit (Vacancy of McLean Meyerson)"
+        },
+        {
+          "source": "cook",
+          "title": "Judge, 11th Subcircuit (Vacancy of McLean Meyerson)"
+        }
+      ],
+      "names": {
+        "Jarrett Knox": "Jarrett Knox"
+      },
+      "ballotOrder": ["Jarrett Knox"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:judge-11th-subcircuit-vacancy-of-roberts",
+        "cook-clerk:341120:vacancy-of-roberts"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Judge, 11th Subcircuit (Vacancy of Roberts)"
+        },
+        {
+          "source": "cook",
+          "title": "Judge, 11th Subcircuit (Vacancy of Roberts)"
+        }
+      ],
+      "names": {
+        "Kim Przekota": "Kim Przekota"
+      },
+      "ballotOrder": ["Kim Przekota"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:judge-16th-subcircuit-converted-from-associate-judgeship-of-baird",
+        "cook-clerk:341610:converted-from-associate-judgeship-of-baird"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Judge, 16th Subcircuit (Vacancy of Baird)"
+        },
+        {
+          "source": "cook",
+          "title": "Judge, 16th Subcircuit (Vacancy of Baird)"
+        }
+      ],
+      "names": {
+        "Julian Sanchez Crozier": "Julian Sanchez Crozier"
+      },
+      "ballotOrder": ["Julian Sanchez Crozier"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:judge-16th-subcircuit-converted-from-associate-judgeship-of-mendoza",
+        "cook-clerk:341620:converted-from-associate-judgeship-of-mendoza"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Judge, 16th Subcircuit (Vacancy of Mendoza)"
+        },
+        {
+          "source": "cook",
+          "title": "Judge, 16th Subcircuit (Vacancy of Mendoza)"
+        }
+      ],
+      "names": {
+        "Jessica Karina Velez": "Jessica Karina Velez"
+      },
+      "ballotOrder": ["Jessica Karina Velez"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:judge-17th-subcircuit-converted-from-associate-judgeship-of-brooks",
+        "cook-clerk:341710:converted-from-associate-judgeship-of-brooks"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Judge, 17th Subcircuit (Vacancy of Brooks)"
+        },
+        {
+          "source": "cook",
+          "title": "Judge, 17th Subcircuit (Vacancy of Brooks)"
+        }
+      ],
+      "names": {
+        "Natalia Moore": "Natalia Moore"
+      },
+      "ballotOrder": ["Natalia Moore"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:judge-17th-subcircuit-converted-from-associate-judgeship-of-carroll",
+        "cook-clerk:341720:converted-from-associate-judgeship-of-carroll"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Judge, 17th Subcircuit (Vacancy of Carroll)"
+        },
+        {
+          "source": "cook",
+          "title": "Judge, 17th Subcircuit (Vacancy of Carroll)"
+        }
+      ],
+      "names": {
+        "Bianca B. Brown": "Bianca B. Brown"
+      },
+      "ballotOrder": ["Bianca B. Brown"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:judge-19th-subcircuit-converted-from-associate-judgeship-of-fairman",
+        "cook-clerk:341910:converted-from-associate-judgeship-of-fairman"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Judge, 19th Subcircuit (Vacancy of Fairman)"
+        },
+        {
+          "source": "cook",
+          "title": "Judge, 19th Subcircuit (Vacancy of Fairman)"
+        }
+      ],
+      "names": {
+        "Sara McGann": "Sara McGann"
+      },
+      "ballotOrder": ["Sara McGann"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:judge-19th-subcircuit-converted-from-associate-judgeship-of-kane",
+        "cook-clerk:341910:converted-from-associate-judgeship-of-kane"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Judge, 19th Subcircuit (Vacancy of Kane)"
+        },
+        {
+          "source": "cook",
+          "title": "Judge, 19th Subcircuit (Vacancy of Kane)"
+        }
+      ],
+      "names": {
+        "Monica Somerville": "Monica Somerville"
+      },
+      "ballotOrder": ["Monica Somerville"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:judge-1st-subcircuit-vacancy-of-balanoff",
+        "cook-clerk:340110:vacancy-of-balanoff"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Judge, 1st Subcircuit (Vacancy of Balanoff)"
+        }
+      ],
+      "names": {
+        "Radiance Ward": "Radiance Ward"
+      },
+      "ballotOrder": ["Radiance Ward"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:judge-1st-subcircuit-vacancy-of-walker",
+        "cook-clerk:340120:vacancy-of-walker"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Judge, 1st Subcircuit (Vacancy of Walker)"
+        }
+      ],
+      "names": {
+        "Ashley Greer Shambley": "Ashley Greer Shambley"
+      },
+      "ballotOrder": ["Ashley Greer Shambley"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:judge-20th-subcircuit-converted-from-associate-judgeship-of-haracz",
+        "cook-clerk:342010:converted-from-associate-judgeship-of-haracz"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Judge, 20th Subcircuit (Vacancy of Haracz)"
+        }
+      ],
+      "names": {
+        "Michael J. Zink": "Michael J. Zink"
+      },
+      "ballotOrder": ["Michael J. Zink"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:judge-20th-subcircuit-converted-from-associate-judgeship-of-miller",
+        "cook-clerk:342010:converted-from-associate-judgeship-of-miller"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Judge, 20th Subcircuit (Vacancy of Miller)"
+        }
+      ],
+      "names": {
+        "Jon Stromsta": "Jon Stromsta"
+      },
+      "ballotOrder": ["Jon Stromsta"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:judge-3rd-subcircuit-vacancy-of-murphy",
+        "cook-clerk:340310:vacancy-of-murphy"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Judge, 3rd Subcircuit (Vacancy of Murphy)"
+        },
+        {
+          "source": "cook",
+          "title": "Judge, 3rd Subcircuit (Vacancy of Murphy)"
+        }
+      ],
+      "names": {
+        "John Carroll": "John Carroll"
+      },
+      "ballotOrder": ["John Carroll"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:judge-3rd-subcircuit-vacancy-of-sherlock",
+        "cook-clerk:340320:vacancy-of-sherlock"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Judge, 3rd Subcircuit (Vacancy of Sherlock)"
+        },
+        {
+          "source": "cook",
+          "title": "Judge, 3rd Subcircuit (Vacancy of Sherlock)"
+        }
+      ],
+      "names": {
+        "Rachel Marrello": "Rachel Marrello"
+      },
+      "ballotOrder": ["Rachel Marrello"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:judge-5th-subcircuit-vacancy-of-ross",
+        "cook-clerk:340510:vacancy-of-ross"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Judge, 5th Subcircuit (Vacancy of Ross)"
+        }
+      ],
+      "names": {
+        "Stephanie S. Kelly": "Stephanie S. Kelly"
+      },
+      "ballotOrder": ["Stephanie S. Kelly"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:judge-8th-subcircuit-vacancy-of-gamrath",
+        "cook-clerk:340810:vacancy-of-gamrath"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Judge, 8th Subcircuit (Vacancy of Gamrath)"
+        }
+      ],
+      "names": {
+        "Kathleen Cunniff Ori": "Kathleen Cunniff Ori"
+      },
+      "ballotOrder": ["Kathleen Cunniff Ori"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:judge-8th-subcircuit-vacancy-of-mikva",
+        "cook-clerk:340820:vacancy-of-mikva"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Judge, 8th Subcircuit (Vacancy of Mikva)"
+        }
+      ],
+      "names": {
+        "Lester Finkle": "Lester Finkle"
+      },
+      "ballotOrder": ["Lester Finkle"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:judge-of-the-appellate-court-vacancy-of-hoffman",
+        "cook-clerk:320105:vacancy-of-hoffman"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Appellate Court Judge (Vacancy of Hoffman)"
+        },
+        {
+          "source": "cook",
+          "title": "Appellate Court Judge (Vacancy of Hoffman)"
+        }
+      ],
+      "names": {
+        "Judith C. Rice": "Judith C. Rice"
+      },
+      "ballotOrder": ["Judith C. Rice"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:judge-of-the-circuit-court-vacancy-of-burke",
+        "cook-clerk:330100:vacancy-of-burke"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Circuit Court Judge (Vacancy of Burke)"
+        },
+        {
+          "source": "cook",
+          "title": "Circuit Court Judge (Vacancy of Burke)"
+        }
+      ],
+      "names": {
+        "Steven Q. McKenzie": "Steven Q. McKenzie"
+      },
+      "ballotOrder": ["Steven Q. McKenzie"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:judge-of-the-circuit-court-vacancy-of-cobbs",
+        "cook-clerk:330105:vacancy-of-cobbs"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Circuit Court Judge (Vacancy of Cobbs)"
+        },
+        {
+          "source": "cook",
+          "title": "Circuit Court Judge (Vacancy of Cobbs)"
+        }
+      ],
+      "names": {
+        "Luz Maria Toledo": "Luz Maria Toledo"
+      },
+      "ballotOrder": ["Luz Maria Toledo"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:judge-of-the-circuit-court-vacancy-of-coghlan",
+        "cook-clerk:330110:vacancy-of-coghlan"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Circuit Court Judge (Vacancy of Coghlan)"
+        },
+        {
+          "source": "cook",
+          "title": "Circuit Court Judge (Vacancy of Coghlan)"
+        }
+      ],
+      "names": {
+        "Ashonta C. Rice": "Ashonta C. Rice"
+      },
+      "ballotOrder": ["Ashonta C. Rice"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:judge-of-the-circuit-court-vacancy-of-hooks",
+        "cook-clerk:330115:vacancy-of-hooks"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Circuit Court Judge (Vacancy of Hooks)"
+        },
+        {
+          "source": "cook",
+          "title": "Circuit Court Judge (Vacancy of Hooks)"
+        }
+      ],
+      "names": {
+        "Ava George Stewart": "Ava George Stewart"
+      },
+      "ballotOrder": ["Ava George Stewart"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:judge-of-the-circuit-court-vacancy-of-karkula",
+        "cook-clerk:330120:vacancy-of-karkula"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Circuit Court Judge (Vacancy of Karkula)"
+        },
+        {
+          "source": "cook",
+          "title": "Circuit Court Judge (Vacancy of Karkula)"
+        }
+      ],
+      "names": {
+        "D'Anthony \"Tony\" Thedford": "D'Anthony \"Tony\" Thedford"
+      },
+      "ballotOrder": ["D'Anthony \"Tony\" Thedford"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-10a"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Member, Board of Education, Subdistrict 10A"
+        }
+      ],
+      "names": {
+        "Che \"Rhymefest\" Smith": "Che \"Rhymefest\" Smith"
+      },
+      "ballotOrder": ["Che \"Rhymefest\" Smith"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-10b"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Member, Board of Education, Subdistrict 10B"
+        }
+      ],
+      "names": {
+        "Connie Anderson": "Connie Anderson",
+        "Patrick C. Watson": "Patrick C. Watson"
+      },
+      "ballotOrder": ["Connie Anderson", "Patrick C. Watson"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-1a"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Member, Board of Education, Subdistrict 1A"
+        }
+      ],
+      "names": {
+        "Ed Bannon": "Ed Bannon",
+        "Margie B. Luczak": "Margie B. Luczak"
+      },
+      "ballotOrder": ["Ed Bannon", "Margie B. Luczak"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-1b"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Member, Board of Education, Subdistrict 1B"
+        }
+      ],
+      "names": {
+        "Claudia Peralta": "Claudia Peralta",
+        "Michelle N. Pierre": "Michelle N. Pierre"
+      },
+      "ballotOrder": ["Claudia Peralta", "Michelle N. Pierre"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-2a"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Member, Board of Education, Subdistrict 2A"
+        }
+      ],
+      "names": {
+        "Ebony DeBerry": "Ebony DeBerry",
+        "Hector Morales": "Hector Morales"
+      },
+      "ballotOrder": ["Ebony DeBerry", "Hector Morales"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-2b"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Member, Board of Education, Subdistrict 2B"
+        }
+      ],
+      "names": {
+        "Deborah \"Debby\" Pope": "Deborah \"Debby\" Pope",
+        "Kyna Lenhof": "Kyna Lenhof",
+        "Daniel Basco": "Daniel Basco"
+      },
+      "ballotOrder": ["Deborah \"Debby\" Pope", "Kyna Lenhof", "Daniel Basco"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-3a"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Member, Board of Education, Subdistrict 3A"
+        }
+      ],
+      "names": {
+        "Norma Rios Sierra": "Norma Rios Sierra",
+        "Peter Gonzales": "Peter Gonzales"
+      },
+      "ballotOrder": ["Norma Rios Sierra", "Peter Gonzales"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-3b"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Member, Board of Education, Subdistrict 3B"
+        }
+      ],
+      "names": {
+        "Carlos A. Rivas Jr.": "Carlos A. Rivas Jr.",
+        "Jason D\u00f3nes": "Jason D\u00f3nes"
+      },
+      "ballotOrder": ["Jason D\u00f3nes", "Carlos A. Rivas Jr."],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-4a"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Member, Board of Education, Subdistrict 4A"
+        }
+      ],
+      "names": {
+        "Ellen Sherratt": "Ellen Sherratt",
+        "Karen Zaccor": "Karen Zaccor",
+        "Angel Alvarez": "Angel Alvarez"
+      },
+      "ballotOrder": ["Ellen Sherratt", "Karen Zaccor", "Angel Alvarez"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-4b"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Member, Board of Education, Subdistrict 4B"
+        }
+      ],
+      "names": {
+        "Ellen Rosenfeld": "Ellen Rosenfeld"
+      },
+      "ballotOrder": ["Ellen Rosenfeld"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-5a"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Member, Board of Education, Subdistrict 5A"
+        }
+      ],
+      "names": {
+        "LaPamela Williams": "LaPamela Williams",
+        "Aaron \"Jitu\" Brown": "Aaron \"Jitu\" Brown"
+      },
+      "ballotOrder": ["LaPamela Williams", "Aaron \"Jitu\" Brown"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-5b"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Member, Board of Education, Subdistrict 5B"
+        }
+      ],
+      "names": {
+        "Michilla \"Kyla\" Blaise": "Michilla \"Kyla\" Blaise",
+        "Anthony Hargrove": "Anthony Hargrove"
+      },
+      "ballotOrder": ["Michilla \"Kyla\" Blaise", "Anthony Hargrove"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-6a"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Member, Board of Education, Subdistrict 6A"
+        }
+      ],
+      "names": {
+        "Anusha Thotakura": "Anusha Thotakura",
+        "Isaiah White": "Isaiah White",
+        "Brenda Lee Anderson": "Brenda Lee Anderson"
+      },
+      "ballotOrder": [
+        "Anusha Thotakura",
+        "Isaiah White",
+        "Brenda Lee Anderson"
+      ],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-6b"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Member, Board of Education, Subdistrict 6B"
+        }
+      ],
+      "names": {
+        "Michael L. Neal": "Michael L. Neal",
+        "Brittany B. Kimble": "Brittany B. Kimble"
+      },
+      "ballotOrder": ["Michael L. Neal", "Brittany B. Kimble"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-7a"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Member, Board of Education, Subdistrict 7A"
+        }
+      ],
+      "names": {
+        "Emma Lozano": "Emma Lozano",
+        "Jesus Ayala Jr.": "Jesus Ayala Jr."
+      },
+      "ballotOrder": ["Emma Lozano", "Jesus Ayala Jr."],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-7b"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Member, Board of Education, Subdistrict 7B"
+        }
+      ],
+      "names": {
+        "Yesenia Lopez": "Yesenia Lopez",
+        "Erika E. Diaz-Chavez": "Erika E. Diaz-Chavez"
+      },
+      "ballotOrder": ["Yesenia Lopez", "Erika E. Diaz-Chavez"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-8a"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Member, Board of Education, Subdistrict 8A"
+        }
+      ],
+      "names": {
+        "Angel Gutierrez": "Angel Gutierrez"
+      },
+      "ballotOrder": ["Angel Gutierrez"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-8b"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Member, Board of Education, Subdistrict 8B"
+        }
+      ],
+      "names": {
+        "Juan Ignacio Gonzalez": "Juan Ignacio Gonzalez"
+      },
+      "ballotOrder": ["Juan Ignacio Gonzalez"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-9a"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Member, Board of Education, Subdistrict 9A"
+        }
+      ],
+      "names": {
+        "Brittany R. Bailey Preston": "Brittany R. Bailey Preston"
+      },
+      "ballotOrder": ["Brittany R. Bailey Preston"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:member-of-the-chicago-board-of-education-subdistrict-9b"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Member, Board of Education, Subdistrict 9B"
+        }
+      ],
+      "names": {
+        "Therese Boyle": "Therese Boyle",
+        "Katherine S. Dunneback": "Katherine S. Dunneback"
+      },
+      "ballotOrder": ["Therese Boyle", "Katherine S. Dunneback"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:metropolitan-water-reclamation-district-commissioners-full-6-year-term",
+        "cook-clerk:190100"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Commissioner, Water Reclamation Dist"
+        },
+        {
+          "source": "cook",
+          "title": "Commissioner, Water Reclamation Dist"
+        }
+      ],
+      "names": {
+        "Michelle Pennington": "Michelle Pennington",
+        "Timothy E. Rueckert": "Timothy E. Rueckert",
+        "Jill B. Shestokas": "Jill B. Shestokas",
+        "Precious Brady-Davis": "Precious Brady-Davis",
+        "Beth McElroy Kirkwood": "Beth McElroy Kirkwood",
+        "Eira Lizeth Corral Sep&#250;lveda": "Eira Lizeth Corral Sep\u00falveda",
+        "Eira Lizeth Corral Sep\u00falveda": "Eira Lizeth Corral Sep\u00falveda"
+      },
+      "ballotOrder": [
+        "Michelle Pennington",
+        "Timothy E. Rueckert",
+        "Jill B. Shestokas",
+        "Precious Brady-Davis",
+        "Eira Lizeth Corral Sep\u00falveda",
+        "Beth McElroy Kirkwood"
+      ],
+      "voteFor": 3,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:metropolitan-water-reclamation-district-commissioners-unexpired-2-year-term",
+        "cook-clerk:190200:unexpired-term"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Commissioner, Water Reclamation Dist 2 yr"
+        },
+        {
+          "source": "cook",
+          "title": "Commissioner, Water Reclamation Dist 2 yr"
+        }
+      ],
+      "names": {
+        "Cameron \"Cam\" Davis": "Cameron \"Cam\" Davis"
+      },
+      "ballotOrder": ["Cameron \"Cam\" Davis"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:president-of-county-board",
+        "cook-clerk:210100"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Board President, Cook County"
+        },
+        {
+          "source": "cook",
+          "title": "Board President, Cook County"
+        }
+      ],
+      "names": {
+        "Toni Preckwinkle": "Toni Preckwinkle",
+        "Michael Murphy": "Michael Murphy"
+      },
+      "ballotOrder": ["Toni Preckwinkle", "Michael Murphy"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": ["chicago-boe:president-of-the-chicago-board-of-education"],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "President, Board of Education"
+        }
+      ],
+      "names": {
+        "Victor P. Henderson": "Victor P. Henderson",
+        "Jessica Biggs": "Jessica Biggs",
+        "Sendhil Revuluri": "Sendhil Revuluri",
+        "Hilario Dominguez": "Hilario Dominguez"
+      },
+      "ballotOrder": [
+        "Victor P. Henderson",
+        "Jessica Biggs",
+        "Sendhil Revuluri",
+        "Hilario Dominguez"
+      ],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:chicago-public-schools-district-299:advisory-question-regarding-chicago-land-owners"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "ADVISORY QUESTION REGARDING CHICAGO LAND OWNERS"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:chicago-public-schools-district-299:advisory-question-regarding-millionaires-surcharge"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "ADVISORY QUESTION REGARDING MILLIONAIRES SURCHARGE"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:cook-county:the-cook-county-millionaire-amendment-for-property-tax-relief-and-education",
+        "cook-clerk:ref:03-CCTY-000:cook-county-millionaire-tax-amendment"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "The Cook County Millionaire Amendment for Property Tax Relief"
+        },
+        {
+          "source": "cook",
+          "title": "Cook County, Millionaire Tax Amendment"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:the-10th-precinct-of-the-21st-ward:continue-to-prohibit-status-of-retail-alcohol-sales-in-ward-21-precinct-10"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "noOfficialCount": "Not in the Chicago Board of Election Commissioners results file.",
+      "threshold": 0.5,
+      "official": [],
+      "names": {},
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:the-12th-precinct-of-the-24th-ward:500-employee-corporate-tax-for-youth-jobs-and-social-services"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "500+ employee corporate tax for social services W24 P12"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:the-13th-precinct-of-the-7th-ward:chicago-lakefront-national-park"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Chicago Lakefront National Park W07 P13"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:the-14th-precinct-of-the-5th-ward:500-employee-corporate-tax-for-youth-jobs-and-social-services"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "500+ employee corporate tax for social services W05 P14"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:the-14th-precinct-of-the-7th-ward:ensure-remediation-of-former-south-works-site"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Ensure remediation of South Works site W07 P14"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:the-14th-precinct-of-the-7th-ward:government-support-for-quantum-facility-and-data-center-at-former-south-works-site"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Govt support for quantum facility at South Works W07 P14"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:the-1st-precinct-of-the-5th-ward:500-employee-corporate-tax-for-youth-jobs-and-social-services"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "500+ employee corporate tax for social services W05 P01"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:the-23rd-precinct-of-the-8th-ward:500-employee-corporate-tax-for-youth-jobs-and-social-services"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "500+ employee corporate tax for social services W08 P23"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:the-25th-precinct-of-the-21st-ward:500-employee-corporate-tax-for-youth-jobs-and-social-services"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "500+ employee corporate tax for social services W21 P25"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:the-26th-precinct-of-the-8th-ward:500-employee-corporate-tax-for-youth-jobs-and-social-services"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "500+ employee corporate tax for social services W08 P26"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:the-26th-ward:shared-housing-limits-in-26th-ward"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Shared Housing Limits W26"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:the-27th-precinct-of-the-8th-ward:500-employee-corporate-tax-for-youth-jobs-and-social-services"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "500+ employee corporate tax for social services W08 P27"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:the-2nd-precinct-of-the-10th-ward:ensure-remediation-of-former-south-works-site"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Ensure remediation of South Works site W10 P02"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:the-2nd-precinct-of-the-10th-ward:government-support-for-quantum-facility-and-data-center-at-former-south-works-site"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Govt support for quantum facility at South Works W10 P02"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:the-4th-precinct-of-the-10th-ward:ensure-remediation-of-former-south-works-site"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Ensure remediation of South Works site W10 P04"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:the-4th-precinct-of-the-10th-ward:government-support-for-quantum-facility-and-data-center-at-former-south-works-site"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Govt support for quantum facility at South Works W10 P04"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:the-4th-ward:jesse-jackson-monument-statue"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Jesse Jackson monument statue W04"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:the-5th-precinct-of-the-24th-ward:500-employee-corporate-tax-for-youth-jobs-and-social-services"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "500+ employee corporate tax for social services W24 P05"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:the-6th-precinct-of-the-24th-ward:500-employee-corporate-tax-for-youth-jobs-and-social-services"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "500+ employee corporate tax for social services W24 P06"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:the-city-of-chicago:chicago-cost-recovery-from-midway-blitz"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Chicago Cost Recovery from Midway Blitz"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:the-city-of-chicago:permanent-chicago-festival-space"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Permanent Chicago Festival Space"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:the-city-of-chicago:restart-chicago-gunshot-detection"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Restart Chicago Gunshot Detection"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:the-proposed-far-southwest-side-expanded-mental-health-services-program-area:2027-property-tax-extension-far-southwest-side-expanded-mental-health-services"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "2027 Property Tax Extension Far Southwest Side Expanded MHS"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:the-proposed-far-southwest-side-expanded-mental-health-services-program-area:far-southwest-side-expanded-mental-health-services"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Far Southwest Side Expanded Mental Health Services"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:the-proposed-mid-northside-expanded-mental-health-services-program-area:2027-property-tax-extension-mid-northside-expanded-mental-health-services"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "2027 Property Tax Extension Mid-Northside Expanded MHS"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:ref:the-proposed-mid-northside-expanded-mental-health-services-program-area:mid-northside-expanded-mental-health-services"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Mid-Northside Expanded Mental Health Services"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:abbey-fishman-romanek",
+        "cook-clerk:720001:abbey-fishman-romanek"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Abbey Fishman Romanek"
+        },
+        {
+          "source": "cook",
+          "title": "Abbey Fishman Romanek"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:andrea-m-buford",
+        "cook-clerk:720001:andrea-m-buford"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Andrea M. Buford"
+        },
+        {
+          "source": "cook",
+          "title": "Andrea M. Buford"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:anjana-m-j-hansen",
+        "cook-clerk:720001:anjana-m-j-hansen"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Anjana M.J. Hansen"
+        },
+        {
+          "source": "cook",
+          "title": "Anjana M.J. Hansen"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:anthony-c-tony-kyriakopoulos",
+        "cook-clerk:720001:anthony-c-tony-kyriakopoulos"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Anthony C. \"Tony\" Kyriakopoulos"
+        },
+        {
+          "source": "cook",
+          "title": "Anthony C. \u201cTony\u201d Kyriakopoulos"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:bertina-e-lampkin",
+        "cook-clerk:710100:bertina-e-lampkin"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Bertina E. Lampkin"
+        },
+        {
+          "source": "cook",
+          "title": "Bertina E. Lampkin"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:bridget-anne-mitchell",
+        "cook-clerk:720001:bridget-anne-mitchell"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Bridget Anne Mitchell"
+        },
+        {
+          "source": "cook",
+          "title": "Bridget Anne Mitchell"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:caroline-kate-moreland",
+        "cook-clerk:720001:caroline-kate-moreland"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Caroline Kate Moreland"
+        },
+        {
+          "source": "cook",
+          "title": "Caroline Kate Moreland"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:celestia-l-mays",
+        "cook-clerk:720001:celestia-l-mays"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Celestia L. Mays"
+        },
+        {
+          "source": "cook",
+          "title": "Celestia L. Mays"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:chris-stacey",
+        "cook-clerk:720001:chris-stacey"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Chris Stacey"
+        },
+        {
+          "source": "cook",
+          "title": "Chris Stacey"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:daniel-edward-maloney",
+        "cook-clerk:720001:daniel-edward-maloney"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Daniel Edward Maloney"
+        },
+        {
+          "source": "cook",
+          "title": "Daniel Edward Maloney"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:diana-l-kenworthy",
+        "cook-clerk:720001:diana-l-kenworthy"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Diana L. Kenworthy"
+        },
+        {
+          "source": "cook",
+          "title": "Diana L. Kenworthy"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:edward-a-arce",
+        "cook-clerk:720001:edward-a-arce"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Edward A. Arce"
+        },
+        {
+          "source": "cook",
+          "title": "Edward A. Arce"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:eileen-marie-o-connor",
+        "cook-clerk:720001:eileen-marie-o-connor"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Eileen Marie O'Connor"
+        },
+        {
+          "source": "cook",
+          "title": "Eileen Marie O'Connor"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:elizabeth-anne-walsh",
+        "cook-clerk:720001:elizabeth-anne-walsh"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Elizabeth Anne Walsh"
+        },
+        {
+          "source": "cook",
+          "title": "Elizabeth Anne Walsh"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:erin-haggerty-antonietti",
+        "cook-clerk:720001:erin-haggerty-antonietti"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Erin Haggerty Antonietti"
+        },
+        {
+          "source": "cook",
+          "title": "Erin Haggerty Antonietti"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:gerardo-tristan-jr",
+        "cook-clerk:720001:gerardo-tristan-jr"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Gerardo Tristan, Jr."
+        },
+        {
+          "source": "cook",
+          "title": "Gerardo Tristan, Jr."
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:james-p-pieczonka",
+        "cook-clerk:720001:james-p-pieczonka"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "James P. Pieczonka"
+        },
+        {
+          "source": "cook",
+          "title": "James P. Pieczonka"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:jamie-guerra-dickler",
+        "cook-clerk:720001:jamie-guerra-dickler"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Jamie Guerra Dickler"
+        },
+        {
+          "source": "cook",
+          "title": "Jamie Guerra Dickler"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:jill-rose-quinn",
+        "cook-clerk:720001:jill-rose-quinn"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Jill Rose Quinn"
+        },
+        {
+          "source": "cook",
+          "title": "Jill Rose Quinn"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:joan-e-powell",
+        "cook-clerk:720001:joan-e-powell"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Joan E. Powell"
+        },
+        {
+          "source": "cook",
+          "title": "Joan E. Powell"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:john-g-mulroe",
+        "cook-clerk:720001:john-g-mulroe"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "John G. Mulroe"
+        },
+        {
+          "source": "cook",
+          "title": "John G. Mulroe"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:john-michael-allegretti",
+        "cook-clerk:720001:john-michael-allegretti"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "John Michael Allegretti"
+        },
+        {
+          "source": "cook",
+          "title": "John Michael Allegretti"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:jonathan-clark-green",
+        "cook-clerk:720001:jonathan-clark-green"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Jonathan Clark Green"
+        },
+        {
+          "source": "cook",
+          "title": "Jonathan Clark Green"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:judith-c-rice",
+        "cook-clerk:720001:judith-c-rice"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Judith C. Rice"
+        },
+        {
+          "source": "cook",
+          "title": "Judith C. Rice"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:julie-bess-aimen",
+        "cook-clerk:720001:julie-bess-aimen"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Julie Bess Aimen"
+        },
+        {
+          "source": "cook",
+          "title": "Julie Bess Aimen"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:kerry-m-kennedy",
+        "cook-clerk:720001:kerry-m-kennedy"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Kerry M. Kennedy"
+        },
+        {
+          "source": "cook",
+          "title": "Kerry M. Kennedy"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:krista-d-butler",
+        "cook-clerk:720001:krista-d-butler"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Krista D. Butler"
+        },
+        {
+          "source": "cook",
+          "title": "Krista D. Butler"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:kristal-r-rivers",
+        "cook-clerk:720001:kristal-r-rivers"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Kristal R. Rivers"
+        },
+        {
+          "source": "cook",
+          "title": "Kristal R. Rivers"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:kristyna-colleen-ryan",
+        "cook-clerk:720001:kristyna-colleen-ryan"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Kristyna Colleen Ryan"
+        },
+        {
+          "source": "cook",
+          "title": "Kristyna Colleen Ryan"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:laura-ayala-gonzalez",
+        "cook-clerk:720001:laura-ayala-gonzalez"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Laura Ayala-Gonzalez"
+        },
+        {
+          "source": "cook",
+          "title": "Laura Ayala-Gonzalez"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:levander-smith-jr",
+        "cook-clerk:720001:levander-smith-jr"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Levander Smith, Jr."
+        },
+        {
+          "source": "cook",
+          "title": "Levander Smith, Jr."
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:lewis-nixon",
+        "cook-clerk:720001:lewis-nixon"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Lewis Nixon"
+        },
+        {
+          "source": "cook",
+          "title": "Lewis Nixon"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:lorraine-mary-murphy",
+        "cook-clerk:720001:lorraine-mary-murphy"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Lorraine Mary Murphy"
+        },
+        {
+          "source": "cook",
+          "title": "Lorraine Mary Murphy"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:lynn-weaver-boyle",
+        "cook-clerk:720001:lynn-weaver-boyle"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Lynn Weaver Boyle"
+        },
+        {
+          "source": "cook",
+          "title": "Lynn Weaver Boyle"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:marie-aileen-dempsey",
+        "cook-clerk:720001:marie-aileen-dempsey"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Marie Aileen Dempsey"
+        },
+        {
+          "source": "cook",
+          "title": "Marie Aileen Dempsey"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:maritza-martinez",
+        "cook-clerk:720001:maritza-martinez"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Maritza Martinez"
+        },
+        {
+          "source": "cook",
+          "title": "Maritza Martinez"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:mary-catherine-marubio",
+        "cook-clerk:720001:mary-catherine-marubio"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Mary Catherine Marubio"
+        },
+        {
+          "source": "cook",
+          "title": "Mary Catherine Marubio"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:maura-mcmahon-zeller",
+        "cook-clerk:720001:maura-mcmahon-zeller"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Maura McMahon Zeller"
+        },
+        {
+          "source": "cook",
+          "title": "Maura McMahon Zeller"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:maureen-ward-kirby",
+        "cook-clerk:720001:maureen-ward-kirby"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Maureen Ward Kirby"
+        },
+        {
+          "source": "cook",
+          "title": "Maureen Ward Kirby"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:megan-elizabeth-goldish",
+        "cook-clerk:720001:megan-elizabeth-goldish"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Megan Elizabeth Goldish"
+        },
+        {
+          "source": "cook",
+          "title": "Megan Elizabeth Goldish"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:michael-a-forti",
+        "cook-clerk:720001:michael-a-forti"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Michael A. Forti"
+        },
+        {
+          "source": "cook",
+          "title": "Michael A. Forti"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:nichole-c-patton",
+        "cook-clerk:720001:nichole-c-patton"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Nichole C. Patton"
+        },
+        {
+          "source": "cook",
+          "title": "Nichole C. Patton"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:pamela-reaves-harris",
+        "cook-clerk:720001:pamela-reaves-harris"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Pamela Reaves-Harris"
+        },
+        {
+          "source": "cook",
+          "title": "Pamela Reaves-Harris"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:patricia-maria-fallon",
+        "cook-clerk:720001:patricia-maria-fallon"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Patricia Maria Fallon"
+        },
+        {
+          "source": "cook",
+          "title": "Patricia Maria Fallon"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:patricia-o-brien-sheahan",
+        "cook-clerk:720001:patricia-o-brien-sheahan"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Patricia O'Brien Sheahan"
+        },
+        {
+          "source": "cook",
+          "title": "Patricia O\u2019Brien Sheahan"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:patrick-kevin-coughlin",
+        "cook-clerk:720001:patrick-kevin-coughlin"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Patrick Kevin Coughlin"
+        },
+        {
+          "source": "cook",
+          "title": "Patrick Kevin Coughlin"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:perla-tirado",
+        "cook-clerk:720001:perla-tirado"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Perla Tirado"
+        },
+        {
+          "source": "cook",
+          "title": "Perla Tirado"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:regina-a-mescall",
+        "cook-clerk:720001:regina-a-mescall"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Regina A. Mescall"
+        },
+        {
+          "source": "cook",
+          "title": "Regina A. Mescall"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:robert-d-kuzas",
+        "cook-clerk:720001:robert-d-kuzas"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Robert D. Kuzas"
+        },
+        {
+          "source": "cook",
+          "title": "Robert D. Kuzas"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:sheree-d-henry",
+        "cook-clerk:720001:sheree-d-henry"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Sheree D. Henry"
+        },
+        {
+          "source": "cook",
+          "title": "Sheree D. Henry"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:sondra-n-denmark",
+        "cook-clerk:720001:sondra-n-denmark"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Sondra N. Denmark"
+        },
+        {
+          "source": "cook",
+          "title": "Sondra N. Denmark"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:steven-g-watkins",
+        "cook-clerk:720001:steven-g-watkins"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Steven G. Watkins"
+        },
+        {
+          "source": "cook",
+          "title": "Steven G. Watkins"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:teresa-molina-gonzalez",
+        "cook-clerk:720001:teresa-molina-gonzalez"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Teresa Molina-Gonzalez"
+        },
+        {
+          "source": "cook",
+          "title": "Teresa Molina-Gonzalez"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:terrence-j-mcguire",
+        "cook-clerk:720001:terrence-j-mcguire"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Terrence J. McGuire"
+        },
+        {
+          "source": "cook",
+          "title": "Terrence J. McGuire"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:thomas-j-byrne",
+        "cook-clerk:720001:thomas-j-byrne"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Thomas J. Byrne"
+        },
+        {
+          "source": "cook",
+          "title": "Thomas J. Byrne"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:thomas-j-carroll",
+        "cook-clerk:720001:thomas-j-carroll"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Thomas J. Carroll"
+        },
+        {
+          "source": "cook",
+          "title": "Thomas J. Carroll"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:thomas-m-cushing",
+        "cook-clerk:720001:thomas-m-cushing"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Thomas M. Cushing"
+        },
+        {
+          "source": "cook",
+          "title": "Thomas M. Cushing"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:tiesha-l-smith",
+        "cook-clerk:720001:tiesha-l-smith"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Tiesha L. Smith"
+        },
+        {
+          "source": "cook",
+          "title": "Tiesha L. Smith"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:tyria-b-walton",
+        "cook-clerk:720001:tyria-b-walton"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Tyria B. Walton"
+        },
+        {
+          "source": "cook",
+          "title": "Tyria B. Walton"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "chicago-boe:retention:ursula-walowski",
+        "cook-clerk:720001:ursula-walowski"
+      ],
+      "kind": "retention",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.6,
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Ursula Walowski"
+        },
+        {
+          "source": "cook",
+          "title": "Ursula Walowski"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": ["chicago-boe:secretary-of-state", "cook-clerk:130050"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Secretary of State, State of Illinois"
+        },
+        {
+          "source": "cook",
+          "title": "Secretary of State, State of Illinois"
+        }
+      ],
+      "names": {
+        "Diane M. Harris": "Diane M. Harris",
+        "Alexi Giannoulias": "Alexi Giannoulias"
+      },
+      "ballotOrder": ["Diane M. Harris", "Alexi Giannoulias"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04",
+      "apUrl": "https://apnews.com/projects/elections-2026/illinois-secretary-of-state-results/"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-10th-district",
+        "cook-clerk:181000"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 10th District"
+        }
+      ],
+      "names": {
+        "Jawaharial \"Omar\" Williams": "Jawaharial \"Omar\" Williams"
+      },
+      "ballotOrder": ["Jawaharial \"Omar\" Williams"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-11th-district",
+        "cook-clerk:181100"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 11th District"
+        }
+      ],
+      "names": {
+        "Ann M. Williams": "Ann M. Williams"
+      },
+      "ballotOrder": ["Ann M. Williams"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-12th-district",
+        "cook-clerk:181200"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 12th District"
+        }
+      ],
+      "names": {
+        "Justin J. Kumar": "Justin J. Kumar",
+        "Paul Kendrick": "Paul Kendrick"
+      },
+      "ballotOrder": ["Justin J. Kumar", "Paul Kendrick"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-13th-district",
+        "cook-clerk:181300"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 13th District"
+        }
+      ],
+      "names": {
+        "Terry Nguyen Le": "Terry Nguyen Le",
+        "Demerike \"Demi\" Palecek": "Demerike \"Demi\" Palecek"
+      },
+      "ballotOrder": ["Terry Nguyen Le", "Demerike \"Demi\" Palecek"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-14th-district",
+        "cook-clerk:181400"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 14th District"
+        }
+      ],
+      "names": {
+        "Kelly M. Cassidy": "Kelly M. Cassidy"
+      },
+      "ballotOrder": ["Kelly M. Cassidy"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-15th-district",
+        "cook-clerk:181500"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 15th District"
+        },
+        {
+          "source": "cook",
+          "title": "State Representative, 15th District"
+        }
+      ],
+      "names": {
+        "Michael J. Kelly": "Michael J. Kelly"
+      },
+      "ballotOrder": ["Michael J. Kelly"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-16th-district",
+        "cook-clerk:181600"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 16th District"
+        },
+        {
+          "source": "cook",
+          "title": "State Representative, 16th District"
+        }
+      ],
+      "names": {
+        "Kevin John Olickal": "Kevin John Olickal"
+      },
+      "ballotOrder": ["Kevin John Olickal"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-18th-district",
+        "cook-clerk:181800"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 18th District"
+        },
+        {
+          "source": "cook",
+          "title": "State Representative, 18th District"
+        }
+      ],
+      "names": {
+        "Pete Donaghue": "Pete Donaghue",
+        "Robyn Gabel": "Robyn Gabel"
+      },
+      "ballotOrder": ["Pete Donaghue", "Robyn Gabel"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-19th-district",
+        "cook-clerk:181900"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 19th District"
+        },
+        {
+          "source": "cook",
+          "title": "State Representative, 19th District"
+        }
+      ],
+      "names": {
+        "John \"JZ\" Zimmers": "John \"JZ\" Zimmers",
+        "Lindsey LaPointe": "Lindsey LaPointe"
+      },
+      "ballotOrder": ["John \"JZ\" Zimmers", "Lindsey LaPointe"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-1st-district",
+        "cook-clerk:180100"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 1st District"
+        },
+        {
+          "source": "cook",
+          "title": "State Representative, 1st District"
+        }
+      ],
+      "names": {
+        "Aaron M. Ortiz": "Aaron M. Ortiz"
+      },
+      "ballotOrder": ["Aaron M. Ortiz"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-20th-district",
+        "cook-clerk:182000"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 20th District"
+        },
+        {
+          "source": "cook",
+          "title": "State Representative, 20th District"
+        }
+      ],
+      "names": {
+        "Brad Stephens": "Brad Stephens"
+      },
+      "ballotOrder": ["Brad Stephens"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-21st-district",
+        "cook-clerk:182100"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 21st District"
+        },
+        {
+          "source": "cook",
+          "title": "State Representative, 21st District"
+        }
+      ],
+      "names": {
+        "Eric Su": "Eric Su",
+        "Abdelnasser Rashid": "Abdelnasser Rashid"
+      },
+      "ballotOrder": ["Eric Su", "Abdelnasser Rashid"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-22nd-district",
+        "cook-clerk:182200"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 22nd District"
+        },
+        {
+          "source": "cook",
+          "title": "State Representative, 22nd District"
+        }
+      ],
+      "names": {
+        "Angie Guerrero-Cuellar": "Angie Guerrero-Cuellar"
+      },
+      "ballotOrder": ["Angie Guerrero-Cuellar"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-23rd-district",
+        "cook-clerk:182300"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 23rd District"
+        },
+        {
+          "source": "cook",
+          "title": "State Representative, 23rd District"
+        }
+      ],
+      "names": {
+        "Edgar Gonzalez, Jr.": "Edgar Gonzalez, Jr."
+      },
+      "ballotOrder": ["Edgar Gonzalez, Jr."],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-24th-district",
+        "cook-clerk:182400"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 24th District"
+        }
+      ],
+      "names": {
+        "Theresa Mah": "Theresa Mah"
+      },
+      "ballotOrder": ["Theresa Mah"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-25th-district",
+        "cook-clerk:182500"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 25th District"
+        }
+      ],
+      "names": {
+        "Antoinette Jewel Simmons": "Antoinette Jewel Simmons",
+        "Curtis J. Tarver II": "Curtis J. Tarver II"
+      },
+      "ballotOrder": ["Antoinette Jewel Simmons", "Curtis J. Tarver II"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-26th-district",
+        "cook-clerk:182600"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 26th District"
+        }
+      ],
+      "names": {
+        "Kam Buckner": "Kam Buckner"
+      },
+      "ballotOrder": ["Kam Buckner"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-27th-district",
+        "cook-clerk:182700"
+      ],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 27th District"
+        },
+        {
+          "source": "cook",
+          "title": "State Representative, 27th District"
+        }
+      ],
+      "names": {
+        "Justin Q. Slaughter": "Justin Q. Slaughter"
+      },
+      "ballotOrder": ["Justin Q. Slaughter"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-28th-district",
+        "cook-clerk:182800"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 28th District"
+        },
+        {
+          "source": "cook",
+          "title": "State Representative, 28th District"
+        }
+      ],
+      "names": {
+        "Robert \"Bob\" Rita": "Robert \"Bob\" Rita"
+      },
+      "ballotOrder": ["Robert \"Bob\" Rita"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-29th-district",
+        "cook-clerk:182900"
+      ],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 29th District"
+        },
+        {
+          "source": "cook",
+          "title": "State Representative, 29th District"
+        }
+      ],
+      "names": {
+        "Thaddeus Jones": "Thaddeus Jones"
+      },
+      "ballotOrder": ["Thaddeus Jones"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-31st-district",
+        "cook-clerk:183100"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 31st District"
+        },
+        {
+          "source": "cook",
+          "title": "State Representative, 31st District"
+        }
+      ],
+      "names": {
+        "Michael \"Mike\" Crawford": "Michael \"Mike\" Crawford"
+      },
+      "ballotOrder": ["Michael \"Mike\" Crawford"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-32nd-district",
+        "cook-clerk:183200"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 32nd District"
+        },
+        {
+          "source": "cook",
+          "title": "State Representative, 32nd District"
+        }
+      ],
+      "names": {
+        "Lisa J. Davis": "Lisa J. Davis"
+      },
+      "ballotOrder": ["Lisa J. Davis"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-33rd-district",
+        "cook-clerk:183300"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 33rd District"
+        },
+        {
+          "source": "cook",
+          "title": "State Representative, 33rd District"
+        }
+      ],
+      "names": {
+        "Marcus C. Evans, Jr.": "Marcus C. Evans, Jr."
+      },
+      "ballotOrder": ["Marcus C. Evans, Jr."],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-34th-district",
+        "cook-clerk:183400"
+      ],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 34th District"
+        },
+        {
+          "source": "cook",
+          "title": "State Representative, 34th District"
+        }
+      ],
+      "names": {
+        "Cleopatra \"Cleo\" Cowley": "Cleopatra \"Cleo\" Cowley"
+      },
+      "ballotOrder": ["Cleopatra \"Cleo\" Cowley"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-35th-district",
+        "cook-clerk:183500"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 35th District"
+        },
+        {
+          "source": "cook",
+          "title": "State Representative, 35th District"
+        }
+      ],
+      "names": {
+        "David A. Dewar": "David A. Dewar",
+        "Mary Gill": "Mary Gill"
+      },
+      "ballotOrder": ["David A. Dewar", "Mary Gill"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-36th-district",
+        "cook-clerk:183600"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 36th District"
+        },
+        {
+          "source": "cook",
+          "title": "State Representative, 36th District"
+        }
+      ],
+      "names": {
+        "David Sheppard": "David Sheppard",
+        "Rick Ryan": "Rick Ryan"
+      },
+      "ballotOrder": ["David Sheppard", "Rick Ryan"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-39th-district",
+        "cook-clerk:183900"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 39th District"
+        }
+      ],
+      "names": {
+        "Cesar A. Guillen": "Cesar A. Guillen",
+        "Will Guzzardi": "Will Guzzardi"
+      },
+      "ballotOrder": ["Cesar A. Guillen", "Will Guzzardi"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-3rd-district",
+        "cook-clerk:180300"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 3rd District"
+        }
+      ],
+      "names": {
+        "Eva-Dina Delgado": "Eva-Dina Delgado"
+      },
+      "ballotOrder": ["Eva-Dina Delgado"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-40th-district",
+        "cook-clerk:184000"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 40th District"
+        }
+      ],
+      "names": {
+        "Miguel Alvelo-Rivera": "Miguel Alvelo-Rivera"
+      },
+      "ballotOrder": ["Miguel Alvelo-Rivera"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-4th-district",
+        "cook-clerk:180400"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 4th District"
+        }
+      ],
+      "names": {
+        "Lilian Jimenez": "Lilian Jimenez"
+      },
+      "ballotOrder": ["Lilian Jimenez"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-55th-district",
+        "cook-clerk:185500"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 55th District"
+        },
+        {
+          "source": "cook",
+          "title": "State Representative, 55th District"
+        }
+      ],
+      "names": {
+        "Joseph Johnson": "Joseph Johnson",
+        "Justin Cochran": "Justin Cochran"
+      },
+      "ballotOrder": ["Joseph Johnson", "Justin Cochran"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-5th-district",
+        "cook-clerk:180500"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 5th District"
+        }
+      ],
+      "names": {
+        "Kimberly Neely DuBuclet": "Kimberly Neely DuBuclet"
+      },
+      "ballotOrder": ["Kimberly Neely DuBuclet"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-6th-district",
+        "cook-clerk:180600"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 6th District"
+        }
+      ],
+      "names": {
+        "Sonya Marie Harper": "Sonya Marie Harper"
+      },
+      "ballotOrder": ["Sonya Marie Harper"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-78th-district",
+        "cook-clerk:187800"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 78th District"
+        },
+        {
+          "source": "cook",
+          "title": "State Representative, 78th District"
+        }
+      ],
+      "names": {
+        "Camille Lilly": "Camille Lilly",
+        "Julian-Jahleel Randolph Jemison": "Julian-Jahleel Randolph Jemison"
+      },
+      "ballotOrder": ["Julian-Jahleel Randolph Jemison", "Camille Lilly"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-8th-district",
+        "cook-clerk:180800"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 8th District"
+        },
+        {
+          "source": "cook",
+          "title": "State Representative, 8th District"
+        }
+      ],
+      "names": {
+        "Shantel Franklin": "Shantel Franklin"
+      },
+      "ballotOrder": ["Shantel Franklin"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-representative-9th-district",
+        "cook-clerk:180900"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Representative, 9th District"
+        }
+      ],
+      "names": {
+        "Yolonda Morris": "Yolonda Morris"
+      },
+      "ballotOrder": ["Yolonda Morris"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-senator-11th-district",
+        "cook-clerk:171101"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Senator, 11th District"
+        },
+        {
+          "source": "cook",
+          "title": "State Senator, 11th District"
+        }
+      ],
+      "names": {
+        "Mike Porfirio": "Mike Porfirio"
+      },
+      "ballotOrder": ["Mike Porfirio"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-senator-12th-district",
+        "cook-clerk:171202"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Senator, 12th District"
+        },
+        {
+          "source": "cook",
+          "title": "State Senator, 12th District"
+        }
+      ],
+      "names": {
+        "Celina Villanueva": "Celina Villanueva"
+      },
+      "ballotOrder": ["Celina Villanueva"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-senator-14th-district",
+        "cook-clerk:171402"
+      ],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Senator, 14th District"
+        },
+        {
+          "source": "cook",
+          "title": "State Senator, 14th District"
+        }
+      ],
+      "names": {
+        "Brian Skala": "Brian Skala",
+        "Emil Jones, III": "Emil Jones, III"
+      },
+      "ballotOrder": ["Brian Skala", "Emil Jones, III"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-senator-15th-district",
+        "cook-clerk:171502"
+      ],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Senator, 15th District"
+        },
+        {
+          "source": "cook",
+          "title": "State Senator, 15th District"
+        }
+      ],
+      "names": {
+        "Napoleon B. Harris III": "Napoleon B. Harris III"
+      },
+      "ballotOrder": ["Napoleon B. Harris III"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-senator-17th-district",
+        "cook-clerk:171702"
+      ],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Senator, 17th District"
+        },
+        {
+          "source": "cook",
+          "title": "State Senator, 17th District"
+        }
+      ],
+      "names": {
+        "Frederick L. Walls": "Frederick L. Walls",
+        "Elgie R. Sims, Jr.": "Elgie R. Sims, Jr."
+      },
+      "ballotOrder": ["Frederick L. Walls", "Elgie R. Sims, Jr."],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-senator-18th-district",
+        "cook-clerk:171802"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Senator, 18th District"
+        },
+        {
+          "source": "cook",
+          "title": "State Senator, 18th District"
+        }
+      ],
+      "names": {
+        "Christine McGovern": "Christine McGovern",
+        "Frances Ann Hurley": "Frances Ann Hurley"
+      },
+      "ballotOrder": ["Christine McGovern", "Frances Ann Hurley"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-senator-20th-district",
+        "cook-clerk:172002"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Senator, 20th District"
+        }
+      ],
+      "names": {
+        "Graciela Guzman": "Graciela Guzman"
+      },
+      "ballotOrder": ["Graciela Guzman"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-senator-2nd-district",
+        "cook-clerk:170202"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Senator, 2nd District"
+        }
+      ],
+      "names": {
+        "Omar Aquino": "Omar Aquino"
+      },
+      "ballotOrder": ["Omar Aquino"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-senator-39th-district",
+        "cook-clerk:173902"
+      ],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Senator, 39th District"
+        },
+        {
+          "source": "cook",
+          "title": "State Senator, 39th District"
+        }
+      ],
+      "names": {
+        "Don Harmon": "Don Harmon"
+      },
+      "ballotOrder": ["Don Harmon"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-senator-3rd-district",
+        "cook-clerk:170302"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Senator, 3rd District"
+        }
+      ],
+      "names": {
+        "Mattie Hunter": "Mattie Hunter"
+      },
+      "ballotOrder": ["Mattie Hunter"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-senator-5th-district",
+        "cook-clerk:170502"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Senator, 5th District"
+        }
+      ],
+      "names": {
+        "Lakesia Collins": "Lakesia Collins"
+      },
+      "ballotOrder": ["Lakesia Collins"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-senator-6th-district",
+        "cook-clerk:170601"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Senator, 6th District"
+        }
+      ],
+      "names": {
+        "Sara Feigenholtz": "Sara Feigenholtz"
+      },
+      "ballotOrder": ["Sara Feigenholtz"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-senator-8th-district",
+        "cook-clerk:170802"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Senator, 8th District"
+        },
+        {
+          "source": "cook",
+          "title": "State Senator, 8th District"
+        }
+      ],
+      "names": {
+        "Vince Romano": "Vince Romano",
+        "Ram Villivalam": "Ram Villivalam"
+      },
+      "ballotOrder": ["Vince Romano", "Ram Villivalam"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:state-senator-9th-district",
+        "cook-clerk:170902"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "State Senator, 9th District"
+        },
+        {
+          "source": "cook",
+          "title": "State Senator, 9th District"
+        }
+      ],
+      "names": {
+        "Tom Lally": "Tom Lally",
+        "Patrick Hanley": "Patrick Hanley"
+      },
+      "ballotOrder": ["Tom Lally", "Patrick Hanley"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": ["chicago-boe:treasurer", "cook-clerk:130070"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Treasurer, State of Illinois"
+        },
+        {
+          "source": "cook",
+          "title": "Treasurer, State of Illinois"
+        }
+      ],
+      "names": {
+        "Max Solomon": "Max Solomon",
+        "Michael W. Frerichs": "Michael W. Frerichs"
+      },
+      "ballotOrder": ["Max Solomon", "Michael W. Frerichs"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:u-s-representative-1st-district",
+        "cook-clerk:140100"
+      ],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "U.S. Representative, 1st District"
+        },
+        {
+          "source": "cook",
+          "title": "U.S. Representative, 1st District"
+        }
+      ],
+      "names": {
+        "Christian Maxwell": "Christian Maxwell",
+        "Jonathan L. Jackson": "Jonathan L. Jackson"
+      },
+      "ballotOrder": ["Christian Maxwell", "Jonathan L. Jackson"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04",
+      "apUrl": "https://apnews.com/projects/elections-2026/illinois-us-house-results/"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:u-s-representative-2nd-district",
+        "cook-clerk:140200"
+      ],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "U.S. Representative, 2nd District"
+        },
+        {
+          "source": "cook",
+          "title": "U.S. Representative, 2nd District"
+        }
+      ],
+      "names": {
+        "Michael Scott Noack": "Michael Scott Noack",
+        "Donna Miller": "Donna Miller"
+      },
+      "ballotOrder": ["Michael Scott Noack", "Donna Miller"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04",
+      "apUrl": "https://apnews.com/projects/elections-2026/illinois-us-house-results/"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:u-s-representative-3rd-district",
+        "cook-clerk:140300"
+      ],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "U.S. Representative, 3rd District"
+        },
+        {
+          "source": "cook",
+          "title": "U.S. Representative, 3rd District"
+        }
+      ],
+      "names": {
+        "Angel Oakley": "Angel Oakley",
+        "Delia Ramirez": "Delia Ramirez"
+      },
+      "ballotOrder": ["Angel Oakley", "Delia Ramirez"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04",
+      "apUrl": "https://apnews.com/projects/elections-2026/illinois-us-house-results/"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:u-s-representative-4th-district",
+        "cook-clerk:140400"
+      ],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "U.S. Representative, 4th District"
+        },
+        {
+          "source": "cook",
+          "title": "U.S. Representative, 4th District"
+        }
+      ],
+      "names": {
+        "Lupe Castillo": "Lupe Castillo",
+        "Patty Garcia": "Patty Garcia",
+        "Ed Hershey": "Ed Hershey",
+        "Chris Getty": "Chris Getty"
+      },
+      "ballotOrder": [
+        "Lupe Castillo",
+        "Patty Garcia",
+        "Ed Hershey",
+        "Chris Getty"
+      ],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04",
+      "apUrl": "https://apnews.com/projects/elections-2026/illinois-us-house-results/"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:u-s-representative-5th-district",
+        "cook-clerk:140500"
+      ],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "U.S. Representative, 5th District"
+        },
+        {
+          "source": "cook",
+          "title": "U.S. Representative, 5th District"
+        }
+      ],
+      "names": {
+        "Tommy Hanson": "Tommy Hanson",
+        "Mike Quigley": "Mike Quigley"
+      },
+      "ballotOrder": ["Tommy Hanson", "Mike Quigley"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04",
+      "apUrl": "https://apnews.com/projects/elections-2026/illinois-us-house-results/"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:u-s-representative-6th-district",
+        "cook-clerk:140600"
+      ],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "U.S. Representative, 6th District"
+        },
+        {
+          "source": "cook",
+          "title": "U.S. Representative, 6th District"
+        }
+      ],
+      "names": {
+        "Niki Conforti": "Niki Conforti",
+        "Sean Casten": "Sean Casten"
+      },
+      "ballotOrder": ["Niki Conforti", "Sean Casten"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04",
+      "apUrl": "https://apnews.com/projects/elections-2026/illinois-us-house-results/"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:u-s-representative-7th-district",
+        "cook-clerk:140700"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "U.S. Representative, 7th District"
+        },
+        {
+          "source": "cook",
+          "title": "U.S. Representative, 7th District"
+        }
+      ],
+      "names": {
+        "Chad Koppie": "Chad Koppie",
+        "La Shawn K. Ford": "La Shawn K. Ford"
+      },
+      "ballotOrder": ["Chad Koppie", "La Shawn K. Ford"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24",
+      "apUrl": "https://apnews.com/projects/elections-2026/illinois-us-house-results/"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:u-s-representative-8th-district",
+        "cook-clerk:140800"
+      ],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "U.S. Representative, 8th District"
+        },
+        {
+          "source": "cook",
+          "title": "U.S. Representative, 8th District"
+        }
+      ],
+      "names": {
+        "Jennifer Davis": "Jennifer Davis",
+        "Melissa L. Bean": "Melissa L. Bean"
+      },
+      "ballotOrder": ["Jennifer Davis", "Melissa L. Bean"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04",
+      "apUrl": "https://apnews.com/projects/elections-2026/illinois-us-house-results/"
+    },
+    {
+      "contestIds": [
+        "chicago-boe:u-s-representative-9th-district",
+        "cook-clerk:140900"
+      ],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "U.S. Representative, 9th District"
+        },
+        {
+          "source": "cook",
+          "title": "U.S. Representative, 9th District"
+        }
+      ],
+      "names": {
+        "John Elleson": "John Elleson",
+        "Daniel Biss": "Daniel Biss"
+      },
+      "ballotOrder": ["John Elleson", "Daniel Biss"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04",
+      "apUrl": "https://apnews.com/projects/elections-2026/illinois-us-house-results/"
+    },
+    {
+      "contestIds": ["chicago-boe:united-states-senator", "cook-clerk:120100"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "chicago",
+          "title": "Senator, U.S."
+        },
+        {
+          "source": "cook",
+          "title": "Senator, U.S."
+        }
+      ],
+      "names": {
+        "Don Tracy": "Don Tracy",
+        "Juliana Stratton": "Juliana Stratton",
+        "Whitfield Harrington Jr": "Whitfield Harrington Jr"
+      },
+      "ballotOrder": [
+        "Don Tracy",
+        "Juliana Stratton",
+        "Whitfield Harrington Jr"
+      ],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04",
+      "apUrl": "https://apnews.com/projects/elections-2026/illinois-us-senate-results/"
+    },
+    {
+      "contestIds": ["cook-clerk:141000"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "cook",
+          "title": "U.S. Representative, 10th District"
+        }
+      ],
+      "names": {
+        "Carl Lambrecht": "Carl Lambrecht",
+        "Brad Schneider": "Brad Schneider"
+      },
+      "ballotOrder": ["Carl Lambrecht", "Brad Schneider"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04",
+      "apUrl": "https://apnews.com/projects/elections-2026/illinois-us-house-results/"
+    },
+    {
+      "contestIds": ["cook-clerk:141100"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "cook",
+          "title": "U.S. Representative, 11th District"
+        }
+      ],
+      "names": {
+        "Jeff Walter": "Jeff Walter",
+        "Bill Foster": "Bill Foster"
+      },
+      "ballotOrder": ["Jeff Walter", "Bill Foster"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04",
+      "apUrl": "https://apnews.com/projects/elections-2026/illinois-us-house-results/"
+    },
+    {
+      "contestIds": ["cook-clerk:172302"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Senator, 23rd District"
+        }
+      ],
+      "names": {
+        "Linda Z. Polacek": "Linda Z. Polacek",
+        "Suzanne \"Suzy\" Glowiak Hilton": "Suzanne \"Suzy\" Glowiak Hilton"
+      },
+      "ballotOrder": ["Linda Z. Polacek", "Suzanne \"Suzy\" Glowiak Hilton"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": ["cook-clerk:172402"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Senator, 24th District"
+        }
+      ],
+      "names": {
+        "Seth Lewis": "Seth Lewis",
+        "Benjamin \"Ben\" McAdams": "Benjamin \"Ben\" McAdams"
+      },
+      "ballotOrder": ["Seth Lewis", "Benjamin \"Ben\" McAdams"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": ["cook-clerk:172602"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Senator, 26th District"
+        }
+      ],
+      "names": {
+        "Darby Hills": "Darby Hills",
+        "Nabeela Syed": "Nabeela Syed"
+      },
+      "ballotOrder": ["Darby Hills", "Nabeela Syed"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": ["cook-clerk:172702"],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Senator, 27th District"
+        }
+      ],
+      "names": {
+        "David Mathis": "David Mathis",
+        "Carina Santa Maria": "Carina Santa Maria"
+      },
+      "ballotOrder": ["David Mathis", "Carina Santa Maria"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": ["cook-clerk:172902"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Senator, 29th District"
+        }
+      ],
+      "names": {
+        "Kate McGrath": "Kate McGrath",
+        "Julie A. Morrison": "Julie A. Morrison"
+      },
+      "ballotOrder": ["Kate McGrath", "Julie A. Morrison"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": ["cook-clerk:173002"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Senator, 30th District"
+        }
+      ],
+      "names": {
+        "Adriane L. Johnson": "Adriane L. Johnson"
+      },
+      "ballotOrder": ["Adriane L. Johnson"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": ["cook-clerk:174102"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Senator, 41st District"
+        }
+      ],
+      "names": {
+        "John Curran": "John Curran"
+      },
+      "ballotOrder": ["John Curran"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": ["cook-clerk:180200"],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Representative, 2nd District"
+        }
+      ],
+      "names": {
+        "Laura Hruska": "Laura Hruska",
+        "Elizabeth \"Lisa\" Hernandez": "Elizabeth \"Lisa\" Hernandez"
+      },
+      "ballotOrder": ["Laura Hruska", "Elizabeth \"Lisa\" Hernandez"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": ["cook-clerk:180700"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Representative, 7th District"
+        }
+      ],
+      "names": {
+        "Emanuel \"Chris\" Welch": "Emanuel \"Chris\" Welch"
+      },
+      "ballotOrder": ["Emanuel \"Chris\" Welch"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": ["cook-clerk:181700"],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Representative, 17th District"
+        }
+      ],
+      "names": {
+        "James \"Jim\" Geldermann": "James \"Jim\" Geldermann",
+        "Jennifer Gong-Gershowitz": "Jennifer Gong-Gershowitz"
+      },
+      "ballotOrder": ["James \"Jim\" Geldermann", "Jennifer Gong-Gershowitz"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": ["cook-clerk:183000"],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Representative, 30th District"
+        }
+      ],
+      "names": {
+        "William \"Will\" Davis": "William \"Will\" Davis"
+      },
+      "ballotOrder": ["William \"Will\" Davis"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": ["cook-clerk:183700"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Representative, 37th District"
+        }
+      ],
+      "names": {
+        "Patrick Sheehan": "Patrick Sheehan"
+      },
+      "ballotOrder": ["Patrick Sheehan"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": ["cook-clerk:183800"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Representative, 38th District"
+        }
+      ],
+      "names": {
+        "Debbie Meyers-Martin": "Debbie Meyers-Martin"
+      },
+      "ballotOrder": ["Debbie Meyers-Martin"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": ["cook-clerk:184300"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Representative, 43rd District"
+        }
+      ],
+      "names": {
+        "Anna Moeller": "Anna Moeller"
+      },
+      "ballotOrder": ["Anna Moeller"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": ["cook-clerk:184400"],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Representative, 44th District"
+        }
+      ],
+      "names": {
+        "Ralph Black": "Ralph Black",
+        "Fred Crespo": "Fred Crespo"
+      },
+      "ballotOrder": ["Ralph Black", "Fred Crespo"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": ["cook-clerk:184500"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Representative, 45th District"
+        }
+      ],
+      "names": {
+        "Gina Parrilli": "Gina Parrilli",
+        "Martha \"Marti\" Deuter": "Martha \"Marti\" Deuter"
+      },
+      "ballotOrder": ["Gina Parrilli", "Martha \"Marti\" Deuter"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": ["cook-clerk:184800"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Representative, 48th District"
+        }
+      ],
+      "names": {
+        "Jennifer Sanalitro": "Jennifer Sanalitro",
+        "Amanda Zahorak": "Amanda Zahorak"
+      },
+      "ballotOrder": ["Jennifer Sanalitro", "Amanda Zahorak"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": ["cook-clerk:184900"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Representative, 49th District"
+        }
+      ],
+      "names": {
+        "John Paul Augustynowicz": "John Paul Augustynowicz",
+        "Maura Hirschauer": "Maura Hirschauer"
+      },
+      "ballotOrder": ["John Paul Augustynowicz", "Maura Hirschauer"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": ["cook-clerk:185100"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Representative, 51st District"
+        }
+      ],
+      "names": {
+        "Lori Smith": "Lori Smith",
+        "Jenny Levin": "Jenny Levin"
+      },
+      "ballotOrder": ["Lori Smith", "Jenny Levin"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": ["cook-clerk:185200"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Representative, 52nd District"
+        }
+      ],
+      "names": {
+        "Martin McLaughlin": "Martin McLaughlin",
+        "Maria Peterson": "Maria Peterson"
+      },
+      "ballotOrder": ["Martin McLaughlin", "Maria Peterson"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": ["cook-clerk:185300"],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Representative, 53rd District"
+        }
+      ],
+      "names": {
+        "Elizabeth Bauer": "Elizabeth Bauer",
+        "Nicolle Grasse": "Nicolle Grasse"
+      },
+      "ballotOrder": ["Elizabeth Bauer", "Nicolle Grasse"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": ["cook-clerk:185400"],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Representative, 54th District"
+        }
+      ],
+      "names": {
+        "Joseph M. Tracy": "Joseph M. Tracy",
+        "Mary Beth Canty": "Mary Beth Canty"
+      },
+      "ballotOrder": ["Joseph M. Tracy", "Mary Beth Canty"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": ["cook-clerk:185600"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Representative, 56th District"
+        }
+      ],
+      "names": {
+        "Rhys Read": "Rhys Read",
+        "Michelle Mussman": "Michelle Mussman"
+      },
+      "ballotOrder": ["Rhys Read", "Michelle Mussman"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": ["cook-clerk:185700"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Representative, 57th District"
+        }
+      ],
+      "names": {
+        "Daniel T. Behr": "Daniel T. Behr",
+        "Tracy Katz Muhl": "Tracy Katz Muhl"
+      },
+      "ballotOrder": ["Daniel T. Behr", "Tracy Katz Muhl"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": ["cook-clerk:185800"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Representative, 58th District"
+        }
+      ],
+      "names": {
+        "Bob Morgan": "Bob Morgan"
+      },
+      "ballotOrder": ["Bob Morgan"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": ["cook-clerk:185900"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Representative, 59th District"
+        }
+      ],
+      "names": {
+        "Daniel Didech": "Daniel Didech"
+      },
+      "ballotOrder": ["Daniel Didech"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": ["cook-clerk:187700"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Representative, 77th District"
+        }
+      ],
+      "names": {
+        "Anthony Airdo": "Anthony Airdo",
+        "Norma Hernandez": "Norma Hernandez"
+      },
+      "ballotOrder": ["Anthony Airdo", "Norma Hernandez"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": ["cook-clerk:187900"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Representative, 79th District"
+        }
+      ],
+      "names": {
+        "Jackie Haas": "Jackie Haas"
+      },
+      "ballotOrder": ["Jackie Haas"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": ["cook-clerk:188000"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Representative, 80th District"
+        }
+      ],
+      "names": {
+        "Adam M. Beaty": "Adam M. Beaty",
+        "Anthony DeLuca": "Anthony DeLuca"
+      },
+      "ballotOrder": ["Adam M. Beaty", "Anthony DeLuca"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": ["cook-clerk:188200"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "cook",
+          "title": "State Representative, 82nd District"
+        }
+      ],
+      "names": {
+        "Nicole La Ha": "Nicole La Ha"
+      },
+      "ballotOrder": ["Nicole La Ha"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": ["cook-clerk:220600"],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "cook",
+          "title": "Commissioner, County Board 6th District"
+        }
+      ],
+      "names": {
+        "Patricia Joan \"Trish\" Murphy": "Patricia Joan \"Trish\" Murphy"
+      },
+      "ballotOrder": ["Patricia Joan \"Trish\" Murphy"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": ["cook-clerk:221400"],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "cook",
+          "title": "Commissioner, County Board 14th District"
+        }
+      ],
+      "names": {
+        "Scott R. Britton": "Scott R. Britton"
+      },
+      "ballotOrder": ["Scott R. Britton"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": ["cook-clerk:221500"],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "cook",
+          "title": "Commissioner, County Board 15th District"
+        }
+      ],
+      "names": {
+        "Daniel Lee": "Daniel Lee",
+        "Ted Mason": "Ted Mason"
+      },
+      "ballotOrder": ["Daniel Lee", "Ted Mason"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": ["cook-clerk:221700"],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "cook",
+          "title": "Commissioner, County Board 17th District"
+        }
+      ],
+      "names": {
+        "Elizabeth \"Liz\" Doody Gorman": "Elizabeth \"Liz\" Doody Gorman",
+        "Elyse Hoffenberg": "Elyse Hoffenberg"
+      },
+      "ballotOrder": ["Elizabeth \"Liz\" Doody Gorman", "Elyse Hoffenberg"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": ["cook-clerk:241000"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "cook",
+          "title": "Superintendent of Schools, DuPage County"
+        }
+      ],
+      "names": {
+        "Amber M. Quirk": "Amber M. Quirk",
+        "Rebecca Gamboa": "Rebecca Gamboa"
+      },
+      "ballotOrder": ["Amber M. Quirk", "Rebecca Gamboa"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": ["cook-clerk:242000"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "cook",
+          "title": "Superintendent of Schools, Kane County"
+        }
+      ],
+      "names": {
+        "John K Jonak": "John K Jonak",
+        "Jerry Cook": "Jerry Cook"
+      },
+      "ballotOrder": ["John K Jonak", "Jerry Cook"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": ["cook-clerk:243000"],
+      "kind": "candidate",
+      "scope": "beyond",
+      "official": [
+        {
+          "source": "cook",
+          "title": "Superintendent of Schools, Lake County"
+        }
+      ],
+      "names": {
+        "Michael L. Karner": "Michael L. Karner"
+      },
+      "ballotOrder": ["Michael L. Karner"],
+      "voteFor": 1,
+      "certifyBy": "2026-12-04"
+    },
+    {
+      "contestIds": ["cook-clerk:341310:vacancy-of-curry-jr"],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "cook",
+          "title": "Judge, 13th Subcircuit (Vacancy of Curry, Jr.)"
+        }
+      ],
+      "names": {
+        "Robert \"Bob\" Groebner": "Robert \"Bob\" Groebner"
+      },
+      "ballotOrder": ["Robert \"Bob\" Groebner"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": ["cook-clerk:341320:vacancy-of-m-kelley"],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "cook",
+          "title": "Judge, 13th Subcircuit (Vacancy of M. Kelley)"
+        }
+      ],
+      "names": {
+        "Brittany Michelle Pedersen": "Brittany Michelle Pedersen"
+      },
+      "ballotOrder": ["Brittany Michelle Pedersen"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": ["cook-clerk:341330:vacancy-of-t-kelley"],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "cook",
+          "title": "Judge, 13th Subcircuit (Vacancy of T. Kelley)"
+        }
+      ],
+      "names": {
+        "William F. Kelley": "William F. Kelley"
+      },
+      "ballotOrder": ["William F. Kelley"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": ["cook-clerk:341340:vacancy-of-o-malley"],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "cook",
+          "title": "Judge, 13th Subcircuit (Vacancy of O'Malley)"
+        }
+      ],
+      "names": {
+        "Dan Naranjo": "Dan Naranjo"
+      },
+      "ballotOrder": ["Dan Naranjo"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "cook-clerk:341810:converted-from-associate-judgeship-of-chrones"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "cook",
+          "title": "Judge, 18th Subcircuit (Vacancy of Chrones)"
+        }
+      ],
+      "names": {
+        "Juan Ponce de Leon": "Juan Ponce de Leon"
+      },
+      "ballotOrder": ["Juan Ponce de Leon"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "cook-clerk:341820:converted-from-associate-judgeship-of-andreou"
+      ],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "cook",
+          "title": "Judge, 18th Subcircuit (Vacancy of Andreou)"
+        }
+      ],
+      "names": {
+        "Sam Bae": "Sam Bae"
+      },
+      "ballotOrder": ["Sam Bae"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": ["cook-clerk:390101"],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "cook",
+          "title": "Trustee, La Grange Highlands Sanitary District"
+        }
+      ],
+      "names": {
+        "Connie L. Livingston": "Connie L. Livingston"
+      },
+      "ballotOrder": ["Connie L. Livingston"],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": ["cook-clerk:390102"],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "cook",
+          "title": "Trustee, La Grange Highlands Sanitary District, 2Yr"
+        }
+      ],
+      "names": {},
+      "ballotOrder": [],
+      "voteFor": 1,
+      "certifyBy": "2026-11-24",
+      "noOfficialCount": "No candidates filed."
+    },
+    {
+      "contestIds": ["cook-clerk:390201"],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "cook",
+          "title": "Trustee, South Lyons Township Sanitary District"
+        }
+      ],
+      "names": {
+        "Molly M. Price": "Molly M. Price",
+        "Michael G. Grace": "Michael G. Grace",
+        "Karen J. Dal Porto": "Karen J. Dal Porto",
+        "Scott Musillami": "Scott Musillami",
+        "Claribel Quintana": "Claribel Quintana"
+      },
+      "ballotOrder": [
+        "Molly M. Price",
+        "Michael G. Grace",
+        "Karen J. Dal Porto",
+        "Scott Musillami",
+        "Claribel Quintana"
+      ],
+      "voteFor": 2,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": ["cook-clerk:390301"],
+      "kind": "candidate",
+      "scope": "within",
+      "official": [
+        {
+          "source": "cook",
+          "title": "Trustee, South Palos Township Sanitary District"
+        }
+      ],
+      "names": {
+        "James R. Staszcuk": "James R. Staszcuk",
+        "Peter F. Costa": "Peter F. Costa"
+      },
+      "ballotOrder": ["James R. Staszcuk", "Peter F. Costa"],
+      "voteFor": 2,
+      "certifyBy": "2026-11-24"
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:02-0070-000:elk-grove-township-mental-health-board"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Elk Grove Township, Mental Health Board"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:02-0160-000:northfield-township-abolish-road-district"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Northfield Township, Abolish Road District"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:02-0160-000:northfield-township-prepackaged-meals-for-food-pantry"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Northfield Township, Prepackaged Meals for Food Pantry"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:02-0160-000:northfield-township-waste-refuse-and-recycling-services"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Northfield Township, Waste, Refuse & Recycling Services"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:02-0190-000:orland-township-citizen-initiatives"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Orland Township, Citizen Initiatives"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:02-0260-000:schaumburg-township-abolish-road-district"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Schaumburg Township, Abolish Road District"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": ["cook-clerk:ref:03-0010-000:village-of-alsip-term-limits"],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Village of Alsip, Term Limits"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:03-0090-000:village-of-berkeley-issue-bonds"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Village of Berkeley, Issue Bonds"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:03-0140-000:village-of-brookfield-increase-limiting-rate"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Village of Brookfield, Increase Limiting Rate"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:03-0200-000:village-of-calumet-park-term-limits"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Village of Calumet Park, Term Limits"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:03-0200-000:village-of-calumet-park-waive-building-permit-fees-for-veterans"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Village of Calumet Park, Waive Building Permit Fees for Veterans"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:03-0200-000:village-of-calumet-park-waive-transfer-stamp-fees-for-veterans"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Village of Calumet Park, Waive Transfer Stamp Fees for Veterans"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:03-0260-000:village-of-crestwood-reduced-vehicle-stickers-for-seniors"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Village of Crestwood, Reduced Vehicle Stickers for Seniors"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:03-0260-000:village-of-crestwood-reduced-vehicle-stickers-for-veterans"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Village of Crestwood, Reduced Vehicle Stickers for Veterans"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:03-0260-000:village-of-crestwood-term-limits"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Village of Crestwood, Term Limits"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:03-0450-000:village-of-franklin-park-decrease-speed-limit-on-franklin-ave"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Village of Franklin Park, Decrease Speed Limit on Franklin Ave"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:03-0450-000:village-of-franklin-park-enforcement-of-parking-regulations"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Village of Franklin Park, Enforcement of Parking Regulations"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:03-0450-000:village-of-franklin-park-planting-of-fruit-trees"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Village of Franklin Park, Planting of Fruit Trees"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:03-0730-000:city-of-markham-adopt-managerial-form-of-government"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "City of Markham, Adopt Managerial Form of Government"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:03-0730-000:city-of-markham-should-the-city-operate-parks-and-recreation"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "City of Markham, Should the City Operate Parks and Recreation"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": ["cook-clerk:ref:03-0730-000:city-of-markham-term-limits"],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "City of Markham, Term Limits"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:03-0830-000:village-of-niles-discontinue-vehicle-sticker-program"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Village of Niles, Discontinue Vehicle Sticker Program"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:03-0830-000:village-of-niles-indoor-outdoor-theater"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Village of Niles, Indoor-Outdoor Theater"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": ["cook-clerk:ref:03-0830-000:village-of-niles-term-limits"],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Village of Niles, Term Limits"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:03-0920-000:village-of-oak-park-investment-in-israel"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Village of Oak Park, Investment in Israel"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:04-0050-000:school-district-23-increase-limiting-rate"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "School District 23, Increase Limiting Rate"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:04-0250-000:school-district-63-issue-bonds"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "School District 63, Issue Bonds"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:04-0740-000:combined-school-district-113a-increase-limiting-rate"
+      ],
+      "kind": "measure",
+      "scope": "beyond",
+      "certifyBy": "2026-12-04",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Combined School District 113A, Increase Limiting Rate"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:04-0790-000:school-district-124-issue-bonds"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "School District 124, Issue Bonds"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:04-0840-000:school-district-128-increase-limiting-rate"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "School District 128, Increase Limiting Rate"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:04-2150-000:high-school-district-214-issue-bonds"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "High School District 214, Issue Bonds"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:04-3080-000:college-district-524-issue-bonds"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "College District 524, Issue Bonds"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:04-4070-000:unit-school-district-300-issue-bonds"
+      ],
+      "kind": "measure",
+      "scope": "beyond",
+      "certifyBy": "2026-12-04",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Unit School District 300, Issue Bonds"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:05-0300-000:dolton-park-district-increase-limiting-rate"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Dolton Park District, Increase Limiting Rate"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:05-0970-000:skokie-park-district-issue-bonds"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Skokie Park District, Issue Bonds"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:06-0040-000:bartlett-public-library-district-issue-bonds-new-library"
+      ],
+      "kind": "measure",
+      "scope": "beyond",
+      "certifyBy": "2026-12-04",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Bartlett Public Library District, Issue Bonds (New Library)"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:06-0040-000:bartlett-public-library-district-issue-bonds-renovation"
+      ],
+      "kind": "measure",
+      "scope": "beyond",
+      "certifyBy": "2026-12-04",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Bartlett Public Library District, Issue Bonds (Renovation)"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:07-0090-000:east-dundee-countryside-fire-protection-district-issue-bonds"
+      ],
+      "kind": "measure",
+      "scope": "beyond",
+      "certifyBy": "2026-12-04",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "East Dundee & Countryside Fire Protection District, Issue Bonds"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:07-0090-000:east-dundee-countryside-fire-protection-district-new-tax-rate"
+      ],
+      "kind": "measure",
+      "scope": "beyond",
+      "certifyBy": "2026-12-04",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "East Dundee & Countryside Fire Protection District, New Tax Rate"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:07-0210-000:hometown-fire-protection-district-increase-limiting-rate"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Hometown Fire Protection District, Increase Limiting Rate"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:07-0410-000:palos-heights-fire-protection-district-new-tax-rate"
+      ],
+      "kind": "measure",
+      "scope": "within",
+      "certifyBy": "2026-11-24",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Palos Heights Fire Protection District, New Tax Rate"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    },
+    {
+      "contestIds": [
+        "cook-clerk:ref:07-0500-000:roselle-fire-protection-district-increase-limiting-rate"
+      ],
+      "kind": "measure",
+      "scope": "beyond",
+      "certifyBy": "2026-12-04",
+      "threshold": 0.5,
+      "official": [
+        {
+          "source": "cook",
+          "title": "Roselle Fire Protection District, Increase Limiting Rate"
+        }
+      ],
+      "names": {
+        "Yes": "Yes",
+        "No": "No"
+      },
+      "ballotOrder": ["Yes", "No"]
+    }
+  ]
+}

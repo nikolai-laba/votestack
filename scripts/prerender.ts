@@ -26,6 +26,7 @@ import {
   publishedListFor,
   checkTemplate,
   fillTemplate,
+  latestDate,
   modulePreloads,
   profileLastmod,
   publishedCandidates,
@@ -48,13 +49,19 @@ interface Page {
   head: { noindex?: boolean }
   render?: string
   data?: { page: 'profile' | 'about' | 'notify' | 'races' }
+  changedAt?: string
 }
 interface Ssr {
   SITE_URL: string
   STATIC_PAGES: Page[]
-  candidatePages(profile: CandidateProfile, live: boolean): Page[]
-  racePages(data: RaceData): Page[]
+  candidatePages(
+    profile: CandidateProfile,
+    live: boolean,
+    context: { races: RaceData; results: unknown },
+  ): Page[]
+  racePages(data: RaceData, results: unknown): Page[]
   raceData(): Promise<RaceData>
+  resultsData(): Promise<unknown>
   renderPage(page: Page): Promise<string>
   headHtml(head: Page['head']): string
   prerenderData(data: NonNullable<Page['data']>): string
@@ -119,11 +126,14 @@ for (const region of REGIONS) {
 }
 
 const races = await ssr.raceData()
+const results = await ssr.resultsData()
 const raceCount = races.lists.reduce((n, l) => n + l.races.length, 0)
 const pages = [
   ...ssr.STATIC_PAGES,
-  ...candidates.flatMap((c) => ssr.candidatePages(c.profile, c.live)),
-  ...ssr.racePages(races),
+  ...candidates.flatMap((c) =>
+    ssr.candidatePages(c.profile, c.live, { races, results }),
+  ),
+  ...ssr.racePages(races, results),
 ]
 for (const page of pages) {
   const html = fillTemplate(template, {
@@ -145,15 +155,17 @@ for (const page of pages) {
 }
 
 const indexed = new Map(candidates.map((c) => [c.profile.key, c.profile]))
-const profileLastmodFor = (path: string) => {
-  const profile = indexed.get(path.replace('/candidates/', ''))
-  return profile && profileLastmod(profile)
+// A race page is dated by its result's last change; a profile by the later of
+// its own date and its races' latest result change.
+const lastmodFor = (page: Page) => {
+  const profile = indexed.get(page.path.replace('/candidates/', ''))
+  return latestDate(profile && profileLastmod(profile), page.changedAt)
 }
 const sitemap = pages
   .filter((p) => !p.head.noindex && p.path !== '/getstarted')
   .map((p) => ({
     path: p.path,
-    lastmod: profileLastmodFor(p.path),
+    lastmod: lastmodFor(p),
   }))
 await writeFile(join(DIST, 'sitemap.xml'), sitemapXml(ssr.SITE_URL, sitemap))
 await writeFile(join(DIST, 'robots.txt'), robotsTxt(ssr.SITE_URL))

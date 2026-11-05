@@ -8,6 +8,7 @@ import {
   publishedCandidates,
   robotsTxt,
   profileLastmod,
+  latestDate,
   sitemapXml,
 } from './prerender.ts'
 import { contentHash } from './profiles/content.ts'
@@ -165,5 +166,15 @@ describe('profileLastmod', () => {
       '2026-11-04',
     )
     expect(profileLastmod(at('2026-11-10T08:00:00Z'))).toBe('2026-11-10')
+  })
+})
+
+describe('latestDate', () => {
+  it('is the latest of the dates given, skipping missing ones', () => {
+    expect(latestDate('2026-11-04', undefined, '2026-11-05T01:00:00Z')).toBe(
+      '2026-11-05T01:00:00Z',
+    )
+    expect(latestDate('2026-11-06', '2026-11-05T01:00:00Z')).toBe('2026-11-06')
+    expect(latestDate(undefined)).toBeUndefined()
   })
 })

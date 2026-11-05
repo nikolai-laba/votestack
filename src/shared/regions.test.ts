@@ -1,5 +1,13 @@
 import { describe, expect, it } from 'vitest'
-import { COOK, coveredAreas, regionsFor, type Region } from './regions.ts'
+import {
+  COOK,
+  LOS_ANGELES,
+  coveredAreas,
+  electionDate,
+  regionsFor,
+  resultRegion,
+  type Region,
+} from './regions.ts'
 
 const la: Region = {
   ...COOK,
@@ -37,5 +45,21 @@ describe('coveredAreas', () => {
     expect(coveredAreas([COOK, la, third])).toBe(
       'Cook County, Los Angeles County or Third County',
     )
+  })
+})
+
+describe('resultRegion and electionDate', () => {
+  it('answer for a current election from its region', () => {
+    expect(resultRegion(COOK.election.id)).toBe(COOK)
+    expect(resultRegion(LOS_ANGELES.election.id)).toBe(LOS_ANGELES)
+    expect(electionDate(LOS_ANGELES.election.id)).toBe(
+      LOS_ANGELES.election.date,
+    )
+  })
+
+  it('answer for a past election from its ID', () => {
+    expect(resultRegion('ca-2022-11-08-general')).toBe(LOS_ANGELES)
+    expect(resultRegion('il-2022-11-08-general')).toBe(COOK)
+    expect(electionDate('ca-2022-11-08-general')).toBe('2022-11-08')
   })
 })

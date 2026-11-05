@@ -8,10 +8,14 @@ import {
   headHtml,
   profileHead,
   profileOffice,
+  raceAreaHead,
+  raceHead,
   useDocumentHead,
   type PageHead,
 } from './head.ts'
 import type { CandidateProfile } from './shared/profile.ts'
+import type { RaceResult } from './shared/raceResults.ts'
+import type { Race, RaceList } from './shared/races.ts'
 
 const empty = { asOf: '2026-10-05', items: [] }
 const profile: CandidateProfile = {
@@ -237,5 +241,298 @@ describe('useDocumentHead', () => {
     document.title = 'Before'
     render(<Head head={null} />)
     expect(document.title).toBe('Before')
+  })
+})
+
+const SUFFIX =
+  ' Background, campaign money and endorsements, with a source for every fact.'
+const DAY = 'Tuesday, November 3, 2026'
+
+const result = (over: Partial<RaceResult>): RaceResult => ({
+  contestIds: ['t'],
+  kind: 'candidate',
+  status: 'called',
+  choices: [],
+  winners: [],
+  certifyBy: '2026-12-01',
+  scope: 'within',
+  sources: [],
+  changedAt: '2026-11-04T08:00:00Z',
+  ...over,
+})
+const treasurer = (over: Partial<RaceResult> = {}) =>
+  result({
+    choices: [
+      { name: 'Alex Rivera', votes: 660 },
+      { name: 'Sam Moore', votes: 312 },
+      { name: 'Pat Lee', votes: 28 },
+    ],
+    winners: ['Alex Rivera'],
+    call: { by: 'AP', at: '2026-11-04T08:00:00Z', url: 'https://ap.test' },
+    ...over,
+  })
+const certified = { on: '2026-11-20', url: 'https://cook.test' } as const
+const alex = {
+  ...profile,
+  name: 'Alex Rivera',
+  office: 'Treasurer',
+  contestIds: ['t'],
+}
+const sam = { ...alex, name: 'Sam Moore', party: 'Republican' }
+
+describe('profileHead with a result', () => {
+  it('is today’s head without one', () => {
+    expect(profileHead(alex, undefined)).toEqual(profileHead(alex))
+  })
+
+  it('leads a called winner’s description with the result', () => {
+    expect(profileHead(alex, treasurer())).toEqual({
+      title:
+        'Alex Rivera, 2026 candidate for Treasurer, Illinois: results | VoteStack',
+      description: `Alex Rivera (Democratic) won the race for Treasurer, Illinois, on ${DAY}, with 66.0% of the vote, as called by AP.${SUFFIX}`,
+      path: '/candidates/jane-doe',
+    })
+  })
+
+  it('puts a comma before the day only to close the office’s own last part', () => {
+    const sheriff = { ...alex, office: 'Cook County Sheriff' }
+    expect(profileHead(sheriff, treasurer()).description).toBe(
+      `Alex Rivera (Democratic) won the race for Cook County Sheriff on ${DAY}, with 66.0% of the vote, as called by AP.${SUFFIX}`,
+    )
+    const certifiedSheriff = treasurer({ status: 'certified', certified })
+    expect(profileHead(sheriff, certifiedSheriff).description).toContain(
+      `was elected Cook County Sheriff on ${DAY}, with`,
+    )
+    expect(
+      profileHead({ ...sheriff, name: 'Sam Moore' }, treasurer()).description,
+    ).toContain(`ran for Cook County Sheriff on ${DAY}, and received`)
+    expect(
+      profileHead(sheriff, treasurer({ status: 'counting', winners: [] }))
+        .description,
+    ).toContain(`ran for Cook County Sheriff on ${DAY}. The race`)
+    // An office that names its district keeps the comma that closes it.
+    const commissioner = {
+      ...alex,
+      office: 'Cook County Commissioner, 13th District',
+    }
+    expect(profileHead(commissioner, treasurer()).description).toContain(
+      `won the race for Cook County Commissioner, 13th District, on ${DAY}, with`,
+    )
+  })
+
+  it('says elected, without “as called”, once certified', () => {
+    const head = profileHead(
+      alex,
+      treasurer({ status: 'certified', certified }),
+    )
+    expect(head.description).toBe(
+      `Alex Rivera (Democratic) was elected Treasurer, Illinois, on ${DAY}, with 66.0% of the vote.${SUFFIX}`,
+    )
+  })
+
+  it('says who won for a candidate who was not elected', () => {
+    expect(profileHead(sam, treasurer()).description).toBe(
+      `Sam Moore (Republican) ran for Treasurer, Illinois, on ${DAY}, and received 31.2% of the vote. Alex Rivera won.${SUFFIX}`,
+    )
+    expect(
+      profileHead(sam, treasurer({ status: 'certified', certified }))
+        .description,
+    ).toContain('Alex Rivera was elected.')
+  })
+
+  it('gives an uncalled race no numbers', () => {
+    for (const status of ['counting', 'too_close', 'no_count'] as const) {
+      const d = profileHead(
+        sam,
+        treasurer({ status, winners: [] }),
+      ).description!
+      expect(d).toBe(
+        `Sam Moore (Republican) ran for Treasurer, Illinois, on ${DAY}. The race hasn't been called yet.${SUFFIX}`,
+      )
+      expect(d).not.toContain('%')
+    }
+  })
+
+  const judge = {
+    ...profile,
+    name: 'Pat Quinn',
+    party: undefined,
+    kind: 'retention' as const,
+    office: 'Judge of the Circuit Court of Cook County',
+  }
+  const retention = (yes: number, no: number, over = {}) =>
+    result({
+      kind: 'retention',
+      threshold: 0.6,
+      choices: [
+        { name: 'Yes', votes: yes },
+        { name: 'No', votes: no },
+      ],
+      winners: yes / (yes + no) >= 0.6 ? ['Yes'] : ['No'],
+      ...over,
+    })
+
+  it('titles a judge with the court and results', () => {
+    expect(profileHead(judge, retention(714, 286)).title).toBe(
+      'Pat Quinn, judge up for retention in 2026 (Cook County Circuit Court): results | VoteStack',
+    )
+  })
+
+  it('says whether a judge was retained and what was needed', () => {
+    expect(profileHead(judge, retention(714, 286)).description).toBe(
+      `Pat Quinn was retained as Judge of the Circuit Court of Cook County on ${DAY}, with 71.4% yes (60% needed).${SUFFIX}`,
+    )
+    expect(profileHead(judge, retention(550, 450)).description).toBe(
+      `Pat Quinn was not retained as Judge of the Circuit Court of Cook County on ${DAY}, with 55.0% yes (60% needed).${SUFFIX}`,
+    )
+    expect(
+      profileHead(judge, retention(600, 400, { threshold: 0.5 })).description,
+    ).toContain('with 60.0% yes (a majority needed).')
+    expect(
+      profileHead(
+        judge,
+        retention(600, 400, { status: 'counting', winners: [] }),
+      ).description,
+    ).toBe(
+      `Pat Quinn was up for retention as Judge of the Circuit Court of Cook County on ${DAY}. The race hasn't been called yet.${SUFFIX}`,
+    )
+  })
+
+  it('keeps sample profiles as they are', () => {
+    const sample = { ...alex, sample: { forName: 'X', forOffice: 'Y' } }
+    expect(profileHead(sample, treasurer())).toEqual(profileHead(sample))
+  })
+})
+
+const race = (over: Partial<Race> = {}): Race =>
+  ({
+    path: 'il/cook-county/2026-11-03/treasurer',
+    kind: 'candidate',
+    level: 'county',
+    title: 'Treasurer',
+    office: 'Treasurer',
+    districtId: 'ocd-division/country:us/state:il/county:cook',
+    contestIds: ['t'],
+    ballots: [],
+    candidates: [
+      { name: 'Alex Rivera' },
+      { name: 'Sam Moore' },
+      { name: 'Pat Lee' },
+    ],
+    ...over,
+  }) as Race
+const WHERE = `on the ${DAY} ballot in Cook County, Illinois`
+const PROFILES = ' A profile for each candidate, with a source for every fact.'
+
+describe('raceHead with a result', () => {
+  it('is today’s head without one', () => {
+    expect(raceHead(race(), true, undefined)).toEqual(raceHead(race()))
+  })
+
+  it('titles the page with the year’s results and leads with who won', () => {
+    expect(raceHead(race(), true, treasurer())).toMatchObject({
+      title: 'Treasurer (Cook County): 2026 results | VoteStack',
+      description: `Results for Treasurer ${WHERE}: Alex Rivera won with 66.0%, as called by AP.${PROFILES}`,
+    })
+  })
+
+  it('says elected once certified', () => {
+    expect(
+      raceHead(race(), true, treasurer({ status: 'certified', certified }))
+        .description,
+    ).toBe(
+      `Results for Treasurer ${WHERE}: Alex Rivera was elected with 66.0%.${PROFILES}`,
+    )
+  })
+
+  it('names every winner of a vote-for-N race, with no shares', () => {
+    const many = treasurer({
+      voteFor: 3,
+      winners: ['Alex Rivera', 'Sam Moore', 'Pat Lee'],
+    })
+    expect(raceHead(race(), true, many).description).toBe(
+      `Results for Treasurer ${WHERE}: Alex Rivera, Sam Moore and Pat Lee won, as called by AP.${PROFILES}`,
+    )
+    expect(
+      raceHead(race(), true, { ...many, status: 'certified', certified })
+        .description,
+    ).toBe(
+      `Results for Treasurer ${WHERE}: Alex Rivera, Sam Moore and Pat Lee were elected.${PROFILES}`,
+    )
+  })
+
+  it('gives an uncalled race no numbers', () => {
+    const d = raceHead(
+      race(),
+      true,
+      treasurer({ status: 'counting', winners: [] }),
+    ).description!
+    expect(d).toBe(
+      `Results for Treasurer ${WHERE}: the race hasn't been called yet.${PROFILES}`,
+    )
+    expect(d).not.toContain('%')
+  })
+
+  it('leaves out the profile promise where there are no profiles', () => {
+    expect(raceHead(race(), false, treasurer()).description).toBe(
+      `Results for Treasurer ${WHERE}: Alex Rivera won with 66.0%, as called by AP.`,
+    )
+  })
+
+  it('says whether a judge was retained', () => {
+    const judgeRace = race({
+      path: 'il/cook-county/2026-11-03/quinn',
+      kind: 'retention',
+      title: 'Judge of the Circuit Court of Cook County',
+      judge: 'Pat Quinn',
+    })
+    const r = (yes: number, no: number) =>
+      result({
+        kind: 'retention',
+        threshold: 0.6,
+        choices: [
+          { name: 'Yes', votes: yes },
+          { name: 'No', votes: no },
+        ],
+        winners: yes / (yes + no) >= 0.6 ? ['Yes'] : ['No'],
+      })
+    const where = `${DAY} ballot in Cook County, Illinois`
+    expect(raceHead(judgeRace, true, r(714, 286)).description).toBe(
+      `Results for retention of Pat Quinn as Judge of the Circuit Court of Cook County on the ${where}: retained with 71.4% yes (60% needed). A profile with a source for every fact.`,
+    )
+    expect(raceHead(judgeRace, false, r(550, 450)).description).toBe(
+      `Results for retention of Pat Quinn as Judge of the Circuit Court of Cook County on the ${where}: not retained with 55.0% yes (60% needed).`,
+    )
+    expect(
+      raceHead(judgeRace, true, {
+        ...r(714, 286),
+        status: 'counting',
+        winners: [],
+      }).description,
+    ).toContain(": the race hasn't been called yet. A profile")
+  })
+})
+
+describe('raceAreaHead with results', () => {
+  const list = {
+    area: 'Cook County',
+    areaPath: 'il/cook-county/2026-11-03',
+    date: '2026-11-03',
+    races: new Array(3).fill(race()),
+  } as unknown as RaceList
+
+  it('is today’s head without results', () => {
+    expect(raceAreaHead(list, true, false)).toEqual(raceAreaHead(list))
+  })
+
+  it('titles the list with results and leads its description with them', () => {
+    expect(raceAreaHead(list, true, true)).toEqual({
+      title: 'Races in Cook County, 2026: results | VoteStack',
+      description: `Results for all 3 races and judges up for retention on the ${DAY} ballot in Cook County, as they're called and certified, with a profile for each candidate.`,
+      path: '/races/il/cook-county/2026-11-03',
+    })
+    expect(raceAreaHead(list, false, true).description).toBe(
+      `Results for all 3 races and judges up for retention on the ${DAY} ballot in Cook County, as they're called and certified.`,
+    )
   })
 })

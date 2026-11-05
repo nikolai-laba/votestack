@@ -1,7 +1,7 @@
 {
   "name": "votestack",
   "private": true,
-  "version": "1.6.0",
+  "version": "1.7.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -40,7 +40,11 @@
     "contests:export": "node scripts/export-contests.ts",
     "region:check": "node scripts/region-check.ts",
     "profiles:rosters": "node scripts/profiles/rosters.ts",
-    "usage:report": "node --env-file=.env scripts/usage-report.ts"
+    "usage:report": "node --env-file=.env scripts/usage-report.ts",
+    "results:fetch": "node scripts/results-fetch.ts",
+    "results:build": "node scripts/results-build.ts",
+    "results:check": "node scripts/results-check.ts",
+    "results:pass": "npm run results:fetch && npm run results:build && npm run results:check"
   },
   "dependencies": {
     "@fontsource-variable/atkinson-hyperlegible-next": "^5.3.0",

@@ -2,6 +2,7 @@ import { Fragment } from 'react'
 import { Link } from 'react-router'
 import { profilePath } from '../../ballot/profileLinks.ts'
 import { partyLine, type CandidateProfile } from '../../shared/profile.ts'
+import { ProfileResult, useProfileResults } from './ProfileResult.tsx'
 
 /** An opponent in the same candidate race, for the mobile peers chip. */
 export interface Opponent {
@@ -33,6 +34,7 @@ export function ProfileHeader({
     profile.party,
     profile.kind !== 'retention' && profile.incumbent,
   )
+  const results = useProfileResults(profile)
   const showChip = profile.kind === 'candidate' && (opponents?.length ?? 0) > 0
   return (
     <header className="space-y-1">
@@ -60,7 +62,7 @@ export function ProfileHeader({
       )}
       {showChip && opponents && (
         <p className="pt-1 text-small text-muted lg:hidden">
-          Also running:{' '}
+          {results.shown ? 'Also in this race:' : 'Also running:'}{' '}
           {opponents.map((o, i) => (
             <Fragment key={o.key}>
               {i > 0 && ' · '}
@@ -75,6 +77,7 @@ export function ProfileHeader({
           ))}
         </p>
       )}
+      <ProfileResult profile={profile} />
     </header>
   )
 }

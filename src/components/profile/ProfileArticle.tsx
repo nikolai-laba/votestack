@@ -9,6 +9,7 @@ import { Endorsements } from './Endorsements.tsx'
 import { MoneySection } from './MoneySection.tsx'
 import { Overview } from './Overview.tsx'
 import { ProfileHeader, type Opponent } from './ProfileHeader.tsx'
+import { useProfileResults } from './ProfileResult.tsx'
 import { SampleNotice } from './SampleNotice.tsx'
 import { SourcesList } from './SourcesList.tsx'
 
@@ -36,6 +37,8 @@ export function ProfileArticle({
   midPivot?: boolean
   sourcesRef?: (el: HTMLElement | null) => void
 }) {
+  // A result replaces the "Voting ended" line; without one it stays.
+  const resultShown = useProfileResults(profile).shown
   return (
     <article aria-labelledby={headingId} className="space-y-8">
       <div className="space-y-4">
@@ -55,9 +58,11 @@ export function ProfileArticle({
           updated={profile.meta.generatedAt}
           profileKey={profile.key}
         />
-        <VotingEndedLine
-          offices={resultsOffices(ballotAreasOfContests(profile.contestIds))}
-        />
+        {!resultShown && (
+          <VotingEndedLine
+            offices={resultsOffices(ballotAreasOfContests(profile.contestIds))}
+          />
+        )}
       </div>
       <Overview section={profile.overview} />
       <MoneySection section={profile.money} />

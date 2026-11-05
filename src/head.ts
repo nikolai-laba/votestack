@@ -5,9 +5,21 @@
 
 import { useEffect } from 'react'
 import { coveredFullNames } from './ballot/coverage.ts'
+import { andList, longDate } from './format.ts'
 import { CURRENT_ELECTION } from './shared/cook.ts'
 import type { CandidateProfile } from './shared/profile.ts'
-import { COOK, regionForElection, type Region } from './shared/regions.ts'
+import {
+  personOutcome,
+  resultView,
+  shareText,
+  type RaceResult,
+} from './shared/raceResults.ts'
+import {
+  COOK,
+  electionDate,
+  resultRegion,
+  type Region,
+} from './shared/regions.ts'
 import {
   RACES_PATH,
   placeName,
@@ -67,6 +79,24 @@ const SITE_STRUCTURED_DATA = {
 const ELECTION_DAY = new Date(
   `${CURRENT_ELECTION.date}T12:00:00Z`,
 ).toLocaleDateString('en-US', { dateStyle: 'long', timeZone: 'UTC' })
+
+/** "66.0%", or "under 0.1%" inside a sentence. */
+const inSentence = (text: string) =>
+  text.replace(/^(Under|Over)/, (w) => w.toLowerCase())
+
+/** "(60% needed)", "(a majority needed)", "(two-thirds needed)"; nothing without a threshold. */
+function neededText(threshold: number | undefined): string {
+  if (threshold === undefined) return ''
+  if (threshold === 0.5) return ' (a majority needed)'
+  if (Math.abs(threshold - 2 / 3) < 1e-9) return ' (two-thirds needed)'
+  return ` (${Math.round(threshold * 1000) / 10}% needed)`
+}
+
+/** A race that has been called or certified, with winners named. */
+const isDecided = (result: RaceResult) =>
+  result.status === 'called' || result.status === 'certified'
+
+const NOT_CALLED = "The race hasn't been called yet."
 
 export const HOME_HEAD: PageHead = {
   title: 'VoteStack: know what and who is on your ballot',
@@ -160,29 +190,87 @@ export function courtName(
   return undefined
 }
 
+/**
+ * A profile's description after the election: the person's result first,
+ * then what the profile holds. An uncalled race carries no numbers, because
+ * search engines can show a snippet days after reading it.
+ */
+function profileResultSentence(
+  profile: CandidateProfile,
+  result: RaceResult,
+): string {
+  const region = resultRegion(profile.electionId)
+  // "Tuesday, November 3, 2026": the day of the profile's own election.
+  const day = longDate(electionDate(profile.electionId))
+  const office =
+    profile.kind === 'candidate' || !courtName(profile.office, region)
+      ? profileOffice(profile.office, region)
+      : profile.office
+  const { outcome, share, winners } = personOutcome(result, profile.name)
+  const pct =
+    share === undefined ? '' : inSentence(shareText(share, result.threshold))
+  const party = profile.party ? ` (${profile.party})` : ''
+  const lead = `${profile.name}${party}`
+  // "for Cook County Sheriff on Tuesday…", but "for Treasurer, Illinois, on
+  // Tuesday…": a comma before the day only closes the office's own last part.
+  const on = `${office.includes(',') ? ',' : ''} on ${day}`
+  const suffix =
+    ' Background, campaign money and endorsements, with a source for every fact.'
+  let sentence: string
+  if (result.kind !== 'candidate' || profile.kind === 'retention') {
+    const decided = outcome === 'retained' || outcome === 'not_retained'
+    sentence = decided
+      ? `${profile.name} was ${outcome === 'retained' ? 'retained' : 'not retained'} as ${profile.office} on ${day}, with ${pct} yes${neededText(result.threshold)}.`
+      : `${profile.name} was up for retention as ${profile.office} on ${day}. ${NOT_CALLED}`
+  } else if (outcome === 'won') {
+    sentence = `${lead} won the race for ${office}${on}, with ${pct} of the vote, as called by AP.`
+  } else if (outcome === 'elected') {
+    sentence = `${lead} was elected ${office}${on}, with ${pct} of the vote.`
+  } else if (outcome === 'not_elected') {
+    const verdict =
+      winners.length === 0
+        ? ''
+        : result.status === 'certified'
+          ? ` ${andList(winners)} ${winners.length > 1 ? 'were' : 'was'} elected.`
+          : ` ${andList(winners)} won.`
+    sentence = `${lead} ran for ${office}${on}, and received ${pct} of the vote.${verdict}`
+  } else {
+    sentence = `${lead} ran for ${office}${on}. ${NOT_CALLED}`
+  }
+  return sentence + suffix
+}
+
 /** The same title and description for every candidate, filled from the ballot. */
-export function profileHead(profile: CandidateProfile): PageHead {
+export function profileHead(
+  profile: CandidateProfile,
+  result?: RaceResult,
+): PageHead {
   if (profile.sample) {
     return {
       title: `Sample profile of ${profile.name} | VoteStack`,
       noindex: true,
     }
   }
+  // The profile's own election, current or past.
+  const region = resultRegion(profile.electionId)
+  const year = electionDate(profile.electionId).slice(0, 4)
   // Judges lead with "judge" and their court, the words people search for.
   // Most have no party on the ballot, and searches ask which party they
   // belong to, so the description answers that instead.
-  const judgeRegion = regionForElection(profile.electionId) ?? COOK
   const court =
-    profile.kind === 'candidate'
-      ? undefined
-      : courtName(profile.office, judgeRegion)
+    profile.kind === 'candidate' ? undefined : courtName(profile.office, region)
   if (court) {
-    const year = judgeRegion.election.date.slice(0, 4)
     const role =
       profile.kind === 'retention'
         ? 'judge up for retention'
         : 'candidate for judge'
     const who = profile.kind === 'retention' ? 'this judge' : 'this candidate'
+    if (result)
+      return {
+        title: `${profile.name}, ${role} in ${year} (${court}): results | VoteStack`,
+        description: profileResultSentence(profile, result),
+        path: `/candidates/${profile.key}`,
+      }
     const running =
       profile.kind === 'retention'
         ? `is up for retention as ${profile.office}`
@@ -190,7 +278,7 @@ export function profileHead(profile: CandidateProfile): PageHead {
     return {
       title: `${profile.name}, ${role} in ${year} (${court}) | VoteStack`,
       description: profile.party
-        ? `${profile.name} (${profile.party}) ${running} on the ${ELECTION_DAY} ballot in ${judgeRegion.fullName}. Background, campaign money and endorsements, with a source for every fact.`
+        ? `${profile.name} (${profile.party}) ${running} on the ${ELECTION_DAY} ballot in ${region.fullName}. Background, campaign money and endorsements, with a source for every fact.`
         : `${profile.name}, ${role} on ${ELECTION_DAY}. No party on the ballot: see which parties and groups endorse or oppose ${who}, with sources.`,
       path: `/candidates/${profile.key}`,
     }
@@ -200,9 +288,16 @@ export function profileHead(profile: CandidateProfile): PageHead {
       ? `is up for retention as ${profile.office}`
       : `is running for ${profile.office}`
   const party = profile.party ? ` (${profile.party})` : ''
-  const region = regionForElection(profile.electionId) ?? COOK
-  const year = region.election.date.slice(0, 4)
   const office = profileOffice(profile.office, region)
+  if (result)
+    return {
+      title:
+        profile.kind === 'retention'
+          ? `${profile.name}, up for retention as ${office}, ${year}: results | VoteStack`
+          : `${profile.name}, ${year} candidate for ${office}: results | VoteStack`,
+      description: profileResultSentence(profile, result),
+      path: `/candidates/${profile.key}`,
+    }
   return {
     title:
       profile.kind === 'retention'
@@ -223,8 +318,18 @@ export const RACES_HEAD: PageHead = {
  * An area's list of races. `withProfiles` is false for an area whose
  * candidates have no profiles yet, so the description doesn't promise them.
  */
-export function raceAreaHead(list: RaceList, withProfiles = true): PageHead {
+export function raceAreaHead(
+  list: RaceList,
+  withProfiles = true,
+  withResults = false,
+): PageHead {
   const profiles = withProfiles ? ', with a profile for each candidate' : ''
+  if (withResults)
+    return {
+      title: `Races in ${list.area}, ${list.date.slice(0, 4)}: results | VoteStack`,
+      description: `Results for all ${list.races.length} races and judges up for retention on the ${longDate(list.date)} ballot in ${list.area}, as they're called and certified${profiles}.`,
+      path: `${RACES_PATH}/${list.areaPath}`,
+    }
   return {
     title: `Races in ${list.area}, ${list.date.slice(0, 4)} | VoteStack`,
     description: `All ${list.races.length} races and judges up for retention on the ${ELECTION_DAY} ballot in ${list.area}, in ballot order${profiles}. Enter your address to see which ones are on your ballot.`,
@@ -232,21 +337,62 @@ export function raceAreaHead(list: RaceList, withProfiles = true): PageHead {
   }
 }
 
-/** "A, B and C" */
-const andList = (items: string[]) =>
-  items.length > 1
-    ? `${items.slice(0, -1).join(', ')} and ${items.at(-1)}`
-    : (items[0] ?? '')
+/** What a race page's description says the result is (ends with its full stop). */
+function raceResultSentence(race: Race, result: RaceResult): string {
+  const view = resultView(result)
+  if (!isDecided(result)) return `the race hasn't been called yet.`
+  if (race.kind === 'retention') {
+    const yes = view.choices.find((c) => c.name === 'Yes')
+    const kept = view.winners.includes('Yes')
+    const pct = yes ? inSentence(shareText(yes.share, result.threshold)) : ''
+    return `${kept ? 'retained' : 'not retained'} with ${pct} yes${neededText(result.threshold)}.`
+  }
+  const names = view.winners
+  if (names.length === 0) return `the race hasn't been called yet.`
+  const certified = result.status === 'certified'
+  if (names.length > 1 || (result.voteFor ?? 1) > 1)
+    return certified
+      ? `${andList(names)} ${names.length > 1 ? 'were' : 'was'} elected.`
+      : `${andList(names)} won, as called by AP.`
+  const share = view.choices.find((c) => c.name === names[0])?.share
+  const pct = share === undefined ? '' : inSentence(shareText(share))
+  return certified
+    ? `${names[0]} was elected with ${pct}.`
+    : `${names[0]} won with ${pct}, as called by AP.`
+}
 
 /**
  * The same title and description for every race, filled from the ballot.
  * `withProfiles` is false in an area whose candidates have no profiles yet.
  */
-export function raceHead(race: Race, withProfiles = true): PageHead {
+export function raceHead(
+  race: Race,
+  withProfiles = true,
+  result?: RaceResult,
+): PageHead {
   const place = placeName(race.districtId)
   const state = stateName(race.districtId)
   const where = place === state ? place : `${place}, ${state}`
-  const year = race.path.match(/\/(\d{4})-\d\d-\d\d\//)?.[1] ?? ''
+  // The race's own election day, from its address ("…/2026-11-03/…").
+  const date = race.path.match(/\/(\d{4}-\d\d-\d\d)\//)?.[1]
+  const year = date?.slice(0, 4) ?? ''
+  if (result) {
+    const title = `${race.kind === 'retention' ? raceName(race) : race.title} (${place}): ${year} results | VoteStack`
+    const profiles = withProfiles
+      ? race.kind === 'retention'
+        ? ' A profile with a source for every fact.'
+        : ' A profile for each candidate, with a source for every fact.'
+      : ''
+    const what =
+      race.kind === 'retention'
+        ? `retention of ${race.judge} as ${race.title}`
+        : race.title
+    return {
+      title,
+      description: `Results for ${what} on the ${date ? longDate(date) : ELECTION_DAY} ballot in ${where}: ${raceResultSentence(race, result)}${profiles}`,
+      path: racePath(race),
+    }
+  }
   if (race.kind === 'retention') {
     return {
       title: `${raceName(race)} (${place}), ${year} | VoteStack`,

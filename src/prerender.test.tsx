@@ -8,9 +8,11 @@ import {
   STATIC_PAGES,
 } from './prerender.tsx'
 import { routes } from './routes.tsx'
-import type { RaceData } from './races/data.ts'
+import { loadRaces, type RaceData } from './races/data.ts'
+import { loadResults, resultFor } from './results/data.ts'
 import type { CandidateProfile } from './shared/profile.ts'
-import type { RaceList } from './shared/races.ts'
+import { racePath, type RaceList } from './shared/races.ts'
+import { profileHead, raceHead } from './head.ts'
 
 // Switches the site to its after-election wording for the tests that say so.
 const mode = vi.hoisted(() => ({ on: false }))
@@ -221,48 +223,69 @@ describe('prerender', () => {
     const endedLine = (html: string) =>
       html.match(/<p[^>]*>(Voting ended.*?)<\/p>/s)?.[1].replace(/<[^>]+>/g, '')
 
-    it('says voting ended on profiles, race pages and the area list', async () => {
+    // An election with no results file: its profiles keep the line.
+    const later = { ...profile, electionId: 'il-2027-02-23-municipal' }
+
+    it('shows the result, not "Voting ended", on a profile in an election with results', async () => {
       mode.on = true
-      const live = await renderPage(candidatePages(profile, true)[0])
+      const html = await renderPage(candidatePages(profile, true)[0])
+      expect(html).not.toContain('Voting ended')
+      expect(html).not.toContain('data-results-placeholder')
+    })
+
+    it('says voting ended on profiles', async () => {
+      mode.on = true
+      const live = await renderPage(candidatePages(later, true)[0])
       expect(live).toContain(ENDED)
       // The profile's contests are on both Cook ballots.
       expect(endedLine(live)).toBe(
         `${ENDED} Chicago Board of Election Commissioners (Chicago) and the Cook County Clerk (suburban Cook County).`,
       )
 
+      // The area list and race pages are built from the committed races,
+      // whose election has results: they hold the results' space instead.
+    })
+
+    it('shows the results, not "Voting ended", for an election with results', async () => {
+      mode.on = true
       const pages = racePages(raceData)
-      const area = await renderPage(pages[1])
-      expect(area).toContain(ENDED)
-      expect(endedLine(area)).toContain(
-        'Chicago Board of Election Commissioners (Chicago) and the Cook County Clerk (suburban Cook County)',
-      )
-      // Links to the offices' own results pages.
-      expect(area).toContain(
-        'href="https://chicagoelections.gov/elections/results"',
-      )
-      expect(await renderPage(pages[2])).toContain(ENDED)
+      for (const page of [pages[1], pages[2]]) {
+        const html = await renderPage(page)
+        expect(html).not.toContain('Voting ended')
+        expect(html).not.toContain('data-results-placeholder')
+      }
+    })
+
+    it('keeps the offices’ results links on the area list for an election with results', async () => {
+      mode.on = true
+      // Built from the committed races. The area list shows when the results
+      // are from once they load, with no "See official results from the…"
+      // line naming offices; the offices' pages are linked from each race's
+      // caption, so the list holds its space and names none.
+      const [, il, , la] = racePages({
+        ...raceData,
+        lists: [raceList, laList],
+      })
+      for (const page of [il, la]) {
+        const html = await renderPage(page)
+        expect(html).not.toContain('See official results from the')
+        expect(html).not.toContain('chicagoelections.gov/elections/results')
+        expect(html).not.toContain('data-results-placeholder')
+      }
     })
 
     it('names only the office whose ballot lists the race', async () => {
       mode.on = true
       const chicago = await renderPage(
-        candidatePages({ ...profile, contestIds: ['chicago-boe:x'] }, true)[0],
+        candidatePages({ ...later, contestIds: ['chicago-boe:x'] }, true)[0],
       )
       expect(endedLine(chicago)).toBe(
         `${ENDED} Chicago Board of Election Commissioners.`,
       )
       const clerk = await renderPage(
-        candidatePages({ ...profile, contestIds: ['cook-clerk:1'] }, true)[0],
+        candidatePages({ ...later, contestIds: ['cook-clerk:1'] }, true)[0],
       )
       expect(endedLine(clerk)).toBe(`${ENDED} Cook County Clerk.`)
-
-      const [, , , laArea] = racePages({
-        ...raceData,
-        lists: [raceList, laList],
-      })
-      expect(endedLine(await renderPage(laArea))).toBe(
-        `${ENDED} Los Angeles County Registrar-Recorder/County Clerk.`,
-      )
     })
 
     it('says on Get started that voting has ended and the lookup still works', async () => {
@@ -299,6 +322,95 @@ describe('prerender', () => {
         expect(html).not.toContain('Voting ended')
         expect(html).not.toContain('has ended')
       }
+    })
+  })
+
+  describe('results', () => {
+    // The committed lists and results, as the build reads them.
+    const find = async (electionId: string, contestId: string) => {
+      const races = await loadRaces()
+      const results = await loadResults()
+      const list = races.lists.find(
+        (l) =>
+          l.electionId === electionId &&
+          l.races.some((r) => r.contestIds.includes(contestId)),
+      )!
+      const race = list.races.find((r) => r.contestIds.includes(contestId))!
+      const result = resultFor(results, electionId, contestId)!
+      return { races, results, list, race, result }
+    }
+    const IL = 'il-2026-11-03-general'
+
+    it.each([
+      [
+        'a Chicago race',
+        IL,
+        'chicago-boe:state-senator-5th-district',
+        'Lakesia Collins',
+      ],
+      ['a suburban race', IL, 'cook-clerk:171802', 'Frances Ann Hurley'],
+      [
+        'an LA race',
+        'ca-2026-11-03-general',
+        'la-4348-cc10819',
+        'Robert Garcia',
+      ],
+    ])(
+      'puts %s’s result and title in the page',
+      async (_n, election, id, name) => {
+        const { races, results, race, result } = await find(election, id)
+        const page = racePages(races, results).find(
+          (p) => p.path === racePath(race),
+        )!
+        expect(page.head.title).toBe(raceHead(race, true, result).title)
+        expect(page.head.title).toContain('results | VoteStack')
+        const html = await renderPage(page)
+        expect(html).toContain(name)
+        expect(html).toMatch(/\d+(\.\d)?%/)
+        expect(html).not.toContain('data-results-placeholder')
+        expect(page.changedAt).toBe(result.changedAt)
+      },
+    )
+
+    it('puts results in the area lists and their titles', async () => {
+      const { races, results } = await find(IL, 'cook-clerk:171802')
+      const pages = racePages(races, results)
+      const area = pages.find(
+        (p) => p.path === '/races/il/cook-county/2026-11-03',
+      )!
+      expect(area.head.title).toBe(
+        'Races in Cook County, Illinois, 2026: results | VoteStack',
+      )
+      const html = await renderPage(area)
+      expect(html).not.toContain('data-results-placeholder')
+      expect(html).toMatch(/\d+(\.\d)?%/)
+    })
+
+    it('puts a profile’s result and title in the page, and dates it by the result', async () => {
+      const { races, results, race, result } = await find(
+        IL,
+        'chicago-boe:state-senator-5th-district',
+      )
+      const person = {
+        ...profile,
+        name: 'Lakesia Collins',
+        contestIds: race.contestIds,
+      }
+      const [page] = candidatePages(person, true, { races, results })
+      expect(page.head.title).toBe(profileHead(person, result).title)
+      expect(page.head.title).not.toBe(profileHead(person).title)
+      const html = await renderPage(page)
+      expect(html).toMatch(/\d+(\.\d)?%/)
+      expect(html).not.toContain('data-results-placeholder')
+      expect(page.changedAt).toBe(result.changedAt)
+    })
+
+    it('leaves a page with no results undated', async () => {
+      const { races, results } = await find(IL, 'cook-clerk:171802')
+      const later = { ...profile, electionId: 'il-2027-02-23-municipal' }
+      expect(
+        candidatePages(later, true, { races, results })[0].changedAt,
+      ).toBeUndefined()
     })
   })
 

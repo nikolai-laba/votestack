@@ -7,9 +7,12 @@ import {
   type BallotOutletContext,
 } from '../ballot/profileLinks.ts'
 import { LEVEL_TITLES } from '../ballot/sections.ts'
-import { measureWordsFor } from '../shared/regions.ts'
+import { measureWordsFor, resultRegion } from '../shared/regions.ts'
 import { ProfileSkeleton } from '../components/profile/ProfileSkeleton.tsx'
 import { VotingEndedLine } from '../components/VotingEndedLine.tsx'
+import { ResultLine } from '../components/results/ResultLine.tsx'
+import { ElectionEndedLine } from '../components/results/ResultsAsOf.tsx'
+import { useRaceResults } from '../components/results/useRaceResults.ts'
 import { SignupBlock } from '../components/signup/SignupBlock.tsx'
 import {
   RaceCardFor,
@@ -34,6 +37,7 @@ import {
   type Race,
   type RaceList,
 } from '../shared/races.ts'
+import { useGroupResults } from '../results/context.tsx'
 import { resultsOffices } from '../shared/results.ts'
 import { NotFoundPage } from './NotFoundPage.tsx'
 
@@ -149,7 +153,12 @@ function RaceArea({
   list: RaceList
   withProfiles: boolean
 }) {
-  useDocumentHead(raceAreaHead(list, withProfiles))
+  // Results in the head once any of the list's races has one.
+  const listResults = useGroupResults(
+    list.electionId,
+    list.races.map((r) => r.contestIds),
+  )
+  useDocumentHead(raceAreaHead(list, withProfiles, listResults.some(Boolean)))
   useFocusHeading(list.areaPath)
   const sections = RACE_LEVELS.map((level) => ({
     level,
@@ -162,7 +171,9 @@ function RaceArea({
         <p className="text-small">
           {list.electionName}, {longDate(list.date)}
         </p>
-        <VotingEndedLine
+        <ElectionEndedLine
+          electionId={list.electionId}
+          region={resultRegion(list.electionId)}
           offices={resultsOffices(list.races.flatMap((r) => r.ballots))}
         />
         <p>
@@ -190,7 +201,7 @@ function RaceArea({
           <ul className="divide-y divide-line rounded-md border border-line bg-surface">
             {races.map((race) => (
               <li key={race.path}>
-                <RaceLink race={race} />
+                <RaceLink race={race} electionId={list.electionId} />
               </li>
             ))}
           </ul>
@@ -221,8 +232,10 @@ function AreaBallotLink() {
 }
 
 /** One race in the area list: its name and how many candidates. */
-function RaceLink({ race }: { race: Race }) {
+function RaceLink({ race, electionId }: { race: Race; electionId: string }) {
+  const results = useRaceResults({ electionId, id: race.contestIds[0] })
   const count = race.candidates?.length ?? 0
+  const noCandidates = race.kind !== 'retention' && count === 0
   const detail =
     race.kind === 'retention'
       ? race.title
@@ -239,7 +252,11 @@ function RaceLink({ race }: { race: Race }) {
       <span className="font-semibold text-link underline underline-offset-[3px]">
         {race.kind === 'retention' ? race.judge : race.title}
       </span>
-      <span className="text-small text-muted">{detail}</span>
+      {results.shown && !noCandidates ? (
+        <ResultLine result={results.result} />
+      ) : (
+        <span className="text-small text-muted">{detail}</span>
+      )}
     </Link>
   )
 }
@@ -255,7 +272,13 @@ function RacePage({
   published: Set<string>
 }) {
   const { ballot } = useOutletContext<BallotOutletContext>()
-  useDocumentHead(raceHead(race, published.size > 0))
+  // The race card's caption says who counted and when, in place of the line.
+  const results = useRaceResults({
+    electionId: list.electionId,
+    id: race.contestIds[0],
+  })
+  const [raceResult] = useGroupResults(list.electionId, [race.contestIds])
+  useDocumentHead(raceHead(race, published.size > 0, raceResult))
   useFocusHeading(race.path)
   return (
     <article className="max-w-[65ch] space-y-6">
@@ -271,7 +294,9 @@ function RacePage({
         <Heading>{raceName(race)}</Heading>
         <RaceFacts race={race} list={list} />
       </header>
-      <VotingEndedLine offices={resultsOffices(race.ballots)} />
+      {!results.shown && (
+        <VotingEndedLine offices={resultsOffices(race.ballots)} />
+      )}
       <RaceCardFor race={race} list={list} published={published} />
       <YourBallot
         race={race}

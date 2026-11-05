@@ -107,12 +107,25 @@ const wrigley: Ballot = {
   publishedProfiles: ['jane-doe'],
 }
 
-function mockApi() {
+/**
+ * A ballot in an election with no results file: the "Voting ended" line
+ * stays there (an election with results shows "Results as of…" instead).
+ */
+const NO_RESULTS = 'il-2027-02-23-municipal'
+const withoutResults = (b: Ballot): Ballot => ({
+  ...b,
+  election: { ...b.election, id: NO_RESULTS, date: '2027-02-23' },
+  contests: b.contests.map((c) => ({ ...c, electionId: NO_RESULTS })),
+})
+
+function mockApi(change: (b: Ballot) => Ballot = (b) => b) {
   const fetch = vi.fn(async (url: string, init?: RequestInit) => {
     if (url !== '/api/ballot')
       return Response.json({ error: 'Not found' }, { status: 404 })
     const { address } = JSON.parse(String(init?.body)) as { address: string }
-    return Response.json(address.includes('1060 W Addison') ? wrigley : own)
+    return Response.json(
+      change(address.includes('1060 W Addison') ? wrigley : own),
+    )
   })
   vi.stubGlobal('fetch', fetch)
   return fetch
@@ -215,7 +228,7 @@ describe('sample ballots', () => {
 
   it('says voting ended once on a sample ballot, naming its office', async () => {
     mode.on = true
-    mockApi()
+    mockApi(withoutResults)
     renderAt()
     await openWrigley()
 

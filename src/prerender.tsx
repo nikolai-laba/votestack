@@ -48,11 +48,23 @@ import {
   RACES_QUERY_KEY,
   loadRaces,
   publishedFor,
+  racesFor,
   type RaceData,
 } from './races/data.ts'
+import {
+  RESULTS_QUERY_KEY,
+  loadResults,
+  resultFor,
+  type ResultsData,
+} from './results/data.ts'
 import { routes } from './routes.tsx'
 import type { CandidateProfile } from './shared/profile.ts'
-import { RACES_PATH, racePath } from './shared/races.ts'
+import {
+  RACES_PATH,
+  racePath,
+  type Race,
+  type RaceList,
+} from './shared/races.ts'
 
 export { SITE_URL, headHtml, prerenderData }
 
@@ -69,6 +81,14 @@ export interface PrerenderPage {
    */
   render?: string
   data?: PrerenderData
+  /** When the page's result last changed (sitemap date), if it has one. */
+  changedAt?: string
+}
+
+/** The race lists and results the pages are built from. */
+export interface ResultsContext {
+  races: RaceData
+  results: ResultsData
 }
 
 /** Every page except the candidates'. */
@@ -131,13 +151,32 @@ export const STATIC_PAGES: PrerenderPage[] = [
 export function candidatePages(
   profile: CandidateProfile,
   live: boolean,
+  context?: ResultsContext,
 ): PrerenderPage[] {
   const path = profilePath(profile.key)
+  // The profile's races that have a result, in race list order; the first
+  // sets the head (as the page does), the latest change dates the page.
+  const entries = context
+    ? racesFor(context.races, profile.electionId, profile.contestIds).flatMap(
+        ({ race }) => {
+          for (const id of race.contestIds) {
+            const result = resultFor(context.results, profile.electionId, id)
+            if (result) return [result]
+          }
+          return []
+        },
+      )
+    : []
   return [
     {
       path,
       file: `${path.slice(1)}.html`,
-      head: profileHead(profile),
+      head: profileHead(profile, entries[0]),
+      ...(entries.length > 0 && {
+        changedAt: entries
+          .map((r) => r.changedAt)
+          .reduce((a, b) => (b > a ? b : a)),
+      }),
       ...(live && {
         render: path,
         data: { page: 'profile', profile },
@@ -152,15 +191,30 @@ export function candidatePages(
 }
 
 /** /races, each area's list of races and a page for every race. */
-export function racePages(data: RaceData): PrerenderPage[] {
-  const page = (path: string, head: PageHead): PrerenderPage => ({
+export function racePages(
+  data: RaceData,
+  results?: ResultsData,
+): PrerenderPage[] {
+  const page = (
+    path: string,
+    head: PageHead,
+    changedAt?: string,
+  ): PrerenderPage => ({
     path,
     // Cloudflare serves /races/il/… from races/il/….html.
     file: `${path.slice(1)}.html`,
     head,
     render: path,
     data: { page: 'races' },
+    ...(changedAt && { changedAt }),
   })
+  const resultOf = (list: RaceList, race: Race) => {
+    for (const id of race.contestIds) {
+      const result = resultFor(results, list.electionId, id)
+      if (result) return result
+    }
+    return undefined
+  }
   return [
     page(RACES_PATH, RACES_HEAD),
     ...data.lists.flatMap((list) => {
@@ -168,11 +222,20 @@ export function racePages(data: RaceData): PrerenderPage[] {
       return [
         page(
           `${RACES_PATH}/${list.areaPath}`,
-          raceAreaHead(list, withProfiles),
+          raceAreaHead(
+            list,
+            withProfiles,
+            list.races.some((race) => resultOf(list, race)),
+          ),
         ),
-        ...list.races.map((race) =>
-          page(racePath(race), raceHead(race, withProfiles)),
-        ),
+        ...list.races.map((race) => {
+          const result = resultOf(list, race)
+          return page(
+            racePath(race),
+            raceHead(race, withProfiles, result),
+            result?.changedAt,
+          )
+        }),
       ]
     }),
   ]
@@ -181,6 +244,11 @@ export function racePages(data: RaceData): PrerenderPage[] {
 /** The race lists the pages are built from. */
 export async function raceData(): Promise<RaceData> {
   return loadRaces()
+}
+
+/** The results the pages are built from. */
+export async function resultsData(): Promise<ResultsData> {
+  return loadResults()
 }
 
 /** The HTML inside #root for a page. */
@@ -194,6 +262,8 @@ export async function renderPage(page: PrerenderPage): Promise<string> {
   const queryClient = new QueryClient()
   // Race pages and profiles show races from the list.
   queryClient.setQueryData(RACES_QUERY_KEY, await loadRaces())
+  // Every page renders the results themselves, never a placeholder.
+  queryClient.setQueryData(RESULTS_QUERY_KEY, await loadResults())
   if (page.data?.profile) {
     queryClient.setQueryData(
       ['profile', page.data.profile.key],
