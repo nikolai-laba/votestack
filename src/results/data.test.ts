@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest'
-import { readdirSync, readFileSync, statSync } from 'node:fs'
+import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs'
 import { join } from 'node:path'
+import type { CandidateProfile } from '../shared/profile.ts'
 import { parseResultsFile } from '../shared/raceResults.ts'
 import { regionForElection } from '../shared/regions.ts'
 import type { RaceList } from '../shared/races.ts'
@@ -20,6 +21,30 @@ const read = (path: string): unknown => JSON.parse(readFileSync(path, 'utf8'))
 const resultPaths = jsonFiles('content/results')
 const resultFiles = resultPaths.map((p) => parseResultsFile(read(p)))
 const raceLists = jsonFiles('content/contests').map((p) => read(p) as RaceList)
+
+/**
+ * Every published profile: content/profiles/published/{area/}{date}.json
+ * lists the keys, and each profile is content/profiles/{area/}{date}/{key}.json
+ * (a key without its file gets no page, so it has nothing to check).
+ */
+const publishedProfiles = jsonFiles('content/profiles/published').flatMap(
+  (path) => {
+    const list = read(path) as { profiles: Record<string, string> }
+    const dir = path
+      .replace(join('profiles', 'published'), 'profiles')
+      .slice(0, -'.json'.length)
+    return Object.keys(list.profiles)
+      .map((key) => join(dir, `${key}.json`))
+      .filter((file) => existsSync(file))
+      .map(
+        (file) =>
+          read(file) as Pick<
+            CandidateProfile,
+            'key' | 'electionId' | 'name' | 'kind' | 'contestIds'
+          >,
+      )
+  },
+)
 
 describe('committed results files', () => {
   it('has at least one file, and every file parses', () => {
@@ -73,6 +98,39 @@ describe('committed results files', () => {
         )
         checked++
       }
+    expect(checked).toBeGreaterThan(0)
+  })
+
+  // A profile finds its outcome by its own name among its race's choices: a
+  // name that differs would show the race but say nothing about the person.
+  it('names every published profile among its race’s result choices', () => {
+    let checked = 0
+    for (const profile of publishedProfiles) {
+      const file = resultFiles.find((f) => f.electionId === profile.electionId)
+      if (!file) continue
+      const races = raceLists
+        .filter((l) => l.electionId === profile.electionId)
+        .flatMap((l) => l.races)
+        .filter((r) =>
+          r.contestIds.some((id) => profile.contestIds.includes(id)),
+        )
+      expect(races.length, profile.key).toBeGreaterThan(0)
+      for (const race of races) {
+        const result = file.results.find((r) =>
+          r.contestIds.some((id) => race.contestIds.includes(id)),
+        )
+        expect(result, `${profile.key} ${race.path}`).toBeDefined()
+        if (!result || result.status === 'no_count') continue
+        if (result.kind === 'retention')
+          expect(race.judge, `${profile.key} ${race.path}`).toBe(profile.name)
+        else
+          expect(
+            result.choices.map((c) => c.name),
+            `${profile.key} ${race.path}`,
+          ).toContain(profile.name)
+        checked++
+      }
+    }
     expect(checked).toBeGreaterThan(0)
   })
 
