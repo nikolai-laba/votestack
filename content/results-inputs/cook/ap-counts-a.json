@@ -1,21 +1,21 @@
 {
   "version": 1,
   "reader": "a",
-  "checkedAt": "2026-11-04T21:47:54.784Z",
+  "checkedAt": "2026-11-05T00:47:12.150Z",
   "counts": [
     {
       "contestIds": ["chicago-boe:attorney-general", "cook-clerk:130040"],
       "url": "https://apnews.com/projects/elections-2026/illinois-attorney-general-results/",
-      "asOf": "2026-11-04T15:43:00-06:00",
+      "asOf": "2026-11-04T18:21:00-06:00",
       "counted": 0.91,
       "choices": [
         {
           "name": "Robert W. Fioretti",
-          "votes": 1507695
+          "votes": 1515342
         },
         {
           "name": "Kwame Raoul",
-          "votes": 2392262
+          "votes": 2394132
         }
       ]
     },
@@ -25,36 +25,36 @@
         "cook-clerk:130030"
       ],
       "url": "https://apnews.com/projects/elections-2026/illinois-governor-results/",
-      "asOf": "2026-11-04T15:43:00-06:00",
+      "asOf": "2026-11-04T18:21:00-06:00",
       "counted": 0.91,
       "choices": [
         {
           "name": "Darren Bailey & Aaron B. Del Mar",
-          "votes": 1445559
+          "votes": 1453571
         },
         {
           "name": "JB Pritzker & Christian Mitchell",
-          "votes": 2345862
+          "votes": 2347428
         },
         {
           "name": "Collin Corbett & Carolyn Schofield",
-          "votes": 131198
+          "votes": 131403
         }
       ]
     },
     {
       "contestIds": ["chicago-boe:secretary-of-state", "cook-clerk:130050"],
       "url": "https://apnews.com/projects/elections-2026/illinois-secretary-of-state-results/",
-      "asOf": "2026-11-04T15:43:00-06:00",
+      "asOf": "2026-11-04T18:21:00-06:00",
       "counted": 0.91,
       "choices": [
         {
           "name": "Diane M. Harris",
-          "votes": 1382825
+          "votes": 1390238
         },
         {
           "name": "Alexi Giannoulias",
-          "votes": 2514870
+          "votes": 2517070
         }
       ]
     },
@@ -64,7 +64,7 @@
         "cook-clerk:140100"
       ],
       "url": "https://apnews.com/projects/elections-2026/illinois-us-house-results/",
-      "asOf": "2026-11-04T14:32:00-06:00",
+      "asOf": "2026-11-04T16:46:00-06:00",
       "counted": 0.82,
       "choices": [
         {
@@ -83,7 +83,7 @@
         "cook-clerk:140200"
       ],
       "url": "https://apnews.com/projects/elections-2026/illinois-us-house-results/",
-      "asOf": "2026-11-04T14:32:00-06:00",
+      "asOf": "2026-11-04T16:55:00-06:00",
       "counted": 0.85,
       "choices": [
         {
@@ -102,7 +102,7 @@
         "cook-clerk:140300"
       ],
       "url": "https://apnews.com/projects/elections-2026/illinois-us-house-results/",
-      "asOf": "2026-11-04T14:32:00-06:00",
+      "asOf": "2026-11-04T16:46:00-06:00",
       "counted": 0.81,
       "choices": [
         {
@@ -121,7 +121,7 @@
         "cook-clerk:140400"
       ],
       "url": "https://apnews.com/projects/elections-2026/illinois-us-house-results/",
-      "asOf": "2026-11-04T14:32:00-06:00",
+      "asOf": "2026-11-04T16:46:00-06:00",
       "counted": 0.82,
       "choices": [
         {
@@ -148,7 +148,7 @@
         "cook-clerk:140500"
       ],
       "url": "https://apnews.com/projects/elections-2026/illinois-us-house-results/",
-      "asOf": "2026-11-04T14:32:00-06:00",
+      "asOf": "2026-11-04T16:46:00-06:00",
       "counted": 0.92,
       "choices": [
         {
@@ -167,7 +167,7 @@
         "cook-clerk:140600"
       ],
       "url": "https://apnews.com/projects/elections-2026/illinois-us-house-results/",
-      "asOf": "2026-11-04T14:32:00-06:00",
+      "asOf": "2026-11-04T16:46:00-06:00",
       "counted": 0.92,
       "choices": [
         {
@@ -186,7 +186,7 @@
         "cook-clerk:140800"
       ],
       "url": "https://apnews.com/projects/elections-2026/illinois-us-house-results/",
-      "asOf": "2026-11-04T14:32:00-06:00",
+      "asOf": "2026-11-04T16:46:00-06:00",
       "counted": 0.76,
       "choices": [
         {
@@ -205,7 +205,7 @@
         "cook-clerk:140900"
       ],
       "url": "https://apnews.com/projects/elections-2026/illinois-us-house-results/",
-      "asOf": "2026-11-04T14:32:00-06:00",
+      "asOf": "2026-11-04T16:46:00-06:00",
       "counted": 0.94,
       "choices": [
         {
@@ -221,27 +221,27 @@
     {
       "contestIds": ["chicago-boe:united-states-senator", "cook-clerk:120100"],
       "url": "https://apnews.com/projects/elections-2026/illinois-us-senate-results/",
-      "asOf": "2026-11-04T15:43:00-06:00",
+      "asOf": "2026-11-04T18:21:00-06:00",
       "counted": 0.93,
       "choices": [
         {
           "name": "Don Tracy",
-          "votes": 1494000
+          "votes": 1501458
         },
         {
           "name": "Juliana Stratton",
-          "votes": 2429072
+          "votes": 2431012
         },
         {
           "name": "Whitfield Harrington Jr",
-          "votes": 62808
+          "votes": 62967
         }
       ]
     },
     {
       "contestIds": ["cook-clerk:141000"],
       "url": "https://apnews.com/projects/elections-2026/illinois-us-house-results/",
-      "asOf": "2026-11-04T14:32:00-06:00",
+      "asOf": "2026-11-04T16:40:00-06:00",
       "counted": 0.96,
       "choices": [
         {
@@ -257,7 +257,7 @@
     {
       "contestIds": ["cook-clerk:141100"],
       "url": "https://apnews.com/projects/elections-2026/illinois-us-house-results/",
-      "asOf": "2026-11-04T15:40:00-06:00",
+      "asOf": "2026-11-04T16:44:00-06:00",
       "counted": 0.83,
       "choices": [
         {
