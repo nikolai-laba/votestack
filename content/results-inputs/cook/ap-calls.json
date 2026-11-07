@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-04T20:10:44-06:00",
+  "checkedAt": "2026-11-06T19:50:00-06:00",
   "calls": [
     {
       "contestIds": ["chicago-boe:attorney-general", "cook-clerk:130040"],
@@ -24,13 +24,6 @@
       "winners": ["Alexi Giannoulias"],
       "at": "2026-11-03T22:52:00-06:00",
       "url": "https://apnews.com/projects/elections-2026/illinois-secretary-of-state-results/",
-      "status": "called"
-    },
-    {
-      "contestIds": ["chicago-boe:united-states-senator", "cook-clerk:120100"],
-      "winners": ["Juliana Stratton"],
-      "at": "2026-11-03T19:00:00-06:00",
-      "url": "https://apnews.com/projects/elections-2026/illinois-us-senate-results/",
       "status": "called"
     },
     {
@@ -121,6 +114,13 @@
       "winners": ["Daniel Biss"],
       "at": "2026-11-03T19:50:00-06:00",
       "url": "https://apnews.com/projects/elections-2026/illinois-us-house-results/",
+      "status": "called"
+    },
+    {
+      "contestIds": ["chicago-boe:united-states-senator", "cook-clerk:120100"],
+      "winners": ["Juliana Stratton"],
+      "at": "2026-11-03T19:00:00-06:00",
+      "url": "https://apnews.com/projects/elections-2026/illinois-us-senate-results/",
       "status": "called"
     },
     {
